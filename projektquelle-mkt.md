@@ -51,13 +51,24 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   bleiben, aber gerne auch größere"); das Verhältnis zu angestellten
   Direktoren größerer Häuser wird in FUND2 mit-evaluiert, die
   Konzern-/Ketten-Abgrenzung hier geschärft. Fertig: vom User
-  verabschiedet.
+  verabschiedet. **Stand R1 (09.08.2026): Entwurf liegt vor**
+  (`fund/positionierungspapier.md`, Commits `672cbcc`/`caaa6c9`,
+  voll-reviewt inkl. Verfahrens-Positivkontrolle) — Verabschiedung
+  offen mit drei markierten Entscheidungspunkten: Arbeitsdefinition
+  „größere Häuser" (§ 3.2) · Konzern-Abgrenzungskriterium (§ 3.3) ·
+  Portfolio-These (§ 6).
 - **FUND2** Persona-Validierung: Sind die Entscheider 58-jährige
   Inhaber, jüngere Nachfolger (2./3. Generation) oder angestellte
   Direktoren (größere Häuser; dritte Kategorie = Zusatz der Session,
   nicht Teil der User-Frage)? Methode: Pilot-Umfeld + Verbandsdaten +
   Apaleo-Ökosystem. Fertig: dokumentierter Befund mit Quellen —
-  **determiniert den AKQ-Kanalmix.**
+  **determiniert den AKQ-Kanalmix.** **Stand R1 (09.08.2026):
+  Ausführbarer Methodenplan liegt vor**
+  (`fund/persona-validierungsplan.md`; Erhebung bewusst nicht
+  durchgeführt) — enthält Befangenheits-Vorbehalt Kayhan (Berater +
+  Cousin, L-04) und zwei Gegenprobe-Achsen (Anlass statt Person;
+  Problem-Fit größerer Häuser). Vier Vorlage-Punkte an die Leitsession
+  in Plan § 7 (u. a. Rechtsmatrix-Abhängigkeit bei Kaltkontakten).
 - **FUND3** Wettbewerbsbild aktualisieren (Straiv + Segment größerer
   Häuser). Fertig: 2-Tage-Werkstück, keine Forschungsarbeit.
 - **FUND4** Kern-Wording, Sprachentscheid (DE-only vs. DE/EN),
@@ -98,6 +109,12 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   namensneutral gehalten). Fertig: einsatzfähiges Video.
 - **BELEG4** Case Study nach Livegang (Vorher/Nachher + O-Töne + Fotos
   mit Freigaben). Fertig: freigegebene Case Study.
+- **⚠️ Offenlegungs-Vermerk für BELEG2/BELEG4 (R1-Befund, 09.08.2026):**
+  Kayhan wird externer Berater von heyPensio auf Rechnung und ist
+  Cousin von Qays (Extraktion A/A7) — Referenzvereinbarungen und
+  O-Töne des Piloten stammen damit von einer interessierten Quelle.
+  Vor Außenverwendung der Case Study Offenlegungs-/
+  Glaubwürdigkeitsfrage klären (analog WTSH-Verflechtungslogik; L-04).
 
 ### MKT-HANDEL — Pricing & Vertriebswerkzeuge
 - **HANDEL1** Preismodell + Angebotsarchitektur (Setup vs. laufend,
@@ -134,6 +151,12 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   App-Store/Partnerstatus, DEHOGA/Verbände, Internorga Hamburg März als
   Rückwärts-Anker, Fach-/Regionalpresse (AHGZ, Tophotel, Regionalblätter),
   LinkedIn, Newsletter-Aufbau). Fertig: priorisierter Mix mit Begründung.
+  **R1-Vermerk (09.08.2026):** Die Problem-Fit-Gegenthese größerer
+  Häuser (bemannte Rezeption → strukturell schwächerer Kern-Schmerz;
+  Planprüfung Bericht 1, Prämisse 3) ist jetzt in FUND2 als
+  Erhebungsfrage operationalisiert — sie berührt auch die
+  AKQ2-Zielkundenkriterien: ein Befund „erreichbar, aber Problem-Fit
+  schwach" wiegt dort schwerer als Erreichbarkeit.
 - **AKQ2** Zielkundenliste (nach HANDEL3-Rechtsmatrix; personenbezogene
   Daten nur in `sensibel/`/CRM). Fertig: Liste + Erstansprache-Plan.
 - **AKQ3** Maßnahmen-/Kampagnenplan + Umsetzung laufender Maßnahmen
@@ -275,15 +298,44 @@ CLAUDE.md-Kopf). Planfassung nach dreifacher Prüfrunde (Prämissen-Kritik ·
 CMO-Praxis · Completeness-Critic; Rohberichte in
 `protokolle/R00-planpruefung-2026-08-09.md`) und User-Entscheiden E1–E7.
 Schwester-Repo `zentrale` angelegt (Rollen-Charta, Namensentscheid-Träger,
-Postkorb). Noch keine Arbeits-Runde gelaufen.
+Postkorb).
+
+**R1 gelaufen (09.08.2026, Shanks + R01-A/Ben Beckman):** FUND1-Entwurf
++ FUND2-Methodenplan in `fund/` (Voll-Review mit
+Verfahrens-Positivkontrolle, 9 Prüfbefunde eingearbeitet;
+`protokolle/R01-A-*.md`) · Referenz-Register `referenzen-zusagen.md`
+angelegt (masunt-Listungszusage Schacht 07.08. im Originalwortlaut;
+Partner-Listung, KEINE Kundenreferenz; Logo-Datei-Beleg offen) · beide
+Repos (marketing + zentrale) an private GitHub-Remotes gehängt ·
+Debrief mit Rückfluss ins projektgerüst (L-01–L-06, Stempel `897292e`).
+
+**⚠️ Merkzeile Extraktionsberichte (R1):** Die Berichte
+`protokolle/R00-extraktion-*.md` sind VERBATIM-Bestand und werden
+nicht nachgepflegt; sie sind gegen ihren Rohbestand UNGEPRÜFT — ein
+Drift-Fall ist belegt (A/A2 „versendet 04.08." ist falsch; korrekt
+03.08.2026 20:57 MESZ, Rohquelle
+`heypensio\firzlaff\apaleo-config\call-apaleo-2026-08-03.md`).
+Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
+(L-01); wer A2-Daten zitiert, prüft dieses Datum.
 
 ## 7. NÄCHSTER KONKRETER SCHRITT
 
-1. **⚠️ Terminkritisch (Träger: `zentrale\eingang\`):** GbR-Namensführung
-   (eGbR/MoPeG) in den StB-Termin, VOR Gewerbeanmeldung ~Mitte August.
-2. R1 schneiden: FUND-Kickoff (FUND1/FUND2) · MARKE1-Vorbereitung ·
-   BELEG1-Messplan (Verfallsdatum: PMS-Livegang Ende September).
-3. Kleinposten: Domain-Inventur mit dem User (Cloudflare/Registrar).
+1. **⚠️ Terminkritisch (Zentrale, User-Handgriff Mo 10.08.):**
+   StB-Anruf — GbR-Namensführung (eGbR/MoPeG) VOR Gewerbeanmeldung
+   ~Mitte August; Träger jetzt
+   `zentrale\stb-termin-fragenliste-2026-08.md` (Postkorb-Meldung dort
+   eingearbeitet). MKT-MARKE wartet darauf, FUND/BELEG nicht.
+2. **FUND1-Verabschiedung durch den User** — drei Entscheidungspunkte
+   (§§ 3.2/3.3/6 des Entwurfs), Vorlage über die Leitsession.
+3. **R2-Kandidaten:** (a) BELEG1-Messplan (Verfallsdatum: PMS-Livegang
+   Ende September, nicht nachholbar); (b) FUND2-Ausführung (Vorlage-
+   Punkte in Plan § 7: Rechtsmatrix bei Kaltkontakten, Apaleo-Timing,
+   Kayhan-Gespräch = User-Handgriff); (c) MARKE1-Vorbereitung (wartet
+   nicht auf StB, nur MARKE2 tut das).
+4. Kleinposten: Domain-Inventur mit dem User (Cloudflare/Registrar) ·
+   masunt-Logo-Anhang archivieren (User-Handgriff, Mail Schacht 07.08.
+   16:34) · Byte-Vergleich Fassung-6-Kanon (bei Anlage der
+   Kanon-Versionsführung).
 
 ---
 
@@ -291,3 +343,8 @@ Postkorb). Noch keine Arbeits-Runde gelaufen.
 
 - 09.08.2026: Projektquelle angelegt (Projekt-Aufsetzung, `/projekt-init`;
   Plan nach dreifacher Prüfrunde + User-Entscheide E1–E7).
+- 09.08.2026 (R1-Debrief): FUND1-Entwurf + FUND2-Plan-Stände in § 2 ·
+  Offenlegungs-Vermerk Kayhan bei BELEG · Problem-Fit-Vermerk bei AKQ1 ·
+  Merkzeile Extraktionsberichte/A2-Datumsdrift in § 6 · § 7 neu
+  geschnitten (FUND1-Verabschiedung, R2-Kandidaten) · Register
+  `referenzen-zusagen.md` + `lehren-register.md` L-01–L-06 angelegt.

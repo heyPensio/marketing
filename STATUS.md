@@ -25,12 +25,17 @@
 ---
 
 ## Letzte Aktualisierung
-**09.08.2026 (Sitzung 1, Projekt-Aufsetzung)** — Gerüst per `/projekt-init`
-erzeugt; Projektplan (7 Stränge + erste Arbeitspakete) steht in der
-Projektquelle. Der Plan wurde vor der Freigabe von drei unabhängigen
-Prüfern evaluiert (Prämissen-Kritik, CMO-Praxis, Completeness) —
-Rohberichte in `protokolle/R00-planpruefung-2026-08-09.md`; die
-User-Entscheide dazu stehen in der Projektquelle § 4.
+**09.08.2026 (R1, Shanks + R01-A/Ben Beckman)** — Erste Arbeitsrunde
+gelaufen und debrieft: **FUND1-Positionierungspapier als ENTWURF** +
+**FUND2-Validierungsplan** in `fund/` (Voll-Review mit
+Verfahrens-Positivkontrolle, 9 Prüfbefunde eingearbeitet) ·
+**masunt-Listungszusage** im neuen Register `referenzen-zusagen.md`
+erfasst (Partner-Listung, KEINE Kundenreferenz) · beide Repos
+(marketing + zentrale) an private GitHub-Remotes gehängt · Lehren
+L-01–L-06 ins Register + projektgerüst (Stempel `897292e`).
+*(Davor: Sitzung 1 Projekt-Aufsetzung — Plan nach dreifacher
+Prüfrunde, `protokolle/R00-planpruefung-2026-08-09.md`, Entscheide
+Projektquelle § 4.)*
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE
@@ -42,25 +47,27 @@ User-Entscheide dazu stehen in der Projektquelle § 4.
   2026 (angedacht) · erster zahlender Kunde bis Mitte November 2026.
 - Schwester-Repo `zentrale` (Firmen-Ebene) im selben Zug angelegt —
   trägt Namensentscheid-Vorprüfung und Rollen-Charta.
-- Noch keine Arbeits-Runde gelaufen.
+- **R1 (09.08.):** FUND1-Entwurf wartet auf User-Verabschiedung (drei
+  Entscheidungspunkte §§ 3.2/3.3/6); FUND2-Plan ausführbar;
+  ⚠️ Merkzeile: Extraktionsberichte sind gegen Rohbestand ungeprüft,
+  belegter Drift-Fall A/A2-Versanddatum (Details Projektquelle § 6).
 
 ## Nächster konkreter Schritt
-1. **⚠️ TERMINKRITISCH (Zentrale, nicht MKT — aber MKT-MARKE hängt daran):**
-   GbR-Namensführungsfrage (eGbR/MoPeG) in den laufenden
-   Steuerberater-Termin ziehen, VOR der Gewerbeanmeldung ~Mitte August.
-   Postkorb-Meldung liegt bereits in `zentrale\eingang\`.
-2. **R1-Kandidaten:** (a) MKT-FUND-Kickoff — USP/Portfolio-Erweiterung
-   auf größere Häuser + Persona-Validierung (bestimmt den Kanalmix);
-   (b) MKT-MARKE — Naming-Sprint vorbereiten (Kriterienkatalog,
-   Markenrecherche-Verfahren; ⚠️ es existiert für KEINEN Namen eine
-   Recherche; ⚠️ Everlast-§11-Warnung: Marken-Assets vor/außerhalb
-   der Everlast-Zusammenarbeit ab 18.09. — `zentrale\namensentscheid.md`);
-   (c) MKT-BELEG — Baseline-Messplan für die Pilotobjekte VOR dem
-   PMS-Livegang (Ende September, nicht nachholbar).
-   **Pflicht-Input für alle R1-Stränge: die drei Extraktionsberichte
-   `protokolle\R00-extraktion-*.md`** (Positionierung/Fassung 6,
-   Wettbewerb, Pricing-Benchmarks, Portfolio-Module, Kanäle,
-   Case-Study-Rohstoff, Website-Ist inkl. Referenz-Zusagen-Pflicht).
+1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
+   GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger
+   `zentrale\stb-termin-fragenliste-2026-08.md`. MKT-MARKE wartet
+   darauf, FUND/BELEG nicht.
+2. **FUND1-Verabschiedung durch den User** (Entwurf
+   `fund/positionierungspapier.md`; drei Entscheidungspunkte:
+   Arbeitsdefinition „größere Häuser" § 3.2 · Konzern-Abgrenzung § 3.3 ·
+   Portfolio-These § 6).
+3. **R2-Kandidaten:** (a) BELEG1-Baseline-Messplan (Verfallsdatum:
+   PMS-Livegang Ende September, nicht nachholbar); (b) FUND2-Ausführung
+   (`fund/persona-validierungsplan.md` § 7: Rechtsmatrix-Frage,
+   Apaleo-Timing, Kayhan-Gespräch = User-Handgriff); (c) MKT-MARKE —
+   Naming-Sprint vorbereiten (⚠️ für KEINEN Namen existiert eine
+   Recherche; ⚠️ Everlast-§11: Marken-Assets vor/außerhalb der
+   Zusammenarbeit ab 18.09. — `zentrale\namensentscheid.md`).
 5. **Blueprint-Arbeitsauftrag (aus Extraktion C):** zwei neue Bausteine
    `aussenkorrespondenz` + `freigabe-vorlagen` aus den firzlaff-Skills
    `anbieter-anfrage`/`freigabevorlage-kayhan` entkundenspezifiziert

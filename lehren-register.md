@@ -18,4 +18,85 @@
 
 ---
 
-*(noch keine Einträge)*
+## L-01 — Als wörtlich gesetzte Zitate tragen ihren Anker an der ROHQUELLE (MKT R1, 09.08.2026)
+
+**Fall:** FUND1-Entwurf zitierte die User-Rüge zur Fassung 5→6 als
+„heyPensio zu flach dargestellt" — mit Anführungszeichen, aber mit den
+Extraktionsberichten als einziger Referenz; die tragen nur „viel zu
+flach" (A/A2) bzw. „zu flach" (B/F4.1). Für den unabhängigen Prüfer war
+das ein Pseudo-Zitat (Befund 2), obwohl die Formulierung in der
+Rohquelle tatsächlich stand — ohne präzisen Rohquellen-Anker ist das
+nicht unterscheidbar. Gefahr: Das Pseudo-Zitat wird als Kanon
+weiterzitiert. Kosten: 1 Prüfbefund + Nacharbeit.
+Quelle: `protokolle/R01-A-pruefer.md` Befund 2,
+`protokolle/R01-A-abschluss.md` Fallen (i).
+
+## L-02 — Eigene Verifikations-Aussagen tragen Belegstufen-Pflicht (MKT R1, 09.08.2026)
+
+**Fall:** R01-A schrieb „byte-gleich gegengelesen" über den
+Fassung-6-Kanon — eine Lese-Gegenprobe belegt aber nur Wortlaut-, nie
+Byte-Ebene (Apostroph-Falle, heyPensio C/B3). Die Verifikations-AUSSAGE
+war damit selbst eine überschießende Behauptung derselben Klasse, die
+sie ausschließen sollte. Korrektur: „auf Wortlaut-Ebene gegengelesen;
+Skript-Byte-Vergleich steht aus" (Papier § 2/§ 7.8).
+Quelle: `protokolle/R01-A-abschluss.md` Fallen (i).
+
+## L-03 — Eine Liste mit Quellenangabe erhebt stillen Vollständigkeits-Anspruch (MKT R1, 09.08.2026)
+
+**Fall:** FUND1 § 6 nannte „Quelle A/A11" und ließ vier A11-Positionen
+weg (Gastprofil-Merge, Rezeptions-Tablet, Pre-Stay, Lost&Found) — wer
+die Quellenangabe liest, versteht die Liste als Abbildung und die
+Lücken als Nichtexistenz. Pikant: Gerade zwei der fehlenden Module
+stützten die eigene Portfolio-These. Regel: vollständig abbilden ODER
+das Auswahlkriterium nennen (Prüfer-Befund 3; eingearbeitet inkl.
+Vollständigkeits-Vermerk zum offenen „u. a." der Quelle).
+Quelle: `protokolle/R01-A-pruefer.md` Befund 3 + Kategorie 2.
+
+## L-04 — Befangenheits-Symmetrie: „Welchen Vermerk trüge diese Quelle, wäre sie ein Fremder?" (MKT R1, 09.08.2026)
+
+**Fall:** Der FUND2-Plan kennzeichnete Apaleo- und
+Store-Anbieter-Auskünfte sauber als interessierte Selbstauskünfte —
+beim eigenen Kronzeugen (Pilot-Betreiber: künftig bezahlter Berater
+UND Cousin, A/A7) fehlte jeder Vermerk. Der Befangenheits-Maßstab wird
+systematisch nur nach außen angelegt. Betrifft auch MKT-BELEG
+(Case-Study-O-Töne desselben Zeugen → Offenlegungsfrage).
+Quelle: `protokolle/R01-A-pruefer.md` Befund 4.
+
+## L-05 — Klassifikator-Blockaden: Ketten zerlegen; Negativ ist zeitpunkt-/kontextgebunden (MKT R1, 09.08.2026)
+
+**Fall 1 (Leitsession):** Bei der Remote-Anlage wurden
+Credential-Script, `git remote add` und `git push` blockiert — später
+in DERSELBEN Session lief `git push` normal durch. Ein
+Blockade-Negativ misst den Moment/Kontext, keinen Dauerzustand.
+**Fall 2 (R01-A):** Eine VERKETTETE Befehlszeile wurde blockiert,
+deren Einzelbefehle (pull/log) erlaubt waren — vor dem Melden einmal
+zerlegen. Quelle: Session-Verlauf Leitsession R1;
+`protokolle/R01-A-abschluss.md` Nebenbefund 5.
+
+## L-06 — Verfahrens-Positivkontrolle: User VOR dem Einbau im Chat vorwarnen (MKT R1, 09.08.2026)
+
+**Fall:** Der User sah die beauftragte, bewusst verfälschte
+Terminal-Kernaussage mid-turn im Arbeitsbaum und hielt sie für einen
+echten Fehler. Vorwarnung gehört in den CHAT (nie in die Datei — das
+würde den Prüfer kontaminieren). Träger: tagesstart-Command,
+Abschnitt Verfahrens-Positivkontrolle (nachgezogen 09.08.2026).
+Quelle: `protokolle/R01-A-abschluss.md` Fallen (i) + Verifikationen.
+
+## Zweitbelege R1 zu Blueprint-Regeln (09.08.2026, Sammelvermerk)
+
+- **Rohquelle holen bei Berichts-Widerspruch (Regel g):** löste die
+  03./04.08.-Datumsdrift VOR dem Zitieren (A/A2 widerlegt durch
+  Rohquelle + B/F4.1).
+- **Vorbehalt-zuerst-Verdichten (⭐):** messbar wirksam — Prüfer fand
+  außer der absichtlichen Verfälschung keinen mittleren/kritischen
+  Vorbehalts-Verlust („Kategorie 3 auffällig sauber").
+- **Kategorienkatalog mit Pflicht-Ergebnis:** erzeugte belastbare
+  „keine Auffälligkeit"-Aussagen (Kategorie 4 Zahlen/Zählweg).
+- **Gmail-5-Nachrichten-Falle + Volldump-Arbeitsmodus (Baustein
+  gmail-mcp):** erneut bestätigt (masunt-Thread: Liste zeigte 5 von 17
+  Nachrichten; Volldump + Skript-Extraktion trug).
+- **Verfahrens-Positivkontrolle (tagesstart):** vom Prüfer über genau
+  die beauftragte Mechanik gefunden (drei Widerspruchs-Ebenen);
+  Blindstellen-Sektion dadurch kalibriert.
+Quellen: `protokolle/R01-A-abschluss.md` (ii), `R01-A-pruefer.md`,
+Session-Verlauf Leitsession.

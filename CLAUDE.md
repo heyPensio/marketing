@@ -3,7 +3,8 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09. Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
+> am 2026-08-09; Stand `897292e` nach Rückfluss-Nachzug MKT R1
+> (09.08.2026). Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
 
@@ -262,7 +263,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   wer eine Bedingung abhakt, rechnet die Folge nach. Beleg-Typen beim
   Verdichten aus der Quelle übernehmen, nie neu vergeben. Ein
   Verifikationsgrad gehört ins Dokument und immer mit Nenner („12/12" ohne
-  Grundgesamtheit wird später als Vollprüfung gelesen).
+  Grundgesamtheit wird später als Vollprüfung gelesen). **Auch eigene
+  Verifikations-AUSSAGEN tragen Belegstufen-Pflicht** — eine
+  Lese-Gegenprobe belegt Wortlaut-, nie Byte-Ebene; „byte-gleich" ohne
+  Skript-Vergleich ist eine überschießende Behauptung (L-02). **Eine
+  Liste mit Quellenangabe erhebt einen stillen
+  Vollständigkeits-Anspruch** — vollständig abbilden oder das
+  Auswahlkriterium nennen (L-03).
 - **⭐ Verdichten verliert den Vorbehalt — systematisch zugunsten der
   eigenen Aussage.** Gilt für JEDES Papier, das etwas empfiehlt, auch
   interne. Beim Verdichten den Vorbehalt zuerst übernehmen, dann den Satz
@@ -317,7 +324,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   verdächtig (veralteter Sollwert), dann das Dokument.
 - **Beweismaßstab beidseitig anlegen;** eine Analogie (n=1 bei einem
   anderen Anbieter) ist kein Beleg — als Analogie kennzeichnen oder
-  weglassen.
+  weglassen. Der Befangenheits-Maßstab rutscht systematisch asymmetrisch
+  (fremde Selbstauskünfte gekennzeichnet, der eigene Kronzeuge nicht) —
+  Prüffrage je eigener Quelle: **„Welchen Vermerk trüge diese Quelle,
+  wäre sie ein Fremder?"** (L-04.)
 - **⭐ Anwesenheit ist nicht Wirksamkeit** — ein Marker-Grep prüft Text,
   kein Verhalten. Trefferzahl ≥ 2 für jede Konstante, die einen Vergleich
   braucht (Deklaration UND Verwendung); eine Verbotsliste, die nur
@@ -349,6 +359,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **Freigaben:** Setzt der Freigebende selbst ein Delta, ist es nicht von
   seiner Freigabe gedeckt. Zusagen im ORIGINALWORTLAUT zitieren (nie
   umformulieren, nie paraphrasieren); Änderungen als sichtbarer Nachtrag.
+  **Jedes als wörtlich gesetzte Zitat trägt seinen Anker an der
+  ROHQUELLE, nicht am Verdichtungsbericht** — sonst ist es für jeden
+  Prüfer ein Pseudo-Zitat (L-01).
   Bei n Deltas jedes gegen jedes prüfen (n·(n−1)/2 Paare). Jeder
   ✅-Vermerk trägt Quelle + Datum + Form; die Erhebungsquelle wird
   archiviert (`sensibel/`). Erteilte/vorgelegte Freigabe-Texte nie
@@ -481,7 +494,12 @@ hierher, nicht ins Repo.
   umgehen, sondern melden; wirksame Antwort ist, den ZUSCHNITT zu ändern
   (Secrets von vornherein serverseitig halten). Vor geplanten
   Interventionen alle Nachmessungen VORHER ziehen (ein blockierter
-  Schreibcall kann den ganzen Kanal schließen).
+  Schreibcall kann den ganzen Kanal schließen). Zwei Messbefunde (L-05):
+  Die Blockade trifft auch KETTEN, deren Einzelbefehle erlaubt sind —
+  vor dem Melden einmal in Einzelbefehle zerlegen; und sie ist
+  kontext-/zeitpunktgebunden (derselbe `git push` lief später in
+  derselben Session) — ein Kanal-Negativ nicht als Dauer-Zustand
+  dokumentieren.
 
 ## Aktivierte Bausteine
 

@@ -60,3 +60,8 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
   jedem Mehr-Pfad-Commit `git status --short` gegenlesen.
 - Skripte, die Scratchpad-Pfade referenzieren, sind im Repo tot — Pfade
   vor dem Versionieren auf Repo-relative umstellen.
+- **Der `!`-Direktkanal des Users läuft über Git Bash, nicht
+  PowerShell:** Backslash-Pfade werden als Escapes geschluckt
+  (`C:\Users\...` wird zu `C:Users...` — „No such file or directory").
+  Kommandos, die man dem User zum Tippen vorgibt, immer mit
+  Forward-Slashes schreiben. (Herkunft: MKT R1.)

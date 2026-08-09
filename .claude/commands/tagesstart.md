@@ -180,7 +180,11 @@ einer, beim User nachfragen statt raten:
      FINDET — sonst ist er nur bestätigungsfähig. Bedingungen: nach
      sauberem Commit+Push in den Arbeitsbaum einbauen (Ein-Schritt-Rückweg
      `git checkout -- <datei>`); NIE in eine Datei mit Live-Wirkung; der
-     Prüfer begründet den Fund INHALTLICH, nicht mit „steht im Diff".
+     Prüfer begründet den Fund INHALTLICH, nicht mit „steht im Diff";
+     **den User VOR dem Einbau kurz im Chat vorwarnen** (nie in der
+     Datei — das würde den Prüfer kontaminieren): Eine Mid-Turn-Sichtung
+     hält die beabsichtigte Verfälschung sonst für einen echten Fehler
+     (Herkunft: MKT R1).
      Zusatzfrage: „Welche Verfälschung hätte dein Verfahren NICHT
      gefangen?" — der Prüfweg benennt seine eigene Blindstelle.
    - **Gegenfrage-Achse MIT benannten Kategorien:** „Welcher Aspekt fehlt

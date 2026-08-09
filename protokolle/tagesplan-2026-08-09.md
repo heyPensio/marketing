@@ -36,6 +36,11 @@ möglich, es wird nichts beantwortet.
       „[new branch] main -> main" in der Session). Vorgeschichte: der
       Sicherheits-Klassifikator blockierte Remote-/Push-Kommandos der
       Session (Betriebszustand, nicht umgangen) — daher User-Handgriffe.
+      **Nebenbefund im selben Zug erledigt:** auch `zentrale` hatte kein
+      Remote → per User-Handgriff auf privates `heyPensio/zentrale`
+      gepusht (09.08., Beleg: Push-Ausgabe in der Session). Kein
+      Postkorb-Posten mehr nötig; die nächste Zentrale-Session sieht das
+      Tracking selbst.
 
 ## Strang-Tabelle R1 (Vorschlag, vor User-Bestätigung)
 

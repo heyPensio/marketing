@@ -72,6 +72,15 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
 
 1. **Stand aufnehmen:** `git status` + `git pull`; dann `STATUS.md` lesen
    (Lesereihenfolge lt. CLAUDE.md; Details gezielt aus der Projektquelle).
+   **Gerüst-Stempel prüfen (Methodik-Aktualität):** Den Stempel-Hash aus
+   dem CLAUDE.md-Kopf gegen den Blueprint halten —
+   `git -C C:\Users\qwafa_2dwxzia\projektgeruest log --oneline <stempel>..HEAD`.
+   Liefert das Zeilen, ist die Methodik dieses Projekts VERALTET: Delta
+   (mit `LEHREN-CHANGELOG.md`-Einträgen) dem User melden und
+   `/projekt-init nachzug` als Tagesposten vorschlagen. Nie
+   stillschweigend weiterlaufen und NIE den Stempel ohne durchgeführten
+   Nachzug anheben — der Stempel ist der Beleg des Nachzugs, kein
+   Beruhigungsdatum.
 2. **Runden-Stand prüfen:**
    - Uncommittete Reste im `git status`? Klären, aus welcher Session sie
      stammen — nie blind committen.

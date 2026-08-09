@@ -33,10 +33,15 @@ soweit bekannt: Prüfer-Agent 169.323 Tokens (9 Tool-Aufrufe, ~6,3 min).**
   Auto-Mode-Klassifikator blockiert `git push` (Bash UND PowerShell,
   je einzeln versucht; `git pull --rebase --autostash` lief). Laut
   CLAUDE.md ist die Blockade Betriebszustand — nicht umgangen.
-  **User-Handgriff: `! git push`** (vorher steht `git log
-  origin/main..HEAD` bei 3 Commits dieser Session, gesichtet: nur
-  eigene). Das Fertig-Kriterium „gepusht" ist damit NICHT erfüllt —
-  alle Commits liegen lokal auf `main`.
+  **User-Handgriff: `! git push`.** Das Fertig-Kriterium „gepusht" ist
+  damit NICHT vollständig erfüllt.
+  **Nachtrag (nach Anlage dieser Meldung, per `git branch -r
+  --contains` belegt):** `672cbcc` ist BEREITS auf `origin/main` — eine
+  Parallel-Session hat zwischenzeitlich gepusht (R17/R30-Fall:
+  gemeinsamer Arbeitsbaum; origin-Spitze `9f7cb43`, fremder
+  Tagesplan-Commit). Unveröffentlicht sind noch `caaa6c9`, `80a41e1`
+  und der Commit dieses Nachtrags — `git log origin/main..HEAD`
+  gesichtet: nur eigene Commits, der User-Push ist gefahrlos.
 - FUND1-Verabschiedung durch den User (= FUND1-Fertigkriterium), mit
   drei markierten Entscheidungspunkten: Arbeitsdefinition „größere
   Häuser" (§ 3.2), Konzern-Abgrenzungskriterium (§ 3.3),

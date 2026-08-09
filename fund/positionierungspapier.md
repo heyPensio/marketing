@@ -368,6 +368,66 @@ in der vorgelegten Fassung (User, 09.08.2026, Durchsprache R1 — E10),
 ausdrücklich UNTER dem FUND2-Problem-Fit-Vorbehalt: EIN Produkt,
 Modul-Ausbau nach Hausgröße, keine getrennten Produktlinien.*
 
+> ## ⭐ NACHTRAG § 6, 09.08.2026 (~17:50) — PORTFOLIO BREIT (E11/E13)
+>
+> Der § 6-Text oben (Stand E10) bleibt unverändert; dieser Kasten
+> erweitert ihn per User-Entscheid. **Form:** geführte Durchsprachen
+> R4 (E11 ~17:10; E13 mit drei Teilfragen ~17:50). **Grundlage:**
+> Bestandserhebung `protokolle/R04-erhebung-beratungsbestand.md`
+> (Leseweg dort vermerkt; die zwei tragenden Kernaussagen unten sind
+> von der Leitsession an der Rohquelle nachgelesen, 09.08.).
+>
+> **E11/E13a — Das Portfolio umfasst zusätzlich die Beratungs-/
+> Agentur-Achse und wird als EIN Angebot vermarktet** (User-Entscheid
+> gegen eine nach außen sichtbare Stufen-Trennung; die
+> Reifegrad-Vermerke unten sind INTERNE Doku-Pflicht, keine
+> Angebotsstruktur):
+> - **Real erbracht (Beleg: R04-Erhebung, Belegstufe A — überwiegend
+>   am Piloten, teils unentgeltlich als Pilotleistung):**
+>   Beschaffungs-/Anbieter-Management · Website-Übernahme/-Betrieb +
+>   Kosten-Transparenz · Raten-/Preis-/Stornostruktur-Einrichtung ·
+>   Compliance-BEGLEITUNG (Grenze bleibt: keine Rechts-/
+>   Steuerberatung) · StB-Koordination · Einweisung/Betriebsübergabe ·
+>   definierter Aufnahme-/Evaluierungsprozess. (Förder-Begleitung
+>   stand bereits in § 4/§ 6; Geltungs-Vorbehalte dort unverändert.)
+> - **Über Kayhan (Reifegrad: vereinbart, Ausgestaltung OFFEN):**
+>   operative Prozesse, Personalführung, Revenue Management —
+>   Rohquelle selbst nachgelesen: `heypensio\firzlaff\
+>   telefonat-kayhan-2026-08-07-ergebnisse.md` E-T7 („Auf Rechnung,
+>   kein Gesellschafter … Ausgestaltung offen (Konditionen, Vertrag,
+>   steuerliche Seite → StB-Termin-Kandidat)"). Expansion zusätzlich
+>   aus dem Gesprächskontext (Transkript `heypensio\sensibel\`),
+>   nicht Teil des E-T7-Wortlauts. ⚠️ Kein Vertrag, keine
+>   Konditionen, kein Leistungskatalog — StB-Posten Mo 10.08.
+> - **Agentur-Leistungen „im Aufbau" (User-Entscheid E13c, gegen die
+>   Session-Empfehlung aufgenommen):** Social Media, SEO/
+>   Google-Profil, Ads, Bewertungsmanagement. ⚠️ Reifegrad: im
+>   Bestand OHNE Substanz und ohne Träger dokumentiert
+>   (Negativbefunde R04-Erhebung § 5); es existiert auch keine
+>   Kayhan-Zusage dazu.
+>
+> **E13b — Kayhan-Zuschnitt PAUSCHAL:** zuständig für alles, was
+> nicht Digitalisierung/KI/Automation ist (User-Zuruf ~17:25 O-Ton im
+> Tagesplan; geht über E-T7 hinaus). Außenauftritt: White-Label lt.
+> `zentrale\rollen-charta.md` „Außendarstellungs-Regel Kayhan"
+> (nachgelesen 09.08.: „tritt IMMER als Teil des Unternehmens auf …
+> intern extern, kein Gesellschafter, keine Freigabe-Instanz").
+> Rollen-Charta-Nachzug an die Zentrale gemeldet (Postkorb
+> `zentrale\eingang\2026-08-09-mkt-kayhan-rollenzuschnitt.md`).
+>
+> **Formulierungs-Leitplanke für alle außenwirksamen Texte aus
+> diesem Portfolio:** Leistungen ohne Träger (Aufbau-Posten oben)
+> erhalten in Kundentexten KEINE Präsens-Zusage — die Entwarnungs-/
+> Zusagen-Regeln (CLAUDE.md, Baustein aussenwirksame-texte) gelten
+> unverändert; der Vermarktungs-Entscheid E13a ändert die
+> Angebotsstruktur, nicht die Belegpflicht je Satz.
+>
+> **Folgen:** FUND3-Beratungsachse (P12/P13) hat jetzt ihren
+> Vergleichsmaßstab (dieser Kasten + R04-Erhebung) ·
+> Wettbewerber-Rückprüfung Brandnamic/Everlast/Smart Host
+> („Wettbewerber UND Kanal") wird mit der Achse fällig · MARKE1: K5/
+> W5 tragen die Beratungsbreite (Nachtrags-Kasten Kriterienkatalog).
+
 ## 7. Offene Punkte (mit Beschaffungsweg)
 
 1. ~~**Verabschiedung durch den User**~~ ✅ ERLEDIGT 09.08.2026 (E10):

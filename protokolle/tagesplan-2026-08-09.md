@@ -334,3 +334,24 @@ evaluieren" *(Fragen dazu: 1. Beratungsleistungen real/Ziel ·
   Vorlage; Rollen-Zuschnitt ist zudem Firmen-Ebene →
   Postkorb-Kandidat (Rollen-Charta/Organigramm, ggf. StB-Frage
   Außenauftritt Externer). Nicht stillschweigend übernehmen.
+  *Nachtrag ~17:45: teilaufgelöst — Charta-White-Label-Regel deckt
+  den Außenauftritt (R04-Erhebung § 6); offen blieb nur die
+  Allzuständigkeits-Formel → E13b.*
+
+**E13 — Portfolio-Nachtrag-Entscheide (User ~17:50, drei Fragen,
+alle drei GEGEN die Session-Empfehlung):**
+- **E13a:** EIN Angebot (keine sichtbare Belegstufen-Trennung im
+  Angebot; Reifegrad-Vermerke bleiben interne Doku-Pflicht).
+- **E13b:** Kayhan-Zuschnitt PAUSCHAL „alles Nicht-Digitale" →
+  Postkorb-Meldung `zentrale\eingang\2026-08-09-mkt-kayhan-
+  rollenzuschnitt.md` (zentrale `401cf05`, gepusht).
+- **E13c:** Agentur-Leistungen (Social/SEO/Ads/Bewertungen) als „im
+  Aufbau" im Portfolio — ⚠️ ohne dokumentierten Träger/Substanz
+  (Reifegrad-Vermerk im Papier).
+- Umsetzung: Nachtrags-Kasten § 6 im Positionierungspapier (E10-Text
+  unverändert; Formulierungs-Leitplanke gegen Präsens-Zusagen ohne
+  Träger). Tragende Kernaussagen (E-T7-Wortlaut, Charta-White-Label)
+  von der Leitsession an der Rohquelle nachgelesen; Rest der
+  R04-Erhebung bleibt Agenten-Leseweg (Vermerk dort).
+- Einarbeitung Projektquelle/STATUS (E13, FUND3-Entsperrung): beim
+  R4-Debrief.

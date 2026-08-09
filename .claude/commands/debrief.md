@@ -72,8 +72,11 @@ Methodik-Blueprint-Repo `projektgerüst`
 - **⭐ Querverdrahtungs-Frage bei jedem NEUEN Werkzeug/Muster/Command
   (Herkunft: MKT-Gegentest 09.08.2026):** Welche BESTEHENDEN Vorlagen
   und Commands müssen das neue Ding KENNEN, damit es wirkt? (grep über
-  `vorlage/` + `projekt-init.md` nach den berührten Begriffen; Funde im
-  selben Zug nachziehen.) Beleg-Fall: `/briefing` existierte samt
+  `vorlage/` + `projekt-init.md` UND über die anderen Firmen-Repos —
+  heypensio, marketing, zentrale — nach den berührten Begriffen;
+  abhängige Konzept-/Onboarding-/Schulungsdokumente leben auch
+  außerhalb des Blueprints. Funde im eigenen Scope nachziehen, fremde
+  als Posten an die zuständige Leitsession/den Postkorb.) Beleg-Fall: `/briefing` existierte samt
   Changelog-Merker — aber `/projekt-init` hätte neue Abteilungen weiter
   ohne Briefing-Register und Zentrale-Verdrahtung aufgesetzt; die neue
   Abteilung wäre für das Tagesbriefing unsichtbar gewesen.

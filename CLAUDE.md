@@ -2,7 +2,7 @@
 
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
-> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `17d4d27`
+> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `5721563`
 > am 2026-08-09. Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
@@ -409,7 +409,15 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Changelog. Nachtrags-Ketten auch rückwärts pflegen. Nach jeder
   Richtungsentscheidung die betroffenen Alt-Dokumente durchgehen —
   ausdrücklich auch gemeinsam genutzte KALKULATIONSZEILEN in fremden
-  Rechnungen, nicht nur thematisch betroffene Dateien. Nach dem
+  Rechnungen, nicht nur thematisch betroffene Dateien. **Und seit es
+  mehrere Firmen-Repos gibt: auch die abhängigen Dokumente in
+  NACHBAR-REPOS** — Arbeitsmodell- und Struktur-Entscheide kippen
+  Onboarding-, Konzept- und Schulungsdokumente repo-übergreifend; der
+  Suchraum des Nachziehens ist die FIRMA, nicht das eigene Repo
+  (Beleg: Oguz-Onboarding-Plan im heypensio-Repo kannte Zentrale,
+  Briefing und Organigramm nicht — vom User gefangen, 09.08.2026).
+  Diese Prüfung ist AUSLÖSER-gebunden (beim Entscheid selbst), nicht
+  ritual-gebunden — sie darf nicht auf den nächsten Debrief warten. Nach dem
   Einarbeiten nach den GEKIPPTEN WERTEN greppen (übers ganze Repo, auch
   über Dokumente, die es beim Melden noch nicht gab), nicht nach dem
   Thema. Vor jedem „das wurde bisher nirgends gesagt" ein grep auf die

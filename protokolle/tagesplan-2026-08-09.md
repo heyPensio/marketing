@@ -175,3 +175,57 @@ Gegenprobe-Nachfang ist durch.
 
 **Kontingent-Stand bei Übergabe:** letzte Ablesung 12:46 (29 % gesamt /
 41 % Fable); aktuellen Stand beim R3-Start neu ablesen.
+
+## Fortschreibung: R3 (14:46, neue Leitsession Shanks)
+
+**Kurzcheck:** Sonntag 14:46 — nur Innen-Stränge (alle R3-Stränge sind
+Repo-/Web-Lesearbeit; Anfragen-Versand bleibt Werktags-Handgriff).
+Debrief-Gate ✅ (R2 geschlossen lt. Übergabe-Block, Arbeitsbaum sauber,
+nichts ungepusht). Gerüst-Stempel `66fbf4f` = Blueprint-HEAD ✅.
+⚠️ **User-Zuruf „was ist außerhalb passiert?" nicht durchgegeben** —
+Annahme „nichts Neues" ist UNBESTÄTIGT (nachholen).
+
+**Kontingent (User-Ablesung ~14:50):** Woche gesamt 39 % · **Fable
+59 %** (12:46→14:50: +18 Punkte) · Reset Fr 14.08. ~07:00 ·
+Session-Fenster **66 %**, Reset 16:40 · Promo +50 % bis 19.08. Harte
+Termine (16.08./20.08./23.08.) liegen alle NACH dem Reset.
+Modellwahl-Konsequenz: 2× Fable + 2× Opus. ⚠️ Session-Deckel kann vor
+16:40 greifen — Sessions pausieren dann und laufen nach Reset weiter.
+
+**Schnitt (User-Entscheid ~14:55: Basis-Schnitt bestätigt + „gerne
+noch ein - 2 weitere Runden aufsetzen" → 4 Stränge parallel):**
+
+| Session | Rolle | Aufgabe | Modell | Exklusiv | Scope |
+|---|---|---|---|---|---|
+| R03-A | Ben Beckman | Erhebungsvorlagen: A5-Tagesblätter + Interviewleitfaden (BM-1–BM-5, E-1–E-5) + Druck-PDF | Fable 5 | keine | `beleg/vorlagen/` (neu) + `protokolle/R03-A-*.md` |
+| R03-B | Yasopp | FUND2: regionalstatistik.de als dritter Kanal Länder-Größenklassen | Opus 5 | Chrome-Automation | `fund/erhebung/regionalstatistik-groessenklassen.md` (neu) + Verweis-Nachtrag `strang2-strukturdaten.md` + `protokolle/R03-B-*.md` |
+| R03-C | Lucky Roux | MARKE1-Vorbereitung: Kriterienkatalog + Markenrecherche-VERFAHREN (keine Namenskandidaten) | Fable 5 | keine | `marke/` (neu) + `protokolle/R03-C-*.md` |
+| R03-D | Rockstar | FUND3: Wettbewerbsbild AKTUALISIEREN (Straiv + Segment größere Häuser) | Opus 5 | keine (Web lesend, KEIN Chrome) | `fund/wettbewerbsbild.md` (neu) + `protokolle/R03-D-*.md` |
+
+**Ist-Stand-Prüfung (Leitsession + Prüf-Subagent über 3 Repos):**
+⭐ **R03-A-Vorbestand gefunden:** `heypensio\blueprint\onboarding\`
+(onboarding-formular.md, evaluierungstermin-agenda.md,
+lueckenanalyse-kundenaufnahme.md — kundenneutral/wiederverwendbar;
+Fragensubstanz überschneidet E-1/E-3/E-4/BM-3) + bereits erhobener
+Firzlaff-Datenpunkt (verifizierungsprotokoll-2026-06-ist.md:
+„Rezeption ist bis 21 Uhr besetzt", 21.06.2026) → als Pflicht-Quellen
+im Prompt verankert; neu sind nur Tagesblatt-Format + PDF-Werkzeug.
+MARKE1 + regionalstatistik: vorbestandsfrei (Positivkontrollen
+getroffen, Protokoll in der Subagent-Meldung der Leitsession). FUND3:
+Vorbestand benannt (Extraktion B/F6.1 + A5, marktrecherche-apaleo-store,
+positionierungspapier-Straiv-Abschnitt) → als AKTUALISIERUNG
+formuliert.
+
+**Review-Regime R3:** R03-A **Voll-Review** (außenwirksam — Betreiber
+handeln auf den Vorlagen; unabhängiger Prüfer + Verfahrens-
+Positivkontrolle, im Prompt verankert) · R03-B Kurzraster, begründet:
+Summenproben-Pflicht ist der harte Anker im Dokument selbst · R03-C
+Kurzraster + Gegenfrage-Prüfer mit benannten Kategorien (im Prompt) ·
+R03-D Kurzraster + getrennte Fundstellen-Nachprüfung (im Prompt);
+positionierungspapier ist NICHT im Scope (verabschiedet, Abweichungen
+nur als Befund).
+
+**PROGNOSE spätere Blöcke:** Blueprint-Arbeitsauftrag (Bausteine
+`aussenkorrespondenz` + `freigabe-vorlagen` aus firzlaff-Skills,
+D1/D3–D7, E1–E3) — braucht Leitsession-Nähe (Skill-/Baustein-Kanal) ·
+Domain-Inventur (nur MIT User am Dashboard) · R03-Reviews + Debrief.

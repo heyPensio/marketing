@@ -2,7 +2,7 @@
 
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
-> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `5721563`
+> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `41ee4a7`
 > am 2026-08-09. Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist

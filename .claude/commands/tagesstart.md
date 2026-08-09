@@ -175,12 +175,24 @@ einer, beim User nachfragen statt raten:
      Lese-git erlaubt; Schreibrecht auf GENAU EINE Datei (sein Protokoll:
      „lies alles, ändere nichts, schreib EIN Protokoll unter
      `protokolle/R<runde>-<session>-pruefer.md`").
+     **Tatsachen-Prämissen im Prüfauftrag sind selbst Prüfgegenstand:**
+     Was dem Prüfer als „heute ist X"/„Stand ist Y" mitgegeben wird,
+     verbaut er als Wahrheit — Prämissen belegen oder ausdrücklich als
+     Annahme kennzeichnen; der Prüfer hält sie im Grenzen-Teil dagegen
+     (Beleg: falsche Kalender-Prämisse flog nur so auf; MKT R2).
    - **Verfahrens-Positivkontrolle im Prüfauftrag:** eine bewusst
      verfälschte Variante einer Kernaussage, die der Prüfweg nachweislich
      FINDET — sonst ist er nur bestätigungsfähig. Bedingungen: nach
      sauberem Commit+Push in den Arbeitsbaum einbauen (Ein-Schritt-Rückweg
-     `git checkout -- <datei>`); NIE in eine Datei mit Live-Wirkung; der
-     Prüfer begründet den Fund INHALTLICH, nicht mit „steht im Diff";
+     `git checkout -- <datei>`; **nach dem Rückbau die Datei vor
+     weiteren Edits NEU lesen** — der Session-Kontext ist nach einem
+     checkout stale, Edit-Anker können danebengreifen; MKT R2); NIE in
+     eine Datei mit Live-Wirkung; der
+     Prüfer begründet den Fund INHALTLICH, nicht mit „steht im Diff" —
+     **und der Prüfauftrag weist ihn EXPLIZIT an, den Arbeitsbaum-Diff
+     nicht zu sichten** (sonst misst die Kontrolle seine Forensik statt
+     seines Inhalts-Verfahrens; ohne Anweisung ist es Zufall, ob er ihn
+     zieht — beide Varianten real vorgekommen, MKT R2);
      **den User VOR dem Einbau kurz im Chat vorwarnen** (nie in der
      Datei — das würde den Prüfer kontaminieren): Eine Mid-Turn-Sichtung
      hält die beabsichtigte Verfälschung sonst für einen echten Fehler

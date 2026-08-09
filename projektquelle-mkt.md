@@ -69,6 +69,23 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Cousin, L-04) und zwei Gegenprobe-Achsen (Anlass statt Person;
   Problem-Fit größerer Häuser). Vier Vorlage-Punkte an die Leitsession
   in Plan § 7 (u. a. Rechtsmatrix-Abhängigkeit bei Kaltkontakten).
+  **Stand R2 (09.08.2026): Strang 2 ERHOBEN**
+  (`fund/erhebung/strang2-strukturdaten.md`, vollgeprüft ~130/~130
+  Zahlen am Original): Kernsegment quantifiziert (53,0 % der 27.808
+  geöffneten Hotellerie-Betriebe unter 20 Zimmern; SH-Konsolidierung
+  −19,3 % Betriebe bei +31,5 % Kapazität 2012–2025); Nachfolge-Trend
+  gestützt, ABER: **neuer Entscheidertyp-Kandidat „externer
+  Übernehmer/Käufer"** (DIHK: nur ⅓ familienintern, ~½ Verkauf —
+  dämpft die H-B-Lesart „jüngere Familiengeneration"; in den
+  Persona-Befund als vierte Hypothese aufnehmen).
+  Größenklassen × SH existiert amtlich nicht (N1) — zwei
+  Anfrage-ENTWÜRFE liegen versandbereit (`fund/erhebung/entwurf-*`,
+  Versand User werktags; IHK-Zuständigkeit vorher klären, P6);
+  Sonderauswertung Statistikamt Nord ZURÜCKGESTELLT bis
+  DEHOGA-/IHK-Antworten da sind (Leitsession-Entscheid R2);
+  regionalstatistik.de als dritter Kanal ungeprüft. Stränge 1
+  (Kayhan-Gespräch, User-Handgriff) und 3 (Apaleo, wartet auf
+  Faden-Stand) offen.
 - **FUND3** Wettbewerbsbild aktualisieren (Straiv + Segment größerer
   Häuser). Fertig: 2-Tage-Werkstück, keine Forschungsarbeit.
 - **FUND4** Kern-Wording, Sprachentscheid (DE-only vs. DE/EN),
@@ -100,7 +117,23 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
 ### MKT-BELEG — Pilot-Dokumentation (zeitkritisch)
 - **BELEG1** Baseline-Messung VOR PMS-Livegang (Ende September, danach
   unwiederbringlich): Check-in-Dauer, Personalaufwand, No-Show-Handling
-  je Pilotobjekt. Fertig: Messwerte dokumentiert.
+  je Pilotobjekt. Fertig: Messwerte dokumentiert. **Stand R2
+  (09.08.2026): Messplan FREIGEGEBEN** (`beleg/baseline-messplan.md`,
+  H-2 + Realitäts-Nachtrag: Zwei-Schienen-Modell Best-Effort-Protokoll
+  + Schätz-Interview, Beleg-Typ Selbstauskunft/L-04;
+  ⚠️ dokumentierter offener Dissens zur AUSSEN-Formulierung
+  „gemessen" — Entscheid fällt bei BELEG4/HANDEL2 am realen
+  Datenbestand, s. Plan-Nachtrag 2). Kette: Erhebungsvorlagen bis
+  20.08. (Folge-Session) → Betreiber-Briefing bis 23.08. (User,
+  koppelbar mit FUND2-Kayhan-Gespräch) → Messfenster 24.08.–20.09.
+  Pilotobjekte (Standorte repo-belegt): Firzlaff's Neumünster ·
+  Rabe's Kiel · Hostel Boninstraße Kiel — alle Schleswig-Holstein.
+  **H-4-Zielort-Vermerk (Produkt-Befund, Übergabe über die
+  heypensio-Leitsession, nicht direkt):** Die Sicherung der
+  HS/3-/DIRS21-/OTA-Althistorie vor dem PMS-Wechsel ist sachlich Teil
+  der Migration (heypensio); hier als Marketing-Bedarf mit Termin
+  07.09. geführt — nach dem User-Entscheid „Schätzwerte" die
+  wichtigste Quelle harter Vorher-Zahlen.
 - **BELEG2** Referenzvereinbarungen aller 3 Pilotobjekte (Namensnennung,
   Fotos, Zahlen, Besichtigungen, Testimonials) — Kostenlos-Betrieb ist
   Verhandlungskapital, das mit dem Livegang verfällt. Vertragsseite:
@@ -309,6 +342,18 @@ CMO-Praxis · Completeness-Critic; Rohberichte in
 Schwester-Repo `zentrale` angelegt (Rollen-Charta, Namensentscheid-Träger,
 Postkorb).
 
+**R2 gelaufen (09.08.2026, Shanks + R02-A/Yasopp + R02-B/Lucky Roux):**
+BELEG1-Messplan gebaut, geprüft und FREIGEGEBEN (H-2; User-Vorgabe
+Schätzwerte → Zwei-Schienen-Modell; offener Dissens Außen-Formulierung
+dokumentiert, Entscheid bei BELEG4) · FUND2-Strang-2-Strukturdaten
+erhoben (vollgeprüft; neuer Entscheidertyp-Kandidat „externer
+Übernehmer/Käufer") · zwei Anfrage-Entwürfe versandbereit ·
+masunt-Logo archiviert (`assets/partner/`, Datei-Beleg ✅) · beide
+Verfahrens-Positivkontrollen von den Prüfern gefangen · Debrief mit
+Rückfluss (L-07/L-08 + Zweitbeleg-Sammelvermerk) und
+Gegenprobe-Subagent (1 Nachfang: checkout-Rückbau-Falle;
+Gerüst-Stempel `66fbf4f`).
+
 **R1 gelaufen (09.08.2026, Shanks + R01-A/Ben Beckman):** FUND1-Entwurf
 + FUND2-Methodenplan in `fund/` (Voll-Review mit
 Verfahrens-Positivkontrolle, 9 Prüfbefunde eingearbeitet;
@@ -334,16 +379,24 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    ~Mitte August; Träger jetzt
    `zentrale\stb-termin-fragenliste-2026-08.md` (Postkorb-Meldung dort
    eingearbeitet). MKT-MARKE wartet darauf, FUND/BELEG nicht.
-2. ~~FUND1-Verabschiedung~~ ✅ ERLEDIGT 09.08.2026 (E10, geführte
-   Durchsprache — alle drei Punkte bestätigt).
-3. **R2-Kandidaten:** (a) BELEG1-Messplan (Verfallsdatum: PMS-Livegang
-   Ende September, nicht nachholbar); (b) FUND2-Ausführung (Vorlage-
-   Punkte in Plan § 7: Rechtsmatrix bei Kaltkontakten, Apaleo-Timing,
-   Kayhan-Gespräch = User-Handgriff); (c) MARKE1-Vorbereitung (wartet
-   nicht auf StB, nur MARKE2 tut das).
-4. Kleinposten: Domain-Inventur mit dem User (Cloudflare/Registrar) ·
-   masunt-Logo-Anhang archivieren (User-Handgriff, Mail Schacht 07.08.
-   16:34) · Byte-Vergleich Fassung-6-Kanon (bei Anlage der
+2. ~~FUND1-Verabschiedung~~ ✅ ERLEDIGT 09.08.2026 (E10) ·
+   ~~BELEG1-Messplan~~ ✅ FREIGEGEBEN 09.08.2026 (H-2) ·
+   ~~masunt-Logo~~ ✅ archiviert 09.08.2026.
+3. **User-Handgriffe (Termine aus dem Messplan):** H-1 Livegang-
+   Tagesdatum erfragen (bis 16.08.) · Anfrage-Entwürfe DEHOGA/IHK
+   versenden (werktags; vorher IHK-Zuständigkeit klären, P6) ·
+   Betreiber-Briefing bis 23.08. — **gekoppelt mit dem
+   FUND2-Kayhan-Gespräch** (ein Termin, getrennt dokumentieren) ·
+   dabei H-4 Altdaten-Sicherung anstoßen (bis 07.09., wichtigste
+   Quelle harter Vorher-Zahlen).
+4. **R3-Kandidaten:** (a) Erhebungsvorlagen-Session (A5-Tagesblätter,
+   Interviewleitfaden mit Bandbreiten-Schätzfragen BM-1–BM-5 +
+   E-1–E-5, Druck-PDF — bis 20.08., VOR dem Briefing); (b)
+   MARKE1-Vorbereitung (wartet nicht auf StB, nur MARKE2);
+   (c) FUND2-Fortsetzung (regionalstatistik.de; Persona-Befund erst
+   mit Strang 1/3).
+5. Kleinposten: Domain-Inventur mit dem User (Cloudflare/Registrar) ·
+   Byte-Vergleich Fassung-6-Kanon (bei Anlage der
    Kanon-Versionsführung).
 
 ---
@@ -352,6 +405,12 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 
 - 09.08.2026: Projektquelle angelegt (Projekt-Aufsetzung, `/projekt-init`;
   Plan nach dreifacher Prüfrunde + User-Entscheide E1–E7).
+- 09.08.2026 (R2-Debrief): BELEG1-Messplan freigegeben (H-2,
+  Zwei-Schienen-Nachtrag + Dissens-Vermerk) · FUND2-Strang-2-Stand +
+  Entscheidertyp-Kandidat in § 2 · Pilotstandorte repo-belegt vermerkt ·
+  H-4-Zielort-Vermerk (heypensio-Übergabe) · § 7 neu (User-Handgriffe +
+  R3-Kandidaten) · Register L-07/L-08 + Sammelvermerk R2 ·
+  Gegenprobe-Nachfang checkout-Falle · Gerüst-Stempel `66fbf4f`.
 - 09.08.2026 (nach R1-Debrief): **E10 — FUND1 VERABSCHIEDET** (geführte
   Durchsprache, drei Punkte bestätigt); Nachträge im Papier, § 2 FUND1
   auf FERTIG, § 7 Punkt 2 abgehakt.

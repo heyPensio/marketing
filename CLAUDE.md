@@ -3,8 +3,9 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand `897292e` nach Rückfluss-Nachzug MKT R1
-> (09.08.2026). Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
+> am 2026-08-09; Stand `66fbf4f` nach Rückfluss-Nachzügen MKT R1 + R2
+> inkl. Gegenprobe-Nachfang (09.08.2026). Nachzug neuer
+> Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
 
@@ -442,6 +443,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Überschriftsbezug — Zeilen-Anker altern, auch in Markdown-Nachbarn und
   innerhalb einer Runde. Wo nur Zeilen möglich sind: mit Commit-Stand
   (`@<hash>`).
+- **Kalender-Etiketten (Wochentage zu Datumsangaben) nie aus dem Kopf**
+  — immer per Werkzeug (`Get-Date`) erheben; aus dem Kopf vergebene
+  Etiketten geraten teils richtig, teils falsch und sind dadurch schwer
+  auffällig. Analog Modellnamen-Regel. (L-07.)
 - **Vor der Vergabe neuer Kurz-IDs die Kurzzeichen der Nachbardokumente
   greppen** (Kollisionen doppelt belegt). ID-Anker brauchen Rundenbezug.
 - **Drift-Vorsorge bei AUSLÖSER, nicht nach Kalender:** Commit einer

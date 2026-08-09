@@ -33,7 +33,11 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
 - Zeilenzahl-Kontrollen nie per `Measure-Object -Line` (zählt Leerzeilen
   nicht); belastbar ist `git diff --stat`.
 - `grep -c` zählt ZEILEN, nicht Treffer (minifizierte Dateien: immer 1);
-  belastbar ist `grep -o … | wc -l`.
+  belastbar ist `grep -o … | wc -l`. Wird eine Zeilen-Zählung bewusst
+  verwendet, gehört der Zählweg an die Zahl („55 Zeilen, grep -c").
+- **PowerShell 5.1 kennt kein `grep`/`head`** — repo-weite Textsuchen
+  laufen über das Grep-TOOL (mit Include-Filtern), nicht über die
+  PowerShell; `grep`-Kommandos nur im Bash-Kanal. (Herkunft: MKT R2.)
 - `node -e` mit Git-Bash-Pfaden (`/c/Users/…`) findet keine Module —
   Windows-Pfade oder Skript als Datei.
 - `[IO.File]`-/.NET-Aufrufe lösen relative Pfade gegen das PROZESS-CWD

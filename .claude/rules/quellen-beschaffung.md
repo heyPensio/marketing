@@ -11,6 +11,21 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   Node + `pdf-parse` v2 als KLASSE (`new PDFParse({data: buffer})` →
   `await parser.getText()`); `getScreenshot()` rendert Seiten als PNG —
   bei Zeichnungen/Maßangaben Pflicht (Text liefert Zahlen ohne Bezug).
+  **Auch bei GRAFIK-Wertereihen Pflicht:** Die Textextraktion einer
+  Balken-/Liniengrafik liefert nackte Zahlenfolgen — welche Reihe
+  welche ist, ist aus der Textreihenfolge NIE belastbar; Zuordnung nur
+  per Sichtprüfung am gerenderten Bild. (Herkunft: MKT R2.)
+- **Amtliche Statistik als XLSX/CSV ziehen, nicht als PDF** — die
+  Roh-Tabellenblätter sind maschinenlesbar sauber; das
+  Übersichts-/Inhaltsblatt der Datei beantwortet „Gibt es die
+  Schneidung überhaupt?" vor jeder teuren Suche. Übernommene
+  Zahlentabellen mit **Summenproben** selbst verifizieren (Teilzeilen
+  gegen Insgesamt-Zeile) — deckt Übertragungsfehler sofort auf und
+  gibt jedem Prüfer einen harten Anker. (Herkunft: MKT R2.)
+- **Vor einem „Quelle enthält X nicht" die Ausgaben-Logik der Reihe
+  prüfen:** Stichtags-/Sondertabellen erscheinen oft nur in bestimmten
+  Ausgaben (z. B. Jahres-Stichtag nur im Juli-Bericht) — die neueste
+  Ausgabe ist nicht die datenreichste. (Herkunft: MKT R2.)
 - **Ein TIMEOUT ist kein Negativbefund** — Primärquellen, die in einen
   Rechtstext eingehen: Abruf wiederholen oder in den Hintergrund, nie auf
   Zweitquellen ausweichen, solange die Quelle nur langsam ist.

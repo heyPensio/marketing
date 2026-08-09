@@ -82,6 +82,67 @@ würde den Prüfer kontaminieren). Träger: tagesstart-Command,
 Abschnitt Verfahrens-Positivkontrolle (nachgezogen 09.08.2026).
 Quelle: `protokolle/R01-A-abschluss.md` Fallen (i) + Verifikationen.
 
+## L-07 — Kalender-Etiketten und Prüf-Prämissen: nie aus dem Kopf, und Prämissen sind Prüfgegenstand (MKT R2, 09.08.2026)
+
+**Fall:** R02-A vergab Wochentags-Etiketten aus dem Kopf („Sa 09.08." —
+der 09.08.2026 ist ein Sonntag) und gab die falsche Prämisse an den
+Prüfer weiter, der sie regelkonform als Prämisse übernahm. Die Etiketten
+waren teils richtig, teils falsch (24.08./21.09. stimmten,
+16.08./22.09. u. a. nicht) — plausibel gemischt, dadurch schwer
+auffällig. Gefangen wurde der Fehler NUR durch den Pflichtteil „Grenzen
+des eigenen Verfahrens", in dem der Prüfer die bürgerliche Kalenderlage
+gegen die Prämisse hielt. Zwei Kerne: (1) Kalender-Etiketten per
+`Get-Date`, nie aus dem Kopf (CLAUDE.md Doku-Hygiene); (2)
+Tatsachen-Prämissen im Prüfauftrag sind selbst Prüfgegenstand —
+belegen oder als Annahme kennzeichnen (tagesstart, Prüfer-Muster).
+Quelle: `protokolle/R02-A-abschluss.md` Block 3/4,
+`R02-A-pruefer.md` G-1 + Grenzen Punkt 6.
+
+## L-08 — Verfahrens-Positivkontrolle: Diff-Sichtung explizit verbieten (MKT R2, 09.08.2026)
+
+**Fall:** Der R02-A-Prüfer entschied SELBST, den Arbeitsbaum-Diff nicht
+zu sichten („die Prüfung sollte inhaltlich tragen, nicht forensisch")
+und fing die Verfälschung über vier Quellen; der R02-B-Prüfer ZOG den
+Diff (sah dadurch die Änderungsstelle) und widerlegte sie dann
+inhaltlich an der Quelle. Beide fingen die Kontrolle — aber nur die
+erste Variante misst das Inhalts-Verfahren. Ohne explizite Anweisung
+ist es Zufall, welche Variante läuft. Kern: Der Prüfauftrag weist das
+Diff-Sichtungs-Verbot ausdrücklich an (tagesstart, Positivkontrolle).
+Quelle: `protokolle/R02-A-pruefer.md` Kopf + Grenzen 7,
+`R02-B-pruefer.md` Kopf.
+
+## Zweitbelege R2 zu bestehenden Regeln (09.08.2026, Sammelvermerk)
+
+- **L-05 (Klassifikator):** `git push` in R02-A auch als Einzelbefehl
+  blockiert, später in derselben Session durchgelaufen —
+  Zeitpunktbindung zweifach neu belegt (R02-A Block 2 Nachtrag).
+- **`grep -c`-Falle (Baustein windows-powershell):** erneut real —
+  Prüfbefund P3 an den eigenen Positivkontroll-Zahlen von R02-B;
+  Schärfung „Zählweg an die Zahl" in den Baustein übernommen.
+- **WebFetch-/Zusammenfasser-Regel (Baustein quellen-beschaffung):**
+  Zusammenfasser-Zahlen erst nach Roh-Gegenlesen zitierfähig (R02-B —
+  Zahlen stimmten, aber erst das Gegenlesen machte sie belastbar).
+- **Regel e (Ist-Stand-Gegenprobe des Auftrags):** R02-A verifizierte
+  „kein Messplan existiert" selbst mit Positivkontrolle — zwei greps
+  gegen Doppelbau.
+- **Grenzen-Pflichtteil als eigener Fundkanal:** lieferte in R02-A den
+  einzigen Fang außerhalb des Kategorienkatalogs (Kalender-Prämisse,
+  s. L-07).
+- **Beleg-Typ-Dreiteilung Rohprotokoll/Systemauszug/Selbstauskunft**
+  (Messplan § 1) als operative L-04-Umsetzung — bewährt, wurde durch
+  den User-Entscheid „Schätzwerte" (H-2-Nachtrag) sofort tragend.
+- **Push-Veröffentlichungs-Regeln (R17/R30):** R02-B korrigierte die
+  eigene Fehldeutung „mein Push veröffentlicht 1a67bca mit" selbst am
+  `git log origin/main..HEAD`-Beleg (Nachtrag in Block 3) — die Regel
+  fing den Fehler im Meldungstext, bevor er zur Aussage wurde.
+- **Konservativer Planungsanker + Erfragungs-Handgriff** bei nur
+  monatsgenau belegten Terminen (R02-A, 22.09. + H-1) — bewährtes
+  Muster für Termin-Rückwärtsrechnungen.
+- **Rückbau-Falle `git checkout` (R02-A Falle 5, Nachfang aus der
+  Debrief-Gegenprobe):** Nach einem checkout ist der Session-Kontext
+  der Datei stale („modified on disk") — vor weiteren Edits neu lesen;
+  in die tagesstart-Rückbau-Mechanik übernommen.
+
 ## Zweitbelege R1 zu Blueprint-Regeln (09.08.2026, Sammelvermerk)
 
 - **Rohquelle holen bei Berichts-Widerspruch (Regel g):** löste die

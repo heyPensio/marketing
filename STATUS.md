@@ -25,18 +25,19 @@
 ---
 
 ## Letzte Aktualisierung
-**09.08.2026 (R1, Shanks + R01-A/Ben Beckman)** — Erste Arbeitsrunde
-gelaufen und debrieft: **FUND1-Positionierungspapier als ENTWURF** +
-**FUND2-Validierungsplan** in `fund/` (Voll-Review mit
-Verfahrens-Positivkontrolle, 9 Prüfbefunde eingearbeitet) ·
-**masunt-Listungszusage** im neuen Register `referenzen-zusagen.md`
-erfasst (Partner-Listung, KEINE Kundenreferenz) · beide Repos
-(marketing + zentrale) an private GitHub-Remotes gehängt · Lehren
-L-01–L-06 ins Register + projektgerüst (Stempel `897292e`) · nach dem
-Debrief: **FUND1 VERABSCHIEDET (E10)**.
-*(Davor: Sitzung 1 Projekt-Aufsetzung — Plan nach dreifacher
-Prüfrunde, `protokolle/R00-planpruefung-2026-08-09.md`, Entscheide
-Projektquelle § 4.)*
+**09.08.2026 (R2, Shanks + R02-A/Yasopp + R02-B/Lucky Roux)** —
+**BELEG1-Baseline-Messplan FREIGEGEBEN** (H-2; User-Vorgabe: Betreiber
+tracken nicht konsequent → Zwei-Schienen-Modell Best-Effort-Protokoll
++ Schätz-Interview; ⚠️ offener Dissens zur Außen-Formulierung
+„gemessen", Entscheid bei BELEG4 — `beleg/baseline-messplan.md`
+Nachträge) · **FUND2-Strang-2-Strukturdaten erhoben** (vollgeprüft
+~130 Zahlen; Kernsegment 53,0 % der Hotellerie < 20 Zimmer; neuer
+Entscheidertyp-Kandidat „externer Übernehmer/Käufer") · zwei
+**Anfrage-Entwürfe DEHOGA/IHK versandbereit** · masunt-Logo
+archiviert · Lehren L-07/L-08 + Gerüst-Nachzug (Stempel `66fbf4f`).
+*(Davor: R1 — FUND1-Entwurf + FUND2-Plan, masunt-Register,
+GitHub-Remotes, L-01–L-06; nach Debrief FUND1 VERABSCHIEDET (E10).
+Ältere Stände: `STATUS-archiv.md`.)*
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE
@@ -51,22 +52,33 @@ Projektquelle § 4.)*
 - **R1 (09.08.):** ✅ **FUND1 VERABSCHIEDET (E10)** — geführte
   Durchsprache, alle drei Entscheidungspunkte bestätigt
   (Entscheidungsstruktur statt Zahlen; EIN Produkt über Modul-Achse,
-  FUND2-Vorbehalte in Kraft). FUND2-Plan ausführbar. ⚠️ Merkzeile:
-  Extraktionsberichte sind gegen Rohbestand ungeprüft, belegter
-  Drift-Fall A/A2-Versanddatum (Details Projektquelle § 6).
+  FUND2-Vorbehalte in Kraft). ⚠️ Merkzeile: Extraktionsberichte sind
+  gegen Rohbestand ungeprüft, belegter Drift-Fall A/A2-Versanddatum
+  (Details Projektquelle § 6).
+- **R2 (09.08.):** ✅ BELEG1-Messplan freigegeben (Zwei-Schienen-Modell;
+  Messfenster 24.08.–20.09., Rückwärtsanker 22.09.) · FUND2-Strang 2
+  erhoben, Anfrage-Entwürfe versandbereit (`fund/erhebung/`) ·
+  ⚠️ offener Dissens Außen-Formulierung „gemessen" (Entscheid bei
+  BELEG4, Plan-Nachtrag 2) · Stränge FUND2-1 (Kayhan) und FUND2-3
+  (Apaleo) offen.
 
 ## Nächster konkreter Schritt
 1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
    GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger
    `zentrale\stb-termin-fragenliste-2026-08.md`. MKT-MARKE wartet
    darauf, FUND/BELEG nicht.
-2. **R2-Kandidaten:** (a) BELEG1-Baseline-Messplan (Verfallsdatum:
-   PMS-Livegang Ende September, nicht nachholbar); (b) FUND2-Ausführung
-   (`fund/persona-validierungsplan.md` § 7: Rechtsmatrix-Frage,
-   Apaleo-Timing, Kayhan-Gespräch = User-Handgriff); (c) MKT-MARKE —
+2. **User-Handgriffe (Messplan-Kette):** H-1 Livegang-Tagesdatum (bis
+   16.08.) · Anfrage-Entwürfe DEHOGA/IHK versenden (werktags, vorher
+   IHK-Zuständigkeit klären) · Betreiber-Briefing bis 23.08.,
+   **gekoppelt mit dem FUND2-Kayhan-Gespräch** · H-4 Altdaten-Sicherung
+   anstoßen (bis 07.09.).
+3. **R3-Kandidaten:** (a) Erhebungsvorlagen-Session (Tagesblätter +
+   Interviewleitfaden, bis 20.08. — VOR dem Briefing); (b) MKT-MARKE —
    Naming-Sprint vorbereiten (⚠️ für KEINEN Namen existiert eine
    Recherche; ⚠️ Everlast-§11: Marken-Assets vor/außerhalb der
-   Zusammenarbeit ab 18.09. — `zentrale\namensentscheid.md`).
+   Zusammenarbeit ab 18.09. — `zentrale\namensentscheid.md`);
+   (c) FUND2-Fortsetzung (regionalstatistik.de; Befund erst mit allen
+   Strängen).
 5. **Blueprint-Arbeitsauftrag (aus Extraktion C):** zwei neue Bausteine
    `aussenkorrespondenz` + `freigabe-vorlagen` aus den firzlaff-Skills
    `anbieter-anfrage`/`freigabevorlage-kayhan` entkundenspezifiziert

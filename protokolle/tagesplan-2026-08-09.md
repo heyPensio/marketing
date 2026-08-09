@@ -487,7 +487,26 @@ Rohbeleg-Sicherung nach `sensibel/rohbelege-R06-A/` (P20-Muster R5)
 ist Teil des Auftrags; Extraktions-Positivkontrolle (Vollständigkeit
 des ERGEBNISSES, Sammelvermerk R5) im Prüfauftrag.
 
+**Leitsession-Strang ERLEDIGT (~00:15): Apaleo-Faden-Stand-Prüfung.**
+Befund (Leseweg: selbst gelesen, `heypensio\firzlaff\STATUS.md`
+komplett, Stand Sitzung 78/09.08. — Kurzabriss, nicht die dortige
+Projektquelle; für einen Zeitpunkt-Befund ausreichend, Belegstufe so
+vermerkt): **Die FUND2-Apaleo-Markt-Frage (Strang 3.1, an Nicole
+Habernig) bleibt ZURÜCKGESTELLT.** Der Vertrags-/Onboarding-Faden ist
+aktiv belastet: (1) Firmendaten-Korrektur-Mail an Apaleo UNVERSENDET —
+wartet auf Fehlliste USt-ID Leane + Einheiten-Zahlen
+(`heypensio\firzlaff\apaleo-config\antwort-apaleo-firmendaten-2026-08.md`);
+(2) Apaleo-Vertrag/Zeichnungsfähigkeit gated am StB-Termin (Handgriff
+Mo 10.08.); (3) RACK-Altplan-Frage + Testdaten-Bulk-Delete haben als
+Zielort ausdrücklich „Nicole-Faden/Onboarding" — der Draht ist mit
+heypensio-Posten belegt, heypensio schuldet dort Zulieferungen.
+**Wiedervorlage-Trigger (beide):** Firmendaten-Korrektur versendet UND
+StB-Termin gelaufen — realistisch nach ~14.08. Koordination dann über
+die heypensio-Leitsession (der Nicole-Draht ist deren Kanal).
+Einarbeitung Projektquelle § 7 (FUND2-Rest): beim R6-Debrief.
+
 **PROGNOSE:** Nach R6-Debrief Feierabend. Montag-Kandidaten
 unverändert: StB-Anruf + BAFA-Entscheid (User, Zentrale) · E-V4 nach
-Shortlist-Handgriffen · Anfragen-Versand DEHOGA/IHK · FUND2-Rest ·
+Shortlist-Handgriffen · Anfragen-Versand DEHOGA/IHK · FUND2-Rest
+(Apaleo-Teil jetzt mit Wiedervorlage-Trigger, s. o.) ·
 IFB-Vorabklärung Hamburg Digital Check.

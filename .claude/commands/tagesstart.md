@@ -102,9 +102,16 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    - Debrief der letzten Runde gelaufen? Wenn nein und alle Meldungen da →
      EINEN gebündelten `/debrief` fahren.
 3. **Eingänge sichten** (VOR dem Rundenschnitt — sie können die Planung
-   kippen): die Eingangs-Kanäle des Projekts durchgehen (Postfach, falls
-   angebunden — dann VOLLDURCHSICHT seit der letzten Runde, nicht nur
-   bekannte Fäden; nur sichten, nichts beantworten) und den User explizit
+   kippen): die Eingangs-Kanäle des Projekts durchgehen. **Postfach,
+   falls angebunden — Arbeitsteilung mit dem Firmen-`/briefing`:**
+   Liegt ein Briefing vom SELBEN Tag vor
+   (`C:\Users\qwafa_2dwxzia\zentrale\briefings\`), dessen Mail-Triage
+   für die eigene Abteilung übernehmen und nur die EIGENEN Fäden
+   vertieft nachladen (`get_thread`) — KEINE zweite Volldurchsicht
+   (Token + Doppellektüre). **Rückfallregel:** OHNE aktuelles Briefing
+   gilt die VOLLDURCHSICHT seit der letzten Runde, nicht nur bekannte
+   Fäden — die Lücke „niemand hat geschaut" darf nie entstehen. Nur
+   sichten, nichts beantworten. Und den User explizit
    fragen, was außerhalb passiert ist (Anrufe, Entscheide, Befunde).
 4. **Neue Runde vorschlagen:** Aus STATUS.md („Nächster konkreter
    Schritt"), Eingängen und User-Zuruf die Stränge schneiden — disjunkte

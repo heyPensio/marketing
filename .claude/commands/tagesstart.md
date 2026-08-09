@@ -74,7 +74,7 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    (Lesereihenfolge lt. CLAUDE.md; Details gezielt aus der Projektquelle).
    **Gerüst-Stempel prüfen (Methodik-Aktualität):** Den Stempel-Hash aus
    dem CLAUDE.md-Kopf gegen den Blueprint halten —
-   `git -C C:\Users\qwafa_2dwxzia\projektgeruest log --oneline <stempel>..HEAD`.
+   `git -C C:/Users/qwafa_2dwxzia/projektgeruest log --oneline <stempel>..HEAD`.
    Liefert das Zeilen, ist die Methodik dieses Projekts VERALTET: Delta
    (mit `LEHREN-CHANGELOG.md`-Einträgen) dem User melden und
    `/projekt-init nachzug` als Tagesposten vorschlagen. Nie

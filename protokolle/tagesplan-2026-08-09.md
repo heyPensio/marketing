@@ -443,3 +443,51 @@ Hotelkooperationen (Web-Lesearbeit, sonntagstauglich) · FUND2-Apaleo-
 Faden-Prüfung. Montag-Posten (StB/BAFA, IFB, Anfragen-Versand) bleiben
 werktagsgebunden. Zentrale-Briefing Montag sichtet den Postkorb
 (2 neue MKT-Meldungen).
+
+## Fortschreibung: R6 (~00:05 Mo 10.08., Leitsession Shanks nach /clear)
+
+**Kurzcheck:** Rundenstart 23:59 (Get-Date), Schnitt nach Mitternacht —
+der Kalendertag ist auf Montag gekippt; R6 läuft als Fortsetzung des
+Arbeitstags 09.08. in DIESEM Tagesplan (User-Zuruf 23:15: kein
+Feierabend). Weiter nur Innen-Stränge (alle R6-Stränge reine Web-/
+Repo-Lesearbeit). Debrief-Gate ✅ (R5 geschlossen lt. Vermerk oben;
+`git pull` ohne Delta, Arbeitsbaum sauber, `d43254d`).
+Kontext-Säuberung ✅ (Regel 1a). **User-Abfrage (~00:03): außerhalb
+NICHTS passiert** — Shortlist-Handgriffe weiter offen → E-V4 bleibt
+blockiert. **Kontingent: keine frische Ablesung** (User-Entscheid) —
+konservativ auf Basis des 19:37-Bands (Fable 70–85 %) geplant:
+schlanke Runde, Arbeits-Session auf Opus.
+
+**Schnitt (User-bestätigt ~00:03):**
+
+| Session | Rolle | Aufgabe | Modell | Exklusiv | Scope |
+|---|---|---|---|---|---|
+| Leitsession (Buchstabe frei) | Shanks | FUND2-Apaleo-Faden-Stand-Prüfung (heypensio-Repo, NUR lesend); danach Review + Debrief R6 | Fable 5 | keine | Tagesplan; Befund → Projektquelle beim Debrief-Zug |
+| R06-A | Ben Beckman | P15 Brandnamic-Partnerkreis (straiv/flexipass/hoteldoor/iiq check an Primärquellen) + P19 Hotelkooperationen/Marketing-Verbünde — Wettbewerbsbild-Erweiterung | Opus 5 | keine (Web lesend, KEIN Chrome) | `fund/wettbewerbsbild.md` (Erweiterung) + `protokolle/R06-A-*.md` + `sensibel/rohbelege-R06-A/` |
+
+**Ist-Stand-Prüfung (Leitsession selbst, ~00:01; <3 Stränge → kein
+Prüf-Subagent):** P15/P19 sind dokumentierter OFFENER Bestand
+(`fund/wettbewerbsbild.md`, Punkteliste offene Punkte; Positivkontrolle:
+Grep P15|P19 trifft dort und in Projektquelle § 7). ⭐ Vorbestand
+zweiseitig geprüft: **Straiv ist als Wettbewerber bereits voll erhoben**
+(R03-D; 86 Grep-Treffer der vier P15-Anbieter im Wettbewerbsbild,
+Schwerpunkt Straiv) → P15 ist ERWEITERUNG (Partnerkreis-Abdeckung),
+keine Neuerhebung; flexipass/hoteldoor/iiq check bisher nur
+Namensnennungen aus R05-A. P19: Belvita/Familienhotels Südtirol sind
+VORBEFUNDE aus R05-A → gehören in die Ausschlussliste des Prompts,
+nicht in den Suchauftrag (Entdeckung offen halten). Apaleo-Posten:
+Reihenfolge-Kopplung lt. `fund/persona-validierungsplan.md` § 7
+(Faden-Stand im heypensio-Repo prüfen, nicht aus dem Plan ableiten).
+
+**Review-Regime R06-A (begründet):** Kurzraster + getrennte
+Fundstellen-Nachprüfung durch unabhängigen Prüfer mit Rohbeleg-Pfaden
+(im Prompt verankert; wie Schwester-Stränge R03-D/R05-A) — das
+Wettbewerbsbild ist internes Lagebild, nicht freigabetragend.
+Rohbeleg-Sicherung nach `sensibel/rohbelege-R06-A/` (P20-Muster R5)
+ist Teil des Auftrags; Extraktions-Positivkontrolle (Vollständigkeit
+des ERGEBNISSES, Sammelvermerk R5) im Prüfauftrag.
+
+**PROGNOSE:** Nach R6-Debrief Feierabend. Montag-Kandidaten
+unverändert: StB-Anruf + BAFA-Entscheid (User, Zentrale) · E-V4 nach
+Shortlist-Handgriffen · Anfragen-Versand DEHOGA/IHK · FUND2-Rest ·
+IFB-Vorabklärung Hamburg Digital Check.

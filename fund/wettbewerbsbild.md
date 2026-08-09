@@ -87,8 +87,13 @@ Agenturaufbau-Programm ab 18.09.2026) und für **Smart Host** (DE,
 Stammgast, im Alt-Dossier nur als Modul-Überlappung geführt).
 **➡️ Für Everlast ist dieser Satz falsch — richtiggestellt in B3:**
 Everlast steht auf der **anderen Marktseite** (verkauft an uns, nicht an
-Hoteliers) und ist weder Wettbewerber noch Kanal. Für Brandnamic und
-Smart Host siehe die belegten Neu-Einstufungen in B4/B7.
+Hoteliers) und ist weder Wettbewerber noch Kanal. **Brandnamic:**
+Neu-Einstufung in **B4.3** (dreiteilig — die Begründung der Alt-Notiz
+hält, ihre Schlussfolgerung nicht). **Smart Host:** Neu-Einstufung in
+**B6.1** — ⚠️ **die Angaben „399 €/M" und „From Data to Regulars" in
+diesem Absatz sind dort richtiggestellt** (399 € ist ein an 20 Zimmer und
+zwei Module gebundenes Preis*beispiel*, keine Tarifangabe; der Claim ist
+im heutigen Seitenbestand nicht auffindbar).
 
 **Beleg-Stand zum Portfolio-Zuschnitt (09.08.2026):** Das verabschiedete
 Positionierungspapier führt in seinem Dienstleistungsportfolio
@@ -1482,7 +1487,119 @@ Buchungsmaschinen & PMS Systemen**", Systemnennung „Wir arbeiten mit
 **Mews, OnePageBooking und HubSpot**". Selbstauskunft zur Historie:
 „Seit 2022 … bereits über 8.000 Direktbuchungen".
 
-### B4.3 Feldbefunde mit Belegkraft
+### B4.3 ⭐ Brandnamic — die Neu-Einstufung des Musterfalls
+
+Eigener Erhebungsstrang (Rohtext, alle 476 Seiten der eigenen Sitemap
+gesweept, 0 Abrufe fehlgeschlagen; gelesene Sprachfassung **Deutsch**,
+IT/EN existieren laut `hreflang` und sind **nicht** erhoben).
+⚠️ Methodischer Vorbefund: Brandnamic liefert zu jeder Seite eine
+`.md`-Fassung (via `llms.txt`) — das sind **anbietergenerierte
+KI-Zusammenfassungen** mit teils explizitem Kürzungsvermerk. Sie wurden
+nur zur Navigation benutzt; **kein Zitat und keine Zahl unten stammt
+daraus.**
+
+**Firma (Impressum, SELBST — kein Registerauszug):** Brandnamic GmbH,
+Brandnamic Campus, Satzlstraße 4, 39042 Brixen (IT); Standorte „Brixen |
+Meran | München" (DE-Standort Hofmannstraße 25–27, 81379 München);
+gesetzliche Vertreter Michael Oberhofer, Hannes Gasser, Matthias Prader;
+Leitung und Koordination durch **Brandnamic Unlimited GmbH**.
+Selbstauskunft: gegründet **1997**, **„150+"** Mitarbeitende,
+Geschäftsbereiche „Software, Marketing, Consulting".
+⚠️ **Zahlen-Warnung:** Dieselbe Zahl „150+" steht auf anderen Seiten für
+„**Zufriedene Kunden**". Wer sie ohne Zeilenkontext übernimmt,
+verwechselt Mitarbeiter- mit Kundenzahl. Gründungsjahr und
+Mitarbeiterzahl sind **einkanalig** (nur die Grounding-Seite) und nicht
+gegengeprüft.
+**Verbundgesellschaft:** **Brainy GmbH/Srl** — eigener Rechtsträger
+(eigene Steuernummer, eigene Domain `brainy-rms.com`), gegründet 2021,
+12 Mitarbeitende, gesetzlicher Vertreter personenidentisch. Brainy ist
+also **keine Produktlinie, sondern eine Gesellschaft im Verbund.**
+
+**Die Alt-Begründung wurde nachgemessen — und sie hält.**
+Zwei unabhängige Vollläufe über alle 476 Seiten, Positivkontrollen im
+selben Lauf: „brandnamic" 476/476 Seiten ✔, „guest journey" 476/476 ✔.
+**Null Treffer** für: self-check-in · online-/web-check-in · Kiosk *im
+Sinne Check-in-Terminal* · Meldeschein · Meldewesen · Gästeregistrierung ·
+alloggiati/ISTAT/questura · Ausweis/Personalausweis · Zimmerschlüssel ·
+digitaler Schlüssel · mobile key · keyless · Türöffnung/Türschloss/smart
+lock. Entkräftete Scheintreffer wurden einzeln im Kontext gelesen: „Kiosk"
+ist durchgehend der „**Online-Zeitungskiosk**" des MediaPad; „Zutritt" und
+„Meldepflicht" stehen je einmal ausschließlich in den AGB.
+
+**Aber die Schlussfolgerung „Keine Überschneidung mit unserem Produkt"
+hält nicht.** Vier belegte Berührungspunkte, die die Alt-Notiz nicht kennt:
+1. **„Pre-Check-in" ist eine benannte Produktfunktion** des
+   Korrespondenzmanagers (zwei Fundstellen im Wortlaut der
+   Funktionslisten). *(Nur der bewusst breit gehaltene Oberbegriff
+   „check-in" hat sie sichtbar gemacht — die engen Muster
+   `self-/online-/web-check-in` hätten sie übersehen. Ein Lehrstück zur
+   Musterwahl bei Negativ-Suchen.)*
+2. **Die Privacy App greift in den Check-in-Moment:** „Mit der Privacy App
+   erspart ihr euch den **Datenschutz-Papierkram beim Check-in**, die
+   Einwilligung holt ihr euch einfach digital ein." — Einwilligung,
+   **nicht** Meldeschein.
+3. **Der Korrespondenzmanager versendet „Check-in-Aufforderungen"** und
+   eine „Online-Zahlungsaufforderung für Check-out vor der Abreise".
+4. **Carlito App = „die digitale Rezeption"** mit digitaler Gästemappe,
+   Chat, F&B-Bestellung und „nahtloser PMS- & Kassensystem-Integration";
+   **Kosmo** bindet sich „**nativ an eure Buchungsstrecke** an, um Preise
+   und Verfügbarkeiten in Echtzeit darzustellen".
+
+**Das Produktportfolio ist erheblich** — 15+ eigene „Hospitality Apps",
+darunter **Brainy RMS** („Agentic Revenue Management System" mit dem
+KI-Agenten „Eddie"), Kosmo, Carlito, Korrespondenzmanager, Sales App,
+Cluster App, Payment Hub („über 15 Paymentprovider"), Data Hub
+(„Property Management Systems oder Channel Manager").
+
+**Einziger öffentlicher Preis im gesamten Bestand — und er steht in den
+AGB, nicht auf einer Produktseite:** „Sofern nichts anderes vereinbart,
+gilt ein **Stundensatz in Höhe von 115,00 €, zuzüglich Nebenkosten und
+MwSt.**, vereinbart", abgerechnet „in Einheiten von je **15 Minuten** und
+aufgerundet", vor Ort zzgl. Fahrtzeit und Fahrtkosten. Für **kein**
+Softwareprodukt und **keine** Agenturleistung gibt es einen Listenpreis
+(Suchraum alle 476 Seiten + `brainy-rms.com/de/`; Positivkontrolle:
+derselbe Betrags-Regex fand im selben Lauf 100.000,00 € im Impressum und
+20.000,00 € in den AGB ✔).
+
+**Partnerprogramm — die Kanalfrage ist strukturell mit Ja zu beantworten,
+praktisch mit einem Konflikt.** Formalisiertes Programm mit öffentlicher
+Liste (~70 Partner in sechs Kategorien: 25 PMS-Schnittstellen inkl.
+Oracle/Mews/protel/Shiji/SIHOT, 13 CM & Booking Engines, 18
+Zahlungsanbieter, POS, weitere Schnittstellen, Branchen-/institutionelle
+Partner) und offenem Weg „**Partner werden**".
+⚠️ **Für uns entscheidend:** Unter den Partnern stehen **straiv**,
+flexipass, hoteldoor und iiq check — Namen, die genau auf Check-in,
+digitalen Schlüssel, Türzugang und Identitätsprüfung deuten. **Belegt ist
+die Nennung und die Kategoriezuordnung am Markup; was diese vier Firmen
+tatsächlich anbieten, wurde NICHT an deren Primärquelle geprüft.** Das ist
+eine offene Annahme, keine Feststellung — und sie ist vor jeder
+Kanal-Ansprache zu klären, denn sie entscheidet, ob überhaupt eine offene
+Kategorie existiert. *(Auffällig: `straiv` steht unter „Zahlungsanbieter
+Schnittstellen" — die Kategorie ist aus der Dokumentreihenfolge gelesen,
+nicht geraten.)*
+
+**Neu-Einstufung Brandnamic — dreiteilig, weil eine Einzelnote hier
+falsch wäre:**
+
+| Achse | Einstufung | Begründung |
+|---|---|---|
+| Beratungs-/Agentursegment | **W1 — hoch** | Website-Bau **und Wartung/Betreuung nach Go-live**, CI/Branding/Naming, SEO/SEA, Social, Newsletter/CRM, „Pricing-Strategie" + „Storno- & Buchungsbedingungen", Hotelcoaching inkl. Leadership/Operatives, Mystery Checks |
+| Self-Check-in-/Meldeschein-/Zutritts-Technik | **kein Wettbewerber** (belegt, Stand 09.08.2026, Vollsuchraum + Positivkontrolle) | s. o. — aber die Nachbarfelder sind besetzt |
+| Kanal | **K, nur produktseitig — mit eingebautem Interessenkonflikt** | Partnerprogramm belegt (L-B3 erfüllt); zugleich verkauft dasselbe Haus unser gesamtes Beratungssegment selbst |
+
+**Der unbequeme Kern dieser Einstufung:** Was bei uns als „**im Aufbau**"
+geführt wird (Social, laufendes SEO, Ads, Bewertungsmanagement), ist dort
+Kerngeschäft. Was bei uns „**über Kayhan geplant**" ist (operative
+Prozesse, Personalführung, Revenue Management), betreibt Brandnamic
+selbst — mit Academy und eigenem RMS. **Der Wettbewerb trifft uns dort am
+härtesten, wo wir am dünnsten aufgestellt sind.**
+
+**Nebenbefund für MKT-AKQ:** Brandnamic ist nach eigener Darstellung auf
+der **Internorga Hamburg** präsent — genau dem Messe-Kanal, den MKT-AKQ
+als Rückwärts-Anker führt. Dort ist mit einem etablierten Auftritt zu
+rechnen.
+
+### B4.4 Feldbefunde mit Belegkraft
 
 1. **Preisintransparenz ist der Normalzustand: 15 von 16 Anbietern
    veröffentlichen keinen Preis.** Der einzige Anker im gesamten Feld
@@ -1527,7 +1644,7 @@ Buchungsmaschinen & PMS Systemen**", Systemnennung „Wir arbeiten mit
    Einzelunternehmen/Personengesellschaften; die einzige zweistellige
    Teamangabe im Sample lautet „9 Team-Mitglieder".
 
-### B4.4 Negative dieses Strangs, mit Suchraum und Positivkontrolle
+### B4.5 Negative dieses Strangs, mit Suchraum und Positivkontrolle
 
 | Gegenstand | Suchraum / Methode | Positivkontrolle |
 |---|---|---|
@@ -1728,6 +1845,153 @@ Consulting** (durchgängig HTTP 500) · **Kohl & Partner Schweiz**
 bleibt unbelegt; „& Partner" legt eine PartG nahe, das ist eine
 Vermutung aus dem Namen, kein Beleg).
 
+## B6. Revenue-/Zahlenanalyse-Beratung — und die Neu-Einstufung von Smart Host
+
+**Erhebung:** ein Recherche-Agent, 09.08.2026. Leseweg **ROH**,
+Quellenart **SELBST**. Registerauszüge wurden **keine** gezogen — alle
+HRB-/CHE-Angaben sind Impressums-Selbstauskünfte.
+
+### B6.1 ⚠️ Smart Host: die Altbestands-Zahl „399 €/M" ist falsch gerahmt
+
+Teil A § 0.0 führt Smart Host als „DE, **399 €/M**, verkauft wörtlich
+**„From Data to Regulars"**". **Beide Angaben halten der Nachprüfung so
+nicht stand:**
+
+- **Der Betrag existiert, aber nicht als Tarif.** Auf
+  `smart-host.com/de/preise` steht über **jedem** Preisblock einzeln:
+  „Es handelt sich hier um **reale annäherungsweise Preisbeispiele** –
+  für ein individuelles Angebot kontaktiert uns." Die 399 € sind das
+  Beispiel für ein „**Inhabergeführtes Hotel mit 20 Zimmern, 3 Sterne**"
+  mit den Modulen **Base + CRM**. Daneben stehen zwei weitere Beispiele:
+  **849 €/M** (75 Zi., 4*, + Analytics) und **1.599 €/M** (100 Zi., 5*,
+  volle Suite).
+- **Hinzu kommt eine einmalige Einrichtungsgebühr unbekannter Höhe**
+  („einer einmaligen Einrichtungsgebühr und einer monatlichen
+  Nutzungspauschale" — Betrag nicht öffentlich).
+- **Die Steuerbasis ist öffentlich nicht bestimmbar.** Gegenprobe auf der
+  Preisseite **und** in den AGB: Muster `zzgl|netto|brutto|MwSt|
+  Umsatzsteuer` → 0 Treffer; Positivkontrolle „399" = 1 Treffer bzw.
+  „Smart Host" = 138 Treffer in den AGB ✔.
+- **Folge:** Eine Dossier-Zeile „Smart Host: 399 €/M" **ohne Zimmerzahl-,
+  Modul- und Steuerbezug ist irreführend** und darf so nicht in
+  Preisvergleiche oder Außentexte wandern.
+- **Der Claim „From Data to Regulars" ist im geprüften Seitenbestand
+  heute nicht auffindbar** — 0 Treffer über 13 DE-/EN-Seiten,
+  Positivkontrolle „Smart Host" 8–205 Treffer je Datei ✔. **Korrekte
+  Formulierung: „im geprüften Seitenbestand nicht gefunden", nicht
+  „existiert nicht"** (Blog, Knowledge-Hub, PDF und Social waren nicht im
+  Suchraum). Der heutige Kern-Claim lautet „**Das #1 Hotel-CRM in
+  DACH\***" — mit eigener Fußnote, die ihn einschränkt: zweiter Platz
+  beim HotelTechReport 2025 global, daraus abgeleitet Nr. 1 in DACH.
+  Der Gedanke lebt in der Mission fort: „ihre **Daten in Stammgäste** zu
+  verwandeln".
+
+**Neu-Einstufung Smart Host: W1 + K** (bisher „nur Modul-Überlappung").
+Begründung:
+- **Firma (Impressum, selbst erhoben):** Smart Host GmbH, Am Kupfergraben
+  6 A, 10117 Berlin; vertreten durch Julian Leitner; AG Charlottenburg
+  187656 B. Selbstauskunft: seit 2017, „40+ Smarties", „über 1.000
+  Kunden".
+- **W1, weil Smart Host nicht nur Software verkauft:** „Updates und
+  Weiterentwicklungen eurer Module? Inklusive. **Euer persönlicher
+  Betreuer? Auch inklusive.**" Dazu ein separat buchbares
+  Ausführungspaket: „Wenn du möchtest, dass Smart Host dir **Handgriffe
+  in Smart Host selber abnimmt**, haben wir dafür das **Service Plus
+  Paket**." ⚠️ Dieses Paket wird **genau einmal** im gesamten geprüften
+  Bestand genannt — ohne Preis, ohne Leistungsbeschreibung, ohne eigene
+  Produktseite (Positivkontrolle: „Service Plus" 1 Treffer über 13
+  Dateien, „Smart Host" 8–205 ✔). Das Onboarding ist ebenfalls
+  Dienstleistung: „Eure erste Kampagne erstellen wir gemeinsam".
+- **K, weil Apaleo aktiv integriert ist:** Der Marketplace führt 17 PMS,
+  darunter **Apaleo (Aktiv)** und Shiji („Bald"). Weitere Integrationen
+  u. a. Customer Alliance, Dirs21, Guestnet, Incert, **Straiv**,
+  TrustYou. Öffnungsklausel: „Es fehlt eine wichtige Integration?
+  Sprechen Sie mit unserem Team."
+- ⚠️ **Widerspruch im ausgelieferten Bestand, nicht geglättet:** Dieselbe
+  FAQ-Seite enthält zwei Bestände — der heutige CMS-Text sagt zur
+  Mindestvertragslaufzeit „**Ja, 12 Monate**", ein per JavaScript
+  aufgebauter Alt-Block im selben HTML sagt „**36 Monaten**". Welcher
+  gerendert wird, wurde **nicht gemessen** (kein Browser im Auftrag).
+  Für dieses Dossier gilt: 12 Monate laut aktuellem Bestand, 36 Monate
+  als im selben Dokument auffindbarer Altwert.
+
+### B6.2 Das Feld Revenue-Management-as-a-Service (12 Anbieter)
+
+**Einstufung:** Anbieter, die Preis-/Ertragssteuerung **als
+Dienstleistung** verkaufen, treffen unsere über Kayhan geführte
+Revenue-Achse → **W1**. Reine Software ohne Betreuung → **W2**.
+
+| Anbieter | Sitz | Modell | Einstufung |
+|---|---|---|---|
+| **HotelPartner Management AG** | Schindellegi (CH) | Dienstleistung + eigene Plattform, „erfolgsbasiert vergütet"; **Apaleo integriert** | **W1 + K** |
+| **RevenueRise Consulting** (M.-M. Krüger) | Steinhausen (CH) | Outsourcing-Mandat, software-neutral | **W1** |
+| **COM.CIERGE GmbH** | Steinhausen (CH) | Mandatsstufen bis Voll-Outsourcing | **W1** |
+| **i-Hotel Services Germany GmbH & Co. KG** | Lauda-Königshofen (DE) | „Insourcing-Philosophie", Schulung, Reputation | **W1** |
+| **revenue.rocks europe GmbH** | Berlin (DE) | RM + **Hotelsoftware & Systemarchitektur** *(auch in B5)* | **W1** |
+| **Spalteholz Hotelkompetenz** | Frankfurt (DE) | Beratung + Coaching + Seminare; „**keine** RM-Software" | **W1** |
+| **JF-Hospitality GmbH** | Berlin (DE) | Voll-Outsourcing „auch ohne eigene RMS-Software" | **W1** |
+| **TourSol GmbH** | Lechaschau (AT) | Full-Service RM + eigene „Hospitality Suite" | **W1** |
+| **cbg GmbH** | Bad Kreuznach (DE) | breite BWL-Beratung inkl. Nachfolge/Bewertung | **W1** |
+| **unitels consulting GmbH** | Eschborn (DE) | **Buchhaltung/Controlling/Interim für die „Privat-Hotellerie"** | **W1** |
+| **RoomPriceGenie AG** | Steinhausen (CH) | Software; oberste Stufe mit „dediziertem Revenue Manager" | **W1** (oberste Stufe) / W2 |
+| **Hotellistat GmbH** | Haimhausen (DE) | reine SaaS-Staffel | **W2** |
+
+**Belegte Feldbefunde:**
+
+1. **Der Einstiegskorridor für ausgelagertes Revenue Management liegt bei
+   rund 880–1.500 pro Monat** (RevenueRise „ab 879 EUR/CHF",
+   COM.CIERGE „ab CHF 990" Sparring bzw. „ab CHF 1'490" Economy);
+   Voll-Outsourcing bis „ab CHF 2'990". ⚠️ **Nur COM.CIERGE weist die
+   Steuerbasis aus** („Preise in CHF pro Monat **exkl. MWST** und
+   initialen Kosten für Analyse") — vor jedem Vergleich normalisieren,
+   sonst vergleicht man netto gegen unbekannt.
+2. **Preistransparenz ist hier deutlich höher als bei Agenturen und
+   Beratern:** 4 von 12 nennen bezifferte laufende Honorare. **Beide voll
+   transparenten Outsourcing-Anbieter sitzen in der Schweiz.**
+3. **⭐ Das gesamte Feld argumentiert gegen dieselbe Alternative — die
+   interne Stelle.** HotelPartner: „Mit **Jahreskosten ab 60.000 €** …
+   ist das eine erhebliche Investition für privat geführte Hotels";
+   RevenueRise: „Eigener Revenue Manager: **EUR/CHF 4.500–8.000**"
+   monatlich bzw. „**90.000–130.000 pro Jahr**". ⚠️ **Das sind
+   Anbieter-Selbstauskünfte über eine Vergleichsgröße, keine erhobenen
+   Marktdaten — und sie weichen um mehr als das Doppelte voneinander ab.**
+   Als Argumentationsmuster ist das trotzdem relevant: **Es ist exakt
+   unser eigenes Betreibermodell-Argument** („betreuter Betrieb statt
+   eigenes Personal"), nur auf die Revenue-Achse angewendet.
+4. **Software-Anbieter verkaufen zunehmend Personen mit** (RoomPriceGenie
+   „Expertenpartnerschaft … dedizierter Revenue Manager"; Smart Host
+   „persönlicher Betreuer … inklusive"; TourSol „Während andere **Tools
+   verkaufen**, arbeiten bei uns echte Senior Revenue Management
+   Experten"). **Die Grenze zwischen Softwareprodukt und betreuter
+   Dienstleistung löst sich im ganzen Feld auf — genau die Grenze, auf
+   der unsere USP-Säule 2 steht.**
+5. **Die Lohnt-sich-Schwelle beziffert nur einer:** RevenueRise „**ab
+   etwa 15 Zimmern**", Kernzielgruppe „20 bis 150 Zimmer"; Hotellistat
+   zieht bei „more than 100 rooms" die Grenze zum Individualangebot.
+6. **Zwei Anbieter binden sich ausdrücklich an die Privathotellerie:**
+   unitels („Dienstleistungs- und Beratungsunternehmen für die
+   **Privat-Hotellerie** und Gastronomie, gegründet 1996") — mit eigener
+   veröffentlichter Benchmark-Reihe „**Kennzahlen der Deutschen
+   Privathotellerie**"; HotelPartner („Revenue- & Profit-Management für
+   Boutique- und **inhabergeführte** Hotels").
+7. ⚠️ **Adressgleichheit, ausdrücklich als Beobachtung und NICHT als
+   Vorwurf:** RevenueRise Consulting und die RoomPriceGenie AG sind beide
+   unter **Sumpfstrasse 18, 6312 Steinhausen (ZG)** ausgewiesen, und
+   RevenueRise nennt RoomPriceGenie in seiner Tool-Empfehlungsliste —
+   neben der Aussage „wir beraten **neutral ohne Provisionsinteresse**".
+   **Belegt ist allein die Adressgleichheit und die Tool-Nennung.** Ein
+   geteiltes Domizilgebäude ist in Zug verbreitet; ein Interessenkonflikt
+   wäre eine Behauptung, die ohne Handelsregister-Prüfung nicht zulässig
+   ist. Wer die Neutralitätsaussage zitiert, stellt diese Konstellation
+   daneben — mehr nicht.
+
+**Nicht verfügbare Kanäle** (kein Negativbefund): **9seemeilen.com** —
+DNS-Auflösung schlug dreimal fehl, Positivkontrolle `example.com` → 200 ✔
+(Kanal-/DNS-Negativ dieses Rechners, keine Aussage über den Anbieter) ·
+**thehotelconsultants.com** — Wix-SPA, im Rohtext nicht auswertbar,
+**nicht** als Negativ zu lesen · Impressum RoomPriceGenie (404, Adresse
+nur aus dem Seitenfuß).
+
 ## B7. P13 — Rückprüfung des Alt-Bestands gegen den breiten Zuschnitt
 
 **Frage:** Wer wurde im Bestand **nur an der engen Produktdefinition**
@@ -1778,7 +2042,9 @@ die heute in unserem Angebot stehen (Websites, SEO/SEA, Revenue
 Management, Beratung). Die Einstufung wurde also nicht falsch vergeben,
 sondern an einem Maßstab, den wir seither gewechselt haben.
 
-*(Neu-Einstufung mit heutigem Leistungsstand: siehe B4.)*
+*(Neu-Einstufung mit heutigem, selbst nachgemessenem Leistungsstand:
+siehe **B4.3** — die Begründung der Alt-Notiz hält, ihre Schlussfolgerung
+nicht.)*
 
 ### B7.2 Die Fälle, die im Bestand gar nicht erst geprüft wurden
 

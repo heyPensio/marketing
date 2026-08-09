@@ -292,6 +292,18 @@ Mitgliederstatistik (nur per Anfrage, Entwurf liegt bei); GENESIS-
 Regionaldatenbank der Länder (regionalstatistik.de) als möglicher
 dritter Kanal für Länder-Größenklassen.
 
+**Nachtrag 09.08.2026 (Session R03-B) — dritter Kanal geprüft, N1
+bestätigt:** Die Regionaldatenbank (regionalstatistik.de) wurde
+inzwischen erhoben; sie führt für die Beherbergungsstatistik **kein
+Größenklassen-Merkmal** — auf keiner Regionalebene (Negative N6–N8,
+zweikanalig belegt). Damit bleibt die SH-Größenklassen-Schneidung nur
+über eine Sonderauswertung des Statistikamts Nord oder die Verbands-/
+IHK-Anfragen erreichbar. Der Kanal liefert dafür SH-Daten auf
+**Kreisebene** und als **Zeitreihe 2018–2024** (mittlere Betriebsgröße
+als Struktur-Proxy — ausdrücklich **keine** Größenklassen-Verteilung).
+Vollständiger Bericht mit Summenproben, Zeilen-Scope und Abrufweg:
+`fund/erhebung/regionalstatistik-groessenklassen.md`.
+
 ## 5. Quellenregister
 
 | # | Quelle | Herausgeber | Stand | Erhebungsmethode | Beleg-Typ | Abruf |
@@ -335,8 +347,12 @@ dritter Kanal für Länder-Größenklassen.
    den Aufwand wert ist (Leitsession).
 3. **Zielort-Vermerk für den Persona-Befund:** Entscheidertyp-Kandidat
    „externer Übernehmer/Käufer" (§ 3, H-B-Absatz).
-4. **regionalstatistik.de** als dritter Kanal für Länder-Größenklassen
-   ungeprüft (§ 4, Nicht-geprüft-Block).
+4. ~~**regionalstatistik.de** als dritter Kanal für Länder-Größenklassen
+   ungeprüft~~ — ✅ GEPRÜFT 09.08.2026 (R03-B): Größenklassen dort nicht
+   vorhanden, N1 bestätigt; Ersatz-Erhebung auf Kreisebene liegt vor
+   (§ 4 Nachtrag · `regionalstatistik-groessenklassen.md`). Punkt 2
+   dieser Liste (Auskunftsweg Statistikamt Nord) ist damit der einzige
+   verbliebene amtliche Weg.
 
 ---
 

@@ -316,3 +316,21 @@ Verfahrens-Positivkontrolle folgt dort.
 **PROGNOSE:** R5 (heute offen, sonst Montag): FUND3-Beratungsachse
 (nach Portfolio-Erhebung) · E-V4-Live-Recherche-Session (nach
 Shortlist) · Blueprint-Arbeitsauftrag.
+
+**Portfolio-Erhebung, User-Zuruf (~17:25, wörtlich):** „1. Lass das
+mal evaluieren was wir an Beratung anbieten. 2. er tritt im Namen der
+Firma auf er ist für alles zuständig was nicht digitalisierung KI
+oder Automations ist. 3. nein aber auch das ist mit dir zu
+evaluieren" *(Fragen dazu: 1. Beratungsleistungen real/Ziel ·
+2. Kayhan-Rolle · 3. bewusste Ausschlüsse.)* Konsequenzen:
+- Evaluation delegiert an Leitsession: 2 Explore-Agenten gestartet
+  (~17:26; heypensio · zentrale+marketing; offene Entdeckungsfrage,
+  User-Stichworte aus R3 bewusst NICHT im Suchauftrag, je Agent eine
+  Suchweg-Positivkontrolle). Synthese + Vorlage an User folgt.
+- ⚠️ **Klärungspunkt Kayhan-Rolle:** User-Zuruf „tritt im Namen der
+  Firma auf" + Allzuständigkeit nicht-digital STEHT GEGEN
+  Projektquelle-Stand „externer Berater auf Rechnung" (dort nur unter
+  Befangenheits-/Offenlegungsaspekt). Auflösung gehört in die
+  Vorlage; Rollen-Zuschnitt ist zudem Firmen-Ebene →
+  Postkorb-Kandidat (Rollen-Charta/Organigramm, ggf. StB-Frage
+  Außenauftritt Externer). Nicht stillschweigend übernehmen.

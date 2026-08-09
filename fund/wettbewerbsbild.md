@@ -10,6 +10,14 @@
 > Alt-Aussagen, die in dieser Runde nicht neu bestätigt werden konnten,
 > stehen weiter drin — gekennzeichnet als „Stand Juli 2026, nicht neu
 > bestätigt". Sie sind damit nicht widerlegt, aber auch nicht aktuell.
+>
+> **⭐ Das Papier hat seit 09.08.2026 (R05-A) ZWEI Teile:**
+> **Teil A (§§ 0–8)** beantwortet „Wer baut dieselbe **Technik**?" —
+> Stand R03-D, inhaltlich unverändert. **Teil B** (ab „TEIL B" am Ende)
+> beantwortet „Wer verkauft demselben Hotelier dieselbe **Leistung**?" —
+> die zweite Wettbewerbsachse Beratung/Agentur, entsperrt durch den
+> Portfolio-Entscheid E11/E13. **Wer nur Teil A liest, liest ein
+> Technik-Dossier, kein Wettbewerbsbild.**
 
 ---
 
@@ -37,6 +45,13 @@ im Rohtext gelesene Anbieter-Selbstauskunft" — verlässlich zitiert, aber
 inhaltlich weiterhin eine Behauptung des Anbieters.
 
 ### ⚠️ 0.0 Die wichtigste Geltungsgrenze: Dieses Papier misst EIN Segment
+
+> **➡️ Teilweise überholt durch TEIL B (R05-A, 09.08.2026).** Für
+> **Teil A** gilt dieser Abschnitt unverändert weiter. Die hier als
+> „nicht erhoben" geführte zweite Achse ist inzwischen **teilweise
+> erhoben** — was genau, steht in **B1**; die Einstufungen von
+> Brandnamic, Smart Host und Everlast sind in **B3/B4/B7** neu vergeben
+> und gehen den Absätzen unten vor.
 
 **Erhoben wurde ausschließlich der Markt für Self-Check-in-, Kiosk- und
 Guest-Journey-TECHNIK.** Das war der Zuschnitt des Alt-Dossiers vom
@@ -70,6 +85,10 @@ Dasselbe gilt sinngemäß für **Everlast** (das eigene
 Agenturaufbau-Programm ab 18.09.2026) und für **Smart Host** (DE,
 399 €/M, verkauft wörtlich „From Data to Regulars" — Zahlenanalyse/
 Stammgast, im Alt-Dossier nur als Modul-Überlappung geführt).
+**➡️ Für Everlast ist dieser Satz falsch — richtiggestellt in B3:**
+Everlast steht auf der **anderen Marktseite** (verkauft an uns, nicht an
+Hoteliers) und ist weder Wettbewerber noch Kanal. Für Brandnamic und
+Smart Host siehe die belegten Neu-Einstufungen in B4/B7.
 
 **Beleg-Stand zum Portfolio-Zuschnitt (09.08.2026):** Das verabschiedete
 Positionierungspapier führt in seinem Dienstleistungsportfolio
@@ -1215,3 +1234,595 @@ Misstrauen gegen die Quelle.
 | 09.08.2026 | R03-D | Erstfassung. Delta-Erhebung gegen `marktrecherche-apaleo-store-2026-07.md` (Stand 20.07./28.07./29.07./01.08.2026). Apaleo Store vollständig neu erhoben (267 Apps, BYTE); Straiv, book your key, LIKE MAGIC aktualisiert; acht bisher nicht geführte Anbieter aufgenommen; Gegenprobe gegen die fünf USP-Säulen. |
 | 09.08.2026 | R03-D | Geltungsgrenze § 0.0 ergänzt (Segment-Zuschnitt) nach User-Einwand; P12/P13 aufgenommen. |
 | 09.08.2026 | R03-D | **Nach Fundstellen-Nachprüfung überarbeitet.** Korrigiert: LIKE-MAGIC-Preise sind Mindestmonatsgebühren neben einem unveröffentlichten Zimmerpreis, Kiosk ist kostenpflichtiges Add-on (§ 3.3) · Voice-KI-Band NICHT re-bestätigt, Ränder heute weiter (§ 4.5) · Schließanlage/Gebäudetechnik stecken NICHT im book-your-key-Monatspreis (§ 5.1) · Shiji-Datum und Sitemap-Spanne richtiggestellt (§ 3.1) · LIKE-MAGIC-Größenbänder summieren auf 27 von 29 (§ 3.3) · „zwei unabhängige Kanäle" → zwei Ausspielwege derselben Anbieterangabe · Apaleo-Negativ für book your key/Jack-In/ILOCA auf „nicht im Store gelistet" zurückgenommen (§ 5.6) · Auswahlkriterium der 69er-Prüfliste präzisiert (§ 4.1) · nicht reproduzierbare Positivkontroll-Zahlen entfernt · § 6.5 nach „widerlegt" und „überholt" getrennt · drei Zitate zeichengenau nachgezogen. |
+| 09.08.2026 | R05-A | **TEIL B angebaut: zweite Wettbewerbsachse „Beratung & Agentur" (P12/P13 aus § 7).** Teil A (§§ 0–8) inhaltlich unverändert; ergänzt wurden nur der Lese-Hinweis im Kopf, die Vorwärtsverweise in § 0.0 und die P12-/P13-Zeilen in § 7. Neu in Teil B: Einstufungsraster mit expliziten Vergabelinien (B2) · Erhebung des Beratungs-/Agentur-Feldes (B4–B6) · Rückprüfung der Alt-Einstufungen gegen den breiten Zuschnitt (B7) · Everlast-Einordnung richtiggestellt (B3) · aktualisierte Geltungsgrenze (B1). Fundstellen-Nachprüfung der übernommenen R04-Kernaussagen: `protokolle/R05-A-fundstellen.md`. |
+
+---
+---
+
+# TEIL B — Zweite Wettbewerbsachse: Beratung & Agentur
+
+> **Warum ein eigener Teil und keine Einarbeitung in §§ 1–7:** Teil A misst
+> die Frage „Wer baut dieselbe Technik?". Teil B misst die andere Frage,
+> die § 0.0 aufgeworfen hat: **„Wer verkauft demselben Hotelier dieselbe
+> Leistung?"** Das sind verschiedene Grundgesamtheiten, verschiedene
+> Beschaffungswege und verschiedene Belege. Teil A bleibt deshalb
+> unangetastet — wer Zahlen aus Teil A zitiert, zitiert weiter den Stand
+> R03-D.
+>
+> **Erhebung:** Session R05-A (Ben Beckman) am 09.08.2026, sieben
+> Recherche-Stränge über Subagenten plus eine von der Session selbst
+> gelesene Fundstellen-Nachprüfung. **Kein Browser-Kanal** (Chrome war
+> dieser Session nicht zugeteilt und wurde nicht benötigt), **keine
+> Kontaktaufnahme** zu einem der geprüften Anbieter.
+>
+> **Beleg-Typen:** wie in § 0 — Leseweg (BYTE / ROH / AGENT) getrennt von
+> Quellenart (SELBST / DRITT / REGISTER / REVIEW / EIGEN-DOKU). Neu
+> hinzu kommt **EIGEN-DOKU** für unsere eigene Projektdokumentation; sie
+> ist für Aussagen über UNSER Angebot die Primärquelle, für Aussagen über
+> Dritte dagegen nur eine Sekundärstufe.
+
+## B1. Geltungsgrenze dieses Teils
+
+*(wird am Ende der Erhebung gesetzt — siehe unten)*
+
+## B2. Das Einstufungsraster und seine Vergabelinien
+
+**Der Maßstab, gegen den gemessen wird**, ist nicht mehr das Produkt,
+sondern das verabschiedete Portfolio: `fund/positionierungspapier.md`
+§ 6 einschließlich des **Nachtrags-Kastens vom 09.08.2026 (E11/E13)** —
+EIN Angebot aus Technik, Betrieb, Beratung und Agentur-Leistungen —
+zusammen mit der Bestandserhebung
+`protokolle/R04-erhebung-beratungsbestand.md`. Die daraus übernommenen
+Kernaussagen sind an ihren Rohquellen nachgeprüft; Protokoll:
+`protokolle/R05-A-fundstellen.md`.
+
+**Die vier Einstufungen (gelten für ALLE Kandidaten, alt wie neu):**
+
+| Code | Bedeutung |
+|---|---|
+| **W1** | **Leistungs-Wettbewerber.** Verkauft unserer Zielgruppe mindestens eine Leistung, die unser Portfolio **real erbringt** oder die dort **mit benanntem Träger und dokumentierter Zusage** geführt wird (Papier-Kasten § 6, Belegstufen „real erbracht" bzw. „über Kayhan" — dort liegt mit E-T7 eine namentliche Zusage vor, wenn auch ohne Vertrag). |
+| **W2** | **Anspruchs-Wettbewerber.** Überschneidung besteht **nur** mit Posten, die unser Portfolio **ohne Träger und ohne Zusage** führt — die „im Aufbau"-Leistungen (Social, laufendes SEO/Content, Ads, Bewertungsmanagement). Er nimmt uns kein Geschäft weg, das wir hätten; er besetzt das Feld, in das wir wollen. |
+| **K** | **Kanal.** Hat belegten strukturellen Zugang zu unserer Zielgruppe **und** eine erkennbare Vermittlungs-/Partnerform (Partnerprogramm, Verzeichnis, Mitgliederkanal, Ökosystem). |
+| **N** | **Raster nicht anwendbar.** Der Anbieter steht auf einer anderen Marktseite (er verkauft an uns, nicht an unsere Zielgruppe) oder bedient nachweislich eine andere Zielgruppe. **N ist kein schlechter Wert, sondern eine eigene Kategorie** — „passt nicht ins Raster" wird nicht zu „unwichtig" geglättet. |
+| **—** | **Keine Überschneidung am heutigen Portfolio.** Gleiche Zielgruppe, aber die Leistung liegt außerhalb unseres Angebots (Beispiel: reiner MICE-/Firmenkunden-Vertrieb). Getrennt von N zu führen, weil sich das **allein durch eine Portfolio-Erweiterung ändern kann** — genau der Fall, der dieses ganze Teil-B ausgelöst hat. |
+
+**W und K schließen sich ausdrücklich nicht aus.** „Wettbewerber UND
+Kanal" ist die erwartbare Doppel-Einstufung in einem Markt, in dem
+Agenturen Technik weiterempfehlen und Technikanbieter Agenturen brauchen.
+
+### Vergabelinien — explizit, weil dieselben Gründe mehrfach fallen
+
+*(CLAUDE.md: Vergabelinien gehören ins Dokument, sobald derselbe
+Zuordnungsgrund mehr als einmal vergeben wird — implizite Linien driften
+bei gleicher Sachlage auseinander.)*
+
+- **L-B1 — Aufbau-Posten begründen nur W2, nie W1.** Unsere
+  Agentur-Leistungen sind laut Papier-Kasten § 6 „im Aufbau" und tragen
+  dort den Vermerk, dass es dafür **keinen Träger und keine Zusage** gibt.
+  Daraus kann kein Leistungs-Wettbewerb entstehen. Ohne diese Linie wäre
+  jede Marketing-Agentur im DACH-Raum automatisch W1 — eine Zahl, die
+  beeindruckt und nichts aussagt.
+  ⚠️ **Randschärfung nach der Fundstellen-Nachprüfung (N-6):** Für
+  **technisches Onpage-SEO im Rahmen des Website-Baus** gilt L-B1
+  **nicht** — das ist im Bestand mit Maßnahmenliste, Aufwandsschätzung
+  und Lieferumfang-Zusage dokumentiert und zählt damit als real erbracht
+  (W1). Nur das **laufende** Suchmaschinen-, Social-, Ads- und
+  Bewertungsmarketing ist Aufbau-Posten (W2).
+- **L-B2 — Zielgruppen-Linie.** Wer sich in seiner eigenen Zielgruppen-
+  Beschreibung ausschließlich an Ketten, Konzerne, Investoren oder
+  Betreibergesellschaften richtet, bekommt **N**, nicht W. Maßgeblich ist
+  der **Wortlaut der Anbieterseite**, nicht unsere Vermutung über seine
+  Kundenliste.
+- **L-B3 — Kanal-Linie.** **K** wird nur bei belegter Struktur vergeben
+  (Partnerprogramm, öffentliches Verzeichnis, Mitgliederkanal,
+  Store/Ökosystem). Bloße Branchennähe („die kennen auch Hoteliers")
+  reicht nicht — sonst ist jeder Anbieter ein Kanal und der Begriff wertlos.
+- **L-B4 — Selbstauskunfts-Linie.** Für die **Einstufung** genügt der
+  Marktauftritt: Was ein Anbieter öffentlich als seine Leistung bewirbt,
+  macht ihn zum Wettbewerber um dasselbe Budget — auch wenn ungeprüft
+  bleibt, wie gut er es liefert. Für jede **Fähigkeits-Aussage** gilt
+  dagegen unverändert die Regel aus § 0: Anbieter-Selbstauskunft ist eine
+  Hypothese. Beide Sätze stehen nebeneinander und werden nicht vermischt.
+- **L-B5 — Alt-Einstufungen erben nichts.** Eine Einstufung aus dem
+  Alt-Bestand wird **nicht fortgeschrieben**, sondern gegen dieses Raster
+  neu vergeben; die alte Einstufung wird mit Datum und Begründung zitiert,
+  damit die Änderung nachvollziehbar bleibt (B7).
+- **L-B6 — Fehlende Erhebung ist kein Negativ.** Ein Anbieter, der hier
+  nicht steht, ist **nicht geprüft** — nicht „kein Wettbewerber". Der
+  Suchraum steht in B1.
+
+## B3. Everlast — Richtigstellung einer Einordnung aus § 0.0
+
+**§ 0.0 stellt Everlast neben Brandnamic und Smart Host** („Dasselbe gilt
+sinngemäß für Everlast") und legt damit nahe, Everlast sei unter dem
+breiten Portfolio-Zuschnitt ebenfalls „Wettbewerber und Kanal zugleich".
+**Das trifft nicht zu, und zwar aus einem Grund, der das Raster selbst
+betrifft: Everlast steht auf der anderen Marktseite.**
+
+**Was Everlast belegbar ist** (selbst gelesen 09.08.2026; Leseweg BYTE,
+Quellenart EIGEN-DOKU — die zugrunde liegenden Vertragsunterlagen selbst
+hat diese Session **nicht** eingesehen):
+
+- **Everlast Consulting GmbH**, Rißstraße 17, 88400 Biberach an der Riß,
+  GF Viktor Schöck, HRB 748517 Amtsgericht Ulm — Anbieter des Programms
+  **„Everlast KI-Agentur Kickstart Pro"**, **8.400 € netto / 9.996 €
+  brutto**, sechs Monatsraten, **Beratungsbeginn 18.09.2026**, feste
+  Laufzeit sechs Monate bis ~März 2027. Angebot **AG12838** vom
+  25.07.2026, **angenommen durch den User am 28.07.2026**.
+  Quelle: `heypensio\firzlaff\unternehmensaufbau-heypensio.md` § 3
+  (selbst im Rohtext gelesen). Schwerpunkt **Agenturaufbau, Marketing,
+  Kundengewinnung**; Ansprechpartner Deniz Demirer
+  (`protokolle/R00-extraktion-strategie.md` F1.2 — ⚠️ trägt den
+  VERBATIM/ungeprüft-Vermerk der R00-Extraktionen).
+- **§ 11 (1) der AGB:** in der Zusammenarbeit entstehende „Logos, Content
+  und Webpräsenzen" darf Everlast **ohne Vergütung veröffentlichen** —
+  Warnvermerk in `zentrale\namensentscheid.md` (selbst gelesen) und
+  offener Punkt 7 im Positionierungspapier. **Die AGB-Klausel selbst ist
+  nicht im Originaltext gegengelesen worden.**
+- Everlast ist außerdem die **Quelle einer nicht-neutralen
+  Zielgruppen-Empfehlung** („inhabergeführte Hotels mit 40–70
+  Mitarbeitern, Projektvolumen 10–40 T€", 23.07.2026) — der Bestand
+  vermerkt dazu selbst: „Die Empfehlung ist nicht neutral —
+  Verkaufsgespräch für ein 8.400-€-Programm"
+  (`protokolle/R00-extraktion-strategie.md` F3.1).
+
+**Einstufung: N — Raster nicht anwendbar** (L-B2). Everlast verkauft an
+**uns**, nicht an Hoteliers; er ist Lieferant, Vertragspartner und
+Rechte-Randbedingung, aber kein Anbieter im Hotel-Beratungsmarkt. Weder
+W1 noch W2 noch K.
+
+**Drei Dinge, die die N-Einstufung ausdrücklich NICHT entwertet:**
+
+1. **Ein Programm, das den Aufbau von KI-Agenturen lehrt, erzeugt
+   potenziell Wettbewerber.** Ob ein Mitläufer des Jahrgangs 2026/27 auf
+   die Hotellerie zielt, ist **nicht erhoben** und über öffentliche
+   Quellen kaum erhebbar. Als Beobachtungsposten vermerkt, nicht als
+   Befund.
+2. **Die § 11-Randbedingung bleibt in voller Schärfe bestehen** und ist
+   ein MARKE-Thema, kein Wettbewerbsthema (Positionierungspapier § 7
+   Punkt 7; `zentrale\namensentscheid.md`).
+3. **Die Befangenheits-Markierung der Zielgruppen-Empfehlung bleibt
+   gültig** — sie ist der Grund, warum die Persona-Frage über FUND2
+   eigenständig validiert wird und nicht über die Empfehlung eines
+   Programmanbieters.
+
+## B4. Das Feld der Hotel-Marketing-Agenturen (DACH + Südtirol)
+
+**Erhebung:** ein Recherche-Agent, 09.08.2026, **16 Anbieter** (14 DE/AT/CH,
+2 Südtirol — Südtirol ist deutschsprachiger Nachbarmarkt, nicht DACH, und
+getrennt markiert). Leseweg durchgehend **ROH**: Rohtext per
+`curl.exe -sL --compressed` geladen, deterministisch entmarkupt und
+gelesen; **kein WebFetch-Zusammenfasser ist Quelle einer Zahl oder eines
+Zitats**. Quellenart durchgehend **SELBST** — alle Leistungs-,
+Zielgruppen- und Preisangaben sind Anbieter-Selbstauskünfte. **Kein
+Eintrag ist durch Register, Redaktion oder Bewertungsplattform
+gegengeprüft.**
+
+⚠️ **Keine Vollerhebung.** Das Sample stammt aus vier Suchläufen und hat
+eine erkennbare **Alpen-/Ferienhotellerie-Schlagseite**: kein einziger
+Treffer aus Berlin, Hamburg, Leipzig oder Dresden; die Stadt- und
+MICE-Hotellerie ist mit einem Anbieter unterrepräsentiert. Das ist eine
+Eigenschaft der Suchbegriffe, **kein Marktbefund** (L-B6).
+
+### B4.1 Einstufung der erhobenen Anbieter
+
+| Anbieter | Sitz | Rechtsform | Berührt an unserem Portfolio | Einstufung |
+|---|---|---|---|---|
+| **anfang.team** (Anfang Vertriebsmanagement e.U.) | Kematen i. T. (AT) | e.U. | Systemauswahl **inkl. PMS**, Implementierungsbegleitung + Training, Pricing/Revenue, Website-Projektmanagement | **W1 + K** |
+| **Echtzeitlos** (Nicolosi & Schwanebeck GbR) | Essen (DE) | GbR | Website, **PMS-Schnittstellen**, IBE-Verknüpfung, CRM-/Loyalty-Prozesse, SEO | **W1** |
+| **48 concepts** (Inh. R.-P. Bartsch) | Ahaus/Gronau (DE) | Einzelunternehmen | **„Einführung von Buchungsmaschinen & PMS Systemen"**, Website, Ads, Social, Newsletter | **W1** |
+| **Hotelmarketing Gruppe GmbH** | München (DE) | GmbH, HRB 294574 | Website, **CI/Logo/Corporate Design**, Markenanmeldung, Domainstrategie, Technologie-Beratungsmodul, Reputation | **W1 + K** |
+| **eTouristik** (Michael Egger e.U.) | Gnadenwald (AT) | e.U., FB 453940i | Website, **Befüllung/Wartung von Casablanca, Seekda, Feratel**, Gästekorrespondenz, Bewertungen | **W1** |
+| **Anders und Seim Neue Medien GmbH** | Langen (DE) | GmbH, HRB 53180 | Website/Webdesign, SEO, „GEO" | **W1** |
+| **E621 GmbH** | Bern (CH) | GmbH | Markenaufbau, **Renaming/Rebranding**, CI, Website, Organisationsentwicklung/KI-Integration | **W1** |
+| **Heim Hotelmarketing** | Luzern (CH) | nicht ausgewiesen | Marketingkonzept, Website, Fullservice; Kooperationsvermarktung | **W1** |
+| **Gasser Miesch GmbH** | Stettfurt (CH) | GmbH | Branding, Website, Social; Partnernetz | **W1 + K** |
+| **Hotelmarketing Agentur M&P** | München (DE) | nicht belegt | Website (WordPress), Social, E-Mail | **W1** |
+| **JMC Hotelmarketing** (J. Uherek) | Saarbrücken (DE) | nicht eindeutig | SEO, Ads, Social, Content, „Revenue Strategien" | **W1** |
+| **maxonline® Marketing hfw GesmbH** | Leiben (AT) | GesmbH, FN 659087 x | SEO/GEO, Website, Paid Ads | **W2** |
+| **Die Hotelberater GmbH** | Innsbruck (AT) | GmbH | Distribution & Revenue, Social, Performance, „KI & Datensupport" | **W1** (Zielgruppe unerhoben, s. u.) |
+| **Plaschke Internet Consulting** | Meran (IT) | nicht belegt | Ads, SEO/GEO, Newsletter, Coaching/Beratung | **W2** |
+| **99tales GmbH** (→ Rebrand „Advertos") | Brixen (IT) | GmbH | Content, Social, Ads, Landingpages; eigene Reporting-Software | **W2** |
+| **TC Hotel Marketing** (T. Christierson) | Ottweiler (DE) | Einzelunternehmen | Hotelvertrieb, MICE-Sales, Hotelanalyse | **—** (kein Portfolio-Schnitt) |
+
+**Warum so viele W1:** Die Vergabelinie L-B1 ordnet **Website-Bau und
+-Betrieb** unserem real erbrachten Bestand zu (Pilot-Übernahme beider
+Häuser, belegt in `protokolle/R05-A-fundstellen.md` N-3/N-4). Wer
+Hotel-Websites baut, ist damit Leistungs-Wettbewerber — auch wenn er
+sonst nur Kampagnen macht. **W2 bekommt nur, wer sich auf laufendes
+Kampagnen-/Sichtbarkeitsmarketing beschränkt.**
+
+### B4.2 Die drei Anbieter, die uns wirklich betreffen
+
+**anfang.team (AT) — der Torwächter, und damit der unangenehmste Fund
+dieser Runde.** Er ist keine Agentur im üblichen Sinn und sagt das selbst:
+„**Kein Agenturmodell.**" Er verkauft **Systemberatung**: „System-Audit &
+IST-Analyse" (1–2 Tage vor Ort), „Anforderungsanalyse & Empfehlung",
+„**Ausschreibung & Anbietervergleich**", „Implementierungsbegleitung &
+Training" — das ist Zug um Zug unsere PMS-Einführung samt Einweisung.
+Entscheidend ist seine Position: **er sitzt in der Auswahl VOR
+Systemanbietern wie uns** und wirbt mit Neutralität — „Wir beraten
+neutral, **ohne Provision, ohne Produktbindung**" / „Wir erhalten **keine
+Provision von Systemanbietern**." Seine veröffentlichte Empfehlungsliste
+führt PMS (Casablanca, Elite, Protel/Protel Air, ASA, Mews),
+Channel Manager, Booking Engines, Revenue-Systeme (Rateboard,
+RoomPriceGenie, Smartpricing, Duetto) und CRM (**Smart Host**, Additive)
+— **wir stehen dort nicht.** Wer bei dessen Kunden nicht gelistet ist,
+kommt gar nicht erst in die Ausschreibung.
+**Preis (der einzige öffentliche im ganzen Feld):** „Hotelmarketing-
+Beratung … **ab etwa 1.500 Euro monatlich** für ein begleitendes
+Retainer-Modell mit wöchentlicher Abstimmung, monatlichem Besuch und
+laufender Koordination"; Mindestempfehlung „**mindestens 12 Monate**".
+⚠️ **Ob netto oder brutto, sagt die Quelle nicht** — die Zahl darf nicht
+ohne diesen Vorbehalt weiterverwendet werden.
+⚠️ **Zielgruppen-Grenze:** „ab 3 Sterne und **ca. 1 Mio. Euro
+Jahresumsatz** … bis zu Hotelketten". Das schneidet die kleinsten
+Privathäuser ab — er trifft nur den oberen Rand unserer Zielgruppe.
+
+**Echtzeitlos (DE) — die Grenze zwischen Agentur und Systemanbieter
+verschiebt sich.** Wörtlich: „Mit neuen **Schnittstellen zum PMS** ändern
+wir das Spiel: Wir pushen die echten Verfügbarkeiten, Zimmerpreise und
+Raten Ihres Hotels direkt und sicher in die führenden KI-Plattformen" —
+technisch über „eine geschützte und moderne Verbindung über das **Model
+Context Protocol (MCP)**", die „Ihre tagesaktuellen Raten und freien
+Zimmer direkt aus **Ihrer Buchungsmaschine**" liest. Dazu „Technische
+Verknüpfung der Hotel IBE" und „Einführung und Weiterentwicklung von
+**CRM- und Loyalty-Prozessen**". ⚠️ **Zielgruppen-Vorbehalt:** Dieser
+Anbieter definiert sich **nicht** über Privat-/Inhabergeführtheit,
+sondern über Haustypen und „Häuser jeder Größe" — er steht wegen der
+Leistungstiefe im Dossier, nicht wegen Zielgruppendeckung.
+
+**48 concepts (DE) — der nächstliegende Zielgruppen-Zwilling.** „Wir
+helfen **Privathotels**, mehr Direktbuchungen zu generieren, unabhängiger
+von OTAs zu werden"; Kundschaft „Privathotels, Ferienhotels,
+Boutiquehotels, Wellnesshotels und Landhotels"; Kapazitätsgrenze als
+Verkaufsargument: „betreuen nur **maximal 5 Hotels zeitgleich**".
+Leistungsseitig überschneidet er sich direkt: „**Einführung von
+Buchungsmaschinen & PMS Systemen**", Systemnennung „Wir arbeiten mit
+**Mews, OnePageBooking und HubSpot**". Selbstauskunft zur Historie:
+„Seit 2022 … bereits über 8.000 Direktbuchungen".
+
+### B4.3 Feldbefunde mit Belegkraft
+
+1. **Preisintransparenz ist der Normalzustand: 15 von 16 Anbietern
+   veröffentlichen keinen Preis.** Der einzige Anker im gesamten Feld
+   sind die 1.500 €/Monat von anfang.team (Steuerbasis unbekannt).
+   ⚠️ **Aus einem einzigen Datenpunkt lässt sich kein Preisniveau für das
+   Feld ableiten** — wer aus dieser Erhebung eine Preisspanne für
+   MKT-HANDEL destilliert, überdehnt den Befund. Zweiter belegter
+   Orientierungswert, aber ein **Kunden-Budget, kein Honorar**: „3–6 %
+   des Umsatzes für Vertrieb und Marketing … in der Ferienhotellerie".
+2. **Statt Preisen werden Ergebnisversprechen veröffentlicht** — bei vier
+   Anbietern in Zahlenform (u. a. „⌀ 950 % ROAS", „10 € zurück pro
+   investiertem Euro", „CPC oft unter 0,40 €"). **Nur einer schränkt
+   ein** („Erfahrungswerte, nicht … garantierte Ergebnisse"). Für unsere
+   eigenen Außentexte ist das ein Muster, dem wir bewusst **nicht**
+   folgen — die Belegpflicht je Satz (Papier-Kasten § 6,
+   Formulierungs-Leitplanke) gilt unabhängig davon, was das Feld tut.
+3. **Ein etabliertes gemeinsames Zielgruppen-Vokabular existiert:**
+   „Privathotels", „inhabergeführt", „familiengeführt", „unabhängige
+   Hotels", „Ferienhotellerie". **Das ist ein direkter Eingangswert für
+   FUND4 (Kern-Wording)** — diese Wörter sind besetzt, nicht frei.
+4. **Zwei Anbieter grenzen kleine Häuser ausdrücklich aus** (Umsatz-
+   schwelle 1 Mio. €; „speziell für größere 4- und 5-Sterne-Hotels").
+   Am unteren Rand der Privathotellerie ist das Feld also **dünner
+   besetzt, als die Anbieterzahl vermuten lässt.**
+5. **Software-Bündelung findet praktisch nicht statt.** Genau ein
+   Anbieter verkauft eigene Software (Reporting-Tool), einer betreibt
+   eine Plattform-/KPI-Schicht. **Kein einziger verkauft PMS,
+   Buchungsmaschine, digitale Gästemappe oder Self-Check-in.**
+6. **⭐ Der Weißraum:** In 16 Rohtexten **null Treffer** für Gästemappe
+   und Self-Check-in (Positivkontrolle „Hotel" traf auf jeder Seite,
+   13–284 Treffer). Die Agenturen halten sich von dem fern, was Betrieb
+   ist statt Kampagne. ⚠️ **Deutung ausdrücklich als Einschätzung
+   markiert:** Das spricht eher für Partnerschafts- als für
+   Wettbewerbspotenzial — belegt ist aber nur die Abwesenheit in
+   16 Anbieter-Selbstdarstellungen, nicht die Ursache. Und der Suchraum
+   waren **Marketingagenturen**; reine Gästemappen-Anbieter wurden
+   auftragsgemäß nicht erhoben und fehlen diesem Bild (B1).
+7. **Der KI-/GEO-Umbau ist bereits vollzogen, nicht angekündigt:** Bei
+   **8 von 16** steht „GEO"/KI-Sichtbarkeit als eigene Leistungsposition.
+   Wer 2026 mit „KI" als Neuheit wirbt, sagt nichts Unterscheidendes mehr.
+8. **Das Feld besteht überwiegend aus Kleinstbetrieben** — sechs
+   Einzelunternehmen/Personengesellschaften; die einzige zweistellige
+   Teamangabe im Sample lautet „9 Team-Mitglieder".
+
+### B4.4 Negative dieses Strangs, mit Suchraum und Positivkontrolle
+
+| Gegenstand | Suchraum / Methode | Positivkontrolle |
+|---|---|---|
+| Öffentliche Preise | Start-/Leistungs-/Impressumsseiten aller 16, Volltext | „Hotel" traf auf jeder Seite (13–284); zusätzlich Mechanik-Probe: dasselbe Muster fand den vorhandenen Betrag bei anfang.team ✔ |
+| Eigene verkaufte Hotel-Software | dieselben Seiten, Muster „eigene Software/unsere eigene/selbst entwickelt" + Produktkategorien | 1 Treffer gefunden (99tales) — das Muster funktioniert ✔ |
+| Gästemappe / Self-Check-in bei Agenturen | dieselben 16 Volltexte | „Hotel" auf jeder Seite ✔ |
+| Mitarbeiterzahlen | Start-/About-/Impressumsseiten | 1 belegter Fall („9 Team-Mitglieder") ✔ — Namenszählungen wurden **nicht** als Personalstand gewertet |
+| Anbieter aus Berlin/Hamburg/Leipzig/Dresden | vier WebSearch-Läufe ohne Regionsbindung | Suche lieferte 16 Anbieter aus sieben Regionen ✔ — **das Negativ misst die Suchbegriffe, nicht den Markt** |
+
+**Kanäle, die nicht verfügbar waren** (nicht als Negativ gewertet):
+Impressum Plaschke (3× HTTP 403, serverseitige Sperre) · Impressum
+99tales (404 unter geratenem Pfad) · Über-uns der Hotelberater (404 —
+**deren Zielgruppen-Selbstbeschreibung bleibt damit unerhoben**) ·
+Detailseite „Digitale Prozesse" von 48 concepts (404) · Seite
+„Leistungspakete" von E621 (404 — **das Preis-Negativ gilt für diese
+Seite ausdrücklich nicht**).
+
+## B5. Hotel-Unternehmensberatung: Operations, Nachfolge, Expansion, Systemauswahl
+
+**Erhebung:** ein Recherche-Agent, 09.08.2026, **15 Anbieter** (DE/AT/CH),
+~35 abgerufene Seiten. Leseweg **ROH** (curl → entmarkupt → selbst
+gelesen), Quellenart **SELBST** (Anbieterseiten inkl. Pflichtimpressum).
+**Kein einziger Registerauszug gezogen** — alle HRB-/FN-Angaben sind
+Impressums-Selbstauskünfte. Für Außentexte gilt unverändert: Firmierung
+von Vertragspartnern nur per Registerauszug.
+
+### B5.1 Einstufung
+
+| Anbieter | Sitz | Berührt an unserem Portfolio | Einstufung |
+|---|---|---|---|
+| **Bräu Innovation & Consulting** (Einzelunternehmen) | Garmisch-Partenkirchen (DE) | Prozessberatung (Front Office, Housekeeping, F&B), Controlling, **Digitalisierung + Systemintegration** | **W1** |
+| **Dittlmann & Partner \| Inter Change Concept** (PartG) | Waldkirchen (DE) + Obermumpf (CH) | Prozess/Digitalisierung, Nachfolge, Betriebsübergabe, Sanierung — **plus Förderhebel** | **W1** |
+| **42 GmbH** | Hannover (DE) | „Digitalisierungsberatung für Hotels … von PMS über Kassensysteme bis zur digitalen Gästereise"; verkauft Fremdsysteme | **W1 + K** |
+| **TH-Experts** (Frankenhauser/Sock) | Ulm (DE) + Wien (AT) | PMS-Auswahl, -Wechsel, **-Einführung**; ausdrücklich „kleine Hotels, Pensionen und Gasthöfe" | **W1** |
+| **revenue.rocks europe GmbH** | Berlin (DE) | „Auswahl, **Integration, Setup und laufende Steuerung** der Systeme" | **W1** |
+| **melevo** (S. Mauch) | Reichenbach (DE) | Softwareauswahl + Implementierungsbegleitung, **Aufgabenübernahme in der Hotelsoftware**, Website, Marketing | **W1** |
+| **ibc Hotel Management** (J. Schmidt-Gehring) | Wiesbaden (DE) | Organisations-/Abteilungsoptimierung, Kontrollsysteme, Preismanagement, Interim | **W1** |
+| **Unternehmermanufaktur GmbH** | Burghausen (DE) | Nachfolge, Sanierung, Personal — **plus Förderberatung** | **W1** |
+| **Cordes Rieger Consulting GmbH** | Kiel (DE) | Prozessoptimierung, Nachfolge, Controlling, Preis-Optimierung | **W1** |
+| **Hoffmann Hotel Consult & Betriebs GmbH** | Freital (DE) | Ist-Analyse aller Abteilungen, Preisstrategie, Direktbuchungs-/Vertriebsoptimierung | **W1** |
+| **Schmid-Tourismusberatung.at GmbH** | Seefeld (AT) | Organisationsberatung, Controlling, Pricing/Yield — **ohne Technik** | **W1** |
+| **anfang.team** | Kematen (AT) | *(bereits in B4.2 geführt — erscheint in beiden Strängen)* | **W1 + K** |
+| **Prodinger Tourismusberatungs GmbH** | Zell am See (AT) | Nachfolge/Übergabe, Bewertung, Revenue — steuerberatungsnah | **W1** |
+| **HOGARAT – Carduck & Partner** | Wiesbaden (DE) | Nachfolge, Gutachten, Betreiberwechsel; Zielgruppe auch Ketten/Eigentümer | **W1** (Rechtsform unbelegt) |
+| **TOURISMUSEXPERTEN** (bService Schweiz GmbH) | Kreuzlingen (CH) | Strategie/Vertrieb/Digitalisierung; Schwerpunkt faktisch Marketing | **W1** |
+
+### B5.2 ⭐ Der wichtigste Befund: geförderte Beratung greift USP-Säule 5 an
+
+Unsere Säule 5 heißt „Förder-Begleitung" und gilt im Positionierungspapier
+als die Säule **ohne Gegenbefund** (§ 5.5 in Teil A: „kein Gegenbefund").
+**Für das Technik-Segment stimmt das weiterhin. Für die Beratungsachse
+nicht.** Im Beratungsmarkt ist Förderung kein Zusatznutzen, sondern für
+einen Teil des Feldes **das Verkaufsargument**:
+
+- **Dittlmann & Partner** führt die Förderquote in der Seitenüberschrift
+  („BAFA-Beratung Hotel & Gastronomie: **50-70 % Förderung sichern**")
+  und ist mit **prüfbaren Kennnummern** akkreditiert: „Eingetragen in die
+  KfW-Beraterdatenbank, bei der BAFA für Unternehmensberatungen
+  (**ID: 130986**) Akkreditiert vom Bundesministerium für Arbeit und
+  Soziales für systemisches Coaching im Programm INQA … (**IC2336101**)
+  mit **80 % Zuschuss**." Dessen „Modul 6: Digitalisierung & Prozesse:
+  Systemlandschaft, Schnittstellen, Standards, Prozesszeiten" deckt
+  inhaltlich genau unsere Überschneidung ab — **bezuschusst**.
+- **Unternehmermanufaktur** betreibt eine eigene Förderprogramm-Übersicht
+  und referiert die Konditionen exakt: BAFA „max. 3.500 Euro (max. 5
+  Beratungstage) / 50 % oder 80 %"; INQA „max. 14.400 Euro (12
+  Beratungstage) / 80 %"; NRW Potentialberatung „max. 3.200 Euro / 40 %";
+  RLP „500 Euro/Beratungstag"; Bayern Vorgründungscoaching „max. 8.000
+  Euro / 70 %". Werbeaussage: „Förderzuschüssen **bis zu 80 %**".
+- **HOGARAT** führt Honorar und Zuschuss auf einer Seite zusammen und
+  nennt RKW Hessen und KfW-Beraterbörse — allerdings **ohne
+  Kennnummern**, also nummernlose Selbstauskunft.
+- **Verfahrenswissen wird selbst als Leistung verkauft**, nicht nur der
+  Zuschuss: „Die Beratung darf erst nach Erhalt des
+  BAFA-Informationsschreibens beginnen; **als Beginn gilt bereits der
+  Abschluss eines Beratungsvertrags**."
+
+**Was daraus folgt (und was ausdrücklich NICHT folgt):**
+- **Belegt:** Ein Teil des Beratungsfeldes verkauft dieselbe
+  Digitalisierungs-/Prozessberatung mit 50–80 % staatlichem Zuschuss auf
+  das Honorar. Unsere Beratungsleistung tritt gegen bezuschusste Angebote
+  an.
+- **⚠️ Offen und ungeprüft:** Ob unser eigenes Leistungsbild
+  BAFA-förderfähig wäre und ob eine Berater-Autorisierung für uns
+  erreichbar ist. **Das ist keine Empfehlung, sondern ein
+  Rechercheposten** (P14, § 7). Der Bestand kennt bisher nur die
+  Förderung der **Kunden-Hardware** (WTSH/DKU), nicht die Förderung
+  **unserer Beratung** — zwei verschiedene Töpfe, die nicht verwechselt
+  werden dürfen.
+- **Unberührt bleibt** die dokumentierte Grenze unserer Säule 5:
+  „Antragsteller ist immer das Unternehmen des Kunden, nicht heyPensio"
+  (selbst nachgelesen, `protokolle/R05-A-fundstellen.md` N-2).
+
+### B5.3 Die vier direktesten Wettbewerber und was sie besonders macht
+
+**Bräu Innovation (DE) — der schärfste Zielgruppen-Treffer im ganzen
+Teil B.** Zielgruppe wörtlich: „inhabergeführte Privathotels,
+Boutique-Hotels und kleine Hotelgruppen in Deutschland, Österreich und
+der Schweiz – **typischerweise zwischen 30 und 300 Zimmern**", mit
+beidseitigem Ausschluss („Bei weniger als 30 Zimmern fehlt die
+Projektgrundlage. Ab 300 Zimmern beginnen Konzernstrukturen"). Vier
+Leistungsfelder: „Prozessoptimierung, Hotelcontrolling nach
+USALI-Standard, Digitalisierung und Systemintegration".
+**Bemerkenswert für unsere Positionierung:** Er macht die Ein-Personen-
+Struktur zum Kaufargument — „Ich arbeite allein. **Das ist eine
+Entscheidung, keine Verlegenheit.** … Wer mich beauftragt, arbeitet mit
+mir, nicht mit einem Büro." Das ist die direkte Gegenthese zu einem
+AI-nativen Modell und wird uns im Verkaufsgespräch begegnen.
+⚠️ **Spannung in seiner eigenen Quelle:** „Ich berate herstellerunabhängig.
+Ich empfehle keine Systeme, an deren Verkauf ich verdiene" steht auf
+derselben Seite wie eine Partnerliste (Scopevisio, Hotelkit, Guestnet,
+SHS) und zwei eigene Produkte (myControlling, Mail-Pilot).
+
+**Dittlmann & Partner (DE/CH) — der breiteste.** Deckt alle vier
+gesuchten Felder plus Förderung, mit Schweizer Standort. Zielgruppe
+„familiengeführte Betriebe, Gastgeber und Erlebnisanbieter", ohne
+Größengrenze.
+
+**42 GmbH (DE) — der Fund mit der größten Nebenwirkung.** „Digitalisierungs-
+beratung für Hotels – seit über 30 Jahren". Entscheidend ist die
+Partnerliste, die sie selbst nennt: „wir kooperieren mit führenden
+Spezialisten wie **ASA Hotelsoftware, Guestline, HotelNetSolutions,
+Straiv, Matrix POS, Kiosk.eu, Brandnamic, moreProfit**." — **Damit sitzt
+ein Digitalisierungsberater als Vermittler zwischen dem Hotelier und
+gleich drei Akteuren aus unserem eigenen Umfeld:** unserem
+Haupt-Technikwettbewerber (Straiv), unserem Hardware-Lieferanten
+(kiosk.eu) und der Agentur aus der Alt-Einstufung (Brandnamic). Das ist
+zugleich der Beleg dafür, dass in diesem Markt **Beratung als Kanal für
+Technik funktioniert** — nur derzeit nicht für uns.
+
+**melevo (DE) — der einzige mit vollständiger öffentlicher Preisliste,
+und damit der Anbieter, an dem Interessenten uns messen können.** Alle
+Werte im Wortlaut der Quelle (Steuerbasis dort **nicht** angegeben —
+wer sie weiterverwendet, muss das dazuschreiben):
+- Projektberatung „**ab 130€ /Stunde**", Inhalte u. a. „Unterstützung
+  Softwareauswahl · Begleitung Softwareimplementierung ·
+  Vertragsverhandlungen".
+- Retainer „Marketing & Digitalisierung": **603 € / 1.150 € / 2.200 € pro
+  Monat** (5/10/20 „Arbeitspunkte"), Startgebühr 0 €, **Mindestlaufzeit
+  12 Monate**; Leistung u. a. „Übernahme von Aufgaben in der
+  Hotelsoftware".
+- Website: **95 / 145 / 275 € pro Monat** plus einmalig **1.495 / 2.295 /
+  4.195 €**.
+
+### B5.4 Feldbefunde und Negative (mit Suchraum und Positivkontrolle)
+
+**Belegt:**
+1. **Preisintransparenz auch hier: 14 von 15 nennen keine eigene Zahl.**
+   Die einzigen weiteren Eurobeträge im Sample stammen **nicht von
+   Beratern, sondern aus Förderprogrammen**.
+2. **Zielgruppenschnitt fast nie über die Zimmerzahl** — genau ein
+   Anbieter nennt eine beidseitige Zimmergrenze (Bräu, 30–300), einer
+   eine Umsatzschwelle (anfang.team, ~1 Mio. €), einer eine Sterneklasse
+   (Schmid, 3–5*). Zwölf beschreiben qualitativ oder gar nicht.
+   **Für unsere eigene Größen-Obergrenzen-Frage (Positionierungspapier
+   § 7 Punkt 3) heißt das: Der Markt liefert dafür keine Konvention.**
+3. **Kostenfreies Erstgespräch ist faktisch Standard** (bei 6–7 von 15
+   wörtlich belegt); **Vor-Ort-Analyse als Einstieg** dominiert.
+4. **Wiederkehrendes rhetorisches Muster: Abgrenzung gegen den Bericht**
+   („endet nicht mit einem 40-seitigen Bericht, der ungelesen im Regal
+   steht"; „keine Präsentationen die in der Schublade landen"). Wer so
+   argumentiert, verspricht Umsetzung — genau unser Betreibermodell-Feld.
+5. **Die Unabhängigkeitsfrage ist im Feld ungelöst:** drei Lager —
+   erklärt unabhängig ohne eigenes Produkt · erklärt unabhängig **trotz**
+   eigener Produkte/Partner (Bräu, 42 GmbH, melevo) · weicht der Frage
+   aus (TH-Experts beantwortet die selbstgestellte FAQ „Beraten die
+   TH-Experts unabhängig von Softwareanbietern?" nicht mit Ja).
+   **Das ist für uns unmittelbar relevant:** Wir verkaufen Beratung UND
+   eigene Technik. Wie wir diese Frage beantworten, ist eine
+   Positionierungsentscheidung, keine Formulierungsfrage — Zielort
+   FUND4/HANDEL.
+
+**Negative, je mit Suchraum und Positivkontrolle:**
+
+| Gegenstand | Suchraum / Methode | Positivkontrolle |
+|---|---|---|
+| Eigene Honorarsätze | 18 abgerufene Leistungs-/Preisseiten, Muster `€\|Euro\|Tagessatz\|Stundensatz\|Honorar` | „Hotel" traf in **jeder** Datei (8–62); das Geldmuster traf in 6 Dateien ✔ — die Nullen sind echt |
+| Fördermittel-Begleitung | dieselben 18 Dateien, `BAFA` und `Förder\|Zuschuss` | 4 positive Anbieter gefunden ✔; Null bei 11 — gilt **nur für die abgerufenen Seiten**, nicht für die ganzen Websites |
+| Verbands-/Kammerbindung | dieselben Dateien, `DEHOGA\|IHK\|ÖHV\|hotelleriesuisse\|Hotelverband` | 3 positive Treffer ✔ |
+| **Reine Nachfolge-Spezialisten** der Hotellerie | 4 WebSearch-Läufe DE/AT/CH | Suchen lieferten 5 Anbieter mit dedizierter Nachfolge-Unterseite ✔ — **Ergebnis: keiner macht ausschließlich Hotel-Nachfolge**, sie ist überall ein Modul unter vielen |
+| **Expansionsberatung „zweites Haus"** für den Einzelhotelier | gezielte Suche | Suche lieferte Treffer zu Expansion/Machbarkeit ✔ — **als eigenständiges Angebot nicht gefunden**; existiert nur als Machbarkeitsstudie oder Transaktionsberatung |
+
+**⚠️ Werkzeugfehler des Agenten, protokolliert statt geglättet:** Der
+erste Preis-Suchlauf verwendete das Muster `€|EUR\b` und meldete **null
+Treffer auch dort, wo „3.500 Euro" im Text steht**. Die implausible Null
+wurde als Werkzeugfehler behandelt (`EUR\b` matcht „Euro" nicht), das
+Muster korrigiert, der Lauf wiederholt. **Ohne diese Prüfung wäre
+„kein Anbieter nennt Zahlen" als Befund berichtet worden** — dieselbe
+Klasse Fehler wie die Grep-Limit-Falle in `R05-A-fundstellen.md` N-4.
+
+**Kanäle, die nicht verfügbar waren** (je 2–3 Versuche, **kein**
+Negativbefund): **Kirsch Unternehmensberatung für die Hotellerie**
+(hotel-beratung.com — TLS-Zertifikatsprüfung schlägt fehl; laut
+Suchtreffer Privathotellerie-Spezialist seit 1997, also **ein
+wahrscheinlich relevanter, unerhobener Kandidat**) · **Hotel Fritz
+Consulting** (durchgängig HTTP 500) · **Kohl & Partner Schweiz**
+(Verbindung kam nicht zustande) · Impressum HOGARAT (404 — Rechtsform
+bleibt unbelegt; „& Partner" legt eine PartG nahe, das ist eine
+Vermutung aus dem Namen, kein Beleg).
+
+## B7. P13 — Rückprüfung des Alt-Bestands gegen den breiten Zuschnitt
+
+**Frage:** Wer wurde im Bestand **nur an der engen Produktdefinition**
+aussortiert und ist am breiten Portfolio gemessen sehr wohl Wettbewerber?
+
+**Suchweg:** Sichtung des heypensio-Bestands durch einen Explore-Agenten
+(nur lesend) über fünf Suchwege — Einstufungs-Vokabular,
+Leistungs-Vokabular des breiten Zuschnitts, Dateinamen-Glob, Everlast,
+Doppelrollen-Namen. **Positivkontrolle je Suchweg** (Auszug, Trefferzahlen
+des Agenten): Weg 1 „Brandnamic muss in der Nachfassrunde treffen" ✔;
+Weg 2 „Revenue Management muss im Alt-Dossier treffen" ✔; Weg 3 beide
+Kern-Dateinamen in der Trefferliste ✔; Weg 4 „Everlast muss in
+`unternehmensaufbau-heypensio.md` treffen" ✔ (15 Dateien/124 Treffer im
+heypensio-Repo); Weg 5 „DIRS21 muss im website-Ordner treffen" ✔.
+**Belastbares Negativ mit Kontrolle:** „kein Wettbewerber"/„möglicher
+Kanal" kommt im zentrale-Repo **null** mal vor, während „Everlast" dort
+10× in 3 Dateien trifft.
+
+**Das Kriterium der Alt-Einstufungen, wörtlich** (selbst nachgelesen,
+BYTE): Maßstab war die Frage aus dem Anbieter-Skill „verkauft der
+Anbieter das überhaupt als **Komponente**?" — wer Gesamtlösungen
+verkaufte, wurde zum Wettbewerber, wer die Technik gar nicht führte, fiel
+heraus. Beides misst **Technik**, nicht Leistung.
+
+### B7.1 Brandnamic GmbH — der Musterfall
+
+**Alt-Einstufung (28.07.2026, `heypensio\firzlaff\hardware\nachfassrunde-2026-07-28.md`
+§ 4 — von dieser Session selbst im Rohtext gelesen, BYTE):**
+
+> „### Brandnamic GmbH (Brixen/Meran/München) — kein Wettbewerber,
+> möglicher Kanal
+>
+> Hotel-Marketing- und Softwarehaus für die Hotellerie: Branding,
+> Websites, SEO/SEA, Revenue Management, Newsletter- und Gutschein-Apps,
+> Beratung. **Kein Self-Check-in, kein Kiosk, keine Meldescheine.**
+>
+> **Einordnung:** Keine Überschneidung mit unserem Produkt. Zwei denkbare
+> Rollen: (a) **Vertriebs-/Partnerkanal** — sie sitzen bei genau unserer
+> Zielgruppe (inhabergeführte Häuser im DACH-Raum) und ein Self-Check-in
+> ergänzt ihr Portfolio, statt es anzugreifen; (b) **Benchmark für die
+> eigene Website** …"
+
+**Was daran heute noch trägt und was nicht:** Der Satz „Keine
+Überschneidung mit unserem Produkt" war für das **Produkt** richtig und
+ist es geblieben. Für das **Portfolio** ist er überholt — die
+Alt-Einstufung listet in ihrem eigenen ersten Satz vier Leistungen auf,
+die heute in unserem Angebot stehen (Websites, SEO/SEA, Revenue
+Management, Beratung). Die Einstufung wurde also nicht falsch vergeben,
+sondern an einem Maßstab, den wir seither gewechselt haben.
+
+*(Neu-Einstufung mit heutigem Leistungsstand: siehe B4.)*
+
+### B7.2 Die Fälle, die im Bestand gar nicht erst geprüft wurden
+
+Das ist der eigentliche Ertrag von P13: Nicht nur Brandnamic wurde an der
+engen Definition gemessen — eine ganze Klasse von Anbietern wurde
+**überhaupt nie als Wettbewerber betrachtet**, weil sie im Bestand unter
+anderen Etiketten geführt wird (Dienstleister des Kunden, Lieferant,
+Partner-Modul, Kostenposten).
+
+| Anbieter | Bisheriges Etikett im Bestand | Berührt am Portfolio | Neu |
+|---|---|---|---|
+| **Words&Pixel** (Simone Hauck, Neumünster) | Dienstleister des Pilotkunden, „soll als betreuende Agentur **abgelöst** werden"; nach AG269-Empfehlung „für uns **erledigt**" | Website-Bau/-Betrieb, Betreuung — unser real erbrachter Posten | **W1** |
+| **FRISCHNETZ** (Jörg Lippmann, Kiel) | Übergabe-Gegenstelle; „hat die bestehende rabes-hotel.de erstellt und **hält Domain + Hosting + Mail**" | Website-Bau, Hosting-/Domain-Betrieb, Fotos/Medien | **W1** |
+| **DIRS21 / TourOnline** | Werkzeug + Kostenposten, eigene Entscheidungsvorlage „behalten & reparieren oder ablösen?" | Buchungsstrecke/Website-Distribution | **W1** (Teilleistung) |
+| **detco** (DE) | „Indie-Platzhirsch — **Partner ODER Rivale**" (im Bestand ausdrücklich unentschieden) | Booking Engine (myIBE), Gästemailing = Marketing-Automation | **W1 + K** |
+| **MARA** (DE), iiQ-Check, Customer Alliance | „Reputation … **Portfolio-Kandidat**" | Bewertungsmanagement | **W2 + K** |
+| **RoomPriceGenie**, happyhotel, Smartpricing | „**RMS-Partner-Modul** … Aktivierung im Onboarding ohne IT-Projekt" | Revenue Management = die über Kayhan geführte Achse | **W1 + K** |
+| **INCERT**, Gift Up | „Gutscheine: INCERT (DACH-Marktführer)" | Marketing-/Vertriebsinstrument | **W2 + K** |
+| **Roommatik** (ES) | „WETTBEWERBER, nicht Zulieferer" + offenes **Vertriebs-Angebot** (Agent/Distributor) | Technik (Teil A) — hier nur wegen der Kanal-Doppelrolle geführt | **W1 + K** |
+| **kiosk.eu / KIOSK Embedded Systems** | Lieferant, mit dokumentierter Kanal-Warnung („ist Straivs Kiosk-Partner … könnte Interessenten Richtung Straiv orientieren") | Technik-Lieferung; Kanal **zum Wettbewerber**, nicht zu uns | **Lieferant + Gegen-Kanal** |
+| **book your key** | Teil A: nächstliegender Technik-Wettbewerber | **zusätzlich** Schulung/Einweisung und PMS im Paketpreis — unsere Fundament-/Querschnittsposten | **W1 auf beiden Achsen** |
+| **Straiv** | Teil A: Kern-Wettbewerber | „Straiv Analytics" wächst in die Zahlen-/Auswertungsachse hinein | **W1 auf beiden Achsen** |
+
+**Leseweg-Vermerk (Pflicht):** Die Zitate zu **Words&Pixel**, **FRISCHNETZ**,
+**book your key** und **Brandnamic** hat diese Session selbst im Rohtext
+gelesen (**BYTE**). Die Zitate zu **detco**, **Roommatik**, **kiosk.eu**,
+**DIRS21**, **MARA**, **RoomPriceGenie** und **INCERT** stammen aus der
+Agenten-Sichtung (**AGENT**) und sind **nicht** einzeln nachgeprüft —
+sie stützen hier eine Einstufungs-Entscheidung, keine außenwirksame
+Aussage. Wer sie in einen Kundentext übernimmt, prüft vorher nach.
+
+**Der unbequeme Teil dieses Befunds:** Die beiden Agenturen, die uns am
+direktesten gegenüberstehen, sind nicht am Markt gefunden worden, sondern
+sitzen **bereits an unseren eigenen Pilotobjekten** — Words&Pixel bei
+Firzlaffs, FRISCHNETZ bei Rabe's. Wir haben in beiden Fällen genau das
+getan, was ein Agentur-Wettbewerber tut: das Fremdangebot geprüft, davon
+abgeraten und die Betreuung übernommen. Das ist der belastbarste
+vorhandene Beleg dafür, dass die Beratungs-/Agentur-Achse real ist — und
+zugleich der Beleg dafür, dass unser Alt-Wettbewerbsbild sie nicht
+gesehen hat.
+
+⚠️ **Vollständigkeits-Grenze des P13-Laufs (aus dem Agenten-Bericht
+übernommen):** `heypensio\firzlaff\projektquelle-heypensio.md` sowie
+`STATUS.md`/`STATUS-archiv.md` wurden nur per Grep berührt; dort meldete
+das Werkzeug mehrfach „Omitted long matching line". Etwaige weitere
+Einstufungssätze in diesen Dateien sind **nicht gelesen**. Für diesen
+Bestandsteil wird keine Vollständigkeit behauptet.

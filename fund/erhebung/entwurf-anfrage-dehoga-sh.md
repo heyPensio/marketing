@@ -8,6 +8,11 @@
 > Website übernehmen). **Sprache:** Deutsch (Sitz DE).
 > **Erstellt:** 09.08.2026, Session R02-B. Bezug:
 > `strang2-strukturdaten.md` (N1/N5, § 4).
+> **⚠️ Vor Versand bestätigen (Prüfbefund P5):** Die Aussage
+> „Pilotbetriebe in Schleswig-Holstein" ist im Marketing-Repo nicht
+> standort-belegt (Beleg läge im heypensio-Repo/beim User). Falls
+> nicht alle Pilotobjekte in SH liegen, umformulieren (z. B.
+> „in Norddeutschland").
 
 ---
 

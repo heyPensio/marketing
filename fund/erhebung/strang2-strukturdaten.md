@@ -43,6 +43,13 @@ Schlafgelegenheiten bzw. Campingplätze mit ≥ 10 Stellplätzen), Tabelle
 
 Zählweg: Werte unverändert aus den Spalten `Anzahl_Betriebe_gesamt` /
 `Anzahl_Betriebe_geoeffnet` der CSV-Tabelle 45412-09 übernommen.
+Auswahl-Hinweis (Prüfbefund P4): Die Tabelle zeigt die
+zielgruppennahen Betriebsarten; die Insgesamt-Zeile enthält zudem
+Campingplätze (3.226 gesamt) und „Sonstige tourismusrelevante
+Unterkünfte" (1.693, u. a. Reha-Kliniken und Schulungsheime) — die
+gezeigten Zeilen summieren sich deshalb NICHT auf 48.919. Die Zeile
+„Ferienunterkünfte u. ä." enthält auch Jugendherbergen und Hütten
+(1.764).
 
 ### 1.2 Bundesweit — Größenklassen der Hotellerie (Kern-Schneidung)
 
@@ -147,9 +154,16 @@ Zeilen-Scope):
 - **7.897 steuerpflichtige Betriebe im Gastgewerbe SH (2023)** —
   Quelle Q6 (Sparkassen-Tourismusbarometer SH 2025, Folie „Trotz
   Pleiten und Abmeldungen…", dwif nach Daten des Statistischen
-  Landesamts). Scope: Umsatzsteuerstatistik, GESAMTES Gastgewerbe
-  inkl. Gastronomie, ohne 10-Betten-Grenze. Ebenda: Gewerbeanmeldungen
-  2024: 1.700, Gewerbeabmeldungen 2024: 1.700 (Gastgewerbe SH).
+  Landesamts). Scope laut Folie nur: „steuerpflichtige Betriebe 2023",
+  Gastgewerbe SH. **Scope-Deutung dieser Session (Prüfbefund P2, als
+  Annahme markiert):** „steuerpflichtige Betriebe" spricht für die
+  Umsatzsteuerstatistik und damit GESAMTES Gastgewerbe inkl.
+  Gastronomie ohne 10-Betten-Grenze — auf der Folie selbst nicht
+  benannt (grep `umsatzsteuer` über beide Q6-Texte: 0 Treffer;
+  Positivkontrolle `steuerpflichtige`: 2 Treffer). Unstrittig bleibt:
+  anderer Zeilen-Scope als § 1.3, nicht verrechenbar. Ebenda:
+  Gewerbeanmeldungen 2024: 1.700, Gewerbeabmeldungen 2024: 1.700
+  (Gastgewerbe SH).
 - **„rund 5.200 Betriebe, mehr als 80.000 Beschäftigte"** — Quelle Q5
   (DEHOGA Landesverband SH, Website-Selbstauskunft, UNDATIERT, ohne
   Methodenangabe; wörtlich: „Das schleswig-holsteinische Hotel- und
@@ -266,7 +280,7 @@ Status-Vergabe (gestützt/geschwächt/nicht prüfbar) gehört in
 |---|---|---|---|
 | N1 | **Größenklassen-Schneidung × Bundesland/SH existiert in den geprüften amtlichen Publikationen nicht.** Größenklassen nur für Deutschland insgesamt (Q1 Tab. 45412-16; GENESIS 45412-0006). | Sichtung aller 17 Tabellen + GENESIS-Übersichtsblatt (45412-0001 bis -0026) der Q1-XLSX; Volltext-grep `größenklasse/groessenklasse` über den SH-Jahresbericht Q3 (0 Treffer); Gegenprobe Q2 (April-2026-Ausgabe): Stichtagstabellen 45412-15 bis -17 dort nicht enthalten — die Größenklassen-Schneidung erscheint nur in Juli-Ausgaben, Juli 2025 ist der aktuellste verfügbare Stichtag. | grep `Gästezimmergrößenklassen` trifft in Q1 (Tab. 45412-16); grep `Pensionen`/`Betten` trifft im Q3-Volltext (u. a. Tabelle 5). |
 | N2 | **Die Plan-Wunsch-Schneidung „Größenklasse × Inhaberführung × Region" enthält keine der sechs Quellen.** Inhaber-/Entscheider-Alter für das Gastgewerbe weist keine geprüfte Quelle aus. | Volltext-greps `alter/jährig/inhaber` über Q7 (Haupt- und Branchen-Teil) und Q8; Sichtung der Branchentabellen in Q8. | Q8: `55 Jahre` trifft (Mittelstand gesamt); Q7: `Altersgründen` trifft (72-%-Aussage, branchenübergreifend). |
-| N3 | **Sparkassen-Tourismusbarometer SH 2025 enthält keine Nachfolge-/Inhaberstruktur-Daten** (beide Fassungen). | Volltext-grep `nachfolge/inhaber/generation/betriebsgröße` über die Präsentationsfassung (77 Folien, 0 Treffer) und `nachfolge` über den Jahresbericht „Wirtschaftsfaktor Tourismus" (0 Treffer). | Präsentationsfassung: `dwif` 55 Treffer; Jahresbericht: `tourismus` 56 Treffer. |
+| N3 | **Sparkassen-Tourismusbarometer SH 2025 enthält keine Nachfolge-/Inhaberstruktur-Daten** (beide Fassungen). | Volltext-grep `nachfolge/inhaber/generation/betriebsgröße` über die Präsentationsfassung (77 Folien, 0 Treffer) und `nachfolge` über den Jahresbericht „Wirtschaftsfaktor Tourismus" (0 Treffer). | Präsentationsfassung: `dwif` 55 Treffer-Zeilen; Jahresbericht: `tourismus` 56 Treffer-Zeilen (Zählweg `grep -c` = Zeilen mit Treffer, nicht Einzeltreffer — Prüfbefund P3). |
 | N4 | **KfW-Nachfolge-Monitoring 2025 hat keinen Gastgewerbe-Branchenschnitt.** Branchentabelle führt nur FuE-/Sonst. Verarbeitendes Gewerbe, Bau, wissensintensive/sonstige Dienstleistungen, Handel. Zuordnung des Gastgewerbes zu „Sonstige Dienstleistungen" ist plausibel, aber im Dokument nicht explizit belegt — als Annahme markiert. | Volltext-grep `gastgewerbe` über Q8 (0 Treffer in Sach-Aussagen); Lesen der Branchentabelle (Tabelle 1) und der Teilbranchen-Fußnoten. | grep `Branchen` trifft (Tabelle „Nach Branchen"). |
 | N5 | **DEHOGA-SH-Strukturzahlen (5.200 Betriebe / 80.000 Beschäftigte) tragen keinen Stand und keine Methode** — auf der Verbandswebsite undatiert. | Lesen der Seite „Unser Landesverband" (Roh-HTML, nicht Zusammenfasser); keine Datums-/Quellenangabe im Umfeld der Zahlen gefunden. | Die Zahlen selbst wurden im Roh-HTML gefunden (Suchmechanik trifft). Klärung → Anfrage-Entwurf DEHOGA SH. |
 
@@ -287,7 +301,7 @@ dritter Kanal für Länder-Größenklassen.
 | Q3 | Statistischer Bericht G IV 1 - j 25 SH „Beherbergung im Reiseverkehr in Schleswig-Holstein 2025" (PDF, 36 S.) | Statistisches Amt für Hamburg und Schleswig-Holstein | herausgegeben 10.04.2026, Berichtsjahr 2025 | wie Q1 (Landesauswertung derselben Erhebung) | Amtliche Statistik | 09.08.2026, statistik-nord.de (`fileadmin/Dokumente/G_IV_1_j25_SH.pdf`) |
 | Q4 | DEHOGA-Zahlenspiegel IV/2025 (PDF, 20 S.) | DEHOGA Bundesverband | Stand 24.02.2026 | Sekundärkompilation aus Destatis- und Bundesagentur-für-Arbeit-Daten | Verbandskompilation amtlicher Daten | 09.08.2026, dehoga-bundesverband.de |
 | Q5 | Website „Unser Landesverband" | DEHOGA Landesverband Schleswig-Holstein | UNDATIERT | keine Angabe | ⚠️ Verbands-Selbstauskunft | 09.08.2026, dehoga-sh.de |
-| Q6 | Sparkassen-Tourismusbarometer SH 2025: Präsentationsfassung (77 Folien) + Jahresbericht „Wirtschaftsfaktor Tourismus" | Sparkassen- und Giroverband für SH / TVSH; Durchführung dwif-Consulting | Titelblatt: „Neumünster, 27. Mai 2025" | dwif-Berechnungen auf amtlichen Daten (u. a. Umsatzsteuerstatistik des Statistischen Landesamts) + Befragungen von Tourismusorganisationen und Betrieben in SH (März/April 2025) | Verbandsstudie (Methodenmix) | 09.08.2026, sgvsh.de |
+| Q6 | Sparkassen-Tourismusbarometer SH 2025: Präsentationsfassung (77 Folien) + Jahresbericht „Wirtschaftsfaktor Tourismus" | Sparkassen- und Giroverband für SH / TVSH; Durchführung dwif-Consulting | Titelblatt: „Neumünster, 27. Mai 2025" | dwif-Berechnungen auf amtlichen Daten (Folien-Quellvermerk: „Statistisches Landesamt"; Deutung Umsatzsteuerstatistik s. § 1.5) + Befragungen von Tourismusorganisationen und Betrieben in SH (März/April 2025) | Verbandsstudie (Methodenmix) | 09.08.2026, sgvsh.de |
 | Q7 | DIHK-Report Unternehmensnachfolge 2025 (Hauptreport 25 S. + „Blick in die Branchen" 5 S.) | Deutsche Industrie- und Handelskammer | 2025 (Befragung 22.01.–28.02.2025, Kontaktdaten 2024) | > 50.000 IHK-Beratungskontakte + Beraterbefragung der 79 IHKs | ⚠️ Beratungsfall-Statistik, nicht repräsentativ | 09.08.2026, dihk.de / ihk.de |
 | Q8 | KfW Research, Fokus Volkswirtschaft Nr. 526: „Nachfolge-Monitoring Mittelstand 2025" (Autor Dr. Michael Schwartz) | KfW Bankengruppe | 09.01.2026 | KfW-Mittelstandspanel (repräsentative KMU-Wiederholungsbefragung) | Repräsentative Panelstudie (Mittelstand gesamt) | 09.08.2026, kfw.de |
 
@@ -324,5 +338,19 @@ dritter Kanal für Länder-Größenklassen.
 4. **regionalstatistik.de** als dritter Kanal für Länder-Größenklassen
    ungeprüft (§ 4, Nicht-geprüft-Block).
 
+---
+
+## Prüf-Nachtrag (09.08.2026, nach unabhängigem Prüflauf)
+
+Unabhängige Prüfung durch Agent mit frischem Kontext, Protokoll:
+`protokolle/R02-B-pruefer.md`. Ergebnis: Vollprüfung aller ~130
+Zahlen-/Datumsangaben an den Originalquellen, 6 Befunde. **P1
+(KRITISCH) war die bewusst eingebaute Verfahrens-Positivkontrolle**
+(§ 2.2, 57 % → 47 % verfälscht, uncommitted) — vom Prüfer gefunden
+inkl. korrekter Quell-Gegenstelle; zurückgebaut per `git checkout`,
+der committete Stand war durchgehend korrekt. P2 (Scope-Deutung § 1.5),
+P3 (Zählweg Positivkontrollen), P4 (Auswahl-Hinweis § 1.1) in diesem
+Stand eingearbeitet; P5/P6 in den Anfrage-Entwürfen vermerkt.
+
 *Erstellt: 09.08.2026, Session R02-B (Lucky Roux). Prüfprotokoll:
-`protokolle/R02-B-pruefer.md` (nach Prüflauf).*
+`protokolle/R02-B-pruefer.md`.*

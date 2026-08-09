@@ -3,11 +3,17 @@
 > **Status: ENTWURF, KEIN VERSAND.** Versand macht der User werktags
 > (Plan § 5: Anfrage an Kammer in deren Zuständigkeit, zulässig ohne
 > Rechtsmatrix; Regel „Versand immer durch den User").
-> **Empfänger-Klärung vor Versand:** „IHK Schleswig-Holstein" ist die
-> Arbeitsgemeinschaft der drei Kammern (Kiel, Lübeck, Flensburg); für
-> den Firmensitz ist die IHK zu Kiel zuständig. Vor Versand
-> entscheiden, ob die Anfrage an die Arbeitsgemeinschaft oder direkt
-> an das Nachfolge-Referat der IHK zu Kiel geht.
+> **Empfänger-Klärung vor Versand (Annahme, Prüfbefund P6):** „IHK
+> Schleswig-Holstein" ist nach Kenntnisstand dieser Session die
+> Arbeitsgemeinschaft der drei Kammern (Kiel, Lübeck, Flensburg);
+> welche Kammer zuständig ist, hängt am Firmensitz — beides vor
+> Versand an der Kammer-Website prüfen (Zuständigkeits-Aussage hier
+> ohne Quellvermerk). Dann entscheiden, ob die Anfrage an die
+> Arbeitsgemeinschaft oder direkt an das Nachfolge-Referat der
+> zuständigen Kammer geht.
+> **⚠️ Vor Versand bestätigen (Prüfbefund P5):** Die Aussage
+> „Pilotbetriebe in Schleswig-Holstein" ist im Marketing-Repo nicht
+> standort-belegt — wie im DEHOGA-Entwurf, ggf. umformulieren.
 > **Sprache:** Deutsch (Sitz DE). **Erstellt:** 09.08.2026, Session
 > R02-B. Bezug: `strang2-strukturdaten.md` (N1/N2, § 4).
 

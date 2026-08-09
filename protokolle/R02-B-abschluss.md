@@ -68,6 +68,17 @@ soweit bekannt: Prüfer-Agent 150.513 Tokens (40 Tool-Aufrufe,
   Push gesichtet, regulärer Leitsession-/H-2-Commit). Kein
   Handlungsbedarf, nur Transparenz-Vermerk nach Regel 3a/Push-Regel.
 
+  > **NACHTRAG (09.08.2026, dieselbe Session, nach dem Push):** Die
+  > Aussage „mein Push veröffentlicht ihn mit" hat sich als falsch
+  > erwiesen — die Push-Ausgabe (`1a67bca..e9bf707`) belegt, dass
+  > `1a67bca` bereits VOR meinem Push auf origin/main lag (von seiner
+  > eigenen Session veröffentlicht). Mein Push hat nur `e9bf707`
+  > veröffentlicht. Original oben bleibt sichtbar; Beleg-Lehre: die
+  > Vorab-Sichtung `git log origin/main..HEAD` zeigte nur meinen
+  > Commit — genau das WAR der Beleg, dass `1a67bca` schon
+  > veröffentlicht war; ich habe ihn beim Formulieren der Meldung
+  > gegen die ältere Beobachtung aus `git log` verworfen.
+
 ## 4. Stolpersteine / Learnings
 
 **Fallen:**

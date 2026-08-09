@@ -25,18 +25,22 @@
 ---
 
 ## Letzte Aktualisierung
-**09.08.2026 (R2, Shanks + R02-A/Yasopp + R02-B/Lucky Roux)** —
-**BELEG1-Baseline-Messplan FREIGEGEBEN** (H-2; User-Vorgabe: Betreiber
-tracken nicht konsequent → Zwei-Schienen-Modell Best-Effort-Protokoll
-+ Schätz-Interview; ⚠️ offener Dissens zur Außen-Formulierung
-„gemessen", Entscheid bei BELEG4 — `beleg/baseline-messplan.md`
-Nachträge) · **FUND2-Strang-2-Strukturdaten erhoben** (vollgeprüft
-~130 Zahlen; Kernsegment 53,0 % der Hotellerie < 20 Zimmer; neuer
-Entscheidertyp-Kandidat „externer Übernehmer/Käufer") · zwei
-**Anfrage-Entwürfe DEHOGA/IHK versandbereit** · masunt-Logo
-archiviert · Lehren L-07/L-08 + Gerüst-Nachzug (Stempel `66fbf4f`).
-*(Davor: R1 — FUND1-Entwurf + FUND2-Plan, masunt-Register,
-GitHub-Remotes, L-01–L-06; nach Debrief FUND1 VERABSCHIEDET (E10).
+**09.08.2026 (R3, Shanks + R03-A/Ben Beckman + R03-B/Yasopp +
+R03-C/Lucky Roux + R03-D/Rockstar — erste Vier-Strang-Runde)** —
+**BELEG1-Erhebungsvorlagen FERTIG** (`beleg/vorlagen/` v2:
+3 A5-Tagesblätter + Interviewleitfaden, MD+PDF, voll-reviewt;
+Probedruck = User-Handgriff) · **regionalstatistik.de geprüft**
+(N1 zweikanalig bestätigt — Sonderauswertung Statistikamt Nord ist der
+einzige verbliebene amtliche Weg; Beifang SH-Kreisdaten + Zeitreihe) ·
+**MARKE1-Vorbereitung als ENTWURF** (Kriterienkatalog +
+Recherche-Verfahren, 10 Entscheidungspunkte beim User) ·
+**FUND3-Wettbewerbsbild aktualisiert** (`fund/wettbewerbsbild.md`:
+book your key = neuer nächstliegender Wettbewerber, Straiv-„18 MA"
+WIDERLEGT → Nachtrags-Kasten Positionierungspapier § 4; ⚠️ misst NUR
+das Technik-Segment — Portfolio-Klärung offen) · L-09/L-10,
+SPA-Baustein-Regel ersetzt, Postkorb StB-Ergänzung, Gerüst-Stempel
+`2834792`. *(Davor: R2 — BELEG1-Messplan freigegeben (H-2),
+FUND2-Strang 2 erhoben, Anfrage-Entwürfe versandbereit, L-07/L-08.
 Ältere Stände: `STATUS-archiv.md`.)*
 
 ## Aktueller Stand
@@ -49,46 +53,51 @@ GitHub-Remotes, L-01–L-06; nach Debrief FUND1 VERABSCHIEDET (E10).
   2026 (angedacht) · erster zahlender Kunde bis Mitte November 2026.
 - Schwester-Repo `zentrale` (Firmen-Ebene) im selben Zug angelegt —
   trägt Namensentscheid-Vorprüfung und Rollen-Charta.
-- **R1 (09.08.):** ✅ **FUND1 VERABSCHIEDET (E10)** — geführte
-  Durchsprache, alle drei Entscheidungspunkte bestätigt
-  (Entscheidungsstruktur statt Zahlen; EIN Produkt über Modul-Achse,
-  FUND2-Vorbehalte in Kraft). ⚠️ Merkzeile: Extraktionsberichte sind
-  gegen Rohbestand ungeprüft, belegter Drift-Fall A/A2-Versanddatum
-  (Details Projektquelle § 6).
 - **R2 (09.08.):** ✅ BELEG1-Messplan freigegeben (Zwei-Schienen-Modell;
   Messfenster 24.08.–20.09., Rückwärtsanker 22.09.) · FUND2-Strang 2
   erhoben, Anfrage-Entwürfe versandbereit (`fund/erhebung/`) ·
   ⚠️ offener Dissens Außen-Formulierung „gemessen" (Entscheid bei
   BELEG4, Plan-Nachtrag 2) · Stränge FUND2-1 (Kayhan) und FUND2-3
-  (Apaleo) offen.
+  (Apaleo) offen. *(R1 rotiert → `STATUS-archiv.md`.)*
+- **R3 (09.08.):** ✅ Erhebungsvorlagen v2 (`beleg/vorlagen/` — die
+  BELEG1-Kette zum Briefing 23.08. hält) · ✅ FUND2-Kanal 3 geprüft
+  (N1 bestätigt; SH-Kreisdaten-Beifang) · ✅ MARKE1-Entwürfe
+  (`marke/`) · ✅ Wettbewerbsbild aktualisiert (`fund/wettbewerbsbild.md`,
+  ⚠️ Geltungsgrenze: nur Technik-Segment). Offen aus R3:
+  Portfolio-Zuschnitts-Klärung (Projektquelle § 7 Punkt 4a) ·
+  Modell-Statuszeilen-Sichtung (A/B/D) · Zuruf „außerhalb passiert?"
+  unbeantwortet (Annahme „nichts" UNBESTÄTIGT).
 
 ## Nächster konkreter Schritt
 1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
    GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger
-   `zentrale\stb-termin-fragenliste-2026-08.md`. MKT-MARKE wartet
-   darauf, FUND/BELEG nicht.
-2. **User-Handgriffe (Messplan-Kette):** H-1 Livegang-Tagesdatum (bis
+   `zentrale\stb-termin-fragenliste-2026-08.md`. **Neu im Postkorb
+   (R3): Marken-Inhaberschaft bei GbR + Übertragbarkeit bei
+   Rechtsformwechsel/Wegzug mitfragen**
+   (`zentrale\eingang\2026-08-09-mkt-marke-inhaberschaft-stb.md`).
+   MKT-MARKE wartet darauf, FUND/BELEG nicht.
+2. **User-Entscheide aus R3:** (a) **Portfolio-Zuschnitt** — Angebot
+   breiter als Positionierungspapier § 6 (Beratung/Agentur)? Entscheid
+   VOR der zweiten FUND3-Achse (Projektquelle § 7 Punkt 4a);
+   (b) **MARKE1-Verabschiedung** — 10 Entscheidungspunkte in
+   `marke/naming-kriterienkatalog.md` + `marke/markenrecherche-verfahren.md`,
+   danach Naming-Sprint.
+3. **User-Handgriffe (Messplan-Kette):** H-1 Livegang-Tagesdatum (bis
    16.08.) · Anfrage-Entwürfe DEHOGA/IHK versenden (werktags, vorher
-   IHK-Zuständigkeit klären) · Betreiber-Briefing bis 23.08.,
-   **gekoppelt mit dem FUND2-Kayhan-Gespräch** · H-4 Altdaten-Sicherung
-   anstoßen (bis 07.09.).
-3. **R3-Kandidaten:** (a) Erhebungsvorlagen-Session (Tagesblätter +
-   Interviewleitfaden, bis 20.08. — VOR dem Briefing); (b) MKT-MARKE —
-   Naming-Sprint vorbereiten (⚠️ für KEINEN Namen existiert eine
-   Recherche; ⚠️ Everlast-§11: Marken-Assets vor/außerhalb der
-   Zusammenarbeit ab 18.09. — `zentrale\namensentscheid.md`);
-   (c) FUND2-Fortsetzung (regionalstatistik.de; Befund erst mit allen
-   Strängen).
-5. **Blueprint-Arbeitsauftrag (aus Extraktion C):** zwei neue Bausteine
-   `aussenkorrespondenz` + `freigabe-vorlagen` aus den firzlaff-Skills
-   `anbieter-anfrage`/`freigabevorlage-kayhan` entkundenspezifiziert
-   bauen (frischer Agent liest die QUELL-Skills, nicht die Verdichtung),
-   in marketing aktivieren (`freigabe-vorlagen` auch zentrale); dazu
-   Baustein-Ergänzungen D1/D3–D6 + tagesstart-Nachzug D7 + Assets
-   E1–E3 (Partnerschafts-Baustein, Fassung-6-Kanon, Kayhan-Profil).
-3. **Kleinposten:** Domain-Inventur (Cloudflare-/Registrar-Dashboard mit
-   dem User auslesen — er weiß den Bestand nicht auswendig).
-4. ~~Kapazitätsdeckel-Entscheid~~ ✅ ENTSCHIEDEN 09.08. (E8): kein
+   IHK-Zuständigkeit klären) · **A5-Probedruck der Vorlagen**
+   („tatsächliche Größe") · Betreiber-Briefing bis 23.08., **gekoppelt
+   mit dem FUND2-Kayhan-Gespräch** · H-4 Altdaten-Sicherung anstoßen
+   (bis 07.09.) · Modell-Statuszeilen der R3-Sessions bestätigen.
+4. **R4-Kandidaten:** (a) FUND2-Rest (Kayhan-Gespräch, Apaleo-Faden;
+   Sonderauswertung erst nach DEHOGA/IHK); (b) Naming-Sprint (nach
+   MARKE1-Verabschiedung; Everlast-Anker 18.09.); (c) FUND3-
+   Beratungsachse (nach Portfolio-Entscheid); (d) Blueprint-
+   Arbeitsauftrag Bausteine `aussenkorrespondenz`/`freigabe-vorlagen`
+   (aus Extraktion C, Details Projektquelle § 7 Punkt 5).
+5. **Kleinposten:** Domain-Inventur (Cloudflare-/Registrar-Dashboard
+   mit dem User) · Byte-Vergleich Fassung-6-Kanon · RDB-Konto nur bei
+   Bedarf.
+6. ~~Kapazitätsdeckel-Entscheid~~ ✅ ENTSCHIEDEN 09.08. (E8): kein
    fester Deckel — Parallelbetrieb Marketing + Pilot, Regler ist das
    Wochen-Nutzungslimit; Priorisierung situativ über das
    Firmen-`/briefing` (Terminposten zuerst).

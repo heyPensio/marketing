@@ -146,6 +146,13 @@ die Persona-Frage stützt das den Befund-Rahmen „das Kernsegment ist
 real und groß, aber strukturell unter Druck" — über die
 Entscheider-Person sagt es nichts.
 
+> **Nachtrag 09.08.2026 (Leitsession, aus R03-B Nebenbefund 2):** Der
+> Kapazitätszuwachs +31,5 % ist überwiegend CAMPING-getrieben — ohne
+> Camping +10,6 % (2018–2024), für die Hotellerie allein nur +5,6 %
+> (Quelle: `regionalstatistik-groessenklassen.md` § 4). Die Aussage
+> oben bleibt richtig (ihr Zeilen-Scope schließt Camping ein), darf
+> aber NICHT als Beleg für Hotel-Investitionen gelesen werden.
+
 ### 1.5 Scope-Kontrast: „Gastgewerbe SH" in anderen Zählweisen
 
 Zwei Zahlen, die NICHT mit § 1.3 verrechnet werden dürfen (anderer

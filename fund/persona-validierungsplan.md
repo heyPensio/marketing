@@ -200,6 +200,13 @@ Bausteine:
    AUSSCHLUSSLISTE der Recherche, nicht in den Suchauftrag) — was
    sagen deren Websites über den typischen Käufer? Reine
    Positionierungs-Indizien, kein Beleg.
+   *Nachtrag 09.08.2026 (R03-D, FUND3): TEILANTWORT liegt vor —
+   book your key schneidet seine Preisstaffel wörtlich nach Hausgröße
+   („Kleine Hotels und Apartmenthäuser" 16 bis „Große Hotels"
+   60 Einheiten, „Je größer das Haus, desto günstiger das Zimmer");
+   LIKE MAGIC bewegt sich laut 2026er-Meldungen nach oben Richtung
+   Ketten. Details + Belege: `fund/wettbewerbsbild.md`. Der Punkt ist
+   damit TEILWEISE abgearbeitet, nicht geschlossen.*
 3. **Apaleo-Community/Events** als Beobachtungskanal (wer tritt dort
    als Entscheider auf?) — nachrangig, nur wenn ohnehin Kontakt
    besteht.

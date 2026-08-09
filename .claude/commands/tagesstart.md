@@ -154,7 +154,10 @@ einer, beim User nachfragen statt raten:
    Zugangsarten) und NIE aus einer Vorrunde als „geklärt" übernommen.
    Richtige Form: „Zugangsweg X war in R<n> gangbar — prüfe ihn als
    ERSTEN Schritt und melde eine Blockade, statt einen Ersatzkanal zu
-   suchen."
+   suchen." **Eine Zuteilung ist eine ERLAUBNIS, keine Vorgabe** — die
+   Session misst den billigsten Kanal zuerst; die Zuteilung selbst ist
+   eine Annahme der Leitsession über das System. (Herkunft: MKT R3,
+   zweifach: beide zugeteilten Chrome-Stränge kamen ohne Browser aus.)
 6. **Fertig-Kriterium** — überprüfbar, **aber nur mit dem, was die Session
    mit ihrem Werkzeugkasten auch erreichen kann** (sonst produziert eine
    korrekt arbeitende Session ein „nicht erfülltes" Kriterium oder
@@ -175,6 +178,12 @@ einer, beim User nachfragen statt raten:
      Lese-git erlaubt; Schreibrecht auf GENAU EINE Datei (sein Protokoll:
      „lies alles, ändere nichts, schreib EIN Protokoll unter
      `protokolle/R<runde>-<session>-pruefer.md`").
+     **Dem Prüfer die ROHBELEGE (heruntergeladene Quelldateien) mit Pfad
+     nennen und Zitate/Zahlen selbst nachzählen lassen** — sonst bewertet
+     er Plausibilität statt Fundstellen; die Vollständigkeit der
+     Rohbeleg-Liste ist Teil des Prüfauftrags und selbst fehleranfällig
+     (Befund und Diagnose getrennt lesen). (Herkunft: MKT R3,
+     Fangquote 20 Befunde.)
      **Tatsachen-Prämissen im Prüfauftrag sind selbst Prüfgegenstand:**
      Was dem Prüfer als „heute ist X"/„Stand ist Y" mitgegeben wird,
      verbaut er als Wahrheit — Prämissen belegen oder ausdrücklich als

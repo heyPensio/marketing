@@ -229,3 +229,16 @@ nur als Befund).
 `aussenkorrespondenz` + `freigabe-vorlagen` aus firzlaff-Skills,
 D1/D3–D7, E1–E3) — braucht Leitsession-Nähe (Skill-/Baustein-Kanal) ·
 Domain-Inventur (nur MIT User am Dashboard) · R03-Reviews + Debrief.
+
+**R3 GESCHLOSSEN (Debrief ~16:2x):** Alle vier Abschlussmeldungen da,
+Reviews beide Richtungen gefahren (A Voll-Review-Stichprobe ✅ · B/C/D
+Kurzraster ✅; Scope-Treue aller 9 Session-Commits per `git show --stat`
+belegt), Debrief mit Rückfluss gelaufen (L-09/L-10, Sammelvermerk R3,
+5 CLAUDE-Schärfungen, SPA-Regel ersetzt; Gerüst `2c52f99` + Stempel
+`2834792` inkl. heyPensio-R32-Nachzug; Postkorb StB `db81284`).
+Kontingent-Befund während R3: Session-Fenster-Deckel griff, Reset kam
+(User-Zuruf ~16:1x). Offen an den User: Portfolio-Zuschnitts-Klärung ·
+MARKE1-Entscheidungspunkte · A5-Probedruck · Modell-Statuszeilen ·
+Zuruf „außerhalb passiert?" (bis Rundenende unbeantwortet).
+**Nächster Block: erst Kontext-Säuberung der Leitsession
+(`/clear` bzw. Neustart, Regel 1a), dann `/runde` für R4.**

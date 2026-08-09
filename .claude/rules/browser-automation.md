@@ -9,10 +9,18 @@ Herkunft: heyPensio.)*
 - Modal-/Dialogtexte ungekürzt auslesen; Feldinhalte am DOM gegenlesen —
   Passwortmanager-Overlays schlucken Klicks, gleiche Platzhalter lassen
   das per JS gefundene ERSTE Feld das falsche sein.
-- **Behörden-/Register-/Store-Seiten sind oft SPAs** — per curl/WebFetch
-  nur leere Hüllen; nur über den Browser prüfen, robust per hrefs aus dem
-  Accessibility-Tree. Jede Negativ-Suche mit Positivkontrolle (gilt auch
-  für UI-Suchfelder).
+- **Behörden-/Register-/Store-Seiten KÖNNEN SPAs sein — die Bauform wird
+  je Seite GEMESSEN, nie angenommen:** Vor dem Browser-Weg den billigsten
+  Kanal (curl/WebFetch) einmal selbst prüfen; der Test kostet Minuten.
+  Gegenbeispiele (beide gemessen 09.08.2026, MKT R3): regionalstatistik.de
+  (GENESIS) ist ein klassisches Formular-/POST-Frontend inkl. CSV-Download
+  per curl; store.apaleo.com liefert die vollständigen Store-Daten in der
+  Next.js-Nutzlast (`__NEXT_DATA__`) — sauberer als die gerenderte UI.
+  Ist die Seite wirklich eine SPA: über den Browser, robust per hrefs aus
+  dem Accessibility-Tree. Spiegelbildlich für Start-Prompts: Eine
+  Chrome-Zuteilung ist eine ERLAUBNIS, keine Vorgabe — der billigste
+  Kanal wird zuerst gemessen. Jede Negativ-Suche mit Positivkontrolle
+  (gilt auch für UI-Suchfelder).
 - Screenshot-/CDP-Timeouts auf schweren Dashboards: unmittelbar
   wiederholen; danach vor Zoom-/Koordinaten-Aktionen erst einen
   Voll-Screenshot. **Ein Zoom-Timeout kann den Screenshot-Kanal dauerhaft

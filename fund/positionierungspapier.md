@@ -156,6 +156,34 @@ Stand der Recherche 20.07./01.08.2026): „Voice am Gerät, Betreibermodell
 Zutrittswege (alte Schlüssel + Fächertresor statt
 Kartensystem-Investition), Förder-Begleitung (WTSH)."
 
+> **📌 NACHTRAG 09.08.2026 (nach Verabschiedung E10; Quelle
+> `fund/wettbewerbsbild.md`, Session R03-D — Original oben bleibt
+> unverändert stehen):** Die FUND3-Aktualisierung überholt vier
+> Beleg-Stände dieses Abschnitts:
+> 1. **„~18 MA" ist WIDERLEGT** (LinkedIn 63 · Store „50+" ·
+>    Fachbeitrag 07/2025 „von 43 auf rund 65") — der Satz „mit 18
+>    Leuten … verwundbar" (Säule 2 unten) trägt nicht mehr; auch der
+>    „2.500 Hotels"-Claim ist überholt (heute „3.400+ in 30 Ländern",
+>    Selbstauskunft).
+> 2. **Neuer nächstliegender Wettbewerber ist book your key**
+>    (Meschede) — trifft drei der fünf Säulen frontal (Meldeschein am
+>    Automaten, mechanische Schlüssel ohne Türumbau, Montage/Schulung
+>    im Preis); Straiv hat zudem den Terminal-Pfad geschlossen (Kiosk
+>    in drei Bauformen) und integriert mit keyBoy einen Schlüsselsafe.
+> 3. Die **Setup-/Support-Klagen** gegen Straiv sind nur für
+>    22.10.–27.11.2025 belegbar; 2026er-Reviews nicht einsehbar —
+>    „sinkende Support-Qualität" ist als Richtungsaussage NICHT
+>    belegbar (Teilnote Support 4,7/5).
+> 4. **„Voice am Gerät" hält als USP — aber nur eng formuliert**
+>    (kein Hotel-Check-in-Anbieter mit belegtem Einsatz; der
+>    angrenzende Kiosk-Industrie-Ring bewirbt es bereits für
+>    Hotel-Check-in).
+> ⚠️ Zusätzlich OFFEN (kein Entscheid, User-Klärung angefragt R3):
+> ob das Dienstleistungsportfolio dieses Papiers (§ 6) um die
+> Beratungs-/Agentur-Achse zu erweitern ist — bis dahin misst das
+> Wettbewerbsbild nur das Technik-Segment (dort § 0.0). Folgeänderungen
+> an diesem Papier erst nach User-Entscheid.
+
 1. **Komplett-Digitalisierung aus einer Hand** entlang der gesamten
    Guest Journey — inkl. der PMS-Einführung selbst (Fassung 6, § 2).
    Kein Wettbewerber im untersuchten Feld bündelt das identisch; am

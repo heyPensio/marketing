@@ -163,10 +163,9 @@ Deshalb zusätzlich:
 3. **Branchenverzeichnisse:** Apaleo App Store und gängige
    Hotel-Tech-Verzeichnisse auf gleichnamige/nahe Anbieter sichten.
    Die bekannten Wettbewerber stehen als AUSSCHLUSSLISTE im
-   Wettbewerbsbild (FUND3, Zielort lt. Tagesplan R3
-   `fund/wettbewerbsbild.md`; bis dahin Extraktion B/F6.1) — sie
-   werden beim BEWERTEN abgeglichen, nicht als Suchbegriffe verwendet
-   (§ 1.4).
+   Wettbewerbsbild `fund/wettbewerbsbild.md` (FUND3, liegt seit
+   09.08.2026 vor) — sie werden beim BEWERTEN abgeglichen, nicht als
+   Suchbegriffe verwendet (§ 1.4).
 4. **Social-/Plattform-Präsenz:** fällt als Nebenprodukt des
    Handle-Prüfwegs an (§ 7) — aktive fremde Accounts unter dem
    Kandidaten-Namen sind auch dann ein Befund, wenn der Handle formal

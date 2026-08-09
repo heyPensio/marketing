@@ -26,6 +26,15 @@ Vorwärtsverweis-Falle).
    Fehlt etwas → erst schließen (Reviews nach `/tagesstart` Abschnitt 1
    Punkt 2, Debrief per `/debrief`), dann weiter. Ausnahme nur auf
    ausdrücklichen User-Entscheid — dann als Schuld im Tagesplan vermerken.
+1a. **KONTEXT-SÄUBERUNG proaktiv vorschlagen:** Ist die Runde geschlossen
+   (Debrief durch), schlägt die Leitsession dem User die Kontext-Säuberung
+   (`/clear`/Neustart) AKTIV vor, BEVOR der neue Schnitt gemacht wird — nicht
+   warten, bis der User es anspricht. Reihenfolge zwingend: erst Debrief
+   (persistiert die Lehren), dann Säuberung, dann neuer Schnitt; der
+   Tagesplan als DATEI trägt die Übergabe über die Säuberung hinweg.
+   Kontext-Last am Rundenschnitt ist Leitsessions-Verantwortung, kein
+   User-Handgriff — eine Regel, die niemand auslöst, fällt unter Last durch.
+   (Herkunft: heyPensio R32.)
 2. **Tagesrahmen-KURZCHECK (nicht neu erheben):** Uhrzeit ziehen und gegen
    den Tagesplan halten — Erreichbarkeitsfenster ändern sich
    (abends/Wochenende: nur Innen-Stränge); Wochen-Budget-Feld auf Stand?

@@ -64,7 +64,7 @@
 | W6 | **Logo-/CI-Tauglichkeit:** als Wortbild setzbar, funktioniert klein (Favicon/App-Icon) und gesprochen (Voice-Kontext des Produkts) | Ersteinschätzung; Detail MARKE4 |
 | W7 | **Auffindbarkeit/SEO:** nicht generisch; geringe bestehende Suchergebnis-Konkurrenz im relevanten Kontext | Prüfweg Verfahren § 5 (Web-Suchraster) |
 | W8 | **Handle-Verfügbarkeit** über das Kern-Plattform-Set (Set offen bis Kanalmix-Entscheid nach Persona-Befund — Entscheidungspunkt E-K1b) | Verfahren § 7 |
-| W9 | **Abstand zum Wettbewerbsfeld:** klanglich/schriftbildlich klar unterscheidbar von den Zeichen der bekannten Wettbewerber (Ausschlussliste: Wettbewerbsbild FUND3, Zielort lt. Tagesplan R3 `fund/wettbewerbsbild.md`; bis dahin Extraktion B/F6.1 — Liste dort nachschlagen, hier bewusst nicht abgeschrieben) | Abgleich im Sprint |
+| W9 | **Abstand zum Wettbewerbsfeld:** klanglich/schriftbildlich klar unterscheidbar von den Zeichen der bekannten Wettbewerber (Ausschlussliste: `fund/wettbewerbsbild.md`, FUND3, liegt seit 09.08.2026 vor — Liste dort nachschlagen, hier bewusst nicht abgeschrieben; ⚠️ Geltungsgrenze § 0.0 dort: nur Technik-Segment, Beratungs-Achse offen) | Abgleich im Sprint |
 
 ## 4. Bewertungsregeln
 

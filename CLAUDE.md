@@ -3,9 +3,9 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand `66fbf4f` nach Rückfluss-Nachzügen MKT R1 + R2
-> inkl. Gegenprobe-Nachfang (09.08.2026). Nachzug neuer
-> Methodik-Lehren: `/projekt-init nachzug`.
+> am 2026-08-09; Stand `2834792` nach Rückfluss-Nachzügen MKT R1–R3
+> und Nachzug der parallel entstandenen heyPensio-R32-Lehren
+> (09.08.2026). Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
 
@@ -239,7 +239,15 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Zugriff `git log -- <datei>` prüfen.
   (e) Auch der AUFTRAG selbst ist eine Annahme — Ist-Stand des
   Auftragsgegenstands an der Quelle prüfen („offen" kann „Beleg offen"
-  heißen; Bau ≠ Beleg).
+  heißen; Bau ≠ Beleg). **Erweitert: Auch die tragende PRÄMISSE eines
+  Bau-Prompts oder eines ganzen DELIVERABLES ist eine Annahme** — ein
+  „umbauen/ändern" setzt voraus, dass das Artefakt EXISTIERT (vor dem
+  Prompt per Bestand/Live belegen, nicht nur den Plan lesen); eine
+  Sach-/Stack-Angabe im Prompt wird gemessen, nicht aus fremder Quelle
+  übernommen; ein ganzes Deliverable wird nicht um eine ungeprüfte
+  Grundannahme gebaut (die tragende Prämisse an der Quelle prüfen, nicht
+  erst beim Rücklauf). Gilt für Briefing-/Fremd-Angaben wie für
+  Auftraggeber-Angaben. (Herkunft: heyPensio R32.)
   (f) Ein richtiges Zitat kann das Gegenteil belegen — Quellzeile GANZ
   lesen, bei Gesprächsquellen die zugehörige FRAGE mit ins Zitat,
   Überschrift/Geltungsbereich mitlesen.
@@ -257,7 +265,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **⭐ Positivkontrolle (operative Pflichtform):** Jede Negativ-Suche läuft
   mit einem Suchbegriff, der treffen MUSS, im selben Lauf. Der mitgenannte
   SUCHRAUM eines Negativs ist selbst Teil der Behauptung. Randfälle einzeln
-  belegen statt Vollabdeckung behaupten.
+  belegen statt Vollabdeckung behaupten. Je PRÜFKANAL ein konkreter
+  Kontrollkandidat — eine Regel „je Suchlauf" ist erst umgesetzt, wenn
+  JEDER Kanal seinen benannten Anker hat; der stärkste Kontrollbegriff
+  spiegelt die SUCHMECHANIK des Nulltreffers (z. B. Teilwort-Probe),
+  nicht nur irgendeinen garantierten Treffer. (Sammelvermerk R3.)
 - **Status-Symbole erben von der SCHWÄCHSTEN Prämisse;** „Prognose" ist
   eine eigene Kategorie; ⚠️-Bausteine nie zu ✅ zusammenfassen. Ein
   „ERLEDIGT" an einer Bedingung beglaubigt die RECHTSFOLGE des Satzes mit —
@@ -274,13 +286,19 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **⭐ Verdichten verliert den Vorbehalt — systematisch zugunsten der
   eigenen Aussage.** Gilt für JEDES Papier, das etwas empfiehlt, auch
   interne. Beim Verdichten den Vorbehalt zuerst übernehmen, dann den Satz
-  bauen — nie umgekehrt. (Herkunft: R29-B/R31, 7 Belege.)
+  bauen — nie umgekehrt. Bewertungs-/Syntheseabschnitte gegen das eigene
+  DETAILKAPITEL zurücklesen, nie gegen die Erinnerung an die Quelle — der
+  gefährliche Moment ist der Übergang vom Detail zur Bewertung.
+  (Herkunft: R29-B/R31, 7 Belege; + MKT R3, Sammelvermerk.)
 - **⭐ Der gefährlichste Satz in einem außenwirksamen Dokument ist die
   ENTWARNUNG** — jede Entwarnung trägt ihre Quelle im Satz, sonst ist sie
   eine unverifizierte Verbindlichkeit. Keine beiläufige Zusage im PRÄSENS,
   die noch nicht wahr ist („ich frage gerade ab" → „ich hole ein und
   reiche nach"). Aussagen darüber, WER etwas entschieden hat, tragen
-  dieselbe Belegpflicht wie Zahlen.
+  dieselbe Belegpflicht wie Zahlen. Auch **„bestätigt"/„re-bestätigt"/
+  „unverändert" sind Entwarnungen** mit voller Belegpflicht — sie fühlen
+  sich wie Nicht-Aussagen an und rutschen deshalb ungeprüft durch.
+  (Sammelvermerk R3.)
 - **Existenz-/Fähigkeits-Negative brauchen die direkte Quelle:** „System X
   kann Y nicht" nie aus Doku-Abwesenheit behaupten — „nicht gefunden" so
   benennen, nicht als „existiert nicht". Negative altern schnell, in beide
@@ -328,7 +346,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   weglassen. Der Befangenheits-Maßstab rutscht systematisch asymmetrisch
   (fremde Selbstauskünfte gekennzeichnet, der eigene Kronzeuge nicht) —
   Prüffrage je eigener Quelle: **„Welchen Vermerk trüge diese Quelle,
-  wäre sie ein Fremder?"** (L-04.)
+  wäre sie ein Fremder?"** (L-04.) Widersprechen sich zwei Quellen und
+  die GEWÄHLTE stützt die eigene These, ist zuerst die eigene AUSWAHL
+  verdächtig — ein „fraglich"-Vermerk ohne Klärungsauftrag dokumentiert
+  die Fehlwahl nur, er verhindert sie nicht (L-09).
 - **⭐ Anwesenheit ist nicht Wirksamkeit** — ein Marker-Grep prüft Text,
   kein Verhalten. Trefferzahl ≥ 2 für jede Konstante, die einen Vergleich
   braucht (Deklaration UND Verwendung); eine Verbotsliste, die nur
@@ -395,6 +416,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   komplette Liste und zählt ALLE Seiteneffekte auf — „unverändert" ist
   eine Aussage über Code, nicht über Wirkungen. Gilt auch in der
   LÖSCH-Richtung (Mengenangabe im Bereinigungsauftrag ist Hypothese).
+- **Eine AKTUALISIERUNG erbt nicht nur Daten, sondern den ZUSCHNITT der
+  Vorgängerarbeit.** Vor „Stimmen die Werte noch?" steht die Frage
+  „Stimmt der AUSSCHNITT noch?"; der geerbte Geltungsbereich gehört als
+  sichtbare Geltungsgrenze ins aktualisierte Dokument (L-10).
 - **Vorläufige Werte in Systemen sind sprechende Platzhalter, nie
   plausible Dummys** — und die Vorläufigkeit gehört ins System selbst
   (sichtbarer Warn-Text), nicht nur in die Doku.
@@ -504,7 +529,9 @@ hierher, nicht ins Repo.
   vor dem Melden einmal in Einzelbefehle zerlegen; und sie ist
   kontext-/zeitpunktgebunden (derselbe `git push` lief später in
   derselben Session) — ein Kanal-Negativ nicht als Dauer-Zustand
-  dokumentieren.
+  dokumentieren. Drittbefund R3: Die Blockade ist auch KANAL-gebunden —
+  derselbe Push lief nach doppelter PowerShell-Blockade im Bash-Kanal
+  durch (L-05-Nachtrag).
 
 ## Aktivierte Bausteine
 

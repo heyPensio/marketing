@@ -111,6 +111,128 @@ Diff-Sichtungs-Verbot ausdrücklich an (tagesstart, Positivkontrolle).
 Quelle: `protokolle/R02-A-pruefer.md` Kopf + Grenzen 7,
 `R02-B-pruefer.md` Kopf.
 
+## L-09 — Quellen-Widerspruch: die these-stützende AUSWAHL ist verdächtig; ein „fraglich"-Vermerk ohne Klärungsauftrag verhindert nichts (MKT R3, 09.08.2026)
+
+**Fall:** Das Juli-Wettbewerbs-Dossier hatte BEIDE Straiv-Zahlen („HTR
+18 Mitarbeiter" und Store-Klasse „50+") und wählte die kleinere — die
+die eigene These „Straiv ist verwundbar" stützte —, mit dem ehrlichen
+Vermerk „damit fraglich". Der Vermerk dokumentierte die Fehlwahl,
+verhinderte sie aber nicht: Der Satz „mit 18 Leuten … verwundbar"
+wanderte bis ins verabschiedete Positionierungspapier § 4. R03-D
+widerlegte die Zahl dreifach (LinkedIn 63, Store „50+", Fachbeitrag
+07/2025 „von 43 auf rund 65"). Kern: Bei Quellen-Widerspruch richtet
+sich der Verdacht gegen die eigene AUSWAHL, nicht gegen die unbequeme
+Quelle; jeder „fraglich"-Vermerk braucht einen Klärungsauftrag (wer
+löst auf, bis wann), sonst ist er ein Durchwink-Stempel.
+Quelle: `protokolle/R03-D-abschluss.md` Falle F5 + Befund 2.
+
+## L-10 — Eine Aktualisierung erbt den ZUSCHNITT der Vorgängerarbeit (MKT R3, 09.08.2026)
+
+**Fall:** Der FUND3-Auftrag lautete „Wettbewerbsbild AKTUALISIEREN";
+die Session erbte den Segment-Zuschnitt des Juli-Dossiers
+(Apaleo-Store-Technik) ungeprüft und baute ein Papier, das sich wie
+DAS Wettbewerbsbild las, obwohl es nur „Wer baut dieselbe Technik?"
+misst — die Beratungs-/Agentur-Achse des real breiteren Portfolios
+fehlte komplett. Vom User gefangen; Fix: Geltungsgrenze § 0.0 im
+Werkstück + offene Portfolio-Klärung (N1). Kern: Bei jedem
+Aktualisierungs-Auftrag zuerst „Stimmt der AUSSCHNITT noch?", dann
+„Stimmen die Werte noch?" — und die geerbte Geltungsgrenze sichtbar
+ins Dokument. Auch der Leitsession-Prompt hatte den Zuschnitt als
+gegeben behandelt (Ist-Stand-Prüfung fand den Vorbestand, prüfte aber
+nicht dessen Prämisse).
+Quelle: `protokolle/R03-D-abschluss.md` Falle F6 + Nebenbefund N1;
+`fund/wettbewerbsbild.md` § 0.0.
+
+## Zweitbelege R3 zu bestehenden Regeln (09.08.2026, Sammelvermerk)
+
+- **L-05 (Klassifikator), zwei neue Facetten:** (1) R03-A: `git push`
+  auch als Einzelbefehl blockiert, ~30 min später in derselben Session
+  durchgelaufen (Zeitpunktbindung erneut). (2) R03-C: zweimal im
+  PowerShell-Kanal blockiert (Kette UND Einzelbefehl), unmittelbar
+  danach im BASH-Kanal durchgelaufen — die Blockade ist auch
+  KANAL-gebunden; Kanalwechsel gehört vor die Meldung.
+- **L-03 (stiller Vollständigkeits-Anspruch):** R03-D schrieb
+  „36/36 wiedergefunden" — die 36 waren die eigene Stichprobe, nicht
+  die Grundgesamtheit des Dossiers; der NENNER einer
+  Verifikationsquote ist selbst eine Behauptung (F3).
+- **Suchraum-Regel (⭐ Positivkontrolle):** Agenten-Negativ
+  „Meldeschein nicht gefunden" maß nur 3 Seiten; der wichtigste
+  Einzelbefund der Runde (book your key nimmt Meldescheine am
+  Automaten auf) stand auf der vierten (F4).
+- **Befund/Diagnose-Trennung (Regel a):** zweimal ausgezahlt — Wavetec
+  (Befund richtig, Diagnose falsch: Datei fehlte in der eigenen
+  Prüfauftrags-Liste) und LIKE-MAGIC-Eurozeichen (eigene Byte-Lesung
+  schlug das Prüfer-Soll) (M7).
+- **Zählweg-Regel:** Marker-Zählungen ohne Etikett (Roh-HTML vs.
+  gestrippter Text, wortgrenzen-gebunden oder nicht) sind nicht
+  reproduzierbar und damit wertlos, auch wenn sie stimmen (F8);
+  eine Zahl, die je Werkzeugeinstellung um Faktor 2 springt, ist ein
+  Werkzeugartefakt (F2).
+- **Preis-Zeilen-Regel:** byte-genaues Zitat schützt nicht vor
+  falscher Einordnung — „ab 350 €" ohne die Frage „Preis WOFÜR?"
+  (Auflösung stand im FAQ derselben Seite) (F10).
+- **Klon-/Vorbestand-Regel:** R03-A übernahm Onboarding-Mechanik und
+  ließ DSGVO-/Onboarding-Entwarnungen bewusst zurück (satzweise
+  Klon-Prüfung); Gekippt-Abschnitt der Quelle VOR jeder Vorbelegung
+  gegriffen — beide Muster trugen.
+- **Verfahrens-Positivkontrolle (L-06/L-08-Mechanik):** dritter
+  erfolgreicher Lauf; Zusatz-Ertrag: echte Deckungslücke M-2 (No-Show-
+  Live-Protokoll ohne Träger) daneben gefunden. Der Prüfer benannte
+  seine Blindstellen-Klassen (Maßstab-Manipulation · konsistente
+  Doppel-Verfälschung MD+HTML · nur-PDF-Fehler) — dokumentiert als
+  Kalibrierung, keine Regeländerung (Zusatzfrage existiert bereits).
+- **Gegenprobe-gegen-die-Prämisse (Recherche-Regel):** „widerlege
+  diese Behauptung" lieferte den Befund „USP hält, aber enger
+  formulieren" — den eine bestätigende Recherche nie gefunden hätte
+  (M3); Ausschlussliste als eingebaute Positivkontrolle (M4).
+- **Exklusiv-Zuteilung ist Annahme (tagesstart-Nachzug):** beide
+  Chrome-Zuteilungen der Runde (R03-B regionalstatistik, Baustein-
+  SPA-Erwartung) blieben ungenutzt — Kanal-Messung schlägt
+  Baustein-Erfahrungsregel (R03-B F1, R03-D F1).
+- **Summenproben-Regel (quellen-beschaffung):** Kreuzprobe zwischen
+  Ebenen fing einen echten Quellen-Datenfehler (Deutschland-Zeile ≠
+  Ländersumme, −391.312), den kein Plausibilitätsblick findet
+  (R03-B F4); Tabellentitel „Jahressumme" log über den Juli-Stichtags-
+  Scope der Zeilen (R03-B F5).
+- **Verdichten-Familie, Warnvermerk-Facette (R03-C F1-Prüferfang):**
+  Zweiteilige Quellen-Pflichten halbieren sich beim Übernehmen — der
+  Everlast-Warnvermerk trägt Zeitstempel- UND Vertragsklärungs-Pflicht,
+  übernommen war zunächst nur die Terminschiene. Beim Übernehmen eines
+  Warnvermerks die Pflichten erst ZÄHLEN, dann einarbeiten.
+- **Zahlen-Zeilen-Regel, Register-Facette (R03-C A1-Prüferfang):**
+  DPMA- (3 Monate ab EINTRAGUNG) und EUIPO-Widerspruchsfrist (ab
+  Veröffentlichung der ANMELDUNG) in einer Tabellenzeile vermengt —
+  bei Verfahrensfristen zweier Register nie eine gemeinsame Zeile,
+  bevor beide Fristanker einzeln benannt sind.
+- **Werkzeug-vor-System, Fehlseiten-Facette (R03-B F2):** Eine
+  „technische Störung"-Fehlseite kam vom eigenen falschen
+  URL-Parameter, während die Domain parallel sauber antwortete —
+  Prüffrage vor jedem „Quelle nicht erreichbar": Antwortet die Domain
+  PARALLEL noch? Dann ist der Fehler der eigene.
+- **Negativ-Absicherung, Merkmals-Facette (R03-B M3):** Das verdächtige
+  Merkmal (`UOGRENZE` — klingt nach Größenklasse, ist Streuungsband)
+  EINZELN öffnen statt am Namen urteilen — ein Abruf, macht das
+  Negativ unangreifbar.
+- **Bewährte Muster ohne Regelbedarf (dokumentiert):**
+  MD-Wahrheitsquelle + HTML-Druckfassung mit expliziter Nachzieh-Regel
+  im Rollen-Kasten (macht Sync-Fehler diagnostizierbar — R03-A M4) ·
+  Fassungsnummern v1/v2+Datum auf Erhebungsvorlagen (R03-A M5) ·
+  Reproduktionsweg/Abrufkette ins Dokument statt Rohdaten (1,7 MB CSV)
+  ins Repo (R03-B M6) · PDF-ERZEUGUNGS-Werkzeugweg etabliert:
+  Chrome headless `--print-to-pdf` respektiert CSS-`@page`,
+  wiederverwendbares Skript `beleg/vorlagen/druck/pdf-erzeugen.ps1`,
+  Layout braucht Sichtprüfung je Iteration (R03-A F2).
+- **(c)-Ablagen (bewusst ohne Handlung):** R03-A-Beobachtungen
+  „fremder Commit bereits auf origin" und „fremde uncommittete Arbeit
+  ignoriert" = Funktionsbestätigungen der Git-Regeln 3/3a ·
+  Länder↔Deutschland-Differenz der RDB-Tabelle ist IM Bericht selbst
+  als „gemessen, nicht erklärt" dokumentiert (R03-B Block 2).
+Quellen: `protokolle/R03-A-abschluss.md`, `R03-B-abschluss.md`,
+`R03-C-abschluss.md`, `R03-D-abschluss.md`, `R03-A-pruefer.md`,
+`R03-C-pruefer.md`; Vollständigkeit gegen die Originalmeldungen
+geprüft durch den Debrief-Gegenprobe-Subagenten (12 Nachfänge, alle
+eingearbeitet — s. Debrief-Report R3).
+
 ## Zweitbelege R2 zu bestehenden Regeln (09.08.2026, Sammelvermerk)
 
 - **L-05 (Klassifikator):** `git push` in R02-A auch als Einzelbefehl

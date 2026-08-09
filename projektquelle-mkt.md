@@ -83,11 +83,32 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Versand User werktags; IHK-Zuständigkeit vorher klären, P6);
   Sonderauswertung Statistikamt Nord ZURÜCKGESTELLT bis
   DEHOGA-/IHK-Antworten da sind (Leitsession-Entscheid R2);
-  regionalstatistik.de als dritter Kanal ungeprüft. Stränge 1
+  regionalstatistik.de als dritter Kanal ✅ GEPRÜFT R3 (09.08.2026,
+  R03-B): kein Größenklassen-Merkmal, auf keiner Regionalebene — N1
+  zweikanalig bestätigt; die Sonderauswertung Statistikamt Nord ist
+  damit der einzige verbliebene amtliche Weg (bleibt zurückgestellt
+  bis DEHOGA-/IHK-Antworten, R2-Entscheid). Beifang: SH-Kreisdaten +
+  Zeitreihe 2018–2024 mit Summenproben 22/22
+  (`fund/erhebung/regionalstatistik-groessenklassen.md`; ⚠️ Mittelwert
+  ist KEINE Größenklassen-Verteilung, § 4.5 dort; ⚠️ RDB-Jahresdaten
+  hinken dem SH-Jahresbericht ein Jahr hinterher — tiefer gegliedert,
+  aber nie „aktuellste Quelle"). Strang-3-Teilantwort
+  (Zielgruppen-Wortlaute der Anbieter) liegt seit FUND3 vor
+  (`fund/wettbewerbsbild.md`, Vermerk im Persona-Plan § 3). Stränge 1
   (Kayhan-Gespräch, User-Handgriff) und 3 (Apaleo, wartet auf
   Faden-Stand) offen.
 - **FUND3** Wettbewerbsbild aktualisieren (Straiv + Segment größerer
   Häuser). Fertig: 2-Tage-Werkstück, keine Forschungsarbeit.
+  **Stand R3 (09.08.2026, R03-D): Technik-Segment AKTUALISIERT**
+  (`fund/wettbewerbsbild.md`; Fundstellen-Nachprüfung mit Rohbelegen,
+  20 Befunde): book your key = neuer nächstliegender Wettbewerber
+  (trifft 3 von 5 USP-Säulen frontal); Straiv-„~18 MA" WIDERLEGT
+  (50–65) → Nachtrags-Kasten im Positionierungspapier § 4; Apaleo
+  Store komplett neu erhoben (267 Apps, kein Marktaustritt); „Voice am
+  Gerät" hält nur eng formuliert. ⚠️ Geltungsgrenze § 0.0: NUR
+  Technik-Segment — die Beratungs-/Agentur-Achse ist bewusst NICHT
+  erhoben (P12/P13) und hängt an der Portfolio-Klärung (§ 7 Punkt 4a);
+  8 neue Anbieter bisher nur selbstauskunfts-belegt (P6).
 - **FUND4** Kern-Wording, Sprachentscheid (DE-only vs. DE/EN),
   Zielzahl (zahlende Objekte bis wann) + **Marketing-Budget als Zahl**
   (Makro-Rahmen für Marke/Domains/Tools/Anzeigen/KI-Token;
@@ -98,6 +119,14 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
 - **MARKE1** Naming-Sprint: Kriterienkatalog, Kandidaten, Vorprüfung
   (Domain/Handles/DPMA-Grobcheck) — auch Markenrecherche für den
   BESTAND heyPensio (Kollisions-Check). Fertig: Shortlist beim User.
+  **Stand R3 (09.08.2026, R03-C): VORBEREITUNG FERTIG, als ENTWURF** —
+  `marke/naming-kriterienkatalog.md` (K1–K7 + W1–W9, bewusst
+  kandidatenfrei) + `marke/markenrecherche-verfahren.md`
+  (Gate-2-Anleitung für BEIDE Namen, Nizza-Vorschlag 42/9/35);
+  Gegenfrage-Prüfung gelaufen (0 kritisch / 3 wichtig / 11 Hinweise,
+  eingearbeitet). Wartet auf User-Verabschiedung der 10
+  Entscheidungspunkte (E-K1–E-K5 · E-V1–E-V4); erst danach
+  Naming-Sprint und Live-Recherche (eigene Session, E-V4).
 - **MARKE2** Gesellschafter-Entscheid (51/49) + Namensentscheid.
   Gate: GbR-Namensführungsfrage geklärt (Zentrale/StB). Fertig:
   datierter Entscheid in `zentrale`.
@@ -106,6 +135,14 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Fertig: alles registriert VOR jeder öffentlichen Nennung.
 - **MARKE4** Logo + CI-Guide v1 (Farben, Typo, Bildsprache; Logo-Rechte/
   Quelldateien im Repo). Fertig: CI-Guide verabschiedet.
+  ⚠️ **Everlast-Fenster gilt bis PROGRAMM-ENDE ~März 2027, nicht nur
+  bis 18.09.2026** (Leitsession-Übernahme 09.08.2026 aus R03-C):
+  § 11 (1) erfasst „in der Zusammenarbeit entstehende Logos, Content
+  und Webpräsenzen" — Entstehung von Logo/CI (MARKE4) UND Website
+  (MKT-WEB) während der gesamten Laufzeit außerhalb der Zusammenarbeit
+  per Repo-Zeitstempel dokumentieren; vor gemeinsamer Asset-Arbeit
+  vertragliche Klärung (beide Pflichten:
+  `marke/markenrecherche-verfahren.md` § 11).
 - **MARKE5** Cutover-Plan: Sequenz Name→Marke→Domain→Website→Ankündigung,
   Übergangsregeln für laufende Korrespondenz (Anbieter-Fäden, Behörden,
   Pilotkunde), Mail-/Workspace-Migration (Ausführung: Zentrale),
@@ -123,8 +160,12 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   + Schätz-Interview, Beleg-Typ Selbstauskunft/L-04;
   ⚠️ dokumentierter offener Dissens zur AUSSEN-Formulierung
   „gemessen" — Entscheid fällt bei BELEG4/HANDEL2 am realen
-  Datenbestand, s. Plan-Nachtrag 2). Kette: Erhebungsvorlagen bis
-  20.08. (Folge-Session) → Betreiber-Briefing bis 23.08. (User,
+  Datenbestand, s. Plan-Nachtrag 2). Kette: ~~Erhebungsvorlagen bis
+  20.08.~~ ✅ FERTIG 09.08.2026 (R03-A, `beleg/vorlagen/` v2:
+  3 A5-Tagesblätter + Interviewleitfaden als MD+PDF, voll-reviewt
+  inkl. gefangener Positivkontrolle; No-Show-Live-Protokoll-Träger
+  nachgerüstet (Prüfer-Befund M-2); Probedruck = User-Handgriff) →
+  Betreiber-Briefing bis 23.08. (User,
   koppelbar mit FUND2-Kayhan-Gespräch) → Messfenster 24.08.–20.09.
   Pilotobjekte (Standorte repo-belegt): Firzlaff's Neumünster ·
   Rabe's Kiel · Hostel Boninstraße Kiel — alle Schleswig-Holstein.
@@ -332,6 +373,37 @@ OPS4-Register in `sensibel/`.)*
   existiert nicht. Aufbau DSGVO-sauber ab erstem Kontakt läuft in AKQ,
   Betrieb lohnt ab grober Schwelle ~100+ relevanter Kontakte —
   CMO-Bericht (c).)
+- **Gebietspriorisierung SH-Zielkundenliste** (geparkt 09.08.2026, R3:
+  Nordfriesland 246 + Ostholstein 170 = 40,1 % der 1.038
+  SH-Hotelleriebetriebe; Kreisraster in
+  `fund/erhebung/regionalstatistik-groessenklassen.md` § 4.4.
+  Zielort: MKT-AKQ/HANDEL-Zielkundenliste — existiert noch nicht, die
+  Kanal-Rechtsmatrix geht ihr voraus.)
+- **BE-A-Preisausreißer im Apaleo Store** (geparkt 09.08.2026, R3:
+  „Voice 30" PerRoom/PerMonth = Faktor 5–15 über dem Marktband,
+  mutmaßlich falsch getaggte Anbieter-Einheit — derselbe Fall wie
+  NovaVoca im Juli. Zielort: MKT-HANDEL-Preisbenchmarks; vor jeder
+  Verwendung an der Quelle klären.)
+- **„Blacklisting" nicht als Alleinstellung formulieren** (geparkt
+  09.08.2026, R3: LIKE MAGIC führt es als Standardbaustein des
+  400-€/M-Pakets. Zielort: MKT-HANDEL/Case Study —
+  Formulierungs-Sperre für außenwirksame Texte.)
+- **Erstbenutzung „heyPensio" datieren** (geparkt 09.08.2026, R3: für
+  die Prioritäts-/Kennzeichenrechts-Frage des Bestands-Kollisionschecks
+  (Verfahren § 8.3); Erhebungsweg: ältester Außenverwendungs-Beleg im
+  heypensio-Repo. **Zielort: heypensio-Leitsession** — Übergabe über
+  deren Briefing, nicht direkt.)
+- **Wettbewerber-Einstufungen bei Portfolio-Erweiterung rückprüfen**
+  (geparkt 09.08.2026, R3; hängt an § 7 Punkt 4a: Brandnamic ist in
+  `heypensio\firzlaff\hardware\nachfassrunde-2026-07-28.md` als „kein
+  Wettbewerber, möglicher Kanal" eingestuft — an einem
+  Beratungs-Portfolio gemessen wäre er Wettbewerber UND Kanal; gleiche
+  Logik Everlast und Smart Host. **Zieldatei liegt im heypensio-Repo →
+  Übergabe über dessen Leitsession.** Im selben Übergabe-Posten:
+  Vorwärtsverweis ins Alt-Dossier
+  `heypensio\firzlaff\marktrecherche-apaleo-store-2026-07.md` § 2a —
+  die dortigen Straiv-Zahlen („18 MA", „2.500 Hotels") sind durch
+  FUND3 überholt bzw. widerlegt (R03-D N3).)
 
 ## 6. AKTUELLER STAND
 
@@ -341,6 +413,24 @@ CMO-Praxis · Completeness-Critic; Rohberichte in
 `protokolle/R00-planpruefung-2026-08-09.md`) und User-Entscheiden E1–E7.
 Schwester-Repo `zentrale` angelegt (Rollen-Charta, Namensentscheid-Träger,
 Postkorb).
+
+**R3 gelaufen (09.08.2026, Shanks + R03-A/Ben Beckman + R03-B/Yasopp +
+R03-C/Lucky Roux + R03-D/Rockstar — erste Vier-Strang-Runde):**
+Erhebungsvorlagen v2 FERTIG (BELEG1-Kette hält den 20.08.) ·
+regionalstatistik.de geprüft (N1 zweikanalig bestätigt +
+SH-Kreisdaten-Beifang) · MARKE1-Vorbereitung als Entwurf (10
+Entscheidungspunkte beim User) · Wettbewerbsbild Technik-Segment
+aktualisiert (book your key neuer Nächstwettbewerber, Straiv-„18 MA"
+widerlegt → Nachtrags-Kasten Positionierungspapier § 4). Alle vier
+Sessions Scope-treu; alle Prüfschichten mit Funden (A: 8 Befunde inkl.
+gefangener Positivkontrolle · C: 14 · D: 20, davon 13 übernommen ·
+Rundenschnitt-Subagent: Onboarding-Vorbestand → verhinderte
+Doppelbau). Neue Lehren L-09/L-10 + Sammelvermerk R3;
+SPA-Baustein-Regel durch Messung ersetzt. ⚠️ Offen aus R3:
+Portfolio-Zuschnitts-Klärung (§ 7 Punkt 4a, User) ·
+Modell-Statuszeilen-Sichtung durch den User (A/B/D konnten sie nicht
+selbst prüfen) · User-Zuruf „außerhalb passiert?" blieb in R3
+unbeantwortet (Annahme „nichts Neues" ist UNBESTÄTIGT).
 
 **R2 gelaufen (09.08.2026, Shanks + R02-A/Yasopp + R02-B/Lucky Roux):**
 BELEG1-Messplan gebaut, geprüft und FREIGEGEBEN (H-2; User-Vorgabe
@@ -389,20 +479,46 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    FUND2-Kayhan-Gespräch** (ein Termin, getrennt dokumentieren) ·
    dabei H-4 Altdaten-Sicherung anstoßen (bis 07.09., wichtigste
    Quelle harter Vorher-Zahlen).
-4. **R3-Kandidaten:** (a) Erhebungsvorlagen-Session (A5-Tagesblätter,
-   Interviewleitfaden mit Bandbreiten-Schätzfragen BM-1–BM-5 +
-   E-1–E-5, Druck-PDF — bis 20.08., VOR dem Briefing); (b)
-   MARKE1-Vorbereitung (wartet nicht auf StB, nur MARKE2);
-   (c) FUND2-Fortsetzung (regionalstatistik.de; Persona-Befund erst
-   mit Strang 1/3).
+4. ~~R3-Kandidaten~~ ✅ R3 GELAUFEN 09.08.2026 (alle vier Stränge,
+   s. § 6). **Neu offen aus R3:**
+   (a) **⚠️ Portfolio-Zuschnitts-Klärung (User + Leitsession, VOR der
+   zweiten FUND3-Achse):** Der User beschreibt das Angebot breiter als
+   Positionierungspapier § 6 (Beratungs-/Agentur-Leistungen:
+   Hotelmarketing, Zahlenanalyse, Expansion, Nachfolge, Operations;
+   Kayhan-Beraterrolle fachlich nirgends dokumentiert — R03-D N1).
+   Entscheid nötig: Papier nachziehen ODER bewusst eng bleiben. Erst
+   danach: Beratungs-Wettbewerbsachse erheben (P12/P13) +
+   Einstufungs-Rückprüfung (§ 5 letzter Punkt).
+   (b) **MARKE1:** User-Verabschiedung der 10 Entscheidungspunkte →
+   danach Naming-Sprint (eigene Session; Live-Recherche nach E-V4).
+   (c) **FUND2-Rest:** Stränge 1 (Kayhan-Gespräch) + 3 (Apaleo-Faden);
+   Sonderauswertung Statistikamt Nord erst nach DEHOGA-/IHK-Antworten
+   (R2-Entscheid, durch R3-Negativ jetzt einziger amtlicher Weg).
+   (d) **User-Handgriffe neu:** A5-Probedruck vor dem Briefing
+   („tatsächliche Größe") · Modell-Statuszeilen-Bestätigung der
+   R3-Sessions (A: Fable · B: Opus · D: Opus).
 5. Kleinposten: Domain-Inventur mit dem User (Cloudflare/Registrar) ·
    Byte-Vergleich Fassung-6-Kanon (bei Anlage der
-   Kanon-Versionsführung).
+   Kanon-Versionsführung) · Blueprint-Arbeitsauftrag Bausteine
+   `aussenkorrespondenz`/`freigabe-vorlagen` (aus R2, unverändert
+   offen) · RDB-Konto nur bei wiederkehrenden Regionalauswertungen
+   (R03-B Block 2).
 
 ---
 
 ## CHANGELOG
 
+- 09.08.2026 (R3-Debrief): Vier Stränge eingearbeitet — BELEG1-Vorlagen
+  ✅ (§ 2) · FUND2-Kanal-3-Negativ + Kreisdaten-Beifang (§ 2) ·
+  MARKE1-Entwürfe (§ 2) · FUND3-Aktualisierung (§ 2) +
+  Nachtrags-Kasten Positionierungspapier § 4 + Teilantwort-Vermerk
+  Persona-Plan § 3 · fünf geparkte Posten neu (§ 5) · § 7 neu
+  geschnitten (Portfolio-Klärung 4a als Entscheidungsbedarf) ·
+  Register L-09/L-10 + Sammelvermerk R3 · Bausteine/Commands
+  nachgezogen, SPA-Pauschalregel durch Mess-Pflicht ersetzt ·
+  Postkorb-Meldung StB-Fragenliste (zentrale `db81284`) ·
+  Gerüst-Stempel `2834792` (inkl. Nachzug der parallelen
+  heyPensio-R32-Lehren).
 - 09.08.2026: Projektquelle angelegt (Projekt-Aufsetzung, `/projekt-init`;
   Plan nach dreifacher Prüfrunde + User-Entscheide E1–E7).
 - 09.08.2026 (R2-Debrief): BELEG1-Messplan freigegeben (H-2,

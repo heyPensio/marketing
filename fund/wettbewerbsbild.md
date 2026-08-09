@@ -1058,6 +1058,16 @@ Bei keinem der geprüften Anbieter wurde eine Förder-Begleitung beworben.
 gezielt gesucht; es ist ein Nebenbefund der Seitenlektüre. Als „nicht
 gefunden, nicht gezielt gesucht" führen.
 
+> **➡️ Für die Beratungsachse überholt durch B5.2 (R05-A, 09.08.2026).**
+> Die Überschrift „kein Gegenbefund" gilt weiter für das
+> **Technik-Segment**. Im **Beratungsmarkt** ist das Gegenteil belegt:
+> Dort ist Förderung für einen Teil des Feldes das Verkaufsargument —
+> mit Akkreditierungs-Kennnummern und Zuschussquoten von 50–80 % auf das
+> Beraterhonorar (B5.2), und mit denselben Prozentzahlen im Verkaufstext
+> weiterer Anbieter (B8.5). **Unsere Beratungsleistung tritt gegen
+> bezuschusste Angebote an.** Ob wir selbst förderfähig wären, ist offen
+> (**P14**).
+
 ### 5.6 Der stärkste Fund dieser Runde: die PMS-Frage
 
 Weder book your key noch Jack-In noch ILOCA sind **im Store-Inventar
@@ -1229,7 +1239,7 @@ Misstrauen gegen die Quelle.
 | P11 | **Straiv-Kiosk-Preise** (Juli offen, heute weiter ohne öffentliche Angabe; Straiv bietet „Finanzierungsmöglichkeiten") | ggf. über den kiosk.eu-Faden | niedrig |
 | ~~**P12**~~ | ~~**Zweite Wettbewerbsachse „Beratung" fehlt vollständig**~~ ✅ **AUFGELÖST 09.08.2026 (R05-A) → TEIL B.** Die vorgelagerte Frage ist durch E11/E13 entschieden (Portfolio BREIT, Papier-Kasten § 6); die Achse ist erhoben — Agenturen (B4), Beratung (B5), Revenue/Zahlenanalyse (B6), Verbands-/Förderkanäle (B8). **Rest-Stand: der Suchraum ist nicht vollständig** — Geltungsgrenze in **B1**. | — | — |
 | ~~P13~~ | ~~**Bestand rückwirkend gegen den breiteren Zuschnitt prüfen**~~ ✅ **AUFGELÖST 09.08.2026 (R05-A) → B7.** Brandnamic neu eingestuft (B4.3), Smart Host neu eingestuft (B6.1), Everlast richtiggestellt (B3); zusätzlich **elf weitere Anbieter gefunden, die nie als Wettbewerber betrachtet wurden** (B7.2). ⚠️ Rest: `projektquelle-heypensio.md` und die STATUS-Dateien wurden nur per Grep berührt (B7 Vollständigkeits-Grenze). | — | — |
-| **P14** | **Ist unser eigenes Beratungsangebot BAFA-förderfähig, und ist eine Berater-Autorisierung erreichbar?** Wettbewerber verkaufen dieselbe Digitalisierungs-/Prozessberatung mit 50–80 % Zuschuss auf ihr Honorar (B5.2). Nicht zu verwechseln mit der Förderung der KUNDEN-Hardware (WTSH/DKU), die wir schon begleiten. | BAFA-Richtlinie + KfW-Beraterbörse an der Primärquelle; danach Entscheid MKT-HANDEL/Zentrale | **hoch — Preishebel gegenüber inhabergeführten Häusern** |
+| **P14** | ⭐ **TEILWEISE BEANTWORTET (B9.4) — jetzt ein ENTSCHEID, keine Recherche.** Belegt: BAFA-Registrierung ist kostenfrei, verlangt aber „**mehr als 50 % des Gesamtumsatzes**" aus entgeltlicher Unternehmensberatung — wer überwiegend Umsetzung verkauft, ist untauglich. **SH-DKU** (bis 8.000 €, bis 30.06.2027) verlangt **gar keine** Akkreditierung, **Hamburg Digital Check** (50 %/7.500 €) nur eine **Selbsterklärung**. **Offen ist damit nicht mehr die Rechtslage, sondern unsere Angebotsarchitektur.** | Entscheid MKT-HANDEL/Zentrale; die zwei fallbezogenen Rückfragen (WTSH-Antragsberechtigung Beherbergung · IFB-Themenzuordnung Marketing) stehen in B9.4 | **hoch — und ⚠️ TERMINKRITISCH: Antragsschluss Hamburg Digital Check 16.11.2026** |
 | **P15** | **Was decken straiv, flexipass, hoteldoor und iiq check im Brandnamic-Partnerkreis tatsächlich ab?** Entscheidet, ob die Kategorie „Check-in/Zutritt" dort bereits besetzt ist — und damit, ob eine Kanal-Ansprache überhaupt eine offene Kategorie hätte (B4.3). | Primärquellen der vier Anbieter; **nicht** aus der Brandnamic-Kategorisierung ableiten | **hoch — Voraussetzung jeder Kanal-Entscheidung** |
 | **P16** | **Fünf Kandidaten sind kanalbedingt unerhoben geblieben** (kein Negativbefund): Kirsch Unternehmensberatung (TLS-Fehler; laut Suchtreffer Privathotellerie-Spezialist seit 1997) · Hotel Fritz Consulting (HTTP 500) · Kohl & Partner Schweiz (keine Verbindung) · 9seemeilen (DNS) · Swiss Urban & Mountain Hospitality AG (als Partner beschrieben: „Hotel-Operations, Prozessoptimierung und Guest Journey … Remote-Lösungen für das Hotelmanagement" — inhaltlich näher an uns als die meisten Agenturen) | Abruf über anderen Netzpfad bzw. zu anderem Zeitpunkt wiederholen | mittel |
 | **P17** | **Reine Gästemappen-/Guest-App-Anbieter sind in Teil B systematisch nicht erhoben** — sie sind keine Agenturen und fielen durch beide Suchraster. Für unser Portfolio sind sie die eigentliche Nachbarschaft (B4.4 Punkt 6). | eigener Erhebungslauf, Weg wie Teil A (Store/Anbieterseiten) | mittel |
@@ -1243,7 +1253,7 @@ Misstrauen gegen die Quelle.
 | 09.08.2026 | R03-D | Erstfassung. Delta-Erhebung gegen `marktrecherche-apaleo-store-2026-07.md` (Stand 20.07./28.07./29.07./01.08.2026). Apaleo Store vollständig neu erhoben (267 Apps, BYTE); Straiv, book your key, LIKE MAGIC aktualisiert; acht bisher nicht geführte Anbieter aufgenommen; Gegenprobe gegen die fünf USP-Säulen. |
 | 09.08.2026 | R03-D | Geltungsgrenze § 0.0 ergänzt (Segment-Zuschnitt) nach User-Einwand; P12/P13 aufgenommen. |
 | 09.08.2026 | R03-D | **Nach Fundstellen-Nachprüfung überarbeitet.** Korrigiert: LIKE-MAGIC-Preise sind Mindestmonatsgebühren neben einem unveröffentlichten Zimmerpreis, Kiosk ist kostenpflichtiges Add-on (§ 3.3) · Voice-KI-Band NICHT re-bestätigt, Ränder heute weiter (§ 4.5) · Schließanlage/Gebäudetechnik stecken NICHT im book-your-key-Monatspreis (§ 5.1) · Shiji-Datum und Sitemap-Spanne richtiggestellt (§ 3.1) · LIKE-MAGIC-Größenbänder summieren auf 27 von 29 (§ 3.3) · „zwei unabhängige Kanäle" → zwei Ausspielwege derselben Anbieterangabe · Apaleo-Negativ für book your key/Jack-In/ILOCA auf „nicht im Store gelistet" zurückgenommen (§ 5.6) · Auswahlkriterium der 69er-Prüfliste präzisiert (§ 4.1) · nicht reproduzierbare Positivkontroll-Zahlen entfernt · § 6.5 nach „widerlegt" und „überholt" getrennt · drei Zitate zeichengenau nachgezogen. |
-| 09.08.2026 | R05-A | **TEIL B angebaut: zweite Wettbewerbsachse „Beratung & Agentur" (P12/P13 aus § 7).** Teil A (§§ 0–8) inhaltlich unverändert; ergänzt wurden nur der Lese-Hinweis im Kopf, die Vorwärtsverweise in § 0.0 und die P12-/P13-Zeilen in § 7. Neu in Teil B: Einstufungsraster mit expliziten Vergabelinien (B2) · Erhebung des Beratungs-/Agentur-Feldes (B4–B6) · Rückprüfung der Alt-Einstufungen gegen den breiten Zuschnitt (B7) · Everlast-Einordnung richtiggestellt (B3) · aktualisierte Geltungsgrenze (B1). Fundstellen-Nachprüfung der übernommenen R04-Kernaussagen: `protokolle/R05-A-fundstellen.md`. |
+| 09.08.2026 | R05-A | **TEIL B angebaut: zweite Wettbewerbsachse „Beratung & Agentur" (P12/P13 aus § 7).** Teil A (§§ 0–8) inhaltlich unverändert; ergänzt wurden nur der Lese-Hinweis im Kopf, die Vorwärtsverweise in § 0.0 und die P12-/P13-Zeilen in § 7. Neu in Teil B: Geltungsgrenze (B1) · Einstufungsraster mit expliziten Vergabelinien L-B1…L-B6 (B2) · Everlast-Einordnung richtiggestellt (B3) · Marketing-Agenturen inkl. Brandnamic-Neueinstufung (B4) · Unternehmensberatung inkl. Förder-Befund gegen USP-Säule 5 (B5) · Revenue-/Zahlenanalyse inkl. Smart-Host-Richtigstellung (B6) · Rückprüfung des Alt-Bestands, elf bisher nie eingestufte Anbieter (B7) · Bündel-Wettbewerb „Digitalisierung aus einer Hand" (B8) · Verbands-, Kammer- und Förderkanäle (B9). Vorwärtsverweis zusätzlich in § 5.5 gesetzt (Säule 5). Fundstellen-Nachprüfung der übernommenen R04-Kernaussagen: `protokolle/R05-A-fundstellen.md`. |
 
 ---
 ---
@@ -1270,9 +1280,55 @@ Misstrauen gegen die Quelle.
 > ist für Aussagen über UNSER Angebot die Primärquelle, für Aussagen über
 > Dritte dagegen nur eine Sekundärstufe.
 
-## B1. Geltungsgrenze dieses Teils
+## B1. ⚠️ Geltungsgrenze dieses Teils
 
-*(wird am Ende der Erhebung gesetzt — siehe unten)*
+**Erhoben wurde die Angebots- und Marktseite von fünf Feldern**, jeweils
+mit Zuschnitt kleine/mittlere Privathotellerie im DACH-Raum:
+
+| Feld | Erhoben | Umfang |
+|---|---|---|
+| Hotel-Marketing-Agenturen | B4 | 16 Anbieter (14 DACH, 2 Südtirol) |
+| Hotel-Unternehmensberatung (Operations, Nachfolge, Expansion, Systemauswahl) | B5 | 15 Anbieter |
+| Revenue-/Zahlenanalyse-Beratung | B6 | 12 Anbieter |
+| Digitalisierung „aus einer Hand" (Technik + Einführung + Betrieb) | B8 | 17 betrachtete Anbieter |
+| Verbands-, Kammer- und Förderkanäle | B9 | DEHOGA (Bund/BW/SH/HH), IHK SH + HK Hamburg, IHA (47 Partner), 8 Förderprogramme in DE/AT/CH |
+| Rückprüfung des eigenen Alt-Bestands | B7 | heypensio-Repo, fünf Suchwege |
+
+**Was das NICHT ist:** eine Vollerhebung. Konkret **nicht enthalten**:
+
+1. **Reine Gästemappen-/Guest-App-Anbieter** — sie sind keine Agenturen
+   und fielen durch alle Suchraster (**P17**). Für unser Portfolio sind
+   sie die eigentliche Nachbarschaft.
+2. **Stadt- und MICE-Hotellerie-Dienstleister** sind unterrepräsentiert:
+   Das Agentur-Sample hat eine **Alpen-/Ferienhotellerie-Schlagseite**
+   (kein Treffer aus Berlin, Hamburg, Leipzig, Dresden). Das misst die
+   Suchbegriffe, **nicht den Markt**.
+3. **Fünf namentlich bekannte Kandidaten blieben kanalbedingt unerhoben**
+   (**P16**) — plus `hotel-it.ch` und `hotel-it-dresden.com` (B8.6).
+4. **Kein einziger Registerauszug** wurde gezogen. Sämtliche Firmierungs-,
+   HRB-/FN-/CHE-Angaben in Teil B sind **Impressums-Selbstauskünfte**.
+   Für außenwirksame Texte gilt unverändert: Firmierung von
+   Vertragspartnern nur per Registerauszug.
+5. **Keine Drittquellen** (Bewertungsportale, Presse, Jahresabschlüsse,
+   LinkedIn) — Teil B beruht mit ganz wenigen Ausnahmen auf
+   **Anbieter-Selbstdarstellungen**. Leistungs-, Kunden- und
+   Erfolgszahlen tragen deshalb keinen unabhängigen Beleg.
+6. **Kein Browser-Kanal, keine Formulare, keine Kontaktaufnahme.** Damit
+   unerreichbar geblieben: alles hinter „Angebot anfragen", die
+   IHA-Kategoriezuordnung (POST-Filter), Oracle- und
+   protel/planet-Partnerverzeichnisse (SPA), die IHK-SH-Volltextsuche
+   (JS), Preisangaben, die per JavaScript nachgeladen werden.
+7. **Sprachfassungen:** Bei Brandnamic wurde nur die **deutsche** Fassung
+   gelesen (IT/EN existieren); bei Smart Host DE und EN.
+
+**Alterung:** Alle Negative in Teil B sind **kanal- und
+zeitpunktgebunden** (09.08.2026). Sie sagen „im geprüften Suchraum nicht
+gefunden" — nie „existiert nicht" (L-B6).
+
+**Was Teil B ausdrücklich NICHT beantwortet:** die Frage, ob wir in
+diesen Markt hineinpassen. Er liefert Einstufungen und Belege; die
+Entscheidungen (Preisposition, BAFA-Architektur, Kanalwahl, Zielgruppen-
+Untergrenze) gehören MKT-FUND, MKT-HANDEL und MKT-AKQ.
 
 ## B2. Das Einstufungsraster und seine Vergabelinien
 
@@ -2271,3 +2327,199 @@ smartbloqs.de (403).
 ⚠️ **Widerspruch in der Quelle selbst, nicht geglättet:** agilotels
 Impressum nennt für denselben Ort **zwei verschiedene Postleitzahlen**
 (5733 und 5773 Bramberg am Wildkogel).
+
+## B9. Verbands-, Kammer- und Förderkanäle — Wettbewerber und Kanal zugleich
+
+**Erhebung:** ein Recherche-Agent, 09.08.2026; Kernzahlen der
+Förderrichtlinien und die DEHOGA-/Designkontor-Befunde am Rohtext
+gegengeprüft (Leseweg dort **ROH-S** = selbst gelesen, sonst **ROH-A**).
+Förderrichtlinien wurden als PDF im Volltext ausgewertet.
+
+### B9.1 DEHOGA — beides, mit klarer Rollentrennung nach Gliederung
+
+**Wettbewerber ist genau eine Gliederung: die „DEHOGA Beratung" des
+Landesverbands Baden-Württemberg — und sie arbeitet bundesweit.**
+Wörtlich: „Die DEHOGA Beratung steht Ihnen **bundesweit** zur Verfügung
+und bietet geförderte Konditionen in **allen Bundesländern** an" · „oft
+**bis zu 100 Prozent gefördert**". Ihr Marketing-Leistungskatalog ist mit
+unserem Aufbau-Feld deckungsgleich: Website-Optimierung „für Google &
+Co.", „**GEO- und SEO-Optimierung**", „Wie werde ich bei **ChatGPT,
+Perplexity, Gemini** und Co. überhaupt gefunden?", Google-Unternehmens-
+profil, Social-Media-Content, bezahlte Werbung, Bewertungsmanagement.
+**Preise öffentlich und hart:** Nettotagessatz (8 Stunden) **985,00 €**;
+geförderte Kurzberatung KMU → Eigenanteil **499,00 € zzgl. MwSt** für
+Mitglieder, **635,00 €** für Nicht-Mitglieder; Existenzgründung
+Eigenanteil **250,00 €** bei 15 förderfähigen Tagen.
+→ **Einstufung: W1.** Das ist zugleich eine **Preisuntergrenze, die ein
+ungeförderter Anbieter nicht unterbietet** — relevant für MKT-HANDEL.
+
+**Kanal sind Bundesverband, Schleswig-Holstein und Hamburg.** Sie beraten
+nicht selbst zu Digital/Marketing:
+- **DEHOGA SH** bietet „**Kostenlose Beratung in arbeitsrechtlichen
+  Angelegenheiten**" und „Informationen über Förder- oder
+  Investitionsmöglichkeiten"; das Partnerverzeichnis führt 25 Partner +
+  7 Kooperationspartner, digital darunter **DIRS21**, eviivo,
+  reguest.io.
+- **DEHOGA Hamburg delegiert Beratung vollständig an fünf namentlich
+  genannte externe Partner** — Recht (Kanzlei Jacobsen + Confurius),
+  Betriebsberatung (Grimm Consulting), bAV, Payment, Immobilien/
+  Nachfolge. ⭐ **Digitalisierung und Marketing kommen als Beratungsfelder
+  NICHT vor** (Suchraum: die Beratungsseite im Volltext, `Digitalisierung`
+  0 · `Marketing` 0; Positivkontrolle `Beratung` 48 ·
+  `Betriebsberatung` 2 ✔). **Das ist die konkreteste Andockstelle im
+  ganzen Dossier.**
+  Kaufbarer Kanal: Partnerprogramm mit **vier Leveln** (Bronze/Silber/
+  Gold/Premium), Newsletter an „über 1400 Adressaten", Fachartikel,
+  Produktpräsentation auf Fachsitzungen, „Nutzungsrecht der Wortmarke
+  ‚DEHOGA Hamburg Partner'" — und **ab Gold: „keine Kooperationen mit
+  direkten Marktbegleitern"**, Exklusivität je Kategorie ist also
+  kaufbar und für Wettbewerber sperrend. ⚠️ **Preise stehen nicht im
+  PDF.** Mitgliedsbeitrag Hamburg (Beitragsordnung gültig ab 01.01.2026):
+  Stufe I (0–3 Beschäftigte) 29,60 €/Monat bis Stufe VI (51–100)
+  178,00 €/Monat.
+- **INTERHOGA GmbH** ist die Leitstelle der Bundes-Beratungsförderung für
+  das Gastgewerbe — „agiert **bundesweit und unabhängig von einer
+  Verbandsmitgliedschaft**"; Regionalpartner sind **DEHOGA SH (Kiel)** und
+  **DEHOGA Hamburg**. Dort kommt jeder Betrieb vorbei, der jünger als ein
+  Jahr ist (Pflicht-Informationsgespräch).
+
+**Negativ mit Positivkontrolle:** Kein öffentliches Beraterverzeichnis
+bei irgendeiner geprüften DEHOGA-Gliederung (`Beraterliste`/
+`Beraterverzeichnis`/`Beratersuche`/`Beraterdatenbank` je 0;
+Positivkontrollen `Berat` 9–102, `DEHOGA` 246–1238 ✔).
+⚠️ **Werkzeugfalle, die ein falsches Negativ erzeugt hätte:**
+`dehoga-bundesverband.de/<pfad>` liefert für **jeden** Unterpfad einen
+301 auf die Wurzel — mit `curl -L` sind alle Unterseiten byte-identisch
+mit der Startseite. Belastbar ist nur die Domain `dehoga.de`.
+
+### B9.2 IHK — eher Kanal, mit einem kostenlosen Wettbewerbsangebot
+
+**Kanalwert hoch und ungewöhnlich konkret:**
+- ⭐ **Designkontor Schleswig-Holstein — öffentliche Anbieterliste mit
+  offener Selbstaufnahme** (~159 Einträge, Zielgruppe Beherbergung).
+  Wörtlich: „**In diesem Sinne kann sich jedes in Frage kommende
+  Unternehmen in die Liste aufnehmen lassen.**" Der beworbene
+  „**Beratungsdreiklang**" umfasst ausdrücklich „Einrichtungs-,
+  **Marketing-** und betriebswirtschaftliche Überlegungen"; die
+  Einstiegsberatung kostet „**250,- Euro zuzüglich gesetzlicher
+  Mehrwertsteuer**". Bereits gelistet sind Marketing-Wettbewerber
+  (u. a. „Easy Online-Marketing für Fewos", „Klute Kommunikation").
+  ⚠️ **Für MKT-HANDEL und die UWG-§-7-Matrix zwingend:** Die Liste trägt
+  den Vorbehalt „**Die Daten dürfen nicht zu Werbezwecken genutzt
+  werden**" — sie taugt als **Eintragskanal für uns**, nicht als
+  Adressquelle.
+- **WTSH** empfiehlt nach ihrem kostenlosen Digitalisierungs-Check
+  ausdrücklich „**Experten** für die intensive Begleitung spezieller
+  Teilprojekte".
+- **Mittelstand-Digital-Zentren** beraten kostenlos (Hamburg und
+  Tourismus 2026 aktiv; das MDZ **Schleswig-Holstein** ist
+  **widersprüchlich**: Footer „wurde bis Januar 2025 gefördert", Fließtext
+  wirbt im Präsens — **ob es 2026 noch berät, ist nicht entscheidbar**,
+  und das ist ein eigenes Ergebnis, kein „läuft nicht mehr").
+
+**Der eine echte Wettbewerber: „MEET THE EXPERTS"** der IHK
+Schleswig-Holstein — „Im Rahmen von individuellen Einzelberatungen haben
+Sie die Chance **kostenfrei** mit IT-Experten in den Dialog zu treten …
+**in der Regel jeden Dienstag**", Taktung: 2. Dienstag **Online
+Marketing**, dazu Social Media, KI, IT-Sicherheit. Das ist Erstberatung
+ohne Umsetzung — **es senkt aber die Zahlungsbereitschaft für ein reines
+Audit-Angebot spürbar.**
+
+**Die Kammern sagen selbst, dass es keine Beraterdatenbank gibt:**
+„**Ein strukturiertes bundesweites Angebot fehlt zur Zeit**"
+(Handelskammer Hamburg). Das IHK-Register ist das
+Sachverständigenverzeichnis (`svv.ihk.de`) und für Marketing-/
+Digitalberatung nicht einschlägig.
+⚠️ **Toter Verweis mit Schadenspotenzial, doppelt belegt:** Die
+KfW-Beraterbörse „**wurde zum 31.12.2019 eingestellt**"; die alte Domain
+`kfw-beraterboerse.de` liefert am 09.08.2026 eine
+**Online-Casino-Affiliate-Seite**. Wer den von der IHK-Seite verlinkten
+Alt-Link weiterverwendet, verlinkt Glücksspielwerbung.
+
+### B9.3 IHA (Hotelverband Deutschland) — reiner Kanal, mit einem Platzhirsch darin
+
+**Der IHA berät nicht selbst** (`Betriebsberatung` 0 ·
+`Unternehmensberatung` 0 · `BAFA` 0 auf den geprüften Seiten;
+Positivkontrolle `Partner` 5–9 ✔) — er kuratiert und **verkauft Zugang**.
+**Preis öffentlich** (Beitragsordnung „gültig ab 1. Januar 2025"):
+**Preferred Partner 8.150 € / Jahr** — gegenüber **1.370 €** für ein
+Hotel bis 50 Zimmer. Die Partnerschaft kostet also fast das Sechsfache
+eines Zielkundenbeitrags und trägt sich erst nach mehreren gewonnenen
+Häusern.
+**Vollständige Preferred-Partner-Liste erhoben: 47 Namen**, zweikanalig
+gegengeprüft (Namens-Dropdown der Filtermaske **und** 47
+Detailseiten-Slugs — beide Wege ergeben 47). ⚠️ **Die Zuordnung Partner →
+Hotelbereich ist nur über einen POST-Filter abrufbar und wurde nicht
+ausgelöst** (kein Formular); die thematische Einteilung im Agentenbericht
+ist dessen **eigene Klassifikation aus den Selbstbeschreibungstexten**,
+keine Verbandsangabe (Negativ-Beleg: Kategorienamen kommen auf den 47
+Detailseiten 0-mal vor, Positivkontrolle „Preferred Partner" 47/47 ✔).
+⭐ **Entscheidend für uns:** Der Verband führt „**Digitales / KI**" und
+„**Sales & Marketing**" bereits als eigene Hotelbereiche — und
+**Online Birds GmbH besetzt das Feld Online-Marketing mit genau unserem
+Einstiegsköder**: IHA-Exklusivvorteil wörtlich „**kostenfreie Analyse
+Ihrer Online Marketing Kanäle**", dazu ein eigenes Bewertungstool
+(„Hotel Digital Score", 0–100, kostenlose Erstanalyse). Ein Eintritt
+über den IHA wäre ein Frontalangriff auf einen etablierten Partner
+desselben Verbands.
+
+### B9.4 ⭐ Geförderte Beratung — eindeutig Kanal, aber mit einer Eintrittshürde, die unsere Angebotsarchitektur mitbestimmt
+
+**Fördergeber konkurrieren nicht — sie senken den Preis unseres Angebots
+und liefern den Anlass fürs Erstgespräch.** Drei Wege sind für SH/HH
+belegt, und sie unterscheiden sich in der Zugangshürde diametral:
+
+| Programm | Zuschuss | Wer darf beraten | Frist |
+|---|---|---|---|
+| **Hamburg Digital Check** (IFB) | **50 %, max. 7.500 €**; Beratertagessatz max. **1.100 € netto** anerkennungsfähig | **Selbsterklärung „Digitalisierungsberatung"** — keine Akkreditierung, niedrigste Hürde aller geprüften Programme | ⚠️ **Anträge vollständig bis 16.11.2026**; Richtlinie befristet bis 31.12.2026; **Kumulierungsverbot** mit anderen Zuschüssen; nur nicht begonnene Vorhaben |
+| **SH-DKU Modul Beratung** (Amtsblatt SH 2026/190 vom 05.06.2026) | **max. 40 %** auf max. **20.000 €** zuwendungsfähige Ausgaben → **bis 8.000 €** *(gerechnet, steht so nicht in der Richtlinie)*; Beraterkosten mind. 2.500 € netto | ⭐ **Keine Akkreditierung mehr** — die frühere go-digital-Lizenzpflicht ist in der geltenden Fassung **entfallen** | bis **30.06.2027** (verlängerbar) |
+| **BAFA-Unternehmensberatung** (Bund) | **50 %, max. 1.750 €** für SH/HH (neue Länder 80 %/2.800 €), förderfähige Kosten max. 3.500 € | ⚠️ **Registrierung beim BAFA** *und*: „deren überwiegender Geschäftszweck auf die entgeltliche Unternehmensberatung (**mehr als 50 % des Gesamtumsatzes**) gerichtet ist" | Anträge bis **31.12.2026**; max. 5 Beratungen, höchstens 2/Jahr |
+
+**⭐ Der geschäftskritische Satz steht in der BAFA-Richtlinie:** Ein
+Anbieter, der **überwiegend Umsetzung** verkauft (Website, Kampagnen,
+Betrieb), erfüllt die 50-%-Umsatzschwelle **nicht** und ist damit
+BAFA-untauglich. Die beiden Landesprogramme sind es nicht. **Das ist eine
+Frage an unsere Angebotsarchitektur, nicht an das Marketing** — Zielort
+MKT-HANDEL/Zentrale, siehe P14.
+Die BAFA-Registrierung selbst ist **kostenfrei**; ein öffentliches
+Beraterverzeichnis gibt es dort **nicht** (7 Suchmuster inkl.
+umlautfreier Gegenprobe je 0; Positivkontrollen `Beraterregistrierung` 5 ·
+`Leitstelle` 22 ✔) — der Berater wird vom Unternehmen **benannt**, nicht
+aus einer Liste gewählt.
+
+**Zwei belegte Programm-Enden, die Alt-Wissen entwerten:**
+- **go-digital ist ausgelaufen** — „Das Förderprogramm go-digital ist am
+  **31.12.2024** ausgelaufen. Es können keine Förderanträge mehr gestellt
+  werden." Damit ist auch die frühere Autorisierungs-Hürde samt
+  öffentlichem Verzeichnis entfallen. ⚠️ Seiten, die go-digital 2026 noch
+  als laufend führen (u. a. eine IHK-SH-Seite), sind veraltet.
+- **KMU.DIGITAL 4.0 (AT) ist antragsgeschlossen** („Das Budget … ist
+  vollständig ausgeschöpft") — ⚠️ **seit wann, ist nicht belegt**, und
+  zwei WKO-Eigenquellen widersprechen sich in der Laufzeit (31.12.2026
+  laut FAQ vs. 31.12.2027 laut Richtlinie). Für ein deutsches Angebot
+  ohnehin ausgeschlossen (Standortbedingung + österreichische
+  Personenzertifizierung).
+- **Schweiz: kein Weg zur bezuschussten Einzelhotel-Beratung** —
+  Innotour schließt einzelbetriebliche Subventionen aus und verlangt seit
+  01.04.2026 ein Projektvolumen ab 200.000 CHF; der Innosuisse-Scheck
+  bezahlt einen **Forschungspartner**, keine Unternehmensberatung; SGH und
+  die OeHT-Tochter Tourism Investment Services sind **selbst Berater**.
+
+⚠️ **Quellenkonflikt, der uns fast zum Falschschluss geführt hätte:** Die
+WTSH-Programmseite verlinkt als „Richtlinie" weiterhin die **veraltete
+Fassung vom 20.04.2023** — mit der noch geltenden go-digital-Lizenzpflicht.
+**Wer nur diesem Link folgt, hält sich fälschlich für ausgeschlossen.**
+Der Beleg für den Wegfall ist doppelt geführt: in der Neufassung
+`go-digital` 0 · `lizenziert` 0, **Gegenprobe an der Altfassung im selben
+Lauf: 2 bzw. 1** ✔.
+
+**Zwei Punkte, die vor jeder Kundenzusage zu klären sind (nicht von uns
+entscheidbar):**
+1. **Ist ein Beherbergungsbetrieb unter SH-DKU Ziffer 3.1.1
+   antragsberechtigt?** Beherbergung fehlt auf der Ausschlussliste — der
+   Umkehrschluss ist eine **Lesart, keine Aussage der Richtlinie**.
+   Fallbezogen bei der WTSH bestätigen lassen.
+2. **Fällt Marketing-/Sichtbarkeitsberatung unter „Digitaler Wandel" des
+   Hamburg Digital Check?** In der Richtlinie `Marketing` 0 · `Website` 0
+   (Positivkontrolle `Tagess` 1 · `7.500` 2 ✔) — **weder benannt noch
+   ausgeschlossen**. Wegen des Antragsschlusses 16.11.2026 zeitkritisch.

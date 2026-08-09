@@ -1,6 +1,6 @@
 # Tagesblatt Rezeptions-Erfassung — Hostel Boninstraße Kiel
 
-**Vorlagen-Fassung: v1-2026-08-09** · Druckformat: A5 quer, ein Blatt je Tag
+**Vorlagen-Fassung: v2-2026-08-09** · Druckformat: A5 quer, ein Blatt je Tag
 · Träger der Messgrößen BM-1 (Check-in-Dauer) und BM-2b (Rezeptionsbindung)
 aus `beleg/baseline-messplan.md` § 3/§ 4.
 
@@ -37,6 +37,9 @@ aus `beleg/baseline-messplan.md` § 3/§ 4.
    **Check-in · Schlüssel-Ausgabe · Meldeschein · Barzahlung ·
    Störung/Problem · Sonstiges.** Auch bei Langzeitgästen zählen solche
    Vorgänge (z. B. Schlüsselverlust, Störung) — nicht nur Neuanreisen.
+   Auch ein **No-Show** gehört hierher (Gast ist ohne Absage nicht
+   gekommen): „Sonstiges" ankreuzen, „No-Show" + was Sie getan haben
+   in die Besonderheit.
 2. **Nur bei Check-ins** zusätzlich die Uhrzeit: **Start** = Gast steht da
    (oder ruft an, weil er vor der Tür steht), **Ende** = Gast ist fertig
    und geht Richtung Zimmer. Der Meldeschein gehört mit in diese Zeit.
@@ -52,6 +55,8 @@ aus `beleg/baseline-messplan.md` § 3/§ 4.
    vergessener Tag ist kein Beinbruch — einfach am nächsten Tag
    weitermachen, nichts aus dem Gedächtnis nachtragen. Lieber eine Lücke
    als eine geschätzte Uhrzeit.
+6. **„Musste jemand da sein?":** „nein" ankreuzen, wenn es auch ohne
+   jemanden vor Ort gegangen wäre — etwa am Telefon lösbar.
 
 ## Tabellenspalten (10 Leerzeilen je Blatt)
 
@@ -76,24 +81,30 @@ ist auf dem Blatt aufgedruckt.*
   ausgewertet und aufbewahrt.
 - Jeden **Samstag** ein Handyfoto aller Blätter der Woche an **Qays**
   schicken (vereinbarter Kanal aus dem Briefing). Blätter danach aufheben,
-  nicht wegwerfen. Wer nicht täglich vor Ort ist: Blätter der Tage seit
-  dem letzten Besuch gesammelt anlegen ist in Ordnung — dann bitte nur
-  eintragen, was sicher erinnert wird, und den Rest leer lassen.
+  nicht wegwerfen. Wer nicht täglich vor Ort ist: Blätter nur für Tage
+  führen, an denen jemand da ist — Tage ohne Besuch bleiben ohne Blatt
+  (das ist eine ehrliche Lücke, kein Problem). Nichts rückwirkend
+  ausfüllen; nur nachträglich bemerkte Anreisen kommen als
+  „nachträglich"-Zeile aufs aktuelle Blatt.
 - Zeitraum der Erfassung: **Mo 24.08. bis So 20.09.2026** (vier Wochen;
   späterer Start möglich — dann ab dem vereinbarten Datum).
-- Blatt `____` von `____` · Vorlage v1-2026-08-09 · Rückfragen: Qays
+- Blatt `____` von `____` · Vorlage v2-2026-08-09 · Rückfragen: Qays
 
 ## Herkunft der Felder (nicht auf dem Druckblatt)
 
-Identisch mit `tagesblatt-firzlaffs.md`, Abschnitt „Herkunft der Felder" —
-plus zwei Hostel-Anpassungen:
+Identisch mit `tagesblatt-firzlaffs.md`, Abschnitt „Herkunft der Felder"
+(inkl. No-Show-Zeile M-2 und Zeit-Auflösungs-Vermerk G-2 aus dem
+R03-A-Prüfprotokoll) — plus zwei Hostel-Anpassungen:
 
 - Der verstärkte Leeres-Blatt-Hinweis setzt Messplan § 2 um („der Nenner
   wird dokumentiert, nicht beschönigt"; „nicht anwendbar" zulässig) und
   nimmt dem Erheber das Gefühl, „nichts liefern" sei ein Versagen.
-- Der Sammel-Anlage-Hinweis in der Fußzeile trägt der offenen
-  Betreuungsfrage Rechnung (E-2: womöglich ist niemand täglich vor Ort).
-  **Beleg-Typ-Folge:** Gesammelt nachgetragene Blätter sind rückblickende
-  Selbstauskunft, kein zeitnahes Rohprotokoll — die Auswertung erkennt
-  das am Verhältnis Blattdatum/Übergabedatum und stuft entsprechend ein;
-  die Anweisung „nur sicher Erinnertes, Rest leer" hält den Schaden klein.
+- **Keine rückwirkende Blatt-Anlage** (Fußzeile): Ein rückdatiert
+  ausgefülltes Blatt sähe aus wie zeitnahes Rohprotokoll, wäre aber
+  rückblickende Selbstauskunft — diese stille Beleg-Typ-Aufwertung ist
+  nicht zuverlässig erkennbar (Prüfer-Befund R03-A M-3). Deshalb gilt:
+  Tage ohne Anwesenheit bleiben ohne Blatt (ehrliche Lücke, konsistent
+  mit Anleitungspunkt 5); einzige nachträgliche Eintragsform ist die
+  plangedeckte „nachträglich"-Spalte (Messplan Prüfer-Befund G-5).
+  Anleitung in Sie-Form, da der Erheber noch unbestimmt ist
+  (Prüfer-Befund R03-A G-4).

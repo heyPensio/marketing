@@ -1,6 +1,6 @@
 # Tagesblatt Rezeptions-Erfassung — Firzlaff's Hotel Neumünster
 
-**Vorlagen-Fassung: v1-2026-08-09** · Druckformat: A5 quer, ein Blatt je Tag
+**Vorlagen-Fassung: v2-2026-08-09** · Druckformat: A5 quer, ein Blatt je Tag
 · Träger der Messgrößen BM-1 (Check-in-Dauer) und BM-2b (Rezeptionsbindung)
 aus `beleg/baseline-messplan.md` § 3/§ 4.
 
@@ -27,7 +27,9 @@ aus `beleg/baseline-messplan.md` § 3/§ 4.
 
 1. Eine Zeile für jeden Vorgang, der jemanden an der Rezeption gebraucht
    hat: **Check-in · Schlüssel-Ausgabe · Meldeschein · Barzahlung ·
-   Störung/Problem · Sonstiges.**
+   Störung/Problem · Sonstiges.** Auch ein **No-Show** gehört hierher
+   (Gast ist ohne Absage nicht gekommen): „Sonstiges" ankreuzen,
+   „No-Show" + was ihr getan habt in die Besonderheit.
 2. **Nur bei Check-ins** zusätzlich die Uhrzeit: **Start** = Gast steht da
    (oder ruft an, weil er vor der Tür steht), **Ende** = Gast ist fertig
    und geht Richtung Zimmer. Der Meldeschein gehört mit in diese Zeit.
@@ -43,6 +45,8 @@ aus `beleg/baseline-messplan.md` § 3/§ 4.
    vergessener Tag ist kein Beinbruch — einfach am nächsten Tag
    weitermachen, nichts aus dem Gedächtnis nachtragen. Lieber eine Lücke
    als eine geschätzte Uhrzeit.
+6. **„Musste jemand da sein?":** „nein" ankreuzen, wenn es auch ohne
+   jemanden vor Ort gegangen wäre — etwa am Telefon lösbar.
 
 ## Tabellenspalten (10 Leerzeilen je Blatt)
 
@@ -69,7 +73,7 @@ ist auf dem Blatt aufgedruckt.*
   schicken (vereinbarter Kanal aus dem Briefing). Blätter danach aufheben,
   nicht wegwerfen.
 - Zeitraum der Erfassung: **Mo 24.08. bis So 20.09.2026** (vier Wochen).
-- Blatt `____` von `____` · Vorlage v1-2026-08-09 · Rückfragen: Qays
+- Blatt `____` von `____` · Vorlage v2-2026-08-09 · Rückfragen: Qays
 
 ## Herkunft der Felder (nicht auf dem Druckblatt)
 
@@ -91,3 +95,11 @@ ist auf dem Blatt aufgedruckt.*
 - Leeres Blatt als eigenes Ergebnis: CLAUDE.md-Regel „den leeren Zustand
   GETRENNT behandeln" — ohne das Ankreuzfeld wäre „keine Vorgänge" von
   „nicht geführt" nicht unterscheidbar.
+- No-Show-Zeile in Anleitungspunkt 1: Träger des BM-3b-Live-Protokolls
+  real auftretender Fälle (Prüfer-Befund R03-A M-2); der €-Beleg je Fall
+  läuft über den Wochen-Check (H-5).
+- Zeit-Auflösung: Die Uhrzeit-Spalten erfassen minutengenau (HH:MM);
+  der Messplan nennt für BM-1 „Minuten:Sekunden" als Ideal — papiernah
+  ist minutengenau der belastbare Standard, das Messwerte-Dokument
+  führt den Zählweg entsprechend als „minutengenau" (Prüfer-Befund
+  R03-A G-2).

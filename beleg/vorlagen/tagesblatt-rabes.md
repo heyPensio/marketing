@@ -1,6 +1,6 @@
 # Tagesblatt Rezeptions-Erfassung — Rabe's Hotel Kiel
 
-**Vorlagen-Fassung: v1-2026-08-09** · Druckformat: A5 quer, ein Blatt je Tag
+**Vorlagen-Fassung: v2-2026-08-09** · Druckformat: A5 quer, ein Blatt je Tag
 · Träger der Messgrößen BM-1 (Check-in-Dauer) und BM-2b (Rezeptionsbindung)
 aus `beleg/baseline-messplan.md` § 3/§ 4.
 
@@ -34,7 +34,9 @@ aus `beleg/baseline-messplan.md` § 3/§ 4.
 
 1. Eine Zeile für jeden Vorgang, der jemanden an der Rezeption gebraucht
    hat: **Check-in · Schlüssel-Ausgabe · Meldeschein · Barzahlung ·
-   Störung/Problem · Sonstiges.**
+   Störung/Problem · Sonstiges.** Auch ein **No-Show** gehört hierher
+   (Gast ist ohne Absage nicht gekommen): „Sonstiges" ankreuzen,
+   „No-Show" + was Sie getan haben in die Besonderheit.
 2. **Nur bei Check-ins** zusätzlich die Uhrzeit: **Start** = Gast steht da
    (oder ruft an, weil er vor der Tür steht), **Ende** = Gast ist fertig
    und geht Richtung Zimmer. Der Meldeschein gehört mit in diese Zeit.
@@ -50,6 +52,8 @@ aus `beleg/baseline-messplan.md` § 3/§ 4.
    vergessener Tag ist kein Beinbruch — einfach am nächsten Tag
    weitermachen, nichts aus dem Gedächtnis nachtragen. Lieber eine Lücke
    als eine geschätzte Uhrzeit.
+6. **„Musste jemand da sein?":** „nein" ankreuzen, wenn es auch ohne
+   jemanden vor Ort gegangen wäre — etwa am Telefon lösbar.
 
 ## Tabellenspalten (10 Leerzeilen je Blatt)
 
@@ -77,12 +81,15 @@ ist auf dem Blatt aufgedruckt.*
   nicht wegwerfen.
 - Zeitraum der Erfassung: **Mo 24.08. bis So 20.09.2026** (vier Wochen;
   späterer Start möglich — dann ab dem vereinbarten Datum).
-- Blatt `____` von `____` · Vorlage v1-2026-08-09 · Rückfragen: Qays
+- Blatt `____` von `____` · Vorlage v2-2026-08-09 · Rückfragen: Qays
 
 ## Herkunft der Felder (nicht auf dem Druckblatt)
 
-Identisch mit `tagesblatt-firzlaffs.md`, Abschnitt „Herkunft der Felder" —
-plus: Der Zusatz „späterer Start möglich" in der Fußzeile setzt den
-gestaffelten Start um (Messplan § 5, Prüfer-Befund G-6), damit das Blatt
-bei nachlaufendem Rabe's-Start nicht mit einem falschen Pflicht-Zeitraum
-in der Hand des Erhebers liegt.
+Identisch mit `tagesblatt-firzlaffs.md`, Abschnitt „Herkunft der Felder"
+(inkl. No-Show-Zeile M-2 und Zeit-Auflösungs-Vermerk G-2 aus dem
+R03-A-Prüfprotokoll) — plus: Der Zusatz „späterer Start möglich" in der
+Fußzeile setzt den gestaffelten Start um (Messplan § 5, Prüfer-Befund
+G-6), damit das Blatt bei nachlaufendem Rabe's-Start nicht mit einem
+falschen Pflicht-Zeitraum in der Hand des Erhebers liegt. Anleitung hier
+in Sie-Form, da der Erheber noch unbestimmt ist (Du ist die
+Kayhan-Konvention, Prüfer-Befund R03-A G-4).

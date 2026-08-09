@@ -1,6 +1,6 @@
 # Interviewleitfaden Betreiber-Briefing — BELEG1-Baseline (Schiene B)
 
-**Vorlagen-Fassung: v1-2026-08-09** · Druckformat: A4 ·
+**Vorlagen-Fassung: v2-2026-08-09** · Druckformat: A4 ·
 Verwender: **Qays** im Betreiber-Briefing (bis So 23.08.2026, H-3) ·
 Grundlage: `beleg/baseline-messplan.md` inkl. Freigabe-Nachträge 1–4.
 
@@ -49,6 +49,11 @@ Grundlage: `beleg/baseline-messplan.md` inkl. Freigabe-Nachträge 1–4.
    (BM-Fragen) → Teil 2 (E-Fragen) → Teil 3 (Übergabe). Die Teile 1
    und 2 sind je Objekt als eigene Spalte/Durchlauf zu führen — eine
    Antwort gilt nur für das Objekt, für das sie gegeben wurde.
+8. **Anrede und Konventionen:** Die wörtlichen Fragen stehen in
+   Du-Form — das ist die Kayhan-Konvention (Du-Form, nie „Kay",
+   CC `hotel-firzlaff@web.de`; Messplan § 4). Bei anderen
+   Gesprächspartnern (Rabe's, Hostel) die Fragen sinngemäß in die
+   passende Anrede übertragen.
 
 > ### ⚖️ Was dieses Interview NICHT ist (DÜRFEN/WISSEN-Trennung)
 >
@@ -227,6 +232,12 @@ belegt — Prüfer-Befund G-3; erst zuordnen, dann fragen):
       Hostel je nach Klärung E-1/E-2 — späterer Start ist zulässig und
       wird notiert (kleinerer Nenner, kein Blocker; Prüfer-Befund G-6).
 - [ ] Wochen-Check-Termine nennen: Sa 29.08. · 05.09. · 12.09. · 19.09.
+- [ ] **No-Show-Live-Protokoll vereinbaren:** Jeder im Messfenster
+      real auftretende No-Show kommt als Zeile aufs Tagesblatt des
+      Tages (Vorgang „Sonstiges", Besonderheit „No-Show" + kurz, was
+      getan wurde); den zugehörigen €-Beleg (Rechnungs-/Buchungsauszug)
+      sammelt Qays beim Wochen-Check ein (Messplan BM-3b/BM-3c, H-5;
+      Prüfer-Befund R03-A M-2).
 - [ ] H-4 als Termin beim Betreiber verankern: Altdaten-Auszüge bis
       Mo 07.09. gemeinsam ziehen.
 - [ ] Offene Punkte mit Namen und Frist ins Protokoll — eine offene

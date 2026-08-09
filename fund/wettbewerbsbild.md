@@ -162,7 +162,7 @@ klingen.** Sie sind wörtlich belegbar — aber ausschließlich aus dem Band
 22.10.–27.11.2025, und die Teilnote „Customer Support" ist mit 4,7/5 die
 **höchste** neben Ease of Use. Die Richtungsaussage „sinkende
 Support-Qualität" ist mit dem verfügbaren Material **nicht belegbar**
-(§ 3.1). Keine einzige Review aus 2026 war einsehbar.
+(§ 3.1). Keine einzige Hotelier-Review aus 2026 war einsehbar.
 
 **K6 — Der Apaleo Store hat sich bewegt, aber nicht gegen uns.** 267
 eindeutige Apps in 350 Listungen (BYTE, Zählweg § 4.1). Von 69 im
@@ -197,8 +197,9 @@ weiter (Belege in § 4):
   Feld (Zählweg und Auswahlkriterium § 4.1).
 - Straivs Preisband im Store (2,50 / 1,00 / 1,00 €/Zi/M) ist unverändert
   (BYTE, § 3.1).
-- Das Voice-KI-Preisband „139–799 €/M bzw. 2–6 €/Zi/M" ist re-bestätigt
-  (BYTE, § 4.5).
+
+*(Das Juli-Band für Voice-KI gehört ausdrücklich **nicht** in diese
+Liste — es ist heute an beiden Rändern weiter, siehe § 4.5.)*
 
 ---
 
@@ -323,8 +324,8 @@ ausdrücklich Häuser, die digitalisieren wollen, „ohne direkt in eine
 komplett neue Schließinfrastruktur investieren zu müssen".
 **Das ist wörtlich unser Fächertresor-Argument aus USP-Säule 4** (§ 5.4).
 
-**Integrationen (ROH, SELBST, straiv.io/de/tech-partner, 09.08.2026 —
-Liste vollständig):** PMS (13): Apaleo · ASA · Casablanca · Guestline ·
+**Integrationen (BYTE, SELBST, straiv.io/de/tech-partner, 09.08.2026 —
+Liste vollständig, von der Session selbst geladen):** PMS (13): Apaleo · ASA · Casablanca · Guestline ·
 ibelsa · Infor · Mews · Oracle OPERA Cloud · Oracle Suite 8 · Protel
 Cloud · Protel on Premise · Shiji Daylight · Sihot. Schließsysteme (8):
 Assa Abloy (Vingcard/Vostio) · Dormakaba · Häfele Dialock · Hotek ·
@@ -337,7 +338,7 @@ keyBoy. *(Gegenprobe der Session per Marker-Zählung auf derselben Seite:
 
 **BYTE, SELBST, straiv.io/de/…/digitaler-meldeschein, 09.08.2026,
 wörtlich:**
-> „100 % rechtskonform & vollautomatisch mit dem PMS synchronisiert"
+> „100% rechtskonform & vollautomatisch mit dem PMS synchronisiert"
 >
 > „Datenerfassung via Gast-Smartphone, Rezeptions-Tablet oder
 > Kiosk-Terminal"
@@ -364,14 +365,24 @@ kein verwendbarer Beleg, in keine Richtung.
 
 #### Kein Voice
 
-**Auf 8 selbst geladenen straiv.io-Seiten plus Blog-Index am 09.08.2026
-nicht gefunden** (ROH; Suchmuster `voice|sprachassisten|sprachsteuerung|
-sprachbedienung|telefon-?KI|Anrufe` → 0 Treffer je Seite).
-*Positivkontrolle im selben Lauf:* `check-in` traf 3–34 mal je Seite,
-„KI" 13 mal im Blog. Guest Messaging nennt als Kanäle ausdrücklich nur
-„WhatsApp, text message, or email". Die Session hat auf Startseite und
-Meldeschein-Seite unabhängig nachgezählt: „Voice" 0, „Mikrofon" 0 —
-Positivkontrolle „Kiosk" 8/12, „Check-in" 16 (BYTE).
+**Auf 8 vom Recherche-Strang geladenen straiv.io-Seiten plus Blog-Index
+am 09.08.2026 nicht gefunden** (ROH; Suchmuster `voice|sprachassisten|
+sprachsteuerung|sprachbedienung|telefon-?KI|Anrufe` → 0 Treffer je
+Seite). ⚠️ Die dort mitgelieferten Positivkontroll-Zahlen („check-in
+3–34 je Seite", „KI 13 im Blog") waren **in der Nachprüfung nicht
+reproduzierbar** — je nach Zählweg (Roh-HTML oder gestrippter Text,
+wortgrenzen-gebunden oder als Zeichenkette) ergeben sich abweichende
+Werte. **Der Zählweg fehlt, damit sind die Zahlen wertlos; die
+Positivkontrolle als solche hat aber stattgefunden** (auf jeder Seite
+traf `check-in` mehrfach).
+
+Belastbar ist stattdessen die eigene Nachzählung der Session (BYTE,
+Roh-HTML): Auf Startseite und Meldeschein-Seite „Voice" 0, „Mikrofon" 0
+— Positivkontrolle „Kiosk" 8 bzw. 12, „Check-in" 16 Treffer. ⚠️ Die
+Null gilt **wortgrenzen-gebunden**: Als reine Zeichenkette trifft
+`voice` auf der englischen Guest-Messaging-Seite einmal — in
+„in**voice** delivery". Guest Messaging nennt als Kanäle ausdrücklich nur
+„WhatsApp, text message, or email".
 
 ⚠️ **Verfallswarnung:** Eine von Suchmaschinen noch indexierte
 Straiv-Seite `…/solutions/chatbot-for-hotels/` enthielt die Formulierung
@@ -395,7 +406,11 @@ has not met the minimum criteria for the Certificate of Excellence".
 ausgelieferten HTML sind genau 10 Reviews eingebettet, Stempel
 22.10.–27.11.2025; `?page=2` liefert dieselben 10. Die übrigen 73 sind
 JS-paginiert → **nicht geprüft (Kanal Browser)**.
-**Keine einzige Review aus 2026 einsehbar.**
+**Keine einzige HOTELIER-Review aus 2026 einsehbar.** ⚠️ Die Präzisierung
+ist nötig: Dieselbe Seite trägt außerhalb des Review-Blocks datierte
+Fremdaussagen aus 2026 (u. a. eine Peer-Empfehlung mit Datum 09.08.2026
+— identisch mit dem Abrufdatum, also möglicherweise dynamisch
+gerendert). Der Satz gilt für Hotelier-Bewertungen, nicht für die Seite.
 
 **Wörtliche Kritik (alle aus dem Band 22.10.–27.11.2025):**
 - „Backend: Touchpoint/Module selection is often confusing; the setup was
@@ -422,10 +437,17 @@ JS-paginiert → **nicht geprüft (Kanal Browser)**.
 
 **Weitere Plattformen:** ProvenExpert spiegelt nur einen
 Google-Maps-Stand vom 18.09.2025 (21 Bewertungen, 4,80) — keine
-Aussagekraft für 2026. **Capterra DE und OMR Reviews: kein
-Straiv-Produktprofil gefunden** (je mit bestandener Positivkontrolle,
-§ 6.2). **G2 und Trustpilot: nicht geprüft** (HTTP 403 über beide
-verfügbaren Kanäle).
+Aussagekraft für 2026. **Capterra DE: kein Straiv-Produktprofil**
+(die Suchseite liefert 141 Produkte, darunter nur Fuzzy-Nachbarn wie
+„Stradivari WMS" und „WorkStraight"; Positivkontrolle `q=apaleo`
+liefert Treffer — dieses Negativ trägt). **OMR Reviews: unter zwei
+geratenen Slugs nicht vorhanden** (`straiv`, `straiv-io`, je 404).
+⚠️ **Schwächer als es klingt:** Die Positivkontrolle validierte den
+Slug-Kanal (`hubspot-marketing-hub` = 200), nicht die Suche — die
+OMR-Suchseite antwortete ihrerseits mit 404. Belastbar ist nur „unter
+zwei geratenen Slugs nicht gefunden", nicht „kein Profil vorhanden".
+**G2 und Trustpilot: nicht geprüft** (HTTP 403 über beide verfügbaren
+Kanäle).
 
 #### Preise und Marktbewegungen
 
@@ -445,19 +467,36 @@ kein Kiosk-Hardware-Preis. Der im Alt-Dossier genannte Wert „Journey
 Paket.
 
 **Marktbewegungen 2026 (ROH, SELBST, straiv.io/de/blog):** Partnerschaft
-mit **Shiji** für das Daylight PMS (im Text datiert 26.02./05.03.2026) ·
-Ernennung eines CPTO (02.03.2026) · Rebrand samt neuer Website
-(Sitemap-`lastmod` 16.06.–23.07.2026, **Migrationsstempel, kein
-Publikationsdatum**). Strategie im eigenen Interview, wörtlich:
+mit **Shiji** für das Daylight PMS — Dateline „Stuttgart, 26. Februar
+2026"; die im Text zusätzlich genannten Daten „3. bis 5. März 2026" sind
+der **ITB-Berlin-Zeitraum, kein Meldungsdatum** · Ernennung eines CPTO
+(Dateline „STUTTGART, 02. März 2026") · Rebrand samt neuer Website.
+
+⚠️ **Zur Datierung des Relaunches:** Die Sitemap trägt 90 `lastmod`-
+Stempel mit der Spanne **26.02.2026 bis 07.08.2026** (BYTE, eigene
+Auszählung von `straiv.io/sitemap.xml`, 09.08.2026; Monatsverteilung
+02:1 · 03:2 · 04:1 · 06:32 · 07:46 · 08:8; im Fenster 16.06.–23.07.2026
+liegen 66 von 90). **Das ist kein Beleg für ein einzelnes
+Migrationsereignis** — die Stempel sind über ein halbes Jahr verteilt und
+laufen bis zwei Tage vor dem Abruf weiter. Belastbar ist nur: Die Masse
+der Seiten wurde im Sommer 2026 angefasst; ein Relaunch-Datum lässt sich
+daraus **nicht** ableiten.
+
+Strategie im eigenen Interview, wörtlich:
 > „da wir 2026 verstärkt expandieren und internationalisieren. Wir
 > fokussieren uns aktuell stark auf **Frankreich und die
 > Benelux-Region**. Sowohl in diesen neuen Märkten als auch in unseren
 > Kernmärkten Deutschland, Österreich und Schweiz…"
 
 ⚠️ **Superlativ ohne Scope:** Straiv bezeichnet sich selbst zweimal als
-„Marktführer" (Über-uns-Überschrift, CEO-Interview) — **in keiner
-Drittquelle so belegt.** Wenn wir den Begriff zitieren, dann als
-Selbstauskunft mit Anführungszeichen, nie als Marktbeschreibung.
+„Marktführer" (Über-uns-Überschrift „Vom Pioniergeist zum Marktführer",
+CEO-Interview) — **in keiner redaktionellen Drittquelle so belegt.**
+Genau zu sein lohnt hier: Auf der Hotel-Tech-Report-Seite trägt **eine
+Nutzer-Review** den Titel „Market leader in digital Journey" (Revenue
+Manager, 500+ Zimmer, München, Note 5,0). Das ist eine Fremdverwendung
+des Begriffs — aber eine nutzergenerierte, keine redaktionelle. Wenn wir
+den Begriff zitieren, dann als Selbstauskunft mit Anführungszeichen, nie
+als Marktbeschreibung.
 
 ### 3.2 book your key (Meschede, DE) — der neue nächstliegende Wettbewerber
 
@@ -511,13 +550,20 @@ BMG-Konformität sagt die Seite nichts (*Zählweg:* „Bundesmeldegesetz",
 Papier noch Substanz von book your key trennt — und er ist dünn.
 
 **Kein Voice am Gerät (BYTE, 09.08.2026).** Auf `/automaten/`: „Voice" 0,
-„Mikrofon" 0, „Stimme" 0, „spricht" 0 Treffer; die neun Treffer auf
-„Sprach…" sind durchgehend **„Sprachen"** im Sinne von Fremdsprachen
-(„Check-in in 16 Sprachen"). *Positivkontrolle:* „Automat" trifft 38 mal.
-Das Negativ trägt für diese Seite.
+„Mikrofon" 0, „Stimme" 0, „spricht" 0 Treffer. Die neun Treffer auf
+„Sprach…" sind **6× „Sprachen"** (Fremdsprachen, „Check-in in 16
+Sprachen"), **2× „Sprache"** (davon einmal als `aria-label` der
+Sprachumschaltung) und **1× die CSS-Klasse `menue-sprachen`** — keiner
+davon bezeichnet eine Sprachbedienung. *Positivkontrolle:* „Automat"
+trifft 38 mal. *Zählweg für alle Werte dieses Absatzes: Volltextsuche
+über das **Roh-HTML**, nicht über den sichtbaren Text (dort 11 Treffer
+auf „Automat", weil die Sprachnavigation mitzählt).* Das Negativ trägt
+für diese Seite.
 
-**Preise (BYTE, SELBST, book-your-key.de/preise/, 09.08.2026)** —
-öffentlich und vollständig. Überschrift wörtlich: **„Je größer das Haus,
+**Preise (BYTE, SELBST, book-your-key.de/preise/, 09.08.2026)** — die
+**vier Paketpreise** sind öffentlich und vollständig; der **Gesamtpreis
+ist es nicht** (vier unbezifferte Kostenblöcke, zwei davon ausdrücklich
+„je Projekt kalkuliert"). Überschrift wörtlich: **„Je größer das Haus,
 desto günstiger das Zimmer."**
 
 | Paket | Einheiten | Monat | je Einheit | Segment-Wortlaut des Anbieters |
@@ -570,11 +616,37 @@ widersprechen sich nicht, sind aber unterschiedlich scharf.
 
 **Preise (BYTE, SELBST, likemagic.tech/pricing, 09.08.2026)** —
 „Two packages, zero surprises": **Core „Starting from 350 / month"**,
-**Platform „Starting from 400 / month"**, Umschalter EUR/CHF,
-„Annual −10 %". Der Apaleo Store nennt unabhängig dieselben Zahlen
-(BYTE) — **zwei unabhängige Kanäle, identische Werte**. Scope:
-Einstiegspreise für Software **ohne Hardware**, nicht mit book your key
-vergleichbar.
+**Platform „Starting from 400 / month"**, „Billed monthly",
+„Annual −10%". ⚠️ **Die Währung steht nicht im Preis, sondern in einem
+Umschalter „EUR € / CHF" darüber** — in der ausgelieferten Textfolge
+lautet die Preiszeile „Starting from | 350 | / month". Das Eurozeichen
+erscheint erst im FAQ-Teil (unten). Wer die Zeile als „€ 350" zitiert,
+fügt ein Zeichen hinzu, das an dieser Stelle nicht steht.
+
+⚠️ **Die 350/400 € sind nicht der Preis — sie sind der Boden darunter.**
+Dieselbe Seite sagt in ihrem FAQ-Teil wörtlich:
+> „A minimum monthly fee per tenant applies: €350 for Core and €400 for
+> Platform. For smaller properties, Core is usually the right starting
+> point."
+und zum Jahresrabatt:
+> „Choose annual billing and you save 10%, and that discount applies to
+> both your **per-room price** and your minimum monthly fee."
+und zu den Zusatzmodulen:
+> „Booking Engine, Digital Keys, Wallet Keys and **Kiosk** are add-ons
+> available on both packages, so you only pay for what your property
+> actually uses."
+
+Damit gilt: **Es gibt einen Zimmerpreis, dessen Höhe nicht veröffentlicht
+ist, und darunter eine Mindestmonatsgebühr von 350 bzw. 400 €. Der Kiosk
+ist ein kostenpflichtiges Add-on und in keiner der beiden Zahlen
+enthalten.** Ein Vergleich mit book your key (Paketpreis inklusive
+Hardware) oder mit den €/Zimmer/Monat-Anbietern ist auf dieser Grundlage
+**nicht möglich** — es fehlt genau die Zahl, die ihn tragen würde.
+
+Der Apaleo Store nennt dieselben Werte „CORE 350 €/monthly" und
+„PLATFORM 400 €/monthly" (BYTE). ⚠️ **Das sind zwei Ausspielwege
+derselben Anbieterangabe, keine zwei unabhängigen Quellen** — es belegt
+die Konsistenz der Außendarstellung, nicht den Preis.
 
 **Leistungsumfang Platform (BYTE, SELBST, ebd.):** Guest Journey
 Monitoring · Task Management · Housekeeping · Check-in Wizard · Service
@@ -587,13 +659,16 @@ vier datierte Meldungen — Häfele Dialock Cloud integriert (02.07.2026),
 **Partnerschaft mit TFE Hotels** für Extended-Stay- und Full-Service-
 Häuser in Europa/UK/Australien/Neuseeland (25.02.2026),
 RemoteLock-Integration (27.01.2026), Zusammenarbeit mit D3x bei McDreams
-(17.12.2025). **Beide 2026er-Meldungen zeigen nach oben und in die
-Kette** — LIKE MAGIC entfernt sich vom kleinen inhabergeführten Haus.
-Im Segment „größere Häuser" treffen wir es eher als im Kernsegment.
+(17.12.2025). **Drei der vier Meldungen stammen aus 2026, und die
+TFE-Partnerschaft zeigt nach oben und in die Kette** — LIKE MAGIC
+entfernt sich vom kleinen inhabergeführten Haus. Im Segment „größere
+Häuser" treffen wir es eher als im Kernsegment.
 
 **Kundengrößen (REVIEW, Hotel Tech Report, 09.08.2026, Grundgesamtheit
 29 dort gelistete Kunden — nicht der Kundenbestand):** 1–9 Zimmer: 1 ·
-10–49: 12 · 50–99: 7 · 100–499: 7 — also 14 von 29 ab 50 Zimmern.
+10–49: 12 · 50–99: 7 · 100–499: 7. **Summenprobe: 27 von 29 zugeordnet,
+2 ohne Bandangabe** — die abgeleitete Aussage „14 ab 50 Zimmern" bezieht
+sich also auf 27 zugeordnete Häuser, nicht auf alle 29.
 **Kein Anbieter-Wortlaut zu Hausgrößen gefunden**; die
 Selbstbeschreibung lautet „hotels & serviced apartment providers".
 
@@ -663,11 +738,21 @@ nicht dokumentiert ist.
 
 **Kein Marktaustritt — Zählweg und Auswahlkriterium.** Aus dem
 Alt-Dossier wurden **69 namentlich geführte Anbieter bzw. Apps** in eine
-Prüfliste übernommen (Auswahlkriterium: alle Namen, die das Dossier in
-seinen Cluster-Tabellen, im Werkzeugkasten, in der Beobachtungsliste
-oder in den Nachträgen nennt). **69 von 69 wurden im heutigen Inventar
-wiedergefunden — keiner fehlt.** Das ist zugleich die Positivkontrolle
-dafür, dass das Inventar dieses Papiers den bekannten Markt erreicht.
+Prüfliste übernommen. **Auswahlkriterium (präzisiert nach
+Prüfer-Befund):** alle im Dossier genannten Namen, **die als
+Apaleo-Store-App überhaupt in Frage kommen**. Ausgenommen sind damit
+Namen, die das Dossier zwar nennt, die aber nie Store-Anbieter waren —
+etwa **igloohome** (im Zutritts-Strang nur als Kompatibilitätswarnung
+erwähnt) und **Schulte-Schlagbaum** (als Schließsystem-Hersteller in
+Straivs Integrationsliste). Deren Fehlen im Store ist kein
+Marktaustritt, sondern war nie ein Store-Eintrag.
+
+**69 von 69 dieser Prüfliste wurden im heutigen Inventar
+wiedergefunden.** Eine unabhängige Gegenstichprobe des Prüfers mit
+78 Namen aus denselben Abschnitten fand ebenfalls **alle** wieder.
+Der Befund „kein Marktaustritt im Store" trägt damit doppelt; die
+**Zahl 69 ist eine Listengröße, keine Grundgesamtheit** — das Dossier
+nennt mehr Namen, als store-fähig sind.
 
 **Wie viele Apps im Alt-Dossier gar nicht vorkommen, lässt sich nicht
 seriös beziffern.** Ein automatischer Namensabgleich gegen den Volltext
@@ -779,18 +864,34 @@ Agenten-Schicht aktiv selbst. **Bewertung unverändert:** generische
 PMS-Assistenz nicht als eigenes Produkt bauen.
 
 **Conversational AI, 14 Apps** — Preisanker heute (BYTE, Store-Angaben):
-Ecco 139/239/389 €/M · Onsai Voice 199 €/M · Venli 99/299 €/M · Una by
-Polydom 799 €/M · NovaVoca 0,19 (nutzungsbasiert) · HiJiffy 1,99/3,99
-€/Zi/M · Opally 4/6 €/Zi/M · Runnr.ai 5 €/Zi/M · D3x 5 €/Zi/M. Das
-Juli-Band „139–799 €/M bzw. 2–6 €/Zi/M" ist damit **re-bestätigt**.
+Ecco 139/239/389 €/M · Onsai Voice 199, Chat 49, Check 99, Fee 99 €/M ·
+Venli 99/299 €/M · Una by Polydom 799 €/M · NovaVoca 0,19
+(nutzungsbasiert) · HiJiffy 1,99/3,99 €/Zi/M · Opally 4/6 €/Zi/M ·
+Runnr.ai 5 €/Zi/M · D3x 5 €/Zi/M · **Guestway 10 €/Zi/M** · MARA
+1.560 €/Property/**Jahr** · MasterMind·Tech 223/150 € einmalig +
+0,45 €/Nutzer.
 
-⚠️ **Ein Wert ist unplausibel und darf in keinen Vergleich:** **BE-A**
-(FLAE ROBOTICS a.s., CZ, gegründet 2024, „20+" MA) ist mit „BE-A Virtual
-18" und „BE-A Voice 30" bei Einheit **PerRoom / PerMonth** hinterlegt
-(BYTE). 30 €/Zimmer/Monat liegt um den Faktor 5–15 über dem gesamten
-Marktband — **mit hoher Wahrscheinlichkeit eine falsch getaggte Einheit
-des Anbieters, kein Marktbefund.** Vor jeder Verwendung an der Quelle
-klären (gleicher Fall wie die NovaVoca-Preismetrik im Alt-Dossier).
+⚠️ **Das Juli-Band „139–799 €/M bzw. 2–6 €/Zi/M" ist NICHT
+re-bestätigt — es ist enger, als das heutige Feld ist.** Nach unten
+fallen Onsai Chat (49 €/M), Venli Starter und Onsai Check/Fee (je
+99 €/M) sowie HiJiffy Pro (1,99 €/Zi/M) heraus, nach oben Guestway
+(10 €/Zi/M). MARA und MasterMind·Tech rechnen in Einheiten, die das
+Band gar nicht kennt (Jahresgebühr, Einmalgebühr, Preis je Nutzer).
+Belastbar ist: **Die Mitte des Feldes liegt unverändert bei rund
+139–799 €/Monat bzw. 2–6 €/Zimmer/Monat; die Ränder sind heute weiter
+(49–799 €/M bzw. 1,99–10 €/Zi/M, BE-A ausgenommen).**
+
+⚠️ **Zwei Werte sind unplausibel und dürfen in keinen Vergleich:**
+**BE-A** (FLAE ROBOTICS a.s., CZ, gegründet 2024, „20+" MA) führt drei
+Pläne, alle mit Einheit **PerRoom / PerMonth** (BYTE): „BE-A Virtual
+**18**", „BE-A Voice **30**" und „BE-A Hotel Group Solution **3**".
+18 und 30 €/Zimmer/Monat liegen um den Faktor 5–15 über dem Marktband —
+der dritte Plan desselben Anbieters mit **3 €/Zi/M** liegt dagegen
+mitten darin. **Dass derselbe Anbieter in derselben Einheit sowohl
+marktübliche als auch um eine Größenordnung abweichende Werte führt, ist
+das stärkste Argument für eine falsch getaggte Einheit — es ist aber
+kein Beweis dafür.** Vor jeder Verwendung an der Quelle klären
+(gleicher Fall wie die NovaVoca-Preismetrik im Alt-Dossier).
 
 **BE-A ist trotz des Robotik-Firmennamens kein Voice-am-Gerät-Fall:**
 Die Store-Beschreibung (BYTE) beschreibt einen **E-Mail-/Telefon**-Agenten
@@ -809,10 +910,14 @@ war nicht im Scope dieser Session.
 ### 5.1 Säule 1 „Komplett-Digitalisierung aus einer Hand" — unter Druck
 
 Der Satz „Kein Wettbewerber im untersuchten Feld bündelt das identisch"
-gilt weiter, aber der Abstand ist kleiner. **book your key bündelt heute
-PMS + Channel Manager + Automat + Schließanlagen-Anbindung +
-Gebäudetechnik + Montage + Schulung + Support in einem Monatspreis**
-(BYTE, § 3.2) und nennt das selbst „Hotelautomatisierung aus einer Hand".
+gilt weiter, aber der Abstand ist kleiner. **book your key bündelt im
+Monatspreis: PMS + Channel Manager + Automat + Montage + Schulung +
+Updates/Support + Fernwartung** (BYTE, § 3.2) und nennt das selbst
+„Hotelautomatisierung aus einer Hand". ⚠️ **Nicht im Monatspreis:**
+Schließanlage, Gebäudetechnik, Kartenterminal, Sonderbau — sie sind
+anbindbar, werden aber je Projekt separat kalkuliert (Wortlaut „Vier
+Dinge stecken nicht im Monatspreis"). Der Bündelungs-Befund gilt also
+für die Software-/Automaten-Ebene, nicht für die Gebäudeseite.
 Der verbleibende Unterschied ist **struktureller Art, nicht
 umfänglicher**: Sie bringen ein proprietäres PMS mit, wir führen das Haus
 auf ein offenes, marktgängiges System. Das ist ein starkes Argument —
@@ -931,8 +1036,14 @@ gefunden, nicht gezielt gesucht" führen.
 
 ### 5.6 Der stärkste Fund dieser Runde: die PMS-Frage
 
-Weder book your key noch Jack-In noch ILOCA sind an Apaleo angebunden —
-alle drei bringen ein **eigenes PMS** mit. Wer sich für einen dieser
+Weder book your key noch Jack-In noch ILOCA sind **im Store-Inventar
+gelistet** (Zählweg: Suche nach „jack", „iloca", „book your key",
+„guestidea" über alle 267 Apps → 0 Treffer, BYTE); alle drei bringen ein
+**eigenes PMS** mit. ⚠️ **Eine Apaleo-Anbindung ist damit nicht
+ausgeschlossen** — § 3.4 zeigt am Beispiel Key & Card, dass es
+Apaleo-Anbindungen außerhalb des Store-Listings gibt, und für Jack-In
+und ILOCA liegt ohnehin nur eine Anbieter-Selbstauskunft vor. Wer sich
+für einen dieser
 Anbieter entscheidet, wechselt zugleich das PMS und bindet sich an
 dessen Hersteller (bei book your key zusätzlich mit **drei Jahren
 Laufzeit**). Straiv dagegen integriert 13 Fremd-PMS und ist damit
@@ -975,14 +1086,14 @@ Stand 09.08.2026:
 
 | Gegenstand | Suchraum / Methode | Positivkontrolle |
 |---|---|---|
-| Voice/Sprachbedienung bei Straiv | 8 straiv.io-Seiten + Blog-Index (ROH) sowie Startseite/Meldeschein-Seite (BYTE), Volltextmuster, 09.08.2026 | `check-in` 3–34 Treffer je Seite; „KI" 13 im Blog; „Kiosk" 8/12 ✔ |
+| Voice/Sprachbedienung bei Straiv | 8 straiv.io-Seiten + Blog-Index (ROH) sowie Startseite/Meldeschein-Seite (BYTE, Roh-HTML, wortgrenzen-gebunden), 09.08.2026 | eigene Zählung: „Kiosk" 8/12, „Check-in" 16 ✔ — die Agenten-Zahlen („check-in 3–34", „KI 13") sind mangels Zählweg **nicht reproduzierbar** und werden nicht als Beleg geführt |
 | Voice am Gerät bei book your key | book-your-key.de/automaten/, Volltext, 09.08.2026 | „Automat" 38 Treffer ✔ |
 | BMG-/Unterschrifts-Aussage bei book your key | dieselbe Seite | ebd. ✔ |
 | Apaleo-Anbindung book your key | Store-Inventar (267 Apps) + geprüfte Anbieterseiten | Straiv/Hotelbird im selben Inventar gefunden ✔ |
 | Voice und deutscher Meldeschein bei LIKE MAGIC | likemagic.tech/guest-journey | „Digital Check-In/Out", „Upselling Opportunities", „registration form" ✔ |
 | Öffentliche Preise auf straiv.io | `/preise` + `/pricing` (404), Startseite, FAQ | FAQ: „Check-in" 31, „Hotel" 44 Treffer ✔ |
 | Straiv-Produktprofil Capterra DE | capterra.com.de/search?q=straiv, 09.08.2026 | `q=apaleo` liefert 6 Nennungen ✔ |
-| Straiv-Produktprofil OMR Reviews | omr.com Slugs `straiv`, `straiv-io` (404) + Domain-Suche | `hubspot-marketing-hub` = HTTP 200 ✔ |
+| Straiv-Produktprofil OMR Reviews | omr.com Slugs `straiv`, `straiv-io` (je 404) | ⚠️ **Positivkontrolle passt nicht zum Kanal:** `hubspot-marketing-hub` = 200 validiert den Slug-Kanal, nicht die Suche (die Suchseite antwortete selbst mit 404). Belastbar nur als „unter zwei geratenen Slugs nicht gefunden" |
 | Finanzierungsrunde/M&A/Insolvenz Straiv | WebSearch DE/EN + vollständige northdata-Publikationsliste | dieselbe Liste liefert Jahresabschlüsse, GF-Wechsel, Markenanmeldung ✔ |
 | Gründungsjahr + Mitarbeiterzahl book your key | Impressum, Startseite, /en/, /preise/, /guestidea/, northdata (6 Abrufe) | Seiten lieferten Inhalt ✔ |
 | book your key auf Hotel Tech Report | WebSearch, 2 Läufe | LIKE MAGIC lieferte im selben Suchraum 2 HTR-Profile ✔ |
@@ -1025,9 +1136,15 @@ Nachprüfung nicht als tagesaktuell verwenden:
    Interessenten Richtung Straiv orientieren) bleibt gültig — mit dem
    Zusatz, dass Straiv den Partner heute als „Kiosk Embedded Systems
    (an Acer Group Company)" führt.
-3. **Preis-Benchmarks des Alt-Dossiers** außerhalb der oben
-   re-bestätigten Bänder (Aftersales 0,50–1 €/Zi/M, Housekeeping
-   2–7 €/Zi/M, Channel Manager 24–90 €/Property/M, RMS 5–8 €/Zi/M usw.).
+3. **Preis-Benchmarks des Alt-Dossiers**, die in dieser Runde nicht
+   angefasst wurden: Aftersales 0,50–1 €/Zi/M · Housekeeping
+   2–7 €/Zi/M · Channel Manager 24–90 €/Property/M · RMS 5–8 €/Zi/M ·
+   Check-in-Software 1–5 €/Zi/M · Guest-Journey all-in 8–10 €/Zi/M ·
+   Kiosk-Software-Flat 90–500 €/Property/M · Upselling 1,50–4,50 €/Zi/M
+   bzw. 5 % Provision · Booking Engine 0,49–1 €/Zi/M bzw. 29–85 €/M ·
+   Meldewesen-Konnektor 1,40 €/Zi/M + 250 € Setup. ⚠️ **Für das
+   Voice-KI-Band gilt das ausdrücklich nicht — es wurde geprüft und ist
+   heute an beiden Rändern weiter** (§ 4.5).
 4. **Hotelbird „130k Zimmer, München"** — die Store-Preise sind heute
    belegt (§ 4.2), die Firmenzahlen nicht.
 5. **Straivs SCA-Mechanik als Rechts-Konstruktion** (3. Bürokratie-
@@ -1035,23 +1152,39 @@ Nachprüfung nicht als tagesaktuell verwenden:
    Unterschrift oder erweiterte SCA-Verfahren"; die rechtliche
    Herleitung des Alt-Dossiers wurde nicht nachgeprüft.
 
-### 6.5 Widerlegt gegenüber Juli (nicht nur ungeprüft)
+### 6.5 Nicht mehr gültig — getrennt nach „widerlegt" und „überholt"
 
+⚠️ **Die Unterscheidung ist keine Wortklauberei.** „Widerlegt" heißt:
+Die Aussage war schon damals falsch oder ist es heute nachweislich.
+„Überholt" heißt: Sie beschrieb einen Zustand, der sich seither geändert
+hat — sie war zu ihrer Zeit richtig. Nur der erste Fall rechtfertigt
+Misstrauen gegen die Quelle.
+
+**Widerlegt (Aussage trägt auch rückwirkend nicht):**
 1. **„Straiv ~18 Mitarbeiter"** → drei jüngere Kanäle nennen 50–65
-   (§ 3.1). Der darauf gebaute Satz „mit 18 Leuten … verwundbar" trägt
-   nicht mehr.
+   (§ 3.1), und ein Fachbeitrag vom 22.07.2025 — also **vor** der
+   Juli-Recherche — schrieb bereits „von 43 auf rund 65". Die Zahl war
+   schon zum Erhebungszeitpunkt nicht mehr aktuell. Der darauf gebaute
+   Satz „mit 18 Leuten … verwundbar" trägt nicht mehr.
+
+**Überholt (war richtig, gilt heute nicht mehr):**
 2. **„Straiv: 2.500+ Hotels in 29 Ländern"** → eigener Claim heute
    3.400+ in 30 Ländern.
 3. **„Straivs Kiosk-Angebot läuft außerhalb des Store-Listings"** →
    Straiv steht heute in der Store-Unterkategorie „Kiosk & self-service
    check-in" (§ 4.2).
 4. **„Kiosk-Feld im Store: 9 Anbieter, kein deutscher"** → heute 10, zwei
-   davon deutsch (§ 4.2).
+   davon deutsch (§ 4.2). ⚠️ Gemessen wurde die Store-Taxonomie; ob sie
+   sich geändert hat oder die Juli-Lesung anders schnitt, ist ohne
+   Juli-Rohdaten nicht entscheidbar (§ 6.3).
 5. **„Auf dem Terminal-Pfad bietet im Store niemand eine deutsche
    Meldeschein-Strecke"** → Straiv bewirbt sie ausdrücklich (§ 3.1).
-6. **„Voice am Gerät bietet niemand"** — in der Reichweite widerlegt
-   (Kiosk-Industrie bewirbt es für Hotel-Check-in), im Kern
-   (belegter Einsatz bei Hotel-Check-in-Anbietern) bestätigt (§ 5.3).
+
+**Teils widerlegt, teils bestätigt:**
+6. **„Voice am Gerät bietet niemand"** — **in der Reichweite widerlegt**
+   (der Kiosk-Industrie-Ring bewirbt es ausdrücklich für
+   Hotel-Check-in), **im Kern bestätigt** (kein Hotel-Check-in-Anbieter
+   mit belegtem Einsatz; § 5.3).
 
 ---
 
@@ -1079,4 +1212,6 @@ Nachprüfung nicht als tagesaktuell verwenden:
 
 | Datum | Runde | Was |
 |---|---|---|
-| 09.08.2026 | R03-D | Erstfassung. Delta-Erhebung gegen `marktrecherche-apaleo-store-2026-07.md` (Stand 20.07./28.07./29.07./01.08.2026). Apaleo Store vollständig neu erhoben (267 Apps, BYTE); Straiv, book your key, LIKE MAGIC aktualisiert; acht bisher nicht geführte Anbieter aufgenommen; Gegenprobe gegen die fünf USP-Säulen; sechs Juli-Aussagen widerlegt (§ 6.5). |
+| 09.08.2026 | R03-D | Erstfassung. Delta-Erhebung gegen `marktrecherche-apaleo-store-2026-07.md` (Stand 20.07./28.07./29.07./01.08.2026). Apaleo Store vollständig neu erhoben (267 Apps, BYTE); Straiv, book your key, LIKE MAGIC aktualisiert; acht bisher nicht geführte Anbieter aufgenommen; Gegenprobe gegen die fünf USP-Säulen. |
+| 09.08.2026 | R03-D | Geltungsgrenze § 0.0 ergänzt (Segment-Zuschnitt) nach User-Einwand; P12/P13 aufgenommen. |
+| 09.08.2026 | R03-D | **Nach Fundstellen-Nachprüfung überarbeitet.** Korrigiert: LIKE-MAGIC-Preise sind Mindestmonatsgebühren neben einem unveröffentlichten Zimmerpreis, Kiosk ist kostenpflichtiges Add-on (§ 3.3) · Voice-KI-Band NICHT re-bestätigt, Ränder heute weiter (§ 4.5) · Schließanlage/Gebäudetechnik stecken NICHT im book-your-key-Monatspreis (§ 5.1) · Shiji-Datum und Sitemap-Spanne richtiggestellt (§ 3.1) · LIKE-MAGIC-Größenbänder summieren auf 27 von 29 (§ 3.3) · „zwei unabhängige Kanäle" → zwei Ausspielwege derselben Anbieterangabe · Apaleo-Negativ für book your key/Jack-In/ILOCA auf „nicht im Store gelistet" zurückgenommen (§ 5.6) · Auswahlkriterium der 69er-Prüfliste präzisiert (§ 4.1) · nicht reproduzierbare Positivkontroll-Zahlen entfernt · § 6.5 nach „widerlegt" und „überholt" getrennt · drei Zitate zeichengenau nachgezogen. |

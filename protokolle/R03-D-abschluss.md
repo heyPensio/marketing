@@ -1,10 +1,11 @@
 # R03-D — Abschlussmeldung (Rockstar, FUND3 Wettbewerbsbild)
 
 **Token-Verbrauch: von der Session nicht erhebbar — Subagenten-Zahlen
-soweit bekannt:** Straiv-Erhebung 161.295 · Gegenprobe „Voice am Gerät"
-88.768 · book your key + LIKE MAGIC 85.248 · Entdeckung „größere Häuser"
-84.572 · Fundstellen-Prüfer (siehe Block 1, Nachtrag). Summe der vier
-abgeschlossenen Recherche-Stränge: **419.883 Subagenten-Token**.
+soweit bekannt:** Fundstellen-Prüfer 256.520 · Straiv-Erhebung 161.295 ·
+Gegenprobe „Voice am Gerät" 88.768 · book your key + LIKE MAGIC 85.248 ·
+Entdeckung „größere Häuser" 84.572. **Summe: 676.403 Subagenten-Token**
+(Zählweg: Feld `subagent_tokens` der fünf Abschlussmeldungen, addiert —
+der Verbrauch der Leitsession selbst ist darin nicht enthalten).
 
 **Modell:** Opus 5 (1M context). ⚠️ **Belegstufe:** Die Session kann die
 Statuszeile nicht selbst lesen. Als Beleg liegt ausschließlich die
@@ -24,8 +25,57 @@ erbracht**; die Prüfung liegt beim User.
 |---|---|
 | `838484c` | Erstfassung: Delta-Erhebung gegen das Juli-Dossier, Apaleo Store vollständig neu erhoben, drei Anbieter aktualisiert, acht neue Anbieter, Gegenprobe gegen die fünf USP-Säulen |
 | `06d2151` | Geltungsgrenze § 0.0 (Segment-Zuschnitt) nach User-Einwand; zwei eigene Zahlkorrekturen; Wavetec-Zitat selbst an der Quelle nachgelesen |
+| `b4d84d2` | diese Abschlussmeldung (Zwischenstand) |
+| *(Folgecommit)* | Überarbeitung nach Fundstellen-Nachprüfung |
 
-Beide Commits mit `git branch -r --contains` in `origin/main` belegt.
+Commits mit `git branch -r --contains` in `origin/main` belegt.
+
+**Fundstellen-Nachprüfung (getrennter Prüf-Agent, 90 Werkzeugaufrufe).**
+Der Prüfer hat Aussage und Fundstelle getrennt geprüft und **20 Befunde**
+gemeldet; **13 davon habe ich als Korrektur übernommen**, den Rest
+präzisiert oder begründet abgewiesen. Die schwerwiegendsten:
+
+| Befund | Korrektur |
+|---|---|
+| LIKE-MAGIC-Preise 350/400 € als „Einstiegspreise" ausgewiesen | **Falsch.** Es sind **Mindestmonatsgebühren neben einem Zimmerpreis**, dessen Höhe nicht veröffentlicht ist; der Kiosk ist ein kostenpflichtiges Add-on. Von mir an der Quelle nachgelesen und wörtlich belegt. Ein Preisvergleich ist auf dieser Grundlage **nicht möglich** — genau die tragende Zahl fehlt. |
+| „Voice-KI-Preisband re-bestätigt" | **Widersprach der eigenen Liste zwei Zeilen darüber.** Nach unten fallen Onsai Chat (49 €/M), Venli und Onsai Check/Fee (99 €/M), HiJiffy (1,99 €/Zi/M) heraus, nach oben Guestway (10 €/Zi/M); MARA und MasterMind rechnen in Einheiten, die das Band nicht kennt. Umformuliert auf „Mitte unverändert, Ränder weiter". |
+| § 5.1: Schließanlage und Gebäudetechnik „im Monatspreis" | **Falsch verdichtet** — die Quelle sagt ausdrücklich „Vier Dinge stecken **nicht** im Monatspreis". § 3.2 hatte es richtig; § 5.1 zog beide Blöcke zusammen, und zwar zugunsten der eigenen These. |
+| „Weder book your key noch Jack-In noch ILOCA sind an Apaleo angebunden" | **Existenz-Negativ ohne Quelle** — belegt ist nur „nicht im Store-Inventar". Zurückgenommen, zumal § 3.4 selbst am Beispiel Key & Card zeigt, dass es Apaleo-Anbindungen außerhalb des Stores gibt. |
+| Shiji-Meldung „datiert 26.02./05.03.2026" | Die zweite Angabe ist der **ITB-Berlin-Zeitraum**, kein Meldungsdatum. |
+| Sitemap-Spanne „16.06.–23.07.2026" | **Selbst nachgezählt:** 90 Stempel, Spanne 26.02.–07.08.2026, im genannten Fenster nur 66. Die Lesart „ein Migrationsereignis" ist damit nicht haltbar. |
+| LIKE-MAGIC-Größenbänder „Grundgesamtheit 29" | Die vier Bänder summieren auf **27** — Summenprobe hatte gefehlt, obwohl sie bei Straiv gezogen wurde. |
+| „zwei unabhängige Kanäle, identische Werte" | Beides sind **Ausspielwege derselben Anbieterangabe**. Belegt Konsistenz der Außendarstellung, nicht den Preis. |
+| 69er-Prüfliste „alle Namen des Dossiers" | Kriterium hielt nicht: igloohome und Schulte-Schlagbaum werden genannt, waren aber nie Store-Anbieter. Kriterium präzisiert; der Befund „kein Marktaustritt" bleibt (Gegenstichprobe des Prüfers mit 78 Namen fand ebenfalls alle). |
+| Positivkontroll-Zahlen „check-in 3–34", „KI 13" | **Nicht reproduzierbar** (Roh-HTML vs. gestrippter Text, wortgrenzen-gebunden vs. Zeichenkette). Entfernt; die eigenen, nachrechenbaren Zahlen bleiben. |
+| § 6.5 „sechs Juli-Aussagen widerlegt" | Nach **„widerlegt"** (Aussage trug schon damals nicht) und **„überholt"** (war richtig, gilt heute nicht) getrennt. Nur die Mitarbeiterzahl ist echt widerlegt. |
+| BE-A: dritter Preisplan unterschlagen | „Hotel Group Solution 3 €/Zi/M" liegt marktüblich — gehört in die Bewertung der These „falsch getaggte Einheit" hinein, weil sie sie stützt **und** zeigt, dass es kein Beweis ist. |
+| Drei Zitate nicht zeichengenau | „100 %" → „100%" nachgezogen. |
+
+**Zwei Prüfer-Befunde habe ich NICHT übernommen** — beide sind Fälle, in
+denen Befund und Diagnose auseinanderfallen:
+1. **„Das Wavetec-BYTE steht an einer Stelle, die keine Rohdatei
+   trägt."** Der Befund stimmt formal — die Datei stand nicht in der
+   Dateiliste, die ich dem Prüfer genannt hatte. Die Diagnose („BYTE
+   falsch vergeben") ist trotzdem falsch: `web/wavetec.html` existiert,
+   die Session hat sie selbst geladen. **Der Fehler lag in meinem
+   Prüfauftrag, nicht im Dokument.**
+2. **„Zitat muss ‚Starting from € 350 / month' lauten."** Meine eigene
+   Byte-Lesung zeigt die Textfolge „Starting from | 350 | / month" mit
+   der Währung in einem separaten Umschalter darüber. Ich habe die
+   Quelle behalten und stattdessen im Dokument vermerkt, dass das
+   Eurozeichen an dieser Stelle **nicht** steht — wer es einfügt, fügt
+   ein Zeichen hinzu.
+
+**Positiv nachgeprüft** (Auszug): alle Store-Zählungen exakt (267 Apps,
+350 Listungen, Summenprobe der neun Kategorien = 350; Kiosk 10; Legal
+environment 19 mit FRIVA 15; Agent Hub 18; Conversational AI 14;
+Kollektion 6/6 mit zeichengenauem Beschreibungstext; Grundgesamtheit 83;
+die 29er-Liste exakt reproduziert) · sämtliche book-your-key-Zitate und
+die Summenprobe der vier Preiszeilen · die Straiv-Zitate von Startseite,
+Meldeschein-, Kiosk- und Tech-Partner-Seite zeichengenau, **inklusive
+korrekter Seitenzuordnung des keyBoy-Zitats** · Hotel Tech Report
+83/4,7 mit allen drei Summenproben · Umlaute durchgehend korrekt, keine
+einzige ASCII-Transliteration.
 
 **Erhebungsweg:** vier parallele Stränge (zwei Anbieter-Verifikationen,
 eine Entdeckung mit Ausschlussliste, eine Gegenprobe gegen die eigene
@@ -248,6 +298,47 @@ gehört genauso geprüft wie ihre Zahlen. Eine Aktualisierung braucht die
 Frage „Stimmt der Ausschnitt noch?" vor der Frage „Stimmen die Werte
 noch?".
 
+**F7 — Verdichten zugunsten der eigenen These, im Lehrbuchformat.** In
+§ 5.1 hatte ich die Leistungsliste von book your key aus **zwei** Blöcken
+der Preisseite zusammengezogen: „In jedem Paket dasselbe" **und** „Was
+dazukommen kann". Ergebnis war der Satz, Schließanlage und
+Gebäudetechnik steckten im Monatspreis — die Quelle sagt wörtlich das
+Gegenteil („Vier Dinge stecken **nicht** im Monatspreis"). § 3.2 gab es
+zwei Kapitel vorher korrekt wieder. **Die Verdichtung machte die These
+„der Abstand ist kleiner geworden" stärker, als die Quelle hergibt** —
+genau die Richtung, vor der die CLAUDE.md-Regel warnt. **Lehre:** Der
+gefährliche Moment ist nicht das Lesen der Quelle, sondern der Übergang
+vom Detailkapitel zur Bewertung. Jede Bewertung gehört gegen das eigene
+Detailkapitel zurückgelesen, nicht gegen die Erinnerung an die Quelle.
+
+**F8 — Eine Zahl ohne Zählweg-Etikett ist unbrauchbar, auch wenn sie
+stimmt.** Die Marker-Zählungen dieser Runde entstanden teils auf dem
+Roh-HTML, teils auf dem gestrippten Text. Wo beide Wege zufällig dasselbe
+liefern, fällt nichts auf; wo nicht („KI 13", „check-in 3–34"), kann kein
+Prüfer die Zahl reproduzieren — sie ist dann wertlos, unabhängig davon,
+ob sie richtig war. **Lehre:** An jede Trefferzahl gehört, worauf gezählt
+wurde (Roh-HTML oder sichtbarer Text) und ob wortgrenzen-gebunden. Das
+ist ein Etikett von fünf Wörtern und entscheidet über die Belegkraft.
+
+**F9 — Eine Bestätigungsformel ist rhetorisch stärker als ihr Befund.**
+„Das Juli-Band ist re-bestätigt" stand zwei Zeilen unter einer
+Preisliste, die das Band an beiden Rändern sprengt — vier Werte
+darunter, einer darüber, zwei in fremden Einheiten. Ich hatte die Liste
+selbst erhoben und den Bestätigungssatz trotzdem geschrieben. **Lehre:**
+„Bestätigt", „re-bestätigt", „unverändert" sind Behauptungen mit
+Belegpflicht wie jede andere — und sie sind besonders anfällig, weil sie
+sich wie eine Nicht-Aussage anfühlen.
+
+**F10 — „Ab 350 €" beantwortet nicht, wovon das der Preis ist.** Ich habe
+die LIKE-MAGIC-Zahlen byte-genau zitiert und trotzdem falsch eingeordnet:
+Es sind Mindestmonatsgebühren **neben** einem unveröffentlichten
+Zimmerpreis, und der Kiosk ist ein kostenpflichtiges Add-on. Die
+Auflösung stand im FAQ-Teil derselben Seite, den ich nicht gelesen hatte.
+**Lehre:** Die Regel „Zahlen nie aus einer einzelnen Tabellenzeile" gilt
+auch, wenn die Zeile eine Überschrift ist. Bei jeder Preisangabe ist die
+Frage „Preis **wofür**, und was kommt noch dazu?" Teil der Erhebung —
+nicht der Auswertung.
+
 ### (ii) Bewährte Muster
 
 **M1 — Byte-Nachgriff auf die Zahlen der Agenten.** Zwei der vier
@@ -281,7 +372,24 @@ Positivkontrolle, die sich aus dem Auftragsdesign selbst ergibt.
 Volltextsuche in einer heruntergeladenen Seite wurde ein Begriff
 mitgezählt, der treffen MUSS („Automat" 38 Treffer, „Kiosk" 12
 Treffer). Das macht aus „Voice kommt nicht vor" einen belastbaren Satz
-und kostet nichts.
+und kostet nichts. **Ergänzung nach F8:** Die Zählung braucht zusätzlich
+ihr Zählweg-Etikett, sonst ist sie nicht nachprüfbar.
+
+**M6 — Der Prüfer bekam die Rohbelege, nicht nur das Dokument.** Der
+Prüfauftrag nannte die heruntergeladenen Rohdateien mit Pfad und wies
+ausdrücklich an, Zitate zeichengenau und Zahlen selbst nachzuzählen. Das
+ist der Unterschied zwischen einem Prüfer, der Plausibilität bewertet,
+und einem, der Fundstellen prüft: Er hat 267 Apps neu dedupliziert, drei
+Summenproben gezogen und die 29er-Liste unabhängig reproduziert.
+
+**M7 — Prüfer-BEFUND und Prüfer-DIAGNOSE getrennt lesen — es hat sich
+zweimal ausgezahlt.** Beim Wavetec-Beleg war der Befund richtig
+(„liegt keine Rohdatei vor") und die Diagnose falsch (die Datei
+existierte, sie fehlte in **meiner** Auftragsliste). Beim
+LIKE-MAGIC-Zitat widersprach die eigene Byte-Lesung dem Soll des
+Prüfers; ich habe die eigene Messung behalten und den Unterschied im
+Dokument vermerkt. **Wer Prüferbefunde ungeprüft übernimmt, tauscht nur
+die Fehlerquelle aus.**
 
 ---
 

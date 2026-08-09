@@ -43,6 +43,23 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
 - **Ein TIMEOUT ist kein Negativbefund** — Primärquellen, die in einen
   Rechtstext eingehen: Abruf wiederholen oder in den Hintergrund, nie auf
   Zweitquellen ausweichen, solange die Quelle nur langsam ist.
+- **Web-Such-Negative (alle Herkunft MKT R5):** (1) Ein Nulltreffer aus
+  einer LIMITIERTEN/abgeschnittenen Ausgabe (head_limit, gekürzte
+  Trefferliste) ist kein Negativ — er sieht wie ein Quellenfehler aus;
+  Suchläufe für Zitatprüfungen so eng fassen, dass die Ausgabe
+  vollständig ist. (2) **Vor Web-Negativen das Redirect-Ziel prüfen:**
+  Ein Wildcard-301 macht mit `curl -L` JEDE Unterseite byte-identisch
+  zur Startseite — „Inhalt vorhanden, Begriff nicht gefunden" ist dann
+  ein Artefakt. (3) **Das Suchmuster ist Teil des Negativs:** Enge
+  Muster (`self-check-in|online-check-in`) übersehen vorhandene
+  Varianten („Pre-Check-in") — Negativ-Behauptungen brauchen den
+  bewusst breiten Oberbegriff. (4) **Anbietergenerierte
+  KI-Zusammenfassungen** (`llms.txt`-/`.md`-Fassungen der eigenen
+  Seiten, teils mit Kürzungsvermerk) sind eine Stufe UNTER der
+  Selbstauskunft — Navigation ja, Zitatquelle nie. (5) **Fundstelle und
+  Geltungsstand sind zwei Prüfungen:** Eine verlinkte
+  Richtlinien-Fassung kann veraltet sein und den eigenen Ausschluss
+  vortäuschen — die geltende Fassung an der ausgebenden Stelle prüfen.
 - Datenblätter/Handbücher tragen oft MEHRERE Versionstabellen — Werte
   immer der Zeile der GELIEFERTEN Version entnehmen; die
   Familien-Highlights-Seite ist kein modellspezifischer Beleg.

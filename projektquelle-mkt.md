@@ -453,6 +453,29 @@ CMO-Praxis · Completeness-Critic; Rohberichte in
 Schwester-Repo `zentrale` angelegt (Rollen-Charta, Namensentscheid-Träger,
 Postkorb).
 
+**R5 gelaufen (09.08.2026 abends, Shanks + R05-A/Ben Beckman):**
+FUND3-Beratungsachse FERTIG — `fund/wettbewerbsbild.md` **Teil B**
+(B1–B9): 16 Agenturen · 15 Beratungen · 12 Revenue-Anbieter · 17
+Digitalisierungs-Dienstleister · Verbands-/Kammer-/Förderkanäle;
+Raster mit 7 ausgeschriebenen Vergabelinien; **P12/P13 aufgelöst**
+(Brandnamic dreiteilig neu eingestuft — Alt-Begründung hielt der
+476-Seiten-Nachmessung stand, ihre Schlussfolgerung nicht; Smart Host
+W1+K; Everlast N; **elf nie betrachtete Wettbewerber-Kandidaten**,
+die zwei direktesten an den eigenen Pilotobjekten) ·
+Fundstellen-Nachprüfung der R04-Kernaussagen (6 Aussagen, 2 Befunde;
+Papier-§ 6-Nachtrag Onpage-SEO gesetzt) · Prüfschicht: 4 Kritisch
+(alle repariert, 2 leitsession-nachgemessen) / 10 Hinweise / 28 von
+30 Werten zeichengenau · Belegbasis gesichert
+(`sensibel\rohbelege-R05-A\`, 2132/2132 verifiziert) ·
+Leitsession-Strang: Blueprint-Arbeitsauftrag FERTIG (Bausteine
+`aussenkorrespondenz` + `freigabe-vorlagen` gebaut & aktiviert,
+D1/D3–D7 nachgezogen, zentrale-Anteile per Postkorb `59bdfc3`) ·
+Rückfluss: 2 CLAUDE-Schärfungen + Web-Such-Negative-Block +
+R33-Nachzug, Stempel `bfc7da0`. ⚠️ Offen aus R5: **BAFA-Frage im
+Postkorb zentrale (`4e2ba33`, StB-Kandidat Mo!)** ·
+Hamburg-Digital-Check-Frist 16.11. · P15–P19 ·
+Statuszeilen-Sichtung jetzt inkl. R05-A (erster Abschnitt).
+
 **R4 gelaufen (09.08.2026, Shanks + R04-A/Ben Beckman —
 Entscheidungs-Runde):** Drei User-Entscheide E11/E12/E13 (§ 4):
 Portfolio BREIT + MARKE1 verabschiedet (2 Deltas) +
@@ -527,6 +550,12 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    ~Mitte August; Träger jetzt
    `zentrale\stb-termin-fragenliste-2026-08.md` (Postkorb-Meldung dort
    eingearbeitet). MKT-MARKE wartet darauf, FUND/BELEG nicht.
+   **Neu (R5): DRITTER Posten-Kandidat im Postkorb** —
+   BAFA-Umsatzstruktur-Frage (>50 % Beratungsumsatz als
+   Regelvoraussetzung; `zentrale\eingang\2026-08-09-mkt-bafa-
+   umsatzstruktur-stb.md` `4e2ba33`, mit Formulierungsvorschlag);
+   Aufnahme in die Fragenliste entscheidet User/Zentrale VOR dem
+   Anruf.
 2. ~~FUND1-Verabschiedung~~ ✅ ERLEDIGT 09.08.2026 (E10) ·
    ~~BELEG1-Messplan~~ ✅ FREIGEGEBEN 09.08.2026 (H-2) ·
    ~~masunt-Logo~~ ✅ archiviert 09.08.2026.
@@ -552,11 +581,30 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    Prompt-Pflichten: Positivkontrolle je Prüfkanal + Rohtext-Reads
    statt WebFetch-Zusammenfasser für Finalisten + Abbruchbedingung/
    Kostendeckel.
-   (c) **E13-Folgearbeit FUND:** FUND3-Beratungsachse erheben (P12/
-   P13, Vergleichsmaßstab = Papier-Kasten § 6 + R04-Erhebung) +
-   Wettbewerber-Einstufungs-Rückprüfung (§ 5 letzter Punkt) ·
-   dabei Fundstellen-Nachprüfung der agentengelesenen
-   R04-Erhebungs-Kernaussagen, die ins Papier weiterwandern.
+   (c) ~~E13-Folgearbeit FUND: FUND3-Beratungsachse~~ ✅ ERLEDIGT
+   09.08.2026 (R05-A, Wettbewerbsbild Teil B; P12/P13 aufgelöst,
+   Fundstellen-Nachprüfung gelaufen, Papier-§ 6-Nachtrag gesetzt).
+   **Folgeposten aus Teil B:** ⚠️ **Hamburg Digital Check —
+   Antragsschluss 16.11.2026** (vorher IFB-Vorabklärung, ob
+   Marketing-/Sichtbarkeitsberatung unter „Digitaler Wandel" fällt;
+   B9.4) · P15 Brandnamic-Partnerkreis (Voraussetzung jeder
+   Kanal-Entscheidung) · P19 Hotelkooperationen (Kanal- und
+   Wettbewerbsfrage) · P16–P18 nachrangig.
+   (c2) **R5-Nebenbefund-Zielorte (aus R05-A Block 3):** an
+   MKT-HANDEL: Preisanker-Tabelle Beratungsmarkt (nur 3 mit
+   Steuerbasis — vor Vergleich normalisieren) + Preisintransparenz
+   als Feldnorm (veröffentlichter Preis = Differenzierung) +
+   BAFA-Architekturfrage (P14) · an MKT-AKQ: 3 listbare Kanäle
+   (⚠️ IHK-Designkontor-Liste „nicht zu Werbezwecken" → erst durch
+   die UWG-Rechtsmatrix) + DEHOGA-HH-Digital-Lücke als konkreteste
+   Andockstelle + Internorga-Präsenz Brandnamic + IHA-Platzhirsch
+   Online Birds · an FUND4: besetztes Zielgruppen-Vokabular (B4.4) ·
+   an FUND2/Persona: drei Größenschwellen (Deutung offen, B8.3) ·
+   an FUND-Positionierung: Unabhängigkeitsfrage Beratung+eigene
+   Technik (B5.4) · an heypensio (über dessen Leitsession):
+   2 Vorwärtsverweise Alt-Einstufungen (bereits als
+   Übergabe-Kandidat § 5) + AG269-Verwechslungsfalle
+   (2.265,76 brutto ≠ 2.265,96 netto).
    (d) **FUND2-Rest:** Stränge 1 (Kayhan-Gespräch) + 3 (Apaleo-Faden);
    Sonderauswertung Statistikamt Nord erst nach DEHOGA-/IHK-Antworten
    (R2-Entscheid, durch R3-Negativ jetzt einziger amtlicher Weg).
@@ -566,15 +614,28 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    (Namensführung + Beratervertrag/Konditionen, s. Postkorb E13b).
 5. Kleinposten: Domain-Inventur mit dem User (Cloudflare/Registrar) ·
    Byte-Vergleich Fassung-6-Kanon (bei Anlage der
-   Kanon-Versionsführung) · Blueprint-Arbeitsauftrag Bausteine
-   `aussenkorrespondenz`/`freigabe-vorlagen` (aus R2, unverändert
-   offen) · RDB-Konto nur bei wiederkehrenden Regionalauswertungen
-   (R03-B Block 2).
+   Kanon-Versionsführung) · ~~Blueprint-Arbeitsauftrag Bausteine~~
+   ✅ ERLEDIGT 09.08.2026 (R5-Leitsession: beide Bausteine gebaut,
+   aktiviert, zentrale-Anteile Postkorb `59bdfc3`; E1–E3 bleiben
+   geparkt — E1 hängt am Rebrand) · RDB-Konto nur bei
+   wiederkehrenden Regionalauswertungen (R03-B Block 2) ·
+   Statuszeilen-Sichtung (User) jetzt: R3-A/B/D + R04-A + **R05-A
+   (erster Sessionabschnitt Fable→Opus unbestätigt)**.
 
 ---
 
 ## CHANGELOG
 
+- 09.08.2026 (R5-Debrief): FUND3-Beratungsachse + Blueprint-Auftrag
+  eingearbeitet — Wettbewerbsbild Teil B (P12/P13 ✅, elf neue
+  Wettbewerber-Kandidaten, Brandnamic dreiteilig) · § 7 neu (BAFA
+  → Postkorb zentrale `4e2ba33`, Hamburg Digital Check 16.11.,
+  P15–P19, R5-Nebenbefund-Zielorte) · Papier-§ 6-Nachtrag Onpage-SEO ·
+  P20-Belegbasis gesichert (`sensibel\rohbelege-R05-A\`) · zwei neue
+  Bausteine aktiviert (`aussenkorrespondenz`/`freigabe-vorlagen`,
+  Postkorb zentrale `59bdfc3`) · CLAUDE-Schärfungen
+  Extraktions-Positivkontrolle/Widerspruch-Auflösung + R33-Nachzug ·
+  Sammelvermerk R5 im Register · Gerüst-Stempel `bfc7da0`.
 - 09.08.2026 (R4-Debrief): Entscheidungs-Runde eingearbeitet —
   E11/E12/E13 in § 4 (Portfolio breit · MARKE1 verabschiedet mit
   2 Deltas · Vermarktungsform + Kayhan-Pauschalzuschnitt, Postkorb

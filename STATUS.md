@@ -25,20 +25,20 @@
 ---
 
 ## Letzte Aktualisierung
-**09.08.2026 (R4, Shanks + R04-A/Ben Beckman — Entscheidungs-Runde,
-abends)** — **Drei User-Entscheide:** E11 Portfolio BREIT
-(Beratungs-/Agentur-Achse) · **E12 MARKE1 VERABSCHIEDET** (10 Punkte,
-2 Deltas: Zusatzsprachen TR/FR/ES/IT · vorerst ohne Anwalt) · E13
-Vermarktungsform (EIN Angebot · Kayhan pauschal „alles Nicht-Digitale"
-→ Postkorb zentrale `401cf05` · Agentur-Leistungen „im Aufbau" ohne
-Träger, Reifegrad-Vermerke im Papier-Kasten § 6, `8862831`) ·
-**Naming-Sprint Phase 1 FERTIG** (`marke/naming-sprint-2026-08.md`:
-Longlist 58 → **Shortlist 10 beim User**, Prüfung 0/3/8 repariert;
-K2/K3/W7/W8 = zweite Welle E-V4) · Beratungs-Bestandserhebung
-(`protokolle/R04-erhebung-beratungsbestand.md`) · Sammelvermerk R4,
-2 CLAUDE-Schärfungen + Wiktionary-Baustein-Regel, Gerüst-Stempel
-`54439b9`. *(Davor: R3 — Erhebungsvorlagen v2, regionalstatistik-N1,
-MARKE1-Entwürfe, Wettbewerbsbild; L-09/L-10. Ältere Stände:
+**09.08.2026 (R5, Shanks + R05-A/Ben Beckman, spätabends)** —
+**FUND3-Beratungsachse FERTIG:** Wettbewerbsbild **Teil B** (16
+Agenturen · 15 Beratungen · 12 Revenue · 17 Digitalisierer ·
+Verbands-/Förderkanäle; 7 Vergabelinien; **P12/P13 aufgelöst**;
+Brandnamic dreiteilig, **elf nie betrachtete Wettbewerber-Kandidaten**;
+Prüfer: 4 Kritisch alle repariert, 28/30 Werte zeichengenau;
+Belegbasis gesichert `sensibel\rohbelege-R05-A\`) ·
+**Blueprint-Arbeitsauftrag FERTIG** (Bausteine `aussenkorrespondenz` +
+`freigabe-vorlagen` gebaut & aktiviert; zentrale-Anteile Postkorb
+`59bdfc3`) · **⚠️ BAFA-Umsatzstruktur-Frage im Postkorb zentrale**
+(`4e2ba33`, StB-Kandidat Mo!) · Papier-§ 6-Nachtrag Onpage-SEO ·
+Sammelvermerk R5, 2 CLAUDE-Schärfungen + Web-Such-Negative-Block,
+R33-Nachzug, Stempel `bfc7da0`. *(Davor: R4 — E11/E12/E13,
+Naming-Sprint Phase 1 Shortlist 10. Ältere Stände:
 `STATUS-archiv.md`.)*
 
 ## Aktueller Stand
@@ -51,21 +51,23 @@ MARKE1-Entwürfe, Wettbewerbsbild; L-09/L-10. Ältere Stände:
   2026 (angedacht) · erster zahlender Kunde bis Mitte November 2026.
 - Schwester-Repo `zentrale` (Firmen-Ebene) im selben Zug angelegt —
   trägt Namensentscheid-Vorprüfung und Rollen-Charta.
-- **R3 (09.08.):** ✅ Erhebungsvorlagen v2 (`beleg/vorlagen/` — die
-  BELEG1-Kette zum Briefing 23.08. hält) · ✅ FUND2-Kanal 3 geprüft
-  (N1 bestätigt; SH-Kreisdaten-Beifang) · ✅ MARKE1-Entwürfe
-  (`marke/`) · ✅ Wettbewerbsbild aktualisiert (`fund/wettbewerbsbild.md`,
-  ⚠️ Geltungsgrenze: nur Technik-Segment). *(R2 rotiert →
-  `STATUS-archiv.md`.)*
 - **R4 (09.08.):** ✅ E11 Portfolio BREIT · ✅ E12 MARKE1 verabschiedet
   (2 Deltas) · ✅ E13 Vermarktungsform (Kayhan pauschal → Postkorb;
-  Agentur-Posten „im Aufbau" ⚠️ ohne Träger) · ✅ Naming-Sprint
-  Phase 1: **Shortlist 10 beim User** + 4 K1-Blockierte
-  (User-Entscheid) · ✅ Zuruf „außerhalb passiert?" BEANTWORTET
-  (nichts Neues, 17:05). Offen aus R4: Shortlist-Handgriffe
-  (Gesamtschau · Diktat-Test · EN-Check) · zweite Recherche-Welle
-  E-V4 · FUND3-Beratungsachse (entsperrt, unerhoben) ·
-  Statuszeilen-Sichtung R3-A/B/D + R04-A.
+  Agentur-Posten „im Aufbau" ⚠️ ohne Träger; Onpage-SEO seit R5
+  ausgenommen — Papier-§ 6-Nachtrag) · ✅ Naming-Sprint Phase 1:
+  **Shortlist 10 beim User** + 4 K1-Blockierte (User-Entscheid).
+  Offen aus R4: Shortlist-Handgriffe (Gesamtschau · Diktat-Test ·
+  EN-Check) · zweite Recherche-Welle E-V4. *(R3 rotiert →
+  `STATUS-archiv.md`.)*
+- **R5 (09.08.):** ✅ FUND3-Beratungsachse (Wettbewerbsbild Teil B,
+  P12/P13 aufgelöst; elf neue Wettbewerber-Kandidaten, die zwei
+  direktesten an den eigenen Pilotobjekten) · ✅ Blueprint-Auftrag
+  (2 Bausteine + D-Ergänzungen; E1–E3 bleiben geparkt) · ✅
+  P20-Belegbasis gesichert. Offen aus R5: **BAFA → StB-Entscheid Mo**
+  (Postkorb `4e2ba33`) · ⚠️ **Hamburg Digital Check bis 16.11.**
+  (vorher IFB-Klärung) · P15/P19 (Kanal-Voraussetzungen) ·
+  Statuszeilen-Sichtung jetzt R3-A/B/D + R04-A + R05-A ·
+  Nebenbefund-Zielorte verteilt (Projektquelle § 7 4c2).
 
 ## Nächster konkreter Schritt
 1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
@@ -73,8 +75,12 @@ MARKE1-Entwürfe, Wettbewerbsbild; L-09/L-10. Ältere Stände:
    `zentrale\stb-termin-fragenliste-2026-08.md`. **Jetzt DOPPELTER
    Kayhan-Posten:** Marken-Inhaberschaft (Postkorb R3) + Beratervertrag/
    Konditionen nach E13b-Pauschalzuschnitt (Postkorb R4,
-   `zentrale\eingang\2026-08-09-mkt-kayhan-rollenzuschnitt.md`).
-   MKT-MARKE2 (Namensentscheid) wartet darauf, FUND/BELEG nicht.
+   `zentrale\eingang\2026-08-09-mkt-kayhan-rollenzuschnitt.md`) —
+   **und NEU (R5) der BAFA-Kandidat:** Umsatzstruktur-Frage mit
+   Formulierungsvorschlag im Postkorb (`2026-08-09-mkt-bafa-
+   umsatzstruktur-stb.md`); VOR dem Anruf entscheiden, ob sie in die
+   Liste kommt. MKT-MARKE2 (Namensentscheid) wartet darauf,
+   FUND/BELEG nicht.
 2. **User-Handgriffe MARKE1 (aus R4):** Shortlist-Gesamtschau
    (10 Kandidaten, `marke/naming-sprint-2026-08.md` § 5.4) ·
    K4-Diktat-Test (Testbogen § 6 dort) · EN-Muttersprachler-Check ·
@@ -87,13 +93,13 @@ MARKE1-Entwürfe, Wettbewerbsbild; L-09/L-10. Ältere Stände:
    („tatsächliche Größe") · Betreiber-Briefing bis 23.08., **gekoppelt
    mit dem FUND2-Kayhan-Gespräch** · H-4 Altdaten-Sicherung anstoßen
    (bis 07.09.) · Modell-Statuszeilen R3-A/B/D + R04-A bestätigen.
-4. **R5-Kandidaten:** (a) FUND3-Beratungsachse (entsperrt durch E11;
-   Vergleichsmaßstab Papier-Kasten § 6 + R04-Erhebung; inkl.
-   Wettbewerber-Rückprüfung und Fundstellen-Nachprüfung, Projektquelle
-   § 7 4c); (b) E-V4-Welle (nach Shortlist-Handgriffen); (c) FUND2-Rest
-   (Kayhan-Gespräch, Apaleo-Faden; Sonderauswertung erst nach
-   DEHOGA/IHK); (d) Blueprint-Arbeitsauftrag Bausteine
-   `aussenkorrespondenz`/`freigabe-vorlagen` (aus R2, offen).
+4. **R6-Kandidaten:** (a) E-V4-Welle (nach Shortlist-Handgriffen);
+   (b) FUND2-Rest (Kayhan-Gespräch, Apaleo-Faden; Sonderauswertung
+   erst nach DEHOGA/IHK); (c) P15 Brandnamic-Partnerkreis + P19
+   Hotelkooperationen (Kanal-Voraussetzungen, Projektquelle § 7 4c);
+   (d) HANDEL-Einarbeitung der R5-Preisanker + IFB-Vorabklärung
+   Hamburg Digital Check (Frist 16.11., B9.4).
+   *(~~FUND3~~ ✅ und ~~Blueprint-Auftrag~~ ✅ in R5 erledigt.)*
 5. **Kleinposten:** Domain-Inventur (Cloudflare-/Registrar-Dashboard
    mit dem User) · Byte-Vergleich Fassung-6-Kanon · RDB-Konto nur bei
    Bedarf.

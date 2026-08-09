@@ -35,11 +35,23 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
 - `grep -c` zählt ZEILEN, nicht Treffer (minifizierte Dateien: immer 1);
   belastbar ist `grep -o … | wc -l`. Wird eine Zeilen-Zählung bewusst
   verwendet, gehört der Zählweg an die Zahl („55 Zeilen, grep -c").
+  Auch `-c` KOMBINIERT mit `-o` liefert je Datei dieselbe 1 — eine Zahl,
+  die über viele verschiedene Quellen identisch ist, ist ein
+  Werkzeugfehler, kein Befund. (Herkunft: MKT R5.)
 - **PowerShell 5.1 kennt kein `grep`/`head`** — repo-weite Textsuchen
   laufen über das Grep-TOOL (mit Include-Filtern), nicht über die
   PowerShell; `grep`-Kommandos nur im Bash-Kanal. (Herkunft: MKT R2.)
 - `node -e` mit Git-Bash-Pfaden (`/c/Users/…`) findet keine Module —
-  Windows-Pfade oder Skript als Datei.
+  Windows-Pfade oder Skript als Datei. Backslash-Regex in `node -e '…'`
+  unter Bash zerbricht ebenfalls — Skriptdatei statt inline; und `| tail`
+  hinter einem node-Aufruf liefert den Exit-Code des `tail`, nicht des
+  Prozesses. (Herkunft: heyPensio R33.)
+- **`git show <hash>^:<datei>` läuft unter Windows durch cmd.exe, wo `^`
+  das ESCAPE-ZEICHEN ist** — die Referenz entschärft sich STILL zum
+  Nachher-Stand und liefert plausible falsche Zahlen; in Skripten `~1`
+  verwenden. Und eine NICHT-REKURSIVE Auflistung verliert genau die Datei
+  im Unterverzeichnis — wer eine Bestandszahl „bestätigt", misst den
+  SUCHWEG mit, nicht nur den Zähler. (Herkunft: heyPensio R33.)
 - `[IO.File]`-/.NET-Aufrufe lösen relative Pfade gegen das PROZESS-CWD
   auf, nicht gegen das PowerShell-`cd` — immer absolute Pfade; nach
   Skriptläufen `git status` (stille Datei-Anlagen!).

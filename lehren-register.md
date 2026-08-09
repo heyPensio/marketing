@@ -143,6 +143,53 @@ nicht dessen Prämisse).
 Quelle: `protokolle/R03-D-abschluss.md` Falle F6 + Nebenbefund N1;
 `fund/wettbewerbsbild.md` § 0.0.
 
+## Zweitbelege R5 zu bestehenden Regeln (09.08.2026, Sammelvermerk)
+
+*(Quelle aller Punkte: `protokolle/R05-A-abschluss.md` Block 4 + § 5,
+`protokolle/R05-A-pruefer.md`. Neue Regeln der Runde stehen nicht hier,
+sondern als CLAUDE-Schärfungen (Extraktions-Positivkontrolle F-9 ·
+Widerspruch-erst-nach-Datei-von-oben F-10) und im Baustein
+`quellen-beschaffung` (Web-Such-Negative-Block F-1/F-3/F-4/F-6/F-7)
+bzw. `windows-powershell` (F-5 `-c`+`-o`).)*
+
+- **Zahlen-Scope-Regel, Zweitbeleg (F-2):** 2.265,76 € brutto
+  (Agenturangebot AG269) gegen 2.265,96 € netto (Creone KeyBox über
+  masunt) — 20 Cent Differenz, verschiedene Steuerbasis, verschiedene
+  Geschäfte; jede Verwechslung hätte plausibel ausgesehen.
+- **L-05, VIERTER Beleg (F-8):** Klassifikator-Blockade beim `git push`
+  erneut; wie dokumentiert im Bash-Kanal gangbar. Kanal-, nicht
+  sachgebunden — Regel unverändert.
+- **L-04-Familie, Doppelmaßstab-Facette (F-11, Prüferfang):** Smart
+  Hosts „399 €/M" ohne Bezugsgröße gerügt, drei Abschnitte später die
+  DEHOGA-Eigenanteile selbst ohne Einheit „je Beratungstag"
+  geschrieben. Der Doppelmaßstab fällt im eigenen Text nie auf — dafür
+  ist der Prüfer da.
+- **Bewährt (M-1):** Fundstellen-Nachprüfung zum Beleg-Typ-Anheben
+  SELBST machen, nicht delegieren — ein Agent hätte „agentengelesen"
+  nur reproduziert; zwei echte Befunde bei sechs Kernaussagen.
+- **Bewährt (M-2, Facette zur R4-Vergabelinien-Regel):** Linien VOR den
+  Einstufungen ausschreiben — erst das Ausformulieren von L-B1 zeigte,
+  dass die Rohform jede DACH-Agentur zum Wettbewerber gemacht hätte;
+  die Prüfer-Reparatur (L-B7) war nur möglich, weil die Linien
+  explizit dastanden.
+- **Bewährt (M-3):** „Raster nicht anwendbar" als eigene Kategorie
+  (Everlast) + Zusatzkategorie „—" für „keine Überschneidung am
+  HEUTIGEN Portfolio" — hält den Fall offen, den eine
+  Portfolio-Erweiterung kippen kann.
+- **Bewährt (M-4):** Recherche-Aufträge ohne Kandidatennamen
+  (Ausschlussliste statt Suchauftrag) — die wertvollsten Funde (SUM,
+  work@hotel, Bräu, anfang.team, DEHOGA BW) waren vorher unbekannt.
+- **Bewährt (M-5, Facette zu „Befund und Diagnose getrennt"):** Einen
+  Anbieter TIEF prüfen (Brandnamic, 476 Seiten Vollsuchraum): Die
+  Alt-BEGRÜNDUNG hielt der Nachmessung stand, ihre SCHLUSSFOLGERUNG
+  („keine Überschneidung") nicht — Befund und Schlussfolgerung einer
+  Alt-Einstufung sind getrennt zu prüfen.
+- **Bewährt (M-6/M-7):** Negative Feldbefunde als konkreteste
+  Kanalhinweise (kein Apaleo-Beraterverzeichnis, keine
+  DEHOGA-HH-Digitalpartner) · Deutung offenlassen, wo die Daten sie
+  nicht tragen (Größenschwellen: „freies Feld" und „trägt sich nicht"
+  gleichrangig).
+
 ## Zweitbelege R4 zu bestehenden Regeln (09.08.2026, Sammelvermerk)
 
 - **⭐ Verdichten-Familie, Meta-Aussagen-Facette (R04-A Falle 1,

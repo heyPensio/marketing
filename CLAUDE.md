@@ -3,9 +3,9 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand `cf5a2f1` nach Rückfluss-Nachzügen MKT R1–R4,
-> heyPensio-R32-Lehren und dem R5-Blueprint-Arbeitsauftrag (zwei neue
-> Bausteine + D-Ergänzungen aus dem R00-Lehren-Delta, 09.08.2026).
+> am 2026-08-09; Stand `bfc7da0` nach Rückfluss-Nachzügen MKT R1–R5
+> (inkl. R5-Blueprint-Arbeitsauftrag: zwei neue Bausteine +
+> D-Ergänzungen) und heyPensio-R32/R33-Lehren (09.08.2026).
 > Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
@@ -251,6 +251,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Grundannahme gebaut (die tragende Prämisse an der Quelle prüfen, nicht
   erst beim Rücklauf). Gilt für Briefing-/Fremd-Angaben wie für
   Auftraggeber-Angaben. (Herkunft: heyPensio R32.)
+  **Und: Eine als unbelegt MARKIERTE Prämisse ist damit nicht
+  neutralisiert** — wer eine Prämisse anzweifelt, listet auf, WAS ALLES
+  an ihr hängt, und prüft jeden Punkt einzeln; bei Lagen-/Optionslisten
+  „sowohl-als-auch" mitlisten. (Herkunft: heyPensio R33.)
   (f) Ein richtiges Zitat kann das Gegenteil belegen — Quellzeile GANZ
   lesen, bei Gesprächsquellen die zugehörige FRAGE mit ins Zitat,
   Überschrift/Geltungsbereich mitlesen.
@@ -273,6 +277,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   JEDER Kanal seinen benannten Anker hat; der stärkste Kontrollbegriff
   spiegelt die SUCHMECHANIK des Nulltreffers (z. B. Teilwort-Probe),
   nicht nur irgendeinen garantierten Treffer. (Sammelvermerk R3.)
+  **Bei EXTRAKTIONEN prüft die Kontrolle die Vollständigkeit des
+  ERGEBNISSES** (bekannte Elemente müssen in der Extraktion erscheinen),
+  nicht die Erreichbarkeit der Quelle — „Nutzlast gefunden" beglaubigt
+  keine vollständige Liste. (Sammelvermerk R5, Prüferfang.)
 - **Status-Symbole erben von der SCHWÄCHSTEN Prämisse;** „Prognose" ist
   eine eigene Kategorie; ⚠️-Bausteine nie zu ✅ zusammenfassen. Ein
   „ERLEDIGT" an einer Bedingung beglaubigt die RECHTSFOLGE des Satzes mit —
@@ -341,7 +349,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Kopfzeile/Fußnoten/Scope mitlesen (netto/brutto, Geräteklasse, Datum),
   vor Vergleichen normalisieren. Eine Zahl trägt den Scope ihrer ZEILE,
   nicht den ihres Namens — vor jedem „Widerspruch" die Positionslisten
-  BEIDER Zahlen öffnen. Superlative sofort mit Scope einschränken. **Für
+  BEIDER Zahlen öffnen, **und die Quelldatei von oben lesen: Ein
+  Widerspruch ist erst einer, wenn die Datei ihn nicht selbst auflöst**
+  (der Kopfblock kann die Korrektur bereits tragen; Sammelvermerk R5,
+  Prüferfang). Superlative sofort mit Scope einschränken. **Für
   jede Zahl, die in ein Dokument geht, den Zählweg benennen** — die
   plausible Zahl wird nie nachgeprüft, gerade sie ist gefährlich.
 - **Eine Zahl, die offensichtlich nicht passen kann, ist ein
@@ -366,7 +377,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **Ein Test, der nichts verändert, prüft nichts** — Testaufbauten brauchen
   ihre eigene Positivkontrolle. **Eine grüne Testzahl belegt nichts — nur
   die Rückbau-Gegenprobe belegt, dass die Tests den Fund fangen** (Fix in
-  Wegwerf-Kopie zurückdrehen, prüfen ob die Suite es merkt).
+  Wegwerf-Kopie zurückdrehen, prüfen ob die Suite es merkt). **Und ein
+  Selbsttest, der die zu prüfende ZUSAMMENSETZUNG selbst nachbaut, prüft
+  sie nicht: Test und Produktivpfad müssen DIESELBE Funktion aufrufen.**
+  (Herkunft: heyPensio R33.)
+- **Vor jedem Passwortwechsel/jeder Credential-Rotation prüfen, WER das
+  Credential aktiv nutzt** — fremdgenutzte Zugangsdaten nie im Alleingang
+  rotieren; Automations-Secrets von vornherein in EIGENE Postfächer/
+  Konten trennen (noreply-Muster). (Herkunft: heyPensio R33, User-Fang.)
 - **Sicherheits-Regeln:** Den leeren Zustand GETRENNT behandeln
   („Weglassen" ist der leere Zustand; „Weglassen" und „Wiederholen" sind
   dieselbe Operation). Nach jeder geschlossenen Fehlerklasse fragen, wie

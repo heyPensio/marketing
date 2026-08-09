@@ -405,6 +405,14 @@ Modul-Ausbau nach Hausgröße, keine getrennten Produktlinien.*
 >   Bestand OHNE Substanz und ohne Träger dokumentiert
 >   (Negativbefunde R04-Erhebung § 5); es existiert auch keine
 >   Kayhan-Zusage dazu.
+>   *Nachtrag 09.08.2026 (R5-Review, Befund R05-A): Das
+>   Pauschal-Negativ ist für EINEN Posten überholt — **technisches
+>   Onpage-SEO ist im Bestand dokumentiert** (Maßnahmenliste,
+>   Aufwandsschätzungen „3–5 h"/„3–4 h", Lieferumfang-Zusage
+>   „301-Weiterleitungs-Map … gehört trotzdem zum Lieferumfang";
+>   Gegenprobe mit zweitem Lesekanal, 18 Treffer/7 Dateien,
+>   Positivkontrolle ✔ — `protokolle/R05-A-fundstellen.md` N-6).
+>   Für Social, Ads und Bewertungsmanagement hält das Negativ.*
 >
 > **E13b — Kayhan-Zuschnitt PAUSCHAL:** zuständig für alles, was
 > nicht Digitalisierung/KI/Automation ist (User-Zuruf ~17:25 O-Ton im

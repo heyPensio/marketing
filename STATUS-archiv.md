@@ -2,6 +2,15 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 09.08.2026 (R5-Debrief) — R3-Block aus „Aktueller Stand"
+
+- **R3 (09.08.):** ✅ Erhebungsvorlagen v2 (`beleg/vorlagen/` — die
+  BELEG1-Kette zum Briefing 23.08. hält) · ✅ FUND2-Kanal 3 geprüft
+  (N1 bestätigt; SH-Kreisdaten-Beifang) · ✅ MARKE1-Entwürfe
+  (`marke/`) · ✅ Wettbewerbsbild aktualisiert (`fund/wettbewerbsbild.md`,
+  ⚠️ Geltungsgrenze: nur Technik-Segment). *(R2 rotiert →
+  `STATUS-archiv.md`.)*
+
 ## Rotiert am 09.08.2026 (R4-Debrief) — R2-Block aus „Aktueller Stand"
 
 - **R2 (09.08.):** ✅ BELEG1-Messplan freigegeben (Zwei-Schienen-Modell;

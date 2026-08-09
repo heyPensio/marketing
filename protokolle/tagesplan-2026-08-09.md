@@ -416,3 +416,23 @@ Selbst-Gegenlesen gegen die Quell-Skills beim Debrief.
 **PROGNOSE:** Nach R5-Debrief Feierabend. Montag-Kandidaten: StB-Anruf
 (Zentrale, User-Handgriff) · E-V4-Welle nach Shortlist-Handgriffen ·
 Anfragen-Versand DEHOGA/IHK (werktags) · FUND2-Rest.
+
+**R5 GESCHLOSSEN (Debrief ~23:1x):** Abschlussmeldung R05-A da
+(`4f947eb`), Scope-Treue aller 6 Session-Commits per `git show --stat`
+belegt, Review beide Richtungen (nach innen: Stichproben L-B7/P12/P13/
+B9.4 ✅, 4 Kritisch-Reparaturen nachvollzogen · nach außen: alle
+Nebenbefunde mit Zielort, zwei sofort ausgeführt — BAFA-Postkorb
+zentrale `4e2ba33` ⚠️ StB-Kandidat Mo + P20-Belegbasis gesichert
+`sensibel\rohbelege-R05-A\` 2132/2132). Leitsession-Strang
+Blueprint-Auftrag FERTIG (projektgerüst `cf5a2f1`+`bfc7da0`, marketing
+`efceeaf`, Postkorb `59bdfc3`). Debrief mit Rückfluss: Sammelvermerk
+R5 · 2 CLAUDE-Schärfungen (Extraktions-Positivkontrolle ·
+Widerspruch-Auflösung) · Web-Such-Negative-Block + `-c`/`-o`-Falle
+(Bausteine) · heyPensio-R33-Nachzug · Stempel `bfc7da0` ·
+Vier-Stellen-Sync + R3-Rotation · Papier-§ 6-Nachtrag Onpage-SEO.
+Gegenprobe-Subagent: entfällt regelkonform (EINE Arbeits-Session).
+Offen an den User: BAFA-Entscheid vor dem StB-Anruf Mo ·
+Shortlist-Handgriffe · Statuszeilen R3-A/B/D + R04-A + R05-A ·
+Kontingent nur als Band 70–85 % erhoben. **Feierabend — nächster
+Einstieg: Montag `/tagesstart` (neuer Tag), Zentrale-Briefing sichtet
+den Postkorb (2 neue MKT-Meldungen).**

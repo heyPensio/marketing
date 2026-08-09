@@ -32,7 +32,8 @@ Verfahrens-Positivkontrolle, 9 Prüfbefunde eingearbeitet) ·
 **masunt-Listungszusage** im neuen Register `referenzen-zusagen.md`
 erfasst (Partner-Listung, KEINE Kundenreferenz) · beide Repos
 (marketing + zentrale) an private GitHub-Remotes gehängt · Lehren
-L-01–L-06 ins Register + projektgerüst (Stempel `897292e`).
+L-01–L-06 ins Register + projektgerüst (Stempel `897292e`) · nach dem
+Debrief: **FUND1 VERABSCHIEDET (E10)**.
 *(Davor: Sitzung 1 Projekt-Aufsetzung — Plan nach dreifacher
 Prüfrunde, `protokolle/R00-planpruefung-2026-08-09.md`, Entscheide
 Projektquelle § 4.)*
@@ -47,21 +48,19 @@ Projektquelle § 4.)*
   2026 (angedacht) · erster zahlender Kunde bis Mitte November 2026.
 - Schwester-Repo `zentrale` (Firmen-Ebene) im selben Zug angelegt —
   trägt Namensentscheid-Vorprüfung und Rollen-Charta.
-- **R1 (09.08.):** FUND1-Entwurf wartet auf User-Verabschiedung (drei
-  Entscheidungspunkte §§ 3.2/3.3/6); FUND2-Plan ausführbar;
-  ⚠️ Merkzeile: Extraktionsberichte sind gegen Rohbestand ungeprüft,
-  belegter Drift-Fall A/A2-Versanddatum (Details Projektquelle § 6).
+- **R1 (09.08.):** ✅ **FUND1 VERABSCHIEDET (E10)** — geführte
+  Durchsprache, alle drei Entscheidungspunkte bestätigt
+  (Entscheidungsstruktur statt Zahlen; EIN Produkt über Modul-Achse,
+  FUND2-Vorbehalte in Kraft). FUND2-Plan ausführbar. ⚠️ Merkzeile:
+  Extraktionsberichte sind gegen Rohbestand ungeprüft, belegter
+  Drift-Fall A/A2-Versanddatum (Details Projektquelle § 6).
 
 ## Nächster konkreter Schritt
 1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
    GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger
    `zentrale\stb-termin-fragenliste-2026-08.md`. MKT-MARKE wartet
    darauf, FUND/BELEG nicht.
-2. **FUND1-Verabschiedung durch den User** (Entwurf
-   `fund/positionierungspapier.md`; drei Entscheidungspunkte:
-   Arbeitsdefinition „größere Häuser" § 3.2 · Konzern-Abgrenzung § 3.3 ·
-   Portfolio-These § 6).
-3. **R2-Kandidaten:** (a) BELEG1-Baseline-Messplan (Verfallsdatum:
+2. **R2-Kandidaten:** (a) BELEG1-Baseline-Messplan (Verfallsdatum:
    PMS-Livegang Ende September, nicht nachholbar); (b) FUND2-Ausführung
    (`fund/persona-validierungsplan.md` § 7: Rechtsmatrix-Frage,
    Apaleo-Timing, Kayhan-Gespräch = User-Handgriff); (c) MKT-MARKE —

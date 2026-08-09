@@ -1,14 +1,20 @@
 # FUND1 — Positionierungspapier: USP & Dienstleistungsportfolio
 
-> ## ⚠️ STATUS: ENTWURF — nicht verabschiedet
+> ## ✅ STATUS: VERABSCHIEDET (User-Entscheid E10, 09.08.2026)
 >
-> Dieses Papier ist ein Arbeitsstand der Session R01-A (09.08.2026).
-> **Das FUND1-Fertigkriterium ist die Verabschiedung durch den User —
-> sie steht aus und liegt außerhalb der Session R01-A.** Bis zur
-> Verabschiedung ist jede Aussage hier ein Vorschlag, keine Festlegung;
-> nichts hieraus darf vor der Verabschiedung in außenwirksame Texte
-> übernommen werden (Ausnahme: die als Kanon gekennzeichneten, bereits
-> versendeten Bestandstexte, die hier nur zitiert werden).
+> **Nachtrag 09.08.2026 (ersetzt den Entwurfs-Status-Kasten der Session
+> R01-A):** Alle drei markierten Entscheidungspunkte wurden vom User in
+> geführter Einzel-Durchsprache (Leitsession R1, Shanks) bestätigt —
+> je Punkt die vorgelegte Fassung „So übernehmen": Arbeitsdefinition
+> „größere Häuser" (§ 3.2) · Konzern-Abgrenzung über die
+> Entscheidungsstruktur (§ 3.3) · Portfolio-These Modul-Achse (§ 6,
+> unter FUND2-Problem-Fit-Vorbehalt). Form: drei einzelne
+> Options-Bestätigungen im Chat der Leitsession, 09.08.2026;
+> Projektquelle § 4 E10. Damit ist das FUND1-Fertigkriterium erfüllt.
+> Die im Papier dokumentierten GELTUNGS-Vorbehalte (u. a. § 4.4
+> Investitionshürde nur Kernsegment, § 5 Kundeneinsatz-Vorbehalt
+> Terminal, FUND2-Problem-Fit) bleiben unverändert in Kraft — die
+> Verabschiedung hebt keinen davon auf.
 >
 > **Quellen-Stand:** Extraktionsberichte `protokolle/R00-extraktion-*.md`
 > (alle drei, Stand 09.08.2026), Projektquelle §§ 1/2/4/5,
@@ -122,6 +128,8 @@ Investitionsentscheidung trägt. Eine harte Obergrenze (Zimmerzahl,
 MA-Zahl) wird bewusst NICHT gesetzt, bevor FUND2 die Entscheiderfrage
 beantwortet hat — das Verhältnis zu angestellten Direktoren größerer
 Häuser wird dort mit-evaluiert (Projektquelle § 2 FUND1/FUND2).
+*Nachtrag: ✅ bestätigt in der vorgelegten Fassung (User, 09.08.2026,
+Durchsprache R1 — E10).*
 
 ### 3.3 Konzern-/Ketten-Abgrenzung (geschärft)
 
@@ -134,8 +142,10 @@ Betreibergesellschaft). Abgrenzungskriterium ist die
 Einkauf oder eine Konzern-IT den Stack vorgibt, greifen unser
 Betreibermodell (persönliche Betreuung, Gastgeber-Eskalation) und
 unsere Stärke im individuellen Zuschnitt nicht mehr. *(Einordnung der
-Session, abgeleitet aus dem Betreibermodell-USP § 4 — Bestandteil des
-Entwurfs, vom User zu bestätigen.)*
+Session, abgeleitet aus dem Betreibermodell-USP § 4.)* *Nachtrag:
+✅ bestätigt in der vorgelegten Fassung (User, 09.08.2026, Durchsprache
+R1 — E10; Grenzfall bleibt wie vorgelegt: Franchise mit FREIER
+Stack-Wahl ist Zielgruppe).*
 
 ## 4. USP / Differenzierung
 
@@ -325,13 +335,16 @@ Verabschiedung):** Das Portfolio skaliert über die Modul-Achse, nicht
 (Telefonassistent, Upselling, Cockpit) und mehr Betrieb, kleine Häuser
 starten engpasskonzentriert (Onboarding-Prinzip, A1). Preislogik
 („pro Modul, pro Monat, pro Zimmer" als dokumentierte Vision, A1)
-wird in MKT-HANDEL ausgearbeitet, nicht hier.
+wird in MKT-HANDEL ausgearbeitet, nicht hier. *Nachtrag: ✅ bestätigt
+in der vorgelegten Fassung (User, 09.08.2026, Durchsprache R1 — E10),
+ausdrücklich UNTER dem FUND2-Problem-Fit-Vorbehalt: EIN Produkt,
+Modul-Ausbau nach Hausgröße, keine getrennten Produktlinien.*
 
 ## 7. Offene Punkte (mit Beschaffungsweg)
 
-1. **Verabschiedung durch den User** — das FUND1-Fertigkriterium;
-   Weg: Vorlage über die Leitsession, Entscheidungspunkte: §§ 3.2
-   (Arbeitsdefinition), 3.3 (Abgrenzungskriterium), 6 (Portfolio-These).
+1. ~~**Verabschiedung durch den User**~~ ✅ ERLEDIGT 09.08.2026 (E10):
+   alle drei Entscheidungspunkte (§§ 3.2/3.3/6) in geführter
+   Durchsprache bestätigt — s. Status-Kasten im Kopf.
 2. **A12-Neuprüfung für größere Häuser** (Investitionshürden-Argument);
    Weg: FUND2-Erhebung + Kostenstruktur-Rechnung MKT-HANDEL.
 3. **Größen-Obergrenze der Zielgruppe**; Weg: FUND2-Befund abwarten,

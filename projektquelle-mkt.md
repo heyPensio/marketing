@@ -51,12 +51,12 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   bleiben, aber gerne auch größere"); das Verhältnis zu angestellten
   Direktoren größerer Häuser wird in FUND2 mit-evaluiert, die
   Konzern-/Ketten-Abgrenzung hier geschärft. Fertig: vom User
-  verabschiedet. **Stand R1 (09.08.2026): Entwurf liegt vor**
-  (`fund/positionierungspapier.md`, Commits `672cbcc`/`caaa6c9`,
-  voll-reviewt inkl. Verfahrens-Positivkontrolle) — Verabschiedung
-  offen mit drei markierten Entscheidungspunkten: Arbeitsdefinition
-  „größere Häuser" (§ 3.2) · Konzern-Abgrenzungskriterium (§ 3.3) ·
-  Portfolio-These (§ 6).
+  verabschiedet. **✅ FERTIG (09.08.2026, E10):** Papier
+  `fund/positionierungspapier.md` (voll-reviewt inkl.
+  Verfahrens-Positivkontrolle) vom User verabschiedet — alle drei
+  Entscheidungspunkte in geführter Durchsprache bestätigt; die
+  Geltungs-Vorbehalte des Papiers (u. a. Investitionshürde nur
+  Kernsegment bis FUND2/HANDEL-Prüfung) bleiben in Kraft.
 - **FUND2** Persona-Validierung: Sind die Entscheider 58-jährige
   Inhaber, jüngere Nachfolger (2./3. Generation) oder angestellte
   Direktoren (größere Häuser; dritte Kategorie = Zusatz der Session,
@@ -269,6 +269,15 @@ OPS4-Register in `sensibel/`.)*
   Voice-Nachricht). ⚠️ Datum/Form/Wortlaut der Gesellschafter-Erklärung
   sind nicht dokumentiert — Nachtrag in `zentrale\namensentscheid.md`
   Gate 3, sobald erhoben.
+- **09.08.2026 (E10) FUND1-Positionierungspapier VERABSCHIEDET.**
+  Form: geführte Einzel-Durchsprache in der Leitsession R1 (Chat,
+  drei Options-Bestätigungen, je „So übernehmen"): (a) Arbeitsdefinition
+  „größere Häuser" § 3.2 — über Entscheidungsstruktur, keine harte
+  Obergrenze vor FUND2; (b) Konzern-/Ketten-Abgrenzung § 3.3 —
+  Entscheidungsstruktur statt Betten-Zahl, Franchise mit freier
+  Stack-Wahl bleibt Zielgruppe; (c) Portfolio-These § 6 — EIN Produkt,
+  Skalierung über die Modul-Achse, unter FUND2-Problem-Fit-Vorbehalt.
+  Die Geltungs-Vorbehalte des Papiers bleiben unberührt in Kraft.
 
 ## 5. GEPARKTE IDEEN
 
@@ -325,8 +334,8 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    ~Mitte August; Träger jetzt
    `zentrale\stb-termin-fragenliste-2026-08.md` (Postkorb-Meldung dort
    eingearbeitet). MKT-MARKE wartet darauf, FUND/BELEG nicht.
-2. **FUND1-Verabschiedung durch den User** — drei Entscheidungspunkte
-   (§§ 3.2/3.3/6 des Entwurfs), Vorlage über die Leitsession.
+2. ~~FUND1-Verabschiedung~~ ✅ ERLEDIGT 09.08.2026 (E10, geführte
+   Durchsprache — alle drei Punkte bestätigt).
 3. **R2-Kandidaten:** (a) BELEG1-Messplan (Verfallsdatum: PMS-Livegang
    Ende September, nicht nachholbar); (b) FUND2-Ausführung (Vorlage-
    Punkte in Plan § 7: Rechtsmatrix bei Kaltkontakten, Apaleo-Timing,
@@ -343,6 +352,9 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 
 - 09.08.2026: Projektquelle angelegt (Projekt-Aufsetzung, `/projekt-init`;
   Plan nach dreifacher Prüfrunde + User-Entscheide E1–E7).
+- 09.08.2026 (nach R1-Debrief): **E10 — FUND1 VERABSCHIEDET** (geführte
+  Durchsprache, drei Punkte bestätigt); Nachträge im Papier, § 2 FUND1
+  auf FERTIG, § 7 Punkt 2 abgehakt.
 - 09.08.2026 (R1-Debrief): FUND1-Entwurf + FUND2-Plan-Stände in § 2 ·
   Offenlegungs-Vermerk Kayhan bei BELEG · Problem-Fit-Vermerk bei AKQ1 ·
   Merkzeile Extraktionsberichte/A2-Datumsdrift in § 6 · § 7 neu

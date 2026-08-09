@@ -1,6 +1,11 @@
 # MARKE1 — Naming-Sprint 2026-08, Phase 1 (Schreibtisch)
 
-> ## STATUS: IN ARBEIT — Session R04-A (Ben Beckman), begonnen 09.08.2026 18:41
+> ## STATUS: PHASE 1 ABGESCHLOSSEN — Shortlist (9 Kandidaten) zur User-Vorlage
+> *(Session R04-A, Ben Beckman, 09.08.2026 18:41–19:1x; unabhängige
+> Prüfung: `protokolle/R04-A-pruefer.md`. Offen: K4-Diktat-Test +
+> EN-Muttersprachler-Check [User-Handgriffe, § 6] · K2/K3/W7/W8
+> [zweite Welle, eigene Session, E-V4] · 4 K1-Blockierte warten auf
+> User-Entscheid [§ 4.2].)*
 >
 > **Auftrag:** Kandidaten-Findung + K.-o.-Prüfung (Schreibtisch-Welle
 > K1, K4–K7) + Wertung → bewertete Shortlist zur User-Vorlage.
@@ -311,11 +316,115 @@ A5-Vertreter ≥ 18). Reine Punktreihenfolge hätte Platz 8–9 unter
 sechs punktgleichen 18ern gelost — die Achsen-Streuung ist das
 dokumentierte Zusatzkriterium.
 
-*(K6-Voll-Check-Protokoll und Kandidaten-Detailblätter folgen —
-werden nach den Web-Wörterbuch-Läufen eingetragen.)*
+#### K6-Voll-Check-Protokoll (09.08.2026, Session R04-A)
+
+**Prüfkanäle** (Beleg-Typen zweiachsig, Baustein quellen-beschaffung):
+
+| Kanal | Methode | Positivkontrolle (im selben Lauf) |
+|---|---|---|
+| A | en.wiktionary.org, Seitenabruf je Kandidat (kleingeschrieben; deckt Einträge ALLER Prüfsprachen inkl. TR/FR/ES/IT ab; 404 = kein Eintrag) | `talora` → Eintrag IT „synonym of talvolta" ✔ (spiegelt die Nulltreffer-Mechanik: kleines, unauffälliges Wort einer Prüfsprache) |
+| B | en.wiktionary.org, ZWEITER Lauf GROSSGESCHRIEBEN für die DE-Komposita (Wiktionary ist case-sensitiv — ein Klein-404 allein wäre ein Mechanik-Artefakt) | `Einkehr` → Eintrag DE „(self-)reflection, retreat" ✔ |
+| C | de.wiktionary.org für DE-Komposita | `Einkehr` → „Handlung, ein Lokal zu betreten" / „sich besinnen" ✔ |
+| D | Sprachwissen des Session-Modells, alle 6 Sprachen je Kandidat (Belegstufe: Selbst-Sprachprüfung OHNE externen Beleg — gekennzeichnet, kein Wörterbuch-Ersatz) | n. a. (kein Suchlauf) |
+| E | EN-Muttersprachler-Check | **OFFEN — User-Handgriff, 0/9** |
+
+**Leseweg-Vorbehalt:** Kanäle A–C liefen über den
+WebFetch-Zusammenfasser (kein Rohtext-Read); abgefragt wurden nur
+Existenz + Bedeutungsliste, keine technischen Werte — Restrisiko
+niedrig, aber benannt.
+
+**Ergebnisse je Shortlist-Kandidat** (Suchraum: 6 Sprachen
+DE/EN/TR/FR/ES/IT; „404" = kein Eintrag im Kanal):
+
+| ID | Kanal A (klein) | Kanal B (groß) | Kanal C | Kanal D (LLM, 6 Sprachen) | K6-Ergebnis |
+|---|---|---|---|---|---|
+| N-02 Freihand | 404 | 404 | 404 | DE „freihändig/Freihandbestand" harmlos; EN „freehand" positiv; TR/FR/ES/IT leer | ✅ bestanden |
+| N-03 Beihand | 404 | 404 | n. e. | alle 6 leer | ✅ bestanden |
+| N-13 Einkehr | Eintrag DE (nur DE-Bedeutung; FR/HU/RU/ZH nur Interwiki-Links) | — | Eintrag DE positiv (beide Bedeutungen stützen die Story) | TR/FR/ES/IT leer | ✅ bestanden |
+| N-17 Anlando | 404 | n. a. | n. a. | alle 6 leer; IT-Klangnähe „andando" (harmlos) | ✅ bestanden |
+| N-18 Ankado | 404 | n. a. | n. a. | alle 6 leer (Kanal A deckt auch Esperanto) | ✅ bestanden |
+| N-26 Kalmora | 404 | n. a. | n. a. | TR „kalma" (das Bleiben) harmlos-positiv; sonst leer | ✅ bestanden |
+| N-38 Treuhold | 404 | 404 | n. e. | EN „true hold" positiv; sonst leer | ✅ bestanden |
+| N-39 Zuhand | 404 | 404 | n. e. | DE „zuhanden" neutral-positiv; sonst leer | ✅ bestanden |
+| N-55 Portino | Eintrag IT: Verbform von „portare" (Konj./Imp. 3. Pl.) — harmlos; ⚠️ FR/JA/MG-Einträge existieren, Detail NICHT gelesen (kein Verdacht; Nachlese vor Finalisten-Entscheid) | n. a. | n. a. | IT „portino" alltagssprachlich kleine Tür (unkritisch); sonst leer | ✅ bestanden mit Nachlese-Vermerk |
+
+*(n. e. = nicht einzeln abgefragt, durch Kanal-B-404 des identischen
+Strings abgedeckt; n. a. = nicht anwendbar.)*
+
+**Gegenprobe zum K6-Ausschluss N-21 Portavia (Web-Beleg nachgeholt):**
+„portare via" = „wegnehmen / zum Mitnehmen" — belegt über
+[bab.la](https://de.bab.la/woerterbuch/italienisch-deutsch/portare-via),
+[Reverso Context](https://context.reverso.net/%C3%BCbersetzung/italienisch-deutsch/portare+via)
+und [dict.cc](https://m.dict.cc/deutsch-italienisch/zum+Mitnehmen.html)
+(alle 09.08.2026, WebSearch-Lauf). Der Ausschluss steht damit auf
+Wörterbuch-Beleg, nicht nur auf Sprachwissen.
+
+### 5.4 Shortlist-Detailblätter (Prüf-Stand je Kandidat, 09.08.2026)
+
+Gemeinsamer Status ALLER 9: K1 ✅ (Ersteinschätzung ohne Anwalt,
+E-K5) · K5 ✅ · K7 ✅ · K6 ✅ (Protokoll § 5.3) · **K4 OFFEN —
+User-Handgriff Diktat-Test, 0/2 Personen, Testbogen § 6** ·
+**EN-Muttersprachler-Check OFFEN — User-Handgriff, 0/9** ·
+**K2 Markenkollision OFFEN — zweite Welle, 0 Datenbanken geprüft** ·
+**K3 Domains OFFEN — zweite Welle, 0 TLDs geprüft** · **W7/W8 OFFEN —
+zweite Welle**. Kein Kandidat trägt ein ✅ aus K2/K3/W7/W8.
+
+| Rang | ID | Name | Achse | Σ/21 | Story in einem Satz | Kandidatenspezifische Vorbehalte |
+|---|---|---|---|---|---|---|
+| 1 | N-02 | **Freihand** | A1 | 21 | Der Gastgeber bekommt die Hände frei fürs Eigentliche — den Gast; EN „freehand" trägt mit. | keine |
+| 2 | N-03 | **Beihand** | A1 | 20 | Die zusätzliche Hand, die still mitarbeitet, ohne den Gastgeber zu ersetzen. | EN bedeutungsleer (machbar) |
+| 2 | N-38 | **Treuhold** | A4 | 20 | Der treue Begleiter (treu + althochdt. „hold"); EN-Doppellesung „true hold" = fester Halt. | d/t-Auslaut im Diktat (mild) |
+| 4 | N-17 | **Anlando** | A2 | 19 | „Anlanden" — ankommen, mit internationaler Endung. | — |
+| 4 | N-18 | **Ankado** | A2 | 19 | Ankommen + Anker: Ankunft und Verlässlichkeit in einem Kunstwort. | — |
+| 4 | N-26 | **Kalmora** | A3 | 19 | Ruhe (calm/Kalme) in warmem Klang — Gelassenheit ohne Beschreibung. | Hörnähe „Kalmar" (kurios) |
+| 4 | N-39 | **Zuhand** | A4 | 19 | „Jemandem zur Hand gehen" — abnehmen, nicht ersetzen. | EN sperrig (W4 = 1) |
+| 8 | N-13 | **Einkehr** | A2 | 18 | Ankommen UND Besinnung — trägt Gastlichkeit wie Beratungs-Ruhe. | K2-Umfeld dicht (Gasthöfe „Zur Einkehr"); EN sperrig |
+| 8 | N-55 | **Portino** | A5 | 18 | Die kleine, immer offene Tür — Willkommen ohne Schranke. | W9 = 2 (Stamm „Port-"); IT-Verbform (harmlos); FR/JA/MG-Wiktionary-Nachlese offen |
+
+**Empfehlung der Session (zur Gesamtschau des Users, kein
+Vorentscheid):** Die Spitzengruppe N-02/N-03/N-38 verbindet
+Doktrin-Passung, Diktierfestigkeit und Breite am besten; die
+Kunstwörter N-18/N-26 sind die markenrechtlich voraussichtlich
+robustesten (K1-Linie (c), keine Wortbedeutung in 6 Sprachen).
+Nächster Schritt nach User-Sichtung: K4-Diktat-Test (§ 6) +
+EN-Muttersprachler-Check, dann zweite Welle (K2/K3/W7/W8, eigene
+Session mit Chrome-Zuteilung, E-V4) über die vom User bestätigte
+Auswahl.
 
 ## 6. Diktat-Testbogen K4 (User-Handgriff, vorbereitet)
 
-*(folgt — je Shortlist-Kandidat)*
+**So läuft der Test (aus K4, operationalisiert):**
+1. Mindestens **2 Testpersonen**, einzeln, ohne Sichtkontakt auf
+   diese Liste.
+2. Je Name: **einmal in normalem Sprechtempo vorlesen** (wie am
+   Telefon: „Guten Tag, hier ist … von [Name]"), NICHT buchstabieren,
+   nicht wiederholen. Testperson schreibt sofort auf.
+3. **K4 fällt**, wenn KEINE der Personen die korrekte Schreibweise
+   nach einmaligem Hören trifft ODER Buchstabieren nötig ist.
+   Die **Varianten-Zahl** der übrigen fließt in W2 zurück
+   (Wertungstabelle § 5.2 dann korrigieren, Änderung als Nachtrag).
+4. Reihenfolge beim Vorlesen bitte je Person mischen
+   (Reihenfolgeeffekte).
+5. Ergebnis je Name und Person unten eintragen (Datum, Person,
+   geschriebene Form).
+
+| # | Name (Soll-Schreibweise) | Person 1 schrieb | Person 2 schrieb | Bestanden? |
+|---|---|---|---|---|
+| 1 | Freihand | | | |
+| 2 | Beihand | | | |
+| 3 | Treuhold | | | |
+| 4 | Anlando | | | |
+| 5 | Ankado | | | |
+| 6 | Kalmora | | | |
+| 7 | Zuhand | | | |
+| 8 | Einkehr | | | |
+| 9 | Portino | | | |
+
+*Testdatum: ______ · Person 1: ______ · Person 2: ______*
+
+**Zweiter User-Handgriff (getrennt protokollieren):**
+EN-Muttersprachler-Check (K6-Kanal E / W4) — je Name vorlesen lassen
+und nach spontaner Assoziation/Aussprache fragen; Auffälligkeiten
+hier nachtragen.
 
 *Begonnen: 09.08.2026 18:41, Session R04-A (Ben Beckman).*

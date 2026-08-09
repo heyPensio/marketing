@@ -22,7 +22,9 @@ Keine-Lite-Varianten-Prinzip: Jedes Werkstück wird von Anfang an
 vollwertig gebaut (User-Entscheid E3, Voice-Nachricht 09.08.2026;
 Transkript wörtlich: „wir machen nie, nie, nie, nie niemals von
 irgendetwas eine Leitvariante" — Kontext-Interpretation der Session:
-„Lite-Variante", vom User bestätigt (Voice 09.08., zweite Nachricht);
+„Lite-Variante" — bestätigt ist die WORT-Interpretation, nie eine
+Lite-Option; das Prinzip gilt UNTERNEHMENSWEIT (Klarstellung Voice
+09.08., Firmen-Grundsatz in `zentrale\CLAUDE.md`);
 Erhebungsquelle archiviert in `zentrale\sensibel\`).
 
 Nachbar-Repos: `C:\Users\qwafa_2dwxzia\heypensio` (Produkt + Pilotkunde)

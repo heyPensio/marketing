@@ -205,7 +205,13 @@ OPS4-Register in `sensibel/`.)*
 - **09.08.2026 (E3) Keine Lite-Varianten, nie** („so was gibt es in
   diesem Unternehmen nicht") — gilt für jedes Werkstück; „WEB-MIN" aus
   dem Planentwurf ersatzlos gestrichen. Folge: Website erst nach
-  Namensentscheid.
+  Namensentscheid. **Klarstellung 09.08. (dritte Voice-Nachricht): Das
+  Prinzip gilt UNTERNEHMENSWEIT** — „nie, nie, nie … bei egal welcher
+  Abteilung, welchem Projekt eine Option", Anspruch „absolute
+  Exzellenz" → als Firmen-Grundsatz in `zentrale\CLAUDE.md` gehoben.
+  Und ausdrücklich: **Eine „Lite-Website" war zu keinem Zeitpunkt
+  bestätigt oder erwogen** — bestätigt wurde ausschließlich die
+  WORT-Interpretation des Transkripts („Leitvariante" = „Lite-Variante").
 - **09.08.2026 (E4) Projektziel:** vollständige Marketingabteilung UND
   erster Abschluss — ein Projekt, nicht zwei; OPS bleibt flach (E5).
   **Fristen (User-Präzisierung 09.08., zweite Voice-Nachricht):**

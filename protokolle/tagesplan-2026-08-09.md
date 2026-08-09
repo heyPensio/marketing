@@ -270,3 +270,26 @@ und/oder Naming-Sprint als Arbeits-Session(en) schneiden (Ist-Stand-
 Prüfung + Prompts dann per tagesstart Abschnitt 2); Blueprint-
 Arbeitsauftrag bleibt Leitsession-Kandidat für später. Arbeitsende
 entscheidet der User laufend.
+
+**Durchsprachen-Ergebnis (~17:10–17:15, beide Entscheide gefallen):**
+- **E11 — Portfolio-Zuschnitt: BREIT** (User ~17:10, Option „Breit:
+  Papier nachziehen"). Folgen: Positionierungspapier-Nachtrag § 6 +
+  neue Teilverabschiedung (E10 deckt das Delta nicht) ·
+  FUND3-Beratungsachse P12/P13 entsperrt · Wettbewerbs-Rückprüfung
+  (Brandnamic/Everlast/Smart Host: Wettbewerber UND Kanal) ·
+  Kayhan-Beraterrolle fachlich dokumentieren. ⚠️ Für den
+  Papier-Nachtrag fehlt SUBSTANZ (Beratungs-Leistungskatalog ist
+  nirgends dokumentiert — R03-D N1) → Erhebung beim User nötig,
+  BEVOR die Beratungsachse einen Vergleichsmaßstab hat.
+- **E12 — MARKE1 VERABSCHIEDET** (User ~17:12–17:15, geführte
+  Durchsprache in drei Teilen, alle 10 Punkte). 8× Vorschlag
+  bestätigt; 2 Deltas: **E-K4** Zusatzsprachen TR/FR/ES/IT ·
+  **E-K5** vorerst ganz ohne Anwalt (erst MARKE3; Grenzfälle
+  blockieren als „nicht prüfbar" lt. K2). Nachtrags-Kästen in
+  `marke/naming-kriterienkatalog.md` + `marke/markenrecherche-
+  verfahren.md` (Originale unverändert). Delta-Paare geprüft
+  (E11↔E-K5: Klasse-35-Merker für MARKE3; E11↔K5/W5: Name muss
+  Beratungsbreite tragen; E-K4↔übrige: keine Wechselwirkung).
+  → Naming-Sprint (Findung + Schreibtisch-K.-o.) ist ENTSPERRT.
+- Einarbeitung Projektquelle/STATUS (E11/E12): beim R4-Debrief
+  (Vier-Stellen-Sync), nicht vorgezogen.

@@ -1,6 +1,9 @@
 # MARKE1 — Naming-Kriterienkatalog (Kriterien, keine Kandidaten)
 
 > ## STATUS: ENTWURF — zur Verabschiedung durch den User
+> *(→ überholt durch den Nachtrags-Kasten am Dokumentende:
+> **VERABSCHIEDET 09.08.2026, E12** — mit zwei User-Deltas zu
+> E-K4/E-K5; Original bleibt unverändert sichtbar.)*
 >
 > Dieses Dokument legt fest, WORAN künftige Namenskandidaten gemessen
 > werden. Es enthält **bewusst keinen einzigen Namenskandidaten und
@@ -118,3 +121,53 @@ ist MARKE2 (Gate 1 + Gate 3, `zentrale\namensentscheid.md`).
 
 *Erstellt: 09.08.2026, Session R03-C (Lucky Roux). Prüfprotokoll:
 `protokolle/R03-C-pruefer.md`.*
+
+---
+
+> ## ⭐ NACHTRAG 09.08.2026 (~17:15) — VERABSCHIEDET (E12)
+>
+> **Form:** Geführte Entscheidungs-Durchsprache in drei Teilen
+> (strukturierte Einzelfragen mit Empfehlung, Leitsession Shanks, R4);
+> alle 10 Entscheidungspunkte entschieden. Der Entwurfs-Text oben
+> bleibt unverändert; dieser Kasten trägt die Entscheide und Deltas.
+>
+> **Entscheide (§ 5, plus E-V1–E-V4 im Schwester-Dokument):**
+> - **E-K1 ✅ wie vorgeschlagen:** `.de` UND `.com` Pflicht; weitere
+>   TLDs nur defensiv (MARKE3).
+> - **E-K1b ✅ wie vorgeschlagen:** Handle-Prüfung vorläufig LinkedIn,
+>   Instagram, Facebook, YouTube; Rest nach Kanalmix-Entscheid.
+> - **E-K2 ✅ wie vorgeschlagen:** Englisch-Tauglichkeit bleibt
+>   Wertung (W4), kein K.-o.; nach FUND4 ggf. hochstufen mit
+>   rückwirkender Bestandsprüfung (§ 1).
+> - **E-K3 ✅ wie vorgeschlagen:** kein Bindestrich im Kern;
+>   Bindestrich-Varianten nur defensiv.
+> - **E-K4 ⚠️ DELTA (User):** Zusatzsprachen-Prüfung K6 zusätzlich zu
+>   DE/EN auch **Türkisch, Französisch, Spanisch, Italienisch**
+>   (User-Auswahl 09.08.2026, Durchsprache Teil 3) — je Sprache ein
+>   protokollierter Wörterbuch-/Slang-Check; Muttersprachler-Check
+>   bleibt nur für EN Pflicht (für TR/FR/ES/IT: Wörterbuch-/Web-Check,
+>   Eskalation bei Auffälligkeit).
+> - **E-K5 (zweigeteilt):** Bewertungsform **✅ Rangpunkte-Modell**
+>   (3/2/1/0 + „nicht anwendbar", § 4.2 bestätigt). Anwalts-Einbindung
+>   **⚠️ DELTA (User): vorerst GANZ OHNE Anwalt** — nur
+>   Eigen-Recherche (DPMA/EUIPO/TMview); Anwalt erst bei der
+>   ANMELDUNG (MARKE3). **Folgewirkung:** Die Anker „ggf. Anwalt"
+>   in K1 und die Eskalationsschwelle im Verfahren § 1.2 entfallen
+>   vorerst; juristische Grenzfälle (Verwechslungsgefahr) werden damit
+>   NICHT aufgelöst, sondern bleiben „nicht prüfbar" und **blockieren
+>   lt. K2**, bis der User je Fall entscheidet oder doch eskaliert.
+>
+> **Wechselwirkung Portfolio-Entscheid E11 (selber Tag, ~17:10):**
+> Das Angebot wird BREIT positioniert (Beratungs-/Agentur-Leistungen
+> zusätzlich zur Digitalisierung; Papier-Nachtrag folgt als eigener
+> Arbeitsschritt). Damit tragen **K5 und W5 künftig auch die
+> Beratungsbreite** (Name darf nicht auf Digital/Technik verengen),
+> und die **W9-Ausschlussliste** wächst um die Beratungs-Wettbewerber,
+> sobald die FUND3-Beratungsachse erhoben ist (P12/P13).
+> Rückwirkende Kandidaten-Prüfung nach § 1: entfällt — der
+> Kandidaten-Bestand ist zum Zeitpunkt der Kriterien-Änderung leer.
+>
+> **Anschluss:** Naming-Sprint ist entsperrt (Findung +
+> Schreibtisch-K.-o.; Live-Recherche danach als eigene Session,
+> E-V4). Diktat-Test K4 und Muttersprachler-Check EN bleiben
+> User-Handgriffe.

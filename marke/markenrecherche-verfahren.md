@@ -1,6 +1,10 @@
 # MARKE1 — Markenrecherche-Verfahren (ausführbare Anleitung)
 
 > ## STATUS: ENTWURF — zur Verabschiedung durch den User
+> *(→ überholt durch den Nachtrags-Kasten am Dokumentende:
+> **VERABSCHIEDET 09.08.2026, E12** — E-V1–E-V4 entschieden; ein
+> Folge-Delta aus E-K5 betrifft § 1.2 und E-V1. Original bleibt
+> unverändert sichtbar.)*
 >
 > Dieses Dokument BESCHREIBT das Recherche-Verfahren; es wurde in
 > dieser Session **nicht ausgeführt** (keine Live-Zugriffe auf
@@ -321,3 +325,37 @@ Pflichtfelder je Lauf:
 
 *Erstellt: 09.08.2026, Session R03-C (Lucky Roux). Prüfprotokoll:
 `protokolle/R03-C-pruefer.md`.*
+
+---
+
+> ## ⭐ NACHTRAG 09.08.2026 (~17:15) — VERABSCHIEDET (E12)
+>
+> **Form:** Geführte Entscheidungs-Durchsprache (Leitsession Shanks,
+> R4), zusammen mit dem Kriterienkatalog (Nachtrags-Kasten dort trägt
+> E-K1–E-K5). Entscheide zu § 12:
+>
+> - **E-V1 ✅ wie vorgeschlagen:** Kern-Klassen 42 + 9 + 35;
+>   Recherche-Suchraum immer inkl. 43. **Folge-Delta aus E-K5
+>   (Kriterienkatalog, „vorerst ganz ohne Anwalt"):** Das
+>   Anwalts-Votum zu 36/37/38 und das „Klassenwahl mit dem Anwalt
+>   festziehen" (§ 2.1) verschieben sich auf MARKE3 (Anmeldung) —
+>   bis dahin nur eKlassifikation-/TMclass-Eigenprüfung.
+>   **Merker aus E11 (Portfolio breit, selber Tag):** Klasse 35
+>   deckt Beratungs-/Geschäftsdienstleistungen nur teilweise — bei
+>   MARKE3 gegen den dann nachgezogenen Portfolio-Stand des
+>   Positionierungspapiers prüfen.
+> - **E-V2 ✅ wie vorgeschlagen:** Territoriums-Entscheid VERTAGT bis
+>   nach FUND4 + Gebühren-Erhebung; Recherche läuft zweigleisig
+>   (DPMA + EUIPO) wie in § 4 beschrieben.
+> - **E-V3 ✅ wie vorgeschlagen:** heyPensio-Bestand nur Risiko-Check
+>   (§ 8), KEINE defensive Anmeldung; Neubewertung beim
+>   MARKE5-Cutover-Plan.
+> - **E-V4 ✅ wie vorgeschlagen:** Live-Recherche als eigene
+>   Arbeits-Session mit Chrome-Zuteilung, NACH der Kandidaten-Findung;
+>   Abbruchbedingung + Kostendeckel im Start-Prompt.
+>
+> **Folgewirkung E-K5-Delta auf § 1.2:** Die dortige
+> Eskalationsschwelle „→ Anwalt" ist vorerst AUSGESETZT — juristische
+> Grenzfälle werden als „nicht prüfbar" geführt und blockieren lt.
+> K2 des Kriterienkatalogs, bis der User je Fall entscheidet;
+> Anwalts-Einbindung erst bei MARKE3.

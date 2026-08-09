@@ -1,0 +1,35 @@
+# Baustein: Browser-Automation-Werkzeugfallen
+
+*(Aktivieren, wenn das Projekt die Chrome-Automation nutzt.
+Herkunft: heyPensio.)*
+
+- **Bei außenwirksamen Klicks entscheidet das NETZWERK, nie der DOM** —
+  den Request sehen, nicht den Button; `read_network_requests` VOR dem
+  Klick aktivieren (erfasst nicht rückwirkend).
+- Modal-/Dialogtexte ungekürzt auslesen; Feldinhalte am DOM gegenlesen —
+  Passwortmanager-Overlays schlucken Klicks, gleiche Platzhalter lassen
+  das per JS gefundene ERSTE Feld das falsche sein.
+- **Behörden-/Register-/Store-Seiten sind oft SPAs** — per curl/WebFetch
+  nur leere Hüllen; nur über den Browser prüfen, robust per hrefs aus dem
+  Accessibility-Tree. Jede Negativ-Suche mit Positivkontrolle (gilt auch
+  für UI-Suchfelder).
+- Screenshot-/CDP-Timeouts auf schweren Dashboards: unmittelbar
+  wiederholen; danach vor Zoom-/Koordinaten-Aktionen erst einen
+  Voll-Screenshot. **Ein Zoom-Timeout kann den Screenshot-Kanal dauerhaft
+  vergiften** — Ausweg: Klick per Element-Referenz statt Koordinaten;
+  `resize_window` + Navigation erholt den Kanal.
+- **Chromes nativer Basic-Auth-Dialog ist per Automation NICHT
+  bedienbar** — solche Aktionen sind Hand-Schritte des Users oder laufen
+  über curl mit `-u`.
+- **Werkzeug vor System verdächtigen:** Scheitert eine Domain im
+  Automations-Tab dauerhaft mit Sicherheitsfehler, während curl/openssl
+  sauber antworten, liegt es am TAB — der User zieht einen
+  funktionierenden Tab in die Automations-Gruppe. Die Falle wirkt JE
+  DOMAIN (eine Gegenprobe mit anderer Domain schließt sie nicht aus) und
+  JE SESSION neu.
+- Chrome blockiert `fetch` von https-Seiten zu `localhost` und
+  Mehrfach-Downloads je Seite. Funktionierende Transportwege:
+  Base64-Chunks in den Seiten-Kontext, Blob-Download für Einzeldateien,
+  SHA-256-Hashes statt Rohdaten.
+- Browser-/Live-Aktionen nur im Rahmen des Session-Auftrags — ungefragte
+  eigenständige Tests macht der User selbst.

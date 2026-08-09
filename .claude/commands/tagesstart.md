@@ -1,0 +1,248 @@
+---
+description: Leitsession-Werkzeug — Morgen-Ritual des Tages (Tagesrahmen + erste Runde) sowie Start-/Abschlussprompts für parallele Arbeits-Sessions (Multi-Session-Modell, CLAUDE.md Regeln 1–9). Für FOLGERUNDEN mitten am Tag den kleinen Command /runde nutzen.
+argument-hint: "(ohne Argument: Tagesstart) | start <aufgabe(n)> | abschluss <session>"
+---
+
+# /tagesstart — Leitsession-Werkzeug (Tagesrahmen + erste Runde + Prompts)
+
+Werkzeug der **Leitsession** im Multi-Session-Arbeitsmodell (CLAUDE.md,
+Abschnitt „Multi-Session-Arbeitsmodell"). Wer diesen Command tippt, erklärt
+die laufende Session zur Leitsession. User-Wunsch: `$ARGUMENTS`.
+
+**Modus:** Ohne Argumente → **Tagesstart** (Abschnitt 1). **Existiert für
+heute schon ein `protokolle/tagesplan-<datum>.md`, ist der Tagesstart
+gelaufen → auf `/runde` verweisen**, NICHT den Tagesrahmen neu erheben.
+`start <aufgabe(n)>` → Start-Prompts bauen (Abschnitt 2).
+`abschluss <session>` → Abschlussprompt bauen (Abschnitt 3).
+
+*(Substanz-Regel: `/runde` dupliziert nichts — Runden-Schnitt, Prompt-Bau
+und Ausgabe stehen NUR hier. Substanz-Änderungen immer in dieser Datei.)*
+
+## 0. Tagesrahmen
+
+**Vor Abschnitt 1**, wenn der Tag beginnt: Wochentag + Uhrzeit ziehen,
+Kalender abrufen (falls angebunden) und die Arbeitsdauer erfragen. Daraus
+**Blöcke** schneiden statt nur einer Runde. Träger ist
+`protokolle/tagesplan-<jjjj-mm-tt>.md` — die Datei, nicht der Chat: Sie
+überlebt die Auto-Kompaktierung und ist das Übergabedokument zwischen
+Leitsessions.
+
+**Inhalt des Tagesplans:** Rahmen (Blocktabelle mit Quelle) · Engpass-Satz
+Erreichbarkeit (Anbieter/Behörden nur werktags tagsüber — der Wochentag
+entscheidet über den Wert eines Strangs) · User-Handgriffe (nichts, was
+eine Session übernehmen kann) · Strang-Tabelle mit Modell + exklusiven
+Systemen · Zustand bei Tagesbeginn (Repo, ungereviewte Commits, fehlende
+Meldungen) · Eingänge · Wochen-Kontingent-Feld (Stand laut User-Ablesung —
+Kontingent ist eine WOCHEN-Ressource; Sessions können ihren Verbrauch
+nicht selbst erheben).
+
+**Zwei Detailgrade, verbindlich:** Block 1 **scharf** geschnitten, spätere
+Blöcke ausdrücklich als **PROGNOSE** (ein detailliert geschriebener
+Block-3-Plan wird später als Festlegung gelesen). Abbruch/Verkürzung ist
+ein gültiges Ergebnis. **Der Debrief bleibt PRO RUNDE** — nie ans
+Tagesende gebündelt.
+
+⚠️ **Blockwechsel-Schnitt braucht einen TRÄGER:** Die Leitsession startet
+je Block neu (Regel-Snapshot + Kontextlast). Der Schnitt gehört als
+**Handgriff mit Uhrzeit** in die Handgriff-Liste des Tagesplans („~13:00
+Leitsession neu starten — `claude --resume`, diese Session wählen"), nicht
+in ein Konzeptpapier — angekündigt und ohne Träger fällt er durch
+(Herkunft: heyPensio R30, vom User gefangen). Vor dem Neustart den
+Übergabe-Block füllen: Session-Stand, offene Handgriffe, Block-Programm,
+Debrief-Kandidaten.
+
+⚠️ **Der Kalender liefert FENSTER, nicht das Arbeitsende:** Ein Eintrag
+„Fokuszeit bis X" ist Planungsgrundlage, keine Zusage über die Länge des
+Arbeitstags. Wie lange gearbeitet wird, entscheidet ausschließlich der
+User, laufend — Blöcke offen halten, am Blockende fragen statt schließen.
+
+**Review-Regime disponieren (Kritikalitäts-Staffel):** Die Review-Tiefe
+wird je Strang bei der Blockplanung festgelegt, sichtbar im Tagesplan, nie
+stillschweigend: Voll-Review (unabhängiger Prüfer mit frischem Kontext)
+bleibt Pflicht für sicherheitsrelevante, außenwirksame und
+freigabetragende Ergebnisse; kleine Stränge geringer Kritikalität können
+BEGRÜNDET beim Kurzraster bleiben. Kurzraster und Voll-Review fangen
+DISJUNKTE Fehlerklassen — keine ersetzt die andere. Prüfungen nicht an ein
+kleineres Modell delegieren (Herkunft: heyPensio-Messung, Fangquote 1/6
+vs. 3–4/6).
+
+## 1. Tagesstart (ohne Argumente)
+
+Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
+
+1. **Stand aufnehmen:** `git status` + `git pull`; dann `STATUS.md` lesen
+   (Lesereihenfolge lt. CLAUDE.md; Details gezielt aus der Projektquelle).
+2. **Runden-Stand prüfen:**
+   - Uncommittete Reste im `git status`? Klären, aus welcher Session sie
+     stammen — nie blind committen.
+   - Ungereviewte Arbeits-Session-Commits? `git log` seit dem letzten
+     Leitsession-/Debrief-Commit sichten → Review lt. CLAUDE.md Regel 8
+     (beide Richtungen!). Befunde als Nacharbeit zurückgeben oder — wenn
+     klein und Session beendet — selbst fixen.
+   - Ausstehende Abschlussmeldungen? Beim User erfragen. **Auch
+     User-Spontan-Sessions außerhalb des Rundenmodells:** solche Commits
+     als eigenen Strang nachtragen und reviewen — stillschweigend
+     ungereviewt bleibt nichts.
+   - Debrief der letzten Runde gelaufen? Wenn nein und alle Meldungen da →
+     EINEN gebündelten `/debrief` fahren.
+3. **Eingänge sichten** (VOR dem Rundenschnitt — sie können die Planung
+   kippen): die Eingangs-Kanäle des Projekts durchgehen (Postfach, falls
+   angebunden — dann VOLLDURCHSICHT seit der letzten Runde, nicht nur
+   bekannte Fäden; nur sichten, nichts beantworten) und den User explizit
+   fragen, was außerhalb passiert ist (Anrufe, Entscheide, Befunde).
+4. **Neue Runde vorschlagen:** Aus STATUS.md („Nächster konkreter
+   Schritt"), Eingängen und User-Zuruf die Stränge schneiden — disjunkte
+   Scopes, exklusive Systeme (je System EINE Session), Modellwahl je
+   Strang (CLAUDE.md Regel 7) — und dem User als Aufteilung vorlegen.
+5. **Nach Bestätigung:** Start-Prompts nach Abschnitt 2 erzeugen und nach
+   Abschnitt 4 ausgeben.
+
+## 2. Start-Prompt bauen (`start <aufgabe(n)>`)
+
+Vorab: Welche Sessions laufen bereits, mit welchen Scopes? Saubere Basis
+(CLAUDE.md Regel 5)? Pro Session diese sieben Bausteine festlegen — fehlt
+einer, beim User nachfragen statt raten:
+
+1. **Ziel/Aufgabe** — konkret, mit Verweis auf Bauplan/Doku im Repo statt
+   Nacherzählung. **Pflicht davor: Ist-Stand-Prüfung des
+   Auftragsgegenstands durch die Leitsession SELBST, BEVOR der Prompt
+   geschnitten wird** (nie als ersten Arbeitsschritt delegieren) —
+   ZWEISEITIG: (a) nach innen Repo-grep über Modulname + Synonyme (was
+   existiert schon, was war geparkt? Beim ENT-PARKEN die Park-Prämissen
+   neu prüfen), (b) nach außen das Angebot des Drittsystems. Ein „offen"
+   im Status kann „Beleg offen" heißen — Bau-Aufträge nur nach positiver
+   Ist-Stand-Prüfung als Bau formulieren. Bei Runden mit ≥ 3 Strängen
+   zusätzlich EIN Prüf-Subagent mit genau einer Frage: „Welcher Strang
+   behandelt etwas als neu, wozu eigener oder Dritt-Bestand existiert?"
+2. **Umgebung** — Terminal (baut + committet selbst).
+3. **Modell** — nach CLAUDE.md Regel 7, als erste Zeile in den Prompt
+   („Modell für diese Session: <X>"). Die Session verifiziert ihr
+   TATSÄCHLICHES Modell als ersten Schritt NUR per Statuszeile — die
+   Selbstauskunft des Modells ist KEIN Kanal (sie hat Abweichungen
+   erfunden). Die Prompt-Zeile steuert nichts; der wirksame Kanal ist der
+   User-Handgriff beim Start (Abschnitt 4).
+4. **Datei-Scope** — explizite Pfade; Disjunktheit gegen ALLE laufenden
+   Sessions prüfen. Wahrheits-Kanal (Projektquelle, STATUS.md, CLAUDE.md,
+   Skills/Commands) ist NIE Teil eines Scopes.
+5. **Exklusive Systeme** — je System immer nur EINE Session; Zuteilung
+   benennen. Setzt der Auftrag System-ZUGRIFF voraus, gehört der
+   ZUGANGSWEG als Vorbedingung in den Prompt — **je HANDLUNG geprüft**
+   (Server-Kommando · API-Call · User-Klick in einer UI sind verschiedene
+   Zugangsarten) und NIE aus einer Vorrunde als „geklärt" übernommen.
+   Richtige Form: „Zugangsweg X war in R<n> gangbar — prüfe ihn als
+   ERSTEN Schritt und melde eine Blockade, statt einen Ersatzkanal zu
+   suchen."
+6. **Fertig-Kriterium** — überprüfbar, **aber nur mit dem, was die Session
+   mit ihrem Werkzeugkasten auch erreichen kann** (sonst produziert eine
+   korrekt arbeitende Session ein „nicht erfülltes" Kriterium oder
+   Alibi-Zeilen). Bei langen Bau-Sessions: Protokoll entsteht MITLAUFEND
+   in der Scope-Doku, nicht als Schlussakt. Abschlussmeldung nennt
+   Commit-HASHES — erst NACH dem Commit eingetragen, nie antizipiert.
+   Token-Verbrauch kann eine Session NICHT selbst erheben (`/cost` ist
+   interaktiv) — Pflichtform in der Meldung: „Token-Verbrauch: von der
+   Session nicht erhebbar — Subagenten-Zahlen soweit bekannt: …"; das
+   Ablesen ist ein USER-Schritt.
+7. **Subagent-Einsatz** — die Leitsession evaluiert PRO STRANG (auch für
+   die eigene Aufgabe!), ob die Aufgabenform von Subagents profitiert,
+   und bettet eine KONKRETE Anweisung ein — nie die Generik „prüfe, ob
+   Subagents sinnvoll sind". Bewährte Muster:
+   - **Verifikation mit frischem Kontext:** unabhängiger Prüfer, der die
+     Erzeugung nicht gemacht hat. Der Prüfauftrag: ganze Datei lesen und
+     quervergleichen (nie nur den Diff — der Schaden sitzt oft daneben);
+     Lese-git erlaubt; Schreibrecht auf GENAU EINE Datei (sein Protokoll:
+     „lies alles, ändere nichts, schreib EIN Protokoll unter
+     `protokolle/R<runde>-<session>-pruefer.md`").
+   - **Verfahrens-Positivkontrolle im Prüfauftrag:** eine bewusst
+     verfälschte Variante einer Kernaussage, die der Prüfweg nachweislich
+     FINDET — sonst ist er nur bestätigungsfähig. Bedingungen: nach
+     sauberem Commit+Push in den Arbeitsbaum einbauen (Ein-Schritt-Rückweg
+     `git checkout -- <datei>`); NIE in eine Datei mit Live-Wirkung; der
+     Prüfer begründet den Fund INHALTLICH, nicht mit „steht im Diff".
+     Zusatzfrage: „Welche Verfälschung hätte dein Verfahren NICHT
+     gefangen?" — der Prüfweg benennt seine eigene Blindstelle.
+   - **Gegenfrage-Achse MIT benannten Kategorien:** „Welcher Aspekt fehlt
+     komplett?" mit expliziten, dem GEGENSTAND angepassten Kategorien und
+     Pflicht-Ergebnis je Kategorie (auch „keine Auffälligkeit") — eine
+     offene „was fehlt?"-Frage findet diese Funde nicht (Herkunft:
+     heyPensio, vierfach belegt).
+   - **Zwei Prüfer mit GETRENNTEN Fragen schlagen einen mit zwei Fragen**
+     (Prüfraum teilen, nicht verdoppeln). Widersprüche zwischen Agenten
+     sind ein Gewinn — sie werden am ORIGINAL aufgelöst, nie nach
+     Überzeugungskraft.
+   - **Prüfgegenstand einfrieren** oder Commit-Stand nennen (das Dokument
+     kann sich WÄHREND der Prüfung ändern).
+   - **Recherche-Fan-out** je Anbieter/Quelle bzw. je QUELLDOKUMENT ein
+     Agent; getrennte Fundstellen-Nachprüfung dahinter.
+   - **Festgefahrenes Debugging:** ab 3 Versuchen ohne Fortschritt EIN
+     read-only Subagent mit frischem Kontext; Befund an der Quelle
+     verifizieren.
+   KEINE Subagents für: sequentielle Live-E2E-Flows gegen exklusive
+   Systeme, Git-Operationen, kleine mechanische Edits. Subagent-Befunde
+   sind delegierte Aussagen — Negative wie Positive an der Quelle
+   verifizieren. Mechanische Scans → kleines Modell; Prüfer, deren Funde
+   Kernaussagen kippen können → Session-Modell.
+   Für Multi-Agent-Workflows (ultracode, User-Opt-in): Empfehlung an den
+   User mit konkretem Zuschnitt (was fächert, was verifiziert, was
+   synthetisiert) und Begründung, warum ein einzelner Subagent nicht
+   reicht — Completeness-Critic ist Pflicht-Bestandteil jedes
+   Plan-Workflows und prüft ausdrücklich auch die AUFTRAGS-PRÄMISSEN.
+
+### Vorlage Terminal-Session
+
+> Modell für diese Session: **<Modell>**. Parallel-Session „R<runde>-<X>"
+> (Leitsession läuft separat, Multi-Session-Modell lt. CLAUDE.md).
+> Session-Start: `git pull`. Aufgabe: <Ziel — mit Doku-Verweisen>.
+> Dein Scope: <explizite Pfade>. Exklusiv gehören dir: <Systeme — oder
+> „keine externen Systeme">. Fremde uncommittete Dateien im `git status`
+> ignorieren. Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; Reihenfolge zwingend
+> add → commit → `git pull --rebase --autostash` → push (CLAUDE.md
+> Regel 3). NICHT anfassen: Projektquelle, STATUS.md, CLAUDE.md,
+> Skills/Commands — kein eigener Debrief. Fertig-Kriterium:
+> <überprüfbares Ergebnis>, danach Abschlussmeldung in VIER Blöcken
+> (gebaut/verifiziert mit Commits+Pfaden; offen geblieben; **Nebenbefunde
+> außerhalb des Auftrags** — was dir begegnet ist, das einem anderen
+> Strang gehört; Stolpersteine/Learnings, getrennt: (i) Fallen ·
+> (ii) bewährte Muster). **Die Abschlussmeldung committest du zusätzlich
+> als Datei `protokolle/R<runde>-<session>-abschluss.md`** mit Kopfzeile
+> „Token-Verbrauch: von der Session nicht erhebbar — Subagenten-Zahlen
+> soweit bekannt: …". Liefen unabhängige Prüfer, gehört ihr Protokoll
+> (Funde + Positivkontrolle) daneben:
+> `protokolle/R<runde>-<session>-pruefer.md`.
+
+## 3. Abschlussprompt bauen (`abschluss <session>`)
+
+Nur nötig, wenn die Session ihren Start-Prompt OHNE
+Abschlussmeldungs-Teil bekommen hat oder der User explizit einen will:
+
+> Die Session wird jetzt abgeschlossen (Multi-Session-Modell lt.
+> CLAUDE.md): KEIN eigener Debrief, NICHTS an
+> CLAUDE.md/Skills/Projektquelle/STATUS.md.
+> 1. Alles aus deinem Scope versionieren (Reihenfolge add → commit →
+> `git pull --rebase --autostash` → push).
+> 2. Als letzte Antwort die Abschlussmeldung in VIER Blöcken — Struktur
+> exakt wie in der Start-Prompt-Vorlage (Abschnitt 2), inklusive der
+> Protokoll-Datei. Danach nichts mehr ändern.
+
+## 4. Ausgabe
+
+Die fertigen Prompts als Blockquotes zum Kopieren, davor eine Zeile pro
+Session: Name · Modell · Scope-Kurzform · exklusive Systeme.
+**Über JEDEM Prompt eine sichtbare User-Handgriff-Zeile: „Vor dem
+Einfügen: in der neuen Session `/model <X>` wählen."** — das ist der
+einzige wirksame Kanal für die Modellwahl.
+
+**Session-Namen tragen die RUNDE:** `R03-A`, `R03-B` — nie nur `A`, `B`.
+Buchstaben nicht überspringen; übernimmt die Leitsession einen Strang,
+wird der Buchstabe frei gelassen und vermerkt. Kollidieren zwei Scopes,
+das VOR der Ausgabe auflösen, nicht dem User überlassen.
+
+**Sequenzierte Sessions: den abhängigen Prompt ZURÜCKHALTEN** und erst
+nach der Abschlussmeldung der Vorgänger-Session ausgeben — ein „startet
+NACH X" im Prompttext wird im Parallel-Alltag überlesen.
+
+---
+**Merksatz:** Der Prompt ist der Vertrag der Session — was nicht drinsteht
+(Scope, Exklusivität, Fertig-Kriterium, Abschlussmeldung), kann die
+Leitsession hinterher nicht einfordern. Und der Tagesstart ist der Vertrag
+der Leitsession: erst die alte Runde schließen, dann die neue öffnen.

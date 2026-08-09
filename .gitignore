@@ -1,0 +1,8 @@
+# Sensibel-Ablage: Roh-Transkripte, persönliche Rahmenbedingungen,
+# Freigabe-Erhebungsquellen — NIE ins Repo, aber auch nicht löschen
+# (CLAUDE.md, Abschnitt "Sensibel-Ablage").
+sensibel/
+
+# Betriebssystem-Artefakte
+Thumbs.db
+.DS_Store

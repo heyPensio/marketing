@@ -133,13 +133,186 @@ erfüllt (58/30). Stories/Verdachte aus den Agenten-Rückläufen
 | N-57 | Kamino | A5 | 3 | Kamin als Herzstück des Hauses | ES „camino" fremdbesetzt; Star-Wars-Planet; c/k |
 | N-58 | Fensterlicht | A5 | 3 | Licht im Fenster = „hier wird man erwartet" | poetisch-beschreibend; längster Kandidat |
 
-## 4. K.-o.-Prüfung
+## 4. K.-o.-Prüfung (Schreibtisch-Welle, 09.08.2026)
 
-*(folgt)*
+### 4.1 Prüfmaßstäbe (für ALLE Kandidaten gleich angewandt)
+
+- **K7 (technische Tauglichkeit):** Sichtprüfung ASCII/Umlaute/ß/
+  Sonderzeichen/Bindestrich. Ergebnis: **alle 58 bestanden** (die
+  Findungs-Formregeln haben das bereits erzwungen; Sichtprüfung durch
+  die Session bestätigt, 58/58).
+- **K1 (Schutzfähigkeit, Ersteinschätzung ohne Anwalt, E-K5):**
+  Dreistufige Linie, auf alle gleich angewandt:
+  (a) Name beschreibt oder preist die Dienstleistung selbst an →
+  **FAIL**; (b) gebräuchliches Alltagswort, dessen Werbecharakter/
+  Freihaltebedürfnis ohne Anwalt nicht entscheidbar ist →
+  **„nicht prüfbar"** — blockiert lt. E-K5-Delta bis User-Entscheid,
+  keine Wertung; (c) suggestiv/mehrdeutig ohne direkten
+  Leistungsbezug oder Kunstwort → bestanden.
+- **K5 (keine Verengung; trägt durch E11 auch die Beratungsbreite):**
+  Kein Betriebstyp, keine Größenklasse, kein Einzelmodul, keine
+  Technik-/Digital-only-Anmutung im Namen.
+- **K6 (Bedeutungs-Check DE/EN + TR/FR/ES/IT, E-K4):** ZWEISTUFIG —
+  (i) **Kurzcheck für alle 58** (Prüfkanal: Sprachwissen des
+  Session-Modells über alle 6 Sprachen, je Kandidat; Belegstufe:
+  LLM-Sprachprüfung, KEIN Wörterbuch-Beleg); (ii) **Voll-Check mit
+  protokolliertem Wörterbuch-/Web-Beleg nur für die
+  Shortlist-Kandidaten** (§ 5.3). Geltungsgrenze ausdrücklich: Rückt
+  ein Nicht-Shortlist-Kandidat später nach, ist sein Voll-Check
+  nachzuholen. Aussortiert wegen K6 wird in der Kurzcheck-Stufe nur,
+  wer eine KLARE, der Session sicher bekannte Negativ-/
+  Lächerlichkeits-Bedeutung trägt — Verdachtsfälle bleiben drin und
+  tragen ⚠️.
+- **K4 (Diktierfähigkeit):** Der Test selbst ist User-Handgriff
+  (≥ 2 Personen, Testbogen § 6) — hier nur **Vorprüfung** als
+  Risiko-Einschätzung (gering/mittel/hoch) aus dem Varianten-Raster
+  des Verfahrens § 3.2. **K4 ist für ALLE Kandidaten offen
+  (User-Handgriff), Nenner 0/58 getestet.**
+
+### 4.2 Ausgeschiedene und Blockierte
+
+| ID | Name | Kriterium | Begründung (Datum 09.08.2026, Prüfweg Schreibtisch) |
+|---|---|---|---|
+| N-06 | Sorgfrei | **K1 FAIL** | Beschreibt/preist das Leistungsversprechen selbst („sorgenfreier Betrieb" ist der Kern des Angebots) — Linie (a) |
+| N-07 | Wirtwohl | **K5 FAIL** | „Wirt" evoziert Wirtshaus/Kleinbetrieb — exakt das dokumentierte Rebrand-Motiv (K5-Quelle); trägt E2 „auch größere Häuser" und die E11-Beratungsbreite nicht |
+| N-21 | Portavia | **K6 FAIL** | Italienisch „porta via" = „nimm mit / zum Mitnehmen" (Takeaway) — lächerliche Wirkung im IT-Sprachraum (Pflichtsprache lt. E-K4). Prüfweg: Kurzcheck (sichere Sprachkenntnis der Wendung „portare via"); Web-Gegenprobe s. § 5.3-Protokoll |
+| N-04 | Getrost | **K1 nicht prüfbar** | Zusicherungs-Adverb („getrost abgeben") — Anpreisungsnähe ohne Anwalt nicht entscheidbar; blockiert bis User-Entscheid (E-K5-Delta) |
+| N-05 | Verlass | **K1 nicht prüfbar** | „Auf uns ist Verlass" = Anpreisung der eigenen Verlässlichkeit; dazu Zweitlesung „verlassen"; blockiert bis User-Entscheid |
+| N-11 | Obenauf | **K1 nicht prüfbar** | Gebräuchliches Adverb, werblicher Zustands-Claim; blockiert bis User-Entscheid |
+| N-40 | Obhut | **K1 nicht prüfbar** | Beschreibt die Kernleistung „Betrieb in Obhut" nahezu direkt; Grenze beschreibend/suggestiv ohne Anwalt nicht entscheidbar; blockiert bis User-Entscheid |
+
+**Zählweg:** 58 Kandidaten → 3 ausgeschieden (K1: 1 · K5: 1 · K6: 1)
+→ 4 blockiert („nicht prüfbar", K1) → **51 Überlebende** in die
+Wertung. Die 4 Blockierten sind NICHT ausgeschieden — sie warten auf
+den User-Entscheid je Fall (E-K5-Delta) und sind hier bewusst ohne
+Wertung geführt.
+
+### 4.3 K.-o.-Status der 51 Überlebenden
+
+Für alle 51 gilt: K7 ✅ (Sichtprüfung) · K1 ✅ (Ersteinschätzung,
+Linie (c) — Vermerke s. Longlist § 3) · K5 ✅ · K6-Kurzcheck ✅
+(Belegstufe LLM-Sprachprüfung; ⚠️-Vermerke unten) · **K4 offen
+(User-Handgriff, 0/58)** · **K2/K3 offen (zweite Welle, 0/58)**.
+
+Kandidatenspezifische ⚠️-Vermerke aus dem K6-Kurzcheck (kein K.-o.,
+aber protokollpflichtig):
+- N-19 Advena: ES-Anklang an „advenedizo" (Emporkömmling) — kein
+  eigenes ES-Wort; bei Shortlist-Nachrücken Voll-Check Pflicht.
+- N-48 Tutelo: IT/ES „tutela" = auch Vormundschaft (amtlich-juristisch,
+  nicht negativ).
+- N-54 Tektum: DE-REIMNÄHE zu „Rektum" — keine Bedeutung, aber
+  Spottpotenzial; in W3/W6 abgewertet, für Shortlist nicht empfohlen.
+- N-57 Kamino: ES „camino" (Weg) stark fremdbesetzt (Jakobsweg);
+  zusätzlich Popkultur-Besetzung.
+- N-47 Amparo: in ES verbreiteter weiblicher Vorname (neutral).
 
 ## 5. Wertung und Shortlist
 
-*(folgt)*
+### 5.1 Wertungsmaßstab (Rangpunkte 3/2/1/0 + n. a., E-K5; für alle 51 gleich)
+
+- **W1 Kürze:** 2 Silben = 3 · 3 Silben = 2 · 4 Silben = 1;
+  Abzug 1 bei ≥ 10 Zeichen.
+- **W2 Schreibbarkeit nach Hören** (Varianten-Raster Verfahren
+  § 3.2): keine plausible Falschschreibung = 3 · eine milde = 2 ·
+  mehrere/starke = 1. *(Vorprüfungs-Wert — der K4-Diktat-Test des
+  Users kann ihn korrigieren.)*
+- **W3 Doktrin-Passung** (Entlastung, betreuter Betrieb, Gastgeber
+  bleibt Gastgeber): direkt = 3 · passend = 2 · entfernt = 1 ·
+  keine = 0.
+- **W4 EN-Tauglichkeit:** trägt gut = 3 · neutral machbar = 2 ·
+  sperrig = 1. *(Wertung, kein K.-o. — E-K2; Muttersprachler-Check
+  offen, User-Handgriff.)*
+- **W5 Zukunftsfähigkeit** (nicht regional/technisch verengt, trägt
+  E11-Beratungsbreite, als künftige Firma führbar): 3/2/1.
+- **W6 Logo-/CI-Tauglichkeit** (Ersteinschätzung): 3/2/1.
+- **W9 Abstand Wettbewerbsfeld** (Ausschlussliste
+  `fund/wettbewerbsbild.md`, gezogen 09.08.2026 in der
+  Bewertungsphase; ⚠️ Geltungsgrenze § 0.0 dort: NUR Technik-Segment
+  — die Beratungs-Achse ist unerhoben, W9 wächst mit FUND3-P12/P13
+  nach): kein Anklang = 3 · entfernte Nähe = 2 · nah = 1.
+- **W7 SEO / W8 Handles: n. a. — offen, zweite Welle (0/51 geprüft).**
+  Summen laufen deshalb über 7 Kriterien, **Nenner max. 21**.
+
+### 5.2 Wertungstabelle (51 Überlebende, 09.08.2026)
+
+| ID | Name | W1 | W2 | W3 | W4 | W5 | W6 | W9 | Σ/21 |
+|---|---|---|---|---|---|---|---|---|---|
+| N-02 | Freihand | 3 | 3 | 3 | 3 | 3 | 3 | 3 | **21** |
+| N-03 | Beihand | 3 | 3 | 3 | 2 | 3 | 3 | 3 | **20** |
+| N-38 | Treuhold | 3 | 2 | 3 | 3 | 3 | 3 | 3 | **20** |
+| N-17 | Anlando | 2 | 3 | 2 | 3 | 3 | 3 | 3 | **19** |
+| N-18 | Ankado | 2 | 3 | 2 | 3 | 3 | 3 | 3 | **19** |
+| N-26 | Kalmora | 2 | 3 | 2 | 3 | 3 | 3 | 3 | **19** |
+| N-39 | Zuhand | 3 | 3 | 3 | 1 | 3 | 3 | 3 | **19** |
+| N-13 | Einkehr | 3 | 3 | 3 | 1 | 2 | 3 | 3 | **18** |
+| N-27 | Domara | 2 | 3 | 1 | 3 | 3 | 3 | 3 | 18 |
+| N-29 | Ondira | 2 | 3 | 1 | 3 | 3 | 3 | 3 | 18 |
+| N-30 | Talora | 2 | 3 | 1 | 3 | 3 | 3 | 3 | 18 |
+| N-37 | Treuwerk | 3 | 3 | 3 | 1 | 2 | 3 | 3 | 18 |
+| N-43 | Verlano | 2 | 2 | 2 | 3 | 3 | 3 | 3 | 18 |
+| N-44 | Fidato | 2 | 1 | 3 | 3 | 3 | 3 | 3 | 18 |
+| N-45 | Fidura | 2 | 1 | 3 | 3 | 3 | 3 | 3 | 18 |
+| N-47 | Amparo | 2 | 3 | 2 | 2 | 3 | 3 | 3 | 18 |
+| N-55 | Portino | 2 | 3 | 2 | 3 | 3 | 3 | 2 | **18** |
+| N-01 | Gastfrei | 3 | 3 | 2 | 1 | 2 | 3 | 3 | 17 |
+| N-08 | Tragwerk | 3 | 3 | 3 | 1 | 2 | 2 | 3 | 17 |
+| N-12 | Levanto | 2 | 1 | 2 | 3 | 3 | 3 | 3 | 17 |
+| N-24 | Torhaus | 3 | 3 | 2 | 1 | 2 | 3 | 3 | 17 |
+| N-25 | Lumara | 2 | 3 | 1 | 3 | 3 | 3 | 2 | 17 |
+| N-28 | Solmira | 2 | 2 | 1 | 3 | 3 | 3 | 3 | 17 |
+| N-32 | Herdano | 2 | 3 | 2 | 2 | 2 | 3 | 3 | 17 |
+| N-46 | Sekura | 2 | 1 | 2 | 3 | 3 | 3 | 3 | 17 |
+| N-48 | Tutelo | 2 | 3 | 2 | 2 | 2 | 3 | 3 | 17 |
+| N-49 | Lichthof | 3 | 3 | 2 | 1 | 2 | 3 | 3 | 17 |
+| N-50 | Hofwerk | 3 | 3 | 2 | 1 | 2 | 3 | 3 | 17 |
+| N-52 | Heimato | 2 | 3 | 2 | 2 | 2 | 3 | 3 | 17 |
+| N-53 | Ankomo | 2 | 2 | 2 | 2 | 3 | 3 | 3 | 17 |
+| N-56 | Klavero | 2 | 1 | 3 | 2 | 3 | 3 | 3 | 17 |
+| N-15 | Landgang | 3 | 3 | 2 | 1 | 1 | 3 | 3 | 16 |
+| N-31 | Selona | 2 | 1 | 1 | 3 | 3 | 3 | 3 | 16 |
+| N-33 | Belano | 2 | 1 | 1 | 3 | 3 | 3 | 3 | 16 |
+| N-34 | Sanora | 2 | 1 | 1 | 3 | 3 | 3 | 3 | 16 |
+| N-35 | Miralon | 2 | 3 | 1 | 3 | 2 | 2 | 3 | 16 |
+| N-36 | Andemar | 2 | 3 | 1 | 2 | 3 | 2 | 3 | 16 |
+| N-41 | Obacht | 3 | 3 | 2 | 1 | 2 | 2 | 3 | 16 |
+| N-42 | Hegewerk | 2 | 3 | 3 | 1 | 2 | 2 | 3 | 16 |
+| N-51 | Larenhof | 2 | 3 | 3 | 1 | 2 | 2 | 3 | 16 |
+| N-09 | Ruhwerk | 3 | 1 | 2 | 1 | 3 | 2 | 3 | 15 |
+| N-10 | Adlatus | 2 | 2 | 2 | 2 | 2 | 2 | 3 | 15 |
+| N-14 | Herzein | 3 | 1 | 3 | 1 | 2 | 2 | 3 | 15 |
+| N-16 | Kommgut | 3 | 2 | 2 | 1 | 2 | 2 | 3 | 15 |
+| N-54 | Tektum | 3 | 2 | 1 | 2 | 2 | 2 | 3 | 15 |
+| N-57 | Kamino | 2 | 1 | 2 | 2 | 2 | 3 | 3 | 15 |
+| N-19 | Advena | 2 | 1 | 2 | 2 | 2 | 2 | 3 | 14 |
+| N-23 | Itinera | 1 | 2 | 2 | 2 | 2 | 2 | 3 | 14 |
+| N-58 | Fensterlicht | 1 | 3 | 3 | 1 | 2 | 1 | 3 | 14 |
+| N-20 | Adventa | 2 | 1 | 1 | 2 | 2 | 2 | 3 | 13 |
+| N-22 | Wiederda | 2 | 2 | 2 | 1 | 1 | 1 | 3 | 12 |
+
+W9-Einzelbegründungen ≠ 3: N-25 Lumara = 2 (Klangnähe zur
+Verzeichnis-Nennung „iLumio", SIHOT Partner Finder, Wettbewerbsbild
+§ 3.4) · N-55 Portino = 2 (entfernte Nähe zur Store-App „Portal",
+AU — schwach, da nur Stamm „Port-"). Sonst kein Kandidat mit Anklang
+an ein Zeichen der Ausschlussliste (Abgleich: alle 51 gegen die
+namentlich geführten Anbieter/Apps der §§ 3–4 des Wettbewerbsbilds,
+09.08.2026). Nähen AUSSERHALB des W9-Geltungsbereichs (kein
+Technik-Segment-Wettbewerber) als K2-Vorab-Vermerke für die zweite
+Welle: N-56 Klavero ↔ Klaviyo (Marketing-Software — durch E11
+relevant!) · N-46 Sekura ↔ Securitas-Umfeld · N-45 Fidura ↔
+Finanzfirma-Verdacht (Findung) · N-31 Selona ↔ Celona (Findung).
+
+### 5.3 Shortlist (9 Kandidaten) und K6-Voll-Check
+
+**Auswahlkriterium (offengelegt):** alle Kandidaten mit Σ ≥ 19
+(7 Stück) **plus** die zwei je punktbesten Vertreter der sonst nicht
+vertretenen Achsen A2-Wortfeld-Anteil und A5 (N-13 Einkehr, Σ 18,
+höchste W3-Dichte der 18er; N-55 Portino, Σ 18, einziger
+A5-Vertreter ≥ 18). Reine Punktreihenfolge hätte Platz 8–9 unter
+sechs punktgleichen 18ern gelost — die Achsen-Streuung ist das
+dokumentierte Zusatzkriterium.
+
+*(K6-Voll-Check-Protokoll und Kandidaten-Detailblätter folgen —
+werden nach den Web-Wörterbuch-Läufen eingetragen.)*
 
 ## 6. Diktat-Testbogen K4 (User-Handgriff, vorbereitet)
 

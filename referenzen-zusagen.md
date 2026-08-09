@@ -63,10 +63,16 @@ Originalwortlaut):
 ### Logo-Asset
 
 - Anhang `MASU_Logo_cmyk.eps` an Nachricht `19fdca5c3083b106`.
-- **Zusage belastbar ✅ (Mail-Body gelesen) · Datei-Beleg ❌ offen:** Die
-  Datei ist noch nicht heruntergeladen/archiviert (Anhang-Download =
-  nativer Download-Button oder User-Handgriff; Zielablage:
-  `assets/partner/` bei Anlage).
+- **Zusage belastbar ✅ (Mail-Body gelesen) · Datei-Beleg ✅ archiviert
+  (Nachtrag 09.08.2026):** `assets/partner/MASU_Logo_cmyk.eps`
+  (4.851.542 Bytes, SHA-256
+  `4012E544088995AB6B34ABAFD45EBE935D6FA997E050BD360EA5514B742C5E57`).
+  Herkunft: User-Download aus der Anhangs-Mail (Download-Datei vom
+  07.08.2026 19:20; Zweit-Download 09.08. hash-identisch). Vermerk zum
+  Prüfweg: Der Hash belegt die Integrität der ARCHIVKOPIE gegenüber dem
+  Download — ein Abgleich gegen den Gmail-Anhang selbst ist damit nicht
+  gemessen (Download-Weg = User-Handgriff, Dateiname und Kontext
+  stimmen mit der Mail überein).
 - ⚠️ EPS/CMYK ist ein Druckformat — für die Website wird ein Web-Format
   (SVG/PNG, RGB) gebraucht; im Abstimmungsschritt (Auflage 1) direkt
   miterfragen statt selbst konvertieren.

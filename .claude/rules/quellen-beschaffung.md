@@ -34,6 +34,12 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   prüfen:** Stichtags-/Sondertabellen erscheinen oft nur in bestimmten
   Ausgaben (z. B. Jahres-Stichtag nur im Juli-Bericht) — die neueste
   Ausgabe ist nicht die datenreichste. (Herkunft: MKT R2.)
+- **Wörterbuch-Negative (Wiktionary u. ä.) sind case-sensitiv** — ein
+  Klein-404 ist für deutsche Substantive ein falsches Negativ:
+  Groß-/Klein-DOPPELLAUF Pflicht, und die Positivkontrolle spiegelt die
+  Nulltreffer-Mechanik des jeweiligen Laufs (kleines unauffälliges Wort
+  für den Klein-Kanal, Substantiv für den Groß-Kanal).
+  (Herkunft: MKT R4.)
 - **Ein TIMEOUT ist kein Negativbefund** — Primärquellen, die in einen
   Rechtstext eingehen: Abruf wiederholen oder in den Hintergrund, nie auf
   Zweitquellen ausweichen, solange die Quelle nur langsam ist.

@@ -355,3 +355,20 @@ alle drei GEGEN die Session-Empfehlung):**
   R04-Erhebung bleibt Agenten-Leseweg (Vermerk dort).
 - Einarbeitung Projektquelle/STATUS (E13, FUND3-Entsperrung): beim
   R4-Debrief.
+
+**R4 GESCHLOSSEN (Debrief 19:25):** Abschlussmeldung R04-A da
+(`39d8511`), Scope-Treue aller 6 Session-Commits per
+`git show --stat` belegt, Review beide Richtungen (nach innen: 3
+Wichtig-Befunde nachweislich repariert, Zählwege stichproben-
+verifiziert · nach außen: 4 Befunde mit Zielort — Wiktionary-Baustein,
+L-05-Viertbeleg, E-V4-Prompt-Pflichten, Statuszeilen-Handgriff).
+Debrief mit Rückfluss: Sammelvermerk R4 · 2 CLAUDE-Schärfungen
+(Push-Sichtung eigener Befehl · Vergabelinien explizit) ·
+Wiktionary-Case-Regel (Baustein) · Gerüst `54439b9` = neuer Stempel,
+Kopien SYNCHRON (9/9) · Vier-Stellen-Sync + R2-Rotation.
+Gegenprobe-Subagent: entfällt regelkonform (nur EINE Arbeits-Session
+in R4; Pflicht gilt ab zwei). Offen an den User: Shortlist-Handgriffe
+(Gesamtschau/Diktat/EN/4 Blockierte) · Statuszeilen R3-A/B/D + R04-A ·
+StB-Doppelposten Mo. **Nächster Block: Kontext-Säuberung der
+Leitsession, dann `/runde` für R5 — oder Feierabend (Tagesplan trägt
+die Übergabe).**

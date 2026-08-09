@@ -143,6 +143,72 @@ nicht dessen Prämisse).
 Quelle: `protokolle/R03-D-abschluss.md` Falle F6 + Nebenbefund N1;
 `fund/wettbewerbsbild.md` § 0.0.
 
+## Zweitbelege R4 zu bestehenden Regeln (09.08.2026, Sammelvermerk)
+
+- **⭐ Verdichten-Familie, Meta-Aussagen-Facette (R04-A Falle 1,
+  Prüfer-Fang):** Ein selbst formuliertes AUSWAHLKRITERIUM ist eine
+  prüfbare Behauptung — die Erstfassung („sechs punktgleiche 18er",
+  „einziger A5-Vertreter", „höchste W3-Dichte") war an der EIGENEN
+  Tabelle dreifach widerlegbar. Superlative und Zählungen über die
+  eigene Auswahl vor dem Hinschreiben an der Tabelle nachzählen, nie
+  aus der Erinnerung an sie.
+- **Status-Symbol-Regel (R04-A Falle 2):** „K6 ✅" trotz offenem
+  EN-Muttersprachler-Teil — ⚠️→✅-Verdichtung trotz bekannter
+  Kernregel; neue Facette: Der Teil-/Voll-Status gehört in die
+  SPALTENÜBERSCHRIFT/Symbolzeile selbst, nicht in eine Fußnote
+  daneben.
+- **Vergabelinien-Drift (R04-A Falle 3 → CLAUDE-Schärfung + Gerüst
+  `54439b9`):** Gleiche Sachlage (f/v-, c/k-Ambiguität) bekam
+  ungleiche W2-Punkte, solange die Linie nur im Kopf existierte;
+  materiell an der Shortlist-Grenze (Σ≥19). Erst das Ausformulieren
+  fand den vierten Fall (Tektum). Bestandsscan nach der neuen Regel:
+  Wertungstabelle § 5.2 war das auslösende Artefakt und ist repariert
+  (`d769be1`); ältere Bewertungsraster der Runde R1–R3 tragen keine
+  Mehrfach-Abzugsgründe ohne Linie (Planprüfungs-/Wettbewerbsraster
+  arbeiten kriteriengebunden beschreibend, nicht punktbasiert).
+- **Wiktionary case-sensitiv (R04-A Nebenbefund → Baustein
+  quellen-beschaffung + Gerüst `54439b9`):** Klein-404 wäre für
+  DE-Substantive ein falsches Negativ; Groß-/Klein-Doppellauf mit
+  mechanik-spiegelnder Positivkontrolle je Lauf (talora/Einkehr).
+- **L-05 (Klassifikator), Viertbeleg:** Push-KETTE in R04-A blockiert,
+  Einzelbefehle liefen durch — Zerlegungs-Regel erneut bestätigt,
+  keine neue Facette.
+- **Push-Fenster-Sichtung entwertet sich in der Kette (Leitsession
+  R4 → CLAUDE-Schärfung + Gerüst `54439b9`):** Zweimal lief
+  `git log origin/main..HEAD && … push` als EINE Kette — die Sichtung
+  zeigte fremde R04-A-Commits erst, als der Push schon durch war
+  (glimpflich: Veröffentlichung dort gewollt). Eine Sichtung ohne
+  Entscheidungspunkt sichtet nichts.
+- **Prämissen-Stale-Facette (R04-A Nebenbefund 1):** Der Start-Prompt-
+  Stand „Papier-Nachtrag steht aus" wurde 3 Minuten nach Prüfstand-
+  Commit durch den Parallel-Commit der Leitsession (`8862831`)
+  überholt — Zweitbeleg zur Regel „zwischen Lesen und Commit kann
+  sich die Quelle ändern"; die Session fing es selbst per
+  Vorwärtsverweis. Multi-Session-Zusatz: Wenn die LEITSESSION parallel
+  im Themenraum eines laufenden Strangs committet, ist der
+  Start-Prompt die alternde Quelle.
+- **Bewährte Muster ohne Regelbedarf (dokumentiert):**
+  Prüfer-Befunde vor der Reparatur getrennt an der Quelle verifiziert —
+  alle drei trugen (Regel a, erneut) · mechanik-spiegelnde
+  Positivkontrollen (Sammelvermerk-R3-Regel, dritter Beleg) ·
+  **Kontaminationsschutz per Commit-REIHENFOLGE beweisbar gemacht**
+  (Longlist-Commit VOR dem Ausschlusslisten-Read — kostenloser,
+  später prüfbarer Nicht-Beeinflussungs-Beleg; neues Muster, bewusst
+  ohne Regel-Träger, hier dokumentiert) · „blockiert ≠ ausgeschieden"
+  als eigene Kategorie hielt das E-K5-Delta sauber durch („nicht
+  prüfbar ist ein eigenes Ergebnis", operative Bestätigung) ·
+  mitlaufende Everlast-Commits (5) statt Schlussakt.
+- **(c)-Ablagen (bewusst ohne Handlung):** AskUserQuestion-Option
+  „Weitere Sprachen" kam ohne Benennung zurück → Nachfassfrage löste
+  es (Einzelfall, kein Regelbedarf) · R04-A-Modellverifikation über
+  Harness-Environment sauber als „Belegstufe unter Statuszeile"
+  deklariert — Statuszeilen-Handgriff bleibt der normierte Kanal ·
+  Kunstwort-Robustheits-Befund (N-18/N-26) ist Sach-Info im
+  Sprint-Dokument, kein Methodik-Learning.
+Quellen: `protokolle/R04-A-abschluss.md`, `R04-A-pruefer.md`,
+Session-Verlauf Leitsession R4 (Durchsprachen E11/E12/E13,
+Erhebung `R04-erhebung-beratungsbestand.md`).
+
 ## Zweitbelege R3 zu bestehenden Regeln (09.08.2026, Sammelvermerk)
 
 - **L-05 (Klassifikator), zwei neue Facetten:** (1) R03-A: `git push`

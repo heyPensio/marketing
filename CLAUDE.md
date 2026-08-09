@@ -3,7 +3,7 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand `2834792` nach Rückfluss-Nachzügen MKT R1–R3
+> am 2026-08-09; Stand `54439b9` nach Rückfluss-Nachzügen MKT R1–R4
 > und Nachzug der parallel entstandenen heyPensio-R32-Lehren
 > (09.08.2026). Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
@@ -153,7 +153,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
      auf fremde Pfade prüfen. (Herkunft: R28, dreifach an einem Tag.)
    - Ein eigener `git push` veröffentlicht ALLE lokalen Commits des
      Branches, auch fremde ungepushte — vor dem Push
-     `git log origin/main..HEAD` sichten. Und spiegelbildlich: Der eigene
+     `git log origin/main..HEAD` sichten, **als EIGENEN Befehl mit
+     Entscheidungspunkt: In einer `&&`-Kette mit dem Push sichtet die
+     Sichtung nichts** (Herkunft: MKT R4). Und spiegelbildlich: Der eigene
      Commit kann durch den Push einer parallelen Session bereits
      veröffentlicht sein; belastbar ist `git branch -r --contains <hash>`,
      nie das Fehlen im eigenen `origin/main..HEAD`. (Herkunft: R17/R30.)
@@ -324,7 +326,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **Ein Bewertungskriterium gilt für ALLE Kandidaten;** wird es geändert,
   den Bestand rückwirkend prüfen (wer wurde NUR daran aussortiert?). Passt
   ein Raster strukturell nicht, ist „nicht anwendbar" die richtige
-  Kategorie, nie der schlechteste Wert.
+  Kategorie, nie der schlechteste Wert. **Vergabelinien je Kriterium
+  EXPLIZIT ins Dokument, sobald derselbe Abzugsgrund mehr als einmal
+  vergeben wird** — implizite Linien driften bei gleicher Sachlage
+  auseinander, und erst das Ausformulieren macht die Inkonsistenz
+  sichtbar (Herkunft: MKT R4).
 - **Quellenauswertung braucht einen ZWEITEN Durchgang mit umgekehrter
   Frage** („Was sagt die Quelle, wonach niemand gefragt hat?") — durch
   einen Agenten mit frischem Kontext, der den Fragenkatalog NICHT kennt.

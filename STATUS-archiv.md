@@ -2,6 +2,15 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 09.08.2026 (R4-Debrief) — R2-Block aus „Aktueller Stand"
+
+- **R2 (09.08.):** ✅ BELEG1-Messplan freigegeben (Zwei-Schienen-Modell;
+  Messfenster 24.08.–20.09., Rückwärtsanker 22.09.) · FUND2-Strang 2
+  erhoben, Anfrage-Entwürfe versandbereit (`fund/erhebung/`) ·
+  ⚠️ offener Dissens Außen-Formulierung „gemessen" (Entscheid bei
+  BELEG4, Plan-Nachtrag 2) · Stränge FUND2-1 (Kayhan) und FUND2-3
+  (Apaleo) offen. *(R1 rotiert → `STATUS-archiv.md`.)*
+
 ## Rotiert am 09.08.2026 (R3-Debrief) — R1-Block aus „Aktueller Stand"
 
 - **R1 (09.08.):** ✅ **FUND1 VERABSCHIEDET (E10)** — geführte

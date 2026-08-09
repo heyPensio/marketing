@@ -124,9 +124,18 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   kandidatenfrei) + `marke/markenrecherche-verfahren.md`
   (Gate-2-Anleitung für BEIDE Namen, Nizza-Vorschlag 42/9/35);
   Gegenfrage-Prüfung gelaufen (0 kritisch / 3 wichtig / 11 Hinweise,
-  eingearbeitet). Wartet auf User-Verabschiedung der 10
-  Entscheidungspunkte (E-K1–E-K5 · E-V1–E-V4); erst danach
-  Naming-Sprint und Live-Recherche (eigene Session, E-V4).
+  eingearbeitet). ~~Wartet auf User-Verabschiedung~~ →
+  **VERABSCHIEDET 09.08.2026 (E12, mit 2 Deltas — § 4). Stand R4
+  (R04-A): Naming-Sprint PHASE 1 GELAUFEN** —
+  `marke/naming-sprint-2026-08.md`: Longlist 58 (5-Achsen-Fan-out,
+  Kontaminationsschutz zweifach belegt) → K.-o. (3 raus, 4 als „K1
+  nicht prüfbar" blockiert, User-Entscheid offen) → **Shortlist 10
+  beim User** (Freihand 21/21 · Beihand, Treuhold 20 · Anlando,
+  Ankado, Kalmora, Zuhand 19 · Einkehr, Domara, Portino 18);
+  unabhängige Prüfung 0/3/8, alle Wichtig-Befunde vor Vorlage
+  repariert. OFFEN: K4-Diktat-Test + EN-Muttersprachler-Check
+  (User-Handgriffe, Testbogen § 6 dort) · K2/K3/W7/W8 = zweite Welle
+  (eigene Session, E-V4, K2-Vorab-Vermerke notiert).
 - **MARKE2** Gesellschafter-Entscheid (51/49) + Namensentscheid.
   Gate: GbR-Namensführungsfrage geklärt (Zentrale/StB). Fertig:
   datierter Entscheid in `zentrale`.
@@ -352,6 +361,36 @@ OPS4-Register in `sensibel/`.)*
   Stack-Wahl bleibt Zielgruppe; (c) Portfolio-These § 6 — EIN Produkt,
   Skalierung über die Modul-Achse, unter FUND2-Problem-Fit-Vorbehalt.
   Die Geltungs-Vorbehalte des Papiers bleiben unberührt in Kraft.
+- **09.08.2026 (E11) Portfolio-Zuschnitt BREIT** (geführte Durchsprache
+  Leitsession R4, ~17:10): Die Beratungs-/Agentur-Achse wird Teil der
+  Positionierung; Papier-Nachtrag statt bewusst eng bleiben. Löst § 7
+  Punkt 4a der R3-Fassung auf; FUND3-Beratungsachse (P12/P13)
+  entsperrt.
+- **09.08.2026 (E12) MARKE1-Kriterienkatalog + Recherche-Verfahren
+  VERABSCHIEDET** (geführte Durchsprache in drei Teilen, ~17:12–17:15;
+  alle 10 Entscheidungspunkte): 8× Session-Vorschlag bestätigt
+  (E-K1 .de+.com Pflicht · E-K1b LinkedIn/Instagram/Facebook/YouTube ·
+  E-K2 EN als Wertung · E-K3 kein Bindestrich-Kern · E-K5-Teil
+  Rangpunkte · E-V1 Klassen 42+9+35, Suchraum inkl. 43 · E-V2
+  Territorium vertagt nach FUND4 · E-V3 Altname nur Risiko-Check ·
+  E-V4 Live-Recherche als eigene Session). **Zwei Deltas des Users:**
+  E-K4 Zusatzsprachen TR/FR/ES/IT · E-K5 vorerst GANZ OHNE Anwalt
+  (erst MARKE3; K1-Grenzfälle blockieren als „nicht prüfbar").
+  Nachtrags-Kästen in beiden `marke/`-Dokumenten (Originale sichtbar).
+- **09.08.2026 (E13) Portfolio-Nachtrag-Vermarktungsform** (geführte
+  Durchsprache ~17:50, drei Teilfragen, alle drei GEGEN die
+  Session-Empfehlung entschieden): (a) EIN Angebot ohne sichtbare
+  Belegstufen-Trennung — Reifegrad-Vermerke bleiben interne
+  Doku-Pflicht; (b) Kayhan-Zuschnitt PAUSCHAL „alles, was nicht
+  Digitalisierung/KI/Automation ist" (O-Ton im Tagesplan; Postkorb
+  `zentrale\eingang\2026-08-09-mkt-kayhan-rollenzuschnitt.md`,
+  zentrale `401cf05`); (c) Agentur-Leistungen (Social/SEO/Ads/
+  Bewertungen) als „im Aufbau" gelistet — ⚠️ ohne dokumentierten
+  Träger/Substanz. Umsetzung: Nachtrags-Kasten § 6 im
+  Positionierungspapier (`8862831`) mit Formulierungs-Leitplanke
+  (keine Präsens-Zusage ohne Träger in Kundentexten); Grundlage
+  `protokolle/R04-erhebung-beratungsbestand.md` (Leseweg-Vermerke
+  dort).
 
 ## 5. GEPARKTE IDEEN
 
@@ -413,6 +452,25 @@ CMO-Praxis · Completeness-Critic; Rohberichte in
 `protokolle/R00-planpruefung-2026-08-09.md`) und User-Entscheiden E1–E7.
 Schwester-Repo `zentrale` angelegt (Rollen-Charta, Namensentscheid-Träger,
 Postkorb).
+
+**R4 gelaufen (09.08.2026, Shanks + R04-A/Ben Beckman —
+Entscheidungs-Runde):** Drei User-Entscheide E11/E12/E13 (§ 4):
+Portfolio BREIT + MARKE1 verabschiedet (2 Deltas) +
+Vermarktungsform/Kayhan-Pauschalzuschnitt (Postkorb an Zentrale) ·
+**Naming-Sprint Phase 1 FERTIG** (Shortlist 10 beim User, § 2
+MKT-MARKE) · Beratungs-Bestandserhebung als Grundlage des
+E13-Papiernachtrags (`protokolle/R04-erhebung-beratungsbestand.md`;
+zwei Explore-Agenten, Fundstellen dort mit Leseweg-Vermerk) ·
+Positionierungspapier-Nachtrags-Kasten § 6 (`8862831`) ·
+Prüfschicht R04-A: 0 kritisch / 3 wichtig / 8 Hinweise, alle
+Wichtig-Befunde vor Vorlage repariert · Rückfluss: 2
+CLAUDE-Schärfungen (Push-Sichtung als eigener Befehl ·
+Vergabelinien explizit) + Wiktionary-Case-Regel (Baustein
+quellen-beschaffung), Gerüst-Stempel `54439b9`, Sammelvermerk R4 im
+Register. ⚠️ Offen aus R4: Shortlist-Gesamtschau + Diktat-Test +
+EN-Check + Entscheid über 4 K1-Blockierte (User) ·
+Statuszeilen-Bestätigung jetzt für R3-A/B/D UND R04-A ·
+FUND3-Beratungsachse entsperrt, aber noch nicht erhoben.
 
 **R3 gelaufen (09.08.2026, Shanks + R03-A/Ben Beckman + R03-B/Yasopp +
 R03-C/Lucky Roux + R03-D/Rockstar — erste Vier-Strang-Runde):**
@@ -479,24 +537,33 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    FUND2-Kayhan-Gespräch** (ein Termin, getrennt dokumentieren) ·
    dabei H-4 Altdaten-Sicherung anstoßen (bis 07.09., wichtigste
    Quelle harter Vorher-Zahlen).
-4. ~~R3-Kandidaten~~ ✅ R3 GELAUFEN 09.08.2026 (alle vier Stränge,
-   s. § 6). **Neu offen aus R3:**
-   (a) **⚠️ Portfolio-Zuschnitts-Klärung (User + Leitsession, VOR der
-   zweiten FUND3-Achse):** Der User beschreibt das Angebot breiter als
-   Positionierungspapier § 6 (Beratungs-/Agentur-Leistungen:
-   Hotelmarketing, Zahlenanalyse, Expansion, Nachfolge, Operations;
-   Kayhan-Beraterrolle fachlich nirgends dokumentiert — R03-D N1).
-   Entscheid nötig: Papier nachziehen ODER bewusst eng bleiben. Erst
-   danach: Beratungs-Wettbewerbsachse erheben (P12/P13) +
-   Einstufungs-Rückprüfung (§ 5 letzter Punkt).
-   (b) **MARKE1:** User-Verabschiedung der 10 Entscheidungspunkte →
-   danach Naming-Sprint (eigene Session; Live-Recherche nach E-V4).
-   (c) **FUND2-Rest:** Stränge 1 (Kayhan-Gespräch) + 3 (Apaleo-Faden);
+4. ~~R3-/R4-Offenposten~~ — R4 GELAUFEN 09.08.2026 (E11/E12/E13, § 4;
+   ~~Portfolio-Klärung 4a~~ ✅ E11 · ~~MARKE1-Verabschiedung~~ ✅ E12).
+   **Neu offen aus R4:**
+   (a) **MARKE1-Abschluss (User-Handgriffe):** Shortlist-Gesamtschau
+   (10 Kandidaten, `marke/naming-sprint-2026-08.md` § 5.4) ·
+   K4-Diktat-Test (Testbogen § 6 dort, 2 Personen) ·
+   EN-Muttersprachler-Check · Entscheid über die 4 K1-blockierten
+   Kandidaten (Getrost, Verlass, Obenauf, Obhut — § 4.2 dort).
+   (b) **Zweite Recherche-Welle (E-V4, eigene Session mit Chrome,
+   NACH der User-Auswahl):** K2 Marken / K3 Domains / W7 SEO /
+   W8 Handles über die bestätigte Auswahl; K2-Vorab-Vermerke im
+   Sprint-Dokument (u. a. Klavero↔Klaviyo, durch E11 relevant);
+   Prompt-Pflichten: Positivkontrolle je Prüfkanal + Rohtext-Reads
+   statt WebFetch-Zusammenfasser für Finalisten + Abbruchbedingung/
+   Kostendeckel.
+   (c) **E13-Folgearbeit FUND:** FUND3-Beratungsachse erheben (P12/
+   P13, Vergleichsmaßstab = Papier-Kasten § 6 + R04-Erhebung) +
+   Wettbewerber-Einstufungs-Rückprüfung (§ 5 letzter Punkt) ·
+   dabei Fundstellen-Nachprüfung der agentengelesenen
+   R04-Erhebungs-Kernaussagen, die ins Papier weiterwandern.
+   (d) **FUND2-Rest:** Stränge 1 (Kayhan-Gespräch) + 3 (Apaleo-Faden);
    Sonderauswertung Statistikamt Nord erst nach DEHOGA-/IHK-Antworten
    (R2-Entscheid, durch R3-Negativ jetzt einziger amtlicher Weg).
-   (d) **User-Handgriffe neu:** A5-Probedruck vor dem Briefing
-   („tatsächliche Größe") · Modell-Statuszeilen-Bestätigung der
-   R3-Sessions (A: Fable · B: Opus · D: Opus).
+   (e) **User-Handgriffe (fort):** A5-Probedruck vor dem Briefing
+   („tatsächliche Größe") · Modell-Statuszeilen-Bestätigung R3-A/B/D
+   + R04-A · **StB-Anruf Mo 10.08. jetzt mit DOPPELTEM Kayhan-Posten**
+   (Namensführung + Beratervertrag/Konditionen, s. Postkorb E13b).
 5. Kleinposten: Domain-Inventur mit dem User (Cloudflare/Registrar) ·
    Byte-Vergleich Fassung-6-Kanon (bei Anlage der
    Kanon-Versionsführung) · Blueprint-Arbeitsauftrag Bausteine
@@ -508,6 +575,14 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 
 ## CHANGELOG
 
+- 09.08.2026 (R4-Debrief): Entscheidungs-Runde eingearbeitet —
+  E11/E12/E13 in § 4 (Portfolio breit · MARKE1 verabschiedet mit
+  2 Deltas · Vermarktungsform + Kayhan-Pauschalzuschnitt, Postkorb
+  zentrale `401cf05`) · MARKE1-Stand § 2 (Sprint Phase 1, Shortlist
+  10 beim User) · § 6 R4-Absatz · § 7 neu geschnitten (MARKE1-
+  Handgriffe, E-V4-Welle, E13-Folgearbeit FUND) · Sammelvermerk R4
+  im Register · CLAUDE-Schärfungen Push-Sichtung/Vergabelinien +
+  Wiktionary-Case (Baustein) · Gerüst-Stempel `54439b9`.
 - 09.08.2026 (R3-Debrief): Vier Stränge eingearbeitet — BELEG1-Vorlagen
   ✅ (§ 2) · FUND2-Kanal-3-Negativ + Kreisdaten-Beifang (§ 2) ·
   MARKE1-Entwürfe (§ 2) · FUND3-Aktualisierung (§ 2) +

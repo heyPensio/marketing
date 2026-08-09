@@ -69,6 +69,14 @@ Methodik-Blueprint-Repo `projektgerüst`
   geändert, wird das ausdrücklich geprüft — sonst trägt die Vorlage den
   alten Stand weiter (genau so wäre `/session-prompts` in der Vorlage
   gelandet, eine Woche nachdem heyPensio es ersetzt hatte).
+- **⭐ Querverdrahtungs-Frage bei jedem NEUEN Werkzeug/Muster/Command
+  (Herkunft: MKT-Gegentest 09.08.2026):** Welche BESTEHENDEN Vorlagen
+  und Commands müssen das neue Ding KENNEN, damit es wirkt? (grep über
+  `vorlage/` + `projekt-init.md` nach den berührten Begriffen; Funde im
+  selben Zug nachziehen.) Beleg-Fall: `/briefing` existierte samt
+  Changelog-Merker — aber `/projekt-init` hätte neue Abteilungen weiter
+  ohne Briefing-Register und Zentrale-Verdrahtung aufgesetzt; die neue
+  Abteilung wäre für das Tagesbriefing unsichtbar gewesen.
 - Kein Rückfluss-Kandidat? Ausdrücklich sagen („kein
   projektgerüst-Nachzug nötig") — Schweigen ist kein Report.
 

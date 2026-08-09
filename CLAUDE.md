@@ -2,7 +2,7 @@
 
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
-> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `89cb92b`
+> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `17d4d27`
 > am 2026-08-09. Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
@@ -63,6 +63,12 @@ Fertig-Kriterium. Jede Ebene trägt Name + Kurz-Code:
   überspringen; übernimmt die Leitsession einen Strang selbst, wird der
   Buchstabe frei gelassen und im Rundenschnitt vermerkt. (Herkunft:
   heyPensio R17.)
+- **Session-Rollennamen (One-Piece-Schema, User-Entscheid 09.08.2026):**
+  Marketing = Rote-Haar-Bande — Leitsession **Shanks** (Head of
+  Marketing), Arbeits-Sessions **Ben Beckman, Yasopp, Lucky Roux,
+  Rockstar** (Schema + alle Banden: `zentrale\rollen-charta.md`).
+  Namen sind Rollen-Identitäten, KEINE Anker — für Anker gilt weiter
+  `R<runde>-<buchstabe>`.
 
 ## Wahrheits-Kanal
 

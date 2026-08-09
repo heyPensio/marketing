@@ -42,12 +42,20 @@ möglich, es wird nichts beantwortet.
       Postkorb-Posten mehr nötig; die nächste Zentrale-Session sieht das
       Tracking selbst.
 
-## Strang-Tabelle R1 (Vorschlag, vor User-Bestätigung)
+## Strang-Tabelle R1 (bestätigt durch User 09.08.; Stand-Vermerke kursiv)
 
 | Session | Rolle | Strang/Aufgabe | Modell | Exklusive Systeme | Scope |
 |---|---|---|---|---|---|
 | Leitsession (Buchstabe frei gelassen) | Shanks | masunt-Referenz-/Listungszusage (Schacht, 07.08.) erfassen; Review + Debrief R1 | Fable 5 | Gmail (lesend) | `referenzen-zusagen.md` (neu) · Wahrheits-Kanal am Rundenende |
-| R01-A | Ben Beckman | MKT-FUND-Kickoff: Positionierungspapier-Entwurf aus den drei Extraktionsberichten | Fable 5 | keine | `fund/` (neu) + `protokolle/R01-A-*.md` |
+| R01-A | Ben Beckman | MKT-FUND-Kickoff: FUND1-Entwurf + FUND2-Validierungsplan aus den drei Extraktionsberichten | Fable 5 | keine | `fund/` (neu) + `protokolle/R01-A-*.md` |
+
+*Stand-Vermerke:* Leitsession-Strang **erledigt** (Register
+`referenzen-zusagen.md` angelegt, Commit `f2fcada`, gepusht; offene
+Reste: Logo-Anhang-Archivierung = User-Handgriff, Gegenfrage Schacht =
+Produkt-Zuständigkeit). R01-A **gestartet** (User-Meldung 09.08.,
+Prompt übergeben) — gilt als LAUFEND bis Abschlussmeldung; Leitsession
+fasst `fund/` und `protokolle/R01-A-*` bis dahin nicht an. Danach:
+Review in beide Richtungen (Regel 8) + gebündelter `/debrief`.
 
 **Review-Regime (Kritikalitäts-Staffel):** MKT-FUND-Entwurf = Grundlage
 außenwirksamer Texte → **Voll-Review** durch unabhängigen Prüfer mit

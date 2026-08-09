@@ -28,3 +28,17 @@ Herkunft: heyPensio.)*
   Kondition GÜNSTIGER erscheinen lassen, sind die gefährlichste Richtung.
 - Externe Anschreiben mit möglichst wenigen Gedankenstrichen; Firmierung
   von Vertragspartnern nur per Registerauszug, nie aus Signatur/Website.
+- **Anschriften für Außendokumente über MEHRERE unabhängige Stellen
+  belegen** — dasselbe Anbieter-PDF trug eine falsche Hausnummer;
+  eine einzelne Quelle ist auch für „triviale" Adressdaten kein Beleg.
+  (Herkunft: heyPensio L-19.)
+- **Ein Dokument, das seine Schwäche ehrlich aber UNVOLLSTÄNDIG
+  einräumt, ist schwerer zu prüfen als eines, das schweigt** — die
+  Einräumung wirkt wie Vollständigkeit. Beim Prüfen die VOLLZÄHLIGKEIT
+  der eingeräumten Fälle prüfen, nicht nur ihre Richtigkeit.
+  (Herkunft: heyPensio L-24.)
+- **Eine Entlastungsaussage über eine PHASE gilt nur für den Teil, an
+  dem sie entstand** — „geprüft, unauffällig" über Schritt 1 wandert
+  sonst als Entwarnung über den Gesamtprozess; jede Stufe einzeln
+  prüfen und den Geltungsbereich in den Satz nehmen.
+  (Herkunft: heyPensio L-25.)

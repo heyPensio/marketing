@@ -58,6 +58,15 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
 - Fallbezogene dokumentierte Behördenauskunft schlägt die veröffentlichte
   Liste/Richtlinie — vor Aussagen zum Rechts-/Förderstand erst die eigene
   Korrespondenz greppen, dann die Richtlinie lesen.
+- **Eine zu ⅔ ausgewertete Quelle fühlt sich vollständig an** —
+  Vertrags-/Registrierungs-/Bedingungsseiten am STÜCK auswerten
+  (Volldump in Datei, dann Extraktion), nie absatzweise nach Bedarf:
+  Die Marketing-Einwilligung im selben Absatz blieb ungelesen, während
+  Vertragsverhandlungen liefen. (Herkunft: heyPensio L-25.)
+- **Eine Aussage ÜBER ein zitiertes Dokument braucht dieselbe Lektüre
+  der Stelle wie ein Zitat daraus** — die LEHRE über einen Text ersetzt
+  nie den Text; vor jeder Weiterverwendung die Originalstelle öffnen.
+  (Herkunft: heyPensio L-25.)
 - Bei API-Fehlern erst die aufgelöste Anfrage im Result lesen, nur eine
   Variable pro Versuch ändern, Schreibweise an der echten Doku prüfen.
   Fehlermeldungen von Drittsystemen auch als ERKENNTNISQUELLE lesen.

@@ -3,9 +3,10 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand `54439b9` nach Rückfluss-Nachzügen MKT R1–R4
-> und Nachzug der parallel entstandenen heyPensio-R32-Lehren
-> (09.08.2026). Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
+> am 2026-08-09; Stand `cf5a2f1` nach Rückfluss-Nachzügen MKT R1–R4,
+> heyPensio-R32-Lehren und dem R5-Blueprint-Arbeitsauftrag (zwei neue
+> Bausteine + D-Ergänzungen aus dem R00-Lehren-Delta, 09.08.2026).
+> Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
 
@@ -436,6 +437,22 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **Geführte Entscheidungs-Durchsprachen:** Fachkürzel erst in einem Satz
   Klartext erklären, dann die Frage. Freitext-Antworten VOLLSTÄNDIG
   auswerten — sie tragen oft Entscheide zu anderen Punkten huckepack.
+- **Verhandlungs-Informationshygiene gegenüber Anbietern:** keine harten
+  Förderzahlen/-quoten, keine Wettbewerber-WERTUNGEN, keine laufenden
+  Parallel-Termine nennen; antwortende Person und DOMAIN am letzten
+  Thread-Eingang prüfen, nie am Adressbuch. (Ablauf: Baustein
+  `aussenkorrespondenz`.)
+- **AVV-Merksatz:** Newsletter-/Kampagnen-Tools und Analytics SIND
+  Auftragsverarbeiter — jede Freigabe-Vorlage prüft AVV (Art. 28) und
+  DSB-Frage mit Status + Begründung; „kommt nicht vor" ist kein Status.
+  (Form: Baustein `freigabe-vorlagen`.)
+- **Prüffrage vor jedem Versand an einen Entscheider:** Welcher Satz
+  würde seine Antwort ändern, wenn er ihn läse — und steht er drin? Die
+  unbequeme Grenze gehört in die Vorlage, nicht in Fußnoten.
+- **Zeitkritisches (Deadlines, Urlaubs-/Abwesenheitsfristen von
+  Ansprechpartnern) sofort als DRINGEND in mehrere Leserichtungen
+  eskalieren** (Terminposten + Tagesplan + User-Zuruf), nie still
+  dokumentieren.
 - Automatisierte Loops nie ohne vorher definierte Abbruchbedingung und
   Kostendeckel. Browser-/Live-Aktionen nur im Rahmen des Session-Auftrags.
 - Vorgefundene uncommittete Arbeit im eigenen Scope nie blind committen —
@@ -546,6 +563,8 @@ hierher, nicht ins Repo.
 - `gmail-mcp` — Mail-Recherche und Entwürfe über den Gmail-Connector.
 - `browser-automation` — Registrar-/Social-/Verzeichnis-Prüfungen im Browser.
 - `quellen-beschaffung` — Markt-, Rechts- und Wettbewerbsquellen sauber beschaffen.
+- `aussenkorrespondenz` — Anbieter-/Partner-/Behörden-Anfragen: Kanal-/Zeitpunkt-Prüfung, Entwurf-im-Repo-Workflow.
+- `freigabe-vorlagen` — Freigabedokumente für Laien-Entscheider (Gesellschafter, Kunden): Struktur, Kanon-Texte, AVV-Prüfpunkt.
 
 *(Bausteine sind optionale Regelmodule aus dem projektgerüst-Repo —
 `vorlage/bausteine/`. Nicht aktivierte Bausteine bei Bedarf per

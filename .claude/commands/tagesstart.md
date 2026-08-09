@@ -212,7 +212,10 @@ einer, beim User nachfragen statt raten:
      komplett?" mit expliziten, dem GEGENSTAND angepassten Kategorien und
      Pflicht-Ergebnis je Kategorie (auch „keine Auffälligkeit") — eine
      offene „was fehlt?"-Frage findet diese Funde nicht (Herkunft:
-     heyPensio, vierfach belegt).
+     heyPensio, vierfach belegt). Dazu die Positivkontrollen-Zusatzfrage
+     an den Prüfer: **„Hättest du diese Funde auch OHNE den
+     Kategorien-Hinweis gefunden?"** — misst, ob der Katalog trägt oder
+     nur bestätigt (Herkunft: heyPensio L-25).
    - **Zwei Prüfer mit GETRENNTEN Fragen schlagen einen mit zwei Fragen**
      (Prüfraum teilen, nicht verdoppeln). Widersprüche zwischen Agenten
      sind ein Gewinn — sie werden am ORIGINAL aufgelöst, nie nach

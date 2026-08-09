@@ -138,7 +138,40 @@ Recherche-Verfahren; Pflicht-Input `zentrale\namensentscheid.md`,
 Everlast-§11-Anker 18.09.) — bewusst nicht dritter Parallel-Strang
 (Kontingent-Schonung bei 41 % Fable-Woche).
 
-## Übergabe-Block (bei Leitsession-Neustart füllen)
+## Übergabe-Block (gefüllt vor Leitsession-Neustart für R3, ~15:15)
 
-*(leer — wird vor einem Blockwechsel-Neustart gefüllt: Session-Stand,
-offene Handgriffe, Block-Programm, Debrief-Kandidaten)*
+**Session-Stand:** R1 und R2 vollständig geschlossen (Reviews beide
+Richtungen, Debriefs gefahren, alles gepusht — marketing bis `c3ea241`,
+Gerüst bis `66fbf4f` = Stempel im CLAUDE.md-Kopf). Arbeitsbaum sauber.
+FUND1 VERABSCHIEDET (E10) · BELEG1-Messplan FREIGEGEBEN (H-2, mit
+Zwei-Schienen-Nachtrag + dokumentiertem Dissens Außen-Formulierung —
+Entscheid bei BELEG4) · FUND2-Strang 2 erhoben, Anfrage-Entwürfe
+versandbereit · masunt komplett (Register + Logo-Datei-Beleg).
+
+**Grund des Neustarts:** Kontextlast + Regel-Snapshot (CLAUDE.md,
+tagesstart und 3 Bausteine wurden in der alten Session editiert — der
+Neustart lädt den neuen Stand).
+
+**Block-Programm R3 (Kandidaten, PROGNOSE — Schnitt macht die neue
+Leitsession per /runde):**
+1. Erhebungsvorlagen-Session: A5-Tagesblätter + Interviewleitfaden mit
+   Bandbreiten-Schätzfragen BM-1–BM-5 + E-1–E-5, Druck-PDF (bis 20.08.,
+   VOR dem Betreiber-Briefing; Grundlage `beleg/baseline-messplan.md`
+   inkl. Nachträge).
+2. MARKE1-Vorbereitung: Kriterienkatalog + Markenrecherche-Verfahren
+   (Pflicht-Input `zentrale\namensentscheid.md`; Everlast-§11-Anker
+   18.09.; wartet NICHT auf StB).
+3. FUND2-Fortsetzung: regionalstatistik.de (dritter Kanal
+   Länder-Größenklassen).
+
+**Offene User-Handgriffe (unverändert, Träger STATUS.md/Projektquelle
+§ 7):** H-1 Livegang-Datum (16.08.) · Anfragen-Versand werktags (vorher
+IHK-Zuständigkeit, P6) · Betreiber-Briefing bis 23.08. gekoppelt mit
+Kayhan-Gespräch · H-4 Altdaten-Sicherung (07.09.) · StB-Anruf Mo 10.08.
+(Zentrale).
+
+**Debrief-Kandidaten offen:** keine — R2-Debrief inkl.
+Gegenprobe-Nachfang ist durch.
+
+**Kontingent-Stand bei Übergabe:** letzte Ablesung 12:46 (29 % gesamt /
+41 % Fable); aktuellen Stand beim R3-Start neu ablesen.

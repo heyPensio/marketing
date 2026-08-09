@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Tagesblatt — Firzlaff's Hotel Neumünster</title>
+<style>
+  @page { size: 210mm 148mm; margin: 6mm 8mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { font-family: "Segoe UI", Arial, sans-serif; color: #111; font-size: 8pt; }
+  .kopf { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1.2pt solid #111; padding-bottom: 1.5mm; margin-bottom: 1.5mm; }
+  .kopf h1 { font-size: 11pt; }
+  .kopf .objekt { font-size: 9pt; font-weight: 600; }
+  .felder { display: flex; gap: 6mm; margin-bottom: 1.5mm; font-size: 8.5pt; align-items: baseline; }
+  .felder .feld { white-space: nowrap; }
+  .linie { display: inline-block; border-bottom: 0.8pt solid #555; min-width: 30mm; }
+  .keinevorgaenge { font-size: 7.5pt; }
+  .anleitung { display: grid; grid-template-columns: 1fr 1fr; gap: 1mm 5mm; font-size: 6.5pt; line-height: 1.22; margin-bottom: 1.2mm; }
+  .anleitung li { margin-left: 3.5mm; margin-bottom: 0.6mm; }
+  table.erfassung { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  table.erfassung th, table.erfassung td { border: 0.6pt solid #333; padding: 0.8mm 1mm; font-size: 6.8pt; vertical-align: middle; text-align: left; }
+  table.erfassung th { background: #eee; font-weight: 600; line-height: 1.1; }
+  table.erfassung td { height: 5.4mm; }
+  .kuerzel { white-space: nowrap; letter-spacing: 0.1pt; }
+  .fuss { margin-top: 1.5mm; font-size: 6.5pt; line-height: 1.3; display: flex; justify-content: space-between; gap: 5mm; }
+  .fuss .rechts { white-space: nowrap; text-align: right; }
+  .box { font-size: 6.8pt; }
+</style>
+</head>
+<body>
+
+<div class="kopf">
+  <h1>Tagesblatt Rezeptions-Erfassung</h1>
+  <span class="objekt">Firzlaff's Hotel Neumünster</span>
+</div>
+
+<div class="felder">
+  <span class="feld">Datum: <span class="linie"></span></span>
+  <span class="feld">Ausgefüllt von: <span class="linie" style="min-width:45mm"></span></span>
+  <span class="keinevorgaenge">☐ <strong>Heute keine Vorgänge</strong> — bitte trotzdem Datum + Name eintragen und das Blatt aufheben: Ein leeres Blatt mit Datum ist ein Messergebnis, ein fehlendes Blatt nicht.</span>
+</div>
+
+<ol class="anleitung">
+  <li>Eine Zeile für jeden Vorgang, der jemanden an der Rezeption gebraucht hat: <strong>Check-in&nbsp;(C) · Schlüssel&nbsp;(S) · Meldeschein&nbsp;(M) · Barzahlung&nbsp;(B) · Störung&nbsp;(St) · Sonstiges&nbsp;(So)</strong>.</li>
+  <li><strong>Nur bei Check-ins</strong> die Uhrzeit: <strong>Start</strong> = Gast steht da (oder ruft an, weil er vor der Tür steht), <strong>Ende</strong> = Gast ist fertig und geht Richtung Zimmer. Der Meldeschein gehört mit in diese Zeit. <strong>Erst auf die Uhr schauen, dann schreiben</strong> — das Aufschreiben selbst soll nicht mitgemessen werden.</li>
+  <li><strong>Keine Gastnamen, keine Buchungsnummern</strong> aufs Blatt — nur Uhrzeiten, Kreuze und Stichworte.</li>
+  <li>Kam ein Gast an, als <strong>niemand da war</strong> (z.&nbsp;B. Schlüsselkasten)? Beim nächsten Dienstantritt eine Zeile anlegen, „nachträglich" ankreuzen und unter Besonderheit kurz notieren, wie der Gast hineingekommen ist. Uhrzeiten bleiben leer.</li>
+  <li>Perfekt gibt es nicht: <strong>Jede ehrlich ausgefüllte Zeile hilft.</strong> Ein vergessener Tag ist kein Beinbruch — am nächsten Tag weitermachen, nichts aus dem Gedächtnis nachtragen. Lieber eine Lücke als eine geschätzte Uhrzeit.</li>
+</ol>
+
+<table class="erfassung">
+  <colgroup>
+    <col style="width:11mm"><col style="width:11mm"><col style="width:38mm"><col style="width:26mm"><col style="width:20mm"><col style="width:12mm"><col>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Start<br>(Check-in)</th>
+      <th>Ende<br>(Check-in)</th>
+      <th>Vorgang</th>
+      <th>Gasttyp<br>(nur Check-in)</th>
+      <th>Musste jemand<br>da sein?</th>
+      <th>nach-<br>träglich</th>
+      <th>Besonderheit (z.&nbsp;B. Sprache, Portal-Sonderfall, Technik)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+    <tr><td>__:__</td><td>__:__</td><td class="kuerzel">☐C ☐S ☐M ☐B ☐St ☐So</td><td class="kuerzel">☐E ☐P ☐F ☐G</td><td class="kuerzel">☐ ja ☐ nein</td><td>☐</td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="fuss">
+  <div>
+    <strong>Bitte keine Namen oder Buchungsnummern notieren</strong> — die Blätter werden ausgewertet und aufbewahrt.
+    Jeden <strong>Samstag</strong> ein Handyfoto aller Blätter der Woche an <strong>Qays</strong> schicken (vereinbarter Kanal); Blätter danach aufheben, nicht wegwerfen.
+    Zeitraum: <strong>Mo 24.08. – So 20.09.2026</strong>.
+  </div>
+  <div class="rechts">
+    Blatt ____ von ____<br>
+    Vorlage v1-2026-08-09 · Rückfragen: Qays
+  </div>
+</div>
+
+</body>
+</html>

@@ -52,9 +52,22 @@ User-Entscheide dazu stehen in der Projektquelle § 4.
 2. **R1-Kandidaten:** (a) MKT-FUND-Kickoff — USP/Portfolio-Erweiterung
    auf größere Häuser + Persona-Validierung (bestimmt den Kanalmix);
    (b) MKT-MARKE — Naming-Sprint vorbereiten (Kriterienkatalog,
-   Markenrecherche-Verfahren; Recherche auch für den BESTANDsnamen);
+   Markenrecherche-Verfahren; ⚠️ es existiert für KEINEN Namen eine
+   Recherche; ⚠️ Everlast-§11-Warnung: Marken-Assets vor/außerhalb
+   der Everlast-Zusammenarbeit ab 18.09. — `zentrale\namensentscheid.md`);
    (c) MKT-BELEG — Baseline-Messplan für die Pilotobjekte VOR dem
    PMS-Livegang (Ende September, nicht nachholbar).
+   **Pflicht-Input für alle R1-Stränge: die drei Extraktionsberichte
+   `protokolle\R00-extraktion-*.md`** (Positionierung/Fassung 6,
+   Wettbewerb, Pricing-Benchmarks, Portfolio-Module, Kanäle,
+   Case-Study-Rohstoff, Website-Ist inkl. Referenz-Zusagen-Pflicht).
+5. **Blueprint-Arbeitsauftrag (aus Extraktion C):** zwei neue Bausteine
+   `aussenkorrespondenz` + `freigabe-vorlagen` aus den firzlaff-Skills
+   `anbieter-anfrage`/`freigabevorlage-kayhan` entkundenspezifiziert
+   bauen (frischer Agent liest die QUELL-Skills, nicht die Verdichtung),
+   in marketing aktivieren (`freigabe-vorlagen` auch zentrale); dazu
+   Baustein-Ergänzungen D1/D3–D6 + tagesstart-Nachzug D7 + Assets
+   E1–E3 (Partnerschafts-Baustein, Fassung-6-Kanon, Kayhan-Profil).
 3. **Kleinposten:** Domain-Inventur (Cloudflare-/Registrar-Dashboard mit
    dem User auslesen — er weiß den Bestand nicht auswendig).
 4. ~~Kapazitätsdeckel-Entscheid~~ ✅ ENTSCHIEDEN 09.08. (E8): kein

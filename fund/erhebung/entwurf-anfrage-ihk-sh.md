@@ -11,9 +11,12 @@
 > ohne Quellvermerk). Dann entscheiden, ob die Anfrage an die
 > Arbeitsgemeinschaft oder direkt an das Nachfolge-Referat der
 > zuständigen Kammer geht.
-> **⚠️ Vor Versand bestätigen (Prüfbefund P5):** Die Aussage
-> „Pilotbetriebe in Schleswig-Holstein" ist im Marketing-Repo nicht
-> standort-belegt — wie im DEHOGA-Entwurf, ggf. umformulieren.
+> **✅ P5 aufgelöst (Leitsession-Review 09.08.2026):** Alle drei
+> Pilotobjekte sind repo-belegt in Neumünster und Kiel (Extraktion
+> A/A8; `beleg/baseline-messplan.md` § 2) — beide Städte liegen in
+> Schleswig-Holstein. Formulierung bleibt. Offen bleibt nur die
+> Kammer-Zuständigkeit (P6, hängt am Firmensitz — User-Klärung vor
+> Versand).
 > **Sprache:** Deutsch (Sitz DE). **Erstellt:** 09.08.2026, Session
 > R02-B. Bezug: `strang2-strukturdaten.md` (N1/N2, § 4).
 

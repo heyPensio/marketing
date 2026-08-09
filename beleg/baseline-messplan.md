@@ -25,12 +25,22 @@
 >    freigegeben (Form/Datum dieser Betreiber-Freigabe: mündlich
 >    vorab laut User — bei BELEG2-Referenzvereinbarung schriftlich
 >    mit absichern).
-> 2. **Die Aufwertungs-Sperre bleibt unverändert:** Schätzwerte werden
->    in Case Study/Sales-Deck nie als „gemessen" ausgewiesen;
->    Status-Symbole erben von der schwächsten Prämisse. Damit steigt
->    das Gewicht der **Systemauszüge** (Dienstpläne, HS/3-/DIRS21-/
->    OTA-Historie) — H-4 (Altdaten-Sicherung) wird zur wichtigsten
->    Einzelmaßnahme dieses Plans.
+> 2. **Beleg-Typ-Führung intern unverändert** (Schätzwert = Selbst-
+>    auskunft, L-04-Vermerk am Wert). **⚠️ Offener Dissens zur
+>    AUSSEN-Formulierung (Nachtrag 2, 09.08.2026):** Der User hat nach
+>    der Freigabe entschieden, Vorher-Werte in Case Study/Sales-Deck
+>    als „gemessen" auszuweisen („und dennoch ich bleibe dabei …
+>    im Gespräch kann ich sehr wohl darauf antworten wie gemessen
+>    wurde"). Die Leitsession hat UWG-/Glaubwürdigkeitsrisiko benannt
+>    und erstellt ihrerseits keine Außentexte, die Schätzwerte als
+>    Messwerte deklarieren — die endgültige Formulierung fällt beim
+>    Bau von BELEG4/HANDEL2 (~Oktober) am dann realen Datenbestand.
+>    Bis dahin gilt beidseitig: **echte Messsubstanz maximieren**,
+>    damit die Frage möglichst gegenstandslos wird — Gewicht auf
+>    **Systemauszügen** (Dienstpläne, HS/3-/DIRS21-/OTA-Historie);
+>    H-4 (Altdaten-Sicherung) ist die wichtigste Einzelmaßnahme
+>    dieses Plans; die Nachher-Seite entsteht ohnehin als echte
+>    Systemmessung.
 > 3. **BM-4 und BM-5 werden keine eigenen Strichlisten**, sondern
 >    Schätzfragen im Briefing-Interview (Folge der Vorgabe; die
 >    Options-Beschreibungen unten bleiben als Ursprungsstand stehen).

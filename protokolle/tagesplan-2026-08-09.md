@@ -114,6 +114,30 @@ Freitagmorgen ist der heutige MKT-Block (1 Arbeits-Session + Review +
 Debrief) unkritisch; kein Grund, R1 zu stauchen. Die Anzeige misst nur
 DIESE Maschine — Verbräuche anderer Geräte/claude.ai kämen obendrauf.
 
+## Fortschreibung: R2 (13:47, User-bestätigt)
+
+**R1 geschlossen:** Abschlussmeldung R01-A · Review beide Richtungen ·
+Debrief `b9a8806` · Gerüst-Nachzug `897292e` · danach **E10: FUND1
+VERABSCHIEDET** (`41dec74`). Kurzcheck: Sonntag, nur Innen-Stränge;
+Kontingent-Ablesung 12:46 (29 %/41 % Fable) — kein neuer Stand
+durchgegeben; außerhalb nichts passiert (User-Zuruf).
+
+| Session | Rolle | Aufgabe | Modell | Exklusiv | Scope |
+|---|---|---|---|---|---|
+| R02-A | Yasopp | BELEG1-Baseline-Messplan (Ist-Stand geprüft: existiert nirgends, auch nicht im heypensio-Repo — nur Methodik-Baselines) | Fable 5 | keine | `beleg/` (neu) + `protokolle/R02-A-*.md` |
+| R02-B | Lucky Roux | FUND2-Erhebung Strang 2: öffentliche Struktur-/Nachfolgedaten; Anfrage-ENTWÜRFE als Dateien, KEIN Versand | Fable 5 | keine (Web lesend) | `fund/erhebung/` (neu) + `protokolle/R02-B-*.md` |
+
+**FUND2-Vorlage-Punkte (Plan § 7) — Leitsession-Entscheid 13:47:**
+Zuteilung nur Strang 2 (öffentlich/warm, Rechtsmatrix nicht nötig) ·
+Kayhan-Gespräch = User-Handgriff (Terminierung offen) · Apaleo-Frage
+wartet auf Faden-Stand-Prüfung (heypensio) · Kaltkontakte gesperrt bis
+HANDEL-Rechtsmatrix.
+
+**PROGNOSE spätere Blöcke:** MARKE1-Vorbereitung (Kriterienkatalog +
+Recherche-Verfahren; Pflicht-Input `zentrale\namensentscheid.md`,
+Everlast-§11-Anker 18.09.) — bewusst nicht dritter Parallel-Strang
+(Kontingent-Schonung bei 41 % Fable-Woche).
+
 ## Übergabe-Block (bei Leitsession-Neustart füllen)
 
 *(leer — wird vor einem Blockwechsel-Neustart gefüllt: Session-Stand,

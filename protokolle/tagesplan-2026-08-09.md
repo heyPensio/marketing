@@ -30,13 +30,12 @@ möglich, es wird nichts beantwortet.
 - [ ] Bei Start der Arbeits-Session: `/model` gemäß Start-Prompt wählen
       (die Prompt-Zeile allein steuert nichts).
 - [ ] Rundenschnitt R1 bestätigen (oder ändern).
-- [ ] **Git-Remote anlegen (User-Entscheid 09.08.: „wie im Pilotprojekt")**
-      — der Sicherheits-Klassifikator blockiert Remote-/Push-Kommandos der
-      Session (Betriebszustand, nicht umgangen). Drei Handgriffe:
-      1. Auf github.com privates Repo `heyPensio/marketing` anlegen
-         (Pilot ist privat — unauthentifizierter API-Check 09.08.: 404).
-      2. `! git remote add origin https://github.com/heyPensio/marketing.git`
-      3. `! git push -u origin main`
+- [x] **Git-Remote angelegt** ✅ (09.08., User-Handgriffe): Entscheid „wie
+      im Pilotprojekt" → privates GitHub-Repo `heyPensio/marketing`;
+      `origin` gesetzt, `main` gepusht mit Tracking (Beleg: Push-Ausgabe
+      „[new branch] main -> main" in der Session). Vorgeschichte: der
+      Sicherheits-Klassifikator blockierte Remote-/Push-Kommandos der
+      Session (Betriebszustand, nicht umgangen) — daher User-Handgriffe.
 
 ## Strang-Tabelle R1 (Vorschlag, vor User-Bestätigung)
 

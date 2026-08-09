@@ -30,7 +30,8 @@ Störung des Rasters.
 - **H-A „Wirte-These":** Entscheider ist der ~58-jährige Inhaber
   selbst. Herkunft: CMO-Bericht der Planprüfung (dort als Annahme für
   die Kanal-Rangfolge gesetzt, z. B. „Der 58-jährige Betreiber einer
-  15-Zimmer-Pension in Schleswig-Holstein ist [auf LinkedIn] nicht").
+  15-Zimmer-Pension in Schleswig-Holstein ist [auf LinkedIn] nicht,
+  oder nur mit Karteileiche-Profil").
   **Der User hat diese Annahme ausdrücklich als unvalidiert markiert**
   (Planprüfung, Disposition: „Die ‚58-jährige-Pensionswirte'-Annahme
   … ist selbst unvalidiert"); die Altersangabe ist eine
@@ -57,6 +58,19 @@ Anlass trifft (Alt-PMS-Nutzerlisten, Verbands-Warnmeldungen), nicht der,
 der die Person trifft. Jeder Erhebungsstrang stellt deshalb neben der
 Personen-Frage auch die Anlass-Frage („Was war der Auslöser der letzten
 Technik-Investition?").
+
+**Zweite Gegenprobe — Problem-Fit größerer Häuser (Prüfer-Befund 5):**
+Die Planprüfung (Bericht 1, Prämisse 3) trägt die dokumentierte
+Gegenthese, größere Häuser hätten eine bemannte Rezeption und damit
+strukturell schwächeren Problem-Fit — der dokumentierte Kern-Schmerz
+des Kernsegments ist die Rezeptionsbindung („Kayhan ist faktisch an die
+Rezeption gefesselt", Quelle Extraktion A/A8; Gegenstück A/A13
+„Ortsunabhängigkeit statt Personalersatz"). Für H-C wird deshalb in
+JEDEM Strang neben „Wer entscheidet?" auch erhoben: **„Existiert der
+Schmerz dort überhaupt — und in welcher Form?"** (z. B.
+Nachtabdeckung, Personalkosten-Druck, Upselling statt Entlastung).
+Ein Befund „Direktoren erreichbar, aber Problem-Fit schwach" wäre für
+den Kanalmix wichtiger als die Erreichbarkeitsfrage.
 
 ## 2. Warum es zählt: Befund → Kanalmix-Konsequenz
 
@@ -100,11 +114,22 @@ Bausteine:
    · Was war bei ihm der Auslöser (HS/3-Ende? DIRS21-Schmerz?) · Wen
    würde er uns vorstellen? (Übergang Referenz-/Empfehlungsmechanik —
    Doppelnutzen mit MKT-AKQ, aber getrennt dokumentieren.)
+   ⚠️ **Befangenheits-Vorbehalt (Prüfer-Befund 4):** Kayhan wird
+   externer Berater von heyPensio auf Rechnung und ist Cousin von Qays
+   (Quelle Extraktion A/A7) — als Primärquelle über Entscheidungswege
+   und als Empfehlungsgeber ist er strukturell nicht neutral; seine
+   Aussagen tragen denselben Selbstauskunfts-/Interessen-Vermerk wie
+   Anbieter-Auskünfte in Strang 3 und werden im Befund entsprechend
+   gekennzeichnet.
    ⚠️ Firmierungs-Kontext für die Auswertung: HANSE mbH hat ZWEI GF
    (Husnia Rasuly-Mardanzai UND Kayhan Rasuly, Quelle Extraktion
    A/B7) — schon der eigene Pilot ist also KEIN
    Ein-Personen-Entscheider-Fall; das ist ein erster realer
-   Datenpunkt für Mischformen.
+   Datenpunkt für Mischformen. Ein zweiter Datenpunkt aus derselben
+   Quelle: das dritte Pilotobjekt läuft über eine eigene Vertragspartei
+   (Hostel via LEANE, Leane Mardanzai; Quelle Extraktion A/B4) — auch
+   diese Entscheider-Konstellation in Strang 1 miterheben
+   (Prüfer-Randnotiz Kategorie 1).
 2. **Betreiber-Umfeld Neumünster/Kiel:** 3–5 Gespräche mit
    Kollegen-Betrieben aus Kayhans Empfehlungsradius (Warm-Intros, s.
    Rechts-Gate § 5). Gleicher Fragenkern, zusätzlich: Alter/Generation
@@ -210,8 +235,9 @@ Bausteine:
 ## 5. Rechts-Gate für Außenkontakte
 
 Die **Kanal-Rechtsmatrix (UWG § 7) ist ein MKT-HANDEL-Deliverable und
-existiert noch nicht** (Stand 09.08.2026, Projektquelle § 2 MKT-HANDEL:
-vorgesehen „vor dem Zielkundenlisten-Bau"). Bis sie steht, gilt für
+existiert noch nicht** (Stand 09.08.2026; vorgesehen „vor dem
+Zielkundenlisten-Bau" — Wortlaut CLAUDE.md Strang-Tabelle MKT-HANDEL,
+sinngleich Projektquelle § 2 MKT-HANDEL). Bis sie steht, gilt für
 diesen Plan die konservative Linie — wir müssen die Zulässigkeit jedes
 Erstkontakts belegen können, bevor er stattfindet:
 

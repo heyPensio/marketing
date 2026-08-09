@@ -44,9 +44,11 @@ Die verbindliche Selbstbeschreibung ist die **„Fassung 6"** — ein
 erprobter, real versendeter Außentext (an Apaleo, Nicole Habernig;
 **versendet 03.08.2026, 20:57 MESZ**, Msg `19fc8fc8ebcdd92f`; Quelle:
 `heypensio\firzlaff\apaleo-config\call-apaleo-2026-08-03.md` § 8
-Punkt 5, am 09.08.2026 an der Rohquelle byte-gleich gegengelesen;
-die Datumsangabe „versendet 04.08." in Extraktionsbericht A/A2 ist
-damit als Drift belegt). Wortlaut:
+Punkt 5, am 09.08.2026 an der Rohquelle auf Wortlaut-Ebene
+gegengelesen — ein Skript-Byte-Vergleich nach B3-Muster
+(Apostroph-Falle) steht aus, s. § 7.8; die Datumsangabe „versendet
+04.08." in Extraktionsbericht A/A2 ist durch die Rohquelle als Drift
+belegt). Wortlaut:
 
 > „heyPensio ist keine einzelne Check-in-Lösung. Wir digitalisieren
 > inhabergeführte Häuser einmal komplett, entlang der gesamten Guest
@@ -63,15 +65,20 @@ damit als Drift belegt). Wortlaut:
 > sondern als Partner, der sie danach in jedes weitere Haus trägt, das
 > wir auf Apaleo bringen."
 
-Entstehungs-Vorbehalt: Fassung 6 entstand nach der User-Rüge „heyPensio
-zu flach dargestellt" (Fassung 5→6); die Verengung auf
-„Self-Check-in-Lösung" ist seitdem verboten (Quelle: Extraktion A/A2).
-**Dieselbe zu flache Selbstbeschreibung steckt noch im
-Partnerschafts-Baustein v2** (`heypensio\firzlaff\anfragen-baustein-partnerschaft.md`,
-Quelle Extraktion B/F5.1) — der v3-Rewrite ist ein eigenes Arbeitspaket
-(Nachdisposition E1 aus Extraktion C), nicht dieses Papier; bis dahin
-trägt v2 zusätzlich die ALTE, engere Zielgruppen-Formulierung
-(Vorwärtsverweis-Fall, Quelle Extraktion A/A3).
+Entstehungs-Vorbehalt: Fassung 6 entstand nach einer User-Rüge
+(Fassung 5→6) — Wortlaut je nach Quelle: „heyPensio zu flach
+dargestellt" (Rohquelle `call-apaleo-2026-08-03.md`, Kasten „Änderung
+Fassung 5→6", am 09.08. dort gegengelesen) bzw. verdichtet „viel zu
+flach" (Extraktion A/A2); die Verengung auf „Self-Check-in-Lösung" ist
+seitdem verboten (A/A2). **Dieselbe zu flache Selbstbeschreibung steckt
+noch im Partnerschafts-Baustein v2**
+(`heypensio\firzlaff\anfragen-baustein-partnerschaft.md`, Quelle
+Extraktion B/F5.1) — **ein v3-Kandidat liegt bereits beim User in
+Prüfung** (Quelle Extraktion A/A2, B/F5.1); der v3-Rewrite als
+Arbeitspaket (Nachdisposition E1 aus Extraktion C) setzt darauf auf und
+wird nicht doppelt begonnen. Bis dahin trägt v2 zusätzlich die ALTE,
+engere Zielgruppen-Formulierung (Vorwärtsverweis-Fall, Quelle
+Extraktion A/A3).
 
 Tragende Doktrin hinter dem Text (Quelle Extraktion A/C5, wörtlich):
 „Jeffrey ersetzt nicht den Gastgeber, sondern entlastet ihn. Automation
@@ -273,6 +280,10 @@ gebaut, nicht „geplant für Q…"):
 - Mobiler Concierge (QR/Chat), FAQ-/Concierge-Intents — in Arbeit
   (Jeffrey Intent 2/3, A11).
 - Room-Rack-App — gebaut, E2E (A11).
+- Rezeptions-Tablet · Pre-Stay — in A11 als geparkte/geplante Module
+  gelistet (ohne näheren Status; gerade diese beiden sind für die
+  Portfolio-These „größere Häuser buchen mehr Checkpoints" unten
+  einschlägig — Prüfer-Befund 3).
 - *Portfolio-Illustration Richtung größere Häuser:*
   **Wellness-Proximity-Push** (geparkt 09.08.2026, Projektquelle § 5):
   eingecheckter Gast läuft am Wellnessbereich vorbei, ein
@@ -286,6 +297,8 @@ gebaut, nicht „geplant für Q…"):
 **Checkpoint Nachbetreuung:**
 - Aftersales-Versand — Konzept vorhanden (C2), nicht gebaut (A11).
 - Bewertungs-Modul — geparkt (R25, A11).
+- Lost&Found — in A11 als geparktes/geplantes Modul gelistet (ohne
+  näheren Status).
 
 **Querschnitt / Betrieb:**
 - Betreuter Betrieb mit Gastgeber-Eskalation (Kern des
@@ -295,9 +308,16 @@ gebaut, nicht „geplant für Q…"):
   Revenue-Management als Partner-Modul (RoomPriceGenie/happyhotel)
   denkbar (A11).
 - Förder-Begleitung — aktiv gelebt, Geltungs-Vorbehalte s. § 4.5.
+- Gastprofil-Merge — in A11 als geparktes/geplantes Modul gelistet
+  (ohne näheren Status).
 - Kunden-Onboarding als definierter Prozess; Multi-Kunden-Architektur
   („Hardware & Plattform teilen, Daten & Laufzeit pro Kunde
   isolieren", Quelle Extraktion A/B6) als Skalierungs-Fundament.
+
+*Vollständigkeits-Vermerk: Die Modulliste oben bildet alle namentlich
+in A/A11 genannten Positionen ab; A11 selbst endet mit „u. a." und ist
+damit nicht abschließend — weitere Module sind an der Projektquelle des
+heypensio-Repos zu erheben, nicht hier zu erraten.*
 
 **Portfolio-Aussage für größere Häuser (Entwurfs-These, zur
 Verabschiedung):** Das Portfolio skaliert über die Modul-Achse, nicht
@@ -324,10 +344,19 @@ wird in MKT-HANDEL ausgearbeitet, nicht hier.
 6. **Kern-Wording auf Basis dieses Papiers**; Weg: FUND4 (dort auch
    Sprachentscheid DE/EN und Zielzahl).
 7. **Everlast-§-11-Randbedingung für alle Marken-Assets:** Logos,
-   Content und Webpräsenzen, die „in der Zusammenarbeit" (Beginn
-   18.09.2026) entstehen, darf Everlast unentgeltlich veröffentlichen
-   (Quelle Extraktion B/F1.2). Dieses Papier entsteht davor; für
-   spätere Assets gehört die Frage in MKT-MARKE.
+   Content und Webpräsenzen, die „in der Zusammenarbeit" entstehen,
+   darf Everlast unentgeltlich veröffentlichen (Quelle Extraktion
+   B/F1.2; die Quelle warnt selbst, die neue Marke sei „ggf. ‚in der
+   Zusammenarbeit' entstanden"). Dieses Papier entsteht vor dem
+   Vertragsbeginn 18.09.2026 — **die Lesart „vor Beginn entstanden =
+   nicht erfasst" ist eine zeitliche AGB-Auslegung dieser Session,
+   juristisch nicht geprüft** (Prüfer-Befund 8); für spätere Assets
+   und die Klärung der Auslegung gehört die Frage in MKT-MARKE.
+8. **Byte-Vergleich des Fassung-6-Kanons** (B3-Muster, Apostroph-
+   Falle): Wortlaut-Gegenlesung ist erfolgt (§ 2), der
+   Skript-Byte-Vergleich steht aus; Weg: kleines Vergleichsskript beim
+   Anlegen der Kanon-Versionsführung (Nachdisposition E2,
+   Extraktion C).
 
 *Erstellt: 09.08.2026, Session R01-A (Ben Beckman). Quellen wie im
 Kopf; Prüfprotokoll: `protokolle/R01-A-pruefer.md`.*

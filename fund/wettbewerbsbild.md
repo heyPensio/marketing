@@ -36,7 +36,60 @@ BYTE/ROH beschreiben den **Leseweg**, SELBST/DRITT/REVIEW/REGISTER die
 im Rohtext gelesene Anbieter-Selbstauskunft" — verlässlich zitiert, aber
 inhaltlich weiterhin eine Behauptung des Anbieters.
 
-**Vier Geltungsgrenzen, die das ganze Papier tragen:**
+### ⚠️ 0.0 Die wichtigste Geltungsgrenze: Dieses Papier misst EIN Segment
+
+**Erhoben wurde ausschließlich der Markt für Self-Check-in-, Kiosk- und
+Guest-Journey-TECHNIK.** Das war der Zuschnitt des Alt-Dossiers vom
+20.07.2026 (eine Kartierung des Apaleo App Store) und ist damit auch der
+Zuschnitt dieser Aktualisierung. **Wer dieses Papier als „unser
+Wettbewerbsbild" liest, liest es falsch** — es beantwortet die Frage
+„Wer baut dieselbe Technik?", nicht die Frage „Wer verkauft demselben
+Hotelier dieselbe Leistung?".
+
+**Nicht erhoben** und damit in diesem Papier **nicht enthalten**:
+Hotel-Unternehmensberatung · Hotel-Marketing-Agenturen · Revenue-/
+Zahlenanalyse-Beratung · Expansions- und Nachfolgeberatung ·
+Operations-/Prozessberatung · Interimsmanagement · Verbands- und
+Kammer-nahe Beratungsangebote (DEHOGA, IHK) · Steuer-/
+Betriebswirtschaftsberatung mit Hotellerie-Schwerpunkt.
+
+**Warum das zählt:** Ein Bewertungskriterium gilt für alle Kandidaten —
+ändert sich der Zuschnitt des eigenen Angebots, ist der Bestand
+rückwirkend zu prüfen. Mindestens ein bereits eingeordneter Anbieter
+kippt dabei die Seite: **Brandnamic GmbH** (Brixen/Meran/München) wurde
+am 28.07.2026 im heypensio-Repo geprüft und ausdrücklich als **„kein
+Wettbewerber, möglicher Kanal"** eingestuft — Begründung wörtlich:
+„Kein Self-Check-in, kein Kiosk, keine Meldescheine … Keine
+Überschneidung mit unserem Produkt"
+(`heypensio\firzlaff\hardware\nachfassrunde-2026-07-28.md`). Diese
+Einstufung wurde **an der engen Produktdefinition gemessen**. An einem
+Portfolio, das Hotelmarketing und Beratung einschließt, ist derselbe
+Anbieter (Branding, Websites, SEO/SEA, Revenue Management, Beratung für
+inhabergeführte DACH-Häuser) **Wettbewerber und Kanal zugleich**.
+Dasselbe gilt sinngemäß für **Everlast** (das eigene
+Agenturaufbau-Programm ab 18.09.2026) und für **Smart Host** (DE,
+399 €/M, verkauft wörtlich „From Data to Regulars" — Zahlenanalyse/
+Stammgast, im Alt-Dossier nur als Modul-Überlappung geführt).
+
+**Beleg-Stand zum Portfolio-Zuschnitt (09.08.2026):** Das verabschiedete
+Positionierungspapier führt in seinem Dienstleistungsportfolio
+**ausschließlich** Bausteine entlang der Guest Journey plus PMS-Einführung,
+Betrieb und Förder-Begleitung; Beratungsleistungen wie Zahlenanalyse,
+Expansion, Nachfolge oder Operations kommen dort **nicht** vor. Kayhan
+ist im Bestand als **externer Berater von heyPensio auf Rechnung**
+dokumentiert (Projektquelle MKT, R1-Befund 09.08.2026) — allerdings
+ausschließlich unter dem Gesichtspunkt der **Befangenheit/Offenlegung**
+bei Referenzen; **der fachliche Umfang seiner Beratungsrolle ist
+nirgends dokumentiert**. „Nachfolge" erscheint im Marketing-Repo bisher
+nur als **Zielgruppen-These** (der Nachfolger als Käufer), nicht als
+eigene Leistung.
+→ **Offener Punkt P12 (§ 7):** Entweder die Papiere hinken dem
+tatsächlichen Angebot hinterher, oder der breitere Zuschnitt ist ein
+noch nicht verabschiedeter Entscheid. Beides ist eine Frage für
+MKT-FUND/Leitsession, nicht für dieses Papier — und beides macht eine
+**zweite Wettbewerbsachse** nötig.
+
+**Vier weitere Geltungsgrenzen, die das ganze Papier tragen:**
 
 1. **Kanal Browser fehlte.** Die Chrome-Automation war in dieser Runde
    einer anderen Session zugeteilt. Alles, was nur über einen
@@ -112,8 +165,10 @@ Support-Qualität" ist mit dem verfügbaren Material **nicht belegbar**
 (§ 3.1). Keine einzige Review aus 2026 war einsehbar.
 
 **K6 — Der Apaleo Store hat sich bewegt, aber nicht gegen uns.** 267
-eindeutige Apps in 350 Listungen (BYTE, Zählweg § 4.1). Kein einziger
-der 36 im Juli namentlich geführten Anbieter ist verschwunden. Die
+eindeutige Apps in 350 Listungen (BYTE, Zählweg § 4.1). Von 69 im
+Alt-Dossier namentlich geführten Anbietern/Apps sind **69 weiterhin
+gelistet** — kein Marktaustritt (Auswahlkriterium der Prüfliste in
+§ 4.1). Die
 Kuration „For independent hotels" verspricht weiterhin wörtlich
 „contactless check-in & out" und enthält weiterhin **keine einzige
 Check-in-App** — Juli-Befund heute wortwörtlich re-bestätigt (§ 4.3).
@@ -137,8 +192,9 @@ weiter (Belege in § 4):
 - Apaleo besetzt die Agenten-Schicht selbst: der „Apaleo Agent Hub"
   führt heute 18 Apps, darunter drei First-Party-Bausteine (MCP Server,
   Open Source Trace Agent, Room Allocation Agent) (BYTE).
-- Alle namentlich bekannten Wettbewerber sind weiter gelistet — es gibt
-  **keinen Marktaustritt** im beobachteten Feld.
+- Alle 69 aus dem Alt-Dossier in die Prüfliste übernommenen Anbieter/
+  Apps sind weiter gelistet — **kein Marktaustritt** im beobachteten
+  Feld (Zählweg und Auswahlkriterium § 4.1).
 - Straivs Preisband im Store (2,50 / 1,00 / 1,00 €/Zi/M) ist unverändert
   (BYTE, § 3.1).
 - Das Voice-KI-Preisband „139–799 €/M bzw. 2–6 €/Zi/M" ist re-bestätigt
@@ -605,27 +661,37 @@ Alt-Dossier nannte „>300 App-Listungen"; heute 350 — **der Größenordnung
 nach vereinbar, aber nicht scope-gleich**, weil das Juli-Zählverfahren
 nicht dokumentiert ist.
 
-**Positivkontrolle der Vollständigkeit:** Alle **36** im Alt-Dossier
-namentlich geführten Anbieter/Apps wurden im heutigen Inventar
-wiedergefunden (36/36) — darunter keyota, Roommatik, SibilAI, FRIVA,
-vukee, detco, Simultem, Grman, Ovimore, Hotelworld AI. **Kein
-Marktaustritt.**
+**Kein Marktaustritt — Zählweg und Auswahlkriterium.** Aus dem
+Alt-Dossier wurden **69 namentlich geführte Anbieter bzw. Apps** in eine
+Prüfliste übernommen (Auswahlkriterium: alle Namen, die das Dossier in
+seinen Cluster-Tabellen, im Werkzeugkasten, in der Beobachtungsliste
+oder in den Nachträgen nennt). **69 von 69 wurden im heutigen Inventar
+wiedergefunden — keiner fehlt.** Das ist zugleich die Positivkontrolle
+dafür, dass das Inventar dieses Papiers den bekannten Markt erreicht.
 
-**Im Juli-Dossier namentlich nicht erwähnt** sind heute **26** Apps der
-kernrelevanten Unterkategorien (Kiosk & self-service check-in · Digital
-Guest Journey · Conversational AI · Mobile key & keyless entry · Door
-locks · Legal environment · Identity management; Grundgesamtheit dieser
-Unterkategorien: 83 Apps). ⚠️ **Das heißt nicht „26 Neuzugänge":** Das
-Alt-Dossier ist eine Synthese, die nie alle Apps benannt hat (§ 0.4).
-Belastbar ist nur die Formulierung „im Alt-Dossier nicht benannt".
-*Zählweg:* Namens-/Firmenabgleich gegen den Volltext des Alt-Dossiers —
-ein Fuzzy-Abgleich, der bei sehr kurzen Namen Fehltreffer erzeugen kann.
-Darunter u. a.: Akia (US), Autohost (CA), BlueID (DE), Häfele-DIALOCK
-(DE), Guestkey by Hotek (NL), Portal (AU), Tuya Hotel (US), PAYJIM (DE),
-UMNICORN (DE), Runnr.ai (NL), Venli (DK), MasterMind·Tech (ES),
-Samsotech (UK), AdriaScan (HR), Bowo (FR), Jana Concierge (FR), Guestnet
-(IT), MAIC OS (LU), TigerTMS (UK), StayFi (US), Breezeway (US), HKeeper
-(US), aleno (CH), 365id (SE), BedayaConnect (CH), Voxel/Amadeus (ES).
+**Wie viele Apps im Alt-Dossier gar nicht vorkommen, lässt sich nicht
+seriös beziffern.** Ein automatischer Namensabgleich gegen den Volltext
+des Alt-Dossiers liefert je nach Strenge der Übereinstimmung zwischen
+26 und 48 Treffer — er erzeugt Fehler in **beide** Richtungen: „BE-A"
+schlägt fälschlich an, weil die Zeichenfolge in „Repo-Freiga**be-A**udit"
+steckt; „Una by Polydom" wird fälschlich als neu gewertet, weil das
+Dossier den Anbieter nur „Una" nennt. **Eine Zahl, die je nach Werkzeug
+um den Faktor zwei springt, ist ein Werkzeugartefakt und kein Befund** —
+sie steht deshalb hier nicht.
+
+Belastbar ist stattdessen die folgende **einzeln gegengeprüfte Liste**
+(je Name eine Volltextsuche im Alt-Dossier, Fehltreffer von Hand
+aufgelöst): Im Alt-Dossier kommen **nicht** vor: Akia (US) · Autohost
+(CA) · 365id (SE) · AdriaScan (HR) · Samsotech (UK) · Delta ID (ES) ·
+BlueID (DE) · Häfele-DIALOCK (DE) · Guestkey by Hotek (NL) · Portal
+(AU) · Tuya Hotel (US) · PAYJIM (DE) · UMNICORN (DE) · Runnr.ai (NL) ·
+Venli (DK) · MasterMind·Tech (ES) · BE-A / FLAE ROBOTICS (CZ) · Bowo
+(FR) · Jana Concierge (FR) · Guestnet (IT) · MAIC OS (LU) · TigerTMS
+(UK) · StayFi (US) · Breezeway (US) · HKeeper (US) · aleno (CH) ·
+BedayaConnect (CH) · Voxel/Amadeus (ES) · Hotel Manager (UK).
+⚠️ **Das heißt nicht „29 Neuzugänge":** Das Alt-Dossier ist eine
+Synthese, die nie alle Apps benannt hat (§ 0, Geltungsgrenze 4). Belastbar ist
+ausschließlich die Formulierung „im Alt-Dossier nicht benannt".
 
 ### 4.2 Kiosk-Feld: 10 Apps, davon zwei deutsche
 
@@ -790,9 +856,19 @@ LIKE MAGIC (§ 3.3) ist Voice je mit Positivkontrolle negativ geprüft.
 **Widerlegt ist die Reichweite des Satzes.** Der angrenzende
 Kiosk-Industrie-Ring bewirbt Voice-am-Gerät ausdrücklich für
 Hotel-Check-in (alle SELBST, ohne Einsatzbeleg):
-- **Wavetec** (Kiosk-Hersteller): „Hotels use voice kiosks for check-in,
+- **Wavetec** (Kiosk-Hersteller) — **BYTE, von dieser Session an der
+  Quelle nachgelesen** (wavetec.com/all/voice-enabled-kiosks/,
+  09.08.2026), wörtlich: „Hotels use voice kiosks for check-in,
   concierge services, and wayfinding. Guests can say ‚I'm checking in'
-  … and receive immediate assistance."
+  or ‚Where is the fitness centre?' and receive immediate assistance.
+  This is especially valuable for international travellers who may not
+  be comfortable with English text on a screen."
+  ⚠️ **Scope der Fundstelle:** Das Wort „Hotel" kommt auf der ganzen
+  Seite **genau einmal** vor (Zählweg: Volltextsuche über die Rohdatei;
+  „voice" 130 Treffer). Es handelt sich um einen Beispielsatz auf einer
+  allgemeinen Kiosk-Produktseite, **nicht um ein Hotelprodukt** — die
+  Aussage taugt als Beleg dafür, dass die Fähigkeit beworben wird, nicht
+  dafür, dass sie im Hotel eingesetzt wird.
 - **ArkX Labs** (Mikrofon-Arrays/Audio-Frontend): „Self-Service Kiosks
   at … hospitality … by using voice interaction"
 - **UneeQ / digitalhumans.com**: „Our on-premise kiosk solution places
@@ -994,6 +1070,8 @@ Nachprüfung nicht als tagesaktuell verwenden:
 | P9 | **IHA-Preferred-Partner-Liste vollständig** (Hotelverband Deutschland) — Canary sitzt dort, wer noch? | hotellerie.de | mittel — Kanal- **und** Wettbewerbsfrage |
 | P10 | **BE-A-Preismetrik klären** (30 €/Zi/M unplausibel) | Anbieterseite be-a.ai | niedrig |
 | P11 | **Straiv-Kiosk-Preise** (Juli offen, heute weiter ohne öffentliche Angabe; Straiv bietet „Finanzierungsmöglichkeiten") | ggf. über den kiosk.eu-Faden | niedrig |
+| **P12** | **Zweite Wettbewerbsachse „Beratung" fehlt vollständig** (§ 0.0): Hotel-Unternehmensberatung, Marketing-Agenturen, Revenue-/Zahlenanalyse, Expansion, Nachfolge, Operations. Vorgelagert: Ist der breitere Portfolio-Zuschnitt verabschiedet? Das Positionierungspapier kennt ihn nicht. | (1) Klärung/Nachtrag durch Leitsession + User; (2) danach eigener Erhebungslauf — die Kandidatenwege sind andere (DEHOGA/IHK-Beraterlisten, Fachmedien, Beratersuchportale), nicht der Apaleo Store | **hoch — größer als jeder Einzelposten oben** |
+| P13 | **Bestand rückwirkend gegen den breiteren Zuschnitt prüfen** — wer wurde NUR an der engen Produktdefinition aussortiert? Bekannter Fall: Brandnamic („kein Wettbewerber, möglicher Kanal", 28.07.2026) | Alt-Einstufungen im heypensio-Repo durchgehen, Kriterium neu anlegen | hoch, hängt an P12 |
 
 ---
 

@@ -1,9 +1,42 @@
 # BELEG1 — Baseline-Messplan: Vorher-Messung der drei Pilotobjekte
 
-> **Status: ENTWURF** (R02-A/Yasopp, 09.08.2026) — Freigabe durch
-> Leitsession-Review + User steht aus. Festlegungen mit Außenwirkung
-> (Betreiber-Briefing, Zusatz-Messgrößen) sind als **Optionen**
-> gekennzeichnet, nicht festgezurrt.
+> **Status: ✅ FREIGEGEBEN (H-2, User 09.08.2026)** — nach
+> Leitsession-Review (alle 10 Prüfbefunde eingearbeitet nachvollzogen).
+>
+> **Nachtrags-Kasten zur Freigabe (09.08.2026, Leitsession — der
+> darunter stehende Plantext bleibt unverändert):** Der User hat mit
+> der Freigabe eine **Realitäts-Vorgabe zur Erhebungsdisziplin**
+> gemacht (Originalwortlaut, AskUserQuestion-Antwort 09.08.2026):
+> „ich will ehrlich zu dir sein. Ich kenn Kayhan und Husnia sehr gut
+> und sie werden das tracking nicht konsequent durchziehen
+> wahrscheinlich nicht mal halbgarig wir werden da mit schätzwerten
+> arbeiten müssen können diese aber als von ihnen getätigte Angaben
+> verbuchen das ist von deren Seite so freigegeben".
+> **Konsequenzen (Leitsession-Umsetzung der Vorgabe):**
+> 1. **Zwei-Schienen-Modell:** Schiene A = Tagesblatt-Rohprotokoll als
+>    Best-Effort (jede real geführte Woche zählt, kleiner Nenner wird
+>    dokumentiert, Lücken sind erwartet und keine Planabweichung).
+>    Schiene B = **strukturiertes Schätz-Interview im
+>    Betreiber-Briefing als GLEICHBERECHTIGTE Erhebungsschiene** (je
+>    Messgröße Bandbreiten-Fragen: min/typisch/max) — nicht mehr nur
+>    Fallback. Beleg-Typ der Schiene B ist und bleibt
+>    **Selbstauskunft mit L-04-Vermerk**; die Verbuchung „als von den
+>    Betreibern getätigte Angaben" ist laut User von deren Seite
+>    freigegeben (Form/Datum dieser Betreiber-Freigabe: mündlich
+>    vorab laut User — bei BELEG2-Referenzvereinbarung schriftlich
+>    mit absichern).
+> 2. **Die Aufwertungs-Sperre bleibt unverändert:** Schätzwerte werden
+>    in Case Study/Sales-Deck nie als „gemessen" ausgewiesen;
+>    Status-Symbole erben von der schwächsten Prämisse. Damit steigt
+>    das Gewicht der **Systemauszüge** (Dienstpläne, HS/3-/DIRS21-/
+>    OTA-Historie) — H-4 (Altdaten-Sicherung) wird zur wichtigsten
+>    Einzelmaßnahme dieses Plans.
+> 3. **BM-4 und BM-5 werden keine eigenen Strichlisten**, sondern
+>    Schätzfragen im Briefing-Interview (Folge der Vorgabe; die
+>    Options-Beschreibungen unten bleiben als Ursprungsstand stehen).
+> 4. Der Interviewleitfaden (Vorlagen-Session bis 20.08.) trägt damit
+>    den Kern der Erhebung: Bandbreiten-Schätzfragen für BM-1 bis
+>    BM-5 + die Erhebungsfragen E-1 bis E-5.
 > **Prüfstand:** unabhängiger Prüfdurchgang mit
 > Verfahrens-Positivkontrolle gelaufen (`protokolle/R02-A-pruefer.md`);
 > alle 10 Befunde (1 kritisch = Positivkontrolle, 3 mittel, 6 gering)

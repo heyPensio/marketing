@@ -95,6 +95,15 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
      Leitsession-/Debrief-Commit sichten → Review lt. CLAUDE.md Regel 8
      (beide Richtungen!). Befunde als Nacharbeit zurückgeben oder — wenn
      klein und Session beendet — selbst fixen.
+     ⭐ **Lief ein Prüfer, ist der Prüfgegenstand des Reviews seine
+     BEFUNDLISTE, nicht der Reparatur-Bericht der Session:** Das
+     Prüfprotokoll selbst öffnen, Befunde je Kategorie ZÄHLEN und gegen
+     die Meldung halten — jeder Befund repariert, ausdrücklich verworfen
+     oder mit benanntem Träger. Eine Kategorie, die in der Meldung
+     nicht vorkommt, ist der Regelfall des Versickerns (nicht der
+     Ausnahmefall): 24 von 37 Befunden blieben so liegen, vier
+     Fehlerklassen reproduzierten sich eine Runde später und kosteten
+     einen ganzen Prüfzyklus. (Herkunft: MKT R6.)
    - Ausstehende Abschlussmeldungen? Beim User erfragen. **Auch
      User-Spontan-Sessions außerhalb des Rundenmodells:** solche Commits
      als eigenen Strang nachtragen und reviewen — stillschweigend
@@ -137,16 +146,25 @@ einer, beim User nachfragen statt raten:
    Ist-Stand-Prüfung als Bau formulieren. Bei Runden mit ≥ 3 Strängen
    zusätzlich EIN Prüf-Subagent mit genau einer Frage: „Welcher Strang
    behandelt etwas als neu, wozu eigener oder Dritt-Bestand existiert?"
+   **Auch seine Befunde sind DELEGIERTE Aussagen: sicherheitsrelevante
+   Merker daraus misst die Leitsession an der Quelle nach, BEVOR sie in
+   einen Prompt wandern** — eine Zuordnungs-Drift des Subagenten wurde
+   sonst zur falschen sicherheitsrelevanten Auftragsprämisse.
+   (Herkunft: heyPensio R34.)
 2. **Umgebung** — Terminal (baut + committet selbst).
-3. **Modell** — nach CLAUDE.md Regel 7, als erste Zeile in den Prompt
-   („Modell für diese Session: <X>"). Die Session verifiziert ihr
-   TATSÄCHLICHES Modell als ersten Schritt NUR per Statuszeile — die
-   Selbstauskunft des Modells ist KEIN Kanal (sie hat Abweichungen
-   erfunden). Die Prompt-Zeile steuert nichts; der wirksame Kanal ist der
+3. **Modell** — **die Wahl trifft der USER; die Leitsession empfiehlt
+   nur auf gezielte Nachfrage** (CLAUDE.md Regel 7; Herkunft: heyPensio
+   R34, User-Entscheid für alle Abteilungen). Der Prompt trägt KEINE
+   Modellvorgabe; die Strang-Tabelle dokumentiert die User-Wahl nach.
+   Die Session verifiziert ihr TATSÄCHLICHES Modell als ersten Schritt
+   NUR per Statuszeile — die Selbstauskunft des Modells ist KEIN Kanal
+   (sie hat Abweichungen erfunden); der wirksame Kanal ist der
    User-Handgriff beim Start (Abschnitt 4).
-4. **Datei-Scope** — explizite Pfade; Disjunktheit gegen ALLE laufenden
-   Sessions prüfen. Wahrheits-Kanal (Projektquelle, STATUS.md, CLAUDE.md,
-   Skills/Commands) ist NIE Teil eines Scopes.
+4. **Datei-Scope** — explizite Pfade, **jeder vor der Prompt-Ausgabe per
+   Glob existenz-geprüft** (Pfade aus dem Gedächtnis kosten die Session
+   Skript-Abbrüche; Herkunft: heyPensio R34). Disjunktheit gegen ALLE
+   laufenden Sessions prüfen. Wahrheits-Kanal (Projektquelle, STATUS.md,
+   CLAUDE.md, Skills/Commands) ist NIE Teil eines Scopes.
 5. **Exklusive Systeme** — je System immer nur EINE Session; Zuteilung
    benennen. Setzt der Auftrag System-ZUGRIFF voraus, gehört der
    ZUGANGSWEG als Vorbedingung in den Prompt — **je HANDLUNG geprüft**
@@ -208,6 +226,11 @@ einer, beim User nachfragen statt raten:
      (Herkunft: MKT R1).
      Zusatzfrage: „Welche Verfälschung hätte dein Verfahren NICHT
      gefangen?" — der Prüfweg benennt seine eigene Blindstelle.
+     **Die Verfälschung selbst muss FALSCH sein, nicht nur ungenau**
+     (eine vertretbare Variante belegt nichts), **und sie setzt an einer
+     KERN- oder sicherheitsrelevanten Aussage an**, nicht an einem
+     Tippfehler — der Widerleg-Beleg trägt dann entsprechend mehr.
+     (Herkunft: heyPensio R34, beide Sessions unabhängig.)
    - **Gegenfrage-Achse MIT benannten Kategorien:** „Welcher Aspekt fehlt
      komplett?" mit expliziten, dem GEGENSTAND angepassten Kategorien und
      Pflicht-Ergebnis je Kategorie (auch „keine Auffälligkeit") — eine
@@ -254,7 +277,10 @@ einer, beim User nachfragen statt raten:
 > (gebaut/verifiziert mit Commits+Pfaden; offen geblieben; **Nebenbefunde
 > außerhalb des Auftrags** — was dir begegnet ist, das einem anderen
 > Strang gehört; Stolpersteine/Learnings, getrennt: (i) Fallen ·
-> (ii) bewährte Muster). **Die Abschlussmeldung committest du zusätzlich
+> (ii) bewährte Muster). **Lief ein Prüfer, meldest du seine Befunde
+> kategorienweise MIT NENNER** („x von y repariert, z bewusst offen mit
+> Grund, Träger für den Rest") — nie nur die reparierten plus eine
+> Auswahl. **Die Abschlussmeldung committest du zusätzlich
 > als Datei `protokolle/R<runde>-<session>-abschluss.md`** mit Kopfzeile
 > „Token-Verbrauch: von der Session nicht erhebbar — Subagenten-Zahlen
 > soweit bekannt: …". Liefen unabhängige Prüfer, gehört ihr Protokoll
@@ -280,8 +306,15 @@ Abschlussmeldungs-Teil bekommen hat oder der User explizit einen will:
 Die fertigen Prompts als Blockquotes zum Kopieren, davor eine Zeile pro
 Session: Name · Modell · Scope-Kurzform · exklusive Systeme.
 **Über JEDEM Prompt eine sichtbare User-Handgriff-Zeile: „Vor dem
-Einfügen: in der neuen Session `/model <X>` wählen."** — das ist der
-einzige wirksame Kanal für die Modellwahl.
+Einfügen: NEUES Session-Fenster öffnen und DEIN Modell einstellen."** —
+die Modellwahl liegt beim User (Empfehlung nur auf Nachfrage), und der
+Start-Handgriff ist ihr einziger wirksamer Kanal. **„NEUES Fenster" ist
+Teil des Handgriffs:** Ein altes Session-Fenster trägt den Regel-Snapshot
+seines Starts (CLAUDE.md/Skills VOR dem letzten Debrief) und das Modell
+der alten Runde. **Und `/cost` je Arbeits-Session wird abgelesen, BEVOR
+ein Fenster geschlossen oder gecleart wird** — ein `/clear` löscht die
+Ablesbarkeit endgültig. (Herkunft: heyPensio R34, User-Versehen mit
+glimpflichem Ausgang.)
 
 **Session-Namen tragen die RUNDE:** `R03-A`, `R03-B` — nie nur `A`, `B`.
 Buchstaben nicht überspringen; übernimmt die Leitsession einen Strang,

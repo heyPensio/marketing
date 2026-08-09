@@ -2,6 +2,17 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 10.08.2026 (R6-Debrief) — R4-Block aus „Aktueller Stand"
+
+- **R4 (09.08.):** ✅ E11 Portfolio BREIT · ✅ E12 MARKE1 verabschiedet
+  (2 Deltas) · ✅ E13 Vermarktungsform (Kayhan pauschal → Postkorb;
+  Agentur-Posten „im Aufbau" ⚠️ ohne Träger; Onpage-SEO seit R5
+  ausgenommen — Papier-§ 6-Nachtrag) · ✅ Naming-Sprint Phase 1:
+  **Shortlist 10 beim User** + 4 K1-Blockierte (User-Entscheid).
+  Offen aus R4: Shortlist-Handgriffe (Gesamtschau · Diktat-Test ·
+  EN-Check) · zweite Recherche-Welle E-V4. *(R3 rotiert →
+  `STATUS-archiv.md`.)*
+
 ## Rotiert am 09.08.2026 (R5-Debrief) — R3-Block aus „Aktueller Stand"
 
 - **R3 (09.08.):** ✅ Erhebungsvorlagen v2 (`beleg/vorlagen/` — die

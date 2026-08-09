@@ -587,9 +587,31 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    **Folgeposten aus Teil B:** ⚠️ **Hamburg Digital Check —
    Antragsschluss 16.11.2026** (vorher IFB-Vorabklärung, ob
    Marketing-/Sichtbarkeitsberatung unter „Digitaler Wandel" fällt;
-   B9.4) · P15 Brandnamic-Partnerkreis (Voraussetzung jeder
-   Kanal-Entscheidung) · P19 Hotelkooperationen (Kanal- und
-   Wettbewerbsfrage) · P16–P18 nachrangig.
+   B9.4) · ~~P15 Brandnamic-Partnerkreis~~ ✅ **ERLEDIGT 10.08.2026
+   (R06-A → B10)** · ~~P19 Hotelkooperationen~~ ✅ **ERLEDIGT
+   10.08.2026 (R06-A → B11)** · P16–P18 nachrangig, **P17 verschärft**
+   (Suchraum liegt fertig vor: 40+ Guest-App-Anbieter aus der
+   flexipass-Marktplatzliste, inkl. Brandnamics eigener Carlito-App).
+   **Neu offen aus R6:** **P21** (Verbund-Kategorie nicht vollerhoben —
+   7 deutsche Kandidaten nur namentlich, für die Schweiz existiert
+   keine Liste, Trägerschaft von 5 der 7 Südtiroler Verbünde
+   unerhoben) · **P22** (74 der 78 Brandnamic-Partner ungeprüft;
+   Rohbeleg liegt vor). **Die Kanalbewertung selbst gehört MKT-AKQ**
+   (nicht gestartet) — B10/B11 liefern nur die Voraussetzung, und die
+   ist unbequem: Der Verbund-Kanal ist im geprüften Ausschnitt
+   überwiegend von Leistungs-Wettbewerbern besetzt bzw. geführt.
+   (c3) ⭐ **NEU R6 — Nacharbeit Prüferbefunde R05-A:** Der
+   Bestandsscan zur Lehre L-11 fand, dass **24 von 37
+   handlungspflichtigen Befunden** des R05-A-Prüfers nicht
+   eingearbeitet sind (alle 4 KRITISCH und 7/17 WICHTIG repariert;
+   10 WICHTIG + 10/10 HINWEIS liegengeblieben). Vier Fehlerklassen
+   haben sich dadurch in R6 wiederholt. Träger mit Vollliste,
+   Reihenfolge-Vorschlag und eigenen Verifikations-Stichproben:
+   `protokolle/R06-nacharbeit-R05A-befunde.md`. **Zuerst die
+   zitatkritischen Befunde** (W-16 Dittlmann-Pseudozitat · H-3/H-4
+   Zitat-Anker · H-10 fehlende Geltungseinschränkung) — sie tragen
+   Risiko in die außenwirksame Weiterverwendung. Eigene Session,
+   R7-Kandidat.
    (c2) **R5-Nebenbefund-Zielorte (aus R05-A Block 3):** an
    MKT-HANDEL: Preisanker-Tabelle Beratungsmarkt (nur 3 mit
    Steuerbasis — vor Vergleich normalisieren) + Preisintransparenz
@@ -605,9 +627,21 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    2 Vorwärtsverweise Alt-Einstufungen (bereits als
    Übergabe-Kandidat § 5) + AG269-Verwechslungsfalle
    (2.265,76 brutto ≠ 2.265,96 netto).
-   (d) **FUND2-Rest:** Stränge 1 (Kayhan-Gespräch) + 3 (Apaleo-Faden);
-   Sonderauswertung Statistikamt Nord erst nach DEHOGA-/IHK-Antworten
-   (R2-Entscheid, durch R3-Negativ jetzt einziger amtlicher Weg).
+   (d) **FUND2-Rest:** Strang 1 (Kayhan-Gespräch, User-Handgriff) +
+   Strang 3 (Apaleo-Faden). ⚠️ **Apaleo-Teil GEPRÜFT und
+   ZURÜCKGESTELLT (R6-Leitsession, 10.08.2026):** Die Markt-Frage an
+   Nicole Habernig wartet weiter — der Vertrags-/Onboarding-Faden ist
+   aktiv belastet (Firmendaten-Korrekturmail unversendet mit offener
+   Fehlliste · Apaleo-Vertrag/Zeichnungsfähigkeit gated am StB-Termin ·
+   RACK-Altplan- und Bulk-Delete-Posten liegen auf demselben Draht).
+   **Wiedervorlage-Trigger (beide Bedingungen):** Firmendaten-Korrektur
+   versendet UND StB-Termin gelaufen — realistisch nach ~14.08.;
+   Koordination über die heypensio-Leitsession, der der Nicole-Draht
+   gehört. Beleg: `heypensio\firzlaff\STATUS.md` (Stand Sitzung 78,
+   von der Leitsession selbst gelesen — Kurzabriss, nicht die dortige
+   Projektquelle). Sonderauswertung Statistikamt Nord erst nach
+   DEHOGA-/IHK-Antworten (R2-Entscheid, durch R3-Negativ jetzt
+   einziger amtlicher Weg).
    (e) **User-Handgriffe (fort):** A5-Probedruck vor dem Briefing
    („tatsächliche Größe") · Modell-Statuszeilen-Bestätigung R3-A/B/D
    + R04-A · **StB-Anruf Mo 10.08. jetzt mit DOPPELTEM Kayhan-Posten**
@@ -626,6 +660,32 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 
 ## CHANGELOG
 
+- 10.08.2026 (R6-Debrief, Runde über Mitternacht): **P15 und P19
+  aufgelöst** — Wettbewerbsbild B10 (Brandnamic-Partnerkreis an den
+  Primärquellen: straiv + flexipass besetzen die Funktion, hoteldoor
+  und iiq check sind Namensfallen; **eine Kategorie „Check-in/Zutritt"
+  existiert im Brandnamic-Raster nicht**; 78 Einträge / 76 Domains in
+  SIEBEN Kategorien statt „~70 in sechs") und B11 (Hotelkooperationen:
+  vier Länder-Zugänge, **Strukturbefund „in drei von vier Fällen mit
+  belegter Trägerschaft führt eine Agentur/Beratung den Verbund"**,
+  Goslar-Cluster AKZENT e.V./ConsultiiQ/TMA, Preisanker AKZENT
+  781,67–996,77 €/M zzgl. MwSt.) · neue Vergabelinie **L-B8
+  (Geografie)** inkl. rückwirkender Bestandsprüfung · neue offene
+  Punkte **P21/P22**, P17 verschärft · Apaleo-Faden-Befund: **die
+  FUND2-Markt-Frage an Apaleo bleibt zurückgestellt** (Trigger:
+  Firmendaten-Korrektur versendet UND StB-Termin gelaufen, ~nach
+  14.08.) · ⭐ **Bestandsscan-Fund: 24 von 37 Prüferbefunden aus R05-A
+  waren nicht eingearbeitet** — Träger
+  `protokolle/R06-nacharbeit-R05A-befunde.md`, Nacharbeit ist
+  R7-Kandidat · Register **L-11/L-12/L-13** + Sammelvermerk R6 ·
+  CLAUDE-Schärfungen (Gliederungs-Positivkontrolle ·
+  Fußnoten-Vermischung · Befund-Disposition mit Nenner in Regel 8/9) ·
+  Bausteine `quellen-beschaffung` (Auszeichnungs-Falle,
+  Web-Such-Negative 6–7, institutionelle Quellen) und
+  `windows-powershell` (CWD-Teilung) · **Nachzug auf Gerüst-Stempel
+  `b8f7d9c`** inkl. Modellwahl-Richtungsentscheid (Modellwahl liegt
+  beim USER, Kontingent ist Information statt Zuschnitt-Kriterium —
+  ersetzt Regel 7 alt) und heyPensio-R34-Lehren.
 - 09.08.2026 (R5-Debrief): FUND3-Beratungsachse + Blueprint-Auftrag
   eingearbeitet — Wettbewerbsbild Teil B (P12/P13 ✅, elf neue
   Wettbewerber-Kandidaten, Brandnamic dreiteilig) · § 7 neu (BAFA

@@ -43,14 +43,17 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
 - **Ein TIMEOUT ist kein Negativbefund** — Primärquellen, die in einen
   Rechtstext eingehen: Abruf wiederholen oder in den Hintergrund, nie auf
   Zweitquellen ausweichen, solange die Quelle nur langsam ist.
-- **Web-Such-Negative (alle Herkunft MKT R5):** (1) Ein Nulltreffer aus
+- **Web-Such-Negative (Herkunft MKT R5; Punkte 6–7 MKT R6):** (1) Ein
+  Nulltreffer aus
   einer LIMITIERTEN/abgeschnittenen Ausgabe (head_limit, gekürzte
   Trefferliste) ist kein Negativ — er sieht wie ein Quellenfehler aus;
   Suchläufe für Zitatprüfungen so eng fassen, dass die Ausgabe
   vollständig ist. (2) **Vor Web-Negativen das Redirect-Ziel prüfen:**
   Ein Wildcard-301 macht mit `curl -L` JEDE Unterseite byte-identisch
   zur Startseite — „Inhalt vorhanden, Begriff nicht gefunden" ist dann
-  ein Artefakt. (3) **Das Suchmuster ist Teil des Negativs:** Enge
+  ein Artefakt; die Gegenprobe (Kontrollpfad-Abruf je Domain, Sekunden)
+  gehört an den ANFANG des Laufs, nicht ans Ende. (3) **Das Suchmuster
+  ist Teil des Negativs:** Enge
   Muster (`self-check-in|online-check-in`) übersehen vorhandene
   Varianten („Pre-Check-in") — Negativ-Behauptungen brauchen den
   bewusst breiten Oberbegriff. (4) **Anbietergenerierte
@@ -60,6 +63,31 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   Geltungsstand sind zwei Prüfungen:** Eine verlinkte
   Richtlinien-Fassung kann veraltet sein und den eigenen Ausschluss
   vortäuschen — die geltende Fassung an der ausgebenden Stelle prüfen.
+  (6) **Eine geratene URL/Pfadvermutung ist kein Negativbefund** —
+  DNS-Fehler und 404 unter selbst konstruierten Pfaden sind Aussagen
+  über die eigene Vermutung, nicht über die Seite; Pfade aus den
+  `href`-Werten der bereits geladenen Seite nehmen. (7) **In
+  entmarkuptem Text stehen Phrasen oft ZEILENGETRENNT** (Span-/
+  Div-Grenzen werden Zeilenumbrüche: „42" / „Hotels in" / „18" /
+  „Städten") — ein Phrasen-Grep ohne zeilenübergreifende Variante ist
+  kein Negativ; auch Kontextfenster-Muster (`.{40}X.{40}`) verfehlen
+  kurze Zeilen, und Teilwort-Treffer („ust" in „Lust") sind vor der
+  Wertung am Kontext aufzulösen.
+- **Wo eine Aussage in der AUSZEICHNUNG steckt und nicht im Text,
+  prüft eine Textprüfung sie nicht** — Ja/Nein-Matrizen
+  (`class="yes"/"no"`), Zahlen in benannten Spans
+  (`<span class="hotel-count">42</span>`) und Link-Ziele verschwinden
+  beim Entmarkupen spurlos; zweimal in einem Lauf ein falsches Negativ
+  erzeugt. Bei Matrix-/Vergleichs- und Zahlenseiten das Roh-HTML
+  MITARCHIVIEREN und die Extraktion daran gegenlesen; bei gegliederten
+  Quellen die Rubriken GENERISCH über das Strukturmerkmal extrahieren
+  (CSS-Klasse, Überschriften-Ebene), nie über eine vorher notierte
+  Namensliste. (Herkunft: MKT R6.)
+- **Für Kategorien-/Bestandsfragen zuerst die INSTITUTIONELLE Quelle
+  suchen** (Landesagentur, Verband, Register), dann Anbieter — eine
+  Landesagentur-B2B-Seite lieferte sieben Verbünde in einem Abruf,
+  vollständiger und neutraler als jede Anbieterrecherche.
+  (Herkunft: MKT R6.)
 - Datenblätter/Handbücher tragen oft MEHRERE Versionstabellen — Werte
   immer der Zeile der GELIEFERTEN Version entnehmen; die
   Familien-Highlights-Seite ist kein modellspezifischer Beleg.

@@ -143,6 +143,191 @@ nicht dessen Prämisse).
 Quelle: `protokolle/R03-D-abschluss.md` Falle F6 + Nebenbefund N1;
 `fund/wettbewerbsbild.md` § 0.0.
 
+## L-11 — Die Positivkontrolle muss die GLIEDERUNG prüfen, nicht nur die Nutzlast (MKT R6, 10.08.2026)
+
+**Fall:** R06-A zählte den Brandnamic-Partnerkreis mit einem Zähllauf,
+der nach einer **vorher notierten Liste von sechs Kategorienamen**
+suchte — und fand genau sechs. Die siebte Rubrik „Institutionelle
+Partner" (2 Einträge) wurde still zur sechsten addiert. Die
+mitgeführte Positivkontrolle war formal korrekt und griff trotzdem
+nicht: Sie prüfte, ob die vier GESUCHTEN Anbieter in der Extraktion
+erscheinen — also die **Nutzlast**, nicht die **Vollzähligkeit der
+Gliederung**, in der die Nutzlast steht. Die Einträge-Summe (78) war in
+beiden Läufen richtig, nur ihre Verteilung nicht; die Sachantwort auf
+P15 blieb unverändert, aber der Satz „so ist der Partnerkreis
+gegliedert" war falsch. **Das ist die ZWEITE Reproduktion derselben
+Fehlerklasse in demselben Papier** — die erste war die
+Apaleo-Kategorienzahl 7→9 (R05-A, B8.4). Damit ist auch die Regel
+„eine frisch geschriebene Regel wird rückwirkend gegen den BESTAND
+geprüft" belegt verletzt worden: Der R05-A-Fang hätte auslösen müssen,
+im selben Papier nach weiteren Kategorienlisten zu suchen — genau dort
+lag die nächste. Kern: Bei gegliederten Quellen gehört die Zahl der
+Überschriften selbst in die Kontrolle, und die Extraktion holt die
+Gliederung **generisch über das Strukturmerkmal** (CSS-Klasse,
+Überschriften-Ebene), nie über eine notierte Namensliste — eine
+Suchliste, die nur Bekanntes kennt, ist eine Positivliste in
+Verkleidung (Schwesterformulierung der Verbotslisten-Regel unter
+„Anwesenheit ist nicht Wirksamkeit").
+Quelle: `protokolle/R06-A-pruefer.md` K-1, `R06-A-abschluss.md`
+Fallen (i) 1; `fund/wettbewerbsbild.md` B10.1.
+
+## L-12 — Wo eine Aussage in der AUSZEICHNUNG steckt, prüft eine Textprüfung sie nicht (MKT R6, 10.08.2026)
+
+**Fall:** Zweimal im selben Lauf. (1) Die vier iiQ-Check-Tarifpakete
+sehen im entmarkupten Text **identisch** aus — die
+Ja/Nein-Unterscheidung der Leistungsmatrix steckt allein in
+`class="yes"`/`"no"`. (2) Die Mitgliederzahl von PrivateCityHotels
+(`<span class="hotel-count">42</span> Hotels`) ging beim Entmarkupen
+verloren; daraufhin schrieb die Session das **falsche Negativ** „keine
+Mitgliederzahlen außer den beiden zitierten" — und nannte im selben
+Satz nur eine. Der Prüfer fand die Zahl am Rohbeleg. Kern: Bei
+Matrix-/Vergleichs- und Zahlenseiten das **Roh-HTML mitarchivieren**
+und die Extraktion daran gegenlesen; ein Negativ aus entmarkuptem Text
+ist nur so gut wie das, was das Entmarkupen überlebt hat.
+*Nachtrag Leitsession-Review (10.08.):* Dieselbe Quelle trägt eine
+zweite Ebene derselben Klasse — im entmarkupten Text steht die Phrase
+**zeilengetrennt** („42" / „Hotels in" / „18" / „Städten"), sodass
+auch der reparierte Phrasen-Grep sie nicht findet; erst der
+Zeilen-Kontext (`sed -n`) zeigt sie. Und die Zählprobe an derselben
+Stelle ergab: Beide veröffentlichten Städtelisten der Quelle führen
+**17** Namen gegen die Selbstauskunft „18" — Diskrepanz in der Quelle,
+in B11.2(d) ausgewiesen (22 Kandidatenstädte negativ geprüft,
+einziger Treffer „Zug" = Teilwort „Zugriff").
+Quelle: `protokolle/R06-A-pruefer.md` W-8 + K-20-Umfeld,
+`R06-A-abschluss.md` Fallen (i) 2; Leitsession-Review-Commit
+`dea722e`.
+
+## L-13 — Prüferbefunde unterhalb der Reparatur-Schwelle versickern; der Review prüft die DISPOSITION aller Befunde mit Nenner (MKT R6, 10.08.2026)
+
+**Fall:** Der Bestandsscan zu L-11 (Pflichtschritt „eine frisch
+geschriebene Regel wird rückwirkend gegen den Bestand geprüft") fand,
+dass der Befund **H-1** des R05-A-Prüfers — „~70 Partner in sechs
+Kategorien" ist falsch, es sind 78 in sieben, mit vollständiger
+Aufschlüsselung und Rohbeleg-Pfad — in R5 **nicht eingearbeitet**
+wurde. Eine Runde später hat R06-A denselben Sachverhalt an derselben
+Rohdatei **unabhängig neu entdeckt** (dort als KRITISCH K-1
+eingestuft); das R06-A-Prüfprotokoll enthält null Verweise auf das
+R05-A-Protokoll. Kosten: ein vollständiger Prüf- und Reparaturzyklus
+für einen bereits bezahlten Befund — und der unreparierte Satz in B4.3
+war ausweislich des R06-A-Protokolls sogar der AUSLÖSER der
+Neuentdeckung.
+
+Die anschließende Vollprüfung (Verifikations-Subagent, drei Stichproben
+von der Leitsession selbst nachgelesen) ergab das Ausmaß: Von **37
+handlungspflichtigen Befunden** (4 KRITISCH · 17 WICHTIG · 10 HINWEIS)
+sind **24 nicht eingearbeitet** — alle 4 KRITISCH und 7 der 17 WICHTIG
+wurden repariert, **10 WICHTIG und 10 von 10 HINWEIS blieben liegen**.
+Vier Fehlerklassen haben sich dadurch in R6 wiederholt (Pseudo-Zitat,
+fehlender Vorwärtsverweis, unvollständige Extraktion, Nenner ohne
+Kriterium) — jeweils an einer neuen Stelle, während der alte Fall
+unrepariert im selben Dokument stand.
+
+**Der eigentliche Mechanismus** steht in der Abschlussmeldung: R05-A
+§ 5 ist bei den KRITISCH-Befunden korrekt und beim „bewusst nicht
+repariert" ehrlich — führt dort aber nur „10 HINWEISE, 3 Verdacht, 6
+nicht prüfbar" auf. **Die 10 offenen WICHTIG-Befunde erscheinen in
+KEINER der beiden Listen**; ein Zwischenabschnitt zählt fünf übernommene
+auf, ohne Nenner. Für den Leser (auch für die reviewende Leitsession)
+sieht die Kategorie damit abgearbeitet aus. Das ist derselbe
+Nenner-Verlust, den derselbe Prüfer im Papier zweimal gerügt hatte
+(W-3, W-13) — nur eine Ebene höher, in der Meldung ÜBER die Prüfung.
+Und es ist die Fehlerklassen-Frage der CLAUDE-Regel „Nach jeder
+geschlossenen Fehlerklasse fragen, wie dieselbe Klasse eine Ebene höher
+aussieht", hier praktisch beantwortet.
+
+**Kern (zwei Teile):** (1) Eine Abschlussmeldung, die Prüferbefunde
+meldet, führt sie **kategorienweise mit Nenner** — „x von y repariert,
+z bewusst offen, Träger für den Rest" —, nie nur die reparierten plus
+eine Auswahl. (2) Der Leitsession-Review nach innen prüft nicht die
+Reparatur der SCHWEREN Befunde, sondern die **Disposition ALLER**:
+Jeder Befund ist repariert, ausdrücklich verworfen (mit Grund) oder hat
+einen benannten Träger — dokumentiert im Debrief-Report. „Hinweis" ist
+eine Schwere-Angabe, keine Erledigungs-Kategorie.
+Quelle: `protokolle/R06-nacharbeit-R05A-befunde.md` (Vollliste + eigene
+Stichproben), `protokolle/R05-A-pruefer.md` § 4 H-1,
+`protokolle/R06-A-pruefer.md` K-1, `fund/wettbewerbsbild.md` B4.3/B10.1.
+
+## Zweitbelege R6 zu bestehenden Regeln (10.08.2026, Sammelvermerk)
+
+*(Quelle aller Punkte: `protokolle/R06-A-abschluss.md` Block 4,
+`protokolle/R06-A-pruefer.md`, Session-Verlauf Leitsession R6. Neue
+Regeln der Runde stehen als L-11/L-12 oben sowie als CLAUDE-Schärfungen
+(Gliederungs-Positivkontrolle · Fußnoten-Vermischung) und in den
+Bausteinen `quellen-beschaffung` (Auszeichnungs-Falle · Web-Such-
+Negative 6–7 · institutionelle Quellen) bzw. `windows-powershell`
+(CWD-Teilung).)*
+
+- **L-01 (Pseudo-Zitat), Verschmelzungs-Facette (Falle 4):** Das
+  flexipass-„Zitat" („Wallet Keys, Webkeys and Mobile Keys in a single
+  platform") war aus ZWEI Sätzen gefügt, mit veränderter Reihenfolge
+  und Schreibweise. Neue Facette zu L-01: Nicht nur der fehlende
+  Rohquellen-Anker macht ein Pseudo-Zitat — auch das Zusammenziehen
+  zweier echter Sätze; für den Prüfer ist beides von einer Erfindung
+  ununterscheidbar. Repariert auf den Originalsatz.
+- **L-03 (stiller Vollständigkeits-Anspruch), Nenner-Facette
+  (Falle 5, Prüferfang W-7):** „In drei von vier geprüften Fällen" —
+  PrivateCityHotels war geprüft, hatte aber keinen Trägerbefund und
+  fiel deshalb **still aus dem Nenner**, ohne dass das Auswahlkriterium
+  genannt wurde. Ein leeres Tabellenfeld ist schwerer zu sehen als ein
+  falsches. Repariert: Nenner ausgeschrieben (fünf betrachtet, vier mit
+  Quelle, PCH als Nicht-Fund benannt).
+- **Verdichten-Familie, Zweitbeleg im selben Fall:** Derselbe Satz
+  verlor beim Verdichten in § 7 und ins Änderungsprotokoll zusätzlich
+  seinen Vorbehalt („Verbünde werden von Wettbewerbern geführt" statt
+  „im geprüften Ausschnitt"). Bestätigt die Beobachtung des Prüfers,
+  dass das Änderungsprotokoll die kürzeste — und damit gefährlichste —
+  Fassung im Dokument ist.
+- **Bestandsscan-Regel („eine frisch geschriebene Regel schützt nur
+  künftigen Code"), Zweitbeleg (Falle 6):** Die neue Vergabelinie
+  **L-B8 (Geografie)** wurde eingeführt, ohne zu fragen, welche
+  Bestandseinträge sie kippt. Nachgeholt: genau ein Kandidat
+  (Roommatik/ES), Einstufung bleibt, Begründung dokumentiert — aber das
+  musste geprüft, nicht vermutet werden. Facette zur R4-Vergabelinien-
+  Regel: Die Bestandsprüfung gehört in DENSELBEN Zug wie die Linie.
+- **Vorwärtsverweis-Konvention, Nachbar-Achsen-Facette (Falle 7):**
+  flexipass ist ein Technik-Wettbewerber und trifft USP-Säule 4 — die
+  Erhebung lief aber im Beratungsteil (Teil B), und Teil A § 5.4 („von
+  zwei Seiten getroffen") wäre unverändert stehen geblieben. In einem
+  ZWEITEILIGEN Papier gehört zu jedem Fund die Frage: In welchen
+  ANDEREN Teil gehört das? (Repariert, Prüferbefund.)
+- **Bewährt (M-1):** Die Redirect-Gegenprobe VOR den Befunden — vier
+  Kontrollabrufe auf einen Unsinnspfad kosteten Sekunden und machen
+  jedes spätere „steht dort nicht" belastbar. In den Baustein als
+  „gehört an den ANFANG des Laufs" übernommen. Ehrliche Belegstufe
+  dabei: archiviert sind die Antwortkörper, nicht die HTTP-Statuszeilen
+  — als „nicht prüfbar" ausgewiesen statt geglättet.
+- **Bewährt (M-2, Zweitbeleg zur R5-Regel):** Die Quelldatei von oben
+  lesen, bevor man einen Widerspruch meldet — die IHA-Beitragsstaffel
+  („5–10 Hotels") gegen die Definition („mindestens zehn") sah nach
+  Quellenfehler aus; vier Zeilen weiter oben löst die Datei es selbst
+  auf (die Staffel zählt Verbandsmitglieder, nicht
+  Kooperationsmitglieder).
+- **Bewährt (M-3, Facette zur „zweiter Durchgang mit umgekehrter
+  Frage"-Regel):** Ein Fund aus Strang A trägt Strang B — die
+  AKZENT-Spur (und damit der wertvollste Fund des Laufs, der
+  Goslar-Cluster) kam nicht aus der P19-Suche, sondern aus einem
+  **Testimonial in der P15-Referenzliste** von iiQ-Check. Beim Lesen
+  einer Quelle lohnt der Blick auf das, wonach niemand gefragt hat —
+  auch strangübergreifend.
+- **Bewährt (M-4/M-5):** Summenproben bei allen zusammengesetzten
+  Zahlen (drei AKZENT-Spalten à sieben Posten, alle gehen auf) ·
+  Prüfer-Befunde vor der Reparatur SELBST am Rohbeleg nachgemessen —
+  alle 21 bestätigten sich, aber erst die eigene Messung machte die
+  URSACHE (hartcodierte Kategorienliste) sichtbar, und die Ursache ist
+  der eigentliche Lehren-Kandidat (Regel a, erneut).
+- **Bewährt (M-6):** Der Prüfer mit frischem Kontext UND Rohbeleg-
+  Pfaden lieferte 21 Befunde, davon zwei, die sonst in andere Stränge
+  weitergewandert wären (Steuerbasis → MKT-HANDEL-Preisarbeit;
+  Städte-Querbefund → B4.5). Der Unterschied zum Selbst-Nachlesen: Er
+  kannte den Fragenkatalog nicht und hat die **Gliederung**
+  nachgezählt, nicht den Treffer.
+- **(c)-Ablagen (bewusst ohne eigene Regel):** Der Firmierungs-
+  Widerspruch bei flexipass (vier Rechtsträger-Varianten auf EINER
+  `/terms`-Seite) ist Sach-Info im Papier und ein Anwendungsfall der
+  bestehenden Regel „Firmierung nur per Registerauszug" · die
+  Kanalbewertung P15/P19 bleibt auftragsgemäß bei MKT-AKQ · die
+  Selbstauskunft-Kennzeichnung lief regelkonform, kein Regelbedarf.
+
 ## Zweitbelege R5 zu bestehenden Regeln (09.08.2026, Sammelvermerk)
 
 *(Quelle aller Punkte: `protokolle/R05-A-abschluss.md` Block 4 + § 5,

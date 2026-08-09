@@ -3,9 +3,9 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand `bfc7da0` nach Rückfluss-Nachzügen MKT R1–R5
-> (inkl. R5-Blueprint-Arbeitsauftrag: zwei neue Bausteine +
-> D-Ergänzungen) und heyPensio-R32/R33-Lehren (09.08.2026).
+> am 2026-08-09; Stand `2c548fe` nach Rückfluss-Nachzügen MKT R1–R6,
+> heyPensio-R32/R33/R34-Lehren und dem Modellwahl-Richtungsentscheid
+> (User, alle Abteilungen — ersetzt Regel 7 alt; 10.08.2026).
 > Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
@@ -158,8 +158,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
      Entscheidungspunkt: In einer `&&`-Kette mit dem Push sichtet die
      Sichtung nichts** (Herkunft: MKT R4). Und spiegelbildlich: Der eigene
      Commit kann durch den Push einer parallelen Session bereits
-     veröffentlicht sein; belastbar ist `git branch -r --contains <hash>`,
-     nie das Fehlen im eigenen `origin/main..HEAD`. (Herkunft: R17/R30.)
+     veröffentlicht sein; belastbar ist `git branch -r --contains <hash>`
+     **nach frischem `git fetch`** — das lokale origin-Ref altert im
+     Parallelbetrieb und zeigt sonst längst Gepushtes als ungepusht,
+     nie das Fehlen im eigenen `origin/main..HEAD`.
+     (Herkunft: R17/R30; fetch-Zusatz heyPensio R34.)
    - Zwischen dem LESEN einer Quelle und dem COMMIT eines daraus
      abgeleiteten außenwirksamen Dokuments kann sich die Quelle ändern —
      vor dem Commit `git log <lesestand>..HEAD -- <quelldatei>` prüfen.
@@ -186,10 +189,17 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    Blöcke — Träger ist `protokolle/tagesplan-<datum>.md` (Datei, nicht
    Chat). Block 1 scharf, spätere Blöcke sind PROGNOSE. Der Debrief bleibt
    PRO RUNDE, nie ans Tagesende gebündelt. Kontingent ist eine WOCHEN-,
-   keine Tagesressource. Details: `/tagesstart`.
-7. **Modellwahl trifft die Leitsession** und nennt sie im Start-Prompt; der
-   User stellt das Modell beim Session-Start ein (`/model`-Handgriff —
-   eine Modellzeile im Prompt allein steuert nichts). Faustregel:
+   keine Tagesressource — **und es ist INFORMATION an den User, kein
+   Zuschnitt-Kriterium: Rundenschnitt, Rundenaufbau und Qualität
+   (Review-Tiefe, Prüfer, Modellstärke) bemessen sich am Bedarf der
+   Sache, nie am Restkontingent** (Herkunft: heyPensio R34,
+   User-Entscheid für alle Abteilungen). Details: `/tagesstart`.
+7. **Die MODELLWAHL je Session trifft der USER — die Leitsession
+   empfiehlt nur auf seine gezielte Nachfrage** (Herkunft: heyPensio R34,
+   User-Entscheid für alle Abteilungen; ersetzt „Modellwahl trifft die
+   Leitsession". Start-Prompts tragen keine Modellvorgabe, die
+   Strang-Tabelle dokumentiert die User-Wahl nach — eine Modellzeile im
+   Prompt steuert ohnehin nichts). Empfehlungswissen für Nachfragen:
    **Fable 5** für Leitsession, Planung, Review, außenwirksame/
    heikle Texte und festgefahrenes Debugging; **Opus 5** für
    Bau-Sessions mit Live-Debugging gegen echte APIs; **Sonnet 5**
@@ -202,7 +212,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    neue Sessions, nicht die laufende.
 8. **Die Leitsession reviewt ALLE Ergebnisse der Arbeits-Sessions** vor dem
    Einfließen in den Wahrheits-Kanal — in ZWEI Richtungen: **(a) nach
-   innen** (Soll-Erfüllung: Korrektheit, Dauer-Regeln, Klartext-Secrets)
+   innen** (Soll-Erfüllung: Korrektheit, Dauer-Regeln, Klartext-Secrets;
+   **lief ein Prüfer, wird die DISPOSITION ALLER seiner Befunde geprüft,
+   nicht die Reparatur der schweren** — jeder Befund ist repariert,
+   ausdrücklich verworfen oder hat einen benannten Träger, kategorienweise
+   MIT NENNER. „Hinweis" ist eine Schwere-Angabe, keine
+   Erledigungs-Kategorie: 24 von 37 Befunden blieben so liegen, vier
+   Fehlerklassen reproduzierten sich eine Runde später — L-13)
    und **(b) nach außen** — „Was hat diese Session gefunden, das einem
    ANDEREN Strang gehört?" Jeder solche Befund bekommt einen Zielort
    (Zieldokument + nächste Aktion, mit NACHSEHEN, ob der Zielort existiert
@@ -214,6 +230,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    Commit-Hashes · offen geblieben · Nebenbefunde außerhalb des Auftrags ·
    Stolpersteine/Learnings, getrennt nach Fallen und bewährten Mustern),
    zusätzlich committet als `protokolle/R<runde>-<session>-abschluss.md`.
+   **Lief ein Prüfer, meldet Block 1 seine Befunde kategorienweise MIT
+   NENNER** („x von y repariert, z bewusst offen, Träger für den Rest") —
+   nie nur die reparierten plus eine Auswahl; eine Kategorie ohne Nenner
+   liest sich als abgearbeitet (L-13).
 
 ## Arbeitsregeln (Verifikation & Haltung)
 
@@ -281,6 +301,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   ERGEBNISSES** (bekannte Elemente müssen in der Extraktion erscheinen),
   nicht die Erreichbarkeit der Quelle — „Nutzlast gefunden" beglaubigt
   keine vollständige Liste. (Sammelvermerk R5, Prüferfang.)
+  **Bei gegliederten Quellen gehört die VOLLZÄHLIGKEIT der GLIEDERUNG
+  selbst in die Kontrolle** — wer Rubriken gegen eine vorher notierte
+  Namensliste zählt, findet genau deren Länge (Positivliste in
+  Verkleidung); die Extraktion holt die Gliederung generisch über das
+  Strukturmerkmal (L-11 — zweifach reproduziert im selben Papier,
+  R5 B8.4 + R6 K-1).
 - **Status-Symbole erben von der SCHWÄCHSTEN Prämisse;** „Prognose" ist
   eine eigene Kategorie; ⚠️-Bausteine nie zu ✅ zusammenfassen. Ein
   „ERLEDIGT" an einer Bedingung beglaubigt die RECHTSFOLGE des Satzes mit —
@@ -300,7 +326,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   bauen — nie umgekehrt. Bewertungs-/Syntheseabschnitte gegen das eigene
   DETAILKAPITEL zurücklesen, nie gegen die Erinnerung an die Quelle — der
   gefährliche Moment ist der Übergang vom Detail zur Bewertung.
-  (Herkunft: R29-B/R31, 7 Belege; + MKT R3, Sammelvermerk.)
+  **Gilt auch für eigene MESS- und BEFUNDPROTOKOLLE:** Zahlen driften
+  beim Zusammenfassen in Richtung eigener Vollständigkeit (Auslassungen
+  und Vorher/Nachher-Verwechslungen, keine Erfindungen). Rohausgabe beim
+  Schreiben erneut anlesen; Bestandszahlen, die die eigene Änderung
+  bewerten, gegen den VORHER-Stand messen (`git show <commit>~1:<datei>`).
+  (Herkunft: R29-B/R31, 7 Belege; + MKT R3, Sammelvermerk;
+  Protokoll-Erweiterung heyPensio R34.)
 - **⭐ Der gefährlichste Satz in einem außenwirksamen Dokument ist die
   ENTWARNUNG** — jede Entwarnung trägt ihre Quelle im Satz, sonst ist sie
   eine unverifizierte Verbindlichkeit. Keine beiläufige Zusage im PRÄSENS,
@@ -347,7 +379,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Prozessbeschreibungen · beiläufige Zusagen des eigenen Sprechers.
 - **Zahlen/Preise nie aus einer einzelnen Tabellenzeile übernehmen:**
   Kopfzeile/Fußnoten/Scope mitlesen (netto/brutto, Geräteklasse, Datum),
-  vor Vergleichen normalisieren. Eine Zahl trägt den Scope ihrer ZEILE,
+  vor Vergleichen normalisieren. **Fußnoten/Steuerbasis nie
+  QUELLENÜBERGREIFEND ergänzen** — zwei Preisquellen im selben
+  Arbeitsschritt vermischen ihre Fußnoten; sagt die Quelle nichts, ist
+  „Steuerbasis unbekannt" der Eintrag (Sammelvermerk R6).
+  Eine Zahl trägt den Scope ihrer ZEILE,
   nicht den ihres Namens — vor jedem „Widerspruch" die Positionslisten
   BEIDER Zahlen öffnen, **und die Quelldatei von oben lesen: Ein
   Widerspruch ist erst einer, wenn die Datei ihn nicht selbst auflöst**
@@ -373,7 +409,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   braucht (Deklaration UND Verwendung); eine Verbotsliste, die nur
   Bekanntes kennt, ist eine Positivliste in Verkleidung; eine
   SCHUTZ-Config ist erst nach AUSSEN-Messung „aktiv" (Beleg ist die
-  Wirkung von außen, nie die Config-Existenz).
+  Wirkung von außen, nie die Config-Existenz). **Und ein Prüfwerkzeug
+  kann Entwarnung über eine Datei geben, die es nie gelesen hat** — wenn
+  seine Wächter den frisch ERZEUGTEN Text prüfen statt der GESCHRIEBENEN
+  Datei; bei jedem Wächter fragen, WELCHEN Text er liest, nicht nur, was
+  er prüft (Ausgabe und Prüfgegenstand sehen im Log gleich aus; Fix nur
+  mit Rückbau-Gegenprobe glauben). (Herkunft: heyPensio R34.)
 - **Ein Test, der nichts verändert, prüft nichts** — Testaufbauten brauchen
   ihre eigene Positivkontrolle. **Eine grüne Testzahl belegt nichts — nur
   die Rückbau-Gegenprobe belegt, dass die Tests den Fund fangen** (Fix in

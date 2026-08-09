@@ -81,3 +81,10 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
   (`C:\Users\...` wird zu `C:Users...` — „No such file or directory").
   Kommandos, die man dem User zum Tippen vorgibt, immer mit
   Forward-Slashes schreiben. (Herkunft: MKT R1.)
+- **Bash- und PowerShell-Kanal teilen EIN persistentes
+  Arbeitsverzeichnis** — ein `cd` im Bash-Kanal verschiebt auch alle
+  folgenden PowerShell-Aufrufe. Symptom: `git add <pfad>` scheitert mit
+  „pathspec did not match any files" bei existierender Datei. Nach
+  Analyse-Phasen mit Bash-`cd`s git-Kommandos robust mit
+  `git -C <repo-pfad>` absetzen (kein eigenes `cd` nötig).
+  (Herkunft: MKT R6.)

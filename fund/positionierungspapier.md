@@ -1,0 +1,333 @@
+# FUND1 — Positionierungspapier: USP & Dienstleistungsportfolio
+
+> ## ⚠️ STATUS: ENTWURF — nicht verabschiedet
+>
+> Dieses Papier ist ein Arbeitsstand der Session R01-A (09.08.2026).
+> **Das FUND1-Fertigkriterium ist die Verabschiedung durch den User —
+> sie steht aus und liegt außerhalb der Session R01-A.** Bis zur
+> Verabschiedung ist jede Aussage hier ein Vorschlag, keine Festlegung;
+> nichts hieraus darf vor der Verabschiedung in außenwirksame Texte
+> übernommen werden (Ausnahme: die als Kanon gekennzeichneten, bereits
+> versendeten Bestandstexte, die hier nur zitiert werden).
+>
+> **Quellen-Stand:** Extraktionsberichte `protokolle/R00-extraktion-*.md`
+> (alle drei, Stand 09.08.2026), Projektquelle §§ 1/2/4/5,
+> `referenzen-zusagen.md`, Planprüfung `protokolle/R00-planpruefung-2026-08-09.md`;
+> Rohquellen-Gegenlesung nur für den Fassung-6-Wortlaut (s. § 2).
+> Wettbewerbs- und Store-Angaben tragen Stand 20.07.–01.08.2026 —
+> **Negative altern**; Aktualisierung ist FUND3, nicht dieses Papier.
+
+## 1. Auftrag und Rahmen
+
+Grundlage sind zwei User-Entscheide vom 09.08.2026 (Projektquelle § 4):
+
+- **E2 — Zielgruppe ausdrücklich auch größere Häuser** („steht nicht
+  zur Diskussion"). Der Rahmen bleibt inhabergeführt — Quelle
+  Voice-Nachricht 08.08.2026, wörtlich: „ich will schon bei
+  inhabergeführten Häusern bleiben, aber gerne auch größere."
+- **E3 — Keine Lite-Varianten, nie:** jedes Werkstück von Anfang an
+  vollwertig; gilt unternehmensweit.
+
+Der Firmenname „heyPensio" wird ersetzt (E1, Rebrand entschieden; neuer
+Name entsteht in MKT-MARKE). Dieses Papier verwendet „heyPensio" daher
+nur als **Platzhalter bis zum Cutover** — alle Formulierungen sind so
+gebaut, dass beim Rebrand nur der Markenname getauscht wird.
+
+**Nicht Teil dieses Papiers:** Wettbewerbs-Vollbild (FUND3),
+Kern-Wording/Sprachentscheid/Zielzahl/Budget (FUND4; Budget-Zahlen
+liegen in `sensibel/` und bleiben draußen), Preismodell und
+Angebotsarchitektur (MKT-HANDEL), Namensfindung (MKT-MARKE).
+
+## 2. Kern-Positionierung (Kanon-Referenztext)
+
+Die verbindliche Selbstbeschreibung ist die **„Fassung 6"** — ein
+erprobter, real versendeter Außentext (an Apaleo, Nicole Habernig;
+**versendet 03.08.2026, 20:57 MESZ**, Msg `19fc8fc8ebcdd92f`; Quelle:
+`heypensio\firzlaff\apaleo-config\call-apaleo-2026-08-03.md` § 8
+Punkt 5, am 09.08.2026 an der Rohquelle byte-gleich gegengelesen;
+die Datumsangabe „versendet 04.08." in Extraktionsbericht A/A2 ist
+damit als Drift belegt). Wortlaut:
+
+> „heyPensio ist keine einzelne Check-in-Lösung. Wir digitalisieren
+> inhabergeführte Häuser einmal komplett, entlang der gesamten Guest
+> Journey. Das beginnt bei der Apaleo-Einführung selbst, also
+> PMS-Implementierung, Property-Setup, Raten und Rollout, genau das
+> machen wir gerade für drei Objekte. Darauf bauen Self-Check-in am
+> Terminal per Touch und Sprache, Pre-Check-in, digitaler Meldeschein,
+> Payment und Zutrittsübergabe auf, und darüber KI-Agenten für die
+> Gästekommunikation und die Automatisierung im Hintergrund, mit
+> Eskalation an den Gastgeber, wenn es menschlich werden muss. Der
+> Gastgeber bekommt das als betreuten Betrieb, nicht als Software zum
+> Selbstzusammenbauen. Ein Werkzeug wie der Copilot fällt damit mitten
+> in unser Feld: Wir erproben Use Cases nicht als einzelnes Hotel,
+> sondern als Partner, der sie danach in jedes weitere Haus trägt, das
+> wir auf Apaleo bringen."
+
+Entstehungs-Vorbehalt: Fassung 6 entstand nach der User-Rüge „heyPensio
+zu flach dargestellt" (Fassung 5→6); die Verengung auf
+„Self-Check-in-Lösung" ist seitdem verboten (Quelle: Extraktion A/A2).
+**Dieselbe zu flache Selbstbeschreibung steckt noch im
+Partnerschafts-Baustein v2** (`heypensio\firzlaff\anfragen-baustein-partnerschaft.md`,
+Quelle Extraktion B/F5.1) — der v3-Rewrite ist ein eigenes Arbeitspaket
+(Nachdisposition E1 aus Extraktion C), nicht dieses Papier; bis dahin
+trägt v2 zusätzlich die ALTE, engere Zielgruppen-Formulierung
+(Vorwärtsverweis-Fall, Quelle Extraktion A/A3).
+
+Tragende Doktrin hinter dem Text (Quelle Extraktion A/C5, wörtlich):
+„Jeffrey ersetzt nicht den Gastgeber, sondern entlastet ihn. Automation
+first, Betreiber-Fallback second, Vor-Ort-Einsatz nur wenn nötig." ·
+„Zwei gleichwertige Ziele (keine Rangordnung): Betreiber-Entlastung UND
+Gästeerlebnis."
+
+## 3. Zielgruppe
+
+### 3.1 Kernrahmen: inhabergeführt
+
+Wir adressieren Häuser, in denen der Inhaber (bzw. die
+Inhaberfamilie) die unternehmerische Letztverantwortung trägt und die
+Digitalisierungs-Kaufentscheidung selbst trifft oder unmittelbar
+freigibt. Das schließt Mehr-Objekt-Betriebe ausdrücklich ein — der
+eigene Pilot ist ein Betreiber-Umfeld mit drei Objekten in drei
+Firmierungen (HANSE Hotelbetriebsgesellschaft mbH · Rabe's Hotel
+Einzelunternehmen Kiel · Hostel Boninstraße via LEANE; Quelle
+Extraktion A/A8, B4).
+
+### 3.2 Erweiterung: auch größere Häuser (E2)
+
+Die bisherige Nischen-Formulierung „inhabergeführte Pensionen und
+kleine Hotels" ist durch E2 überholt. Die Erweiterung ist gesetzt —
+die zugehörige **Vorgeschichte darf dabei nicht verloren gehen**
+(Quelle Extraktion B/F3.1, dokumentierte Einordnung der
+Everlast-Empfehlung „inhabergeführte Hotels mit 40–70 Mitarbeitern",
+Deniz Demirer 23.07.2026): „Die Empfehlung ist nicht neutral —
+Verkaufsgespräch für ein 8.400-€-Programm … Die Nische ‚inhabergeführte
+kleine Häuser' wurde gewählt, weil dort das Prozesswissen des Users
+trägt und der Wettbewerb schwächer ist. Das heißt nicht, dass sie
+falsch ist — aber sie gehört geprüft, nicht übernommen." E2 entscheidet
+die Richtung; die 40–70-MA-Zahl bleibt eine ungeprüfte
+Anbieter-Empfehlung und wird hier NICHT als Segmentgrenze übernommen.
+
+**Arbeitsdefinition „größere Häuser" (Vorschlag, zur Verabschiedung):**
+inhabergeführte Häuser oberhalb der Pilot-Größenklasse (Pilot:
+10–25 Einheiten je Objekt, s. § 5), einschließlich Häusern mit
+angestellter Direktion, solange die Eigentümerseite die
+Investitionsentscheidung trägt. Eine harte Obergrenze (Zimmerzahl,
+MA-Zahl) wird bewusst NICHT gesetzt, bevor FUND2 die Entscheiderfrage
+beantwortet hat — das Verhältnis zu angestellten Direktoren größerer
+Häuser wird dort mit-evaluiert (Projektquelle § 2 FUND1/FUND2).
+
+### 3.3 Konzern-/Ketten-Abgrenzung (geschärft)
+
+Nicht unsere Zielgruppe sind Betriebe, deren Digitalisierungs-
+Entscheidung nicht am Haus fällt: Marken- und Konzernhotellerie,
+Franchise-Systeme mit zentral vorgegebenem Technik-Stack,
+institutionelle Betreiber (Fonds/Asset-Manager mit
+Betreibergesellschaft). Abgrenzungskriterium ist die
+**Entscheidungsstruktur, nicht die Betten-Zahl**: Sobald ein zentraler
+Einkauf oder eine Konzern-IT den Stack vorgibt, greifen unser
+Betreibermodell (persönliche Betreuung, Gastgeber-Eskalation) und
+unsere Stärke im individuellen Zuschnitt nicht mehr. *(Einordnung der
+Session, abgeleitet aus dem Betreibermodell-USP § 4 — Bestandteil des
+Entwurfs, vom User zu bestätigen.)*
+
+## 4. USP / Differenzierung
+
+Basis sind die vier dokumentierten Differenzierungs-Säulen gegen den
+nächstliegenden Wettbewerber Straiv (Quelle Extraktion B/F6.1, wörtlich;
+Stand der Recherche 20.07./01.08.2026): „Voice am Gerät, Betreibermodell
+(Straiv-Reviews klagen über Setup und Support!), individuelle
+Zutrittswege (alte Schlüssel + Fächertresor statt
+Kartensystem-Investition), Förder-Begleitung (WTSH)."
+
+1. **Komplett-Digitalisierung aus einer Hand** entlang der gesamten
+   Guest Journey — inkl. der PMS-Einführung selbst (Fassung 6, § 2).
+   Kein Wettbewerber im untersuchten Feld bündelt das identisch; am
+   nächsten kommt Straiv (Quelle Extraktion B/F6.1: „am Markt kommt ihm
+   genau EIN Anbieter nahe"), strukturell ähnlich außerdem book your
+   key GmbH im Kleinsthotel-Segment (Nachtrag 28.07., ebd.). Stand-
+   Vorbehalt: Befund vom 20.07./01.08.2026, Aktualisierung in FUND3.
+2. **Betreuter Betrieb statt Selbstbau-Software** (Betreibermodell).
+   Gegenbild belegt aus Straiv-Reviews (Setup-/Support-Klagen; Quelle
+   Extraktion A/A5, B/F6.1 — Beleg-Typ: Review-Auswertung Dritter, keine
+   eigene Messung). Dazu Straivs Struktur laut HTR ~18 MA bei
+   „2.500 Hotels"-Claim (beides Fremd-/Selbstauskunft, nicht selbst
+   geprüft): „verwundbar bei genau dem, was unser Modell verspricht:
+   persönliche Betreuung im Kleinstsegment" (F6.1).
+3. **Voice am Gerät** — Terminal-Check-in per Touch UND Sprache. Im
+   untersuchten Feld bot zum Recherche-Stand kein Anbieter Voice am
+   Gerät (Quelle Extraktion B/F6.1: DialogShift/Onsai/NovaVoca =
+   Voice/Chat, „keiner am Gerät"); Voice bleibt Produktkern
+   (heyPensio-Entscheid „E5" in der Zählung des heypensio-Repos, Quelle
+   Extraktion A/A11 — nicht zu verwechseln mit MKT-E5).
+4. **Individuelle Zutrittswege ohne Kartensystem-Zwang** → niedrige
+   Investitionshürde. Kernsatz (Quelle Extraktion A/A12, wörtlich):
+   „heyPensio ist die niedrige Investitionshürde, weil die Pension ihr
+   bestehendes Schlüssel-/Transpondersystem BEHÄLT und nur eine
+   günstige Ausgabe-Schicht obendrauf bekommt — kein neues
+   Schließsystem. […] Die Investitionssumme AN SICH muss niedrig sein.
+   Firzlaff ist REPRÄSENTATIV, kein Sonderfall: 20–30 Zimmer mit
+   bestehenden Schlüsseln sind die Realität der Zielgruppe."
+   **⚠️ Geltungs-Vorbehalt:** Dieser Satz wurde für die
+   20–30-Zimmer-Realität formuliert; die Quelle selbst verlangt, ihn
+   bei der Zielgruppen-Erweiterung „bewusst neu [zu] prüfen" (A12).
+   Ob „niedrige Investitionshürde" auch für größere Häuser trägt (mehr
+   Zimmer = mehr Ausgabe-Schicht; ggf. vorhandene Kartensysteme), ist
+   OFFEN — Prüfweg: FUND2-Erhebung + Kostenstruktur-Rechnung in
+   MKT-HANDEL. Bis dahin gilt Säule 4 nur für das Kernsegment.
+5. **Förder-Begleitung** — gelebtes Differenzierungsmerkmal (Quelle
+   Extraktion A/A9). **⚠️ Zwei Geltungs-Vorbehalte:** (a) Das
+   dokumentierte Förder-Detailwissen ist SH-spezifisch (DKU-Richtlinie;
+   „bei Kunden außerhalb SH je Land neu zu erheben", Quelle Extraktion
+   B/F7.4). (b) Formulierungs-Grenze für alle künftigen Texte:
+   heyPensio erscheint in keinem Förderantrag, Verflechtungen werden
+   offengelegt (WTSH-Leitplanke, § 264 StGB; Quelle Extraktion A/B6,
+   B/F3.3); ein „Förderantrags-Service" als Angebot ist GEPARKT
+   (Quelle A/A9) — beworben wird Begleitung, nicht Antragstellung.
+6. **Fernbedient: Ortsunabhängigkeit statt Personalersatz** — der
+   Betreiber bleibt handlungsfähig aus der Ferne („Kayhan checkt vom
+   Handy ein", Quelle Extraktion A/A13). Anschlussfähig an die
+   Entscheider-Frage in FUND2 (Nachfolger-Generation, Direktoren).
+7. **Apaleo-Systempartner-Position:** Apaleo kommoditisiert die
+   generische Assistenz-Schicht selbst (Copilot, MCP, Agent Hub —
+   Quelle Extraktion A/A5, Stand R20-D); unser Terrain ist das
+   Systemübergreifende und die eigenen Datenfelder
+   (Telegram-Eskalation, Compliance-Daten, Betriebs-Wächter,
+   Mitbewerber-Preis-Agent; ebd.). Das heyPensio-Bündel war im
+   Apaleo Store zum Recherche-Stand unbesetzt (Quelle A/A5, B/F6.1;
+   Store-Recherche 20.07.2026 — Negative altern, Nachprüfung FUND3).
+
+## 5. Beleg-Basis (was wir heute belastbar sagen können)
+
+Status-Systematik: **Bau ≠ Beleg ≠ Kundeneinsatz.** Jede Aussage unten
+trägt ihren Beleg-Typ; ⚠️-Bausteine werden nicht zu ✅ verdichtet.
+
+- **Drei Pilotobjekte eines Betreiber-Umfelds** (Quelle Extraktion
+  A/A8, B/F4.3): Firzlaff's Hotel Neumünster — 23 Units (Zählweg:
+  21 Zimmer + 2 Apartments) · Rabe's Hotel Kiel — ~25 Einheiten
+  (circa-Angabe der Quelle) · Hostel Boninstraße Kiel — 10–11
+  Einheiten, Langzeitgäste, via LEANE. Summe ~58–59 Einheiten
+  (Zählweg: 23 + ~25 + 10–11; Kontext der Apaleo-Konditionsrechnung,
+  dort „bestätigt" vermerkt — Beleg-Typ aus der Quelle übernommen).
+- **E2E-belegte Produktsubstanz** (Quelle Extraktion A/A8):
+  Touch-Terminal live (im Bau-/Testkontext), Meldeschein-Strecke
+  komplett, Gruppen-/Familien-Check-in, Blacklist-/Apaleo-One-Panel,
+  Pre-Check-in freigegeben, Ratenstruktur beider Häuser.
+  **⚠️ Kundeneinsatz-Vorbehalt Terminal:** Der Terminal-Einsatz beim
+  Piloten ist auf ~2027 vertagt (Betreiber-Priorität Klimaanlagen;
+  Übergang Festcode-Schlüsselkasten; Quelle Extraktion A, Abschnitt d)
+  — „Terminal im Produktivbetrieb beim Kunden" ist damit heute NICHT
+  belegbar; die Case-Study-Zeitachse führt das Terminal-Kapitel erst
+  2027 (ebd.).
+- **PMS-Livegang Ende September 2026** (Quelle Extraktion A, d): erst
+  danach ist die Referenz „live" erzählbar (~Oktober); die
+  Vorher-Baseline VOR Livegang ist MKT-BELEG (nicht nachholbar) und
+  nicht Teil dieses Papiers.
+- **Pilotleistungen sind kostenlos** (heyPensio-Entscheid R3, Quelle
+  Extraktion B/F2.2): Referenz/Pilotstatus ist die Gegenleistung —
+  für die Positionierung heißt das: Der Pilot ist ein echter Kunde
+  (Quelle Extraktion A/C3), aber KEIN Umsatz-Beleg; zahlende Referenz
+  entsteht erst mit Kunde 1 (Ziel Mitte November 2026, E4).
+- **masunt ist Partner-Listung, KEINE Kundenreferenz** (Quelle
+  `referenzen-zusagen.md`): Der Pilotkunde hat sich GEGEN die
+  masunt-Lösung entschieden; die Listungszusage (07.08.2026) stützt
+  ausschließlich das Portfolio-Argument „Zutrittslösungen aktiv
+  anbieten" (inkl. getesteter connect-API-Anbindung) und wird nicht
+  mit Pilot-Belegen vermischt; Verwendung erst in MKT-WEB mit
+  Vorab-Abstimmung.
+- **Website-Referenz heute nicht verwendbar:** hey-pensio.de ist ein
+  leerer Squarespace-Platzhalter mit aktivem Safe-Browsing-Flag
+  (Quelle Extraktion A/A10, B/F5.2) — bis Flag-Beseitigung +
+  Website-Inhalt keine Website-Referenz in Außentexten (ebd.,
+  R23-F-Kasten).
+
+## 6. Dienstleistungsportfolio
+
+Ordnungsprinzip ist die Guest Journey mit vier Checkpoints plus
+Fundament und Querschnitt (Quelle Extraktion A/A1, A11; Status je
+Modul aus der Quelle übernommen — „geparkt" heißt bewusst nicht
+gebaut, nicht „geplant für Q…"):
+
+**Fundament (Voraussetzung, eigenes Geschäft):**
+- PMS-Einführung Apaleo: Implementierung, Property-Setup, Raten,
+  Rollout — laufend real erbracht für drei Objekte (Fassung 6).
+
+**Checkpoint Reservierung:**
+- KI-Telefonassistent (Reservierung) — vorgemerkt (fonio.ai), nicht
+  gebaut (A11).
+
+**Checkpoint Check-in:**
+- Self-Check-in-Terminal, Touch + Sprache (Voice-First) — gebaut,
+  E2E-belegt; Kundeneinsatz-Vorbehalt s. § 5 (A8).
+- Pre-Check-in per Handy-Link (Zwei-Mail-Modell) — zugesagt;
+  Pre-Check-in-Strecke freigegeben (A8/A11).
+- Digitaler Meldeschein — Strecke komplett (A8).
+- Payment — Bestandteil der Journey-Strecke (Fassung 6); Details
+  (Apaleo Pay, T+2-Argument) gehören in Case Study/HANDEL, mit dem
+  dokumentierten Vorbehalt „erst nach Vertragslektüre so verkaufen"
+  (Quelle Extraktion B/F4.3).
+- Zutritt als Portfolio-Prinzip: Linien A–F, „der Kunde wählt" (A11);
+  masunt als gelisteter Partner (§ 5); keyota als
+  „Premium-Zutrittslösung" im Portfolio (A9).
+
+**Checkpoint Aufenthalt:**
+- Mobiler Concierge (QR/Chat), FAQ-/Concierge-Intents — in Arbeit
+  (Jeffrey Intent 2/3, A11).
+- Room-Rack-App — gebaut, E2E (A11).
+- *Portfolio-Illustration Richtung größere Häuser:*
+  **Wellness-Proximity-Push** (geparkt 09.08.2026, Projektquelle § 5):
+  eingecheckter Gast läuft am Wellnessbereich vorbei, ein
+  Näherungssensor löst eine gezielte Push-Benachrichtigung mit Angebot
+  aus. Illustriert, dass das Portfolio bei größeren Häusern über
+  Rezeptions-Entlastung hinaus in Upselling/Gästeerlebnis wächst.
+  **Nur Illustration:** Zielort ist das Produkt-Repo (Übergabe über
+  dessen Leitsession); Ent-Park-Prämissen DSGVO/Tracking-Einwilligung,
+  ePrivacy, Hardware (ebd.) — hier keine Zusage, kein Roadmap-Punkt.
+
+**Checkpoint Nachbetreuung:**
+- Aftersales-Versand — Konzept vorhanden (C2), nicht gebaut (A11).
+- Bewertungs-Modul — geparkt (R25, A11).
+
+**Querschnitt / Betrieb:**
+- Betreuter Betrieb mit Gastgeber-Eskalation (Kern des
+  Betreibermodells, Fassung 6).
+- Betreiber-Cockpit (Telegram) — geparkt bis nach Rollout (A11).
+- Preis-Empfehlungs-Agent — expliziter Kayhan-Wunsch, geparkt (A11);
+  Revenue-Management als Partner-Modul (RoomPriceGenie/happyhotel)
+  denkbar (A11).
+- Förder-Begleitung — aktiv gelebt, Geltungs-Vorbehalte s. § 4.5.
+- Kunden-Onboarding als definierter Prozess; Multi-Kunden-Architektur
+  („Hardware & Plattform teilen, Daten & Laufzeit pro Kunde
+  isolieren", Quelle Extraktion A/B6) als Skalierungs-Fundament.
+
+**Portfolio-Aussage für größere Häuser (Entwurfs-These, zur
+Verabschiedung):** Das Portfolio skaliert über die Modul-Achse, nicht
+über ein anderes Produkt — größere Häuser buchen mehr Checkpoints
+(Telefonassistent, Upselling, Cockpit) und mehr Betrieb, kleine Häuser
+starten engpasskonzentriert (Onboarding-Prinzip, A1). Preislogik
+(„pro Modul, pro Monat, pro Zimmer" als dokumentierte Vision, A1)
+wird in MKT-HANDEL ausgearbeitet, nicht hier.
+
+## 7. Offene Punkte (mit Beschaffungsweg)
+
+1. **Verabschiedung durch den User** — das FUND1-Fertigkriterium;
+   Weg: Vorlage über die Leitsession, Entscheidungspunkte: §§ 3.2
+   (Arbeitsdefinition), 3.3 (Abgrenzungskriterium), 6 (Portfolio-These).
+2. **A12-Neuprüfung für größere Häuser** (Investitionshürden-Argument);
+   Weg: FUND2-Erhebung + Kostenstruktur-Rechnung MKT-HANDEL.
+3. **Größen-Obergrenze der Zielgruppe**; Weg: FUND2-Befund abwarten,
+   dann User-Entscheid — nicht vorher festschreiben.
+4. **Wettbewerbs-Stand veraltet ab 20.07./01.08.2026**; Weg: FUND3
+   (2-Tage-Werkstück laut Projektquelle).
+5. **Partnerschafts-Baustein v3** (trägt noch alte Zielgruppe +
+   flache Selbstbeschreibung); Weg: eigenes Arbeitspaket nach
+   Rebrand-Namensentscheid (Nachdisposition E1, Extraktion C).
+6. **Kern-Wording auf Basis dieses Papiers**; Weg: FUND4 (dort auch
+   Sprachentscheid DE/EN und Zielzahl).
+7. **Everlast-§-11-Randbedingung für alle Marken-Assets:** Logos,
+   Content und Webpräsenzen, die „in der Zusammenarbeit" (Beginn
+   18.09.2026) entstehen, darf Everlast unentgeltlich veröffentlichen
+   (Quelle Extraktion B/F1.2). Dieses Papier entsteht davor; für
+   spätere Assets gehört die Frage in MKT-MARKE.
+
+*Erstellt: 09.08.2026, Session R01-A (Ben Beckman). Quellen wie im
+Kopf; Prüfprotokoll: `protokolle/R01-A-pruefer.md`.*

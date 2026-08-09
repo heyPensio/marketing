@@ -372,3 +372,47 @@ in R4; Pflicht gilt ab zwei). Offen an den User: Shortlist-Handgriffe
 StB-Doppelposten Mo. **Nächster Block: Kontext-Säuberung der
 Leitsession, dann `/runde` für R5 — oder Feierabend (Tagesplan trägt
 die Übergabe).**
+
+## Fortschreibung: R5 (~19:40, Leitsession Shanks nach /clear)
+
+**Kurzcheck:** Sonntag 19:33 (Get-Date) — weiter nur Innen-Stränge.
+Debrief-Gate ✅ (R4 geschlossen lt. Vermerk oben, `774af0d`; `git pull`
+ohne Delta, Arbeitsbaum sauber). Kontext-Säuberung ✅ (Regel 1a).
+Gerüst-Stempel `54439b9` beim R4-Debrief frisch gesetzt (9/9 synchron)
+— kein neuer Check. **User-Zuruf „außerhalb passiert?" (19:3x):
+Nichts Neues** — Shortlist-Handgriffe weiter offen → E-V4-Welle bleibt
+blockiert.
+
+**Kontingent (User-Ablesung ~19:37, als BAND durchgegeben):** Fable
+**70–85 %** verbraucht (keine Exaktwerte); Reset weiter Fr 14.08.
+~07:00. Konsequenz: schlanke Runde bestätigt, Arbeits-Session auf
+Opus, Debrief knapp, KEINE weitere Runde heute geplant.
+
+**Schnitt (User-bestätigt ~19:38):**
+
+| Session | Rolle | Aufgabe | Modell | Exklusiv | Scope |
+|---|---|---|---|---|---|
+| Leitsession (Buchstabe frei) | Shanks | Blueprint-Arbeitsauftrag: Bausteine `aussenkorrespondenz` + `freigabe-vorlagen` (Quelle R00-Lehren-Delta A-/B-Block); danach Review + Debrief R5 | Fable 5 | keine | projektgerüst `vorlage/bausteine/` + hiesige Aktivierung `.claude/rules/`; zentrale nur per Postkorb |
+| R05-A | Ben Beckman | FUND3-Beratungsachse: Wettbewerbsbild-Erweiterung Beratungs-/Agentur-Segment (P12) + P13-Bestandsrückprüfung (heypensio-Alt-Einstufungen, Fall Brandnamic) + Rückprüfung Everlast/Smart Host („Wettbewerber UND Kanal") + Fundstellen-Nachprüfung der agentengelesenen R04-Erhebungs-Kernaussagen | Opus 5 | keine (Web lesend, KEIN Chrome) | `fund/wettbewerbsbild.md` (Erweiterung) + `protokolle/R05-A-*.md` |
+
+**Ist-Stand-Prüfung (Leitsession selbst, 19:36; <3 Stränge → kein
+Prüf-Subagent):** P12/P13 sind dokumentierter OFFENER Bestand
+(`fund/wettbewerbsbild.md` Punkteliste + § 0.0-Geltungsgrenze;
+Entsperrungs-Vermerk im Papier-Kasten § 6) — keine Vorerhebung
+existiert; Positivkontrolle: Greps auf P12/P13 treffen in beiden
+Dokumenten. Blueprint-Auftrag: Quelle
+`protokolle/R00-extraktion-lehren-delta.md` (A-/B-Block) vorhanden;
+Zielort `projektgeruest/vorlage/bausteine/` wird vor dem Bau auf
+Vorbestand gleichen Namens geprüft.
+
+**Review-Regime R05-A (begründet):** Kurzraster + getrennte
+Fundstellen-Nachprüfung durch unabhängigen Prüfer (im Prompt
+verankert; wie Schwester-Strang R03-D) — das Wettbewerbsbild ist
+internes Lagebild, nicht freigabetragend; die außenwirksame
+Weiterverwendung (Papier-Nachtrag) trägt ihre eigene Prüfstufe.
+Leitsession-Strang (Bausteine): Review durch Kopie-Drift-Werkzeug +
+Selbst-Gegenlesen gegen die Quell-Skills beim Debrief.
+
+**PROGNOSE:** Nach R5-Debrief Feierabend. Montag-Kandidaten: StB-Anruf
+(Zentrale, User-Handgriff) · E-V4-Welle nach Shortlist-Handgriffen ·
+Anfragen-Versand DEHOGA/IHK (werktags) · FUND2-Rest.

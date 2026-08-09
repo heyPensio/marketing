@@ -1052,6 +1052,17 @@ die Uhr flexibel ein und erhalten ihren Schlüssel kontaktlos per Code
 digitalisieren, „ohne direkt in eine komplett neue Schließinfrastruktur
 investieren zu müssen" (ROH).
 
+➡️ **Nachtrag R06-A (10.08.2026): Es sind inzwischen drei Seiten, nicht
+zwei.** Die Überschrift dieses Abschnitts ist damit **überholt** —
+hinzugekommen ist **flexipass** (Meran/IT), eine reine Plattform für
+digitale Schlüssel, die ausdrücklich **ohne Austausch der vorhandenen
+Schließhardware** arbeitet („No full hardware replacement required …
+compatible with leading lock brands, including Vingcard (ASSA ABLOY),
+dormakaba, Salto, and more."). Das trifft denselben Kernsatz wie book
+your key und keyBoy, nur von der Software-Seite. Beleg und Einordnung:
+**B10**. *(Der Rest dieses Abschnitts bleibt gültig — book your key und
+Straiv/keyBoy sind davon unberührt.)*
+
 Beides ist **inhaltsgleich mit unserem Kernsatz** „die Pension behält
 ihr bestehendes Schlüssel-/Transpondersystem und bekommt nur eine
 günstige Ausgabe-Schicht obendrauf — kein neues Schließsystem". Die
@@ -1256,11 +1267,11 @@ Misstrauen gegen die Quelle.
 | ~~**P12**~~ | ~~**Zweite Wettbewerbsachse „Beratung" fehlt vollständig**~~ ✅ **AUFGELÖST 09.08.2026 (R05-A) → TEIL B.** Die vorgelagerte Frage ist durch E11/E13 entschieden (Portfolio BREIT, Papier-Kasten § 6); die Achse ist erhoben — Agenturen (B4), Beratung (B5), Revenue/Zahlenanalyse (B6), Verbands-/Förderkanäle (B8). **Rest-Stand: der Suchraum ist nicht vollständig** — Geltungsgrenze in **B1**. | — | — |
 | ~~P13~~ | ~~**Bestand rückwirkend gegen den breiteren Zuschnitt prüfen**~~ ✅ **AUFGELÖST 09.08.2026 (R05-A) → B7.** Brandnamic neu eingestuft (B4.3), Smart Host neu eingestuft (B6.1), Everlast richtiggestellt (B3); zusätzlich **elf weitere Anbieter gefunden, die nie als Wettbewerber betrachtet wurden** (B7.2). ⚠️ Rest: `projektquelle-heypensio.md` und die STATUS-Dateien wurden nur per Grep berührt (B7 Vollständigkeits-Grenze). | — | — |
 | **P14** | ⭐ **TEILWEISE BEANTWORTET (B9.4).** Belegt: BAFA-Registrierung ist kostenfrei, verlangt aber als **Regelvoraussetzung** „mehr als 50 % des Gesamtumsatzes" aus entgeltlicher Unternehmensberatung — ⚠️ **mit Ausnahmeklausel** („In begründeten Fällen kann die Bewilligungsbehörde … eine befristete Ausnahmegenehmigung erteilen"); ob eine solche erreichbar ist, ist **ungeprüft**. **SH-DKU** (bis 8.000 €, bis 30.06.2027) verlangt **gar keine** Akkreditierung, **Hamburg Digital Check** (50 %/7.500 €) nur eine **Selbsterklärung**. **Offen ist damit nicht mehr die Rechtslage, sondern unsere Angebotsarchitektur.** | Entscheid MKT-HANDEL/Zentrale; die zwei fallbezogenen Rückfragen (WTSH-Antragsberechtigung Beherbergung · IFB-Themenzuordnung Marketing) stehen in B9.4 | **hoch — und ⚠️ TERMINKRITISCH: Antragsschluss Hamburg Digital Check 16.11.2026** |
-| ~~P15~~ | ~~**Was decken straiv, flexipass, hoteldoor und iiq check im Brandnamic-Partnerkreis tatsächlich ab?**~~ ✅ **AUFGELÖST 10.08.2026 (R06-A) → B10.** Alle vier an ihren Primärquellen gelesen (BYTE). **Die Funktion ist besetzt, die Kategorie existiert nicht:** straiv (Check-in/Meldeschein/Kiosk/Türöffnung) und flexipass (digitale Schlüssel; Check-in laut eigener Seite „through our Certified Partners") decken das Feld; hoteldoor (CRM/Marketing, IT) und iiq check (Bewertungsmanagement) sind **Namensfallen** und treffen stattdessen Teil B. Brandnamics sechs Kategorien sind technische Schnittstellen-Klassen — eine Rubrik „Check-in/Zutritt" gibt es dort nicht. Partnerkreis nachgezählt: **78 Einträge / 76 Domains** (R05-A: „~70"). ⚠️ Rest: die übrigen **74** Partner sind ungeprüft (**P22**). | — | — |
+| ~~P15~~ | ~~**Was decken straiv, flexipass, hoteldoor und iiq check im Brandnamic-Partnerkreis tatsächlich ab?**~~ ✅ **AUFGELÖST 10.08.2026 (R06-A) → B10.** Alle vier an ihren Primärquellen gelesen (BYTE). **Die Funktion ist besetzt, die Kategorie existiert nicht:** straiv (Check-in/Meldeschein/Kiosk/Türöffnung) und flexipass (digitale Schlüssel; Check-in laut eigener Seite „through our Certified Partners") decken das Feld; hoteldoor (CRM/Marketing, IT) und iiq check (Bewertungsmanagement) sind **Namensfallen** und treffen stattdessen Teil B. Brandnamics **sieben** Kategorien sind technische Schnittstellen-Klassen — eine Rubrik „Check-in/Zutritt" gibt es dort nicht. Partnerkreis nachgezählt: **78 Einträge / 76 Domains in sieben Kategorien** (R05-A: „~70 in sechs"; die Sieben-statt-Sechs-Korrektur stammt aus dem Prüferlauf). ⚠️ Rest: die übrigen **74 Einträge** sind ungeprüft (**P22**). | — | — |
 | **P16** | **Fünf Kandidaten sind kanalbedingt unerhoben geblieben** (kein Negativbefund): Kirsch Unternehmensberatung (TLS-Fehler; laut Suchtreffer Privathotellerie-Spezialist seit 1997) · Hotel Fritz Consulting (HTTP 500) · Kohl & Partner Schweiz (keine Verbindung) · 9seemeilen (DNS) · Swiss Urban & Mountain Hospitality AG (als Partner beschrieben: „Hotel-Operations, Prozessoptimierung und Guest Journey … Remote-Lösungen für das Hotelmanagement" — inhaltlich näher an uns als die meisten Agenturen) | Abruf über anderen Netzpfad bzw. zu anderem Zeitpunkt wiederholen | mittel |
 | ~~P20~~ | ~~**Die Belegbasis von Teil B ist flüchtig und muss gesichert werden.**~~ ✅ **GESICHERT 09.08.2026 (Leitsession R5):** Rohabzüge vollständig nach `sensibel\rohbelege-R05-A\` übernommen (git-ignoriert, dauerhaft) — Kopie robocopy 2132/2132 Dateien, 0 Fehler; Ziel-Zählung 2132 Dateien / 301.370.097 Bytes = quellidentisch (beide per Measure-Object). Struktur: Strang-Ordner a1–a7 des R05-A-Scratchpads. ⚠️ Rest offen: Teil B nennt bei den meisten Zitaten weiter keine URL — Nachprüfung läuft über die gesicherten Rohabzüge, nicht über Links. | — | — |
 | **P18** | **Steuer-/betriebswirtschaftliche Beratung mit Hotellerie-Schwerpunkt** ist weder in Teil A noch in Teil B erhoben (B1 Punkt 1a) | eigener Erhebungslauf; Kandidatenwege über StB-Kammern und Branchenverbände | mittel |
-| ~~P19~~ | ~~**Hotelkooperationen und Marketing-Verbünde als eigene Kategorie nicht erhoben**~~ ✅ **AUFGELÖST 10.08.2026 (R06-A) → B11.** Kategorie aufgemacht: normative Definition (IHA-Beitragsordnung, wörtlich) · vier Länder-Zugänge (DE: AKZENT primär + 7 Kandidaten aus einer Fachmedienliste; **Südtirol: 7 Verbünde laut IDM-Landesagentur** — Erweiterung des Vorbefunds von 2 auf 7; AT: Strafinger mit 5 Angebotsgruppen; CH: Swiss Historic Hotels primär) · **⭐ Strukturbefund: in drei von vier geprüften Fällen führt eine Marketing-Agentur/Beratung den Verbund** (Brandnamic+Kohl & Partner · Strafinger · Heim Hotelmarketing) — der Kanal gehört überwiegend dem Wettbewerb · **⭐ Goslar-Cluster**: AKZENT Hotels e.V., ConsultiiQ GmbH (iiQ-Check) und TMA GmbH, gleiche Anschrift und gleicher Geschäftsführer, iiQ-Check als Position im Mitgliedsbeitrag · Preisanker AKZENT **781,67–996,77 €/M zzgl. MwSt.** (Summenprobe ✔). **Kanalbewertung auftragsgemäß offen → MKT-AKQ.** ⚠️ Rest: keine Vollerhebung (**P21**). | — | — |
+| ~~P19~~ | ~~**Hotelkooperationen und Marketing-Verbünde als eigene Kategorie nicht erhoben**~~ ✅ **AUFGELÖST 10.08.2026 (R06-A) → B11.** Kategorie aufgemacht: normative Definition (IHA-Beitragsordnung, wörtlich) · vier Länder-Zugänge (DE: AKZENT primär + 7 Kandidaten aus einer Fachmedienliste; **Südtirol: 7 Verbünde laut IDM-Landesagentur** — Erweiterung des Vorbefunds von 2 auf 7; AT: Strafinger mit 5 Angebotsgruppen; CH: Swiss Historic Hotels primär) · **⭐ Strukturbefund: in drei von vier Fällen mit belegter Trägerschaft führt eine Marketing-Agentur/Beratung den Verbund** (Brandnamic+Kohl & Partner · Strafinger · Heim Hotelmarketing); der vierte (AKZENT) betreibt den Leistungsstapel selbst. **Nenner ausgeschrieben in B11.3** — ein fünftes betrachtetes Gebilde (PrivateCityHotels.) trägt keine auffindbare Trägerangabe und ist nicht im Nenner · **⭐ Goslar-Cluster**: AKZENT Hotels e.V., ConsultiiQ GmbH (iiQ-Check) und TMA GmbH, gleiche Anschrift und gleicher Geschäftsführer, iiQ-Check als Position im Mitgliedsbeitrag · Preisanker AKZENT **781,67–996,77 €/M zzgl. MwSt.** (Summenprobe ✔). **Kanalbewertung auftragsgemäß offen → MKT-AKQ.** ⚠️ Rest: keine Vollerhebung (**P21**). | — | — |
 | **P17** | **Reine Gästemappen-/Guest-App-Anbieter sind in Teil B systematisch nicht erhoben** — sie sind keine Agenturen und fielen durch beide Suchraster. Für unser Portfolio sind sie die eigentliche Nachbarschaft (B4.4 Punkt 6). ⚠️ **Verschärft durch B10.4:** Die flexipass-Marktplatzliste nennt über 40 solcher Anbieter namentlich — der Suchraum für P17 liegt damit fertig vor. | eigener Erhebungslauf, Weg wie Teil A (Store/Anbieterseiten); Kandidatenliste aus B10.4 | mittel |
 | **P21** | **Die Verbund-Kategorie ist aufgemacht, aber nicht vollerhoben** (B11.7): sieben deutsche Kandidaten nur namentlich (City Partner · Flair · GreenLine · Landidyll · Leading Hotels of the World · Ringhotels · Wellness-Hotels-Deutschland), Österreich nur über einen Träger, **für die Schweiz existiert keine Verbundliste** (GastroSuisse liefert nur eine Systematik). Offen außerdem: Mitgliederzahlen, Beitragsmodelle (2 von 3 nicht veröffentlicht) und die Trägerschaft von fünf der sieben Südtiroler Verbünde. | Primärquellen je Verbund; für CH ggf. HotellerieSuisse statt GastroSuisse | **mittel–hoch — trägt die Kanalentscheidung MKT-AKQ** |
 | **P22** | **74 der 78 Einträge des Brandnamic-Partnerkreises sind ungeprüft** (B10.5). Geprüft wurden nur die vier in B4.3 benannten. Unter den ungeprüften stehen Namen mit erkennbarer Nähe zu unserem Feld (u. a. `chatlyn`, `customer-alliance`, `guest.net`, `reguest.io`, `mergeport`). | Primärquellen wie in B10; Rohbeleg liegt vor (`sensibel\rohbelege-R05-A\a2\raw_partner.html`) | mittel |
@@ -1276,7 +1287,8 @@ Misstrauen gegen die Quelle.
 | 09.08.2026 | R03-D | **Nach Fundstellen-Nachprüfung überarbeitet.** Korrigiert: LIKE-MAGIC-Preise sind Mindestmonatsgebühren neben einem unveröffentlichten Zimmerpreis, Kiosk ist kostenpflichtiges Add-on (§ 3.3) · Voice-KI-Band NICHT re-bestätigt, Ränder heute weiter (§ 4.5) · Schließanlage/Gebäudetechnik stecken NICHT im book-your-key-Monatspreis (§ 5.1) · Shiji-Datum und Sitemap-Spanne richtiggestellt (§ 3.1) · LIKE-MAGIC-Größenbänder summieren auf 27 von 29 (§ 3.3) · „zwei unabhängige Kanäle" → zwei Ausspielwege derselben Anbieterangabe · Apaleo-Negativ für book your key/Jack-In/ILOCA auf „nicht im Store gelistet" zurückgenommen (§ 5.6) · Auswahlkriterium der 69er-Prüfliste präzisiert (§ 4.1) · nicht reproduzierbare Positivkontroll-Zahlen entfernt · § 6.5 nach „widerlegt" und „überholt" getrennt · drei Zitate zeichengenau nachgezogen. |
 | 09.08.2026 | R05-A | **TEIL B angebaut: zweite Wettbewerbsachse „Beratung & Agentur" (P12/P13 aus § 7).** Teil A (§§ 0–8) inhaltlich unverändert; ergänzt wurden nur der Lese-Hinweis im Kopf, die Vorwärtsverweise in § 0.0 und die P12-/P13-Zeilen in § 7. Neu in Teil B: Geltungsgrenze (B1) · Einstufungsraster mit expliziten Vergabelinien L-B1…L-B6 (B2) · Everlast-Einordnung richtiggestellt (B3) · Marketing-Agenturen inkl. Brandnamic-Neueinstufung (B4) · Unternehmensberatung inkl. Förder-Befund gegen USP-Säule 5 (B5) · Revenue-/Zahlenanalyse inkl. Smart-Host-Richtigstellung (B6) · Rückprüfung des Alt-Bestands, elf bisher nie eingestufte Anbieter (B7) · Bündel-Wettbewerb „Digitalisierung aus einer Hand" (B8) · Verbands-, Kammer- und Förderkanäle (B9). Vorwärtsverweis zusätzlich in § 5.5 gesetzt (Säule 5). Fundstellen-Nachprüfung der übernommenen R04-Kernaussagen: `protokolle/R05-A-fundstellen.md`. |
 | 09.08.2026 | R05-A | **Nach unabhängigem Prüferlauf überarbeitet** (`protokolle/R05-A-pruefer.md`). Korrigiert: Apaleo-Store-Kategorien **7 → 9** samt gestrichener Fehl-Entwarnung „bestätigt die MKT-R3-Messung" und ersetzter Positivkontrolle (B8.4) · BAFA-Zitat um seine **Ausnahmeklausel** ergänzt, „BAFA-untauglich" zurückgenommen (B9.4, P14) · **W1-Inflation in B5 behoben**: neue Vergabelinie **L-B7** (E13b-Pauschalzuschnitt als benannter Anker), zwei Einstufungen auf „—" korrigiert, drei mit Teilleistungs-Vermerk · maxonline W2 → **W1** (Verstoß gegen die eigene Linie L-B1) · DEHOGA-BW-Eigenanteile mit Scope „**je Beratungstag**" (Doppelmaßstab zu B6.1 beseitigt) · Brandnamic-Kanal-Einstufung um **Hotelkooperationen** erweitert · zwei verschwiegene Lücken in B1 nachgetragen (Steuer-/BWL-Beratung, Hotelkooperationen) → neue Punkte **P18/P19**, dazu **P20** (flüchtige Belegbasis) · „Browser nicht benötigt" als Fehl-Entwarnung zurückgenommen · § 5.5-Verweis präzisiert (das Technik-Negativ bleibt schwach) · **P9 als erledigt markiert** (47 IHA-Partner erhoben). |
-| 10.08.2026 | R06-A | **P15 und P19 aufgelöst — zwei neue Abschnitte in Teil B.** Neu: **B10** (Brandnamic-Partnerkreis an den Primärquellen: Redirect-Gegenprobe je Domain, Partnerkreis nachgezählt **78 Einträge / 76 Domains** statt „~70", zwei Treffer + zwei Namensfallen, Einstufungen, Preisanker iiQ-Check inkl. Zählweg-Warnung zur Tarif-Extraktion, Firmierungs-Widerspruch bei flexipass) · **B11** (Hotelkooperationen: IHA-Definition wörtlich, vier Länder-Zugänge, Strukturbefund „Verbünde werden von Wettbewerbern geführt", Goslar-Cluster AKZENT/ConsultiiQ/TMA, AKZENT-Beitragstabelle mit Summenprobe, Einstufungen, Negative). Geändert im Bestand: neue Vergabelinie **L-B8 (Geografie)** in B2 · Erhebungstabelle und Punkt 1b in **B1** nachgezogen · Vorwärtsverweis in **B4.3** (die dortige Annahme ist aufgelöst, „~70" präzisiert) · Nachtrags-Kasten im Teil-B-Kopf · Nachtrag in der Geltungsgrenze **§ 0.0** · § 7: P15/P19 auf erledigt, **P21/P22** neu, P17 verschärft. Belegbasis: `sensibel\rohbelege-R06-A\`. Prüferprotokoll: `protokolle/R06-A-pruefer.md`. |
+| 10.08.2026 | R06-A | **P15 und P19 aufgelöst — zwei neue Abschnitte in Teil B.** Neu: **B10** (Brandnamic-Partnerkreis an den Primärquellen: Redirect-Gegenprobe je Domain, Partnerkreis nachgezählt **78 Einträge / 76 Domains** statt „~70", zwei Treffer + zwei Namensfallen, Einstufungen, Preisanker iiQ-Check inkl. Zählweg-Warnung zur Tarif-Extraktion, Firmierungs-Widerspruch bei flexipass) · **B11** (Hotelkooperationen: IHA-Definition wörtlich, vier Länder-Zugänge, Strukturbefund „**in drei von vier Fällen mit belegter Trägerschaft** führt eine Agentur/Beratung den Verbund", Goslar-Cluster AKZENT/ConsultiiQ/TMA, AKZENT-Beitragstabelle mit Summenprobe, Einstufungen, Negative). Geändert im Bestand: neue Vergabelinie **L-B8 (Geografie)** in B2 inkl. rückwirkender Bestandsprüfung · Erhebungstabelle und Punkt 1b in **B1** nachgezogen · Vorwärtsverweise in **B4.3** und **§ 5.4** (Säule 4: dritte Seite) · Nachtrags-Kasten im Teil-B-Kopf · Nachtrag in der Geltungsgrenze **§ 0.0** · § 7: P15/P19 auf erledigt, **P21/P22** neu, P17 verschärft. Belegbasis: `sensibel\rohbelege-R06-A\`. |
+| 10.08.2026 | R06-A | **Nach unabhängigem Prüferlauf überarbeitet** (`protokolle/R06-A-pruefer.md`, 2 Kritisch + 8 Wichtig, alle nachgeprüft und repariert). Korrigiert: **Brandnamic-Partnerkreis hat SIEBEN Kategorien, nicht sechs** — „Institutionelle Partner" (2) war still zu „Branchenpartner" addiert worden; Ursache war eine hartcodierte Sechser-Namensliste im Zähllauf (**zweite Reproduktion der Fehlerklasse aus B8.4**) · **„alle zzgl. MwSt." bei den iiQ-Check-Tarifen gestrichen** — die Quelle macht keine Angabe zur Steuerbasis (0 Treffer bei Positivkontrolle) · flexipass-Zitat auf den Originalsatz zurückgeführt (die Erstfassung hatte zwei Sätze verschmolzen) · **L-B8 rückwirkend gegen den Bestand geprüft** (ein Kandidat: Roommatik/ES — Einstufung bleibt, mit Begründung) · Vorwärtsverweis in **§ 5.4** ergänzt (flexipass ist die dritte Seite gegen Säule 4) · **Nenner „drei von vier" ausgeschrieben** und der Strukturbefund in § 7 und im Änderungsprotokoll entschärft · falsches Negativ zu Mitgliederzahlen repariert (**PrivateCityHotels: „42 Hotels in 18 Städten"** — beim Entmarkupen verlorengegangen) · Strafinger-Zitat auf seinen belegten Geltungsbereich (Health Spa) begrenzt · AKZENT-Partnerkacheln „genau drei" → **vier Kacheln, drei extern**. Dazu elf Präzisierungen: „~70" auch in der B4.3-**Einstufungstabelle** nachgezogen · TMA-Zählweg genannt und Registerart nicht mehr ergänzt · Redirect-Gegenprobe auf ihre Belegstufe (Antwortkörper, nicht Statuszeile) zurückgeführt · Certified-Partners-Satz drei statt zwei Knoten, Trenner ist ein Link auf `/marketplace` · hoteldoor „69" → 68 Portale + 1 Netzwerk-Eintrag, Deutung als solche markiert · AKZENT-Mystery-Check-Zitat um seinen Scope-Nachsatz vervollständigt · Personenidentität Mario Peschke ausgeschrieben · flexipass „100+" gegen die 28 veröffentlichten PMS gestellt · „74 Partner" → „74 Einträge" · **Querbefund an B4.5**: PrivateCityHotels. belegt Häuser in Berlin/Hamburg/Köln und stützt damit die Sample-Schwäche aus B1 Punkt 2. |
 
 ---
 ---
@@ -1491,6 +1503,18 @@ bei gleicher Sachlage auseinander.)*
   Staatsgrenzen. (b) Ein N nach L-B8 ist **kippbar**: Ein belegter
   DACH-Auftritt macht daraus sofort wieder eine W-Frage.
   ⚠️ Wie L-B7 ist auch das eine **Entscheidung dieses Papiers**.
+  **Rückwirkende Bestandsprüfung (Pflicht bei jeder neuen Linie,
+  durchgeführt 10.08.2026 nach Prüferbefund R06-A/W-4):** Suchraum
+  Teil B vollständig, Muster auf Länderkürzel außerhalb DACH.
+  **Genau ein Kandidat:** **Roommatik (ES)**, in B7.2 als **W1 + K**
+  geführt. **Die Einstufung bleibt** — Roommatik zielt mit einem offenen
+  Vertriebs-Angebot („Agent/Distributor") ausdrücklich **auf unseren
+  Markt**; sein Marktauftritt ist damit nicht „ausschließlich außerhalb
+  DACH", die Linie greift nicht. Die beiden IT-Einträge des Bestands
+  (Brixen, Meran) sind **Südtirol** und fallen unter Grenze (a).
+  *(Positivkontrolle des Suchlaufs: dasselbe Muster fand die drei
+  vorhandenen Nicht-DACH-Marker `(ES)`, `(IT)`, `(IT)` ✔ — es hätte
+  weitere gefunden, wenn es welche gäbe.)*
 
 ## B3. Everlast — Richtigstellung einer Einordnung aus § 0.0
 
@@ -1741,8 +1765,10 @@ Funktion — **hoteldoor** (CRM/Marketing) und **iiq check**
 (Bewertungsmanagement) sind **Namensfallen** und besetzen stattdessen
 unsere Teil-B-Flanke. Eine Kategorie „Check-in/Zutritt" existiert im
 Brandnamic-Raster gar nicht. **Zwei Angaben dieses Absatzes sind in B10
-präzisiert:** „~70 Partner" → **78 Einträge / 76 Domains**; die
-straiv-Kategoriezuordnung ist **bestätigt**.
+präzisiert:** „~70 Partner in sechs Kategorien" → **78 Einträge /
+76 Domains in SIEBEN Kategorien** (die Rubrik „Institutionelle Partner"
+ist im Satz oben still mit „Branchenpartner" verschmolzen); die
+straiv-Kategoriezuordnung ist dagegen **bestätigt**.
 
 **Neu-Einstufung Brandnamic — dreiteilig, weil eine Einzelnote hier
 falsch wäre:**
@@ -1751,7 +1777,7 @@ falsch wäre:**
 |---|---|---|
 | Beratungs-/Agentursegment | **W1 — hoch** | Website-Bau **und Wartung/Betreuung nach Go-live**, CI/Branding/Naming, SEO/SEA, Social, Newsletter/CRM, „Pricing-Strategie" + „Storno- & Buchungsbedingungen", Hotelcoaching inkl. Leadership/Operatives, Mystery Checks |
 | Self-Check-in-/Meldeschein-/Zutritts-Technik | **kein Wettbewerber** (belegt, Stand 09.08.2026, Vollsuchraum + Positivkontrolle) | s. o. — aber die Nachbarfelder sind besetzt |
-| Kanal | **K — breiter als zunächst eingestuft, mit eingebautem Interessenkonflikt** | Partnerprogramm mit ~70 Partnern belegt (L-B3 erfüllt). ⚠️ **Korrektur nach Prüferbefund R05-A:** „nur produktseitig" war zu eng — Brandnamic hat **zusätzlich Zugang über Hotelkooperationen** („Gemeinsam mit der … Consulting-Firma **Kohl & Partner** hat Brandnamic die Leitung und Verwaltung von zwei Kooperationsgruppen inne: **Belvita Leading Wellnesshotels Südtirol** und **Familienhotels Südtirol**"). Das ist ein Mehrfach-Zugang zu Häusern unserer Zielgruppe, unabhängig vom Technik-Partnerprogramm. Der Interessenkonflikt bleibt: dasselbe Haus verkauft unser gesamtes Beratungssegment selbst |
+| Kanal | **K — breiter als zunächst eingestuft, mit eingebautem Interessenkonflikt** | Partnerprogramm mit **78 Einträgen / 76 Domains in sieben Kategorien** belegt (nachgezählt R06-A, **B10.1** — die Erstfassung sagte „~70 Partner in sechs Kategorien"; L-B3 erfüllt). ⚠️ **Korrektur nach Prüferbefund R05-A:** „nur produktseitig" war zu eng — Brandnamic hat **zusätzlich Zugang über Hotelkooperationen** („Gemeinsam mit der … Consulting-Firma **Kohl & Partner** hat Brandnamic die Leitung und Verwaltung von zwei Kooperationsgruppen inne: **Belvita Leading Wellnesshotels Südtirol** und **Familienhotels Südtirol**"). Das ist ein Mehrfach-Zugang zu Häusern unserer Zielgruppe, unabhängig vom Technik-Partnerprogramm. Der Interessenkonflikt bleibt: dasselbe Haus verkauft unser gesamtes Beratungssegment selbst |
 
 **Der unbequeme Kern dieser Einstufung:** Was bei uns als „**im Aufbau**"
 geführt wird (Social, laufendes SEO, Ads, Bewertungsmanagement), ist dort
@@ -1818,7 +1844,7 @@ rechnen.
 | Eigene verkaufte Hotel-Software | dieselben Seiten, Muster „eigene Software/unsere eigene/selbst entwickelt" + Produktkategorien | 1 Treffer gefunden (99tales) — das Muster funktioniert ✔ |
 | Gästemappe / Self-Check-in bei Agenturen | dieselben 16 Volltexte | „Hotel" auf jeder Seite ✔ |
 | Mitarbeiterzahlen | Start-/About-/Impressumsseiten | 1 belegter Fall („9 Team-Mitglieder") ✔ — Namenszählungen wurden **nicht** als Personalstand gewertet |
-| Anbieter aus Berlin/Hamburg/Leipzig/Dresden | vier WebSearch-Läufe ohne Regionsbindung | Suche lieferte 16 Anbieter aus sieben Regionen ✔ — **das Negativ misst die Suchbegriffe, nicht den Markt** |
+| Anbieter aus Berlin/Hamburg/Leipzig/Dresden | vier WebSearch-Läufe ohne Regionsbindung | Suche lieferte 16 Anbieter aus sieben Regionen ✔ — **das Negativ misst die Suchbegriffe, nicht den Markt**. ➡️ **Bestätigt durch B11.2(d) (R06-A):** PrivateCityHotels. führt Mitgliedshäuser in Berlin, Hamburg, Köln, Nürnberg u. a. — die Lücke liegt nachweislich am Suchraum |
 
 **Kanäle, die nicht verfügbar waren** (nicht als Negativ gewertet):
 Impressum Plaschke (3× HTTP 403, serverseitige Sperre) · Impressum
@@ -2697,11 +2723,15 @@ entscheidbar):**
 1. **Redirect-Gegenprobe je Domain** (Baustein `quellen-beschaffung`:
    ein Wildcard-301 macht jede Unterseite byte-identisch zur Startseite
    und erzeugt scheinbare Negative). Kontrollpfad
-   `/zzz-r06a-kontrollpfad` auf allen vier Domains, 10.08.2026:
-   `flexipass.tech` **404** · `hoteldoor.it` **404** ·
-   `iiq-check.de` **404** · `straiv.io` **404**, jeweils mit einer von
-   der Startseite abweichenden Byte-Länge. **Kein Wildcard-Redirect** —
-   die Seitenbefunde unten sind keine Artefakte.
+   `/zzz-r06a-kontrollpfad` auf allen vier Domains, 10.08.2026: alle
+   vier antworten mit einer **404-Seite** und einer von der Startseite
+   abweichenden Byte-Länge (`hoteldoor.it` nennt im Antwortkörper sogar
+   den Kontrollpfad wörtlich). **Kein Wildcard-Redirect** — die
+   Seitenbefunde unten sind keine Artefakte.
+   ⚠️ **Belegstufe:** Archiviert sind die **Antwortkörper**
+   (`ctrl404_*.html`), **nicht** die Statuszeilen der Kontrollabrufe —
+   der 404 ist am Seiteninhalt belegt, nicht am HTTP-Header
+   (Prüferbefund R06-A/K-15).
 2. **Der Partnerkreis selbst wurde am Rohbeleg nachgezählt**, nicht aus
    der R05-A-Prosa übernommen. Quelle:
    `sensibel\rohbelege-R05-A\a2\raw_partner.html`. Zählweg: Regex über
@@ -2709,7 +2739,8 @@ entscheidbar):**
    zur Kategorie über die Dokumentposition der Kategorie-Überschrift.
    **Ergebnis: 78 Logo-Einträge / 76 verschiedene Anbieter-Domains**
    (`weareplanet.com` und `simplify-hospitality.com` je zweimal) in
-   **sechs** Kategorien mit diesen wörtlichen Überschriften:
+   **sieben** Kategorien mit diesen wörtlichen Überschriften
+   (alle `class="MOD-Partner__title"`):
 
 | Kategorie (Wortlaut Brandnamic) | Einträge |
 |---|---|
@@ -2718,17 +2749,36 @@ entscheidbar):**
 | Zahlungsanbieter Schnittstellen | 18 |
 | POS Schnittstellen | 2 |
 | Weitere Schnittstellenpartner | 12 |
-| Branchenpartner | 8 |
+| Branchenpartner | 6 |
+| **Institutionelle Partner** | 2 |
 
 *(Positivkontrolle desselben Laufs: die vier gesuchten Namen erscheinen
 in der Extraktion mit ihren Ziel-URLs — `straiv.io`, `flexipass.tech`,
 `hoteldoor.it`, `iiq-check.de` ✔. Das prüft die **Vollständigkeit des
 Ergebnisses**, nicht nur die Erreichbarkeit der Quelle.)*
-**Korrektur an R05-A:** Dort steht „~70 Partner in sechs Kategorien".
-Die Kategorien stimmen, die Zahl ist mit **78/76** zu präzisieren; die
-R05-A-Kategoriezuordnung von `straiv` („Zahlungsanbieter
-Schnittstellen") ist **bestätigt** — sie ergibt sich aus der
-Dokumentreihenfolge zwischen `sparkasse.it` und `stripe.com`.
+
+⚠️ **Diese Tabelle ist eine Korrektur der eigenen Erstfassung —
+Prüferbefund R06-A (K-1), und es ist die ZWEITE Reproduktion derselben
+Fehlerklasse in diesem Papier** (die erste war die Apaleo-Kategoriezahl
+7 → 9 in B8.4, Prüferbefund R05-A). Der erste Zähllauf dieser Session
+suchte nach einer **vorher aufgeschriebenen Liste von sechs
+Kategorienamen** und fand deshalb genau sechs — die siebte Rubrik
+**„Institutionelle Partner"** (`hds-bz.it`, `hgj.it`) wurde still zu
+„Branchenpartner" addiert. **Eine Suchliste, die nur Bekanntes kennt,
+ist eine Positivliste in Verkleidung.** Der korrigierte Lauf extrahiert
+die Überschriften generisch über die CSS-Klasse; die Einträge-Summe
+25+13+18+2+12+6+2 = **78** stimmt in beiden Läufen, nur ihre Verteilung
+nicht. **Sachlich ändert die Korrektur die Antwort auf P15 nicht** —
+auch die siebte Rubrik ist keine Check-in-/Zutritts-Kategorie —, aber
+die Aussage „so ist der Partnerkreis gegliedert" war falsch.
+
+**Korrektur an R05-A:** Dort steht „~70 Partner in sechs Kategorien
+(… Branchen-/institutionelle Partner)". **Die Zahl ist mit 78/76 zu
+präzisieren, die Kategorienzahl mit sieben** — R05-A hat dieselben zwei
+Rubriken in einem Aufzählungspunkt zusammengezogen. **Bestätigt** ist
+dagegen die R05-A-Kategoriezuordnung von `straiv` („Zahlungsanbieter
+Schnittstellen") — sie ergibt sich aus der Dokumentreihenfolge zwischen
+`sparkasse.it` und `stripe.com`.
 
 ### B10.2 ⭐ Die Antwort auf P15: zwei Treffer, zwei Namensfallen
 
@@ -2741,15 +2791,17 @@ markiert, was sich jetzt auszahlt.**
 | Anbieter | Rechtsträger (Impressum, SELBST — kein Registerauszug) | Was er laut eigener Primärquelle verkauft | Check-in / Zutritt? |
 |---|---|---|---|
 | **straiv** (`straiv.io`) | in Teil A § 3.1 geführt (Straiv GmbH, Stuttgart) | „Online Check-in & Check-out" · „Digitaler Meldeschein" · „Self-Service Hotel Kiosk"; im Fließtext: „vom Online Check-in über die **digitale Türöffnung** bis hin zum Payment" | **JA — beides** |
-| **flexipass** (`flexipass.tech`) | FLEXIPASS KEYLESS MOBILE ACCESS SRLS, Via Mainardo 162, 39012 Meran (BZ), IT; REA BZ-220157; Gesellschaftskapital 1.000 €; MwSt. IT02961420219 | Digitale Schlüssel als Plattform: „Wallet Keys, Webkeys and Mobile Keys in a single platform"; „**Works with existing door locks** … compatible with leading lock brands, including Vingcard (ASSA ABLOY), dormakaba, Salto"; „Integrates with 100+ PMS platforms" | **Zutritt JA — Check-in ausdrücklich NEIN** (s. u.) |
+| **flexipass** (`flexipass.tech`) | FLEXIPASS KEYLESS MOBILE ACCESS SRLS, Via Mainardo 162, 39012 Meran (BZ), IT; REA BZ-220157; Gesellschaftskapital 1.000 €; MwSt. IT02961420219 | Digitale Schlüssel als Plattform: „FlexiPass enables **Web Keys, Wallet Keys, and Mobile Keys** in a single platform, with seamless integration into your existing hotel infrastructure"; „No full hardware replacement required. FlexiPass is compatible with leading lock brands, including Vingcard (ASSA ABLOY), dormakaba, Salto, and more."; „Integrates with 100+ PMS platforms" *(„100+" ist Selbstauskunft; **namentlich veröffentlicht sind 28** — B10.4 Punkt 2)* | **Zutritt JA — Check-in ausdrücklich NEIN** (s. u.) |
 | **hoteldoor** (`hoteldoor.it`) | BRG Communication S.r.l., Via L. Da Vinci 9, Cesenatico (IT), P.IVA 03596030407 *(aus der Privacy Policy — eine eigene Impressumsseite existiert auf der Domain nicht)* | „Hoteldoor® è il **CRM** utilizzato dalle principali strutture alberghiere per curare la relazione con il cliente"; Module Sales, Marketing (DEM/Newsletter), E-Commerce, Digital Concierge, MICE-Angebotserstellung | **NEIN** — Namensfalle |
 | **iiq check** (`iiq-check.de`) | ConsultiiQ GmbH, Spitalstraße 1, 38640 Goslar; GF Ralf Hummel; HRB Braunschweig 201943 | „**Bewertungsmanagement** für Hotellerie & Camping"; Gästefeedback, Portal-Monitoring, KI-Antwortvorschläge, Pre-/Inhouse-/Post-Stay-Mails | **NEIN** — Namensfalle („check" = Qualitäts-Check, nicht Check-in) |
 
 **Der entscheidende Satz steht bei flexipass auf der eigenen Seite
 `/online-checkin`:** „**Check-In services are provided through our
-Certified Partners.**" *(Der Satz steht im Markup auf zwei
-Textknoten verteilt — „Check-In services are provided through our" ·
-„Certified Partners" — und ist in dieser Reihenfolge zusammengesetzt.)*
+Certified Partners.**" *(Im Markup steht der Satz auf drei Knoten:
+„Check-In services are provided through our " · ein **Link auf
+`/marketplace`** mit dem Text „Certified Partners" · der Schlusspunkt
+dahinter. Der Trenner ist damit selbst ein Beleg — er zeigt die Aussage
+direkt auf den Marktplatz.)*
 Flexipass verkauft Check-in also **nicht selbst**, sondern führt ihn im
 eigenen Marktplatz als Partnerleistung — die Fußzeile listet unter
 „Partner Services" ausdrücklich „Online Check-In · Upsell · Payments ·
@@ -2758,10 +2810,11 @@ Chat · Guest Surveys · Anything you want".
 **Damit ist P15 beantwortet:**
 
 1. **Eine Kategorie „Check-in/Zutritt" existiert im Brandnamic-Raster
-   überhaupt nicht.** Die sechs Kategorien sind technische
-   Schnittstellen-Klassen (PMS, CM/BE, Zahlung, POS, Weitere,
-   Branchenpartner). Wer dort eine „offene Kategorie" sucht, sucht
-   etwas, das die Taxonomie nicht kennt.
+   überhaupt nicht.** Die **sieben** Kategorien sind technische
+   Schnittstellen-Klassen plus zwei Verbandsrubriken (PMS · CM/BE ·
+   Zahlung · POS · Weitere Schnittstellenpartner · Branchenpartner ·
+   Institutionelle Partner). Wer dort eine „offene Kategorie" sucht,
+   sucht etwas, das die Taxonomie nicht kennt.
 2. **Die FUNKTION ist trotzdem besetzt — durch zwei Anbieter, nicht
    durch vier.** Online-Check-in, Meldeschein und Kiosk liegen bei
    **straiv** (unserem direktesten Technik-Wettbewerber aus Teil A
@@ -2784,7 +2837,7 @@ Chat · Guest Surveys · Anything you want".
 |---|---|---|
 | **straiv** | **Technik-Wettbewerber (Teil A § 3.1)** — in Teil B keine Neu-Einstufung | Bestand unverändert. **Neu belegt ist allein:** er ist zugleich gelisteter Partner eines Teil-B-**W1** (Brandnamic, B4.3) |
 | **flexipass** | **Technik-Wettbewerber** (Zutritt; trifft USP-Säule 4 direkt) **+ K** | K nach **L-B3**: offenes, belegtes Partnerprogramm mit öffentlichem Verzeichnis (Marketplace: 13 Schlossanbieter, 28 PMS, 40+ Guest-App-Anbieter namentlich) und Weg „Become a Partner" |
-| **hoteldoor** | **N** (Raster nicht anwendbar) — nach der **neuen Linie L-B8** | Leistungsüberschneidung besteht (Website-Betrieb, Newsletter/DEM, E-Commerce), aber der eigene Marktauftritt zielt ausschließlich auf Italien: Seite nur `lang="it"` ohne `hreflang`-Alternativen, „Più di 500 hotel **in tutta Italia**", sämtliche Referenzhäuser italienisch, und alle **69** unter „Portali pubblicitari" gelisteten Werbeportale beziehen sich auf italienische Destinationen — **auch die deutschsprachigen** (`familienhotels.de`, `italien.de`, `riminiurlaub.it`): Sie vermarkten italienische Häuser an deutschsprachige Gäste, was die Zielgruppen-Aussage nicht kippt, sondern stützt. ⚠️ **Die Einstufung ist die schwächste dieses Abschnitts:** Südtiroler Betriebe sind italienische Betriebe — ein DACH-Berührungspunkt über Südtirol ist damit **nicht ausgeschlossen**, nur nicht belegt |
+| **hoteldoor** | **N** (Raster nicht anwendbar) — nach der **neuen Linie L-B8** | Leistungsüberschneidung besteht (Website-Betrieb, Newsletter/DEM, E-Commerce), aber der eigene Marktauftritt zielt ausschließlich auf Italien: Seite nur `lang="it"` ohne `hreflang`-Alternativen, „Più di 500 hotel **in tutta Italia**", sämtliche Referenzhäuser italienisch, und die Rubrik „Portali pubblicitari" führt **69 Einträge — 68 Portal-Domains plus einen Netzwerk-Eintrag** („Network Portali Adrias Online") —, die sich sämtlich auf italienische Destinationen beziehen. Auch die drei deutschsprachigen Adressen (`familienhotels.de`, `italien.de`, `riminiurlaub.it`) sind **aus dem Listenkontext** Italien-Portale; **die drei Seiten selbst wurden nicht geprüft**, die Zuordnung ist insoweit erschlossen, nicht belegt. ⚠️ **Die Einstufung ist die schwächste dieses Abschnitts:** Südtiroler Betriebe sind italienische Betriebe — ein DACH-Berührungspunkt über Südtirol ist damit **nicht ausgeschlossen**, nur nicht belegt |
 | **iiq check** (ConsultiiQ GmbH) | **W2** | Nach **L-B1**: die Überschneidung liegt genau auf dem Posten „**Bewertungsmanagement**", den der Papier-Kasten § 6 als „im Aufbau" **ohne Träger und ohne Zusage** führt. Kein W1. ⚠️ **K nicht abschließend geprüft:** ein Weg „Partner werden" existiert, führt aber auf `app.iiq-check.de` hinter einen Login — **kanalbedingt unerreichbar**, kein Negativ |
 
 **Neue Vergabelinie (nachgetragen in B2):** **L-B8 — Geografie-Linie.**
@@ -2795,12 +2848,21 @@ eine Entscheidung dieses Papiers.
 
 1. **⭐ Ein harter Preisanker für MKT-HANDEL — der erste veröffentlichte
    Vollpreis eines Nachbarprodukts.** iiQ-Check veröffentlicht vier
-   Tarife (`iiq-check.de/preise`, Stand 10.08.2026, alle **zzgl.
-   MwSt.**): **Basic 79,00 €/Monat + 399,00 € einmalige Einrichtung** ·
+   Tarife (`iiq-check.de/preise`, Stand 10.08.2026):
+   **Basic 79,00 €/Monat + 399,00 € einmalige Einrichtung** ·
    **Premium 109,00 € + 599,00 €** · **Premium + KI 139,00 € + 799,00 €**
    · **Premium + KI + ACSM 169,00 € + 799,00 €**. Dazu wörtlich:
    „Unabhängig von der Zimmer- oder Stellplatzanzahl – Du zahlst immer
    denselben fairen Preis" und „Preisgarantie für bis zu 5 Jahre".
+   ⚠️ **Steuerbasis unbekannt — und das ist eine Korrektur der eigenen
+   Erstfassung** (Prüferbefund R06-A, K-2): Dort stand „alle zzgl.
+   MwSt.". **Die Quelle sagt das nicht.** Suchraum: alle fünf gelesenen
+   iiQ-Check-Seiten, Muster `MwSt|Mehrwertsteuer|Umsatzsteuer|netto|
+   brutto` → **0 Treffer** (Positivkontrolle im selben Lauf: „iiQ" traf
+   in jeder Datei 7–14 mal ✔). Das einzige „zzgl." auf der Preisseite
+   bezieht sich auf die **Einrichtungsgebühr**, nicht auf Steuer. Vor
+   jedem Vergleich mit AKZENT (dort ist „zzgl. MwSt." belegt) oder mit
+   eigenen Preisen ist die Basis also **erst zu klären**.
    ⚠️ **Zählweg-Warnung, weil sie fast zu einer Falschaussage geführt
    hätte:** In der entmarkupten Textfassung sehen **alle vier Tarife
    identisch** aus — die 25 Merkmale je Tarif stehen dort unterschiedslos
@@ -2948,7 +3010,7 @@ nicht.
 | Verbund / Gruppe | Träger | Beleg |
 |---|---|---|
 | **Health Spa Premium Hotels** (AT) + **KulturEvents Austria**, **Abenteuer Fischwasser**, **Kärnten/Österreich Radreisen**, **Allergie Profis** | **Strafinger Tourismuswerkstatt** (AT) — wörtlich: „Die STRAFINGER TOURISMUSWERKSTATT ist die betreuende Agentur und hat seit der Gründung die **Geschäftsführung** inne" | BYTE, `strafinger.at/angebotsgruppen/` |
-| **PrivateCityHotels.** (DACH) | Verbund, Träger nicht auf der Mitgliedschaftsseite ausgewiesen; wörtlich „ein dynamischer Verbund erfolgreicher Privathotels im **deutschsprachigen Europa**"; Städte u. a. Graz, Innsbruck, Klagenfurt, Salzburg, Wien, Zürich | BYTE, `privatecityhotels.com/mitgliedschaft/`; **kein öffentlicher Beitrag** („Mitgliedschaft anfragen") |
+| **PrivateCityHotels.** (DACH) | Verbund, Träger nicht auf der Mitgliedschaftsseite ausgewiesen; wörtlich „ein dynamischer Verbund erfolgreicher Privathotels im **deutschsprachigen Europa**"; **„42 Hotels in 18 Städten"** (Fußzeile). **⭐ Die Städteliste enthält Berlin, Hamburg, Köln, Nürnberg, Bonn, Freiburg, Ingolstadt, Passau, Speyer, Tübingen** neben Bregenz, Graz, Innsbruck, Klagenfurt, Salzburg, Wien, Zürich — also genau die deutschen Großstädte, deren Fehlen B1 Punkt 2 und B4.5 als Sample-Schwäche ausweisen | BYTE, `privatecityhotels.com/mitgliedschaft/`; **kein öffentlicher Beitrag** („Mitgliedschaft anfragen"), **keine Trägerangabe auf den gelesenen Seiten** |
 | **Swiss Historic Hotels** (CH) | Geschäftsstelle Bern; **Marketingberatung und -betreuung: Heim Hotelmarketing, Luzern** (Impressum, wörtliche Rubrik). „Seit 2004 haben sich über 60 historische Hotels und Gasthäuser in der Schweiz zur **Marketing-Kooperation** … zusammengeschlossen" | BYTE, `swiss-historic-hotels.ch/ueber-uns` + `/kontakt/impressum` |
 
 **⚠️ Für die Schweiz gibt es keine Verbundliste dieser Erhebung.**
@@ -2961,12 +3023,23 @@ bestehender Verbünde**. Das ist ein Befund über die Quelle, kein Negativ
 ### B11.3 ⭐ Der Strukturbefund: Diese Verbünde werden von unseren Wettbewerbern geführt
 
 Das ist die eigentliche Antwort auf P19 — und sie ist in **drei
-unabhängigen Fällen aus drei Ländern** belegt:
+unabhängigen Fällen aus drei Ländern** belegt.
+
+**Der Nenner, ausgeschrieben, damit „drei von vier" nachprüfbar ist:**
+Trägerschaft wurde bei **fünf** Verbund-Gebilden überhaupt betrachtet.
+Bei **vier** ließ sie sich an einer Quelle festmachen — Belvita/
+Familienhotels (Vorbefund R05-A), Health Spa Premium Hotels, Swiss
+Historic Hotels, AKZENT. **Drei davon werden von einer Agentur/Beratung
+geführt**, der vierte (AKZENT) betreibt den Leistungsstapel selbst. Beim
+fünften, **PrivateCityHotels.**, war auf den gelesenen Seiten **keine
+Trägerangabe auffindbar** — er ist deshalb **nicht** im Nenner, und das
+ist ein Nicht-Fund, kein Negativ. Die fünf Südtiroler Verbünde jenseits
+von Belvita/Familienhotels wurden gar nicht erst betrachtet (P21).
 
 | Verbund | Wird geführt/betreut von | Deren Einstufung bei uns |
 |---|---|---|
 | Belvita Leading Wellnesshotels Südtirol · Familienhotels Südtirol | **Brandnamic** + **Kohl & Partner** (Vorbefund R05-A, B4.3) | Brandnamic **W1 hoch + K**; Kohl & Partner in B5 geführt |
-| Health Spa Premium Hotels (AT) u. a. 4 Gruppen | **Strafinger Tourismuswerkstatt** — „betreuende Agentur", „Geschäftsführung inne" | **neu** — bisher in keinem Teil dieses Papiers geführt |
+| **Health Spa Premium Hotels** (AT) | **Strafinger Tourismuswerkstatt** — wörtlich: „Die STRAFINGER TOURISMUSWERKSTATT ist die betreuende Agentur und hat seit der Gründung die Geschäftsführung inne". ⚠️ **Der Satz steht im Health-Spa-Abschnitt und gilt belegt nur für diese Gruppe** — für die vier weiteren Angebotsgruppen sagt die Seite allgemeiner: „verfügt über jahrzehntelange Erfahrung in der **Führung** von touristischen Angebotsgruppen und Hotelkooperationen" | **neu** — bisher in keinem Teil dieses Papiers geführt |
 | Swiss Historic Hotels (CH) | **Heim Hotelmarketing**, Luzern — Impressum-Rubrik „Marketingberatung und -betreuung" | in **B4.1** bereits als **W1** geführt (Kooperationsvermarktung war dort schon vermerkt) |
 
 **Die Konsequenz, unbequem formuliert:** Der Mehrfach-Zugang
@@ -2990,17 +3063,27 @@ denselben Geschäftsführer:
 |---|---|---|---|
 | **AKZENT Hotels e.V.** (Hotelkooperation) | Spitalstraße 1, 38640 Goslar | Vorsitzender Mario Peschke; **Geschäftsführer Ralf Hummel** | Vereinsregister AG Braunschweig **200518** |
 | **ConsultiiQ GmbH** (Produkt *iiQ-Check*, Bewertungsmanagement) | Spitalstraße 1, 38640 Goslar | **Geschäftsführer Ralf Hummel** | HRB Braunschweig **201943** |
-| **TMA TourismusMarketing Agentur GmbH** (Hotelmarketing) | Spitalstraße 1, 38640 Goslar | **Geschäftsführer Ralf Hummel** | HRB Braunschweig **111371** |
+| **TMA TourismusMarketing Agentur GmbH** (Hotelmarketing) | Spitalstraße 1, 38640 Goslar | **Geschäftsführer Ralf Hummel** | Handelsregister Braunschweig **111371** *(die Registerart „HRB" nennt das Impressum nicht — sie ist hier nicht ergänzt)* |
 
 Dazu passen die Telefonnummern aus demselben Block
 (`05321 7591-40` / `-70` / `-60`) und zwei weitere belegte Verbindungen:
-- Die AKZENT-Startseite führt genau **drei** „Partner des AKZENT Hotels
-  e.V.": **DIRS21** (Buchungsmaske/Channelmanager), **iiQ-Check** und
-  **tourismus-agentur.de** (= TMA).
-- Die iiQ-Check-Startseite führt als Referenz den
-  **Vorstandsvorsitzenden des AKZENT Hotels e.V.**: „Der iiQ-Check ist
-  für uns seit Jahren ein unentbehrliches Werkzeug zur konsequenten
-  Qualitätssicherung **in allen Mitgliedsbetrieben**."
+- Die AKZENT-Startseite führt unter „Partner des AKZENT Hotels e.V."
+  **vier Kacheln**, davon **drei externe Anbieter**: **DIRS21**
+  (Buchungsmaske/Channelmanager), **iiQ-Check** und
+  **tourismus-agentur.de** (= TMA). **Die vierte verweist auf eine
+  eigene Seite**, `/interne-weiterbildungsakademie/` (Q-Akademie) — die
+  zugleich eine Position im Mitgliedsbeitrag ist. *(Zählweg: vier
+  `elementor-widget-image-box` nach der Überschrift, drei mit externem
+  `href`; Korrektur nach Prüferbefund R06-A/W-10, die Erstfassung
+  schrieb „genau drei".)*
+- Die iiQ-Check-Startseite führt als erste Referenz **namentlich
+  „Mario Peschke — Vorstandsvorsitzender des AKZENT Hotels e.V."**, also
+  **dieselbe Person**, die im AKZENT-Impressum als Vorsitzender steht:
+  „Der iiQ-Check ist für uns seit Jahren ein unentbehrliches Werkzeug
+  zur konsequenten Qualitätssicherung **in allen Mitgliedsbetrieben**."
+  Der Verbandsvorsitzende wirbt damit öffentlich für das Produkt der
+  Gesellschaft, deren Geschäftsführer zugleich sein eigener
+  Verbands-Geschäftsführer ist.
 - **iiQ-Check ist eine Position im Mitgliedsbeitrag** (50,00 €/Monat,
   s. B11.5) — das Produkt wird also nicht verkauft, sondern über den
   Verbundbeitrag ausgerollt.
@@ -3048,7 +3131,9 @@ Spalten gehen auf.
 individueller **Beratungstag** (alle 3 Jahre)" · „kostenfreies
 Qualitäts- und Bewertungsmanager-Tool" · „aktive Beratung und
 Unterstützung in allen Bereichen des Marketings und Verkaufs" ·
-„Durchführung von anerkannten **Mystery Checks**" · „Presse- und
+„Durchführung von anerkannten **Mystery Checks** im Rahmen der deutschen
+Hotelklassifizierung" *(der Nachsatz ist eine Scope-Einschränkung und
+gehört mitzitiert — er trägt die W1-Begründung in B11.6 mit)* · „Presse- und
 Öffentlichkeitsarbeit" · „kostenfreie **IBE** (Internet Booking Engine)
 für die eigene Hotelwebsite" · „kostenfreier **Channelmanager**" ·
 „kosten- und provisionsfreie Buchungen über die Kooperationswebsite und
@@ -3072,7 +3157,7 @@ Zahlungsbereitschaft, kein Preisschild. Auswertung gehört **MKT-HANDEL**.
 | Anbieter / Verbund | Einstufung | Begründung / Linie |
 |---|---|---|
 | **AKZENT Hotels e.V.** | **W1 + K** | **W1** nach L-B4 (Marktauftritt genügt für die Einstufung): verkauft seinen Mitgliedern Marketing-Analysen, Marketing-/Verkaufsberatung, PR, Mystery Checks, Weiterbildung und eine Buchungsstrecke — Leistungen, die der Papier-Kasten § 6 als real erbracht bzw. namentlich zugesagt führt. **K** nach L-B3: Mitgliederkanal **und** belegter, öffentlich gelisteter Partnerkreis |
-| **TMA TourismusMarketing Agentur GmbH** | **W1** | Hotelmarketing-Agentur (Beratung, Website, Marketing, Seminare) — gehört sachlich ins Feld B4 und war dort **nicht** erhoben. Neunter Anbieter dieser Art im Papier |
+| **TMA TourismusMarketing Agentur GmbH** | **W1** | Hotelmarketing-Agentur (Beratung, Website, Marketing, Seminare) — gehört sachlich ins Feld **B4** und war dort **nicht** erhoben. Zählweg: die Einstufungstabelle B4.1 führt 16 Anbieter, TMA wäre der **siebzehnte** |
 | **ConsultiiQ GmbH / iiQ-Check** | **W2** | s. B10.3 (L-B1, Aufbau-Posten Bewertungsmanagement) |
 | **Strafinger Tourismuswerkstatt** | **W2 + K** | **W2** nach L-B1: die beworbenen Leistungen sind Content-/Performance-Marketing, Magazin, Medienkooperationen — Aufbau-Posten. **K** nach L-B3: führt fünf Angebotsgruppen mit Mitgliederkanal |
 | **Heim Hotelmarketing** | **W1** (unverändert aus B4.1) — **zusätzlich K** | K neu nach L-B3: belegte Verbund-Trägerschaft (SHH-Impressum) = strukturierter Zugang zu über 60 CH-Häusern |
@@ -3092,9 +3177,20 @@ Zahlungsbereitschaft, kein Preisschild. Auswertung gehört **MKT-HANDEL**.
 1. **Keine Vollerhebung.** Sieben der acht deutschen Kandidaten sind
    ungeprüft; für Österreich wurde nur der Strafinger-Kreis erfasst; für
    die Schweiz existiert keine Liste (→ **P21**).
-2. **Keine Mitgliederzahlen** außer den beiden zitierten
-   Selbstauskünften („über 60" bei SHH). AKZENT nennt auf den geprüften
-   Seiten **keine** Hotelzahl.
+2. **Mitgliederzahlen: zwei belegt, eine fehlt.** Belegt sind „über 60
+   historische Hotels und Gasthäuser" (Swiss Historic Hotels,
+   Selbstauskunft) und **„42 Hotels in 18 Städten"**
+   (PrivateCityHotels., Selbstauskunft in der Fußzeile, mit
+   ausgeschriebener Städteliste). **AKZENT nennt auf den geprüften
+   Seiten keine Hotelzahl.**
+   ⚠️ **Korrektur der Erstfassung** (Prüferbefund R06-A/W-8): Dort stand
+   „Keine Mitgliederzahlen außer den beiden zitierten" und nannte dann
+   nur **eine**. Die PCH-Zahl war vorhanden, ging aber beim Entmarkupen
+   verloren — sie steht als `<span class="hotel-count">42</span> Hotels
+   in <span class="city-count">18</span> Städten` und zerfiel in der
+   Textfassung in Fragmente. **Eine Zahl in Auszeichnungs-Spans
+   überlebt eine Text-Extraktion nicht** — dieselbe Falle wie bei den
+   iiQ-Tarifen (B10.4).
 3. **Keine Kanalbewertung.** Auftragsgemäß: **mit MKT-AKQ zu bewerten.**
    Dieses Papier stellt nur fest, dass die Kategorie existiert, wie sie
    strukturiert ist und wer sie führt.
@@ -3112,7 +3208,9 @@ Zahlungsbereitschaft, kein Preisschild. Auswertung gehört **MKT-HANDEL**.
 - **MKT-HANDEL:** Der AKZENT-Beitrag (781,67–996,77 €/M zzgl. MwSt.,
   ab 2026) und die iiQ-Check-Tarife (79–169 €/M + 399–799 €
   Einrichtung) als **zwei veröffentlichte Zahlungsbereitschaften** — mit
-  den Lesegrenzen aus B11.5 und B10.4.
+  den Lesegrenzen aus B11.5 und B10.4. ⚠️ **Die beiden Anker sind nicht
+  ohne Weiteres vergleichbar:** AKZENT weist „zzgl. MwSt." aus, iiQ-Check
+  macht **keine Angabe zur Steuerbasis** (B10.4).
 - **MKT-FUND:** Zwei Portfolio-Fragen, die diese Erhebung aufwirft und
   nicht entscheiden darf: (a) Gehört eine **Buchungsstrecke/IBE** zum
   Portfolio? (b) Ist **Bewertungsmanagement** weiterhin nur

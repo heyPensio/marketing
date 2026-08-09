@@ -543,3 +543,35 @@ R05-A-Befundbestand. Offen an den User: **R7 = Nacharbeit der 24
 Befunde** · Shortlist-Handgriffe · StB/BAFA Mo · Statuszeilen
 R3-A/B/D + R04-A + R05-A + R06-A · `/cost`-Ablesung R06-A vor dem
 Schließen des Fensters.
+
+## FEIERABEND — Arbeitstag 09.08.2026 beendet (User-Entscheid ~01:45)
+
+Sechs Runden gelaufen (R1–R6), alle geschlossen und debrieft, alles
+gepusht (marketing bis `e3449b7`, projektgerüst bis `b8f7d9c`),
+Arbeitsbaum sauber. **Dieser Tagesplan ist abgeschlossen — nicht
+fortschreiben.**
+
+⚠️ **Einstieg des nächsten Arbeitstages: `/tagesstart`, NICHT `/runde`.**
+Begründung: Die Runden R6 lief über Mitternacht, der Kalendertag ist
+bereits auf **Montag, 10.08.2026** gekippt — für den 10.08. existiert
+aber noch KEIN `protokolle/tagesplan-2026-08-10.md`. Der Tagesrahmen
+(Wochentag, Kalender, Erreichbarkeitsfenster, Wochen-Kontingent) wird
+also neu erhoben; er unterscheidet sich fundamental vom Sonntag: **Montag
+ist ein Werktag — Anbieter, Behörden und Verbände sind erreichbar**, und
+genau daran hängen die aufgestauten Außen-Posten.
+
+**Erste Posten für Montag (aus STATUS „Nächster konkreter Schritt"):**
+1. ⚠️ **TERMINKRITISCH — StB-Anruf Steinmetz `0431-679 19 38`** (Zentrale,
+   User-Handgriff): Dworak-Termin VOR der Gewerbeanmeldung ~14.08.
+   Dreifacher MKT-Posten in der Fragenliste: Marken-Inhaberschaft ·
+   Kayhan-Beratervertrag (E13b) · **BAFA-Umsatzstruktur — vor dem Anruf
+   entscheiden, ob die Frage mit reingeht** (Postkorb `4e2ba33`).
+2. **Anfragen-Versand DEHOGA/IHK** (werktagsgebunden, vorher
+   IHK-Zuständigkeit klären) — Entwürfe liegen versandbereit.
+3. **R7-Kandidat a: Nacharbeit der 24 offenen R05-A-Prüferbefunde**
+   (`protokolle/R06-nacharbeit-R05A-befunde.md`), zitatkritische zuerst.
+4. Shortlist-Handgriffe (User) — sie halten weiterhin die E-V4-Welle auf.
+
+**Kontingent:** letzte Erhebung 19:37 als Band (Fable 70–85 %), Reset
+Fr 14.08. ~07:00 — beim Tagesstart neu ablesen. Seit dem
+Richtungsentscheid gilt: **Information, kein Zuschnitt-Kriterium.**

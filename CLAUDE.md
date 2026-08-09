@@ -2,20 +2,23 @@
 
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
-> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `7d45a69`
+> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `ca75d82`
 > am 2026-08-09. Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
 
 Aufbau und Betrieb der **Marketingabteilung** des Unternehmens (heute
-„heyPensio"; der **Rebrand ist entschieden** — der neue Name entsteht im
-Strang MKT-MARKE). Projektziel (User-Entscheid 09.08.2026): eine
+„heyPensio"; der **Rebrand ist entschieden** — GF-Willensbildung, formale
+51/49-Gesellschafter-Freigabe steht aus (`zentrale\namensentscheid.md`);
+der neue Name entsteht im Strang MKT-MARKE). Projektziel (User-Entscheid 09.08.2026): eine
 **vollständige, AI-native arbeitende Marketingabteilung** — Name, Logo,
 CI, Positionierung, Website, Kanäle, Akquise-Betrieb — **UND der erste
 zahlende Kunde bis Mitte November 2026**. Es gilt das
 Keine-Lite-Varianten-Prinzip: Jedes Werkstück wird von Anfang an
-vollwertig gebaut („wir machen niemals von irgendetwas eine
-Lite-Variante" — User, 09.08.2026).
+vollwertig gebaut (User-Entscheid E3, Voice-Nachricht 09.08.2026;
+Transkript wörtlich: „wir machen nie, nie, nie, nie niemals von
+irgendetwas eine Leitvariante" — Kontext-Interpretation der Session:
+„Lite-Variante"; Erhebungsquelle archiviert in `zentrale\sensibel\`).
 
 Nachbar-Repos: `C:\Users\qwafa_2dwxzia\heypensio` (Produkt + Pilotkunde)
 und `C:\Users\qwafa_2dwxzia\zentrale` (Firmen-Ebene, siehe Abschnitt
@@ -36,13 +39,13 @@ Fertig-Kriterium. Jede Ebene trägt Name + Kurz-Code:
 
 | Code | Strang | Ziel (Fertig-Kriterium) |
 |---|---|---|
-| **MKT-FUND** | Positionierung & Strategie | Verabschiedetes Positionierungspapier: USP + Dienstleistungsportfolio erweitert auf größere Häuser, Persona-Validierung (Nachfolger-These ↔ 58-jährige-Wirte-These), Wettbewerb, Kern-Wording, Sprachentscheid, Zielzahl. Timebox 1–2 Wochen. |
+| **MKT-FUND** | Positionierung & Strategie | Verabschiedetes Positionierungspapier: USP + Dienstleistungsportfolio erweitert auf größere Häuser, Persona-Validierung (Nachfolger-These ↔ Wirte-These; Direktoren-Frage als Session-Zusatz), Wettbewerb, Kern-Wording, Sprachentscheid, Zielzahl. Timebox 1–2 Wochen. |
 | **MKT-MARKE** | Name, Logo, CI | Neuer Name entschieden + Gesellschafter-Freigabe (51/49) + Markenrecherche/-anmeldung + Domains & Handles gesichert + Logo + CI-Guide + **Cutover-Plan** (eigenes Deliverable). Gate: GbR-Namensführungsfrage (Zentrale/StB, Terminbezug Gewerbeanmeldung ~Mitte August). |
 | **MKT-BELEG** | Pilot-Dokumentation | Vorher-Baseline VOR dem PMS-Livegang (Ende September — **nicht nachholbar**) gemessen; Referenzvereinbarungen aller 3 Pilotobjekte; Case Study nach Livegang; Demo-Video Voice-Check-in. |
 | **MKT-HANDEL** | Pricing & Vertriebswerkzeuge | Preismodell + Angebotsarchitektur + Sales-Deck/One-Pager + **Kanal-Rechtsmatrix (UWG § 7)** vor dem Zielkundenlisten-Bau + Lead-Prozess mit Kapazitätsdeckel + Vertrags-/AVV-Anforderungen (Zulieferung an Zentrale). |
 | **MKT-WEB** | Website & digitale Präsenz | Vollwertige Website unter dem NEUEN Namen live (echte Fotos, BFSG-Einstufung mit Beleg, datenschutzkonformes Tracking, Impressum/Datenschutz/Cookies); Social-Profile angelegt. Startet erst nach Namensentscheid (sonst Wegwerfarbeit). |
 | **MKT-AKQ** | Akquise & Kampagnen | Kanalmix NACH dem Persona-Befund festgezurrt (Kandidaten: Founder-Direktvertrieb, Referenz-/Empfehlungsmechanik, Apaleo-Ökosystem/App-Store, DEHOGA/Verbände, Internorga Hamburg (März) als Rückwärts-Anker, Fach-/Regionalpresse, LinkedIn, Newsletter); Maßnahmen laufen; **erster Abschluss bis Mitte November**. |
-| **MKT-OPS** | AI-native Betrieb & Messung | Lead-Tracking, Funnel-KPIs (Erstgespräche/Woche · Pipeline · Zeit bis Abschluss 1 · Referenz-Assets · Reply-Quote), Kostendeckel, AI-Act-Kennzeichnungs-Policy, VVT/AVV-Inventar, Zugangs-Register (2FA/Recovery, in `sensibel/` + Backup), n8n-Instanz-Entscheid. **Agenten-Hierarchie GEPARKT** — Trigger: ein manueller Prozess produziert nachweislich Termine/Kunden. |
+| **MKT-OPS** | AI-native Betrieb & Messung | Lead-Tracking, Funnel-KPIs (Erstgespräche/Woche · Pipeline · Zeit bis Abschluss 1 · Referenz-Assets · Reply-Quote), Kostendeckel, AI-Act-Kennzeichnungs-Policy, VVT/AVV-Inventar, Zugangs-Register (2FA/Recovery, in `sensibel/` + Backup), n8n-Instanz-Entscheid. **Agenten-Hierarchie GEPARKT** — Ent-Park-Trigger normativ in `zentrale\rollen-charta.md` (ZWEI Bedingungen: Prozess produziert nachweislich Kunden UND gemessene Arbeitslast erzwingt die Ebene). |
 
 **Namenskonvention:**
 - Strang: `MKT-<STRANG>` (z. B. `MKT-FUND`)

@@ -18,6 +18,8 @@ zwischen Leitsessions und überlebt die Kontext-Kompaktierung.
   Fundstellen, **Positivkontrolle des Suchwegs** (Pflicht — ohne sie gilt
   die Session als prüferlos), Grenze des eigenen Prüfwegs.
 - `R<runde>-leitsession-review-<session>.md` — Reviews der Leitsession.
+- `R00-<thema>.md` — Aufsetz-/Sonderprotokolle außerhalb des
+  Runden-Rasters (z. B. Plan-Prüfung beim Projekt-Aufsetzen).
 
 Die Dateien committet die jeweilige Session selbst (eigener Scope).
 Inhalte sind Momentaufnahmen der Runde — sie werden nicht nachgepflegt;

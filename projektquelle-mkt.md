@@ -9,8 +9,9 @@
 ## 1. VORHABEN UND ENDZUSTAND
 
 Aufbau einer **vollständigen, AI-native arbeitenden Marketingabteilung**
-für das Unternehmen (heute „heyPensio" — **Rebrand entschieden**, neuer
-Name entsteht in MKT-MARKE): Positionierung, Name, Logo, CI, Website,
+für das Unternehmen (heute „heyPensio" — **Rebrand entschieden** als
+GF-Willensbildung, formale 51/49-Freigabe ausstehend; neuer Name
+entsteht in MKT-MARKE): Positionierung, Name, Logo, CI, Website,
 Kanäle, Akquise-Strategien offline + online, laufender Betrieb mit
 Messung. Die Abteilung arbeitet AI-native mit dem User als
 Human-in-the-loop für alles Außenwirksame; die volle Agenten-Hierarchie
@@ -23,6 +24,11 @@ Pre-Check-in, Meldeschein, Payment, Zutritt, KI-Gästekommunikation) —
 **Zielgruppe ausdrücklich inklusive größerer Häuser** (User-Entscheid
 09.08.2026, „steht nicht zur Diskussion"); USP und Portfolio werden dafür
 in MKT-FUND neu ausgearbeitet.
+
+*(Alle Entscheide dieses Dokuments: Erhebungsform Voice-Nachricht
+08./09.08.2026, Transkripte archiviert in `zentrale\sensibel\`.
+Entscheid-IDs E1–E7 = Abschnitt 4 dieses Dokuments — nicht zu
+verwechseln mit den Befund-IDs A/B/C/D/E/F aus R00 Bericht 3.)*
 
 **Fertig heißt:** Die Abteilung steht komplett (Name/CI/Website/Kanäle/
 Betrieb, alle Werkstücke vollwertig — keine Lite-Varianten), Maßnahmen
@@ -37,17 +43,25 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
 
 ### MKT-FUND — Positionierung & Strategie (Timebox 1–2 Wochen)
 - **FUND1** Positionierungspapier: USP + Dienstleistungsportfolio,
-  erweitert auf größere Häuser (inkl. Konzern-/Ketten-Abgrenzung:
-  inhabergeführt bleibt gesetzt). Fertig: vom User verabschiedet.
+  erweitert auf größere Häuser. Rahmen bleibt inhabergeführt — Quelle:
+  Voice-Nachricht 08.08. („ich will schon bei inhabergeführten Häusern
+  bleiben, aber gerne auch größere"); das Verhältnis zu angestellten
+  Direktoren größerer Häuser wird in FUND2 mit-evaluiert, die
+  Konzern-/Ketten-Abgrenzung hier geschärft. Fertig: vom User
+  verabschiedet.
 - **FUND2** Persona-Validierung: Sind die Entscheider 58-jährige
   Inhaber, jüngere Nachfolger (2./3. Generation) oder angestellte
-  Direktoren (größere Häuser)? Methode: Pilot-Umfeld + Verbandsdaten +
+  Direktoren (größere Häuser; dritte Kategorie = Zusatz der Session,
+  nicht Teil der User-Frage)? Methode: Pilot-Umfeld + Verbandsdaten +
   Apaleo-Ökosystem. Fertig: dokumentierter Befund mit Quellen —
   **determiniert den AKQ-Kanalmix.**
 - **FUND3** Wettbewerbsbild aktualisieren (Straiv + Segment größerer
   Häuser). Fertig: 2-Tage-Werkstück, keine Forschungsarbeit.
 - **FUND4** Kern-Wording, Sprachentscheid (DE-only vs. DE/EN),
-  Zielzahl (zahlende Objekte bis wann). Fertig: dokumentierte Entscheide.
+  Zielzahl (zahlende Objekte bis wann) + **Marketing-Budget als Zahl**
+  (Makro-Rahmen für Marke/Domains/Tools/Anzeigen/KI-Token;
+  Gesellschafter-Freigabepunkt 51/49, Zahlen in `sensibel/` —
+  Nachdisposition R00/B3). Fertig: dokumentierte Entscheide.
 
 ### MKT-MARKE — Name, Logo, CI
 - **MARKE1** Naming-Sprint: Kriterienkatalog, Kandidaten, Vorprüfung
@@ -64,7 +78,9 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
 - **MARKE5** Cutover-Plan: Sequenz Name→Marke→Domain→Website→Ankündigung,
   Übergangsregeln für laufende Korrespondenz (Anbieter-Fäden, Behörden,
   Pilotkunde), Mail-/Workspace-Migration (Ausführung: Zentrale),
-  Redirect-Konzept hey-pensio.de. Fertig: EIN Dokument, vom User
+  Redirect-Konzept hey-pensio.de. **Der Cutover-ZEITPUNKT ist nicht
+  User-entschieden** (entschieden ist nur das DASS) — er ergibt sich
+  erst aus diesem freizugebenden Plan. Fertig: EIN Dokument, vom User
   freigegeben.
 
 ### MKT-BELEG — Pilot-Dokumentation (zeitkritisch)
@@ -139,6 +155,10 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
 - **OPS5** n8n-Instanz-Entscheid (eigene Marketing-Instanz vs. getrennter
   Bereich; NIE die Produktiv-Instanz des Piloten mitnutzen) + Kostendeckel
   je Automatisierung. Fertig: dokumentierter Entscheid, ggf. Instanz live.
+- **OPS6** Regelbetrieb nach Launch (Nachdisposition R00/C5):
+  Redaktions-/Pflegerhythmus für Website + Social,
+  Aktualisierungspflichten (Impressum bei Rechtsform-/Adressänderung),
+  Tote-Inhalte-Review. Fertig: Rhythmus dokumentiert und läuft.
 
 ## 3. EXTERNE SYSTEME UND ZUGÄNGE
 
@@ -157,9 +177,15 @@ OPS4-Register in `sensibel/`.)*
 
 ## 4. ENTSCHEIDE
 
-- **09.08.2026 (E1) Rebrand kommt — „indiskutabel".** Der Firmenname
-  heyPensio wird ersetzt; Begründung: Zielgruppen- und
-  Portfolio-Erweiterung (E2). Die Prüfer-Empfehlung „Null-Option/parken
+- **09.08.2026 (E1) Rebrand kommt.** Wortlaut (Voice 09.08.): „Deswegen
+  ist die Änderung des Namens leider auch indiskutabel, auch wenn es ein
+  aufwendigeres Unterfangen ist." (Lesart der Session: „indiskutabel" =
+  steht nicht zur Debatte, kommt sicher — kontextgestützt durch
+  Voice 08.08.: der Name „spiegelt … nicht mehr wirklich wider, wen wir
+  ansprechen wollen".) Der Firmenname heyPensio wird ersetzt; Begründung:
+  Zielgruppen- und Portfolio-Erweiterung (E2). **Status: GF-Willensbildung
+  — formale 51/49-Gesellschafter-Freigabe steht aus** (Gate 3,
+  `zentrale\namensentscheid.md`). Die Prüfer-Empfehlung „Null-Option/parken
   mit Trigger" wurde vom User überstimmt (Rohbericht:
   `protokolle/R00-planpruefung-2026-08-09.md`, Prämissen-Kritik Befund 1);
   aus der Prüfung übernommen wurden die Absicherungen: Cutover-Plan
@@ -178,11 +204,16 @@ OPS4-Register in `sensibel/`.)*
   Namensentscheid.
 - **09.08.2026 (E4) Projektziel:** vollständige Marketingabteilung UND
   erster Abschluss **bis Mitte November 2026** — ein Projekt, nicht zwei;
-  aber OPS bleibt flach (E5).
+  aber OPS bleibt flach (E5). *(Interpretationsvermerk: Der User-Wortlaut
+  „… und der erste Abschluss. Bis Mitte November." lässt grammatisch
+  offen, ob die Frist beide Ziele bindet; Lesart der Session: beide.
+  Daraus folgt KEIN entschiedener Cutover-Zeitpunkt — s. MARKE5.)*
 - **09.08.2026 (E5) Agenten-Hierarchie geparkt** (Heads → Teamleads →
-  Worker mit Freigabeschlaufen): Zielbild ja, Bau erst wenn ein
-  manueller Prozess nachweislich Termine/Kunden produziert
-  (Prüfer-Konsens „Organisation vor Arbeit", vom User mitgetragen).
+  Worker mit Freigabeschlaufen): Zielbild ja, Bau erst nach dem
+  Ent-Park-Trigger — **normativ definiert in `zentrale\rollen-charta.md`
+  (ZWEI Bedingungen: Prozess produziert nachweislich Kunden UND
+  gemessene Arbeitslast erzwingt die Ebene)** (Prüfer-Konsens
+  „Organisation vor Arbeit", vom User mitgetragen).
 - **09.08.2026 (E6) Ablage:** eigene Repos `marketing` + `zentrale`
   (Vorschlag A); Austausch über Lese-Verdrahtung + Postkorb
   (CLAUDE.md „Firmen-Ebene"). Google Workspace bleibt vorerst.
@@ -193,9 +224,10 @@ OPS4-Register in `sensibel/`.)*
 ## 5. GEPARKTE IDEEN
 
 - **Agenten-Hierarchie nach Organigramm** (geparkt 09.08.2026; Prämisse
-  des Park-Zeitpunkts: noch kein bewiesener manueller Prozess. Trigger
-  zum Ent-Parken: wiederholbarer Prozess produziert nachweislich
-  Termine/Kunden. Zielbild-Beschreibung: `zentrale\rollen-charta.md`.)
+  des Park-Zeitpunkts: noch kein bewiesener manueller Prozess.
+  Ent-Park-Trigger normativ in `zentrale\rollen-charta.md` — zwei
+  Bedingungen: Prozess produziert nachweislich Kunden UND gemessene
+  Arbeitslast erzwingt die Ebene. Zielbild-Beschreibung ebendort.)
 - **Wellness-Proximity-Push** (geparkt 09.08.2026; User-Gedankenspiel als
   Beleg der Portfolio-Richtung „größere Häuser"): Gast hat sich per
   QR-Code am Handy in den AI-Concierge eingecheckt; läuft er am

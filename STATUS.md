@@ -19,7 +19,7 @@
 > **Pflege:** Nur die drei Blöcke unten, kurz halten; wird beim Debrief
 > zusammen mit der Projektquelle aktualisiert (Vier-Stellen-Sync).
 > Runden-Stände älter als das 2-Runden-Fenster rotieren VERBATIM nach
-> `STATUS-archiv.md`; ein hier fehlender Alt-Stand heißt „rotiert", nie
+> `STATUS-archiv.md` (Datei entsteht bei der ersten Rotation); ein hier fehlender Alt-Stand heißt „rotiert", nie
 > „nichts passiert".
 
 ---
@@ -34,9 +34,10 @@ User-Entscheide dazu stehen in der Projektquelle § 4.
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE
-  (Name/CI, Rebrand GESETZT) · MKT-BELEG (Pilot-Doku) · MKT-HANDEL
+  (Name/CI; Rebrand GESETZT als GF-Willensbildung, formale
+  51/49-Freigabe steht aus) · MKT-BELEG (Pilot-Doku) · MKT-HANDEL
   (Pricing/Vertrieb) · MKT-WEB (Website, nach Namensentscheid) · MKT-AKQ
-  (Akquise, erster Abschluss bis Mitte November) · MKT-OPS (Betrieb light).
+  (Akquise, erster Abschluss bis Mitte November) · MKT-OPS (Betrieb flach).
 - Schwester-Repo `zentrale` (Firmen-Ebene) im selben Zug angelegt —
   trägt Namensentscheid-Vorprüfung und Rollen-Charta.
 - Noch keine Arbeits-Runde gelaufen.
@@ -54,3 +55,8 @@ User-Entscheide dazu stehen in der Projektquelle § 4.
    PMS-Livegang (Ende September, nicht nachholbar).
 3. **Kleinposten:** Domain-Inventur (Cloudflare-/Registrar-Dashboard mit
    dem User auslesen — er weiß den Bestand nicht auswendig).
+4. **OFFENER USER-ENTSCHEID (Nachdisposition R00, Prüfer-Punkt
+   Kapazitätsdeckel):** Wie viele MKT-Blöcke/Woche neben dem
+   heyPensio-Livegang (Ende September) und wie viele
+   Gründer-Wochenstunden für Freigabeschlaufen? Das Kontingent ist eine
+   Wochenressource — ohne Deckel entscheidet die Priorisierung implizit.

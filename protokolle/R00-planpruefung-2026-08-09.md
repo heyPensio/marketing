@@ -29,6 +29,23 @@ den User-Entscheiden.
   unvalidiert — mit Zielgruppe „auch größere Häuser" und möglicher
   Nachfolger-Generation (2./3. Generation) ist sie zu prüfen → FUND2.
 
+> **Nachtrag 09.08.2026 (nach der Zweitprüfung des Tages-Outputs —
+> Original-Disposition oben bleibt unverändert stehen):**
+> (1) *ID-Klarstellung:* „E1–E7" im Disposition-Kontext = die
+> User-Entscheide der Projektquelle § 4; NICHT zu verwechseln mit den
+> Befund-IDs „E1–E5" in Bericht 3 unten (Kollision vom Konsistenz-Prüfer
+> gefunden; der Rohbericht war zuerst da und bleibt verbatim).
+> (2) *Nachdisposition von vier Punkten, die oben weder „übernommen" noch
+> „überstimmt" waren:* Kapazitätsdeckel MKT ↔ Livegang + Wochenstunden-
+> Budget (Bericht 1 Befund 7, Bericht 3 F1) → **OFFENER USER-ENTSCHEID**,
+> als Posten 4 in STATUS.md aufgenommen · Betriebs-/Pflegemodus nach
+> Launch (Bericht 3 C5) → **übernommen** als OPS6 · Marketing-Budget als
+> Makro-Zahl (Bericht 3 B3) → **übernommen** in FUND4
+> (Gesellschafter-Freigabepunkt) · CMO-Notfallpfad „Akquise nach
+> 4 Wochen unter Arbeitstitel" → **bewusst nicht verfolgt** (durch E1
+> gegenstandslos: der Rebrand kommt, die Akquise wartet ohnehin nicht
+> auf den Namen — Kanalarbeit vor Cutover läuft als heyPensio).
+
 ---
 
 ## Bericht 1 — Prämissen-Kritik (Rohbericht, verbatim)

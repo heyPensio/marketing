@@ -9,9 +9,9 @@
 ## 1. VORHABEN UND ENDZUSTAND
 
 Aufbau einer **vollständigen, AI-native arbeitenden Marketingabteilung**
-für das Unternehmen (heute „heyPensio" — **Rebrand entschieden** als
-GF-Willensbildung, formale 51/49-Freigabe ausstehend; neuer Name
-entsteht in MKT-MARKE): Positionierung, Name, Logo, CI, Website,
+für das Unternehmen (heute „heyPensio" — **Rebrand entschieden**;
+51/49-Freigabe laut GF-Auskunft erteilt, Dokumentation offen — E9;
+neuer Name entsteht in MKT-MARKE): Positionierung, Name, Logo, CI, Website,
 Kanäle, Akquise-Strategien offline + online, laufender Betrieb mit
 Messung. Die Abteilung arbeitet AI-native mit dem User als
 Human-in-the-loop für alles Außenwirksame; die volle Agenten-Hierarchie
@@ -31,9 +31,12 @@ Entscheid-IDs E1–E7 = Abschnitt 4 dieses Dokuments — nicht zu
 verwechseln mit den Befund-IDs A/B/C/D/E/F aus R00 Bericht 3.)*
 
 **Fertig heißt:** Die Abteilung steht komplett (Name/CI/Website/Kanäle/
-Betrieb, alle Werkstücke vollwertig — keine Lite-Varianten), Maßnahmen
-und Kampagnen sind geplant bzw. laufen bereits, **und der erste zahlende
-Kunde ist bis Mitte November 2026 abgeschlossen.**
+Betrieb, alle Werkstücke vollwertig — keine Lite-Varianten) —
+**Zieltermin Abteilung: Mitte September 2026** („angedacht", User
+09.08.) —, Maßnahmen und Kampagnen sind geplant bzw. laufen bereits,
+**und der erste zahlende Kunde ist bis Mitte November 2026
+abgeschlossen** (Frist gilt NUR für den Abschluss — User-Präzisierung
+09.08., korrigiert die frühere Session-Lesart „Frist bindet beide").
 
 ## 2. STRÄNGE UND ARBEITSPAKETE
 
@@ -183,8 +186,9 @@ OPS4-Register in `sensibel/`.)*
   steht nicht zur Debatte, kommt sicher — kontextgestützt durch
   Voice 08.08.: der Name „spiegelt … nicht mehr wirklich wider, wen wir
   ansprechen wollen".) Der Firmenname heyPensio wird ersetzt; Begründung:
-  Zielgruppen- und Portfolio-Erweiterung (E2). **Status: GF-Willensbildung
-  — formale 51/49-Gesellschafter-Freigabe steht aus** (Gate 3,
+  Zielgruppen- und Portfolio-Erweiterung (E2). **Status:
+  51/49-Gesellschafter-Freigabe laut GF-Auskunft erteilt (E9);
+  Dokumentation von Datum/Form steht aus** (Gate 3,
   `zentrale\namensentscheid.md`). Die Prüfer-Empfehlung „Null-Option/parken
   mit Trigger" wurde vom User überstimmt (Rohbericht:
   `protokolle/R00-planpruefung-2026-08-09.md`, Prämissen-Kritik Befund 1);
@@ -203,11 +207,14 @@ OPS4-Register in `sensibel/`.)*
   dem Planentwurf ersatzlos gestrichen. Folge: Website erst nach
   Namensentscheid.
 - **09.08.2026 (E4) Projektziel:** vollständige Marketingabteilung UND
-  erster Abschluss **bis Mitte November 2026** — ein Projekt, nicht zwei;
-  aber OPS bleibt flach (E5). *(Interpretationsvermerk: Der User-Wortlaut
-  „… und der erste Abschluss. Bis Mitte November." lässt grammatisch
-  offen, ob die Frist beide Ziele bindet; Lesart der Session: beide.
-  Daraus folgt KEIN entschiedener Cutover-Zeitpunkt — s. MARKE5.)*
+  erster Abschluss — ein Projekt, nicht zwei; OPS bleibt flach (E5).
+  **Fristen (User-Präzisierung 09.08., zweite Voice-Nachricht):**
+  „Mitte November" gilt NUR für den ersten Abschluss; die Abteilung
+  „muss schon früher fertig sein — **Mitte September** hätte ich jetzt
+  angedacht" (Status: angedacht, kein harter Termin). *(Die frühere
+  Session-Lesart „Frist bindet beide Ziele" ist damit korrigiert; ein
+  Cutover-Zeitpunkt bleibt weiterhin unentschieden — s. MARKE5, wobei
+  der September-Zieltermin ihn faktisch rahmt.)*
 - **09.08.2026 (E5) Agenten-Hierarchie geparkt** (Heads → Teamleads →
   Worker mit Freigabeschlaufen): Zielbild ja, Bau erst nach dem
   Ent-Park-Trigger — **normativ definiert in `zentrale\rollen-charta.md`
@@ -220,6 +227,19 @@ OPS4-Register in `sensibel/`.)*
 - **09.08.2026 (E7) n8n:** eigene Marketing-Instanz sinnvoll,
   finaler Entscheid in OPS5; Pilot-Produktiv-Instanz wird nicht
   mitgenutzt.
+- **09.08.2026 (E8) Kein fester Kapazitätsdeckel** (zweite
+  Voice-Nachricht; löst den offenen Prüfer-Punkt aus R00 auf):
+  Marketing- und Pilotprojekt laufen parallel, „eventuell jeweils
+  parallele Arbeitssessions"; der natürliche Regler ist das
+  **Wochen-Nutzungslimit des Kontingents** („so viele, bis das
+  Kontingent aufgebraucht ist … und da regelt das Ganze nach vorne ab").
+  Priorisierung bei Knappheit: situativ, Vorschlag über das
+  Firmen-`/briefing` (Terminposten vor Wunschposten).
+- **09.08.2026 (E9) 51/49-Gesellschafter-Freigabe des Rebrands liegt
+  vor** laut GF-Auskunft („Die Freigabe habe ich schon", zweite
+  Voice-Nachricht). ⚠️ Datum/Form/Wortlaut der Gesellschafter-Erklärung
+  sind nicht dokumentiert — Nachtrag in `zentrale\namensentscheid.md`
+  Gate 3, sobald erhoben.
 
 ## 5. GEPARKTE IDEEN
 

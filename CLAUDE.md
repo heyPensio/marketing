@@ -2,23 +2,28 @@
 
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
-> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `ca75d82`
+> **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `7ad6dfa`
 > am 2026-08-09. Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
 
 Aufbau und Betrieb der **Marketingabteilung** des Unternehmens (heute
-„heyPensio"; der **Rebrand ist entschieden** — GF-Willensbildung, formale
-51/49-Gesellschafter-Freigabe steht aus (`zentrale\namensentscheid.md`);
-der neue Name entsteht im Strang MKT-MARKE). Projektziel (User-Entscheid 09.08.2026): eine
+„heyPensio"; der **Rebrand ist entschieden**; 51/49-Gesellschafter-Freigabe laut
+GF-Auskunft erteilt (Voice 09.08.2026 — Dokumentation von Datum/Form
+der Gesellschafter-Erklärung steht aus, `zentrale\namensentscheid.md`
+Gate 3); der neue Name entsteht im Strang MKT-MARKE). Projektziel (User-Entscheid 09.08.2026): eine
 **vollständige, AI-native arbeitende Marketingabteilung** — Name, Logo,
-CI, Positionierung, Website, Kanäle, Akquise-Betrieb — **UND der erste
-zahlende Kunde bis Mitte November 2026**. Es gilt das
+CI, Positionierung, Website, Kanäle, Akquise-Betrieb; **Zieltermin
+Abteilung komplett: Mitte September 2026 („angedacht", User 09.08.) —
+UND der erste zahlende Kunde bis Mitte November 2026** (Frist-Bindung
+vom User präzisiert 09.08.: Mitte November gilt NUR für den Abschluss).
+Es gilt das
 Keine-Lite-Varianten-Prinzip: Jedes Werkstück wird von Anfang an
 vollwertig gebaut (User-Entscheid E3, Voice-Nachricht 09.08.2026;
 Transkript wörtlich: „wir machen nie, nie, nie, nie niemals von
 irgendetwas eine Leitvariante" — Kontext-Interpretation der Session:
-„Lite-Variante"; Erhebungsquelle archiviert in `zentrale\sensibel\`).
+„Lite-Variante", vom User bestätigt (Voice 09.08., zweite Nachricht);
+Erhebungsquelle archiviert in `zentrale\sensibel\`).
 
 Nachbar-Repos: `C:\Users\qwafa_2dwxzia\heypensio` (Produkt + Pilotkunde)
 und `C:\Users\qwafa_2dwxzia\zentrale` (Firmen-Ebene, siehe Abschnitt

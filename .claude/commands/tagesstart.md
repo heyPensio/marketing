@@ -81,6 +81,13 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    stillschweigend weiterlaufen und NIE den Stempel ohne durchgeführten
    Nachzug anheben — der Stempel ist der Beleg des Nachzugs, kein
    Beruhigungsdatum.
+   **Kopie-Drift prüfen (im selben Schritt):**
+   `node C:/Users/qwafa_2dwxzia/projektgeruest/tools/pruefe-kopien.js <projektpfad>`
+   — meldet das Werkzeug DRIFT, lebt eine Methodik-Änderung nur in der
+   Projekt-Kopie (Master-zuerst-Regel verletzt) oder ein Vorlagen-Update
+   wurde hier nicht nachgezogen: STOPP, dem User melden, auflösen — nie
+   stillschweigend weiterarbeiten. INFO-Zeilen (projektspezifische oder
+   nicht aktivierte Dateien) sind Lesestoff, keine Befunde.
 2. **Runden-Stand prüfen:**
    - Uncommittete Reste im `git status`? Klären, aus welcher Session sie
      stammen — nie blind committen.

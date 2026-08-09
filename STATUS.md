@@ -34,10 +34,12 @@ User-Entscheide dazu stehen in der Projektquelle § 4.
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE
-  (Name/CI; Rebrand GESETZT als GF-Willensbildung, formale
-  51/49-Freigabe steht aus) · MKT-BELEG (Pilot-Doku) · MKT-HANDEL
-  (Pricing/Vertrieb) · MKT-WEB (Website, nach Namensentscheid) · MKT-AKQ
-  (Akquise, erster Abschluss bis Mitte November) · MKT-OPS (Betrieb flach).
+  (Name/CI; Rebrand GESETZT, 51/49-Freigabe laut GF-Auskunft erteilt —
+  Datum/Form-Dokumentation offen, E9) · MKT-BELEG (Pilot-Doku) ·
+  MKT-HANDEL (Pricing/Vertrieb) · MKT-WEB (Website, nach
+  Namensentscheid) · MKT-AKQ (Akquise) · MKT-OPS (Betrieb flach).
+- **Zieltermine (E4 präzisiert):** Abteilung komplett Mitte September
+  2026 (angedacht) · erster zahlender Kunde bis Mitte November 2026.
 - Schwester-Repo `zentrale` (Firmen-Ebene) im selben Zug angelegt —
   trägt Namensentscheid-Vorprüfung und Rollen-Charta.
 - Noch keine Arbeits-Runde gelaufen.
@@ -55,8 +57,7 @@ User-Entscheide dazu stehen in der Projektquelle § 4.
    PMS-Livegang (Ende September, nicht nachholbar).
 3. **Kleinposten:** Domain-Inventur (Cloudflare-/Registrar-Dashboard mit
    dem User auslesen — er weiß den Bestand nicht auswendig).
-4. **OFFENER USER-ENTSCHEID (Nachdisposition R00, Prüfer-Punkt
-   Kapazitätsdeckel):** Wie viele MKT-Blöcke/Woche neben dem
-   heyPensio-Livegang (Ende September) und wie viele
-   Gründer-Wochenstunden für Freigabeschlaufen? Das Kontingent ist eine
-   Wochenressource — ohne Deckel entscheidet die Priorisierung implizit.
+4. ~~Kapazitätsdeckel-Entscheid~~ ✅ ENTSCHIEDEN 09.08. (E8): kein
+   fester Deckel — Parallelbetrieb Marketing + Pilot, Regler ist das
+   Wochen-Nutzungslimit; Priorisierung situativ über das
+   Firmen-`/briefing` (Terminposten zuerst).

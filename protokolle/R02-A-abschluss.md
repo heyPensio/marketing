@@ -54,6 +54,13 @@ Session: R02-A · Rolle Yasopp · Modell laut Start-Prompt Fable 5
    Session-Ende; falls weiter blockiert: Push ist User-/
    Leitsession-Handgriff. Lokale Commits: `39fd48a`, `8f98bb7` + der
    Commit dieser Abschlussmeldung.
+   > **NACHTRAG (gleiche Session, nach dem Commit dieser Meldung):**
+   > Punkt ERLEDIGT — der erneute `git push` lief durch
+   > (`ee24ca4..34d0793`, L-05-Zeitpunktbindung erneut bestätigt).
+   > Zuvor war `39fd48a` bereits durch den Push einer
+   > Parallel-Session auf origin/main (Beleg:
+   > `git branch -r --contains 39fd48a` — Muster wie R01-A). Alle
+   > R02-A-Commits sind damit veröffentlicht.
 2. **Plan-Freigabe (H-2)**: Leitsession-Review + User-Entscheid zu den
    Zusatz-Optionen BM-4 (Meldeschein-Aufwand) / BM-5
    (Erreichbarkeits-Last) — bewusst nicht von dieser Session

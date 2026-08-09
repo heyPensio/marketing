@@ -293,3 +293,26 @@ entscheidet der User laufend.
   → Naming-Sprint (Findung + Schreibtisch-K.-o.) ist ENTSPERRT.
 - Einarbeitung Projektquelle/STATUS (E11/E12): beim R4-Debrief
   (Vier-Stellen-Sync), nicht vorgezogen.
+
+**Arbeitsschnitt R4 (User-bestätigt ~17:20):**
+
+| Session | Rolle | Aufgabe | Modell | Exklusiv | Scope |
+|---|---|---|---|---|---|
+| Leitsession (Buchstabe frei) | Shanks | Portfolio-Substanz-Erhebung beim User (E11-Papiernachtrag-Grundlage); Review + Debrief R4 | Fable 5 | keine | Tagesplan; Erhebungsergebnis → `fund/` beim Debrief-Zug |
+| R04-A | Ben Beckman | MARKE1 Naming-Sprint Phase 1: Findung + Schreibtisch-K.-o. (K1, K4–K7) + Wertung → bewertete Shortlist; KEINE Live-Recherche (K2/K3/W7/W8 = zweite Welle, E-V4) | Fable 5 | keine (Web lesend NUR Sprach-/Bedeutungs-Checks K6/W3/W4) | `marke/naming-sprint-2026-08.md` (neu) + `protokolle/R04-A-*.md` |
+
+**Ist-Stand-Prüfung R04-A (Leitsession selbst, 17:18):** Kein
+Namenskandidaten-Vorbestand in marketing + zentrale (Grep
+Namenskandidat/Namensidee/Arbeitstitel/Namensvorschlag; Positivkontrolle:
+„Namenskandidat" trifft in beiden marke/-Dokumenten) — Findung startet
+unkontaminiert. <3 Stränge → kein Prüf-Subagent nötig.
+
+**Review-Regime R04-A:** Kurzraster + unabhängiger Prüfer mit
+Gegenfrage-Achse (benannte Kategorien, im Prompt verankert) — begründet:
+Die Shortlist ist noch nicht freigabetragend (Freigabe-Schwelle kommt
+erst mit Live-Recherche-Welle + User-Entscheid MARKE2); Voll-Review mit
+Verfahrens-Positivkontrolle folgt dort.
+
+**PROGNOSE:** R5 (heute offen, sonst Montag): FUND3-Beratungsachse
+(nach Portfolio-Erhebung) · E-V4-Live-Recherche-Session (nach
+Shortlist) · Blueprint-Arbeitsauftrag.

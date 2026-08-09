@@ -433,6 +433,13 @@ Vier-Stellen-Sync + R3-Rotation · Papier-§ 6-Nachtrag Onpage-SEO.
 Gegenprobe-Subagent: entfällt regelkonform (EINE Arbeits-Session).
 Offen an den User: BAFA-Entscheid vor dem StB-Anruf Mo ·
 Shortlist-Handgriffe · Statuszeilen R3-A/B/D + R04-A + R05-A ·
-Kontingent nur als Band 70–85 % erhoben. **Feierabend — nächster
-Einstieg: Montag `/tagesstart` (neuer Tag), Zentrale-Briefing sichtet
-den Postkorb (2 neue MKT-Meldungen).**
+Kontingent nur als Band 70–85 % erhoben. ~~Feierabend~~ **überholt
+durch User-Zuruf ~23:15: noch KEIN Feierabend — R6 folgt.** Nächster
+Schritt: Kontext-Säuberung der Leitsession (Regel 1a; zusätzlich
+Snapshot-Grund: CLAUDE.md + 3 Bausteine in dieser Session editiert),
+dann `/runde` für R6. R6-Kandidaten lt. STATUS Punkt 4: E-V4 (falls
+Shortlist-Handgriffe noch heute) · P15 Brandnamic-Partnerkreis + P19
+Hotelkooperationen (Web-Lesearbeit, sonntagstauglich) · FUND2-Apaleo-
+Faden-Prüfung. Montag-Posten (StB/BAFA, IFB, Anfragen-Versand) bleiben
+werktagsgebunden. Zentrale-Briefing Montag sichtet den Postkorb
+(2 neue MKT-Meldungen).

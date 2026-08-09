@@ -1059,8 +1059,10 @@ gezielt gesucht; es ist ein Nebenbefund der Seitenlektüre. Als „nicht
 gefunden, nicht gezielt gesucht" führen.
 
 > **➡️ Für die Beratungsachse überholt durch B5.2 (R05-A, 09.08.2026).**
-> Die Überschrift „kein Gegenbefund" gilt weiter für das
-> **Technik-Segment**. Im **Beratungsmarkt** ist das Gegenteil belegt:
+> Für das **Technik-Segment** bleibt der Befund **so schwach, wie dieser
+> Abschnitt ihn selbst markiert** („nicht gezielt gesucht") — Teil B hat
+> daran nichts geprüft und bestätigt ihn ausdrücklich **nicht**.
+> Im **Beratungsmarkt** dagegen ist das Gegenteil belegt:
 > Dort ist Förderung für einen Teil des Feldes das Verkaufsargument —
 > mit Akkreditierungs-Kennnummern und Zuschussquoten von 50–80 % auf das
 > Beraterhonorar (B5.2), und mit denselben Prozentzahlen im Verkaufstext
@@ -1234,14 +1236,17 @@ Misstrauen gegen die Quelle.
 | P6 | **Jack-In (AT) und Key & Card („Checkin24-7", mit Apaleo-Anbindung!)** als Primärquellen prüfen | Browser-Kanal | **hoch** — beides Bauplan-gleiche Wettbewerber |
 | P7 | **Voice-am-Gerät: Messeraum nachziehen** (ITB 2026, Internorga 2026, HITEC, Independent Hotel Show) — in dieser Runde nicht gemessen | Fachmedien + Messe-Nachberichte | mittel — betrifft USP-Säule 3 |
 | P8 | **PMS-Marktplätze außer Apaleo vollständig** (protel/planet, Oracle OPERA Cloud, ibelsa, Casablanca) — hier nur SIHOT und Mews angeschnitten | Browser-Kanal | mittel — Segment größere Häuser |
-| P9 | **IHA-Preferred-Partner-Liste vollständig** (Hotelverband Deutschland) — Canary sitzt dort, wer noch? | hotellerie.de | mittel — Kanal- **und** Wettbewerbsfrage |
+| ~~P9~~ | ~~**IHA-Preferred-Partner-Liste vollständig**~~ ✅ **ERLEDIGT 09.08.2026 (R05-A) → B9.3.** Alle **47** Preferred Partner namentlich erhoben, zweikanalig gegengeprüft (Namens-Dropdown **und** 47 Detailseiten-Slugs); Canary Technologies bestätigt. ⚠️ Offen bleibt allein die **Kategoriezuordnung** (nur über einen POST-Filter abrufbar, nicht ausgelöst). | — | — |
 | P10 | **BE-A-Preismetrik klären** (30 €/Zi/M unplausibel) | Anbieterseite be-a.ai | niedrig |
 | P11 | **Straiv-Kiosk-Preise** (Juli offen, heute weiter ohne öffentliche Angabe; Straiv bietet „Finanzierungsmöglichkeiten") | ggf. über den kiosk.eu-Faden | niedrig |
 | ~~**P12**~~ | ~~**Zweite Wettbewerbsachse „Beratung" fehlt vollständig**~~ ✅ **AUFGELÖST 09.08.2026 (R05-A) → TEIL B.** Die vorgelagerte Frage ist durch E11/E13 entschieden (Portfolio BREIT, Papier-Kasten § 6); die Achse ist erhoben — Agenturen (B4), Beratung (B5), Revenue/Zahlenanalyse (B6), Verbands-/Förderkanäle (B8). **Rest-Stand: der Suchraum ist nicht vollständig** — Geltungsgrenze in **B1**. | — | — |
 | ~~P13~~ | ~~**Bestand rückwirkend gegen den breiteren Zuschnitt prüfen**~~ ✅ **AUFGELÖST 09.08.2026 (R05-A) → B7.** Brandnamic neu eingestuft (B4.3), Smart Host neu eingestuft (B6.1), Everlast richtiggestellt (B3); zusätzlich **elf weitere Anbieter gefunden, die nie als Wettbewerber betrachtet wurden** (B7.2). ⚠️ Rest: `projektquelle-heypensio.md` und die STATUS-Dateien wurden nur per Grep berührt (B7 Vollständigkeits-Grenze). | — | — |
-| **P14** | ⭐ **TEILWEISE BEANTWORTET (B9.4) — jetzt ein ENTSCHEID, keine Recherche.** Belegt: BAFA-Registrierung ist kostenfrei, verlangt aber „**mehr als 50 % des Gesamtumsatzes**" aus entgeltlicher Unternehmensberatung — wer überwiegend Umsetzung verkauft, ist untauglich. **SH-DKU** (bis 8.000 €, bis 30.06.2027) verlangt **gar keine** Akkreditierung, **Hamburg Digital Check** (50 %/7.500 €) nur eine **Selbsterklärung**. **Offen ist damit nicht mehr die Rechtslage, sondern unsere Angebotsarchitektur.** | Entscheid MKT-HANDEL/Zentrale; die zwei fallbezogenen Rückfragen (WTSH-Antragsberechtigung Beherbergung · IFB-Themenzuordnung Marketing) stehen in B9.4 | **hoch — und ⚠️ TERMINKRITISCH: Antragsschluss Hamburg Digital Check 16.11.2026** |
+| **P14** | ⭐ **TEILWEISE BEANTWORTET (B9.4).** Belegt: BAFA-Registrierung ist kostenfrei, verlangt aber als **Regelvoraussetzung** „mehr als 50 % des Gesamtumsatzes" aus entgeltlicher Unternehmensberatung — ⚠️ **mit Ausnahmeklausel** („In begründeten Fällen kann die Bewilligungsbehörde … eine befristete Ausnahmegenehmigung erteilen"); ob eine solche erreichbar ist, ist **ungeprüft**. **SH-DKU** (bis 8.000 €, bis 30.06.2027) verlangt **gar keine** Akkreditierung, **Hamburg Digital Check** (50 %/7.500 €) nur eine **Selbsterklärung**. **Offen ist damit nicht mehr die Rechtslage, sondern unsere Angebotsarchitektur.** | Entscheid MKT-HANDEL/Zentrale; die zwei fallbezogenen Rückfragen (WTSH-Antragsberechtigung Beherbergung · IFB-Themenzuordnung Marketing) stehen in B9.4 | **hoch — und ⚠️ TERMINKRITISCH: Antragsschluss Hamburg Digital Check 16.11.2026** |
 | **P15** | **Was decken straiv, flexipass, hoteldoor und iiq check im Brandnamic-Partnerkreis tatsächlich ab?** Entscheidet, ob die Kategorie „Check-in/Zutritt" dort bereits besetzt ist — und damit, ob eine Kanal-Ansprache überhaupt eine offene Kategorie hätte (B4.3). | Primärquellen der vier Anbieter; **nicht** aus der Brandnamic-Kategorisierung ableiten | **hoch — Voraussetzung jeder Kanal-Entscheidung** |
 | **P16** | **Fünf Kandidaten sind kanalbedingt unerhoben geblieben** (kein Negativbefund): Kirsch Unternehmensberatung (TLS-Fehler; laut Suchtreffer Privathotellerie-Spezialist seit 1997) · Hotel Fritz Consulting (HTTP 500) · Kohl & Partner Schweiz (keine Verbindung) · 9seemeilen (DNS) · Swiss Urban & Mountain Hospitality AG (als Partner beschrieben: „Hotel-Operations, Prozessoptimierung und Guest Journey … Remote-Lösungen für das Hotelmanagement" — inhaltlich näher an uns als die meisten Agenturen) | Abruf über anderen Netzpfad bzw. zu anderem Zeitpunkt wiederholen | mittel |
+| **P20** | ⚠️ **Die Belegbasis von Teil B ist flüchtig und muss gesichert werden.** Anders als Teil A nennt Teil B bei den meisten Zitaten **keine URL**; die Rohabzüge (HTML + gestrippter Text je Anbieter) liegen ausschließlich im **sessiongebundenen Scratchpad**. Verschwindet es, ist Teil B nicht mehr nachprüfbar. | Rohabzüge in eine dauerhafte Ablage übernehmen (Größe/Ablageort klären — Repo oder `sensibel/`) **oder** die URLs je Anbieter nachtragen | **hoch — verfällt mit der Session** |
+| **P18** | **Steuer-/betriebswirtschaftliche Beratung mit Hotellerie-Schwerpunkt** ist weder in Teil A noch in Teil B erhoben (B1 Punkt 1a) | eigener Erhebungslauf; Kandidatenwege über StB-Kammern und Branchenverbände | mittel |
+| **P19** | **Hotelkooperationen und Marketing-Verbünde** als eigene Kategorie nicht erhoben (B1 Punkt 1b) — sie sind Mehrfach-Zugänge zu unserer Zielgruppe und teils von Wettbewerbern geführt (Belvita/Familienhotels Südtirol über Brandnamic + Kohl & Partner) | Verbundlisten der genannten Kooperationen; Kanalbewertung mit MKT-AKQ | **hoch — Kanal- und Wettbewerbsfrage zugleich** |
 | **P17** | **Reine Gästemappen-/Guest-App-Anbieter sind in Teil B systematisch nicht erhoben** — sie sind keine Agenturen und fielen durch beide Suchraster. Für unser Portfolio sind sie die eigentliche Nachbarschaft (B4.4 Punkt 6). | eigener Erhebungslauf, Weg wie Teil A (Store/Anbieterseiten) | mittel |
 
 ---
@@ -1254,6 +1259,7 @@ Misstrauen gegen die Quelle.
 | 09.08.2026 | R03-D | Geltungsgrenze § 0.0 ergänzt (Segment-Zuschnitt) nach User-Einwand; P12/P13 aufgenommen. |
 | 09.08.2026 | R03-D | **Nach Fundstellen-Nachprüfung überarbeitet.** Korrigiert: LIKE-MAGIC-Preise sind Mindestmonatsgebühren neben einem unveröffentlichten Zimmerpreis, Kiosk ist kostenpflichtiges Add-on (§ 3.3) · Voice-KI-Band NICHT re-bestätigt, Ränder heute weiter (§ 4.5) · Schließanlage/Gebäudetechnik stecken NICHT im book-your-key-Monatspreis (§ 5.1) · Shiji-Datum und Sitemap-Spanne richtiggestellt (§ 3.1) · LIKE-MAGIC-Größenbänder summieren auf 27 von 29 (§ 3.3) · „zwei unabhängige Kanäle" → zwei Ausspielwege derselben Anbieterangabe · Apaleo-Negativ für book your key/Jack-In/ILOCA auf „nicht im Store gelistet" zurückgenommen (§ 5.6) · Auswahlkriterium der 69er-Prüfliste präzisiert (§ 4.1) · nicht reproduzierbare Positivkontroll-Zahlen entfernt · § 6.5 nach „widerlegt" und „überholt" getrennt · drei Zitate zeichengenau nachgezogen. |
 | 09.08.2026 | R05-A | **TEIL B angebaut: zweite Wettbewerbsachse „Beratung & Agentur" (P12/P13 aus § 7).** Teil A (§§ 0–8) inhaltlich unverändert; ergänzt wurden nur der Lese-Hinweis im Kopf, die Vorwärtsverweise in § 0.0 und die P12-/P13-Zeilen in § 7. Neu in Teil B: Geltungsgrenze (B1) · Einstufungsraster mit expliziten Vergabelinien L-B1…L-B6 (B2) · Everlast-Einordnung richtiggestellt (B3) · Marketing-Agenturen inkl. Brandnamic-Neueinstufung (B4) · Unternehmensberatung inkl. Förder-Befund gegen USP-Säule 5 (B5) · Revenue-/Zahlenanalyse inkl. Smart-Host-Richtigstellung (B6) · Rückprüfung des Alt-Bestands, elf bisher nie eingestufte Anbieter (B7) · Bündel-Wettbewerb „Digitalisierung aus einer Hand" (B8) · Verbands-, Kammer- und Förderkanäle (B9). Vorwärtsverweis zusätzlich in § 5.5 gesetzt (Säule 5). Fundstellen-Nachprüfung der übernommenen R04-Kernaussagen: `protokolle/R05-A-fundstellen.md`. |
+| 09.08.2026 | R05-A | **Nach unabhängigem Prüferlauf überarbeitet** (`protokolle/R05-A-pruefer.md`). Korrigiert: Apaleo-Store-Kategorien **7 → 9** samt gestrichener Fehl-Entwarnung „bestätigt die MKT-R3-Messung" und ersetzter Positivkontrolle (B8.4) · BAFA-Zitat um seine **Ausnahmeklausel** ergänzt, „BAFA-untauglich" zurückgenommen (B9.4, P14) · **W1-Inflation in B5 behoben**: neue Vergabelinie **L-B7** (E13b-Pauschalzuschnitt als benannter Anker), zwei Einstufungen auf „—" korrigiert, drei mit Teilleistungs-Vermerk · maxonline W2 → **W1** (Verstoß gegen die eigene Linie L-B1) · DEHOGA-BW-Eigenanteile mit Scope „**je Beratungstag**" (Doppelmaßstab zu B6.1 beseitigt) · Brandnamic-Kanal-Einstufung um **Hotelkooperationen** erweitert · zwei verschwiegene Lücken in B1 nachgetragen (Steuer-/BWL-Beratung, Hotelkooperationen) → neue Punkte **P18/P19**, dazu **P20** (flüchtige Belegbasis) · „Browser nicht benötigt" als Fehl-Entwarnung zurückgenommen · § 5.5-Verweis präzisiert (das Technik-Negativ bleibt schwach) · **P9 als erledigt markiert** (47 IHA-Partner erhoben). |
 
 ---
 ---
@@ -1270,9 +1276,13 @@ Misstrauen gegen die Quelle.
 >
 > **Erhebung:** Session R05-A (Ben Beckman) am 09.08.2026, sieben
 > Recherche-Stränge über Subagenten plus eine von der Session selbst
-> gelesene Fundstellen-Nachprüfung. **Kein Browser-Kanal** (Chrome war
-> dieser Session nicht zugeteilt und wurde nicht benötigt), **keine
-> Kontaktaufnahme** zu einem der geprüften Anbieter.
+> gelesene Fundstellen-Nachprüfung. **Kein Browser-Kanal** — Chrome war
+> dieser Session nicht zugeteilt. ⚠️ **Das war eine spürbare Grenze, kein
+> Nebenaspekt:** Sechs Prüfziele blieben genau deshalb unerreichbar
+> (B1 Punkt 6). *(Die Erstfassung schrieb hier „und wurde nicht
+> benötigt" — das war eine Entwarnung, die der eigenen Geltungsgrenze
+> widersprach; Prüferbefund R05-A.)* **Keine Kontaktaufnahme** zu einem
+> der geprüften Anbieter.
 >
 > **Beleg-Typen:** wie in § 0 — Leseweg (BYTE / ROH / AGENT) getrennt von
 > Quellenart (SELBST / DRITT / REGISTER / REVIEW / EIGEN-DOKU). Neu
@@ -1299,6 +1309,22 @@ mit Zuschnitt kleine/mittlere Privathotellerie im DACH-Raum:
 1. **Reine Gästemappen-/Guest-App-Anbieter** — sie sind keine Agenturen
    und fielen durch alle Suchraster (**P17**). Für unser Portfolio sind
    sie die eigentliche Nachbarschaft.
+1a. **Steuer-/betriebswirtschaftliche Beratung mit Hotellerie-
+   Schwerpunkt** — in Teil A § 0.0 namentlich als nicht erhoben geführt
+   und **auch in Teil B nicht erhoben**. Berührt wurde sie nur
+   streifend (Prodinger sitzt in einer Gruppe mit eigener
+   Steuerberatung, unitels verkauft Buchhaltung/Controlling) —
+   **systematisch erhoben ist das Feld nicht** (**P18**).
+   *(Lücke nachgetragen nach Prüferbefund R05-A — die Erstfassung dieser
+   Geltungsgrenze hat sie verschwiegen.)*
+1b. **Hotelkooperationen und Marketing-Verbünde** — im eigenen Material
+   belegt (Brandnamic führt gemeinsam mit Kohl & Partner die
+   Kooperationsgruppen **Belvita Leading Wellnesshotels Südtirol** und
+   **Familienhotels Südtirol**; Heim Hotelmarketing vermarktet
+   „Swiss Historic Hotels" mit über 60 Häusern; Gasser Miesch ist im Netz
+   „indie-hotels"). Solche Verbünde sind **Mehrfach-Zugänge zu genau
+   unserer Zielgruppe** und als eigene Kategorie **nicht erhoben**
+   (**P19**).
 2. **Stadt- und MICE-Hotellerie-Dienstleister** sind unterrepräsentiert:
    Das Agentur-Sample hat eine **Alpen-/Ferienhotellerie-Schlagseite**
    (kein Treffer aus Berlin, Hamburg, Leipzig, Dresden). Das misst die
@@ -1395,6 +1421,27 @@ bei gleicher Sachlage auseinander.)*
 - **L-B6 — Fehlende Erhebung ist kein Negativ.** Ein Anbieter, der hier
   nicht steht, ist **nicht geprüft** — nicht „kein Wettbewerber". Der
   Suchraum steht in B1.
+- **L-B7 — Der E13b-Pauschalzuschnitt ist ein Einstufungs-Anker, und er
+  wird hier ausdrücklich benannt** *(nachgetragen nach Prüferbefund
+  R05-A — vorher wirkte er still und erzeugte eine W1-Inflation).*
+  Der Papier-Kasten § 6 hält als **E13b** fest, dass Kayhan „zuständig
+  für alles ist, was nicht Digitalisierung/KI/Automation ist"
+  (User-Zuruf, ausdrücklich **über** den E-T7-Wortlaut hinausgehend).
+  Nimmt man diesen Satz beim Wort, fällt praktisch jede
+  betriebswirtschaftliche Hotelberatung in unser Portfolio — und jeder
+  Berater wird W1.
+  **Deshalb gilt hier eine engere Linie:** W1 wird nur vergeben, wenn
+  der Anbieter eine Leistung verkauft, die im Papier-Kasten **namentlich**
+  steht (real erbracht) **oder** die E-T7 **namentlich** nennt (operative
+  Prozesse · Personalführung · Revenue Management). **Leistungen, die nur
+  über die Pauschalformel E13b erfasst wären — Nachfolge, Sanierung,
+  Restrukturierung, Interimsmanagement, Gutachten, Transaktions-/
+  Immobilienberatung — begründen KEIN W1**, sondern „—", solange sie
+  weder real erbracht noch namentlich zugesagt sind. Die R04-Erhebung
+  führt genau diese Felder in ihrer Negativliste (§ 5).
+  ⚠️ **Das ist eine Entscheidung dieses Papiers, keine Vorgabe des
+  Portfolio-Entscheids** — wer E13b weit auslegt, kommt zu mehr W1. Die
+  Auslegungsfrage gehört MKT-FUND.
 
 ## B3. Everlast — Richtigstellung einer Einordnung aus § 0.0
 
@@ -1484,7 +1531,7 @@ Eigenschaft der Suchbegriffe, **kein Marktbefund** (L-B6).
 | **Gasser Miesch GmbH** | Stettfurt (CH) | GmbH | Branding, Website, Social; Partnernetz | **W1 + K** |
 | **Hotelmarketing Agentur M&P** | München (DE) | nicht belegt | Website (WordPress), Social, E-Mail | **W1** |
 | **JMC Hotelmarketing** (J. Uherek) | Saarbrücken (DE) | nicht eindeutig | SEO, Ads, Social, Content, „Revenue Strategien" | **W1** |
-| **maxonline® Marketing hfw GesmbH** | Leiben (AT) | GesmbH, FN 659087 x | SEO/GEO, Website, Paid Ads | **W2** |
+| **maxonline® Marketing hfw GesmbH** | Leiben (AT) | GesmbH, FN 659087 x | SEO/GEO, **Websiteerstellung**, Paid Ads | **W1** *(korrigiert, R05-A-Prüferbefund: „Websiteerstellung" steht in der eigenen Leistungszeile — L-B1 ordnet Website-Bau dem real erbrachten Bestand zu; die W2-Vergabe verstieß gegen die eigene Linie)* |
 | **Die Hotelberater GmbH** | Innsbruck (AT) | GmbH | Distribution & Revenue, Social, Performance, „KI & Datensupport" | **W1** (Zielgruppe unerhoben, s. u.) |
 | **Plaschke Internet Consulting** | Meran (IT) | nicht belegt | Ads, SEO/GEO, Newsletter, Coaching/Beratung | **W2** |
 | **99tales GmbH** (→ Rebrand „Advertos") | Brixen (IT) | GmbH | Content, Social, Ads, Landingpages; eigene Reporting-Software | **W2** |
@@ -1645,7 +1692,7 @@ falsch wäre:**
 |---|---|---|
 | Beratungs-/Agentursegment | **W1 — hoch** | Website-Bau **und Wartung/Betreuung nach Go-live**, CI/Branding/Naming, SEO/SEA, Social, Newsletter/CRM, „Pricing-Strategie" + „Storno- & Buchungsbedingungen", Hotelcoaching inkl. Leadership/Operatives, Mystery Checks |
 | Self-Check-in-/Meldeschein-/Zutritts-Technik | **kein Wettbewerber** (belegt, Stand 09.08.2026, Vollsuchraum + Positivkontrolle) | s. o. — aber die Nachbarfelder sind besetzt |
-| Kanal | **K, nur produktseitig — mit eingebautem Interessenkonflikt** | Partnerprogramm belegt (L-B3 erfüllt); zugleich verkauft dasselbe Haus unser gesamtes Beratungssegment selbst |
+| Kanal | **K — breiter als zunächst eingestuft, mit eingebautem Interessenkonflikt** | Partnerprogramm mit ~70 Partnern belegt (L-B3 erfüllt). ⚠️ **Korrektur nach Prüferbefund R05-A:** „nur produktseitig" war zu eng — Brandnamic hat **zusätzlich Zugang über Hotelkooperationen** („Gemeinsam mit der … Consulting-Firma **Kohl & Partner** hat Brandnamic die Leitung und Verwaltung von zwei Kooperationsgruppen inne: **Belvita Leading Wellnesshotels Südtirol** und **Familienhotels Südtirol**"). Das ist ein Mehrfach-Zugang zu Häusern unserer Zielgruppe, unabhängig vom Technik-Partnerprogramm. Der Interessenkonflikt bleibt: dasselbe Haus verkauft unser gesamtes Beratungssegment selbst |
 
 **Der unbequeme Kern dieser Einstufung:** Was bei uns als „**im Aufbau**"
 geführt wird (Social, laufendes SEO, Ads, Bewertungsmanagement), ist dort
@@ -1742,14 +1789,27 @@ von Vertragspartnern nur per Registerauszug.
 | **revenue.rocks europe GmbH** | Berlin (DE) | „Auswahl, **Integration, Setup und laufende Steuerung** der Systeme" | **W1** |
 | **melevo** (S. Mauch) | Reichenbach (DE) | Softwareauswahl + Implementierungsbegleitung, **Aufgabenübernahme in der Hotelsoftware**, Website, Marketing | **W1** |
 | **ibc Hotel Management** (J. Schmidt-Gehring) | Wiesbaden (DE) | Organisations-/Abteilungsoptimierung, Kontrollsysteme, Preismanagement, Interim | **W1** |
-| **Unternehmermanufaktur GmbH** | Burghausen (DE) | Nachfolge, Sanierung, Personal — **plus Förderberatung** | **W1** |
-| **Cordes Rieger Consulting GmbH** | Kiel (DE) | Prozessoptimierung, Nachfolge, Controlling, Preis-Optimierung | **W1** |
+| **Unternehmermanufaktur GmbH** | Burghausen (DE) | Nachfolge, Sanierung, Personal — **plus Förderberatung** | **—** (Kernfelder außerhalb; Förderberatung berührt Säule 5) |
+| **Cordes Rieger Consulting GmbH** | Kiel (DE) | Prozessoptimierung, Nachfolge, Controlling, Preis-Optimierung | **W1** (nur über Prozess/Preis) |
 | **Hoffmann Hotel Consult & Betriebs GmbH** | Freital (DE) | Ist-Analyse aller Abteilungen, Preisstrategie, Direktbuchungs-/Vertriebsoptimierung | **W1** |
 | **Schmid-Tourismusberatung.at GmbH** | Seefeld (AT) | Organisationsberatung, Controlling, Pricing/Yield — **ohne Technik** | **W1** |
 | **anfang.team** | Kematen (AT) | *(bereits in B4.2 geführt — erscheint in beiden Strängen)* | **W1 + K** |
-| **Prodinger Tourismusberatungs GmbH** | Zell am See (AT) | Nachfolge/Übergabe, Bewertung, Revenue — steuerberatungsnah | **W1** |
-| **HOGARAT – Carduck & Partner** | Wiesbaden (DE) | Nachfolge, Gutachten, Betreiberwechsel; Zielgruppe auch Ketten/Eigentümer | **W1** (Rechtsform unbelegt) |
+| **Prodinger Tourismusberatungs GmbH** | Zell am See (AT) | Nachfolge/Übergabe, Bewertung, Revenue — steuerberatungsnah | **W1** (nur über Revenue) |
+| **HOGARAT – Carduck & Partner** | Wiesbaden (DE) | Nachfolge, Gutachten, Betreiberwechsel; Zielgruppe **auch Ketten, Eigentümer, Asset-Manager** | **—** (L-B2 + L-B7: kein Feld im Portfolio; Rechtsform unbelegt) |
 | **TOURISMUSEXPERTEN** (bService Schweiz GmbH) | Kreuzlingen (CH) | Strategie/Vertrieb/Digitalisierung; Schwerpunkt faktisch Marketing | **W1** |
+
+**⚠️ Warum hier trotzdem viel W1 steht — und wo die Linie dünn wird**
+*(nachgetragen nach Prüferbefund R05-A)*: Die Erstfassung dieser Tabelle
+vergab **15 von 15** Mal W1. Das war zu grob und beruhte auf dem still
+mitlaufenden E13b-Pauschalzuschnitt. Nach der jetzt ausgeschriebenen
+Linie **L-B7** tragen nur die Felder **Prozess-/Operations-Beratung,
+Systemauswahl/PMS-Einführung, Schulung, Preis-/Revenue-Steuerung und
+Website** ein W1. **Nachfolge, Sanierung, Interim, Gutachten und
+Transaktionsberatung tragen keines** — sie stehen in der R04-Negativliste.
+Zwei Anbieter sind deshalb auf „—" korrigiert, drei tragen jetzt den
+Vermerk, über welche Teilleistung ihr W1 läuft. **Wer E13b weiter
+auslegt, kommt zu einem anderen Ergebnis — die Auslegung gehört
+MKT-FUND, nicht diesem Papier.**
 
 ### B5.2 ⭐ Der wichtigste Befund: geförderte Beratung greift USP-Säule 5 an
 
@@ -2259,12 +2319,27 @@ Aufwand" ist eine **These für MKT-FUND, kein Rechercheergebnis.**
   vollständig ausgelesen): Treffer auf `partner|consult|expert|agenc` =
   **genau 1**, und das ist eine Event-Sponsoring-Seite.
   ⭐ Positivkontrolle im selben Lauf: `pricing` → 1 Treffer ✔.
-- **Kanal 2 — `store.apaleo.com`** (Next.js-Nutzlast geparst, bestätigt
-  die MKT-R3-Messung): Die vollständige Kategorienliste hat **7**
-  Einträge — Operations · Back office & administration · Distribution ·
-  Marketing · Guest experience · Revenue management · AI-powered.
+- **Kanal 2 — `store.apaleo.com`** (Next.js-Nutzlast geparst): Die
+  vollständige Kategorienliste hat **9** Einträge — Operations ·
+  Back office & administration · Distribution · Marketing ·
+  Guest experience · Revenue management · AI-powered ·
+  **Restaurant & spa** · **Meetings & events**.
   **Keine** Kategorie Consulting/Services/Partners/Implementation.
-  ⭐ Positivkontrolle: `__NEXT_DATA__` → 1 Treffer, JSON geparst ✔.
+  ⭐ Positivkontrolle, die die Nulltreffer-Mechanik spiegelt: Suche nach
+  den beiden Kategorienamen, die in **Teil A § 4.1** namentlich geführt
+  werden — beide treffen ✔ (die Extraktion ist also vollständig, nicht
+  nur die Nutzlast vorhanden).
+  ⚠️ **Korrektur nach Prüferbefund (R05-A):** Die Erstfassung dieses
+  Absatzes nannte **7** Kategorien und ließ „Restaurant & spa" und
+  „Meetings & events" aus — beide stehen in Teil A § 4.1 desselben
+  Papiers mit Zahlen. Ursache war eine Positivkontrolle, die nur prüfte,
+  **ob** die Nutzlast gefunden wurde, nicht **ob die Liste vollständig
+  extrahiert** war. Die Zahl ist am archivierten Rohbeleg
+  (`a6\apaleo-store-next.json` und `a6\apaleo-store.html`, beide Wege
+  9 eindeutige Werte) nachgezählt. Der ebenfalls gestrichene Zusatz
+  „bestätigt die MKT-R3-Messung" war eine **Entwarnung ohne Deckung** —
+  die R3-Messung galt der Abrufbarkeit der Nutzlast, nicht dieser
+  Kategorienliste.
 
 **Korrekte Formulierung: auf den beiden geprüften Kanälen nicht
 auffindbar — keine Systemaussage.** Ein Implementierungspartner-Programm
@@ -2346,12 +2421,21 @@ unserem Aufbau-Feld deckungsgleich: Website-Optimierung „für Google &
 Co.", „**GEO- und SEO-Optimierung**", „Wie werde ich bei **ChatGPT,
 Perplexity, Gemini** und Co. überhaupt gefunden?", Google-Unternehmens-
 profil, Social-Media-Content, bezahlte Werbung, Bewertungsmanagement.
-**Preise öffentlich und hart:** Nettotagessatz (8 Stunden) **985,00 €**;
-geförderte Kurzberatung KMU → Eigenanteil **499,00 € zzgl. MwSt** für
-Mitglieder, **635,00 €** für Nicht-Mitglieder; Existenzgründung
-Eigenanteil **250,00 €** bei 15 förderfähigen Tagen.
-→ **Einstufung: W1.** Das ist zugleich eine **Preisuntergrenze, die ein
-ungeförderter Anbieter nicht unterbietet** — relevant für MKT-HANDEL.
+**Preise öffentlich — ⚠️ mit dem Scope, den die Quelle selbst setzt:**
+Die Werte stehen dort als **Beispielrechnung** und gelten **je
+Beratungstag (8 Stunden)**, nicht als Paketpreis. Nettotagessatz
+**985,00 €**; davon abgezogen Förderung und Mitgliederbonus →
+**Eigenanteil 499,00 € zzgl. MwSt je Tag** (Mitglied) bzw. **635,00 €**
+(Nicht-Mitglied). Existenzgründung: 985 € − 735 € Förderung = **250,00 €
+Eigenanteil je Tag**, **15 Tage förderfähig** — die volle Maßnahme kostet
+den Gründer also rund 3.750 €, nicht 250 €.
+*(Scope-Zusatz nachgetragen nach Prüferbefund R05-A: Die Erstfassung
+nannte die Eigenanteile ohne die Einheit „je Beratungstag" — derselbe
+Fehlertyp, den B6.1 bei Smart Host zu Recht als irreführend rügt.
+Doppelmaßstab beseitigt.)*
+→ **Einstufung: W1.** Der geförderte Eigenanteil ist zugleich eine
+**Preisuntergrenze, die ein ungeförderter Anbieter nicht unterbietet** —
+relevant für MKT-HANDEL.
 
 **Kanal sind Bundesverband, Schleswig-Holstein und Hamburg.** Sie beraten
 nicht selbst zu Digital/Marketing:
@@ -2475,12 +2559,22 @@ belegt, und sie unterscheiden sich in der Zugangshürde diametral:
 | **SH-DKU Modul Beratung** (Amtsblatt SH 2026/190 vom 05.06.2026) | **max. 40 %** auf max. **20.000 €** zuwendungsfähige Ausgaben → **bis 8.000 €** *(gerechnet, steht so nicht in der Richtlinie)*; Beraterkosten mind. 2.500 € netto | ⭐ **Keine Akkreditierung mehr** — die frühere go-digital-Lizenzpflicht ist in der geltenden Fassung **entfallen** | bis **30.06.2027** (verlängerbar) |
 | **BAFA-Unternehmensberatung** (Bund) | **50 %, max. 1.750 €** für SH/HH (neue Länder 80 %/2.800 €), förderfähige Kosten max. 3.500 € | ⚠️ **Registrierung beim BAFA** *und*: „deren überwiegender Geschäftszweck auf die entgeltliche Unternehmensberatung (**mehr als 50 % des Gesamtumsatzes**) gerichtet ist" | Anträge bis **31.12.2026**; max. 5 Beratungen, höchstens 2/Jahr |
 
-**⭐ Der geschäftskritische Satz steht in der BAFA-Richtlinie:** Ein
-Anbieter, der **überwiegend Umsetzung** verkauft (Website, Kampagnen,
-Betrieb), erfüllt die 50-%-Umsatzschwelle **nicht** und ist damit
-BAFA-untauglich. Die beiden Landesprogramme sind es nicht. **Das ist eine
-Frage an unsere Angebotsarchitektur, nicht an das Marketing** — Zielort
-MKT-HANDEL/Zentrale, siehe P14.
+**⭐ Der geschäftskritische Satz steht in der BAFA-Richtlinie — mit
+seiner Ausnahmeklausel, die mitzitiert werden MUSS:** Ein Anbieter, der
+**überwiegend Umsetzung** verkauft (Website, Kampagnen, Betrieb),
+erfüllt die 50-%-Umsatzschwelle nicht. **Aber die Richtlinie endet dort
+nicht:** „**In begründeten Fällen kann die Bewilligungsbehörde hierzu
+eine auf den Zeitraum der Förderrichtlinie befristete
+Ausnahmegenehmigung erteilen.**" Die richtige Aussage lautet deshalb
+**nicht** „BAFA-untauglich", sondern: *Die Regelvoraussetzung ist bei
+umsetzungslastigem Geschäft nicht erfüllt; ob eine Ausnahmegenehmigung
+erreichbar ist, ist ungeprüft und wäre bei der Bewilligungsbehörde zu
+erfragen.* Die beiden Landesprogramme stellen diese Anforderung gar
+nicht. **Das ist eine Frage an unsere Angebotsarchitektur, nicht an das
+Marketing** — Zielort MKT-HANDEL/Zentrale, siehe P14.
+*(Die Erstfassung dieses Absatzes zitierte den Satz ohne die
+Ausnahmeklausel und machte daraus eine Feststellung — Prüferbefund
+R05-A, klassischer Fall „Verdichten verliert den Vorbehalt".)*
 Die BAFA-Registrierung selbst ist **kostenfrei**; ein öffentliches
 Beraterverzeichnis gibt es dort **nicht** (7 Suchmuster inkl.
 umlautfreier Gegenprobe je 0; Positivkontrollen `Beraterregistrierung` 5 ·

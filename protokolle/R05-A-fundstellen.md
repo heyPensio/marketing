@@ -23,11 +23,17 @@
 
 ## 1. Ergebnis in einem Satz
 
-Von sechs nachgeprüften Kernaussagen sind **vier wörtlich bestätigt**
-(Beleg-Typ steigt AGENT → BYTE), **eine ist im Bestand widersprüchlich
-belegt** (masunt-Rabattstufe) und **eine ist zu pauschal formuliert**
+Von sechs nachgeprüften Kernaussagen sind **fünf bestätigt** (Beleg-Typ
+steigt AGENT → BYTE) und **eine ist zu pauschal formuliert**
 (SEO-Negativ) — die Präzisierung ändert die Sachlage für das
 Wettbewerbsbild spürbar.
+
+⚠️ **Nachtrag nach dem Prüferlauf (R05-A-Prüfer):** Die Erstfassung
+dieses Protokolls führte die masunt-Rabattstufe als „im Bestand
+widersprüchlich" — **das war mein Fehler, nicht der der Quelle**. Der
+Bestand löst den Widerspruch selbst auf; Einzelheiten und die Lehre
+daraus stehen bei **N-5**. Das Original dieses Absatzes bleibt in der
+Versionsgeschichte, der korrigierte Stand gilt.
 
 ---
 
@@ -120,14 +126,25 @@ Wettbewerbsbild spürbar.
     DACH, **15 % Partner**"; ebenso
     `anbieter-anfragen-zutritt-linie-b.md`: „Angebote liegen vor
     (18/24/36 Fächer, **−15 % Partner**)".
-- **Befund:** Die 15 % sind an den Angebotszeilen belegt, die 5 % an der
-  Telefonnotiz vom 30.06.2026. Ob es eine Nachverhandlung, zwei
-  Rabattarten oder ein Übertragungsfehler ist, **entscheidet dieser
-  Bestand nicht**. Für das Wettbewerbsbild wird deshalb keine Prozentzahl
-  geführt, sondern „Partnerkonditionen verhandelt (Rabattstufe im Bestand
-  uneinheitlich: 5 % Telefonnotiz vs. 15 % Angebotszeilen)".
-- **Zielort:** Produkt-Repo (heypensio) — gehört nicht in dieses Papier
-  und nicht in diesen Scope. Als Nebenbefund gemeldet.
+- ~~**Befund:** … **entscheidet dieser Bestand nicht**.~~
+  ⚠️ **KORRIGIERT nach Prüferbefund R05-A — meine ursprüngliche Aussage
+  war falsch.** Der Bestand entscheidet die Frage sehr wohl: Der
+  **Kopfblock derselben Datei** (`anbieter-anfragen-schliessfach.md`,
+  Absatz „⭐ Zwei Linien im Rennen") sagt wörtlich „**masunt
+  Fächertresor-Schrank — API bestätigt, Partner-Status 15 % Rabatt
+  (Korrektur ggü. ‚5 %')**". Die 15 % sind damit die **bewusst
+  nachgetragene Korrektur**, die 5 % der überholte Stand der
+  Telefonnotiz vom 30.06.2026.
+- **Was ich falsch gemacht habe:** Ich habe die beiden Zahlen gefunden
+  und daraus einen offenen Widerspruch gemacht, **ohne den Kopfblock der
+  Datei mitzulesen** — genau der Fehler, vor dem die eigene Regel warnt
+  („Quellzeile ganz lesen, Überschrift/Geltungsbereich mitlesen"). Ein
+  Widerspruch ist erst dann einer, wenn die Datei ihn nicht selbst
+  auflöst.
+- **Folge:** Die R04-Angabe „masunt 15 %" ist **korrekt** und bestätigt.
+  Im Wettbewerbsbild wird weiterhin keine Prozentzahl geführt (sie ist
+  dort ohne Belang); der ursprünglich gemeldete Nebenbefund an das
+  Produkt-Repo **entfällt** — es gibt nichts zu klären.
 
 ### N-6 ⚠️ zu pauschal — die SEO-/Agentur-Negativliste
 

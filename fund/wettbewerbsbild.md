@@ -1227,8 +1227,12 @@ Misstrauen gegen die Quelle.
 | P9 | **IHA-Preferred-Partner-Liste vollständig** (Hotelverband Deutschland) — Canary sitzt dort, wer noch? | hotellerie.de | mittel — Kanal- **und** Wettbewerbsfrage |
 | P10 | **BE-A-Preismetrik klären** (30 €/Zi/M unplausibel) | Anbieterseite be-a.ai | niedrig |
 | P11 | **Straiv-Kiosk-Preise** (Juli offen, heute weiter ohne öffentliche Angabe; Straiv bietet „Finanzierungsmöglichkeiten") | ggf. über den kiosk.eu-Faden | niedrig |
-| **P12** | **Zweite Wettbewerbsachse „Beratung" fehlt vollständig** (§ 0.0): Hotel-Unternehmensberatung, Marketing-Agenturen, Revenue-/Zahlenanalyse, Expansion, Nachfolge, Operations. Vorgelagert: Ist der breitere Portfolio-Zuschnitt verabschiedet? Das Positionierungspapier kennt ihn nicht. | (1) Klärung/Nachtrag durch Leitsession + User; (2) danach eigener Erhebungslauf — die Kandidatenwege sind andere (DEHOGA/IHK-Beraterlisten, Fachmedien, Beratersuchportale), nicht der Apaleo Store | **hoch — größer als jeder Einzelposten oben** |
-| P13 | **Bestand rückwirkend gegen den breiteren Zuschnitt prüfen** — wer wurde NUR an der engen Produktdefinition aussortiert? Bekannter Fall: Brandnamic („kein Wettbewerber, möglicher Kanal", 28.07.2026) | Alt-Einstufungen im heypensio-Repo durchgehen, Kriterium neu anlegen | hoch, hängt an P12 |
+| ~~**P12**~~ | ~~**Zweite Wettbewerbsachse „Beratung" fehlt vollständig**~~ ✅ **AUFGELÖST 09.08.2026 (R05-A) → TEIL B.** Die vorgelagerte Frage ist durch E11/E13 entschieden (Portfolio BREIT, Papier-Kasten § 6); die Achse ist erhoben — Agenturen (B4), Beratung (B5), Revenue/Zahlenanalyse (B6), Verbands-/Förderkanäle (B8). **Rest-Stand: der Suchraum ist nicht vollständig** — Geltungsgrenze in **B1**. | — | — |
+| ~~P13~~ | ~~**Bestand rückwirkend gegen den breiteren Zuschnitt prüfen**~~ ✅ **AUFGELÖST 09.08.2026 (R05-A) → B7.** Brandnamic neu eingestuft (B4.3), Smart Host neu eingestuft (B6.1), Everlast richtiggestellt (B3); zusätzlich **elf weitere Anbieter gefunden, die nie als Wettbewerber betrachtet wurden** (B7.2). ⚠️ Rest: `projektquelle-heypensio.md` und die STATUS-Dateien wurden nur per Grep berührt (B7 Vollständigkeits-Grenze). | — | — |
+| **P14** | **Ist unser eigenes Beratungsangebot BAFA-förderfähig, und ist eine Berater-Autorisierung erreichbar?** Wettbewerber verkaufen dieselbe Digitalisierungs-/Prozessberatung mit 50–80 % Zuschuss auf ihr Honorar (B5.2). Nicht zu verwechseln mit der Förderung der KUNDEN-Hardware (WTSH/DKU), die wir schon begleiten. | BAFA-Richtlinie + KfW-Beraterbörse an der Primärquelle; danach Entscheid MKT-HANDEL/Zentrale | **hoch — Preishebel gegenüber inhabergeführten Häusern** |
+| **P15** | **Was decken straiv, flexipass, hoteldoor und iiq check im Brandnamic-Partnerkreis tatsächlich ab?** Entscheidet, ob die Kategorie „Check-in/Zutritt" dort bereits besetzt ist — und damit, ob eine Kanal-Ansprache überhaupt eine offene Kategorie hätte (B4.3). | Primärquellen der vier Anbieter; **nicht** aus der Brandnamic-Kategorisierung ableiten | **hoch — Voraussetzung jeder Kanal-Entscheidung** |
+| **P16** | **Fünf Kandidaten sind kanalbedingt unerhoben geblieben** (kein Negativbefund): Kirsch Unternehmensberatung (TLS-Fehler; laut Suchtreffer Privathotellerie-Spezialist seit 1997) · Hotel Fritz Consulting (HTTP 500) · Kohl & Partner Schweiz (keine Verbindung) · 9seemeilen (DNS) · Swiss Urban & Mountain Hospitality AG (als Partner beschrieben: „Hotel-Operations, Prozessoptimierung und Guest Journey … Remote-Lösungen für das Hotelmanagement" — inhaltlich näher an uns als die meisten Agenturen) | Abruf über anderen Netzpfad bzw. zu anderem Zeitpunkt wiederholen | mittel |
+| **P17** | **Reine Gästemappen-/Guest-App-Anbieter sind in Teil B systematisch nicht erhoben** — sie sind keine Agenturen und fielen durch beide Suchraster. Für unser Portfolio sind sie die eigentliche Nachbarschaft (B4.4 Punkt 6). | eigener Erhebungslauf, Weg wie Teil A (Store/Anbieterseiten) | mittel |
 
 ---
 
@@ -2092,3 +2096,178 @@ gesehen hat.
 das Werkzeug mehrfach „Omitted long matching line". Etwaige weitere
 Einstufungssätze in diesen Dateien sind **nicht gelesen**. Für diesen
 Bestandsteil wird keine Vollständigkeit behauptet.
+
+## B8. ⭐ Der Bündel-Wettbewerb: „Digitalisierung aus einer Hand"
+
+**Das ist die Kategorie, die unser eigenes Geschäftsmodell am
+unmittelbarsten spiegelt** — Technik + Einführung + laufender Betrieb +
+Beratung als EIN Angebot. Erhebung: ein Recherche-Agent, 09.08.2026,
+17 betrachtete Anbieter, Leseweg **ROH**, Quellenart **SELBST** bzw.
+**DRITT** (Aussagen eines PMS-Anbieters über seinen Partner).
+
+### B8.1 Das Bündel existiert — und es ist selten
+
+Von 17 betrachteten Anbietern verkaufen **genau zwei** die volle Kette
+als ein Angebot mit einem Vertrag; ein dritter liefert sie entlang eines
+Produktportfolios:
+
+**SUM Hospitality (Swiss Urban & Mountain Hospitality AG, Arosa/CH) —
+strukturell dasselbe Geschäftsmodell wie unseres, mit öffentlichen
+Preisen.** Selbstbeschreibung: „All the services you need. Through a
+provider." Vier Produkte: Revenue Management · Reception Services
+(„Outsource your reception") · Hotel Management („Full operational
+responsibility") · Digitalisation („Analysis of the hotel tech stack /
+Evaluation of software / Project management / Implementation /
+**Readjustment and support**").
+**Preismodell öffentlich, je Stufe „Monthly Support" + einmalige
+Implementierung** (Währung CHF, Steuerbasis nicht angegeben):
+
+| Stufe | Enthalten (Auszug) | Monatlich | Einmalig |
+|---|---|---|---|
+| **Light** | Basic Tech Stack, Implementation, Support | ab **400 CHF** | ab **5.000 CHF** |
+| **Standard** | + Process Consulting, Revenue Management | ab **700 CHF** | ab **9.000 CHF** |
+| **Plus** | + Accounting, Reservation Service, Full Automation | ab **1.500 CHF** | ab **12.000 CHF** |
+| **360°** | + White Label Management, Marketing, SEO, HR, Website | ab **4.000 CHF** | ab **18.000 CHF** |
+
+Skalierung erklärt: „This is based on the size of the properties (number
+of rooms) or the number of hotels for groups."
+⚠️ **Für uns doppelt relevant:** SUM ist **Apaleo-Softwarepartner** und
+zugleich „**Certified Mews Deployment Partner**" — und hat eine eigene
+Landingpage „Exklusives Angebot für Mitglieder von **HotellerieSuisse**"
+(Verbandskanal). **Einstufung: W1 + K.**
+
+**work@hotel GmbH (Berlin, DE) — das Profil mit dem Betriebsapparat.**
+„**360-Grad IT-Service für die Hotellerie** — … Beratung zur Verbesserung
+Ihrer digitalen Infrastruktur und Abläufe … Umsetzung und Einführung
+neuer IT-Lösungen und stehen Ihnen mit unserem Support-Team **während des
+laufenden Betriebs** zur Verfügung." Drei Säulen: „Beratung &
+Installation" · „Training vor Ort & remote" · „**Support & Managed
+Services** — 1st Level Support, 2nd Level Support", dazu Notdienst
+außerhalb Mo–Fr 07:00–19:00.
+**Größe (belegt, Zählweg ausgewiesen):** „40" Mitarbeitende in
+Deutschland und Österreich, „184" betreute Hotels — ausgelesen aus den
+Zähler-Attributen des Roh-HTML, Label aus demselben Block; die gerenderte
+Seite zeigt animierte Nullen. HRB 258 704 B, AG Charlottenburg.
+**Einstufung: W1.** *(Er hat den Betriebsapparat, den kein Berater hat,
+und die Prozesskompetenz, die kein WLAN-Systemhaus hat.)*
+
+**42 GmbH (Hannover)** — dieselbe Kette, verkauft entlang eines
+Produktportfolios; bereits in B5.3 geführt. Bemerkenswert ist die
+ausdrückliche Gegenposition zu unserem eigenen Modell: „**‚All-in-One'
+ist die größte Illusion der Hotelsoftware-Branche.** … Die Zukunft der
+Hotellerie ist nicht All-in-One, Sie ist **All-in-Partners**."
+
+### B8.2 Der Markt zerfällt in drei Lager, die sich kaum mischen
+
+1. **Berater ohne Betrieb** (Bräu, ZAHC, agilotel, TH-Experts, Anker &
+   Alpen, Stammgast): Endpunkt ist der Go-Live — belegt durch die
+   durchgängige Wortwahl „bis zum Go-Live", „Go-Live-Begleitung",
+   „Umsetzungsbegleitung ist **optional**".
+2. **Systemhäuser ohne Auswahlberatung** (Martin Becker/Oracle-gebunden,
+   Ellipsys/WLAN-Netz, IDC EDV): Betrieb ja, aber vorentschiedenes
+   Produkt oder gar keine Applikationsschicht.
+3. **Agenturen mit Tech-Anhang** (opensmjle, 48 concepts, anfang.team,
+   z1Digital): Systemeinführung als Nebenachse zu Marketing.
+
+**Unsere Position liegt in der Lücke zwischen 1 und 2** — genau dort, wo
+nur SUM und work@hotel stehen.
+
+### B8.3 ⭐ Drei unabhängige Größenschwellen — und sie liegen alle ÜBER dem kleinen Privathotel
+
+Das ist der wichtigste Einzelbefund für die Persona-Frage:
+
+- **Bräu Innovation:** „**Bei weniger als 30 Zimmern fehlt die
+  Projektgrundlage.**" (Zielkorridor „typischerweise 30 bis 300 Zimmer")
+- **anfang.team:** „Hotels **ab etwa 1 Mio. Euro Jahresumsatz**"
+- **SUM Hospitality:** Einstieg trotz Skalierung nach Zimmerzahl bei
+  **5.000 CHF einmalig plus 400 CHF/Monat**
+
+**Dem steht genau ein Anbieter gegenüber, der die Untergrenze
+ausdrücklich verneint:** TH-Experts — „**Eignet sich die Beratung auch
+für kleine Hotels und Pensionen? — Ja.**" und „**Kleine Hotels,
+Pensionen und Gasthöfe** benötigen häufig andere Funktionen und Abläufe
+als größere Häuser".
+
+⚠️ **Was das bedeutet, ist ausdrücklich NICHT entschieden.** Entweder ist
+der Bereich unter 30 Zimmern unser freies Feld — oder es ist die Warnung
+etablierter Anbieter, dass er sich nicht projektförmig finanzieren lässt.
+**Beides ist eine Hypothese**, die gegen die eigene Kalkulation zu halten
+ist (MKT-HANDEL), nicht ein Beleg für das eine oder andere. Die
+naheliegende These „ein AI-nativer Betrieb senkt genau diesen
+Aufwand" ist eine **These für MKT-FUND, kein Rechercheergebnis.**
+
+### B8.4 ⭐ Apaleo hat kein öffentliches Beraterverzeichnis — Mews schon
+
+**Belegt, zweikanalig, je mit eigener Positivkontrolle:**
+- **Kanal 1 — `apaleo.com/sitemap.xml`** (100 `<loc>`-Einträge,
+  vollständig ausgelesen): Treffer auf `partner|consult|expert|agenc` =
+  **genau 1**, und das ist eine Event-Sponsoring-Seite.
+  ⭐ Positivkontrolle im selben Lauf: `pricing` → 1 Treffer ✔.
+- **Kanal 2 — `store.apaleo.com`** (Next.js-Nutzlast geparst, bestätigt
+  die MKT-R3-Messung): Die vollständige Kategorienliste hat **7**
+  Einträge — Operations · Back office & administration · Distribution ·
+  Marketing · Guest experience · Revenue management · AI-powered.
+  **Keine** Kategorie Consulting/Services/Partners/Implementation.
+  ⭐ Positivkontrolle: `__NEXT_DATA__` → 1 Treffer, JSON geparst ✔.
+
+**Korrekte Formulierung: auf den beiden geprüften Kanälen nicht
+auffindbar — keine Systemaussage.** Ein Implementierungspartner-Programm
+existiert vermutlich (eine Apaleo-Stellenanzeige nennt „collaboration
+with implementation partners") — dieser Hinweis stammt allerdings aus
+einer **WebFetch-Zusammenfassung und wurde nicht roh gelesen**, er trägt
+also nur Hypothesen-Rang.
+
+**Demgegenüber publiziert Mews ein echtes Beraterverzeichnis** — 15
+Einträge, per curl vollständig lesbar, davon **vier aus dem DACH-Raum**:
+SUM Hospitality, Anker & Alpen, ZAHC, agilotel. Mews führt sogar zwei
+Partnerstufen („Mews Preferred Consultant" und „Certified Deployment
+Partner"). Casablanca publiziert eine Rubrik „andere Partner" (18
+Einträge, überwiegend Web-/Werbeagenturen). **SIHOT** hat nur eine
+Bewerbungsstrecke für Technologiepartner, **ibelsa** nur einen
+zugangsgeschützten Partner-Login.
+
+**Zwei gegenläufige Lesarten, beide zulässig — und deshalb beide
+notiert:** Dass es bei unserem eigenen PMS kein Verzeichnis gibt, heißt
+entweder, dass die Implementierer-Szene dort noch nicht organisiert ist
+(Chance), oder dass Apaleo diesen Kanal bewusst nicht bespielt
+(Kanal-Risiko). **Nicht entschieden.**
+
+### B8.5 Unsere Produktschicht ist bei den Bündel-Anbietern bereits fremdbesetzt
+
+**Der am dichtesten belegte Einzelbefund des Laufs:** Wer im DACH-Raum
+heute Self-Check-in/Guest-Journey einführt, verkauft in aller Regel
+**straiv** mit — belegt bei **42 GmbH** (zusammen mit Kiosk.eu),
+**Martin Becker GmbH**, **opensmjle** (dort neben SuitePad, Duve,
+Like Magic) und in der Casablanca-Schnittstellenliste. Hinzu kommt
+Brandnamic (B4.3). **Straiv ist damit nicht nur unser Technik-
+Wettbewerber (Teil A), sondern der De-facto-Standard im Portfolio der
+Einführungs-Dienstleister.**
+
+**Und ein Anbieter beschreibt unseren Produktkern als seine
+Beratungsleistung:** **z1Digital** (Thüringen) — „Guest-Journey-Prozesse
+— **Digitaler Checkin- und Checkout-Prozess (Online- oder
+Terminal-Checkin, NFC Zimmerschlüssel oder Zahlenschlösser, keine
+Meldescheine, …)**, digitaler Concierge … Gästegeräte", mit dem Zusatz
+„Wir erledigen für Sie die Umsetzung Ihrer Idee **aus einer Hand**" und
+dem Förderargument „**bis zu 80% förderfähig**" (akkreditiert „beim
+Qualitätssicherer Ellipsis" — Selbstauskunft, nicht gegengeprüft).
+
+### B8.6 Negative und nicht verfügbare Kanäle dieses Strangs
+
+| Gegenstand | Ergebnis | Positivkontrolle |
+|---|---|---|
+| Freiberufliche „Hotel-Digitalisierer"/**Interims-IT-Leiter** mit eigener Website | **Nicht gefunden** — es gibt Einzelunternehmer mit voller Website, aber keinen, der sich so *bezeichnet*. Nächster Treffer: Consultant4IT mit dem „Sophie Sorgenfrei Ansatz" („sämtliche IT-Herausforderungen und Sorgen abnehmen") — funktional dasselbe, anders benannt | dieselbe Suche fand Interim-Anbieter für die **Hotelführung** ✔ — der Kanal ist nicht blind |
+| Reine „Hotel + KI"-**Beratungshäuser** | **Nicht gefunden.** Die Trefferlisten bestanden großenteils aus identischem Artikeltext auf fünf bis sechs Magazin-Domains — ein **Content-Farm-Netzwerk, keine Anbieter**. KI erscheint durchgehend als Zusatz-Achse bestehender Anbieter | die Suche fand sehr wohl konkrete Firmen ✔ |
+| Öffentliche Honorare | 3 von 17 nennen Beträge (SUM vollständig; Stammgast „CHF 320" für 2 h Audit; opensmjle nur für Marketing/Website — **nicht** für Hotel Tech) | derselbe Grep fand bei SUM 8 und bei opensmjle 7 Preiszeilen ✔ |
+| Systempartnerschaften work@hotel | auf der abgerufenen **Startseite** nicht gefunden — nicht „bestehen nicht" | „PMS" und „Managed Services" trafen im selben Dokument ✔ |
+
+**Kanäle, die nicht auswertbar waren (kein Negativbefund):**
+Oracle-Partner-Finder (reine SPA, 0 Textzeilen) · protel/planet-
+Partnerverzeichnis (clientseitig nachgeladen; der Rohtext liefert nur den
+Leerzustand „no partners matching your search criteria") ·
+`gainadvisors.com` (SPA) · `hotel-it.ch` und `hotel-it-dresden.com`
+(Verbindung kam nicht zustande — **zwei unerhobene Kandidaten**) ·
+smartbloqs.de (403).
+⚠️ **Widerspruch in der Quelle selbst, nicht geglättet:** agilotels
+Impressum nennt für denselben Ort **zwei verschiedene Postleitzahlen**
+(5733 und 5773 Bramberg am Wildkogel).

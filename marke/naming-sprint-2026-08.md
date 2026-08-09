@@ -1,11 +1,14 @@
 # MARKE1 — Naming-Sprint 2026-08, Phase 1 (Schreibtisch)
 
-> ## STATUS: PHASE 1 ABGESCHLOSSEN — Shortlist (9 Kandidaten) zur User-Vorlage
-> *(Session R04-A, Ben Beckman, 09.08.2026 18:41–19:1x; unabhängige
-> Prüfung: `protokolle/R04-A-pruefer.md`. Offen: K4-Diktat-Test +
-> EN-Muttersprachler-Check [User-Handgriffe, § 6] · K2/K3/W7/W8
-> [zweite Welle, eigene Session, E-V4] · 4 K1-Blockierte warten auf
-> User-Entscheid [§ 4.2].)*
+> ## STATUS: PHASE 1 ABGESCHLOSSEN — Shortlist (10 Kandidaten) zur User-Vorlage
+> *(Session R04-A, Ben Beckman, 09.08.2026 ab 18:41; unabhängige
+> Prüfung gelaufen: `protokolle/R04-A-pruefer.md`, 0 kritisch /
+> 3 wichtig / 8 Hinweise — alle drei Wichtig-Befunde und die
+> tragenden Hinweise VOR dieser Vorlage eingearbeitet, Korrekturen
+> im Text je als „nach Prüfer-Befund" markiert. Offen:
+> K4-Diktat-Test + EN-Muttersprachler-Check [User-Handgriffe, § 6] ·
+> K2/K3/W7/W8 [zweite Welle, eigene Session, E-V4] · 4 K1-Blockierte
+> warten auf User-Entscheid [§ 4.2].)*
 >
 > **Auftrag:** Kandidaten-Findung + K.-o.-Prüfung (Schreibtisch-Welle
 > K1, K4–K7) + Wertung → bewertete Shortlist zur User-Vorlage.
@@ -13,10 +16,11 @@
 > E12, 09.08.2026, inkl. Nachtrags-Kasten: E-K4 Zusatzsprachen
 > TR/FR/ES/IT · E-K5 vorerst ohne Anwalt · K5/W5 tragen durch E11 auch
 > die Beratungsbreite) · `fund/positionierungspapier.md` §§ 2/3/6
-> (verabschiedet E10; ⚠️ der E11-Portfolio-Nachtrag [breit:
-> Beratungs-/Agentur-Leistungen] steht im Papier noch aus — dieser
-> Sprint wendet E11 bereits an: keine Verengung auf Technik oder
-> Digital-only).
+> (verabschiedet E10; der E11-Portfolio-Nachtrag [breit:
+> Beratungs-/Agentur-Leistungen] wurde parallel zur Sprint-Arbeit von
+> der Leitsession als E13-Kasten in § 6 des Papiers umgesetzt —
+> Commit `8862831`, 09.08.2026 18:58; dieser Sprint wendet E11 von
+> Beginn an an: keine Verengung auf Technik oder Digital-only).
 >
 > **Geltungsgrenzen dieser Phase (Katalog § 4.1 / E-V4):**
 > Die Live-Kriterien **K2 (Markenkollision), K3 (Domains), W7 (SEO),
@@ -154,6 +158,14 @@ erfüllt (58/30). Stories/Verdachte aus den Agenten-Rückläufen
   **„nicht prüfbar"** — blockiert lt. E-K5-Delta bis User-Entscheid,
   keine Wertung; (c) suggestiv/mehrdeutig ohne direkten
   Leistungsbezug oder Kunstwort → bestanden.
+  *Abgrenzung der Grenzfälle (nach Prüfer-Hinweis explizit):
+  „Sorgfrei" nennt das ERGEBNIS-Versprechen der Leistung selbst
+  (Linie a); „Freihand"/„Zuhand"/„Beihand" sind BILDER für das
+  Mittel, keine Ergebnis-Anpreisung, und als Komposita keine
+  Wörterbuchwörter (Linie c). „Obhut" IST die angebotene Leistung
+  („Betrieb in Obhut") als existierendes Wort (Linie b); „Obacht"
+  ist Interjektion/Haltung, beschreibt keine Dienstleistung
+  (Linie c).*
 - **K5 (keine Verengung; trägt durch E11 auch die Beratungsbreite):**
   Kein Betriebstyp, keine Größenklasse, kein Einzelmodul, keine
   Technik-/Digital-only-Anmutung im Namen.
@@ -261,7 +273,6 @@ aber protokollpflichtig):
 | N-55 | Portino | 2 | 3 | 2 | 3 | 3 | 3 | 2 | **18** |
 | N-01 | Gastfrei | 3 | 3 | 2 | 1 | 2 | 3 | 3 | 17 |
 | N-08 | Tragwerk | 3 | 3 | 3 | 1 | 2 | 2 | 3 | 17 |
-| N-12 | Levanto | 2 | 1 | 2 | 3 | 3 | 3 | 3 | 17 |
 | N-24 | Torhaus | 3 | 3 | 2 | 1 | 2 | 3 | 3 | 17 |
 | N-25 | Lumara | 2 | 3 | 1 | 3 | 3 | 3 | 2 | 17 |
 | N-28 | Solmira | 2 | 2 | 1 | 3 | 3 | 3 | 3 | 17 |
@@ -274,6 +285,7 @@ aber protokollpflichtig):
 | N-53 | Ankomo | 2 | 2 | 2 | 2 | 3 | 3 | 3 | 17 |
 | N-56 | Klavero | 2 | 1 | 3 | 2 | 3 | 3 | 3 | 17 |
 | N-15 | Landgang | 3 | 3 | 2 | 1 | 1 | 3 | 3 | 16 |
+| N-12 | Levanto | 2 | 1 | 2 | 3 | 3 | 3 | 2 | 16 |
 | N-31 | Selona | 2 | 1 | 1 | 3 | 3 | 3 | 3 | 16 |
 | N-33 | Belano | 2 | 1 | 1 | 3 | 3 | 3 | 3 | 16 |
 | N-34 | Sanora | 2 | 1 | 1 | 3 | 3 | 3 | 3 | 16 |
@@ -286,35 +298,67 @@ aber protokollpflichtig):
 | N-10 | Adlatus | 2 | 2 | 2 | 2 | 2 | 2 | 3 | 15 |
 | N-14 | Herzein | 3 | 1 | 3 | 1 | 2 | 2 | 3 | 15 |
 | N-16 | Kommgut | 3 | 2 | 2 | 1 | 2 | 2 | 3 | 15 |
-| N-54 | Tektum | 3 | 2 | 1 | 2 | 2 | 2 | 3 | 15 |
 | N-57 | Kamino | 2 | 1 | 2 | 2 | 2 | 3 | 3 | 15 |
 | N-19 | Advena | 2 | 1 | 2 | 2 | 2 | 2 | 3 | 14 |
-| N-23 | Itinera | 1 | 2 | 2 | 2 | 2 | 2 | 3 | 14 |
+| N-54 | Tektum | 3 | 1 | 1 | 2 | 2 | 2 | 3 | 14 |
 | N-58 | Fensterlicht | 1 | 3 | 3 | 1 | 2 | 1 | 3 | 14 |
 | N-20 | Adventa | 2 | 1 | 1 | 2 | 2 | 2 | 3 | 13 |
+| N-23 | Itinera | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 13 |
 | N-22 | Wiederda | 2 | 2 | 2 | 1 | 1 | 1 | 3 | 12 |
 
 W9-Einzelbegründungen ≠ 3: N-25 Lumara = 2 (Klangnähe zur
 Verzeichnis-Nennung „iLumio", SIHOT Partner Finder, Wettbewerbsbild
 § 3.4) · N-55 Portino = 2 (entfernte Nähe zur Store-App „Portal",
-AU — schwach, da nur Stamm „Port-"). Sonst kein Kandidat mit Anklang
-an ein Zeichen der Ausschlussliste (Abgleich: alle 51 gegen die
-namentlich geführten Anbieter/Apps der §§ 3–4 des Wettbewerbsbilds,
-09.08.2026). Nähen AUSSERHALB des W9-Geltungsbereichs (kein
-Technik-Segment-Wettbewerber) als K2-Vorab-Vermerke für die zweite
-Welle: N-56 Klavero ↔ Klaviyo (Marketing-Software — durch E11
-relevant!) · N-46 Sekura ↔ Securitas-Umfeld · N-45 Fidura ↔
-Finanzfirma-Verdacht (Findung) · N-31 Selona ↔ Celona (Findung).
+AU — schwach, da nur Stamm „Port-") · N-23 Itinera = 2 (entfernte
+Nähe FRIVA-Konnektor „Intenik"; Prüfer-Gegenstichprobe) · N-12
+Levanto = 2 (entfernte Nähe HTR-Nennung „Liverton";
+Prüfer-Gegenstichprobe). Sonst kein Kandidat mit Anklang an ein
+Zeichen der Ausschlussliste (Abgleich: alle 51 gegen die namentlich
+geführten Anbieter/Apps der §§ 3–4 des Wettbewerbsbilds, 09.08.2026;
+**Positivkontrolle des Abgleichs:** die vier gefundenen Nähen selbst
+— der Leseabgleich produziert nachweislich Treffer; zusätzlich
+unabhängige Prüfer-Gegenstichprobe über 15 Namen, die zwei weitere
+Nähen fand → eingearbeitet). Nähen AUSSERHALB des
+W9-Geltungsbereichs (kein Technik-Segment-Wettbewerber) als
+K2-Vorab-Vermerke für die zweite Welle: N-56 Klavero ↔ Klaviyo
+(Marketing-Software — durch E11 relevant!) · N-46 Sekura ↔
+Securitas-Umfeld · N-45 Fidura ↔ Finanzfirma-Verdacht (Findung) ·
+N-31 Selona ↔ Celona (Findung).
 
-### 5.3 Shortlist (9 Kandidaten) und K6-Voll-Check
+**W2-Vergabelinie (nach Prüfer-Befund 1 explizit gemacht):**
+f/v-, c/k-, s/c-Ambiguität am WORTANFANG ohne vertrautes deutsches
+Morphem = 1 (Fidato, Fidura, Levanto, Sekura, Selona, Klavero,
+Kamino); dieselbe Ambiguität durch ein vertrautes Schriftbild-Morphem
+entschärft („Ver-", „Frei-", „Treu-") = 2 bzw. 3. **Korrigiert nach
+Prüfung:** N-54 Tektum W2 2 → 1 (lateinisches Original „tectum" mit
+c — gleiche Sachlage wie Sekura), Σ 15 → 14; N-23 Itinera Σ 14 → 13
+und N-12 Levanto Σ 17 → 16 (W9-Nachträge oben). Kein
+Shortlist-Effekt.
 
-**Auswahlkriterium (offengelegt):** alle Kandidaten mit Σ ≥ 19
-(7 Stück) **plus** die zwei je punktbesten Vertreter der sonst nicht
-vertretenen Achsen A2-Wortfeld-Anteil und A5 (N-13 Einkehr, Σ 18,
-höchste W3-Dichte der 18er; N-55 Portino, Σ 18, einziger
-A5-Vertreter ≥ 18). Reine Punktreihenfolge hätte Platz 8–9 unter
-sechs punktgleichen 18ern gelost — die Achsen-Streuung ist das
-dokumentierte Zusatzkriterium.
+### 5.3 Shortlist (10 Kandidaten) und K6-Voll-Check
+
+**Auswahlkriterium (neu gefasst nach Prüfer-Befund 2 — die
+Erstfassung war an der eigenen Tabelle widerlegbar):** Alle
+Kandidaten mit Σ ≥ 19 (7 Stück) sind gesetzt. Aus den **zehn**
+punktgleichen 18ern wurden drei per dokumentierter Gesamtschau
+aufgenommen und sieben mit benanntem Grund nicht:
+
+- **Aufgenommen:** N-13 Einkehr (einziges deutsches Real-Wort der
+  Spitzengruppe — bewusster Kontrast zur Kunstwort-Gruppe; W1 = 3 +
+  W3 = 3) · N-55 Portino (A5-Vertreter mit der stärksten
+  Achsen-Story) · N-27 Domara (A5-tauglicher Vertreter mit vollem
+  W9-Abstand = 3 — Aufnahme nach Prüfer-Befund, das Erst-Kriterium
+  hatte ihn stillschweigend übergangen).
+- **Nicht aufgenommen:** N-30 Talora, N-29 Ondira (W3 = 1, Story
+  trägt die Doktrin kaum) · N-37 Treuwerk (Treuhand-Anklang; Achse
+  A4 bereits doppelt in der Spitzengruppe) · N-43 Verlano, N-44
+  Fidato, N-45 Fidura (f/v-Diktatrisiko; Fidura zusätzlich
+  K2-Verdacht Finanzfirma) · N-47 Amparo (ES-Vornamen-Charakter,
+  Fremdwort ohne DE-Anker).
+
+Die Nichtaufnahme ist KEIN Ausscheiden — alle zehn 18er bleiben
+K.-o.-Überlebende und stehen dem User als Nachrücker offen (dann
+K6-Voll-Check nachholen, § 4.1).
 
 #### K6-Voll-Check-Protokoll (09.08.2026, Session R04-A)
 
@@ -326,7 +370,14 @@ dokumentierte Zusatzkriterium.
 | B | en.wiktionary.org, ZWEITER Lauf GROSSGESCHRIEBEN für die DE-Komposita (Wiktionary ist case-sensitiv — ein Klein-404 allein wäre ein Mechanik-Artefakt) | `Einkehr` → Eintrag DE „(self-)reflection, retreat" ✔ |
 | C | de.wiktionary.org für DE-Komposita | `Einkehr` → „Handlung, ein Lokal zu betreten" / „sich besinnen" ✔ |
 | D | Sprachwissen des Session-Modells, alle 6 Sprachen je Kandidat (Belegstufe: Selbst-Sprachprüfung OHNE externen Beleg — gekennzeichnet, kein Wörterbuch-Ersatz) | n. a. (kein Suchlauf) |
-| E | EN-Muttersprachler-Check | **OFFEN — User-Handgriff, 0/9** |
+| E | EN-Muttersprachler-Check | **OFFEN — User-Handgriff, 0/10** |
+
+**⚠️ Der K6-Prüfweg des Katalogs umfasst BEIDE Teile** (Wörterbuch-/
+Slang-Prüfung UND Muttersprachler-Check EN). Solange Kanal E offen
+ist, ist K6 insgesamt NICHT ✅ — die Ergebnisspalte unten bewertet
+ausdrücklich nur den **Schreibtisch-Teil** (Korrektur nach
+Prüfer-Befund 3; die frühere Formulierung „K6 ✅" war eine
+⚠️→✅-Verdichtung).
 
 **Leseweg-Vorbehalt:** Kanäle A–C liefen über den
 WebFetch-Zusammenfasser (kein Rohtext-Read); abgefragt wurden nur
@@ -336,7 +387,7 @@ niedrig, aber benannt.
 **Ergebnisse je Shortlist-Kandidat** (Suchraum: 6 Sprachen
 DE/EN/TR/FR/ES/IT; „404" = kein Eintrag im Kanal):
 
-| ID | Kanal A (klein) | Kanal B (groß) | Kanal C | Kanal D (LLM, 6 Sprachen) | K6-Ergebnis |
+| ID | Kanal A (klein) | Kanal B (groß) | Kanal C | Kanal D (LLM, 6 Sprachen) | K6-Ergebnis (nur Schreibtisch-Teil; Kanal E offen) |
 |---|---|---|---|---|---|
 | N-02 Freihand | 404 | 404 | 404 | DE „freihändig/Freihandbestand" harmlos; EN „freehand" positiv; TR/FR/ES/IT leer | ✅ bestanden |
 | N-03 Beihand | 404 | 404 | n. e. | alle 6 leer | ✅ bestanden |
@@ -346,7 +397,8 @@ DE/EN/TR/FR/ES/IT; „404" = kein Eintrag im Kanal):
 | N-26 Kalmora | 404 | n. a. | n. a. | TR „kalma" (das Bleiben) harmlos-positiv; sonst leer | ✅ bestanden |
 | N-38 Treuhold | 404 | 404 | n. e. | EN „true hold" positiv; sonst leer | ✅ bestanden |
 | N-39 Zuhand | 404 | 404 | n. e. | DE „zuhanden" neutral-positiv; sonst leer | ✅ bestanden |
-| N-55 Portino | Eintrag IT: Verbform von „portare" (Konj./Imp. 3. Pl.) — harmlos; ⚠️ FR/JA/MG-Einträge existieren, Detail NICHT gelesen (kein Verdacht; Nachlese vor Finalisten-Entscheid) | n. a. | n. a. | IT „portino" alltagssprachlich kleine Tür (unkritisch); sonst leer | ✅ bestanden mit Nachlese-Vermerk |
+| N-27 Domara | Eintrag PT/ES: Verbformen von „domar" (zähmen) — harmlos, keine negative/lächerliche Bedeutung | n. a. | n. a. | DE/EN/TR/FR/IT leer; ES „domara"-Verbform wie Kanal A | ✅ Schreibtisch-Teil bestanden *(nachgeholt bei Aufnahme, 09.08.2026)* |
+| N-55 Portino | Eintrag IT: Verbform von „portare" (Konj./Imp. 3. Pl.) — harmlos. FR/JA/MG-Einträge existieren; **FR nachgelesen** (fr.wiktionary, 09.08.2026): beschreibt nur dieselbe IT-Verbform — FR-Pflichtsprache damit abgedeckt; JA/MG außerhalb des E-K4-Suchraums | n. a. | n. a. | IT „portino" alltagssprachlich kleine Tür (unkritisch); FR/ES/TR ohne eigenes Wort *(Korrektur: die Erstfassung „sonst leer" widersprach Kanal A)* | ✅ Schreibtisch-Teil bestanden |
 
 *(n. e. = nicht einzeln abgefragt, durch Kanal-B-404 des identischen
 Strings abgedeckt; n. a. = nicht anwendbar.)*
@@ -361,25 +413,26 @@ Wörterbuch-Beleg, nicht nur auf Sprachwissen.
 
 ### 5.4 Shortlist-Detailblätter (Prüf-Stand je Kandidat, 09.08.2026)
 
-Gemeinsamer Status ALLER 9: K1 ✅ (Ersteinschätzung ohne Anwalt,
-E-K5) · K5 ✅ · K7 ✅ · K6 ✅ (Protokoll § 5.3) · **K4 OFFEN —
-User-Handgriff Diktat-Test, 0/2 Personen, Testbogen § 6** ·
-**EN-Muttersprachler-Check OFFEN — User-Handgriff, 0/9** ·
+Gemeinsamer Status ALLER 10: K1 ✅ (Ersteinschätzung ohne Anwalt,
+E-K5) · K5 ✅ · K7 ✅ · **K6 ⚠️ TEIL-bestanden** (Schreibtisch-Teil
+✅, Protokoll § 5.3; EN-Muttersprachler-Teil OFFEN, 0/10) · **K4
+OFFEN — User-Handgriff Diktat-Test, 0/2 Personen, Testbogen § 6** ·
 **K2 Markenkollision OFFEN — zweite Welle, 0 Datenbanken geprüft** ·
 **K3 Domains OFFEN — zweite Welle, 0 TLDs geprüft** · **W7/W8 OFFEN —
 zweite Welle**. Kein Kandidat trägt ein ✅ aus K2/K3/W7/W8.
 
 | Rang | ID | Name | Achse | Σ/21 | Story in einem Satz | Kandidatenspezifische Vorbehalte |
 |---|---|---|---|---|---|---|
-| 1 | N-02 | **Freihand** | A1 | 21 | Der Gastgeber bekommt die Hände frei fürs Eigentliche — den Gast; EN „freehand" trägt mit. | keine |
+| 1 | N-02 | **Freihand** | A1 | 21 | Der Gastgeber bekommt die Hände frei fürs Eigentliche — den Gast; EN „freehand" trägt mit. | Anklänge „freehand/Freihandel/Freihandbestand" (alle harmlos — Findungs-Vermerk beibehalten) |
 | 2 | N-03 | **Beihand** | A1 | 20 | Die zusätzliche Hand, die still mitarbeitet, ohne den Gastgeber zu ersetzen. | EN bedeutungsleer (machbar) |
 | 2 | N-38 | **Treuhold** | A4 | 20 | Der treue Begleiter (treu + althochdt. „hold"); EN-Doppellesung „true hold" = fester Halt. | d/t-Auslaut im Diktat (mild) |
-| 4 | N-17 | **Anlando** | A2 | 19 | „Anlanden" — ankommen, mit internationaler Endung. | — |
+| 4 | N-17 | **Anlando** | A2 | 19 | „Anlanden" — ankommen, mit internationaler Endung. | Klangnähe „Orlando" (harmlos — Findungs-Vermerk beibehalten) |
 | 4 | N-18 | **Ankado** | A2 | 19 | Ankommen + Anker: Ankunft und Verlässlichkeit in einem Kunstwort. | — |
 | 4 | N-26 | **Kalmora** | A3 | 19 | Ruhe (calm/Kalme) in warmem Klang — Gelassenheit ohne Beschreibung. | Hörnähe „Kalmar" (kurios) |
 | 4 | N-39 | **Zuhand** | A4 | 19 | „Jemandem zur Hand gehen" — abnehmen, nicht ersetzen. | EN sperrig (W4 = 1) |
 | 8 | N-13 | **Einkehr** | A2 | 18 | Ankommen UND Besinnung — trägt Gastlichkeit wie Beratungs-Ruhe. | K2-Umfeld dicht (Gasthöfe „Zur Einkehr"); EN sperrig |
-| 8 | N-55 | **Portino** | A5 | 18 | Die kleine, immer offene Tür — Willkommen ohne Schranke. | W9 = 2 (Stamm „Port-"); IT-Verbform (harmlos); FR/JA/MG-Wiktionary-Nachlese offen |
+| 8 | N-27 | **Domara** | A3+A5 | 18 | Lat. domus — das Haus als warmer Klang, ohne etwas zu beschreiben. | W3 = 1 (Story-Dichte gering); ES/PT-Verbformen von „domar" = zähmen (harmlos, § 5.3) |
+| 8 | N-55 | **Portino** | A5 | 18 | Die kleine, immer offene Tür — Willkommen ohne Schranke. | W9 = 2 (Stamm „Port-"); IT-Verbform (harmlos); FR nachgelesen ✅ (§ 5.3) |
 
 **Empfehlung der Session (zur Gesamtschau des Users, kein
 Vorentscheid):** Die Spitzengruppe N-02/N-03/N-38 verbindet
@@ -419,6 +472,7 @@ Auswahl.
 | 7 | Zuhand | | | |
 | 8 | Einkehr | | | |
 | 9 | Portino | | | |
+| 10 | Domara | | | |
 
 *Testdatum: ______ · Person 1: ______ · Person 2: ______*
 

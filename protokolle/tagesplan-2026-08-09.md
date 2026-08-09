@@ -242,3 +242,31 @@ MARKE1-Entscheidungspunkte · A5-Probedruck · Modell-Statuszeilen ·
 Zuruf „außerhalb passiert?" (bis Rundenende unbeantwortet).
 **Nächster Block: erst Kontext-Säuberung der Leitsession
 (`/clear` bzw. Neustart, Regel 1a), dann `/runde` für R4.**
+
+## Fortschreibung: R4 (~17:05, Leitsession Shanks nach /clear)
+
+**Kurzcheck:** Sonntag 17:03 (Get-Date) — weiter nur Innen-Stränge.
+Debrief-Gate ✅ (R3 geschlossen lt. Vermerk oben, `git pull` ohne Delta,
+Arbeitsbaum sauber). Kontext-Säuberung ✅ (Regel 1a, /clear vor diesem
+Block). ✅ **Zuruf „außerhalb passiert?" BEANTWORTET (User 17:05):
+Nichts Neues** — der seit R3 offene Posten ist damit geschlossen.
+**Kontingent:** keine frische Ablesung (User-Entscheid 17:05, „ohne
+frische Ablesung planen") — Planung konservativ auf Basis der
+14:50-Ablesung (39 % gesamt / 59 % Fable); Konsequenz: schlanke Runde,
+keine parallelen Fable-Arbeits-Sessions vor den Entscheiden.
+
+**Schnitt (User-Entscheid 17:05: „Durchsprachen zuerst"):** R4 beginnt
+OHNE parallele Arbeits-Sessions. Die Leitsession führt die zwei
+geführten Entscheidungs-Durchsprachen:
+1. **(a) Portfolio-Zuschnitt** (Projektquelle § 7 Punkt 4a) — Angebot
+   breiter als Positionierungspapier § 6? Entscheid: Papier nachziehen
+   ODER bewusst eng bleiben. Entsperrt die FUND3-Beratungsachse.
+2. **(b) MARKE1-Verabschiedung** — 10 Entscheidungspunkte
+   (`marke/naming-kriterienkatalog.md` +
+   `marke/markenrecherche-verfahren.md`). Entsperrt den Naming-Sprint.
+
+**PROGNOSE nach den Entscheiden:** je Ausgang FUND3-Beratungsachse
+und/oder Naming-Sprint als Arbeits-Session(en) schneiden (Ist-Stand-
+Prüfung + Prompts dann per tagesstart Abschnitt 2); Blueprint-
+Arbeitsauftrag bleibt Leitsession-Kandidat für später. Arbeitsende
+entscheidet der User laufend.

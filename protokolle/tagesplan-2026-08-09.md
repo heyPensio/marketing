@@ -510,3 +510,36 @@ unverändert: StB-Anruf + BAFA-Entscheid (User, Zentrale) · E-V4 nach
 Shortlist-Handgriffen · Anfragen-Versand DEHOGA/IHK · FUND2-Rest
 (Apaleo-Teil jetzt mit Wiedervorlage-Trigger, s. o.) ·
 IFB-Vorabklärung Hamburg Digital Check.
+
+**R6 GESCHLOSSEN (Debrief ~01:40).** Abschlussmeldung R06-A da
+(`9a85bed`), Scope-Treue aller 3 Session-Commits per `git show --stat`
+belegt (nur `fund/wettbewerbsbild.md`, `protokolle/R06-A-*`;
+Rohbelege git-ignoriert in `sensibel/rohbelege-R06-A/`, 84 Dateien
+vorhanden). Review beide Richtungen: **nach innen** — Stichproben am
+Rohbeleg selbst nachgemessen (flexipass-Zitat 1/1 · sieben
+`MOD-Partner__title`-Rubriken · iiQ-Steuerbasis-Negativ mit
+Positivkontrolle · AKZENT-Beträge), ein eigener Kleinbefund gefunden
+und gefixt (**PCH-Städtelisten führen 17 Namen gegen die
+Selbstauskunft „18"**, `dea722e`); **nach außen** — alle sieben
+Nebenbefunde tragen einen Zielort im Papier (B10.4/B11.8/B4.5),
+kein Postkorb-Fall.
+⭐ **Der teuerste Fund der Runde entstand im Debrief, nicht im
+Strang:** Der Pflicht-Bestandsscan zur neuen Lehre L-11 zeigte, dass
+**24 von 37 Prüferbefunden aus R05-A nie eingearbeitet wurden** —
+darunter H-1, den R06-A eine Runde später unabhängig neu entdeckte
+(voller Prüfzyklus für einen bezahlten Befund). Träger mit Vollliste
+und eigenen Verifikations-Stichproben:
+`protokolle/R06-nacharbeit-R05A-befunde.md`; daraus die neue Lehre
+**L-13** (Review prüft die DISPOSITION aller Befunde mit Nenner).
+Debrief-Rückfluss: Register **L-11/L-12/L-13** + Sammelvermerk R6 ·
+3 CLAUDE-Schärfungen · 2 Bausteine · tagesstart zweifach ·
+projektgerüst `2c548fe` + `b8f7d9c` · **Nachzug auf Stempel `b8f7d9c`**
+(inkl. Modellwahl-Richtungsentscheid: **die Modellwahl liegt beim
+USER**, Kontingent ist Information statt Zuschnitt-Kriterium) ·
+Kopie-Drift 11/11 SYNCHRON · Vier-Stellen-Sync + R4-Rotation
+(`5c8df04`). Gegenprobe-Subagent: entfällt regelkonform (EINE
+Arbeits-Session) — der Verifikations-Subagent lief stattdessen auf den
+R05-A-Befundbestand. Offen an den User: **R7 = Nacharbeit der 24
+Befunde** · Shortlist-Handgriffe · StB/BAFA Mo · Statuszeilen
+R3-A/B/D + R04-A + R05-A + R06-A · `/cost`-Ablesung R06-A vor dem
+Schließen des Fensters.

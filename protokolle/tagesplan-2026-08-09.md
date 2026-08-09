@@ -99,9 +99,20 @@ Zitat ↔ Gesendet-/Empfangen-Original.
 
 ## Wochen-Kontingent
 
-Stand laut User-Ablesung: **noch nicht durchgegeben** (Briefing 09.08.:
-„frisch" zu Tagesbeginn; MKT-Block läuft nach zwei anderen Blöcken —
-vor Runden-Start erfragen).
+Stand laut User-Ablesung (`/usage`-Screenshot, 09.08. ~12:46):
+- **Woche gesamt (alle Modelle): 29 % verbraucht** · Reset Fr 14.08.,
+  06:59 (Europe/Berlin).
+- **Woche Fable: 41 % verbraucht** · Reset ebenfalls Fr 14.08., 06:59.
+- Laufende Session: 17 % (Reset 16:39 — Session-, nicht Wochenwert).
+- Aktionshinweis der Anzeige: **+50 % Wochenlimit-Promo bis 19.08.**
+- Treiber laut Anzeige (unabhängige Merkmale, keine Aufschlüsselung):
+  83 % der Nutzung bei >150k Kontext, 72 % aus subagent-lastigen
+  Sessions.
+
+Einschätzung Leitsession: Bei 41 % Fable-Verbrauch und Reset am
+Freitagmorgen ist der heutige MKT-Block (1 Arbeits-Session + Review +
+Debrief) unkritisch; kein Grund, R1 zu stauchen. Die Anzeige misst nur
+DIESE Maschine — Verbräuche anderer Geräte/claude.ai kämen obendrauf.
 
 ## Übergabe-Block (bei Leitsession-Neustart füllen)
 

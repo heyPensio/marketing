@@ -125,6 +125,13 @@ Leitsession-Neustart um ~17:30 (§ 2).
 
 ### Block 1 — 13:15 bis ~17:30 · **SCHARF**
 
+> **Start vollzogen: 13:28 MESZ** — alle fünf Arbeits-Sessions (R07-A bis
+> R07-E) laufen (User-Meldung). **Modellwahl: vom User noch nicht
+> mitgeteilt** — die Modell-Spalte der Strang-Tabelle bleibt offen, bis
+> die Zuordnung vorliegt; sie wird nachgetragen, nicht geraten
+> (CLAUDE.md Regel 7). Belastbar ist ohnehin nur die Statuszeile der
+> jeweiligen Session, nicht deren Selbstauskunft.
+
 Runde 7 mit fünf parallelen Arbeits-Sessions (§ 5). Leitsession:
 Prompts ausgeben, Rückläufe entgegennehmen, Review in **beiden**
 Richtungen (Regel 8) — bei den Sessions mit Prüfer ist Prüfgegenstand

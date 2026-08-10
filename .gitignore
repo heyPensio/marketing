@@ -3,6 +3,10 @@
 # (CLAUDE.md, Abschnitt "Sensibel-Ablage").
 sensibel/
 
+# Codex-Werkzeug-Cache (Firmen-Entscheid 10.08.2026,
+# zentrale\rollen-charta.md Abschnitt "Codex")
+.codex/
+
 # Betriebssystem-Artefakte
 Thumbs.db
 .DS_Store

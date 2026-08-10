@@ -734,7 +734,7 @@ byte-nachgeprüft — als Hypothesen behandeln:
 | **ILOCA** | auf der geprüften Seite nicht angegeben, .de | PMS + Online-Check-in, optionales Terminal mit RFID, Meldeschein „automatisch an die Meldebehörde übermittelt" | Zielgruppen-Aufzählung reicht von „Ketten" bis „Campingplätze" — **das ist keine Zielgruppen-Aussage, sondern deren Abwesenheit** |
 | **AVS GmbH** | Bayreuth, DE | „SelfCheck-in" als Erweiterung zum Meldeschein, Schnittstelle Landesamt für Statistik | kein Kiosk-Wettbewerber, aber ein **etablierter Platzhirsch im Meldeschein-Thema** mit Behördendraht |
 | **Canary Technologies** | New York, US | Contactless Check-in, Kiosk-Software; Claim „20,000+ hotels" | einziger Fund mit **institutionellem deutschen Verbandszugang** (Preferred Partner des Hotelverbands Deutschland IHA — DRITT, nur Snippet-Ebene) |
-| **42 GmbH** | Hannover, DE | IT-Komplettbetreuung für Hotels: „Von der Einführung bis zum laufenden Betrieb", „24/7 Support direkt aus Hannover", Hardware & Hosting als Service | **Gegenbeispiel zur USP-Säule Betreibermodell** (§ 5.2) |
+| **42 GmbH** | Hannover, DE | IT-Komplettbetreuung für Hotels: „Von der Einführung bis zum laufenden Betrieb **begleiten wir Sie zuverlässig und persönlich**", „24/7 Support direkt aus Hannover", Hardware & Hosting als Service | **Gegenbeispiel zur USP-Säule Betreibermodell** (§ 5.2). ➡️ **Der Hypothesen-Vermerk der Tabellen-Einleitung gilt für diese Zeile NICHT mehr** *(nachgetragen R7, Prüferbefund R05-A W-14)*: **B5.3 und B8.1/B8.5 haben die 42 GmbH im Rohtext gelesen** (`a6/42gmbh-beratung.*`, `a3/42gmbh-*`) und erheblich erweitert — Partnerliste, straiv-Bindung, Firmierung und HRB. Belegstufe damit **ROH/SELBST**, nicht WebFetch. *(Das Zitat ist in R7 zugleich korrigiert: Der Erstfassung fehlte „wir".)* |
 | **HOSBooking** (snowoffice) | AT (nur über Domain/Adresse) | PMS mit Self-Check-in-Kiosk, „indoor und outdoor" | Primärquelle lieferte 404 — **Einschätzung nicht belastbar** |
 
 Nur als Verzeichnis-Nennung gefunden, **keine Primärquelle geprüft,
@@ -960,6 +960,16 @@ Der verbleibende Unterschied ist **struktureller Art, nicht
 umfänglicher**: Sie bringen ein proprietäres PMS mit, wir führen das Haus
 auf ein offenes, marktgängiges System. Das ist ein starkes Argument —
 aber ein **anderes** als „aus einer Hand".
+
+➡️ **Vorwärtsverweis (nachgetragen R7, Prüferbefund R05-A W-14):** Der
+Vorbehalt „**im untersuchten Feld**" rettet den Eingangssatz formal —
+und genau deshalb gehört hierher der Hinweis, dass **das Feld inzwischen
+größer ist**. B8.1 (R05-A) zeigt drei Anbieter, die das Bündel ebenfalls
+verkaufen: **SUM Hospitality** („All the services you need. Through a
+provider.", mit veröffentlichter Vier-Stufen-Preisliste), **work@hotel**
+(„360-Grad IT-Service") und **z1Digital**, das wörtlich „**aus einer
+Hand**" wirbt (B8.5). Wer nur diesen Abschnitt liest, hält den Abstand
+für größer, als Teil B ihn ausweist.
 
 ### 5.2 Säule 2 „Betreuter Betrieb statt Selbstbau-Software" — angeschlagen
 
@@ -1278,7 +1288,7 @@ Misstrauen gegen die Quelle.
 | P5 | **book your key: BMG-Konformität der Meldescheinaufnahme am Automaten** — beworben wird nur „nimmt … mit auf" | Anbieterseiten vollständig, ggf. Produktdoku | mittel — dünnster verbleibender Trennstrich |
 | P6 | **Jack-In (AT) und Key & Card („Checkin24-7", mit Apaleo-Anbindung!)** als Primärquellen prüfen | Browser-Kanal | **hoch** — beides Bauplan-gleiche Wettbewerber |
 | P7 | **Voice-am-Gerät: Messeraum nachziehen** (ITB 2026, Internorga 2026, HITEC, Independent Hotel Show) — in dieser Runde nicht gemessen | Fachmedien + Messe-Nachberichte | mittel — betrifft USP-Säule 3 |
-| P8 | **PMS-Marktplätze außer Apaleo vollständig** (protel/planet, Oracle OPERA Cloud, ibelsa, Casablanca) — hier nur SIHOT und Mews angeschnitten | Browser-Kanal | mittel — Segment größere Häuser |
+| P8 | **PMS-Marktplätze außer Apaleo** — ⚠️ **TEILWEISE BEANTWORTET (R05-A) → B8.4/B8.6** *(zurückgeschnitten R7, Prüferbefund R05-A W-14; der Punkt stand unverändert offen, obwohl Teil B ihn zur Hälfte erledigt hatte)*. **Erhoben:** Mews (15 Beraterpartner), Casablanca (Rubrik „andere Partner", 18 Einträge), SIHOT (nur Bewerbungsstrecke für Technologiepartner), ibelsa (nur zugangsgeschützter Partner-Login). **Offener Rest:** Oracle-Partner-Finder und protel/planet-Partnerverzeichnis — beide **reine SPA**, im Rohtext nicht auswertbar (in B8.6 als nicht auswertbarer Kanal protokolliert, **kein Negativbefund**) | Browser-Kanal (nur noch für Oracle und protel/planet) | mittel — Segment größere Häuser |
 | ~~P9~~ | ~~**IHA-Preferred-Partner-Liste vollständig**~~ ✅ **ERLEDIGT 09.08.2026 (R05-A) → B9.3.** Alle **47** Preferred Partner namentlich erhoben, zweikanalig gegengeprüft (Namens-Dropdown **und** 47 Detailseiten-Slugs); Canary Technologies bestätigt. ⚠️ Offen bleibt allein die **Kategoriezuordnung** (nur über einen POST-Filter abrufbar, nicht ausgelöst). | — | — |
 | P10 | **BE-A-Preismetrik klären** (30 €/Zi/M unplausibel) | Anbieterseite be-a.ai | niedrig |
 | P11 | **Straiv-Kiosk-Preise** (Juli offen, heute weiter ohne öffentliche Angabe; Straiv bietet „Finanzierungsmöglichkeiten") | ggf. über den kiosk.eu-Faden | niedrig |
@@ -1412,6 +1422,19 @@ mit Zuschnitt kleine/mittlere Privathotellerie im DACH-Raum:
    (JS), Preisangaben, die per JavaScript nachgeladen werden.
 7. **Sprachfassungen:** Bei Brandnamic wurde nur die **deutsche** Fassung
    gelesen (IT/EN existieren); bei Smart Host DE und EN.
+8. **⚠️ Namentlich im eigenen Text zitierte, aber nicht eingestufte
+   Anbieter — Nachtragsliste** *(angelegt R7, Prüferbefund R05-A K-4,
+   HINWEIS-Teil)*:
+   - **ADDITIVE** — erscheint in B4.2 im Zitat der
+     anfang.team-Empfehlungsliste („CRM (Smart Host, **Additive**)") und
+     ist im DACH-Raum ein großer Anbieter für
+     Hotel-Marketing-Automation. Er taucht **in keiner Erhebung und in
+     keiner Ausschlussliste** auf. Ein im eigenen Text namentlich
+     zitierter Wettbewerber ohne Einstufung ist eine sichtbare Kante —
+     deshalb steht er jetzt hier. **Nicht erhoben, nicht eingestuft**;
+     Nachtrag als Prüfpunkt **P22**.
+   Diese Liste ist **bewusst offen**: Wer künftig einen Anbieter im Text
+   namentlich zitiert, ohne ihn einzustufen, trägt ihn hier nach.
 
 **Alterung:** Alle Negative in Teil B sind **kanal- und
 zeitpunktgebunden** (09.08.2026). Sie sagen „im geprüften Suchraum nicht
@@ -1596,7 +1619,13 @@ W1 noch W2 noch K.
 getrennt markiert). Leseweg durchgehend **ROH**: Rohtext per
 `curl.exe -sL --compressed` geladen, deterministisch entmarkupt und
 gelesen; **kein WebFetch-Zusammenfasser ist Quelle einer Zahl oder eines
-Zitats**. Quellenart durchgehend **SELBST** — alle Leistungs-,
+Zitats — laut Bericht des Recherche-Agenten** *(Belegvermerk ergänzt R7,
+Prüferbefund R05-A H-6: Der Satz ist eine **Selbstauskunft des
+Agenten** über sein eigenes Vorgehen und stand als Fakt da. Nach L-04
+gilt die Prüffrage „Welchen Vermerk trüge diese Quelle, wäre sie ein
+Fremder?" auch für die eigenen Zulieferer. Vorbildlich gelöst ist es in
+B8.4, wo ein WebFetch-Hinweis ausdrücklich nur „Hypothesen-Rang"
+bekommt.)*. Quellenart durchgehend **SELBST** — alle Leistungs-,
 Zielgruppen- und Preisangaben sind Anbieter-Selbstauskünfte. **Kein
 Eintrag ist durch Register, Redaktion oder Bewertungsplattform
 gegengeprüft.**
@@ -1623,10 +1652,10 @@ Eigenschaft der Suchbegriffe, **kein Marktbefund** (L-B6).
 | **Hotelmarketing Agentur M&P** | München (DE) | nicht belegt | Website (WordPress), Social, E-Mail | **W1** |
 | **JMC Hotelmarketing** (J. Uherek) | Saarbrücken (DE) | nicht eindeutig | SEO, Ads, Social, Content, „Revenue Strategien" | **W1** |
 | **maxonline® Marketing hfw GesmbH** | Leiben (AT) | GesmbH, FN 659087 x | SEO/GEO, **Websiteerstellung**, Paid Ads | **W1** *(korrigiert, R05-A-Prüferbefund: „Websiteerstellung" steht in der eigenen Leistungszeile — L-B1 ordnet Website-Bau dem real erbrachten Bestand zu; die W2-Vergabe verstieß gegen die eigene Linie)* |
-| **Die Hotelberater GmbH** | Innsbruck (AT) | GmbH | Distribution & Revenue, Social, Performance, „KI & Datensupport" | **W1** (Zielgruppe unerhoben, s. u.) |
+| **Die Hotelberater GmbH** | Innsbruck (AT) | GmbH | Distribution & Revenue, Social, Performance, „KI & Datensupport" | **W1 — ⚠️ VORLÄUFIG** *(korrigiert R7, R05-A W-2: Das nach L-B2 maßgebliche Zielgruppen-Kriterium ist der **Wortlaut der Anbieterseite** — und der ist hier **unerhoben**, die Über-uns-Seite antwortete 404. Am Rohabzug `a1/dhb_start.txt` selbst nachgeprüft: keine Zielgruppen-Selbstbeschreibung, Positivkontrolle „Hotel" 11 Treffer ✔; `a1/dhb_ueber.txt` trägt „Page not found". Die Einstufung ruht damit allein auf dem Leistungsschnitt. **Nachtrag bei erreichbarer Über-uns-Seite** — Prüfpunkt.)* |
 | **Plaschke Internet Consulting** | Meran (IT) | nicht belegt | Ads, SEO/GEO, Newsletter, Coaching/Beratung | **W2** |
 | **99tales GmbH** (→ Rebrand „Advertos") | Brixen (IT) | GmbH | Content, Social, Ads, Landingpages; eigene Reporting-Software | **W2** |
-| **TC Hotel Marketing** (T. Christierson) | Ottweiler (DE) | Einzelunternehmen | Hotelvertrieb, MICE-Sales, Hotelanalyse | **—** (kein Portfolio-Schnitt) |
+| **TC Hotel Marketing** (T. Christierson) | Ottweiler (DE) | Einzelunternehmen | Hotelvertrieb, MICE-Sales, **Hotel Online-Marketing**, Ist-Analyse Hotel/Hotelvertrieb | **W1 (Teilleistung)** *(heraufgestuft R7 von „— kein Portfolio-Schnitt", R05-A W-2 — Begründung unten)* |
 
 **Warum so viele W1:** Die Vergabelinie L-B1 ordnet **Website-Bau und
 -Betrieb** unserem real erbrachten Bestand zu (Pilot-Übernahme beider
@@ -1634,6 +1663,34 @@ Häuser, belegt in `protokolle/R05-A-fundstellen.md` N-3/N-4). Wer
 Hotel-Websites baut, ist damit Leistungs-Wettbewerber — auch wenn er
 sonst nur Kampagnen macht. **W2 bekommt nur, wer sich auf laufendes
 Kampagnen-/Sichtbarkeitsmarketing beschränkt.**
+
+**⭐ Vergabelinie L-B1b — neu ausformuliert in R7** (Anlass: Prüferbefund
+R05-A W-2; die Linie wurde vorher an **drei** Anbietern implizit
+angewandt und driftete dabei auseinander):
+> **Vertriebs-/Distributionsleistung und betriebliche Ist-Analyse
+> begründen W1 als Teilleistung** — auch ohne Website-Bau.
+Sie war bereits tragend, ohne benannt zu sein: **Hoffmann Hotel Consult**
+erhält in B5.1 W1 u. a. für „Ist-Analyse aller Abteilungen,
+Direktbuchungs-/Vertriebsoptimierung", **DIRS21** in B7.2 W1
+(Teilleistung) für „Buchungsstrecke/Website-Distribution". **TC Hotel
+Marketing** bekam bei derselben Sachlage „—". Am Rohabzug
+`a1/tc_start.txt` selbst nachgeprüft (Positivkontrolle „Hotel"
+50 Treffer ✔): „Hotelberatung und Hotelvertrieb **für Privathotels**" ·
+„**Hotel Online-Marketing**" · „**Ist-Analyse Hotel**" · „Optimierung
+Ihres Hotelvertriebs und **Online-Marketings**" · „Ich analysiere die
+Ist-Situation, entwickle mit Ihnen die passende Vertriebsstrategie".
+Nach L-B1b ist das **W1 (Teilleistung)**; nach der W2-Definition oben
+wäre es mindestens W2. „Kein Portfolio-Schnitt" war in keiner Lesart
+haltbar.
+⚠️ **Bestand rückwirkend geprüft** (CLAUDE.md: ein geändertes Kriterium
+gilt für alle Kandidaten — wer wurde NUR daran aussortiert?): TC war in
+B4.1 der **einzige** Eintrag mit „—". Kein weiterer Anbieter dieses
+Strangs wurde an diesem Kriterium aussortiert; die übrigen Einstufungen
+bleiben unberührt.
+⚠️ **Und die Zielgruppe verschärft es:** TC adressiert wörtlich
+„Privathotels" bzw. „privat geführtes Hotel" — **genau unsere Persona**.
+Der Anbieter war als einziger des Strangs gar nicht eingestuft und
+gehört damit zu den zielgruppengenauesten Treffern in B4.
 
 ### B4.2 Die drei Anbieter, die uns wirklich betreffen
 
@@ -1761,10 +1818,21 @@ derselbe Betrags-Regex fand im selben Lauf 100.000,00 € im Impressum und
 
 **Partnerprogramm — die Kanalfrage ist strukturell mit Ja zu beantworten,
 praktisch mit einem Konflikt.** Formalisiertes Programm mit öffentlicher
-Liste (~70 Partner in sechs Kategorien: 25 PMS-Schnittstellen inkl.
-Oracle/Mews/protel/Shiji/SIHOT, 13 CM & Booking Engines, 18
-Zahlungsanbieter, POS, weitere Schnittstellen, Branchen-/institutionelle
-Partner) und offenem Weg „**Partner werden**".
+Liste — **78 eindeutige Partner / 76 Domains in SIEBEN Kategorien**
+(PMS 25 inkl. Oracle/Mews/protel/Shiji/SIHOT · CM & Booking Engine 13 ·
+Zahlungsanbieter 18 · POS 2 · Weitere Schnittstellenpartner 12 ·
+**Branchenpartner 6** · **Institutionelle Partner 2**) — und offenem Weg
+„**Partner werden**".
+*(⚠️ Korrigiert R7, Prüferbefund R05-A **H-1**: Hier stand bis zuletzt
+der Originalsatz „~70 Partner in sechs Kategorien", obwohl die
+Sachkorrektur seit R06-A zwei Absätze weiter unten und in B10.1 steht —
+der Leser kommt aber **hier** an. „Branchenpartner" und „Institutionelle
+Partner" sind in der Quelle **getrennte** Rubriken und waren im alten
+Satz still verschmolzen. Zählweg: 78 eindeutige `data-gtm-label` in
+`a2/raw_partner.html`, sieben Rubriken in `a2/txt_partner.txt`.
+**Fallgeschichte zu L-11:** Derselbe Befund wurde in R5 gemeldet, in R5
+nicht eingearbeitet und in R6 unabhängig als KRITISCH neu entdeckt —
+ein zweites Mal bezahlt.)*
 ⚠️ **Für uns entscheidend:** Unter den Partnern stehen **straiv**,
 flexipass, hoteldoor und iiq check — Namen, die genau auf Check-in,
 digitalen Schlüssel, Türzugang und Identitätsprüfung deuten. **Belegt ist
@@ -1794,7 +1862,7 @@ falsch wäre:**
 | Achse | Einstufung | Begründung |
 |---|---|---|
 | Beratungs-/Agentursegment | **W1 — hoch** | Website-Bau **und Wartung/Betreuung nach Go-live**, CI/Branding/Naming, SEO/SEA, Social, Newsletter/CRM, „Pricing-Strategie" + „Storno- & Buchungsbedingungen", Hotelcoaching inkl. Leadership/Operatives, Mystery Checks |
-| Self-Check-in-/Meldeschein-/Zutritts-Technik | **kein Wettbewerber** (belegt, Stand 09.08.2026, Vollsuchraum + Positivkontrolle) | s. o. — aber die Nachbarfelder sind besetzt |
+| Self-Check-in-/Meldeschein-/Zutritts-Technik | **kein Wettbewerber** — belegt, Stand 09.08.2026, **Vollsuchraum der DEUTSCHEN Fassung (476/476 Seiten) + Positivkontrolle; IT/EN nicht erhoben** (siehe B1 Punkt 7) | s. o. — aber die Nachbarfelder sind besetzt. ⚠️ **Geltungsgrenze in die Einstufungszeile geholt (R7, Prüferbefund R05-A W-5):** Der Vorbehalt stand nur im Methodenabsatz — zitiert wird aber **diese** Zeile, und „Vollsuchraum" trug ihn nicht mit. Bei einem **Südtiroler** Anbieter mit italienischem Kernmarkt ist die Sprachfassung kein Randdetail: Ein Meldeschein-/`alloggiati`-Produkt für den italienischen Markt stünde plausibel zuerst in der IT-Fassung — und `alloggiati`/`ISTAT`/`questura` gehörten zu den geprüften Nullmustern. **Der IT-Lauf ist damit ein Prüfpunkt, der genau dieses Nullergebnis kippen könnte** |
 | Kanal | **K — breiter als zunächst eingestuft, mit eingebautem Interessenkonflikt** | Partnerprogramm mit **78 Einträgen / 76 Domains in sieben Kategorien** belegt (nachgezählt R06-A, **B10.1** — die Erstfassung sagte „~70 Partner in sechs Kategorien"; L-B3 erfüllt). ⚠️ **Korrektur nach Prüferbefund R05-A:** „nur produktseitig" war zu eng — Brandnamic hat **zusätzlich Zugang über Hotelkooperationen** („Gemeinsam mit der … Consulting-Firma **Kohl & Partner** hat Brandnamic die Leitung und Verwaltung von zwei Kooperationsgruppen inne: **Belvita Leading Wellnesshotels Südtirol** und **Familienhotels Südtirol**"). Das ist ein Mehrfach-Zugang zu Häusern unserer Zielgruppe, unabhängig vom Technik-Partnerprogramm. Der Interessenkonflikt bleibt: dasselbe Haus verkauft unser gesamtes Beratungssegment selbst |
 
 **Der unbequeme Kern dieser Einstufung:** Was bei uns als „**im Aufbau**"
@@ -2272,26 +2340,77 @@ Revenue-Achse → **W1**. Reine Software ohne Betreuung → **W2**.
 
 **Belegte Feldbefunde:**
 
-1. **Der Einstiegskorridor für ausgelagertes Revenue Management liegt bei
-   rund 880–1.500 pro Monat** (RevenueRise „ab 879 EUR/CHF",
-   COM.CIERGE „ab CHF 990" Sparring bzw. „ab CHF 1'490" Economy);
-   Voll-Outsourcing bis „ab CHF 2'990". ⚠️ **Nur COM.CIERGE weist die
-   Steuerbasis aus** („Preise in CHF pro Monat **exkl. MWST** und
-   initialen Kosten für Analyse") — vor jedem Vergleich normalisieren,
-   sonst vergleicht man netto gegen unbekannt.
+1. **Laufende Monatspauschalen liegen bei rund 880–1.500 pro Monat;
+   Einmalkosten und Bindungen kommen je Anbieter gesondert hinzu**
+   (RevenueRise „ab 879 EUR/CHF", COM.CIERGE „ab CHF 990" Sparring bzw.
+   „ab CHF 1'490" Economy); Voll-Outsourcing bis „ab CHF 2'990".
+   ⚠️ **Einmalkosten und Bindung — nachgetragen R7, Prüferbefund
+   R05-A W-8:** RevenueRise nennt im selben Absatz „Monatspauschalen ab
+   EUR / CHF 879 **plus einmalige Setup-Gebühr von EUR / CHF 1.000**"
+   und an zweiter Stelle „**Mindestlaufzeit 3 Monate**"
+   (`a4/rrise_rm.txt` Z. 11 und 71). Beides fehlte. Bei COM.CIERGE ist
+   der analoge Zusatz („und initialen Kosten für Analyse") über das
+   MWST-Zitat immerhin mittransportiert.
+   ⚠️ **Und der Begriff „Einstiegskorridor" ist gestrichen:** Ein
+   Korridor, der als Preisorientierung nach MKT-HANDEL wandert, ist ohne
+   Einmalkosten und Bindung unvollständig — die Mindestrechnung für den
+   Einstieg bei RevenueRise lautet **879 × 3 + 1.000 = 3.637 EUR/CHF**,
+   nicht 879.
+   ⚠️ **Nur COM.CIERGE weist die Steuerbasis aus** („Preise in CHF pro
+   Monat **exkl. MWST** und initialen Kosten für Analyse") — vor jedem
+   Vergleich normalisieren, sonst vergleicht man netto gegen unbekannt.
 2. **Preistransparenz ist hier deutlich höher als bei Agenturen und
    Beratern:** 4 von 12 nennen bezifferte laufende Honorare. **Beide voll
    transparenten Outsourcing-Anbieter sitzen in der Schweiz.**
+   ⚠️ **Gegenbeleg zum eigenen Steuerbasis-Feldbefund** *(nachgetragen
+   R7, Prüferbefund R05-A H-8)*: **Spalteholz Hotelkompetenz**
+   veröffentlicht Preise **mit** Steuerbasis — vier Seminarzeilen, und
+   sie sind nicht gleichlautend: „Preis: von **792 € bis 990 € zzgl.
+   19% MwSt.**" (2×), „von **842 € bis 990 € zzgl. MwSt.**", „von
+   792 € bis 990 € zzgl. MwSt." (`a4/spa_home.txt` Z. 202/206/210/214).
+   **Als laufendes Honorar zählt das zu Recht nicht** — es sind
+   Seminarpreise, keine Retainer, und die 4-von-12-Zahl bleibt
+   unverändert. Erwähnenswert ist es, weil das Papier den Mangel an
+   Steuerbasis-Angaben gerade als Feldbefund führt und dies einer der
+   wenigen Gegenbelege ist.
 3. **⭐ Das gesamte Feld argumentiert gegen dieselbe Alternative — die
-   interne Stelle.** HotelPartner: „Mit **Jahreskosten ab 60.000 €** …
-   ist das eine erhebliche Investition für privat geführte Hotels";
-   RevenueRise: „Eigener Revenue Manager: **EUR/CHF 4.500–8.000**"
-   monatlich bzw. „**90.000–130.000 pro Jahr**". ⚠️ **Das sind
-   Anbieter-Selbstauskünfte über eine Vergleichsgröße, keine erhobenen
-   Marktdaten — und sie weichen um mehr als das Doppelte voneinander ab.**
-   Als Argumentationsmuster ist das trotzdem relevant: **Es ist exakt
-   unser eigenes Betreibermodell-Argument** („betreuter Betrieb statt
-   eigenes Personal"), nur auf die Revenue-Achse angewendet.
+   interne Stelle.** Beide Zitate jetzt **mit ihrem Scope-Zusatz**
+   *(zurückgeholt R7, Prüferbefund R05-A W-7 — die Auslassungspunkte der
+   Erstfassung entfernten genau den Zusatz, der die Zahlen vergleichbar
+   gemacht hätte)*:
+   - **HotelPartner** (`a4/hp_privat.txt` Z. 74): „Mit **Jahreskosten ab
+     60.000 € – zuzüglich Benefits, Schulungen und Systemlizenzen** –
+     ist das eine erhebliche Investition für privat geführte Hotels."
+   - **RevenueRise** (`a4/rrise_rm.txt` Z. 11): „kostet eine interne
+     Revenue-Manager-Stelle **inklusive Lohnnebenkosten und Tools**
+     EUR / CHF **90.000–130.000 pro Jahr**."
+
+   ⚠️ **Der frühere Satz „sie weichen um mehr als das Doppelte
+   voneinander ab" ist gestrichen — er verglich nicht scope-gleiche
+   Zahlen:** eine **Untergrenze ohne Nebenkosten** (60.000 €) gegen eine
+   **Spanne inklusive Nebenkosten und Tools** (90.000–130.000). Der
+   „Widerspruch" war zu einem erheblichen Teil ein **Scope-Artefakt** —
+   genau das, wovor Teil A selbst warnt („Eine Zahl trägt den Scope ihrer
+   ZEILE"). **Belastbar ist: kein scope-gleicher Vergleich möglich,
+   deshalb kein bezifferbarer Abstand.**
+   ⚠️ **Zusätzlich, und in der Erstfassung nicht bemerkt: RevenueRise
+   widerspricht sich selbst.** Die Vergleichstabelle „Inhouse vs.
+   RevenueRise" (`a4/rrise_preise.txt`) führt in der Zeile **„Kosten
+   monatlich"** unter der Spalte **„Eigener Revenue Manager"** den Wert
+   **EUR / CHF 4.500–8.000** (Zeilen 89–94; Zuordnung an der
+   Tabellenstruktur Kriterium ↔ Spalte gebunden, nicht an der
+   Prosareihenfolge). Hochgerechnet sind das **54.000–96.000 pro Jahr** —
+   nicht die 90.000–130.000, die derselbe Anbieter im FAQ nennt. Die
+   Tabelle nennt zu ihrer Monatszahl **keinen Scope**, eine
+   Normalisierung ist daher nicht möglich. Das **schwächt die
+   Belastbarkeit beider RevenueRise-Zahlen**. Die Erstfassung stellte
+   sie mit „bzw." nebeneinander, als wären sie dieselbe Aussage.
+
+   ⚠️ **Das sind Anbieter-Selbstauskünfte über eine Vergleichsgröße,
+   keine erhobenen Marktdaten.** Als Argumentationsmuster ist es
+   trotzdem relevant: **Es ist exakt unser eigenes
+   Betreibermodell-Argument** („betreuter Betrieb statt eigenes
+   Personal"), nur auf die Revenue-Achse angewendet.
 4. **Software-Anbieter verkaufen zunehmend Personen mit** (RoomPriceGenie
    „Expertenpartnerschaft … dedizierter Revenue Manager"; Smart Host
    „persönlicher Betreuer … inklusive"; TourSol „Während andere **Tools
@@ -2842,14 +2961,52 @@ mit der Startseite. Belastbar ist nur die Domain `dehoga.de`.
 
 **Kanalwert hoch und ungewöhnlich konkret:**
 - ⭐ **Designkontor Schleswig-Holstein — öffentliche Anbieterliste mit
-  offener Selbstaufnahme** (~159 Einträge, Zielgruppe Beherbergung).
-  Wörtlich: „**In diesem Sinne kann sich jedes in Frage kommende
-  Unternehmen in die Liste aufnehmen lassen.**" Der beworbene
-  „**Beratungsdreiklang**" umfasst ausdrücklich „Einrichtungs-,
-  **Marketing-** und betriebswirtschaftliche Überlegungen"; die
-  Einstiegsberatung kostet „**250,- Euro zuzüglich gesetzlicher
-  Mehrwertsteuer**". Bereits gelistet sind Marketing-Wettbewerber
-  (u. a. „Easy Online-Marketing für Fewos", „Klute Kommunikation").
+  offener Selbstaufnahme** (**161 Datenzeilen**, Zielgruppe
+  Beherbergung).
+  **Zählweg** *(nachgetragen R7, Prüferbefund R05-A H-5 — die
+  Erstfassung sagte „~159" ohne jeden Zählweg)*: Strukturmerkmal
+  `<tr>`-Elemente mit `<td>` in `a5/ihk/sh-anbieterliste.html` = **161**,
+  dazu **1** reine Kopfzeile (nur `<th>`), eine Tabelle insgesamt.
+  Positivkontrolle **an der Extraktion selbst**, nicht an der
+  Erreichbarkeit der Quelle: Die namentlich bekannten Einträge „Easy
+  Online-Marketing" und „Klute" erscheinen **in den extrahierten
+  Datenzeilen** ✔. ⚠️ **Nicht gemessen** ist, ob jede Datenzeile genau
+  einen Anbieter trägt — die Zahl ist eine **Zeilen**-, keine
+  Anbieterzählung. Und die Quelle sagt selbst: „**Die Liste erhebt
+  keinen Anspruch auf Vollständigkeit.**"
+  Wörtlich zur Selbstaufnahme: „**In diesem Sinne kann sich jedes in
+  Frage kommende Unternehmen in die Liste aufnehmen lassen.**"
+  ⚠️ **Wer „in Frage kommt", definiert der Satz davor** — und er wurde
+  bisher weggelassen *(ergänzt R7, R05-A W-10)*: Die Liste führt
+  „Kontaktdaten von **Designern, Inneneinrichtern, Einrichtungshäusern,
+  Architekten, Handwerkern und anderen Dienstleistern**, die Ihnen dabei
+  behilflich sein können, **die Wohlfühlatmosphäre** in
+  Beherbergungsbetrieben zu verbessern." Dass ein Digitalisierungs-/
+  Marketinganbieter darunter fällt, ist damit eine **Annahme mit
+  Stützbeleg**, keine Feststellung: Gestützt wird sie durch zwei
+  gelistete Marketing-Anbieter („Easy Online-Marketing für Fewos",
+  „Klute Kommunikation", beide in `a5/ihk/sh-anbieterliste.txt`
+  bestätigt) — **ob die Aufnahme für unser Leistungsbild akzeptiert
+  wird, ist beim Designkontor zu erfragen.**
+  ⚠️ **Die 250 € gehören NICHT zum Beratungsdreiklang** *(korrigiert R7,
+  R05-A W-10 — die Erstfassung stellte beides nebeneinander, sodass
+  250 € eine Beratung inklusive Marketing-Konzept zu kaufen schienen)*.
+  Es sind **zwei verschiedene Dinge in zwei verschiedenen Absätzen** der
+  Quelle:
+  - **Die Einstiegsberatung (mit Preis)** ist eine **Architekten-/
+    Innenarchitekten-Leistung**: „**Schleswig-holsteinische Architekten/
+    Innenarchitekten** führen eine professionelle Vor-Ort-Beratung im
+    Beherbergungsbetrieb durch. Diese Leistung wird zu einem sehr
+    günstigen Preis (**250,- Euro zuzüglich gesetzlicher
+    Mehrwertsteuer und gegebenenfalls Fahrtkosten**) im Rahmen einer
+    **Mustervereinbarung** angeboten." (`sh-designkontor-liste.txt`
+    Z. 34) — die **Fahrtkosten** fehlten bisher.
+  - **Der „Beratungsdreiklang" ist eine Empfehlung an den Hotelier**,
+    kein Produkt mit Preis: „empfehlen wir, einen ‚Beratungsdreiklang'
+    einzusetzen, also auf einem ausführlichen dreiteiligen Konzept aus
+    **Einrichtungs-, Marketing- und betriebswirtschaftlichen
+    Überlegungen** aufzubauen." (ebd. Z. 39). Die Quelle verweist dafür
+    auf Berater „**zu marktüblichen Preisen**".
   ⚠️ **Für MKT-HANDEL und die UWG-§-7-Matrix zwingend:** Die Liste trägt
   den Vorbehalt „**Die Daten dürfen nicht zu Werbezwecken genutzt
   werden**" — sie taugt als **Eintragskanal für uns**, nicht als
@@ -2863,13 +3020,33 @@ mit der Startseite. Belastbar ist nur die Domain `dehoga.de`.
   wirbt im Präsens — **ob es 2026 noch berät, ist nicht entscheidbar**,
   und das ist ein eigenes Ergebnis, kein „läuft nicht mehr").
 
-**Der eine echte Wettbewerber: „MEET THE EXPERTS"** der IHK
-Schleswig-Holstein — „Im Rahmen von individuellen Einzelberatungen haben
-Sie die Chance **kostenfrei** mit IT-Experten in den Dialog zu treten …
-**in der Regel jeden Dienstag**", Taktung: 2. Dienstag **Online
+**„MEET THE EXPERTS" — Wettbewerber UND Kanal (Einstufung: W1 + K)**
+*(Kanal-Hälfte nachgetragen R7, Prüferbefund R05-A W-11)*. Angebot der
+IHK Schleswig-Holstein — „Im Rahmen von individuellen Einzelberatungen
+haben Sie die Chance **kostenfrei** mit IT-Experten in den Dialog zu
+treten … **in der Regel jeden Dienstag**", Taktung: 2. Dienstag **Online
 Marketing**, dazu Social Media, KI, IT-Sicherheit. Das ist Erstberatung
 ohne Umsetzung — **es senkt aber die Zahlungsbereitschaft für ein reines
 Audit-Angebot spürbar.**
+⭐ **Die operativ interessantere Hälfte stand bisher nicht im Papier:**
+Die Quelle schließt mit dem Satz „**Die Beratung erfolgt kostenfrei
+durch Mitglieder des Arbeitskreises ITK und Digitalisierung der IHK zu
+Lübeck.**" (`a5/ihk/sh-meet-experts.txt` Z. 34; das Format wird
+eingangs geführt als „Beratungsangebot MEET THE EXPERTS **des
+Arbeitskreises ITK & Digitalisierung**", Z. 27). Damit ist es kein
+reines Wettbewerbsangebot, sondern eine **Mitwirkungsstruktur mit
+Mitgliederkanal** — exakt der Fall, für den die eigene Vergabelinie
+**L-B3** („Partnerprogramm, öffentliches Verzeichnis,
+**Mitgliederkanal**, Store/Ökosystem") **K** vorsieht. **Wer im
+Arbeitskreis mitwirkt, sitzt auf der Beraterseite dieses Formats.**
+Nebenbei präzisiert die Quelle den Träger: **IHK zu Lübeck** innerhalb
+des SH-Auftritts (Impressum der Seite: Arbeitsgemeinschaft der IHKs zu
+Flensburg, zu Kiel und zu Lübeck).
+➡️ **Neuer Prüfpunkt P23: Aufnahmebedingungen des Arbeitskreises ITK und
+Digitalisierung der IHK zu Lübeck.**
+*(Warum das liegen blieb: „Arbeitskreis" und „Lübeck" hatten im ganzen
+Dokument bis R7 **null** Treffer — der Trägersatz war nie zitiert
+worden.)*
 
 **Die Kammern sagen selbst, dass es keine Beraterdatenbank gibt:**
 „**Ein strukturiertes bundesweites Angebot fehlt zur Zeit**"
@@ -3493,3 +3670,66 @@ Zahlungsbereitschaft, kein Preisschild. Auswertung gehört **MKT-HANDEL**.
   Portfolio? (b) Ist **Bewertungsmanagement** weiterhin nur
   „im Aufbau" — bei zwei belegten Anbietern in unmittelbarer
   Nachbarschaft?
+
+---
+
+## B12. Beleg-Anhang: Fundstellen-Anker je Anbieter
+
+*(Angelegt R7 (10.08.2026) und schließt den Restposten von Prüferbefund
+**R05-A W-17**. Der Befund hatte zwei Teile: Die **Belegbasis** war in
+R06-A gesichert — die Rohabzüge lagen bis dahin nur im
+sessiongebundenen Scratchpad und wären binnen Tagen verfallen; sie
+liegen seit **P20** vollständig unter `sensibel/rohbelege-R05-A/`
+(2132 Dateien, git-ignoriert). Offen blieb der **URL-Anker je Zitat**.
+Der Prüfer hatte dafür ausdrücklich eine **Sammel-Fußnote je Abschnitt**
+als ausreichend bezeichnet — das ist diese Tabelle.)*
+
+**Warum das nötig war:** Teil A verankert vorbildlich („BYTE, SELBST,
+`straiv.io/de/tech-partner`, 09.08.2026, wörtlich:"), Teil B nannte in
+aller Regel nur den Anbieternamen. Ohne Anker ist praktisch kein Zitat
+aus Teil B nachprüfbar — und weil Teil B **weder Registerauszüge noch
+Drittquellen** kennt (B1 Punkte 4 und 5), ist die Nachprüfbarkeit der
+Selbstauskünfte die **einzige** verbliebene Kontrollebene.
+
+| Strang | Abschnitt | Rohbeleg-Ordner | HTML-Dateien | Abgerufene Domains |
+|---|---|---|---|---|
+| a1 | **B4** Marketing-Agenturen | `sensibel/rohbelege-R05-A/a1/` | 38 | 48concepts.de · 99tales-marketing.com · agentur-hotelmarketing.com · andersundseim.de · anfang.at · diehotelberater.at · e621.ch · echtzeitlos.de · etouristik.at · gassermiesch.ch · heim-hotelmarketing.ch · hotelmarketing.de · max-online.at · plaschke-consulting.com · tc-hotelmarketing.de |
+| a2 | **B4.3** Brandnamic + Brainy | `…/a2/` | 59 | brandnamic.com · brainy-rms.com |
+| a3 | **B5** Unternehmensberatung | `…/a3/` | 47 | 42-gmbh.de · anfang.at · beraterkarte.de · braeu-innovation.de · changing-hospitality.com · cordes-rieger.de · hoffmann-hotel-consult.de · hogarat.de · hotel-interim-management.com · hotel-projects.ch · hotelfritz.com · kmu-berater.de · melevo.de · my.hotelleriesuisse.ch · revenue.rocks · th-experts.com · tourismusberatung.prodinger.at · tourismusexperten.ch · unternehmer-manufaktur.com |
+| a4 | **B6** Revenue-Beratung | `…/a4/` | 65 | cbg-gmbh.com · comcierge.ch · hotellistat.com · hotelpartner.com · jf-hospitality.de · revenue.rocks · revenuerise.ch · roompricegenie.com · spalteholz.com · thehotelconsultants.com · unitels.de |
+| a5 | **B9** Verbände/Kammern/Förderung | `…/a5/` | 213 | bafa.de · dehoga.de · dehogabw.de · dehoga-sh.de · dehoga-hamburg.de · hotellerie.de · ihk.de · svv.ihk.de · handelskammer-hamburg.de · hkbis.de · ihk-bonn.de · dihk-service-gmbh.de · wtsh.de · ib-sh.de · digitalzentrum-sh.de · digitalzentrum-hamburg.de · digitalzentrum-tourismus.de · mittelstand-digital.de · foerderdatenbank.de · innovation-beratung-foerderung.de · kfw.de · kmudigital.at · oeht.at · wko.at · sgh.ch |
+| a6 | **B8** Bündel-Wettbewerb | `…/a6/` | 81 | 42-gmbh.de · 48concepts.de · agilotel.com · anfang.at · anker-alpen.de · apaleo.com · braeu-innovation.de · casablanca.at · changing-hospitality.com · consultant4it.com · ellipsys.de · hotelfritz.com · mario-vogelsteller.de · mb-gmbh.de · mews.com · opensmjle.com · praxis-projekt.de · sihot.com · smartbloqs.com · sum-hospitality.ch · th-experts.com · top.tirol · voisento.de · weareplanet.com · workathotel.de · z1digital.de · zahc.de |
+
+**Zählweg und Extraktionsmethode:** Die Domains sind **generisch** aus
+dem `<link rel="canonical">` bzw. `<meta property="og:url">` **jeder**
+archivierten HTML-Datei gelesen (nicht aus einer vorher notierten
+Anbieterliste) und auf den Host normalisiert (`www.` entfernt).
+Gesamtbestand: **503 HTML-Dateien**.
+
+⚠️ **Grenzen dieses Anhangs — nicht geglättet:**
+1. **Nicht jede Datei trägt einen Canonical-Anker.** Ohne canonical/
+   og:url sind a1 7 · a2 0 · a3 3 · a4 35 · a5 33 · a6 20 Dateien.
+   Betroffen sind vor allem Fehlerseiten (404/403) und Seiten ohne
+   SEO-Auszeichnung. Für diese Dateien ist die URL **nur** über den
+   Dateinamen und den Erhebungskontext erschließbar — das ist eine
+   **schwächere Belegstufe**, und sie ist hier ausgewiesen, statt
+   stillschweigend mitgezählt zu werden.
+2. **Das Abrufdatum ruht auf Datei-Zeitstempeln, nicht auf
+   HTTP-Headern.** Alle sechs Stränge wurden am **09.08.2026 zwischen
+   19:51 und 20:11 MESZ** abgerufen (mtime-Spanne über alle
+   HTML-Dateien). ⚠️ **HTTP-Antwortköpfe wurden nicht archiviert** — die
+   `fetch.sh`-Skripte schrieben mit `curl -o` nur den Body. Ein
+   `Date`-Header liegt nur für **einen** Abruf vor (`a5/hdr.txt`, einer
+   anderen Domain). Die Zeitangabe ist damit **plausibel und
+   konsistent, aber nicht headerbelegt**.
+3. **Der canonical einer Seite kann von der tatsächlich abgerufenen URL
+   abweichen** (301-Ziele). Belegt bei Dittlmann: abgerufen wurde
+   `changing-hospitality.com/impressum/`, der canonical lautet
+   `…/impressum-hospitality-consulting/`. Wer eine Zeile dieser Tabelle
+   als Abrufbeleg verwendet, prüft im Zweifel beides.
+4. **Die Tabelle ersetzt keinen Einzelanker.** Sie sagt, in welchem
+   Ordner und von welcher Domain ein Zitat stammt — die konkrete Datei
+   und Zeile steht seit R7 bei den zitatkritischen Stellen (B5.2, B5.3,
+   B8.3, B8.4, B8.5, B9.1, B9.2) im Text. Die übrigen Zitate tragen
+   weiterhin nur den Anbieternamen; das ist der **verbleibende Rest von
+   W-17** und als solcher hier benannt, nicht als erledigt ausgegeben.

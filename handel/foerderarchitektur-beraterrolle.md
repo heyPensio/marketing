@@ -161,10 +161,25 @@ mit genau zwei Spiegelstrichen (`BYTE`/`AMTL`, wörtlich):
 > betrieblichen Infrastrukturen und Maßnahmen zur Digitalisierung von
 > Geschäftsmodellen, Produkten und Dienstleistungen.
 
-**Präzisierung gegenüber B9.4:** B9.4 fasst den Befund als „`Marketing` 0 ·
-`Website` 0 — weder benannt noch ausgeschlossen" zusammen. Die
-Wort-Zählung ist korrekt und von dieser Session am selben Rohbeleg
-nachvollzogen. Sie unterschlägt aber, dass die Richtlinie **positiv
+**Nachmessung der B9.4-Zählung (10.08.2026, `BYTE`).** Zählweg:
+`grep -oi <muster> hh-digitalcheck-rl.txt | wc -l` — **nicht** `grep -c`,
+das Zeilen statt Treffer zählt. **Positivkontrolle je Muster, nicht je
+Lauf:**
+
+| Muster | Treffer | Rolle |
+|---|---|---|
+| `Marketing` | **0** | Negativ, bestätigt B9.4 |
+| `Website` | **0** | Negativ, bestätigt B9.4 |
+| `Werbung` | **0** | Negativ, **neu** — der SH-DKU-Ausschluss (4.3) hat hier keine Entsprechung im Richtlinientext |
+| `Tagess` | 1 | Positivkontrolle, identisch mit B9.4 ✔ |
+| `7.500` | 2 | Positivkontrolle, identisch mit B9.4 ✔ |
+| `Digitaler` | 1 | Positivkontrolle |
+| `Beratung` | 17 | Positivkontrolle |
+| `markt` | 2 | **Teilwort-Gegenprobe** — spiegelt die Suchmechanik des Nulltreffers: Teilwörter werden getroffen, der `Marketing`-Nullwert ist also echt und kein Muster-Artefakt |
+| `web` | 0 | Teilwort-Gegenprobe zu `Website` |
+
+**Präzisierung gegenüber B9.4:** Die Wort-Zählung ist damit bestätigt.
+Sie unterschlägt aber, dass die Richtlinie **positiv
 umgrenzt**, worum es geht: um die Digitalisierung von
 **Geschäftsmodellen, Produkten und Dienstleistungen** — nicht um
 Sichtbarkeit als solche. Der Unterschied entscheidet die Auslegungsfrage
@@ -505,6 +520,7 @@ Kundengespräch mit Förderbezug gilt:
 | Was | Methode / Suchraum | Ergebnis | Datum |
 |---|---|---|---|
 | „Werbung"/„Betriebskosten"/„Art. 18" im Repo | Grep-Tool über alle `*.md` im Marketing-Repo | Außerhalb von `sensibel/`-Rohbelegen 1 Treffer, sachfremd → der SH-DKU-Werbe-Ausschluss war **nicht** dokumentiert | 10.08.2026 |
+| `Marketing`/`Website`/`Werbung` in der HDC-Richtlinie | `grep -oi … \| wc -l` über den Volltext, mit Positivkontrolle **je Muster** und Teilwort-Gegenprobe | je 0; Kontrollen greifen (s. Tabelle in 3.2) → belastbares Negativ | 10.08.2026 |
 | „mind. 2.500 € Beraterkosten" im Amtsbl. 2026/190 | gezieltes Lesen der Ziffern 2.1, 4, 5.2.1, 5.3.1 im Volltext (646 Zeilen) | **nicht wiedergefunden** — ⚠️ **kein belastbares Negativ**, weil keine Volltextsuche mit Positivkontrolle gelaufen ist. Status: „nicht geprüft" | 10.08.2026 |
 | Wildcard-Redirect bei `ifbhh.de` / `wtsh.de` | Kontrollpfad `/zzz-r07d-kontrollpfad`, Größenvergleich gegen Startseite | Beide 404 mit abweichender Größe → **kein** Wildcard-Redirect | 10.08.2026 |
 | BAFA-Richtlinie, Inhalt | Rohbeleg `a5\bafa\richtlinie.txt` selbst gelesen (Ziffern 4.2.1, 5.1, 5.2, 8) | Alle B9.4-Zahlen bestätigt. Suche „3 500" traf Ziffer 5.2 (**Positivkontrolle desselben Laufs: „1 750" trifft ebenfalls, 1 Zeile** ✔) → der 3.500-€-Deckel ist **genannt**, nicht gerechnet | 10.08.2026 |

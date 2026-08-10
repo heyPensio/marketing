@@ -1794,8 +1794,31 @@ rechnen.
 ### B4.4 Feldbefunde mit Belegkraft
 
 1. **Preisintransparenz ist der Normalzustand: 15 von 16 Anbietern
-   veröffentlichen keinen Preis.** Der einzige Anker im gesamten Feld
-   sind die 1.500 €/Monat von anfang.team (Steuerbasis unbekannt).
+   veröffentlichen auf den abgerufenen Seiten keinen Preis.**
+   ⚠️ **Nenner und Kanal-Vorbehalt (nachgetragen R7, Prüferbefund
+   R05-A W-3):** Gemessen wurde je Anbieter die Start-/Leistungsseite;
+   der Nenner 16 ist die Zahl der Anbieter, **nicht** die Zahl
+   vollständig gemessener Preiskanäle. Bei **E621** war ausgerechnet die
+   Seite „Leistungspakete" — der wahrscheinlichste Preisort — **404**
+   (am Rohabzug `a1/e621_pakete.html` nachgeprüft: Soft-404, die Seite
+   liefert nur die Navigation, Marker „404"/„Seite nicht" je 2×). Das
+   E621-Negativ stützt sich damit **allein auf die Startseite** und ist
+   das schwächste der 15; ohne E621 lautet der belastbare Befund
+   **14 von 15 gemessenen**.
+   *(Abweichung vom Prüferbefund, eigener Nachweis: W-3 zählt
+   **Plaschke** in dieselbe Gruppe. Das trägt nicht — bei Plaschke
+   antwortete das **Impressum** 3× mit HTTP 403, und ein Impressum ist
+   kein Preiskanal. Die Plaschke-Startseite wurde abgerufen
+   (`a1/pla_start.txt`) und enthält keinen Preis; Positivkontrolle
+   „Hotel" 30 Treffer ✔. Das Plaschke-Preisnegativ bleibt also
+   unverändert belastbar — der Prüfer hat hier „ein Kanal fehlte" mit
+   „der Preiskanal fehlte" gleichgesetzt.)*
+   Der einzige Anker im gesamten Feld ist anfang.team mit „**ab etwa**
+   1.500 Euro monatlich" für ein Retainer-Modell (Steuerbasis unbekannt;
+   der Anbieter nennt daneben „Tages- oder Paketpreise" ohne Beträge).
+   ⚠️ Das „ab etwa" gehört an die Zahl — die Erstfassung verdichtete sie
+   zu „die 1.500 €/Monat" und machte aus einer Untergrenze mit
+   Unschärfe einen Punktwert (korrigiert R7).
    ⚠️ **Aus einem einzigen Datenpunkt lässt sich kein Preisniveau für das
    Feld ableiten** — wer aus dieser Erhebung eine Preisspanne für
    MKT-HANDEL destilliert, überdehnt den Befund. Zweiter belegter
@@ -2373,15 +2396,32 @@ Hotellerie ist nicht All-in-One, Sie ist **All-in-Partners**."
 **Unsere Position liegt in der Lücke zwischen 1 und 2** — genau dort, wo
 nur SUM und work@hotel stehen.
 
-### B8.3 ⭐ Drei unabhängige Größenschwellen — und sie liegen alle ÜBER dem kleinen Privathotel
+### B8.3 ⭐ Zwei belegte Größenschwellen — und ein Preisboden, der wie eine dritte wirkt
 
-Das ist der wichtigste Einzelbefund für die Persona-Frage:
+Das ist der wichtigste Einzelbefund für die Persona-Frage — ⚠️ **und
+genau deshalb trägt er seit R7 den korrigierten Nenner** (Prüferbefund
+R05-A W-12): Es sind **zwei** Schwellenangaben und **eine abgeleitete
+Einschätzung**, nicht drei unabhängige Belege. „Drei unabhängige
+Schwellen" klang nach konvergenter Evidenz; B5.4 Punkt 2 sagt es im
+selben Papier bereits richtig („genau ein Anbieter nennt eine
+beidseitige Zimmergrenze …, einer eine Umsatzschwelle … Zwölf
+beschreiben qualitativ oder gar nicht").
 
+**Belegte Schwellen — zwei:**
 - **Bräu Innovation:** „**Bei weniger als 30 Zimmern fehlt die
   Projektgrundlage.**" (Zielkorridor „typischerweise 30 bis 300 Zimmer")
 - **anfang.team:** „Hotels **ab etwa 1 Mio. Euro Jahresumsatz**"
-- **SUM Hospitality:** Einstieg trotz Skalierung nach Zimmerzahl bei
-  **5.000 CHF einmalig plus 400 CHF/Monat**
+
+**Keine Schwelle, sondern ein Preisboden — abgeleitete Einschätzung:**
+- **SUM Hospitality:** günstigste Stufe **ab 400 CHF/Monat plus ab
+  5.000 CHF einmalig** (`a6/sum-pricing.txt` Z. 27/29; die Quelle
+  schreibt „from 400 CHF" bzw. „from 5’000 CHF" mit Schweizer
+  Apostroph-Trenner). SUM nennt **keine** Untergrenze, sondern skaliert
+  ausdrücklich: „**This is based on the size of the properties (number
+  of rooms) or the number of hotels for groups.**" (ebd. Z. 79).
+  ⚠️ Ob 5.000 CHF für ein 15-Zimmer-Haus zu viel sind, ist eine Aussage
+  über **unsere Kalkulationsannahme**, nicht über SUMs Zielgruppe —
+  **abgeleitet, nicht belegt.**
 
 **Dem steht genau ein Anbieter gegenüber, der die Untergrenze
 ausdrücklich verneint:** TH-Experts — „**Eignet sich die Beratung auch
@@ -2433,11 +2473,39 @@ with implementation partners") — dieser Hinweis stammt allerdings aus
 einer **WebFetch-Zusammenfassung und wurde nicht roh gelesen**, er trägt
 also nur Hypothesen-Rang.
 
-**Demgegenüber publiziert Mews ein echtes Beraterverzeichnis** — 15
+**Demgegenüber publiziert Mews ein echtes Beraterverzeichnis** — **15**
 Einträge, per curl vollständig lesbar, davon **vier aus dem DACH-Raum**:
 SUM Hospitality, Anker & Alpen, ZAHC, agilotel. Mews führt sogar zwei
 Partnerstufen („Mews Preferred Consultant" und „Certified Deployment
-Partner"). Casablanca publiziert eine Rubrik „andere Partner" (18
+Partner").
+**Zählweg der 15** (nachgetragen R7): Strukturmerkmal ist die
+Blocküberschrift `Mews + <Name> partnership` in `a6/mews-consultants.txt`
+— **case-insensitiv** gezählt = 15. ⚠️ **Werkzeugfalle im selben Lauf:**
+Der erste, versalienempfindliche Lauf fand nur **7**; die Quelle schreibt
+acht der Überschriften in VERSALIEN (`MEWS + SUM HOSPITALITY
+PARTNERSHIP`). Ein Muster, das in Summe anschlägt, verdeckt genau diesen
+Fall — Doppellauf Groß/Klein ist Pflicht.
+⚠️ **Herkunft der Länderzuordnung (Prüferbefund R05-A H-9, aufgelöst
+R7):** Sie stammt **nicht** von der Mews-Seite. Diese führt eine Zeile
+„Regions served" nur bei **8 der 15** Einträge — und „Regions served" ist
+ohnehin der **bediente Markt**, nicht der **Sitz**. Für SUM Hospitality
+steht sie dort („Regions served: **Germany, Switzerland, and Austria**",
+`mews-consultants.txt` Z. 278, am Blockende von Z. 265–278); die
+übrigen drei tragen in dieser Datei **keine** Länderzeile. Belegt sind
+alle vier Sitze stattdessen an den **eigenen Impressen der Anbieter**,
+die im selben Lauf abgerufen wurden:
+SUM Hospitality → `a6/sum-kontakt.txt` Z. 27–28 („7050 Arosa" ·
+„Schweiz") · Anker & Alpen → `a6/ankeralpen-impressum.txt` Z. 6
+(„22297 Hamburg") · ZAHC → `a6/zahc-impressum.txt` Z. 6–7 („40667
+Meerbusch" · „Deutschland") · agilotel → `a6/agilotel-imp3.txt` Z. 15/21
+(„Bramberg am Wildkogel", AT — mit der in B8.6 vermerkten
+PLZ-Unstimmigkeit 5733/5773).
+*(Der Prüfer hatte die Zuordnung als „nicht prüfbar" geführt, weil
+`mews-consultants.txt` keine Sitzangaben trägt. Das ist für den **Sitz**
+richtig, für die Länderfrage aber ein zu enger Suchraum: Die Datei trägt
+sehr wohl Länderdaten — 8 „Regions served"-Zeilen —, und die Sitze
+stehen in Nachbardateien desselben Rohbelegs. Der Befund ist damit
+aufgelöst, nicht offen.)* Casablanca publiziert eine Rubrik „andere Partner" (18
 Einträge, überwiegend Web-/Werbeagenturen). **SIHOT** hat nur eine
 Bewerbungsstrecke für Technologiepartner, **ibelsa** nur einen
 zugangsgeschützten Partner-Login.
@@ -2472,8 +2540,8 @@ Qualitätssicherer Ellipsis" — Selbstauskunft, nicht gegengeprüft).
 
 | Gegenstand | Ergebnis | Positivkontrolle |
 |---|---|---|
-| Freiberufliche „Hotel-Digitalisierer"/**Interims-IT-Leiter** mit eigener Website | **Nicht gefunden** — es gibt Einzelunternehmer mit voller Website, aber keinen, der sich so *bezeichnet*. Nächster Treffer: Consultant4IT mit dem „Sophie Sorgenfrei Ansatz" („sämtliche IT-Herausforderungen und Sorgen abnehmen") — funktional dasselbe, anders benannt | dieselbe Suche fand Interim-Anbieter für die **Hotelführung** ✔ — der Kanal ist nicht blind |
-| Reine „Hotel + KI"-**Beratungshäuser** | **Nicht gefunden.** Die Trefferlisten bestanden großenteils aus identischem Artikeltext auf fünf bis sechs Magazin-Domains — ein **Content-Farm-Netzwerk, keine Anbieter**. KI erscheint durchgehend als Zusatz-Achse bestehender Anbieter | die Suche fand sehr wohl konkrete Firmen ✔ |
+| Freiberufliche „Hotel-Digitalisierer"/**Interims-IT-Leiter** mit eigener Website | **Im geprüften Suchraum nicht gefunden** (WebSearch-Läufe dieses Strangs, 09.08.2026) — gefunden wurden Einzelunternehmer mit voller Website, aber keiner, der sich in seiner Selbstbeschreibung so *bezeichnet*. Nächster Treffer: Consultant4IT mit dem „Sophie Sorgenfrei Ansatz" („sämtliche IT-Herausforderungen und Sorgen abnehmen") — funktional dasselbe, anders benannt. ⚠️ Das Negativ misst die **Selbstbezeichnung** in den Suchbegriffen, nicht den Bestand solcher Anbieter *(Formulierung angeglichen R7 nach Prüferbefund R05-A H-7 — die Erstfassung „es gibt … keinen" war eine Existenzaussage, gegen die eigene Linie L-B6)* | dieselbe Suche fand Interim-Anbieter für die **Hotelführung** ✔ — der Kanal ist nicht blind |
+| Reine „Hotel + KI"-**Beratungshäuser** | **Im geprüften Suchraum nicht gefunden** (dieselben Läufe). Die Trefferlisten bestanden großenteils aus identischem Artikeltext auf fünf bis sechs Magazin-Domains — ein **Content-Farm-Netzwerk, keine Anbieter**. In den erhobenen Selbstdarstellungen erscheint KI durchgehend als Zusatz-Achse bestehender Anbieter *(Formulierung angeglichen R7, R05-A H-7)* | die Suche fand sehr wohl konkrete Firmen ✔ |
 | Öffentliche Honorare | 3 von 17 nennen Beträge (SUM vollständig; Stammgast „CHF 320" für 2 h Audit; opensmjle nur für Marketing/Website — **nicht** für Hotel Tech) | derselbe Grep fand bei SUM 8 und bei opensmjle 7 Preiszeilen ✔ |
 | Systempartnerschaften work@hotel | auf der abgerufenen **Startseite** nicht gefunden — nicht „bestehen nicht" | „PMS" und „Managed Services" trafen im selben Dokument ✔ |
 
@@ -2500,27 +2568,70 @@ Förderrichtlinien wurden als PDF im Volltext ausgewertet.
 **Wettbewerber ist genau eine Gliederung: die „DEHOGA Beratung" des
 Landesverbands Baden-Württemberg — und sie arbeitet bundesweit.**
 Wörtlich: „Die DEHOGA Beratung steht Ihnen **bundesweit** zur Verfügung
-und bietet geförderte Konditionen in **allen Bundesländern** an" · „oft
-**bis zu 100 Prozent gefördert**". Ihr Marketing-Leistungskatalog ist mit
+und bietet geförderte Konditionen in **allen Bundesländern** an. **In
+Hessen und im Saarland erfolgt die Beratung in Abstimmung mit dem
+jeweiligen DEHOGA-Landesverband.**" — beide Sätze stehen in der Quelle
+im **selben Absatz** (`a5/dehoga/bw-beratung.txt` Z. 542; Quelle
+`dehogabw.de/beraten/unternehmensberatung`, Abruf 09.08.2026).
+*(Einschränkung nachgetragen in R7 nach Prüferbefund R05-A H-10 — die
+Erstfassung zitierte nur den ersten Satz.)* Aus einem **anderen**
+Seitenabschnitt derselben Quelle (Z. 466, Einleitung): „oft **bis zu
+100 Prozent gefördert**" — die beiden Zitate stammen nicht aus einer
+zusammenhängenden Passage. Ihr Marketing-Leistungskatalog ist mit
 unserem Aufbau-Feld deckungsgleich: Website-Optimierung „für Google &
 Co.", „**GEO- und SEO-Optimierung**", „Wie werde ich bei **ChatGPT,
 Perplexity, Gemini** und Co. überhaupt gefunden?", Google-Unternehmens-
 profil, Social-Media-Content, bezahlte Werbung, Bewertungsmanagement.
 **Preise öffentlich — ⚠️ mit dem Scope, den die Quelle selbst setzt:**
-Die Werte stehen dort als **Beispielrechnung** und gelten **je
-Beratungstag (8 Stunden)**, nicht als Paketpreis. Nettotagessatz
-**985,00 €**; davon abgezogen Förderung und Mitgliederbonus →
-**Eigenanteil 499,00 € zzgl. MwSt je Tag** (Mitglied) bzw. **635,00 €**
-(Nicht-Mitglied). Existenzgründung: 985 € − 735 € Förderung = **250,00 €
-Eigenanteil je Tag**, **15 Tage förderfähig** — die volle Maßnahme kostet
-den Gründer also rund 3.750 €, nicht 250 €.
-*(Scope-Zusatz nachgetragen nach Prüferbefund R05-A: Die Erstfassung
-nannte die Eigenanteile ohne die Einheit „je Beratungstag" — derselbe
-Fehlertyp, den B6.1 bei Smart Host zu Recht als irreführend rügt.
-Doppelmaßstab beseitigt.)*
-→ **Einstufung: W1.** Der geförderte Eigenanteil ist zugleich eine
-**Preisuntergrenze, die ein ungeförderter Anbieter nicht unterbietet** —
-relevant für MKT-HANDEL.
+Die Werte stehen unter den Überschriften „**Beispielrechnung** einer
+geförderten Beratung zur Existenzgründung" und „**Beispielrechnung**
+einer KMU-Beratung (geförderte Kurzberatung für kleine und mittlere
+Unternehmen)" und sind tagessatzbezogen, nicht Paketpreise. Die Quelle
+relativiert unter **beiden** Tabellen selbst: „**Weitere Beratungspakete
+und Konditionen können auf den individuellen Bedarf zugeschnitten
+werden.**" — öffentlich ja, verhandlungsfest nein.
+
+| Posten | Existenzgründung | KMU-Mitglied | KMU-Nichtmitglied |
+|---|---|---|---|
+| Nettotagessatz | 985,00 € | 985,00 € | 985,00 € |
+| Förderung | 735,00 € | 350,00 € | 350,00 € |
+| Mitgliederbonus | — | 136,00 € | 0,00 € |
+| **Eigenanteil (netto), je Beratungstag** | **250,00 €** | **499,00 €** | **635,00 €** |
+
+Alle drei Spalten gehen auf (985−735=250 · 985−350−136=499 ·
+985−350=635); unter jeder Tabelle steht in der Quelle „**zzgl.
+Mehrwertsteuer**". ⚠️ **Der Stundenbezug steht in der Quelle nur an
+EINER der beiden Tabellen:** Die KMU-Tabelle führt den Posten als
+„Nettotagessatz **(8 Stunden)**", die Existenzgründungs-Tabelle nur als
+„Nettotagessatz" ohne Stundenangabe. Zur Maßnahmengröße sagt die Quelle
+allein: „Für eine umfassende Begleitung und Unterstützung in der
+Gründungsphase sind **15 Tage förderfähig**" — das ist eine
+**Förderfähigkeits-Obergrenze**, keine Maßnahmengröße. Für die
+KMU-Beratung nennt die Quelle **keine** Tageszahl.
+*(Beleg: `a5/dehoga/bw-kosten-foerderung.txt` Z. 489–514; die
+Spaltenzuordnung ist am **HTML** gegengelesen, nicht an der
+Textreihenfolge der Extraktion — Quelle
+`dehogabw.de/beraten/unternehmensberatung/kosten-foerderung`, Abruf
+09.08.2026. Der Scope-Zusatz „je Beratungstag" kam nach Prüferbefund
+R05-A W-9 — derselbe Fehlertyp, den B6.1 bei Smart Host zu Recht als
+irreführend rügt. In R7 zusätzlich nachgetragen: Stundenbezug auf die
+KMU-Tabelle eingegrenzt, MwSt-Zusatz und Verhandelbarkeits-Satz
+ergänzt. **Gestrichen** wurde der Satz „die volle Maßnahme kostet den
+Gründer also rund 3.750 €" — das war eine **eigene Multiplikation**
+15 × 250 € ohne Quellenbeleg, die eine Förderobergrenze als
+Maßnahmenumfang las.)*
+→ **Einstufung: W1.**
+⚠️ **Preisuntergrenze — korrigierte Ableitung (R05-A W-9 Punkt 4,
+eingearbeitet R7):** Aus einem **Eigenanteil nach Zuschuss** lässt sich
+keine Marktuntergrenze für ungeförderte Anbieter ableiten. Die
+vergleichbare Größe ist der **Nettotagessatz 985,00 € zzgl. MwSt je
+Beratungstag** — das ist der Betrag, gegen den ein ungeförderter
+Anbieter antritt. Die frühere Fassung („der geförderte Eigenanteil ist
+zugleich eine Preisuntergrenze, die ein ungeförderter Anbieter nicht
+unterbietet") ist **überholt**. Was der Eigenanteil setzt, ist etwas
+anderes: die **wahrgenommene Zahlungsschwelle** beim Kunden
+(250–635 € je Tag). Beides gehört nach MKT-HANDEL — als zwei getrennte
+Größen, nicht als eine.
 
 **Kanal sind Bundesverband, Schleswig-Holstein und Hamburg.** Sie beraten
 nicht selbst zu Digital/Marketing:
@@ -2543,9 +2654,24 @@ nicht selbst zu Digital/Marketing:
   ‚DEHOGA Hamburg Partner'" — und **ab Gold: „keine Kooperationen mit
   direkten Marktbegleitern"**, Exklusivität je Kategorie ist also
   kaufbar und für Wettbewerber sperrend. ⚠️ **Preise stehen nicht im
-  PDF.** Mitgliedsbeitrag Hamburg (Beitragsordnung gültig ab 01.01.2026):
-  Stufe I (0–3 Beschäftigte) 29,60 €/Monat bis Stufe VI (51–100)
-  178,00 €/Monat.
+  PDF.** Mitgliedsbeitrag Hamburg — Beitragsordnung, beschlossen auf der
+  Mitgliederhauptversammlung am 10.06.2024, „Es gelten ab 1. Januar 2026
+  folgende Monatsbeiträge"; **vollständige Staffel, alle zehn Stufen:**
+  0 (ohne Betrieb) 12,90 € · I (0–3 Beschäftigte) 29,60 € · II (4–10)
+  42,30 € · III (11–20) 70,70 € · IV (21–35) 114,20 € · V (36–50)
+  158,40 € · VI (51–100) 178,00 € · VII (101–150) 298,10 € ·
+  VIII (151–200) 339,00 € · IX (201 und mehr) 359,40 €.
+  **Zählweg:** Tabellenzeilen aus § 2 der Ordnung, generisch über das
+  Zeilenmuster Stufe/Beschäftigtenspanne/Betrag extrahiert (nicht über
+  eine vorher notierte Stufenliste) = **10**; Gegenprobe „alle Zeilen
+  mit €-Zeichen im ganzen Dokument" = 11, die elfte ist die 5-€-Gebühr
+  aus § 5 Abs. 2 — es ist also keine Stufenzeile durchs Raster gefallen.
+  Zusätzlich am gerenderten PDF sichtgeprüft.
+  *(Erstfassung nannte nur Stufe I bis VI ohne Auswahlkriterium — L-03,
+  stiller Vollständigkeitsanspruch. Vervollständigt in R7 nach
+  Prüferbefund R05-A H-2. Der Befund selbst sprach von „neun Stufen bis
+  IX" — es sind **zehn**, weil Stufe 0 mitzählt; weggelassen waren also
+  vier Stufen, nicht drei.)*
 - **INTERHOGA GmbH** ist die Leitstelle der Bundes-Beratungsförderung für
   das Gastgewerbe — „agiert **bundesweit und unabhängig von einer
   Verbandsmitgliedschaft**"; Regionalpartner sind **DEHOGA SH (Kiel)** und

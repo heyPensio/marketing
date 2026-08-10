@@ -182,3 +182,34 @@ sind entfallen — das war als PROGNOSE markiert und ist ein zulässiges
 Ergebnis. Die für Block 2 vorgesehene Preismodell-Arbeit bleibt
 sequenzabhängig richtig: R07-A hat die Preis-Scope-Befunde erst jetzt
 repariert.
+
+## 9. Abend-Nachtrag (~22:28) — Abbruch vor R8
+
+**R8 wurde NICHT gestartet.** Abbruch-Entscheid der Zentrale (Garp,
+10.08. abends, als User-Zuruf in die frisch gestartete Leitsession):
+Der Architektur-Block der Firma hat Vorrang (Repo-Umzug +
+Gerüst-Nachzug, `zentrale\STATUS.md` „Nächster Schritt" 3–4). Die
+Repo-Pfade können sich noch heute ändern — Session sauber beendet,
+alles committet und gepusht.
+
+**Codex-Nachtrag der Zentrale (.codex/ + AGENTS.md): bereits
+UMGESETZT, nicht mehr offen.** Zeitfolge sichtbar gemacht (nicht
+geglättet): Der Nachtrag kam als `/runde`-Zuruf; Lese-Pflicht und
+Umsetzung liefen VOR Eingang des Abbruch-Entscheids, ein Rückbau hätte
+verifizierte, per Firmen-Entscheid gedeckte Arbeit zerstört. Beleg:
+
+- **Lese-Pflicht erfüllt:** Volldiff AGENTS.md ↔ CLAUDE.md in Datei
+  (139 Diff-Zeilen); 20 Nur-in-AGENTS-Zeilen (Zählweg: `grep -c '^>'`
+  am Volldiff), **alle mechanische Substitutionen**
+  (Claude→Codex, `.claude/`→`.Codex/`, Stempel `50f00dc`) — **keine
+  Codex-Eigenträge, nichts zu sichern.** Die ~117 Zeilen Differenz aus
+  der Zentrale-Messung sind in Gegenrichtung erklärt: R7-Rückfluss
+  `baaac82`, der nach dem Import nur in die CLAUDE.md ging.
+- **Umsetzung:** AGENTS.md = Zeiger nach Muster `zentrale\AGENTS.md`,
+  `.codex/` in `.gitignore` (bleibt auf Platte — Werkzeug-Konfig für
+  Codex-Sessions, kein Löschkandidat). Commit `90cc378`.
+
+**Für die nächste Runde offen:** aus dem Codex-Nachtrag nichts; der
+R8-Schnitt selbst (Kandidaten unverändert: MKT-AKQ zuerst, s.
+STATUS.md „Nächster konkreter Schritt"). ⚠️ Nach dem Firmen-Umzug vor
+dem ersten Commit prüfen, ob die Repo-Pfade sich geändert haben.

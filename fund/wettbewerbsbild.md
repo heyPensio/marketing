@@ -968,9 +968,27 @@ Zwei Gegenbeispiele:
   Einweisung Ihres Teams sind Teil des Preises" + Fernwartung inklusive
   (BYTE, § 3.2).
 - **42 GmbH, Hannover** (SELBST): „Von der Einführung bis zum laufenden
-  Betrieb begleiten Sie zuverlässig und persönlich", „24/7 Support
-  direkt aus Hannover", „Hardware & Hosting als Service", Zielgruppe
-  „Hotels aller Größen".
+  Betrieb begleiten **wir Sie** zuverlässig und persönlich", „24/7
+  Support direkt aus Hannover", „Hardware & Hosting als Service",
+  Zielgruppe „Hotels **jeder Größe**".
+  *(⚠️ Zwei Zitatkorrekturen R7, am Rohbeleg `a6/42gmbh-beratung.txt`
+  gemessen — beide neu, in keinem R05-A-Befund enthalten: (1) Der
+  Erstfassung fehlte im ersten Zitat das **„wir"**. Ohne es kippt der
+  Satz vom Leistungsversprechen des Anbieters in eine Aussage über den
+  Leser — und er trägt in diesem Absatz die Beweisführung. (2) „Hotels
+  aller Größen" stand in Anführungszeichen, kommt aber im **gesamten**
+  Rohbeleg-Archiv nicht vor; die Quelle sagt durchgängig „Hotels jeder
+  Größe" (7 Fundstellen). Sinngleich, aber eine Paraphrase in
+  Zitatform.)*
+
+➡️ **Vorwärtsverweis (nachgetragen R7, Prüferbefund R05-A W-14):** Diese
+Säule wird von **Teil B mehrfach materiell berührt** und ist dort
+deutlich stärker angegriffen als hier beschrieben — B6.2 Feldbefund 4
+nennt es wörtlich „genau die Grenze, auf der unsere USP-Säule 2 steht",
+B5.4 Punkt 4 ebenso („genau unser Betreibermodell-Feld"), und B8.1
+beschreibt mit **work@hotel** einen Anbieter mit vollem Betriebsapparat
+(1st/2nd Level, Notdienst). Wer nur diesen Abschnitt liest, unterschätzt
+den Befund.
 
 **Belastbare Formulierung nach dieser Runde:** Betreuter Betrieb ist im
 DACH-Hotelmarkt vorhanden, im Feld der Self-Check-in-**Produkte** aber
@@ -1923,19 +1941,61 @@ MKT-FUND, nicht diesem Papier.**
 
 Unsere Säule 5 heißt „Förder-Begleitung" und gilt im Positionierungspapier
 als die Säule **ohne Gegenbefund** (§ 5.5 in Teil A: „kein Gegenbefund").
-**Für das Technik-Segment stimmt das weiterhin. Für die Beratungsachse
-nicht.** Im Beratungsmarkt ist Förderung kein Zusatznutzen, sondern für
-einen Teil des Feldes **das Verkaufsargument**:
+⚠️ **Für das Technik-Segment ist sie unverändert UNGEPRÜFT — nicht
+bestätigt.** § 5.5 sagt über sein eigenes Negativ ausdrücklich: „Das ist
+ein schwaches Negativ: Danach wurde in dieser Runde **nicht gezielt
+gesucht**; es ist ein Nebenbefund der Seitenlektüre." Teil B hat das
+Technik-Segment nicht neu gemessen — sein Suchraum war der
+Beratungsmarkt. *(Korrigiert R7 nach Prüferbefund R05-A W-6: Die
+Erstfassung sagte hier „Für das Technik-Segment stimmt das weiterhin"
+und machte damit aus „nicht gezielt gesucht" eine Bestätigung —
+Verdichten verliert den Vorbehalt, und zwar zugunsten der eigenen
+Aussage. Der Parallelsatz im ➡️-Kasten von § 5.5 war bereits in R5
+repariert, diese zweite benannte Fundstelle blieb stehen.)*
+⚠️ **Und es gibt inzwischen einen technik-NAHEN Gegenbefund:** z1Digital
+beschreibt „Digitaler Checkin- und Checkout-Prozess (… NFC
+Zimmerschlüssel oder Zahlenschlösser …)" **zusammen mit** „bis zu 80 %
+förderfähig" — Förder-Argument plus unser Produktkern in einem Angebot
+(B8.5, am Rohabzug `a6/z1digital.txt` belegt).
+**Für die Beratungsachse ist die Säule klar getroffen.** Im
+Beratungsmarkt ist Förderung kein Zusatznutzen, sondern für einen Teil
+des Feldes **das Verkaufsargument**:
 
 - **Dittlmann & Partner** führt die Förderquote in der Seitenüberschrift
-  („BAFA-Beratung Hotel & Gastronomie: **50-70 % Förderung sichern**")
-  und ist mit **prüfbaren Kennnummern** akkreditiert: „Eingetragen in die
-  KfW-Beraterdatenbank, bei der BAFA für Unternehmensberatungen
-  (**ID: 130986**) Akkreditiert vom Bundesministerium für Arbeit und
-  Soziales für systemisches Coaching im Programm INQA … (**IC2336101**)
-  mit **80 % Zuschuss**." Dessen „Modul 6: Digitalisierung & Prozesse:
-  Systemlandschaft, Schnittstellen, Standards, Prozesszeiten" deckt
-  inhaltlich genau unsere Überschneidung ab — **bezuschusst**.
+  („BAFA-Beratung Hotel & Gastronomie: **50-70 % Förderung sichern**",
+  `<title>` von `a3/ch-bafa.html`) und ist mit **prüfbaren Kennnummern**
+  akkreditiert. **Zwei getrennte Zitate mit je eigener Fundstelle**
+  *(zerlegt R7 nach Prüferbefund R05-A W-16)*:
+  - Impressum, Rubrik „ANBIETERINFORMATIONEN" (`a3/ch-impressum.txt`
+    Z. 149): „Eingetragen in die KfW-Beraterdatenbank, bei der BAFA für
+    Unternehmensberatungen (**ID: 130986**) Akkreditiert vom
+    Bundesministerium für Arbeit und Soziales **für systemisches
+    Coaching** im Programm INQA (Initiative neue Qualität der Arbeit)"
+  - Siegel-Kachel „Systemisches Coaching (INQA)" im Seitenfuß derselben
+    Seite (`a3/ch-impressum.txt` Z. 168; wortidentisch auch
+    `a3/ch-preise.txt` Z. 209): „Akkreditiert vom Bundesministerium für
+    Arbeit und Soziales **als systemischer Coach** im Programm INQA
+    (**IC2336101**) mit **80 % Zuschuss**."
+
+  ⚠️ **Warum das zerlegt werden musste:** Die Erstfassung setzte beides
+  als EIN wörtliches Zitat und überbrückte den Sprung mit „…". Der Sprung
+  geht aber nicht über eine Wortlücke, sondern über **11.600 Zeichen und
+  35 Blockelemente** — quer durch den kompletten Haftungsausschluss, aus
+  dem Impressumstext heraus in ein Bildkachel-Widget. Zusätzlich wechselt
+  der Wortlaut an der Nahtstelle („für systemisches Coaching" ↔ „als
+  systemischer Coach"); der zusammengesetzte Satz existiert in **keiner**
+  Quelle. **Die Sachlage stimmt** (beide Kennnummern sind echt und
+  gehören zur INQA-Akkreditierung) — der Fehler war reine Zitatform
+  (L-01), aber für jeden Prüfer ein Pseudo-Zitat.
+
+  Dessen **Modul 6** deckt inhaltlich genau unsere Überschneidung ab —
+  **bezuschusst**. Auch hier der Wortlaut jetzt quellentreu
+  (`a3/ch-bafa.html`, zwei aufeinanderfolgende `<p class="p1">`):
+  „Modul 6:" · „Digitalisierung & Prozesse: Systemlandschaft,
+  Schnittstellen, Standards, Prozesszeiten, **operative Qualität**."
+  *(⚠️ Zweiter Spleiß, in R05-A W-16 nicht erfasst, in R7 selbst
+  gefunden: Die Erstfassung zog beide Absätze zu einem Zitat zusammen
+  und schnitt dabei „, operative Qualität" ohne Auslassungszeichen ab.)*
 - **Unternehmermanufaktur** betreibt eine eigene Förderprogramm-Übersicht
   und referiert die Konditionen exakt: BAFA „max. 3.500 Euro (max. 5
   Beratungstage) / 50 % oder 80 %"; INQA „max. 14.400 Euro (12
@@ -1977,25 +2037,71 @@ Projektgrundlage. Ab 300 Zimmern beginnen Konzernstrukturen"). Vier
 Leistungsfelder: „Prozessoptimierung, Hotelcontrolling nach
 USALI-Standard, Digitalisierung und Systemintegration".
 **Bemerkenswert für unsere Positionierung:** Er macht die Ein-Personen-
-Struktur zum Kaufargument — „Ich arbeite allein. **Das ist eine
-Entscheidung, keine Verlegenheit.** … Wer mich beauftragt, arbeitet mit
-mir, nicht mit einem Büro." Das ist die direkte Gegenthese zu einem
-AI-nativen Modell und wird uns im Verkaufsgespräch begegnen.
+Struktur zum Kaufargument. **Zwei Zitate, je mit eigener Fundstelle**
+*(Anker nachgetragen R7, Prüferbefund R05-A H-4)*:
+- Abschnitt „Mein Ansatz: Beratung, die vor Ort stattfindet",
+  Fließtext (`a3/braeu-dach.txt` Z. 107): „**Ich arbeite allein. Das ist
+  eine Entscheidung, keine Verlegenheit.**"
+- Overlay „Manifest." (`a3/braeu-dach.txt` Z. 259): „**Wer mich
+  beauftragt, arbeitet mit mir, nicht mit einem Büro.**"
+
+⚠️ **Der Anker ist nicht nur eine Formalie — er verschiebt die
+Belegstufe** (in R7 am Rohbeleg gemessen, über H-4 hinaus): Der zweite
+Satz steht **nicht im Seiteninhalt**, sondern in einem `<dialog>` ohne
+`open`-Attribut, also einem beim Aufruf **geschlossenen Overlay**, das
+sich selbst als Nicht-Hauptseiteninhalt ausweist („Was hier steht, steht
+nicht auf der Hauptseite."). Es ist zudem eine **seitenweite**
+Komponente — derselbe Text steht im Impressums-Abzug. Und die Ellipse
+verband zwei **verschiedene** „Ich arbeite allein"-Sätze: Im Original
+folgt der zweite Satz unmittelbar auf „Ich arbeite allein – bewusst.",
+nicht auf die zitierte Fassung. Inhaltlich unverfälscht, formal eine
+Naht — für außenwirksame Weiterverwendung gehört der Hinweis dazu.
+
+Das ist die direkte Gegenthese zu einem AI-nativen Modell und wird uns
+im Verkaufsgespräch begegnen.
 ⚠️ **Spannung in seiner eigenen Quelle:** „Ich berate herstellerunabhängig.
-Ich empfehle keine Systeme, an deren Verkauf ich verdiene" steht auf
-derselben Seite wie eine Partnerliste (Scopevisio, Hotelkit, Guestnet,
-SHS) und zwei eigene Produkte (myControlling, Mail-Pilot).
+Ich empfehle keine Systeme, an deren Verkauf ich verdiene"
+(`a3/braeu-dach.txt` Z. 145) steht im selben Auftritt wie eine
+Partnerliste (Scopevisio, Hotelkit, Guestnet, SHS Swiss Hospitality
+Solutions) und zwei eigene Produkte (myControlling, Mail-Pilot).
+*(Präzisiert R7: Die Erstfassung sagte „auf derselben Seite" — beide
+Listen stehen im **seitenweiten Footer** und damit identisch auch im
+Impressums-Abzug; es ist keine seitenspezifische Nachbarschaft. Zählweg
+der Produkte: Der Footer führt unter „Weitere Angebote" vier Einträge,
+davon zwei eigene Produkte im engeren Sinn — die beiden übrigen sind
+Firmierungsvarianten.)*
 
 **Dittlmann & Partner (DE/CH) — der breiteste.** Deckt alle vier
 gesuchten Felder plus Förderung, mit Schweizer Standort. Zielgruppe
 „familiengeführte Betriebe, Gastgeber und Erlebnisanbieter", ohne
 Größengrenze.
 
-**42 GmbH (DE) — der Fund mit der größten Nebenwirkung.** „Digitalisierungs-
-beratung für Hotels – seit über 30 Jahren". Entscheidend ist die
-Partnerliste, die sie selbst nennt: „wir kooperieren mit führenden
-Spezialisten wie **ASA Hotelsoftware, Guestline, HotelNetSolutions,
-Straiv, Matrix POS, Kiosk.eu, Brandnamic, moreProfit**." — **Damit sitzt
+**42 GmbH (DE) — der Fund mit der größten Nebenwirkung.**
+„Digitalisierungs-beratung für Hotels – seit über 30 Jahren **…**"
+*(die H1 läuft weiter: „… Ihr zuverlässiger Partner"; Auslassungszeichen
+nachgetragen R7)*. Entscheidend ist die Partnerliste, die sie selbst
+nennt — **jetzt vollständig bis zum Satzende** (`a6/42gmbh-beratung.txt`
+Z. 112): „**…** wir kooperieren mit führenden Spezialisten wie **ASA
+Hotelsoftware, Guestline, HotelNetSolutions, Straiv, Matrix POS,
+Kiosk.eu, Brandnamic, moreProfit und vielen weiteren, die in ihren
+Bereichen unschlagbar sind.**"
+*(⚠️ Korrigiert R7 nach Prüferbefund R05-A H-3 — und der Befund war noch
+zu milde: Die Erstfassung ließ nicht nur „und vielen weiteren …" weg,
+sie **setzte hinter „moreProfit" einen Punkt, den die Quelle dort nicht
+hat**. Aus einer ausdrücklich offenen Liste wurde eine geschlossene.
+Zusätzlich begann das Zitat unmarkiert mitten im Satz — die Quelle
+beginnt „Und wir kooperieren".)*
+⚠️ **Und die Liste ist auch mit diesen acht keine Bestandsaussage:** Das
+Roh-HTML derselben Seite zeichnet ein Partner-Karussell mit **11
+Logos** aus (Strukturmerkmal `div.wpex-carousel-slide` im Container
+`vcex-image-carousel`, gezählt = 11). Vier davon erscheinen in **keinem**
+Text — Flixorder, Yanovis, Kost und ein aus dem Dateinamen nicht
+auflösbares Logo; umgekehrt hat Kiosk.eu **kein** Logo. **Vereinigung
+beider Kanäle: 12 eindeutige Partner, nicht 8.** Der entmarkupte Text
+konnte das nicht zeigen (die `<img>`-Tags werden gestrippt und tragen
+zudem alle `alt=""`) — ein Lehrstück dafür, dass eine Aussage, die in
+der **Auszeichnung** steckt, von einer Textprüfung nicht erfasst wird.
+— **Damit sitzt
 ein Digitalisierungsberater als Vermittler zwischen dem Hotelier und
 gleich drei Akteuren aus unserem eigenen Umfeld:** unserem
 Haupt-Technikwettbewerber (Straiv), unserem Hardware-Lieferanten
@@ -2385,8 +2491,18 @@ Hotellerie ist nicht All-in-One, Sie ist **All-in-Partners**."
 
 1. **Berater ohne Betrieb** (Bräu, ZAHC, agilotel, TH-Experts, Anker &
    Alpen, Stammgast): Endpunkt ist der Go-Live — belegt durch die
-   durchgängige Wortwahl „bis zum Go-Live", „Go-Live-Begleitung",
+   Wortwahl „bis zum Go-Live", „Go-Live-Begleitung",
    „Umsetzungsbegleitung ist **optional**".
+   ⚠️ **„durchgängig" gestrichen (R7, am Rohbeleg gemessen):** Für
+   **Bräu** — das erstgenannte Mitglied des Lagers — trafen die Muster
+   `Go-Live|Go Live` und case-insensitiv `live` in den beiden erhobenen
+   Seiten (`a3/braeu-dach.txt`, `a3/braeu-impressum.txt`) **je 0×**
+   (Positivkontrolle „Hotel" 65 Treffer ✔). Ihn deckt allein der dritte
+   Beleg („Die Umsetzungsbegleitung ist optional"). Das ist **kein**
+   Gegenbefund zur Lagerzuordnung — es ist ein **Suchraum**-Vorbehalt:
+   Von braeu-innovation.de wurden nur zwei Seiten abgerufen, weitere
+   Unterseiten sind unerhoben. Zu lesen als „im geprüften Suchraum nicht
+   gefunden", nicht als „verwendet er nicht".
 2. **Systemhäuser ohne Auswahlberatung** (Martin Becker/Oracle-gebunden,
    Ellipsys/WLAN-Netz, IDC EDV): Betrieb ja, aber vorentschiedenes
    Produkt oder gar keine Applikationsschicht.
@@ -2409,7 +2525,17 @@ beschreiben qualitativ oder gar nicht").
 
 **Belegte Schwellen — zwei:**
 - **Bräu Innovation:** „**Bei weniger als 30 Zimmern fehlt die
-  Projektgrundlage.**" (Zielkorridor „typischerweise 30 bis 300 Zimmer")
+  Projektgrundlage.**" (TL;DR-Block; Zielkorridor „typischerweise 30 bis
+  300 Zimmer").
+  ⚠️ **Dieselbe Seite führt die Aussage ein zweites Mal, deutlich
+  schwächer** — FAQ „Für welche Hotelgrößen arbeiten Sie?": „Bei weniger
+  als 30 Zimmern fehlt **häufig** die Grundlage für **strukturierte
+  Beratungsprojekte**." *(Zweitfassung nachgetragen R7, am Rohbeleg
+  `a3/braeu-dach.txt` Z. 52/161 gefunden — sie stand in keinem
+  R05-A-Befund. Das Papier zitierte an beiden Stellen ausschließlich die
+  kategorische Fassung; der Vorbehalt „häufig" und der engere Gegenstand
+  „strukturierte Beratungsprojekte" fielen weg — und zwar **zugunsten
+  der eigenen These** dieses Abschnitts.)*
 - **anfang.team:** „Hotels **ab etwa 1 Mio. Euro Jahresumsatz**"
 
 **Keine Schwelle, sondern ein Preisboden — abgeleitete Einschätzung:**
@@ -2518,14 +2644,39 @@ entweder, dass die Implementierer-Szene dort noch nicht organisiert ist
 
 ### B8.5 Unsere Produktschicht ist bei den Bündel-Anbietern bereits fremdbesetzt
 
-**Der am dichtesten belegte Einzelbefund des Laufs:** Wer im DACH-Raum
-heute Self-Check-in/Guest-Journey einführt, verkauft in aller Regel
-**straiv** mit — belegt bei **42 GmbH** (zusammen mit Kiosk.eu),
-**Martin Becker GmbH**, **opensmjle** (dort neben SuitePad, Duve,
-Like Magic) und in der Casablanca-Schnittstellenliste. Hinzu kommt
-Brandnamic (B4.3). **Straiv ist damit nicht nur unser Technik-
-Wettbewerber (Teil A), sondern der De-facto-Standard im Portfolio der
-Einführungs-Dienstleister.**
+**Die häufigste Einzelnennung des Laufs — mit Nenner** *(umformuliert R7
+nach Prüferbefund R05-A W-13)*: **straiv ist bei 5 von 17 betrachteten
+Anbietern dieses Strangs belegt** — **42 GmbH**, **Martin Becker GmbH**,
+**opensmjle** (dort neben SuitePad, Duve, Like Magic), die
+Casablanca-Schnittstellenliste und **Brandnamic** (B4.3). Das ist die
+häufigste Einzelnennung im Sample. **Eine Marktquote ist es nicht.**
+⚠️ **Die Erstfassung sagte „wer im DACH-Raum heute Self-Check-in/
+Guest-Journey einführt, verkauft in aller Regel straiv mit" und
+„De-facto-Standard im Portfolio der Einführungs-Dienstleister".** Beides
+ist gestrichen: „in aller Regel" verwandelt eine Häufung in eine
+Marktregel, und der Suchraum von B8 waren **Bündel-/
+Digitalisierungsanbieter** — nicht „wer im DACH-Raum Self-Check-in
+einführt". Der Befund selbst bleibt wertvoll und ist bei der 42 GmbH
+sogar **überbelegt** (eigene Produktseite `/straiv/`, Menüeintrag,
+Produktkasten, Formular-Checkbox, gemeinsamer Messeauftritt —
+6 unabhängige Fundstellen).
+
+**Zwei Einschränkungen aus derselben Quelle** *(in R7 am Rohbeleg
+gefunden, in W-13 nicht enthalten)*:
+- ⚠️ **Dieselbe Seite verkauft eine konkurrierende Guest Journey mit:**
+  Die 42 GmbH bewirbt ASA Hotelsoftware mit „integrierten Modulen wie …
+  **einer digitalen Guest Journey** und modernstem Payment". Im
+  belegenden Dokument ist straiv damit **ein Weg von zweien**.
+- ⚠️ **Der frühere Klammerzusatz „(zusammen mit Kiosk.eu)" ist
+  entfernt:** „Kiosk.eu" kommt im **gesamten** Rohbeleg-Archiv genau
+  **1×** vor — in eben jenem einen Prosa-Satz, ohne Logo, Menüeintrag
+  oder Produktkasten. Er stand neben straiv, als hätten beide dieselbe
+  Belegtiefe. Haben sie nicht.
+
+**Straiv bleibt damit unser Technik-Wettbewerber (Teil A) und die
+häufigste Fremdbesetzung unserer Produktschicht im Portfolio der
+erhobenen Einführungs-Dienstleister** — eine Standard-Aussage über den
+Markt trägt der Bestand nicht.
 
 **Und ein Anbieter beschreibt unseren Produktkern als seine
 Beratungsleistung:** **z1Digital** (Thüringen) — „Guest-Journey-Prozesse

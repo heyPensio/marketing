@@ -748,7 +748,9 @@ Kundengespräch mit Förderbezug gilt:
 1. **Wir stellen keine Anträge und geben keine Förderzusagen.** Wir sagen,
    dass ein Programm existiert und wer es beantragt — die
    Förderfähigkeitsprüfung macht die Bewilligungsstelle.
-   *(Deckt zugleich die Regel „jede Entwarnung trägt ihre Quelle im Satz".)*
+   *(Damit vermeiden wir Entwarnungen, für die wir keine Quelle haben. Die
+   Regel „jede Entwarnung trägt ihre Quelle im Satz" ist dadurch nicht
+   erfüllt, sondern nur nicht verletzt — P07D-29.)*
 2. **Reihenfolge: Antrag vor Auftrag — mit einem programmabhängigen
    Ausweg.** Beide Landesprogramme fördern nur nicht begonnene Vorhaben,
    und ein Vorhaben gilt mit dem Abschluss des Leistungsvertrags als

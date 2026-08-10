@@ -39,8 +39,8 @@ Lite-Option; das Prinzip gilt UNTERNEHMENSWEIT (Klarstellung Voice
 09.08., Firmen-Grundsatz in `zentrale\CLAUDE.md`);
 Erhebungsquelle archiviert in `zentrale\sensibel\`).
 
-Nachbar-Repos: `C:\Users\qwafa_2dwxzia\heypensio` (Produkt + Pilotkunde)
-und `C:\Users\qwafa_2dwxzia\zentrale` (Firmen-Ebene, siehe Abschnitt
+Nachbar-Repos: `C:\Users\qwafa_2dwxzia\firma\heypensio` (Produkt + Pilotkunde)
+und `C:\Users\qwafa_2dwxzia\firma\zentrale` (Firmen-Ebene, siehe Abschnitt
 „Firmen-Ebene"). Die dreifache Plan-Prüfung, die diesen Zuschnitt geformt
 hat, liegt verbatim in `protokolle/R00-planpruefung-2026-08-09.md` —
 dort stehen auch die BEGRÜNDUNGEN der überstimmten Empfehlungen (z. B.
@@ -112,15 +112,15 @@ committen und pushen.
 Dieses Repo ist ein **Abteilungs-Repo**. Die Firmen-Ebene (Organigramm,
 Rollen-Charta, Gesellschafter-Entscheide, Namensentscheid/Rebrand,
 Workspace-/Infrastruktur-Migrationen) liegt im Nachbar-Repo
-`C:\Users\qwafa_2dwxzia\zentrale`. Drei Regeln:
+`C:\Users\qwafa_2dwxzia\firma\zentrale`. Drei Regeln:
 
 1. **Lese-Richtung (Pflicht bei Session-Start):** Zusätzlich zur eigenen
-   STATUS.md auch `C:\Users\qwafa_2dwxzia\zentrale\STATUS.md` lesen —
+   STATUS.md auch `C:\Users\qwafa_2dwxzia\firma\zentrale\STATUS.md` lesen —
    Firmen-Entscheide (vor allem der Namensstand) ändern laufend die
    Prämissen der Marketing-Arbeit.
 2. **Schreib-Richtung (Postkorb):** Ergibt die Arbeit hier einen Befund
    oder Entscheidungsbedarf der Firmen-Ebene, schreibt die Session eine
-   kurze Meldedatei nach `C:\Users\qwafa_2dwxzia\zentrale\eingang\`
+   kurze Meldedatei nach `C:\Users\qwafa_2dwxzia\firma\zentrale\eingang\`
    (Konvention: `<jjjj-mm-tt>-mkt-<thema>.md`) und committet sie DORT mit
    explizitem Pfad. **Zentrale-Kerndokumente (Charta, STATUS, Entscheide)
    ändert nie eine Marketing-Session** — nur der Postkorb ist

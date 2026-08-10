@@ -6,7 +6,7 @@
 >
 > **Lese-Regel (verbindlich):**
 > 1. Diese STATUS.md immer zuerst lesen — **danach**
->    `C:\Users\qwafa_2dwxzia\zentrale\STATUS.md` (Firmen-Ebene, s.
+>    `C:\Users\qwafa_2dwxzia\firma\zentrale\STATUS.md` (Firmen-Ebene, s.
 >    CLAUDE.md Abschnitt „Firmen-Ebene").
 > 2. Für Details/Historie die Projektquelle **gezielt** lesen (grep bzw.
 >    Read mit offset auf „AKTUELLER STAND", „NÄCHSTER KONKRETER SCHRITT",

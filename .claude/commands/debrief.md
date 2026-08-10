@@ -57,7 +57,7 @@ Skill/Command VORSCHLAGEN und erst nach ausdrücklichem User-OK anlegen.
 Learning):** Ist das Learning **projektunabhängig** — würde es JEDEM
 Projekt nach diesem Arbeitsmodell nützen? Dann gehört es zusätzlich ins
 Methodik-Blueprint-Repo `projektgerüst`
-(`C:\Users\qwafa_2dwxzia\projektgeruest`):
+(`C:\Users\qwafa_2dwxzia\firma\projektgeruest`):
 - Zielstelle in `vorlage/` editieren (CLAUDE-vorlage, Command-Vorlage
   oder Baustein) — projektspezifische Details dabei entfernen
   (Kundennamen, Systemnamen, Pfade), Herkunftsvermerk kurz

@@ -2,6 +2,11 @@
 
 > **Strang:** MKT-HANDEL · **Erstellt:** Session R07-D (Rockstar), 10.08.2026
 > **Repo-Messstand zu Beginn:** `0ea39bb`
+> **Fassung 3** — Fassung 1 erstellt, Fassung 2 nach dem unabhängigen
+> Prüfprotokoll `protokolle/R07-D-pruefer.md` (30 Befunde), Fassung 3 nach
+> dem Leitsessions-Zuruf zur Verflechtung der Pilotobjekte. **Korrigierte
+> Fehler der Vorfassungen stehen sichtbar im Text**, nicht still ersetzt —
+> sie sind der Beleg dafür, welche Prüfwege gegriffen haben.
 > **Auftrag:** Die zwei seit R5 offenen fallbezogenen Rückfragen aus
 > `fund/wettbewerbsbild.md` B9.4 (IFB Hamburg · WTSH) in versandfertige
 > Anfragen überführen und die drei Programme mit Belegstufe je Aussage
@@ -48,9 +53,15 @@ Anfragen.
 
 | Programm | Antragsteller / Zuwendungsempfänger | Unsere Rolle | Belegstufe |
 |---|---|---|---|
-| **Hamburg Digital Check** | **Der Kunde** — „rechtlich selbstständige kleine und mittlere Unternehmen (KMU gem. EU-Definition) der gewerblichen Wirtschaft … mit einer Betriebsstätte in Hamburg" (Ziffer 2) | **Beratungsdienstleister.** Wir stellen keinen Antrag. Wir unterschreiben die Anlage „Selbsterklärung Digitalisierungsberatung" (Ziffer 4) | `BYTE` / `AMTL` (Richtlinie, Stand 01.08.2025), 10.08.2026 |
+| **Hamburg Digital Check** | **Der Kunde** — „rechtlich selbstständige kleine und mittlere Unternehmen (KMU gem. EU-Definition) der gewerblichen Wirtschaft, **des Handwerks sowie freie Berufe** mit einer Betriebsstätte in Hamburg" (Ziffer 2). Zusatz Satz 2: „Die Beratung muss sich auf die Hamburger Betriebsstätte beziehen und die Umsetzung … muss für die Hamburger Betriebsstätte geplant sein." | **Beratungsdienstleister.** Wir stellen keinen Antrag. Wir unterschreiben die Anlage „Selbsterklärung Digitalisierungsberatung" (Ziffer 4) | `BYTE` / `AMTL` (Richtlinie, Stand 01.08.2025), 10.08.2026 |
 | **SH-DKU Modul 1 (Beratung)** | **Der Kunde** — „kleine Unternehmen der gewerblichen Wirtschaft gemäß der KMU-Definition" (Ziffer 3.1.1). Achtung: **kleine**, nicht mittlere → < 50 Beschäftigte und ≤ 10 Mio. € Jahresumsatz/-bilanz (Fußnote 1) | **Externer Beratungsdienstleister**; unsere Ausgaben sind der Zuwendungsgegenstand (Ziffer 5.2.1) | `BYTE` / `AMTL` (Amtsbl. SH 2026/190), 10.08.2026 |
 | **BAFA-Unternehmensberatung** | **Der Kunde** (das beratene KMU) — „Die Auszahlung des Zuschusses erfolgt an das beratene Unternehmen" (Ziffer 5.1) | **Beratungsunternehmen mit BAFA-Registrierung**; hier trifft uns die Registrierungsvoraussetzung selbst | `BYTE` / `AMTL` (Förderrichtlinie i. d. F. vom 12.12.2024), 10.08.2026 |
+
+**⭐ Programmkontrast, der sonst untergeht:** **Freie Berufe** sind in
+Hamburg ausdrücklich antragsberechtigt, in Schleswig-Holstein nach
+Ziffer 3.1.1 ausdrücklich **nicht**. Bei Betrieben in Mischform (z. B.
+Beherbergung neben freiberuflicher Tätigkeit) entscheidet das über das
+Programm.
 
 **Konsequenz für die Anfragen (Adressaten-Prüfung, Baustein
 `aussenkorrespondenz`):** Weil wir in allen drei Programmen **nicht**
@@ -75,13 +86,17 @@ Domain mit Kontrollpfad `/zzz-r07d-kontrollpfad` am 10.08.2026 —
 `www.ifbhh.de` antwortet HTTP 404 (5.748 Byte gegen 118.858 Byte
 Startseite), `wtsh.de` HTTP 404 (64.252 Byte gegen 84.286 Byte
 Startseite). **Kein Wildcard-Redirect** — die Befunde unten sind keine
-Artefakte.
+Artefakte. *(Belegstufe: Der Statuscode stammt aus der
+`curl`-Schreibvorlage `%{http_code}` und ist **nicht archiviert**; belegt
+sind Statuszeile und Byte-Länge nur als Werkzeugausgabe im
+Session-Scratchpad, nicht als Datei im Repo — vgl. den analogen
+R06-A-Prüferbefund K-15.)*
 
 | Prüfgegenstand | Ergebnis 10.08.2026 | Belegstufe |
 |---|---|---|
-| **Hamburg Digital Check, Richtlinie** | **Unverändert geltend.** Das von der IFB-Programmseite verlinkte PDF ist **byte-identisch** zum R05-A-Stand vom 09.08.2026 (SHA-256 `8e11dcf0…` auf beiden Seiten). Die Richtlinie trägt „Gültig ab 1. August 2025", Ziffer 8: „befristet bis zum 31.12.2026. Anträge müssen vollständig bis 16.11.2026 bei der IFB Hamburg gestellt sein." | `BYTE` / `AMTL` |
+| **Hamburg Digital Check, Richtlinie** | **Zwischen 09. und 10.08.2026 unverändert**, und die Richtlinie ist an diesem Tag das von der Programmseite verlinkte Dokument: byte-identisch zum R05-A-Stand (SHA-256 `8e11dcf0…` auf beiden Seiten). Sie trägt „Gültig ab 1. August 2025", Ziffer 8: „befristet bis zum 31.12.2026. Anträge müssen vollständig bis 16.11.2026 bei der IFB Hamburg gestellt sein." ⚠️ **Der Hash-Vergleich belegt Unverändertheit über 24 Stunden, nicht „geltend"** — geltend ist sie, weil die ausgebende Stelle sie am 10.08.2026 als Programmdokument ausliefert (Prüferbefund P07D-08) | `BYTE` / `AMTL` |
 | **Hamburg Digital Check, Programmseite** | Byte-identisch zum 09.08.-Stand (SHA-256 `cca8a79f…`) | `BYTE` / `ANBIETER-SELBST` |
-| **SH-DKU, geltende Fassung** | **Amtsbl. SH 2026/190 vom 05.06.2026 ist die geltende Fassung.** Ziffer 9: „Zugleich tritt die Richtlinie … vom 20. April 2023 außer Kraft." Laufzeit bis **30.06.2027**, verlängerbar, längstens bis 31.12.2029. An der ausgebenden Stelle (Verkündungsportal SH) am 10.08.2026 abrufbar, Kopf „Amtsblatt 2026/190 vom 5. Juni 2026" | `BYTE` / `AMTL` |
+| **SH-DKU, geltende Fassung** | Amtsbl. SH **2026/190** vom 05.06.2026 ist am 10.08.2026 die von der ausgebenden Stelle (Verkündungsportal SH) ausgelieferte Fassung, Kopf „Amtsblatt 2026/190 vom 5. Juni 2026". Ziffer 9: „Zugleich tritt die Richtlinie … vom 20. April 2023 außer Kraft." Laufzeit bis **30.06.2027**, verlängerbar, längstens bis 31.12.2029. ⚠️ **Suchraum-Grenze:** Geprüft ist die Existenz und Auslieferung dieser Fassung. **Eine Gegenprobe auf spätere Änderungsvorschriften im Amtsblatt ist nicht gelaufen** — genau so war die Altfassung geändert worden (s. 2.1). „Geltend" heißt hier: keine spätere Fassung gesucht, nicht: keine vorhanden (Prüferbefund P07D-19) | `BYTE` / `AMTL` |
 | **WTSH-Programmseite** | Inhaltlich unverändert gegenüber dem 09.08.-Stand. Der Datei-Hash weicht ab, der Textvergleich zeigt als **einzigen** Unterschied einen Cache-Zeitstempel (`time: "1786298695"` → `"1786360653"`) | `BYTE` / `ANBIETER-SELBST` |
 
 ### 2.1 ⚠️ Befund gegen B9.4: die Warnung vor dem veralteten Richtlinien-Link ist an dieser Seite nicht belegt
@@ -101,14 +116,40 @@ Fassung. Dasselbe gilt für den **R05-A-Rohbeleg vom 09.08.2026**
 und er zeigt bereits auf 2026/190. Die Aussage war also **schon zum
 Erhebungszeitpunkt** an dieser Seite nicht belegt.
 
-**Was belegt ist:** Die 2023er konsolidierte Lesefassung existiert und
-enthält die go-digital-Lizenzpflicht („Beauftragte Beratungsunternehmen
-müssen für eine go-digital-Beratung des Bundes lizenziert sein") — sie
-liegt als `sh-dku-rl.txt` im R05-A-Rohbelegbestand. **Nicht belegt ist,
-über welchen Weg R05-A sie erreicht hat.** Die inhaltliche
-Kernaussage von B9.4 — *die Lizenzpflicht ist in der geltenden Fassung
-entfallen* — bleibt davon **unberührt und richtig**; falsch ist nur die
-Zuschreibung des Fehlers an die WTSH-Programmseite.
+**Was belegt ist:** Die Altfassung existiert und enthält die
+go-digital-Lizenzpflicht („Beauftragte Beratungsunternehmen müssen für
+eine go-digital-Beratung des Bundes lizenziert sein") — sie liegt als
+`sh-dku-rl.txt` im R05-A-Rohbelegbestand. ⚠️ **Sie ist keine „Fassung vom
+20.04.2023", sondern eine konsolidierte Lesefassung**: Kopf „Bekanntmachung
+… vom 20. April 2023 / Geändert durch Verwaltungsvorschrift vom 30.11.2023
+… / Geändert durch Verwaltungsvorschrift vom **14.02.2024**". Maßgeblich
+war also die Gestalt i. d. F. vom 14.02.2024. **Nicht belegt ist, über
+welchen Weg R05-A sie erreicht hat.** Die inhaltliche Kernaussage von
+B9.4 — *die Lizenzpflicht ist in der geltenden Fassung entfallen* — bleibt
+davon **unberührt und richtig**.
+
+**⭐ Und die Warnung hat doch einen Kern — an anderer Stelle als behauptet.**
+Der Prüfer hat den Inhalt derselben Seite gegengelesen (P07D-21), diese
+Session hatte nur den **Link** gemessen. Auf der WTSH-Programmseite steht:
+
+> Unternehmen aus den Bereichen Fischerei, Aquakultur und der
+> Landwirtschaft (Primärerzeugung, Verarbeitung und Vermarktung
+> landwirtschaftlicher Produkte) sind nicht antragsberechtigt.
+
+Das ist die Ausschlussliste der **Altfassung**. Die geltende Ziffer 3.1.1
+nennt zusätzlich freie Berufe nach § 18 EStG sowie „Krankenhäuser,
+Kliniken, Medizinische Versorgungszentren, **Sanatorien oder ähnliche
+Einrichtungen**". **Die Programmseite gibt den geltenden Stand also
+unvollständig wieder — ausgerechnet um den Posten, der unsere Frage 1
+trägt.** Wer sich nur auf die Programmseite verlässt, hält einen Betrieb
+möglicherweise zu Unrecht für antragsberechtigt.
+
+**Gesamtbewertung:** B9.4 hat die richtige Warnung am falschen Beleg
+festgemacht. Zu korrigieren ist die Zuschreibung („der verlinkte
+Richtlinien-Text"), nicht die Warnung selbst — die Programmseite führt
+tatsächlich einen Altstand, nur an anderer Stelle. Die Richtung der
+Fehlwirkung dreht sich dabei um: nicht „hält sich fälschlich für
+ausgeschlossen", sondern „hält sich fälschlich für berechtigt".
 
 → **Zielort:** `fund/wettbewerbsbild.md` B9.4 gehört R07-A (Session
 Ben Beckman). Diese Session hat dort **nur Lesezugriff** und trägt den
@@ -139,15 +180,19 @@ einem Briefversand nachzubelegen.)*
 | Beratertagessatz | „Maximal kann ein Beratertagessatz von 1.100 € **(ohne Umsatzsteuer)** als förderfähig anerkannt werden" | **netto**, Steuerbasis in der Quelle ausdrücklich genannt |
 | Antragsfrist | „Anträge müssen vollständig bis 16.11.2026 … gestellt sein" | Richtlinie befristet bis 31.12.2026 |
 | Vorhabenbeginn | „Es können nur solche Vorhaben gefördert werden, die noch nicht begonnen wurden. Ein Vorhaben gilt als begonnen, sobald entsprechende Lieferungs- oder Leistungsverträge abgeschlossen wurden." | ⚠️ **Der Vertragsschluss mit uns ist der Vorhabenbeginn** |
-| Kumulierung | „Eine Kombination der Zuwendung mit anderen nicht rückzahlbaren Zuschüssen aus EU-, Bundes oder Landesprogrammen ist nicht möglich." | schließt SH-DKU und BAFA **für dasselbe Vorhaben** aus |
+| Kumulierung | „Eine Kombination der Zuwendung mit anderen nicht rückzahlbaren Zuschüssen aus EU-, Bundes oder Landesprogrammen ist nicht möglich." ⚠️ **Die Quelle sagt „Kombination", ohne Vorhabenbezug** — die Einschränkung „für dasselbe Vorhaben" ist eine **Auslegung**, und sie geht in die für uns günstige Richtung (P07D-25) | schließt SH-DKU und BAFA als Parallelzuschuss aus |
+| Förderdarlehen | „Wird zur weiteren Finanzierung der Beratung ein Förderdarlehen aufgenommen, gilt, dass die Höhe des Förderdarlehens die Gesamtprojektkosten abzüglich des Förderzuschusses durch Hamburg Digital Check nicht übersteigen darf." | **Ein Förderdarlehen ist also nicht ausgeschlossen** — Gestaltungsmöglichkeit zugunsten des Kunden |
 | Wiederholung | Innerhalb von zwei Jahren nur, soweit die 7.500 € nicht ausgeschöpft sind | — |
 | Rechtsgrundlage | De-minimis-VO (EU) 2023/2831 | **nicht** Art. 18 AGVO — s. Kontrast zu SH-DKU unten |
 | Ergebnispflicht | Beratung „soll im Ergebnis mit einem konkreten Realisierungskonzept … enden" mit Inhalt, Zielen, Ressourcen/Investitionen und Umsetzungszeitplan | prägt unser Beratungs-Deliverable |
 
 **Rechnungs-Hinweis (`EIGEN`):** Bei 50 % Quote und 7.500 € Deckel ist der
-Deckel bei 15.000 € förderfähigen Ausgaben erreicht; bei 1.100 €
-Tagessatz-Obergrenze entspricht das rund 13,6 Beratertagen. **Der Zählweg
-ist die Division 15.000 / 1.100 — die Richtlinie nennt diese Zahl nicht.**
+Deckel bei 15.000 € förderfähigen Ausgaben erreicht; bei **Ausschöpfung
+der Tagessatz-Obergrenze** von 1.100 € entspricht das rund 13,6
+Beratertagen. **Zählweg: Division 15.000 / 1.100 — die Richtlinie nennt
+diese Zahl nicht.** ⚠️ **Das ist eine Untergrenze, keine feste Zahl:**
+1.100 € ist ein Maximum, bei niedrigerem Tagessatz sind es entsprechend
+mehr Tage (P07D-17).
 
 ### 3.2 Fördergegenstand — der Wortlaut, um den es geht
 
@@ -160,6 +205,28 @@ mit genau zwei Spiegelstrichen (`BYTE`/`AMTL`, wörtlich):
 > ▪ Beratungsleistungen zur konkreten Verbesserung oder Einführung von
 > betrieblichen Infrastrukturen und Maßnahmen zur Digitalisierung von
 > Geschäftsmodellen, Produkten und Dienstleistungen.
+
+**⭐ Der einzige IFB-eigene Auslegungsanker.** Die Selbsterklärung enthält
+ein Beispiel, das die Richtlinie selbst nicht gibt (`BYTE`/`FORM`,
+wörtlich):
+
+> Beispiel: Für ein Einzelhandelsgeschäft wurde ein Digitalisierungskonzept
+> erarbeitet. Das Digitalisierungskonzept umfasst die Einführung eines
+> integrierten Warenwirtschafts- und Kassensystems mit digitaler
+> Lagerverwaltung, elektronischer Zahlungsabwicklung und zentraler
+> Kundendatenpflege.
+
+Das ist **prozess- und transaktionsseitig** gefasst, nicht
+sichtbarkeitsseitig — und es stützt den gewählten Zuschnitt der Anfrage
+(Buchungs-/Kommunikationsstrecke, Anbindung an PMS und Gästedatenhaltung)
+unmittelbar. Deshalb ist es in Frage 1 der IFB-Anfrage als Referenz
+aufgenommen: Eine Einordnungsfrage an einem eigenen Beispiel der Behörde
+wird eher beantwortet als eine offene Auslegungsfrage.
+**⚠️ Programmkontrast:** Kassensysteme stehen bei der WTSH ausdrücklich auf
+der **Negativ**liste („Kassensysteme inkl. Barcodescanner und Bondrucker").
+Dieselbe Maßnahme ist also je nach Programm Musterbeispiel oder
+Ausschluss — ein Grund mehr, den Zuschnitt je Programm zu prüfen statt
+einmal zu entscheiden.
 
 **Nachmessung der B9.4-Zählung (10.08.2026, `BYTE`).** Zählweg:
 `grep -oi <muster> hh-digitalcheck-rl.txt | wc -l` — **nicht** `grep -c`,
@@ -192,9 +259,15 @@ vorlegt.
 B9.4 führt den Hamburg Digital Check als „**Selbsterklärung
 ‚Digitalisierungsberatung'** — keine Akkreditierung, **niedrigste Hürde
 aller geprüften Programme**". Diese Session hat das Formular selbst
-gelesen (`selbsterklaerung-digitalisierungsberatung-data.pdf`, von der
-IFB-Programmseite, abgerufen 10.08.2026, 2 Seiten — `BYTE`/`FORM`). Es
-enthält Anforderungen, die im Repo bisher **nirgends** dokumentiert sind:
+gelesen (`selbsterklaerung-digitalisierungsberatung-data.pdf`,
+**Formularversion `WDIG029F0126 LCD`**, von der IFB-Programmseite,
+abgerufen 10.08.2026, 2 Seiten — `BYTE`/`FORM`). Die Version gehört
+mitgeführt: Wir unterschreiben dieses Formular, sein Text wird für uns
+Kanon, und eine spätere Fassung ändert die Erklärung, ohne dass es
+auffällt.
+
+**Es enthält vier mit [§] gekennzeichnete Verpflichtungen** — vollständige
+Liste, nicht Auswahl:
 
 1. **Referenzpflicht** — wörtlich: „die fachliche Expertise für das
    geplante Beratungsprojekt zu besitzen. Ich habe zudem im den letzten
@@ -206,12 +279,17 @@ enthält Anforderungen, die im Repo bisher **nirgends** dokumentiert sind:
    zu empfehlen und über Vor- und Nachteile zu unterrichten. Es müssen
    auch mögliche Alternativen aufgezeigt werden. Eventuelle Provisionen
    sind offenzulegen."
-3. **Qualitätsstandards** — „einschlägige Qualitätsstandards und Normen
-   (z.B. BSI IT-Grundschutz, ISO 27001) anzuerkennen".
-4. **⚠️ Alle drei Punkte sind mit [§] gekennzeichnet und damit
-   „subventionserhebliche Tatsachen gemäß § 264 StGB"** (Subventionsbetrug),
-   ausdrücklich einschließlich Tatsachen, „die durch Scheingeschäfte oder
-   Scheinhandlungen verdeckt werden".
+3. **KMU-Ausrichtung** — „meine Arbeit auf die Bedürfnisse von KMU
+   auszurichten".
+4. **Qualitätsstandards** — „einschlägige Qualitätsstandards und Normen
+   (z.B. BSI IT-Grundschutz, ISO 27001) anzuerkennen, **mich fortwährend
+   daran zu orientieren und die Einhaltung sicherzustellen**" (Fassung 1
+   hatte hier still gekürzt).
+
+**⚠️ Alle vier Punkte sind mit [§] gekennzeichnet und damit
+„subventionserhebliche Tatsachen gemäß § 264 StGB"** (Subventionsbetrug),
+ausdrücklich einschließlich Tatsachen, „die durch Scheingeschäfte oder
+Scheinhandlungen verdeckt werden".
 
 **Warum das die Förderarchitektur betrifft und nicht nur ein Detail ist:**
 
@@ -220,8 +298,20 @@ enthält Anforderungen, die im Repo bisher **nirgends** dokumentiert sind:
   Einstufung „niedrigste Hürde aller geprüften Programme" ist damit
   **mindestens erklärungsbedürftig**.
 - Die Wettbewerbsneutralität berührt direkt das Geschäftsmodell:
-  Wir beraten und wollen anschließend **umsetzen**. Ob und wie die IFB das
-  trägt, ist eine Auslegungsfrage an die IFB — **Frage 3 der Anfrage**.
+  Wir beraten und wollen anschließend **umsetzen**. ⚠️ **Diese Frage steht
+  bewusst NICHT in der IFB-Anfrage** — eine offene Ja/Nein-Frage lädt zur
+  schriftlichen Ablehnung ein, solange wir keinen Gestaltungsvorschlag
+  haben. Wiedervorlage an F-5 (P07D-02).
+- **Nicht neu im Repo, entgegen der Erstfassung dieses Abschnitts:**
+  `fund/positionierungspapier.md`, Säule 5 „Förder-Begleitung", führt
+  bereits: „heyPensio erscheint in keinem Förderantrag, Verflechtungen
+  werden offengelegt (**WTSH-Leitplanke, § 264 StGB**); ein
+  ‚Förderantrags-Service' als Angebot ist **GEPARKT**". Damit sind § 264
+  StGB, die Offenlegungspflicht und die Parkung des Antrags-Services
+  bereits geführt — **F-5 beginnt nicht bei null, sondern bei dieser
+  Leitplanke**, und sie deckt sich bemerkenswert genau mit dem, was
+  Abschnitt 4.1b als Mitwirkungsproblem misst. Die Erstfassung behauptete
+  „im Repo bisher nirgends dokumentiert" ohne Suchbeleg (P07D-12).
 - **Was wir NICHT tun:** Wir fragen die IFB nicht, ob *wir* die drei
   Referenzen haben. Das ist eine Tatsache aus unseren Unterlagen, und eine
   Behörde nach der eigenen Erfüllung zu fragen, ist bei einer
@@ -256,15 +346,146 @@ Technologie und Tourismus.
 | Laufzeit | bis **30.06.2027** (Ziffer 9), verlängerbar | — |
 | Rechtsgrundlage Modul Beratung | „insbesondere **Artikel 18 KMU-Beihilfen für die Inanspruchnahme von Beratungsdiensten** für das Modul Beratung" (Ziffer 1.2) | ⭐ Quelle des Werbe-Ausschlusses unten |
 
-**⚠️ Korrektur zur B9.4-Zeile „Beraterkosten mind. 2.500 € netto":** Diese
-Session hat die Bagatellgrenze im Amtsblatt 2026/190 **nicht
-wiedergefunden**. Der Wert wird hier **nicht bestätigt und nicht
-widerlegt** — er ist „nicht geprüft", nicht „falsch". Die Suche war
-gezielt (Ziffern 2.1, 4, 5.2.1, 5.3.1 gelesen), aber **keine
-Volltextsuche über alle 646 Zeilen mit Positivkontrolle**, und damit kein
-belastbares Negativ.
-→ **Offener Punkt F-2** (Träger: Leitsession/R07-A): Herkunft der 2.500 €
-klären, bevor der Wert in ein Kundendokument geht.
+**Bagatellgrenze (B9.4 bestätigt).** Ziffer 4.4 wörtlich: „Für Förderungen
+nach Ziffer 2.1 müssen die kalkulierten Beraterkosten mindestens
+**2.500 Euro (zuzüglich Mehrwertsteuer)** betragen". Die Steuerbasis steht
+also in der Quelle selbst: **netto**. Die Programmseite formuliert
+zusätzlich: „Die kalkulierten Beraterkosten betragen mindestens 2.500 Euro
+und maximal 20.000 Euro." Damit ist die Spanne beidseitig belegt.
+
+> ⚠️ **Eigener Fehler, hier stehen gelassen statt still korrigiert.**
+> Fassung 1 dieses Dokuments meldete den Wert als „im Amtsblatt nicht
+> wiedergefunden" und legte dafür den offenen Punkt F-2 an — mit dem
+> Zusatz, die Suche habe „Ziffer 4" umfasst. Das war falsch: Der gelesene
+> Ausschnitt endete bei Zeile 175, Ziffer 4.4 steht bei Zeile 230. Ein
+> Negativ aus einer **abgeschnittenen** Werkzeugausgabe trägt nicht — und
+> die Behauptung, den Abschnitt gelesen zu haben, machte den Fehler für
+> jeden Prüfer unsichtbar. Gefunden vom Prüfer (P07D-15). **F-2 ist
+> ersatzlos gestrichen.**
+
+**Weitere Deckelung (Ziffer 4.6):** „Ein Zuschuss aus diesem Förderprogramm
+kann jeder Zuwendungsempfängerin beziehungsweise jedem Zuwendungsempfänger
+während der Laufzeit der Richtlinie **aus jedem Modul jeweils nur einmal**
+gewährt werden."
+
+### 4.1a ⭐ Zwei Pflichten des Moduls 1, die unsere Leistungsfähigkeit betreffen
+
+Beide sind Voraussetzung der Förderfähigkeit, nicht Kür (`BYTE`/`AMTL`):
+
+1. **IT-Sicherheitsabschnitt in JEDER Beratung** — Ziffer 2.1 wörtlich:
+   „Jede geförderte Beratung muss einen Abschnitt zur Bewertung und
+   Stärkung der IT- und Informationssicherheit enthalten, einschließlich
+   einer **Risikoanalyse** und konkreter Handlungsempfehlungen zur
+   Umsetzung technischer und organisatorischer Schutzmaßnahmen."
+2. **Schriftlicher Beratungsbericht** — Ziffer 4.2 wörtlich: „Gefördert
+   werden Vorhaben gemäß Ziffer 2.1, die in einem **schriftlichen
+   Beratungsbericht** individuelle Lösungen und Handlungsempfehlungen zur
+   konkreten Umsetzung von Digitalisierungsprozessen einschließlich der
+   hierfür erforderlichen Hard- und Software erarbeiten …"
+
+**Das ist eine harte Fähigkeitsvoraussetzung an uns.** Eine
+Digitalisierungsberatung ohne IT-Sicherheitsteil mit Risikoanalyse ist im
+Modul 1 nicht förderfähig — unabhängig davon, wie gut der Rest ist.
+→ **Offener Punkt F-11** (Träger: MKT-HANDEL): Entscheiden, ob wir diesen
+Abschnitt selbst leisten oder zukaufen, bevor SH-DKU als Preis-Hebel
+angeboten wird.
+*(Beide Pflichten fehlten in Fassung 1 vollständig — Prüferbefund
+P07D-22. Ursache: derselbe abgeschnittene Leseausschnitt wie oben; der
+Satz „Jede geförderte Beratung muss einen Abschnitt zur Bewertung und
+Stärkung der" brach in der Werkzeugausgabe mitten entzwei und wurde nicht
+weiterverfolgt.)*
+
+### 4.1b ⭐⭐ Mitwirkung an der Antragstellung entwertet unsere eigenen Kosten
+
+Die WTSH-Programmseite (`BYTE`/`ANBIETER-SELBST`, 10.08.2026, Abschnitt
+„Hinweise zur Antragstellung") wörtlich:
+
+> Kosten, die von einem Dienstleistungsunternehmen in Rechnung gestellt
+> werden, welches bei der Antragstellung **aktiv mitgewirkt** hat, können
+> keine zuwendungsfähigen Kosten in einem Fördervorhaben sein und werden
+> nicht anerkannt.
+
+Ergänzend dort: Die Antragstellung muss zwingend mit dem
+ELSTER-Organisationszertifikat **des antragstellenden Unternehmens**
+erfolgen, und „die Angabe von Daten anderer Unternehmen — insbesondere von
+Beratungs- oder Dienstleistungsunternehmen in den Antragsfeldern — ist
+unzulässig", ausdrücklich auch für die E-Mail-Adresse.
+
+**Das trifft ein Angebot mit Förder-Begleitung im Kern:** Wer dem Kunden
+beim Antrag hilft, kann anschließend seine eigene Beratung nicht mehr
+abrechnen. Die Grenze zwischen „auf das Programm hinweisen" und „aktiv
+mitwirken" ist nicht definiert — deshalb **Frage 5 der WTSH-Anfrage**.
+Das Positionierungspapier führt dazu bereits eine Leitplanke, siehe 3.3.
+→ **Offener Punkt F-12** (Träger: MKT-HANDEL): Förder-Begleitung im
+Angebot so zuschneiden, dass sie unterhalb der Mitwirkungsschwelle bleibt,
+oder bewusst auf die eigene Förderfähigkeit verzichten.
+*(Prüferbefund P07D-06.)*
+
+### 4.1c ⭐⭐⭐ Verflechtung: der Ausschluss trifft unsere konkrete Lage, nicht nur ein Modell
+
+**Auslöser:** Zuruf der Leitsession an diese Session (10.08.2026), gestützt
+auf den Befund aus R07-B, den die Leitsession an der Rohquelle
+gegengelesen hat (eigene Mail `19f841d1855798c5`, 21.07.2026, Label
+`SENT`), und auf die bereits abgesetzte Postkorb-Meldung
+`zentrale\eingang\2026-08-10-mkt-verflechtung-pilotobjekte.md`. **Diese
+Session doppelt die Meldung nicht** — sie zieht nur die
+förderrechtliche Konsequenz für MKT-HANDEL.
+
+**Sachverhalt (Belegstufe `SEKUNDÄR`/`EIGEN` — Postkorb-Meldung und Zuruf
+gelesen, die Mail selbst hat diese Session nicht geöffnet):** Kayhan
+Rasuly ist GF der HANSE Hotelbetriebsgesellschaft mbH (Hotel Firzlaff)
+und Inhaber von Rabe's Hotel Kiel, also Entscheider bei **zwei** der drei
+Pilotobjekte, zugleich als externer Berater unserer eigenen Firma
+vorgesehen und Cousin eines Gesellschafters. Wörtlich aus unserer eigenen
+Mail: „Beide Angebote dienen als Anlage zu **Förderanträgen bei der
+WTSH**."
+
+**Die Richtlinie adressiert genau das — zweimal (`BYTE`/`AMTL`):**
+
+Ziffer 5.2.1, Ausschlüsse im Modul Beratung, wörtlich:
+> Ausgeschlossen werden hierbei:
+> – eine **Beratung durch Angehörige**,
+> – eine Beratung durch Inhaberinnen oder Inhaber, Gesellschafterinnen
+> oder Gesellschafter oder Mitarbeiterinnen oder Mitarbeiter des beratenen
+> Unternehmens sowie **eines mit dem beratenen Unternehmen verbundenen
+> Unternehmens**, …
+
+Negativliste (Stand 05.06.2026), wörtlich:
+> Leistungen und Wirtschaftsgüter, die von verbundenen oder sonst
+> wirtschaftlich, rechtlich oder personell **verflochtenen** Unternehmen
+> (einschließlich aller Unternehmen, an denen **mit den Gesellschaftern
+> verwandte Personen** … Anteil halten bzw. in einer Unternehmensbeziehung
+> stehen) erbracht bzw. hergestellt oder erworben werden
+
+**Drei Folgen, die vor jedem weiteren Schritt zu klären sind:**
+
+1. **Eine SH-DKU-geförderte Beratung von Firzlaff's oder Rabe's durch uns
+   ist förderrechtlich gefährdet.** Ob „Angehörige" den Cousin eines
+   Gesellschafters erfasst und ob eine „Unternehmensbeziehung" im Sinne
+   der Negativliste vorliegt, ist eine Rechtsfrage — **sie gehört zum
+   Steuerberater/Anwalt, nicht in eine Behördenmail** (Adressaten-Prüfung:
+   Sie fragt nach der Bewertung UNSERER Konstellation).
+2. **Die Mitwirkungsschwelle aus 4.1b ist möglicherweise bereits
+   überschritten.** Wir haben Anbieter-Angebote als Antragsanlagen
+   beschafft. Ob das „aktive Mitwirkung bei der Antragstellung" ist, ist
+   damit keine Vorsorgefrage mehr, sondern betrifft **laufende Vorgänge**.
+3. **Der Hamburg Digital Check ist davon nach dem Richtlinientext nicht
+   berührt:** Die Muster `Angehörig`, `verbunden`, `verflochten`,
+   `nahestehend`, `Interessenkonflikt` treffen dort **je 0**
+   (Positivkontrolle im selben Lauf: `Berat` 18 ✔). ⚠️ Das ist ein Negativ
+   über den **Richtlinientext**, keine Aussage über die Praxis der IFB —
+   und die Selbsterklärung verlangt Wettbewerbsneutralität, was in
+   dieselbe Richtung wirkt. Praktisch entscheidet ohnehin die
+   Betriebsstätte: Die Pilotobjekte liegen in Schleswig-Holstein.
+
+→ **Offener Punkt F-14** (Träger: **Zentrale/StB**, nicht MKT): Bewertung
+der Verflechtung gegen SH Ziffer 5.2.1 und die Negativliste. **Vor** einer
+SH-DKU-geförderten Beratung eines Rasuly-Objekts.
+→ **Offener Punkt F-15** (Träger: **User/Zentrale**): Tatsächlicher Stand
+der WTSH-Anträge, bei denen wir Angebote beschafft haben — gestellt,
+beschieden, offen? Diese Session konnte ihn nicht klären; im
+Marketing-Repo ist er nicht geführt. **Das ist eine Versand-Vorbedingung
+der WTSH-Anfrage**, siehe dort.
 
 ### 4.2 Antragsberechtigung — was die Richtlinie selbst schon sagt
 
@@ -303,17 +524,36 @@ Ziffer 5.2.1 — **im Abschnitt zum Modul Beratung** — wörtlich
 > Rechtsberatung oder **Werbung**.
 
 Das ist die Umsetzung von Art. 18 Abs. 2 AGVO, den Ziffer 1.2 als
-Rechtsgrundlage des Moduls Beratung nennt. **Dieser Ausschluss ist im
-gesamten Repo bisher nicht dokumentiert** — Gegenprobe: `grep` über alle
-`*.md` auf `Werbung`, `gewöhnliche Betriebskosten`, `Art. 18`, `Artikel 18`
-am 10.08.2026 findet außerhalb von Rohbelegen genau **einen** Treffer
-(`fund/wettbewerbsbild.md:2508`, dort in einem anderen Zusammenhang).
+Rechtsgrundlage des Moduls Beratung nennt. **Dieser Ausschluss war im Repo nicht dokumentiert.** Gegenprobe am
+Messstand `0ea39bb`, `grep` über alle `*.md` außerhalb von `sensibel/`,
+`handel/`, `protokolle/`, **Treffer je Muster** statt Sammelsumme:
+
+| Muster | Treffer | Fundstellen |
+|---|---|---|
+| `Werbung` | **2** | `fund/wettbewerbsbild.md` (§ B9.4-Umfeld, „bezahlte Werbung", DEHOGA-BW) · `beleg/vorlagen/referenzvereinbarung-pilotobjekte.md` („Namensnennung und Werbung mit Ihrer Referenz") — **beide sachfremd** |
+| `gewöhnliche(n/r) Betriebskosten` | 0 | — |
+| `Art. 18` | 0 | — |
+| `Artikel 18` | 0 | — |
+
+Die Schlussfolgerung bleibt: Der SH-DKU-Werbe-Ausschluss war nicht
+geführt. *(Fassung 1 meldete „1 Treffer" aus einem Sammellauf über vier
+Muster — die Zahl war falsch, und drei tote Muster blieben unsichtbar.
+Genau die Konstellation „ein Sammellauf mit Treffern sieht aus wie ein
+funktionierender Prüfweg"; P07D-16.)*
 
 **Verstärkt wird er durch die Positiv-/Negativliste der WTSH**
 (`260605-dku_positiv-negativliste-mj.pdf`, Stand 05.06.2026, 3 Seiten,
 `BYTE`/`ANBIETER-SELBST` — von der Programmseite, kein Amtsblatt-Anhang).
-Sie ist die in Ziffer 5.2.3 angekündigte Veröffentlichung und benennt
-beide Seiten der Linie wörtlich:
+*(Dass sie die in Ziffer 5.2.3 angekündigte Veröffentlichung ist, ist ein
+**Schluss** aus der Ankündigung „Ein Katalog an förderfähigen und nicht
+förderfähigen Gegenständen wird auf der Homepage der WTSH veröffentlicht",
+keine Aussage der Liste selbst — sie trägt keinen Richtlinienbezug. Genau
+diesen Schluss stellt Frage 3 der Anfrage zur Prüfung.)*
+
+**⚠️ Die folgende Tabelle ist ein AUSZUG, keine Wiedergabe der Liste.**
+Auswahlkriterium: Einträge mit unmittelbarem Bezug zu Marketing,
+Sichtbarkeit und Vertrieb. Die Liste enthält darüber hinaus zahlreiche
+produktions- und prozessseitige Einträge. Beide Seiten der Linie wörtlich:
 
 | Seite | Wortlaut |
 |---|---|
@@ -323,6 +563,8 @@ beide Seiten der Linie wörtlich:
 | **Negativ** | „Anfertigung von Fotos, Audio- oder Videoaufnahmen" |
 | **Positiv** (Verbesserung digitaler Geschäftsmodelle) | „Einführung **neuer, digitaler Vertriebskanäle** inklusive Aufbau des elektronischen Handels …"· „Einführung professioneller Webshops" |
 | **Positiv** (Digitalisierung von Prozessen) | „Einführung eines Customer Relationship Management Systems (**CRM**) oder auch Content Management System (**CMS**) …" |
+| **Positiv** (Digitalisierung von Produkten und Verfahren) | „Einführung digitaler 3D-Visualisierungen (z.B. Messestände, **virtueller Rundgang**, Panorama- oder 360°-Ansichten)" — für Beherbergung der einschlägigste Positiveintrag |
+| **Negativ** | „**Kassensysteme** inkl. Barcodescanner und Bondrucker" — vgl. den Programmkontrast in 3.2 |
 
 **Die Trennlinie steht damit in der Quelle selbst: „Verknüpfung mit den
 betrieblichen Abläufen".** Sichtbarkeit als Selbstzweck ist draußen;
@@ -338,12 +580,26 @@ digitale Vertriebs- und Prozessstrecken sind drinnen.
   Gästekommunikations-Vorhaben ausmachen. Die Einordnung hängt am
   **Zuschnitt des Beratungsgegenstands**, und die Abgrenzung ist genau
   das, was die WTSH beantworten kann.
-- ⚠️ **Ungeklärt und deshalb eigene Frage:** Ob die **Negativliste**
-  („Nicht förderfähige **Ausgaben**") überhaupt für Modul 1 gilt. Ihr
-  Anker in der Richtlinie (Ziffer 5.2.3) steht im Abschnitt zu **Modul 2**;
-  die **Positiv**liste dagegen spiegelt in ihren Überschriften exakt die
-  Modul-1-Kategorien aus Ziffer 2.1. Das ist ein echter Auslegungspunkt →
-  **Frage 3 der Anfrage**.
+- ⚠️ **Ungeklärt und deshalb eigene Frage:** Ob die Negativliste überhaupt
+  für Modul 1 gilt. Die Indizien stehen **gegeneinander**:
+  - *Für Geltung auch in Modul 1:* Sie ist überschrieben „Negativliste
+    nicht-förderwürdiger **Vorhaben**" — „Vorhaben" ist der Oberbegriff aus
+    Ziffer 2 und deckt beide Module. („Nicht förderfähige Ausgaben" ist
+    nur die Rubrikbeschriftung der linken Spalte; Fassung 1 hatte das
+    verwechselt — P07D-23.) Ziffer 5.2.3 enthält zudem auch
+    Modul-3-Regelungen und die allgemeine Vorsteuerregel, ist also nicht
+    rein modul-2-bezogen.
+  - *Gegen Geltung in Modul 1:* Auf der **Programmseite** verweist die
+    WTSH auf die Liste **ausschließlich in den Modul-2-Abschnitten**
+    („Bitte beachten Sie auch die von der WTSH veröffentlichte Positiv-
+    und Negativliste."), im Modul-1-Abschnitt gar nicht. Und die
+    **Positiv**liste führt **4 Rubriken**, während Ziffer 2.1 **5**
+    Bereiche nennt — „Verbesserung der digitalen Souveränität" fehlt. Eine
+    Liste, die eine Kategorie der geltenden Fassung nicht kennt, ist
+    möglicherweise nicht auf sie zugeschnitten.
+
+  → **Frage 3 der Anfrage.** *(Fassung 1 behauptete, die Positivliste
+  spiegle „exakt" die Modul-1-Kategorien — es sind 4 von 5, P07D-11.)*
 - Der Ausschluss ist **programmspezifisch**: Der Hamburg Digital Check
   läuft unter der De-minimis-VO, **nicht** unter Art. 18 AGVO, und
   enthält keine vergleichbare Klausel. **Diese Aussage gilt nur für den
@@ -388,7 +644,11 @@ Diese Session hat die BAFA-Richtlinie selbst gelesen
 (`sensibel\rohbelege-R05-A\a5\bafa\richtlinie.txt`) — alle Angaben unten
 `BYTE`/`AMTL`. **Fassung laut Kopf:** „Vom 14. Dezember 2022 (BAnz AT
 23.12.2022 B1) in der geänderten Fassung vom 12. Dezember 2024 (BAnz AT
-23.12.2024 B1, gültig ab 1. Januar 2024)".
+23.12.2024 B1, gültig ab 1. Januar 2024)". ⚠️ **Der Kopf ist in sich
+widersprüchlich** — eine Änderung vom 12.12.2024 kann schwerlich ab
+01.01.2024 gelten; vermutlich ist 01.01.2025 gemeint. Der Widerspruch
+steht so in der Quelle und wird hier **nicht aufgelöst**, sondern
+weitergegeben (P07D-29).
 ⚠️ **Geltungsstand der BAFA-Richtlinie an der ausgebenden Stelle ist von
 dieser Session nicht geprüft** — anders als bei IFB und WTSH. Der Beleg
 ist der R05-A-Abzug vom 09.08.2026, nicht ein Live-Abruf. Vor einer
@@ -453,17 +713,30 @@ welcher Begründung. **Anker: 31.12.2026** (Antragsfrist laut B9.4).
 
 Der Hamburg Digital Check verbietet die Kombination mit anderen nicht
 rückzahlbaren Zuschüssen aus EU-, Bundes- oder Landesprogrammen
-(`BYTE`/`AMTL`, Ziffer 5). **Für dasselbe Vorhaben ist also genau ein
-Programm wählbar.** Praktisch entscheidet ohnehin die Betriebsstätte:
-Hamburg → IFB, Schleswig-Holstein → WTSH. BAFA wäre bundesweit die
-Alternative, hängt aber an Abschnitt 5.
+(`BYTE`/`AMTL`, Ziffer 5). ⚠️ **Die Norm sagt „Kombination", ohne den
+Zusatz „für dasselbe Vorhaben"** — ob mehrere Vorhaben nacheinander in
+verschiedenen Programmen zulässig sind, ist eine **Auslegung**, nicht der
+Wortlaut, und sie geht in die für uns günstige Richtung. Bis zur Klärung
+gilt der Wortlaut. **Diese Aussage ist aus der Hamburger Norm gezogen und
+gilt zunächst nur für sie**; für SH ist Ziffer 4.6 einschlägig (je Modul
+nur einmal während der Richtlinienlaufzeit), eine Kumulierungsregel
+gegenüber Fremdprogrammen wurde dort **nicht** ausgewertet.
+Ein **Förderdarlehen** ist in Hamburg ausdrücklich kombinierbar (s. 3.1).
+Praktisch entscheidet ohnehin die Betriebsstätte: Hamburg → IFB,
+Schleswig-Holstein → WTSH. BAFA wäre bundesweit die Alternative, hängt
+aber an Abschnitt 5. *(P07D-25.)*
 
 **⚠️ Das ist keine Entwarnung zur Kumulierung insgesamt.** Ob mehrere
 De-minimis-Beihilfen desselben Kunden aus verschiedenen Quellen sich
 gegenseitig aufzehren, richtet sich nach der De-minimis-VO und dem
 De-minimis-Höchstbetrag des **Kunden** — das ist Sache des Kunden und
-seines Beraters, nicht unsere Aussage. Diese Session hat die
-De-minimis-Grenzen **nicht** erhoben.
+seines Beraters, nicht unsere Aussage. Als Größenordnung nennt die
+WTSH-Programmseite: „Die Summe der De-minimis-Beihilfen, die das
+antragstellende Unternehmen bzw. der Unternehmensverbund im
+zurückliegenden Zeitraum von 36 Monaten erhalten kann, ist auf
+**300.000 Euro** begrenzt" (`BYTE`/`ANBIETER-SELBST`; dort im
+Modul-2-Abschnitt, Geltung für Modul 1 von dieser Session nicht geprüft).
+Die einschlägige Verordnung selbst hat diese Session **nicht** gelesen.
 
 ---
 
@@ -476,13 +749,30 @@ Kundengespräch mit Förderbezug gilt:
    dass ein Programm existiert und wer es beantragt — die
    Förderfähigkeitsprüfung macht die Bewilligungsstelle.
    *(Deckt zugleich die Regel „jede Entwarnung trägt ihre Quelle im Satz".)*
-2. **Reihenfolge ist zwingend: Antrag vor Auftrag.** Beide Landesprogramme
-   fördern nur nicht begonnene Vorhaben, und ein Vorhaben gilt mit dem
-   Abschluss des Leistungsvertrags als begonnen. **Wer unterschreibt,
-   bevor der Bescheid da ist, hat die Förderung des Kunden vernichtet.**
-   → Dieser Satz gehört in die Angebotsarchitektur und in jede
-   Auftragsbestätigung mit Förderbezug. **Offener Punkt F-4**
-   (Träger: MKT-HANDEL, Angebots-/Vertragsbaustein).
+2. **Reihenfolge: Antrag vor Auftrag — mit einem programmabhängigen
+   Ausweg.** Beide Landesprogramme fördern nur nicht begonnene Vorhaben,
+   und ein Vorhaben gilt mit dem Abschluss des Leistungsvertrags als
+   begonnen. **Aber die Rechtsfolge ist nicht in beiden Programmen
+   dieselbe:**
+   - **SH-DKU Ziffer 7.2** kennt ausdrücklich die **Zustimmung zum
+     vorzeitigen Maßnahmebeginn**: „Mit dem Vorhaben darf vor Erteilung
+     eines Zuwendungsbescheides beziehungsweise **einer Zustimmung zum
+     vorzeitigen Maßnahmebeginn** nicht begonnen werden." Sie „begründet
+     keinen Rechtsanspruch auf eine spätere Förderung" — der Kunde trägt
+     also weiter das Risiko, aber der Weg existiert.
+   - **Hamburg Digital Check:** Im gelesenen Richtlinientext findet sich
+     kein entsprechendes Institut. ⚠️ Das ist ein **Negativ aus dem
+     gelesenen Text**, keine Systemaussage — deshalb Frage 4 der
+     IFB-Anfrage.
+
+   **Arbeitsregel bleibt: nicht unterschreiben lassen, bevor der Bescheid
+   oder eine ausdrückliche Zustimmung vorliegt.** Der frühere Satz „Wer
+   unterschreibt, bevor der Bescheid da ist, hat die Förderung des Kunden
+   vernichtet" war für SH **falsch** und sollte nach F-4 in Angebot und
+   Auftragsbestätigung wandern — eine Fehlaussage mit Außenwirkung
+   (Prüferbefund P07D-05).
+   → **Offener Punkt F-4** (Träger: MKT-HANDEL, Angebots-/Vertragsbaustein)
+   — Formulierung **je Programm getrennt**, nicht als ein Satz für alle.
 3. **Der Beratungsgegenstand wird prozessseitig zugeschnitten**, nicht
    sichtbarkeitsseitig — bei SH-DKU zwingend (4.3), beim Hamburg Digital
    Check nach dem Wortlaut von Ziffer 3 naheliegend, aber **ungeprüft**
@@ -501,7 +791,7 @@ Kundengespräch mit Förderbezug gilt:
 | ID | Punkt | Träger | Anker/Frist |
 |---|---|---|---|
 | **F-1** | Referenzlage gegen die drei IFB-Kriterien inventarisieren, vor Unterzeichnung der Selbsterklärung | MKT-HANDEL / Leitsession | vor erstem HH-Fall, spätestens vor 16.11.2026 |
-| **F-2** | Herkunft der „mind. 2.500 € netto Beraterkosten" bei SH-DKU klären (in 2026/190 nicht wiedergefunden, kein belastbares Negativ) | R07-A / Leitsession | vor Verwendung in Kundendokumenten |
+| ~~F-2~~ | ~~Herkunft der „mind. 2.500 € netto Beraterkosten" klären~~ **GESTRICHEN 10.08.2026** — Fehlalarm aus einer abgeschnittenen Leseausgabe. Der Wert steht in Ziffer 4.4 und auf der Programmseite (s. 4.1). Prüferbefund P07D-15 | — | — |
 | **F-3** | Nach StB-Rückmeldung zu Frage 11 über eine BAFA-Anfrage entscheiden | Zentrale → MKT-HANDEL | BAFA-Antragsfrist 31.12.2026 |
 | **F-4** | „Antrag vor Auftrag" als festen Baustein in Angebot/Auftragsbestätigung verankern | MKT-HANDEL | vor erstem Angebot mit Förderbezug |
 | **F-5** | Haltung zu Wettbewerbsneutralität/Provisionsoffenlegung bei Beratung + eigener Umsetzung ausformulieren | MKT-HANDEL + Zentrale | vor erster Selbsterklärung |
@@ -510,6 +800,9 @@ Kundengespräch mit Förderbezug gilt:
 | **F-8** | Rückläufe beider Anfragen einarbeiten — Zielort: dieses Dokument (Abschnitte 3 und 4) plus Vermerk in `fund/wettbewerbsbild.md` B9.4 | MKT-HANDEL | nach Antwort |
 | **F-9** | Geeignetes Qualitätssicherungsinstrument benennen (BAFA Ziffer 4.2.1), falls die BAFA-Route weiterverfolgt wird; zugleich klären, dass wir das Programm nicht selbst als Antragsteller nutzen | MKT-HANDEL + Zentrale | vor BAFA-Registrierung |
 | **F-10** | Geltungsstand der BAFA-Richtlinie an der ausgebenden Stelle nachziehen (diese Session hat nur den Abzug vom 09.08.2026) | MKT-HANDEL | vor BAFA-Entscheidung |
+| **F-11** | Entscheiden, ob wir den Pflicht-Abschnitt IT-/Informationssicherheit mit Risikoanalyse (SH Ziffer 2.1) selbst leisten oder zukaufen | MKT-HANDEL | bevor SH-DKU angeboten wird |
+| **F-12** | Förder-Begleitung im Angebot unterhalb der Mitwirkungsschwelle zuschneiden (SH-Programmseite) oder bewusst auf eigene Förderfähigkeit verzichten. Ausgangspunkt ist die vorhandene Leitplanke in `fund/positionierungspapier.md` Säule 5 | MKT-HANDEL | vor erstem SH-Angebot |
+| **F-13** | Vorwärtsverweis in `fund/positionierungspapier.md` Säule 5: Sie erklärt das Förderwissen für „SH-spezifisch, bei Kunden außerhalb SH je Land neu zu erheben" — für Hamburg ist die Erhebung mit diesem Dokument geliefert | Leitsession | R7-Review |
 
 ---
 
@@ -527,15 +820,31 @@ Kundengespräch mit Förderbezug gilt:
 | BAFA-Richtlinie, Geltungsstand | **nicht an der ausgebenden Stelle geprüft** — anders als IFB und WTSH. Beleg ist der Abzug vom 09.08.2026 | offen, vor BAFA-Entscheidung nachzuziehen | 10.08.2026 |
 | De-minimis-Höchstbeträge / Kumulierung auf Kundenseite | **nicht erhoben** (außerhalb des Auftrags) | offen | — |
 | Andere WTSH-/Landesseiten mit Altfassungs-Link | **nicht gemessen** — geprüft wurde nur die DKU-Programmseite | Der Befund 2.1 gilt nur für diese Seite | 10.08.2026 |
+| Spätere Änderungsvorschriften zu Amtsbl. 2026/190 | **nicht gesucht** | Geltung ist über die Auslieferung durch die ausgebende Stelle belegt, nicht über eine Änderungs-Gegenprobe | 10.08.2026 |
+| De-minimis-VO (EU) 2023/2831 selbst | **nicht gelesen** | Die 300.000-€-Angabe stammt von der WTSH-Programmseite, nicht aus der Verordnung | 10.08.2026 |
+| ⚠️ **Nebenbefund an R07-A (Rohbelegbestand):** `hh-programme.html` und `hh-bcw.html` in `sensibel\rohbelege-R05-A\a5\foerder\` | Prüfer-Gegenprobe (P07D-13) | Beide sind **byte-identisch die 404-Seite** von `ifbhh.de` (SHA-256 `c558af99…`) — zwei „Belege" ohne Aussagegehalt. Wer sie als Quelle zitiert, zitiert eine Fehlerseite | 10.08.2026 |
 
-**Positivkontrolle der Extraktionen dieser Session:** Für die
-Positiv-/Negativliste und die Selbsterklärung prüft die Kontrolle die
-**Vollständigkeit des Ergebnisses**, nicht die Erreichbarkeit der Quelle:
-Beide PDFs wurden über `pdf-parse` mit ausgegebener Seitenzahl gelesen
-(3 bzw. 2 Seiten) und **vollständig** ausgegeben; die Seitenmarker
-`-- 1 of 3 --` … `-- 3 of 3 --` bzw. `-- 1 of 2 --`/`-- 2 of 2 --`
-erscheinen lückenlos, der Schlussvermerk „Stand: 05.06.2026" bzw. die
-§-264-Fußzeile sind mitgelesen. Es fehlt keine Seite.
+**Positivkontrolle der Extraktionen dieser Session.**
+
+*Quellen-Ebene (erreicht die Extraktion die ganze Quelle?):* Beide PDFs
+über `pdf-parse` mit ausgegebener Seitenzahl gelesen (3 bzw. 2 Seiten),
+Seitenmarker `-- 1 of 3 --` … `-- 3 of 3 --` bzw. `-- 1 of 2 --`/
+`-- 2 of 2 --` lückenlos, Schlussvermerk „Stand: 05.06.2026" bzw.
+§-264-Fußzeile mitgelesen. Es fehlt keine Seite.
+
+*⭐ Ergebnis-Ebene (ist das, was ins Dokument wandert, vollständig?):*
+**Diese Kontrolle fehlte in Fassung 1 — und genau sie hätte die Fehler
+gefangen.** Die Quellen-Kontrolle sagte „es fehlt keine Seite", während im
+Dokument 3 von 4 [§]-Pflichten standen und die Positivliste als „exakt"
+deckungsgleich beschrieben war (P07D-09/-10/-11). Nachgeholte Kontrolle,
+generisch über das Strukturmerkmal statt über eine vorab notierte
+Namensliste:
+
+| Prüfung | Soll | Ist |
+|---|---|---|
+| [§]-Markierungen in der Selbsterklärung | jede muss in Abschnitt 3.3 erscheinen | 4 von 4 ✔ (Fassung 1: 3 von 4) |
+| Rubriken der Positivliste | jede muss in 4.3 benannt oder als nicht übernommen gekennzeichnet sein | 4 Rubriken erfasst; Tabelle ausdrücklich als **Auszug mit Kriterium** gekennzeichnet ✔ |
+| Rubriken Positivliste gegen Ziffer 2.1 | Abgleich der Kategorienzahl | 4 gegen 5 — Differenz benannt ✔ |
 
 ---
 
@@ -544,5 +853,12 @@ erscheinen lückenlos, der Schlussvermerk „Stand: 05.06.2026" bzw. die
 - `handel/entwurf-anfrage-ifb-hamburg.md` — Anfrage IFB Hamburg (Status ENTWURF)
 - `handel/entwurf-anfrage-wtsh.md` — Anfrage WTSH (Status ENTWURF)
 - `fund/wettbewerbsbild.md` § B9.4 — Herkunft der Fragestellung (nur lesend)
+- `fund/positionierungspapier.md` Säule 5 „Förder-Begleitung" — vorhandene
+  Leitplanke (§ 264 StGB, Offenlegung bei Verflechtungen, geparkter
+  Antrags-Service). Ausgangspunkt für F-5 und F-12, Ziel des
+  Vorwärtsverweises F-13
 - `zentrale\stb-termin-fragenliste-2026-08.md` Frage 11 — BAFA-Umsatzstruktur
+- `zentrale\eingang\2026-08-10-mkt-verflechtung-pilotobjekte.md` —
+  Sachverhalt zu 4.1c (von der Leitsession abgesetzt, hier nicht gedoppelt)
+- `protokolle/R07-B-abschluss.md` — Herkunft des Verflechtungsbefunds
 - `protokolle/R07-D-pruefer.md` — unabhängiges Prüfprotokoll zu dieser Arbeit

@@ -4,7 +4,8 @@
 
 | Feld | Inhalt |
 |---|---|
-| **Status** | **ENTWURF** |
+| **Status** | **ENTWURF — ⚠️ VERSAND GESPERRT bis F-15 geklärt ist** (s. Versand-Vorbedingungen) |
+| **Fassung** | **3** (Fassung 2 nach Prüfprotokoll `protokolle/R07-D-pruefer.md`; Fassung 3 nach dem Leitsessions-Zuruf zur Verflechtung, beides 10.08.2026) |
 | **Versanddatum** | *(nach Versand eintragen — nie beim Schreiben der Vorlage)* |
 | **Versandkanal** | *(nach Versand eintragen)* |
 | **Empfänger** | `joecks@wtsh.de` oder `habereder@wtsh.de` — beide auf der DKU-Programmseite als „Fachliches Projektcontrolling Innovationsförderung" mit Durchwahl ausgewiesen. **Eine Adresse wählen, nicht beide anschreiben**; die jeweils andere ist die Zweitadresse für einen späteren Nachfass |
@@ -18,19 +19,24 @@ Ist ein Beherbergungsbetrieb unter Ziffer 3.1.1 der DKU-Richtlinie
 antragsberechtigt? Beherbergung fehlt auf der Ausschlussliste, aber der
 Umkehrschluss ist eine Lesart, keine Aussage der Richtlinie.
 
-**⚠️ Der Auftrag hat sich bei der Prämissen-Prüfung erweitert.** Diese
-Session hat in der geltenden Fassung (Amtsbl. SH 2026/190, Ziffer 5.2.1)
-einen Ausschluss gefunden, der im Repo bisher nicht dokumentiert war:
-Beratungsleistungen dürfen nicht solche sein, „die zu den gewöhnlichen
-Betriebskosten des Unternehmens gehören wie laufende Steuerberatung,
-regelmäßige Rechtsberatung oder **Werbung**". Die Positiv- und
-Negativliste der WTSH (Stand 05.06.2026) führt zusätzlich „gängige
-Online-Marketing-Maßnahmen" und Website-Kosten „zur reinen Unternehmens-
-oder Produktdarstellung" als nicht förderfähig, nennt aber in der
-Positivliste ausdrücklich digitale Vertriebskanäle, CRM und CMS. **Die
-Abgrenzung ist damit die wichtigere Frage als die Antragsberechtigung** —
-sie steht deshalb als Frage 2 direkt hinter der K.-o.-Frage. Herleitung:
-`handel/foerderarchitektur-beraterrolle.md` Abschnitt 4.3.
+**⚠️ Der Auftrag hat sich bei der Prämissen-Prüfung erweitert.** Herleitung
+und Belege vollständig in `handel/foerderarchitektur-beraterrolle.md`
+Abschnitt 4. Kurz:
+
+- Ziffer 5.2.1 der geltenden Fassung schließt Beratung aus, die zu den
+  „gewöhnlichen Betriebskosten … wie laufende Steuerberatung, regelmäßige
+  Rechtsberatung oder **Werbung**" gehört. Die WTSH-Positiv-/Negativliste
+  nennt zusätzlich „gängige Online-Marketing-Maßnahmen" und Websites „zur
+  reinen Unternehmens- oder Produktdarstellung", führt umgekehrt aber
+  digitale Vertriebskanäle, CRM und CMS als förderfähig. **Die Abgrenzung
+  ist damit die wichtigere Frage als die Antragsberechtigung.**
+- Ziffer 2.1 verlangt in **jeder** geförderten Beratung einen Abschnitt zu
+  IT- und Informationssicherheit **einschließlich Risikoanalyse**;
+  Ziffer 4.2 verlangt einen **schriftlichen Beratungsbericht**. Das sind
+  Fähigkeitsvoraussetzungen an uns.
+- Die Programmseite entwertet Beraterkosten bei **aktiver Mitwirkung an
+  der Antragstellung**. Das trifft ein Angebot mit Förder-Begleitung
+  unmittelbar.
 
 **Zeitrahmen:** Richtlinienlaufzeit bis 30.06.2027 (Ziffer 9). Kein
 Antragsschluss in Sicht, aber Ziffer 1.4: Bei knappen Haushaltsmitteln
@@ -42,27 +48,69 @@ entscheidet das Datum des Antragseingangs.
 |---|---|---|
 | 1 | Antragsberechtigung von Beherbergungsbetrieben, Reichweite von „ähnliche Einrichtungen" | Amtsbl. SH 2026/190, Ziffer 3.1.1 |
 | 2 | Abgrenzung förderfähige Digitalisierungsberatung gegen ausgeschlossene Werbung/Online-Marketing | Ziffer 5.2.1 sowie Positiv-/Negativliste, Stand 05.06.2026 |
-| 3 | Gilt die Negativliste auch für Modul 1 oder nur für Modul 2 | Negativliste („nicht förderfähige Ausgaben") gegen ihren Anker in Ziffer 5.2.3 |
-| 4 | Anforderungen an den Berater nach Wegfall der go-digital-Lizenzpflicht | Neufassung 2026/190 gegen Fassung vom 20.04.2023 |
+| 3 | Gilt die Negativliste auch für Modul 1 | Ankündigung in Ziffer 5.2.3; Programmseite verweist nur im Modul-2-Block darauf |
+| 4 | Erwartete Tiefe des Pflicht-Abschnitts zu IT- und Informationssicherheit | Ziffer 2.1 Satz 2, Ziffer 4.2 |
+| ~~5~~ | ~~Reichweite von „aktive Mitwirkung bei der Antragstellung"~~ **ZURÜCKGESTELLT** (Fassung 3) — Wiedervorlage nach F-14/F-15, s. Prüfvermerke | Programmseite, Hinweise zur Antragstellung |
+
+### ⚠️ Versand-Vorbedingungen (beide erfüllt, bevor diese Mail rausgeht)
+
+1. **F-15 geklärt:** Stand der laufenden WTSH-Förderanträge, für die wir
+   Anbieter-Angebote als Anlage beschafft haben (gestellt? beschieden?
+   offen?). Solange das offen ist, wissen wir nicht, in welchen laufenden
+   Vorgang diese Mail hineinfragt.
+2. **F-7 erfüllt:** Firmierung eingesetzt (Platzhalter ersetzt).
+
+Beides sind Vorbedingungen, kein Abbruch: Die vier verbliebenen Fragen
+sind sachlich richtig und bleiben es. Es geht um den Zeitpunkt.
 
 ### Prüfvermerke dieser Session
 
 - **Kanal-Prüfung ✔** Die beiden Ansprechpartner stehen mit Funktion,
-  Durchwahl und Mailadresse **auf der Programmseite selbst**. Das ist der
-  programmeigene Fachkanal, kein Vertriebs-Kontaktformular und kein
-  allgemeines `info@`. Ein Partner-Bezug besteht nicht; die WTSH ist
-  zugleich Bewilligungsstelle und im Modul 3 selbst Begünstigte, was ihre
-  Zuständigkeit für Auslegungsfragen zu den Modulen 1 und 2 nicht berührt.
-- **Adressaten-Prüfung ✔** Alle vier Fragen betreffen Auslegung und
-  Verfahren der Bewilligungsstelle. Bewusst **nicht** gefragt: ob ein
-  bestimmter Betrieb antragsberechtigt ist (gehört dem Betrieb, nicht uns)
-  und ob wir als Berater geeignet sind (Frage 4 fragt nach den
-  **Anforderungen**, nicht nach unserer Erfüllung). Unser Rollenstand steht
-  fest und wird als **Feststellung mit Widerspruchsmöglichkeit** gesetzt.
-- **Zeitpunkt-Prüfung ✔** Kein konkreter Kunde, kein erteilter oder
-  geplanter Auftrag, keine Bestellungs- oder Beauftragungsprämisse. Auch
-  hier gilt der Grundsatz „Antrag vor Auftrag": Ein bereits geschlossener
-  Leistungsvertrag würde die Förderung des Kunden vernichten.
+  Durchwahl und Mailadresse **auf der Programmseite selbst**. Kein
+  Vertriebs-Kontaktformular, kein allgemeines `info@`.
+  **Suchraum: Richtlinie 2026/190 + Programmseite, 10.08.2026.** Ein
+  Partner-/Mittler-Bezug ist in diesem Suchraum nicht erkennbar; das ist
+  ein Negativ über diesen Suchraum, keine Aussage über die WTSH insgesamt.
+  **Alternativer Kanal bewusst nicht gewählt:** Die Programmseite empfiehlt
+  „Vor Antragstellung … eine kostenfreie Beratung durch die
+  Innovationsberatung". Der gewählte Weg ist der fachlich zuständige für
+  Auslegungsfragen; die Innovationsberatung bleibt der Nachfassweg.
+- **Adressaten-Prüfung ✔ (5 von 5 Fragen geprüft)** Alle fünf Fragen
+  betreffen Auslegung, Verfahren oder Erwartungen der Bewilligungsstelle.
+  Keine Frage verlangt von der WTSH eine Aussage über unsere Rechts-,
+  Umsatz- oder Qualifikationslage. Frage 4 fragt nach der **erwarteten
+  Tiefe**, nicht danach, ob wir sie leisten können — die
+  Fähigkeitsbewertung ist unsere Sache. Unser Rollenstand steht fest und
+  wird als **Feststellung mit Widerspruchsmöglichkeit** gesetzt, ebenso der
+  Wegfall der go-digital-Lizenzpflicht (aus der geltenden Fassung
+  ableitbar, deshalb keine Frage).
+- **⚠️ Zeitpunkt-Prüfung — Ergebnis geändert, Fassung 3.** Die
+  Erstfassung stellte fest, es gebe „keinen konkreten Fall". **Das ist
+  gegenüber dieser Behörde nicht haltbar:** Nach dem Befund aus R07-B
+  (Trägerdokument 4.1c) dienen von uns beschaffte Anbieter-Angebote als
+  Anlage zu **laufenden WTSH-Förderanträgen** eines Pilotobjekt-Betreibers.
+  Der Satz ist deshalb aus dem Mailtext **entfernt** — eine unrichtige
+  Entlastungsaussage gegenüber der Bewilligungsstelle wäre der
+  schlechtestmögliche Einstieg, und ihre Unrichtigkeit wäre für die WTSH
+  im eigenen Aktenbestand sichtbar.
+  **Die Mail vermeidet jetzt jede Aussage über bestehende oder nicht
+  bestehende Vorgänge** — sie fragt nur nach Auslegung. Das ist zulässig
+  und ohne Beleg-Bedürfnis formulierbar.
+- **⚠️ Frage 5 (Mitwirkung) zurückgestellt.** Sie war als Vorsorgefrage
+  gedacht. Nach 4.1c betrifft sie **möglicherweise bereits eingetretene
+  Vorgänge**. Eine Frage nach einer Regel, gegen die wir eventuell schon
+  verstoßen haben, an genau die Stelle zu richten, die darüber
+  entscheidet, dreht die Beweislast um und lenkt die Aufmerksamkeit auf
+  konkrete laufende Anträge, deren Stand wir nicht kennen (F-15).
+  **Wiedervorlage: nach Klärung von F-15 und F-14**, dann gegebenenfalls
+  über den Steuerberater/Anwalt statt direkt.
+- **Bewusst NICHT gefragt: die Verflechtungskonstellation.** Ziffer 5.2.1
+  schließt „eine Beratung durch Angehörige" und durch verbundene
+  Unternehmen aus. Ob unsere Konstellation darunter fällt, ist eine Frage
+  über **uns** — sie gehört zum Steuerberater (F-14), nicht in eine
+  Behördenmail. Der abstrakte Teil („was sagt die Richtlinie zu
+  verbundenen Unternehmen?") ist bereits aus der Quelle beantwortet und
+  wäre damit ebenfalls keine Frage.
 - **Informationshygiene ✔** Keine Förderbeträge oder -quoten genannt, keine
   Wettbewerber erwähnt oder bewertet, kein Hinweis auf parallel laufende
   Anfragen bei anderen Stellen.
@@ -87,12 +135,13 @@ entscheidet das Datum des Antragseingangs.
 > geltende Fassung, Amtsblatt Schleswig-Holstein 2026/190 vom 5. Juni 2026,
 > sowie auf Ihre Positiv- und Negativliste mit Stand 5. Juni 2026.
 >
-> Zur Einordnung: Antragsteller wäre in allen Fällen das beratene
+> Zur Einordnung: Antragsteller ist in diesen Fällen stets das beratene
 > Unternehmen, nicht wir. Wir träten ausschließlich als externes
-> Beratungsunternehmen nach Ziffer 5.2.1 auf. Sollten Sie diese
-> Rollenverteilung anders sehen, sagen Sie uns das bitte. Es gibt derzeit
-> keinen konkreten Fall und keinen erteilten Auftrag; diese Anfrage
-> betrifft ausschließlich die Auslegung.
+> Beratungsunternehmen nach Ziffer 5.2.1 auf. Der geltenden Fassung
+> entnehmen wir außerdem, dass die frühere Anforderung einer
+> go-digital-Lizenzierung entfallen ist. Sollten Sie eines von beidem
+> anders sehen, sagen Sie es uns bitte. Diese Anfrage betrifft die
+> Auslegung der Richtlinie, nicht einen Einzelfall.
 >
 > **1. Antragsberechtigung von Beherbergungsbetrieben**
 > Ziffer 3.1.1 nennt kleine Unternehmen der gewerblichen Wirtschaft und
@@ -101,7 +150,9 @@ entscheidet das Datum des Antragseingangs.
 > Hotels, Pensionen und vergleichbare Beherbergungsbetriebe damit
 > grundsätzlich antragsberechtigt sind? Und wie weit reicht die Formulierung
 > „Sanatorien oder ähnliche Einrichtungen" bei Häusern mit Kur- oder
-> Gesundheitsangebot?
+> Gesundheitsangebot? Ein Hinweis am Rande: Auf Ihrer Programmseite ist die
+> Ausschlussliste auf Fischerei, Aquakultur und Landwirtschaft verkürzt, die
+> übrigen Posten der Ziffer 3.1.1 fehlen dort.
 >
 > **2. Abgrenzung des förderfähigen Beratungsgegenstands**
 > Ziffer 5.2.1 schließt Dienstleistungen aus, die zu den gewöhnlichen
@@ -121,21 +172,25 @@ entscheidet das Datum des Antragseingangs.
 > wenn das Vorhaben im Ergebnis auch die Außenwirkung des Betriebs
 > verbessert?
 >
-> **3. Reichweite der Negativliste**
-> Die Negativliste ist mit „nicht förderfähige Ausgaben" überschrieben und
-> in der Richtlinie unter Ziffer 5.2.3 verankert, also im Abschnitt zu den
-> Ausgaben nach Ziffer 2.2. Die Überschriften Ihrer Positivliste entsprechen
-> dagegen den Kategorien aus Ziffer 2.1. Gilt die Negativliste auch für
-> Beratungsleistungen im Modul 1, oder ist für das Modul Beratung allein
-> Ziffer 5.2.1 maßgeblich?
+> **3. Reichweite der Positiv- und Negativliste**
+> Ihre Liste ist als „Negativliste nicht-förderwürdiger Vorhaben"
+> überschrieben, führt darin aber die Rubrik „Nicht förderfähige Ausgaben";
+> in der Richtlinie ist ein Katalog in Ziffer 5.2.3 angekündigt. Auf Ihrer
+> Programmseite verweisen Sie auf die Liste nur in den Abschnitten zum
+> Modul Umsetzung, im Abschnitt zum Modul Beratung nicht. Gilt die
+> Negativliste auch für Beratungsleistungen im Modul 1, oder ist dafür
+> allein Ziffer 5.2.1 maßgeblich? Uns fällt zudem auf, dass die
+> Positivliste vier Rubriken führt, während Ziffer 2.1 fünf Bereiche nennt;
+> die digitale Souveränität kommt in der Liste nicht vor.
 >
-> **4. Anforderungen an das Beratungsunternehmen**
-> Die bis zum 5. Juni 2026 geltende Fassung verlangte, dass beauftragte
-> Beratungsunternehmen für eine go-digital-Beratung des Bundes lizenziert
-> sind. In der geltenden Fassung finden wir keine entsprechende Regelung
-> mehr. Trifft das zu, und gibt es stattdessen andere Anforderungen an
-> Qualifikation, Registrierung oder Nachweise, die ein externes
-> Beratungsunternehmen erfüllen muss?
+> **4. Pflichtabschnitt zur IT- und Informationssicherheit**
+> Nach Ziffer 2.1 muss jede geförderte Beratung einen Abschnitt zur
+> Bewertung und Stärkung der IT- und Informationssicherheit enthalten,
+> einschließlich Risikoanalyse und konkreter Handlungsempfehlungen. Welche
+> Bearbeitungstiefe erwarten Sie hier bei einem Kleinbetrieb, und gibt es
+> eine Struktur oder Vorlage, an der wir uns ausrichten sollen? Gibt es
+> darüber hinaus formale Anforderungen an den schriftlichen
+> Beratungsbericht nach Ziffer 4.2?
 >
 > Wenn eine dieser Fragen bei Ihnen an anderer Stelle bearbeitet wird,
 > leiten Sie sie gerne weiter oder sagen Sie uns, an wen wir uns wenden
@@ -149,6 +204,31 @@ entscheidet das Datum des Antragseingangs.
 > [[FIRMIERUNG — offen bis Gewerbeanmeldung/Namensentscheid, Punkt F-7]]
 > [[ANSCHRIFT — vor Versand einsetzen]]
 > [[TELEFON — vor Versand einsetzen]] · [[E-MAIL — vor Versand einsetzen]]
+
+---
+
+## Änderungen gegenüber Fassung 1
+
+Nach dem Prüfprotokoll `protokolle/R07-D-pruefer.md`:
+
+| Befund | Änderung |
+|---|---|
+| **P07D-23** | Frage 3 zitierte die Negativlisten-Überschrift falsch („nicht förderfähige Ausgaben" ist die Rubrik, nicht die Überschrift) und stützte sich auf eine ungenaue Modul-Zuordnung. Jetzt korrekt zitiert, dazu der stärkere Beleg: Die Programmseite verweist nur im Modul-2-Block auf die Liste |
+| **P07D-11** | Ergänzt: Positivliste führt 4 Rubriken, Ziffer 2.1 nennt 5 Bereiche — Argument für Frage 3 |
+| **P07D-21** | Ergänzt: Hinweis, dass die Programmseite die Ausschlussliste verkürzt wiedergibt — stützt Frage 1 |
+| **P07D-22** | **Neue Frage 4** zum Pflicht-Abschnitt IT-/Informationssicherheit und zum Beratungsbericht |
+| **P07D-06** | **Neue Frage 5** zur Reichweite der Mitwirkungsregel |
+| **P07D-04/-20** | Alte Frage 4 (go-digital-Lizenzpflicht) entfernt: aus der geltenden Fassung ableitbar und damit keine Frage an die Gegenseite, sondern eine **Feststellung mit Widerspruchsmöglichkeit** im Einleitungsabsatz. Damit entfällt zugleich die Behauptung über den Inhalt einer Lesefassung unbekannter Herkunft |
+| **P07D-27** | Kanal-Prüfung um Suchraum und die bewusst nicht gewählte Alternative ergänzt |
+
+## Änderungen in Fassung 3 (Leitsessions-Zuruf zur Verflechtung)
+
+| Auslöser | Änderung |
+|---|---|
+| Laufende WTSH-Anträge mit unserer Beteiligung | Satz „Es gibt derzeit keinen konkreten Fall und keinen erteilten Auftrag" **aus dem Mailtext entfernt** — er war gegenüber dieser Behörde eine unrichtige Entlastungsaussage. Ersetzt durch „Diese Anfrage betrifft die Auslegung der Richtlinie, nicht einen Einzelfall", was ohne Tatsachenbehauptung auskommt |
+| Mitwirkungsschwelle möglicherweise bereits berührt | **Frage 5 zurückgestellt.** Sie hätte nach einer Regel gefragt, gegen die wir eventuell schon verstoßen haben, bei der Stelle, die darüber entscheidet |
+| Verflechtung (Ziffer 5.2.1, Negativliste) | **Bewusst keine Frage daraus gemacht** — die Bewertung unserer Konstellation gehört zum Steuerberater (F-14). Befund vollständig im Trägerdokument 4.1c |
+| Unklarer Antragsstand | **Versand gesperrt bis F-15 geklärt** |
 
 ---
 

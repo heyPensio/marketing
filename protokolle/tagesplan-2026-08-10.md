@@ -155,4 +155,30 @@ Kandidaten, Reihenfolge nach Rücklauf:
 
 ## 8. Rundenvermerk R7
 
-*(wird beim Debrief gefüllt)*
+**Gelaufen:** vier von fünf geplanten Arbeits-Sessions (R07-A bis
+R07-D) plus Leitsession. **R07-E (P22) wurde nicht gestartet** — belegt
+über fehlende Commits UND fehlende Dateien bei bestandener
+Positivkontrolle (R07-D: 5 Commits, 2 Protokolldateien im selben
+Suchlauf), nicht aus der Vermutung geschlossen. P22 wandert nach R8.
+
+**Review beider Richtungen gelaufen** (Regel 8). Bei den beiden
+Prüfer-Strängen war Prüfgegenstand die BEFUNDLISTE, nicht der
+Reparaturbericht — Zählung generisch über die Gliederung, nicht über die
+Kennungsliste der Session. Beide Nenner bestätigt (A: 26 Positionen,
+24 repariert; D: 30 Befunde, lückenlos P07D-01…30).
+
+**Vier Befunde gingen nach außen, zwei davon zeitkritisch als Zuruf in
+laufende Sessions** (an R07-D: WTSH-Vorbefund + Verflechtung; an R07-A:
+zwei wertlose Rohbelege + vier B9.4-Korrekturen). Zwei
+Postkorb-Meldungen an die Zentrale, beide vor dem StB-Termin.
+
+**Debrief:** `/debrief` gefahren, L-14 bis L-20, Gerüst-Rückfluss
+`baaac82`, Vier-Stellen-Sync (Commit `e8727e3`).
+
+**Blockplan-Realität:** Block 1 lief statt bis ~17:30 bis in den Abend;
+der angekündigte Leitsessions-Neustart um 17:30 fand nicht statt (der
+Handgriff stand im Plan, wurde aber nicht ausgelöst). Blöcke 2 und 3
+sind entfallen — das war als PROGNOSE markiert und ist ein zulässiges
+Ergebnis. Die für Block 2 vorgesehene Preismodell-Arbeit bleibt
+sequenzabhängig richtig: R07-A hat die Preis-Scope-Befunde erst jetzt
+repariert.

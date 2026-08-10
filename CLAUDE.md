@@ -3,9 +3,17 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand `2c548fe` nach Rückfluss-Nachzügen MKT R1–R6,
-> heyPensio-R32/R33/R34-Lehren und dem Modellwahl-Richtungsentscheid
-> (User, alle Abteilungen — ersetzt Regel 7 alt; 10.08.2026).
+> am 2026-08-09; Stand **`50f00dc`** (Nachzug R7, 10.08.2026) nach
+> Rückfluss-Nachzügen MKT R1–R6, heyPensio-R32/R33/R34/R35-Lehren und dem
+> Modellwahl-Richtungsentscheid (User, alle Abteilungen — ersetzt Regel 7
+> alt; 10.08.2026).
+> ⚠️ *Stempel-Korrektur 10.08.2026: Dieser Kopf trug bis R7 fälschlich
+> `2c548fe`. Der R6-Nachzug lief tatsächlich auf `b8f7d9c` — der
+> Kopfstempel wurde damals nicht mitgezogen, die Angabe war also ZWEI
+> Commits zu alt und dennoch als aktuell lesbar. Beleg für den echten
+> R6-Stand: L-13 im Bestand + `pruefe-kopien.js` meldete alle Bausteine
+> außer `aussenkorrespondenz` synchron. Der Stempel ist der Beleg des
+> Nachzugs — beim nächsten Nachzug im selben Commit mitziehen.*
 > Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
@@ -301,6 +309,22 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   ERGEBNISSES** (bekannte Elemente müssen in der Extraktion erscheinen),
   nicht die Erreichbarkeit der Quelle — „Nutzlast gefunden" beglaubigt
   keine vollständige Liste. (Sammelvermerk R5, Prüferfang.)
+  **⭐ Die Kontrolle gehört PRO MUSTER, nicht pro LAUF** — ein Sammellauf mit
+  Treffern sieht aus wie ein funktionierender Prüfweg und verdeckt das
+  einzelne tote Muster (gemessen: 45 Muster schlugen in Summe an, drei waren
+  wirkungslos — Tippfehler, fehlendes Muster, Versalien-Schreibweise nie
+  getroffen; das dritte fand erst ein Selbsttest, nicht der Prüfer).
+  Pflichtform bei Musterlisten: eine **Selbsttest-Datei**, in der JEDES
+  Muster mindestens einmal feuern muss, plus eine `TREFFEN-NICHT`-Zeile für
+  die Gegenrichtung — und wer ein Muster ergänzt, ergänzt im selben Zug die
+  Selbsttest-Zeile. (Herkunft: heyPensio R35.)
+  **⭐ Eine ABGESCHNITTENE oder ausgelagerte Werkzeugausgabe trägt kein
+  Negativ** — wer eine 39-KB-Ausgabe auf 2 KB liest und daraus „nicht
+  gefunden" macht, hat nicht gesucht: entweder zu Ende lesen (Datei/Volldump)
+  oder das Ergebnis gilt als nicht erhoben. Spiegelbild der Werkzeug-Regel:
+  **ein Negativ, das nicht passen kann, ist zuerst ein Werkzeugfehler**
+  (Leerzeilen als „hinter dem Dateiende"; ein Regex, der ein Umlaut-Zeichen
+  als zwei zählt). (Herkunft: heyPensio R35.)
   **Bei gegliederten Quellen gehört die VOLLZÄHLIGKEIT der GLIEDERUNG
   selbst in die Kontrolle** — wer Rubriken gegen eine vorher notierte
   Namensliste zählt, findet genau deren Länge (Positivliste in
@@ -377,6 +401,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   einen Agenten mit frischem Kontext, der den Fragenkatalog NICHT kennt.
   Drei Fang-Kategorien benennen: Fragen des Gegenübers ·
   Prozessbeschreibungen · beiläufige Zusagen des eigenen Sprechers.
+- **⭐ Zahlen an ihren SCHLÜSSEL binden — eine stimmende Summe ist KEIN
+  Zuordnungsbeleg:** Sechs Werte wurden in Quellreihenfolge übernommen, die
+  zugehörigen Namen daneben „natürlich" sortiert — vier von sechs paarweise
+  vertauscht, **die Kontrollsumme stimmte weiter** und deckte den Fehler zu.
+  Zahlenlisten immer als Tabelle **mit Schlüsselspalte** übernehmen, nie an
+  eine Prosa-Reihenfolge gebunden; beim Verdichten aus der Quelle
+  **kopieren**, nicht abschreiben. (Herkunft: heyPensio R35.)
 - **Zahlen/Preise nie aus einer einzelnen Tabellenzeile übernehmen:**
   Kopfzeile/Fußnoten/Scope mitlesen (netto/brutto, Geräteklasse, Datum),
   vor Vergleichen normalisieren. **Fußnoten/Steuerbasis nie
@@ -426,6 +457,27 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Credential aktiv nutzt** — fremdgenutzte Zugangsdaten nie im Alleingang
   rotieren; Automations-Secrets von vornherein in EIGENE Postfächer/
   Konten trennen (noreply-Muster). (Herkunft: heyPensio R33, User-Fang.)
+- **⭐ Bei einer Schwachstelle über KANÄLE lautet die Frage nicht „ist der
+  Kanal dicht?", sondern „sind es ALLE Kanäle derselben Klasse?"** Ein
+  Sicherheitspapier beschrieb eine Informations-Preisgabe über zwei Wege und
+  schlug vor, den Fix an EINEM zu prüfen; die Nachmessung fand drei weitere
+  (darunter einen Endpunkt in einem ganz anderen Namensraum, den eine Sperre
+  des Hauptwegs gar nicht erfasst). **Nach einem „erfolgreichen" Fix hätte
+  die eigene Erfolgsprüfung grün gemeldet, während die Lücke offen blieb** —
+  ein Papier kann genau die Lücke lassen, die seine Prüfung unsichtbar macht.
+  Die Erfolgsprüfung fragt jeden Kanal EINZELN ab.
+  **Schwesterregel (Werkzeug-Seite): Klärt ein Messwerkzeug eine Prämisse,
+  sofort fragen, welche NACHBAR-Prämisse es mitklärt** — dieselbe Probe, die
+  „läuft Komponente X?" beantwortete, fand mit einem Aufruf eine komplette
+  zweite, in keiner Bestandsliste geführte Komponente. (Herkunft: heyPensio R35.)
+- **⭐ Was nur als BILD vorliegt (Fotos, Vor-Ort-Eindruck, Screenshare),
+  wandert nicht von selbst in Text — und was nicht im Text steht, kann
+  erfunden werden und von KEINEM Prüfer widerlegt werden.** Ein Anleitungstext
+  beschrieb ein Bedienelement falsch; die richtige Beschreibung existierte nur
+  auf Fotos aus einer früheren Sitzung. Ein Prüfweg kann nur schlagen, wo eine
+  Soll-Aussage existiert. **Bevor Bildwissen in einen außenwirksamen Text
+  einfließt, wird es als Ist-Beschreibung im Repo festgehalten** (mit Quelle
+  und Datum). (Herkunft: heyPensio R35, User-Fang.)
 - **Sicherheits-Regeln:** Den leeren Zustand GETRENNT behandeln
   („Weglassen" ist der leere Zustand; „Weglassen" und „Wiederholen" sind
   dieselbe Operation). Nach jeder geschlossenen Fehlerklasse fragen, wie

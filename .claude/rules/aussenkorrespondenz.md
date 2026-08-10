@@ -23,6 +23,26 @@ Herkunft: heyPensio-Skill `anbieter-anfrage`, je Fall teuer belegt.)*
   Aufforderung, den nächstbesten zu nehmen. Merksatz: „Kein anderer
   Kanal auffindbar" begründet, dass man sucht — nicht, dass der
   gefundene zuständig ist.
+- **⭐ Adressaten-Prüfung: Wen frage ich hier eigentlich — und warum?**
+  Ein Beleg-Bedürfnis wird NIE in Fragen an die GEGENSEITE übersetzt.
+  Prüffragen: (1) Beantwortet die Frage etwas über die Gegenseite
+  (Termin, Spezifikation, Preis) — oder über UNS (Vertrags-, Rechts-,
+  Zahlungslage)? Letzteres beantwortet man aus eigenen Unterlagen.
+  (2) Trägt die Antwort ein Eigeninteresse des Empfängers? Dann ist er
+  die schlechteste Quelle. (3) Was signalisiert die Frage? Wer nach der
+  eigenen Lage fragt, zeigt, dass er sie nicht kennt — **die Beweislast
+  dreht sich um**, und ein Disclaimer im selben Absatz hebt das nicht auf.
+  **Pflichtform, wenn der eigene Stand feststeht: FESTSTELLUNG MIT
+  WIDERSPRUCHSMÖGLICHKEIT statt Frage** („Nach unserem Stand ist es zu
+  keinem Vertragsschluss gekommen; sollten Sie das anders führen, teilen
+  Sie es uns mit und legen Sie die Unterlagen bei") — holt dieselbe
+  Information, ohne Unsicherheit zu signalisieren. Vorbedingung: die
+  eigene Faktenlage sichern; **„nichts unterschrieben" ist nicht „kein
+  Vertrag"** (Bindung auch per Mail/mündlich möglich). Realfall: Ein
+  bereits geprüfter Entwurf fragte den Vertrieb der Gegenseite, ob ein
+  Vertrag bestehe — obwohl der eigene Mandant das vorher verneint hatte;
+  die Rechnungsfrage lud zusätzlich dazu ein, Ansprüche zu finden.
+  (Herkunft: heyPensio R35, vom Auftraggeber gestoppt.)
 - **⭐ Zeitpunkt-Prüfung:** Ein sachlich richtiger Fragenkatalog kann
   als GANZES verfrüht sein (Förderkette Antrag → Bescheid →
   Bestellung: Fragen mit Bestellungs-Prämisse vor dem Bescheid können

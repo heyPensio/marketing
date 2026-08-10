@@ -36,9 +36,9 @@ das ist etwas anderes als „gibt es nicht".
 | **Fassungsstand UWG** | Bekanntmachung v. 3.3.2010 (BGBl. I S. 254), **zuletzt geändert durch Art. 6 G v. 12.5.2026 (BGBl. 2026 I Nr. 139)** — Vollzitat der Gesamtausgabe, selbst gelesen |
 | **Gesetzestexte** | `gesetze-im-internet.de`, je Einzelnorm per `curl` geholt (ISO-8859-1, latin1-dekodiert): UWG §§ 1, 2, 3, 7, 7a, 8, 8b, 8c, 9, 12, 13, 13a, 14, 20 + Gesamtausgabe · DDG §§ 5, 6 · TDDDG § 25 · BDSG §§ 38, 40 · BGB §§ 823, 1004. **21 Abrufe, alle HTTP 200 im ersten Versuch.** Ein weiterer Abruf (UWG-Anhang) gab 404 — der Pfad war **geraten**; das ist eine Aussage über die Vermutung, nicht über den Anhang, dessen Text über die Gesamtausgabe vorliegt |
 | **EU-Recht** | DSGVO (CELEX 32016R0679), ePrivacy-RL konsolidiert (02002L0058-20091219), RL 2006/114/EG (32006L0114) — **deutsche Sprachfassung**, über das Cellar-Repository des Amts für Veröffentlichungen der EU |
-| **Rechtsprechung** | Volltexte, soweit erreichbar, an amtlichen Quellen (NRWE, EuGH-Sprachfassung) bzw. an Volltext-Dokumentationsdiensten — **Leseweg je Aussage einzeln ausgewiesen**. Die Leit-Session hat drei Entscheidungen selbst im Volltext gegengelesen: OLG Hamm 18 U 110/21 und 18 U 154/22 (NRWE) sowie EuGH C-654/23 |
+| **Rechtsprechung** | Volltexte, soweit erreichbar, an amtlichen Quellen (NRWE, EuGH-Sprachfassung) bzw. an Volltext-Dokumentationsdiensten — **Leseweg je Aussage einzeln ausgewiesen**. Die Leit-Session hat **vier** Entscheidungen selbst im Volltext gegengelesen: OLG Hamm 18 U 110/21 und 18 U 154/22, LG Düsseldorf 38 O 243/23 (alle NRWE) sowie EuGH C-654/23 |
 | **Vorgehen** | Recherche-Fan-out mit neun Subagenten, je Kanal einer; danach ein eigener Nachprüfdurchgang der Leit-Session, in dem **Aussage und Fundstelle getrennt** geprüft wurden |
-| **Prüfskripte** | Mechanischer Zitatabgleich gegen **28 selbst beschaffte Volltexte** (25 Normen, 3 Entscheidungen): **59 von 60 geprüften Fundstellen bestätigt**; die eine Abweichung war ein fehlerhafter Prüfstring der Leit-Session, kein Agentenfehler. Dazu ein Selbsttest der Negativ-Aussagen über § 7 UWG mit 35 Mustern (15 `MUSS`, 20 `TREFFEN-NICHT`) — **0 Abweichungen** |
+| **Prüfskripte** | Mechanischer Zitatabgleich gegen **29 selbst beschaffte Volltexte** (25 Normen, 4 Entscheidungen): **64 von 65 geprüften Fundstellen bestätigt**; die eine Abweichung war ein fehlerhafter Prüfstring der Leit-Session, kein Agentenfehler. Dazu ein Selbsttest der Negativ-Aussagen über § 7 UWG mit 35 Mustern (15 `MUSS`, 20 `TREFFEN-NICHT`) — **0 Abweichungen** |
 
 ### Zwei Werkzeugbefunde, die den Erhebungsstand einschränken
 
@@ -152,7 +152,7 @@ Grundfall jeder Zeile: **ein Hotelbetrieb, den wir nicht kennen, ohne Vorbeziehu
 |---|---|---|---|---|
 | **[E-Mail-Kaltakquise](#a1--e-mail-kaltakquise-b2b)** | ⛔ **unzulässig** | § 7 Abs. 2 **Nr. 2** UWG | „vorherige **ausdrückliche** Einwilligung des Adressaten" — **keine** B2B-Ausnahme, **keine Interessenabwägung** | Scheidet als Akquisekanal aus. Kein Zuschnitt, keine Formulierung, keine Passung ändert das |
 | **[Telefon-Kaltakquise](#a2--telefon-kaltakquise-b2b)** | ⚠️ **unzulässig, wenn nur auf die Branche gestützt** | § 7 Abs. 2 Nr. 1 Alt. 2 UWG | „zumindest **mutmaßliche** Einwilligung" — verlangt einen **konkreten, aus dem Interessenbereich des Angerufenen herzuleitenden Grund** | Nur bei belegbarem persönlichem Vorkontakt oder protokollierter Rückrufzusage. Rufnummer immer anzeigen |
-| **[Post / Brief](#a7--postalische-werbung-brief)** | ✅ **zulässig** | **kein** Tatbestand in § 7 Abs. 2; es gilt § 7 Abs. 1 UWG | Unzulässig erst, wenn der Widerspruch **erkennbar** ist | **Unser tragfähigster Erstkontakt-Kanal.** An die Firma adressieren, nicht an eine benannte Person |
+| **[Post / Brief](#a7--postalische-werbung-brief)** | ✅ **zulässig** | **kein** Tatbestand in § 7 Abs. 2; es gilt § 7 Abs. 1 UWG | Unzulässig erst bei **Hartnäckigkeit** bzw. erkennbarem Widerspruch. Das Risiko liegt in **Aufmachung** und **DSGVO-Pflichtinhalten**, nicht im Kanal | **Unser tragfähigster Erstkontakt-Kanal.** An die Firma adressieren; sobald personalisiert wird, gehören Art.-14-Information und Widerspruchshinweis **in den Brief** |
 | **[LinkedIn-Direktnachricht](#a3--linkedin-direktnachricht-und-die-elektronische-post-frage)** | ⛔ **unzulässig** | § 7 Abs. 2 Nr. 2 UWG (Plattform-Postfach = „elektronische Post"); zusätzlich Nr. 3 | Vernetzung, Profil und Plattform-AGB sind **keine** Einwilligung | Kein Versandkanal. Nutzbar für Sichtbarkeit und Recherche — Werbetext in der Kontaktanfrage ist doppelt verboten |
 | **[Newsletter mit Double-Opt-in](#a6--newsletter-mit-double-opt-in)** | ✅ **zulässig** | § 7 Abs. 2 Nr. 2 UWG · Art. 4 Nr. 11, 7 DSGVO · **§ 25 TDDDG** | Nur mit **selbst angemeldeten** Adressen; Tracking braucht eine **eigene** Einwilligung | Kein Weg, eine recherchierte Liste zu bespielen. Tool muss Tracking pro Empfänger abschalten können |
 | **[Messe-/Veranstaltungskontakte](#a4--messe--und-veranstaltungskontakte)** | ✅ **zulässig bei ausdrücklicher Zusage** | § 7 Abs. 2 Nr. 2 UWG · Art. 13 DSGVO | Visitenkarte **allein trägt nicht**; die Zusage bestimmt die **Reichweite** | Lead-Bogen mit abgesetztem Einwilligungsfeld ist Pflichtwerkzeug — **vor** der Internorga fertig |
@@ -511,19 +511,53 @@ Die **BfDI** vertritt ausdrücklich, dass die Newsletter-Einwilligung das Zählp
 | **Einstufung** | **ZULÄSSIG** — der lauterkeitsrechtlich offenste Kanal, aber nicht schrankenlos |
 | **Norm** | **kein** Tatbestand in § 7 Abs. 2 UWG · es gilt die Generalklausel § 7 Abs. 1 UWG · DSGVO je nach Personenbezug |
 
-> ⚠️ **Belegstand dieses Abschnitts:** Die dafür vorgesehene Einzelrecherche lag bei Redaktionsschluss noch nicht vor. Der Abschnitt stützt sich auf die von der Leit-Session **selbst** geprüften Primärquellen und auf Querbefunde der übrigen Kanäle. **Die Rechtsprechungsbasis ist deshalb dünner als bei den anderen Kanälen** — die Normaussagen sind belegt, eine Auswertung der Instanzrechtsprechung zu Briefwerbung fehlt.
-
 ### Warum Brief nicht in § 7 Abs. 2 UWG steht
 
 **Negativ-Aussage mit Suchraum und Positivkontrolle** (① A, eigener Selbsttest): Suchraum ist der Volltext des § 7 UWG (2.050 Zeichen, alle drei Absätze — Gliederungs-Vollzähligkeit geprüft: „(1)", „(2)", „(3)" je einmal, „(4)" null). Die Begriffe **„Brief" · „Postsendung" · „Briefkasten" je 0 Treffer.** Positivkontrollen im selben Lauf, die treffen mussten: „Telefonanruf" 1× · „elektronischer Post" 2× · „Faxger" 1× · „Anrufmaschine" 1×. **Der Prüfweg findet die anderen Kanäle — Brief fehlt tatsächlich.**
 
-Der Anhang zu § 3 Abs. 3 Nr. 26 UWG („hartnäckiges und unerwünschtes Ansprechen … mittels Telefonanrufen, unter Verwendung eines Faxgerätes, elektronischer Post oder sonstiger für den Fernabsatz geeigneter Mittel", ① A) gilt ausdrücklich nur **gegenüber Verbrauchern** und trifft unseren B2B-Fall nicht.
+**Ein zweiter, belastbarerer Weg für Nr. 3:** Diese Nummer knüpft an „eine **Nachricht**" an — und „Nachricht" ist legaldefiniert als Information, die „über einen **öffentlich zugänglichen elektronischen Kommunikationsdienst** ausgetauscht oder weitergeleitet wird" (§ 2 Abs. 1 Nr. 5 UWG, ① A). Ein Papierbrief läuft nicht über einen elektronischen Kommunikationsdienst. Nr. 3 ist auf ihn also **tatbestandlich** nicht anwendbar — das trägt weiter als das bloße Fehlen des Wortes „Brief".
+
+Der Anhang zu § 3 Abs. 3 Nr. 26 UWG („hartnäckiges und unerwünschtes Ansprechen … mittels Telefonanrufen, unter Verwendung eines Faxgerätes, elektronischer Post oder sonstiger für den Fernabsatz geeigneter Mittel", ① A) gilt ausdrücklich nur **gegenüber Verbrauchern** — § 3 Abs. 3 UWG: „Die im Anhang dieses Gesetzes aufgeführten geschäftlichen Handlungen **gegenüber Verbrauchern** sind stets unzulässig." Im gesamten Anhang kommt „Marktteilnehmer" **kein einziges Mal** vor, bei 27 Treffern für „Verbraucher" (② A, Positivkontrolle des Agenten). **Der Anhang kennt den B2B-Adressaten schlicht nicht.**
+
+**Und kein Bußgeld:** § 20 Abs. 1 Nr. 1 UWG verweist auf „§ 7 Absatz 1 **Satz 1** in Verbindung mit Absatz 2 Nummer 1 oder 2" — ein Verstoß gegen § 7 Abs. 1 **Satz 2** (die für den Brief einschlägige Variante) ist damit **nicht bußgeldbewehrt** (① A).
 
 ### Was stattdessen gilt: die Generalklausel
 
 § 7 Abs. 1 UWG (① A): „Eine geschäftliche Handlung, durch die ein Marktteilnehmer in unzumutbarer Weise belästigt wird, ist unzulässig. **Dies gilt insbesondere für Werbung, obwohl erkennbar ist, dass der angesprochene Marktteilnehmer diese Werbung nicht wünscht.**"
 
-**Der Brief wird also unzulässig, sobald der Widerspruch erkennbar ist** — durch eine ausdrückliche Aufforderung, einen Werbeverweigerungs-Vermerk oder einen Eintrag in einer Sperrliste. Ein erklärter Widerspruch bindet uns **kanalübergreifend**.
+**Der BGH stuft die Belastung durch Briefwerbung ausdrücklich als gering ein** (BGH, Urt. v. 03.03.2011 – I ZR 167/09 „Kreditkartenübersendung", Rn. 19, ② A): „Der Grad der Belästigung ist bei einer **Werbung per Post jedoch gering.** Diese Belästigung kann gegenüber den Interessen der werbenden Wirtschaft an einer gezielten Individualwerbung … regelmäßig vernachlässigt werden … **Dies gilt jedenfalls dann, wenn der Werbecharakter — wie im Streitfall — nach dem Öffnen des Briefs sofort und unmissverständlich erkennbar ist.**" Ebenso der amtliche Leitsatz von BGH, Urt. v. 22.04.2010 – I ZR 29/09 („Grabmalwerbung"): Postwerbung zwei Wochen nach einem Todesfall ist keine unzulässige Belästigung.
+
+**Der Erstkontakt ist also zulässig.** Unzulässig wird es bei **Hartnäckigkeit** — namentlich beim Zweitanschreiben nach einer Beschwerde (LG Köln, Urt. v. 26.04.2019 – 84 O 82/18, ③: „Bei Briefwerbungen ist indes in der Regel von einer mutmaßlichen Einwilligung auszugehen. ‚Unerwünscht' ist diese erst dann, wenn der Werbende davon ausgehen muss, dass der Empfänger damit nicht einverstanden ist"). Ein erklärter Widerspruch bindet uns **kanalübergreifend**.
+
+⚠️ **Die Robinsonliste hilft nicht als Maßstab:** Die Brief-Robinsonliste des DDV ist eine reine **Verbraucher**-Einrichtung, ihr Abgleich ist freiwillig und in Deutschland nicht verpflichtend — ein Eintrag ist deshalb keine Garantie und begründet kein „erkennbar" i. S. d. § 7 Abs. 1 S. 2 UWG gegenüber Gewerbetreibenden.
+
+### ⚠️ Wo das Risiko beim Brief wirklich liegt: die Aufmachung
+
+Nicht der Kanal, sondern die **Gestaltung** ist die klassische Abmahnfalle — und hier gibt es einen einschlägigen **B2B**-Fall: BGH, Urt. v. 30.06.2011 – I ZR 157/10 („Branchenbuch Berg"), amtlicher Leitsatz (② A): Ein „**formularmäßig aufgemachtes Angebotsschreiben**", das bei flüchtigem Lesen den Eindruck erweckt, es gehe nur um die Aktualisierung von Daten in einem bestehenden Vertragsverhältnis, verstößt gegen das Verschleierungs- und das Irreführungsverbot. Die Schreiben richteten sich dort **an Gewerbetreibende**.
+
+⚠️ **Normverschiebung beim Zitieren beachten:** Die Entscheidung erging zu § 4 Nr. 3 UWG **a. F.** Der heutige § 4 UWG regelt in Nr. 3 die **Nachahmung** — etwas völlig anderes. Das Verschleierungsverbot steht heute in **§ 5a Abs. 4 UWG**, und das gilt ausdrücklich auch gegenüber „sonstigen Marktteilnehmern", also B2B.
+
+**Zu vermeiden sind daher:** rechnungs-, formular- oder vertragsverlängerungsähnliche Aufmachung · fingierte Persönlichkeitsanmutung (handschriftliche Haftnotiz, „Empfehlung eines Bekannten") · falsche Dringlichkeits- oder Vertraulichkeitsaufdrucke. *(Die beiden letzten Punkte sind nur über eine institutionelle Sekundärquelle belegt — KG Berlin 5 U 7/14, Volltext nicht verifiziert.)*
+
+### Wer kann überhaupt angreifen — und wer nicht
+
+**Die BGB-Schiene trägt beim Brief nach derzeitigem Erkenntnisstand nicht.** Die Rechtsprechung zum Eingriff in den eingerichteten und ausgeübten Gewerbebetrieb betrifft durchgehend **Fax und E-Mail**, wo der **Ressourcenverbrauch beim Empfänger** den Eingriff begründet. Beim Papierbrief trägt der Werbende die Kosten selbst. **Es wurde keine Entscheidung gefunden, die einen Werbebrief an einen Gewerbetreibenden als Eingriff in den Gewerbebetrieb einstuft** — Suchraum: BGH-Datenbank ab 2000, NRWE, gesetze-bayern.de, je mit greifender Positivkontrolle. ⚠️ **Nicht durchsucht: juris und beck-online**, wo der Großteil der OLG-/LG-Rechtsprechung liegt. Das Negativ kann dort kippen.
+
+### ⭐ Der Angriffsweg, der 2026 tatsächlich gegriffen hat: die DSGVO
+
+**LG Düsseldorf, Urt. v. 06.02.2026 – 38 O 243/23** (von der Leit-Session **selbst** am amtlichen NRWE im Volltext gegengelesen, ① A) hat eine **Briefpost**-Werbesendung untersagt — gestützt ausschließlich auf Art. 6 Abs. 1 lit. f und die Art. 12–14, 21 DSGVO. **Eigene Kontrollmessung: „§ 7 UWG" kommt im gesamten Urteil 0-mal vor**, bei 109 Treffern für „DSGVO". Die Beklagte war daran gescheitert, dass sie
+
+> „es versäumt [hat], den Adressaten des Schreibens **spätestens mit diesem Schreiben** (wie es gemäß Art. 14 Abs. 3 Buchst. b DSGVO geboten war) die … Informationen … zur Verfügung zu stellen. Ferner hat sie es unterlassen, den Adressaten … **spätestens mit diesem Schreiben ausdrücklich in einer verständlichen und von anderen Informationen getrennten Form** darauf hinzuweisen, dass er gemäß Art. 21 Abs. 2 DSGVO das Recht hat, jederzeit Widerspruch … einzulegen."
+
+Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost „gilt **nur, wenn die Briefwerbung spätestens nach dem Öffnen des Briefs sofort und unmissverständlich erkennbar ist**".
+
+⚠️ **Reichweite ehrlich begrenzt — meine eigene Prüfung:** Der Tenor betrifft ausdrücklich **Verbraucher** („Verbraucher zum Zwecke des Providerwechsels … postalisch anzuschreiben"); „Verbraucher" kommt 199-mal vor. **Es ist kein B2B-Präzedenzfall**, und der Sachverhalt ist telekommunikationsrechtlich eingefärbt (beigefügtes Auftragsformular, Pflichten aus der Richtlinie (EU) 2018/1972). Die tragende Argumentation zu Art. 14 Abs. 3 lit. b und Art. 21 Abs. 4 DSGVO knüpft aber allein an die Eigenschaft als **betroffene Person** an — sie trägt deshalb für jeden namentlich angeschriebenen Geschäftsführer genauso. Instanzgericht, Rechtskraft nicht geprüft.
+
+### Keine Impressumspflicht im Brief — aber möglicherweise Geschäftsbrief-Pflichtangaben
+
+Die Impressumspflicht des § 5 DDG hängt am **digitalen Dienst**, nicht am Werbemittel; ein Papierbrief ist keiner (② A). **Es gibt also keine DDG-Impressumspflicht für den Brief.**
+
+Davon zu trennen sind die **Geschäftsbrief-Pflichtangaben** (§ 35a GmbHG: „auf allen Geschäftsbriefen gleichviel welcher Form, die an einen bestimmten Empfänger gerichtet werden" — Rechtsform, Sitz, Registergericht, Registernummer, Geschäftsführer; parallel § 37a HGB, § 125 HGB). ⚠️ **STREITIG**, ob ein Werbebrief ein Geschäftsbrief ist: Werbeschriften an einen *unbestimmten* Personenkreis sind es nicht — ein **personalisiertes** Akquise-Anschreiben an einen bestimmten Betrieb erfüllt aber die gängige Definition des ersten schriftlichen Kontakts. **Belegstufe ③: institutionelle Sekundärquelle (IHK-Merkblatt), keine Rechtsprechung erhoben.** Da die Angaben ohnehin in den Briefbogen gehören, ist die sichere Wahl, sie aufzunehmen.
 
 ### Die DSGVO-Seite ist beim Brief die eigentliche Schranke
 
@@ -543,10 +577,13 @@ Wo die DSGVO greift, gelten **Art. 14** (Informationspflicht, Frist ab Listenauf
 
 ### Was das für unsere Zielkundenliste heißt
 
-- **Der Brief ist unser tragfähigster Erstkontakt-Kanal in die Kaltakquise.** Er ist der einzige, der ohne Einwilligung auskommt.
-- **Adressiert wird an die Firma, nicht an eine namentlich benannte Person** — das hält bei Kapitalgesellschaften die DSGVO aus dem Spiel und senkt den Aufwand erheblich. Bei Einzelunternehmen und Personengesellschaften greift sie trotzdem.
+- **Der Brief ist unser tragfähigster Erstkontakt-Kanal in die Kaltakquise.** Er ist der einzige, der ohne Einwilligung auskommt — mit einem amtlichen BGH-Leitsatz zu seinen Gunsten und ohne ein einziges auffindbares Verbotsurteil zu B2B-Kaltpost.
+- **Adressiert wird an die Firma, nicht an eine namentlich benannte Person** — das hält bei Kapitalgesellschaften die DSGVO aus dem Spiel. Bei Einzelunternehmen und Personengesellschaften greift sie trotzdem.
+- **Sobald personalisiert wird, müssen Art.-14-Information und Art.-21-Abs.-4-Widerspruchshinweis IN den ersten Brief** — optisch vom Werbetext getrennt. Genau daran ist die Beklagte im Düsseldorfer Verfahren gescheitert. Das ist kein Formalismus, sondern der einzige Punkt, an dem Briefwerbung 2026 nachweislich untersagt wurde.
 - **Die Adressen dürfen nicht aus Impressen stammen** (Teil C) und nicht aus Quellen mit Werbenutzungsverbot (Achse 3).
-- **Ein Sperrregister ist Pflicht**, sobald der erste Widerspruch eingeht — kanalübergreifend.
+- **Die Aufmachung ist das eigentliche UWG-Risiko**, nicht der Kanal: keine Formular-, Rechnungs- oder Vertragsverlängerungs-Anmutung, kein fingierter Persönlichkeitseindruck, keine falschen Dringlichkeitsaufdrucke. Der Werbecharakter muss nach dem Öffnen sofort erkennbar sein.
+- **Datenherkunft je Adresse dokumentieren** — Art. 14 Abs. 2 lit. f verlangt die Quellenangabe im Brief; ohne Herkunftsprotokoll ist die Pflicht nicht erfüllbar.
+- **Ein Sperrregister ist Pflicht**, sobald der erste Widerspruch eingeht — kanalübergreifend. Nach einem Widerspruch dürfen **keine neuen Druckaufträge** mehr starten.
 - **Kein Rückschluss auf andere Kanäle:** Dass der Brief zulässig war, macht die Nachfass-E-Mail nicht zulässig.
 
 ---
@@ -766,7 +803,11 @@ Ausdrücklich als **nicht erhoben** gekennzeichnet — „nicht gefunden" ist hi
 
 | Punkt | Stand |
 |---|---|
-| **Einzelrecherche zum Postkanal** | Lag bei Redaktionsschluss nicht vor. A7 stützt sich auf selbst geprüfte Primärquellen; **Instanzrechtsprechung zu Briefwerbung wurde nicht ausgewertet** |
+| **Rechtsprechung zu B2B-Briefwerbung** | In den frei zugänglichen amtlichen Beständen (BGH ab 2000, NRWE, gesetze-bayern.de) **kein Verbotsurteil zu B2B-Kaltpost gefunden**, Positivkontrollen greifen. ⚠️ juris und beck-online nicht durchsucht — dort liegt der Großteil der OLG-/LG-Rechtsprechung, das Negativ kann kippen |
+| **BGH „Briefwerbung" (1973), BGHZ 60, 296** | Stammentscheidung zur geringen Belästigungswirkung; Volltext **nicht beschaffbar** (BGH-Datenbank führt Entscheidungen vor 2000 nicht online). Liegt nur als Zitat im Volltext von I ZR 167/09 vor |
+| **Werbebrief als „Geschäftsbrief"** (§ 35a GmbHG) | **STREITIG**, keine Rechtsprechung erhoben; die Position stützt sich auf ein IHK-Merkblatt |
+| **KG Berlin 5 U 7/14, LG Lüneburg 4 S 44/11** | Az. und Datum nur aus einer IHK-Seite, **nicht am Volltext verifiziert** |
+| **§ 3a UWG und DSGVO-Abmahnbarkeit** | Streitstand **nicht abschließend erhoben** |
 | **Änderungsgesetz der Umnummerierung** | Datum 28.05.2022 nur über Drittquellen; das BGBl-Archiv ist ein JS-Viewer und war nicht auslesbar. Die **Sachaussage** ist vierfach anders belegt (Kopf des Dokuments) |
 | **Kommentarliteratur** (Köhler/Bornkamm/Feddersen, Ohly/Sosnitza, Mankowski, Büscher) | Hinter Bezahlschranken, **kein Original gelesen** — überall nur als Zitat zweiter Hand. Abweichende Auffassungen sind damit nicht ausgeschlossen |
 | **juris / beck-online** | Kein Zugang. Instanzrechtsprechung ist nur stichprobenhaft erfasst |

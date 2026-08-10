@@ -28,23 +28,51 @@
 
 ## 1. Bilanz mit Nenner
 
-`protokolle/R05-A-pruefer.md` führt **44 nummerierte Positionen** in
-fünf Kategorien: **4** KRITISCH (K-1…K-4) · **17** WICHTIG (W-1…W-17) ·
-**10** HINWEIS (H-1…H-10) · **3** Verdacht (V-1…V-3, ausdrücklich
-unverifiziert) · **6** „nicht prüfbar" (ohne Kennung).
+⚠️ **Rechenfehler dieses Abschnitts — korrigiert in R07-A nach dem
+R07-A-Prüferlauf. Die Originalzahlen bleiben sichtbar stehen, damit
+nachvollziehbar ist, worauf ältere Zitate sich bezogen.**
 
-Über die **37 handlungspflichtigen** Befunde (K+W+H):
+~~`protokolle/R05-A-pruefer.md` führt **44 nummerierte Positionen** in
+fünf Kategorien~~ → **richtig: 34 nummerierte Positionen** (K-1…K-4 =
+**4** · W-1…W-17 = **17** · H-1…H-10 = **10** · V-1…V-3 = **3**), plus
+**6** unnummerierte „nicht prüfbar" = **40 Positionen insgesamt**.
+Summenprobe 4 + 17 + 10 + 3 = 34 ✔; 34 + 6 = 40 ✔.
 
-| Status | Anzahl |
-|---|---|
-| EINGEARBEITET | 7 |
-| TEILWEISE | 6 |
-| **NICHT EINGEARBEITET** | **24** |
+~~Über die **37 handlungspflichtigen** Befunde (K+W+H):~~
+→ **richtig: 31 handlungspflichtige** Befunde (4 + 17 + 10 = 31 ✔).
+
+| Status | ~~Anzahl (R6)~~ | **Anzahl (korrigiert R7)** |
+|---|---|---|
+| EINGEARBEITET | ~~7~~ | **6** (K-1, K-2, K-3 · W-1, W-4, W-15) |
+| TEILWEISE | ~~6~~ | **5** (K-4, W-6, W-9, W-14, W-17) |
+| **NICHT EINGEARBEITET** | ~~**24**~~ | **20** (10 WICHTIG + 10 HINWEIS) |
+| **Summe** | ~~37~~ | **31** ✔ |
+
+⚠️ **Wie die alten Zahlen zustande kamen** (soweit rekonstruierbar):
+Die Detaillisten in § 2 waren von Anfang an richtig — § 2.1 führt
+10 WICHTIG, § 2.3 zehn HINWEIS (zusammen **20**, nicht 24), und § 2.2
+ist mit „(4, Restposten benannt)" überschrieben, listet aber **fünf**
+Zeilen. Die Summenzeile stand nie mit den eigenen Listen im Einklang;
+niemand hat nachgerechnet. **Das ist derselbe Nenner-Verlust, den der
+R05-A-Prüfer am Papier gerügt hat — eine Ebene höher, in der Bilanz
+über die Prüfung.** Die Detaillisten und TEIL 2 sind davon **nicht**
+betroffen: TEIL 2 rechnet durchgehend mit den richtigen 10/10/5/1.
 
 **Präzisierung der Ausgangsvermutung:** Die Leitsession vermutete „nur
 die KRITISCH-Befunde wurden abgearbeitet". Das ist zu grob — repariert
-wurden alle 4 KRITISCH **und** 7 der 17 WICHTIG (3 ganz, 4 teilweise).
-Liegengeblieben sind **10 von 17 WICHTIG und 10 von 10 HINWEIS**.
+wurden **drei der vier KRITISCH ganz** (K-4 nur teilweise) **und** 7 der
+17 WICHTIG (3 ganz: W-1, W-4, W-15 · 4 teilweise: W-6, W-9, W-14,
+W-17). *(Zählweg-Korrektur R7: Die Erstfassung schrieb „alle 4
+KRITISCH und 7 der 17 WICHTIG" und zählte K-4 damit doppelt — einmal
+als repariert, einmal als teilweise. Genau daher stammt die
+Differenz 32 statt 31.)*
+⚠️ **Und K-3 war in R7 doch nicht vollständig:** Der R07-A-Prüfer fand,
+dass Reparaturteil (c) — ein Satz, der die **Verteilung** der
+Einstufungen offenlegt — fehlte. In R7 nachgetragen (B4.1): **54
+Einstufungen, davon 43× W1, 5× W2, 2× W1/W2, 2× „—", 0× N.**
+
+Liegengeblieben waren damit **10 von 17 WICHTIG und 10 von 10 HINWEIS**
+— genau die 20 Posten, die TEIL 2 abarbeitet.
 
 **Attributionsbeleg des Subagenten:** `git diff -U0 34bbda2 629d18d --
 fund/wettbewerbsbild.md` (+124/−30) berührt 14 Hunks; B5.2, B6.2, B8.3,
@@ -286,3 +314,80 @@ maß — beide am Rohbeleg gemessen und im Papier dokumentiert:
 Ergänzend, ohne Widerspruch zum Befund: **H-2** spricht von „neun
 Beitragsstufen bis IX" — es sind **zehn**, weil Stufe 0 mitzählt;
 weggelassen waren im Papier also vier Stufen, nicht drei.
+
+## T2.5 Nach dem eigenen Prüferlauf (R07-A-Prüfer)
+
+Protokoll: `protokolle/R07-A-pruefer.md` (unabhängig, frischer Kontext,
+Schreibrecht auf genau diese eine Datei, Arbeitsbaum-Diff ausdrücklich
+nicht gesichtet). **Disposition aller seiner Befunde, kategorienweise
+mit Nenner:**
+
+| Kategorie | Nenner | repariert | bewusst verworfen | Träger benannt |
+|---|---|---|---|---|
+| KRITISCH (K-A) | **1** | **1** | 0 | 0 |
+| WICHTIG (W-A…W-D) | **4** | **4** | 0 | 0 |
+| HINWEIS (H-A…H-E) | **5** | **5** | 0 | 0 |
+| Verdacht | **2** | 0 | 0 | **2** |
+| „nicht prüfbar" / nicht geprüft | **3** | — | — | **3** |
+| **Summe** | **15** | **10** | **0** | **5** |
+
+**K-A** war die **Verfahrens-Positivkontrolle** dieser Session: eine
+bewusst falsch eingebaute Kernaussage („Mindestlaufzeit **12** Monate"
+statt 3, samt daraus gerechneter Einstiegssumme 11.548 statt 3.637).
+Der Prüfer hat sie **gefunden und inhaltlich am Rohbeleg begründet**,
+ohne den Diff zu sichten — und zusätzlich bemerkt, dass Träger und
+Papier an dieser Stelle auseinanderliefen. Rückbau per
+`git checkout -- fund/wettbewerbsbild.md`, Rückbau belegt.
+**Das Prüfverfahren ist damit positiv kontrolliert.**
+
+**Die vier WICHTIG-Befunde waren echt und sind repariert:**
+- **W-A** — drei in R7 gesetzte Positivkontrollen waren **Zeilen**-, der
+  Bestand aber **Treffer**-Zählungen (`grep -c` vs. `grep -o`). Alle vier
+  betroffenen Zahlen tragen jetzt ihren Zählweg; eine zugelieferte
+  Agentenzahl („65") reproduzierte unter keinem Zählweg und wurde durch
+  eigene Messung (82) ersetzt.
+- **W-B** — die B12-Ankerzahlen stammten aus einem zu engen Regex, das
+  `rel="canonical"` **vor** `href` erwartete. In a4 allein tragen 24
+  Dateien die umgekehrte Reihenfolge. Neu gemessen; dabei fielen zwei
+  Domains auf, die ganz gefehlt hatten — darunter **`smart-host.com`**,
+  der Gegenstand von B6.1.
+- **W-C** — **P22 war doppelt belegt** (seit R06-A an die 74 ungeprüften
+  Brandnamic-Einträge vergeben). ADDITIVE ist jetzt **P24**; **P23**
+  (Arbeitskreis ITK) und **P25** (Brandnamic IT/EN) sind ins
+  § 7-Register nachgetragen.
+- **W-D** — das Änderungsprotokoll § 8 hatte keine R7-Zeile. Nachgetragen.
+
+**Die fünf HINWEISE sind ebenfalls repariert** (H-A Messbegriff
+„Kiosk.eu 1× im Archiv" → „eine Seite, Zählweg canonical" · H-B
+Bräu-Anker zeigten auf die FAQ-**Frage** statt auf den zitierten Satz,
+korrigiert auf Z. 53 bzw. 165–166 · H-C Bestandszahl 2132 mit eigenem
+Zählweg neu erhoben (2134 = 2128 + 6) und die Abweichung offengelegt ·
+H-D Auslassungszeichen am ersten Dittlmann-Zitat · H-E „11.600 Zeichen /
+35 Blockelemente" selbst nachgemessen → **11.382 Zeichen / 48 öffnende
+Blocktags** mit Zählweg).
+
+**Zusätzlich aus dem Prüferlauf abgeräumt, obwohl außerhalb des
+R7-Auftrags:**
+- **K-3 Teil (c)** aus R05-A war nie eingearbeitet worden — der Satz,
+  der die **Verteilung** der Einstufungen offenlegt. Die W-2-Reparatur
+  dieser Runde hatte ihn zusätzlich verschärft (die letzte „—"-Vergabe
+  in B4.1 fiel weg). Nachgetragen in B4.1: **54 Einstufungen, davon
+  43× W1, 5× W2, 2× W1/W2, 2× „—", 0× N**, mit Zählweg und Summenprobe.
+- **Rechenfehler in § 1 dieses Trägers** (44 → 34/40 · 37 → 31 ·
+  24 → 20 · K-4 doppelt gezählt) — oben korrigiert, Originalzahlen
+  bleiben sichtbar.
+
+**Eigenfund beim Nachzählen:** Eine in R7 eingefügte Tabellenzelle
+enthielt ein **`|` im Fließtext** (`grep -oi … | wc -l`) und zerlegte
+damit die Markdown-Zeile. Behoben. Merksatz für dieses Repo: Zählwege
+mit Pipe-Zeichen gehören nicht in Tabellenzellen.
+
+**Offen geblieben, mit benanntem Träger:**
+1. **W-15** hat der Prüfer **nicht geprüft** — der Befund liegt in
+   `protokolle/R05-A-fundstellen.md`, außerhalb seines Auftrags. „Nicht
+   geprüft", nicht „in Ordnung". Träger: MKT-FUND.
+2. **B10, B11, B3, B7.1, B9.3, B9.4-Fließtext und Teil A §§ 1–4 /
+   5.3–6.5** waren nicht Prüfgegenstand — ausdrücklich als ungeprüft
+   ausgewiesen, nicht als unauffällig.
+3. Die beiden **Verdachtspunkte** des Prüfers sind als solche geführt
+   und nicht verifiziert.

@@ -1303,6 +1303,9 @@ Misstrauen gegen die Quelle.
 | **P17** | **Reine Gästemappen-/Guest-App-Anbieter sind in Teil B systematisch nicht erhoben** — sie sind keine Agenturen und fielen durch beide Suchraster. Für unser Portfolio sind sie die eigentliche Nachbarschaft (B4.4 Punkt 6). ⚠️ **Verschärft durch B10.4:** Die flexipass-Marktplatzliste nennt über 40 solcher Anbieter namentlich — der Suchraum für P17 liegt damit fertig vor. | eigener Erhebungslauf, Weg wie Teil A (Store/Anbieterseiten); Kandidatenliste aus B10.4 | mittel |
 | **P21** | **Die Verbund-Kategorie ist aufgemacht, aber nicht vollerhoben** (B11.7): sieben deutsche Kandidaten nur namentlich (City Partner · Flair · GreenLine · Landidyll · Leading Hotels of the World · Ringhotels · Wellness-Hotels-Deutschland), Österreich nur über einen Träger, **für die Schweiz existiert keine Verbundliste** (GastroSuisse liefert nur eine Systematik). Offen außerdem: Mitgliederzahlen, Beitragsmodelle (2 von 3 nicht veröffentlicht) und die Trägerschaft von fünf der sieben Südtiroler Verbünde. | Primärquellen je Verbund; für CH ggf. HotellerieSuisse statt GastroSuisse | **mittel–hoch — trägt die Kanalentscheidung MKT-AKQ** |
 | **P22** | **74 der 78 Einträge des Brandnamic-Partnerkreises sind ungeprüft** (B10.5). Geprüft wurden nur die vier in B4.3 benannten. Unter den ungeprüften stehen Namen mit erkennbarer Nähe zu unserem Feld (u. a. `chatlyn`, `customer-alliance`, `guest.net`, `reguest.io`, `mergeport`). | Primärquellen wie in B10; Rohbeleg liegt vor (`sensibel\rohbelege-R05-A\a2\raw_partner.html`) | mittel |
+| **P23** | **Aufnahmebedingungen des „Arbeitskreises ITK und Digitalisierung" der IHK zu Lübeck** (B9.2, neu in R7). Das Format MEET THE EXPERTS wird von dessen Mitgliedern bestritten — wer dort mitwirkt, sitzt auf der **Beraterseite** eines kostenlosen Angebots, das sonst unsere Zahlungsbereitschaft drückt. Offen ist, ob die Mitwirkung Kammerzugehörigkeit, Sitz in SH oder eine Bewerbung voraussetzt. | IHK zu Lübeck, Geschäftsstelle des Arbeitskreises; schriftliche Anfrage (Baustein `aussenkorrespondenz`) | **mittel–hoch — Kanal UND Wettbewerbsentschärfung zugleich** |
+| **P24** | **ADDITIVE ist nicht erhoben und nicht eingestuft** (B1 Punkt 8). Im eigenen Text namentlich zitiert (B4.2, anfang.team-Empfehlungsliste), im DACH-Raum ein großer Anbieter für Hotel-Marketing-Automation. | Primärquelle Anbieterseite + Impressum, wie in B4 | mittel |
+| **P25** | **Brandnamics IT-/EN-Sprachfassungen sind unerhoben** (B4.3, B1 Punkt 7). Das Nullergebnis „kein Wettbewerber in der Self-Check-in-/Meldeschein-/Zutritts-Technik" beruht allein auf der **deutschen** Fassung (476/476 Seiten). Bei einem Südtiroler Anbieter mit italienischem Kernmarkt könnte ein `alloggiati`-/Meldeschein-Produkt zuerst in der IT-Fassung stehen — der Lauf könnte das Nullergebnis **kippen**. | `curl` auf die IT-/EN-Sitemap, gleiche Nullmuster wie im DE-Lauf, mit Positivkontrolle je Muster | **hoch — trägt eine Neu-Einstufung** |
 
 ---
 
@@ -1317,6 +1320,7 @@ Misstrauen gegen die Quelle.
 | 09.08.2026 | R05-A | **Nach unabhängigem Prüferlauf überarbeitet** (`protokolle/R05-A-pruefer.md`). Korrigiert: Apaleo-Store-Kategorien **7 → 9** samt gestrichener Fehl-Entwarnung „bestätigt die MKT-R3-Messung" und ersetzter Positivkontrolle (B8.4) · BAFA-Zitat um seine **Ausnahmeklausel** ergänzt, „BAFA-untauglich" zurückgenommen (B9.4, P14) · **W1-Inflation in B5 behoben**: neue Vergabelinie **L-B7** (E13b-Pauschalzuschnitt als benannter Anker), zwei Einstufungen auf „—" korrigiert, drei mit Teilleistungs-Vermerk · maxonline W2 → **W1** (Verstoß gegen die eigene Linie L-B1) · DEHOGA-BW-Eigenanteile mit Scope „**je Beratungstag**" (Doppelmaßstab zu B6.1 beseitigt) · Brandnamic-Kanal-Einstufung um **Hotelkooperationen** erweitert · zwei verschwiegene Lücken in B1 nachgetragen (Steuer-/BWL-Beratung, Hotelkooperationen) → neue Punkte **P18/P19**, dazu **P20** (flüchtige Belegbasis) · „Browser nicht benötigt" als Fehl-Entwarnung zurückgenommen · § 5.5-Verweis präzisiert (das Technik-Negativ bleibt schwach) · **P9 als erledigt markiert** (47 IHA-Partner erhoben). |
 | 10.08.2026 | R06-A | **P15 und P19 aufgelöst — zwei neue Abschnitte in Teil B.** Neu: **B10** (Brandnamic-Partnerkreis an den Primärquellen: Redirect-Gegenprobe je Domain, Partnerkreis nachgezählt **78 Einträge / 76 Domains** statt „~70", zwei Treffer + zwei Namensfallen, Einstufungen, Preisanker iiQ-Check inkl. Zählweg-Warnung zur Tarif-Extraktion, Firmierungs-Widerspruch bei flexipass) · **B11** (Hotelkooperationen: IHA-Definition wörtlich, vier Länder-Zugänge, Strukturbefund „**in drei von vier Fällen mit belegter Trägerschaft** führt eine Agentur/Beratung den Verbund", Goslar-Cluster AKZENT/ConsultiiQ/TMA, AKZENT-Beitragstabelle mit Summenprobe, Einstufungen, Negative). Geändert im Bestand: neue Vergabelinie **L-B8 (Geografie)** in B2 inkl. rückwirkender Bestandsprüfung · Erhebungstabelle und Punkt 1b in **B1** nachgezogen · Vorwärtsverweise in **B4.3** und **§ 5.4** (Säule 4: dritte Seite) · Nachtrags-Kasten im Teil-B-Kopf · Nachtrag in der Geltungsgrenze **§ 0.0** · § 7: P15/P19 auf erledigt, **P21/P22** neu, P17 verschärft. Belegbasis: `sensibel\rohbelege-R06-A\`. |
 | 10.08.2026 | R06-A | **Nach unabhängigem Prüferlauf überarbeitet** (`protokolle/R06-A-pruefer.md`, 2 Kritisch + 8 Wichtig, alle nachgeprüft und repariert). Korrigiert: **Brandnamic-Partnerkreis hat SIEBEN Kategorien, nicht sechs** — „Institutionelle Partner" (2) war still zu „Branchenpartner" addiert worden; Ursache war eine hartcodierte Sechser-Namensliste im Zähllauf (**zweite Reproduktion der Fehlerklasse aus B8.4**) · **„alle zzgl. MwSt." bei den iiQ-Check-Tarifen gestrichen** — die Quelle macht keine Angabe zur Steuerbasis (0 Treffer bei Positivkontrolle) · flexipass-Zitat auf den Originalsatz zurückgeführt (die Erstfassung hatte zwei Sätze verschmolzen) · **L-B8 rückwirkend gegen den Bestand geprüft** (ein Kandidat: Roommatik/ES — Einstufung bleibt, mit Begründung) · Vorwärtsverweis in **§ 5.4** ergänzt (flexipass ist die dritte Seite gegen Säule 4) · **Nenner „drei von vier" ausgeschrieben** und der Strukturbefund in § 7 und im Änderungsprotokoll entschärft · falsches Negativ zu Mitgliederzahlen repariert (**PrivateCityHotels: „42 Hotels in 18 Städten"** — beim Entmarkupen verlorengegangen) · Strafinger-Zitat auf seinen belegten Geltungsbereich (Health Spa) begrenzt · AKZENT-Partnerkacheln „genau drei" → **vier Kacheln, drei extern**. Dazu elf Präzisierungen: „~70" auch in der B4.3-**Einstufungstabelle** nachgezogen · TMA-Zählweg genannt und Registerart nicht mehr ergänzt · Redirect-Gegenprobe auf ihre Belegstufe (Antwortkörper, nicht Statuszeile) zurückgeführt · Certified-Partners-Satz drei statt zwei Knoten, Trenner ist ein Link auf `/marketplace` · hoteldoor „69" → 68 Portale + 1 Netzwerk-Eintrag, Deutung als solche markiert · AKZENT-Mystery-Check-Zitat um seinen Scope-Nachsatz vervollständigt · Personenidentität Mario Peschke ausgeschrieben · flexipass „100+" gegen die 28 veröffentlichten PMS gestellt · „74 Partner" → „74 Einträge" · **Querbefund an B4.5**: PrivateCityHotels. belegt Häuser in Berlin/Hamburg/Köln und stützt damit die Sample-Schwäche aus B1 Punkt 2. |
+| 10.08.2026 | R07-A | **Nacharbeit der in R5 liegengebliebenen Prüferbefunde — jede Reparatur am Rohbeleg gemessen** (`protokolle/R05-A-pruefer.md`, Träger `protokolle/R06-nacharbeit-R05A-befunde.md` TEIL 2). Bilanz mit Nenner: **24 von 26** handlungspflichtigen Posten repariert, 0 bewusst offen, 2 mit benanntem Träger (W-17-Rest, V-1-Rest). **Zitatkritisch:** Dittlmann-Pseudo-Zitat in zwei Zitate mit je eigener Fundstelle zerlegt (der Spleiß überbrückte 11.600 Zeichen und 35 Blockelemente, mit Wortlautwechsel an der Nahtstelle) · 42-GmbH-Partnerzitat bis zum Satzende geführt (die Erstfassung hatte zusätzlich einen Punkt gesetzt, den die Quelle nicht hat) · Bräu-Zitat mit Anker je Teil, Teil 2 stammt aus einem beim Aufruf geschlossenen, seitenweiten Overlay · DEHOGA-BW-Bundesweit-Zitat um die Hessen-/Saarland-Klausel ergänzt. **Nenner/Zählweg:** „15 von 16" mit Kanal-Vorbehalt · „drei Größenschwellen" → zwei Schwellen + ein Preisboden · „in aller Regel straiv" → **5 von 17**, „De-facto-Standard" gestrichen · DEHOGA-HH-Staffel vollständig (zehn Stufen) · Designkontor-Zählweg (161 Datenzeilen) · Mews-Länderzuordnung aufgelöst (Impressen, nicht die Mews-Seite) samt Versalien-Falle im Zählweg. **Einstufung/Kanal:** „Die Hotelberater" als **vorläufig** markiert · **TC Hotel Marketing „—" → W1 (Teilleistung)** mit neu ausformulierter Vergabelinie **L-B1b** und rückwirkender Bestandsprüfung · MEET THE EXPERTS auf **W1 + K** (Trägersatz Arbeitskreis ITK / IHK zu Lübeck) · „Vollsuchraum" auf die deutsche Fassung eingegrenzt · Nachtragsliste in **B1 Punkt 8** (ADDITIVE). **Preis-Scope:** Scope-Zusätze bei HotelPartner/RevenueRise zurückgeholt, „mehr als das Doppelte" gestrichen, RevenueRise-Selbstwiderspruch vermerkt · Setup-Gebühr und Mindestlaufzeit ergänzt, „Einstiegskorridor" gestrichen · 250 € der Architekten-Beratung zugeordnet · Preisuntergrenze aus dem **Nettotagessatz 985 €** statt aus dem Eigenanteil. **Neu:** Beleg-Anhang **B12** (Fundstellen-Anker je Strang) · Vorwärtsverweise in **§ 5.1/§ 5.2** · P8 zurückgeschnitten · **P23/P24/P25** neu. **Acht Befunde fand diese Runde selbst** (in keinem R05-A-Befund), darunter zwei harte Zitatabweichungen in § 5.2 in tragender Beweisführung: fehlendes „wir" (Bedeutungsumkehr) und „Hotels aller Größen" in Zitatform, obwohl die Formulierung im ganzen Archiv nicht vorkommt. **Zwei R05-A-Befunde trugen selbst nicht** (W-3/Plaschke, H-9/Mews) — dokumentiert im Träger T2.4. Nach eigenem Prüferlauf (`protokolle/R07-A-pruefer.md`) zusätzlich korrigiert: doppelt vergebene Kurz-ID P22 → **P24** · P23/P25 ins § 7-Register nachgetragen · **B12-Ankerzahlen** (zu enges Regex-Muster: 35 statt 11 ankerlose Dateien in a4, zwei fehlende Domains inkl. `smart-host.com`) · vier Positivkontrollen tragen jetzt ihren **Zählweg** (`grep -c` zählt Zeilen, nicht Treffer), eine delegierte Agentenzahl („65") war nicht reproduzierbar und wurde durch eigene Messung ersetzt. |
 
 ---
 ---
@@ -1432,7 +1436,13 @@ mit Zuschnitt kleine/mittlere Privathotellerie im DACH-Raum:
      keiner Ausschlussliste** auf. Ein im eigenen Text namentlich
      zitierter Wettbewerber ohne Einstufung ist eine sichtbare Kante —
      deshalb steht er jetzt hier. **Nicht erhoben, nicht eingestuft**;
-     Nachtrag als Prüfpunkt **P22**.
+     Nachtrag als Prüfpunkt **P24**.
+     *(⚠️ Korrigiert nach dem R07-A-Prüferlauf: Dieser Punkt trug
+     zunächst die Kennung P22 — die ist seit R06-A an die 74 ungeprüften
+     Brandnamic-Partnereinträge vergeben. Doppelt belegte Kurz-IDs sind
+     genau der Fall, den die Regel „vor der Vergabe neuer Kurz-IDs die
+     Kurzzeichen der Nachbardokumente greppen" verhindern soll — hier
+     hätte ein grep im **eigenen** Dokument gereicht.)*
    Diese Liste ist **bewusst offen**: Wer künftig einen Anbieter im Text
    namentlich zitiert, ohne ihn einzustufen, trägt ihn hier nach.
 
@@ -1652,7 +1662,7 @@ Eigenschaft der Suchbegriffe, **kein Marktbefund** (L-B6).
 | **Hotelmarketing Agentur M&P** | München (DE) | nicht belegt | Website (WordPress), Social, E-Mail | **W1** |
 | **JMC Hotelmarketing** (J. Uherek) | Saarbrücken (DE) | nicht eindeutig | SEO, Ads, Social, Content, „Revenue Strategien" | **W1** |
 | **maxonline® Marketing hfw GesmbH** | Leiben (AT) | GesmbH, FN 659087 x | SEO/GEO, **Websiteerstellung**, Paid Ads | **W1** *(korrigiert, R05-A-Prüferbefund: „Websiteerstellung" steht in der eigenen Leistungszeile — L-B1 ordnet Website-Bau dem real erbrachten Bestand zu; die W2-Vergabe verstieß gegen die eigene Linie)* |
-| **Die Hotelberater GmbH** | Innsbruck (AT) | GmbH | Distribution & Revenue, Social, Performance, „KI & Datensupport" | **W1 — ⚠️ VORLÄUFIG** *(korrigiert R7, R05-A W-2: Das nach L-B2 maßgebliche Zielgruppen-Kriterium ist der **Wortlaut der Anbieterseite** — und der ist hier **unerhoben**, die Über-uns-Seite antwortete 404. Am Rohabzug `a1/dhb_start.txt` selbst nachgeprüft: keine Zielgruppen-Selbstbeschreibung, Positivkontrolle „Hotel" 11 Treffer ✔; `a1/dhb_ueber.txt` trägt „Page not found". Die Einstufung ruht damit allein auf dem Leistungsschnitt. **Nachtrag bei erreichbarer Über-uns-Seite** — Prüfpunkt.)* |
+| **Die Hotelberater GmbH** | Innsbruck (AT) | GmbH | Distribution & Revenue, Social, Performance, „KI & Datensupport" | **W1 — ⚠️ VORLÄUFIG** *(korrigiert R7, R05-A W-2: Das nach L-B2 maßgebliche Zielgruppen-Kriterium ist der **Wortlaut der Anbieterseite** — und der ist hier **unerhoben**, die Über-uns-Seite antwortete 404. Am Rohabzug `a1/dhb_start.txt` selbst nachgeprüft: keine Zielgruppen-Selbstbeschreibung, Positivkontrolle „Hotel" **13 Treffer** (Zählweg: Treffer-Zählung `grep -oi`, nicht Zeilen-Zählung `grep -ci` — die ergäbe 11) ✔; `a1/dhb_ueber.txt` trägt „Page not found". Die Einstufung ruht damit allein auf dem Leistungsschnitt. **Nachtrag bei erreichbarer Über-uns-Seite** — Prüfpunkt.)* |
 | **Plaschke Internet Consulting** | Meran (IT) | nicht belegt | Ads, SEO/GEO, Newsletter, Coaching/Beratung | **W2** |
 | **99tales GmbH** (→ Rebrand „Advertos") | Brixen (IT) | GmbH | Content, Social, Ads, Landingpages; eigene Reporting-Software | **W2** |
 | **TC Hotel Marketing** (T. Christierson) | Ottweiler (DE) | Einzelunternehmen | Hotelvertrieb, MICE-Sales, **Hotel Online-Marketing**, Ist-Analyse Hotel/Hotelvertrieb | **W1 (Teilleistung)** *(heraufgestuft R7 von „— kein Portfolio-Schnitt", R05-A W-2 — Begründung unten)* |
@@ -1675,7 +1685,8 @@ Direktbuchungs-/Vertriebsoptimierung", **DIRS21** in B7.2 W1
 (Teilleistung) für „Buchungsstrecke/Website-Distribution". **TC Hotel
 Marketing** bekam bei derselben Sachlage „—". Am Rohabzug
 `a1/tc_start.txt` selbst nachgeprüft (Positivkontrolle „Hotel"
-50 Treffer ✔): „Hotelberatung und Hotelvertrieb **für Privathotels**" ·
+**68 Treffer**, `grep -oi … | wc -l`; die Zeilenzählung ergäbe 50 ✔):
+„Hotelberatung und Hotelvertrieb **für Privathotels**" ·
 „**Hotel Online-Marketing**" · „**Ist-Analyse Hotel**" · „Optimierung
 Ihres Hotelvertriebs und **Online-Marketings**" · „Ich analysiere die
 Ist-Situation, entwickle mit Ihnen die passende Vertriebsstrategie".
@@ -1691,6 +1702,27 @@ bleiben unberührt.
 „Privathotels" bzw. „privat geführtes Hotel" — **genau unsere Persona**.
 Der Anbieter war als einziger des Strangs gar nicht eingestuft und
 gehört damit zu den zielgruppengenauesten Treffern in B4.
+
+**⚠️ Die Verteilung aller Einstufungen — offengelegt, weil sie unbequem
+ist** *(nachgetragen R7; das ist der bis dahin fehlende Teil (c) der
+K-3-Reparatur aus R05-A, und die W-2-Reparatur oben hat ihn dringlicher
+gemacht)*: Über die vier Einstufungstabellen **B4.1, B5.1, B6.2 und
+B7.2** stehen **54 Einstufungen**. Davon **43× W1**, **5× W2**,
+**2× W1/W2** (gestufte Vergabe), **2× „—"** (beide in B5.1:
+Unternehmermanufaktur, HOGARAT), **0× N** — dazu eine Zeile außerhalb
+des Rasters (kiosk.eu: „Lieferant + Gegen-Kanal") und eine
+Erläuterungszeile. **Zählweg:** letzte Tabellenzelle jeder Datenzeile in
+den vier Abschnitten, maschinell klassifiziert; Summenprobe
+16 + 15 + 12 + 11 = 54 ✔.
+**Was das heißt:** Ein Raster, das in 43 von 54 Fällen denselben Wert
+vergibt und **niemals** die Kategorie N („kein Wettbewerber") benutzt,
+trennt schwach. K-3 hat genau davor gewarnt; die Reparatur damals hat
+die Vergabelinien geschärft (L-B7) und zwei Einstufungen zurückgenommen,
+aber die Verteilung nie beziffert. **Sie steht jetzt hier — und die
+TC-Heraufstufung dieser Runde hat die letzte „—"-Vergabe in B4.1
+beseitigt.** Wer aus diesem Papier ableitet „fast alle sind
+Wettbewerber", liest die Verteilung des **Rasters**, nicht die des
+Marktes.
 
 ### B4.2 Die drei Anbieter, die uns wirklich betreffen
 
@@ -1862,7 +1894,7 @@ falsch wäre:**
 | Achse | Einstufung | Begründung |
 |---|---|---|
 | Beratungs-/Agentursegment | **W1 — hoch** | Website-Bau **und Wartung/Betreuung nach Go-live**, CI/Branding/Naming, SEO/SEA, Social, Newsletter/CRM, „Pricing-Strategie" + „Storno- & Buchungsbedingungen", Hotelcoaching inkl. Leadership/Operatives, Mystery Checks |
-| Self-Check-in-/Meldeschein-/Zutritts-Technik | **kein Wettbewerber** — belegt, Stand 09.08.2026, **Vollsuchraum der DEUTSCHEN Fassung (476/476 Seiten) + Positivkontrolle; IT/EN nicht erhoben** (siehe B1 Punkt 7) | s. o. — aber die Nachbarfelder sind besetzt. ⚠️ **Geltungsgrenze in die Einstufungszeile geholt (R7, Prüferbefund R05-A W-5):** Der Vorbehalt stand nur im Methodenabsatz — zitiert wird aber **diese** Zeile, und „Vollsuchraum" trug ihn nicht mit. Bei einem **Südtiroler** Anbieter mit italienischem Kernmarkt ist die Sprachfassung kein Randdetail: Ein Meldeschein-/`alloggiati`-Produkt für den italienischen Markt stünde plausibel zuerst in der IT-Fassung — und `alloggiati`/`ISTAT`/`questura` gehörten zu den geprüften Nullmustern. **Der IT-Lauf ist damit ein Prüfpunkt, der genau dieses Nullergebnis kippen könnte** |
+| Self-Check-in-/Meldeschein-/Zutritts-Technik | **kein Wettbewerber** — belegt, Stand 09.08.2026, **Vollsuchraum der DEUTSCHEN Fassung (476/476 Seiten) + Positivkontrolle; IT/EN nicht erhoben** (siehe B1 Punkt 7) | s. o. — aber die Nachbarfelder sind besetzt. ⚠️ **Geltungsgrenze in die Einstufungszeile geholt (R7, Prüferbefund R05-A W-5):** Der Vorbehalt stand nur im Methodenabsatz — zitiert wird aber **diese** Zeile, und „Vollsuchraum" trug ihn nicht mit. Bei einem **Südtiroler** Anbieter mit italienischem Kernmarkt ist die Sprachfassung kein Randdetail: Ein Meldeschein-/`alloggiati`-Produkt für den italienischen Markt stünde plausibel zuerst in der IT-Fassung — und `alloggiati`/`ISTAT`/`questura` gehörten zu den geprüften Nullmustern. **Der IT-Lauf ist damit ein Prüfpunkt, der genau dieses Nullergebnis kippen könnte — geführt als P25** |
 | Kanal | **K — breiter als zunächst eingestuft, mit eingebautem Interessenkonflikt** | Partnerprogramm mit **78 Einträgen / 76 Domains in sieben Kategorien** belegt (nachgezählt R06-A, **B10.1** — die Erstfassung sagte „~70 Partner in sechs Kategorien"; L-B3 erfüllt). ⚠️ **Korrektur nach Prüferbefund R05-A:** „nur produktseitig" war zu eng — Brandnamic hat **zusätzlich Zugang über Hotelkooperationen** („Gemeinsam mit der … Consulting-Firma **Kohl & Partner** hat Brandnamic die Leitung und Verwaltung von zwei Kooperationsgruppen inne: **Belvita Leading Wellnesshotels Südtirol** und **Familienhotels Südtirol**"). Das ist ein Mehrfach-Zugang zu Häusern unserer Zielgruppe, unabhängig vom Technik-Partnerprogramm. Der Interessenkonflikt bleibt: dasselbe Haus verkauft unser gesamtes Beratungssegment selbst |
 
 **Der unbequeme Kern dieser Einstufung:** Was bei uns als „**im Aufbau**"
@@ -1896,7 +1928,8 @@ rechnen.
    antwortete das **Impressum** 3× mit HTTP 403, und ein Impressum ist
    kein Preiskanal. Die Plaschke-Startseite wurde abgerufen
    (`a1/pla_start.txt`) und enthält keinen Preis; Positivkontrolle
-   „Hotel" 30 Treffer ✔. Das Plaschke-Preisnegativ bleibt also
+   „Hotel" **31 Treffer** (`grep -oi … | wc -l`; Zeilenzählung ergäbe
+   30) ✔. Das Plaschke-Preisnegativ bleibt also
    unverändert belastbar — der Prüfer hat hier „ein Kanal fehlte" mit
    „der Preiskanal fehlte" gleichgesetzt.)*
    Der einzige Anker im gesamten Feld ist anfang.team mit „**ab etwa**
@@ -2035,10 +2068,18 @@ des Feldes **das Verkaufsargument**:
   akkreditiert. **Zwei getrennte Zitate mit je eigener Fundstelle**
   *(zerlegt R7 nach Prüferbefund R05-A W-16)*:
   - Impressum, Rubrik „ANBIETERINFORMATIONEN" (`a3/ch-impressum.txt`
-    Z. 149): „Eingetragen in die KfW-Beraterdatenbank, bei der BAFA für
-    Unternehmensberatungen (**ID: 130986**) Akkreditiert vom
+    Z. 149): „**…** Eingetragen in die KfW-Beraterdatenbank, bei der
+    BAFA für Unternehmensberatungen (**ID: 130986**) Akkreditiert vom
     Bundesministerium für Arbeit und Soziales **für systemisches
-    Coaching** im Programm INQA (Initiative neue Qualität der Arbeit)"
+    Coaching** im Programm INQA (Initiative neue Qualität der Arbeit)
+    **…**" *(Auslassungszeichen an beiden Enden gesetzt nach dem
+    R07-A-Prüferlauf: Die Quellzeile führt davor „Zertifizierter
+    Sachverständiger für das Hotel-, Tourismus- & Gaststättengewerbe
+    (DGuSV, Hospitality Consulting);" und dahinter „; Zulassung als
+    Unternehmensberater in Österreich gemäß § 373a Abs. 5 Z1 GewO,
+    Hospitality Consulting". Inhaltlich unschädlich — die Semikola
+    trennen eigenständige Aufzählungsglieder —, aber es ist **dieselbe
+    Klasse**, die diese Runde beim 42-GmbH-Zitat selbst gerügt hat.)*
   - Siegel-Kachel „Systemisches Coaching (INQA)" im Seitenfuß derselben
     Seite (`a3/ch-impressum.txt` Z. 168; wortidentisch auch
     `a3/ch-preise.txt` Z. 209): „Akkreditiert vom Bundesministerium für
@@ -2047,9 +2088,19 @@ des Feldes **das Verkaufsargument**:
 
   ⚠️ **Warum das zerlegt werden musste:** Die Erstfassung setzte beides
   als EIN wörtliches Zitat und überbrückte den Sprung mit „…". Der Sprung
-  geht aber nicht über eine Wortlücke, sondern über **11.600 Zeichen und
-  35 Blockelemente** — quer durch den kompletten Haftungsausschluss, aus
-  dem Impressumstext heraus in ein Bildkachel-Widget. Zusätzlich wechselt
+  geht aber nicht über eine Wortlücke, sondern über **11.382 Zeichen und
+  48 öffnende Blocktags** (davon 31 `div`, 9 `p`, je 2 `section`,
+  `figure`, `h2`, `h5`) — quer durch den kompletten Haftungsausschluss,
+  aus dem Impressumstext heraus in ein Bildkachel-Widget.
+  **Zählweg:** Abstand zwischen dem Ende von Zitat 1 („Initiative neue
+  Qualität der Arbeit", Offset 172.926) und dem Beginn von Zitat 2
+  („als systemischer Coach", Offset 184.308) in `a3/ch-impressum.html`;
+  Blocktags per Regex über dieses Segment gezählt.
+  *(⚠️ Zahlen nach dem R07-A-Prüferlauf selbst nachgemessen und
+  **korrigiert**: Die Erstfassung nannte „11.600 Zeichen und 35
+  Blockelemente" — beide Werte stammten aus einer Zulieferung ohne
+  Zählweg, und „35" reproduziert unter keiner geprüften Zählweise.)*
+  Zusätzlich wechselt
   der Wortlaut an der Nahtstelle („für systemisches Coaching" ↔ „als
   systemischer Coach"); der zusammengesetzte Satz existiert in **keiner**
   Quelle. **Die Sachlage stimmt** (beide Kennnummern sind echt und
@@ -2616,7 +2667,14 @@ Hotellerie ist nicht All-in-One, Sie ist **All-in-Partners**."
    **Bräu** — das erstgenannte Mitglied des Lagers — trafen die Muster
    `Go-Live|Go Live` und case-insensitiv `live` in den beiden erhobenen
    Seiten (`a3/braeu-dach.txt`, `a3/braeu-impressum.txt`) **je 0×**
-   (Positivkontrolle „Hotel" 65 Treffer ✔). Ihn deckt allein der dritte
+   (Positivkontrolle „Hotel" **82 Treffer** über beide Dateien,
+   `grep -oi … | wc -l`; die Zeilenzählung `grep -ci` ergäbe 57 ✔).
+   *(⚠️ Zahl in R7 selbst nachgemessen und **korrigiert**: Der
+   zuliefernde Prüf-Subagent hatte „65" gemeldet — dieser Wert
+   reproduziert unter keinem der beiden Zählwege und über keine der
+   beiden Dateien einzeln (47/71/11/57/82). Eine delegierte Zahl ohne
+   benannten Zählweg ist nicht übernehmbar. Der **Nulltreffer selbst**
+   ist unabhängig reproduziert.)* Ihn deckt allein der dritte
    Beleg („Die Umsetzungsbegleitung ist optional"). Das ist **kein**
    Gegenbefund zur Lagerzuordnung — es ist ein **Suchraum**-Vorbehalt:
    Von braeu-innovation.de wurden nur zwei Seiten abgerufen, weitere
@@ -2650,7 +2708,14 @@ beschreiben qualitativ oder gar nicht").
   schwächer** — FAQ „Für welche Hotelgrößen arbeiten Sie?": „Bei weniger
   als 30 Zimmern fehlt **häufig** die Grundlage für **strukturierte
   Beratungsprojekte**." *(Zweitfassung nachgetragen R7, am Rohbeleg
-  `a3/braeu-dach.txt` Z. 52/161 gefunden — sie stand in keinem
+  `a3/braeu-dach.txt` **Z. 165–166** gefunden — der kategorische Satz
+  steht in **Z. 53**; Zählweg: `grep -n "weniger als 30"` liefert genau
+  diese beiden Fundstellen, Positivkontrolle „30 Zimmern" = 2 ✔. Das
+  Zitat überbrückt einen **Zeilenumbruch der Extraktion**, keine
+  Absatzgrenze. **Anker korrigiert nach dem R07-A-Prüferlauf:** Die
+  Erstfassung nannte „Z. 52/161" — das sind die beiden **FAQ-Fragen**,
+  nicht die zitierten Sätze. Ausgerechnet bei einem Befund, in dem es um
+  Anker geht, zeigte der Anker daneben. Sie stand in keinem
   R05-A-Befund. Das Papier zitierte an beiden Stellen ausschließlich die
   kategorische Fassung; der Vorbehalt „häufig" und der engere Gegenstand
   „strukturierte Beratungsprojekte" fielen weg — und zwar **zugunsten
@@ -2787,10 +2852,19 @@ gefunden, in W-13 nicht enthalten)*:
   **einer digitalen Guest Journey** und modernstem Payment". Im
   belegenden Dokument ist straiv damit **ein Weg von zweien**.
 - ⚠️ **Der frühere Klammerzusatz „(zusammen mit Kiosk.eu)" ist
-  entfernt:** „Kiosk.eu" kommt im **gesamten** Rohbeleg-Archiv genau
-  **1×** vor — in eben jenem einen Prosa-Satz, ohne Logo, Menüeintrag
-  oder Produktkasten. Er stand neben straiv, als hätten beide dieselbe
-  Belegtiefe. Haben sie nicht.
+  entfernt:** „Kiosk.eu" steht auf **genau einer Seite**
+  (`42-gmbh.de/digitalisierungsberatung-fuer-hotels/`, Zählweg:
+  eindeutige `canonical`-URL) und dort in **einem einzigen Prosa-Satz** —
+  ohne Logo, Menüeintrag oder Produktkasten. Zum Vergleich: „straiv"
+  trifft im selben Archiv 31× über 6 unabhängige Fundstellen.
+  Der Zusatz stand neben straiv, als hätten beide dieselbe Belegtiefe.
+  Haben sie nicht.
+  *(⚠️ Messbegriff präzisiert nach dem R07-A-Prüferlauf: Die Erstfassung
+  sagte „kommt im gesamten Rohbeleg-Archiv genau 1× vor". Eine
+  Nachmessung per `grep -roi` ergibt **4** Treffer — dieselbe Seite ist
+  im Archiv doppelt abgelegt (a3- und a6-Strang) und je als `.txt` und
+  `.html`. Die inhaltliche Aussage hält unverändert; die Zahl ohne
+  Zählweg lud zu einem Scheinwiderspruch ein.)*
 
 **Straiv bleibt damit unser Technik-Wettbewerber (Teil A) und die
 häufigste Fremdbesetzung unserer Produktschicht im Portfolio der
@@ -3680,7 +3754,20 @@ Zahlungsbereitschaft, kein Preisschild. Auswertung gehört **MKT-HANDEL**.
 R06-A gesichert — die Rohabzüge lagen bis dahin nur im
 sessiongebundenen Scratchpad und wären binnen Tagen verfallen; sie
 liegen seit **P20** vollständig unter `sensibel/rohbelege-R05-A/`
-(2132 Dateien, git-ignoriert). Offen blieb der **URL-Anker je Zitat**.
+(git-ignoriert). **Bestand mit Zählweg, in R7 selbst gemessen:**
+`find … -type f` über den ganzen Ordner = **2134** Dateien; davon
+**2128** in den Strang-Ordnern a1–a6 und **6** Nachrichtendateien
+(`msg1…6.txt`) im Wurzelverzeichnis (2128 + 6 = 2134 ✔). In den 2128
+enthalten sind **5** Hilfsskripte (`strip.js`, `fetch.sh`).
+⚠️ **Die in P20 geführte Zahl 2132 reproduziert sich unter keiner
+dieser Zählungen** (nächstliegend: 2134, Abweichung 2). Welche zwei
+Dateien die Differenz ausmachen, ist hier **nicht entschieden** — die
+Zahl stammt aus einer robocopy-Meldung ohne dokumentierten Zählweg, und
+sie wird dort als **Identitätsbeleg** der Kopie geführt. Bis zur
+Klärung ist die Kopie-Identität **nicht** als belegt zu lesen; der
+Bestand selbst ist vollständig und benutzbar (alle in R7 gesuchten
+Dateien waren vorhanden). *(Befund aus dem R07-A-Prüferlauf,
+eigenständig nachgemessen.)* Offen blieb der **URL-Anker je Zitat**.
 Der Prüfer hatte dafür ausdrücklich eine **Sammel-Fußnote je Abschnitt**
 als ausreichend bezeichnet — das ist diese Tabelle.)*
 
@@ -3696,7 +3783,7 @@ Selbstauskünfte die **einzige** verbliebene Kontrollebene.
 | a1 | **B4** Marketing-Agenturen | `sensibel/rohbelege-R05-A/a1/` | 38 | 48concepts.de · 99tales-marketing.com · agentur-hotelmarketing.com · andersundseim.de · anfang.at · diehotelberater.at · e621.ch · echtzeitlos.de · etouristik.at · gassermiesch.ch · heim-hotelmarketing.ch · hotelmarketing.de · max-online.at · plaschke-consulting.com · tc-hotelmarketing.de |
 | a2 | **B4.3** Brandnamic + Brainy | `…/a2/` | 59 | brandnamic.com · brainy-rms.com |
 | a3 | **B5** Unternehmensberatung | `…/a3/` | 47 | 42-gmbh.de · anfang.at · beraterkarte.de · braeu-innovation.de · changing-hospitality.com · cordes-rieger.de · hoffmann-hotel-consult.de · hogarat.de · hotel-interim-management.com · hotel-projects.ch · hotelfritz.com · kmu-berater.de · melevo.de · my.hotelleriesuisse.ch · revenue.rocks · th-experts.com · tourismusberatung.prodinger.at · tourismusexperten.ch · unternehmer-manufaktur.com |
-| a4 | **B6** Revenue-Beratung | `…/a4/` | 65 | cbg-gmbh.com · comcierge.ch · hotellistat.com · hotelpartner.com · jf-hospitality.de · revenue.rocks · revenuerise.ch · roompricegenie.com · spalteholz.com · thehotelconsultants.com · unitels.de |
+| a4 | **B6** Revenue-Beratung | `…/a4/` | 65 | cbg-gmbh.com · comcierge.ch · hotellistat.com · hotelpartner.com · jf-hospitality.de · revenue.rocks · revenuerise.ch · roompricegenie.com · **smart-host.com** · spalteholz.com · thehotelconsultants.com · unitels.de · `512411590.swh.strato-hosting.eu` (Hosting-Host eines Anbieters ohne eigene Canonical-Domain) |
 | a5 | **B9** Verbände/Kammern/Förderung | `…/a5/` | 213 | bafa.de · dehoga.de · dehogabw.de · dehoga-sh.de · dehoga-hamburg.de · hotellerie.de · ihk.de · svv.ihk.de · handelskammer-hamburg.de · hkbis.de · ihk-bonn.de · dihk-service-gmbh.de · wtsh.de · ib-sh.de · digitalzentrum-sh.de · digitalzentrum-hamburg.de · digitalzentrum-tourismus.de · mittelstand-digital.de · foerderdatenbank.de · innovation-beratung-foerderung.de · kfw.de · kmudigital.at · oeht.at · wko.at · sgh.ch |
 | a6 | **B8** Bündel-Wettbewerb | `…/a6/` | 81 | 42-gmbh.de · 48concepts.de · agilotel.com · anfang.at · anker-alpen.de · apaleo.com · braeu-innovation.de · casablanca.at · changing-hospitality.com · consultant4it.com · ellipsys.de · hotelfritz.com · mario-vogelsteller.de · mb-gmbh.de · mews.com · opensmjle.com · praxis-projekt.de · sihot.com · smartbloqs.com · sum-hospitality.ch · th-experts.com · top.tirol · voisento.de · weareplanet.com · workathotel.de · z1digital.de · zahc.de |
 
@@ -3704,15 +3791,30 @@ Selbstauskünfte die **einzige** verbliebene Kontrollebene.
 dem `<link rel="canonical">` bzw. `<meta property="og:url">` **jeder**
 archivierten HTML-Datei gelesen (nicht aus einer vorher notierten
 Anbieterliste) und auf den Host normalisiert (`www.` entfernt).
-Gesamtbestand: **503 HTML-Dateien**.
+Gesamtbestand: **503 HTML-Dateien** (a1 38 · a2 59 · a3 47 · a4 65 ·
+a5 213 · a6 81; Summenprobe 38+59+47+65+213+81 = 503 ✔).
+
+⚠️ **Werkzeugfalle, die diese Tabelle bereits einmal verfälscht hat —
+und die hier stehen bleibt, weil sie sich wiederholen wird:** Die
+Erstfassung las den Anker mit einem Muster, das `rel="canonical"`
+**vor** `href` erwartete. HTML schreibt die Attributreihenfolge aber
+nicht vor: In `a4` allein tragen **24 Dateien** die umgekehrte
+Reihenfolge. Das Muster meldete dort 35 ankerlose Dateien statt 11 —
+und ließ zwei Domains ganz aus der Tabelle fallen, darunter
+ausgerechnet **`smart-host.com`**, den Gegenstand von B6.1. **Ein
+Negativ, das nicht passen kann, ist zuerst ein Werkzeugfehler.**
+Korrigiert nach dem R07-A-Prüferlauf; die Zahlen unten stammen aus dem
+robusten Lauf (Attributreihenfolge beliebig).
 
 ⚠️ **Grenzen dieses Anhangs — nicht geglättet:**
 1. **Nicht jede Datei trägt einen Canonical-Anker.** Ohne canonical/
-   og:url sind a1 7 · a2 0 · a3 3 · a4 35 · a5 33 · a6 20 Dateien.
-   Betroffen sind vor allem Fehlerseiten (404/403) und Seiten ohne
-   SEO-Auszeichnung. Für diese Dateien ist die URL **nur** über den
-   Dateinamen und den Erhebungskontext erschließbar — das ist eine
-   **schwächere Belegstufe**, und sie ist hier ausgewiesen, statt
+   og:url sind **a1 7 · a2 0 · a3 3 · a4 11 · a5 31 · a6 20 = 72**
+   Dateien; dazu kommen in a5 **2** Dateien mit einem Anker, dessen
+   Wert sich nicht als URL parsen lässt (getrennt geführt, nicht in die
+   72 gerechnet). Betroffen sind vor allem Fehlerseiten (404/403) und
+   Seiten ohne SEO-Auszeichnung. Für diese Dateien ist die URL **nur**
+   über den Dateinamen und den Erhebungskontext erschließbar — das ist
+   eine **schwächere Belegstufe**, und sie ist hier ausgewiesen, statt
    stillschweigend mitgezählt zu werden.
 2. **Das Abrufdatum ruht auf Datei-Zeitstempeln, nicht auf
    HTTP-Headern.** Alle sechs Stränge wurden am **09.08.2026 zwischen

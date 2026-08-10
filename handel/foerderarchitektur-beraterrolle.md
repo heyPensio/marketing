@@ -50,7 +50,7 @@ Anfragen.
 |---|---|---|---|
 | **Hamburg Digital Check** | **Der Kunde** — „rechtlich selbstständige kleine und mittlere Unternehmen (KMU gem. EU-Definition) der gewerblichen Wirtschaft … mit einer Betriebsstätte in Hamburg" (Ziffer 2) | **Beratungsdienstleister.** Wir stellen keinen Antrag. Wir unterschreiben die Anlage „Selbsterklärung Digitalisierungsberatung" (Ziffer 4) | `BYTE` / `AMTL` (Richtlinie, Stand 01.08.2025), 10.08.2026 |
 | **SH-DKU Modul 1 (Beratung)** | **Der Kunde** — „kleine Unternehmen der gewerblichen Wirtschaft gemäß der KMU-Definition" (Ziffer 3.1.1). Achtung: **kleine**, nicht mittlere → < 50 Beschäftigte und ≤ 10 Mio. € Jahresumsatz/-bilanz (Fußnote 1) | **Externer Beratungsdienstleister**; unsere Ausgaben sind der Zuwendungsgegenstand (Ziffer 5.2.1) | `BYTE` / `AMTL` (Amtsbl. SH 2026/190), 10.08.2026 |
-| **BAFA-Unternehmensberatung** | **Der Kunde** (das beratene KMU) | **Beratungsunternehmen mit BAFA-Registrierung**; hier trifft uns die Umsatzstrukturbedingung selbst | `SEKUNDÄR` / `AMTL` — aus B9.4; Rohbeleg `sensibel\…\a5\bafa\richtlinie.txt` liegt vor, von dieser Session **nicht** neu gelesen |
+| **BAFA-Unternehmensberatung** | **Der Kunde** (das beratene KMU) — „Die Auszahlung des Zuschusses erfolgt an das beratene Unternehmen" (Ziffer 5.1) | **Beratungsunternehmen mit BAFA-Registrierung**; hier trifft uns die Registrierungsvoraussetzung selbst | `BYTE` / `AMTL` (Förderrichtlinie i. d. F. vom 12.12.2024), 10.08.2026 |
 
 **Konsequenz für die Anfragen (Adressaten-Prüfung, Baustein
 `aussenkorrespondenz`):** Weil wir in allen drei Programmen **nicht**
@@ -364,11 +364,63 @@ Die Aufnahme ist ein dokumentierter User-Entscheid
 BAFA-Route **weder offen noch geschlossen**. Die richtige Aussage bleibt
 die aus B9.4: *Die Regelvoraussetzung ist bei umsetzungslastigem Geschäft
 nicht erfüllt; ob eine Ausnahmegenehmigung erreichbar ist, ist ungeprüft.*
-Die Richtlinie kennt dafür eine Klausel — „In begründeten Fällen kann die
-Bewilligungsbehörde hierzu eine auf den Zeitraum der Förderrichtlinie
-befristete Ausnahmegenehmigung erteilen" (`SEKUNDÄR`/`AMTL`, zitiert nach
-B9.4; Rohbeleg `sensibel\…\a5\bafa\richtlinie.txt` liegt vor, von dieser
-Session nicht neu gelesen).
+Die Richtlinie kennt dafür eine Klausel — Wortlaut und Fundstelle in
+Abschnitt 5.1, an der Rohquelle geprüft.
+
+### 5.1 Konditionen und Beratervoraussetzungen an der Rohquelle
+
+Diese Session hat die BAFA-Richtlinie selbst gelesen
+(`sensibel\rohbelege-R05-A\a5\bafa\richtlinie.txt`) — alle Angaben unten
+`BYTE`/`AMTL`. **Fassung laut Kopf:** „Vom 14. Dezember 2022 (BAnz AT
+23.12.2022 B1) in der geänderten Fassung vom 12. Dezember 2024 (BAnz AT
+23.12.2024 B1, gültig ab 1. Januar 2024)".
+⚠️ **Geltungsstand der BAFA-Richtlinie an der ausgebenden Stelle ist von
+dieser Session nicht geprüft** — anders als bei IFB und WTSH. Der Beleg
+ist der R05-A-Abzug vom 09.08.2026, nicht ein Live-Abruf. Vor einer
+BAFA-Entscheidung nachzuziehen.
+
+| Position | Wortlaut/Wert | Scope-Vermerk |
+|---|---|---|
+| Zuschuss SH/HH | „im Geltungsbereich der alten Bundesländer … **50 %** der förderfähigen Beratungskosten, maximal jedoch **1 750 Euro**" (Ziffer 5.2) | alte Bundesländer; neue Länder 80 % / 2 800 € |
+| Förderfähige Kosten | „Die förderfähigen Beratungskosten betragen maximal **3 500 Euro**" (Ziffer 5.2) | in der Richtlinie **genannt**, nicht gerechnet |
+| **Steuerbasis** | „Zu den förderfähigen Beratungskosten gehören neben dem Honorar auch Auslagen und Reisekosten …, **nicht jedoch die Umsatzsteuer**" (Ziffer 5.2) | Bemessung **netto**. ⚠️ Zugleich: Der Zuschuss wird nur gewährt, wenn der Kunde „die in Rechnung gestellten Beratungskosten (**einschließlich Umsatzsteuer**) in voller Höhe … bezahlt hat" — **die beiden Sätze meinen Verschiedenes und dürfen nicht verkürzt werden** |
+| Häufigkeit | „insgesamt nicht mehr als **zwei pro Jahr** und maximal **fünf** innerhalb dieser Richtliniendauer" (Ziffer 5.2) | je Antragsteller |
+| Antragsfrist | „Die Förderrichtlinie gilt längstens für Anträge, die bis zum **31. Dezember 2026** gestellt werden" (Ziffer 8) | — |
+
+**Ziffer 4.2.1 „Beratereigenschaft" — wörtlich an der Rohquelle
+(ersetzt das bisherige Zitat nach B9.4; ein Zitat gehört an die
+Rohquelle, nicht an den Verdichtungsbericht):**
+
+> In der Auswahl der Beraterin oder des Beraters ist der bzw. die
+> Antragstellende frei, sofern die Beraterin bzw. der Berater beim
+> Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) registriert ist.
+> Voraussetzung für die Registrierung ist, dass es sich um selbständige
+> Beraterinnen oder Berater handelt, deren überwiegender Geschäftszweck
+> auf die entgeltliche Unternehmensberatung (mehr als 50 % des
+> Gesamtumsatzes) gerichtet ist. In begründeten Fällen kann die
+> Bewilligungsbehörde hierzu eine auf den Zeitraum der Förderrichtlinie
+> befristete Ausnahmegenehmigung erteilen.
+
+**Damit ist die B9.4-Kernaussage an der Rohquelle bestätigt** — die
+Ausnahmeklausel steht dort und gehört in jede Wiedergabe.
+
+**Drei weitere Voraussetzungen aus Ziffer 4.2.1, die im Repo bisher nicht
+geführt sind:**
+
+1. „Des Weiteren müssen die Beraterinnen oder Berater die erforderlichen
+   Fähigkeiten und die notwendige Zuverlässigkeit besitzen sowie über ein
+   geeignetes **Qualitätssicherungsinstrument** verfügen."
+2. „Eine ordnungsgemäße Geschäftsführung … ist Grundvoraussetzung."
+3. ⚠️ „Die Beraterinnen und Berater dürfen **nicht schon als
+   Antragstellender im Förderprogramm aufgetreten sein**." — Wer das
+   Programm einmal als beratenes Unternehmen selbst nutzt, verliert damit
+   die Beraterrolle darin. Das ist eine Weichenstellung, die vor einer
+   eigenen Inanspruchnahme bekannt sein muss.
+
+→ **Offener Punkt F-9** (Träger: MKT-HANDEL): Qualitätssicherungs-
+instrument benennen, falls die BAFA-Route weiterverfolgt wird.
+→ Punkt 3 ist zugleich ein **Nebenbefund an die Zentrale**: Eine eigene
+BAFA-geförderte Beratung schlösse uns als BAFA-Berater aus.
 
 **Zeitpunkt-Prüfung — warum jetzt keine BAFA-Anfrage:** Eine Anfrage nach
 der Ausnahmegenehmigung setzt voraus, dass wir unsere Umsatzstruktur
@@ -441,6 +493,8 @@ Kundengespräch mit Förderbezug gilt:
 | **F-6** | B9.4-Korrekturen einarbeiten (2.1 Link-Warnung · 4.3 Werbe-Ausschluss · 3.3 Selbsterklärung · 4.2 „kleine" Unternehmen) | R07-A / Leitsession | R7-Review |
 | **F-7** | ⚠️ **Firmierung für den Versand.** Die GbR ist in Gründung, die Gewerbeanmeldung steht (~14.08.2026 laut `zentrale\STATUS.md`), der Rebrand-Name ist nicht entschieden. Beide Entwürfe tragen deshalb Platzhalter | User / Zentrale | **vor dem Versand** |
 | **F-8** | Rückläufe beider Anfragen einarbeiten — Zielort: dieses Dokument (Abschnitte 3 und 4) plus Vermerk in `fund/wettbewerbsbild.md` B9.4 | MKT-HANDEL | nach Antwort |
+| **F-9** | Geeignetes Qualitätssicherungsinstrument benennen (BAFA Ziffer 4.2.1), falls die BAFA-Route weiterverfolgt wird; zugleich klären, dass wir das Programm nicht selbst als Antragsteller nutzen | MKT-HANDEL + Zentrale | vor BAFA-Registrierung |
+| **F-10** | Geltungsstand der BAFA-Richtlinie an der ausgebenden Stelle nachziehen (diese Session hat nur den Abzug vom 09.08.2026) | MKT-HANDEL | vor BAFA-Entscheidung |
 
 ---
 
@@ -453,7 +507,8 @@ Kundengespräch mit Förderbezug gilt:
 | „Werbung"/„Betriebskosten"/„Art. 18" im Repo | Grep-Tool über alle `*.md` im Marketing-Repo | Außerhalb von `sensibel/`-Rohbelegen 1 Treffer, sachfremd → der SH-DKU-Werbe-Ausschluss war **nicht** dokumentiert | 10.08.2026 |
 | „mind. 2.500 € Beraterkosten" im Amtsbl. 2026/190 | gezieltes Lesen der Ziffern 2.1, 4, 5.2.1, 5.3.1 im Volltext (646 Zeilen) | **nicht wiedergefunden** — ⚠️ **kein belastbares Negativ**, weil keine Volltextsuche mit Positivkontrolle gelaufen ist. Status: „nicht geprüft" | 10.08.2026 |
 | Wildcard-Redirect bei `ifbhh.de` / `wtsh.de` | Kontrollpfad `/zzz-r07d-kontrollpfad`, Größenvergleich gegen Startseite | Beide 404 mit abweichender Größe → **kein** Wildcard-Redirect | 10.08.2026 |
-| BAFA-Richtlinie | **nicht erneut gelesen.** Die Angaben in Abschnitt 5 sind `SEKUNDÄR` aus B9.4 | Geltungsstand der BAFA-Richtlinie ist von dieser Session **nicht** geprüft | 10.08.2026 |
+| BAFA-Richtlinie, Inhalt | Rohbeleg `a5\bafa\richtlinie.txt` selbst gelesen (Ziffern 4.2.1, 5.1, 5.2, 8) | Alle B9.4-Zahlen bestätigt. Suche „3 500" traf Ziffer 5.2 (**Positivkontrolle desselben Laufs: „1 750" trifft ebenfalls, 1 Zeile** ✔) → der 3.500-€-Deckel ist **genannt**, nicht gerechnet | 10.08.2026 |
+| BAFA-Richtlinie, Geltungsstand | **nicht an der ausgebenden Stelle geprüft** — anders als IFB und WTSH. Beleg ist der Abzug vom 09.08.2026 | offen, vor BAFA-Entscheidung nachzuziehen | 10.08.2026 |
 | De-minimis-Höchstbeträge / Kumulierung auf Kundenseite | **nicht erhoben** (außerhalb des Auftrags) | offen | — |
 | Andere WTSH-/Landesseiten mit Altfassungs-Link | **nicht gemessen** — geprüft wurde nur die DKU-Programmseite | Der Befund 2.1 gilt nur für diese Seite | 10.08.2026 |
 

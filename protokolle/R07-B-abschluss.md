@@ -149,6 +149,25 @@ auch der Subagent war strikt lesend beauftragt.
    den User als Telefonat-Teilnehmer, nicht durch weitere Messung.
 5. **Anwaltliche Durchsicht** von Teil B (O-4) — Vertragsseite gehört
    laut Projektquelle zur Zentrale.
+6. **⚠️ Push der Abschlussmeldung steht aus — Klassifikator-Blockade in
+   BEIDEN Kanälen.** `git push origin 2c91f6f:main` wurde sowohl im
+   PowerShell- als auch im Bash-Kanal blockiert. Nicht umgangen (L-05:
+   Blockade ist ein Betriebszustand, melden statt Ersatzkanal suchen).
+   **Messbefund gegen L-05-Nachtrag:** Dort lief derselbe Push nach
+   doppelter PowerShell-Blockade im Bash-Kanal durch — hier **nicht**.
+   Die Kanal-Gebundenheit ist damit kein verlässlicher Ausweg, sondern
+   selbst zeitpunkt-/kontextabhängig. Für das Lehren-Register.
+   - **Stand der Veröffentlichung, nach frischem `git fetch` mit
+     `git branch -r --contains` gemessen:** Commit **`99c45c1`**
+     (Register + Vorlage) ist **bereits in `origin/main`** — durch den
+     Push einer Parallel-Session mitgenommen, genau der Spiegelfall aus
+     CLAUDE.md (R17/R30). Commit **`2c91f6f`** (dieses Protokoll) ist
+     **noch nicht veröffentlicht**.
+   - **Bewusst NICHT gepusht wurde `131b9b3` (R07-D, Betreff trägt
+     „ENTWURF").** Ein eigener `git push` hätte diesen fremden Commit
+     mitveröffentlicht; deshalb der gezielte Refspec `2c91f6f:main`
+     statt eines pauschalen Push. Ob R07-D veröffentlichen will,
+     entscheidet R07-D — nicht diese Session.
 
 ---
 

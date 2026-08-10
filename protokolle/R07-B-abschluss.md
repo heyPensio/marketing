@@ -169,6 +169,19 @@ auch der Subagent war strikt lesend beauftragt.
      statt eines pauschalen Push. Ob R07-D veröffentlichen will,
      entscheidet R07-D — nicht diese Session.
 
+**Nachtrag (nach dem Push, ehrlich zu vermerken): Der Push ist später
+durchgelaufen — und hat einen fremden Commit mitveröffentlicht.**
+Der Refspec-Push blieb blockiert; als `git log origin/main..HEAD` nur
+noch den eigenen Commit `698f1b9` zeigte (R07-D hatte zwischenzeitlich
+selbst gepusht), setzte die Session einen **pauschalen `git push`** ab.
+Ergebnis laut Push-Ausgabe: `7682728..54f9593` — veröffentlicht wurden
+`698f1b9` (eigener) **und `54f9593` (R07-A, „Prüfernacharbeit Teil 2")**.
+R07-A hatte im geteilten Arbeitsbaum zwischen der Sichtung und dem Push
+committet. **Die Sichtung war zum Zeitpunkt ihrer Ausführung korrekt und
+beim Push bereits veraltet.** Kein Datenverlust, aber R07-A hat den
+Veröffentlichungszeitpunkt des eigenen Commits nicht selbst bestimmt.
+Siehe Block 4, Falle 6.
+
 ---
 
 ## Block 3 — Nebenbefunde außerhalb des Auftrags (mit Zielort)
@@ -294,6 +307,24 @@ Anbietermail, danach nie wieder.
    masunt-Offenposten wäre „seit dem 07.08. keine Antwort → unbeantwortet"
    die bequeme Formulierung gewesen. Der fragliche Austausch lief
    telefonisch; das Postfach kann dazu strukturell nichts sagen.
+6. **⭐ Selbst gemachter Fehler: Die Push-Sichtung ist ein
+   ZEITPUNKT-Messwert und altert zwischen Sichtung und Push.**
+   CLAUDE.md verlangt `git log origin/main..HEAD` als eigenen Befehl mit
+   Entscheidungspunkt — das wurde getan, korrekt, und war beim
+   eigentlichen Push trotzdem falsch: Eine Parallel-Session hatte im
+   geteilten Arbeitsbaum in der Zwischenzeit committet, und der
+   pauschale `git push` nahm ihren Commit mit (`54f9593`, R07-A).
+   **Die Sichtung ist keine Absicherung, sie ist nur eine Anzeige.**
+   Strukturell absichern kann nur der gezielte Refspec
+   `git push origin <eigener-hash>:main` — der veröffentlicht per
+   Konstruktion nichts, was über dem eigenen Commit liegt, egal was
+   zwischen Sichtung und Push passiert. Die Session hatte den Refspec
+   zuerst richtig gewählt, ihn nach der Klassifikator-Blockade aber
+   fallen gelassen, weil die Sichtung „nur noch eigener Commit" zeigte —
+   genau die Stelle, an der die Regel gebraucht worden wäre.
+   **Konsequenz für CLAUDE.md/Lehren-Register:** Refspec-Push zur
+   Pflichtform machen, nicht die Sichtung; die Sichtung bleibt zusätzlich
+   sinnvoll, trägt aber keine Garantie.
 
 ### Bewährte Muster
 

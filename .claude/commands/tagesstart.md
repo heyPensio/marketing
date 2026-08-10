@@ -163,7 +163,14 @@ einer, beim User nachfragen statt raten:
 4. **Datei-Scope** — explizite Pfade, **jeder vor der Prompt-Ausgabe per
    Glob existenz-geprüft** (Pfade aus dem Gedächtnis kosten die Session
    Skript-Abbrüche; Herkunft: heyPensio R34). Disjunktheit gegen ALLE
-   laufenden Sessions prüfen. Wahrheits-Kanal (Projektquelle, STATUS.md,
+   laufenden Sessions prüfen — **⭐ auch auf VERZEICHNIS-Ebene: Wer legt
+   ein neues Verzeichnis AN?** Zwei Sessions mit disjunkten Dateien im
+   selben neuen Verzeichnis teilen eine Vorbedingung; die zweite findet
+   vor, was ihr Prompt als „existiert noch nicht" beschreibt, und muss
+   die eigene Auftragsprämisse verwerfen. Entweder eine Session legt an
+   und der Prompt der anderen sagt es, oder die Formulierung lautet
+   „lege an, falls nicht vorhanden". (Herkunft: MKT R7, L-20, Fehler
+   der Leitsession.) Wahrheits-Kanal (Projektquelle, STATUS.md,
    CLAUDE.md, Skills/Commands) ist NIE Teil eines Scopes.
 5. **Exklusive Systeme** — je System immer nur EINE Session; Zuteilung
    benennen. Setzt der Auftrag System-ZUGRIFF voraus, gehört der
@@ -239,14 +246,37 @@ einer, beim User nachfragen statt raten:
      an den Prüfer: **„Hättest du diese Funde auch OHNE den
      Kategorien-Hinweis gefunden?"** — misst, ob der Katalog trägt oder
      nur bestätigt (Herkunft: heyPensio L-25).
+   - **⭐ Agenten ausdrücklich auf den UNBEQUEMEN Pol verpflichten.** Der
+     Satz „Wo die Rechtslage/Sachlage streitig ist, ist ‚streitig' der
+     Eintrag, nicht der bequemere Pol" hat in MKT R7 sichtbar gewirkt:
+     Drei Agenten widerlegten Auftrags-Prämissen, statt sie zu bestätigen
+     — einer schrieb ausdrücklich, „streitig" wäre hier der bequemere Pol
+     gewesen. Ohne diesen Satz tendiert ein Agent zur Bestätigung dessen,
+     was der Prompt nahelegt.
+   - **Nachfordern statt rekonstruieren:** Kommt von einem Agenten nur
+     ein Nachtrag oder Teilbericht an, ist die gezielte Nachforderung des
+     Hauptberichts billiger und belastbarer, als die fehlenden Teile aus
+     dem Vorhandenen zu erschließen. (Herkunft: MKT R7, zwei Fälle.)
    - **Zwei Prüfer mit GETRENNTEN Fragen schlagen einen mit zwei Fragen**
      (Prüfraum teilen, nicht verdoppeln). Widersprüche zwischen Agenten
      sind ein Gewinn — sie werden am ORIGINAL aufgelöst, nie nach
      Überzeugungskraft.
    - **Prüfgegenstand einfrieren** oder Commit-Stand nennen (das Dokument
-     kann sich WÄHREND der Prüfung ändern).
+     kann sich WÄHREND der Prüfung ändern). ⭐ **Pflichtform: ein
+     eingefrorener Commit-Hash IM Prüfauftrag** — der
+     Doppel-Messstand-Vertrag gilt auch gegenüber dem EIGENEN Prüfer. Wer
+     während des Prüflaufs committet, ändert den Gegenstand unter ihm;
+     der Prüfer meldet dann eine Verfahrensverletzung statt eines
+     Sachbefunds. (Herkunft: MKT R7, vom Prüfer selbst gemeldet.)
    - **Recherche-Fan-out** je Anbieter/Quelle bzw. je QUELLDOKUMENT ein
-     Agent; getrennte Fundstellen-Nachprüfung dahinter.
+     Agent — **ein Agent je QUELLDOKUMENT schlägt einen Agenten je
+     BEFUND**, mit dem Auftrag „Absatz davor und danach mitlesen": In
+     MKT R7 fanden alle vier Zitat-Agenten MEHR, als der jeweilige Befund
+     behauptete (ein Sektionssprung statt Absatzsprung, ein zusätzlich
+     eingefügter Punkt, ein Zitat zur Hälfte aus einem geschlossenen
+     Overlay). Wer nur die Behauptung prüft, findet nur die Behauptung.
+     Getrennte Fundstellen-Nachprüfung dahinter — **und delegierte ZAHLEN
+     nie ohne mitgelieferten Zählweg übernehmen** (L-15).
    - **Festgefahrenes Debugging:** ab 3 Versuchen ohne Fortschritt EIN
      read-only Subagent mit frischem Kontext; Befund an der Quelle
      verifizieren.

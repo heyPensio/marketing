@@ -192,12 +192,32 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   namensneutral gehalten). Fertig: einsatzfähiges Video.
 - **BELEG4** Case Study nach Livegang (Vorher/Nachher + O-Töne + Fotos
   mit Freigaben). Fertig: freigegebene Case Study.
-- **⚠️ Offenlegungs-Vermerk für BELEG2/BELEG4 (R1-Befund, 09.08.2026):**
+- **⚠️ Offenlegungs-Vermerk für BELEG2/BELEG4 (R1-Befund, 09.08.2026 —
+  ⭐ ERHEBLICH ERWEITERT R7, 10.08.2026):**
   Kayhan wird externer Berater von heyPensio auf Rechnung und ist
   Cousin von Qays (Extraktion A/A7) — Referenzvereinbarungen und
   O-Töne des Piloten stammen damit von einer interessierten Quelle.
   Vor Außenverwendung der Case Study Offenlegungs-/
   Glaubwürdigkeitsfrage klären (analog WTSH-Verflechtungslogik; L-04).
+  **⚠️ Der Vermerk war bis R7 ZU ENG — er las sich, als beträfe er EIN
+  Haus. Belegt ist mehr (eigene Mail `19f841d1855798c5` vom 21.07.2026,
+  Label SENT; von R07-B gefunden, von der Leitsession an der Rohquelle
+  gegengelesen; USt-IdNr. stimmt mit § 2 des Messplans überein):**
+  Kayhan Rasuly ist **GF der HANSE Hotelbetriebsgesellschaft mbH**
+  (Firzlaff's) **und Inhaber von Rabe's Hotel Kiel** — also Entscheider
+  bei **zwei der drei** Pilotobjekte. Beim dritten (Hostel Boninstraße,
+  „via LEANE / Leane Mardanzai") ist Unabhängigkeit **weder belegt noch
+  widerlegt** — die Namensnähe zu Husnia Rasuly-Mardanzai ist ein
+  Anhaltspunkt, kein Beleg. **Folge:** Die Referenzbasis ist nicht „drei
+  unabhängige Häuser", sondern faktisch **zwei Entscheider**. Eine Case
+  Study, die drei Häuser suggeriert, ist ohne Offenlegung eine
+  irreführende Werbeaussage — **die Offenlegung ist damit BAU-Pflicht in
+  BELEG4, kein Prüfpunkt.** Dieselbe Mail nennt die Angebote als Anlage
+  zu **WTSH-Förderanträgen**; die förderrechtliche Seite (Aufträge an
+  nahestehende Personen) ist **ungeprüft** und liegt bei der Zentrale
+  (Postkorb `2026-08-10-mkt-verflechtung-pilotobjekte.md`). Offen
+  außerdem: **Registerauszug der HANSE mbH fehlt** — der Messplan führt
+  ZWEI Geschäftsführer, die versendete Mail einen.
 
 ### MKT-HANDEL — Pricing & Vertriebswerkzeuge
 - **HANDEL1** Preismodell + Angebotsarchitektur (Setup vs. laufend,
@@ -545,6 +565,35 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 
 ## 7. NÄCHSTER KONKRETER SCHRITT
 
+0. **⭐⭐ NEU AUS R7 — der Akquisekanal, auf den die November-Frist
+   gerechnet war, ist zu.** `handel/kanal-rechtsmatrix.md` (R07-C) belegt
+   an Primärquellen: **E-Mail-Kaltakquise B2B ist abwägungsfrei
+   unzulässig** (keine Interessenabwägung, BGH I ZR 201/07 Rn. 10), und
+   **Impressumsdaten gelten den Aufsichtsbehörden für Werbung als
+   gesperrt** — das trifft die naheliegendste Adressquelle
+   kanalunabhängig. Übrig bleiben **Brief · persönlicher Vorkontakt ·
+   fremde Verteiler (z. B. DEHOGA-Newsletter) · eingehende Anfragen**,
+   alle mit längerem Vorlauf. Bei Projektziel „erster zahlender Kunde bis
+   **Mitte November 2026**" ist das kein Stilproblem, sondern ein
+   Terminrisiko. **Konsequenz: MKT-AKQ ist der erste Strang der
+   nächsten Runde** (bisher „nicht gestartet") — aufgesetzt auf die
+   Kanal-Rechtsmatrix, die Referenz-Zusagen (masunt/Telkon) und die
+   Kanalbewertung aus B10/B11, die ohnehin auf AKQ wartet.
+   **Zwei User-Entscheide gehen voraus** (beide außenwirksam, stehen in
+   `handel/kanal-rechtsmatrix.md` D3): Verfallsfrist der
+   Bestandskundeneigenschaft (Vorschlag 24 Monate) · Umgang mit der
+   Impressums-Sperre.
+0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
+   Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
+   **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
+   Rebrand-Name offen — sperrt den Versand) · **F-15** Stand der
+   laufenden WTSH-Anträge (sperrt den WTSH-Versand) · U-1…U-9 und
+   O-1…O-7 zur Referenzvereinbarungs-Vorlage · **W-17-Rest** und
+   **V-1-Rest** im Wettbewerbsbild (bewusst als Träger geführt,
+   Leitsessions-Entscheid: Nachprüfbarkeit ist über die gesicherten
+   Rohbelege gegeben) · **P22** (R07-E wurde nicht gefahren) ·
+   Einarbeitung der vier B9.4-Korrekturen aus R07-D.
+
 1. **⚠️ Terminkritisch (Zentrale, User-Handgriff Mo 10.08.):**
    StB-Anruf — GbR-Namensführung (eGbR/MoPeG) VOR Gewerbeanmeldung
    ~Mitte August; Träger jetzt
@@ -659,6 +708,64 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 ---
 
 ## CHANGELOG
+
+- 10.08.2026 (R7-Debrief, vier Arbeits-Sessions + Leitsession):
+  **Die R05-A-Nacharbeit ist geschlossen** (R07-A) — 24 von 26
+  handlungspflichtigen Positionen repariert, **jede am Rohbeleg
+  gemessen**, 0 stillschweigend offen, 2 mit benanntem Träger (W-17-Rest
+  Einzelanker · V-1-Rest drei ungezählte B8-Zahlen). Verfahrens-
+  Positivkontrolle bestanden: Der Prüfer fand die gepflanzte
+  Falschaussage als KRITISCH, **rein am Rohbeleg und ohne Diff-Sichtung**.
+  ⭐ **Zwei R05-A-Befunde trugen selbst nicht** (W-3/Plaschke, H-9/Mews) —
+  eine Befundliste ist prüfbedürftig wie jede andere Quelle.
+  · **MKT-HANDEL hat zwei Träger bekommen:** `handel/kanal-rechtsmatrix.md`
+  (R07-C, UWG § 7 + DSGVO, sieben Kanäle an Primärquellen, 64/65
+  Fundstellen mechanisch gegen 29 eigene Volltexte bestätigt) und
+  `handel/foerderarchitektur-beraterrolle.md` + zwei Anfrage-Entwürfe im
+  Status ENTWURF (R07-D).
+  ⚠️ **Der geschäftskritische Befund der Runde: E-Mail-Kaltakquise B2B ist
+  abwägungsfrei unzulässig** (BGH I ZR 201/07 Rn. 10 — Deutschland hat von
+  der EU-Option für ein niedrigeres B2B-Schutzniveau keinen Gebrauch
+  gemacht, „damit scheidet auch in diesem Bereich eine Interessenabwägung
+  aus"). Dazu: **Impressumsdaten gelten den Aufsichtsbehörden für Werbung
+  als gesperrt** (trifft die naheliegendste Adressquelle, kanalunabhängig),
+  die **Art.-14-Monatsfrist läuft ab Listenaufbau**, und der
+  Kleinunternehmerschutz der §§ 13/13a UWG erfasst § 7-Verstöße nicht.
+  **Übrig bleiben Brief, persönlicher Vorkontakt, fremde Verteiler,
+  eingehende Anfragen — alle mit längerem Vorlauf als E-Mail. Das trifft
+  die November-Frist unmittelbar** (s. § 7).
+  · **Förderarchitektur (R07-D):** SH-DKU schließt **Werbung ausdrücklich
+  aus** (Ziffer 5.2.1 + Negativliste) und verlangt **kleine** Unternehmen
+  (< 50 Beschäftigte) — das wirkt auf die Portfolio-Erweiterung „auf
+  größere Häuser"; die IFB-Selbsterklärung verlangt drei Referenzprojekte
+  und Wettbewerbsneutralität, **subventionserheblich nach § 264 StGB** —
+  die B9.4-Einstufung „niedrigste Hürde" trägt das nicht.
+  ⚠️ **BAFA Ziffer 4.2.1 sperrt als Berater, wer selbst einmal
+  Antragsteller im Programm war** — eine irreversible Weiche (Postkorb an
+  die Zentrale, ergänzt StB-Frage 11).
+  · **Referenz-Register (R07-B):** Telkon-Listungszusage vom 10.08. in
+  masunt-Belegtiefe erfasst (Originalwortlaut, Nachrichten-ID, Zone,
+  Rebrand-Vorbehalt). Zwei Auftragsprämissen an der Quelle widerlegt: Die
+  „Zusage zur Zusammenarbeit" ist eine **Absichtsbekundung**, und **das
+  Logo liegt nicht vor** — die Zusage ist ohne es nicht umsetzbar.
+  Referenzvereinbarungs-Vorlage für die drei Pilotobjekte als ENTWURF.
+  ⭐⭐ **Der schwerste Befund der Runde kam aus dem zweiten Lesedurchgang:
+  Kayhan Rasuly ist Entscheider bei ZWEI der drei Pilotobjekte** (GF der
+  HANSE mbH und Inhaber von Rabe's, eigene Mail `19f841d1855798c5`, von
+  der Leitsession an der Rohquelle gegengelesen) **und zugleich
+  Antragsteller der WTSH-Förderanträge, für die wir die Angebote
+  beschaffen.** Der Offenlegungs-Vermerk zu BELEG2/BELEG4 führte das, als
+  beträfe es ein Haus — s. § 4 BELEG. Postkorb an die Zentrale.
+  · Methodik: **Gerüst-Nachzug auf `50f00dc`** (sechs heyPensio-R35-Lehren
+  + Adressaten-Prüfung Außenkorrespondenz) **und Rückfluss auf `baaac82`**
+  (sieben eigene Lehren). **Kopfstempel-Korrektur:** Der CLAUDE.md-Kopf
+  trug fälschlich `2c548fe`, der R6-Nachzug lief auf `b8f7d9c` — zwei
+  Commits zu alt und dennoch als aktuell lesbar. Neu **L-14 bis L-20**,
+  Sammelvermerk R7 mit **L-05-Korrektur** (die Klassifikator-Blockade ist
+  primär zeitpunkt-, nicht kanalgebunden — der R3-Bash-Ausweg trug nicht).
+  · **R07-E (P22, Brandnamic-Vollerhebung) wurde nicht gefahren** —
+  belegt über fehlende Commits und Dateien bei bestandener
+  Positivkontrolle; wandert nach R8.
 
 - 10.08.2026 (R6-Debrief, Runde über Mitternacht): **P15 und P19
   aufgelöst** — Wettbewerbsbild B10 (Brandnamic-Partnerkreis an den

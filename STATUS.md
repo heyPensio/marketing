@@ -25,7 +25,32 @@
 ---
 
 ## Letzte Aktualisierung
-**10.08.2026 (R6, Shanks + R06-A/Ben Beckman, Runde über Mitternacht)** —
+**10.08.2026 (R7, Shanks + vier Arbeits-Sessions)** — ⭐ **Der
+Akquisekanal, auf den die November-Frist gerechnet war, ist zu:**
+E-Mail-Kaltakquise B2B ist **abwägungsfrei unzulässig** (BGH I ZR 201/07
+Rn. 10), Impressumsdaten gelten für Werbung als **gesperrt** — übrig
+bleiben Brief, persönlicher Vorkontakt, fremde Verteiler, eingehende
+Anfragen, alle mit längerem Vorlauf (`handel/kanal-rechtsmatrix.md`,
+R07-C; 64/65 Fundstellen gegen 29 eigene Volltexte). **MKT-AKQ wird
+deshalb erster Strang der nächsten Runde.** · ⭐⭐ **Die Referenzbasis
+ist nicht „drei unabhängige Häuser":** Kayhan Rasuly ist Entscheider bei
+**zwei der drei** Pilotobjekte (GF HANSE mbH + Inhaber Rabe's, eigene
+Mail `19f841d1855798c5`, an der Rohquelle gegengelesen) und zugleich
+Antragsteller der WTSH-Förderanträge — Offenlegung ist ab jetzt
+**Bau-Pflicht in BELEG4**; zwei Postkorb-Meldungen an die Zentrale ·
+**R05-A-Nacharbeit geschlossen** (R07-A: 24/26 repariert, jede am
+Rohbeleg gemessen, 0 stillschweigend offen, 2 mit Träger;
+Verfahrens-Positivkontrolle bestanden) · **MKT-HANDEL hat zwei Träger**
+(Kanal-Rechtsmatrix + Förderarchitektur mit zwei Anfrage-Entwürfen im
+Status ENTWURF) · **Telkon-Listungszusage** im Register, zwei
+Auftragsprämissen an der Quelle widerlegt (Absichtsbekundung statt
+Zusage; **Logo liegt nicht vor**) · ⚠️ **BAFA sperrt als Berater, wer
+selbst einmal Antragsteller war** (Ziffer 4.2.1, irreversible Weiche) ·
+Methodik: Gerüst-Nachzug `50f00dc` **und** Rückfluss `baaac82`,
+Kopfstempel-Korrektur, **L-14 bis L-20** · **R07-E (P22) nicht gefahren**
+→ R8. *(Davor: R6 — P15/P19 aufgelöst, Bestandsscan 24/37.)*
+
+**Vorheriger Stand — 10.08.2026 (R6, Shanks + R06-A/Ben Beckman, Runde über Mitternacht)** —
 **P15 + P19 AUFGELÖST** (Wettbewerbsbild **B10/B11**): Im
 Brandnamic-Partnerkreis besetzen **straiv und flexipass** die Funktion
 Check-in/Zutritt, **hoteldoor und iiq check sind Namensfallen** — und
@@ -57,6 +82,16 @@ Blueprint-Auftrag. Ältere Stände: `STATUS-archiv.md`.)*
   2026 (angedacht) · erster zahlender Kunde bis Mitte November 2026.
 - Schwester-Repo `zentrale` (Firmen-Ebene) im selben Zug angelegt —
   trägt Namensentscheid-Vorprüfung und Rollen-Charta.
+- **R7 (10.08.):** ✅ R05-A-Nacharbeit geschlossen (24/26, am Rohbeleg
+  gemessen) · ✅ `handel/` aufgemacht: Kanal-Rechtsmatrix (UWG § 7 +
+  DSGVO) und Förderarchitektur (Hamburg Digital Check · SH-DKU · BAFA)
+  mit zwei Anfrage-Entwürfen im Status **ENTWURF** · ✅ Telkon-Zusage im
+  Referenz-Register · ⚠️ **E-Mail-Kaltakquise zu → MKT-AKQ vorziehen** ·
+  ⚠️ **Verflechtung Pilotobjekte** (2 von 3 derselbe Entscheider) ·
+  ⚠️ **BAFA-Beraterrolle-Sperre**. Offen aus R7: Telkon-Logo · F-7
+  Firmierung · F-15 WTSH-Antragsstand · U-1…U-9/O-1…O-7 der
+  Referenzvereinbarungs-Vorlage · W-17-/V-1-Rest · **P22 (R07-E nicht
+  gefahren)** · vier B9.4-Korrekturen einarbeiten.
 - **R6 (10.08.):** ✅ P15/P19 aufgelöst (Wettbewerbsbild B10/B11) ·
   ✅ Apaleo-Faden-Prüfung (zurückgestellt mit Trigger) · ⭐
   **Bestandsscan: 24/37 R05-A-Prüferbefunde offen** → Träger
@@ -77,6 +112,12 @@ Blueprint-Auftrag. Ältere Stände: `STATUS-archiv.md`.)*
   Runde blieben unbearbeitet** (R6-Bestandsscan, s. R7-Kandidat a).
 
 ## Nächster konkreter Schritt
+0. **⭐⭐ MKT-AKQ ist der erste Strang der nächsten Runde** — der
+   E-Mail-Kanal ist rechtlich zu, die verbleibenden Kanäle haben längeren
+   Vorlauf, und die Frist „erster zahlender Kunde bis Mitte November"
+   steht. Zwei User-Entscheide gehen voraus (`handel/kanal-rechtsmatrix.md`
+   D3): Verfallsfrist Bestandskundeneigenschaft (Vorschlag 24 Monate) ·
+   Umgang mit der Impressums-Sperre. Details: Projektquelle § 7 Punkt 0.
 1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
    GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger
    `zentrale\stb-termin-fragenliste-2026-08.md`. **Jetzt DOPPELTER

@@ -581,3 +581,222 @@ eingearbeitet — s. Debrief-Report R3).
   Blindstellen-Sektion dadurch kalibriert.
 Quellen: `protokolle/R01-A-abschluss.md` (ii), `R01-A-pruefer.md`,
 Session-Verlauf Leitsession.
+
+---
+
+## L-14 — Die Push-Sichtung ist eine ANZEIGE, keine Absicherung (MKT R7, 10.08.2026)
+
+**Fall.** Vier Fälle an einem Tag, in zwei Sessions: R07-B veröffentlichte
+mit einem pauschalen `git push` den Commit `54f9593` von R07-A mit; R07-A
+selbst nahm dreimal fremde Commits von B/C/D mit. In BEIDEN Fällen war die
+von CLAUDE.md Regel 3 verlangte Sichtung (`git log origin/main..HEAD` als
+eigener Befehl) **durchgeführt und korrekt** — und beim eigentlichen Push
+bereits veraltet, weil eine Parallel-Session im geteilten Arbeitsbaum in
+der Zwischenzeit committet hatte. R07-B hatte den schützenden Refspec
+zuerst gewählt und ihn nach einer Klassifikator-Blockade fallen gelassen,
+weil die Sichtung „nur noch eigener Commit" zeigte — genau an der Stelle,
+an der die Regel gebraucht worden wäre.
+
+**Kern.** Die Sichtung misst einen ZEITPUNKT. Zwischen ihr und dem Push
+liegen im Fünf-Sessions-Betrieb Sekunden, in denen der Messwert ungültig
+wird. Pflichtform ist deshalb der gezielte Refspec
+`git push origin <eigener-hash>:main`.
+
+**⚠️ Präzisierung durch die Leitsession (sonst trägt die Regel eine
+Entwarnung, die sie nicht hat):** Der Refspec schützt nur nach OBEN. Er
+veröffentlicht den benannten Commit **samt aller Vorfahren** — fremde
+Commits, die VOR dem eigenen liegen, gehen mit. Beleg aus demselben Tag:
+B's Commit `2c91f6f` lag vor `131b9b3` (R07-D), ein Refspec hätte B
+geschützt; der Tagesplan-Commit der Leitsession `7682728` lag NACH beiden,
+dort hätte er nicht geholfen — die Leitsession hat deshalb gar nicht
+gepusht und gewartet. Gegen vorangehende fremde Commits hilft nur:
+nicht pushen, oder sie bewusst mitveröffentlichen.
+
+**Wirkung.** CLAUDE.md Regel 3 (Git pro Session), Refspec als Pflichtform
+samt Geltungsgrenze. Projektunabhängig → projektgerüst.
+
+## L-15 — Delegierte ZAHLEN sind schwächer als delegierte Fundstellen (MKT R7, 10.08.2026)
+
+**Fall.** Ein Zitat-Agent von R07-A meldete „Positivkontrolle Hotel: 65
+Treffer". Der Wert reproduzierte unter **keinem** Zählweg und über **keine**
+der geprüften Dateien einzeln (gemessen: 47/71/11/57/82). Der Nulltreffer,
+um den es in der Prüfung eigentlich ging, war dagegen unabhängig
+reproduzierbar.
+
+**Kern.** Die bekannte Regel „delegierte Fundstellen driften" hat eine
+schärfere Schwester: Fundstellen kann man nachschlagen, Zahlen nicht — eine
+Agenten-Zahl ohne mitgelieferten Zählweg ist nicht übernehmbar. Entweder
+Zählweg anfordern oder selbst nachzählen. Verwandt: `grep -c` zählt Zeilen,
+nicht Treffer — R07-A setzte drei Positivkontrollen als Zeilenzählung,
+während dasselbe Dokument sonst Treffer führte, und trug dadurch zwei
+verschiedene Zahlen für dieselbe Datei. **Die Regel zu KENNEN genügt nicht;
+der Zählweg muss an die Zahl.**
+
+**Wirkung.** CLAUDE.md Verifikationsregel (a). Projektunabhängig.
+
+## L-16 — Ein Muster über AUSZEICHNUNG ist eine Annahme über deren FORM (MKT R7, 10.08.2026)
+
+**Fall, dreifach unabhängig.** (1) R07-A: Ein Anker-Muster erwartete
+`rel="canonical"` vor `href`; HTML schreibt die Reihenfolge nicht vor — 24
+von 65 Dateien trugen die umgekehrte. Das Muster meldete 35 ankerlose
+Dateien statt 11 und ließ zwei Domains **ganz aus der Ergebnistabelle
+fallen**, darunter `smart-host.com`, den Gegenstand eines eigenen Kapitels.
+Gefunden erst durch den Prüfer. (2) R07-C: `\b` im JS-String ist ein
+Backspace-Zeichen, nicht die Wortgrenze — der Selbsttest meldete
+„bestanden" für ein Muster, das nie treffen konnte. (3) R07-C: NBSP
+(U+00A0) in amtlichen Texten lässt Phrasensuchen ins Leere laufen.
+
+**Kern.** Ein Prüfmuster, das nicht treffen KANN, sieht im Log aus wie ein
+sauberes Negativ. Bei Auszeichnungs-Parsing ist „nicht gefunden" fast immer
+das Muster, nicht der Bestand. Das ist zugleich der zweite Beleg desselben
+Tages für die frisch nachgezogene Regel **Positivkontrolle pro MUSTER statt
+pro Lauf** — R07-D reproduzierte sie ein drittes Mal: Ein Sammellauf über
+vier Muster meldete „1 Treffer", es waren 2, und drei Muster liefen tot mit.
+
+**Wirkung.** Baustein `quellen-beschaffung`. Projektunabhängig.
+
+## L-17 — Beim Reparieren einer Entwarnung ist der Reflex, sie abzuschwächen (MKT R7, 10.08.2026)
+
+**Fall.** Nach dem Leitsessions-Zuruf strich R07-D den Satz „Es gibt
+derzeit keinen konkreten Fall und keinen erteilten Auftrag" nicht, sondern
+ersetzte ihn zunächst durch „ein Antrag liegt bei Ihnen derzeit nicht vor"
+— dieselbe unbelegte Behauptung in kleiner. Erst der zweite Durchgang
+strich sie ganz.
+
+**Kern.** Eine Entwarnung wird nicht dadurch belegt, dass sie leiser wird.
+Prüffrage beim Reparieren: Ist der schwächere Satz jetzt BELEGT — oder nur
+vorsichtiger formuliert? Meist ist Streichen die richtige Reparatur.
+Verwandt und im selben Lauf belegt: R07-D schrieb, eine Wortzählung sei
+„von dieser Session nachvollzogen" — sie war es nicht; der Satz hätte
+jeden Prüfer davon abgehalten, selbst zu zählen (**eine behauptete
+Nachmessung IST eine Entwarnung**).
+
+**Wirkung.** CLAUDE.md Entwarnungs-Block. Projektunabhängig.
+
+## L-18 — Vollständig LESEN und vollständig ÜBERNEHMEN sind zwei Behauptungen (MKT R7, 10.08.2026)
+
+**Fall.** R07-D führte eine Positivkontrolle, die belegte „es fehlt keine
+Seite der Quelle" — und übersah dabei, dass nur 3 von 4 im gelesenen
+Abschnitt stehenden Paragraphen-Pflichten ins eigene Dokument gewandert
+waren. Die Kontrolle prüfte die Erreichbarkeit/Vollständigkeit der QUELLE,
+nicht die Vollständigkeit der ÜBERNAHME.
+
+**Kern.** Zwei Behauptungen, zwei Belege. Die Quellen-Positivkontrolle
+beantwortet die Übernahme-Frage nie mit. Schwester zu L-11 (Vollzähligkeit
+der Gliederung) und zur Extraktions-Regel aus R5.
+
+**Wirkung.** CLAUDE.md Positivkontroll-Block. Projektunabhängig.
+
+## L-19 — Ein „eingearbeitet" im Träger ist kein Beleg; eine Reparatur kann einen anderen Befund verschärfen (MKT R7, 10.08.2026)
+
+**Fall.** Zwei Teile. (a) R07-A stufte im Zuge von W-2 „TC" herauf und
+beseitigte damit die letzte Strich-Vergabe in B4.1 — wodurch genau die
+Verteilung einseitiger wurde, vor der ein früherer Prüferbefund (K-3)
+gewarnt hatte. Der K-3-Restposten war zudem nie eingearbeitet worden und
+stand in KEINER Auftragsliste, weil K-3 im Träger als „eingearbeitet"
+geführt war. (b) Der Träger selbst rechnete falsch (44 statt 34/40, 37
+statt 31, 24 statt 20): Die Detaillisten stimmten, nur die Summenzeilen
+nicht — derselbe Nenner-Verlust wie L-13, eine Ebene höher. Auch die
+Korrektur der Summe war im ersten Anlauf falsch zusammengesetzt.
+
+**Kern.** Ein Status im Träger ist eine Behauptung wie jede andere; die
+Reparatur wird am Rohbeleg gemessen, nicht am Vermerk. Und nach jeder
+Reparatur prüfen, welchen ANDEREN Befund sie bewegt hat. Summenproben
+gelten auch für die Korrektur einer Summe.
+
+**Wirkung.** CLAUDE.md Regel 8 (Leitsession-Review). Projektunabhängig.
+
+## L-20 — Scope-Disjunktheit gilt auch für VERZEICHNISSE und Belegordner (MKT R7, 10.08.2026)
+
+**Fall, zwei Ausprägungen — beide Fehler der Leitsession.** (a) Der
+R7-Schnitt wies `handel/` in ZWEI Start-Prompts als „neu anzulegen" aus
+(R07-C und R07-D). Auf Dateiebene waren die Scopes disjunkt, auf
+Verzeichnisebene nicht: R07-D legte das Verzeichnis um 13:19 an
+(`131b9b3`), R07-C fand es vor und musste die eigene Auftragsprämisse
+verwerfen. (b) R07-D legte neue Rohbelege in `sensibel/rohbelege-R05-A/`
+ab. Dadurch wich die P20-Bestandszahl ab (dokumentiert 2132, von R07-A
+gemessen 2134) und die Kopie-Identität der R5-Sicherung galt bis zur
+Klärung als unbelegt — die Klärung kostete eine eigene Messung, obwohl
+sachlich nichts kaputt war.
+
+**Kern.** Beim Rundenschnitt gehört die Frage „wer LEGT AN?" neben die
+Frage „wer schreibt welche Datei?". Und Rohbelege gehören in den Ordner
+ihrer eigenen Runde — sonst altert jede Bestandszahl still, die je über
+diesen Ordner erhoben wurde.
+
+**Wirkung.** CLAUDE.md Multi-Session Regel 1 + Doku-Hygiene.
+Projektunabhängig.
+
+## Zweitbelege R7 zu bestehenden Regeln (10.08.2026, Sammelvermerk)
+
+- **L-05 (Klassifikator-Blockade), dritter und vierter Beleg — mit
+  KORREKTUR der bisherigen Fassung:** Der R3-Nachtrag hielt die Blockade
+  für auch KANAL-gebunden (Bash-Ausweg trug). R07-C misst das Gegenteil:
+  Der Push war in BEIDEN Kanälen blockiert und lief später **im selben
+  Bash-Kanal** durch; R07-B berichtet dasselbe. Die Blockade ist damit
+  **primär zeitpunkt-, nicht kanalgebunden** — der Bash-Ausweg ist kein
+  verlässlicher Kanal, sondern war in R3 vermutlich der spätere Zeitpunkt.
+  R07-A ergänzt: Die Blockade trifft auch Befehls-KETTEN, deren
+  Einzelbefehle erlaubt sind (Zerlegen löste es sofort) — das bestätigt
+  den R3-Befund.
+- **L-01 (Pseudo-Zitat am Verdichtungsbericht):** von R07-D am eigenen
+  Text gefangen — die BAFA-Ausnahmeklausel stand als wörtliches Zitat im
+  Dokument, belegt war sie nur über B9.4. Der Gang an die Rohquelle
+  belegte nicht nur das Zitat, sondern fand **drei weitere
+  Voraussetzungen**, die im Repo fehlten (darunter die
+  Antragsteller-Sperre, die als Postkorb-Meldung an die Zentrale ging).
+  **Der Gang an die Rohquelle zahlt sich doppelt.**
+- **L-12 (Auszeichnung mitlesen):** R07-A fand im 42-GmbH-Partnerkarussell
+  **11 Logos, die in keinem Text erscheinen** (Bild-Tags gestrippt, alle
+  `alt=""`) — die Partnerliste war als Bestandsaussage um ein Drittel zu
+  kurz. Eine reine Textprüfung hätte das nie gefunden.
+- **Verfahrens-Positivkontrolle (tagesstart, L-06/L-08):** in R07-A
+  bestanden — die gepflanzte Falschaussage wurde als KRITISCH gefunden,
+  **rein am Rohbeleg begründet, ohne Diff-Sichtung**; der Prüfer stellte
+  zusätzlich fest, dass Träger und Papier auseinanderliefen. Damit ist
+  belegt, dass der Prüfweg Widersprüche zwischen zwei Dokumenten sieht,
+  nicht nur einen Text liest.
+- **Rohbeleg-Pfade im Prüfauftrag (tagesstart, MKT R3):** stärkster Beleg
+  bisher — bei R07-D stammen **4 von 4 schweren Befunden** aus dem
+  Gegenlesen an der Quelle, keiner aus der Textlogik. Der Prüfer selbst:
+  „gemeinsame Fehler, die nur der Gang an die Rohquelle findet". Und:
+  **Der Kategorienkatalog hat ihn nicht dorthin geführt — die
+  Rohbeleg-Pfade haben es.**
+- **Zweiter Lesedurchgang durch einen kontextfremden Agenten (CLAUDE.md):**
+  trägt über DOKUMENTGRENZEN. Beauftragt war die Telkon-Korrespondenz;
+  gefunden wurde der Verflechtungsbefund, der die parallel entstehende
+  eigene Referenzvereinbarungs-Vorlage inhaltlich kippte. Der Agent kannte
+  die Vorlage nicht und konnte gar nicht danach suchen — genau deshalb
+  fand er es.
+- **Adressaten-Prüfung (Baustein `aussenkorrespondenz`, am selben Tag
+  nachgezogen):** sofort wirksam und als SICHERHEITS-, nicht Stilmittel
+  belegt — sie nahm bei R07-D drei formal zulässige Fragen aus dem
+  Versand, darunter eine, die nach einer Regel gefragt hätte, gegen die
+  wir möglicherweise schon verstoßen haben, bei genau der Stelle, die
+  darüber entscheidet. Keine davon hätte ein Stil-Review gefunden.
+- **Prüfgegenstand einfrieren (tagesstart):** von R07-D verletzt und vom
+  eigenen Prüfer bemerkt (P07D-30) — zwei Commits während des Prüflaufs.
+  Konsequenz: Der Doppel-Messstand-Vertrag gilt auch gegenüber dem eigenen
+  Prüfer; künftige Prüfaufträge tragen einen eingefrorenen Commit-Hash.
+- **Auch der AUFTRAG ist eine Annahme (Verifikationsregel e):** dreifach.
+  R07-B — „Zusage zur Zusammenarbeit" war eine Freude-Bekundung, und die
+  angenehmere Hälfte war die falsche. R07-C — „`handel/` gibt es noch
+  nicht" (überholt) und „LinkedIn voraussichtlich streitig" (widerlegt).
+  R07-C zusätzlich am eigenen Prompt: Der von der Session einem Agenten
+  vorgegebene Wortlaut von Art. 7 Abs. 1 DSGVO entsprach nicht dem
+  amtlichen Text — **ein im Prompt mitgeliefertes „Zitat" ist eine
+  Annahme wie jede andere.**
+- **Prüferbefunde sind selbst prüfbedürftig (schärft L-13):** R07-A fand
+  am Rohbeleg, dass **zwei R05-A-Befunde selbst nicht trugen** (W-3
+  Plaschke, H-9 Mews). Die Belegpflicht gilt in beide Richtungen — auch
+  gegenüber der Befundliste, die man abarbeitet.
+- **Shell-Heredoc bricht an Anführungszeichen (Baustein
+  `windows-powershell`, von R07-A gemeldet):** von der Leitsession im
+  Debrief SOFORT reproduziert — der Versuch, genau diesen Registereintrag
+  per Heredoc anzuhängen, scheiterte am ersten Zitat. Ausweg wie
+  dokumentiert: Write-Tool, dann `cat >>`. Die Regel galt bisher für
+  Commit-Messages; sie gilt für **jeden** längeren Text.
+
+Quellen: `protokolle/R07-A-abschluss.md`, `R07-B-abschluss.md`,
+`R07-C-abschluss.md`, `R07-D-abschluss.md`, `R07-A-pruefer.md`,
+`R07-D-pruefer.md`, Session-Verlauf Leitsession.

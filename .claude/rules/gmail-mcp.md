@@ -10,7 +10,16 @@ Herkunft: heyPensio, je mit realem Beinahe-Schaden belegt.)*
   Extraktion, keine Häppchen-Zitate.
 - **Ein vollständig gelesener FADEN ist nicht die vollständige
   KORRESPONDENZ.** Vor der Antwort an einen Absender ALLE Fäden derselben
-  Adresse sichten (`from:`/`to:` statt Thread).
+  Adresse sichten (`from:`/`to:` statt Thread). **Pflichtform inklusive
+  `in:anywhere`** — sonst fehlen Papierkorb und Archiv: Die Adressuche
+  fand bei einem Anbieter FÜNF Fäden statt einem, drei davon zu drei
+  Vierteln im Papierkorb und ohne `in:anywhere` unsichtbar. Ein
+  gelöschter Faden ist gelesene Korrespondenz, keine Nicht-Korrespondenz.
+  (Herkunft: MKT R7.)
+- **`get_message` mit `messageFormat: MINIMAL` liefert KEINEN Body** —
+  nur Snippet und Kopfdaten. Für Wortlaut-/Zitatfragen ist der Aufruf
+  wertlos und sieht dabei wie ein erfolgreicher Abruf aus: immer
+  `FULL_CONTENT`. (Herkunft: MKT R7.)
 - **Entwürfe:** `update_draft` zerstört bei FADEN-Entwürfen die
   Thread-Bindung → Korrektur über Löschen + Neuanlegen; bei
   STANDALONE-Entwürfen ist Update zulässig. `create_draft` kennt

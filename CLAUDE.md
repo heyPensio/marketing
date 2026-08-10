@@ -3,7 +3,8 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`50f00dc`** (Nachzug R7, 10.08.2026) nach
+> am 2026-08-09; Stand **`baaac82`** (Nachzug R7 + R7-Rückfluss,
+> 10.08.2026) nach
 > Rückfluss-Nachzügen MKT R1–R6, heyPensio-R32/R33/R34/R35-Lehren und dem
 > Modellwahl-Richtungsentscheid (User, alle Abteilungen — ersetzt Regel 7
 > alt; 10.08.2026).
@@ -138,7 +139,12 @@ Arbeits-Session einen **Start-Prompt** (Ziel, Datei-Scope, exklusive
 Systeme, Fertig-Kriterium, Modell). Regeln:
 
 1. **Disjunkte Scopes:** Jede Session fasst nur die Pfade/Themen aus ihrem
-   Start-Prompt an. Fremde uncommittete Dateien im `git status` sind Arbeit
+   Start-Prompt an. **Disjunktheit gilt auch auf VERZEICHNIS-Ebene:** Zwei
+   Sessions, die dasselbe neue Verzeichnis anlegen sollen, haben zwar
+   disjunkte Dateien, aber eine gemeinsame Vorbedingung — die zweite findet
+   den Bestand vor, den ihr Prompt als „existiert noch nicht" beschreibt,
+   und muss die eigene Auftragsprämisse verwerfen. Beim Schnitt prüfen, wer
+   ein Verzeichnis ANLEGT (Herkunft: MKT R7, L-20, Fehler der Leitsession). Fremde uncommittete Dateien im `git status` sind Arbeit
    einer anderen Session — ignorieren, nie mit-committen, nie stashen oder
    resetten.
 2. **Wahrheits-Kanal exklusiv:** Projektquelle, STATUS.md, CLAUDE.md und
@@ -164,7 +170,16 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
      Branches, auch fremde ungepushte — vor dem Push
      `git log origin/main..HEAD` sichten, **als EIGENEN Befehl mit
      Entscheidungspunkt: In einer `&&`-Kette mit dem Push sichtet die
-     Sichtung nichts** (Herkunft: MKT R4). Und spiegelbildlich: Der eigene
+     Sichtung nichts** (Herkunft: MKT R4). **⭐ Die Sichtung ist eine
+     ANZEIGE, keine Absicherung — sie altert zwischen Sichtung und Push
+     (im geteilten Arbeitsbaum liegen Sekunden dazwischen).
+     Pflichtform ist der gezielte Refspec
+     `git push origin <eigener-hash>:main`; er veröffentlicht per
+     Konstruktion nichts, was ÜBER dem eigenen Commit liegt. ⚠️ Er
+     schützt nur nach OBEN: fremde Commits, die VOR dem eigenen liegen,
+     sind Vorfahren und gehen mit — dagegen hilft nur, nicht zu pushen
+     und zu warten. (Herkunft: MKT R7, L-14 — vierfach an einem Tag.)**
+     Und spiegelbildlich: Der eigene
      Commit kann durch den Push einer parallelen Session bereits
      veröffentlicht sein; belastbar ist `git branch -r --contains <hash>`
      **nach frischem `git fetch`** — das lokale origin-Ref altert im
@@ -226,7 +241,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    ausdrücklich verworfen oder hat einen benannten Träger, kategorienweise
    MIT NENNER. „Hinweis" ist eine Schwere-Angabe, keine
    Erledigungs-Kategorie: 24 von 37 Befunden blieben so liegen, vier
-   Fehlerklassen reproduzierten sich eine Runde später — L-13)
+   Fehlerklassen reproduzierten sich eine Runde später — L-13;
+   **ein „eingearbeitet" im Träger ist kein Beleg — die Reparatur wird am
+   ROHBELEG gemessen, sonst zählt eine sachlich falsche Reparatur als
+   erledigt; und eine Reparatur kann einen ANDEREN Befund verschärfen, vor
+   dem ein früherer Prüfer gewarnt hatte** — L-19)
    und **(b) nach außen** — „Was hat diese Session gefunden, das einem
    ANDEREN Strang gehört?" Jeder solche Befund bekommt einen Zielort
    (Zieldokument + nächste Aktion, mit NACHSEHEN, ob der Zielort existiert
@@ -261,7 +280,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   heyPensio R12–R31, dort teuer belegt):
   (a) Delegierte Fundstellen und Zuordnungen driften systematisch —
   Aussage und Fundstelle GETRENNT prüfen; bei Prüfern zusätzlich BEFUND
-  und URSACHEN-DIAGNOSE getrennt prüfen.
+  und URSACHEN-DIAGNOSE getrennt prüfen. **⭐ Delegierte ZAHLEN sind noch
+  schwächer als delegierte Fundstellen:** Eine Agenten-Zahl ohne
+  mitgelieferten Zählweg ist nicht übernehmbar — eine gemeldete
+  „Positivkontrolle: 65 Treffer" reproduzierte unter KEINEM Zählweg und
+  über keine Datei einzeln, während der Nulltreffer daneben stimmte.
+  Zählweg anfordern oder selbst nachzählen. (Herkunft: MKT R7, L-15.)
   (b) Eigene Ursachenvermutungen und Bestands-Beschreibungen sind
   Hypothesen, bis gemessen.
   (c) Ein Fix, der nur den einfachen Pfad trifft, ist kein Fix — E2E im
@@ -324,13 +348,23 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   oder das Ergebnis gilt als nicht erhoben. Spiegelbild der Werkzeug-Regel:
   **ein Negativ, das nicht passen kann, ist zuerst ein Werkzeugfehler**
   (Leerzeilen als „hinter dem Dateiende"; ein Regex, der ein Umlaut-Zeichen
-  als zwei zählt). (Herkunft: heyPensio R35.)
+  als zwei zählt). (Herkunft: heyPensio R35.) **⭐ Wer einen Leseumfang
+  protokolliert, protokolliert die ZEILENSPANNE mit** — „Ziffer 4 gelesen"
+  nach einem `sed -n '135,175p'`, während die gesuchte Grenze bei Zeile 230
+  stand, erzeugte zugleich einen Fehlalarm und einen übersehenen
+  Pflichtabschnitt: EIN Lesefehler, ZWEI schwere Befunde, und der zu weite
+  Leseumfang im Protokoll hätte jeden Prüfer beruhigt. (Herkunft: MKT R7.)
   **Bei gegliederten Quellen gehört die VOLLZÄHLIGKEIT der GLIEDERUNG
   selbst in die Kontrolle** — wer Rubriken gegen eine vorher notierte
   Namensliste zählt, findet genau deren Länge (Positivliste in
   Verkleidung); die Extraktion holt die Gliederung generisch über das
   Strukturmerkmal (L-11 — zweifach reproduziert im selben Papier,
   R5 B8.4 + R6 K-1).
+  **⭐ Eine Quelle vollständig GELESEN zu haben und sie vollständig
+  ÜBERNOMMEN zu haben sind zwei Behauptungen mit zwei Belegen** — eine
+  Kontrolle „es fehlt keine Seite" übersah, dass nur 3 von 4 Pflichten des
+  gelesenen Abschnitts im Dokument standen. Die Quellen-Positivkontrolle
+  beantwortet die erste Frage nie mit. (Herkunft: MKT R7, L-18.)
 - **Status-Symbole erben von der SCHWÄCHSTEN Prämisse;** „Prognose" ist
   eine eigene Kategorie; ⚠️-Bausteine nie zu ✅ zusammenfassen. Ein
   „ERLEDIGT" an einer Bedingung beglaubigt die RECHTSFOLGE des Satzes mit —
@@ -365,7 +399,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   dieselbe Belegpflicht wie Zahlen. Auch **„bestätigt"/„re-bestätigt"/
   „unverändert" sind Entwarnungen** mit voller Belegpflicht — sie fühlen
   sich wie Nicht-Aussagen an und rutschen deshalb ungeprüft durch.
-  (Sammelvermerk R3.)
+  (Sammelvermerk R3.) **⭐ Beim REPARIEREN einer Entwarnung ist der Reflex,
+  sie abzuschwächen — richtig ist meist, sie zu STREICHEN:** „es gibt
+  keinen Fall" durch „ein Antrag liegt derzeit nicht vor" zu ersetzen ist
+  dieselbe unbelegte Behauptung in kleiner. Prüffrage: Ist der schwächere
+  Satz jetzt BELEGT — oder nur leiser? (Herkunft: MKT R7, L-17.)
 - **Existenz-/Fähigkeits-Negative brauchen die direkte Quelle:** „System X
   kann Y nicht" nie aus Doku-Abwesenheit behaupten — „nicht gefunden" so
   benennen, nicht als „existiert nicht". Negative altern schnell, in beide
@@ -620,6 +658,29 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Doppel-Messstand-Vertrag: Hash zu Beginn UND vor dem Commit erheben.
 - Repo-weite Textsuchen immer mit Include-Filtern
   (`grep --include="*.md"`) — Binärbestände sprengen sonst Timeouts.
+- **Rohbelege gehören in den Ordner IHRER Runde** (`sensibel/rohbelege-R<n>-<S>/`)
+  — wer neue Abzüge in den Ordner einer FRÜHEREN Runde legt, lässt jede
+  Bestandszahl still altern, die je über diesen Ordner erhoben wurde. Kostete
+  in R7 eine Messung: dokumentiert 2132, gemessen 2134, Ursache waren zwei
+  am selben Tag ergänzte Dateien. (Herkunft: MKT R7, L-20.)
+- **Kurz-ID-Kollisionen: das grep läuft ZUERST im eigenen Dokument.** Die
+  Regel nennt die Nachbardokumente — vergeben wurde `P22` doppelt innerhalb
+  derselben Datei. Der billigste Suchraum ist der nächste. (MKT R7.)
+- **⭐ Reparaturen und Vorfassungs-Fehler SICHTBAR machen, nicht still
+  glätten** (zwei Sessions unabhängig, MKT R7): Jede geänderte Stelle
+  trägt, was vorher dastand und warum es fiel — als markierter Kasten,
+  nicht als stille Neufassung. Das kostet Zeilen und ist der einzige
+  Grund, warum ein Prüfer überhaupt findet, welcher Prüfweg gegriffen hat
+  und welche Sätze ohne ihn heute falsch dort stünden. In R7 fand der
+  Prüfer eine übersehene Befundlücke und eine ID-Kollision genau daran.
+- **Ein `|` im Fließtext einer Markdown-Tabellenzelle zerlegt die Zeile** —
+  fiel ausgerechnet in einer Fußnote auf, die einen Zählweg (`… | wc -l`)
+  dokumentieren sollte, und erst beim maschinellen Nachzählen. In
+  Tabellenzellen maskieren (`\|`) oder umformulieren. (MKT R7.)
+- **Läuft zu einem Dokument noch Recherche, trägt es einen SICHTBAREN
+  Vorbehalt — oder der Commit wartet.** Ein committetes Dokument ohne
+  Vorbehalt liest sich als fertig; im Multi-Session-Betrieb baut die
+  nächste Session darauf auf. (MKT R7.)
 
 ## Sensibel-Ablage
 

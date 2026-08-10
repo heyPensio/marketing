@@ -105,6 +105,22 @@ Herkunft: heyPensio-Skill `anbieter-anfrage`, je Fall teuer belegt.)*
   Modell-Empfehlungen nur nach Verfügbarkeitsprüfung · Firmierungen
   nie aus Sekundärquellen. (Beleg-schlägt-Begleitmail +
   Registerauszug-Pflicht: Baustein `aussenwirksame-texte`.)
+- **⭐ Eine versendete Festlegung wird nicht durch eine spätere ERSETZT
+  — sie muss ausdrücklich ZURÜCKGENOMMEN werden.** Belegfall (MKT R7):
+  19:45 MESZ „Wir entscheiden die Größe erst, wenn beide Varianten auf
+  gleicher Grundlage vorliegen", 61 Minuten später „Wir gehen mit der
+  32-Zoll-Variante weiter" — beide versendet, keine zurückgenommen. Der
+  Empfänger hält beide für gültig und weiß nicht, welche zählt. Vor
+  jeder Kurskorrektur nach außen: Was habe ich zu diesem Punkt schon
+  geschrieben (Fadensuche über die ADRESSE), und nehme ich es im selben
+  Satz zurück?
+- **Ein bereits versendeter Hygiene-Verstoß braucht eine DISPOSITION,
+  keine Regel-Wiederholung.** Wird nachträglich festgestellt, dass eine
+  Wettbewerber-Wertung oder eine Förderstelle offengelegt wurde, ist die
+  Frage nicht „welche Regel gilt", sondern: Wirkt es fort (Verhandlung
+  läuft) → aktiv geraderücken; ist es abgeschlossen → dokumentieren und
+  als Vorbelastung im Repo führen, damit die nächste Mail es nicht
+  wiederholt. Stillschweigen ist keine Disposition. (Herkunft: MKT R7.)
 - **Historisierungs-Kasten:** Historische Versand-Dokumente bekommen
   einen ERLEDIGT-Kasten („Text unten ist Historie — wer ihn als
   offenen Versandauftrag liest, verschickt doppelt") + dokumentierte

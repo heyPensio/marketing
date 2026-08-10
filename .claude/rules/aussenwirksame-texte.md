@@ -32,6 +32,16 @@ Herkunft: heyPensio.)*
   belegen** — dasselbe Anbieter-PDF trug eine falsche Hausnummer;
   eine einzelne Quelle ist auch für „triviale" Adressdaten kein Beleg.
   (Herkunft: heyPensio L-19.)
+- **⭐ Was im Editor Formatierung ist, ist beim Empfänger Text.** Vier
+  Befunde aus einem einzigen Postfach-Durchgang (MKT R7): das
+  Zeilenpräfix „▎" ging in einer Außenmail mit raus **und wird seither
+  in den Zitaten der Gegenseite mitgeführt**; ein Betreff-Marker
+  („korrigierte Fassung") ging mit; der eigene Name war einmal als
+  „Qais" statt „Qays" gezeichnet; der Kunde stand einmal im CC einer
+  Anbietermail und danach nie wieder (Empfängerkreis ohne Absicht
+  geändert). Vor dem Absenden **die Rohfassung ansehen, nicht die
+  gerenderte** — und die eigene Namensschreibweise gehört zur
+  Firmierung, nicht zur Tippgenauigkeit.
 - **Ein Dokument, das seine Schwäche ehrlich aber UNVOLLSTÄNDIG
   einräumt, ist schwerer zu prüfen als eines, das schweigt** — die
   Einräumung wirkt wie Vollständigkeit. Beim Prüfen die VOLLZÄHLIGKEIT

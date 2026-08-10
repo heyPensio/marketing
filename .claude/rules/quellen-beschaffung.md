@@ -83,6 +83,38 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   Quellen die Rubriken GENERISCH über das Strukturmerkmal extrahieren
   (CSS-Klasse, Überschriften-Ebene), nie über eine vorher notierte
   Namensliste. (Herkunft: MKT R6.)
+- **⭐ Eigener Quellen-Anker VOR dem Fan-out: erst die Volltexte
+  beschaffen, dann die Agenten laufen lassen.** Wer die Primärquellen
+  selbst gesichert hat, kann die Fundstellen der Agenten hinterher
+  MECHANISCH prüfen statt sie einzeln nachzulesen — in MKT R7 ließen
+  sich so 64 von 65 Fundstellen per Skript gegen 29 eigene Volltexte
+  bestätigen. Das ist die billigste Absicherung gegen driftende
+  Fundstellen. ⚠️ Der mechanische Abgleich prüft nur die
+  Fundstellen-Achse: Alle inhaltlichen Zusatzbefunde kamen erst aus dem
+  LESEN — Aussage und Fundstelle bleiben zwei Prüfungen.
+- **⭐ Ein Muster über AUSZEICHNUNG ist eine Annahme über deren FORM —
+  und ein Prüfmuster, das nicht treffen kann, sieht im Log wie ein
+  sauberes Negativ aus** (Herkunft: MKT R7, drei unabhängige Belege):
+  (1) **Attributreihenfolge:** Ein Anker-Muster erwartete
+  `rel="canonical"` vor `href`; HTML schreibt keine Reihenfolge vor — 24
+  von 65 Dateien trugen die umgekehrte, das Muster meldete 35 ankerlose
+  statt 11 und ließ zwei Domains ganz aus der Ergebnistabelle fallen.
+  (2) **`\b` im JS-String ist ein Backspace-Zeichen, nicht die
+  Wortgrenze** — der Selbsttest meldete „bestanden" für ein Muster, das
+  nie treffen konnte. (3) **NBSP (U+00A0) in amtlichen Texten** lässt
+  Phrasensuchen ins Leere laufen („Art. 95", „1 000 Euro"). In allen drei
+  Fällen gilt: Ein Negativ, das nicht passen kann, ist zuerst ein
+  Werkzeugfehler — bei Auszeichnungs-Parsing ist „nicht gefunden" fast
+  immer das Muster.
+- **Randnummern aus PDFs nie selbst auszählen** — in der Textextraktion
+  steht die Randnummer HINTER ihrem Absatz; zwei Zählungen gingen
+  nacheinander plausibel daneben. Belastbar ist erst ein EXTERNER Anker
+  (die Zitierweise derselben Stelle in einem anderen Dokument).
+  (Herkunft: MKT R7.)
+- **„Letzter Header davor" taugt nicht zur Abschnitts-Zuordnung in
+  Normtexten** — Querverweise (`Artikel 22` innerhalb von Art. 13 DSGVO)
+  sehen aus wie Überschriften; belastbar ist der Kontrast der
+  Absatz-Einleitungen. (Herkunft: MKT R7.)
 - **Für Kategorien-/Bestandsfragen zuerst die INSTITUTIONELLE Quelle
   suchen** (Landesagentur, Verband, Register), dann Anbieter — eine
   Landesagentur-B2B-Seite lieferte sieben Verbünde in einem Abruf,

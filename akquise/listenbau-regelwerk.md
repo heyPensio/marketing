@@ -808,11 +808,12 @@ Session):**
 
 | Größe | Wert |
 |---|---|
-| Geprüfte Zitate (beide Dokumente) | **99** |
-| Davon deklarierte eigene Formulierungen (Ausnahmeliste im Skript, je mit Begründung) | **6** |
-| **Quellenzitate wörtlich bestätigt** | **93 / 93** |
+| Geprüfte Zitate (beide Dokumente) | **102** |
+| Davon deklarierte eigene Formulierungen (Ausnahmeliste im Skript, je mit Begründung) | **8** |
+| **Quellenzitate wörtlich bestätigt** | **94 / 94** |
 | Positivkontrolle (Anker, die treffen MÜSSEN — je Quelldatei einer) | **7 / 7** |
 | Gegenprobe (verfälschte Fassungen, die NICHT treffen dürfen) | **3 / 3** |
+| Selbsttest des Extraktionspfades (eigene Prüfdatei) | **bestanden** (8 extrahiert / 4 bestätigt / 4 gemeldet) |
 
 **Sechs echte Abweichungen wurden dabei gefunden und repariert** —
 Klammersetzung im F-7-Zitat, grammatisch angepasstes statt wörtliches
@@ -831,11 +832,22 @@ Aussage sind zwei Prüfungen (CLAUDE.md); die zweite leistet der
 Prüf-Subagent (`protokolle/R08-A-pruefer.md`).
 
 ⚠️ **Werkzeugbefund aus dem ersten Lauf, festgehalten weil er sich
-wiederholen wird:** Das Muster `/„([^“]{25,})“/` fand **0 Treffer** bei
-99 vorhandenen Zitaten — das Repo schließt Zitate durchgängig mit `"`
-(U+0022), nicht mit `“` (U+201C); gemessen: 105 × U+201E / 105 × U+0022
-in diesem Dokument, 243 / 243 in der Rechtsmatrix. Ein Nulltreffer bei
-greifender Positivkontrolle ist ein **Werkzeugfehler, kein Negativ**.
+wiederholen wird:** Ein Extraktionsmuster, das als schließendes Zeichen
+U+201C erwartete, fand **0 Treffer bei 99 vorhandenen Zitaten** — das
+Repo schließt Zitate durchgängig mit U+0022. Gemessen: 105 × U+201E /
+105 × U+0022 in diesem Dokument, 243 / 243 in der Rechtsmatrix, 0 ×
+U+201C in beiden. Ein Nulltreffer bei greifender Positivkontrolle ist
+ein **Werkzeugfehler, kein Negativ**.
+
+**Deshalb prüft das Skript seit dem Umbau auch sich selbst:**
+`node akquise/pruefe-zitate.js --selbsttest` lässt die Extraktion über
+`akquise/selbsttest-zitate.md` laufen — vier Muster, die treffen müssen
+(darunter eines über einen Zeilenumbruch hinweg und eines mit
+Sonderzeichen), und vier, die **nicht** treffen dürfen (verfälschte
+Ziffer, entfernte Verneinung, plausibel erfundenes Zitat, quellenfremder
+Satz). **Ergebnis 11.08.2026: 8 extrahiert, 4 bestätigt, 4 gemeldet —
+bestanden.** Ohne diesen Lauf wäre nicht belegt, dass das Skript eine
+Verfälschung überhaupt fangen *kann*.
 
 ---
 

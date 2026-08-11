@@ -23,14 +23,52 @@ mitten in Komposita). **Der Vergleich läuft danach zeichenweise.**
 
 ## Ergebnis
 
-| Größe | Wert |
+| Größe | Wert (Endstand) |
 |---|---|
-| Geprüfte Zitate | **99** |
-| Deklarierte eigene Formulierungen (Ausnahmeliste im Skript, je begründet) | **6** |
-| **Quellenzitate wörtlich bestätigt** | **93 / 93** |
+| Geprüfte Zitate | **102** |
+| Deklarierte eigene Formulierungen (Ausnahmeliste im Skript, je begründet) | **8** |
+| **Quellenzitate wörtlich bestätigt** | **94 / 94** |
 | Positivkontrolle (MUSS treffen — je Quelldatei ein Anker) | **7 / 7** |
 | Gegenprobe (darf NICHT treffen) | **3 / 3** |
-| Exit-Code | 0 |
+| Exit-Code Hauptlauf | **0** |
+| Exit-Code Selbsttest (`--selbsttest`) | **0** |
+
+*(Der erste Lauf zählte 99 Zitate / 93 bestätigt. Die Differenz sind
+die Zitate, die dieses Protokoll und der Reparaturvermerk im Regelwerk
+§ 12 selbst eingeführt haben — darunter zwei absichtlich zitierte
+FEHLERfassungen, die im Pool gerade nicht stehen dürfen. Sie sind als
+solche in der Ausnahmeliste deklariert.)*
+
+## Selbsttest des Extraktionspfades (Rückbau-Gegenprobe)
+
+**Warum er nötig war:** Der Hauptlauf prüft, ob Zitate mit der Quelle
+übereinstimmen. Er prüft **nicht**, ob die Extraktion überhaupt
+funktioniert — genau dort lag der Fehler des ersten Laufs (0 von 99).
+Eine grüne Meldung des Vergleichsteils beglaubigt den Extraktionsteil
+nicht.
+
+**Form** (`akquise/selbsttest-zitate.md`, aufgerufen mit
+`node akquise/pruefe-zitate.js --selbsttest`): Der Selbsttest läuft durch
+**dieselben Funktionen** wie der Produktivlauf — er baut die Prüfkette
+nicht nach. Acht Muster:
+
+| Gruppe | Muster | Erwartung |
+|---|---|---|
+| **T1** | einfaches Quellenzitat | muss bestätigt werden |
+| **T2** | Quellenzitat **über einen Zeilenumbruch** | muss bestätigt werden (prüft den Whitespace-Kollaps) |
+| **T3** | Quellenzitat mit **Sonderzeichen** (÷) und Ziffern | muss bestätigt werden |
+| **T4** | Quellenzitat mit **Bindestrich über Umbruch** | muss bestätigt werden |
+| **F1** | **eine Ziffer geändert** (13 → 14 Art.-14-Angaben) | muss gemeldet werden |
+| **F2** | **Verneinung entfernt** — der gefährlichste Fall | muss gemeldet werden |
+| **F3** | plausibel klingendes **erfundenes** Zitat | muss gemeldet werden |
+| **F4** | echter Satz **außerhalb des Quellenpools** | muss gemeldet werden (prüft, dass der Pool nicht zu weit gefasst ist) |
+
+**Ergebnis 11.08.2026: 8 extrahiert, 4 bestätigt, 4 gemeldet —
+BESTANDEN**, Exit-Code 0.
+
+⚠️ **Pflege-Kopplung:** Wer das Skript ändert, ändert die Selbsttest-Datei
+im selben Zug mit; wer ein Muster ergänzt, ergänzt die zugehörige
+T-/F-Zeile.
 
 ## Die sechs gefundenen und reparierten Abweichungen
 

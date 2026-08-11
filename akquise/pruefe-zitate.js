@@ -6,10 +6,18 @@ const fs = require('fs');
 const path = require('path');
 
 const REPO = path.resolve(__dirname, '..');
-const ZIEL = [
-  'akquise/akquiseplan.md',
-  'akquise/listenbau-regelwerk.md',
-];
+
+// --selbsttest prueft NICHT die Projektdokumente, sondern die mitgelieferte
+// Selbsttest-Datei - durch DIESELBEN Funktionen (zitate() + norm() + Pool).
+// Grund: Ein Selbsttest, der die Zusammensetzung nachbaut, prueft sie nicht.
+// Erwartung: 4 Zitate bestaetigt (T1-T4), 4 als fehlend gemeldet (F1-F4).
+const SELBSTTEST = process.argv.includes('--selbsttest');
+const ZIEL = SELBSTTEST
+  ? ['akquise/selbsttest-zitate.md']
+  : [
+      'akquise/akquiseplan.md',
+      'akquise/listenbau-regelwerk.md',
+    ];
 const POOL = [
   'handel/kanal-rechtsmatrix.md',
   'fund/erhebung/regionalstatistik-groessenklassen.md',
@@ -72,6 +80,11 @@ const EIGEN = [
   ['Impressumsdaten sind für uns erlaubt', 'bewusstes Negativbeispiel (so darf gerade NICHT formuliert werden)'],
   ['alle Hotels aus Verzeichnis X', 'eigenes Beispiel zur Rekonstruktionsgrenze'],
   ['Welle 1: inhabergeführte Hotels in NF/OH, keine Ketten', 'eigenes Beispiel fuer ein Wellenprotokoll'],
+  // Die beiden folgenden sind die FALSCHEN Vorfassungen, die im
+  // Reparaturvermerk (Regelwerk § 12) absichtlich zitiert werden. Sie duerfen
+  // gerade NICHT im Pool stehen - das ist der Beleg, dass sie falsch waren.
+  ['langsame, aber loyale Entscheider', 'zitierte Fehlerfassung im Reparaturvermerk (Z-2)'],
+  ['unser Angebot passt perfekt', 'zitierte Fehlerfassung im Reparaturvermerk (Z-5)'],
 ];
 const eigenSet = new Set(EIGEN.map(([s]) => norm(s)));
 
@@ -135,5 +148,18 @@ for (const [name, s] of TREFFEN_NICHT) {
   console.log((hit ? 'FEHL ' : 'OK   ') + name);
 }
 console.log('Gegenprobe: ' + gp + ' / ' + TREFFEN_NICHT.length);
+
+if (SELBSTTEST) {
+  // Rueckbau-Gegenprobe des EXTRAKTIONS-Pfades: Ohne sie meldet ein Muster,
+  // das gar nicht treffen kann, ein sauberes "0 Abweichungen".
+  const bestaetigt = gesamt - fehlend.length - eigenTreffer;
+  const ok = gesamt === 8 && bestaetigt === 4 && fehlend.length === 4;
+  console.log('\n=== SELBSTTEST ===');
+  console.log('Zitate extrahiert : ' + gesamt + ' (erwartet 8)');
+  console.log('davon bestaetigt  : ' + bestaetigt + ' (erwartet 4 - T1..T4)');
+  console.log('davon gemeldet    : ' + fehlend.length + ' (erwartet 4 - F1..F4)');
+  console.log(ok ? 'SELBSTTEST BESTANDEN' : 'SELBSTTEST FEHLGESCHLAGEN');
+  process.exit(ok && pk === MUSS.length && gp === TREFFEN_NICHT.length ? 0 : 1);
+}
 
 process.exit(fehlend.length === 0 && pk === MUSS.length && gp === TREFFEN_NICHT.length ? 0 : 1);

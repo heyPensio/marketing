@@ -317,6 +317,22 @@ Korrekturen eingearbeitet, plus 3 ungenutzte R07-D-Nebenbefunde.
 
 ### Strang R08-B (Yasopp) — P22 Brandnamic-Vollerhebung, dann P21
 
+> **📌 Nachtrags-Kasten (16:xx, nach R08-B-Abschluss — Prompt unten
+> bleibt Original):** (1) **Byte-Zahl im Prompt war falsch**
+> (R08-B/Z-7): `raw_partner.html` hat **475.910** Bytes; „430.793" ist
+> `agb.html` — Fehler der Leitsession beim Prompt-Bau (Zahl aus dem
+> eigenen `ls`-Head dem falschen Schlüssel zugeordnet; genau die Regel
+> „Zahlen an ihren Schlüssel binden"; Debrief-Kandidat). Pfad und
+> Marker-Prämisse trugen. (2) **Session abgeschlossen:** Commits
+> `e387249` (P22) + `7db858c` (P21-Teil + Abschlussmeldung), beide auf
+> origin/main. P22 erfüllt (72/72), P21 bleibt offen. Review der
+> Leitsession gelaufen, Einarbeitung in `fund/wettbewerbsbild.md`
+> committet. (3) ⚠️ **Modellangabe fehlt** — Statuszeile war für die
+> Session nicht einsehbar: **User-Handgriff: im R08-B-Fenster die
+> Statuszeile ablesen und mir nennen, BEVOR das Fenster geschlossen
+> wird** (Strang-Tabelle wird nachgetragen; danach ist es endgültig
+> nicht mehr erhebbar).
+
 > Parallel-Session „R08-B" (Leitsession läuft separat, Multi-Session-
 > Modell lt. CLAUDE.md). Session-Start: `git pull`; dein tatsächliches
 > Modell verifizierst du NUR per Statuszeile und nennst es in der

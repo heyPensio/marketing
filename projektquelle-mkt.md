@@ -254,6 +254,10 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   App-Store/Partnerstatus, DEHOGA/Verbände, Internorga Hamburg März als
   Rückwärts-Anker, Fach-/Regionalpresse (AHGZ, Tophotel, Regionalblätter),
   LinkedIn, Newsletter-Aufbau). Fertig: priorisierter Mix mit Begründung.
+  **R8-Vermerk (N-4): Die Internorga liegt HINTER der November-Frist** —
+  als Rückwärts-Anker für den Kanalaufbau tauglich, **für Abschluss 1
+  trägt sie nicht**; der Lead-Prozess muss trotzdem VOR der Messe
+  stehen (Rechtsmatrix A4).
   **R1-Vermerk (09.08.2026):** Die Problem-Fit-Gegenthese größerer
   Häuser (bemannte Rezeption → strukturell schwächerer Kern-Schmerz;
   Planprüfung Bericht 1, Prämisse 3) ist jetzt in FUND2 als
@@ -262,6 +266,11 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   schwach" wiegt dort schwerer als Erreichbarkeit.
 - **AKQ2** Zielkundenliste (nach HANDEL3-Rechtsmatrix; personenbezogene
   Daten nur in `sensibel/`/CRM). Fertig: Liste + Erstansprache-Plan.
+  **R8-Vermerk (N-5): Die Verflechtungs-Offenlegung (Kayhan Rasuly,
+  2 von 3 Pilotobjekten) wirkt auch in die AKQUISE-ANSPRACHE hinein**,
+  nicht nur in die Case Study — K2 (persönlicher Vorkontakt) läuft
+  überwiegend über sein Netzwerk; Offenlegungs-Standard gilt je
+  Ansprache, nicht erst je Referenznutzung (BELEG4-Regel + Akquiseplan).
 - **AKQ3** Maßnahmen-/Kampagnenplan + Umsetzung laufender Maßnahmen
   (inkl. E-Mail-Zustellbarkeit: SPF/DKIM/DMARC, separate Versanddomain-
   Frage, Domain-Warmup nach Rebrand). Fertig: Maßnahmen laufen.
@@ -273,6 +282,10 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Pipeline · Zeit bis Abschluss 1 · Referenz-Assets fertig ·
   Reply-/Terminquote). Ausdrücklich KEINE Vanity-Metriken (Follower,
   Impressions, Traffic) als Steuerungsgrößen. Fertig: Tracking gefüllt.
+  **R8-Vermerk (N-3): Die KPI-5-Schwelle „unter 10 % Antworten"
+  stammt aus einem Online-Kanalbild** — auf den Briefkanal angewandt
+  erzeugt sie einen Dauer-Fehlalarm; Schwellen je KANAL kalibrieren
+  (Akquiseplan-KPI-Vorschlag ist als VORSCHLAG markiert).
 - **OPS2** AI-Act-Kennzeichnungs-Policy (KI-Kommunikation mit Leads,
   KI-Bilder; Absender-Architektur Gründer- vs. Firmen-Marke) +
   Fehler-/Rückrufprozess für KI-Außenkommunikation. Fertig: Policy aktiv.
@@ -606,7 +619,12 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    P21-Rest (5 dt. Kandidaten, 3 Südtirol-Träger, CH) · O-8 +
    Kaltkontakt-Löschfrist (O-2, User-Entscheid vor VVT) ·
    Registerauszug Ringhotels vor Außennennung (V-3) · N-8 fremde
-   Verteiler als Kanal ungeprüft (MKT-HANDEL).
+   Verteiler als Kanal ungeprüft (MKT-HANDEL) · **N-1/O-5: der
+   Nachfass-Anruf nach eigenem Werbebrief ist rechtlich UNGEKLÄRT —
+   der Rang-1-Kanal Brief hat damit keinen eingebauten Nachfasskanal**
+   (MKT-HANDEL, Rechtsmatrix A2/A7) · Z-5: hogast.it/gastropool.it
+   (Einkaufsgenossenschaften, im Partnerkreis unter „Zahlungsanbieter")
+   als Kanal-Kandidaten in die P21-/AKQ-Kanalbewertung.
 
 1. **⚠️ Terminkritisch (Zentrale, User-Handgriff Mo 10.08.):**
    StB-Anruf — GbR-Namensführung (eGbR/MoPeG) VOR Gewerbeanmeldung
@@ -770,6 +788,14 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
   7 Lehren (`0dc102f`). Details Prüfraum-Grenzen:
   `protokolle/R08-A-pruefer.md` § C; Tagesplan trägt die
   Session-Prompts (erste Anwendung Pull-Modell/Klartext-Chat — bewährt).
+  **Z-9-Disposition (Leitsession): VERWORFEN mit Grund** — die
+  maschinell erzeugten Fehl-alt-Texte der Brandnamic-Partnerseite
+  werden nicht als Wettbewerbsaussage verwertet (Informationshygiene:
+  keine Wettbewerber-Wertungen nach außen); bleiben als Datenpunkt im
+  Erhebungsdokument. **Debrief-Gegenprobe (Subagent) fand 8 versickerte
+  Punkte — alle nachgezogen** (N-1/N-3/N-4/N-5/Z-5/Z-9-Entscheid in
+  diesem Sync; Bezeichner-Regel + Warnkasten-Muster → Blueprint
+  `b8597b6`).
 
 - 10.08.2026 (R7-Debrief, vier Arbeits-Sessions + Leitsession):
   **Die R05-A-Nacharbeit ist geschlossen** (R07-A) — 24 von 26

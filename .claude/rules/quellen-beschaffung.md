@@ -135,6 +135,16 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   des Befunds; Re-Verifikation läuft über die DOMAIN, nie über eine
   erneute Namenssuche (zwei Verbünde einer 2021er-Liste waren 2026
   fusioniert bzw. umbenannt — unter dem Altnamen unauffindbar).
+  (4) **Ein BEZEICHNER ist kein Aussagetext:** Die Auflösung einer
+  Abkürzung/Domain zu einem Namen ist eine EIGENE Vermutung, keine
+  Quellenaussage (eine Domain wurde zu einem plausiblen Verbandsnamen
+  „aufgelöst", der nirgends in der Quelle stand — selbst gefangen per
+  Rohbeleg-Gegenprobe); JS-Variablen und CSS-Klassen (`sbb…`) sind
+  Namensräume und taugen als Indiz, nie als Trägerbefund. Und: Trägt
+  ein vorgegebener Dateiname einen Anspruch, den der Inhalt nicht
+  erfüllt („vollerhebung" bei Teilerhebung), gehört der Widerspruch
+  als Warnkasten AN DEN ANFANG der Datei — an die Stelle, wo der
+  Leser ankommt.
 - **Für Kategorien-/Bestandsfragen zuerst die INSTITUTIONELLE Quelle
   suchen** (Landesagentur, Verband, Register), dann Anbieter — eine
   Landesagentur-B2B-Seite lieferte sieben Verbünde in einem Abruf,

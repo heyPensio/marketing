@@ -908,3 +908,17 @@ bekanntem Sollwert plus Gegenrichtung, die schweigen muss. Quelle:
 Quellen: `protokolle/R08-A-abschluss.md`, `R08-B-abschluss.md`,
 `R08-A-pruefer.md`, `R08-A-befund-disposition.md`,
 `tagesplan-2026-08-11.md`, Session-Verlauf Leitsession.
+
+**Nachtrag aus der Debrief-Gegenprobe (Subagent, 11.08.2026 abends):**
+Die Gegenprobe fand **8 versickerte Punkte** (5 Nebenbefunde mit
+Zielort, der sie nie aufnahm; 3 Methodik-Punkte — davon 2 aus den
+BEWÄHRTEN MUSTERN von R08-B, der Klasse, die laut Regel eher
+durchrutscht). Alle nachgezogen: N-1/N-3/N-4/N-5/Z-5/Z-9-Entscheid →
+Projektquelle; Bezeichner-ist-kein-Aussagetext + Warnkasten-Muster →
+Baustein `quellen-beschaffung` (Blueprint `b8597b6`). Dazu als
+Zweitbeleg vermerkt: „Anwesenheit ist nicht Wirksamkeit" gilt auch für
+den STATUS von Pflichtenlisten-Einträgen (R08-A P-01: das „erfüllt"
+zwischen fünf „nicht gebaut" war der schwerste Befund — die
+Vollzähligkeitsprüfung 6/6 sah sauber aus). Lehre über die Lehre: Die
+Gegenprobe hat ihren Pflicht-Status verdient — ohne sie wären 8 von 47
+geprüften Punkten still versickert, Quote ~17 %.

@@ -3,9 +3,9 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`0dc102f`** (R8-Debrief-Rückfluss 11.08.2026
-> abends: 7 R8-Lehren in den Master, betroffene Kopien im selben Zug
-> gezogen, Wächter 0 DRIFT). Davor `08a12c5` (Mini-Nachzug 11.08.2026
+> am 2026-08-09; Stand **`b8597b6`** (R8-Debrief-Rückfluss 11.08.2026
+> abends: 7 R8-Lehren `0dc102f` + Gegenprobe-Nachzug Bezeichner-Regel
+> `b8597b6`, betroffene Kopien im selben Zug gezogen, Wächter 0 DRIFT). Davor `08a12c5` (Mini-Nachzug 11.08.2026
 > nachmittags: skill-bauweise Tranche 2 — Ansatz challengen,
 > HTML-Zwischenformat, Quernutzung/Assets; ein Delta, Wächter 0 DRIFT).
 > Davor Stand `d2d6af7` (Nachzug M1, 11.08.2026 — 20
@@ -73,7 +73,7 @@ Fertig-Kriterium. Jede Ebene trägt Name + Kurz-Code:
 | **MKT-BELEG** | Pilot-Dokumentation | Vorher-Baseline VOR dem PMS-Livegang (Ende September — **nicht nachholbar**) gemessen; Referenzvereinbarungen aller 3 Pilotobjekte; Case Study nach Livegang; Demo-Video Voice-Check-in. |
 | **MKT-HANDEL** | Pricing & Vertriebswerkzeuge | Preismodell + Angebotsarchitektur + Sales-Deck/One-Pager + **Kanal-Rechtsmatrix (UWG § 7)** vor dem Zielkundenlisten-Bau + Lead-Prozess mit Kapazitätsdeckel + Vertrags-/AVV-Anforderungen (Zulieferung an Zentrale). |
 | **MKT-WEB** | Website & digitale Präsenz | Vollwertige Website unter dem NEUEN Namen live (echte Fotos, BFSG-Einstufung mit Beleg, datenschutzkonformes Tracking, Impressum/Datenschutz/Cookies); Social-Profile angelegt. Startet erst nach Namensentscheid (sonst Wegwerfarbeit). |
-| **MKT-AKQ** | Akquise & Kampagnen | Kanalmix NACH dem Persona-Befund festgezurrt (Kandidaten: Founder-Direktvertrieb, Referenz-/Empfehlungsmechanik, Apaleo-Ökosystem/App-Store, DEHOGA/Verbände, Internorga Hamburg (März) als Rückwärts-Anker, Fach-/Regionalpresse, LinkedIn, Newsletter); Maßnahmen laufen; **erster Abschluss bis Mitte November**. |
+| **MKT-AKQ** | Akquise & Kampagnen | Kanalmix NACH dem Persona-Befund festgezurrt (Kandidaten: Founder-Direktvertrieb, Referenz-/Empfehlungsmechanik, Apaleo-Ökosystem/App-Store, DEHOGA/Verbände, Internorga Hamburg (März) als Rückwärts-Anker — ⚠️ liegt HINTER der November-Frist, trägt für Abschluss 1 nicht (R8/N-4), Fach-/Regionalpresse, LinkedIn, Newsletter); Maßnahmen laufen; **erster Abschluss bis Mitte November**. |
 | **MKT-OPS** | AI-native Betrieb & Messung | Lead-Tracking, Funnel-KPIs (Erstgespräche/Woche · Pipeline · Zeit bis Abschluss 1 · Referenz-Assets · Reply-Quote), Kostendeckel, AI-Act-Kennzeichnungs-Policy, VVT/AVV-Inventar, Zugangs-Register (2FA/Recovery, in `sensibel/` + Backup), n8n-Instanz-Entscheid. **Agenten-Hierarchie GEPARKT** — Ent-Park-Trigger normativ in `zentrale\rollen-charta.md` (ZWEI Bedingungen: Prozess produziert nachweislich Kunden UND gemessene Arbeitslast erzwingt die Ebene). |
 
 **Namenskonvention:**

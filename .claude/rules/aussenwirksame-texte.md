@@ -36,8 +36,8 @@ Herkunft: heyPensio.)*
   Befunde aus einem einzigen Postfach-Durchgang (MKT R7): das
   Zeilenpräfix „▎" ging in einer Außenmail mit raus **und wird seither
   in den Zitaten der Gegenseite mitgeführt**; ein Betreff-Marker
-  („korrigierte Fassung") ging mit; der eigene Name war einmal als
-  „Qais" statt „Qays" gezeichnet; der Kunde stand einmal im CC einer
+  („korrigierte Fassung") ging mit; der eigene Name war einmal in
+  falscher Schreibweise gezeichnet; der Kunde stand einmal im CC einer
   Anbietermail und danach nie wieder (Empfängerkreis ohne Absicht
   geändert). Vor dem Absenden **die Rohfassung ansehen, nicht die
   gerenderte** — und die eigene Namensschreibweise gehört zur

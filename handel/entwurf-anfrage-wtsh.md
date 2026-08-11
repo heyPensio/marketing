@@ -1,10 +1,26 @@
 # Entwurf Außenmail — WTSH, DKU Modul 1 (Beratung)
 
+> ## ⛔ GEGENSTANDSLOS — NICHT VERSENDEN (Nachtrag 11.08.2026)
+>
+> **F-15 ist beantwortet: Es wurde nie ein WTSH-Antrag eingereicht**
+> (User-Auskunft 10.08.2026 via `zentrale\STATUS.md` „Rückmeldung an
+> MKT"; ohne das vertagte Terminal wird die 10.000-€-Grenze nicht
+> erreicht, Schließfachanlage auf Creone entschieden ~4.000 €). Die
+> Versand-Sperre dieses Entwurfs hing an F-15 — mit der Antwort
+> entfällt der ANLASS des Versands, der Entwurf ist **gegenstandslos**
+> (Disposition der Zentrale, ebd.). **Wer den Text unten als offenen
+> Versandauftrag liest, verschickt eine Anfrage ohne Anlass.**
+> Die SACHFRAGEN 1–4 (DKU-Auslegung Beherbergung/Werbe-Abgrenzung)
+> bleiben als B9.4-/F-8-Wiedervorlage im Trägerdokument
+> `handel/foerderarchitektur-beraterrolle.md` geführt — sie werden erst
+> wieder aktuell, falls eine SH-DKU-geförderte Kundenberatung konkret
+> ansteht. Der Text unten bleibt als Historie unverändert stehen.
+
 ## Kopfblock
 
 | Feld | Inhalt |
 |---|---|
-| **Status** | **ENTWURF — ⚠️ VERSAND GESPERRT bis F-15 geklärt ist** (s. Versand-Vorbedingungen) |
+| **Status** | **GEGENSTANDSLOS seit 11.08.2026** (s. Kasten oben; vorher: ENTWURF — ⚠️ VERSAND GESPERRT bis F-15 geklärt ist, s. Versand-Vorbedingungen) |
 | **Fassung** | **3** (Fassung 2 nach Prüfprotokoll `protokolle/R07-D-pruefer.md`; Fassung 3 nach dem Leitsessions-Zuruf zur Verflechtung, beides 10.08.2026) |
 | **Versanddatum** | *(nach Versand eintragen — nie beim Schreiben der Vorlage)* |
 | **Versandkanal** | *(nach Versand eintragen)* |

@@ -27,6 +27,40 @@ Kalender abrufen (falls angebunden) und die Arbeitsdauer erfragen. Daraus
 überlebt die Auto-Kompaktierung und ist das Übergabedokument zwischen
 Leitsessions.
 
+**Einstiegs-Auftrag HOLEN statt pasten lassen (seit 11.08.2026):** Liegt
+ein Firmen-Briefing des angebrochenen Arbeitstags vor
+(`C:\Users\qwafa_2dwxzia\firma\zentrale\briefings\`, neuester Slot —
+Über-Mitternacht-Fenster zählen zum angebrochenen Tag), liest die
+Leitsession ihren Einstiegs-Auftrag SELBST aus dessen Abschnitt
+„Einstiegs-Prompts" (eigene Abteilung): Tagesrahmen-Eckwerte,
+Schwerpunkte, Terminposten und Prämissen-Kasten stehen dort — der User
+startet nur mit einem Einzeiler. Die Datei ist der vom User bestätigte
+Stand (das `/briefing` schreibt sie erst nach seinem Entscheid); pastet
+der User dennoch einen Prompt, gewinnt der gepastete Text als der
+neuere. Kippt eine Prämisse des Kastens aus Sicht der Leitsession:
+melden statt starten. (Grund: Chat-Prompts sind ein Zwischenzustand mit
+Verfallsdatum — ein Block startete ohne Input, weil sein Prompt nur im
+Zentrale-Chat existierte; Paste-Abschneide-Risiko entfällt mit.)
+Widerruft die Zentrale einen schon ausgegebenen Auftrag, geschieht das
+ausschließlich über ein KORREKTUR-Slot-Briefing
+(`…-korrektur[-n].md`, kenntlich am additiven Kopf-Verweis im alten
+Slot) — der neueste Slot gewinnt; alte Briefing-Texte selbst werden
+nie umgeschrieben.
+
+⚠️ **DIE HANDGRIFF-LISTE WIRD MIGRIERT, NICHT NEU ERHOBEN.** Ein neuer
+Tagesplan entsteht aus dem Status-Dokument **plus der Handgriff-Liste des
+VORTAGS**. Sonst fällt genau der Handgriff heraus, der nirgends sonst
+geführt wird: In einem realen Fall war ein Handgriff am Vortag **dreimal**
+besprochen und ausdrücklich auf „den Morgen" verortet — im neuen Plan
+**null Treffer**, und er war der **einzige Auslöser für sämtliche Zugänge
+eines ganzen Arbeitsstrangs**. **Operative Form: vor dem Schreiben die
+Handgriff-Tabelle des Vortags öffnen und jede Zeile ausdrücklich
+disponieren** (übernommen / erledigt mit Beleg / entfallen mit Grund). Ein
+Handgriff ohne Disposition ist ein verlorener Handgriff — und dass sein
+Erledigungsstand **nicht messbar** ist (privater Kanal), macht die
+Migration wichtiger, nicht unwichtiger. *(Herkunft: heyPensio R36, von
+einer Arbeits-Session gefangen.)*
+
 **Inhalt des Tagesplans:** Rahmen (Blocktabelle mit Quelle) · Engpass-Satz
 Erreichbarkeit (Anbieter/Behörden nur werktags tagsüber — der Wochentag
 entscheidet über den Wert eines Strangs) · User-Handgriffe (nichts, was
@@ -169,9 +203,19 @@ einer, beim User nachfragen statt raten:
    vor, was ihr Prompt als „existiert noch nicht" beschreibt, und muss
    die eigene Auftragsprämisse verwerfen. Entweder eine Session legt an
    und der Prompt der anderen sagt es, oder die Formulierung lautet
-   „lege an, falls nicht vorhanden". (Herkunft: MKT R7, L-20, Fehler
-   der Leitsession.) Wahrheits-Kanal (Projektquelle, STATUS.md,
-   CLAUDE.md, Skills/Commands) ist NIE Teil eines Scopes.
+   „lege an, falls nicht vorhanden". (Herkunft: MKT R7.)
+   **⭐ UND: Die Scope-Grenze wird auf DATEI-Ebene gezogen, nicht auf
+   Verzeichnis-Ebene, sobald zwei Stränge dasselbe Verzeichnis berühren.**
+   Ein ganzes Verzeichnis an Strang 1 zu vergeben, während Strang 2 an
+   einer einzelnen Datei darin arbeitet, ist kein disjunkter Scope — die
+   betroffene Session hat es gemeldet und nichts angefasst, der Schaden
+   blieb aus, der Zuschnitt war trotzdem falsch. Dieselbe Klasse wie
+   „Datei-Scope ist kein Zeilen-Scope", eine Ebene höher. **Prüfform: vor
+   der Ausgabe je Strang die konkreten DATEIEN auflisten und paarweise
+   gegen die anderen Stränge schneiden** — n Stränge heißen n·(n−1)/2
+   Paare. (Herkunft: heyPensio R36.) Wahrheits-Kanal
+   (Projektquelle, STATUS.md, CLAUDE.md, Skills/Commands) ist NIE Teil
+   eines Scopes.
 5. **Exklusive Systeme** — je System immer nur EINE Session; Zuteilung
    benennen. Setzt der Auftrag System-ZUGRIFF voraus, gehört der
    ZUGANGSWEG als Vorbedingung in den Prompt — **je HANDLUNG geprüft**
@@ -268,15 +312,15 @@ einer, beim User nachfragen statt raten:
      während des Prüflaufs committet, ändert den Gegenstand unter ihm;
      der Prüfer meldet dann eine Verfahrensverletzung statt eines
      Sachbefunds. (Herkunft: MKT R7, vom Prüfer selbst gemeldet.)
+   - **⭐ Ein Agent je QUELLDOKUMENT schlägt einen Agenten je BEFUND**,
+     mit dem Auftrag „Absatz davor und danach mitlesen": In MKT R7 fanden
+     alle vier Zitat-Agenten MEHR, als der jeweilige Befund behauptete
+     (ein Sektionssprung statt Absatzsprung, ein zusätzlich eingefügter
+     Punkt, ein Zitat zur Hälfte aus einem geschlossenen Overlay). Wer nur
+     die Behauptung prüft, findet nur die Behauptung. **Delegierte ZAHLEN
+     nie ohne mitgelieferten Zählweg übernehmen.**
    - **Recherche-Fan-out** je Anbieter/Quelle bzw. je QUELLDOKUMENT ein
-     Agent — **ein Agent je QUELLDOKUMENT schlägt einen Agenten je
-     BEFUND**, mit dem Auftrag „Absatz davor und danach mitlesen": In
-     MKT R7 fanden alle vier Zitat-Agenten MEHR, als der jeweilige Befund
-     behauptete (ein Sektionssprung statt Absatzsprung, ein zusätzlich
-     eingefügter Punkt, ein Zitat zur Hälfte aus einem geschlossenen
-     Overlay). Wer nur die Behauptung prüft, findet nur die Behauptung.
-     Getrennte Fundstellen-Nachprüfung dahinter — **und delegierte ZAHLEN
-     nie ohne mitgelieferten Zählweg übernehmen** (L-15).
+     Agent; getrennte Fundstellen-Nachprüfung dahinter.
    - **Festgefahrenes Debugging:** ab 3 Versuchen ohne Fortschritt EIN
      read-only Subagent mit frischem Kontext; Befund an der Quelle
      verifizieren.
@@ -333,27 +377,42 @@ Abschlussmeldungs-Teil bekommen hat oder der User explizit einen will:
 
 ## 4. Ausgabe
 
-Die fertigen Prompts als Blockquotes zum Kopieren, davor eine Zeile pro
-Session: Name · Modell · Scope-Kurzform · exklusive Systeme.
+**Pull-Modell + Klartext-Chat (seit 11.08.2026, User-Entscheid):** Die
+fertigen Prompt-VOLLTEXTE stehen NICHT im Chat, sondern im heutigen
+Tagesplan (`protokolle/tagesplan-<datum>.md`, Abschnitt
+„Session-Prompts"; VOR der Chat-Ausgabe committen) — die Datei ist die
+Single Source, der Chat gehört dem User. Im Chat erscheint pro Session:
+1. eine Zeile Name · Modell · Scope-Kurzform · exklusive Systeme;
+2. ein Absatz in **EINFACHER SPRACHE** (ohne Fachbegriffe): was diese
+   Session tut, was am Ende anders ist, worauf sie ruht — der User soll
+   die Runde verstehen können, ohne einen Prompt zu lesen;
+3. die Einzeiler-Startzeile zum Kopieren: „Du bist `R<runde>-<sess>`.
+   Lies deinen Auftrag in `protokolle/tagesplan-<datum>.md`, Abschnitt
+   ‚Session-Prompts', Strang <sess>, und arbeite NUR ihn ab."
+Ein dennoch gepasteter Voll-Prompt gewinnt als der neuere Stand.
+(Grund: Chat-Prompts sind Zwischenzustände mit Verfallsdatum und
+Paste-Abschneide-Risiko; und der Chat wird als Klartext-Ebene frei.)
 **Über JEDEM Prompt eine sichtbare User-Handgriff-Zeile: „Vor dem
 Einfügen: NEUES Session-Fenster öffnen und DEIN Modell einstellen."** —
 die Modellwahl liegt beim User (Empfehlung nur auf Nachfrage), und der
 Start-Handgriff ist ihr einziger wirksamer Kanal. **„NEUES Fenster" ist
 Teil des Handgriffs:** Ein altes Session-Fenster trägt den Regel-Snapshot
 seines Starts (CLAUDE.md/Skills VOR dem letzten Debrief) und das Modell
-der alten Runde. **Und `/cost` je Arbeits-Session wird abgelesen, BEVOR
-ein Fenster geschlossen oder gecleart wird** — ein `/clear` löscht die
-Ablesbarkeit endgültig. (Herkunft: heyPensio R34, User-Versehen mit
-glimpflichem Ausgang.)
+der alten Runde. *(Die frühere `/cost`-Ablesepflicht je Arbeits-Session
+[heyPensio R34] ist ABGESCHAFFT — User-Regel, bekräftigt 10.08.2026
+abends gegenüber der Zentrale: Kostenablesungen werden nicht mehr
+geführt. Kein Fenster wartet auf eine Ablesung.)*
 
 **Session-Namen tragen die RUNDE:** `R03-A`, `R03-B` — nie nur `A`, `B`.
 Buchstaben nicht überspringen; übernimmt die Leitsession einen Strang,
 wird der Buchstabe frei gelassen und vermerkt. Kollidieren zwei Scopes,
 das VOR der Ausgabe auflösen, nicht dem User überlassen.
 
-**Sequenzierte Sessions: den abhängigen Prompt ZURÜCKHALTEN** und erst
-nach der Abschlussmeldung der Vorgänger-Session ausgeben — ein „startet
-NACH X" im Prompttext wird im Parallel-Alltag überlesen.
+**Sequenzierte Sessions: die abhängige STARTZEILE zurückhalten** und
+erst nach der Abschlussmeldung der Vorgänger-Session ausgeben; steht der
+Prompt schon im Tagesplan, trägt sein Abschnitt sichtbar „⛔ startet
+erst nach <Vorgänger>" — ein „startet NACH X" nur im Prompttext wird im
+Parallel-Alltag überlesen.
 
 ---
 **Merksatz:** Der Prompt ist der Vertrag der Session — was nicht drinsteht

@@ -39,6 +39,11 @@ Vorwärtsverweis-Falle).
    den Tagesplan halten — Erreichbarkeitsfenster ändern sich
    (abends/Wochenende: nur Innen-Stränge); Wochen-Budget-Feld auf Stand?
    User-Zuruf: Was ist seit dem letzten Block passiert?
+   **Neues (Zweit-)Briefing seit dem Tagesplan?** Dann den eigenen
+   `/runde`-Einstiegs-Auftrag aus dessen Abschnitt „Einstiegs-Prompts"
+   SELBST lesen (neuester Slot in `zentrale\briefings\`) — neuer
+   Tagesrahmen und neue Triage-Lage reisen über die DATEI, nicht über
+   Chat-Paste; ein User-Paste gewinnt als der neuere Stand.
 3. **Neue Runde schneiden** nach `/tagesstart` Abschnitt 1 Punkte 4–5
    (Ist-Stand-Prüfung je Strang durch die Leitsession SELBST; bei ≥ 3
    Strängen der Prüf-Subagent), Prompts nach Abschnitt 2, Ausgabe nach

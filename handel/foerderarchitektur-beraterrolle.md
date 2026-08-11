@@ -481,11 +481,21 @@ Negativliste (Stand 05.06.2026), wörtlich:
 → **Offener Punkt F-14** (Träger: **Zentrale/StB**, nicht MKT): Bewertung
 der Verflechtung gegen SH Ziffer 5.2.1 und die Negativliste. **Vor** einer
 SH-DKU-geförderten Beratung eines Rasuly-Objekts.
-→ **Offener Punkt F-15** (Träger: **User/Zentrale**): Tatsächlicher Stand
+→ ~~**Offener Punkt F-15**~~ ✅ **BEANTWORTET (11.08.2026):** Es wurde
+**KEIN WTSH-Antrag eingereicht** (User-Auskunft 10.08.2026, übermittelt
+via `zentrale\STATUS.md` „Rückmeldung an MKT", gelesen 11.08.). Ohne das
+vertagte Terminal wird die 10.000-€-Grenze nicht erreicht; die
+Schließfachanlage ist auf **Creone** entschieden (~4.000 €). **Folgen:**
+Der WTSH-Anfrage-Entwurf ist **gegenstandslos** (die Versand-Sperre hing
+an F-15 — Kasten dort); der Verflechtungs-Befund bleibt gültig, aber nur
+**steuerlich/werblich, nicht förderrechtlich**. Der Zeitbezug ging laut
+Zentrale dort verloren, nicht hier („Marketing hat keinen Fehler
+gemacht", ebd.).
+*(Ursprünglicher Wortlaut des offenen Punkts: Tatsächlicher Stand
 der WTSH-Anträge, bei denen wir Angebote beschafft haben — gestellt,
 beschieden, offen? Diese Session konnte ihn nicht klären; im
-Marketing-Repo ist er nicht geführt. **Das ist eine Versand-Vorbedingung
-der WTSH-Anfrage**, siehe dort.
+Marketing-Repo ist er nicht geführt. Das war eine Versand-Vorbedingung
+der WTSH-Anfrage.)*
 
 ### 4.2 Antragsberechtigung — was die Richtlinie selbst schon sagt
 

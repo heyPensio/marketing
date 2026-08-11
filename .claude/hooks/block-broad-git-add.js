@@ -8,10 +8,10 @@
  * im harmlosen Fall verfaelscht das nur die Commit-Zuordnung, im teuren Fall
  * veroeffentlicht es fremde, unfertige Arbeit vor deren Freigabe.
  *
- * Die Regel stand bis 29.07.2026 nur in CLAUDE.md und wurde trotzdem gebrochen
- * (R19-C, Commit 5946c34 trug zwei fremde Dateien). Ein Entscheid mit
- * Schutzwirkung ist erst wirksam, wenn er einen technischen Traeger hat —
- * das ist dieser Hook.
+ * Die Regel stand zunaechst nur in CLAUDE.md und wurde trotzdem gebrochen
+ * (Herkunft: heyPensio R19-C — ein Commit trug zwei fremde Dateien). Ein
+ * Entscheid mit Schutzwirkung ist erst wirksam, wenn er einen technischen
+ * Traeger hat — das ist dieser Hook.
  *
  * Bewusster Verstoss ist weiterhin moeglich: `git commit --no-verify` hilft
  * NICHT (dieser Hook laeuft vor dem Tool, nicht in git). Wer wirklich breit
@@ -76,8 +76,8 @@ function pruefe(zeile) {
       if (args.includes('-n') || args.includes('--dry-run')) continue;
       // Intent-to-add (-N/--intent-to-add) registriert nur Pfade, staged
       // KEINE Inhalte und wird von einem spaeteren `git commit` nicht
-      // mitgenommen — per CLAUDE.md ausdruecklich erlaubt, und /drift-check
-      // schreibt `git add -N .` vor (Konflikt R20-A, aufgeloest 02.08.2026).
+      // mitgenommen — deshalb erlaubt: Drift-Check-artige Werkzeuge nutzen
+      // `git add -N .` legitim (Herkunft: heyPensio R20-A, 02.08.2026).
       if (args.includes('-N') || args.includes('--intent-to-add')) continue;
       for (const a of args) {
         if (a === '.' || a === '*' || a === ':/' || a === '--all' || a === '--no-ignore-removal') {

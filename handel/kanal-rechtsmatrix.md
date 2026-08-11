@@ -792,8 +792,36 @@ Die Matrix schließt genau die Kanäle, die eine Zielkundenliste am schnellsten 
 Diese Punkte haben Außenwirkung und werden nicht von der Session festgelegt (CLAUDE.md: Festlegungen mit Außenwirkung nie im Alleingang):
 
 1. **Verfallsfrist für die Bestandskundeneigenschaft** — Vorschlag: **24 Monate** nach letztem Vertragsschluss. Es gibt keine gesetzliche Frist; eine selbst gesetzte, dokumentierte Frist ist die belastbare Lösung und erfüllt zugleich die Löschfrist-Anforderung.
+   > ✅ **ENTSCHIEDEN (Nachtrag 11.08.2026): 24 Monate** nach letztem
+   > Vertragsschluss — zugleich die dokumentierte Löschfrist fürs
+   > Verarbeitungsverzeichnis (D2 Punkt 3). Quelle: User-Entscheid
+   > 11.08.2026, strukturierte Abfrage (AskUserQuestion) im
+   > R8-Tagesstart der Leitsession; Erhebungsform im Tagesplan
+   > `protokolle/tagesplan-2026-08-11.md` dokumentiert. Wirksam ab dem
+   > ersten Kunden; der Erhebungs-Hinweis nach § 7 Abs. 3 Nr. 4 UWG
+   > gehört ab sofort in jedes Bestell-/Vertragsformular (A5).
 2. **Umgang mit der Impressums-Sperre.** Die Aufsichtsauffassung schließt die naheliegendste Adressquelle. Drei Wege: (a) konservativ — nur freiwillig veröffentlichte Kontaktseiten und Verzeichnisse nutzen; (b) Risiko bewusst tragen und dokumentieren; (c) anwaltlich klären lassen. **Empfehlung: (a)**, weil der Aufwandsunterschied gering und das Risiko real ist.
+   > ✅ **ENTSCHIEDEN (Nachtrag 11.08.2026): Weg (b) — Risiko bewusst
+   > tragen und dokumentieren.** Der User hat sich GEGEN die
+   > Empfehlung (a) dieses Dokuments entschieden; die
+   > Aufsichtsauffassung (DSK-Orientierungshilfe Ziff. 4.2, s. C3)
+   > bleibt unverändert gegenläufig — das Restrisiko besteht fort und
+   > wird getragen, nicht bestritten. Quelle: User-Entscheid
+   > 11.08.2026, strukturierte Abfrage (AskUserQuestion) im
+   > R8-Tagesstart, nach Klartext-Vorlage beider Optionen samt
+   > Risikohinweis; Erhebungsform im Tagesplan
+   > `protokolle/tagesplan-2026-08-11.md`. **Bau-Pflichten daraus für
+   > den Listenbau (MKT-AKQ, nicht verhandelbar):** dokumentierte
+   > Interessenabwägung nach Art. 6 Abs. 1 lit. f je Datenfeld (D2
+   > Punkt 4) · Quellenprotokoll je Adresse inkl. „Impressum"-
+   > Kennzeichnung (D2 Punkt 6) · Werbesperrdatei vor dem ersten
+   > Versand (D2 Punkt 2) · Restrisiko-Vermerk im
+   > Verarbeitungsverzeichnis-Eintrag (D2 Punkt 3). Die
+   > UWG-Kanalregeln (Teil A) bleiben unberührt — der Entscheid
+   > betrifft NUR die Adressquelle, nicht die Kanalwahl.
 3. **Wortlaut des Einwilligungstextes** für Messe und Newsletter — er wird Kanon und danach byte-gleich verwendet.
+   > ⏳ **OFFEN (Stand 11.08.2026):** steht erst beim Bau der Messe-/
+   > Newsletter-Texte an; wird dem User dann als Entwurf vorgelegt.
 
 ---
 

@@ -3,8 +3,13 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`baaac82`** (Nachzug R7 + R7-Rückfluss,
-> 10.08.2026) nach
+> am 2026-08-09; Stand **`d2d6af7`** (Nachzug M1, 11.08.2026 — 20
+> Commits disponiert: Pull-Modell/Klartext-Chat, `/cost`-Abschaffung,
+> Handgriff-Migration, Datei-Ebenen-Scope, B1–B4-Wächter-Härtung,
+> Gmail-/Quellen-Baustein-Stände, 4 Zentrale-/R36-Kernregeln; dazu
+> Rückfluss von 6 nur in Kopien lebenden MKT-R7-Lehren in den Master
+> `d2d6af7` und Aktivierung `skill-bauweise`). Davor Stand `baaac82`
+> (Nachzug R7 + R7-Rückfluss, 10.08.2026) nach
 > Rückfluss-Nachzügen MKT R1–R6, heyPensio-R32/R33/R34/R35-Lehren und dem
 > Modellwahl-Richtungsentscheid (User, alle Abteilungen — ersetzt Regel 7
 > alt; 10.08.2026).
@@ -273,6 +278,24 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - Realitätstreue vor später: immer die vollständige, produktionsreife
   Variante als Standard; Vereinfachungen nur auf ausdrücklichen Wunsch.
   Erst Proof, dann Perfektion — aber der Proof muss echt sein.
+- **⭐ Ein Beleg trägt den Stand SEINES Datums, nicht den von heute.**
+  Wer aus einem Beleg vom 21.07. eine Aussage im Präsens baut („wir
+  beschaffen …"), behauptet einen Stand, den der Beleg nicht deckt —
+  dazwischen kann der Vorgang beendet, vertagt oder nie begonnen worden
+  sein. **Vor dem Ausarbeiten steht das Nachschlagen:** Bevor aus einer
+  Meldung ein neuer Punkt gebaut wird, wird die Prämisse im Bestand
+  geprüft; bei Unklarheit **eine Rückfrage statt eines ausgearbeiteten
+  Punktes**. (Herkunft: Zentrale 10.08.2026 — der F-15-Fall dieses
+  Projekts ist der Belegfall.)
+- **⭐ Frage an den HANDELNDEN adressieren.** Vor jeder Rückfrage an
+  Dritte klären, wer die fragliche Handlung überhaupt vornimmt — im
+  Belegfall ging eine Frage an den Kunden, obwohl das eigene Team der
+  Einreichende gewesen wäre. (Herkunft: Zentrale 10.08.2026.)
+- **⭐ Untracked heißt: kein Undo.** Eine Datei, die nicht unter
+  Versionskontrolle steht, wird vor dem Überschreiben VOLLSTÄNDIG
+  gelesen — es gibt keine Wiederherstellung und keinen Diff (Belegfall:
+  30 von 128 Zeilen gelesen, Rest überschrieben, seitdem nicht mehr
+  feststellbar). (Herkunft: Zentrale 10.08.2026.)
 - **Verifizieren statt glauben:** gegen echte Daten/Doku/Quelle prüfen,
   bevor eine Beobachtung als Regel behandelt wird. Widerlegt die Messung
   den im Auftrag vorgegebenen LÖSUNGSWEG, ist das ein Befund, kein
@@ -491,6 +514,24 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Selbsttest, der die zu prüfende ZUSAMMENSETZUNG selbst nachbaut, prüft
   sie nicht: Test und Produktivpfad müssen DIESELBE Funktion aufrufen.**
   (Herkunft: heyPensio R33.)
+- **⭐ Ein Drift-Check vergleicht ERZEUGTES gegen ERZEUGTES und ist gegen
+  ERZEUGUNGS-Fehler blind — jede Generator-Kette braucht zusätzlich eine
+  Prüfung des ERGEBNISSES.** Ein generiertes Artefakt war syntaktisch
+  unbrauchbar, während über hundert Selbsttests, zwei Dutzend
+  Rückbau-Gegenproben und ein Dutzend Wächter grün meldeten — kein
+  Prüfmittel las das fertige Artefakt. Pflichtform: eine Syntax-/
+  Ladeprüfung über jeden erzeugten Baustein des FERTIGEN Artefakts —
+  nicht über die Quelle, nicht über den Zwischenstand. **Wo ein Werkzeug
+  seinen eigenen Prüfgegenstand herstellt, ist die einzige unabhängige
+  Instanz das Ergebnis.** (Herkunft: heyPensio R36.)
+- **⭐ Ein Wächter wird über die GANZE Prüfmenge belegt, nicht an einem
+  Exemplar — und der ERFOLGSFALL gehört vor der Auslieferung einmal
+  durchgespielt.** Eine Positivkontrolle kann greifen und der Wächter
+  trotzdem blind sein (sie traf zufällig eines der wenigen intakten
+  Elemente); und ein Prüfwerkzeug, dessen Zielzustand nie erreichbar
+  ist, meldet ausgerechnet nach der von ihm selbst empfohlenen Maßnahme
+  falsch grün. **Ein Prüfwerkzeug, das den Erfolgsfall nicht kennt, ist
+  keins.** (Herkunft: heyPensio R36, zwei unabhängige Fälle.)
 - **Vor jedem Passwortwechsel/jeder Credential-Rotation prüfen, WER das
   Credential aktiv nutzt** — fremdgenutzte Zugangsdaten nie im Alleingang
   rotieren; Automations-Secrets von vornherein in EIGENE Postfächer/
@@ -508,6 +549,15 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   sofort fragen, welche NACHBAR-Prämisse es mitklärt** — dieselbe Probe, die
   „läuft Komponente X?" beantwortete, fand mit einem Aufruf eine komplette
   zweite, in keiner Bestandsliste geführte Komponente. (Herkunft: heyPensio R35.)
+  **⭐ UND DAS GEGENMITTEL IST SELBST OFT EINE LISTE — dort bricht die
+  Regel ein zweites Mal:** Dasselbe Papier schrieb korrekt „jede
+  Aufzählung ist eine Mindestliste" und stellte als Abhilfe einen
+  Namensfilter hin — die wichtigste Leck-Klasse war ein Parameter, keine
+  Route, für einen Namensfilter strukturell unauffindbar (gemessen: 20
+  von 24 Kanälen offen, bekannt waren 5). **Wer gegen „Liste statt
+  Zustand" baut, prüfe zuerst, ob sein Gegenmittel eine Liste ist** —
+  und messe die Sammel-Schnittstellen einzeln. (Herkunft: heyPensio R36,
+  zwei Sessions unabhängig.)
 - **⭐ Was nur als BILD vorliegt (Fotos, Vor-Ort-Eindruck, Screenshare),
   wandert nicht von selbst in Text — und was nicht im Text steht, kann
   erfunden werden und von KEINEM Prüfer widerlegt werden.** Ein Anleitungstext
@@ -737,6 +787,7 @@ hierher, nicht ins Repo.
 - `quellen-beschaffung` — Markt-, Rechts- und Wettbewerbsquellen sauber beschaffen.
 - `aussenkorrespondenz` — Anbieter-/Partner-/Behörden-Anfragen: Kanal-/Zeitpunkt-Prüfung, Entwurf-im-Repo-Workflow.
 - `freigabe-vorlagen` — Freigabedokumente für Laien-Entscheider (Gesellschafter, Kunden): Struktur, Kanon-Texte, AVV-Prüfpunkt.
+- `skill-bauweise` — Skills/Commands methodisch bauen (Reverse-Engineering-Reihenfolge, Simplicity-Doktrin); aktiviert im M1-Nachzug (User-Entscheid 11.08.2026).
 
 *(Bausteine sind optionale Regelmodule aus dem projektgerüst-Repo —
 `vorlage/bausteine/`. Nicht aktivierte Bausteine bei Bedarf per

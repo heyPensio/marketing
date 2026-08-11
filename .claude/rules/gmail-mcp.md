@@ -37,7 +37,11 @@ Herkunft: heyPensio, je mit realem Beinahe-Schaden belegt.)*
 - **Gmail-API-Zeitstempel sind UTC** — beim Übernehmen in lokale Zeit
   umrechnen und die Zone dazuschreiben. Bei Zeit-DIFFERENZEN beide
   Stempel in DERSELBEN Zone rechnen (einseitige Umrechnung erzeugt
-  plausible, falsche Differenzen).
+  plausible, falsche Differenzen). **Die Umrechnung nie als Festformel
+  führen** („MESZ = UTC + 2" wird zur Winterzeit still falsch): Zone
+  aktuell bestimmen (Sommer +2 / Winter +1, Wechsel Ende Okt./März)
+  und im Text nennen. (Herkunft: Architektur-Prüflauf 11.08.2026 —
+  die Festformel stand an drei Zentrale-Stellen.)
 - **Anhänge:** „gelesen" ist nicht „archiviert" — der Weg zur Datei ist
   der native Download-Button (zuerst versuchen) oder der User-Handoff;
   abgelesene Werte am Original gegenlesen. Beides im Dokument getrennt
@@ -45,3 +49,12 @@ Herkunft: heyPensio, je mit realem Beinahe-Schaden belegt.)*
 - Links mit Wirkung (Abmeldung, Bestätigung, Widerruf) NIE als
   One-Click-GET — Mail-Scanner rufen jeden Link ab. Immer Zwei-Schritt:
   GET zeigt Bestätigungsseite, erst der POST wirkt.
+- **Konto-Wechsel-Falle (belegt 10.08.2026, Zentrale):** Die
+  Konnektor-Anmeldung hängt am KONTO, der Verbindungs-Handle an der
+  laufenden SESSION. Nach einem Konto-Wechsel melden Tools „session
+  expired", während die Verbindungs-ANZEIGE „connected" zeigen kann —
+  die Anzeige ist kein Beleg, Beleg ist ein Test-Call je Konnektor.
+  Hilft der Reconnect nicht, braucht die laufende Session einen
+  NEUSTART (frisch gestartete Sessions verbinden sauber). Eine
+  Mail-Pflichtaufgabe ohne funktionierende Anbindung wird als LÜCKE
+  ausgewiesen (Rückfallregel), nie aus älterem Stand ergänzt.

@@ -73,7 +73,9 @@ Methodik-Blueprint-Repo `projektgerüst`
   (Herkunft: MKT-Gegentest 09.08.2026):** Welche BESTEHENDEN Vorlagen
   und Commands müssen das neue Ding KENNEN, damit es wirkt? (grep über
   `vorlage/` + `projekt-init.md` UND über die anderen Firmen-Repos —
-  heypensio, marketing, zentrale — nach den berührten Begriffen;
+  Suchraum per LISTING von `C:\Users\qwafa_2dwxzia\firma\` ermitteln,
+  nie als feste Repo-Aufzählung: die wird still falsch, sobald ein
+  Repo dazukommt (B2 11.08.2026) — nach den berührten Begriffen;
   abhängige Konzept-/Onboarding-/Schulungsdokumente leben auch
   außerhalb des Blueprints. Funde im eigenen Scope nachziehen, fremde
   als Posten an die zuständige Leitsession/den Postkorb.) Beleg-Fall: `/briefing` existierte samt

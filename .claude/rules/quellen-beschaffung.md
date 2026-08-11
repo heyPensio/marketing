@@ -18,6 +18,15 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   Seitenzahlen nur über pdf-parse (`total`) — ein Marker-Grep
   (`/Type/Page`) liefert auch bei korrekten Dateien falsche Werte.
   (Herkunft: MKT R3.)
+- **⚠️ KI-Format-Konvertierung (PDF→Markdown u. ä.) ist Lese-Hilfe,
+  keine byte-genaue Quelle** — das Modell „repariert" beim Konvertieren
+  unauffällig: belegt ist ein Platzhalter („Fehlen noch"), der als
+  ausformulierter Gliederungspunkt erfunden wurde. Für Arbeits-Kontext
+  gut; für Kanon-Texte, Belege und Knowledge-Bases nur mit
+  Satz-für-Satz-Quell-Abgleich (dieselbe Regel wie im
+  freigabe-vorlagen-Baustein: beim Abgleich gewinnt die QUELLE).
+  Grenzen zusätzlich: Scans, Tabellen, Aussagen in der Auszeichnung.
+  (Herkunft: Weiterbildung 10.08.2026, am Beispiel belegt.)
 - **Amtliche Statistik als XLSX/CSV ziehen, nicht als PDF** — die
   Roh-Tabellenblätter sind maschinenlesbar sauber; das
   Übersichts-/Inhaltsblatt der Datei beantwortet „Gibt es die
@@ -92,29 +101,26 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   Fundstellen. ⚠️ Der mechanische Abgleich prüft nur die
   Fundstellen-Achse: Alle inhaltlichen Zusatzbefunde kamen erst aus dem
   LESEN — Aussage und Fundstelle bleiben zwei Prüfungen.
+  (Herkunft: MKT R7.)
 - **⭐ Ein Muster über AUSZEICHNUNG ist eine Annahme über deren FORM —
-  und ein Prüfmuster, das nicht treffen kann, sieht im Log wie ein
+  und ein Prüfmuster, das nicht treffen KANN, sieht im Log wie ein
   sauberes Negativ aus** (Herkunft: MKT R7, drei unabhängige Belege):
   (1) **Attributreihenfolge:** Ein Anker-Muster erwartete
   `rel="canonical"` vor `href`; HTML schreibt keine Reihenfolge vor — 24
   von 65 Dateien trugen die umgekehrte, das Muster meldete 35 ankerlose
-  statt 11 und ließ zwei Domains ganz aus der Ergebnistabelle fallen.
+  statt 11 und ließ zwei Einträge ganz aus der Ergebnistabelle fallen.
   (2) **`\b` im JS-String ist ein Backspace-Zeichen, nicht die
   Wortgrenze** — der Selbsttest meldete „bestanden" für ein Muster, das
   nie treffen konnte. (3) **NBSP (U+00A0) in amtlichen Texten** lässt
-  Phrasensuchen ins Leere laufen („Art. 95", „1 000 Euro"). In allen drei
-  Fällen gilt: Ein Negativ, das nicht passen kann, ist zuerst ein
-  Werkzeugfehler — bei Auszeichnungs-Parsing ist „nicht gefunden" fast
-  immer das Muster.
+  Phrasensuchen ins Leere laufen („Art. 95", „1 000 Euro"). Bei
+  Auszeichnungs-Parsing ist „nicht gefunden" fast immer das Muster.
 - **Randnummern aus PDFs nie selbst auszählen** — in der Textextraktion
   steht die Randnummer HINTER ihrem Absatz; zwei Zählungen gingen
   nacheinander plausibel daneben. Belastbar ist erst ein EXTERNER Anker
   (die Zitierweise derselben Stelle in einem anderen Dokument).
-  (Herkunft: MKT R7.)
-- **„Letzter Header davor" taugt nicht zur Abschnitts-Zuordnung in
-  Normtexten** — Querverweise (`Artikel 22` innerhalb von Art. 13 DSGVO)
-  sehen aus wie Überschriften; belastbar ist der Kontrast der
-  Absatz-Einleitungen. (Herkunft: MKT R7.)
+  **Und „letzter Header davor" taugt nicht zur Abschnitts-Zuordnung in
+  Normtexten** — Querverweise sehen aus wie Überschriften; belastbar ist
+  der Kontrast der Absatz-Einleitungen. (Herkunft: MKT R7.)
 - **Für Kategorien-/Bestandsfragen zuerst die INSTITUTIONELLE Quelle
   suchen** (Landesagentur, Verband, Register), dann Anbieter — eine
   Landesagentur-B2B-Seite lieferte sieben Verbünde in einem Abruf,

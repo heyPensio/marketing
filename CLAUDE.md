@@ -3,7 +3,10 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`d2d6af7`** (Nachzug M1, 11.08.2026 — 20
+> am 2026-08-09; Stand **`08a12c5`** (Mini-Nachzug 11.08.2026
+> nachmittags: skill-bauweise Tranche 2 — Ansatz challengen,
+> HTML-Zwischenformat, Quernutzung/Assets; ein Delta, Wächter 0 DRIFT).
+> Davor Stand `d2d6af7` (Nachzug M1, 11.08.2026 — 20
 > Commits disponiert: Pull-Modell/Klartext-Chat, `/cost`-Abschaffung,
 > Handgriff-Migration, Datei-Ebenen-Scope, B1–B4-Wächter-Härtung,
 > Gmail-/Quellen-Baustein-Stände, 4 Zentrale-/R36-Kernregeln; dazu

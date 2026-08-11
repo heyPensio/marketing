@@ -36,6 +36,28 @@ Skill-Ebene.)*
   ein Skill überhaupt der richtige Träger (Alternativen: einmaliges
   Skript, n8n-Workflow, Command)? Ein Skill ohne benanntes
   Output-Format erbt zufällig fremde Format-Regeln.
+- **Den Prozess-Ansatz vom Modell CHALLENGEN lassen, nie starr
+  vorgeben** (Herkunft: Kurs-Tranche 2, 11.08.2026): Eine
+  grundsätzliche Input/Output/Prozess-Idee mitbringen, aber vor der
+  Umsetzung ein Brainstorming verlangen („Was ist die richtige
+  Herangehensweise?") — das Modell hat häufig den besseren
+  Prozessvorschlag. Starre Schritt-Ketten sind ein Muster aus der
+  Workflow-Welt (n8n), kein Skill-Muster.
+- **Design-Outputs über HTML als maschinenoptimiertes ZWISCHENFORMAT
+  bauen** (ebenda): Gestaltung zuerst in HTML (nahezu unbegrenzte
+  Design-Möglichkeiten, direkt iterierbar), erst am Ende in das
+  plattform-/menschenoptimierte Zielformat wandeln (PDF, PNG, Word) —
+  gilt für Karussells, Creatives, Präsentationen, Dokumente
+  gleichermaßen. Deckt sich mit dem PDF-Erzeugungsweg des
+  freigabe-vorlagen-Bausteins (MD→HTML→Chrome headless→PDF).
+- **Skills dürfen einander und geteilte Assets referenzieren**
+  (ebenda): Wiederkehrende Assets (Logos, Profilbilder, Stilvorlagen)
+  leben EINMAL in einem geteilten `references/assets`-Ort, nicht je
+  Skill kopiert; Spezial-Fähigkeiten (z. B. Bild-API-Prompting) leben
+  als eigener Skill, den andere Skills nutzen — Quernutzung statt
+  Duplikat. Und: Läuft ein Ansatz erkennbar in die falsche Richtung,
+  früh ABBRECHEN statt das Ergebnis abzuwarten (Kontext-/
+  Token-Hygiene); die Korrektur danach präzise adressieren.
 - **Simplicity-Doktrin:** Ein guter Skill-Bestand ist nicht möglichst
   groß, sondern möglichst klein — Ziel ist, mit der Zeit WENIGER
   Skills zu brauchen (komprimieren, bündeln), nicht mehr. Kein

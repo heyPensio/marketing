@@ -119,10 +119,51 @@ Leitsession den Übergabe-Block unten.
   Block 1.
 - **User-Zuruf:** außerhalb nichts Neues (AskUserQuestion 11.08.).
 
-## Übergabe-Block (vor Blockwechsel füllen)
+## Übergabe-Block (gefüllt ~10:30 — Block 1 schneller fertig als geplant)
 
-*(leer — wird vor dem Neustart der Leitsession gefüllt: Session-Stand,
-offene Handgriffe, Block-Programm, Debrief-Kandidaten)*
+**Session-Stand Block 1 (Shanks, ABGESCHLOSSEN):**
+- ✅ **M1-Nachzug komplett:** Blueprint-Rückfluss `d2d6af7` (6 nur in
+  Kopien lebende MKT-R7-Lehren in den Master; dort gepusht) · 9 Kopien
+  gezogen · CLAUDE.md: 5 neue Kernregeln + Stempel **`d2d6af7`** im
+  selben Commit · `skill-bauweise` AKTIVIERT (User-Entscheid) ·
+  **Fertig-Beleg: Wächter „SYNCHRON: 12 Kopien", 0 DRIFT** (Lauf nach
+  dem Ziehen UND vor dem Commit) · Platzhalter-grep 0 Treffer mit
+  Positivkontrolle · Marketing-Commit **`2e1b8e7`**, gepusht.
+  Delta war 20 Commits (18 gemessen 09:40 + `1da14f9`
+  Umzugs-Prüfklasse 09:43 + eigener Rückfluss), alle disponiert.
+- ✅ **Härtung (lokal, unversioniert):** `Bash(git push *)` aus
+  `settings.local.json` entfernt · `.codex\hooks.json` auf die
+  versionierte Hook-Kopie umgezeigt (`firma\`-Pfad, zentrale-Muster),
+  redundante `.codex\hooks\`-Eigenkopie nach Diff-Sichtung entfernt.
+  ⚠️ Wirksamkeits-Test des Codex-Hooks NICHT messbar (Z3-Sandbox-
+  Befund) — Wiedervorlage-Trigger wie zentrale-STATUS.
+- ✅ **Z4-Beleg** erbracht (s. „Zustand bei Tagesbeginn").
+- ✅ **F-15 eingearbeitet:** WTSH-Entwurf GEGENSTANDSLOS-Kasten
+  (`handel/entwurf-anfrage-wtsh.md`), F-15-Vermerk im Trägerdokument.
+- ✅ **D3.1/D3.2 nachgetragen** (`handel/kanal-rechtsmatrix.md` D3,
+  Nachtrags-Kästen mit Quelle+Datum+Form; D3.3 offen markiert).
+- **Klassifikator-Befund (L-05, 2× reproduziert):** `git push` und
+  `node selbstcheck` im PowerShell-Kanal blockiert, im Bash-Kanal
+  durchgelaufen — Kanal-Bindung erneut bestätigt.
+
+**Offene Handgriffe:** unverändert die Liste oben (H-1 bis 16.08. ist
+der terminkritischste) — **plus JETZT: Leitsession neu starten** (neues
+Fenster, `claude --resume`; der Regel-Snapshot dieser Session ist durch
+den Nachzug veraltet — CLAUDE.md, tagesstart, runde, debrief auf Platte
+sind neuer als der Session-Start).
+
+**Block-2-Programm (nach Neustart, via `/runde`):** R8 schneiden —
+MKT-AKQ erster Strang (D3-Entscheide liegen vor; Kanalmix D1:
+Brief/Vorkontakt/fremde Verteiler; Bau-Pflichten aus D3.2-Weg-b
+beachten) · vier B9.4-Korrekturen (F-6) · P21/P22 + R07-E-Rest nach
+Kapazität. Prompts nach NEUEM tagesstart-Stand: Volltexte in den
+Tagesplan (Abschnitt „Session-Prompts"), Chat nur Klartext + Startzeile.
+
+**Debrief-Kandidaten aus Block 1:** unvollständiger R7-Rückfluss als
+Fehlerklasse (Kopie-Edit ohne Master-Edit — Wächter fing es eine Runde
+später; Lehre: Rückfluss-Vollständigkeit gegen die DRIFT-Liste prüfen,
+nicht gegen die Erinnerung) · L-05-Doppelbeleg · Heredoc-Backslash-
+Falle (Bash-Heredoc nach JSON verschluckt `\\` → Write-Tool nutzen).
 
 ## Rundenvermerk R8
 

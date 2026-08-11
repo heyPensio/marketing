@@ -1320,6 +1320,7 @@ Misstrauen gegen die Quelle.
 | 09.08.2026 | R05-A | **Nach unabhängigem Prüferlauf überarbeitet** (`protokolle/R05-A-pruefer.md`). Korrigiert: Apaleo-Store-Kategorien **7 → 9** samt gestrichener Fehl-Entwarnung „bestätigt die MKT-R3-Messung" und ersetzter Positivkontrolle (B8.4) · BAFA-Zitat um seine **Ausnahmeklausel** ergänzt, „BAFA-untauglich" zurückgenommen (B9.4, P14) · **W1-Inflation in B5 behoben**: neue Vergabelinie **L-B7** (E13b-Pauschalzuschnitt als benannter Anker), zwei Einstufungen auf „—" korrigiert, drei mit Teilleistungs-Vermerk · maxonline W2 → **W1** (Verstoß gegen die eigene Linie L-B1) · DEHOGA-BW-Eigenanteile mit Scope „**je Beratungstag**" (Doppelmaßstab zu B6.1 beseitigt) · Brandnamic-Kanal-Einstufung um **Hotelkooperationen** erweitert · zwei verschwiegene Lücken in B1 nachgetragen (Steuer-/BWL-Beratung, Hotelkooperationen) → neue Punkte **P18/P19**, dazu **P20** (flüchtige Belegbasis) · „Browser nicht benötigt" als Fehl-Entwarnung zurückgenommen · § 5.5-Verweis präzisiert (das Technik-Negativ bleibt schwach) · **P9 als erledigt markiert** (47 IHA-Partner erhoben). |
 | 10.08.2026 | R06-A | **P15 und P19 aufgelöst — zwei neue Abschnitte in Teil B.** Neu: **B10** (Brandnamic-Partnerkreis an den Primärquellen: Redirect-Gegenprobe je Domain, Partnerkreis nachgezählt **78 Einträge / 76 Domains** statt „~70", zwei Treffer + zwei Namensfallen, Einstufungen, Preisanker iiQ-Check inkl. Zählweg-Warnung zur Tarif-Extraktion, Firmierungs-Widerspruch bei flexipass) · **B11** (Hotelkooperationen: IHA-Definition wörtlich, vier Länder-Zugänge, Strukturbefund „**in drei von vier Fällen mit belegter Trägerschaft** führt eine Agentur/Beratung den Verbund", Goslar-Cluster AKZENT/ConsultiiQ/TMA, AKZENT-Beitragstabelle mit Summenprobe, Einstufungen, Negative). Geändert im Bestand: neue Vergabelinie **L-B8 (Geografie)** in B2 inkl. rückwirkender Bestandsprüfung · Erhebungstabelle und Punkt 1b in **B1** nachgezogen · Vorwärtsverweise in **B4.3** und **§ 5.4** (Säule 4: dritte Seite) · Nachtrags-Kasten im Teil-B-Kopf · Nachtrag in der Geltungsgrenze **§ 0.0** · § 7: P15/P19 auf erledigt, **P21/P22** neu, P17 verschärft. Belegbasis: `sensibel\rohbelege-R06-A\`. |
 | 10.08.2026 | R06-A | **Nach unabhängigem Prüferlauf überarbeitet** (`protokolle/R06-A-pruefer.md`, 2 Kritisch + 8 Wichtig, alle nachgeprüft und repariert). Korrigiert: **Brandnamic-Partnerkreis hat SIEBEN Kategorien, nicht sechs** — „Institutionelle Partner" (2) war still zu „Branchenpartner" addiert worden; Ursache war eine hartcodierte Sechser-Namensliste im Zähllauf (**zweite Reproduktion der Fehlerklasse aus B8.4**) · **„alle zzgl. MwSt." bei den iiQ-Check-Tarifen gestrichen** — die Quelle macht keine Angabe zur Steuerbasis (0 Treffer bei Positivkontrolle) · flexipass-Zitat auf den Originalsatz zurückgeführt (die Erstfassung hatte zwei Sätze verschmolzen) · **L-B8 rückwirkend gegen den Bestand geprüft** (ein Kandidat: Roommatik/ES — Einstufung bleibt, mit Begründung) · Vorwärtsverweis in **§ 5.4** ergänzt (flexipass ist die dritte Seite gegen Säule 4) · **Nenner „drei von vier" ausgeschrieben** und der Strukturbefund in § 7 und im Änderungsprotokoll entschärft · falsches Negativ zu Mitgliederzahlen repariert (**PrivateCityHotels: „42 Hotels in 18 Städten"** — beim Entmarkupen verlorengegangen) · Strafinger-Zitat auf seinen belegten Geltungsbereich (Health Spa) begrenzt · AKZENT-Partnerkacheln „genau drei" → **vier Kacheln, drei extern**. Dazu elf Präzisierungen: „~70" auch in der B4.3-**Einstufungstabelle** nachgezogen · TMA-Zählweg genannt und Registerart nicht mehr ergänzt · Redirect-Gegenprobe auf ihre Belegstufe (Antwortkörper, nicht Statuszeile) zurückgeführt · Certified-Partners-Satz drei statt zwei Knoten, Trenner ist ein Link auf `/marketplace` · hoteldoor „69" → 68 Portale + 1 Netzwerk-Eintrag, Deutung als solche markiert · AKZENT-Mystery-Check-Zitat um seinen Scope-Nachsatz vervollständigt · Personenidentität Mario Peschke ausgeschrieben · flexipass „100+" gegen die 28 veröffentlichten PMS gestellt · „74 Partner" → „74 Einträge" · **Querbefund an B4.5**: PrivateCityHotels. belegt Häuser in Berlin/Hamburg/Köln und stützt damit die Sample-Schwäche aus B1 Punkt 2. |
+| 11.08.2026 | R8 (Leitsession) | **Vier R07-D-Befunde in B9.4 eingearbeitet (F-6)** — sie kamen in R7 als Zuruf in die laufende R07-A-Session und wurden dort nicht mehr verarbeitet: (1) „niedrigste Hürde" (Hamburg) qualifiziert — Selbsterklärung `WDIG029F0126 LCD` trägt vier [§]-Verpflichtungen nach § 264 StGB inkl. 3-Referenzprojekte-Pflicht · (2) SH-DKU-Größenschwelle ergänzt (nur *kleine* Unternehmen, wirkt auf die Portfolio-These) · (3) SH-DKU-**Werbe-Ausschluss** als ⭐⭐-Block ergänzt (Ziffer 5.2.1 + Positiv-/Negativliste; die Abgrenzungsfrage schlägt die Antragsberechtigungs-Frage) · (4) Quellenkonflikt-Kasten: Zuschreibung korrigiert (Altstand steckt im Seitentext, nicht im Richtlinien-Link; Fehlwirkung umgedreht: „fälschlich für BERECHTIGT"), Alt-Wortlaut sichtbar. Dazu R07-D-Befunde 5–7: Freie-Berufe-Kontrast bei Klärpunkt 1 · 404-Fehlerseiten-Warnung (`hh-programme.html`/`hh-bcw.html`) im R8-Korrektur-Kasten · F-13-Vorwärtsverweis in `fund/positionierungspapier.md` Säule 5. Quellen: `handel/foerderarchitektur-beraterrolle.md` §§ 2.1/3.3/4.2/4.3, `protokolle/R07-D-abschluss.md` Block 3. |
 | 10.08.2026 | R07-A | **Nacharbeit der in R5 liegengebliebenen Prüferbefunde — jede Reparatur am Rohbeleg gemessen** (`protokolle/R05-A-pruefer.md`, Träger `protokolle/R06-nacharbeit-R05A-befunde.md` TEIL 2). Bilanz mit Nenner: **24 von 26** handlungspflichtigen Posten repariert, 0 bewusst offen, 2 mit benanntem Träger (W-17-Rest, V-1-Rest). **Zitatkritisch:** Dittlmann-Pseudo-Zitat in zwei Zitate mit je eigener Fundstelle zerlegt (der Spleiß überbrückte 11.600 Zeichen und 35 Blockelemente, mit Wortlautwechsel an der Nahtstelle) · 42-GmbH-Partnerzitat bis zum Satzende geführt (die Erstfassung hatte zusätzlich einen Punkt gesetzt, den die Quelle nicht hat) · Bräu-Zitat mit Anker je Teil, Teil 2 stammt aus einem beim Aufruf geschlossenen, seitenweiten Overlay · DEHOGA-BW-Bundesweit-Zitat um die Hessen-/Saarland-Klausel ergänzt. **Nenner/Zählweg:** „15 von 16" mit Kanal-Vorbehalt · „drei Größenschwellen" → zwei Schwellen + ein Preisboden · „in aller Regel straiv" → **5 von 17**, „De-facto-Standard" gestrichen · DEHOGA-HH-Staffel vollständig (zehn Stufen) · Designkontor-Zählweg (161 Datenzeilen) · Mews-Länderzuordnung aufgelöst (Impressen, nicht die Mews-Seite) samt Versalien-Falle im Zählweg. **Einstufung/Kanal:** „Die Hotelberater" als **vorläufig** markiert · **TC Hotel Marketing „—" → W1 (Teilleistung)** mit neu ausformulierter Vergabelinie **L-B1b** und rückwirkender Bestandsprüfung · MEET THE EXPERTS auf **W1 + K** (Trägersatz Arbeitskreis ITK / IHK zu Lübeck) · „Vollsuchraum" auf die deutsche Fassung eingegrenzt · Nachtragsliste in **B1 Punkt 8** (ADDITIVE). **Preis-Scope:** Scope-Zusätze bei HotelPartner/RevenueRise zurückgeholt, „mehr als das Doppelte" gestrichen, RevenueRise-Selbstwiderspruch vermerkt · Setup-Gebühr und Mindestlaufzeit ergänzt, „Einstiegskorridor" gestrichen · 250 € der Architekten-Beratung zugeordnet · Preisuntergrenze aus dem **Nettotagessatz 985 €** statt aus dem Eigenanteil. **Neu:** Beleg-Anhang **B12** (Fundstellen-Anker je Strang) · Vorwärtsverweise in **§ 5.1/§ 5.2** · P8 zurückgeschnitten · **P23/P24/P25** neu. **Acht Befunde fand diese Runde selbst** (in keinem R05-A-Befund), darunter zwei harte Zitatabweichungen in § 5.2 in tragender Beweisführung: fehlendes „wir" (Bedeutungsumkehr) und „Hotels aller Größen" in Zitatform, obwohl die Formulierung im ganzen Archiv nicht vorkommt. **Zwei R05-A-Befunde trugen selbst nicht** (W-3/Plaschke, H-9/Mews) — dokumentiert im Träger T2.4. Nach eigenem Prüferlauf (`protokolle/R07-A-pruefer.md`) zusätzlich korrigiert: doppelt vergebene Kurz-ID P22 → **P24** · P23/P25 ins § 7-Register nachgetragen · **B12-Ankerzahlen** (zu enges Regex-Muster: 35 statt 11 ankerlose Dateien in a4, zwei fehlende Domains inkl. `smart-host.com`) · vier Positivkontrollen tragen jetzt ihren **Zählweg** (`grep -c` zählt Zeilen, nicht Treffer), eine delegierte Agentenzahl („65") war nicht reproduzierbar und wurde durch eigene Messung ersetzt. |
 
 ---
@@ -3162,15 +3163,49 @@ desselben Verbands.
 
 ### B9.4 ⭐ Geförderte Beratung — eindeutig Kanal, aber mit einer Eintrittshürde, die unsere Angebotsarchitektur mitbestimmt
 
+> **📌 R8-Korrektur-Kasten (Leitsession, 11.08.2026 — Einarbeitung der
+> vier R07-D-Befunde, Quelle `handel/foerderarchitektur-beraterrolle.md`
+> §§ 2.1/3.3/4.2/4.3 + `protokolle/R07-D-abschluss.md` Block 3):**
+> (1) Die Zelle „niedrigste Hürde aller geprüften Programme" (Hamburg)
+> fiel — das Selbsterklärungs-Formular trägt vier [§]-Verpflichtungen
+> nach § 264 StGB, darunter drei Referenzprojekte. (2) Die SH-DKU-Zeile
+> trug keine Größenschwelle — ergänzt (nur *kleine* Unternehmen).
+> (3) Der SH-DKU-**Werbe-Ausschluss** fehlte im ganzen Abschnitt — als
+> eigener Block ergänzt. (4) Der Kasten „Quellenkonflikt" machte die
+> richtige Warnung am falschen Beleg fest — Zuschreibung korrigiert,
+> Fehlwirkungs-Richtung umgedreht (Alt-Wortlaut im Kasten sichtbar).
+> Dazu aus demselben R07-D-Lauf: (5) Freie-Berufe-Kontrast bei den
+> Klärpunkten ergänzt und (6) ⚠️ **Beleg-Warnung:** Die R05-A-Rohbelege
+> `hh-programme.html` und `hh-bcw.html` (`sensibel\rohbelege-R05-A\a5\
+> foerder\`) sind byte-identisch die **404-Fehlerseite** von `ifbhh.de`
+> (SHA-256 `c558af99…`, P07D-13) — auf diese beiden Dateien darf sich
+> keine Aussage stützen; die Hamburg-Zahlen dieses Abschnitts ruhen auf
+> der Richtlinie/dem Formular selbst, nicht auf diesen Abzügen.
+
 **Fördergeber konkurrieren nicht — sie senken den Preis unseres Angebots
 und liefern den Anlass fürs Erstgespräch.** Drei Wege sind für SH/HH
 belegt, und sie unterscheiden sich in der Zugangshürde diametral:
 
 | Programm | Zuschuss | Wer darf beraten | Frist |
 |---|---|---|---|
-| **Hamburg Digital Check** (IFB) | **50 %, max. 7.500 €**; Beratertagessatz max. **1.100 € netto** anerkennungsfähig | **Selbsterklärung „Digitalisierungsberatung"** — keine Akkreditierung, niedrigste Hürde aller geprüften Programme | ⚠️ **Anträge vollständig bis 16.11.2026**; Richtlinie befristet bis 31.12.2026; **Kumulierungsverbot** mit anderen Zuschüssen; nur nicht begonnene Vorhaben |
-| **SH-DKU Modul Beratung** (Amtsblatt SH 2026/190 vom 05.06.2026) | **max. 40 %** auf max. **20.000 €** zuwendungsfähige Ausgaben → **bis 8.000 €** *(gerechnet, steht so nicht in der Richtlinie)*; Beraterkosten mind. 2.500 € netto | ⭐ **Keine Akkreditierung mehr** — die frühere go-digital-Lizenzpflicht ist in der geltenden Fassung **entfallen** | bis **30.06.2027** (verlängerbar) |
+| **Hamburg Digital Check** (IFB) | **50 %, max. 7.500 €**; Beratertagessatz max. **1.100 € netto** anerkennungsfähig | **Selbsterklärung „Digitalisierungsberatung"** (Formular `WDIG029F0126 LCD`) — keine Akkreditierung, **aber keine niedrige Hürde**: vier [§]-Verpflichtungen als subventionserhebliche Tatsachen (**§ 264 StGB**), darunter „im den letzten drei Jahren mindesten drei Referenzprojekte mit direktem Bezug" *(Tippfehler im Original; korrigiert R8 — Vorfassung: „niedrigste Hürde aller geprüften Programme"; Beleg: Formular selbst gelesen, R07-D § 3.3)* | ⚠️ **Anträge vollständig bis 16.11.2026**; Richtlinie befristet bis 31.12.2026; **Kumulierungsverbot** mit anderen Zuschüssen; nur nicht begonnene Vorhaben |
+| **SH-DKU Modul Beratung** (Amtsblatt SH 2026/190 vom 05.06.2026) — ⚠️ antragsberechtigt sind nur **kleine** Unternehmen: < 50 Beschäftigte, ≤ 10 Mio. € Jahresumsatz/-bilanz (Ziffer 3.1.1 + Fn. 1; *ergänzt R8, R07-D § 4.2 — wirkt auf die MKT-FUND-These „Erweiterung auf größere Häuser"*) | **max. 40 %** auf max. **20.000 €** zuwendungsfähige Ausgaben → **bis 8.000 €** *(gerechnet, steht so nicht in der Richtlinie)*; Beraterkosten mind. 2.500 € netto | ⭐ **Keine Akkreditierung mehr** — die frühere go-digital-Lizenzpflicht ist in der geltenden Fassung **entfallen** | bis **30.06.2027** (verlängerbar) |
 | **BAFA-Unternehmensberatung** (Bund) | **50 %, max. 1.750 €** für SH/HH (neue Länder 80 %/2.800 €), förderfähige Kosten max. 3.500 € | ⚠️ **Registrierung beim BAFA** *und*: „deren überwiegender Geschäftszweck auf die entgeltliche Unternehmensberatung (**mehr als 50 % des Gesamtumsatzes**) gerichtet ist" | Anträge bis **31.12.2026**; max. 5 Beratungen, höchstens 2/Jahr |
+
+**⭐⭐ SH-DKU schließt Werbung als Beratungsgegenstand ausdrücklich aus
+(ergänzt R8 — der Ausschluss fehlte hier; R07-D § 4.3):** Ziffer 5.2.1
+wörtlich (`BYTE`/`AMTL`, Abschnitt zum Modul Beratung): Dienstleistungen
+dürfen nicht „zu den gewöhnlichen Betriebskosten des Unternehmens
+gehören wie laufende Steuerberatung, regelmäßige Rechtsberatung oder
+**Werbung**" (Umsetzung von Art. 18 Abs. 2 AGVO). Die
+WTSH-Positiv-/Negativliste (Stand 05.06.2026) schließt zusätzlich
+„gängige Online-Marketing-Maßnahmen" und Websites zur reinen
+Unternehmens-/Produktdarstellung aus, führt aber digitale
+Vertriebskanäle, CRM und CMS als förderfähig. **Für unser Angebot heißt
+das: Die Abgrenzung Digitalisierungs- vs. Werbeberatung entscheidet
+über die Förderfähigkeit — sie ist die wichtigere Frage als die
+Antragsberechtigung.** Details und beide Seiten der Linie wörtlich:
+`handel/foerderarchitektur-beraterrolle.md` § 4.3.
 
 **⭐ Der geschäftskritische Satz steht in der BAFA-Richtlinie — mit
 seiner Ausnahmeklausel, die mitzitiert werden MUSS:** Ein Anbieter, der
@@ -3212,24 +3247,46 @@ aus einer Liste gewählt.
   bezahlt einen **Forschungspartner**, keine Unternehmensberatung; SGH und
   die OeHT-Tochter Tourism Investment Services sind **selbst Berater**.
 
-⚠️ **Quellenkonflikt, der uns fast zum Falschschluss geführt hätte:** Die
-WTSH-Programmseite verlinkt als „Richtlinie" weiterhin die **veraltete
-Fassung vom 20.04.2023** — mit der noch geltenden go-digital-Lizenzpflicht.
-**Wer nur diesem Link folgt, hält sich fälschlich für ausgeschlossen.**
-Der Beleg für den Wegfall ist doppelt geführt: in der Neufassung
-`go-digital` 0 · `lizenziert` 0, **Gegenprobe an der Altfassung im selben
-Lauf: 2 bzw. 1** ✔.
+⚠️ **Quellenkonflikt — Zuschreibung in R8 korrigiert (R07-D § 2.1,
+Prüferfund P07D-21):** Die Warnung dieser Stelle ist berechtigt, ihr
+Beleg war falsch. **Vorfassung (fiel):** „Die WTSH-Programmseite
+verlinkt als ‚Richtlinie' weiterhin die veraltete Fassung vom
+20.04.2023 … Wer nur diesem Link folgt, hält sich fälschlich für
+ausgeschlossen." **Gemessen 10.08.2026:** Die Download-Box der
+Programmseite liefert die **konsolidierte Fassung i. d. F. vom
+14.02.2024** — am Link ist die Warnung nicht belegt. **Der Altstand
+steckt stattdessen im SEITENTEXT:** Die Programmseite führt die
+Ausschlussliste der Altfassung (nur Fischerei/Aquakultur/
+Landwirtschaft) und unterschlägt die zusätzlichen Ausschlüsse der
+geltenden Ziffer 3.1.1 (freie Berufe nach § 18 EStG; „Krankenhäuser,
+Kliniken, Medizinische Versorgungszentren, Sanatorien **oder ähnliche
+Einrichtungen**" — ausgerechnet der Posten, der unsere
+Beherbergungs-Frage trägt). **Die Fehlwirkung dreht sich damit um:
+Wer sich auf die Programmseite verlässt, hält einen Betrieb fälschlich
+für BERECHTIGT, nicht für ausgeschlossen.** Geltungsgrenze: gemessen
+ist nur die Programmseite (10.08.2026) — dass keine andere WTSH-/
+Landesseite die Altfassung verlinkt, ist damit nicht belegt. Der Beleg
+für den Wegfall der go-digital-Lizenzpflicht bleibt unberührt: in der
+Neufassung `go-digital` 0 · `lizenziert` 0, **Gegenprobe an der
+Altfassung im selben Lauf: 2 bzw. 1** ✔.
 
 **Zwei Punkte, die vor jeder Kundenzusage zu klären sind (nicht von uns
 entscheidbar):**
 1. **Ist ein Beherbergungsbetrieb unter SH-DKU Ziffer 3.1.1
    antragsberechtigt?** Beherbergung fehlt auf der Ausschlussliste — der
    Umkehrschluss ist eine **Lesart, keine Aussage der Richtlinie**.
-   Fallbezogen bei der WTSH bestätigen lassen.
+   Fallbezogen bei der WTSH bestätigen lassen. *(Ergänzt R8, R07-D
+   Befund 5: Bei Mischbetrieben zusätzlich beachten — **freie Berufe
+   nach § 18 EStG sind in Hamburg antragsberechtigt, in SH ausdrücklich
+   nicht**.)*
 2. **Fällt Marketing-/Sichtbarkeitsberatung unter „Digitaler Wandel" des
    Hamburg Digital Check?** In der Richtlinie `Marketing` 0 · `Website` 0
    (Positivkontrolle `Tagess` 1 · `7.500` 2 ✔) — **weder benannt noch
    ausgeschlossen**. Wegen des Antragsschlusses 16.11.2026 zeitkritisch.
+   *(Geltungsgrenze in R8 nachgeschärft: Der Satz „weder benannt noch
+   ausgeschlossen" gilt NUR für den Hamburg Digital Check — für SH-DKU
+   ist die Frage entschieden: Werbung ist ausgeschlossen, s. den
+   ⭐⭐-Block oben.)*
 
 ---
 

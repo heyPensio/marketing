@@ -223,7 +223,11 @@ Kartensystem-Investition), Förder-Begleitung (WTSH)."
    Extraktion A/A9). **⚠️ Zwei Geltungs-Vorbehalte:** (a) Das
    dokumentierte Förder-Detailwissen ist SH-spezifisch (DKU-Richtlinie;
    „bei Kunden außerhalb SH je Land neu zu erheben", Quelle Extraktion
-   B/F7.4). (b) Formulierungs-Grenze für alle künftigen Texte:
+   B/F7.4). *(Vorwärtsverweis R8/F-13: Für **Hamburg** ist diese
+   Erhebung inzwischen geliefert — `handel/foerderarchitektur-
+   beraterrolle.md`, Stand 10.08.2026, inkl. Hamburg Digital Check und
+   BAFA; der Vorbehalt gilt fort für alle übrigen Länder.)*
+   (b) Formulierungs-Grenze für alle künftigen Texte:
    heyPensio erscheint in keinem Förderantrag, Verflechtungen werden
    offengelegt (WTSH-Leitplanke, § 264 StGB; Quelle Extraktion A/B6,
    B/F3.3); ein „Förderantrags-Service" als Angebot ist GEPARKT

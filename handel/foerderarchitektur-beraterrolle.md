@@ -807,7 +807,7 @@ Kundengespräch mit Förderbezug gilt:
 | **F-3** | Nach StB-Rückmeldung zu Frage 11 über eine BAFA-Anfrage entscheiden | Zentrale → MKT-HANDEL | BAFA-Antragsfrist 31.12.2026 |
 | **F-4** | „Antrag vor Auftrag" als festen Baustein in Angebot/Auftragsbestätigung verankern | MKT-HANDEL | vor erstem Angebot mit Förderbezug |
 | **F-5** | Haltung zu Wettbewerbsneutralität/Provisionsoffenlegung bei Beratung + eigener Umsetzung ausformulieren | MKT-HANDEL + Zentrale | vor erster Selbsterklärung |
-| **F-6** | B9.4-Korrekturen einarbeiten (2.1 Link-Warnung · 4.3 Werbe-Ausschluss · 3.3 Selbsterklärung · 4.2 „kleine" Unternehmen) | R07-A / Leitsession | R7-Review |
+| **F-6** | ~~B9.4-Korrekturen einarbeiten (2.1 Link-Warnung · 4.3 Werbe-Ausschluss · 3.3 Selbsterklärung · 4.2 „kleine" Unternehmen)~~ ✅ **ERLEDIGT 11.08.2026 (R8, Leitsession):** alle vier in `fund/wettbewerbsbild.md` B9.4 eingearbeitet, dazu Befunde 5–7 (freie Berufe · 404-Beleg-Warnung · F-13); Änderungsprotokoll-Eintrag dort | ~~R07-A / Leitsession~~ | ~~R7-Review~~ R8 |
 | **F-7** | ⚠️ **Firmierung für den Versand.** Die GbR ist in Gründung, die Gewerbeanmeldung steht (~14.08.2026 laut `zentrale\STATUS.md`), der Rebrand-Name ist nicht entschieden. Beide Entwürfe tragen deshalb Platzhalter | User / Zentrale | **vor dem Versand** |
 | **F-8** | Rückläufe beider Anfragen einarbeiten — Zielort: dieses Dokument (Abschnitte 3 und 4) plus Vermerk in `fund/wettbewerbsbild.md` B9.4 | MKT-HANDEL | nach Antwort |
 | **F-9** | Geeignetes Qualitätssicherungsinstrument benennen (BAFA Ziffer 4.2.1), falls die BAFA-Route weiterverfolgt wird; zugleich klären, dass wir das Programm nicht selbst als Antragsteller nutzen | MKT-HANDEL + Zentrale | vor BAFA-Registrierung |

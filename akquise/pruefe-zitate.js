@@ -85,6 +85,13 @@ const EIGEN = [
   // gerade NICHT im Pool stehen - das ist der Beleg, dass sie falsch waren.
   ['langsame, aber loyale Entscheider', 'zitierte Fehlerfassung im Reparaturvermerk (Z-2)'],
   ['unser Angebot passt perfekt', 'zitierte Fehlerfassung im Reparaturvermerk (Z-5)'],
+  ['mit § 6 dieses Dokuments erfüllt', 'zitierte Fehlerfassung im Reparaturvermerk (Befund P-01)'],
+  ['übrige neun Kreise, zusammen 291', 'zitierte Fehlerfassung im Reparaturvermerk (Befund P-10)'],
+  ['Baustart spätestens Mo 17.08.', 'zitierte Fehlerfassung im Reparaturvermerk (Befund P-12)'],
+  ['nicht nur die byte-getreue Übernahme der D3-/D2-Blöcke, sondern jedes Zitat', 'zitierte Fehlerfassung im Reparaturvermerk (Befund P-02)'],
+  // Eigenzitate: das Dokument zitiert sich selbst bzw. eine eigene Setzung.
+  ['bei Widerspruch gewinnt die Rechtsmatrix', 'Selbstzitat der eigenen Kollisionsregel'],
+  ['entschieden unzulässig', 'eigene Formulierung einer Falschlesart, die R-A1.3 gerade ausschliesst'],
 ];
 const eigenSet = new Set(EIGEN.map(([s]) => norm(s)));
 
@@ -111,6 +118,10 @@ const MUSS = [
   ['Regionalstatistik 4.4', 'Summe beider Kreiszeilen ÷ Landeszeile'],
   ['R00 KPI (e)', 'Qualifizierte Erstgespräche mit Entscheidern pro Woche'],
   ['Positionierungspapier 3.3', 'Entscheidungsstruktur, nicht die Betten-Zahl'],
+  ['Projektquelle 7 Punkt 0a', 'GbR in Gründung, Rebrand-Name offen'],
+  ['STATUS.md', 'Offenlegung ist ab jetzt'],
+  ['baseline-messplan 5', 'Rückwärtsrechnung vom Livegang'],
+  ['CLAUDE.md', 'Internorga Hamburg (März)'],
 ];
 // --- Gegenrichtung: darf NICHT treffen (sonst ist der Vergleich blind) -------
 const TREFFEN_NICHT = [
@@ -130,6 +141,62 @@ if (fehlend.length) {
   console.log('\n--- NICHT im Pool gefunden (einzeln zu bewerten) ---');
   for (const f of fehlend) console.log('[' + f.datei + '] ' + f.zitat);
 }
+
+// --- BLOCKZITATE ---------------------------------------------------------
+// Die wichtigsten Uebernahmen (D3-Kaesten, D2-Pflichtenliste) stehen als
+// >-Blockzitate OHNE Anfuehrungszeichen und werden von zitate() daher NICHT
+// erfasst. Ohne diesen Abschnitt gaebe das Skript Entwarnung ueber Text, den
+// es nie mit dem Zieldokument verglichen hat (Befund P-02 des Pruefers).
+// Geprueft wird: Text ZWISCHEN zwei Markern im ZIELDOKUMENT, normalisiert,
+// muss als zusammenhaengender String im Quellenpool vorkommen.
+const BLOECKE = [
+  ['D3-Kasten 1 (24 Monate)', 'akquise/listenbau-regelwerk.md',
+    'ENTSCHIEDEN (Nachtrag 11.08.2026): 24 Monate', 'Bestell-/Vertragsformular (A5).'],
+  ['D3-Kasten 2 (Weg b)', 'akquise/listenbau-regelwerk.md',
+    'ENTSCHIEDEN (Nachtrag 11.08.2026): Weg (b)', 'nicht die Kanalwahl.'],
+  ['D2-Pflichtenliste 1-6', 'akquise/listenbau-regelwerk.md',
+    '1. Datenschutzinformation für Geschäftskontakte', 'ob deren Nutzungsbedingungen Werbung erlauben.'],
+];
+function blockAusZiel(datei, von, bis) {
+  const t = norm(lies(datei));
+  const a = t.indexOf(norm(von));
+  if (a < 0) return null;
+  const b = t.indexOf(norm(bis), a);
+  if (b < 0) return null;
+  return t.slice(a, b + norm(bis).length);
+}
+console.log('\n--- Blockzitate: Zieldokument gegen Quelle ---');
+let bl = 0;
+let blGegen = 0;
+for (const [name, datei, von, bis] of BLOECKE) {
+  const block = blockAusZiel(datei, von, bis);
+  if (block === null) { console.log('FEHL ' + name + ' (Marker im Zieldokument nicht gefunden)'); continue; }
+  const hit = poolText.includes(block);
+  if (hit) bl++;
+  console.log((hit ? 'OK   ' : 'FEHL ') + name + ' (' + block.length + ' Zeichen verglichen)');
+  // Rueckbau-Gegenprobe je Block: eine Ziffer/ein Wort verfaelscht -> darf NICHT treffen.
+  let kaputt = block.replace(/24 Monate/, '36 Monate').replace(/nicht zulässig/, 'zulässig')
+    .replace(/13 Art\.-14-Angaben/, '14 Art.-14-Angaben').replace(/vor jedem Versand/, 'vor jeder Welle')
+    .replace(/Risiko bewusst tragen/, 'Risiko ausgeschlossen')
+    .replace(/bleibt unverändert gegenläufig/, 'ist damit überholt');
+  if (kaputt === block) {
+    // Fallback, damit NIE eine Gegenprobe ausfaellt: ein Wort aus der Mitte
+    // entfernen. Schwaecher als eine semantische Verfaelschung, aber besser
+    // als ein ungeprueftes "bestanden".
+    const w = block.split(' ');
+    if (w.length > 20) { w.splice(Math.floor(w.length / 2), 1); kaputt = w.join(' '); }
+    console.log('     (Fallback-Verfaelschung: Wort aus der Blockmitte entfernt)');
+  }
+  if (kaputt === block) {
+    console.log('     ! keine Verfaelschung anwendbar - Gegenprobe fuer diesen Block NICHT gelaufen');
+  } else if (!poolText.includes(kaputt)) {
+    blGegen++;
+    console.log('     Gegenprobe OK (verfaelschte Fassung wird nicht bestaetigt)');
+  } else {
+    console.log('     Gegenprobe FEHL (verfaelschte Fassung wuerde durchgehen!)');
+  }
+}
+console.log('Blockzitate: ' + bl + ' / ' + BLOECKE.length + ' bestaetigt, Gegenproben bestanden: ' + blGegen + ' / ' + BLOECKE.length);
 
 console.log('\n--- Positivkontrolle (MUSS treffen) ---');
 let pk = 0;

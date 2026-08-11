@@ -108,7 +108,7 @@ belegt ist.
 
 | | |
 |---|---|
-| **Rechtsstand** | ✅ zulässig ohne Einwilligung; kein Tatbestand in § 7 Abs. 2 UWG, es gilt § 7 Abs. 1 UWG (② Rechtsmatrix A7) |
+| **Rechtsstand** | ✅ zulässig ohne Einwilligung; kein Tatbestand in § 7 Abs. 2 UWG, es gilt § 7 Abs. 1 UWG (② Rechtsmatrix A7). ⚠️ **Das ✅ ruht auf einem Negativ mit benannter Grenze:** „kein Verbotsurteil zu B2B-Kaltpost gefunden" — aber „⚠️ **Nicht durchsucht: juris und beck-online**, wo der Großteil der OLG-/LG-Rechtsprechung liegt. Das Negativ kann dort kippen." Der tragende Kanal dieses Plans steht damit auf einer nicht durchsuchten Rechtsprechungsquelle |
 | **Vorlauf bis Versandfähigkeit** | **3–5 Wochen nach dem Firmierungs-Entscheid** (④ Annahme, Zusammensetzung unten) |
 | **Aufwand je Kontakt** | Adressrecherche + Quellenprotokoll + Personalisierung + Druck + Kuvertierung + Porto (④ — Minutenwert und Portosatz **nicht erhoben**, H-3) |
 | **Taktung** | Wellenweise, nicht als Dauerstrom: eine Welle = eine Nachfass-Kohorte = eine auswertbare Quote |
@@ -127,8 +127,8 @@ keine Reihenfolge-Option):
    „Da die Angaben ohnehin in den Briefbogen gehören, ist die sichere
    Wahl, sie aufzunehmen").
 2. **Die sechs D2-Bau-Pflichten** der Rechtsmatrix + die vier
-   D3.2-Weg-b-Pflichten — operativ ausgeführt in
-   `akquise/listenbau-regelwerk.md` §§ 3–4.
+   Weg-b-Pflichten aus D3 Punkt 2 — operativ ausgeführt in
+   `akquise/listenbau-regelwerk.md` § 3 (D2) und § 2.3 (Weg b).
 3. **Zielkundenliste** nach dem Regelwerk (AKQ2, noch nicht begonnen).
 4. **Briefbogen/Layout ohne Abmahnfallen** — keine Formular-,
    Rechnungs- oder Vertragsverlängerungs-Anmutung, keine fingierte
@@ -175,7 +175,7 @@ keine Reihenfolge-Option):
 **Was der belastbare Weg ist:** die **protokollierte Rückrufzusage**
 („rufen Sie mich nächste Woche an") aus einem persönlichen Vorkontakt —
 dann ist die streitige Mutmaßungsfrage gar nicht zu entscheiden (② A2).
-Was protokolliert wird und wie, steht im Regelwerk (§ 7 K2 dort).
+Was protokolliert wird und wie, steht im Regelwerk (R-A2.1 in § 4.2 und Feld F-10 in § 6).
 
 **Anlass-Quellen, die im Bestand belegt sind:**
 
@@ -200,7 +200,7 @@ Was protokolliert wird und wie, steht im Regelwerk (§ 7 K2 dort).
 
 | | |
 |---|---|
-| **Rechtsstand** | ✅ — der Verband versendet an **seine** Einwilligungen, wir sind nicht Versender (② D1) |
+| **Rechtsstand** | ⚠️ **in der Rechtsmatrix nicht als eigener Kanal geprüft.** Teil A hat keinen Abschnitt zu fremden Verteilern; D1 nennt ihn nur als Rangplatz mit der Begründung „der Verband versendet an **seine** eigenen Einwilligungen" (② D1 — Rangfolge-Tabelle, keine Zulässigkeitsprüfung). **Offene Frage, die niemand gestellt hat:** Deckt die Einwilligung der Verbandsempfänger Werbung **für uns**? Die Quelle verlangt in A6, dass ein Einwilligungstext „welche Produkte oder Dienstleistungen welcher Unternehmen" benennt. **Vor der ersten Platzierung klären** (Nebenbefund N-8) |
 | **Vorlauf** | **Mittel bis lang** — Redaktions-/Anzeigenschluss, Verbandsentscheid; **nicht erhoben** (H-4) |
 | **Aufwand** | Einmalig hoch (Beitrag/Anzeige), dann Streuwirkung ohne Stückkosten je Kontakt |
 | **Skalierbar?** | Nein — Zahl der Verteiler ist begrenzt |
@@ -282,7 +282,7 @@ Livegang mit konservativem Planungsanker + Erfragungs-Handgriff; im
 
 ### 3.1 Die Kette rückwärts vom Abschluss
 
-Jede Stufe trägt ihre Belegstufe. **Alle Dauerangaben der Stufen ①–④
+Jede Stufe trägt ihre Belegstufe. **Alle Dauerangaben der Stufen S1–S4
 sind ④-Annahmen** — sie sind der Sinn der Rechnung, nicht ihr Ergebnis:
 
 | Stufe | Was passiert | Dauer (④ Annahme) | Spätester Zeitpunkt |
@@ -291,8 +291,17 @@ sind ④-Annahmen** — sie sind der Sinn der Rechnung, nicht ihr Ergebnis:
 | **S1** | Angebot liegt vor → Prüfung/Rückfragen/Entscheidung beim Inhaber | 3 Wochen | Angebot raus bis **Fr 23.10.2026** |
 | **S2** | Erstgespräch → Bedarf geklärt → Angebot erstellt (ggf. Demo) | 3 Wochen | Erstgespräch bis **Fr 02.10.2026** |
 | **S3** | Erstkontakt → Reaktion → Termin | 2–3 Wochen | Erstkontakt-Welle 1 raus bis **Fr 11.09.2026** |
-| **S4** | Liste + Pflichtbausteine gebaut, Brief produktionsfertig | 3–4 Wochen | Baustart spätestens **Mo 17.08.2026** |
+| **S4** | Liste + Pflichtbausteine gebaut, Brief produktionsfertig | 3–4 Wochen | Baustart spätestens **Fr 14.08.2026** (bei 4 Wochen) bzw. **Fr 21.08.2026** (bei 3 Wochen) — *Zählweg: 11.09. − 28 Tage = 14.08.; 11.09. − 21 Tage = 21.08.* |
 | **S5** | Firmierung/Name steht (Voraussetzung von S4) | — | **spätestens Fr 14.08.2026** |
+
+> ⚠️ **S4 und S5 fallen bei konservativer Lesart auf denselben Tag.** Das
+> ist kein Rundungsproblem, sondern die eigentliche Aussage: Bei
+> vierwöchiger Baudauer muss der Name **am selben Tag** stehen, an dem
+> der Bau beginnt — es gibt zwischen beiden **null Tage Puffer**.
+> *(Vorfassung nannte hier „Baustart spätestens Mo 17.08." — das war mit
+> der eigenen Dauerangabe unvereinbar: 17.08. + 28 Tage = 14.09., also
+> drei Tage NACH dem S3-Termin. Ein „spätestens" muss die längste Dauer
+> der eigenen Spanne verwenden. Gefunden vom Prüfer R08-A, Befund P-12.)*
 
 > ⭐ **Das Ergebnis der Rechnung ist nicht die Stückzahl, sondern eine
 > Terminaussage: Der kritische Pfad läuft über den Namens- und
@@ -301,6 +310,11 @@ sind ④-Annahmen** — sie sind der Sinn der Rechnung, nicht ihr Ergebnis:
 > als terminkritisch geführt: StB-Anruf zur GbR-Namensführung **vor der
 > Gewerbeanmeldung ~Mitte August** (① STATUS.md „Nächster konkreter
 > Schritt" Punkt 1; MKT-MARKE2 wartet darauf).
+> ⚠️ **Und dieser Gate-Termin ist bereits überfällig:** STATUS.md führt
+> ihn als „**User-Handgriff Mo 10.08.**" — das war **gestern**. Ob der
+> Anruf stattgefunden hat, ist im Repo nicht dokumentiert; ein Beleg
+> trägt den Stand seines Datums. **Der Stand des StB-Termins ist damit
+> die erste Frage des Tages** (H-8), nicht eine Randnotiz.
 >
 > **Damit hat die November-Frist bereits heute keinen Puffer mehr im
 > Kaltkanal.** Das ist ein Befund, keine Planungsschwäche — und er ist
@@ -311,13 +325,13 @@ sind ④-Annahmen** — sie sind der Sinn der Rechnung, nicht ihr Ergebnis:
 | Pfad | Beschreibung | Preis |
 |---|---|---|
 | **(a) Warten** | Kaltkanal-Aufbau startet erst nach dem Namensentscheid | Jede Woche Verzug geht **1:1** vom Fenster ab; ab ~4 Wochen Verzug ist K1 als Frist-Kanal rechnerisch erledigt |
-| **(b) Arbeitstitel** | Akquise startet unter Arbeitstitel/bestehender Firmierung, Rebrand folgt | Doppelte Außenwirkung (zwei Namen bei denselben Empfängern), Nachzieh-Aufwand, Vertrauensfrage. **Als Notfallpfad in `R00-planpruefung` § Top-5 Punkt 2 vorgeschlagen** (③, Agenten-Empfehlung) |
+| **(b) Arbeitstitel** | Akquise startet unter Arbeitstitel/bestehender Firmierung, Rebrand folgt | Doppelte Außenwirkung (zwei Namen bei denselben Empfängern), Nachzieh-Aufwand, Vertrauensfrage. **Als Notfallpfad in `R00-planpruefung` § Top-5 Punkt 2 vorgeschlagen** (③, Agenten-Empfehlung) — ⚠️ **dort an eine Bedingung gebunden**, die hier nicht verloren gehen darf: „**Notfallpfad nach 4 Wochen**: Akquise startet unter Arbeitstitel". Es ist also ein **gestufter** Rückfall, keine sofortige Entweder-oder-Wahl |
 
 ⚠️ **Beides hat Außenwirkung — dieser Plan wählt nicht.** Entscheidung
 **E-A1** in § 8.
 
 **Was NICHT auf S5 wartet** (sofort baubar, ohne Namensbindung): die
-gesamten D2-/D3.2-Pflichtbausteine (Datenschutzinformation als Rohtext,
+gesamten D2-/Weg-b-Pflichtbausteine (Datenschutzinformation als Rohtext,
 Werbesperrdatei, VVT-Eintrag, Abwägungsdokumentation, Quellenprotokoll,
 Lead-Bogen), die Zielkundenliste selbst, der Gesprächsleitfaden und die
 K2-Anlass-Anbahnung. Nur der **Versand** hängt am Namen.
@@ -341,6 +355,7 @@ nie einen Kontakt gemacht:
 | **A-5** | Sales-Zyklus gesamt (S1–S3) | **8–9 Wochen** | ④ gestützt auf die Beschreibung „Es ist ein Empfehlungsmarkt mit langsamen, aber loyalen Entscheidern." (③ R00 § (c)) — **Agenten-Einschätzung, keine Messung** | H-2 |
 | **A-6** | Eigene Wochenkapazität Briefe | **nicht erhoben** | Solo-Betrieb parallel zum Pilotprojekt; die Zahl kennt nur der User | **H-2 (Pflicht vor jeder Wellenplanung)** |
 | **A-7** | Portosatz / Stückkosten Brief | **nicht erhoben** | Keine Zahl aus dem Gedächtnis in ein Planungsdokument | H-3 |
+| **A-8** | Mindest-Wellengröße für eine auswertbare Quote | **~300** | **Gerechnet, nicht angenommen:** P(0 Antworten) = (1 − p)^n; bei n = 300, p = 1 % ist P(0) = 0,049 (§ 4.3) | entfällt — Zählweg im Dokument |
 
 ### 4.2 Die Trichterrechnung — und was sie zeigt
 
@@ -387,14 +402,37 @@ werden getrennt geplant:**
 | Engpass | vorhandenes Netzwerk (nicht vermehrbar) | Firmierung + Pflichtbausteine + Kapazität |
 | Messgröße | Erstgespräche/Woche (KPI-1) | Reply-Quote je Welle (KPI-5) |
 
-**K1 wird deshalb nicht gestrichen, sondern umdatiert:** Er ist der
+> ⚠️ **Auch diese Tabelle steht unter dem FUND2-Vorbehalt** (Kopf dieses
+> Dokuments) — sie ist der Sache nach eine Kanal- und Aufgabenzuteilung
+> und damit die Stelle, an der der Plan einer Mix-Entscheidung am
+> nächsten kommt. **Was der Persona-Befund kippen kann:** die Zeile
+> „Trägt" in beiden Spalten (wenn die Zielgruppe anders erreichbar ist
+> als rechtlich hergeleitet), die Reihenfolge K1 ↔ K3 und die Annahme,
+> dass K2 überhaupt genug Anlässe hergibt. **Was er nicht kippt:** die
+> Rechtslage je Kanal (§ 2) und die Terminarithmetik (§ 3). Er ist der
 Kanal, mit dem die Pipeline **nach** dem ersten Abschluss trägt — und
 Welle 1 ist zugleich die **Messwelle**, die A-1 bis A-4 zum ersten Mal
 mit echten Zahlen belegt. Genau deshalb muss Welle 1 groß genug für eine
-auswertbare Quote sein: **bei einer erwarteten Quote von 1–3 % ist eine
-Welle unter ~100 Stück statistisch stumm** (bei 50 Briefen und 1 %
-Erwartungswert ist die wahrscheinlichste Antwortzahl null — ein
-Null-Ergebnis wäre dann kein Befund über die Botschaft).
+auswertbare Quote sein. **Wie groß, ist rechenbar** (A-8, Zählweg:
+Wahrscheinlichkeit für null Antworten = (1 − p)^n):
+
+| Wellengröße | P(0 Antworten) bei p = 1 % | bei p = 3 % | Aussagekraft eines Null-Ergebnisses |
+|---:|---:|---:|---|
+| 50 | 0,605 | 0,218 | **keine** — Null ist der wahrscheinlichste Ausgang |
+| 100 | **0,366** | 0,048 | **gering** — Null bleibt fast so wahrscheinlich wie ein Treffer |
+| 300 | 0,049 | ~0,000 | **belastbar** — Null spricht dann gegen die Botschaft |
+
+> ⚠️ **Damit ist die zunächst gesetzte Schwelle „~100" nicht begründet**
+> und wird ersetzt: Erst ab **~300 Stück** ist ein Null-Ergebnis ein
+> Befund über die Botschaft statt ein Zufall. Zwischen 100 und 300 misst
+> die Welle etwas, aber ein Nullwert bleibt uninterpretierbar.
+> **Praktische Folge — die unbequeme:** Eine Welle, die groß genug für
+> eine belastbare Messung wäre, liegt bereits in der Größenordnung, die
+> § 4.2 als für einen Solo-Betrieb unrealistisch ausweist. Die
+> Kaltbrief-Quote ist in diesem Zeitfenster **nicht sauber messbar** —
+> das ist ein Befund, keine Aufforderung, die Schwelle zu senken.
+> *(Vorfassung setzte „~100 Stück" ohne Zählweg und begründete sie mit
+> dem 50er-Fall; Prüferbefund P-17.)*
 
 > ⚠️ **Was dieser Abschnitt NICHT sagt:** Er sagt nicht, dass die Frist
 > nicht erreichbar ist. Er sagt, dass sie **über K2 erreicht werden
@@ -422,7 +460,7 @@ bestätigen (E-A3).**
 | **KPI-2** | Abgegebene Angebote / aktive Pipeline (Anzahl + €-Wert) | kein Zielwert | ⚠️ **Der €-Wert ist heute nicht bildbar** — ein Preismodell existiert nicht (MKT-HANDEL: `handel/` führt Rechtsmatrix und Förderarchitektur, **kein Pricing**; ① geprüft 11.08.2026). Bis dahin nur Anzahl |
 | **KPI-3** | Zeit bis zum ersten zahlenden Kunden | North-Star | Gegen den Anker 13.11. gemessen |
 | **KPI-4** | Referenz-Assets einsatzbereit (Referenzvereinbarungen, Case Study, Demo-Video) | binär | Hängt an MKT-BELEG; ⚠️ Referenzvereinbarungs-Vorlage trägt offene Punkte U-1…U-9/O-1…O-7 (① Projektquelle § 7 Punkt 0a) |
-| **KPI-5** | Reply-/Termin­quote im Outbound (je 10 Kontakte) | „fällt sie unter ~10 % Antworten, ist FUND nachzuschärfen, nicht das Volumen zu erhöhen" | ⚠️ **Diese Schwelle passt nicht auf den Briefkanal.** Sie stammt aus einem Bericht, der Outbound noch als E-Mail-/LinkedIn-Betrieb dachte (§ (c) Punkt 4 dort). Bei A-1 = 1–3 % läge der Kaltbrief **per Annahme dauerhaft unter der Schwelle** und würde einen FUND-Alarm auslösen, der nichts über die Positionierung aussagt. **Vorschlag: Schwelle je Kanal getrennt festlegen, sobald Welle 1 gemessen ist** |
+| **KPI-5** | Reply-/Termin­quote im Outbound (je 10 Kontakte) | „fällt sie unter ~10 % Antworten, ist FUND nachzuschärfen, nicht das Volumen zu erhöhen" | ⚠️ **Diese Schwelle passt nicht auf den Briefkanal.** Sie stammt aus einem Bericht, der Outbound noch als E-Mail-/LinkedIn-Betrieb dachte (§ (c) Punkt 3 dort: „Founder-led Direktvertrieb (Telefon, E-Mail, Vor-Ort)" — die E-Mail-Variante ist seit der Rechtsmatrix zu). ⚠️ Nicht belegbar wäre die stärkere Behauptung, der Bericht habe LinkedIn-Betrieb propagiert: Er stuft LinkedIn in § (c) Punkt 1 ausdrücklich als „Fehlbesetzung" ein. Bei A-1 = 1–3 % läge der Kaltbrief **per Annahme dauerhaft unter der Schwelle** und würde einen FUND-Alarm auslösen, der nichts über die Positionierung aussagt. **Vorschlag: Schwelle je Kanal getrennt festlegen, sobald Welle 1 gemessen ist** |
 
 **Ausdrücklich nicht als Steuerungsgrößen** (aus derselben Quelle,
 übernommen): Follower, Impressions, Website-Traffic,
@@ -440,12 +478,12 @@ für alles Weitere), die späteren sind **Prognose** unter den Annahmen aus
 | Zeitraum | Schritt | Hängt ab von | Wer |
 |---|---|---|---|
 | **bis Fr 14.08.** | **S5:** Firmierungs-/Namensstand geklärt ODER Entscheid E-A1 (Arbeitstitel) | StB-Termin, MARKE2 | **User** |
-| ab sofort, parallel | D2-/D3.2-Pflichtbausteine bauen (Regelwerk §§ 3–4) — **ohne Namensbindung** | — | Marketing-Session |
+| ab sofort, parallel | D2-/Weg-b-Pflichtbausteine bauen (Regelwerk § 3 + § 2.3) — **ohne Namensbindung** | — | Marketing-Session |
 | ab sofort | **H-6:** Telkon-Logo anfordern (Außenpost) → K4 wird wirksam | — | **User** |
 | ab sofort | K2-Anlässe anbahnen und protokollieren | — | **User** |
 | bis Fr 21.08. | Zielkundenliste Welle 1 nach Regelwerk (Gebietsschnitt § 8 dort) | Regelwerk | Marketing-Session |
 | bis Fr 28.08. | Brief-Text + Layout + Art.-14-Beilage; Gesprächsleitfaden K2 | S5 | Marketing-Session + **User-Freigabe** |
-| **bis Fr 11.09.** | **S3:** Welle 1 versandt (Zielgröße ≥ 100, s. § 4.3) | alles obige | User + Session |
+| **bis Fr 11.09.** | **S3:** Welle 1 versandt (Größe nach § 4.3: unter ~300 Stück ist ein Null-Ergebnis nicht interpretierbar — die real erreichbare Größe hängt an H-2b) | alles obige | User + Session |
 | Sa 12.09. – Fr 02.10. | Rücklauf-Fenster Welle 1; **Quoten A-1…A-4 erstmals messen**; Erstgespräche | — | User |
 | **bis Fr 02.10.** | **S2:** Erstgespräche geführt | Rücklauf | User |
 | bis Fr 09.10. | **Entscheidungspunkt:** Reicht der Rücklauf? Wenn nein → Frist über K2/K3 tragen, K1 auf Aufbaupfad umstellen | Messwerte | Leitsession + User |
@@ -462,15 +500,22 @@ gemeldet (§ 9, N-2).
 
 ## 7. Handgriffe des Users (eigene Liste)
 
+**Alle Termine mit Wochentag** — der 16.08.2026 wäre ein **Sonntag** und
+scheidet als Handgriff-Termin aus (Wochentage per Werkzeug erhoben;
+Prüferbefund P-11: vier Handgriffe standen zunächst auf diesem Sonntag,
+und anders als die Termine in § 6 trugen sie kein Wochentags-Etikett,
+wodurch der Fehler unsichtbar blieb).
+
 | # | Handgriff | Warum er hier steht | bis |
 |---|---|---|---|
-| **H-1** | Bestätigen oder korrigieren: Planungsanker **Fr 13.11.2026** für „Mitte November" | Der Anker trägt die gesamte Rückwärtsrechnung | 16.08. |
-| **H-2** | Zwei Zahlen nennen: (a) **wie viele tragfähige persönliche Vorkontakte** ins Zielsegment heute existieren (K2), (b) **wie viele Briefe/Woche** realistisch machbar sind (A-6) | Ohne (a) ist nicht bewertbar, ob die Frist überhaupt erreichbar ist; ohne (b) ist keine Wellenplanung möglich | 16.08. |
+| **H-8** | ⭐ **Stand des StB-Termins klären** (GbR-Namensführung) — er ist in STATUS.md als User-Handgriff **Mo 10.08.** geführt, also bereits verstrichen; ob er stattgefunden hat, steht nirgends | **Er ist die Vorbedingung von S5 und damit des gesamten Terminpfads** | **Do 13.08.** |
+| **H-1** | Bestätigen oder korrigieren: Planungsanker **Fr 13.11.2026** für „Mitte November" | Der Anker trägt die gesamte Rückwärtsrechnung | **Fr 14.08.** |
+| **H-2** | Zwei Zahlen nennen: (a) **wie viele tragfähige persönliche Vorkontakte** ins Zielsegment heute existieren (K2), (b) **wie viele Briefe/Woche** realistisch machbar sind (A-6) | Ohne (a) ist nicht bewertbar, ob die Frist überhaupt erreichbar ist; ohne (b) ist keine Wellenplanung möglich | **Fr 14.08.** |
 | **H-3** | Portosatz und Stückkosten je Brief erheben (Deutsche Post o. a., aktueller Tarif) | Keine Kostenzahl aus dem Gedächtnis in einen Plan (A-7) | vor Welle 1 |
-| **H-4** | DEHOGA/Fachpresse: Konditionen und Redaktionsschluss für Verteiler-/Anzeigenplatzierung erfragen | K3-Vorlauf ist unbekannt und kann längste Leitzeit haben | 28.08. |
+| **H-4** | DEHOGA/Fachpresse: Konditionen und Redaktionsschluss für Verteiler-/Anzeigenplatzierung erfragen; **dabei N-8 mitklären** (deckt die Einwilligung der Verteiler-Empfänger Werbung für uns?) | K3-Vorlauf ist unbekannt und kann längste Leitzeit haben | **Fr 28.08.** |
 | **H-5** | Internorga-Termin 2027 an der Quelle erheben (Repo-Beleg fehlt) | Rückwärts-Anker für den Lead-Prozess (A4) | unkritisch |
-| **H-6** | **Telkon-Logo anfordern** (Außenpost, Versand User) | Ohne Logo ist die Listungszusage nicht umsetzbar — offener Posten aus R7, wirkt direkt auf K4 | 16.08. |
-| **H-7** | Entscheide E-A1 bis E-A3 (§ 8) treffen | Außenwirkung — nicht von der Session zu setzen | 16.08. |
+| **H-6** | **Telkon-Logo anfordern** (Außenpost, Versand User) | Ohne Logo ist die Listungszusage nicht umsetzbar — offener Posten aus R7, wirkt direkt auf K4 | **Fr 14.08.** |
+| **H-7** | Entscheide E-A1 bis E-A3 (§ 8) treffen | Außenwirkung — nicht von der Session zu setzen | **Fr 14.08.** |
 
 ---
 
@@ -507,6 +552,9 @@ jeweils mit Zielort. Diese Session schreibt sie **nicht** selbst ein
 | **N-3** | **KPI-5-Schwelle „unter 10 % Antworten"** stammt aus einem E-Mail-/Online-Kanalbild und erzeugt beim Briefkanal einen Dauer-Fehlalarm | MKT-OPS (OPS1) | Schwelle je Kanal trennen |
 | **N-4** | **Internorga liegt hinter der November-Frist** — sie ist in CLAUDE.md und Projektquelle als Akquisekanal-Kandidat *und* als „Rückwärts-Anker" geführt; für den ersten Abschluss trägt sie nicht | Projektquelle § 2 (AKQ1) | Formulierung schärfen: Anker für den Lead-Prozess, nicht Kanal für Abschluss 1 |
 | **N-5** | **K2 läuft überwiegend über das Netzwerk von Kayhan Rasuly**, der bei zwei der drei Pilotobjekte Entscheider und zugleich WTSH-Antragsteller ist — die Offenlegungspflicht aus R7 (BELEG4) wirkt damit auch in die Akquise-Ansprache hinein, nicht nur in die Case Study | MKT-BELEG (BELEG4) + MKT-AKQ (AKQ2) | Beim Bau der Ansprache-Texte mitführen |
+| **N-6** | **Der D3-Kasten Punkt 1 setzt die 24 Monate „zugleich" als Löschfrist des VVT-Eintrags „für die Zielkundenliste" (D2 Punkt 3) — das trägt nicht:** Kaltkontakte haben keinen Vertragsschluss, an den eine Frist anknüpfen könnte. Außerdem kollidiert der nicht übernommene Zusatz „danach Einwilligung einholen" (A5) mit einer Löschung nach 24 Monaten | MKT-HANDEL (`handel/kanal-rechtsmatrix.md` D3 Punkt 1) | Kasten präzisieren: Frist gilt der **Kundenliste**; für die Zielkundenliste ist eine eigene Frist zu entscheiden |
+| **N-7** | **In der Rechtsmatrix selbst fehlt am A7-Bullet („Die Adressen dürfen nicht aus Impressen stammen") der Vorwärtsverweis auf den späteren Weg-b-Entscheid.** Wer A7 liest und den D3-Kasten nicht kennt, handelt nach einer überholten Anweisung | MKT-HANDEL (A7, „Was das für unsere Zielkundenliste heißt") | Vorwärtsverweis nachtragen (Doku-Hygiene-Regel: an der Stelle, wo der Leser ankommt) |
+| **N-8** | **Fremde Verteiler sind in der Rechtsmatrix nicht als eigener Kanal geprüft** — D1 führt sie als Rang 3, Teil A hat keinen Abschnitt dazu. Offen ist insbesondere, ob die Einwilligung der Verbandsempfänger Werbung **für uns** deckt (A6 verlangt, dass der Einwilligungstext „welche Produkte oder Dienstleistungen welcher Unternehmen" benennt) | MKT-HANDEL (Rechtsmatrix, neuer Teil-A-Abschnitt) | Vor der ersten Platzierung klären — mit H-4 gekoppelt |
 
 ---
 
@@ -518,11 +566,16 @@ jeweils mit Zielort. Diese Session schreibt sie **nicht** selbst ein
   noch ein Preismodell (N-2) liegen vor. Eine Budgetzeile wäre erfunden.
 - **Kein Kanalmix-Entscheid** — der Vorbehalt oben gilt bis zum
   FUND2-Persona-Befund.
-- **Die Zielgruppen-Untergrenze ist offen.** Das Positionierungspapier
-  setzt bewusst **keine** harte Ober- oder Untergrenze (§ 3.2 dort,
-  „bevor FUND2 die Entscheiderfrage beantwortet hat"). Der Gebietsschnitt
-  im Regelwerk (§ 8) ersetzt diese Grenze **nicht**, er priorisiert nur
-  innerhalb des Bestands.
+- **Die Zielgruppen-Untergrenze ist offen — und zwar unbeschrieben, nicht
+  bewusst offengelassen.** Das Positionierungspapier setzt ausdrücklich
+  keine harte **Obergrenze**: „Eine harte Obergrenze (Zimmerzahl,
+  MA-Zahl) wird bewusst NICHT gesetzt, bevor FUND2 die Entscheiderfrage
+  beantwortet hat" (§ 3.2 dort). ⚠️ **Zur UNTERgrenze sagt es nichts** —
+  in §§ 3.1–3.3 steht dazu kein Satz. Das ist eine Lücke, keine
+  Entscheidung; sie hier als „bewusst offen" zu führen wäre eine
+  Aussage, die die Quelle nicht trägt (Prüferbefund P-18). Der
+  Gebietsschnitt im Regelwerk (§ 8) ersetzt beide Grenzen **nicht**, er
+  priorisiert nur innerhalb des Bestands.
 - **Nicht geprüft:** ob die 1.038 SH-Hotelleriebetriebe nach Abzug der
   Konzern-/Ketten-/Franchise-Betriebe (Ausschluss nach
   Positionierungspapier § 3.3) noch eine Menge ergeben, die die

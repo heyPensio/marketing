@@ -46,7 +46,7 @@ Felder und Prüfpunkte.
   scharfen Massenversand über einen als „unzulässig" oder „streitig"
   markierten Kanal ist dort anwaltlicher Rat vorgesehen.**
 - **kein Einwilligungstext.** D3.3 (Wortlaut für Messe und Newsletter)
-  ist ausdrücklich **offen** (§ 11).
+  ist ausdrücklich **offen** (§ 10).
 
 **Quellenverhältnis:** Bei jedem Widerspruch zwischen diesem Regelwerk
 und `handel/kanal-rechtsmatrix.md` **gewinnt die Rechtsmatrix**. Sie ist
@@ -66,7 +66,7 @@ Jede einzelne Adresse durchläuft **vier** Prüfungen. Sie sind unabhängig
   ansprechen?        dieser Quelle       überhaupt?          die Sperre
                      nehmen?                                 geprüft?
   § 7 UWG            Art. 6 I f DSGVO    Art. 5 I c          Art. 14 / 21
-  → § 7 hier         + Achse 3           → § 6 hier          → § 9 hier
+  → § 4 hier         + Achse 3           → § 6 hier          → § 7 hier
                      → § 5 hier
 ```
 
@@ -146,7 +146,7 @@ Aus dem Kasten in 2.2, **ohne Umformulierung** in Pflichten übersetzt:
 |---|---|---|
 | **W-b1** | „dokumentierte Interessenabwägung nach Art. 6 Abs. 1 lit. f je Datenfeld (D2 Punkt 4)" | § 6 — Feldregister mit Einzelbegründung je Feld |
 | **W-b2** | „Quellenprotokoll je Adresse inkl. ‚Impressum'-Kennzeichnung (D2 Punkt 6)" | § 5.3 — Pflichtfelder des Quellenprotokolls, mit eigenem Kennzeichen für Impressumsherkunft |
-| **W-b3** | „Werbesperrdatei vor dem ersten Versand (D2 Punkt 2)" | § 9.3 — Sperrdatei und Abgleichspflicht |
+| **W-b3** | „Werbesperrdatei vor dem ersten Versand (D2 Punkt 2)" | § 7.3 — Sperrdatei und Abgleichspflicht |
 | **W-b4** | „Restrisiko-Vermerk im Verarbeitungsverzeichnis-Eintrag (D2 Punkt 3)" | § 3, Pflicht 3 — Textbaustein für den VVT-Eintrag |
 
 ---
@@ -226,14 +226,24 @@ entfällt schon, wenn die Verarbeitung nicht nur gelegentlich erfolgt,
 und eine dauerhaft geführte Akquiseliste ist per Definition nicht
 gelegentlich" (Rechtsmatrix C6).
 
-**Zwei inhaltliche Vorgaben stehen bereits fest:**
+**Eine inhaltliche Vorgabe steht fest, eine scheinbare nicht:**
 
-1. **Begründete Löschfrist.** Für die Bestandskundeneigenschaft ist sie
-   entschieden: **24 Monate** nach letztem Vertragsschluss, „zugleich die
-   dokumentierte Löschfrist fürs Verarbeitungsverzeichnis" (§ 2.1).
-   ⚠️ **Nicht verwechseln:** Diese Frist betrifft **Kunden**. Für die
-   **Kaltkontakt-Liste** ist eine eigene Frist festzulegen — sie ist
-   nirgends entschieden (§ 11, O-2).
+1. **Begründete Löschfrist — für die Zielkundenliste NICHT entschieden.**
+   Der D3-Kasten setzt die **24 Monate** nach letztem Vertragsschluss
+   „zugleich" als „dokumentierte Löschfrist fürs
+   Verarbeitungsverzeichnis (D2 Punkt 3)" (§ 2.1).
+   ⚠️ **Diese Gleichsetzung trägt nicht, und sie wird hier nicht
+   weitergereicht:** D2 Punkt 3 verlangt den VVT-Eintrag ausdrücklich
+   „für die **Zielkundenliste**" — also für **Kaltkontakte**, zu denen
+   es per Definition keinen Vertragsschluss gibt, an den eine 24-Monats-
+   Frist anknüpfen könnte. Die 24 Monate regeln die **Kundenliste**.
+   **Für die Zielkundenliste ist damit keine Löschfrist entschieden**
+   (§ 10, O-2) — D2 Pflicht 3 ist also **nicht** zur Hälfte erledigt.
+   Ebenfalls nicht übernommen: die zweite Hälfte des Quellvorschlags
+   („24 Monate nach letztem Vertragsschluss, danach Einwilligung
+   einholen", A5), die mit einer Löschung nach 24 Monaten kollidiert. **Beides ist als Nebenbefund N-6
+   an MKT-HANDEL zurückgemeldet** — der D3-Kasten selbst sollte
+   präzisiert werden (Befund P-16).
 2. **Restrisiko-Vermerk** (W-b4). Vorschlag für den Wortlaut, aus den
    Quellenaussagen gebaut und ohne Abschwächung:
    > *Ein Teil der Adressen dieser Liste stammt aus Online-Impressen.
@@ -247,8 +257,19 @@ gelegentlich" (Rechtsmatrix C6).
 
 ### Pflicht 4 · Dokumentierte Abwägung nach Art. 6 Abs. 1 lit. f — je Datenfeld
 
-**Status: mit § 6 dieses Dokuments erfüllt** (Feldregister mit
-Einzelbegründung). Die Prüfung folgt den drei kumulativen Stufen des
+> **Status: TEILWEISE gebaut — Stufe 2 dokumentiert (§ 6), Stufe 3
+> OFFEN.** Damit ist weder D2 Nr. 4 noch die Weg-b-Pflicht W-b1 erfüllt.
+> **Das ist die gefährlichste offene Stelle des ganzen Regelwerks:** Unter
+> Weg (b) ist genau diese Abwägung das Dokument, das das bewusst
+> übernommene Risiko trägt. Träger und Fälligkeit: § 10, O-8.
+>
+> *(Vorfassung dieses Kastens sagte „mit § 6 dieses Dokuments erfüllt" —
+> das war ein Überklaim: § 6 dokumentiert ausschließlich die
+> ERFORDERLICHKEIT je Feld, also Stufe 2. Eine Abwägung im Sinne der
+> Stufe 3 wird in diesem Dokument nirgends durchgeführt und nirgends
+> abgeschlossen. Gefunden vom Prüfer R08-A, Befund P-01.)*
+
+Die Prüfung folgt den drei kumulativen Stufen des
 EuGH (C-621/22 Rn. 37, über die Rechtsmatrix C2):
 
 - **Stufe 1 (berechtigtes Interesse):** trägt — Direktwerbung ist in
@@ -335,10 +356,14 @@ im Zitat, damit beim Verdichten nichts weicher wird.
   laut Matrix „nicht *schwach* — sie sind **unerheblich**".
 - **R-A1.2** **Kein Ausweichen über die Adressform** (`info@` ↔
   personalisiert) und keines über die Betreffzeile.
-- **R-A1.3** **Das Kontaktformular des Hotels ist kein Ersatzweg.** Zu
+- **R-A1.3** **Das Kontaktformular des Hotels ist rechtlich ungeklärt —
+  und wird deshalb nicht benutzt.** Die Quelle sagt: „Ein
+  Kontaktformular des Hotels ist rechtlich nicht geklärt: Zu
   Kontaktformularen als (Nicht-)Einwilligung wurde **kein Beleg
-  gefunden** bei funktionierendem Suchkanal — „**‚Nicht gefunden' ist
-  nicht ‚zulässig'**".
+  gefunden**, bei nachweislich funktionierendem Suchkanal … „Nicht
+  gefunden" ist nicht „zulässig"." **Die Betriebsregel ist eine
+  Vorsichtsregel, kein Rechtsstand** — sie darf nicht als „entschieden
+  unzulässig" weiterzitiert werden (Befund P-20).
 - **R-A1.4** Folge für die Liste: **Das Feld „E-Mail-Adresse" ist für
   die Kaltakquise nicht erforderlich** und wird nicht geführt (§ 6,
   F-14). Ein Feld für einen gesperrten Kanal fällt bereits an Stufe 2.
@@ -416,9 +441,16 @@ im Zitat, damit beim Verdichten nichts weicher wird.
   (beides „Rechtsprechung, tragend"), Wortlaut des Einwilligungstextes
   (Behördenauffassung), Zeitstempel (abgeleitet). **IP-Adresse trägt
   allein nicht.**
-- **R-A6.3** **Tracking braucht eine eigene Einwilligung** — K.-o.-
-  Kriterium bei der Tool-Auswahl: „Das Newsletter-Tool muss Tracking
-  **pro Empfänger abschaltbar** können." (Tool-Auswahl ist nicht
+- **R-A6.3** **Tracking braucht nach Aufsichtsauffassung eine eigene
+  Einwilligung** — K.-o.-Kriterium bei der Tool-Auswahl: „Das
+  Newsletter-Tool muss Tracking **pro Empfänger abschaltbar** können."
+  ⚠️ **Die Rechtsfrage selbst ist in der Quelle als „STREITIG, ohne
+  deutsche Rechtsprechung" markiert** — die BfDI vertritt die
+  Einwilligungspflicht, der EDSA schränkt selbst ein (Rn. 56), die
+  Gegenposition stammt von einem Interessenverband. **Die
+  Tool-Anforderung bleibt trotzdem bestehen:** Sie kostet nichts und
+  hält beide Auslegungen offen — das ist ihre Begründung, nicht ein
+  eindeutiger Rechtsstand (Befund P-21). (Tool-Auswahl ist nicht
   Gegenstand dieser Session — die Anforderung wird nur festgehalten.)
 - **R-A6.4** **Kein Kopplungsgeschäft** (Whitepaper nur gegen
   Einwilligung), **keine vorangekreuzten Kästchen**.
@@ -435,6 +467,29 @@ im Zitat, damit beim Verdichten nichts weicher wird.
 > Kaltakquise.**" — und zugleich: „**Die Adressen dürfen nicht aus
 > Impressen stammen** (Teil C) und nicht aus Quellen mit
 > Werbenutzungsverbot (Achse 3)."
+
+> ⚠️ **Zwei Einschränkungen, ohne die dieser Block falsch gelesen wird:**
+>
+> **(a) Der zitierte Impressums-Satz ist überholt** — durch den
+> D3-Punkt-2-Entscheid (Weg b) vom 11.08.2026, § 2.2 und § 5.1 dieses
+> Dokuments. Impressumsdaten werden bei uns **genutzt**, unter bewusster
+> Risikoübernahme und mit Kennzeichnungspflicht. **Der Vorbehalt der
+> Aufsichtsauffassung bleibt gegenläufig bestehen** — überholt ist die
+> Handlungsanweisung, nicht die Rechtslage. ⚠️ Die Kollisionsregel dieses
+> Dokuments („bei Widerspruch gewinnt die Rechtsmatrix") führt hier ins
+> Leere, weil die Rechtsmatrix **beide** Stände enthält: den A7-Satz und
+> den späteren D3-Kasten. **Bei Impressumsfragen gilt der D3-Kasten, weil
+> er jünger und ein User-Entscheid ist.** (Befund P-15; der fehlende
+> Vorwärtsverweis in der Rechtsmatrix selbst ist als N-7 an MKT-HANDEL
+> gemeldet.)
+>
+> **(b) Das ✅ des Briefkanals steht auf einem NEGATIV mit benannter
+> Grenze.** Die Rechtsmatrix stützt es darauf, dass „kein Verbotsurteil zu
+> B2B-Kaltpost gefunden" wurde — und markiert zweimal, wo dieses Negativ
+> endet: „⚠️ **Nicht durchsucht: juris und beck-online**, wo der Großteil
+> der OLG-/LG-Rechtsprechung liegt. Das Negativ kann dort kippen."
+> **Der tragfähigste Kanal unserer gesamten Akquiseplanung ruht damit auf
+> einer nicht durchsuchten Rechtsprechungsquelle.** (Befund P-06.)
 
 **Listen-Regeln:**
 
@@ -569,7 +624,7 @@ echten Listenbau nochmals gegen den dann konkreten Zweck zu prüfen.
 | **F-06** | Zentrale Rufnummer | 🔶 | **Nur wenn ein Anlassnachweis (F-10) vorliegt.** Ohne K2-Anlass ist der Anruf unzulässig (R-A2.1) — ein Feld für einen unzulässigen Kanal ist nicht erforderlich. ⚠️ Die veröffentlichte Nummer ist **kein** Anlass (R-A2.4) |
 | **F-07** | Personenname (Inhaber/GF/Direktion) | 🔶 | **Nur bei personalisierter Ansprache oder K2-Anlass.** Solange an die Firma adressiert wird (R-A7.1), nicht erforderlich — und seine Aufnahme macht bei einer Kapitalgesellschaft aus einem DSGVO-freien Datensatz einen DSGVO-pflichtigen (C1 ⭐-Absatz). Wird er geführt, gelten Art. 14/21 vollständig |
 | **F-08** | Quellenprotokoll Q-1…Q-5 | ✅ | D2 Pflicht 6; ohne Q-1 ist die Art.-14-Angabe im Brief nicht erfüllbar |
-| **F-09** | Aufnahmedatum in die Liste | ✅ | **Startet die Art.-14-Monatsuhr** (§ 9.2) — ohne dieses Feld ist die Frist nicht überwachbar |
+| **F-09** | Aufnahmedatum in die Liste | ✅ | **Startet die Art.-14-Monatsuhr** (§ 7.2) — ohne dieses Feld ist die Frist nicht überwachbar |
 | **F-10** | Anlassnachweis (Freitext + Datum + wer) | 🔶 | Pflicht, sobald telefoniert werden soll (R-A2.1); sonst leer |
 | **F-11** | Kontakt-/Versandhistorie (Datum, Kanal, Welle) | ✅ | Belegt „Vorherigkeit" und Hartnäckigkeitsgrenze (§ 7 Abs. 1 UWG); ohne sie ist ein Zweitanschreiben nicht bewertbar |
 | **F-12** | Status Art.-14-Information (Datum, Weg) | ✅ | Die Erfüllung ist nachweispflichtig (Art. 5 Abs. 2) |
@@ -593,7 +648,7 @@ Stufe 2 zu scheitern.
 nachvollziehbar (warum wurde Betrieb X aufgenommen, Y nicht?). Eine
 **aggregierte** Kriterienbeschreibung je Welle („Welle 1: inhabergeführte
 Hotels in NF/OH, keine Ketten") löst das ohne Personenbezug — als
-Wellenprotokoll, nicht als Feld. (§ 11, O-3.)
+Wellenprotokoll, nicht als Feld. (§ 10, O-3.)
 
 ---
 
@@ -665,7 +720,7 @@ keine Rückfrage, keine „letzte Mail", keine Reaktivierung.
   werden" (C6).
 - **Löschkonzept:** eigene Frist festlegen und dokumentieren — „‚Wir
   behalten das mal' ist kein Löschkonzept" (C6). Für Kunden: 24 Monate
-  (§ 2.1). **Für die Kaltkontakt-Liste offen** (§ 11, O-2).
+  (§ 2.1). **Für die Kaltkontakt-Liste offen** (§ 10, O-2).
 - **AVV** (Art. 28) für CRM, Newsletter-Tool, Mailversand, Hosting.
   ⚠️ Bei **Lead-/Anreicherungsanbietern** ist der AVV oft der **falsche**
   Vertragstyp (Art. 28 Abs. 10) — vor Vertragsschluss klären. *(Für uns
@@ -697,15 +752,33 @@ SH-Zielkundenliste").
 > **40,1 %** aller SH-Hotelleriebetriebe (**416 von 1.038**; Zählweg:
 > Summe beider Kreiszeilen ÷ Landeszeile).
 
-**Priorisierung für den Wellenschnitt (Vorschlag dieser Session):**
+**Priorisierung für den Wellenschnitt (Vorschlag dieser Session).**
+**Vergabelinien, explizit — beide gelten für ALLE 15 Kandidaten:**
+(L-1) **Betriebszahl** absteigend · (L-2) **Pilotnähe** (belegter
+Vor-Ort-Bezug über die eigenen Pilotobjekte) hebt um eine Stufe.
+Andere Kriterien werden nicht angewandt; insbesondere **nicht** die
+mittlere Betriebsgröße (Begründung unten, Grenze 1).
 
-| Priorität | Gebiet | Hotellerie-Betriebe (2024) | Begründung |
-|---|---:|---:|---|
-| **1** | Nordfriesland | 246 | Größter Einzelbestand des Landes |
-| **1** | Ostholstein | 170 | Zweitgrößter; zusammen mit NF 40,1 % |
-| **2** | Rendsburg-Eckernförde · Schleswig-Flensburg · Dithmarschen | 80 · 76 · 71 | Nächste Größenordnung, kleinteiliger Bestand (Ø 47,8 / 50,3 / 53,6 Schlafgelegenheiten) |
-| **3** | Lübeck · Kiel | 65 · 39 | Städtisch, größere Häuser (Ø 114,2 / 144,0) — Nähe zum Pilotumfeld (Rabe's/Hostel in Kiel) |
-| **nachrangig** | übrige neun Kreise/Städte | zusammen 291 | *(Zählweg: 1.038 − 246 − 170 − 80 − 76 − 71 − 65 − 39 = 291)* |
+| Priorität | Gebiet | Hotellerie-Betriebe (2024) | Begründung (Linie) |
+|---|---|---:|---|
+| **1** | Nordfriesland | 246 | L-1: größter Einzelbestand des Landes |
+| **1** | Ostholstein | 170 | L-1: zweitgrößter; zusammen mit NF 40,1 % |
+| **2** | Rendsburg-Eckernförde · Schleswig-Flensburg · Dithmarschen | 80 · 76 · 71 | L-1: nächste Größenordnung |
+| **2** | Lübeck | 65 | L-1 |
+| **2** | Pinneberg · Herzogtum Lauenburg | 58 · 52 | L-1 |
+| **2** | **Kiel** | **39** | L-1 würde Rang 8 ergeben; **L-2 hebt an**: Pilotobjekte Rabe's und Hostel Boninstraße liegen in Kiel |
+| **3** | Segeberg · Plön · Stormarn · Steinburg · Flensburg · Neumünster | 45 · 43 · 39 · 27 · 18 · 9 | L-1; keine Pilotnähe |
+| — | **Summe aller 15** | **1.038** | *(Zählweg: 246+170+80+76+71+65+58+52+39+45+43+39+27+9+18 = 1.038 = Landeszeile der Quelle ✓)* |
+
+*(Vorfassung dieser Tabelle setzte Kiel mit 39 Betrieben auf Priorität 3
+über Pinneberg (58), Herzogtum Lauenburg (52), Segeberg (45) und Plön
+(43) und ließ diese in einer Sammelzeile „übrige **neun** Kreise,
+zusammen 291" verschwinden — die Summe 291 stimmte, die Zählung nicht:
+SH hat 15 Kreise/kreisfreie Städte, sieben waren genannt, also acht
+übrige. Zugleich war das Kriterium „Pilotnähe" nur auf zwei Kandidaten
+angewandt worden. Gefunden vom Prüfer R08-A, Befunde P-08/P-09/P-10;
+CLAUDE.md: „Ein Bewertungskriterium gilt für ALLE Kandidaten" und „eine
+stimmende Summe ist KEIN Zuordnungsbeleg".)*
 
 ⚠️ **Drei Grenzen dieser Zahlen, aus der Quelle übernommen — sie dürfen
 beim Verdichten nicht verloren gehen** (`regionalstatistik-…` § 4.5):
@@ -733,7 +806,7 @@ nicht.** Konzern-/Ketten-/Franchise-Betriebe mit zentral vorgegebenem
 Technik-Stack sind laut `fund/positionierungspapier.md` § 3.3 **nicht**
 Zielgruppe — „Abgrenzungskriterium ist die **Entscheidungsstruktur,
 nicht die Betten-Zahl**". Wie viele der 416 nach diesem Abzug bleiben,
-ist **nicht erhoben** (§ 11, O-4).
+ist **nicht erhoben** (§ 10, O-4).
 
 ⚠️ **Und Hamburg fehlt in dieser Tabelle vollständig** — sie ist eine
 reine SH-Erhebung. Für Hamburg liegt keine entsprechende Kreisstatistik
@@ -743,6 +816,40 @@ nachrangig" — es ist nicht erhoben.**
 
 ---
 
+## 8a. Was ein Verstoß kostet — und wer überhaupt angreifen kann
+
+*(Nachgetragen nach dem Prüflauf: Teil B der Rechtsmatrix war in keines
+der beiden Dokumente eingeflossen. Bei einem Entscheid, der ein Risiko
+**bewusst trägt** (Weg b), gehört die Größenordnung dieses Risikos ins
+Regelwerk — sonst trägt man eine Zahl, die man nicht kennt.
+Prüferfrage F1/4.)*
+
+| Frage | Antwort der Quelle (Teil B) |
+|---|---|
+| **Wer kann uns abmahnen?** | § 8 Abs. 3 UWG ist **abschließend**: Mitbewerber, gelistete Wirtschaftsverbände, qualifizierte Verbraucherverbände, IHK/Kammern/Gewerkschaften |
+| **Und der angeschriebene Hotelier?** | ⭐ **Hat keinen UWG-Anspruch — ist trotzdem der wahrscheinlichste Gegner.** Sein Weg läuft über §§ 823 Abs. 1, 1004 BGB (Eingriff in den Gewerbebetrieb); **eine einzige** Mail genügt |
+| **Schützt uns das Abmahnmissbrauchs-Gesetz?** | ⛔ **Nein.** Weder § 13 Abs. 4 noch § 13a Abs. 2 greifen bei § 7-Verstößen — und auf der BGB-Schiene greifen die Schutzvorschriften **gar nicht**. „Wir tragen die Abmahnkosten." |
+| **Was hilft?** | **§ 13a Abs. 3 UWG** — Vertragsstrafen-Deckel 1.000 € bei unerheblicher Beeinträchtigung und unter 100 Mitarbeitern; nicht an § 13 Abs. 4 gekoppelt. Dazu § 13 Abs. 5: **jede eingehende Abmahnung zuerst gegen die fünf Pflichtangaben des § 13 Abs. 2 prüfen** |
+| **Größenordnung** | Streitwert-Arbeitsannahme **3.500–6.000 €** je Verstoß; realistischer Erwartungswert für den **ersten** Verstoß bei sofortiger modifizierter Unterlassungserklärung **500–1.700 €**. ⚠️ Einen Regelstreitwert gibt es nicht |
+| **Wo es teuer wird** | (a) unmodifizierte Unterlassungserklärung mit 5.100-€-Klausel + **ein einziger** erneut angeschriebener Altkontakt; (b) **Massenaussendung** — dann multipliziert sich die Abmahnstufe über viele Betroffene, und § 8c Abs. 2 Nr. 6 UWG schützt nur gegen **denselben** Abmahner |
+| **Bußgeld** | Für Brief und E-Mail **keins** (§ 20 UWG erfasst nur Telefon/Anrufmaschine gegenüber Verbrauchern). **Aber:** Der DSGVO-Kanal steht offen — Art. 83 Abs. 5, oberer Rahmen. Aufsicht ist das **ULD Kiel** (SH) bzw. der **HmbBfDI** (Hamburg) |
+
+> ⭐ **Zwei Betriebsregeln folgen unmittelbar daraus:**
+>
+> **R-K1 · Wellengröße ist auch eine Risikogröße.** Der Kostensprung
+> liegt nicht beim ersten Verstoß, sondern bei der Massenaussendung. Eine
+> Welle von 300 gleichartigen Briefen mit demselben Fehler ist nicht
+> 300 × 500 €, aber auch nicht 1 × 500 €. Das ist ein eigenständiges
+> Argument für kleine, ausgewertete Wellen — unabhängig von der
+> Kapazitätsfrage im Akquiseplan.
+>
+> **R-K2 · Keine Unterlassungserklärung ohne Prüfung und ohne
+> Modifikation.** Eingehende Abmahnung zuerst gegen § 13 Abs. 2 prüfen
+> (bei Formfehlern haben **wir** einen Kostenerstattungsanspruch), nie
+> unmodifiziert unterschreiben. Diese Regel ist **kein Rechtsrat** — sie
+> sagt nur, dass an dieser Stelle anwaltlicher Rat einzuholen ist, bevor
+> etwas unterschrieben wird.
+
 ## 9. Die roten Linien in einer Liste
 
 Zum Aushängen. Jede Zeile ist oben belegt:
@@ -750,6 +857,11 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 1. ⛔ **Keine kalte Werbe-E-Mail** — an niemanden, in keiner Formulierung.
 2. ⛔ **Keine werbliche LinkedIn-Direktnachricht**, kein Werbetext in der
    Kontaktanfrage, kein Profil-Scraping, keine Automatisierungstools.
+   ⚠️ **Kein Gegenschluss:** Die **reine Kontaktanfrage ohne Werbetext**
+   ist damit *nicht* freigegeben — die Quelle führt sie ausdrücklich als
+   „**offene Rechtsfrage mit Restrisiko** markiert, nicht als grüner Kanal"
+   (A3). Ungeklärt heißt hier wie überall: nicht erlaubt, bis geklärt
+   (Befund P-07).
 3. ⛔ **Kein Anruf ohne dokumentierten konkreten Anlass.**
 4. ⛔ **Kein Nachfass-Anruf und keine Nachfass-Mail allein deshalb, weil
    wir vorher einen Brief geschickt haben.**
@@ -779,6 +891,7 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 | **O-5** | **Nachfass-Anruf nach eigenem Brief** | In der Rechtsmatrix nicht behandelt → **ungeklärt, nicht erlaubt** (R-A7.6) | MKT-HANDEL (N-1 im Akquiseplan) |
 | **O-6** | **CRM-/Werkzeugwahl** und damit die technische Form von Liste und Sperrdatei | Ausdrücklich nicht Gegenstand dieser Session | MKT-OPS |
 | **O-7** | **Hamburg** | Keine Kreisstatistik im Bestand (§ 8) | MKT-FUND |
+| **O-8** | ⭐ **Die Interessenabwägung nach Art. 6 Abs. 1 lit. f (Stufe 3) ist nicht durchgeführt** | § 6 leistet nur Stufe 2 (Erforderlichkeit je Feld). Die Abwägung selbst — Interessen des Betriebs gegen unsere, mit Ergebnis — fehlt. **Damit sind D2 Pflicht 4 und W-b1 offen**, und zwar genau das Dokument, das unter Weg (b) das Risiko trägt (Befund P-01) | **Marketing-Session, VOR dem ersten Versand** — zusammen mit dem VVT-Eintrag (O-2), weil beide dieselbe Begründung brauchen |
 
 ---
 
@@ -797,23 +910,51 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 
 ## 12. Verifikation der Zitate
 
-Geprüft wird **nicht nur** die byte-getreue Übernahme der D3-/D2-Blöcke,
-sondern **jedes** in Anführungszeichen gesetzte Zitat ab 25 Zeichen in
-**beiden** akquise-Dokumenten — mechanisch gegen einen Quellenpool aus
-acht Repo-Dateien. Skript: `akquise/pruefe-zitate.js` (im Repo, mit
-`node akquise/pruefe-zitate.js` reproduzierbar).
+Skript: `akquise/pruefe-zitate.js` (im Repo, mit
+`node akquise/pruefe-zitate.js` reproduzierbar). Es prüft **zwei
+getrennte Dinge**, weil das eine das andere nicht mit abdeckt:
+
+1. **Zitate in Anführungszeichen** (ab 25 Zeichen, beide Dokumente) gegen
+   einen Quellenpool aus acht Repo-Dateien.
+2. **Blockzitate ohne Anführungszeichen** — die beiden D3-Kästen (§ 2.1,
+   § 2.2) und die D2-Pflichtenliste (§ 3). Sie stehen als `>`-Zitate und
+   werden vom Muster für (1) **strukturell nicht erfasst**. Für sie
+   vergleicht das Skript den Text **zwischen zwei Markern im
+   Zieldokument** zeichenweise gegen die Quelle — je Block mit eigener
+   Rückbau-Gegenprobe (verfälschte Fassung muss durchfallen).
+
+> ⚠️ **Warum Punkt 2 nachträglich dazukam — der Befund ist lehrreicher
+> als der Fix:** Die Vorfassung dieses Abschnitts behauptete, „nicht nur
+> die byte-getreue Übernahme der D3-/D2-Blöcke, sondern jedes Zitat"
+> werde geprüft. **Genau umgekehrt war es:** Die wichtigsten Übernahmen —
+> die beiden User-Entscheide — waren die einzigen, die das Muster nicht
+> erfassen konnte. Die Positivkontrolle sah trotzdem grün aus, weil ihre
+> Anker den **Quellenpool** abfragten, also die Rechtsmatrix, nicht die
+> Wiedergabe in diesem Dokument. **Ein Wächter, der seinen eigenen
+> Prüfgegenstand nie liest, gibt Entwarnung über einen Text, den er nicht
+> kennt** (CLAUDE.md: „bei jedem Wächter fragen, WELCHEN Text er liest").
+> Gefunden vom Prüfer R08-A, Befund P-02.
 
 **Ergebnis (11.08.2026, Prüfstand `df52e0c` + die Änderungen dieser
 Session):**
 
 | Größe | Wert |
 |---|---|
-| Geprüfte Zitate (beide Dokumente) | **102** |
-| Davon deklarierte eigene Formulierungen (Ausnahmeliste im Skript, je mit Begründung) | **8** |
-| **Quellenzitate wörtlich bestätigt** | **94 / 94** |
-| Positivkontrolle (Anker, die treffen MÜSSEN — je Quelldatei einer) | **7 / 7** |
+| Geprüfte Zitate (beide Dokumente) | **128** |
+| Davon deklarierte eigene Formulierungen und zitierte Fehlerfassungen (Ausnahmeliste im Skript, je mit Begründung) | **14** |
+| **Quellenzitate wörtlich bestätigt** | **114 / 114** |
+| **Blockzitate (2 D3-Kästen + D2-Liste) gegen die Quelle** | **3 / 3**, je 480 / 1.006 / 757 Zeichen verglichen |
+| **Rückbau-Gegenprobe je Block** (verfälschte Fassung muss durchfallen) | **3 / 3** |
+| Positivkontrolle — **ein Anker je Pooldatei, alle 8 abgedeckt** | **11 / 11** |
 | Gegenprobe (verfälschte Fassungen, die NICHT treffen dürfen) | **3 / 3** |
 | Selbsttest des Extraktionspfades (eigene Prüfdatei) | **bestanden** (8 extrahiert / 4 bestätigt / 4 gemeldet) |
+| Exit-Code Hauptlauf / Selbsttest | **0 / 0** |
+
+*(Die Positivkontrolle deckte in der Vorfassung nur **4 von 8**
+Pooldateien mit einem Anker ab und wurde trotzdem als „je Quelldatei
+einer — 7/7" ausgewiesen; für die halbe Vergleichsstrecke wäre ein
+stiller Totalausfall unbemerkt geblieben. Prüferbefund P-04, repariert:
+jetzt trägt jede der acht Dateien einen eigenen Anker.)*
 
 **Sechs echte Abweichungen wurden dabei gefunden und repariert** —
 Klammersetzung im F-7-Zitat, grammatisch angepasstes statt wörtliches

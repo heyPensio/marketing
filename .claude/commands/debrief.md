@@ -84,6 +84,14 @@ Methodik-Blueprint-Repo `projektgerüst`
   Abteilung wäre für das Tagesbriefing unsichtbar gewesen.
 - Kein Rückfluss-Kandidat? Ausdrücklich sagen („kein
   projektgerüst-Nachzug nötig") — Schweigen ist kein Report.
+- **⭐ Nach JEDEM Rückfluss-Block: den Kopien-Wächter laufen lassen**
+  (`node <blueprint>\tools\pruefe-kopien.js <projektpfad>`) **und im
+  selben Zug die berührten Kopien vom Master ziehen + Stempel
+  mitziehen.** Die Rückfluss-Vollständigkeit wird an der DRIFT-Liste
+  gemessen, nie an der Erinnerung — ein unvollständiger Rückfluss fiel
+  erst eine Runde später auf, als der Wächter sechs nur in den Kopien
+  lebende Lehren meldete; ohne Wächter-Lauf hätte der nächste Nachzug
+  sie überschrieben. (Herkunft: MKT R8/M1.)
 
 Grundregeln: Nur zurückschreiben, was die Session wirklich belegt hat.
 Ändert ein Learning etwas Bestehendes, die alte Stelle mit anpassen

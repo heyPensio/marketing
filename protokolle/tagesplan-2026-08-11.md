@@ -461,6 +461,22 @@ zitatkritisch, gleicher Durchgang) + Nr. 5 disponieren + Nr. 7/F-13
 Förderarchitektur. Reparaturen SICHTBAR (Kasten, nicht stille
 Neufassung). Danach: Reviews beider Richtungen nach Rücklauf A/B.
 
-## Rundenvermerk R8
+## Rundenvermerk R8 (Debrief 11.08.2026 abends)
 
-*(wird beim Debrief gefüllt)*
+**Gelaufen:** M1-Methodik-Block (Leitsession, Block 1) · R08-A
+(MKT-AKQ1, Prüfer 26/26 mit unterbrochenem Lauf, 5 Restschritte
+disponiert) · R08-B (P22 aufgelöst 72/72, P21-Teilstand) ·
+Leitsession-Strang B9.4/F-6 + beide Reviews + Postkorb-Eskalation
+kritischer Pfad. **Alle Abschlussmeldungen liegen als Dateien vor,
+beide Reviews in beide Richtungen gefahren, Debrief mit Rückschreiben
+abgeschlossen** (CLAUDE.md + Register L-21…L-24 + Blueprint `0dc102f`
++ Vier-Stellen-Sync). **Präzisierung zum R08-A-Review-Vermerk oben:**
+Die Original-DATEI (`R08-A-abschluss.md`) führte den
+Prüflauf-Abbruch samt Disposition der 5 Restschritte korrekt — nur
+die CHAT-Verdichtung der Meldung verlor den Vorbehalt
+(Zweitbeleg „Verdichten verliert den Vorbehalt", Register
+Sammelvermerk R8). **Offen als User-Handgriffe:** Modell-Statuszeilen
+R08-A + R08-B ablesen (vor Fenster-Schließen!) und nachmelden; H-1
+bis 16.08. **R9-Kandidaten:** O-8-Interessenabwägung + O-2 (vor
+erstem Versand) · Preismodell/HANDEL1 (Terminpfad ~23.10.) · Z-3
+Teil-B-Einstufungen · P21-Rest · N-8 · Kategorie-4-Rest des Prüfers.

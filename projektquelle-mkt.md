@@ -583,6 +583,13 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    `handel/kanal-rechtsmatrix.md` D3): Verfallsfrist der
    Bestandskundeneigenschaft (Vorschlag 24 Monate) · Umgang mit der
    Impressums-Sperre.
+   **→ STAND 11.08.2026 (R8): ERLEDIGT.** Beide D3-Entscheide getroffen
+   (24 Monate · Weg b, s. D3-Kästen), MKT-AKQ gestartet — Akquiseplan +
+   Listenbau-Regelwerk liegen geprüft vor (`akquise/`). **Die neuen
+   Spitzenposten stehen im R8-Changelog-Eintrag: O-8-Interessenabwägung
+   VOR dem ersten Versand · Preismodell (HANDEL1, sperrt Terminpfad ab
+   ~23.10.) · kritischer Pfad Namensentscheid (Postkorb-Eskalation
+   läuft) · Kanalmix-Festzurrung erst nach FUND2-Persona-Befund.**
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -591,8 +598,15 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    O-1…O-7 zur Referenzvereinbarungs-Vorlage · **W-17-Rest** und
    **V-1-Rest** im Wettbewerbsbild (bewusst als Träger geführt,
    Leitsessions-Entscheid: Nachprüfbarkeit ist über die gesicherten
-   Rohbelege gegeben) · **P22** (R07-E wurde nicht gefahren) ·
-   Einarbeitung der vier B9.4-Korrekturen aus R07-D.
+   Rohbelege gegeben) · ~~**P22** (R07-E wurde nicht gefahren)~~ ✅
+   R8 aufgelöst (72/72) · ~~Einarbeitung der vier B9.4-Korrekturen aus
+   R07-D~~ ✅ R8/F-6 erledigt · ~~F-15~~ ✅ beantwortet 11.08. (kein
+   WTSH-Antrag; Entwurf GEGENSTANDSLOS, Kasten dort). **Neu offen aus
+   R8:** Teil-B-Einstufung der 4 Partnerkreis-Fälle (Z-3, R9) ·
+   P21-Rest (5 dt. Kandidaten, 3 Südtirol-Träger, CH) · O-8 +
+   Kaltkontakt-Löschfrist (O-2, User-Entscheid vor VVT) ·
+   Registerauszug Ringhotels vor Außennennung (V-3) · N-8 fremde
+   Verteiler als Kanal ungeprüft (MKT-HANDEL).
 
 1. **⚠️ Terminkritisch (Zentrale, User-Handgriff Mo 10.08.):**
    StB-Anruf — GbR-Namensführung (eGbR/MoPeG) VOR Gewerbeanmeldung
@@ -708,6 +722,54 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 ---
 
 ## CHANGELOG
+
+- 11.08.2026 (R8-Debrief, zwei Arbeits-Sessions + Leitsession; davor
+  M1-Methodik-Block): **MKT-AKQ ist gestartet** — `akquise/` neu
+  (R08-A): Akquiseplan mit Rückwärtsrechnung + Listenbau-Regelwerk
+  (D3-Entscheide byte-getreu, 6 D2- + 4 Weg-b-Pflichten, 18-Felder-
+  Register, 12 rote Linien); unabhängiger Prüfer 26/26 disponiert
+  (2 KRITISCH repariert), Lauf-Status: durch Session-Limit
+  unterbrochen, 5 offene Prüfschritte einzeln disponiert.
+  ⭐⭐ **Kernbefund: Der kritische Pfad zur November-Frist läuft über
+  den NAMENSENTSCHEID, nicht über die Akquise-Kapazität** — Trichter
+  337–1.600 Briefe je Abschluss bei 1.038 SH-Betrieben; der Brief-Kanal
+  trägt die Frist nicht allein, sie hängt am nicht skalierbaren
+  persönlichen Vorkontakt; zweiter Sperrposten: ohne Preismodell ist
+  der Terminpfad ab ~23.10. zu (N-2). **Postkorb-Eskalation an die
+  Zentrale** (`zentrale\eingang\2026-08-11-mkt-kritischer-pfad-
+  namensentscheid.md`, `8d71def`). Alle Konversionsannahmen A-1…A-7
+  ungemessen (ausgewiesen); Kanalmix trägt sichtbaren FUND2-Vorbehalt.
+  · **P22 AUFGELÖST** (R08-B): 72/72 Domains ausgewertet
+  (`fund/erhebung/brandnamic-partner-vollerhebung.md`) — acht
+  Wettbewerbs-/Kanal-Kandidaten in der Technik-Liste (4 Guest-Apps →
+  P17; 4 Teil-B-Fälle → Einstufung R9); vierte Bestandszahl **74
+  FIRMEN** (Obergrenze; 2 neue Dubletten); Check-in bei ≥ 9/23
+  PMS-Anbietern Standardmodul (Untergrenze; Produkt-Befund GEPARKT,
+  Zielort heypensio via Leitsession). · **P21 offen mit Teilstand**
+  (`fund/erhebung/verbund-vollerhebung.md`): Ringhotels-Träger belegt;
+  **CPH „auch bei" Ringhotels seit 01.07.2026; „Südtirol Privat" heißt
+  heute „Südtirol Hosts" (VPS)** — Vorwärtsverweise an den Altstellen.
+  **V-5-Nenner-Entscheid der Leitsession: B11.3 steht auf 3 von 6**,
+  „überwiegend wettbewerbsbesetzt" auf den R6-Ausschnitt begrenzt —
+  je Verbund einzeln prüfen, wer ihn führt. · **B9.4: alle vier
+  R07-D-Korrekturen eingearbeitet (F-6 ✓)** + Befunde 5–7 (freie
+  Berufe · 404-Beleg-Warnung · F-13-Vorwärtsverweis Säule 5).
+  · **D3 ENTSCHIEDEN (User, AskUserQuestion im Tagesstart):** D3.1
+  **24 Monate** (Geltungsvermerk: nur Bestandskunden-Schiene, N-6) ·
+  D3.2 **Weg (b) — Impressumsdaten mit dokumentiertem Restrisiko,
+  GEGEN die Matrix-Empfehlung**; Bau-Pflichten im D3-Kasten, 5
+  Vorwärtsverweise an den gekippten Altstellen; **O-8 (Art.-6-
+  Interessenabwägung Stufe 3) ist damit das risikotragende Dokument —
+  Pflicht VOR dem ersten Versand.** · Methodik: **M1-Nachzug komplett**
+  (Stempel `baaac82`→`d2d6af7`→`08a12c5`→nach Debrief-Rückfluss
+  `0dc102f`; 20 Deltas disponiert, Wächter durchgehend 0 DRIFT;
+  Rückfluss von 6 nur in Kopien lebenden R7-Lehren; `skill-bauweise`
+  aktiviert, User-Entscheid) · Z4-Wirksamkeits-Beleg erbracht ·
+  Allowlist-Wildcard raus, `.codex`-Hook auf versionierte Kopie ·
+  Register **L-21…L-24** + Sammelvermerk R8 · Blueprint-Rückfluss R8:
+  7 Lehren (`0dc102f`). Details Prüfraum-Grenzen:
+  `protokolle/R08-A-pruefer.md` § C; Tagesplan trägt die
+  Session-Prompts (erste Anwendung Pull-Modell/Klartext-Chat — bewährt).
 
 - 10.08.2026 (R7-Debrief, vier Arbeits-Sessions + Leitsession):
   **Die R05-A-Nacharbeit ist geschlossen** (R07-A) — 24 von 26

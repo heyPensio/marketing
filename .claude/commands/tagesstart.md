@@ -286,7 +286,14 @@ einer, beim User nachfragen statt raten:
      komplett?" mit expliziten, dem GEGENSTAND angepassten Kategorien und
      Pflicht-Ergebnis je Kategorie (auch „keine Auffälligkeit") — eine
      offene „was fehlt?"-Frage findet diese Funde nicht (Herkunft:
-     heyPensio, vierfach belegt). Dazu die Positivkontrollen-Zusatzfrage
+     heyPensio, vierfach belegt). **⭐ Pflicht-Kategorie in jedem
+     Prüfauftrag mit Quellenbezug: „Was aus der Quelle ist gar nicht
+     erst angekommen?" — von der QUELLE RÜCKWÄRTS lesen:** Fehlende
+     Vorbehalte und ausgelassene Pflichten erzeugen keine auffällige
+     Textstelle im Zieldokument; drei der schwersten Befunde eines
+     Laufs waren Abwesenheiten und nur über diese Leserichtung findbar
+     (Herkunft: MKT R8, Prüfer-Selbstauskunft: ohne die Kategorie wäre
+     der Befundtyp komplett ausgefallen). Dazu die Positivkontrollen-Zusatzfrage
      an den Prüfer: **„Hättest du diese Funde auch OHNE den
      Kategorien-Hinweis gefunden?"** — misst, ob der Katalog trägt oder
      nur bestätigt (Herkunft: heyPensio L-25).

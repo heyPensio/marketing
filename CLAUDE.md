@@ -3,7 +3,9 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`08a12c5`** (Mini-Nachzug 11.08.2026
+> am 2026-08-09; Stand **`0dc102f`** (R8-Debrief-Rückfluss 11.08.2026
+> abends: 7 R8-Lehren in den Master, betroffene Kopien im selben Zug
+> gezogen, Wächter 0 DRIFT). Davor `08a12c5` (Mini-Nachzug 11.08.2026
 > nachmittags: skill-bauweise Tranche 2 — Ansatz challengen,
 > HTML-Zwischenformat, Quernutzung/Assets; ein Delta, Wächter 0 DRIFT).
 > Davor Stand `d2d6af7` (Nachzug M1, 11.08.2026 — 20
@@ -165,7 +167,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    Hindernis**. Weitere harte Regeln (alle Herkunft heyPensio, teuer belegt):
    - **Reihenfolge zwingend: add → commit → `git pull --rebase --autostash`
      → push.** Nach jedem Commit `git log`-Betreff UND `git status --short`
-     gegenlesen.
+     gegenlesen. ⚠️ **`--autostash` stasht auch FREMDE uncommittete
+     Dateien im geteilten Arbeitsbaum und spielt sie zurück** — zeigt
+     der `git status` fremde Arbeit, vor dem Pull prüfen, ob er warten
+     kann; die „Applied autostash"-Zeile gegenlesen (2× belegt 11.08.;
+     L-23).
    - **`git commit` OHNE Pfadargument committet den GESAMTEN Index — auch
      fremde, bereits gestagete Änderungen** (alle Sessions teilen einen
      Arbeitsbaum und damit einen Index; der Hook fängt diesen Fall nicht).
@@ -268,7 +274,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    **Lief ein Prüfer, meldet Block 1 seine Befunde kategorienweise MIT
    NENNER** („x von y repariert, z bewusst offen, Träger für den Rest") —
    nie nur die reparierten plus eine Auswahl; eine Kategorie ohne Nenner
-   liest sich als abgearbeitet (L-13).
+   liest sich als abgearbeitet (L-13). **Und der LAUF-STATUS des Prüfers
+   gehört in Protokoll UND Meldung:** offene Prüfschritte einzeln
+   ausweisen (nie zu „keine Auffälligkeit" geglättet) — „x/x repariert"
+   ohne Prüfraum-Status ist eine halbe Entwarnung; abgebrochene Prüfer
+   FORTSETZEN statt neu starten (L-22).
 
 ## Arbeitsregeln (Verifikation & Haltung)
 
@@ -386,6 +396,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Verkleidung); die Extraktion holt die Gliederung generisch über das
   Strukturmerkmal (L-11 — zweifach reproduziert im selben Papier,
   R5 B8.4 + R6 K-1).
+  **⭐ Eine Kontrolle trägt nur, wenn ihr Ergebnis eine erkennbare
+  UNMÖGLICHKEIT liefern kann** — zwei Werkzeugfehler flogen nur auf,
+  weil die Kontrollzahl nicht sein KONNTE; bei „90 von 99" wäre beides
+  durchgerutscht. Starke Formen: Summenprobe ohne Rest · zwei
+  unabhängige Strukturmerkmale für dieselbe Zahl · Kontrollkandidat mit
+  unabhängig bekanntem Sollwert plus schweigende Gegenrichtung.
+  (L-24; MKT R8, zwei unabhängige Fälle.)
   **⭐ Eine Quelle vollständig GELESEN zu haben und sie vollständig
   ÜBERNOMMEN zu haben sind zwei Behauptungen mit zwei Belegen** — eine
   Kontrolle „es fehlt keine Seite" übersah, dass nur 3 von 4 Pflichten des
@@ -510,6 +527,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Datei; bei jedem Wächter fragen, WELCHEN Text er liest, nicht nur, was
   er prüft (Ausgabe und Prüfgegenstand sehen im Log gleich aus; Fix nur
   mit Rückbau-Gegenprobe glauben). (Herkunft: heyPensio R34.)
+  **Vollständig lautet die Frage: welchen Text liest er — und welchen
+  NICHT?** Positivkontrollen, die über einen ANDEREN Kanal laufen
+  (Quelle statt Zieldokument), decken die Blindstelle zu — **und ein
+  Selbsttest, der denselben Extraktionspfad nutzt, ERBT dessen
+  Blindstellen statt sie zu finden** (L-21; MKT R8 P-02, überlebte
+  einen bestandenen Selbsttest).
 - **Ein Test, der nichts verändert, prüft nichts** — Testaufbauten brauchen
   ihre eigene Positivkontrolle. **Eine grüne Testzahl belegt nichts — nur
   die Rückbau-Gegenprobe belegt, dass die Tests den Fund fangen** (Fix in
@@ -766,6 +789,9 @@ hierher, nicht ins Repo.
   `claude --continue` (bzw. bei parallelen Sessions `claude --resume`).
 - Multi-Agent-Workflows nach Abbruch nie neu starten, sondern resumen
   (`resumeFromRunId`) — ein Neustart verbrennt das bezahlte Ergebnis.
+  Gilt auch für abgebrochene PRÜF-Subagenten: aus dem Transkript
+  fortsetzen („zuerst schreiben, Unfertiges als unfertig kennzeichnen";
+  L-22).
 - Der Debrief arbeitet aus den ORIGINAL-Abschlussmeldungen, nie aus der
   eigenen Merkliste — und bewährte Muster zählen wie Fallen.
 - Sicherheits-Klassifikator-Blockaden sind ein Betriebszustand: nie
@@ -777,9 +803,13 @@ hierher, nicht ins Repo.
   vor dem Melden einmal in Einzelbefehle zerlegen; und sie ist
   kontext-/zeitpunktgebunden (derselbe `git push` lief später in
   derselben Session) — ein Kanal-Negativ nicht als Dauer-Zustand
-  dokumentieren. Drittbefund R3: Die Blockade ist auch KANAL-gebunden —
-  derselbe Push lief nach doppelter PowerShell-Blockade im Bash-Kanal
-  durch (L-05-Nachtrag).
+  dokumentieren. ~~Drittbefund R3: Die Blockade ist auch KANAL-gebunden~~
+  **Korrektur (R7, doppelt bestätigt R8): Die Bindung ist PRIMÄR
+  zeitpunkt-/kontextgebunden, nicht kanalgebunden** — R8 maß beide
+  Richtungen am selben Tag (vormittags PowerShell blockiert/Bash lief;
+  nachmittags Bash blockiert/PowerShell lief). Der Kanalwechsel ist ein
+  legitimer VERSUCH, kein Mechanismus; ein A/B über zwei Kanäle trägt
+  die Falsifikation, nie den Ursachennachweis (L-05-Nachträge R3/R7/R8).
 
 ## Aktivierte Bausteine
 

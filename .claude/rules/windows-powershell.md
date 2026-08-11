@@ -30,6 +30,11 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
   dasselbe sagt, ist ein Werkzeugfehler, kein Ergebnis.
 - `curl.exe`-Ausgabe kommt als ZEILEN-ARRAY zurück, nicht als String —
   Zeichen-/Marker-Zählungen darauf sind falsch; Weg über eine Datei.
+- **Ein Exit-Code hinter einer Pipe ist der Exit-Code der PIPE** —
+  `node script.js | grep …; echo $?` meldet den grep-Status (0),
+  während das Skript mit 1 endete. Ausgabe in eine Datei, Exit-Code
+  separat lesen. (Herkunft: MKT R8; Schwesterfall zum
+  `| tail`-Exit-Code, heyPensio R33.)
 - Zeilenzahl-Kontrollen nie per `Measure-Object -Line` (zählt Leerzeilen
   nicht); belastbar ist `git diff --stat`.
 - `grep -c` zählt ZEILEN, nicht Treffer (minifizierte Dateien: immer 1);

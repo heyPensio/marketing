@@ -800,3 +800,111 @@ Projektunabhängig.
 Quellen: `protokolle/R07-A-abschluss.md`, `R07-B-abschluss.md`,
 `R07-C-abschluss.md`, `R07-D-abschluss.md`, `R07-A-pruefer.md`,
 `R07-D-pruefer.md`, Session-Verlauf Leitsession.
+
+---
+
+## L-21 — Ein Selbsttest, der denselben Extraktionspfad nutzt, ERBT dessen Blindstellen (R8, 11.08.2026)
+
+R08-A baute nach einer ersten Muster-Falle (U+201C vs. U+0022, „0 von
+99") eine Selbsttest-Datei, durch die der Produktivpfad läuft — und
+bestand sie. Der unabhängige Prüfer fand trotzdem P-02: Das Skript
+prüfte alles AUSSER den beiden D3-Kästen und der D2-Liste, weil die als
+`>`-Blockzitate ohne Anführungszeichen dastehen und das Muster sie
+strukturell nicht erfassen kann; die Positivkontrolle fragte zudem den
+QUELLENPOOL ab statt das Zieldokument. Der Selbsttest fing das nicht,
+weil er dieselbe blinde Extraktion testete. Kern: Die Wächter-Frage
+lautet vollständig „welchen Text liest er — und welchen NICHT?"; ein
+Selbsttest im selben Pfad beglaubigt nur den Pfad, nie die Abdeckung.
+Reparaturform: eigener Blockzitat-Vergleich Zieldokument↔Quelle mit
+Gegenprobe im Zieldokument (von R08-A gebaut, von der Leitsession am
+Objekt stichgeprüft). Quelle: `protokolle/R08-A-pruefer.md` P-02, § C.
+
+## L-22 — Der Lauf-Status des Prüfers gehört in Protokoll UND Meldung; abgebrochene Prüfer fortsetzen (R8, 11.08.2026)
+
+Der R08-A-Prüflauf brach nach ~247k Tokens am Session-Limit ab, OHNE
+geschriebene Datei. Die Fortsetzung aus dem Transkript (Anweisung:
+„zuerst schreiben, Unfertiges als unfertig kennzeichnen") lieferte das
+vollständige Protokoll — dessen § C (fünf offene Prüfschritte, eine
+fehlgeschlagene eigene Positivkontrolle) für die Disposition wertvoller
+war als weitere Befunde. Zwei Kerne: (1) „26/26 repariert" ohne
+Prüfraum-Status ist eine halbe Entwarnung — sie beglaubigt die
+gefundenen Befunde, nicht die Abdeckung; die Original-DATEI führte den
+Status korrekt, die CHAT-Verdichtung verlor ihn (Zweitbeleg
+„Verdichten verliert den Vorbehalt"). (2) Fortsetzen statt Neustart —
+ein Neustart hätte das bezahlte Ergebnis verbrannt. Quelle:
+`protokolle/R08-A-abschluss.md` Block 1/4, `R08-A-pruefer.md` Kopf+§ C.
+
+## L-23 — `--autostash` fasst fremde uncommittete Dateien an (R8, 11.08.2026, zwei Belege an einem Tag)
+
+Im geteilten Arbeitsbaum stasht `git pull --rebase --autostash` auch
+die uncommitteten Dateien PARALLELER Sessions und spielt sie zurück:
+morgens traf es R08-A-Arbeit (von der Session gemeldet, mit Beleg
+aufgelöst), nachmittags stashte der Pull der Leitsession
+`akquise/akquiseplan.md` einer laufenden Session („Created autostash …
+Applied autostash"). Beide Male glimpflich — aber der Rückspielschritt
+ist ein Konflikt-Risiko ohne Wächter. Kern: Zeigt der `git status`
+fremde Arbeit, vor dem Pull prüfen, ob er warten kann; die
+„Applied autostash"-Zeile IMMER gegenlesen. Quelle: Session-Verlauf
+Leitsession R8, User-Meldung R08-A.
+
+## L-24 — Eine Kontrolle trägt nur, wenn ihr Ergebnis eine erkennbare UNMÖGLICHKEIT liefern kann (R8, 11.08.2026)
+
+Zwei R08-B-Werkzeugfehler (Attributreihenfolge-Fenster; Hash-Muster auf
+zehn Hex-Zeichen genagelt) fielen ausschließlich auf, weil die
+Kontrollzahl nicht sein KONNTE („0 von 78", wo beide Attribute dieselbe
+URL tragen; „70 eindeutige Logos" bei 78 Einträgen). Bei „90 von 99"
+wäre beides sauber ausgesehen. Starke Kontrollformen: Summenprobe, die
+ohne Rest aufgehen muss (78+6+13+2=99) · zwei unabhängige
+Strukturmerkmale für dieselbe Zahl · Kontrollkandidat mit unabhängig
+bekanntem Sollwert plus Gegenrichtung, die schweigen muss. Quelle:
+`protokolle/R08-B-abschluss.md` Block 4.
+
+## Sammelvermerk R8 (11.08.2026) — Zweitbelege und bewährte Muster
+
+- **Zahlen an ihren Schlüssel binden (Zweitbeleg, diesmal die
+  Leitsession selbst):** Im R08-B-Start-Prompt stand „430.793 Bytes"
+  für `raw_partner.html` — die Zahl gehörte zu `agb.html` aus dem
+  eigenen ls-Ausschnitt; `raw_partner.html` (475.910) stand gar nicht
+  im angezeigten Head. Von R08-B gefangen (Z-7), als sichtbarer
+  Nachtrag im Tagesplan dokumentiert. Auch Prompt-Zahlen tragen
+  Schlüssel-Pflicht.
+- **L-05 doppelt vermessen:** vormittags PowerShell blockiert → Bash
+  lief (2×); nachmittags Bash blockiert (2×, auch Einzelbefehl) →
+  PowerShell lief. Die R7-Korrektur (primär zeitpunkt-/kontextgebunden)
+  ist damit beidseitig gestützt; Kanalwechsel bleibt ein legitimer
+  Versuch, kein Mechanismus. CLAUDE.md-Stelle entsprechend korrigiert.
+- **Rückfluss-Vollständigkeit an der DRIFT-Liste messen (M1-Fund,
+  jetzt debrief-Pflichtschritt):** Der R7-Rückfluss war unvollständig —
+  6 Lehren lebten nur in den Kopien; der Kopien-Wächter fand es eine
+  Runde später als 8-DRIFT-Befund. Neuer debrief-Schritt: nach jedem
+  Rückfluss Wächter-Lauf + Kopien + Stempel im selben Zug.
+- **Ein Prüfmuster, das nicht treffen kann (Zweitbelege):** U+201C
+  vs. U+0022 (R08-A, „0 Zitate geprüft" bei 99 vorhandenen — nur die
+  ausgegebene 0 machte es sichtbar) und Attributreihenfolge (R08-B,
+  unabhängige Reproduktion der MKT-R7-Klasse).
+- **Domain ≠ Firma · 404 ist kein Sachbefund · Namenslisten altern
+  lautlos:** drei Bestandslisten-Regeln aus R08-B, als Baustein-Block
+  in `quellen-beschaffung` übernommen (Dubletten easisuite=yanovis und
+  xenus=pcs-phoenix; orderando-404; CPH→Ringhotels, Südtirol
+  Privat→Hosts).
+- **Bewährt — von der Quelle RÜCKWÄRTS lesen:** drei der schwersten
+  R08-A-Prüferbefunde waren Abwesenheiten; als sechste
+  Pflicht-Kategorie „Was aus der Quelle ist gar nicht erst
+  angekommen?" in den tagesstart übernommen. Die zwei
+  Prüfer-Zusatzfragen lieferten erneut eigene Befunde (P-26 +
+  Methodik-Empfehlung).
+- **Bewährt — deklarierte Ausnahmeliste schlägt stille Toleranz**
+  (14 Ausnahmen, bei jedem Lauf mitgedruckt) · **Reparaturvermerke
+  gehören als DEKLARIERTE Ausnahmen in die Prüfung** (sie dürfen im
+  Pool gerade nicht stehen) · **Wochentags-Etikett an jede
+  Terminzeile** (vier Handgriffe landeten auf einem Sonntag, weil nur
+  der Tabelle die Spalte fehlte) · **Auslassungspunkte sind Teil des
+  Zitats** · **Vergabelinien ausformulieren** deckte Kiel/Pinneberg-
+  Inkonsistenz auf (Zweitbeleg MKT R4) · **Prompt-Prämissen selbst
+  messen** (3/3 bestätigt, R08-A) · **eine Rechnung, die die eigene
+  Planung widerlegt, ist das nützlichste Ergebnis** (Trichter- und
+  P(0)-Rechnung → kritischer Pfad Namensentscheid).
+
+Quellen: `protokolle/R08-A-abschluss.md`, `R08-B-abschluss.md`,
+`R08-A-pruefer.md`, `R08-A-befund-disposition.md`,
+`tagesplan-2026-08-11.md`, Session-Verlauf Leitsession.

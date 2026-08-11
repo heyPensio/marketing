@@ -3327,6 +3327,15 @@ entscheidbar):**
    (`weareplanet.com` und `simplify-hospitality.com` je zweimal) in
    **sieben** Kategorien mit diesen wörtlichen Überschriften
    (alle `class="MOD-Partner__title"`):
+   *(R8-Nachtrag, R08-B/Z-1: Es gibt eine VIERTE Zahl — **74 FIRMEN**.
+   Zwei Firmen-Dubletten jenseits der Doppelnennungen:
+   `easisuite.com` = `yanovis.com` [Host-Redirect, Rohabzüge
+   byte-identisch, eine Firma in zwei Kategorien] und `xenus.it` =
+   `pcs-phoenix.com` [KEIN Redirect — Identität nur im Seiteninhalt].
+   ⚠️ 74 ist eine OBERGRENZE: geprüft wurde über Redirects +
+   auffällige Inhaltsgleichheit, nicht per Registerabgleich. Jede Zahl
+   trägt ihren Schlüssel: Eintrag ≠ Domain ≠ Firma. Quelle:
+   `fund/erhebung/brandnamic-partner-vollerhebung.md` § 1.1.)*
 
 | Kategorie (Wortlaut Brandnamic) | Einträge |
 |---|---|
@@ -3666,7 +3675,13 @@ umgekehrt.
 > den erweiterten Bestand ist das Bild GEMISCHT: Der Verbund-Kanal ist
 > teils wettbewerbsbesetzt, teils verbandsgetragen. Für die
 > MKT-AKQ-Kanalbewertung heißt das: je Verbund einzeln prüfen, wer ihn
-> führt, statt die Kategorie pauschal abzuschreiben.
+> führt, statt die Kategorie pauschal abzuschreiben. **Dazu R08-B/Z-4:
+> Kohl & Partner erreicht dieselbe Zielgruppe auf DREI Wegen**
+> (Kooperationsgruppen-Trägerschaft · Brandnamic-Partnerprogramm ·
+> eigene Beratung) — die Südtiroler Parallele zum Goslar-Cluster
+> (B11.4); Einstufung der vier neuen Teil-B-Fälle aus der
+> Partnerkreis-Liste (simedia · Kohl & Partner · interalp ·
+> mts-austria) steht als Nacharbeit an (R9-Kandidat, B2-Raster).
 
 ### B11.4 ⭐ Der Fall AKZENT: die Kooperation ist selbst der Anbieter
 

@@ -121,6 +121,20 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   **Und „letzter Header davor" taugt nicht zur Abschnitts-Zuordnung in
   Normtexten** — Querverweise sehen aus wie Überschriften; belastbar ist
   der Kontrast der Absatz-Einleitungen. (Herkunft: MKT R7.)
+- **⭐ Bestandslisten-Erhebung (Herkunft: MKT R8, je am Objekt belegt):**
+  (1) **Eine Domain-Zählung ist keine Firmenzählung** — die
+  Redirect-Gegenprobe findet Host-Redirects, aber keine
+  Konzern-/Produktverbünde ohne Redirect (eine von zwei Dubletten fiel
+  nur beim Titel-Lesen auf); nach der Domain-Frage IMMER die
+  Firmen-Frage stellen und den Zählschlüssel (Eintrag ≠ Domain ≠ Firma)
+  an jede Zahl schreiben. (2) **Ein Fehlercode ist kein Sachbefund** —
+  jede nicht-200-Antwort braucht einen zweiten Versuch (Root-Domain,
+  anderer Pfad), bevor die Zeile gewertet wird: Ein 404 auf der
+  hinterlegten URL hätte sonst einen Kernbefund gekostet. (3) **Eine
+  Namensliste altert lautlos** — das Artikeldatum der Quelle ist Teil
+  des Befunds; Re-Verifikation läuft über die DOMAIN, nie über eine
+  erneute Namenssuche (zwei Verbünde einer 2021er-Liste waren 2026
+  fusioniert bzw. umbenannt — unter dem Altnamen unauffindbar).
 - **Für Kategorien-/Bestandsfragen zuerst die INSTITUTIONELLE Quelle
   suchen** (Landesagentur, Verband, Register), dann Anbieter — eine
   Landesagentur-B2B-Seite lieferte sieben Verbünde in einem Abruf,

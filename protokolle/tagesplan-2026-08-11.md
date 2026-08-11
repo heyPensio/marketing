@@ -422,6 +422,32 @@ Korrekturen eingearbeitet, plus 3 ungenutzte R07-D-Nebenbefunde.
 > Kopfzeile „Token-Verbrauch: von der Session nicht erhebbar —
 > Subagenten-Zahlen soweit bekannt: …".
 
+> **📌 Nachtrags-Kasten R08-A (nach Abschluss, ~17:xx):** Session
+> abgeschlossen — `akquise/` mit Akquiseplan + Listenbau-Regelwerk,
+> Commits `d11535f`→`616e708`→`6e4daa5`→`d0d9437`; Prüfer 26/26
+> disponiert (2 K · 15 W · 8 H · 1 Zusatz; Kategorien am Protokoll
+> nachgezählt ✔). **Review-Vermerk der Leitsession:** (1) ⚠️ Der
+> unabhängige Prüflauf wurde durch ein Session-Limit UNTERBROCHEN —
+> § C des Protokolls weist offene Prüfschritte aus (Zahlen-Kategorie
+> unvollständig, `baseline-messplan.md` ungelesen, Rückbau-Gegenprobe
+> nicht abgeschlossen); die Abschlussmeldung nannte das nicht. „26/26
+> repariert" gilt je GEFUNDENEM Befund, der Prüfraum hat benannte
+> Lücken → Erhebungsgrenze im Rundenvermerk, Rest-Prüfschritte =
+> Kandidat nächste Runde. (2) P-02-Reparatur am Objekt stichgeprüft:
+> Skript liest die Blockzitate jetzt im ZIELDOKUMENT inkl. eingebauter
+> Gegenprobe ✔. (3) N-6/N-7 sofort nachgezogen (D3.1-Geltungsvermerk ·
+> 5 Vorwärtsverweise an den vom Weg-b-Entscheid gekippten
+> Rechtsmatrix-Stellen — Versäumnis der Leitsession beim D3-Nachtrag,
+> Debrief-Kandidat). (4) **Kernbefund eskaliert:** Postkorb-Meldung
+> `zentrale\eingang\2026-08-11-mkt-kritischer-pfad-namensentscheid.md`
+> (`8d71def`, gepusht) — kritischer Pfad der November-Frist =
+> Namensentscheid; zweiter Sperrposten Preismodell ab ~23.10 (N-2).
+> (5) ⚠️ Modellangabe fehlt auch hier — **User-Handgriff: Statuszeile
+> im R08-A-Fenster ablesen, bevor es geschlossen wird.** (6) O-8
+> (Interessenabwägung Stufe 3) ist unter Weg b das risikotragende
+> Dokument — Pflichtposten VOR dem ersten Versand, Träger nächste
+> AKQ-Session.
+
 ### Leitsession-Strang (Shanks, Buchstabe frei gelassen)
 
 B9.4-Durchgang in `fund/wettbewerbsbild.md`: die vier R07-D-Korrekturen

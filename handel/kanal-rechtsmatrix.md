@@ -165,7 +165,7 @@ Grundfall jeder Zeile: **ein Hotelbetrieb, den wir nicht kennen, ohne Vorbeziehu
 | Pflicht | Kern |
 |---|---|
 | **Rechtsgrundlage** | Art. 6 Abs. 1 lit. f — Abwägung dokumentieren. **Ist der Kanal nach UWG gesperrt, fehlt bereits das berechtigte Interesse** |
-| **Adressquelle** | ⛔ **Impressumsdaten dürfen nach Aufsichtsauffassung nicht für Werbung genutzt werden** — trifft die naheliegendste Quelle |
+| **Adressquelle** | ⛔ **Impressumsdaten dürfen nach Aufsichtsauffassung nicht für Werbung genutzt werden** — trifft die naheliegendste Quelle. *(Betriebsfolge überholt durch D3-Entscheid 2 v. 11.08.2026, Weg b: Nutzung mit dokumentiertem Restrisiko + Bau-Pflichten — die Aufsichtsauffassung bleibt gegenläufig; s. D3-Kasten)* |
 | **Information (Art. 14)** | 13 Pflichtangaben; **die Monatsfrist läuft ab Listenaufbau**, nicht ab Kontaktaufnahme |
 | **Widerspruch (Art. 21)** | absolut, ohne Abwägung; abgesetzter Hinweis in jeder Aussendung; Sperrdatei statt Löschung |
 | **Organisation** | Verarbeitungsverzeichnis (KMU-Ausnahme greift **nicht**), AVV, Löschkonzept, Auskunftsprozess |
@@ -580,7 +580,7 @@ Wo die DSGVO greift, gelten **Art. 14** (Informationspflicht, Frist ab Listenauf
 - **Der Brief ist unser tragfähigster Erstkontakt-Kanal in die Kaltakquise.** Er ist der einzige, der ohne Einwilligung auskommt — mit einem amtlichen BGH-Leitsatz zu seinen Gunsten und ohne ein einziges auffindbares Verbotsurteil zu B2B-Kaltpost.
 - **Adressiert wird an die Firma, nicht an eine namentlich benannte Person** — das hält bei Kapitalgesellschaften die DSGVO aus dem Spiel. Bei Einzelunternehmen und Personengesellschaften greift sie trotzdem.
 - **Sobald personalisiert wird, müssen Art.-14-Information und Art.-21-Abs.-4-Widerspruchshinweis IN den ersten Brief** — optisch vom Werbetext getrennt. Genau daran ist die Beklagte im Düsseldorfer Verfahren gescheitert. Das ist kein Formalismus, sondern der einzige Punkt, an dem Briefwerbung 2026 nachweislich untersagt wurde.
-- **Die Adressen dürfen nicht aus Impressen stammen** (Teil C) und nicht aus Quellen mit Werbenutzungsverbot (Achse 3).
+- **Die Adressen dürfen nicht aus Impressen stammen** (Teil C) und nicht aus Quellen mit Werbenutzungsverbot (Achse 3). *(→ ÜBERHOLT durch D3-Entscheid 2 v. 11.08.2026, Weg b: Impressumsdaten werden mit dokumentiertem Restrisiko genutzt — Bau-Pflichten im D3-Kasten; das Werbenutzungsverbot fremder Quellen [Achse 3] bleibt unberührt.)*
 - **Die Aufmachung ist das eigentliche UWG-Risiko**, nicht der Kanal: keine Formular-, Rechnungs- oder Vertragsverlängerungs-Anmutung, kein fingierter Persönlichkeitseindruck, keine falschen Dringlichkeitsaufdrucke. Der Werbecharakter muss nach dem Öffnen sofort erkennbar sein.
 - **Datenherkunft je Adresse dokumentieren** — Art. 14 Abs. 2 lit. f verlangt die Quellenangabe im Brief; ohne Herkunftsprotokoll ist die Pflicht nicht erfüllbar.
 - **Ein Sperrregister ist Pflicht**, sobald der erste Widerspruch eingeht — kanalübergreifend. Nach einem Widerspruch dürfen **keine neuen Druckaufträge** mehr starten.
@@ -698,7 +698,7 @@ Das trifft die naheliegendste Quelle für eine Hotel-Zielkundenliste frontal —
 
 | Quelle | Bewertung |
 |---|---|
-| **Impressum einer Hotelwebsite** | ⛔ nach Aufsichtsauffassung für Werbezwecke gesperrt |
+| **Impressum einer Hotelwebsite** | ⛔ nach Aufsichtsauffassung für Werbezwecke gesperrt *(Betriebsfolge: D3-Entscheid 2, Weg b — Nutzung mit dokumentiertem Restrisiko, s. D3-Kasten)* |
 | Freiwillige Kontakt-/Partnerseite, Branchen- und Verbandsverzeichnisse | ✅ deutlich tragfähiger — Achse 3 (Nutzungsbedingungen) separat prüfen |
 | **IHK-Designkontor-Anbieterliste** | ⛔ trägt ausdrücklich „Die Daten dürfen nicht zu Werbezwecken genutzt werden" (Befund R05-A) |
 | Anreicherung, Werbescores aus externen Quellen | ⛔ scheitert an der Erforderlichkeit; die Aufsicht sieht darin „in der Regel" ein Überwiegen der Betroffeneninteressen |
@@ -756,7 +756,7 @@ Neben UWG und DSGVO steht die Frage, ob die **Quelle** ihre Nutzung erlaubt. Dre
 - **Nutzungsbedingungen.** Ohne Vertragsschluss keine AGB (§ 305 Abs. 1 BGB) — ein Scraping-Verbot in den AGB eines frei abrufbaren Verzeichnisses ohne Registrierungszwang und ohne technische Sperre läuft weitgehend leer. **Sobald aber eine Registrierung dazwischentritt**, ist der Vertrag geschlossen und das Verbot wirksam.
 - **Technische Sperren.** Das Umgehen von Login, Paywall, API-Key, IP-Sperre oder CAPTCHA ist die klare rote Linie — lauterkeitsrechtlich und nach § 202a StGB.
 
-**Betriebsregel in einem Satz:** Frei zugängliche Seiten ohne Registrierung und ohne Umgehung technischer Sperren auslesen ist vertretbar — unzulässig wird es, sobald ein Verzeichnis in seinem relevanten Ausschnitt **rekonstruiert** wird, eine **Registrierung** einen Vertrag begründet oder eine **technische Sperre** umgangen wird. Die DSGVO-Achse läuft zusätzlich und sperrt Impressumsdaten unabhängig davon.
+**Betriebsregel in einem Satz:** Frei zugängliche Seiten ohne Registrierung und ohne Umgehung technischer Sperren auslesen ist vertretbar — unzulässig wird es, sobald ein Verzeichnis in seinem relevanten Ausschnitt **rekonstruiert** wird, eine **Registrierung** einen Vertrag begründet oder eine **technische Sperre** umgangen wird. Die DSGVO-Achse läuft zusätzlich und sperrt Impressumsdaten unabhängig davon *(Betriebsfolge der Impressums-Sperre seit 11.08.2026: D3-Entscheid 2, Weg b — s. D3-Kasten)*.
 
 ---
 
@@ -774,7 +774,7 @@ Die Matrix schließt genau die Kanäle, die eine Zielkundenliste am schnellsten 
 | **4** | **Eingehende Anfragen erzeugen** | Website, Sichtbarkeit, Verzeichniseinträge. Der BGH deckt genau diese Richtung ausdrücklich (A1) |
 | **5** | **Newsletter mit eigener Anmeldung** | Wirkt erst mit Reichweite — als Nurture-Kanal, nicht als Akquise-Einstieg |
 
-**Was ausscheidet:** kalte E-Mail, LinkedIn-Direktnachrichten mit Werbetext, gekaufte oder gescrapte Listen, Impressumsdaten als Adressquelle, Anreicherung und Scoring.
+**Was ausscheidet:** kalte E-Mail, LinkedIn-Direktnachrichten mit Werbetext, gekaufte oder gescrapte Listen, ~~Impressumsdaten als Adressquelle~~ *(ÜBERHOLT durch D3-Entscheid 2 v. 11.08.2026, Weg b — Impressumsdaten werden mit dokumentiertem Restrisiko und Bau-Pflichten genutzt, s. D3-Kasten)*, Anreicherung und Scoring.
 
 ⚠️ **Terminbezug:** Der Zielkorridor „erster zahlender Kunde bis Mitte November 2026" muss mit diesem Kanalmix erreicht werden. **Brief und persönlicher Kontakt haben längere Vorlaufzeiten als E-Mail** — das gehört in die Kapazitätsplanung von MKT-AKQ, bevor der Zielkundenlisten-Bau startet.
 
@@ -800,6 +800,16 @@ Diese Punkte haben Außenwirkung und werden nicht von der Session festgelegt (CL
    > `protokolle/tagesplan-2026-08-11.md` dokumentiert. Wirksam ab dem
    > ersten Kunden; der Erhebungs-Hinweis nach § 7 Abs. 3 Nr. 4 UWG
    > gehört ab sofort in jedes Bestell-/Vertragsformular (A5).
+   >
+   > ⚠️ *Geltungsvermerk nachgeschärft (11.08.2026 nachmittags, Befund
+   > R08-A/N-6 — Vorfassung oben bleibt sichtbar): Der Satz „zugleich
+   > die dokumentierte Löschfrist fürs Verarbeitungsverzeichnis" gilt
+   > NUR für die BESTANDSKUNDEN-Schiene (§ 7 Abs. 3 UWG). Die
+   > Löschfrist der KALT-Zielkundenliste ist ein eigener Posten des
+   > VVT-Eintrags (D2 Punkt 3, Maßstab Art. 5 Abs. 1 lit. e DSGVO) und
+   > wird im Listenbau-Regelwerk begründet — die 24 Monate dürfen
+   > nicht als pauschale Kaltkontakt-Aufbewahrungsfrist gelesen
+   > werden.*
 2. **Umgang mit der Impressums-Sperre.** Die Aufsichtsauffassung schließt die naheliegendste Adressquelle. Drei Wege: (a) konservativ — nur freiwillig veröffentlichte Kontaktseiten und Verzeichnisse nutzen; (b) Risiko bewusst tragen und dokumentieren; (c) anwaltlich klären lassen. **Empfehlung: (a)**, weil der Aufwandsunterschied gering und das Risiko real ist.
    > ✅ **ENTSCHIEDEN (Nachtrag 11.08.2026): Weg (b) — Risiko bewusst
    > tragen und dokumentieren.** Der User hat sich GEGEN die

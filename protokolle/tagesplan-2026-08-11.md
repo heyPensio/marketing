@@ -165,6 +165,260 @@ später; Lehre: Rückfluss-Vollständigkeit gegen die DRIFT-Liste prüfen,
 nicht gegen die Erinnerung) · L-05-Doppelbeleg · Heredoc-Backslash-
 Falle (Bash-Heredoc nach JSON verschluckt `\\` → Write-Tool nutzen).
 
+## Block 2 — ab 14:20 · SCHARF (R8-Schnitt)
+
+**Kurzcheck 14:20:** Dienstag-Nachmittag, Erreichbarkeitsfenster offen
+(heute aber keine Außenkorrespondenz durch Sessions). Kein neues
+Briefing seit dem Vormittags-Slot (Listing `zentrale\briefings\`
+14:21). User-Zuruf: „mach weiter" — **Blockwechsel OHNE
+Leitsession-Neustart ist User-Entscheid** (Regel-Snapshot-Risiko klein:
+die Deltas hat diese Session selbst geschrieben; als Schuld vermerkt).
+Repo clean, up to date.
+
+**Mini-Nachzug 14:25 (Commit `d2de0d4`):** Blueprint war seit dem
+M1-Stempel um EIN Delta weitergelaufen (`08a12c5`, skill-bauweise
+Tranche 2 — betraf ausgerechnet den vormittags aktivierten Baustein,
+Wächter meldete 1 DRIFT). Kopie gezogen, Stempel auf `08a12c5` im
+selben Commit, Wächter wieder „SYNCHRON: 12".
+
+**⚠️ Korrektur des Block-1-Übergabe-Vermerks (L-05):** Der R7-Debrief
+trägt eine L-05-Korrektur (Projektquelle, Changelog 10.08.): Die
+Klassifikator-Blockade ist **primär zeitpunkt-, nicht kanalgebunden** —
+der R3-Bash-Ausweg trug damals nicht. Der Block-1-Satz „Kanal-Bindung
+erneut bestätigt" war zu stark: Gemessen ist nur „2× PowerShell
+blockiert → unmittelbar folgender Bash-Lauf lief durch"; ob Kanal oder
+Zeitpunkt entschied, ist damit NICHT belegt (A/B über zwei Kanäle trägt
+die Falsifikation, nie den Ursachen-Nachweis).
+
+**R8-Schnitt (Strang-Tabelle, Stand 14:35):**
+
+| Session | Rolle | Strang | Scope (Schreibrechte) | Exklusive Systeme | Review-Regime | Modell (User-Wahl, nachdok.) |
+|---|---|---|---|---|---|---|
+| **R08-A** | Ben Beckman | MKT-AKQ1: Akquiseplan + Listenbau-Regelwerk | `akquise/**` (NEU — legt das Verzeichnis an) · `protokolle/R08-A-*` | keine | **Voll-Review** (unabhängiger Prüfer, außenwirksam-nah) | *offen* |
+| **R08-B** | Yasopp | P22 Brandnamic-Vollerhebung, dann P21 Verbünde | `fund/erhebung/brandnamic-partner-vollerhebung.md` (neu) · `fund/erhebung/verbund-vollerhebung.md` (neu, nur falls P21 erreicht) · `protokolle/R08-B-*` · `sensibel/rohbelege-R08-B/` | **Web/Chrome** | Kurzraster + Positivkontrollen im Lauf | *offen* |
+| *(Leit, Buchstabe frei)* | Shanks | B9.4-Korrekturen 1–4 + R07-D-Nebenbefunde 5–7 (Nr. 6 zitatkritisch) + F-6/F-13-Vermerke · danach Reviews beider Richtungen | `fund/wettbewerbsbild.md` · `fund/positionierungspapier.md` · `handel/foerderarchitektur-beraterrolle.md` (nur F-6-Vermerk) · Tagesplan · Wahrheits-Kanal | — | — | Fable 5 (Statuszeile bestätigt User) |
+| — | — | ⛔ NICHT Teil dieser Runde: Kanalbewertung P15/P19-Folge (liegt IN R08-A-Ergebnis), D3.3-Einwilligungstext, Adress-Erhebung/Listenbau | | | | |
+
+**Disjunktheits-Prüfung (3 Paare, Datei-Ebene):** A∩B = ∅ · A∩Leit = ∅
+(A liest `handel/`/`fund/` nur) · B∩Leit: beide berühren `fund/`, aber
+B schreibt ausschließlich NEUE Dateien unter `fund/erhebung/`, Leit
+schreibt `wettbewerbsbild.md`/`positionierungspapier.md` —
+**B fasst `wettbewerbsbild.md` NICHT an** (Befunde via Abschlussmeldung,
+Einarbeitung Leitsession). `fund/erhebung/` existiert bereits (kein
+Verzeichnis-Anlage-Konflikt); `akquise/` legt allein R08-A an.
+
+**Bestandsprüfungs-Subagent (gelaufen 14:25–14:30):** Kernbefunde in
+die Prompts eingearbeitet — Rohbeleg-Pfad R05-A (an der Quelle
+nachgemessen: Datei existiert, 99 Marker-Treffer) · FUND2-Vorbehalt
+Kanalmix · R07-E-Prompt existiert nicht als Volltext (nur
+Tabellen-Zuschnitt; Pfad-Konvention übernommen) · B9.4: 0 von 4
+Korrekturen eingearbeitet, plus 3 ungenutzte R07-D-Nebenbefunde.
+
+---
+
+## Session-Prompts R8 (Single Source — Sessions lesen HIER)
+
+### Strang R08-A (Ben Beckman) — MKT-AKQ1
+
+> Parallel-Session „R08-A" (Leitsession läuft separat, Multi-Session-
+> Modell lt. CLAUDE.md). Session-Start: `git pull`; dein tatsächliches
+> Modell verifizierst du NUR per Statuszeile und nennst es in der
+> Abschlussmeldung.
+>
+> **Aufgabe:** MKT-AKQ starten — zwei Deliverables in einem NEUEN
+> Verzeichnis `akquise/` (lege es an; es existiert nicht — von der
+> Leitsession geprüft 11.08. 14:20, Platte + Git-Historie):
+>
+> 1. **`akquise/akquiseplan.md`** — Kanal-Kapazitätsplan mit
+>    Rückwärtsrechnung auf das Ziel „erster zahlender Kunde bis Mitte
+>    November 2026" (Frist gilt für den ABSCHLUSS, E4). Je Kanal der
+>    D1-Rangfolge (`handel/kanal-rechtsmatrix.md` D1: Brief ·
+>    persönlicher Vorkontakt→Telefon · fremde Verteiler · eingehende
+>    Anfragen · Newsletter): Vorlauf, Aufwand pro Kontakt, realistische
+>    Taktung, was bis wann gebaut sein muss. Muster für die
+>    Rückwärtsrechnung: `beleg/baseline-messplan.md` § 5 (konservativer
+>    Planungsanker + Erfragungs-Handgriff; als bewährtes Muster im
+>    `lehren-register.md` geführt). KPI-Vorbestand:
+>    `protokolle/R00-planpruefung-2026-08-09.md` § (e) — 5 Funnel-KPIs
+>    mit Zielwertvorschlägen; als VORSCHLAG übernehmen, nicht als
+>    beschlossen ausgeben.
+> 2. **`akquise/listenbau-regelwerk.md`** — die operative
+>    Zusammenführung ALLER bestehenden Listenbau-Vorgaben zu EINEM
+>    Regelwerk: die 6 D2-Bau-Pflichten + die 4 D3.2-Weg-b-Pflichten
+>    (dokumentierte Abwägung je Datenfeld · Quellenprotokoll je Adresse
+>    inkl. Impressum-Kennzeichnung · Werbesperrdatei vor dem ersten
+>    Versand · Restrisiko-Vermerk im VVT) + die fünf kanalweisen
+>    „Was das für unsere Zielkundenliste heißt"-Blöcke (A1/A2/A5/A6/A7
+>    der Rechtsmatrix) + Zielkundenlisten-FELDSTRUKTUR (jedes Feld
+>    besteht die Erforderlichkeitsprüfung einzeln — C2 Stufe 2) +
+>    Gebietspriorisierung aus
+>    `fund/erhebung/regionalstatistik-groessenklassen.md` § 4.4
+>    (Nordfriesland + Ostholstein = 40,1 % der SH-Betriebe; zweimal
+>    geparkt mit Vermerk „Zielort existiert noch nicht" — dieser
+>    Zielort bist du).
+>
+> **Harte Grenzen:** (a) ⚠️ **FUND2-Sequenz-Vorbehalt:** CLAUDE.md und
+> Projektquelle legen fest, dass der Kanalmix NACH dem Persona-Befund
+> festgezurrt wird — `fund/persona-befund.md` existiert nicht, die
+> D1-Rangfolge ist RECHTLICH hergeleitet, nicht persona-validiert.
+> Beide Dokumente tragen deshalb einen SICHTBAREN Vorbehalt
+> („Arbeitsgrundlage auf Rechtsmatrix-Basis; Festzurrung nach
+> FUND2-Persona-Befund") — du hebst den Vorbehalt NICHT selbst auf.
+> (b) KEINE Adressen erheben, kein Listenbau, keine Anbieter-/
+> Dienstleister-Auswahl — erst das Regelwerk. (c) D3.3
+> (Einwilligungstext) bleibt offen — nicht mitentscheiden. (d) Die
+> D3-Entscheide (24 Monate · Weg b) übernimmst du BYTE-getreu aus den
+> Nachtrags-Kästen der Rechtsmatrix mit Quellverweis — nicht
+> paraphrasieren, Vorbehalte zuerst übernehmen, dann Sätze bauen.
+> (e) Wo die Sachlage streitig oder unbelegt ist, ist „streitig"/
+> „unbelegt" der Eintrag, nicht der bequemere Pol.
+>
+> **Dein Scope (Schreibrechte):** `akquise/**` (neu) +
+> `protokolle/R08-A-*`. Alles andere nur lesen — ausdrücklich NICHT
+> anfassen: `handel/`, `fund/`, Projektquelle, STATUS.md, CLAUDE.md,
+> Skills/Commands. Kein eigener Debrief. Exklusive Systeme: keine.
+> Fremde uncommittete Dateien im `git status` ignorieren.
+>
+> **Git:** Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; Reihenfolge zwingend
+> add → commit → `git pull --rebase --autostash` → push als
+> `git push origin <dein-hash>:main` (CLAUDE.md Regel 3).
+>
+> **Prüfer (Pflicht, Voll-Review):** Nach dem ersten vollständigen
+> Stand beider Dokumente: committe, notiere den Commit-Hash und
+> beauftrage EINEN unabhängigen Prüf-Subagenten mit frischem Kontext.
+> Sein Auftrag: BEIDE Dokumente GANZ lesen und gegen
+> `handel/kanal-rechtsmatrix.md` (ganze Datei) quervergleichen —
+> eingefrorener Prüfstand: dein genannter Commit-Hash; Schreibrecht
+> nur auf `protokolle/R08-A-pruefer.md`. Pflicht-Kategorien mit
+> Ergebnis je Kategorie (auch „keine Auffälligkeit"): (1) Widerspruch
+> zur Rechtsmatrix/den D3-Kästen · (2) fehlende D2-/D3.2-Pflicht ·
+> (3) Zahl ohne Zählweg/Quelle · (4) Vorbehaltsverlust beim
+> Verdichten (Verdichten-Regel: Abgleich Satz für Satz gegen die
+> Quelle) · (5) FUND2-Vorbehalt vorhanden und unaufgeweicht? Dazu die
+> Zusatzfragen: „Welche Verfälschung hätte dein Verfahren NICHT
+> gefangen?" und „Hättest du deine Funde auch OHNE die Kategorien
+> gefunden?". Wo streitig: „streitig" ist der Eintrag. **Danach
+> disponierst du JEDEN Prüferbefund** (repariert / ausdrücklich
+> verworfen mit Grund / benannter Träger).
+>
+> **Fertig-Kriterium:** Beide Dokumente committet + gepusht;
+> Prüferprotokoll liegt vor; alle Prüferbefunde disponiert.
+> **Abschlussmeldung in VIER Blöcken** (gebaut/verifiziert mit
+> Commit-Hashes+Pfaden · offen geblieben · Nebenbefunde außerhalb des
+> Auftrags — was einem anderen Strang gehört · Stolpersteine/Learnings
+> getrennt nach (i) Fallen und (ii) bewährten Mustern), zusätzlich
+> committet als `protokolle/R08-A-abschluss.md` mit Kopfzeile
+> „Token-Verbrauch: von der Session nicht erhebbar —
+> Subagenten-Zahlen soweit bekannt: …". **Prüferbefunde meldest du
+> kategorienweise MIT NENNER** („x von y repariert, z bewusst offen
+> mit Grund, Träger für den Rest") — nie nur die reparierten plus
+> eine Auswahl.
+
+### Strang R08-B (Yasopp) — P22 Brandnamic-Vollerhebung, dann P21
+
+> Parallel-Session „R08-B" (Leitsession läuft separat, Multi-Session-
+> Modell lt. CLAUDE.md). Session-Start: `git pull`; dein tatsächliches
+> Modell verifizierst du NUR per Statuszeile und nennst es in der
+> Abschlussmeldung.
+>
+> **Aufgabe (P22 ZUERST, P21 nur nach Kapazität):** Die ungeprüften
+> Brandnamic-Partner am gesicherten Rohbeleg auswerten — Erbe des nie
+> gefahrenen R07-E.
+>
+> **Rohbeleg (Prämisse von der Leitsession nachgemessen 14:35):**
+> `sensibel/rohbelege-R05-A/a2/raw_partner.html` (430.793 Bytes,
+> 09.08.) — NICHT im R06-Ordner. ⚠️ **Die Partnernamen stehen NUR im
+> Markup** (`data-gtm-label`-Attribute; 99 Marker-Zeilen per grep -c
+> gemessen — deine eigene Zählung macht den belastbaren Zählweg): Die
+> Textfassung `txt_partner.txt` trägt KEINE Namen — wer sie nimmt,
+> findet nichts (Fehlerklasse B10.4/B11.7). Roh-HTML parsen,
+> GENERISCH über das Strukturmerkmal (nicht über eine Namensliste).
+>
+> **Schritt 1 — Zählweg-Klärung (vor jeder Auswertung):** Der Bestand
+> trägt drei Zahlen: B10.1 „78 Logo-Einträge/76 Domains (2
+> Doppelnennungen)" · Registerzeile „74 ungeprüft" · Prüferbefund
+> R06-A/K-21 „74 Einträge, aber 72 Domains". Eigene Zählung am
+> Rohbeleg mit dokumentiertem Zählweg; jede Zahl an ihren SCHLÜSSEL
+> gebunden (Eintrag ≠ Domain ≠ Firma). Erst wenn deine Zählung steht,
+> beginnt die Auswertung.
+>
+> **Schritt 2 — Auswertung je Eintrag** in NEUER Datei
+> `fund/erhebung/brandnamic-partner-vollerhebung.md` (Pfad-Konvention
+> aus dem R07-E-Zuschnitt, Tagesplan 10.08. Strang-Tabelle): Kategorie
+> (die 7 aus B10.1 mit wörtlichen Überschriften) · was der Anbieter
+> tut · Nähe zu unserem Feld (Check-in/Zutritt/Gästekommunikation/
+> Payment-Kopplung) · Einstufung mit Beleg-Typ ZWEIACHSIG (Leseweg ·
+> Quellenart). Die 5 vorsortierten Namen (chatlyn, customer-alliance,
+> guest.net, reguest.io, mergeport) gehören in deine AUSSCHLUSS-/
+> Vorbefund-Liste, NICHT in den Suchauftrag (Vorbefunde machen die
+> Recherche sonst zur Verifikation). Bereits geprüft und NICHT neu zu
+> erheben: straiv, flexipass, hoteldoor, iiq check (B10.2/B10.3).
+> Web-Recherche je Partner-Domain: **billigsten Kanal zuerst messen**
+> (curl/WebFetch; `__NEXT_DATA__`-Muster prüfen) — Chrome ist dir
+> exklusiv zugeteilt als ERLAUBNIS, nicht als Vorgabe. Neue Rohabzüge
+> ausschließlich nach `sensibel/rohbelege-R08-B/` (NIE in den
+> R05-A-Ordner — L-20: fremde Runden-Ordner lassen Bestandszahlen
+> still altern).
+>
+> **Positivkontrollen (Pflichtform):** (a) Extraktions-Vollständigkeit:
+> straiv, flexipass UND die weareplanet-Doppelnennung müssen in deiner
+> Liste erscheinen, sonst ist die Extraktion unvollständig; (b) je
+> Prüfkanal ein benannter Kontrollkandidat; (c) die Vollzähligkeit der
+> GLIEDERUNG (7 Kategorien) generisch über das Strukturmerkmal belegen,
+> nicht gegen die notierte Liste. Ein Muster, das nicht treffen KANN,
+> sieht wie ein Negativ aus — bei „nicht gefunden" zuerst das Muster
+> verdächtigen.
+>
+> **Schritt 3 — P21 (nur wenn Kapazität bleibt):** Verbund-
+> Vollerhebung in NEUER Datei `fund/erhebung/verbund-vollerhebung.md`:
+> die 7 offenen deutschen Kandidaten der Fachmedienliste (B11.2) ·
+> Trägerschaft der 5 ungeprüften Südtiroler Verbünde (IDM-Liste) ·
+> Schweiz über den fertigen Beschaffungsvorschlag (HotellerieSuisse
+> statt GastroSuisse, Registerzeile P21). Institutionelle Quellen vor
+> Anbieterquellen. ⚠️ Die KANALBEWERTUNG (lohnt der Verbund-Kanal?)
+> ist NICHT dein Auftrag — sie gehört MKT-AKQ (B11.7/B11.8).
+>
+> **Dein Scope (Schreibrechte):**
+> `fund/erhebung/brandnamic-partner-vollerhebung.md` (neu) ·
+> `fund/erhebung/verbund-vollerhebung.md` (neu, nur falls P21) ·
+> `protokolle/R08-B-*` · `sensibel/rohbelege-R08-B/`. **`fund/
+> wettbewerbsbild.md` fasst du NICHT an** (dort schreibt heute die
+> Leitsession) — Register-Nachträge (P21/P22-Zeilen) meldest du in
+> der Abschlussmeldung, die Einarbeitung macht die Leitsession. NICHT
+> anfassen: Projektquelle, STATUS.md, CLAUDE.md, Skills/Commands;
+> kein eigener Debrief. Fremde uncommittete Dateien ignorieren.
+>
+> **Git:** Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; Reihenfolge add →
+> commit → `git pull --rebase --autostash` → push als
+> `git push origin <dein-hash>:main` (CLAUDE.md Regel 3). `sensibel/`
+> ist git-ignoriert und wird nie committet.
+>
+> **Fertig-Kriterium:** Vollerhebung committet + gepusht mit
+> Verifikationsgrad MIT NENNER („x von y Einträgen ausgewertet, Rest
+> mit Grund"), Zählweg dokumentiert, Positivkontrollen (a)–(c)
+> bestanden und im Dokument ausgewiesen. **Abschlussmeldung in VIER
+> Blöcken** (gebaut/verifiziert mit Commit-Hashes+Pfaden · offen
+> geblieben · Nebenbefunde außerhalb des Auftrags · Stolpersteine/
+> Learnings getrennt nach (i) Fallen und (ii) bewährten Mustern),
+> zusätzlich committet als `protokolle/R08-B-abschluss.md` mit
+> Kopfzeile „Token-Verbrauch: von der Session nicht erhebbar —
+> Subagenten-Zahlen soweit bekannt: …".
+
+### Leitsession-Strang (Shanks, Buchstabe frei gelassen)
+
+B9.4-Durchgang in `fund/wettbewerbsbild.md`: die vier R07-D-Korrekturen
+(2.1 Link-Warnung differenzieren · 4.3 SH-DKU-Werbe-Ausschluss
+ergänzen · 3.3 „niedrigste Hürde" qualifizieren (3 Referenzprojekte,
+§ 264 StGB) · 4.2 Größenschwelle „kleine Unternehmen") + Nebenbefund
+Nr. 6 (404-Fehlerseiten-Dateien `hh-programme.html`/`hh-bcw.html` —
+zitatkritisch, gleicher Durchgang) + Nr. 5 disponieren + Nr. 7/F-13
+(Vorwärtsverweis `fund/positionierungspapier.md` Säule 5) +
+Änderungsprotokoll-Eintrag § 8 + F-6-Erledigt-Vermerk in der
+Förderarchitektur. Reparaturen SICHTBAR (Kasten, nicht stille
+Neufassung). Danach: Reviews beider Richtungen nach Rücklauf A/B.
+
 ## Rundenvermerk R8
 
 *(wird beim Debrief gefüllt)*

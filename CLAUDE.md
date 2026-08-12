@@ -3,7 +3,21 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`b04c264`** (F13-Nachzug 12.08.2026
+> am 2026-08-09; Stand **`4fa4453`** (R11-Debrief 12.08.2026 abends:
+> eigener Rückfluss von 6 R11-Lehren — L-30…L-32 in die
+> CLAUDE-Vorlage, Nachlade-Befund-Regel in den Baustein
+> `quellen-beschaffung`, Prompt-Bestandsangaben- +
+> Baustein-Fallen-mitgeben-Regel in die tagesstart-Vorlage (`44a2bfe`
+> + Gegenprobe-Nachtrag `4fa4453`) —; Kopien `commands/tagesstart.md`
+> + `rules/quellen-beschaffung.md` vom Master gezogen; fremde Deltas
+> disponiert: `a49bf8e` (Register-Update secret-broker, keine
+> Vorlagen-/Kopienwirkung) + `30ba699` (heyPensio R39:
+> permissions.deny wirkt sofort → „Werkzeug-Disziplin"); Wächter
+> SYNCHRON 12 / 0 DRIFT.
+> ⚠️ Push-Befund: `b04c264`/`a49bf8e` lagen unveröffentlicht auf dem
+> lokalen Blueprint — beim R11-Push bewusst als Vorfahren
+> mitveröffentlicht, Postkorb-Meldung an die Zentrale.)
+> Davor Stand `b04c264` (F13-Nachzug 12.08.2026
 > nachmittags, R10-Nachtrag: Pfadentkopplung — Kopien
 > `commands/debrief.md` + `commands/tagesstart.md` vom Master gezogen
 > (Benutzerpfade → `<FIRMENWURZEL>`-Platzhalter), im selben Zug
@@ -430,6 +444,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   unabhängige Strukturmerkmale für dieselbe Zahl · Kontrollkandidat mit
   unabhängig bekanntem Sollwert plus schweigende Gegenrichtung.
   (L-24; MKT R8, zwei unabhängige Fälle.)
+  **⭐ Und eine „x von y"-Aussage wird am KRITERIUM geprüft, nicht an
+  der Zahl:** Könnte das Ergebnis überhaupt anders ausfallen? „10 von
+  10 Ankern mit vollständiger Angabe" zählte sein eigenes
+  Auswahlkriterium — die Auswahl war die Aussage (Positivliste in
+  Verkleidung), und ausgerechnet der stärkste Gegenfall fiel durchs
+  Raster. Wenn das Ergebnis nicht anders ausfallen kann, ist es keine
+  Zählung. (L-30.)
   **⭐ Eine Quelle vollständig GELESEN zu haben und sie vollständig
   ÜBERNOMMEN zu haben sind zwei Behauptungen mit zwei Belegen** — eine
   Kontrolle „es fehlt keine Seite" übersah, dass nur 3 von 4 Pflichten des
@@ -461,6 +482,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   bewerten, gegen den VORHER-Stand messen (`git show <commit>~1:<datei>`).
   (Herkunft: R29-B/R31, 7 Belege; + MKT R3, Sammelvermerk;
   Protokoll-Erweiterung heyPensio R34.)
+  **⭐ Belegstufen-Disziplin gilt auch für STRUKTUREN und
+  Denkfiguren:** Die Gliederung einer Empfehlung kann aus einer
+  verworfenen Quelle stammen, während jede einzelne Zahl sauber belegt
+  ist — im Belegfall wurden die Zahlen einer KI-Hypothese abgewehrt
+  und ihre Denkfigur übernommen; die eigenen Anker wurden erst
+  nachträglich gesucht und machen die Struktur nicht zur eigenen.
+  Herkunft der Struktur ausweisen; die Übereinstimmung ist ein Indiz,
+  kein Beleg. (L-32.)
 - **⭐ Der gefährlichste Satz in einem außenwirksamen Dokument ist die
   ENTWARNUNG** — jede Entwarnung trägt ihre Quelle im Satz, sonst ist sie
   eine unverifizierte Verbindlichkeit. Keine beiläufige Zusage im PRÄSENS,
@@ -469,7 +498,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   dieselbe Belegpflicht wie Zahlen. Auch **„bestätigt"/„re-bestätigt"/
   „unverändert" sind Entwarnungen** mit voller Belegpflicht — sie fühlen
   sich wie Nicht-Aussagen an und rutschen deshalb ungeprüft durch.
-  (Sammelvermerk R3.) **⭐ Beim REPARIEREN einer Entwarnung ist der Reflex,
+  (Sammelvermerk R3.) **⭐ Die Entlastung über den eigenen AUFTRAG
+  („das war nie beauftragt") verallgemeinert den eigenen Prompt zum
+  Gesamtauftrag** — vor jedem „nicht beauftragt" das Routing-/
+  Auftragskapitel der eigenen Quelle erneut lesen; im Belegfall
+  widerlegte das Rohstoff-Papier derselben Runde den Entlastungssatz,
+  und die Reparatur war Streichen, nicht Abschwächen. (L-31.)
+  **⭐ Beim REPARIEREN einer Entwarnung ist der Reflex,
   sie abzuschwächen — richtig ist meist, sie zu STREICHEN:** „es gibt
   keinen Fall" durch „ein Antrag liegt derzeit nicht vor" zu ersetzen ist
   dieselbe unbelegte Behauptung in kleiner. Prüffrage: Ist der schwächere
@@ -875,6 +910,11 @@ hierher, nicht ins Repo.
   Platte per grep prüfen. Dasselbe gilt für MCP-Connectors: Der Tool-Pool
   wird beim Session-Start festgelegt; fehlt ein Connector →
   `claude --continue` (bzw. bei parallelen Sessions `claude --resume`).
+  ⚠️ **`permissions.deny` wirkt dagegen SOFORT auf die laufende
+  Session** — der Snapshot gilt nur fürs HINZUFÜGEN, nicht fürs
+  Entziehen; Wirksamkeits-Beleg ist das beobachtete Verschwinden aus
+  dem Pool, nie ein Test-Call auf ein Schreibtool. (Herkunft:
+  heyPensio R39, Nachzug R11.)
 - Multi-Agent-Workflows nach Abbruch nie neu starten, sondern resumen
   (`resumeFromRunId`) — ein Neustart verbrennt das bezahlte Ergebnis.
   Gilt auch für abgebrochene PRÜF-Subagenten: aus dem Transkript

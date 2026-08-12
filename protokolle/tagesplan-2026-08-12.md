@@ -789,3 +789,28 @@ läuft; kein exklusives System doppelt vergeben.
 > nur die reparierten plus eine Auswahl; **und den LAUF-STATUS des
 > Prüfers** (abgebrochene/offene Prüfschritte einzeln ausweisen, nie
 > zu „keine Auffälligkeit" glätten).
+
+## R11-Abschluss (12.08. abends, Debrief gelaufen)
+
+- **R11-A fertig:** `8f65e40` (Bau) → `c685e15` (Prüfer-Disposition
+  28/28) → `9c01f1c` (Abschlussmeldung). Leitsession-Review beidseitig
+  ✅ (P-01 am Rohbeleg nachgemessen; Startzeilen-Versehen des Users —
+  R11-A-Prompt landete zunächst in der Leitsession — vor Arbeitsbeginn
+  rückgebaut, einziger Seiteneffekt [leerer Rohbelege-Ordner]
+  entfernt). **Hinweis Rollen-Doppelung:** Die Leitsession hatte vor
+  dem Rückbau bereits R38-CODEX-C/AKZENT-Anker/Rohstoff gelesen —
+  fürs Review unschädlich (Prüfer lief mit frischem Kontext).
+- **Debrief gefahren:** 6 Lehren → Blueprint (`44a2bfe` + `4fa4453`),
+  L-30…L-32 + Sammelvermerk R11 im Register, Vier-Stellen-Sync,
+  R9 → Archiv rotiert, Stempel `4fa4453`, Wächter SYNCHRON 12 /
+  0 DRIFT. Gegenprobe-Subagent: 1 verlorenes Muster (M3) gefunden →
+  nachgezogen; 3 Grenzfälle geschlossen.
+- **Push-Lage:** projektgeruest auf `4fa4453` veröffentlicht
+  (Vorfahren-Befund `b04c264`/`a49bf8e` → Postkorb-Meldung
+  `10713c1`, dort lokal committet; **zentrale-Push ZURÜCKGESTELLT**,
+  9 fremde ungepushte Commits). marketing: Debrief-Commit folgt
+  unmittelbar.
+- **User-Handgriffe neu:** E-1…E-8 der Preisvorlage beantworten
+  (E-6/E-7 zuerst lesen — „So läuft es weiter" in
+  `handel/preismodell-optionen.md` § 11) · Modell-Statuszeile R11-A
+  bestätigen (Umgebungsangabe: Opus 5).

@@ -218,7 +218,13 @@ einer, beim User nachfragen statt raten:
    existiert schon, was war geparkt? Beim ENT-PARKEN die Park-Prämissen
    neu prüfen), (b) nach außen das Angebot des Drittsystems. Ein „offen"
    im Status kann „Beleg offen" heißen — Bau-Aufträge nur nach positiver
-   Ist-Stand-Prüfung als Bau formulieren. Bei Runden mit ≥ 3 Strängen
+   Ist-Stand-Prüfung als Bau formulieren. **⭐ Bestandsangaben im Prompt
+   sind Prämissen mit Verfallsdatum — beim SCHÄRFEN eines geerbten
+   PROGNOSE-Zuschnitts neu messen, nie übernehmen:** Eine aus der
+   Vorrunden-Prognose übernommene Formulierung („einziger belegter
+   Anker") unterschlug sechs geprüfte Bestandsanker; gefangen hat es
+   erst der Bestands-grep der Arbeits-Session, nicht die Leitsession
+   (Herkunft: MKT R11). Bei Runden mit ≥ 3 Strängen
    zusätzlich EIN Prüf-Subagent mit genau einer Frage: „Welcher Strang
    behandelt etwas als neu, wozu eigener oder Dritt-Bestand existiert?"
    **Auch seine Befunde sind DELEGIERTE Aussagen: sicherheitsrelevante
@@ -370,7 +376,15 @@ einer, beim User nachfragen statt raten:
      die Behauptung prüft, findet nur die Behauptung. **Delegierte ZAHLEN
      nie ohne mitgelieferten Zählweg übernehmen.**
    - **Recherche-Fan-out** je Anbieter/Quelle bzw. je QUELLDOKUMENT ein
-     Agent; getrennte Fundstellen-Nachprüfung dahinter.
+     Agent; getrennte Fundstellen-Nachprüfung dahinter. **⭐ Und den
+     Agenten die WERKZEUGFALLEN der aktivierten Bausteine explizit in
+     den Prompt geben** (Roh-HTML archivieren, Positivkontrolle je
+     Lauf, Steuerbasis als eigene Prüfung, …) — Wirkungsbeleg: beide
+     Recherche-Agenten meldeten daraufhin eigene Werkzeugfehler statt
+     sie zu glätten (391 Teilwort-Fehlalarme; eine Meta-Description,
+     die der eigenen Preistabelle widersprach). Ohne die mitgegebenen
+     Fallen wären beide Funde als saubere Ergebnisse angekommen.
+     (Herkunft: MKT R11.)
    - **Festgefahrenes Debugging:** ab 3 Versuchen ohne Fortschritt EIN
      read-only Subagent mit frischem Kontext; Befund an der Quelle
      verifizieren.

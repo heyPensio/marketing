@@ -82,6 +82,16 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   kein Negativ; auch Kontextfenster-Muster (`.{40}X.{40}`) verfehlen
   kurze Zeilen, und Teilwort-Treffer („ust" in „Lust") sind vor der
   Wertung am Kontext aufzulösen.
+- **⭐ Eine Preisseite ohne Preiswerte ist zuerst ein NACHLADE-Befund,
+  kein Negativ:** Der Textabzug kann vollständig aussehen, während die
+  Werte clientseitig aus einer Datenquelle kommen (Web-Komponente ohne
+  Inhalt; JSON-Endpoint, dessen URL im ausgelieferten JS steht). Die
+  Frage ist nicht „stehen die Werte da?", sondern „woher holt die
+  Seite sie?" — der gefundene Datenendpoint ist dann die bessere,
+  maschinenlesbare Quelle, und sein Abzug gehört zu den Rohbelegen.
+  (Herkunft: MKT R11 — Preisseiten lieferten vollen Text, die
+  Preiszelle trug nur eine leere Web-Komponente; „keine Preise
+  gefunden" wäre ein Werkzeugbefund als Sachbefund gewesen.)
 - **Wo eine Aussage in der AUSZEICHNUNG steckt und nicht im Text,
   prüft eine Textprüfung sie nicht** — Ja/Nein-Matrizen
   (`class="yes"/"no"`), Zahlen in benannten Spans

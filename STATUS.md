@@ -26,7 +26,36 @@
 ---
 
 ## Letzte Aktualisierung
-**12.08.2026 nachmittags (R10, Umbau-Runde — nur Leitsession)** —
+**12.08.2026 abends (R11, Shanks + R11-A/Yasopp — Preismodell-Runde)** —
+⭐⭐ **Die Preismodell-ENTSCHEIDUNGSVORLAGE steht:**
+`handel/preismodell-optionen.md` (R11-A, Ausführung der R09-B-Planung
+nach Freeze-Aufhebung, Briefing Slot 3) — Optionenraum (i) monatlich
+ohne Bindung · (ii) + Startgebühr · (iii) + Mindestlaufzeit · (iv)
+sinkender Staffelpreis, quer dazu Bemessungsachse und
+Bezugseinheit-Vorfrage E-2a; Kostenbasis selbst belegt
+(Hetzner/Supabase/Vapi, 138 Rohbelege, Summenprobe ohne Rest); 13
+Marktanker (u. a. Marktstundensatz 125–160 €/h); A3-Architektur-Weiche
+OFFEN geführt; acht ☐-Entscheidungspunkte nach `freigabe-vorlagen`.
+**Nichts entschieden — die Preishöhe braucht E-6 (Einführungsaufwand
+messen) + E-7 (Zahlungsbereitschaft, überfällig lt. Rohstoff-Routing);
+E-1 kann auf E-6 warten, der Engpass bleibt der Namensentscheid.**
+Prüfer **28/28 disponiert** (4 schwere — alle in der Verdichtung,
+alle Richtung eigener Empfehlung), 0 offene Prüfschritte ·
+Leitsession-Review beidseitig (P-01 am Rohbeleg nachgemessen; 10
+Nebenbefunde mit Zielort disponiert) · **Debrief-Gegenprobe: 1
+verlorenes Muster gefunden und nachgezogen** (Baustein-Fallen an
+Recherche-Agenten, `4fa4453`), 3 Grenzfälle geschlossen · Methodik:
+**6 Lehren → Blueprint** (L-30…L-32 + 3 Vorlagen-Schärfungen), fremde
+Deltas `a49bf8e` + `30ba699` (heyPensio R39, permissions.deny)
+disponiert, Stempel `4fa4453`, Wächter SYNCHRON 12 / 0 DRIFT.
+⚠️ **Push-Befund:**
+`b04c264`/`a49bf8e` lagen unveröffentlicht im Blueprint — beim
+R11-Push als Vorfahren mitveröffentlicht (Postkorb-Meldung);
+zentrale-Push ZURÜCKGESTELLT (9 fremde ungepushte Commits). ⚠️
+R11-A-Modell: Umgebungsangabe „Opus 5", Statuszeilen-Bestätigung =
+User-Handgriff. *(Details: Projektquelle-Changelog R11.)*
+
+**Vorheriger Stand — 12.08.2026 nachmittags (R10, Umbau-Runde — nur Leitsession)** —
 Kleine Werkzeug-Runde nach dem Slot-2-Briefing der Zentrale
 (Architektur-Umbau-Tag; Inhalts-Stränge ruhen bis zur Abnahme):
 ✅ **F10** `settings.local.json` git-ignoriert — Sichtung VOR dem
@@ -42,31 +71,10 @@ lag der Rücklauf noch nicht vor) ·
 ⚠️ Nach dem Nachzug gilt Neustart-Pflicht der Leitsession (Tagesplan,
 Blockwechsel-Handgriff). *(Details: Projektquelle-Changelog R10.)*
 
-**Vorheriger Stand — 12.08.2026 (R9, Shanks + eine Arbeits-Session + erster
-Codex-Auftrag)** — ⭐⭐ **Das risikotragende Dokument steht, und es
-verschärft den Terminpfad:** `akquise/interessenabwaegung-o8.md`
-schließt **O-8** (Art. 6 I f Stufe 3, Weg b) mit **Ergebnis je
-Fallgruppe** — FG-4 (Impressum) ist ein **dokumentiert getragenes
-Restrisiko gegen die Aufsichtsauffassung, keine
-Zulässigkeitsfeststellung** — plus einer Liste **gesperrter
-Entlastungsargumente** (die Art.-14-Information verbessert die Abwägung
-NICHT) und einem 1:1 übernehmbaren VVT-Block; Prüfer **24/24
-disponiert** (23 repariert, 1 gestrichen). ⭐⭐ **Aus LG Rn. 87: Die
-Vorkehrungen müssen vor dem ersten Verarbeitungsschritt stehen — das
-ist der LISTENAUFBAU, nicht der Versand.** F-7, O-9 und die sieben
-Bau-Pflichten sperren damit schon den ersten Datensatz; die
-Akquiseplan-Annahme „Liste sofort baubar, nur Versand hängt am Namen"
-trägt nicht mehr. · ✅ **O-2 ENTSCHIEDEN (User): 12 Monate** +
-**O-2b Lead-Verfall-Verbot** (E14/E14b) · **Erster Codex-Auftrag C-1**
-(Restprüfschritte des abgebrochenen R08-A-Laufs): 14 Befunde
-disponiert, 9 repariert — darunter der fehlende D3.1-Geltungsvermerk
-und die verkürzte DSB-Bedingung · Methodik: **8 Lehren zurückgeflossen**
-(L-25…L-29), Nachzug 4 Deltas, Stempel `69a8574`, Wächter
-„SYNCHRON: 12". *(Details: Projektquelle-Changelog R9.)*
-
-*(Davor: R8 — MKT-AKQ-Start, kritischer Pfad = Namensentscheid;
-rotiert 12.08.2026 (R10) → `STATUS-archiv.md`. Davor R6 — P15/P19
-aufgelöst, Bestandsscan 24/37. Ältere Stände: `STATUS-archiv.md`.)*
+*(Davor: R9 — O-8 gebaut/geprüft, O-2 entschieden, Rn.-87-Verschärfung
+Listenaufbau; rotiert 12.08.2026 (R11) → `STATUS-archiv.md`. Davor R8 —
+MKT-AKQ-Start, kritischer Pfad = Namensentscheid; rotiert 12.08.2026
+(R10). Ältere Stände: `STATUS-archiv.md`.)*
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE
@@ -86,20 +94,6 @@ aufgelöst, Bestandsscan 24/37. Ältere Stände: `STATUS-archiv.md`.)*
   fremde Verteiler. Modell-Statuszeilen R08-A/B ENTFALLEN — User
   12.08.: Fenster zu, endgültig nicht erhebbar. Kategorie-4-Rest durch
   Codex-C1 in R9 geschlossen. R5+R6 ebenfalls im Archiv.)*
-- **R9 (12.08.):** ✅ **O-8 gebaut und geprüft**
-  (`akquise/interessenabwaegung-o8.md`; Prüfer 24/24 disponiert) ·
-  ✅ **O-2 entschieden: 12 Monate + O-2b Lead-Verfall-Verbot**
-  (E14/E14b) · ✅ **Codex-C1** schließt die Restprüfschritte des
-  abgebrochenen R08-A-Laufs (14 Befunde, 9 repariert) · ✅ Methodik:
-  8 Lehren zurückgeflossen (L-25…L-29), Nachzug 4 Deltas, Stempel
-  `69a8574`, Wächter „SYNCHRON: 12". ⭐⭐ **Sperrwirkung verschärft: F-7,
-  O-9 und die sieben Bau-Pflichten sperren den LISTENAUFBAU, nicht erst
-  den Versand** (LG Rn. 87). Offen aus R9: **O-9** (Art. 6 Abs. 4) ·
-  **O-10** (Telefonkanal) · die sieben Bau-Pflichten in §§ 3/7 des
-  Regelwerks · **R-2** (O-8-Dokument außerhalb des Prüfraums von
-  `pruefe-zitate.js`) · Nebenbefunde **N-9…N-16** (HANDEL/OPS/AKQ) ·
-  **R09-B Preismodell nicht gestartet** (sequenziell geplant, Tagesplan).
-  *(R7 rotiert → `STATUS-archiv.md`.)*
 - **R10 (12.08. nachmittags, Umbau-Runde — nur Leitsession):** ✅ F10
   (`settings.local.json` git-ignoriert, Sichtung: keine Secrets,
   `acb9556`) · ✅ Gerüst-Nachzug 2 Deltas (Duplikat-Grundsatz →
@@ -108,6 +102,25 @@ aufgelöst, Bestandsscan 24/37. Ältere Stände: `STATUS-archiv.md`.)*
   Kopien + CLAUDE.md/AGENTS.md/STATUS-Kopf entkoppelt, Stempel
   `b04c264`) · R09-B wartet auf die Umbau-Abnahme der Zentrale.
   *(R8 rotiert → `STATUS-archiv.md`.)*
+- **R11 (12.08. abends, Preismodell-Runde):** ✅ **HANDEL1-Vorlage
+  gebaut und geprüft** (`handel/preismodell-optionen.md`; Prüfer 28/28
+  disponiert, 0 offene Prüfschritte; = R09-B-Planung ausgeführt) ·
+  ✅ Methodik: 6 Lehren → Blueprint (L-30…L-32 + 3
+  Vorlagen-Schärfungen inkl. Gegenprobe-Nachtrag), fremde Deltas
+  `a49bf8e` + `30ba699` disponiert, Stempel `4fa4453`, Wächter
+  SYNCHRON 12 / 0 DRIFT · ⚠️ Push-Befund projektgeruest
+  (Postkorb-Meldung; zentrale-Push zurückgestellt).
+  **Offen aus R11:** User-Entscheidungspunkte **E-1…E-8** der Vorlage
+  (E-6 Einführungsaufwand-Messung + E-7 Zahlungsbereitschaft sind die
+  zwei fehlenden Zahlen) · Rechtsmatrix-Pflege N-9…N-14 + FUND-Pflege
+  N-3…N-6 · **N-10 Marktstundensatz 125–160 €/h in
+  `handel/foerderarchitektur-beraterrolle.md` nachziehen** (Wert
+  belegt, Zielort-Eintrag steht aus) · N-8 Payment/Fremdlizenzen als
+  Z-5-Zulieferung im Deliverable getragen · n8n-Lizenz↔A3-Übergabe an
+  heypensio (Projektquelle § 5) · Chrome-Kanal war nicht verbunden
+  (N-9, vor Browser-Zuteilungen messen) · Modell-Statuszeile R11-A
+  (User-Ablesung). *(Offen aus R9 weiterhin: O-9 · O-10 · sieben
+  Bau-Pflichten · R-2; R9 rotiert → `STATUS-archiv.md`.)*
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -119,15 +132,19 @@ aufgelöst, Bestandsscan 24/37. Ältere Stände: `STATUS-archiv.md`.)*
    sperren damit schon den ersten Datensatz** — die Annahme „Liste sofort
    baubar, nur der Versand hängt am Namen" trägt nicht mehr; der
    Akquiseplan ist entsprechend nachzuziehen. ~~O-8~~ ✅ erledigt (R9),
-   ~~O-2~~ ✅ entschieden (12 Monate + O-2b). Spitzenposten jetzt:
-   **Preismodell/HANDEL1** (R09-B, sperrt Terminpfad ab ~23.10., N-2) ·
-   **die sieben Bau-Pflichten** ins Regelwerk · **O-9**
-   (Kompatibilitätsprüfung Art. 6 Abs. 4) · Kanalmix-Festzurrung erst
-   nach FUND2-Persona-Befund. Details: Projektquelle § 7 Punkt 0 + R9-
-   Changelog. ⏸️ **12.08. nachmittags (R10):** Der R09-B-Start wartet
-   zusätzlich auf die **Abnahme des Architektur-Umbaus** durch die
-   Zentrale (Slot-2-Briefing); ~~F13 wartet auf C2-Rücklauf~~ ✅
-   nachgereicht 14:49 (Stempel `b04c264`).
+   ~~O-2~~ ✅ entschieden (12 Monate + O-2b). ~~Preismodell/HANDEL1~~
+   ✅ **Vorlage liegt vor (R11, 12.08. abends)** — der Sperr-Posten
+   ist entschärft, SOLANGE die E-Punkte zügig beantwortet werden:
+   Spitzenposten jetzt: **User-Handgriff E-1…E-8 beantworten**
+   (`handel/preismodell-optionen.md` § 11; E-6/E-7 sind die zwei
+   fehlenden Zahlen, E-1 kann auf E-6 warten) · **die sieben
+   Bau-Pflichten** ins Regelwerk · **O-9** (Kompatibilitätsprüfung
+   Art. 6 Abs. 4) · Kanalmix-Festzurrung erst nach FUND2-Persona-
+   Befund. Details: Projektquelle § 7 Punkt 0 + R11-Changelog.
+   ~~⏸️ R09-B wartet auf Umbau-Abnahme~~ ✅ Freeze aufgehoben
+   (User-Entscheid 12.08. abends, Briefing Slot 3), als R11-A
+   ausgeführt; ~~F13 wartet auf C2-Rücklauf~~ ✅ nachgereicht 14:49
+   (Stempel `b04c264`).
 1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
    GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger
    `zentrale\stb-termin-fragenliste-2026-08.md`. **Jetzt DOPPELTER

@@ -223,6 +223,17 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
 - **HANDEL1** Preismodell + Angebotsarchitektur (Setup vs. laufend,
   Module, Förderweg als Baustein). Fertig: vom User (+ Gesellschafter,
   s. Zentrale) verabschiedet, Zahlen in `sensibel/` bzw. Angebotsform.
+  **R11-Stand (12.08.2026): Die ENTSCHEIDUNGSVORLAGE liegt vor** —
+  `handel/preismodell-optionen.md` (R11-A, Prüfer 28/28 disponiert):
+  Optionenraum (i)–(iv) + Bemessungsachse + Bezugseinheit-Vorfrage,
+  Kostenbasis selbst belegt (Hetzner/Supabase/Vapi), 13 Markt-/
+  Wettbewerbsanker, Architektur-Weiche A3 OFFEN geführt,
+  Entscheidungspunkte E-1…E-8. **Entschieden ist NICHTS** — die
+  Preishöhe (F-III) braucht E-6 (Einführungsaufwand messen) und E-7
+  (Zahlungsbereitschaft, überfällig lt. Rohstoff-Routing); E-1 kann
+  auf E-6 warten, ohne den Terminpfad zu gefährden (Engpass ist der
+  Namensentscheid). HANDEL1 ist damit als Sperr-Posten ENTSCHÄRFT,
+  solange die E-Punkte zügig beantwortet werden.
 - **HANDEL2** Sales-Deck/One-Pager (Problem → Guest Journey →
   Pilot-Beleg → Pakete → Förderweg). Fertig: versandfähig.
 - **HANDEL3** Kanal-Rechtsmatrix (UWG § 7: Kalt-E-Mail vs. Telefon vs.
@@ -466,6 +477,18 @@ OPS4-Register in `sensibel/`.)*
   Ent-Park-Trigger normativ in `zentrale\rollen-charta.md` — zwei
   Bedingungen: Prozess produziert nachweislich Kunden UND gemessene
   Arbeitslast erzwingt die Ebene. Zielbild-Beschreibung ebendort.)
+- **⭐ n8n-Lizenzbegründung kollidiert mit der A3-Architektur**
+  (R11/N-2, 12.08.2026): Der heypensio-Bestand begründet die
+  n8n-Sustainable-Use-Konformität damit, dass der Kunde nie n8n-Zugang
+  erhält — das Betreiber-Eigentumsmodell (A3) will ihm genau diesen
+  Zugang geben; die Lizenzprüfung ist dort bereits offener
+  Verifikationspunkt (Codex-Ist-Aufnahme K26), neu ist die
+  Verschärfung durch A3 und die Preismodell-Relevanz (§ 5.3 der
+  Preisvorlage führt sie als offene Kostenposition). **Zielort:
+  heypensio-Leitsession, Übergabe über deren Briefing/Leitsession —
+  nie direkt ins Produkt-Repo** (Zielort-Anker dort:
+  `blueprint/architektur-multi-kunden.md` § Verifikationspunkte,
+  existiert — nachgesehen 12.08.).
 - **Wellness-Proximity-Push** (geparkt 09.08.2026; User-Gedankenspiel als
   Beleg der Portfolio-Richtung „größere Häuser"): Gast hat sich per
   QR-Code am Handy in den AI-Concierge eingecheckt; läuft er am
@@ -653,6 +676,18 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    anwaltlicher Rat) · **R-2** (das O-8-Dokument liegt außerhalb des
    Prüfraums von `akquise/pruefe-zitate.js` — kein dauerhaftes
    Prüfmittel im Repo) · Nebenbefunde N-9…N-16.
+   **→ STAND 12.08.2026 abends (R11): Preismodell-Vorlage ERLEDIGT**
+   (`handel/preismodell-optionen.md`, R11-A als Ausführung der
+   R09-B-Planung; Prüfer 28/28 disponiert, 0 offene Prüfschritte).
+   Die Sperr-Posten-Lage entschärft sich: **Der Terminpfad hängt jetzt
+   an den User-Entscheidungspunkten E-1…E-8 der Vorlage** — davon sind
+   E-6 (Einführungsaufwand beim nächsten Onboarding messen) und E-7
+   (Zahlungsbereitschaft, Kopplung FUND2-Kayhan-Gespräch) die zwei
+   Zahlen, ohne die die Preishöhe nicht entscheidbar ist. **Neue
+   Spitzenposten-Reihung:** User-Handgriff E-Punkte beantworten ·
+   sieben Bau-Pflichten · O-9 · R-2 · Rechtsmatrix-Pflege N-9…N-14 +
+   FUND-Pflege N-3…N-6 (R11-Nebenbefunde) · Übergabe-Posten n8n-Lizenz
+   ↔ A3 an heypensio-Leitsession (§ 5, R11/N-2).
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -790,6 +825,52 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 ---
 
 ## CHANGELOG
+
+- 12.08.2026 abends (R11-Debrief, eine Arbeits-Session + Leitsession):
+  **Die Preismodell-Entscheidungsvorlage steht** —
+  `handel/preismodell-optionen.md` (R11-A/Yasopp, Ausführung der
+  R09-B-Planung nach Freeze-Aufhebung, Briefing Slot 3): Optionenraum
+  (i) monatlich ohne Bindung · (ii) + Startgebühr · (iii) +
+  Mindestlaufzeit · (iv) sinkender Staffelpreis, quer dazu
+  Bemessungsachse (pro Zimmer / Pauschale / Sockel+Zimmeranteil) und
+  Bezugseinheit-Vorfrage (je Kunde/Objekt/Firmierung, E-2a);
+  Kostenbasis SELBST belegt (Hetzner-Preis-JSON mit
+  Nachlade-Werkzeugbefund, Supabase-Preisseite, Vapi aus dem Bestand;
+  138 Rohbelege mit Summenprobe ohne Rest); 13 Markt-/
+  Wettbewerbsanker (M1–M7 Bestand + W1–W6 DACH-Retainer,
+  125–160 €/h-Marktstundensatz); Architektur-Weiche A3 als OFFENE
+  Weiche je Option durchgezogen; Pilot-Abgrenzung (R3); acht
+  Entscheidungspunkte nach `freigabe-vorlagen`. **Nichts entschieden —
+  Preishöhe braucht E-6/E-7.** Unabhängiger Prüfer: **28/28 Befunde
+  disponiert** (4 SCHWER, alle in der Verdichtung Richtung eigener
+  Empfehlung: Supabase-Bezugsgröße kippte die Kostenbasis ·
+  ⑤-Struktur unmarkiert zur Empfehlung geworden · zirkulärer „10 von
+  10"-Zählweg · Entlastung „nie beauftragt" von der eigenen Quelle
+  widerlegt); 2 offene Prüfschritte von der Session VOR der
+  Disposition selbst nachgeholt; 3 eigene Reparaturfehler im
+  mechanischen Nachlauf gefangen. **Leitsession-Review beidseitig**
+  (P-01 am Rohbeleg selbst nachgemessen; 10 Nebenbefunde mit
+  Zielorten disponiert — N-2 n8n-Lizenz↔A3 als Übergabe-Posten § 5,
+  N-3…N-6 FUND-Pflege, N-9 Chrome-Kanal für Rundenplanung). ·
+  Methodik: **6 Lehren in den Blueprint zurückgeflossen** (L-30
+  x-von-y-Zirkularität · L-31 Auftrags-Entlastung · L-32
+  Struktur-Belegstufen · Nachlade-Befund-Regel quellen-beschaffung ·
+  Prompt-Bestandsangaben tagesstart; `44a2bfe` · Baustein-Fallen an
+  Recherche-Agenten, Fund der Debrief-Gegenprobe; `4fa4453`), fremde
+  Deltas disponiert: `a49bf8e` (Register-Update, keine Kopienwirkung)
+  + `30ba699` (heyPensio R39, permissions.deny sofort wirksam →
+  CLAUDE.md „Werkzeug-Disziplin"), Stempel `4fa4453`, Wächter
+  SYNCHRON 12 / 0 DRIFT. **Debrief-Gegenprobe (Subagent, 24 Posten):
+  1 verlorenes Muster gefunden und nachgezogen, 3 Grenzfälle
+  geschlossen** (M1-Drittbeleg Register · N-10 als offener
+  Zielort-Posten in STATUS · N-8-Träger Z-5 benannt). ⚠️ **Push-Befund
+  (Postkorb-Meldung an Zentrale):** `b04c264`/`a49bf8e` lagen
+  unveröffentlicht auf dem lokalen Blueprint — beim R11-Push bewusst
+  als Vorfahren mitveröffentlicht; der zentrale-Repo-Push wurde
+  dagegen ZURÜCKGESTELLT (9 fremde ungepushte Commits, Urheber-Status
+  unklar). **Offen aus R11:** E-1…E-8 (User) · E-6-Messung beim
+  nächsten Onboarding · E-7-Erhebung (Kopplung FUND2) ·
+  Modell-Statuszeile R11-A unbestätigt (Umgebungsangabe Opus 5).
 
 - 12.08.2026 nachmittags (R10-Debrief, Umbau-Runde — nur Leitsession):
   **Reine Werkzeug-Runde** nach dem Slot-2-Briefing der Zentrale

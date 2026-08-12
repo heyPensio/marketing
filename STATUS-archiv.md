@@ -2,6 +2,47 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 12.08.2026 (R11-Debrief) — R9-Punkt aus „Aktueller Stand"
+
+- **R9 (12.08.):** ✅ **O-8 gebaut und geprüft**
+  (`akquise/interessenabwaegung-o8.md`; Prüfer 24/24 disponiert) ·
+  ✅ **O-2 entschieden: 12 Monate + O-2b Lead-Verfall-Verbot**
+  (E14/E14b) · ✅ **Codex-C1** schließt die Restprüfschritte des
+  abgebrochenen R08-A-Laufs (14 Befunde, 9 repariert) · ✅ Methodik:
+  8 Lehren zurückgeflossen (L-25…L-29), Nachzug 4 Deltas, Stempel
+  `69a8574`, Wächter „SYNCHRON: 12". ⭐⭐ **Sperrwirkung verschärft: F-7,
+  O-9 und die sieben Bau-Pflichten sperren den LISTENAUFBAU, nicht erst
+  den Versand** (LG Rn. 87). Offen aus R9: **O-9** (Art. 6 Abs. 4) ·
+  **O-10** (Telefonkanal) · die sieben Bau-Pflichten in §§ 3/7 des
+  Regelwerks · **R-2** (O-8-Dokument außerhalb des Prüfraums von
+  `pruefe-zitate.js`) · Nebenbefunde **N-9…N-16** (HANDEL/OPS/AKQ) ·
+  **R09-B Preismodell nicht gestartet** (sequenziell geplant, Tagesplan).
+  *(R7 rotiert → `STATUS-archiv.md`.)*
+
+## Rotiert am 12.08.2026 (R11-Debrief) — R9-Block aus „Letzte Aktualisierung"
+
+**Vorheriger Stand — 12.08.2026 (R9, Shanks + eine Arbeits-Session + erster
+Codex-Auftrag)** — ⭐⭐ **Das risikotragende Dokument steht, und es
+verschärft den Terminpfad:** `akquise/interessenabwaegung-o8.md`
+schließt **O-8** (Art. 6 I f Stufe 3, Weg b) mit **Ergebnis je
+Fallgruppe** — FG-4 (Impressum) ist ein **dokumentiert getragenes
+Restrisiko gegen die Aufsichtsauffassung, keine
+Zulässigkeitsfeststellung** — plus einer Liste **gesperrter
+Entlastungsargumente** (die Art.-14-Information verbessert die Abwägung
+NICHT) und einem 1:1 übernehmbaren VVT-Block; Prüfer **24/24
+disponiert** (23 repariert, 1 gestrichen). ⭐⭐ **Aus LG Rn. 87: Die
+Vorkehrungen müssen vor dem ersten Verarbeitungsschritt stehen — das
+ist der LISTENAUFBAU, nicht der Versand.** F-7, O-9 und die sieben
+Bau-Pflichten sperren damit schon den ersten Datensatz; die
+Akquiseplan-Annahme „Liste sofort baubar, nur Versand hängt am Namen"
+trägt nicht mehr. · ✅ **O-2 ENTSCHIEDEN (User): 12 Monate** +
+**O-2b Lead-Verfall-Verbot** (E14/E14b) · **Erster Codex-Auftrag C-1**
+(Restprüfschritte des abgebrochenen R08-A-Laufs): 14 Befunde
+disponiert, 9 repariert — darunter der fehlende D3.1-Geltungsvermerk
+und die verkürzte DSB-Bedingung · Methodik: **8 Lehren zurückgeflossen**
+(L-25…L-29), Nachzug 4 Deltas, Stempel `69a8574`, Wächter
+„SYNCHRON: 12". *(Details: Projektquelle-Changelog R9.)*
+
 ## Rotiert am 12.08.2026 (R10-Debrief) — R8-Punkt aus „Aktueller Stand"
 
 - **R8 (11.08.):** ✅ M1-Nachzug (Stempel `0dc102f`, Wächter 0 DRIFT,

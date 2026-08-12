@@ -1165,3 +1165,130 @@ von Codex ist nicht ohne eigene Gegenmessung übernehmbar** — Codex
 meldete `.claude/settings.local.json` als untracked, während dieselbe
 Datei hier global git-ignoriert ist (`~/.config/git/ignore`); es sieht
 den Arbeitsbaum in einem anderen Benutzer-/Konfigurationskontext.
+
+## L-30 — Eine „x von y"-Aussage wird am KRITERIUM geprüft, nicht an der Zahl (R11, 12.08.2026)
+
+**Fall (R11-A, Prüferbefund P-03, SCHWER):** Die Preismodell-Vorlage
+stützte ihre Empfehlung auf „10 von 10 Ankern mit vollständiger Angabe
+haben Einmalzahlung oder Laufzeit". Das genannte Auswahlkriterium traf
+nach den eigenen Tabellen nur auf 4 der 10 zu; tatsächlich angewandt
+war „hat eine Einmalzahlung" — der Satz zählte sein eigenes
+Auswahlkriterium („10 von 10 Ankern, die eine Einmalzahlung haben,
+haben eine Einmalzahlung"). **Die Auswahl war die Aussage** — eine
+Positivliste in Verkleidung, und ausgerechnet der stärkste Gegenfall
+(der einzige Anker mit vollständig veröffentlichter Preisliste, OHNE
+Einrichtungsgebühr) fiel durchs Raster.
+
+**Prüffrage an jede „x von y"-Aussage: Könnte das Ergebnis überhaupt
+anders ausfallen?** Wenn nein, ist es keine Zählung. Der Prüfer hätte
+die Zahl selbst nachgezählt und abgehakt (sie stimmte) — erst der
+Hinweis „Zahl von ihrem Schlüssel gelöst" ließ ihn das KRITERIUM
+prüfen. Schwester von L-24 (Unmöglichkeits-Kontrolle) und der
+Positivlisten-Regel; neu ist der Ort: nicht im Prüfwerkzeug, sondern
+in der eigenen Ergebnis-Prosa.
+
+## L-31 — Die Entlastung über den eigenen AUFTRAG verallgemeinert den Prompt zum Gesamtauftrag (R11, 12.08.2026)
+
+**Fall (R11-A, Prüferbefund P-04, SCHWER):** „Das ist ein
+dokumentiertes Negativ, kein Versäumnis dieser Runde: Die Erhebung ist
+nie beauftragt worden." — Das Routing-Kapitel des EIGENEN
+Rohstoff-Papiers derselben Runde nannte die Erhebung
+(Zahlungsbereitschaft) ausdrücklich als einen von drei Ersatz-Ankern.
+Der Session-Prompt enthielt sie nicht; die Session verallgemeinerte
+den eigenen Prompt zu „nie beauftragt" — die Standardform des Fehlers
+„Kanal-Negativ als Dauerzustand", angewandt auf die eigene
+Beauftragungslage.
+
+**Regel:** Vor jedem „war nicht beauftragt" das Routing-/
+Auftragskapitel der eigenen Quelle erneut lesen. Die Reparatur ist
+Streichen, nicht Abschwächen (L-17-Verwandtschaft): Der Posten wurde
+vom „dokumentierten Negativ" zum überfälligen Auftrag. Gefunden nur
+durch die Leserichtung QUELLE RÜCKWÄRTS (Kategorie 2) — vorwärts
+gelesen wirkt ein Routing-Kapitel wie Verwaltungstext.
+
+## L-32 — Belegstufen-Disziplin gilt auch für STRUKTUREN und Denkfiguren (R11, 12.08.2026)
+
+**Fall (R11-A, Prüferbefund P-02, SCHWER):** Die Vorlage wehrte die
+ChatGPT-ZAHLEN des Rohstoff-Papiers sauber ab (§ 2.2: „nie Anker",
+mustergültig begründet verworfen) — und übernahm zugleich die
+ChatGPT-STRUKTUR: Die Bemessungs-Empfehlung „Grundgebühr +
+Zimmeranteil nur für gästenahe Module" war nahezu wörtlich der dritte
+B-Punkt derselben verworfenen Quelle, ohne Herkunftsmarke; die eigenen
+Anker, die sie stützten, wurden erst NACHTRÄGLICH gesucht. Ein Leser
+konnte nicht sehen, dass die Denkfigur aus der externen KI stammte.
+
+**Regel:** Die Herkunft einer STRUKTUR (Gliederung, Achsenwahl,
+Denkfigur) trägt dieselbe Ausweispflicht wie eine Zahl. Nachträglich
+gefundene eigene Belege machen eine fremde Struktur nicht zur eigenen
+— die Übereinstimmung ist ein Indiz, kein Beleg, und wird als solche
+ausgewiesen. Verwandt mit dem Spiegelfall „vor dem Einarbeiten
+umgekehrt greppen" (R30-D/R31-C): Auch hier hilft nur die
+Rückwärts-Frage „Welche Teile MEINES Ergebnisses stehen schon in der
+verworfenen Quelle?".
+
+## Sammelvermerk R11 (12.08.2026) — Zweitbelege, bewährte Muster, Leitsessions-Eigenbefunde
+
+- **„Zahlen an ihren Schlüssel binden" (heyPensio R35) — Zweitbeleg
+  eine Ebene höher (P-01, SCHWER):** Nicht die Zahl war falsch (25 $),
+  sondern ihre BEZUGSGRÖSSE („pro Projekt" statt „je Organisation,
+  erstes Projekt inklusive, weitere ab 10 $"). Die eigene
+  Extraktionsdatei hatte Dollar-Beträge OHNE Schlüsselspalte gesammelt;
+  die Kontrolle prüfte die Erreichbarkeit der Quelle statt der
+  Vollständigkeit der Extraktion (Sammelvermerk-R5-Klasse). Folge:
+  Kostenbasis und alle 12 Break-even-Zellen kippten — in Richtung der
+  eigenen Empfehlung.
+- **Drift-Check-Klasse (heyPensio R36) — Zweitbeleg am Rechenwerk:**
+  12/12 Break-even-Zellen dreifach korrekt nachgerechnet UND falsch —
+  der Nenner beruhte auf der falschen Bezugsgröße.
+  **Rechenkontrolle und Eingangskontrolle sind zwei Prüfungen.**
+- **L-19/L-26 — Drittbeleg |-Falle:** Die eigene Reparatur brachte ein
+  unmaskiertes `|` in eine Tabellenzelle, ausgerechnet in einen frisch
+  eingefügten Gegenprobe-Vermerk, plus zwei stehengebliebene Altwerte
+  in Nachbar-Abschnitten. Der mechanische Nachlauf NACH der Reparatur
+  (Tabellen-Scan + Altwert-grep) fing alle drei.
+- **Prüfer-Selbstauskunft als Methoden-Messung:** Die
+  Pflicht-Kategorien produzierten die STRUKTUR-Befunde (P-02/P-03/
+  P-04/P-06/P-13/P-14 — die schwersten), das schlichte Nachrechnen die
+  Zahlen-Befunde. Benannte eigene Blindstelle des Prüfers: die
+  Rückwärtssuche „welche Aussage des Papiers gehört zu KEINER
+  genannten Quelle?" stand in keiner Kategorie und fiel aus —
+  **Kandidat** für künftige Prüfaufträge, bewusst noch nicht als
+  Pflicht-Kategorie eingezogen (erst ein Beleg).
+- **Bewährt (einmal, Skill-Kandidaten-Flag):** Belegstufen-Legende
+  (① GEMESSEN … ⑤ HYPOTHESE) am DOKUMENTANFANG disziplinierte das
+  ganze Papier und gab dem Prüfer das Raster, an dem P-02/P-06
+  überhaupt benennbar waren · Entscheidung in getrennte Fragen zerlegt
+  (Vertragsform · Bemessung · Bezugseinheit · Höhe) machte sichtbar,
+  dass die Höhe heute nicht entscheidbar ist.
+- **⭐ Recherche-Agenten die Baustein-Werkzeugfallen explizit mitgeben
+  (→ tagesstart-Vorlage, `4fa4453`; Fund der Debrief-Gegenprobe —
+  war zunächst in keinem Kanal gelandet):** Beide Recherche-Agenten
+  meldeten daraufhin eigene Werkzeugfehler statt zu glätten (391
+  Teilwort-Fehlalarme; eine Meta-Description, die der eigenen
+  Preistabelle widersprach — der Prozessmeister-Fehlalarm, den der
+  Prüfer exakt bestätigte).
+- **Quellen-Anker-vor-Fan-out (MKT R7/R9) — Drittbeleg:** 18
+  Agentenzahlen mechanisch gegen die eigenen Abzüge geprüft (2
+  Gegenkontrollen, die nicht treffen durften); die Grenze „belegt
+  Anwesenheit, nicht Zuordnung" stand im selben Satz — die drei
+  Schlüsselstellen wurden zusätzlich im Wortlaut gelesen.
+- **L-22-Erweiterung:** Offene Prüfschritte des Prüfers holt die
+  Session SELBST nach, BEVOR sie disponiert (hier: fünf Einmalbeträge
+  am Rohbeleg + eine Primärquelle; ein Skriptlauf) — sonst erscheinen
+  sie in der Bilanz als erledigt.
+- **Leitsessions-Eigenbefund (→ tagesstart-Vorlage, `44a2bfe`):** Die
+  Auftragsprämisse „einziger belegter Bestand-Anker" stammte aus dem
+  geerbten R09-B-PROGNOSE-Text und war beim Schärfen nicht neu
+  gemessen worden — der Bestand trug sieben geprüfte Anker (M1–M7).
+  Gefangen vom Bestands-grep der Arbeits-Session (N-1), nicht von der
+  Leitsession.
+- **Push-Lage-Befund (Firmen-Ebene, Postkorb-Meldung 12.08.):**
+  „Push-Lage synchron" im Zentrale-STATUS war unbelegt —
+  `b04c264`/`a49bf8e` lagen nur lokal; der bereits gepushte
+  marketing-Stempel referenzierte damit einen unveröffentlichten Hash.
+  L-14-Klasse auf Firmen-Ebene; belastbar ist nur
+  `git branch -r --contains` nach frischem fetch.
+- **Werkzeug-/Kanalbefunde:** Chrome-Automationskanal nicht verbunden
+  (je Session neu zu messen, betrifft Browser-Zuteilungen künftiger
+  Runden — z. B. E-V4) · Hetzner-Preisseiten liefern Text ohne Werte
+  (Nachlade-Befund, jetzt Baustein-Regel `quellen-beschaffung`).

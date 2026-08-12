@@ -922,3 +922,226 @@ zwischen fünf „nicht gebaut" war der schwerste Befund — die
 Vollzähligkeitsprüfung 6/6 sah sauber aus). Lehre über die Lehre: Die
 Gegenprobe hat ihren Pflicht-Status verdient — ohne sie wären 8 von 47
 geprüften Punkten still versickert, Quote ~17 %.
+
+---
+
+## L-25 — Eine Schärfung erreicht die abgeleitete Stelle nicht (R9, 12.08.2026, zwei Belege an einem Tag)
+
+**Die Vorwärtsverweis-Konvention war bisher einseitig gedacht:** Kippt ein
+neuer Stand eine ältere Festlegung, bekommt die ALTE Stelle einen Verweis
+(„überholt durch X"). R9 zeigt die **Gegenrichtung**, die dabei
+regelmäßig ausfällt — zweimal unabhängig am selben Tag:
+
+**Beleg 1 (B-3, Codex-Restprüfung):** Die Leitsession trug am 11.08. den
+Geltungsvermerk „D3.1 gilt NUR für die Bestandskunden-Schiene" in
+`handel/kanal-rechtsmatrix.md` nach (`474b95e`, Befund N-6). Das
+`akquise/listenbau-regelwerk.md`, das die 24 Monate aus genau dieser
+Quelle übernommen hatte, war da bereits gebaut — und wurde nicht
+nachgezogen. Der Kasten in § 2.1, **die Stelle, an der der Leser
+ankommt**, trug die Einschränkung bis zum 12.08. nicht; die Korrektur
+lebte nur in § 3 und § 7.4.
+
+**Beleg 2 (R-1, Review R09-A):** Prüferbefund Q-04 leitete her, dass die
+Vorkehrungen nach LG Düsseldorf Rn. 87 **vor dem ersten
+Verarbeitungsschritt** stehen müssen und dieser der **Listenaufbau** ist,
+nicht der Versand. Die Herleitung stand in `interessenabwaegung-o8.md`
+§ 9.1 — an **vier** Ankunftsstellen (§ 9.3, § 11.1, Regelwerk § 10,
+Regelwerk-Nachtragskasten) stand weiter „vor dem ersten Versand".
+
+**Handlungskern:** Nach jeder Schärfung einer Quelle lautet der Suchraum
+nicht „wo steht der alte Wert?", sondern **„wer hat aus dieser Datei
+abgeleitet?"** — grep auf den Dateinamen über das Repo, dann jedes
+abgeleitete Dokument an der ANKUNFTSSTELLE prüfen. Die Klasse ist zäh,
+weil beide Dokumente für sich korrekt aussehen: Die Quelle trägt die
+Einschränkung, das abgeleitete Dokument trägt einen Satz, der ohne sie
+plausibel ist.
+
+**Beleg-Typ:** eigene Messung am Objekt (`git show` beider Commits);
+beide Fälle repariert in `1da1327` mit sichtbarem Vorfassungs-Vermerk.
+
+## L-26 — Wer eine Reparatur DOKUMENTIERT, verändert den Prüflauf (R9, 12.08.2026, drei Belege)
+
+Ein Reparaturvermerk nach der Doku-Hygiene-Regel („was stand vorher da")
+**zitiert die alte Fassung** — und erzeugt damit ein neues „Zitat", das
+per Konstruktion **nicht** im Quellenpool stehen kann. Der mechanische
+Zitatabgleich wird rot, während beide Dokumente korrekt sind.
+
+- **Beleg 1 (11.08., unbemerkt):** Der Vermerk zu Befund P-04 zitierte
+  „je Quelldatei einer — 7/7". Der Lauf ging von 128 auf 129 Zitate und
+  von Exit 0 auf Exit 1 — **niemand merkte es**, weshalb § 12 des
+  Regelwerks bis zum 12.08. einen Stand dokumentierte („114/114,
+  Exit 0"), den der Lauf längst nicht mehr zeigte. Gefunden hat es erst
+  die Codex-Restprüfung (B-4).
+- **Belege 2+3 (12.08., beim Reparieren selbst):** Die Vorfassungs-Zitate
+  der O-2- und Q-04-Nachträge reproduzierten die Klasse sofort wieder —
+  116/120, Exit 1.
+
+**Betriebsregel:** Nach jedem Reparaturvermerk das Prüfwerkzeug laufen
+lassen und die Ausnahmeliste **im selben Zug** ergänzen, je Eintrag mit
+Begründung. **Strukturgrenze, dabei sichtbar geworden:** Zitate aus
+Primärquellen außerhalb des Prüfpools (hier LG-Volltext in `sensibel/`,
+git-ignoriert) kann das Werkzeug nie bestätigen; sie stehen als
+deklarierte Ausnahme drin, und ihre Verifikation liegt bei der Session,
+die sie erhoben hat — **nicht** beim Lauf. Wer das nicht ausweist, baut
+sich die Ausnahmeliste zur Ausrede.
+
+**Gegenrichtung, ebenfalls belegt (bewährtes Muster R09-A):** Gerade weil
+die Vorfassungen gemeldet werden, **zwingt** der Lauf dazu, sie einzeln
+mit Begründung zu erfassen. Doku-Hygiene und mechanischer Prüfweg greifen
+ineinander — die Meldung ist korrekt, nicht lästig.
+
+**Beleg-Typ:** eigene Messung (drei Läufe, Zählerzeilen und Exit-Codes je
+separat gelesen); Endstand Exit 0, 134 Zitate, 18/18 Ausnahmen, 116/116.
+
+## L-27 — Der Zitatabgleich prüft, was als Zitat MARKIERT ist — nicht den Fließtext daneben (R9, 12.08.2026)
+
+R09-A hat die Blindstelle des eigenen Prüfwegs selbst gemessen: Die
+zweite Rückbau-Gegenprobe fing **4 von 5** Verfälschungen. Die fünfte —
+der Tausch des Normbegriffs „Kategorien von **Empfängern**" (Art. 14
+Abs. 1 lit. e) zu „Kategorien von **Adressaten**" — blieb unentdeckt,
+**weil die Stelle als Fließtext steht, nicht in Anführungszeichen**. Der
+Extraktor sieht sie nie.
+
+**Die gefährlichste Klasse sitzt genau dort:** eine falsche Absatz- oder
+Buchstabenangabe („Art. 14 Abs. 2 lit. f" statt „lit. b"), ein
+verschobener Normbegriff, eine falsche Rechtsfolge — alles liest sich
+plausibel und ist von **keinem** der eingesetzten Prüfmittel zu fangen
+(der unabhängige Prüfer nennt dieselbe Klasse in seiner eigenen Antwort).
+**Folge:** Wer ein Zitat-Prüfwerkzeug einsetzt, schreibt ins Dokument,
+was es NICHT prüft — sonst liest sich „116/116 bestätigt" als
+Vollprüfung des Textes. Normangaben im Fließtext brauchen einen eigenen
+Prüfkanal (Normstellen-Liste gegen den Volltext).
+
+**Beleg-Typ:** Selbstmessung der Session, im Abschlussprotokoll unter
+„Die Blindstelle des eigenen Prüfwegs — ehrlich benannt" ausgewiesen.
+
+## L-28 — Ergebnis JE FALLGRUPPE, plus eine Liste gesperrter Argumente (R9, 12.08.2026, bewährte Muster)
+
+Zwei Bauformen, die sich in einem risikotragenden Bewertungsdokument
+bewährt haben und auf jedes Papier übertragbar sind, das eine
+Zulässigkeits-, Eignungs- oder Risikofrage beantwortet:
+
+1. **Ergebnis je Fallgruppe statt Pauschalurteil.** Zwei Achsen
+   (Personenbezug × Adressquelle) ergaben Fallgruppen mit je eigenem
+   Ergebnis: FG-3 (freiwillige Quelle) trägt vertretbar, FG-4
+   (Impressum) ist ein **dokumentiert getragenes Restrisiko**, keine
+   Zulässigkeitsfeststellung. Ein einziges Gesamturteil hätte entweder
+   die tragfähigen Fälle heruntergezogen oder das Risiko zugedeckt.
+2. **Eine Liste ausdrücklich GESPERRTER Argumente.** Drei naheliegende
+   Entlastungen wurden benannt und gesperrt — allen voran „wir
+   informieren doch vorbildlich nach Art. 14", das die Aufsicht in ihrer
+   eigenen Handreichung als **abwägungsneutral** bezeichnet. Ohne die
+   Liste baut der nächste Redigierende genau das plausibelste
+   Gegenargument ein, das die Quelle widerlegt — und eine Behörde kippt
+   es mit einem Satz aus ihrem eigenen Papier.
+
+**Merksatz:** Die naheliegendste Entlastung ist die gefährlichste; sie
+gehört nicht weggelassen, sondern **mit Begründung gesperrt**.
+
+## L-29 — Prüfwerkzeug-Fehlalarme sind fast alle Normalisierungsfehler (R9, 12.08.2026)
+
+Von **37** zunächst gemeldeten „Zitatabweichungen" waren **33
+Werkzeugfehler in fünf Klassen**, nur **4** echt: Blockquote-Präfixe
+mitten im Zitat (die Normalisierung griff nur am Zeilenanfang) ·
+PDF-Silbentrennung · PDF-Seitenmarken mitten im Satz · Umbruch an
+Bindestrich/Schrägstrich („DS-⏎GVO") · deutsche
+Zitat-im-Zitat-Schachtelung.
+
+**Zwei Regeln daraus:**
+- **Eine Normalisierungsstufe muss SYMMETRISCH auf beide Seiten wirken,
+  und die Reihenfolge der Stufen zählt.** Silbentrennung nur auf dem Pool
+  aufzuheben machte aus „Telefon- und Stromanbieter" ein „Telefonund" und
+  **verlor ein zuvor gefundenes Zitat**; `dehyph` vor der nächsten Stufe
+  macht aus „DS- GVO" ein „DSGVO" und entzieht ihr die Bruchstelle.
+- **Eine mechanische Prüfung, die zu viel meldet, wird abgeschaltet.**
+  Die Fehlalarm-Analyse ist deshalb Teil des Werkzeugbaus, nicht
+  Nacharbeit: „nicht gefunden" ist bei Auszeichnungs-Parsing fast immer
+  das Muster — auch bei den **eigenen** Prüfwerkzeugen.
+
+**Dazu ein Quellen-Befund derselben Runde:** Der **Dateiname einer Quelle
+ist keine Standangabe** — die BfDI-URL trägt `20181107` im Namen und
+liefert inhaltlich die Fassung **Februar 2022** (beide Textextrakte
+md5-identisch). Umgekehrt folgt: **Zwei Bezugsquellen sind nicht zwei
+Lesewege.** Ein „Zweitkanal", der dieselbe Datei liefert, stützt die
+Fassungsangabe, aber **keinen** Negativbefund über den Text.
+
+## Sammelvermerk R9 (12.08.2026) — Zweitbelege und bewährte Muster
+
+- **„Ein Prüfwerkzeug, das den Erfolgsfall nicht kennt, ist keins"**
+  (heyPensio R36) — unabhängig reproduziert **mit Schärfung**: Der
+  Selbsttest erwartet „4 bestätigt / 4 gemeldet", die Erfolgsbedingung
+  des Hauptlaufs lautet „0 gemeldet" — mit ihr ist der Zielzustand des
+  Selbsttests **nie erreichbar**; das Werkzeug meldete nach geglückter
+  Arbeit falsch rot. **Neu: Die Erfolgsbedingung gehört JE MODUS ins
+  Werkzeug**, nicht einmal global.
+- **„Ein Test, der nichts verändert, prüft nichts"** — Schärfung: Die
+  Rückbau-Gegenprobe braucht **ihre eigene Positivkontrolle mit
+  Zählung**. Der erste Durchlauf setzte still nur **3 von 4**
+  Verfälschungen (die vierte scheiterte an einem Zeilenumbruch im
+  Suchmuster); ohne die Zeile „gesetzt: n von m" wäre ein wirkungsloser
+  Testaufbau als bestandene Prüfung verbucht worden.
+- **„Bestandszahlen gegen den VORHER-Stand messen"** — Schärfung: Eine
+  Bestandsmessung, die **in der Datei steht, die sie beschreibt**, altert
+  **im selben Commit** („Art. 6 Abs. 4: 0 Treffer" war nach den eigenen
+  Nachträgen 4). Der Vorher-Stand gehört als `~1`-Hash an die Zahl.
+- **„Delegierte Fundstellen driften"** — beidseitig belegt: Der Prüfer
+  meldete eine Abweichung, die es nicht gibt (Q-01, „die Rechtsmatrix
+  führt curia" — 0 Treffer), und ein Teilbeleg war falsch („Rn. 45
+  nirgends genannt" — 1 Treffer), während der Kern des Befundes stimmte.
+  **Eine behauptete Abweichung, die es nicht gibt, ist teurer als keine**
+  — sie kostet Prüfzeit und beschädigt die übrigen Punkte derselben
+  Liste.
+- **Pflicht-Kategorie „Was aus der Quelle ist gar nicht erst
+  angekommen?"** (R8) — stärkster Zweitbeleg bisher: ErwG 47 **Satz 4**
+  fehlte, der einzige Satz mit nachteiliger Rechtsfolge, in der Quelle
+  **exakt zwischen den beiden Zeilen, die das Dokument zitierte**. Kein
+  Zitatabgleich hätte ihn gefunden; ein Auslassungsfehler erzeugt keine
+  auffällige Textstelle.
+- **L-22 (abgebrochene Prüfer FORTSETZEN)** — mit Zahl: Der Prüfer brach
+  am Session-Limit unmittelbar vor dem Schreiben ab; die Fortsetzung aus
+  dem Transkript lieferte das vollständige Protokoll in **56 Sekunden**,
+  ein Neustart hätte **≈ 310.000 Token** verbrannt.
+- **L-24 (Kontrolle mit erkennbarer Unmöglichkeit)** — Zweitbeleg:
+  Vollzähligkeit der DSK-Gliederung über **zwei unabhängige
+  Strukturmerkmale** (Inhaltsverzeichnis und Textteil-Überschriften):
+  **29 = 29, Differenz in beide Richtungen leer**. Ein erster,
+  generischer Extraktor hatte Fußnotenziffern mitgezählt — die Kreuzprobe
+  machte den unbrauchbaren Nenner sofort sichtbar.
+- **Eigener Quellen-Anker VOR dem Fan-out** (MKT R7) — **Erweiterung:**
+  Der Anker macht auch die **Negativbefunde** der Agenten prüfbar
+  (15er-Nullliste und Positivkontrollen unabhängig reproduziert, ohne die
+  Quellen erneut zu beschaffen).
+- **„Agenten auf den unbequemen Pol verpflichten"** (MKT R7) —
+  Zweitbeleg: Ein Recherche-Agent meldete **ungefragt einen Fehler in der
+  Auftrags-Prämisse** (die Interessenabwägung steht in DSK-Ziff. 1.3,
+  nicht in 2.x).
+- **Nenner-Pflicht bei Befundlisten** (L-13) — **Eigenbeleg der
+  Leitsession:** Die eigene Dispositionsliste zur Codex-Restprüfung
+  führte **11 Befunde**, tatsächlich waren es **12** (die fehlende
+  R-A6.1-Normbegründung fiel erst beim Ausführen auf und wurde als B-12
+  nachgetragen). Auch die reviewende Instanz zählt falsch — der Nenner
+  schützt nur, wenn er selbst geprüft wird.
+- **„In Doku-Verweisen keine Zeilennummern"** — Erweiterung auf
+  **Verifikationsvermerke**: „Rechtsmatrix vollständig gelesen, 856
+  Zeilen" war zum Lesestand `d11535f` **korrekt** und wurde allein durch
+  den eigenen Nachtrag `474b95e` (+10 Zeilen) falsch. Belegstände gehören
+  als **Commit-Hash** ins Dokument, nicht als Zeilenzahl.
+
+**Werkzeug-/Kanalbefunde (an die Zentrale gemeldet, kein Regel-Rückfluss):**
+`curia.europa.eu`/`infocuria` sind seit einem Relaunch eine
+JavaScript-SPA ohne Nutzlast im HTML · `eur-lex.europa.eu` blockt curl
+(HTTP 202, leerer Body, 6 Versuche über 3 URL-Formen) · die deutsche
+Sprachfassung eines EuGH-Volltextes ist über `publications.europa.eu`
+teils nicht abrufbar (404 bei `deu`/`de`/`de-DE`, 200 nur bei `eng`) —
+Ausweg ist die Amtsblatt-Mitteilung (`…/celex/<Jahr>CA<Nr>`) mit dem
+amtlichen deutschen Tenor.
+
+**Fremdagenten-Einsatz (Codex, erster MKT-Auftrag C-1):** Der Zuschnitt
+**„Codex inventarisiert und misst, die Leitsession bewertet"** hat
+getragen — 11 belastbare Befunde ohne ein einziges Belegstufen-Urteil,
+Blindstellen vom Bericht selbst benannt, Verhaltensauflagen (nur lesend,
+eine Datei, kein Commit) eingehalten. **Aber: Eine `git status`-Aussage
+von Codex ist nicht ohne eigene Gegenmessung übernehmbar** — Codex
+meldete `.claude/settings.local.json` als untracked, während dieselbe
+Datei hier global git-ignoriert ist (`~/.config/git/ignore`); es sieht
+den Arbeitsbaum in einem anderen Benutzer-/Konfigurationskontext.

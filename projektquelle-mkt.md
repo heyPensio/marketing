@@ -425,6 +425,30 @@ OPS4-Register in `sensibel/`.)*
   `protokolle/R04-erhebung-beratungsbestand.md` (Leseweg-Vermerke
   dort).
 
+- **12.08.2026 (E14) Löschfrist für Kaltkontakte: 12 Monate** nach dem
+  letzten dokumentierten Kontaktversuch (offener Posten O-2 des
+  Listenbau-Regelwerks). Quelle/Form: strukturierte Abfrage
+  (AskUserQuestion) durch die Leitsession im R9-Review, Erhebung
+  dokumentiert in `protokolle/tagesplan-2026-08-12.md`; Optionen und
+  Herleitung in `akquise/interessenabwaegung-o8.md` § 9 (6 / 12 / 24
+  Monate, je mit Folge für die Abwägung; **24 Monate waren ausdrücklich
+  nicht empfohlen**, weil sie die für Bestandskunden hergeleitete Frist
+  auf Kaltkontakte spiegeln würden). Die **Werbesperrdatei** ist von der
+  Frist ausgenommen und bleibt dauerhaft bestehen.
+  **(E14b) Lead-Verfall-Verbot** — Auflage des Users im
+  Originalwortlaut: „nur wenn vergewissert ist das es follow ups gab was
+  nie passieren darf ist das leads aus unserem Raster fallen, ohne das
+  diese Anständig bearbeitet wurden und ein Vertragsabschluss
+  ausgeschlossen sit". Umsetzung: Der 3-Monats-Punkt für nie
+  angeschriebene Datensätze ist **kein stiller Löschtermin**, sondern
+  ein Pflicht-Wiedervorlagepunkt mit dokumentierter Disposition (in eine
+  Welle aufnehmen ODER mit Grund aussteuern); **kein Datensatz verfällt
+  ohne Disposition**. Gegengewicht der Session, sichtbar geführt: Die
+  Disposition ist einmal um 3 Monate verlängerbar, danach wird gelöscht
+  — sonst würde die Auflage zur unbefristeten Vorratsspeicherung und
+  damit zur Umgehung von Art. 5 Abs. 1 lit. e; absolute Grenze bleibt
+  die 12-Monats-Frist.
+
 ## 5. GEPARKTE IDEEN
 
 - **Agenten-Hierarchie nach Organigramm** (geparkt 09.08.2026; Prämisse
@@ -603,6 +627,22 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    VOR dem ersten Versand · Preismodell (HANDEL1, sperrt Terminpfad ab
    ~23.10.) · kritischer Pfad Namensentscheid (Postkorb-Eskalation
    läuft) · Kanalmix-Festzurrung erst nach FUND2-Persona-Befund.**
+   **→ STAND 12.08.2026 (R9): O-8 ist ERLEDIGT**
+   (`akquise/interessenabwaegung-o8.md`, Prüfer 24/24 disponiert), **O-2
+   ist entschieden** (E14/E14b: 12 Monate + Lead-Verfall-Verbot).
+   ⭐⭐ **Die Sperrwirkung ist dabei SCHÄRFER geworden, nicht schwächer:**
+   Nach LG Düsseldorf Rn. 87 müssen die Vorkehrungen vor dem ersten
+   Verarbeitungsschritt stehen — **das ist der LISTENAUFBAU, nicht der
+   Versand.** F-7 (Firmierung), O-9 (Art. 6 Abs. 4) und die sieben
+   Bau-Pflichten sperren damit bereits den ersten Datensatz; die
+   Annahme des Akquiseplans, die Zielkundenliste sei sofort baubar und
+   nur der Versand hänge am Namen, trägt so **nicht mehr**.
+   **Spitzenposten jetzt:** Preismodell (HANDEL1, R09-B — Terminpfad ab
+   ~23.10.) · die sieben Bau-Pflichten in §§ 3/7 des Regelwerks
+   einarbeiten · O-9 (Kompatibilitätsprüfung Art. 6 Abs. 4, MKT-HANDEL /
+   anwaltlicher Rat) · **R-2** (das O-8-Dokument liegt außerhalb des
+   Prüfraums von `akquise/pruefe-zitate.js` — kein dauerhaftes
+   Prüfmittel im Repo) · Nebenbefunde N-9…N-16.
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -740,6 +780,45 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 ---
 
 ## CHANGELOG
+
+- 12.08.2026 (R9-Debrief, eine Arbeits-Session + Codex-Auftrag C-1 +
+  Leitsession): **Das risikotragende Dokument steht** —
+  `akquise/interessenabwaegung-o8.md` (R09-A) schließt **O-8**, D2
+  Pflicht 4 und W-b1: Interessenabwägung Art. 6 Abs. 1 lit. f Stufe 3
+  mit **Ergebnis je Fallgruppe** statt Pauschalurteil (FG-3 freiwillige
+  Quelle trägt vertretbar; **FG-4 Impressum = dokumentiert getragenes
+  Restrisiko gegen die Auffassung der Datenschutzkonferenz, keine
+  Zulässigkeitsfeststellung**), einer Liste **gesperrter
+  Entlastungsargumente** (allen voran: die ordnungsgemäße
+  Art.-14-Information verbessert die Abwägung NICHT) und einem 1:1
+  übernehmbaren VVT-Block. Unabhängiger Prüfer: **24 von 24 Befunden
+  disponiert** (23 repariert, 1 gestrichen, 0 stillschweigend offen);
+  die vier schweren: eine behauptete Abweichung, die es nicht gibt ·
+  eine zu weite UWG-Entwarnung · **ErwG 47 Satz 4** (der einzige Satz
+  mit nachteiliger Rechtsfolge) fehlte · **LG Rn. 87** fehlte.
+  ⭐⭐ **Terminwirkung aus Rn. 87: Die Vorkehrungen müssen vor dem ERSTEN
+  VERARBEITUNGSSCHRITT stehen — und das ist der LISTENAUFBAU, nicht der
+  Versand.** Damit sperren F-7 (Firmierung), O-9 und die Bau-Pflichten
+  nicht erst den ersten Brief, sondern schon den ersten Datensatz; im
+  Akquiseplan war bisher unterstellt, die Zielkundenliste sei sofort
+  baubar. · ✅ **O-2 ENTSCHIEDEN (User, 12.08.): 12 Monate** nach dem
+  letzten Kontaktversuch, Sperrdatei ausgenommen — dazu die
+  User-Auflage **O-2b (Lead-Verfall-Verbot)**: nie kontaktierte
+  Datensätze verfallen nicht still, sondern brauchen binnen 3 Monaten
+  eine Disposition (Welle oder begründete Aussteuerung), einmal
+  verlängerbar, Obergrenze 12 Monate; die Spannung zu Art. 5 Abs. 1
+  lit. e ist sichtbar geführt. · **Erster Codex-Auftrag (C-1)** —
+  Restprüfschritte des abgebrochenen R08-A-Laufs: 649 zifferntragende
+  Zeilen inventarisiert, Satz-für-Satz-Abgleich, Rückbau-Gegenprobe;
+  **14 Befunde disponiert** (9 repariert, 2 mit Träger, 2 verworfen,
+  1 Verfahren). Zuschnitt „Codex misst, Leitsession bewertet" hat
+  getragen. · Methodik: **8 Lehren in den Blueprint zurückgeflossen**
+  (L-25…L-29 + Sammelvermerk R9), Nachzug von **4** fremden Deltas,
+  Stempel `69a8574`, Wächter „SYNCHRON: 12". **Offen:** O-9 (Art. 6
+  Abs. 4) · O-10 (Telefonkanal) · die sieben Bau-Pflichten in §§ 3/7
+  des Regelwerks · **R-2: das O-8-Dokument liegt außerhalb des
+  Prüfraums von `pruefe-zitate.js`** · Nebenbefunde N-9…N-16
+  (MKT-HANDEL/OPS/AKQ).
 
 - 11.08.2026 (R8-Debrief, zwei Arbeits-Sessions + Leitsession; davor
   M1-Methodik-Block): **MKT-AKQ ist gestartet** — `akquise/` neu

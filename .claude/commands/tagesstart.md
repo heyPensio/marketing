@@ -37,7 +37,13 @@ Schwerpunkte, Terminposten und Prämissen-Kasten stehen dort — der User
 startet nur mit einem Einzeiler. Die Datei ist der vom User bestätigte
 Stand (das `/briefing` schreibt sie erst nach seinem Entscheid); pastet
 der User dennoch einen Prompt, gewinnt der gepastete Text als der
-neuere. Kippt eine Prämisse des Kastens aus Sicht der Leitsession:
+neuere. **„Als der neuere" ist wörtlich zu nehmen: Trägt die
+Briefing-/Übergabe-DATEI jüngere Nachträge als der Paste
+(Korrektur-Kästen, spätere Stände), gewinnt die DATEI — die Abweichung
+wird gemeldet, nicht still aufgelöst** (Herkunft: heyPensio R38 — der
+gepastete Zwischenruf war der Vormittags-Stand, die Datei trug bereits
+eine zurückgezogene Antwort und drei geschlossene Restposten). Kippt
+eine Prämisse des Kastens aus Sicht der Leitsession:
 melden statt starten. (Grund: Chat-Prompts sind ein Zwischenzustand mit
 Verfallsdatum — ein Block startete ohne Input, weil sein Prompt nur im
 Zentrale-Chat existierte; Paste-Abschneide-Risiko entfällt mit.)
@@ -156,10 +162,43 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    Fäden — die Lücke „niemand hat geschaut" darf nie entstehen. Nur
    sichten, nichts beantworten. Und den User explizit
    fragen, was außerhalb passiert ist (Anrufe, Entscheide, Befunde).
+   **JEDER Eingang bekommt bei der Sichtung eine DISPOSITION — Zielort +
+   wer arbeitet ihn WANN in die Bestandsdokumente ein:** Ein nur im
+   Tagesplan notierter Eingang ist gesichtet, nicht eingearbeitet; eine
+   später aus den BESTANDSDOKUMENTEN erhobene Liste führt dieselben
+   Punkte sonst als offen, während die Antwort längst im Postfach liegt
+   (Herkunft: heyPensio R38 — fünf Tage gealterte „unbeantwortet"-Posten
+   neben ihrer notierten Antwort).
 4. **Neue Runde vorschlagen:** Aus STATUS.md („Nächster konkreter
    Schritt"), Eingängen und User-Zuruf die Stränge schneiden — disjunkte
    Scopes, exklusive Systeme (je System EINE Session), Modellwahl je
    Strang (CLAUDE.md Regel 7) — und dem User als Aufteilung vorlegen.
+   **Pflicht-Prüfung JE STRANG dabei: Ist das ein CODEX-Kandidat?**
+   (Maßstab: hartes, maschinell prüfbares Fertig-Kriterium · kein
+   Urteil über Belegstufe · kein Kerndokument-Schreibrecht nötig —
+   Kriterien-Volltext `zentrale\rollen-charta.md` „Codex",
+   Dispositions-Pflicht). Das Ergebnis steht sichtbar in der
+   vorgelegten Aufteilung („Codex-geeignet: ja/nein + ein Halbsatz
+   warum"). Die WERKZEUGWAHL trifft der User (Richtungsentscheid
+   10.08.2026: Werkzeug- und Kostenwahl gehören dem User) — die
+   Evaluation zu liefern ist Bringschuld der Leitsession, nie erst auf
+   User-Impuls. (Anlass: User-Fang 12.08.2026 — bis dahin stellte
+   keine Leitsession die Frage selbst.)
+   **⭐ Auftragsform, wenn ein Strang an Codex geht (am ersten realen
+   Auftrag bewährt, MKT R9):** Zuschnitt „**Codex inventarisiert und
+   misst — die Leitsession bewertet**"; der Auftrag verlangt
+   ausdrücklich KEIN Belegstufen-Urteil („ob eine Quelle eine Aussage
+   trägt, entscheidet die Leitsession"). Dazu vier feste Auflagen:
+   **eingefrorener Commit-Hash** als Prüfstand (der Arbeitsbaum läuft
+   unter dem Fremdagenten weiter) · **nur lesend, genau eine
+   Berichtsdatei** · **kein Commit/Push** (die Commit-Fähigkeit eines
+   Fremdagenten ist unbelegt, solange sie niemand gemessen hat) ·
+   Pflichtabschnitte „nicht erhoben / nicht prüfbar" und „welcher meiner
+   Prüfschritte hätte einen vorhandenen Fehler NICHT finden können?".
+   ⚠️ **Und die Rücklauf-Regel: Eine `git status`-Aussage eines
+   Fremdagenten ist nicht ohne eigene Gegenmessung übernehmbar** — er
+   sieht den Arbeitsbaum in einem anderen Benutzer-/Konfigurationskontext
+   (belegt: gemeldete „untrackte" Datei war lokal global git-ignoriert).
 5. **Nach Bestätigung:** Start-Prompts nach Abschnitt 2 erzeugen und nach
    Abschnitt 4 ausgeben.
 
@@ -237,6 +276,8 @@ einer, beim User nachfragen statt raten:
    interaktiv) — Pflichtform in der Meldung: „Token-Verbrauch: von der
    Session nicht erhebbar — Subagenten-Zahlen soweit bekannt: …"; das
    Ablesen ist ein USER-Schritt.
+6b. **Session-Limit ist ein RUNDENRISIKO bei Fan-outs** (Herkunft: heyPensio R37): Mehrere gleichzeitig gestartete Subagenten koennen gemeinsam am Session-Limit sterben (Reset zur vollen Stunde). Auftraege so schneiden, dass die Session bei Agenten-Ausfall selbst weiterarbeiten kann (unabhaengige Teile); nach dem Reset neu starten.
+
 7. **Subagent-Einsatz** — die Leitsession evaluiert PRO STRANG (auch für
    die eigene Aufgabe!), ob die Aufgabenform von Subagents profitiert,
    und bettet eine KONKRETE Anweisung ein — nie die Generik „prüfe, ob

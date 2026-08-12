@@ -9,6 +9,14 @@ Der Kern ist NICHT die Zusammenfassung, sondern das **Rückschreiben**:
 Jedes Learning muss zurück ins System, sonst war der Debrief nur ein
 Tagebuch. Phasen strikt der Reihe nach. Optionaler Fokus: `$ARGUMENTS`.
 
+⚠️ **Ein Debrief versiegelt einen STAND, keine Session** (User-Fang
+Zentrale 12.08.2026): Arbeitet die Session nach dem Debrief weiter
+(Verlängerung, Rückläufe, neue Entscheide), ist vor dem Schließen ein
+**DELTA-Debrief über die Arbeit seit dem letzten** fällig — alle
+Phasen, Prüfraum = das Delta; die Gegenprobe-Pflicht gilt erneut nach
+ihren normalen Kriterien. „Schon debrieft" bezieht sich nie auf die
+Session als Ganzes.
+
 Zuerst orientieren (nicht raten): `STATUS.md` lesen, Gesprächsverlauf
 durchgehen, vorhandene Skills/Commands sichten (kein Duplikat bauen).
 

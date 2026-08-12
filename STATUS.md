@@ -25,8 +25,30 @@
 ---
 
 ## Letzte Aktualisierung
-**11.08.2026 (R8, Shanks + zwei Arbeits-Sessions; vormittags
-M1-Methodik-Block)** — ⭐⭐ **MKT-AKQ gestartet — und der Kernbefund
+**12.08.2026 (R9, Shanks + eine Arbeits-Session + erster
+Codex-Auftrag)** — ⭐⭐ **Das risikotragende Dokument steht, und es
+verschärft den Terminpfad:** `akquise/interessenabwaegung-o8.md`
+schließt **O-8** (Art. 6 I f Stufe 3, Weg b) mit **Ergebnis je
+Fallgruppe** — FG-4 (Impressum) ist ein **dokumentiert getragenes
+Restrisiko gegen die Aufsichtsauffassung, keine
+Zulässigkeitsfeststellung** — plus einer Liste **gesperrter
+Entlastungsargumente** (die Art.-14-Information verbessert die Abwägung
+NICHT) und einem 1:1 übernehmbaren VVT-Block; Prüfer **24/24
+disponiert** (23 repariert, 1 gestrichen). ⭐⭐ **Aus LG Rn. 87: Die
+Vorkehrungen müssen vor dem ersten Verarbeitungsschritt stehen — das
+ist der LISTENAUFBAU, nicht der Versand.** F-7, O-9 und die sieben
+Bau-Pflichten sperren damit schon den ersten Datensatz; die
+Akquiseplan-Annahme „Liste sofort baubar, nur Versand hängt am Namen"
+trägt nicht mehr. · ✅ **O-2 ENTSCHIEDEN (User): 12 Monate** +
+**O-2b Lead-Verfall-Verbot** (E14/E14b) · **Erster Codex-Auftrag C-1**
+(Restprüfschritte des abgebrochenen R08-A-Laufs): 14 Befunde
+disponiert, 9 repariert — darunter der fehlende D3.1-Geltungsvermerk
+und die verkürzte DSB-Bedingung · Methodik: **8 Lehren zurückgeflossen**
+(L-25…L-29), Nachzug 4 Deltas, Stempel `69a8574`, Wächter
+„SYNCHRON: 12". *(Details: Projektquelle-Changelog R9.)*
+
+**Vorheriger Stand — 11.08.2026 (R8, Shanks + zwei Arbeits-Sessions;
+vormittags M1-Methodik-Block)** — ⭐⭐ **MKT-AKQ gestartet — und der Kernbefund
 verschiebt den kritischen Pfad:** Die Rückwärtsrechnung vom Anker
 Fr 13.11. zeigt, dass die November-Frist nicht an der
 Akquise-Kapazität hängt, sondern am **Namens-/Firmierungsentscheid**
@@ -50,31 +72,6 @@ GEGENSTANDSLOS** · Methodik: M1-Nachzug (20 Deltas, Wächter 0 DRIFT,
 Stempel jetzt `0dc102f`), Rückfluss 6 R7- + 7 R8-Lehren, L-21…L-24,
 `skill-bauweise` aktiviert. *(Details: Projektquelle-Changelog R8.)*
 
-**Vorheriger Stand — 10.08.2026 (R7, Shanks + vier Arbeits-Sessions)** — ⭐ **Der
-Akquisekanal, auf den die November-Frist gerechnet war, ist zu:**
-E-Mail-Kaltakquise B2B ist **abwägungsfrei unzulässig** (BGH I ZR 201/07
-Rn. 10), Impressumsdaten gelten für Werbung als **gesperrt** — übrig
-bleiben Brief, persönlicher Vorkontakt, fremde Verteiler, eingehende
-Anfragen, alle mit längerem Vorlauf (`handel/kanal-rechtsmatrix.md`,
-R07-C; 64/65 Fundstellen gegen 29 eigene Volltexte). **MKT-AKQ wird
-deshalb erster Strang der nächsten Runde.** · ⭐⭐ **Die Referenzbasis
-ist nicht „drei unabhängige Häuser":** Kayhan Rasuly ist Entscheider bei
-**zwei der drei** Pilotobjekte (GF HANSE mbH + Inhaber Rabe's, eigene
-Mail `19f841d1855798c5`, an der Rohquelle gegengelesen) und zugleich
-Antragsteller der WTSH-Förderanträge — Offenlegung ist ab jetzt
-**Bau-Pflicht in BELEG4**; zwei Postkorb-Meldungen an die Zentrale ·
-**R05-A-Nacharbeit geschlossen** (R07-A: 24/26 repariert, jede am
-Rohbeleg gemessen, 0 stillschweigend offen, 2 mit Träger;
-Verfahrens-Positivkontrolle bestanden) · **MKT-HANDEL hat zwei Träger**
-(Kanal-Rechtsmatrix + Förderarchitektur mit zwei Anfrage-Entwürfen im
-Status ENTWURF) · **Telkon-Listungszusage** im Register, zwei
-Auftragsprämissen an der Quelle widerlegt (Absichtsbekundung statt
-Zusage; **Logo liegt nicht vor**) · ⚠️ **BAFA sperrt als Berater, wer
-selbst einmal Antragsteller war** (Ziffer 4.2.1, irreversible Weiche) ·
-Methodik: Gerüst-Nachzug `50f00dc` **und** Rückfluss `baaac82`,
-Kopfstempel-Korrektur, **L-14 bis L-20** · **R07-E (P22) nicht gefahren**
-→ R8. *(Davor: R6 — P15/P19 aufgelöst, Bestandsscan 24/37.)*
-
 *(Davor: R6 — P15/P19 aufgelöst, Bestandsscan 24/37. Ältere Stände:
 `STATUS-archiv.md`.)*
 
@@ -88,16 +85,9 @@ Kopfstempel-Korrektur, **L-14 bis L-20** · **R07-E (P22) nicht gefahren**
   2026 (angedacht) · erster zahlender Kunde bis Mitte November 2026.
 - Schwester-Repo `zentrale` (Firmen-Ebene) im selben Zug angelegt —
   trägt Namensentscheid-Vorprüfung und Rollen-Charta.
-- **R7 (10.08.):** ✅ R05-A-Nacharbeit geschlossen (24/26, am Rohbeleg
-  gemessen) · ✅ `handel/` aufgemacht: Kanal-Rechtsmatrix (UWG § 7 +
-  DSGVO) und Förderarchitektur (Hamburg Digital Check · SH-DKU · BAFA)
-  mit zwei Anfrage-Entwürfen im Status **ENTWURF** · ✅ Telkon-Zusage im
-  Referenz-Register · ⚠️ **E-Mail-Kaltakquise zu → MKT-AKQ vorziehen** ·
-  ⚠️ **Verflechtung Pilotobjekte** (2 von 3 derselbe Entscheider) ·
-  ⚠️ **BAFA-Beraterrolle-Sperre**. Offen aus R7: Telkon-Logo · F-7
-  Firmierung · F-15 WTSH-Antragsstand · U-1…U-9/O-1…O-7 der
-  Referenzvereinbarungs-Vorlage · W-17-/V-1-Rest · **P22 (R07-E nicht
-  gefahren)** · vier B9.4-Korrekturen einarbeiten.
+- *(R7-Block rotiert 12.08.2026 → `STATUS-archiv.md`. Weiterhin offen
+  daraus: Telkon-Logo · **F-7 Firmierung** · U-1…U-9/O-1…O-7 der
+  Referenzvereinbarungs-Vorlage · W-17-/V-1-Rest.)*
 - **R8 (11.08.):** ✅ M1-Nachzug (Stempel `0dc102f`, Wächter 0 DRIFT,
   `skill-bauweise` aktiviert) · ✅ D3.1/D3.2 entschieden (24 Monate ·
   Weg b) · ✅ `akquise/` gebaut und geprüft (Akquiseplan +
@@ -109,16 +99,36 @@ Kopfstempel-Korrektur, **L-14 bis L-20** · **R07-E (P22) nicht gefahren**
   Teil-B-Einstufungen (4 Fälle) · P21-Rest · N-8 fremde Verteiler ·
   Kategorie-4-Rest des R08-A-Prüfers · Modell-Statuszeilen R08-A/B
   (User-Ablesung). *(R5+R6 rotiert → `STATUS-archiv.md`.)*
+- **R9 (12.08.):** ✅ **O-8 gebaut und geprüft**
+  (`akquise/interessenabwaegung-o8.md`; Prüfer 24/24 disponiert) ·
+  ✅ **O-2 entschieden: 12 Monate + O-2b Lead-Verfall-Verbot**
+  (E14/E14b) · ✅ **Codex-C1** schließt die Restprüfschritte des
+  abgebrochenen R08-A-Laufs (14 Befunde, 9 repariert) · ✅ Methodik:
+  8 Lehren zurückgeflossen (L-25…L-29), Nachzug 4 Deltas, Stempel
+  `69a8574`, Wächter „SYNCHRON: 12". ⭐⭐ **Sperrwirkung verschärft: F-7,
+  O-9 und die sieben Bau-Pflichten sperren den LISTENAUFBAU, nicht erst
+  den Versand** (LG Rn. 87). Offen aus R9: **O-9** (Art. 6 Abs. 4) ·
+  **O-10** (Telefonkanal) · die sieben Bau-Pflichten in §§ 3/7 des
+  Regelwerks · **R-2** (O-8-Dokument außerhalb des Prüfraums von
+  `pruefe-zitate.js`) · Nebenbefunde **N-9…N-16** (HANDEL/OPS/AKQ) ·
+  **R09-B Preismodell nicht gestartet** (sequenziell geplant, Tagesplan).
+  *(R7 rotiert → `STATUS-archiv.md`.)*
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
-   (StB ~KW 34/35) — eskaliert an die Zentrale (`8d71def`).** MKT-seitig
-   sind die Spitzenposten der nächsten Runde: **O-8 Interessenabwägung
-   Art. 6 I f Stufe 3** (unter Weg b das risikotragende Dokument, VOR
-   dem ersten Versand, mit O-2-User-Entscheid Kaltkontakt-Löschfrist) ·
-   **Preismodell/HANDEL1** (sperrt Terminpfad ab ~23.10., N-2) ·
-   Kanalmix-Festzurrung erst nach FUND2-Persona-Befund (Vorbehalt steht
-   sichtbar im Akquiseplan). Details: Projektquelle § 7 Punkt 0 + R8-
+   (StB ~KW 34/35) — eskaliert an die Zentrale (`8d71def`).**
+   ⭐⭐ **NEU AUS R9 — der Engpass ist FRÜHER als gedacht:** Nach LG
+   Düsseldorf Rn. 87 müssen die Vorkehrungen vor dem ersten
+   Verarbeitungsschritt stehen, und das ist der **Listenaufbau**, nicht
+   der Versand. **F-7 (Firmierung), O-9 und die sieben Bau-Pflichten
+   sperren damit schon den ersten Datensatz** — die Annahme „Liste sofort
+   baubar, nur der Versand hängt am Namen" trägt nicht mehr; der
+   Akquiseplan ist entsprechend nachzuziehen. ~~O-8~~ ✅ erledigt (R9),
+   ~~O-2~~ ✅ entschieden (12 Monate + O-2b). Spitzenposten jetzt:
+   **Preismodell/HANDEL1** (R09-B, sperrt Terminpfad ab ~23.10., N-2) ·
+   **die sieben Bau-Pflichten** ins Regelwerk · **O-9**
+   (Kompatibilitätsprüfung Art. 6 Abs. 4) · Kanalmix-Festzurrung erst
+   nach FUND2-Persona-Befund. Details: Projektquelle § 7 Punkt 0 + R9-
    Changelog.
 1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
    GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger

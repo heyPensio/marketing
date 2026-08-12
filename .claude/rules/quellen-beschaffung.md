@@ -101,7 +101,31 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   Fundstellen. ⚠️ Der mechanische Abgleich prüft nur die
   Fundstellen-Achse: Alle inhaltlichen Zusatzbefunde kamen erst aus dem
   LESEN — Aussage und Fundstelle bleiben zwei Prüfungen.
-  (Herkunft: MKT R7.)
+  (Herkunft: MKT R7.) **Erweiterung MKT R9: Der eigene Anker macht auch
+  die NEGATIVBEFUNDE der Agenten prüfbar** — Nulllisten und
+  Positivkontrollen lassen sich unabhängig reproduzieren, ohne die
+  Quellen erneut zu beschaffen.
+- **⭐ Fehlalarme eines Zitat-/Textabgleichs sind fast alle
+  NORMALISIERUNGSFEHLER** (Herkunft: MKT R9, gemessen: von 37 gemeldeten
+  „Abweichungen" waren **33** Werkzeugfehler in fünf Klassen, nur 4
+  echt): Blockquote-/Zeilenpräfixe mitten im Zitat (die Normalisierung
+  griff nur am Zeilenanfang) · PDF-Silbentrennung · PDF-Seitenmarken
+  mitten im Satz · Umbruch an Bindestrich/Schrägstrich · deutsche
+  Zitat-im-Zitat-Schachtelung. Zwei Folgen: **(1) Jede
+  Normalisierungsstufe muss SYMMETRISCH auf beide Seiten wirken, und die
+  REIHENFOLGE der Stufen zählt** — Silbentrennung nur auf der Quellseite
+  aufzuheben machte aus „Telefon- und Stromanbieter" ein „Telefonund"
+  und verlor ein zuvor gefundenes Zitat; eine Dehyphenierung vor der
+  nächsten Stufe entzieht dieser die Bruchstelle. **(2) Eine mechanische
+  Prüfung, die zu viel meldet, wird abgeschaltet** — die
+  Fehlalarm-Analyse gehört in den Werkzeugbau, nicht in die Nacharbeit.
+- **⭐ Der DATEINAME einer Quelle ist keine Standangabe — und zwei
+  Bezugsquellen sind nicht zwei Lesewege** (Herkunft: MKT R9): Eine
+  Behörden-URL trug ein Datum von 2018 im Dateinamen und lieferte
+  inhaltlich die Fassung von 2022 (beide Textextrakte md5-identisch).
+  Umgekehrt gilt: Ein „Zweitkanal", der dieselbe Datei liefert, stützt
+  die Fassungsangabe, aber **keinen** Negativbefund über den Text — dafür
+  braucht es eine unabhängige Quelle, nicht einen zweiten Abrufweg.
 - **⭐ Ein Muster über AUSZEICHNUNG ist eine Annahme über deren FORM —
   und ein Prüfmuster, das nicht treffen KANN, sieht im Log wie ein
   sauberes Negativ aus** (Herkunft: MKT R7, drei unabhängige Belege):
@@ -177,3 +201,24 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
 - Bei API-Fehlern erst die aufgelöste Anfrage im Result lesen, nur eine
   Variable pro Versuch ändern, Schreibweise an der echten Doku prüfen.
   Fehlermeldungen von Drittsystemen auch als ERKENNTNISQUELLE lesen.
+
+- **Behörden-Website-Fallen (Herkunft: heyPensio R37, BAFA-Fall):**
+  (1) Die **Linkbeschriftung einer Fundstelle kann falsch sein**
+  (Richtliniendatum statt Amtsblatt-Fundstelle) — Fundstellen aus dem
+  Dokument selbst zitieren, nie von der Website abschreiben. (2) Die
+  maßgebliche Fassung kann **nur hinter einer Viewer-URL ohne
+  Dateiendung** liegen, die per curl in eine Redirect-Schleife läuft —
+  während die ÜBERHOLTE Fassung als direkter PDF-Link daneben steht
+  (Fassungsfalle). (3) **Dateinamen lügen** (Merkblatt unter
+  `formular_….pdf`) — Auffindbarkeit über den Linktext, nie über
+  Pfad-Suche nach dem Dokumenttyp.
+- **Aus Formeln abgeleitete Beträge auf numerische AUSLÖSCHUNG prüfen**
+  (Herkunft: heyPensio R37): Bildet eine amtliche Formel die Differenz
+  zweier großer, nah beieinanderliegender Werte, sehen die Ergebnisse
+  exakt aus und sind es nicht — als Größenordnung ausweisen und die
+  verbindliche Stelle (z. B. den amtlichen Rechner) benennen.
+- **Gegen case-sensitive Wörterbuch-Negative hilft der KOPF-VOLLDUMP**,
+  nicht ein weiterer Grep (Herkunft: heyPensio R37 — „vom" vs. „Vom"
+  ergab 0 Treffer und hätte fast eine falsche Fassungsidentität
+  gemeldet). Und Tabellen ohne Textebene werden von der Textextraktion
+  STILL übersprungen — Screenshot-Rendering ist dort der einzige Weg.

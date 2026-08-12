@@ -3,7 +3,16 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`b8597b6`** (R8-Debrief-Rückfluss 11.08.2026
+> am 2026-08-09; Stand **`69a8574`** (R9-Debrief 12.08.2026: Rückfluss
+> von 8 MKT-R9-Lehren + Auftragsform für Fremdagenten; im selben Zug
+> **4 fremde Deltas** nachgezogen — `42cb373`, `b8e10a9`, `0267e50`,
+> `75cdba4` (Codex-Eignungsprüfung je Strang) —, 3 Kopien gezogen,
+> Wächter „SYNCHRON: 12", 0 DRIFT.
+> ⚠️ **Commit-Zuordnung:** Die `CLAUDE-vorlage.md`-Anteile des
+> Rückflusses liegen in `5ef14b9` (fremde Session hat sie beim
+> Committen mitgezogen), der Rest in `e58ef4f`/`69a8574` — Vermerk im
+> `LEHREN-CHANGELOG.md`).
+> Davor `b8597b6` (R8-Debrief-Rückfluss 11.08.2026
 > abends: 7 R8-Lehren `0dc102f` + Gegenprobe-Nachzug Bezeichner-Regel
 > `b8597b6`, betroffene Kopien im selben Zug gezogen, Wächter 0 DRIFT). Davor `08a12c5` (Mini-Nachzug 11.08.2026
 > nachmittags: skill-bauweise Tranche 2 — Ansatz challengen,
@@ -469,6 +478,15 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Zielortliste macht die Quelle zur Abarbeitung — vorher einmal umgekehrt
   greppen: „Welche Punkte der Quelle nennen MEIN Dokument als Zielort?"
   (Herkunft: R30-D/R31-C.)
+- **⭐ Bewertungs-/Risikodokumente: Ergebnis JE FALLGRUPPE, plus eine
+  Liste ausdrücklich GESPERRTER Argumente.** Ein Pauschalurteil zieht
+  entweder die tragfähigen Fälle herunter oder deckt das Risiko zu —
+  Achsen bilden (hier: Personenbezug × Datenquelle) und je Fallgruppe ein
+  eigenes Ergebnis ausweisen, „getragenes Restrisiko" getrennt von
+  „zulässig". Dazu die drei naheliegendsten Entlastungen benennen und
+  **mit Begründung sperren**: Die plausibelste Entlastung ist die
+  gefährlichste, weil die Gegenseite sie mit einem Satz aus ihrer eigenen
+  Quelle kippt. (L-28.)
 - **Ein Bewertungskriterium gilt für ALLE Kandidaten;** wird es geändert,
   den Bestand rückwirkend prüfen (wer wurde NUR daran aussortiert?). Passt
   ein Raster strukturell nicht, ist „nicht anwendbar" die richtige
@@ -534,7 +552,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Blindstellen statt sie zu finden** (L-21; MKT R8 P-02, überlebte
   einen bestandenen Selbsttest).
 - **Ein Test, der nichts verändert, prüft nichts** — Testaufbauten brauchen
-  ihre eigene Positivkontrolle. **Eine grüne Testzahl belegt nichts — nur
+  ihre eigene Positivkontrolle. **⭐ Auch die RÜCKBAU-Gegenprobe braucht
+  sie, und zwar als ZÄHLUNG: „gesetzt: n von m".** Ein Durchlauf setzte
+  still nur 3 von 4 Verfälschungen (die vierte scheiterte an einem
+  Zeilenumbruch im Suchmuster) — ohne die Zählung wäre ein wirkungsloser
+  Testaufbau als bestandene Prüfung verbucht worden (Sammelvermerk R9). **Eine grüne Testzahl belegt nichts — nur
   die Rückbau-Gegenprobe belegt, dass die Tests den Fund fangen** (Fix in
   Wegwerf-Kopie zurückdrehen, prüfen ob die Suite es merkt). **Und ein
   Selbsttest, der die zu prüfende ZUSAMMENSETZUNG selbst nachbaut, prüft
@@ -558,6 +580,25 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   ist, meldet ausgerechnet nach der von ihm selbst empfohlenen Maßnahme
   falsch grün. **Ein Prüfwerkzeug, das den Erfolgsfall nicht kennt, ist
   keins.** (Herkunft: heyPensio R36, zwei unabhängige Fälle.)
+  **⭐ Hat das Werkzeug mehrere MODI, hat jeder seine eigene
+  Erfolgsbedingung** — ein Selbsttest, der „4 gemeldet" erwartet, ist
+  unter der Hauptlauf-Bedingung „0 gemeldet" nie grün und meldet
+  ausgerechnet nach geglückter Arbeit rot (Sammelvermerk R9).
+- **⭐ Wer eine Reparatur DOKUMENTIERT, verändert den Prüflauf.** Der
+  Reparaturvermerk zitiert die alte Fassung — und erzeugt ein „Zitat",
+  das per Konstruktion nicht in der Quelle stehen kann. Nach jedem
+  Reparaturvermerk das Prüfwerkzeug laufen lassen und die Ausnahmeliste
+  IM SELBEN ZUG ergänzen (je Eintrag mit Begründung). Zitate aus Quellen
+  AUSSERHALB des Prüfpools kann das Werkzeug nie bestätigen — sie als
+  Ausnahme führen UND ausweisen, wer sie stattdessen verifiziert hat,
+  sonst wird die Ausnahmeliste zur Ausrede. (L-26, drei Belege.)
+- **⭐ Ein Zitatabgleich prüft, was als Zitat MARKIERT ist — nicht den
+  Fließtext daneben.** Normbegriffe, Absatz-/Buchstabenangaben und
+  Rechtsfolgen im Fließtext sieht kein Extraktor; genau dort sitzt die
+  gefährlichste Klasse, weil sie sich plausibel liest (gemessen: 4 von 5
+  Verfälschungen gefangen, die fünfte war Fließtext). Wer ein solches
+  Werkzeug einsetzt, schreibt ins Dokument, was es NICHT prüft — sonst
+  liest sich „116/116 bestätigt" als Vollprüfung. (L-27.)
 - **Vor jedem Passwortwechsel/jeder Credential-Rotation prüfen, WER das
   Credential aktiv nutzt** — fremdgenutzte Zugangsdaten nie im Alleingang
   rotieren; Automations-Secrets von vornherein in EIGENE Postfächer/
@@ -693,7 +734,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **Vorwärtsverweis-Konvention:** Kippt ein neuer Stand eine ältere
   Festlegung, bekommt die ALTE Stelle im selben Zug einen Vorwärtsverweis
   („überholt durch X") — an der Stelle, wo der Leser ANKOMMT, nicht im
-  Changelog. Nachtrags-Ketten auch rückwärts pflegen. Nach jeder
+  Changelog.
+  **⭐ Und die GEGENRICHTUNG, die dabei regelmäßig ausfällt: Wer eine
+  QUELLE schärft, zieht im selben Zug die daraus ABGELEITETEN Dokumente
+  nach.** Der Suchraum ist dann nicht „wo steht der alte Wert?", sondern
+  „wer hat aus dieser Datei abgeleitet?" (grep auf den Dateinamen übers
+  Repo), und geprüft wird die ANKUNFTSSTELLE, nicht der Changelog. Die
+  Klasse ist zäh, weil beide Dokumente für sich korrekt aussehen — zwei
+  Belege an einem Tag (L-25). Nachtrags-Ketten auch rückwärts pflegen. Nach jeder
   Richtungsentscheidung die betroffenen Alt-Dokumente durchgehen —
   ausdrücklich auch gemeinsam genutzte KALKULATIONSZEILEN in fremden
   Rechnungen, nicht nur thematisch betroffene Dateien. **Und seit es
@@ -715,7 +763,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **In Doku-Verweisen keine Zeilennummern**, sondern Abschnitts-/
   Überschriftsbezug — Zeilen-Anker altern, auch in Markdown-Nachbarn und
   innerhalb einer Runde. Wo nur Zeilen möglich sind: mit Commit-Stand
-  (`@<hash>`).
+  (`@<hash>`). **Das gilt auch für VERIFIKATIONSVERMERKE:** „Quelle
+  vollständig gelesen, 856 Zeilen" war zum Lesestand korrekt und wurde
+  allein durch den eigenen späteren Nachtrag falsch — ein Belegstand
+  gehört als Commit-Hash ins Dokument, nie als Zeilenzahl
+  (Sammelvermerk R9).
 - **Kalender-Etiketten (Wochentage zu Datumsangaben) nie aus dem Kopf**
   — immer per Werkzeug (`Get-Date`) erheben; aus dem Kopf vergebene
   Etiketten geraten teils richtig, teils falsch und sind dadurch schwer

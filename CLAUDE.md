@@ -3,7 +3,16 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`69a8574`** (R9-Debrief 12.08.2026: Rückfluss
+> am 2026-08-09; Stand **`bb3b32c`** (R10-Umbau-Nachzug 12.08.2026
+> nachmittags: 2 fremde Deltas einzeln disponiert — `c286af0`
+> Duplikat-Grundsatz Wächter/Vorrangklausel/sonst-Zeiger → übernommen
+> nach „Doku-Hygiene" (der firmen-integration-Anteil Z. 13 betrifft nur
+> das Blueprint-Register, keine Projektkopie); `bb3b32c`
+> Git-Pfad-Pflichtform im Blueprint-Repo → `commands/debrief.md` 3d
+> vom Master gezogen (Hook/settings-Anteil betrifft nur das
+> Blueprint-Repo selbst, marketing hat beides seit Tag eins). Wächter
+> 0 DRIFT / 12 synchron.
+> Davor Stand `69a8574` (R9-Debrief 12.08.2026: Rückfluss
 > von 8 MKT-R9-Lehren + Auftragsform für Fremdagenten; im selben Zug
 > **4 fremde Deltas** nachgezogen — `42cb373`, `b8e10a9`, `0267e50`,
 > `75cdba4` (Codex-Eignungsprüfung je Strang) —, 3 Kopien gezogen,
@@ -770,6 +779,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Weglassen — positiv auflisten, was NICHT überholt ist, und die
   Neufassung dagegen prüfen. Freigaben/„darf-bleiben"-Einstufungen tragen
   einen Geltungsvermerk (Empfängerkreis + Stand).
+- **⭐ Eine Regel- oder Text-DUBLETTE über Dateigrenzen ist nur in
+  genau zwei Formen zulässig** (Architektur-Prüflauf 11.08.2026,
+  eingezogen 12.08.): (a) mit WÄCHTER (automatischer Kopien-Abgleich,
+  wie die `.claude\rules\`-Kopien via `pruefe-kopien.js`) oder (b) mit
+  ausdrücklicher VORRANGKLAUSEL im Text („bei Widerspruch gewinnt X",
+  wie STATUS.md ↔ Projektquelle). Alles andere wird ZEIGER. Prüffrage
+  beim Anlegen jeder zweiten Fundstelle: Wer merkt es, wenn die beiden
+  auseinanderlaufen?
 - **In Doku-Verweisen keine Zeilennummern**, sondern Abschnitts-/
   Überschriftsbezug — Zeilen-Anker altern, auch in Markdown-Nachbarn und
   innerhalb einer Runde. Wo nur Zeilen möglich sind: mit Commit-Stand

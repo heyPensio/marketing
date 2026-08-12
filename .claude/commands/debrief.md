@@ -100,6 +100,16 @@ Methodik-Blueprint-Repo `projektgerüst`
   erst eine Runde später auf, als der Wächter sechs nur in den Kopien
   lebende Lehren meldete; ohne Wächter-Lauf hätte der nächste Nachzug
   sie überschrieben. (Herkunft: MKT R8/M1.)
+- **⭐ Git-Disziplin gilt im Blueprint-Repo VERSCHÄRFT** (Vorfall
+  12.08.2026: im Debrief-Fenster schreiben regelmäßig ZWEI
+  Leitsessions gleichzeitig zurück — ein Rückfluss-Commit zog fünf
+  uncommittete fremde Edits mit, die Zuordenbarkeit ist seitdem
+  beschädigt, die Historie ließ sich nicht mehr korrigieren):
+  Auch hier NUR `git commit -F <msg> -- <pfade>` mit explizit
+  benannten Pfaden; VOR dem Commit `git status` auf fremde
+  Modifikationen sichten und Fremdes ungestagt lassen; technischer
+  Träger ist der `block-broad-git-add`-Hook, der seit 12.08.2026
+  auch im projektgerüst verdrahtet ist.
 
 Grundregeln: Nur zurückschreiben, was die Session wirklich belegt hat.
 Ändert ein Learning etwas Bestehendes, die alte Stelle mit anpassen

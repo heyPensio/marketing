@@ -354,6 +354,138 @@ Modultyp · Betreiber-Eigentums-Architektur (A3) als Preisbestandteil ·
 Scope an die Zahl schreiben). Pilot bleibt kostenlos (R3) — jedes
 Pricing gilt für FOLGEkunden.
 
+---
+
+## Codex-Auftrag C-1 — Rest-Prüfschritte des R08-A-Prüflaufs
+
+*(User-Entscheid 12.08.: Codex übernimmt dieses Paket. Rollen-Grundlage:
+`zentrale\rollen-charta.md`, Abschnitt „Codex — Springer über alle
+Abteilungen" + Lane A/B aus
+`zentrale\codex-bericht-systemgesundheit-2026-08-11.md`. Der Auftrag ist
+bewusst so geschnitten, dass **keine Belegstufen-Urteile** verlangt
+werden: Codex liefert Inventur, Gegenüberstellung und Messwerte — die
+Bewertung macht die Leitsession.)*
+
+**Zeitliche Einordnung:** Startbar, sobald der User ihn ausgibt. Der
+Prüfgegenstand ist auf einen Commit eingefroren; dass R09-A parallel an
+`akquise/listenbau-regelwerk.md` arbeitet, ist damit unschädlich — die
+Leitsession gleicht die R09-A-Nachträge beim Review gegen den Bericht ab.
+
+> **Prämissen-Kasten (Annahmen — stimmt das?):**
+> 1. Der R08-A-Prüflauf wurde durch ein Session-Limit abgebrochen; die
+>    offenen Schritte stehen in `protokolle/R08-A-pruefer.md` § C
+>    (Zeilen 186–227) und sind der einzige Auftragsgegenstand hier.
+> 2. Befund P-02 wurde repariert (das Skript liest die Blockzitate jetzt
+>    im ZIELdokument); zu prüfen ist der REPARIERTE Stand, nicht der
+>    Stand des Prüfprotokolls.
+> 3. Es wird **nichts** im Repo geändert außer der einen Berichtsdatei;
+>    committet wird sie nicht (Codex' Commit-Fähigkeit ist unbelegt —
+>    Z3-Blockade-Test steht aus). Der Commit ist Sache der Leitsession.
+>
+> **Auftrag (nur lesend, ein Bericht):** Führe die fünf abgebrochenen
+> Prüfschritte des R08-A-Laufs zu Ende.
+>
+> **Repo:** `C:\Users\qwafa_2dwxzia\firma\marketing`
+> **Eingefrorener Prüfstand:** Commit **`2110083`** (Stand 12.08.
+> vormittags). Arbeite gegen diesen Stand; ändert sich der Arbeitsbaum
+> während des Laufs, ist das ein Verfahrenshinweis in den Bericht, kein
+> Sachbefund.
+>
+> **Prüfgegenstände:** `akquise/akquiseplan.md` (596 Z.) ·
+> `akquise/listenbau-regelwerk.md` (999 Z.) · `akquise/pruefe-zitate.js`
+> (232 Z.) · `akquise/selbsttest-zitate.md` (36 Z.)
+> **Quellen zum Abgleich:** `handel/kanal-rechtsmatrix.md` (866 Z.) ·
+> `beleg/baseline-messplan.md` (392 Z.) ·
+> `protokolle/R08-A-zitatpruefung.md` (135 Z.) ·
+> `protokolle/R08-A-pruefer.md` (712 Z.) · `lehren-register.md` (924 Z.)
+>
+> **Schritt 1 — Zahlen-Vollinventur (Kategorie 3 des Prüfers, offen).**
+> Der Prüfer ist NICHT jede Zahl durchgegangen; nicht erhoben sind
+> ausdrücklich die aus der Rechtsmatrix übernommenen Zahlen sowie
+> **sämtliche Aktenzeichen und Randnummern**. Erhebe für BEIDE
+> akquise-Dokumente jede Zahl (auch Aktenzeichen, Randnummern, Fristen,
+> Prozentwerte, Geldbeträge) als Tabelle mit: Fundstelle
+> (Datei + Abschnitt, **keine nackten Zeilennummern** — Zeilenanker
+> altern) · die Zahl im Originalwortlaut · zugeordnete Quellenangabe im
+> Text (ja/nein, welche) · Zählweg genannt (ja/nein) · bei aus der
+> Rechtsmatrix übernommenen Zahlen: steht dieselbe Zahl dort, an welcher
+> Stelle, mit welchem Scope. **Klassifiziere nur mechanisch**
+> (Quelle vorhanden / Zählweg vorhanden / Abweichung zur Rechtsmatrix) —
+> ob eine Quelle die Zahl *trägt*, entscheidet die Leitsession.
+> ⚠️ Eine Zahl trägt den Scope ihrer ZEILE, nicht den ihres Namens:
+> Bei jeder Abweichung beide Fundstellen im Wortlaut zitieren, nicht
+> zusammenfassen.
+>
+> **Schritt 2 — Satz-für-Satz-Gegenüberstellung (Kategorie 4, Rest).**
+> Der Prüfer hat § 7.4 des Regelwerks und die Newsletter-Regeln
+> **R-A6.1, R-A6.2, R-A6.4, R-A6.6** nur stichprobenhaft geprüft. Stelle
+> für diese Stellen Quellsatz (Rechtsmatrix) und Zielsatz (Regelwerk)
+> paarweise gegenüber und liste jede inhaltliche Differenz auf —
+> besonders: weggefallene Vorbehalte, aus „soll/kann" gewordene
+> Festlegungen (und umgekehrt), verkürzte Bedingungen, verstärkte
+> Entwarnungen. **Werte nicht, stelle gegenüber.**
+>
+> **Schritt 3 — `beleg/baseline-messplan.md` § 5 lesen.** Der Prüfer hat
+> die Datei nur auf Überschriftenebene gesehen. Der Akquiseplan
+> behauptet, § 5 dort („Zeitfenster — Rückwärtsrechnung vom Livegang")
+> sei das MUSTER seiner Rückwärtsrechnung. Lies § 5 vollständig und
+> stelle dar: Welche Elemente hat das Muster, welche davon finden sich
+> in der Rückwärtsrechnung des Akquiseplans wieder, welche nicht.
+> Tabelle Element ↔ vorhanden/fehlt ↔ Fundstelle.
+>
+> **Schritt 4 — Rückbau-Gegenprobe am Zitat-Skript (Lane B).** Der
+> Prüfer hat sie BEGONNEN und nicht abgeschlossen; seine eigene
+> Positivkontrolle ist dabei **fehlgeschlagen** (der gewählte Anker war
+> in der Kopie nicht auffindbar), der Exit-Code ist untauglich (der
+> Basislauf endet bereits mit 1). Führe sie sauber zu Ende:
+> - Arbeite ausschließlich in einer **Wegwerf-Kopie außerhalb des
+>   Repos** (z. B. unter `%TEMP%`); das Repo bleibt unverändert.
+> - Basislauf reproduzieren und die **Zählerzeilen** festhalten (nicht
+>   den Exit-Code) — er ist die Messgröße.
+> - Mindestens diese zwei Fälschungen einzeln einbauen und je den
+>   Zählerstand vorher/nachher berichten: (a) D3-Kasten 24 → 36 Monate;
+>   (b) D2-Pflicht 2 „vor jedem Versand" → „vor jeder Welle".
+> - **Positivkontrolle Pflicht:** Vor jeder Fälschung belegen, dass der
+>   gewählte Anker im geprüften Text überhaupt gefunden wird
+>   (`gefunden: true`) — sonst misst die Gegenprobe nichts. Scheitert
+>   das, ist das ein Befund, kein Nebensatz.
+> - Zusätzlich: Feuert im `selbsttest-zitate.md` **jedes** Muster
+>   mindestens einmal? Zähle je Muster, nicht in Summe — ein Sammellauf
+>   mit Treffern verdeckt das einzelne tote Muster.
+>
+> **Schritt 5 — `protokolle/R08-A-zitatpruefung.md` gegenlesen.** Der
+> Prüfer hat die Datei nicht gelesen. Prüfe mechanisch, ob die dort
+> dokumentierten sechs Reparaturen im heutigen Stand der beiden
+> akquise-Dokumente tatsächlich so vorliegen (je Reparatur: behauptet /
+> vorgefunden / Fundstelle).
+>
+> **Werkzeug-Auflagen (auf diesem Rechner teuer belegt):**
+> `grep -c` zählt ZEILEN, nicht Treffer — belastbar ist
+> `grep -o … | wc -l`; ein Exit-Code hinter einer Pipe ist der Exit-Code
+> der PIPE (Ausgabe in Datei, Status separat lesen); `git show <hash>^:`
+> entschärft sich unter Windows still (`~1` verwenden); eine
+> abgeschnittene Werkzeugausgabe trägt **kein** Negativ (zu Ende lesen
+> oder als „nicht erhoben" ausweisen); jedes Negativ nennt seinen
+> Suchraum und trägt eine Positivkontrolle im selben Lauf; jede Zahl im
+> Bericht trägt ihren Zählweg.
+>
+> **Verboten:** jede Änderung an Repo-Dateien außer dem Bericht · jeder
+> Commit/Push · `sensibel/` öffnen oder listen · Kerndokumente
+> (`CLAUDE.md`, `AGENTS.md`, `STATUS.md`, `projektquelle-mkt.md`,
+> Skills/Commands) anfassen · Bewertungen darüber, ob eine Quelle eine
+> Aussage trägt (das ist Leitsession-Sache).
+>
+> **Fertig-Kriterium:** Eine Datei
+> **`protokolle/R09-codex-restpruefung-R08A.md`** mit: Prüfstand-Hash ·
+> Leseumfang je Datei **mit Zeilenspannen** · den fünf Schritten je als
+> eigener Abschnitt mit Ergebnis (auch „keine Auffälligkeit") ·
+> Zahlen-Inventur als Tabelle · Positivkontrollen mit Ergebnis · einer
+> Liste „nicht erhoben / nicht prüfbar" (eigene Kategorie, nie zu
+> „unauffällig" geglättet) · und am Ende der Frage: **„Welcher meiner
+> Prüfschritte hätte einen vorhandenen Fehler NICHT finden können?"**
+> `git status` muss danach genau diese eine neue Datei zeigen und sonst
+> nichts.
+
 ## Übergabe-Block
 
 *(wird beim Blockwechsel gefüllt: Session-Stand, offene Handgriffe,

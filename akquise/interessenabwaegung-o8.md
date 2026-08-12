@@ -77,7 +77,7 @@ Ergebnis**, auch kein negatives — er ist vorher raus.
 
 | Kanal | UWG-Stand (Rechtsmatrix Teil A) | Kommt in diese Abwägung? |
 |---|---|---|
-| **K1 · Brief an die Firma / an eine benannte Person** | ✅ zulässig, kein Tatbestand in § 7 Abs. 2 UWG | **JA — dieses Dokument gilt für ihn** |
+| **K1 · Brief an die Firma / an eine benannte Person** | ✅ zulässig, **aber nicht schrankenlos**: kein Tatbestand in § 7 Abs. 2 UWG, **es gilt die Generalklausel § 7 Abs. 1 UWG** (unzulässig bei Hartnäckigkeit oder erkennbar unerwünschter Werbung) — dazu die Aufmachungs-Schranke (R-A7.5) *(⚠️ ergänzt 12.08.2026, Q-20: Die Vorfassung ließ Zusatz und § 7 Abs. 1 weg — ausgerechnet im Filter, durch den alles Weitere läuft)* | **JA — dieses Dokument gilt für ihn** |
 | **K2 · Telefon mit dokumentiertem Anlass** | ⚠️ nur bei konkretem, aus dem Interessenbereich herzuleitendem Grund | **Teilweise** — § 5.4 FG-5, nicht abschließend |
 | E-Mail-Kaltakquise | ⛔ unzulässig, „es gibt keine Abwägung" | **NEIN** — vor der Schranke |
 | LinkedIn-Direktnachricht mit Werbetext | ⛔ unzulässig | **NEIN** — vor der Schranke |
@@ -95,10 +95,13 @@ Ergebnis**, auch kein negatives — er ist vorher raus.
   ErwG 14 Satz 2 DSGVO: Daten juristischer Personen sind ausgenommen.
   Die Fallunterscheidung steht in der Rechtsmatrix C1 und wird hier als
   Achse der Fallgruppen übernommen (§ 5.4). ⚠️ Der praktische Regelfall
-  ist der **erfasste**: Bei „inhabergeführten Häusern — dem typischen
+  ist der **erfasste**: „Bei inhabergeführten Häusern — dem typischen
   Zuschnitt unserer Zielgruppe — sind die Daten regelmäßig
   personenbezogen. Das ist ein Zuschnittsproblem der Liste selbst, nicht
   erst ihrer Nutzung." (Rechtsmatrix C1; ② über die Rechtsmatrix)
+  *(⚠️ Anführungszeichen an den Zitatanfang gerückt 12.08.2026, Q-19: Es
+  stand hinter „Bei" und markierte damit einen Textkörper, der so nicht
+  in der Quelle steht.)*
 - **Zeitlich:** Stand 12.08.2026. Die Abwägung ist **kein Dauerbescheid**
   — die Nachprüf-Trigger stehen in § 11.3. Insbesondere ist sie **vor
   dem ersten realen Wellenbau** gegen die dann konkrete Listenlogik zu
@@ -158,10 +161,15 @@ Die geführten Felder stehen abschließend im Feldregister
 `akquise/listenbau-regelwerk.md` § 6 (F-01 bis F-18). Zusammengefasst:
 Betriebsname, Rechtsform, Postanschrift, Gebietskennung, Website-URL,
 Quellenprotokoll (Q-1…Q-5), Aufnahmedatum, Kontakthistorie,
-Art.-14-Status, Sperrvermerk — **bedingt** Rufnummer (F-06) und
-Personenname (F-07), **nicht geführt** E-Mail (F-14), Größen-/
-Umsatzdaten (F-15), Social-Profile (F-16), Scores (F-17), Technikstack
-(F-18).
+Art.-14-Status, Sperrvermerk — **bedingt** Rufnummer (F-06),
+Personenname (F-07) und **Anlassnachweis (F-10, Freitext + Datum + wer)**,
+**nicht geführt** E-Mail (F-14), Größen-/Umsatzdaten (F-15),
+Social-Profile (F-16), Scores (F-17), Technikstack (F-18).
+
+*(⚠️ Korrektur 12.08.2026, Prüferbefund Q-17: Die Vorfassung nannte die
+Liste „abschließend" und ließ **F-10** aus — obwohl § 5.4 FG-5 es selbst
+benutzt. Das ist kein Buchhaltungsfehler: F-10 ist ein Freitextfeld über
+die betroffene Person und damit für P-1/P-2 erheblich.)*
 
 ### 2.3 Zweck — konkret, nicht „Marketing"
 
@@ -280,8 +288,13 @@ Zwei Instanzen legen ihn ausdrücklich eng aus:
   berechtigtes Interesse sei, sondern es wird die Möglichkeit
   aufgezeigt, dass es sich dabei um ein berechtigtes Interesse handeln
   könnte." (LG Düsseldorf, Urt. v. 06.02.2026 – 38 O 243/23, Rn. 76;
-  ① A). Das Gericht hat die Gegenauffassung („acte claire", ErwG 47
-  erlaube Briefwerbung generell) ausdrücklich verworfen.
+  ① A). Das Gericht hat die Gegenauffassung der Beklagten, ErwG 47 sei
+  ein „acte claire", **eine Randnummer davor** zurückgewiesen: „Entgegen
+  der Auffassung der Beklagten handelt es sich bei Erwägungsgrund 47 zur
+  DSGVO nicht um einen ‚acte claire'" (**Rn. 75**; ① A).
+  *(⚠️ Randnummer korrigiert 12.08.2026, Q-18: Die Vorfassung ließ den
+  Satz an das Rn.-76-Zitat anschließen, ohne die eigene Randnummer zu
+  nennen.)*
 
 **Konsequenz für unsere Texte:** Der Satz „Direktwerbung ist ein
 berechtigtes Interesse" darf in keinem unserer Dokumente stehen. Er ist
@@ -317,6 +330,17 @@ deutsche Fassung (Amtsblatt C/2025/686 v. 10.02.2025; ① A):
 > Anbetracht aller relevanten Umstände die Interessen oder Grundrechte
 > und Grundfreiheiten dieser Mitglieder gegenüber dem berechtigten
 > Interesse nicht überwiegen."
+
+⚠️ **Der weggeschnittene Anfang des Tenors ist der Scope** (sichtbar
+gemacht 12.08.2026, Q-21): Das Zitat setzt mitten im Satz ein; davor
+steht, worauf sich das Urteil bezieht — „eine Verarbeitung
+personenbezogener Daten, die darin besteht, personenbezogene Daten der
+**Mitglieder eines Sportverbands** in Verfolgung des wirtschaftlichen
+Interesses des Verantwortlichen **gegen Entgelt offenzulegen**".
+Ob „absolut notwendig" über diesen Offenlegungs-gegen-Entgelt-Fall hinaus
+gilt, ist genau die Frage, die dieser Abschnitt offenlässt. Die Kürzung
+wirkt zu unseren **Lasten** (strengerer Maßstab als nötig) — sie war für
+den Leser trotzdem nicht erkennbar.
 
 (englisch: „strictly necessary"). **Das Wort steht weder im Normtext des
 Art. 6 Abs. 1 lit. f noch in Rn. 42.** Ob es einen strengeren Maßstab
@@ -361,12 +385,12 @@ Abwägungsgegenstand unscharf lassen (§ 1.3).
 | # | Faktor | Beleg |
 |---|---|---|
 | **P-1** | **Ausschließlich berufliche Sphäre.** Angesprochen wird der Betrieb an seiner Geschäftsanschrift zu einer betrieblichen Investitionsfrage; es geht um keine Daten aus dem Privatleben, keine besonderen Kategorien (Art. 9), keine Bonitäts- oder Verhaltensdaten | Zuschnitt § 2.2 · Feldregister ⛔-Zeilen |
-| **P-2** | **Geringe Eingriffstiefe.** Verarbeitet werden Kontaktdaten, die der Betrieb selbst veröffentlicht hat, in der Menge der Kontaktzeile. Kein Profiling, keine Anreicherung, keine automatisierte Entscheidung | § 2.5 · Regelwerk § 6 |
+| **P-2** | **Geringe Eingriffstiefe.** Verarbeitet werden Kontaktdaten, die der Betrieb selbst veröffentlicht hat — **die Kontaktzeile plus Nachweis- und Fristenfelder, die selbst der Rechtskonformität dienen** (F-09 Aufnahmedatum, F-11 Kontakthistorie, F-12 Art.-14-Status, F-13 Sperrvermerk; bedingt F-10 Anlassnachweis). Kein Profiling, keine Anreicherung, keine automatisierte Entscheidung | § 2.5 · Regelwerk § 6. *(⚠️ Korrektur 12.08.2026, Q-17: Die Vorfassung sagte „in der Menge der Kontaktzeile" — das war eine Verdichtung zugunsten der eigenen Position. Das Register führt über die Kontaktzeile hinaus selbst erzeugte Felder; sie sind rechtfertigbar, aber sie sind da.)* |
 | **P-3** | **Die Aufsicht kippt neutrale Selektion nicht.** „Sofern es anhand eines Selektionskriteriums zu einer Einteilung in Werbegruppen kommt (z. B. anhand Postleitzahlen oder Alphabet), sich aber kein zusätzlicher Erkenntnisgewinn durch Individualisierung (Profiling) aus der Selektion ergibt, wird die Interessenabwägung in der Regel ebenfalls zugunsten des Verantwortlichen ausfallen." | DSK-OH Ziff. 1.3.2 a; ① A |
 | **P-4** | **Der Briefkanal wird von der Aufsicht nicht mit einem Einwilligungserfordernis belegt.** Die Orientierungshilfe hat eigene Unterabschnitte für E-Mail (1.4.1) und Telefon (1.4.2) — für den **Postweg keinen**. Die Begründung beim Telefon („wegen der besonderen Auswirkungen dieser Werbeform (stärkere Belästigung/Störung)") ist auf den Brief nicht übertragbar | DSK-OH Ziff. 1.4.1/1.4.2; ① A. ⚠️ **Belegkraft begrenzt:** Das ist ein Schluss aus einer **Lücke**. Er trägt als Argument, **nicht** als Beleg — aus dem Schweigen einer Behördenhandreichung folgt keine Erlaubnis |
 | **P-5** | **B2B senkt das Schutzniveau nicht auf null, aber es senkt es.** „Im B2B-Bereich stehen deshalb bei einem Nutzen von Telefonnummern für Werbeanrufe nicht von vorneherein überwiegende schutzwürdige Interessen der telefonisch anzusprechenden Gewerbetreibenden nach Art. 6 Abs. 1 UAbs. 1 lit. f DS-GVO entgegen." | DSK-OH Ziff. 1.4.2 b; ① A. ⚠️ **Geltungsgrenze: Der Abschnitt heißt „Nutzen von Telefonnummern".** Die Übertragung auf den Brief ist unsere Analogie, keine Quellenaussage — und sie zieht die Sachbezogenheits-Schranke mit (§ 5.3, S-3) |
 | **P-6** | **Die objektive Erwartungsschiene ist offen.** Die Aufsicht fragt nicht nur nach der subjektiven Erwartung, sondern „auch … was objektiv vernünftigerweise erwartet werden kann und darf. Entscheidend ist daher auch, ob die Verarbeitung personenbezogener Daten für Zwecke der Direktwerbung in bestimmten Bereichen der Sozialsphäre typischerweise akzeptiert oder abgelehnt wird." Postalische Geschäftspost an einen Gewerbebetrieb ist verbreitet und wird typischerweise hingenommen | DSK-OH Ziff. 1.3.1; ① A. ⚠️ Die Bewertung „wird typischerweise hingenommen" ist **unsere** Einschätzung — die Quelle liefert das Kriterium, nicht das Ergebnis |
-| **P-7** | **Geringe Skalenwirkung.** Der EuGH nennt als Abwägungskriterien ausdrücklich „the scale of the processing at issue and its impact on that person" (Rn. 54). Unsere Wellen sind klein und ausgewertet (Akquiseplan; Regelwerk R-K1), es gibt keinen Millionenversand | ① A + Regelwerk § 8a |
+| **P-7** | **Skalenwirkung als steuerbare Größe.** Der EuGH nennt als Abwägungskriterien ausdrücklich „the scale of the processing at issue and its impact on that person" (Rn. 54; ① A). **Die Wellengröße wird deshalb vorab festgelegt und protokolliert** (§ 10, B-6) — das ist eine Auflage, kein Ist-Zustand. ⚠️ **Korrektur 12.08.2026 (Q-10):** Die Vorfassung sagte „Unsere Wellen sind klein und ausgewertet … es gibt keinen Millionenversand" — eine **Prognose in Präsensform**. Es wurde noch keine Welle versandt; der Akquiseplan rechnet für **einen** Abschluss mit **≈ 337 bis 1.600 Briefen**, das Regelwerk benutzt ausgerechnet dieselbe Größenordnung als Risiko-Beispiel: „Eine Welle von **300** gleichartigen Briefen mit demselben Fehler ist nicht 300 × 500 €, aber auch nicht 1 × 500 €" (R-K1). Der Faktor trägt nur, solange die Auflage eingehalten wird | Rn. 54 ① A (nur für das Zitat). Die Mengenangaben: `akquise/akquiseplan.md` § 4.2 · Regelwerk § 8a — **eigener Beleg-Typ**, nicht von der ①-Stufe des Zitats gedeckt |
 | **P-8** | **Der Betroffene behält die Kontrolle mit einem Federstrich.** Widerspruch ist formlos, jederzeit, unentgeltlich, absolut wirksam (Art. 21 Abs. 2/3) und wird in jedem Anschreiben abgesetzt genannt; Sperrdatei vor jedem Versand | § 7 · Regelwerk § 7.3 |
 
 ### 5.2 Was gegen uns spricht
@@ -378,9 +402,10 @@ Abwägungsgegenstand unscharf lassen (§ 1.3).
 | **C-3** ⭐ | **Die vernünftigen Erwartungen knüpfen an eine Beziehung an, die wir nicht haben.** ErwG 47 Satz 1/2: „dabei sind die vernünftigen Erwartungen der betroffenen Person, die auf ihrer Beziehung zu dem Verantwortlichen beruhen, zu berücksichtigen. Ein berechtigtes Interesse könnte beispielsweise vorliegen, wenn eine maßgebliche und angemessene Beziehung zwischen der betroffenen Person und dem Verantwortlichen besteht, z. B. wenn die betroffene Person ein Kunde des Verantwortlichen ist oder in seinen Diensten steht." **Beim Kaltkontakt fehlt genau das.** Die DSK wiederholt die Beziehungs-Formel an zweiter Stelle (Ziff. 4.6) — sie ist kein Einzelsatz, sondern das Konzept der Handreichung | ① A (ErwG 47 im amtlichen Volltext gelesen) |
 | **C-4** | **Der Erhebungszeitpunkt zählt.** ErwG 47 Satz 3 verlangt zu prüfen, „ob eine betroffene Person zum Zeitpunkt der Erhebung der personenbezogenen Daten und angesichts der Umstände, unter denen sie erfolgt, vernünftigerweise absehen kann, dass möglicherweise eine Verarbeitung für diesen Zweck erfolgen wird." Wer sein Impressum ins Netz stellt, tut das zur Anbieterkennzeichnung — nicht, um Werbung zu bekommen | ① A; EuGH Rn. 55 knüpft ebenfalls an den Erhebungszeitpunkt an |
 | **C-5** | **Fremderhobene Postadressdaten bewertet die Aufsicht durchgehend negativ.** Neben Ziff. 4.2 auch Ziff. 4.4 („Freundschaftswerbung"): Der Praxis, Postadressdaten Dritter für Direktwerbung zu verarbeiten, „stehen regelmäßig die Grundsätze einer fairen und transparenten Verarbeitung personenbezogener Daten nach Art. 5 Abs. 1 lit. a und Art. 12 Abs. 1 DS-GVO entgegen." ⚠️ Tatbestandlich ist das **nicht** unser Fall (dort: Befragung von Kunden) — die **Begründungsfigur** trifft uns aber, weil sie an Art. 5 Abs. 1 lit. a hängt, nicht an der Erhebungsart. Die Stelle steht hier, weil ein Prüfer sie sonst als ausgelassen findet | ① A |
-| **C-6** | **Kein Praxisfall der Aufsicht deckt Kaltakquise.** Beide Praxisfälle der Ziff. 1.3.2 setzen „im Nachgang zu einer Bestellung" voraus. Für unsere Konstellation gibt es in der Orientierungshilfe **keinen** positiven Präzedenzfall — P-3 ist deshalb ein Analogieargument mit gekipptem Tatbestandsmerkmal und trägt schwächer, als es aussieht | ① A |
+| **C-6** | **Kein Praxisfall der Aufsicht deckt Kaltakquise.** Praxisfall a) setzt ausdrücklich voraus, dass „im Nachgang zu einer Bestellung" geworben wird; Fall b) trägt den Bestellungsbezug in seiner Überschrift („Zusendung von Werbung **nach Bestellung** und Selektion"). *(⚠️ Zitatzuordnung präzisiert 12.08.2026, Q-22: Die Vorfassung setzte die Wendung als wörtliches Zitat für **beide** Fälle — sie steht nur in Fall a). Die Sachaussage bleibt.)* Für unsere Konstellation gibt es in der Orientierungshilfe **keinen** positiven Präzedenzfall — P-3 ist deshalb ein Analogieargument mit gekipptem Tatbestandsmerkmal und trägt schwächer, als es aussieht | ① A |
 | **C-7** | **Enge Auslegung.** „the justifications … must be interpreted restrictively" (C-621/22 Rn. 31) | ① A |
-| **C-8** | **Zusätzlicher, bisher nirgends geführter Prüfschritt: Zweckänderung (Art. 6 Abs. 4).** „Sofern personenbezogene Daten für Werbezwecke verwendet werden sollen, die ursprünglich nicht (auch) zu Zwecken der Werbung erhoben worden sind, sind zusätzlich die Regelungen des Art. 6 Abs. 4 DS-GVO (Zweckänderung) zu beachten. Um herauszufinden, ob der Werbezweck mit der ursprünglichen Zweckbestimmung vereinbar ist, müssen Verantwortliche eine sog. Kompatibilitätsprüfung durchführen" — Impressumsdaten sind zur Anbieterkennzeichnung veröffentlicht, nicht zu Werbezwecken | DSK-OH Ziff. 1.5; ① A. **Siehe § 5.5 — dieser Punkt ist OFFEN** |
+| **C-9** ⭐ *(nachgetragen 12.08.2026, Prüferbefund Q-03)* | **ErwG 47 macht aus C-3/C-4 nicht nur ein Kriterium, sondern eine Rechtsfolge.** Satz 4 des Erwägungsgrundes lautet: „Insbesondere dann, wenn personenbezogene Daten in Situationen verarbeitet werden, in denen eine betroffene Person vernünftigerweise nicht mit einer weiteren Verarbeitung rechnen muss, **könnten die Interessen und Grundrechte der betroffenen Person das Interesse des Verantwortlichen überwiegen**." Der EuGH wiederholt das: „the interests and fundamental rights of the data subject **may in particular override** the interest of the data controller where personal data are processed in circumstances where data subjects **do not reasonably expect** such processing" | ErwG 47 S. 4 (① A) + EuGH C-621/22 **Rn. 45** (① A). ⚠️ **Das ist der einzige Satz des ErwG 47 mit nachteiliger Rechtsfolge — und der, der auf einen Kaltkontakt passt.** Er fehlte in der Erstfassung dieses Dokuments, das Satz 1/2 (C-3), Satz 3 (C-4) und Satz 7 (§ 3.3) zitierte. Die Vorbehalts-Wörter bleiben im Satz: „könnten"/„may" |
+| **C-8** | **Zusätzlicher, bisher nirgends geführter Prüfschritt: Zweckänderung (Art. 6 Abs. 4).** „Sofern personenbezogene Daten für Werbezwecke verwendet werden sollen, die ursprünglich nicht (auch) zu Zwecken der Werbung erhoben worden sind, sind zusätzlich die Regelungen des Art. 6 Abs. 4 DS-GVO (Zweckänderung) zu beachten. Um herauszufinden, ob der Werbezweck mit der ursprünglichen Zweckbestimmung vereinbar ist, müssen Verantwortliche eine sog. Kompatibilitätsprüfung durchführen, es sei denn, es liegt eine Einwilligung in die zweckändernde Nutzung vor" — die Ausnahme greift bei uns nicht (keine Einwilligung); Impressumsdaten sind zur Anbieterkennzeichnung veröffentlicht, nicht zu Werbezwecken. *(⚠️ Zitat vervollständigt 12.08.2026, Q-23: Die Vorfassung endete vor der Ausnahme, ohne Auslassungszeichen.)* | DSK-OH Ziff. 1.5; ① A. **Siehe § 5.5 — dieser Punkt ist OFFEN** |
 
 ### 5.3 Drei Argumente, die NICHT zählen — und die wir deshalb nirgends verwenden
 
@@ -423,26 +448,46 @@ Zwei Achsen: **Personenbezug** (Rechtsmatrix C1) × **Adressquelle**
 | FG | Konstellation | Ergebnis der Abwägung | Folge für den Listenbau |
 |---|---|---|---|
 | **FG-1** | Kapitalgesellschaft, **kein** Personenname geführt (F-07 leer), Quelle: freiwillige Kontaktseite / Verzeichnis | **DSGVO nicht anwendbar** für diese Felder (ErwG 14 S. 2) — es findet gar keine Abwägung statt. UWG gilt weiter | Zulässig. ⚠️ Der Fall ist **selten**: Ein pflichtgemäßes GmbH-Impressum nennt den Geschäftsführer; sobald der Name in die Liste wandert, ist es FG-3 |
-| **FG-2** | Kapitalgesellschaft, kein Personenname, Quelle: **Impressum** | wie FG-1 — **kein Personenbezug, keine Abwägung.** Die Impressums-Frage ist eine DSGVO-Frage; ohne personenbezogenes Datum stellt sie sich nicht | Zulässig, aber Q-2 = `Impressum` trotzdem protokollieren (die Einstufung „kein Personenbezug" muss später belegbar sein) |
-| **FG-3** | **Inhabergeführtes Haus / Personengesellschaft / benannte Person**, Quelle: **freiwillige Kontaktseite, Branchen-/Verbandsverzeichnis** | **Abwägung fällt zu unseren Gunsten aus — vertretbar, nicht gesichert.** P-1/P-2/P-6/P-7/P-8 tragen; C-3 (fehlende Beziehung) wiegt dagegen, wird aber durch die geringe Eingriffstiefe und die berufliche Sphäre aufgewogen. Es bleibt ein **Restrisiko aus C-6** (kein Präzedenzfall) | Zulässig **unter allen Auflagen des § 10**. Dies ist die Fallgruppe, auf die der Listenbau vorrangig zielen sollte |
-| **FG-4** ⭐ | **Inhabergeführtes Haus / benannte Person**, Quelle: **Online-Impressum** | **Die Abwägung ist an dieser Stelle nicht abschließend zu unseren Gunsten zu führen.** Die zuständige Aufsicht kommt nach ihrer veröffentlichten Auffassung zum gegenteiligen Ergebnis (C-1), und ihre Begründung wird durch unsere Faktoren **nicht** entkräftet, sondern nur relativiert (das „regelmäßig" der Ziff. 4.2 ist eine Regel-Ausnahme-Formel, deren Ausnahme WIR begründen müssten). **Wir wägen hier nicht ab — wir tragen ein Risiko.** Grundlage ist der User-Entscheid D3.2 Weg (b) | **Zulässig nur unter dem Weg-(b)-Vorbehalt**, mit Kennzeichnung Q-2 = `Impressum`, Restrisiko-Vermerk im VVT (§ 8) und den Auflagen § 10. **Der Anteil dieser Fallgruppe an einer Welle ist zu protokollieren** (§ 10, B-6) — er ist das Maß des getragenen Risikos |
+| **FG-2** | Kapitalgesellschaft, kein Personenname, Quelle: **Impressum** | **Vertretbar, nicht gesichert** — und schwächer als FG-1. *Für* die Einstufung: Ohne personenbezogenes Datum in der Liste ist die DSGVO für diese Felder nicht anwendbar (ErwG 14 S. 2). ⚠️ **Dagegen (nachgetragen 12.08.2026, Q-13):** Das Verdikt der Aufsicht knüpft am **Auslesen** an — „Nicht zulässig ist hingegen **das Auslesen der Daten** aus einem Online-Impressum zum Zweck der werblichen Nutzung" —, und das Auslesen ist bereits Verarbeitung (Art. 4 Nr. 2). Beim Auslesen liegt der Personenname regelmäßig **vor**, weil § 5 Abs. 1 Nr. 1 DDG den Vertretungsberechtigten verlangt (Rechtsmatrix C1: „Jedes pflichtgemäße Impressum einer Hotel-GmbH nennt namentlich den Geschäftsführer") — auch wenn er nicht in die Liste wandert. **Der Unterschied zwischen Auslesen und Speichern ist hier nicht geklärt** | Zulässig nur mit derselben Vorsicht wie FG-4: Q-2 = `Impressum` protokollieren, **Anteil im Wellenprotokoll ausweisen** (B-6), und die Einstufung „kein Personenbezug" muss je Datensatz belegbar sein |
+| **FG-3** | **Inhabergeführtes Haus / Personengesellschaft / benannte Person**, Quelle: **freiwillige Kontaktseite, Branchen-/Verbandsverzeichnis** | **Abwägung fällt zu unseren Gunsten aus — vertretbar, nicht gesichert.** P-1/P-2/P-6/P-8 tragen; C-3 (fehlende Beziehung) wiegt dagegen, wird aber durch die geringe Eingriffstiefe und die berufliche Sphäre aufgewogen. Es bleibt ein **Restrisiko aus C-6** (kein Präzedenzfall). ⚠️ **Nachgeschärft 12.08.2026 (Q-03):** Mit **C-9** ist die Gegenseite stärker als in der Erstfassung — ErwG 47 S. 4 macht aus der fehlenden Erwartung nicht nur einen Faktor, sondern eine mögliche Rechtsfolge. Das Ergebnis bleibt „vertretbar", aber der Abstand ist **knapper**, als die Vorfassung las: Es hängt daran, dass die Ansprache rein beruflich, einmalig, ohne Anreicherung und mit voller Betroffenenrechte-Kette erfolgt. Fällt eine dieser Bedingungen, kippt die Bewertung | Zulässig **unter allen Auflagen des § 10**. Dies ist die Fallgruppe, auf die der Listenbau vorrangig zielen sollte |
+| **FG-4** ⭐ | **Inhabergeführtes Haus / benannte Person**, Quelle: **Online-Impressum** | **Die Abwägung ist an dieser Stelle nicht abschließend zu unseren Gunsten zu führen.** Die **Datenschutzkonferenz — das gemeinsame Gremium der deutschen Aufsichtsbehörden** — kommt in ihrer veröffentlichten Orientierungshilfe zum gegenteiligen Ergebnis (C-1); *(⚠️ präzisiert 12.08.2026, Q-14: Eine Äußerung der im Einzelfall zuständigen Behörde ist* ***nicht erhoben*** *— welche das ist, hängt zudem am offenen Sitz des Verantwortlichen, F-7)*, und ihre Begründung wird durch unsere Faktoren **nicht** entkräftet, sondern nur relativiert (das „regelmäßig" der Ziff. 4.2 ist eine Regel-Ausnahme-Formel, deren Ausnahme WIR begründen müssten). **Wir wägen hier nicht ab — wir tragen ein Risiko.** Grundlage ist der User-Entscheid D3.2 Weg (b) | **Zulässig nur unter dem Weg-(b)-Vorbehalt**, mit Kennzeichnung Q-2 = `Impressum`, Restrisiko-Vermerk im VVT (§ 8) und den Auflagen § 10. **Der Anteil dieser Fallgruppe an einer Welle ist zu protokollieren** (§ 10, B-6) — er ist das Maß des getragenen Risikos |
 | **FG-5** | Beliebiger Personenbezug, **Kanal Telefon** mit dokumentiertem Anlass (F-10) | **Hier nicht abschließend abgewogen.** Die Eingangsschranke ist beim Telefon eine andere (§ 7 Abs. 2 Nr. 1 UWG, mutmaßliche Einwilligung); die Aufsicht verlangt zusätzlich, dass „für den Anruf ein konkreter und aus dem Interessenbereich des Anzurufenden herzuleitender Grund vorliegt", und lässt bloße Sachbezogenheit nicht genügen (S-3) | Unverändert Regelwerk R-A2.1: **kein Anruf ohne Anlassnachweis.** Eine eigene Abwägung für K2 ist erst zu führen, wenn K2 scharf gestellt wird |
 | **FG-6** | E-Mail, LinkedIn-DM mit Werbetext | **Kein Ergebnis — vor der Eingangsschranke** (§ 1.1) | ⛔ unverändert |
 
 > ⚠️ **Die ehrliche Zusammenfassung in einem Satz:** Für Adressen aus
 > freiwilligen Quellen (FG-3) tragen wir eine Abwägung, die wir für
 > vertretbar halten; für Adressen aus Impressen (FG-4) tragen wir ein
-> **Risiko gegen die erklärte Auffassung der zuständigen
-> Aufsichtsbehörden**. Das ist kein Nebensatz, sondern der Grund, warum
-> es dieses Dokument gibt.
+> **Risiko gegen die erklärte Auffassung der Datenschutzkonferenz**. Das
+> ist kein Nebensatz, sondern der Grund, warum es dieses Dokument gibt.
+>
+> ⚠️ **Zuschreibungs-Genauigkeit (präzisiert 12.08.2026, Q-14 — hier
+> stand „der zuständigen Aufsichtsbehörden"):** Träger der Gegenposition
+> ist die **Datenschutzkonferenz**, das gemeinsame Gremium der deutschen
+> Aufsichtsbehörden — nicht eine Stellungnahme der für uns zuständigen
+> Behörde. Ob ULD oder HmbBfDI sich je dazu geäußert haben, ist **nicht
+> erhoben** (§ 12.2), und welche der beiden zuständig ist, steht erst mit
+> dem Sitz des Verantwortlichen fest (F-7). Das macht das Risiko **nicht
+> kleiner** — es benennt nur, wessen Auffassung belegt ist und wessen
+> nicht.
 
 ### 5.5 ⚠️ Offen: die Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO
 
 Der Punkt C-8 ist **nicht** erledigt und wird hier auch nicht erledigt.
-Er ist in `handel/kanal-rechtsmatrix.md` und im Listenbau-Regelwerk
-**nirgends** enthalten (grep über beide Dokumente, 12.08.2026: „Art. 6
-Abs. 4" 0 Treffer, „Zweckänderung" 0 Treffer; Positivkontrolle „Art. 6
-Abs. 1" trifft in beiden Dokumenten). Sachlich geht es darum, ob die
+Er war in `handel/kanal-rechtsmatrix.md` und im Listenbau-Regelwerk
+**nirgends** enthalten — **gemessen am Stand VOR dieser Runde**
+(`git show b2cfa12~1:<datei>`, 12.08.2026): „Art. 6 Abs. 4" **0
+Treffer** in beiden Dokumenten, „Zweckänderung" 0 Treffer;
+Positivkontrolle „Art. 6 Abs. 1" 7 Treffer in der Rechtsmatrix, 6 im
+Regelwerk. **Heutiger Stand:** Rechtsmatrix unverändert 0; im Regelwerk
+4 Treffer — sämtlich in den Nachträgen dieser Runde.
+
+> ⚠️ *Korrektur 12.08.2026 (Prüferbefund Q-12): Die Vorfassung nannte
+> „0 Treffer in beiden Dokumenten" ohne Messstand. Nachdem die
+> Regelwerks-Nachträge derselben Runde den Begriff eingeführt haben, war
+> die Zahl am aktuellen Stand nicht mehr reproduzierbar — eine Messung,
+> die in der Datei steht, die sie beschreibt, braucht den Vorher-Stand an
+> der Zahl (CLAUDE.md: „Bestandszahlen, die die eigene Änderung bewerten,
+> gegen den VORHER-Stand messen").* Sachlich geht es darum, ob die
 Weiterverwendung von zur **Anbieterkennzeichnung** veröffentlichten Daten
 zu **Werbezwecken** mit dem Ursprungszweck vereinbar ist.
 
@@ -520,11 +565,36 @@ Zählwege genannt, weil sie auseinanderfallen); die Adressen stammten von
 einem **Adresshändler**; es ging um **Millionenversand**, eine
 dokumentierte Serie verschleiernder Vorläuferschreiben und die
 Anknüpfung an ein bestehendes Vertragsverhältnis mit einem Dritten.
-„hotel" und „b2b" kommen **0**-mal vor. Der gesamte UWG-Unlauterkeitsteil
-— der Grund 2 trug — beruht auf dem Verbraucherleitbild und ist auf
-einen gewerblichen Adressaten nicht übertragbar. **Was uneingeschränkt
-trägt, ist der DSGVO-Teil**, weil die DSGVO nicht zwischen B2B und B2C
-unterscheidet, sondern nur „betroffene Person" kennt.
+„hotel" und „b2b" kommen **0**-mal vor.
+
+> ⚠️ **Korrektur 12.08.2026 nach dem Prüflauf (Befund Q-02 — hier stand
+> eine Entwarnung, die so nicht stimmt).** Die Vorfassung sagte: „Der
+> gesamte UWG-Unlauterkeitsteil — der Grund 2 trug — beruht auf dem
+> Verbraucherleitbild und ist auf einen gewerblichen Adressaten nicht
+> übertragbar." **Das ist zu weit und wäre für ein Bau-Team gefährlich
+> zu lesen** („Aufmachung ist kein Thema für uns"). Richtig ist:
+> - Das Gericht stützt die Unlauterkeit auf **„§ 3 Abs. 1 UWG …
+>   §§ 5 Abs. 1 und Abs. 2, 5a Abs. 1 bis Abs. 3 UWG"** (Rn. 88; ① A) —
+>   **diese Normen sind nicht auf Verbraucher beschränkt.**
+> - Die Rechtsmatrix sagt für § 5a ausdrücklich das Gegenteil: „Das
+>   Verschleierungsverbot steht heute in **§ 5a Abs. 4 UWG**, und das
+>   gilt ausdrücklich auch gegenüber ‚sonstigen Marktteilnehmern', also
+>   B2B" — belegt dort mit BGH „Branchenbuch Berg" (I ZR 157/10), dessen
+>   Schreiben sich **an Gewerbetreibende** richteten.
+> - **Nicht** übertragbar ist nur das, was tatbestandlich an Verbraucher
+>   hängt: der Anhang zu § 3 Abs. 3 UWG, § 3 Abs. 2 UWG, die
+>   Vermutungsregel des § 5b Abs. 4 UWG und der
+>   Durchschnittsverbraucher-Maßstab bei § 5 Abs. 2.
+>
+> **Betriebsfolge:** Das Aufmachungs-Risiko (Regelwerk R-A7.5) trifft uns
+> unverändert — und über die Rechtmäßigkeitsschranke des § 3.2
+> (Vorbehalt 2) schlägt es auf Stufe 1 der Abwägung durch. Eine
+> irreführend aufgemachte B2B-Werbesendung kann uns nach demselben
+> Mechanismus wie im Düsseldorfer Fall die lit.-f-Grundlage kosten.
+
+**Was vom DSGVO-Teil trägt**, trägt unabhängig vom Verbraucherbezug,
+weil die DSGVO nicht zwischen B2B und B2C unterscheidet, sondern nur
+„betroffene Person" kennt.
 
 ⚠️ **Gegenansicht, die in der Rechtsmatrix fehlt:** Das Gericht setzt
 sich ausdrücklich mit **OLG Stuttgart, Beschl. v. 02.02.2024 – 2 U 63/22**
@@ -543,7 +613,7 @@ Linie.**
 |---|---|---|---|
 | **R-1 Beschwerde bei der Aufsicht** | Angeschriebener Betrieb | Prüfverfahren, Auskunftsverlangen, ggf. Anordnung; **Untersagung der Verarbeitung** möglich | Aufwand + möglicher Stopp des Kanals. Zuständig: **ULD Kiel** (SH) bzw. **HmbBfDI** (Hamburg) |
 | **R-2 Bußgeld** | Aufsicht | Art. 83 Abs. 5 DSGVO, **oberer** Rahmen (bis 20 Mio. € / 4 %) — der Rahmen ist nicht das Erwartete, aber die Schiene steht offen | Rechtsmatrix B4 |
-| **R-3 Abmahnung** | **Mitbewerber oder qualifizierte Einrichtung** (§ 6.1) | Unterlassung + Kosten; Vertragsstrafe bei Wiederholung | Rechtsmatrix B3: Streitwert-Arbeitsannahme 3.500–6.000 € je Verstoß, Erwartungswert erster Verstoß bei sofortiger modifizierter Unterlassungserklärung 500–1.700 € |
+| **R-3 Abmahnung** | **Mitbewerber oder qualifizierte Einrichtung** (§ 6.1) | Unterlassung + Kosten; Vertragsstrafe bei Wiederholung | Rechtsmatrix B3: Streitwert-Arbeitsannahme 3.500–6.000 € je Verstoß (dort ausdrücklich „gegenüber einem gewerblichen Empfänger"). ⚠️ Der dort genannte Erwartungswert 500–1.700 € ist für den **E-Mail**-Verstoß hergeleitet („Realistischer Erwartungswert für den ersten **E-Mail**-Verstoß") — er wird hier **nicht** auf den Brief-/DSGVO-Fall übertragen. *(Korrektur 12.08.2026, Q-11: Die Vorfassung ließ das Wort „E-Mail" weg und verschob die Zahl damit in einen anderen Scope.)* |
 | **R-4 Anspruch des Betriebs selbst** | Angeschriebener Betrieb | §§ 823, 1004 BGB (Gewerbebetrieb) und/oder Art. 82 DSGVO (Schadensersatz) | Beim Brief trägt die BGB-Schiene nach Rechtsmatrix A7 „nach derzeitigem Erkenntnisstand nicht" — ⚠️ dieses Negativ ruht auf einer **nicht durchsuchten** Rechtsprechungsquelle (juris/beck-online) |
 | **R-5 Massenwirkung** | mehrere | Der Kostensprung liegt nicht beim ersten Verstoß, sondern bei der Massenaussendung (Regelwerk R-K1) | eigenständiges Argument für kleine Wellen |
 
@@ -592,9 +662,19 @@ eintritt." (DSK-OH Ziff. 2.2; ① A).
 > ⚠️ **Die Frist läuft ab LISTENAUFBAU.** Eine im August gebaute Liste,
 > die im November angeschrieben wird, ist im September rechtswidrig.
 > Betriebsregel unverändert: **R-B1 — kein Listenaufbau auf Vorrat**
-> (Regelwerk § 7.2). **Keine Karenzfrist:** Das LG Düsseldorf hat eine
-> „von der DSGVO nicht vorgesehene - Karenzfrist für eine Nachlieferung
-> der geschuldeten Informationen" ausdrücklich verworfen (Rn. 220; ① A).
+> (Regelwerk § 7.2). **Keine Karenzfrist:** Tragend ist Art. 14 Abs. 3
+> lit. b — „spätestens zum Zeitpunkt der ersten Mitteilung" — und die
+> Feststellung des LG Düsseldorf, die Beklagte habe versäumt, die
+> Informationen „**spätestens mit diesem Schreiben** (wie es gemäß
+> Art. 14 Abs. 3 Buchst. b DSGVO geboten war)" zu erteilen (Rn. 85;
+> ① A). Bestätigend nennt das Gericht an anderer Stelle eine
+> „— **insoweit** von der DSGVO nicht vorgesehene — Karenzfrist für eine
+> Nachlieferung der geschuldeten Informationen" (Rn. 220; ① A).
+> *(⚠️ Korrektur 12.08.2026, Q-16: Die Vorfassung stützte die Aussage
+> allein auf Rn. 220 und schrieb dem Gericht ein „ausdrückliches
+> Verwerfen" zu — Rn. 220 ist aber eine Erwägung zur Auslegung des
+> Klägervortrags, und das einschränkende „insoweit" war aus dem Zitat
+> entfernt worden, während der zugehörige Gedankenstrich stehen blieb.)*
 
 **Was:** Die 13 Angaben des Art. 14 Abs. 1 lit. a–f und Abs. 2 lit. a–g.
 Mindestumfang **im Brief** nach Rechtsmatrix C4 + DSK Ziff. 2.1:
@@ -603,9 +683,28 @@ Zweck und Rechtsgrundlage · **das konkret verfolgte berechtigte
 Interesse, ausformuliert** (das ist § 3.2 dieses Dokuments in
 Kundensprache) · **die Datenquelle** (Art. 14 Abs. 2 lit. f: „aus welcher
 Quelle die personenbezogenen Daten stammen und gegebenenfalls ob sie aus
-öffentlich zugänglichen Quellen stammen"; ① A) · Speicherdauer oder deren
-Kriterien (**hängt an O-2**) · Betroffenenrechte · Beschwerderecht bei
-einer Aufsichtsbehörde.
+öffentlich zugänglichen Quellen stammen"; ① A) · **Empfänger oder
+Kategorien von Empfängern** (Art. 14 Abs. 1 lit. e — bei uns:
+Druck-/Lettershop und CRM, konkret zu benennen, sobald O-6 entschieden
+ist) · Speicherdauer oder deren Kriterien (**hängt an O-2**) ·
+Betroffenenrechte · Beschwerderecht bei einer Aufsichtsbehörde.
+
+⚠️ **Diese Aufzählung ist der Mindestumfang IM BRIEF, nicht die volle
+Art.-14-Pflicht.** Der Rest der 13 Angaben gehört auf die eigene,
+dauerhaft erreichbare Seite „Datenschutzinformation für
+Geschäftskontakte" — **nicht** in die allgemeine
+Website-Datenschutzerklärung (Rechtsmatrix C4; = D2 Pflicht 1, im
+Regelwerk § 3 als „nicht gebaut" geführt).
+
+*(⚠️ Ergänzt 12.08.2026, Prüferbefund Q-05: Die Vorfassung nannte sieben
+Punkte und ließ die **Empfänger-Angabe** aus — obwohl das eigene
+Vorhaben sie auslöst (§ 2.5 plant Auftragsverarbeiter, und
+Auftragsverarbeiter sind Empfänger i. S. d. Art. 4 Nr. 9 DSGVO). Zugleich
+fehlte der Vorbehalt, wohin die übrigen Angaben gehören, sodass sich die
+Siebener-Liste als abschließend las. **Die Lücke ist aus
+`handel/kanal-rechtsmatrix.md` C4 geerbt** — dort steht dieselbe
+Aufzählung ohne die Empfänger-Angabe; das ist als achter Punkt an
+MKT-HANDEL gemeldet, § 11.2 Nr. 8.)*
 
 **Wie:** Getrennt vom Werbetext. „Erfolgt die Information in Verbindung
 mit der ersten Werbezusendung, sind beide Bestandteile (Information und
@@ -645,12 +744,32 @@ unterschiedliche Überschriften" (DSK-OH Ziff. 5.2; ① A).
 **Umsetzung** (DSK-OH Ziff. 5.4; ① A): unverzüglich; „Insbesondere müssen
 eine unverzügliche Bearbeitung auch von formlos eingehenden
 Widersprüchen gewährleistet und für Werbemaßnahmen jederzeit aktuelle
-Datenbestände verwendet werden." Für den Brief gilt die einzige
-Erleichterung der ganzen Handreichung — ein bereits adressierter Brief
-muss nicht aus dem Stapel gezogen werden — **aber gekoppelt an eine
-Art.-24-TOM-Pflicht**, und: „Auch im Fall von postalischer Werbung ist zu
-beachten, dass keine neuen Verarbeitungen (wie z. B. neue Druckaufträge)
-gestartet werden dürfen."
+Datenbestände verwendet werden."
+
+Für den Brief räumt die Handreichung eine Erleichterung ein — aber
+enger, als es zunächst klingt: „Wenn konkrete Werbeaktionen angelaufen
+sind …, **kann** es **im Einzelfall** für das Unternehmen unzumutbar
+sein, einen zwischenzeitlich eingegangenen Werbewiderspruch noch mit
+erheblichem Aufwand umzusetzen, z. B. einen bestimmten bereits
+adressierten Brief **aus einer großen Menge** heraus zu sortieren."
+Und sie ist **gekoppelt an eine Art.-24-TOM-Pflicht**, dazu: „Auch im
+Fall von postalischer Werbung ist zu beachten, dass keine neuen
+Verarbeitungen (wie z. B. neue Druckaufträge) gestartet werden dürfen."
+
+> ⚠️ **Korrektur 12.08.2026 (Prüferbefund Q-08) — drei Vorbehalte und ein
+> Superlativ.** Die Vorfassung schrieb: „Für den Brief gilt die
+> **einzige Erleichterung der ganzen Handreichung** — ein bereits
+> adressierter Brief **muss nicht** aus dem Stapel gezogen werden".
+> Verloren gegangen waren „**kann**", „**im Einzelfall**" und „**aus
+> einer großen Menge**" — aus einer Einzelfall-Möglichkeit wurde eine
+> Regel. **Und der dritte Vorbehalt beißt sich mit unserer eigenen
+> Auflage P-7:** Bei kleinen, protokollierten Wellen greift die
+> Erleichterung nach dem Wortlaut der Quelle **gerade nicht**. Der
+> Superlativ „die einzige Erleichterung der ganzen Handreichung" war
+> zudem eine Negativaussage über den Gesamttext ohne Suchraum und ohne
+> Kontrolle — Gegenkandidaten stehen in Ziff. 4.1 und 1.4.1, und
+> Ziff. 4.3 spricht selbst von „**die dortigen Erleichterungen**". Der
+> Superlativ ist gestrichen, nicht abgeschwächt.
 
 ### 7.3 Auskunft (Art. 15) und Fristen (Art. 12 Abs. 3)
 
@@ -686,7 +805,7 @@ entfällt schon, wenn die Verarbeitung nicht nur gelegentlich erfolgt").
 | **lit. d** Empfänger | Keine Übermittlung an Dritte. Auftragsverarbeiter (Druck/Lettershop, CRM, Hosting) nach Art. 28 — Auswahl offen (O-6), AVV vor Einsatz |
 | **lit. e** Drittland | keine Übermittlung vorgesehen |
 | **lit. f** Löschfristen | ⚠️ **OFFEN — O-2** (§ 9). Bis zum Entscheid ist der VVT-Eintrag **unvollständig**. Getrennt davon: Der Eintrag in der **Werbesperrdatei** wird nicht gelöscht (Art. 21 Abs. 3 / Art. 17 Abs. 3 lit. b) — sonst steht der Betrieb bei der nächsten Runde wieder im Verteiler |
-| **lit. g** TOM | ⚠️ noch nicht festgelegt (hängt an O-6). Mindestens: Zugriffsbeschränkung, Ablage außerhalb des Repos (Projektquelle § 2 AKQ2), Sperrdatei-Abgleich als technischer Schritt vor jedem Druckauftrag (Art. 24 Abs. 1 — von der Aufsicht ausdrücklich verlangt, DSK Ziff. 5.4) |
+| **lit. g** TOM | ⚠️ noch nicht festgelegt (hängt an O-6). Mindestens: Zugriffsbeschränkung, Ablage außerhalb des Repos (Projektquelle § 2 AKQ2), Sperrdatei-Abgleich als technischer Schritt vor jedem Druckauftrag (Art. 24 Abs. 1 — von der Aufsicht ausdrücklich verlangt, DSK Ziff. 5.4); **viertens (ergänzt 12.08.2026, Q-06): Zustellsicherung des Datenschutz-Postfachs** — E-Mails zu Betroffenenrechten dürfen nicht unbemerkt im Spam-Ordner liegen (Art. 24 DSGVO, DSK Ziff. 5.3) |
 | **Rechtsgrundlage** | Art. 6 Abs. 1 UAbs. 1 lit. f DSGVO; dokumentierte Abwägung: `akquise/interessenabwaegung-o8.md` (dieses Dokument), Stand 12.08.2026 |
 | **Restrisiko-Vermerk (W-b4)** | *Ein Teil der Adressen dieser Liste stammt aus Online-Impressen. Die Datenschutzkonferenz hält das Auslesen von Impressumsdaten zu werblichen Zwecken für unzulässig (Orientierungshilfe Direktwerbung, Stand Februar 2022, Ziff. 4.2), weil die Veröffentlichung nicht freiwillig, sondern aufgrund gesetzlicher Verpflichtung erfolgt. Der Verantwortliche hat sich am 11.08.2026 bewusst dafür entschieden, dieses Risiko zu tragen und zu dokumentieren (Weg b). Die Aufsichtsauffassung bleibt gegenläufig; das Restrisiko besteht fort.* **Ergänzung aus diesem Dokument:** Zusätzlich ist die Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO (Zweckänderung Anbieterkennzeichnung → Werbung) **offen** (§ 5.5) |
 
@@ -709,6 +828,31 @@ entfällt schon, wenn die Verarbeitung nicht nur gelegentlich erfolgt").
   nach Art. 6 Abs. 1 UAbs. 1 lit. f DS-GVO überwiegenden Werbeinteressen
   hinter die Interessen der betroffenen Person am Ausschluss einer
   werblichen Nutzung zurücktreten." (DSK-OH Ziff. 4.6; ① A).
+
+> ⭐ **Nachgetragen 12.08.2026 (Prüferbefund Q-04) — und es verschiebt
+> die Fälligkeit:** Das LG Düsseldorf sagt zur Frage, wann die
+> Vorkehrungen stehen müssen: „Die Erfüllung dieser Verpflichtung
+> erfordert letztlich **Vorkehrungen, die bereits vor dem ersten
+> Verarbeitungsschritt in die Wege geleitet sein müssen**. Ansonsten
+> bestünde nämlich die Gefahr, dass mit der Datenverarbeitung begonnen
+> wird, obwohl nach den objektiven Umständen die Voraussetzungen einer
+> rechtmäßigen Datenverarbeitung nicht vorliegen. … **Bloße Absichten des
+> Verantwortlichen können, wie sich aus Art. 5 Abs. 2 DSGVO ergibt, eine
+> Datenverarbeitung nicht rechtfertigen.**" (Rn. 87; ① A)
+>
+> **Der erste Verarbeitungsschritt ist der LISTENAUFBAU, nicht der
+> Versand** — das sagt dieses Dokument in § 7.1 selbst („Die Frist läuft
+> ab LISTENAUFBAU"). Damit ist die Fälligkeit von O-2 **nicht** „vor dem
+> ersten Versand", sondern **vor dem ersten Datensatz**. Ein „wir
+> entscheiden die Frist, bevor wir losschicken" wäre nach Rn. 87 eine
+> bloße Absicht und trüge die Verarbeitung nicht. Dasselbe gilt für die
+> Firmierung (F-7) und die acht Bau-Pflichten des § 10.
+>
+> **Ebenfalls aus derselben Quelle, gleiche Richtung:** „Bei dieser
+> Prüfung sind grundsätzlich alle Umstände des Einzelfalls zu
+> berücksichtigen, weshalb eine Datenverarbeitung **auch für rechtmäßige
+> Werbemaßnahmen unzulässig sein kann**" (Rn. 78; ① A) — gehört zur
+> Contra-Seite (§ 5.2) und steht dort ab sofort mit.
 
 ⚠️ **Geltungsgrenze dieser Fundstelle:** Ziff. 4.6 spricht von „**Für
 zulässigerweise beim Betroffenen erhobene** Kontaktdaten" — unser Fall
@@ -758,13 +902,13 @@ damit erkennbar ist, warum:
 | # | Pflicht | Woher |
 |---|---|---|
 | **B-1** | **Impressums-Werbewiderspruch prüfen und aussteuern.** Jedes Ziel-Impressum wird darauf geprüft, ob dort ein Werbewiderspruch vermerkt ist; wenn ja: **kein Datensatz**, ohne Ermessen. Die Aufsicht nennt diesen Vermerk ausdrücklich als Mittel des Betriebs | DSK Ziff. 4.2 letzter Satz; ① A |
-| **B-2** | **Elektronischer Widerspruchsweg trotz reinem Briefkanal.** „Im Sinne des Erleichterungsgebots nach Art. 12 Abs. 2 S. 1 DS-GVO ist für die Einlegung des Werbewiderspruchs auch eine elektronische Kommunikationsmöglichkeit anzubieten." Der Brief muss also eine E-Mail-Adresse für Datenschutzbelange tragen; formlose Eingänge über **jeden** Kanal müssen denselben Weg nehmen | DSK Ziff. 5.3; ① A |
+| **B-2** | **Elektronischer Widerspruchsweg trotz reinem Briefkanal.** „Im Sinne des Erleichterungsgebots nach Art. 12 Abs. 2 S. 1 DS-GVO ist für die Einlegung des Werbewiderspruchs auch eine elektronische Kommunikationsmöglichkeit anzubieten." Der Brief muss also eine E-Mail-Adresse für Datenschutzbelange tragen; formlose Eingänge über **jeden** Kanal müssen denselben Weg nehmen. ⭐ **Und die daran gekoppelte TOM-Pflicht gehört dazu** (ergänzt 12.08.2026, Q-06): „**Wer eine E-Mail-Adresse bereitstellt, muss durch technisch-organisatorische Maßnahmen gewährleisten**, dass E-Mails, die sich auf Betroffenenrechte beziehen, entweder nicht im Spam-Ordner landen oder dort jedenfalls dennoch umgehend zur Kenntnis genommen werden (**Art. 24 DS-GVO**)." Die Vorfassung übernahm die Pflicht und ließ ihre Bedingung weg | DSK Ziff. 5.3; ① A |
 | **B-3** | **Individuelles Antwortschreiben auf jeden Widerspruch** — mit Bestätigung der Beachtung und Nennung eines „möglichst genau zu benennenden kurzen Zeitraum[s]", in dem noch Werbung ankommen kann; dazu Unterrichtung über die Aufnahme in die Sperrdatei | DSK Ziff. 5.4 und 5.1; ① A |
-| **B-4** | **Löschwunsch ≠ Widerspruch.** Wer die Löschung aller Daten verlangt, wird darauf hingewiesen, dass er dann „eventuell wieder Werbung erhalten kann"; im Zweifel ist zu klären, was gewollt ist | DSK Ziff. 5.1; ① A |
+| **B-4** | **Löschwunsch ≠ Widerspruch.** Wer „ausdrücklich und allein eine Löschung aller Daten **aus der Werbesperrdatei**" verlangt, wird darauf hingewiesen, dass er „eventuell wieder Werbung erhalten kann"; im Zweifel ist zu klären, was gewollt ist | DSK Ziff. 5.1; ① A. *(⚠️ Korrektur 12.08.2026, Q-07: Die Vorfassung sagte „Löschung aller Daten" und machte damit aus dem engen Sperrdatei-Fall den allgemeinen Art.-17-Fall — auf ein reguläres Löschverlangen gehört dieser Hinweis gerade nicht.)* |
 | **B-5** | **Versionierung der Informationstexte.** Der Art.-14-Beileger und der Widerspruchs-Kasten bekommen eine Versionsnummer; je Welle wird protokolliert, welche Version an welche Adressen ging („revisionsfeste Dokumentation der tatsächlich genutzten Texte mit Versionsnummer") | DSK Ziff. 2.1; ① A. Deckt sich mit dem Kanon-Versionsschema `v1-<Datum>` des Bausteins `freigabe-vorlagen` |
 | **B-6** | **Wellenprotokoll mit Fallgruppen-Anteil.** Je Welle: Auswahlkriterien (aggregiert, ohne Personenbezug), Menge, **Anteil FG-4 (Impressumsquelle)**, Datum des Sperrdatei-Abgleichs, Textversion. Das ist zugleich die Antwort auf O-3 und der Beleg für „das konkrete Werbevorhaben" (§ 1.3) | § 1.3, § 5.4; Regelwerk § 6.1 |
 | **B-7** | **Berechtigtes Interesse im Brief ausformuliert.** Pflichtangabe nach Art. 14 Abs. 2 lit. b — der Kern von § 3.2 muss in Kundensprache im Beileger stehen, nicht „Marketingzwecke" | Art. 14 Abs. 2 lit. b (① A); DSK Ziff. 2.1 |
-| **B-8** | **Freiwillige Selbstbindung: Robinsonlisten-Abgleich.** Die Aufsicht stellt fest, dass der Abgleich „freiwillig und in Deutschland nicht verpflichtend ist" — er ist damit **keine Pflichterfüllung**, aber ein kostenloses Abwägungsargument auf der objektiven Erwartungsschiene (P-6). **Als über die Pflicht hinausgehend kennzeichnen**, nie als Pflichterfüllung darstellen | DSK Ziff. 5.1; ① A. ⚠️ Steht in Spannung zu Regelwerk R-A7.7 („Die Robinsonliste ist kein Maßstab") — dort geht es um das **UWG**-Merkmal „erkennbar", hier um einen **DSGVO**-Abwägungsfaktor. Beide Aussagen gelten nebeneinander |
+| **B-8** | ⛔ **GESTRICHEN 12.08.2026 (Prüferbefund Q-09).** Die Vorfassung verlangte einen **Robinsonlisten-Abgleich** als „kostenloses Abwägungsargument" und löste die Spannung zu Regelwerk R-A7.7 damit auf, dort gehe es „um das UWG-Merkmal ‚erkennbar', hier um einen DSGVO-Abwägungsfaktor". **Das trifft den Grund nicht.** R-A7.7 nennt als **ersten** Grund den Adressatenkreis: „**reine Verbraucher-Einrichtung**". Eine B2B-Hotelliste dagegen abzugleichen kann strukturell nichts aussteuern — die Maßnahme wäre ein Leerlauf, und „beide Aussagen gelten nebeneinander" war eine Zudeckung, keine Auflösung. Hinzu kommt die Adressatenrichtung der Quelle: Die DSK nennt die Robinsonlisten als Hinweis **an die betroffene Person**, nicht als Maßnahme des Werbenden. **Ersatzlos gestrichen** — statt abgeschwächt (CLAUDE.md: beim Reparieren einer Entwarnung ist Streichen meist richtiger als Abschwächen). *Falls je eine B2B-Sperrliste existiert, wäre das ein eigener Prüfpunkt; erhoben ist er nicht.* | — |
 
 ---
 
@@ -815,14 +959,35 @@ wird von dieser Session **nicht** angefasst):
    **case-insensitive** (`grep -oi`), case-sensitiv sind es **187**; 109
    ist case-sensitiv (`grep -o`). Ohne Zählweg an der Zahl ist das nicht
    nachvollziehbar.
-6. **Kanalbefund:** `curia.europa.eu` und `infocuria.curia.europa.eu`
-   sind seit einem Relaunch eine JavaScript-SPA ohne Nutzlast im HTML
-   (§ 12.2). Die Rechtsmatrix führt curia noch als nutzbare amtliche
-   Quelle.
-7. **Neu gegenüber Teil B:** DSGVO-Verstöße bei Werbung sind über § 3a
-   UWG bzw. § 3 Abs. 2 UWG **abmahnfähig** — durch Mitbewerber und
-   qualifizierte Einrichtungen (§ 6.1). Teil B behandelt nur die
-   UWG-Verstöße und die BGB-Schiene.
+6. **Kanalbefund (ERGÄNZUNG, keine Abweichung):** `curia.europa.eu` und
+   `infocuria.curia.europa.eu` sind seit einem Relaunch eine
+   JavaScript-SPA ohne Nutzlast im HTML (§ 12.2).
+   ⚠️ *Korrektur 12.08.2026 nach dem Prüflauf (Befund Q-01): Die
+   Vorfassung dieser Zeile behauptete, „die Rechtsmatrix führt curia noch
+   als nutzbare amtliche Quelle" — das ist falsch. „curia" hat in
+   `handel/kanal-rechtsmatrix.md`* ***0 Treffer*** *(eigene Nachmessung,
+   `grep -oi "curia" | wc -l`; Positivkontrolle „eur-lex" 2 Treffer,
+   „EuGH-Sprachfassung" 1 Treffer — der Kanalbefunde-Abschnitt dort
+   existiert und ist durchsuchbar). Die Rechtsmatrix nennt als amtlichen
+   Weg allgemein die „EuGH-Sprachfassung", nicht curia namentlich. Damit
+   ist dies keine Abweichung, sondern ein* ***neuer*** *Kanalbefund. Eine
+   behauptete Abweichung, die es nicht gibt, kostet beim Empfänger
+   Prüfzeit und beschädigt die übrigen Punkte derselben Liste.*
+7. **Von der Rechtsmatrix als streitig geführt, hier mit einem Urteil
+   unterlegt:** DSGVO-Verstöße bei Werbung sind über § 3a UWG bzw. § 3
+   Abs. 2 UWG abmahnfähig — durch Mitbewerber und qualifizierte
+   Einrichtungen (§ 6.1). *(⚠️ Kategorie korrigiert 12.08.2026, Q-24: Die
+   Vorfassung schrieb „Neu gegenüber Teil B". Der Punkt ist der
+   Rechtsmatrix bekannt — ihre Tabelle „Offene Punkte und
+   Belegstufen-Grenzen" führt „§ 3a UWG und DSGVO-Abmahnbarkeit |
+   Streitstand nicht abschließend erhoben". Neu ist nicht die Frage,
+   sondern der Beleg — und der ist ein Urteil erster Instanz, dessen
+   Rechtskraft dieses Dokument selbst als „nicht prüfbar" ausweist.)*
+8. **Geerbte Lücke in C4 (neu, Prüferbefund Q-05):** Der dortige
+   „Mindestumfang, der zusätzlich IN das Anschreiben gehört" nennt die
+   **Empfänger-Angabe** (Art. 14 Abs. 1 lit. e) nicht — obwohl jeder
+   Druck-/Lettershop und jedes CRM Empfänger i. S. d. Art. 4 Nr. 9 DSGVO
+   ist. Hier in § 7.1 ergänzt; in der Rechtsmatrix nachzuziehen.
 
 ### 11.3 Wann diese Abwägung neu zu führen ist (Trigger, nicht Kalender)
 
@@ -834,8 +999,12 @@ wird von dieser Session **nicht** angefasst):
   Thema Adresshandel", Fn. 1; ① A). Für diesen Fall trägt hier **nichts**.
 - Wenn ein **Feld** aus dem Regelwerk § 6 hinzukommt oder eine
   ⛔-Einstufung fällt.
-- Wenn die **Menge je Welle** die Größenordnung des Akquiseplans
-  verlässt (Skalenfaktor P-7 / R-K1).
+- Wenn die **Menge je Welle 300 Stück überschreitet** (Skalenfaktor P-7 /
+  R-K1 — dort ist genau diese Zahl das Risiko-Beispiel; der Akquiseplan
+  rechnet für einen Abschluss mit ≈ 337 bis 1.600 Briefen). *(Schwelle
+  eingesetzt 12.08.2026, Q-10: Die Vorfassung sagte „die Größenordnung
+  des Akquiseplans" ohne Zahl — ein Trigger ohne Schwellenwert ist nicht
+  bedienbar.)*
 - Wenn die **Aufsichtsauffassung** sich ändert (neue Fassung der
   Orientierungshilfe, ULD-Stellungnahme) oder **Rechtsprechung zu
   B2B-Kaltpost** bekannt wird.
@@ -924,11 +1093,21 @@ unseren Sachverhalt direkt trifft — und er trifft ihn gegen uns.**
   **zuerst** selbst beschafft, danach liefen vier Recherche-Agenten
   (einer je Quelldokument) auf den lokalen Dateien. Ihre Fundstellen
   waren dadurch mechanisch prüfbar.
-- **Eigene Gegenlesung:** Alle tragenden Zitate wurden von der Session
-  selbst an der Rohquelle nachgelesen — DSK Ziff. 1.3.1/1.3.2/1.4/1.4.2
-  b/2.2/4.2/4.4/4.6/5.2/5.3/5.4 · ErwG 47 · Art. 14 Abs. 2 lit. f und
-  Abs. 3 lit. a · Art. 21 Abs. 2–4 · EuGH Rn. 31/37/40/48/49/50/54/56 +
-  Tenor · LG Rn. 74/76/78/82/84/85/87/88.
+- **Eigene Gegenlesung, stichprobenhaft — folgende Stellen wurden von der
+  Session selbst an der Rohquelle nachgelesen:** DSK Ziff. 1.2/1.3.1/
+  1.3.2/1.4/1.4.2 a+b/1.5/2.1/2.2/4.1/4.2/4.3/4.4/4.6/5.1/5.2/5.3/5.4 +
+  Fn. 1 · ErwG 47 (alle sieben Sätze) · Art. 14 Abs. 1 lit. e, Abs. 2
+  lit. a/b/f, Abs. 3 lit. a/b · Art. 21 Abs. 2–4 · Art. 30 Abs. 1/5 ·
+  EuGH Rn. 31/37/38/39/40/42/43/45/48/49/50/51/53/54/55/56 + Tenor ·
+  LG Rn. 48/74/75/76/78/82/84/85/87/88/135/141/220/238.
+  *(⚠️ Korrektur 12.08.2026, Prüferbefund Q-15: Die Vorfassung behauptete
+  „**Alle** tragenden Zitate" und führte dann eine Liste, die sieben im
+  Dokument zitierte DSK-Ziffern, sieben EuGH- und fünf LG-Randnummern
+  nicht enthielt — darunter den Erforderlichkeitsmaßstab Rn. 42 und die
+  Firmierungs-Sperre DSK 2.1, beide tragend. Der Anspruch ist auf
+  „stichprobenhaft, folgende Stellen" abgesenkt und die Liste
+  vervollständigt; „alle" wäre auch jetzt eine Behauptung, die diese
+  Aufzählung nicht belegt.)*
 - **Mechanischer Zitatabgleich:** `sensibel/rohbelege-R09-A/pruefe-zitate-o8.js`
   prüft jedes Zitat dieses Dokuments ab 25 Zeichen gegen einen Pool aus
   fünf Rohbelegen und vier Repo-Dokumenten, mit **einem Anker je

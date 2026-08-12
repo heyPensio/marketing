@@ -545,3 +545,247 @@ s. Blockwechsel-Handgriff)*
   (Pflicht erst ab mehr als einer Arbeits-Session); kein
   projektgerüst-Rückfluss nötig (reiner Fremddelta-Einzug, keine
   neue projektunabhängige Lehre).
+
+## Block 3 (15:21 MESZ) — R11 Preismodell-Runde (Wiederaufnahme reguläre Arbeit)
+
+**Einstieg:** Frisches Leitsession-Fenster (Neustart-Pflicht aus R10
+erfüllt), `/runde` nach Briefing **Slot 3**
+(`zentrale\briefings\briefing-2026-08-12-slot3.md`, Abschnitt
+„Marketing-Leitsession (Shanks)"): User-Entscheid 12.08. abends —
+marketing ist umbauseitig komplett (`df4d397`, Zentrale-Gegenprobe 12
+SYNCHRON / 0 DRIFT), **der Umbau-Freeze für MKT ist aufgehoben**; die
+zurückgehaltene Preismodell-Startzeile wird damit frei.
+
+**Debrief-Gate:** bestanden — R10 geschlossen und debrieft (`36bffad`,
+F13-Nachtrag `df4d397`), Arbeitsbaum bei Rundenstart clean, `git pull`
+„Already up to date" (15:21 MESZ).
+
+**Bezeichner-Nachtrag (sichtbar, keine stille Neufassung):** Der als
+„R09-B" GEPLANTE Strang ist in R9/R10 nie gestartet. Er läuft jetzt als
+**R11-A** — Buchstaben werden je Runde neu vergeben, ein Bezeichner
+ohne Rundenbezug ist ein Name, kein Anker (CLAUDE.md Namenskonvention).
+Der PROGNOSE-Zuschnitt aus dem R09-B-Abschnitt oben behält seinen
+Inhalt und geht im scharfen Prompt unten auf; STATUS-/Quellen-Verweise
+auf „R09-B" meinen diesen Strang.
+
+**Prämissen-Kasten Slot 3 geprüft (Leitsession, 15:21–15:35 MESZ, 4/4
+halten):** (1) Preismodell ist Spitzenposten (STATUS Punkt 0,
+Sperrwirkung ~23.10., R9/O-8) ✓ · (2) Rohstoff-Papier existiert,
+Abschnitts-Lage geklärt: **D ist das Routing** (Auftragsquelle), die
+Substanz liegt in A (User-Positionen, Primärquelle) und B
+(ChatGPT-Hypothesen, nie Anker) — Briefing und R09-B-Prognose
+widersprechen sich also nicht ✓ · (3) Pilot kostenlos (R3), nur
+Folgekunden ✓ · (4) Firmierungs-Vorbehalt gilt (Namensentscheid/Gates
+offen) ✓.
+
+**Ist-Stand-Messungen (Leitsession selbst):**
+- `handel/preismodell-optionen.md` **existiert nicht** (Listing 15:24:
+  nur Rechtsmatrix, Förderarchitektur, 2 Anfrage-Entwürfe) — der
+  Auftrag bleibt ein **Bau**.
+- **Betreiber-Eigentumsmodell:** Im heypensio-Repo liegt die
+  **Codex-Ist-Aufnahme** `protokolle/R38-CODEX-C-bericht.md`
+  (Mandantentrennungs-Voraussetzungen; ausdrücklich „Ist-Aufnahme,
+  keine Empfehlung"). Die Architektur-ENTSCHEIDUNG ist nicht gefallen
+  (Ruffys Bewertung war Block-3-Prognose) → die Preismodell-Vorlage
+  führt die Eigentums-Architektur als **offene Weiche**, nicht als
+  Prämisse.
+- **R9-Nebenbefunde N-9…N-16 gesichtet:** keiner ändert den
+  Preismodell-Zuschnitt (N-9…N-14 = Rechtsmatrix-Pflege, N-15 = OPS,
+  N-16 = AKQ). O-9 (Art. 6 Abs. 4) bleibt eigener HANDEL-Rechtsposten,
+  NICHT Teil dieser Runde.
+- **Gerüst-Stempel:** Delta `b04c264..HEAD` = **1 Commit** (`a49bf8e`,
+  Register-Update secret-broker — „Faktenstand, keine Regeländerung",
+  kein Blueprint-Empfänger-Inhalt). Wächter 15:30: **SYNCHRON 12 /
+  0 DRIFT**. Kein Nachzug-Blocker; Disposition im nächsten Debrief.
+- **Eingänge:** Postkorb `zentrale\eingang\` leer (nur README, 15:33) ·
+  Mail-Triage aus Zentrale-Abend-STATUS übernommen (4 Eingänge seit
+  09:36 MESZ, **kein MKT-Faden**; Belegstufe: Zentrale-Triage) · kein
+  Korrektur-Slot-Briefing neben Slot 3.
+
+**Rundenschnitt R11 (ein Strang + Leitsession):**
+
+| Session | Rolle | Strang | Scope (Schreibrechte) | Exklusive Systeme | Review | Codex-geeignet | Modell (User-Wahl, nachdok.) |
+|---|---|---|---|---|---|---|---|
+| **R11-A** | Yasopp | Preismodell-Optionen HANDEL1 (Entscheidungsvorlage) | `handel/preismodell-optionen.md` (NEU) · `protokolle/R11-A-*` · `sensibel/rohbelege-R11-A/` (NEU, git-ignoriert) | **Web/Recherche** (Marktpreis-/Kostenbelege) | **Voll-Review** (Prüfer Pflicht — außenwirksam-nahe Preisaussagen, Hypothesen-Zahlen aus KI-Quelle; Hauptfehlerkanal Belegstufen-Trennung) | **NEIN** (Briefing Slot 3: Strategie-/Urteilsarbeit ohne hartes maschinelles Fertig-Kriterium) | *offen (User)* |
+| *(Leit, Buchstabe frei)* | Shanks | Review beider Richtungen · Debrief mit Stempel-Disposition `a49bf8e` | Wahrheits-Kanal · dieser Tagesplan | keine | Kurzraster (Werkzeuge) | — | Fable 5 (Umgebungsangabe) |
+
+**Disjunktheit (1 Paar):** A∩Leit = ∅ — die Leitsession fasst `handel/`
+und `protokolle/R11-A-*` nicht an; R11-A fasst Wahrheits-Kanal und
+Tagesplan nicht an. `sensibel/rohbelege-R11-A/` legt allein R11-A an
+(Rohbelege in den Ordner IHRER Runde, L-20). Keine weitere Session
+läuft; kein exklusives System doppelt vergeben.
+
+---
+
+### Session-Prompt R11-A (Yasopp) — Preismodell-Optionen HANDEL1
+
+> Parallel-Session „R11-A" (Leitsession läuft separat,
+> Multi-Session-Modell lt. CLAUDE.md). Session-Start: `git pull`; dein
+> tatsächliches Modell verifizierst du NUR per Statuszeile (nicht per
+> Selbstauskunft) und nennst es in der Abschlussmeldung.
+>
+> **Aufgabe:** Baue die **Preismodell-Optionen für MKT-HANDEL
+> (HANDEL1)** als gesellschafter-taugliche ENTSCHEIDUNGSVORLAGE — ein
+> Optionenraum, kein Ein-Modell-Vorschlag und **kein Beschluss** (der
+> Entscheid bleibt beim User). Neue Datei
+> **`handel/preismodell-optionen.md`**.
+>
+> **Rohstoff (lies das zuerst, GANZ):**
+> `<FIRMENWURZEL>\zentrale\ueberlegungen-pricing-betreibermodell-2026-08-10.md`
+> (`<FIRMENWURZEL>` = Elternordner der Repo-Wurzel). Belegstufen strikt
+> übernehmen: **Abschnitt A** = User-Positionen (Primärquelle —
+> Ausgangslage, NICHT Beschluss; A1–A5) · **Abschnitt B** =
+> ChatGPT-Einschätzungen — **Hypothesen und Prüfaufträge, NIE Anker**:
+> Jeder B-Punkt, den du verwendest, erscheint entweder mit eigenem
+> Beleg (dann zitierst du DEINEN Beleg, nicht ChatGPT) oder sichtbar
+> als „Hypothese, unbelegt" · **Abschnitt C** = Bestandsabgleich der
+> Zentrale (u. a. R3-Pilot-Spannung, StB-Dimension) · **Abschnitt D** =
+> Routing mit dem Auftragskern.
+>
+> **Was das Dokument leisten muss (Mindeststruktur, Reihenfolge frei):**
+> 1. **Kopfkasten mit zwei sichtbaren Vorbehalten:** (a)
+>    Firmierungs-Vorbehalt — der Namensentscheid ist offen, alle
+>    außenwirksamen Ableitungen (Preisliste, Angebots-Wording) warten
+>    darauf; (b) Status „ENTSCHEIDUNGSVORLAGE — nichts entschieden".
+>    Dazu „Nicht Teil dieser Vorlage" (mindestens: Überführung des
+>    Piloten in ein Preismodell — eigener, ungestellter Entscheid lt.
+>    Abschnitt C; Architektur-ENTSCHEID Betreiber-Eigentumsmodell —
+>    liegt bei heypensio/Gesellschaftern; D3.3, Listenbau, Versand).
+> 2. **Optionenraum:** mindestens (i) monatlich ohne Bindung (die
+>    User-Position A1 in Reinform), (ii) monatlich + Startgebühr,
+>    (iii) monatlich + Mindestlaufzeit — und, falls die Kostenrechnung
+>    es trägt, (iv) anfangs höherer, später sinkender Preis. Quer dazu
+>    die Bemessungs-Achse: pro Zimmer (nur gästenahe Module) vs.
+>    Fixpauschale je Haus vs. Grundgebühr — als eigene Entscheidung
+>    ausgewiesen, nicht in die Optionen eingebacken. **Je Option:**
+>    Annahmen (je einzeln: GEMESSEN vs. HYPOTHESE) ·
+>    Einführungskosten-Deckung (die B-These „nie kostenlos
+>    vorfinanzieren" ist zu PRÜFEN, nicht zu übernehmen: rechne sie
+>    gegen deine eigene Kostenbasis) · Konsequenz für den Terminpfad
+>    (~23.10.-Sperre, s. u.) · was FÜR und was GEGEN sie spricht (der
+>    unbequeme Pol gehört ins Dokument).
+> 3. **Kostenbasis:** Die laufenden Kosten des Betreiber-Modells
+>    BELEGST du selbst — mindestens Server-Miete (z. B. Hetzner,
+>    aktuelle Preisliste im Rohtext lesen, Abzug nach
+>    `sensibel/rohbelege-R11-A/`), realistisch benannte Posten für
+>    Betreuung/Monitoring als ausgewiesene Eigenannahmen. Jede Zahl
+>    trägt Zählweg + Scope (netto/brutto, je Haus/je Zimmer) und steht
+>    in einer Tabelle MIT Schlüsselspalte.
+> 4. **Wettbewerbs-Einordnung mit Quellen:** Web-Recherche zu
+>    vergleichbaren Angeboten (Hotel-Digitalisierungs-/
+>    Automatisierungs-Dienstleister, Richtung DACH). Beleg-Typen
+>    zweiachsig (Leseweg getrennt von Quellenart, Baustein
+>    `quellen-beschaffung`); Anbieter-Selbstauskünfte als solche
+>    kennzeichnen. Einziger belegter Bestand-Anker: Verbund-
+>    Kooperationen **781,67–996,77 €/Monat zzgl. MwSt.** (MKT R6 —
+>    **anderes Leistungsbild**, Scope an die Zahl schreiben; Fundort
+>    per grep über `fund/`/`marke/`). Findest du keine belastbaren
+>    Vergleichspreise, ist das ein dokumentiertes Negativ mit Suchraum
+>    und Positivkontrolle — keine Schätzung als Ersatz.
+> 5. **Kopplung Betreiber-Eigentumsmodell (A3):** Lies
+>    `<FIRMENWURZEL>\heypensio\protokolle\R38-CODEX-C-bericht.md` —
+>    das ist eine **Codex-Ist-Aufnahme** (Inventur ohne Bewertung;
+>    Belegstufe entsprechend führen). Die Architektur-Entscheidung ist
+>    NICHT gefallen. Weise je Preisoption aus, was sie voraussetzt
+>    (eigener Server je Kunde ↔ geteilte Instanz) und was kippt, wenn
+>    die Architektur anders entschieden wird — die Weiche bleibt
+>    OFFEN im Dokument stehen.
+> 6. **Pilot-Abgrenzung:** Pricing gilt nur für FOLGEkunden; der Pilot
+>    bleibt kostenlos (R3). Ein Satz mit Quelle genügt.
+> 7. **Terminpfad-Konsequenz:** Das Preismodell ist der zweite
+>    Sperr-Posten der November-Kette (ab ~23.10. Terminpfad gesperrt;
+>    Herkunft R9/O-8-Befund, STATUS Punkt 0). Was heißt jede Option
+>    für „erster Abschluss bis Mitte November" (z. B. Startgebühr als
+>    Einstiegshürde vs. Vorfinanzierungsrisiko)?
+> 8. **Vertrags-/StB-Zulieferung:** Aus Abschnitt C — monatlich kündbar
+>    + Startgebühr + Lizenzhaltung beim Hotel hat Vertrags-/
+>    StB-Relevanz; als Zulieferungs-Block an die Zentrale ausweisen
+>    (KEIN neuer StB-Pflichtposten, die Fragenliste ist final).
+> 9. **Entscheidungspunkte:** nummerierte ☐-Punkte nach Baustein
+>    `freigabe-vorlagen` (Klartext ohne Fachwörter, jeder Punkt einzeln
+>    mit Ja/Nein/Änderung beantwortbar; „So läuft es weiter" mit
+>    Antwortweg). Die unbequeme Grenze gehört in die Vorlage, nicht in
+>    Fußnoten — Prüffrage: Welcher Satz würde die Antwort des
+>    Entscheiders ändern, wenn er ihn läse, und steht er drin?
+>
+> **Harte Grenzen:**
+> (a) **Nichts geht nach außen** — keine Anbieteranfragen, kein
+> Versand, keine Preiszusage an irgendwen.
+> (b) **Du entscheidest NICHTS** — auch nicht implizit durch eine
+> „Empfehlung", die nur eine Option ernsthaft ausarbeitet. Eine
+> begründete Empfehlung MIT gleichwertig ausgearbeiteten Alternativen
+> ist erlaubt und erwünscht.
+> (c) **Keine ChatGPT-Zahl wandert als Anker in einen Optionssatz** —
+> die Falle ist das Verdichten: Beim Zusammenfassen gewinnt sonst die
+> bequeme Zahl. Vorbehalt zuerst übernehmen, dann den Satz bauen.
+> (d) **Jede Entwarnung trägt ihre Quelle im Satz**; wo die Marktlage
+> unklar ist, ist „nicht erhoben/unklar" der Eintrag, nicht der
+> bequemere Pol.
+> (e) Der WebFetch-Zusammenfasser halluziniert bei Preis-/Datenseiten —
+> Preisseiten selbst im Rohtext lesen (Baustein `quellen-beschaffung`),
+> Roh-HTML bei Zahlen-/Matrixseiten mitarchivieren.
+>
+> **Dein Scope (Schreibrechte):** `handel/preismodell-optionen.md`
+> (neu) · `protokolle/R11-A-*` · `sensibel/rohbelege-R11-A/` (neu
+> anlegen, git-ignoriert, nie committen). Alles andere nur lesen —
+> ausdrücklich NICHT anfassen: übrige `handel/`-Dateien, `akquise/`,
+> `fund/`, Projektquelle, STATUS.md, CLAUDE.md, Skills/Commands,
+> fremde Repos (zentrale/heypensio nur LESEN). Kein eigener Debrief.
+> Exklusive Systeme: **Web-/Recherche-Kanäle gehören dir** (Zuteilung
+> ist eine ERLAUBNIS, keine Vorgabe — miss den billigsten Kanal
+> zuerst: curl/WebFetch vor Browser). Fremde uncommittete Dateien im
+> `git status` ignorieren.
+>
+> **Subagenten (konkret, nicht generisch):**
+> - **Recherche-Fan-out: ein Agent je WETTBEWERBER/QUELLE** (nicht je
+>   Befund), Auftrag „Umfeld der Fundstelle mitlesen"; Fundstelle und
+>   Aussage getrennt ausweisen; **delegierte Zahlen nie ohne
+>   mitgelieferten Zählweg übernehmen** (L-15); Negative eines Agenten
+>   gegen die Funde der anderen prüfen; jede Negativ-Suche mit
+>   Positivkontrolle im selben Lauf.
+> - **Prüfer (Pflicht, Voll-Review):** Nach dem ersten vollständigen
+>   Stand committen, Hash notieren, dann EIN unabhängiger
+>   Prüf-Subagent mit frischem Kontext; **eingefrorener Prüfstand:
+>   dein genannter Commit-Hash**; Schreibrecht nur auf
+>   `protokolle/R11-A-pruefer.md` („lies alles, ändere nichts, schreib
+>   EIN Protokoll"); Rohbelege unter `sensibel/rohbelege-R11-A/` mit
+>   Pfad nennen, Zahlen selbst nachzählen lassen; Arbeitsbaum-Diff
+>   ausdrücklich NICHT sichten. **Pflicht-Kategorien mit Ergebnis je
+>   Kategorie (auch „keine Auffälligkeit"):** (1) Belegstufen-Trennung
+>   verletzt — eine Hypothese (Abschnitt B / eigene Annahme) wirkt im
+>   Text wie ein Beleg · (2) **Was aus der Quelle ist gar nicht erst
+>   angekommen?** — Rohstoff-Papier A–D RÜCKWÄRTS lesen · (3)
+>   Entwarnung/Zusage ohne Quelle im Satz · (4) Vorbehaltsverlust beim
+>   Verdichten (Satz für Satz gegen die Quelle) · (5) Zahl ohne
+>   Zählweg/Scope oder von ihrem Schlüssel gelöst · (6) sind
+>   Architektur-Weiche, Firmierungs-Vorbehalt und Pilot-Abgrenzung
+>   SICHTBAR geführt? Dazu die zwei Zusatzfragen: „Welche Verfälschung
+>   hätte dein Verfahren NICHT gefangen?" und „Hättest du deine Funde
+>   auch OHNE die Kategorien-Hinweise gefunden?".
+> - **Danach disponierst du JEDEN Prüferbefund** (repariert /
+>   ausdrücklich verworfen mit Grund / benannter Träger) — am ROHBELEG
+>   gemessen, nicht am eigenen „eingearbeitet".
+> - **Kein** Subagent für Git-Operationen und kleine Edits.
+>
+> **Git:** Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; Reihenfolge zwingend
+> add → commit → `git pull --rebase --autostash` → push als
+> `git push origin <dein-hash>:main` (CLAUDE.md Regel 3). `sensibel/`
+> ist git-ignoriert und wird nie committet. Message-Datei mit dem
+> Write-Tool im Scratchpad anlegen, Betreff in ASCII-Transliteration.
+>
+> **Fertig-Kriterium:** `handel/preismodell-optionen.md` committet +
+> gepusht; Prüferprotokoll `protokolle/R11-A-pruefer.md` liegt vor;
+> **alle** Prüferbefunde disponiert; die Entscheidungspunkte stehen
+> entscheidungsfähig im Dokument. **Abschlussmeldung in VIER Blöcken**
+> (gebaut/verifiziert mit Commit-Hashes+Pfaden · offen geblieben ·
+> Nebenbefunde außerhalb des Auftrags — was einem anderen Strang
+> gehört · Stolpersteine/Learnings, getrennt nach (i) Fallen und
+> (ii) bewährten Mustern), zusätzlich committet als
+> `protokolle/R11-A-abschluss.md` mit Kopfzeile „Token-Verbrauch: von
+> der Session nicht erhebbar — Subagenten-Zahlen soweit bekannt: …".
+> **Prüferbefunde meldest du kategorienweise MIT NENNER** („x von y
+> repariert, z bewusst offen mit Grund, Träger für den Rest") — nie
+> nur die reparierten plus eine Auswahl; **und den LAUF-STATUS des
+> Prüfers** (abgebrochene/offene Prüfschritte einzeln ausweisen, nie
+> zu „keine Auffälligkeit" glätten).

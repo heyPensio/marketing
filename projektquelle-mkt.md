@@ -811,7 +811,20 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
   `.codex-c2-koeder-20260812.txt` erschien 14:2x im Arbeitsbaum und
   war beim nächsten `git status` wieder weg (C2-Hook-Test der
   Zentrale) — nicht angefasst, Regel „fremde uncommittete Dateien
-  ignorieren" hat getragen.
+  ignorieren" hat getragen. **Nachtrag (gleiche Runde, 14:49 MESZ):
+  ✅ F13 NACHGEREICHT** — C2-Rücklauf 14:32 eingetroffen
+  (`zentrale\codex-bericht-c2-portabilisierung-2026-08-12.md`;
+  marketing-Basis exakt `36bffad`), User-Entsperrung per Zuruf. Die
+  Master-Anteile lagen bereits vor (Zentrale-Commit `b04c264`,
+  vorlage tagesstart+debrief) → Command-Kopien im selben Wortlaut
+  gezogen; CLAUDE.md (5 Stellen), AGENTS.md, STATUS-Kopf auf
+  `<FIRMENWURZEL>`-Platzhalter entkoppelt (Auflösungsregel an der
+  Erstverwendung in CLAUDE.md, fail-closed); Stempel `b04c264` im
+  selben Commit. Belege: Wächter SYNCHRON 12 / 0 DRIFT; Rest-Grep
+  `qwafa_2dwxzia` über die operativen Träger (CLAUDE.md, AGENTS.md,
+  STATUS.md, commands, rules) = 0 Treffer, Positivkontrolle: 2
+  bewusst belassene Belegstellen im Tagesplan (von C2 § 4.3
+  ausgenommen).
 
 - 12.08.2026 (R9-Debrief, eine Arbeits-Session + Codex-Auftrag C-1 +
   Leitsession): **Das risikotragende Dokument steht** —

@@ -514,7 +514,7 @@ Codex-geeigneten Umbau-Anteile laufen bereits separat als C1–C3
 | Posten | Stand |
 |---|---|
 | **F10** settings.local.json | **Sichtung 14:14 MESZ (Leitsession, Volltext, 10 Zeilen): KEINE Secrets** — 4 Allow-Einträge (2× git-Pauschalen, 1 toter Einmal-curl auf gesetze-im-internet.de aus R7, 1 tote hashgebundene Push-Sichtung). Z. 7 trägt den absoluten Benutzerpfad `C:\Users\qwafa_2dwxzia\firma\marketing` — deckt sich mit O1-Bericht § 8.1 (`settings.local.json:7`); gerätegebundenes Profil, Ignore korrekt. Eintrag in `.gitignore` nach zentrale-Muster gesetzt (dieser Commit). |
-| **F13-marketing** | **OFFEN — C2-Rücklauf liegt nicht vor** (Messung 14:13 MESZ: `zentrale\eingang\` enthält nur `README.md`; Positivkontrolle: derselbe Lauf listete die Briefing-Dateien korrekt). Briefing-Regel: NICHT selbst erheben; Posten wandert in die nächste Runde bzw. ans Runden-Ende, falls C2 noch eintrifft. |
+| **F13-marketing** | ~~OFFEN — C2-Rücklauf liegt nicht vor~~ (Messung 14:13 MESZ: `zentrale\eingang\` enthält nur `README.md`; Positivkontrolle: derselbe Lauf listete die Briefing-Dateien korrekt). → **NACHGEREICHT 14:49 MESZ:** C2-Rücklauf 14:32 eingetroffen, User-Entsperrung; Master-Anteile lagen als `b04c264` vor (Zentrale) → Kopien `debrief`/`tagesstart` gezogen, CLAUDE.md (5 Stellen) + AGENTS.md + STATUS-Kopf entkoppelt, Stempel `b04c264`, Wächter SYNCHRON 12 / 0 DRIFT, Rest-Grep 0 Treffer (Positivkontrolle: 2 Tagesplan-Belegstellen). |
 | **Gerüst-Nachzug** | Delta **selbst gemessen** 14:16 MESZ: `git log 69a8574..HEAD` im projektgerüst = **2 Commits** (`c286af0` Kleinposten-Sammel · `bb3b32c` Index-Vorfall-Fix/debrief.md 3d). Wächter: **1 DRIFT (`commands/debrief.md`) / 11 synchron** — deckt sich mit dem Wächter-Lauf des Users (Chat-Zuruf) und ist der von Zentrale-Debrief erwartete DRIFT. ⚠️ Briefing-Angabe „seit `b8597b6` mindestens 3" ist ÜBERHOLT — der R9-Nachzug (Stempel `69a8574`) lag zeitlich nach dem Briefing-Redaktionsstand. Nachzug via `/projekt-init nachzug`, jedes Delta einzeln disponiert, Stempel im selben Commit. |
 
 **Blockwechsel-Handgriff (unverändert gültig, s. oben):** Nach
@@ -530,14 +530,14 @@ s. Blockwechsel-Handgriff)*
 
 - **Session-Stand:** R10 abgeschlossen und debrieft. F10 ✅
   (`acb9556`) · Gerüst-Nachzug ✅ Stempel `bb3b32c`, Wächter SYNCHRON
-  12 / 0 DRIFT (`6aa2dd9`) · Vier-Stellen-Sync ✅ (dieser Commit;
-  R8 → Archiv rotiert) · F13 ⏸️ offen (C2-Rücklauf fehlt). Alles
-  gepusht.
+  12 / 0 DRIFT (`6aa2dd9`) · Vier-Stellen-Sync ✅ (`36bffad`;
+  R8 → Archiv rotiert) · F13 ✅ **nachgereicht 14:49** (C2-Rücklauf
+  14:32, User-Entsperrung; Stempel `b04c264`, Wächter 0 DRIFT —
+  s. Posten-Tabelle oben). Alles gepusht.
 - **Offene Handgriffe (User):** NEUES Fenster + `claude --resume`
   vor jeder weiteren Leitsession-Arbeit (Regel-Snapshot veraltet
-  nach Nachzug) · Umbau-Abnahme führt die Zentrale · bei C2-Rücklauf:
-  F13 als Kleinposten (Commands, CLAUDE.md, AGENTS.md, STATUS-Kopf
-  Z. 9 — nur operative Träger, Historie bleibt).
+  nach Nachzug — gilt verschärft, seit auch tagesstart/debrief
+  F13-entkoppelt sind) · Umbau-Abnahme führt die Zentrale.
 - **Block-Programm danach:** R09-B (Preismodell) — Startzeile bleibt
   zurückgehalten bis Umbau-Abnahme + User-Zuruf.
 - **Debrief-Kandidaten:** keine offenen. R10-Debrief gefahren; keine

@@ -29,7 +29,9 @@ Leitsessions.
 
 **Einstiegs-Auftrag HOLEN statt pasten lassen (seit 11.08.2026):** Liegt
 ein Firmen-Briefing des angebrochenen Arbeitstags vor
-(`C:\Users\qwafa_2dwxzia\firma\zentrale\briefings\`, neuester Slot —
+(`<FIRMENWURZEL>\zentrale\briefings\` — `<FIRMENWURZEL>` = Elternordner
+der eigenen Repo-Wurzel [`git rev-parse --show-toplevel`], F13
+12.08.2026; neuester Slot —
 Über-Mitternacht-Fenster zählen zum angebrochenen Tag), liest die
 Leitsession ihren Einstiegs-Auftrag SELBST aus dessen Abschnitt
 „Einstiegs-Prompts" (eigene Abteilung): Tagesrahmen-Eckwerte,
@@ -114,7 +116,7 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    (Lesereihenfolge lt. CLAUDE.md; Details gezielt aus der Projektquelle).
    **Gerüst-Stempel prüfen (Methodik-Aktualität):** Den Stempel-Hash aus
    dem CLAUDE.md-Kopf gegen den Blueprint halten —
-   `git -C C:/Users/qwafa_2dwxzia/firma/projektgeruest log --oneline <stempel>..HEAD`.
+   `git -C "<FIRMENWURZEL>\projektgeruest" log --oneline <stempel>..HEAD`.
    Liefert das Zeilen, ist die Methodik dieses Projekts VERALTET: Delta
    (mit `LEHREN-CHANGELOG.md`-Einträgen) dem User melden und
    `/projekt-init nachzug` als Tagesposten vorschlagen. Nie
@@ -122,7 +124,7 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    Nachzug anheben — der Stempel ist der Beleg des Nachzugs, kein
    Beruhigungsdatum.
    **Kopie-Drift prüfen (im selben Schritt):**
-   `node C:/Users/qwafa_2dwxzia/firma/projektgeruest/tools/pruefe-kopien.js <projektpfad>`
+   `node "<FIRMENWURZEL>\projektgeruest\tools\pruefe-kopien.js" "<REPO_ROOT>"`
    — meldet das Werkzeug DRIFT, lebt eine Methodik-Änderung nur in der
    Projekt-Kopie (Master-zuerst-Regel verletzt) oder ein Vorlagen-Update
    wurde hier nicht nachgezogen: STOPP, dem User melden, auflösen — nie
@@ -154,7 +156,7 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    kippen): die Eingangs-Kanäle des Projekts durchgehen. **Postfach,
    falls angebunden — Arbeitsteilung mit dem Firmen-`/briefing`:**
    Liegt ein Briefing vom SELBEN Tag vor
-   (`C:\Users\qwafa_2dwxzia\firma\zentrale\briefings\`), dessen Mail-Triage
+   (`<FIRMENWURZEL>\zentrale\briefings\`), dessen Mail-Triage
    für die eigene Abteilung übernehmen und nur die EIGENEN Fäden
    vertieft nachladen (`get_thread`) — KEINE zweite Volldurchsicht
    (Token + Doppellektüre). **Rückfallregel:** OHNE aktuelles Briefing

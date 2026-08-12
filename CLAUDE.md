@@ -3,7 +3,13 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`bb3b32c`** (R10-Umbau-Nachzug 12.08.2026
+> am 2026-08-09; Stand **`b04c264`** (F13-Nachzug 12.08.2026
+> nachmittags, R10-Nachtrag: Pfadentkopplung — Kopien
+> `commands/debrief.md` + `commands/tagesstart.md` vom Master gezogen
+> (Benutzerpfade → `<FIRMENWURZEL>`-Platzhalter), im selben Zug
+> CLAUDE.md/AGENTS.md/STATUS.md-Kopf nach C2-Liste § 4.3 entkoppelt;
+> Wächter 0 DRIFT / 12 synchron).
+> Davor Stand `bb3b32c` (R10-Umbau-Nachzug 12.08.2026
 > nachmittags: 2 fremde Deltas einzeln disponiert — `c286af0`
 > Duplikat-Grundsatz Wächter/Vorrangklausel/sonst-Zeiger → übernommen
 > nach „Doku-Hygiene" (der firmen-integration-Anteil Z. 13 betrifft nur
@@ -67,9 +73,12 @@ Lite-Option; das Prinzip gilt UNTERNEHMENSWEIT (Klarstellung Voice
 09.08., Firmen-Grundsatz in `zentrale\CLAUDE.md`);
 Erhebungsquelle archiviert in `zentrale\sensibel\`).
 
-Nachbar-Repos: `C:\Users\qwafa_2dwxzia\firma\heypensio` (Produkt + Pilotkunde)
-und `C:\Users\qwafa_2dwxzia\firma\zentrale` (Firmen-Ebene, siehe Abschnitt
-„Firmen-Ebene"). Die dreifache Plan-Prüfung, die diesen Zuschnitt geformt
+Nachbar-Repos: `<FIRMENWURZEL>\heypensio` (Produkt + Pilotkunde)
+und `<FIRMENWURZEL>\zentrale` (Firmen-Ebene, siehe Abschnitt
+„Firmen-Ebene"). `<FIRMENWURZEL>` = Elternordner der eigenen
+Repo-Wurzel (`git rev-parse --show-toplevel`) — fail-closed: fehlt das
+referenzierte Geschwister-Repo dort, abbrechen statt raten (F13,
+12.08.2026). Die dreifache Plan-Prüfung, die diesen Zuschnitt geformt
 hat, liegt verbatim in `protokolle/R00-planpruefung-2026-08-09.md` —
 dort stehen auch die BEGRÜNDUNGEN der überstimmten Empfehlungen (z. B.
 Rebrand-Nullvariante), damit spätere „Warum eigentlich?"-Fragen eine
@@ -140,15 +149,15 @@ committen und pushen.
 Dieses Repo ist ein **Abteilungs-Repo**. Die Firmen-Ebene (Organigramm,
 Rollen-Charta, Gesellschafter-Entscheide, Namensentscheid/Rebrand,
 Workspace-/Infrastruktur-Migrationen) liegt im Nachbar-Repo
-`C:\Users\qwafa_2dwxzia\firma\zentrale`. Drei Regeln:
+`<FIRMENWURZEL>\zentrale`. Drei Regeln:
 
 1. **Lese-Richtung (Pflicht bei Session-Start):** Zusätzlich zur eigenen
-   STATUS.md auch `C:\Users\qwafa_2dwxzia\firma\zentrale\STATUS.md` lesen —
+   STATUS.md auch `<FIRMENWURZEL>\zentrale\STATUS.md` lesen —
    Firmen-Entscheide (vor allem der Namensstand) ändern laufend die
    Prämissen der Marketing-Arbeit.
 2. **Schreib-Richtung (Postkorb):** Ergibt die Arbeit hier einen Befund
    oder Entscheidungsbedarf der Firmen-Ebene, schreibt die Session eine
-   kurze Meldedatei nach `C:\Users\qwafa_2dwxzia\firma\zentrale\eingang\`
+   kurze Meldedatei nach `<FIRMENWURZEL>\zentrale\eingang\`
    (Konvention: `<jjjj-mm-tt>-mkt-<thema>.md`) und committet sie DORT mit
    explizitem Pfad. **Zentrale-Kerndokumente (Charta, STATUS, Entscheide)
    ändert nie eine Marketing-Session** — nur der Postkorb ist

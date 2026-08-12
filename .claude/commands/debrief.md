@@ -65,7 +65,8 @@ Skill/Command VORSCHLAGEN und erst nach ausdrücklichem User-OK anlegen.
 Learning):** Ist das Learning **projektunabhängig** — würde es JEDEM
 Projekt nach diesem Arbeitsmodell nützen? Dann gehört es zusätzlich ins
 Methodik-Blueprint-Repo `projektgerüst`
-(`C:\Users\qwafa_2dwxzia\firma\projektgeruest`):
+(`<FIRMENWURZEL>\projektgeruest` — die Firmenwurzel ist der
+Elternordner der eigenen Repo-Wurzel, F13 12.08.2026):
 - Zielstelle in `vorlage/` editieren (CLAUDE-vorlage, Command-Vorlage
   oder Baustein) — projektspezifische Details dabei entfernen
   (Kundennamen, Systemnamen, Pfade), Herkunftsvermerk kurz
@@ -81,7 +82,7 @@ Methodik-Blueprint-Repo `projektgerüst`
   (Herkunft: MKT-Gegentest 09.08.2026):** Welche BESTEHENDEN Vorlagen
   und Commands müssen das neue Ding KENNEN, damit es wirkt? (grep über
   `vorlage/` + `projekt-init.md` UND über die anderen Firmen-Repos —
-  Suchraum per LISTING von `C:\Users\qwafa_2dwxzia\firma\` ermitteln,
+  Suchraum per LISTING von `<FIRMENWURZEL>\` ermitteln,
   nie als feste Repo-Aufzählung: die wird still falsch, sobald ein
   Repo dazukommt (B2 11.08.2026) — nach den berührten Begriffen;
   abhängige Konzept-/Onboarding-/Schulungsdokumente leben auch

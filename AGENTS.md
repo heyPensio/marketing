@@ -19,7 +19,8 @@
 1. **`CLAUDE.md`** (dieses Verzeichnis) — Projekt, Stränge,
    Multi-Session-Modell, Arbeitsregeln, aktive Bausteine.
 2. **`STATUS.md`** — aktueller Stand; danach
-   `C:\Users\qwafa_2dwxzia\firma\zentrale\STATUS.md` (Firmen-Ebene).
+   `<FIRMENWURZEL>\zentrale\STATUS.md` (Firmen-Ebene; `<FIRMENWURZEL>`
+   = Elternordner dieser Repo-Wurzel, F13 12.08.2026).
 3. **`.claude\rules\`** — aktive Regelmodule (gelten wie
    CLAUDE.md-Regeln).
 

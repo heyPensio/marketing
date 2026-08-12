@@ -6,8 +6,9 @@
 >
 > **Lese-Regel (verbindlich):**
 > 1. Diese STATUS.md immer zuerst lesen — **danach**
->    `C:\Users\qwafa_2dwxzia\firma\zentrale\STATUS.md` (Firmen-Ebene, s.
->    CLAUDE.md Abschnitt „Firmen-Ebene").
+>    `<FIRMENWURZEL>\zentrale\STATUS.md` (Firmen-Ebene, s.
+>    CLAUDE.md Abschnitt „Firmen-Ebene"; Firmenwurzel = Elternordner
+>    dieser Repo-Wurzel).
 > 2. Für Details/Historie die Projektquelle **gezielt** lesen (grep bzw.
 >    Read mit offset auf „AKTUELLER STAND", „NÄCHSTER KONKRETER SCHRITT",
 >    Changelog-Header). Nie einen gescheiterten Voll-Read stillschweigend
@@ -32,8 +33,11 @@ Kleine Werkzeug-Runde nach dem Slot-2-Briefing der Zentrale
 Eintrag: keine Secrets (`acb9556`) · ✅ **Gerüst-Nachzug** 2 Deltas
 einzeln disponiert (Duplikat-Grundsatz → „Doku-Hygiene" ·
 `debrief.md` 3d), Stempel `bb3b32c`, Wächter SYNCHRON 12 / 0 DRIFT
-(`6aa2dd9`) · ⏸️ **F13 (Pfad-Ersetzungen) OFFEN** — C2-Rücklauf lag
-14:13 MESZ nicht vor (Briefing-Regel: nicht selbst erheben) ·
+(`6aa2dd9`) · ✅ **F13 NACHGEREICHT** (Nachtrag 14:49 MESZ:
+C2-Rücklauf 14:32 eingetroffen, User-Entsperrung — Command-Kopien vom
+Master `b04c264` gezogen, CLAUDE.md/AGENTS.md/STATUS-Kopf auf
+`<FIRMENWURZEL>`-Platzhalter entkoppelt, Wächter 0 DRIFT; um 14:13
+lag der Rücklauf noch nicht vor) ·
 **R09-B (Preismodell) wartet auf die Umbau-Abnahme der Zentrale.**
 ⚠️ Nach dem Nachzug gilt Neustart-Pflicht der Leitsession (Tagesplan,
 Blockwechsel-Handgriff). *(Details: Projektquelle-Changelog R10.)*
@@ -100,9 +104,10 @@ aufgelöst, Bestandsscan 24/37. Ältere Stände: `STATUS-archiv.md`.)*
   (`settings.local.json` git-ignoriert, Sichtung: keine Secrets,
   `acb9556`) · ✅ Gerüst-Nachzug 2 Deltas (Duplikat-Grundsatz →
   „Doku-Hygiene" · `debrief.md` 3d), Stempel `bb3b32c`, Wächter
-  0 DRIFT (`6aa2dd9`) · ⏸️ F13 offen (wartet auf C2-Rücklauf) ·
-  R09-B wartet auf die Umbau-Abnahme der Zentrale. *(R8 rotiert →
-  `STATUS-archiv.md`.)*
+  0 DRIFT (`6aa2dd9`) · ✅ F13 nachgereicht (C2-Rücklauf 14:32;
+  Kopien + CLAUDE.md/AGENTS.md/STATUS-Kopf entkoppelt, Stempel
+  `b04c264`) · R09-B wartet auf die Umbau-Abnahme der Zentrale.
+  *(R8 rotiert → `STATUS-archiv.md`.)*
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -121,8 +126,8 @@ aufgelöst, Bestandsscan 24/37. Ältere Stände: `STATUS-archiv.md`.)*
    nach FUND2-Persona-Befund. Details: Projektquelle § 7 Punkt 0 + R9-
    Changelog. ⏸️ **12.08. nachmittags (R10):** Der R09-B-Start wartet
    zusätzlich auf die **Abnahme des Architektur-Umbaus** durch die
-   Zentrale (Slot-2-Briefing); **F13** (Pfad-Ersetzungen) wartet auf
-   den **C2-Rücklauf**.
+   Zentrale (Slot-2-Briefing); ~~F13 wartet auf C2-Rücklauf~~ ✅
+   nachgereicht 14:49 (Stempel `b04c264`).
 1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
    GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger
    `zentrale\stb-termin-fragenliste-2026-08.md`. **Jetzt DOPPELTER

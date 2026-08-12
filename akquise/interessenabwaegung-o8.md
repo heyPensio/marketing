@@ -804,14 +804,53 @@ entfällt schon, wenn die Verarbeitung nicht nur gelegentlich erfolgt").
 | **lit. c** Kategorien betroffener Personen / Daten | Inhaber, geschäftsführende Gesellschafter und benannte Vertretungsberechtigte von Beherbergungsbetrieben · Datenkategorien: Firmen-/Betriebsangaben, Postanschrift, Website, Gebietskennung, ggf. Personenname und Rufnummer, Quellenprotokoll, Kontakt-/Fristenhistorie, Sperrvermerk (abschließend: Regelwerk § 6) |
 | **lit. d** Empfänger | Keine Übermittlung an Dritte. Auftragsverarbeiter (Druck/Lettershop, CRM, Hosting) nach Art. 28 — Auswahl offen (O-6), AVV vor Einsatz |
 | **lit. e** Drittland | keine Übermittlung vorgesehen |
-| **lit. f** Löschfristen | ⚠️ **OFFEN — O-2** (§ 9). Bis zum Entscheid ist der VVT-Eintrag **unvollständig**. Getrennt davon: Der Eintrag in der **Werbesperrdatei** wird nicht gelöscht (Art. 21 Abs. 3 / Art. 17 Abs. 3 lit. b) — sonst steht der Betrieb bei der nächsten Runde wieder im Verteiler |
+| **lit. f** Löschfristen | ✅ **12 Monate** nach dem letzten dokumentierten Kontaktversuch (User-Entscheid 12.08.2026, § 9 Option B); **nie kontaktierte Datensätze:** Disposition binnen 3 Monaten ab F-09, einmal um 3 Monate verlängerbar, dann Löschung — Regel **O-2b** (§ 9). Getrennt davon: Der Eintrag in der **Werbesperrdatei** wird nicht gelöscht (Art. 21 Abs. 3 / Art. 17 Abs. 3 lit. b) — sonst steht der Betrieb bei der nächsten Runde wieder im Verteiler. *(Vorfassung: „⚠️ OFFEN — O-2 … VVT-Eintrag unvollständig".)* |
 | **lit. g** TOM | ⚠️ noch nicht festgelegt (hängt an O-6). Mindestens: Zugriffsbeschränkung, Ablage außerhalb des Repos (Projektquelle § 2 AKQ2), Sperrdatei-Abgleich als technischer Schritt vor jedem Druckauftrag (Art. 24 Abs. 1 — von der Aufsicht ausdrücklich verlangt, DSK Ziff. 5.4); **viertens (ergänzt 12.08.2026, Q-06): Zustellsicherung des Datenschutz-Postfachs** — E-Mails zu Betroffenenrechten dürfen nicht unbemerkt im Spam-Ordner liegen (Art. 24 DSGVO, DSK Ziff. 5.3) |
 | **Rechtsgrundlage** | Art. 6 Abs. 1 UAbs. 1 lit. f DSGVO; dokumentierte Abwägung: `akquise/interessenabwaegung-o8.md` (dieses Dokument), Stand 12.08.2026 |
 | **Restrisiko-Vermerk (W-b4)** | *Ein Teil der Adressen dieser Liste stammt aus Online-Impressen. Die Datenschutzkonferenz hält das Auslesen von Impressumsdaten zu werblichen Zwecken für unzulässig (Orientierungshilfe Direktwerbung, Stand Februar 2022, Ziff. 4.2), weil die Veröffentlichung nicht freiwillig, sondern aufgrund gesetzlicher Verpflichtung erfolgt. Der Verantwortliche hat sich am 11.08.2026 bewusst dafür entschieden, dieses Risiko zu tragen und zu dokumentieren (Weg b). Die Aufsichtsauffassung bleibt gegenläufig; das Restrisiko besteht fort.* **Ergänzung aus diesem Dokument:** Zusätzlich ist die Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO (Zweckänderung Anbieterkennzeichnung → Werbung) **offen** (§ 5.5) |
 
 ---
 
-## 9. O-2 — die Löschfrist für Kaltkontakte: Optionen für den User
+## 9. O-2 — die Löschfrist für Kaltkontakte: ENTSCHIEDEN
+
+> ✅ **ENTSCHIEDEN (User, 12.08.2026): Option B — 12 Monate** nach dem
+> letzten dokumentierten Kontaktversuch (gezählt ab F-11, ersatzweise
+> F-09). Die **Werbesperrdatei** ist ausgenommen und bleibt dauerhaft
+> bestehen. Quelle/Form: strukturierte Abfrage (AskUserQuestion) durch
+> die Leitsession im R9-Review, Erhebung dokumentiert in
+> `protokolle/tagesplan-2026-08-12.md`.
+>
+> **Zur Zusatzfrage „nie angeschriebene Datensätze früher löschen?"
+> lautet die Antwort des Users im Originalwortlaut:**
+>
+> > „nur wenn vergewissert ist das es follow ups gab was nie passieren
+> > darf ist das leads aus unserem Raster fallen, ohne das diese
+> > Anständig bearbeitet wurden und ein Vertragsabschluss ausgeschlossen
+> > sit"
+>
+> **Umsetzung als Regel (O-2b — Lead-Verfall-Verbot):** Der vorgeschlagene
+> 3-Monats-Automatismus wird **nicht** als stiller Löschtermin gebaut.
+> Stattdessen ist der Ablauf der 3 Monate ab F-09 ohne Erstkontakt ein
+> **Pflicht-Wiedervorlagepunkt mit dokumentierter Disposition**: Der
+> Datensatz wird entweder (a) in eine Welle aufgenommen — dann läuft die
+> 12-Monats-Uhr ab dem Kontakt — oder (b) ausdrücklich ausgesteuert mit
+> Grund („Abschluss ausgeschlossen, weil …"). **Ein Datensatz darf nie
+> ohne eine dieser beiden Dispositionen verfallen.**
+>
+> ⚠️ **Sichtbare Spannung, nicht wegdefiniert:** Die Bedingung darf nicht
+> zur unbefristeten Vorratsspeicherung werden — genau das wäre die
+> Umgehung von Art. 5 Abs. 1 lit. e. Deshalb die Obergrenze: Die
+> Disposition ist **innerhalb** der 3 Monate zu treffen; sie kann
+> **einmal** und dokumentiert um 3 Monate verlängert werden. Danach wird
+> gelöscht, auch unbearbeitet — der unbearbeitete Lead ist dann ein
+> **Betriebs**-Versäumnis, das im Wellenprotokoll sichtbar wird, und
+> kein Grund, den Datensatz weiter zu halten. Absolute Grenze bleibt die
+> 12-Monats-Frist.
+>
+> *(Vorfassung dieses Abschnitts trug die Überschrift „Optionen für den
+> User" und den Satz „Die Entscheidung trifft der User. Diese Session
+> entscheidet sie nicht." Die Optionstabelle § 9.2 bleibt unverändert
+> stehen — sie ist die Begründung des Entscheids, nicht sein Ersatz.)*
 
 ### 9.1 Warum die Lücke abwägungsrelevant ist (nicht nur formal)
 
@@ -887,9 +926,14 @@ Firmierung nicht rechtzeitig da), früher gelöscht werden? Vorschlag:
 ohne dass je informiert wurde; sie sind der rechtlich unsauberste
 Bestand.
 
-> **Die Entscheidung trifft der User.** Diese Session entscheidet sie
-> nicht (CLAUDE.md: Festlegungen mit Außenwirkung nie im Alleingang).
-> Bis dahin bleibt § 8 lit. f offen und der erste Versand gesperrt.
+> ✅ **Entschieden am 12.08.2026: Option B (12 Monate)** — s. Kasten am
+> Kopf dieses Abschnitts, inklusive der Zusatzregel O-2b
+> (Lead-Verfall-Verbot). § 8 lit. f ist damit gefüllt.
+>
+> *(Vorfassung: „Die Entscheidung trifft der User. Diese Session
+> entscheidet sie nicht … Bis dahin bleibt § 8 lit. f offen und der
+> erste Versand gesperrt." — überholt durch den Entscheid; die
+> Versand-Sperre selbst besteht aus anderen Gründen fort, s. § 11.1.)*
 
 ---
 
@@ -918,12 +962,30 @@ damit erkennbar ist, warum:
 
 | # | Punkt | Träger |
 |---|---|---|
-| **O-2** | **Löschfrist Kaltkontakte** — Optionen liegen vor (§ 9) | **User-Entscheid**, vor dem VVT-Eintrag und vor dem ersten Versand |
+| ~~**O-2**~~ | ~~**Löschfrist Kaltkontakte** — Optionen liegen vor (§ 9)~~ | ✅ **ENTSCHIEDEN 12.08.2026: 12 Monate** (§ 9, Option B) + Zusatzregel **O-2b** (Lead-Verfall-Verbot). Offen bleibt allein die technische Umsetzung der Wiedervorlage → MKT-OPS |
 | **O-9** *(neu)* | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** (Zweckänderung Anbieterkennzeichnung → Werbung) — in Rechtsmatrix und Regelwerk bisher nirgends geführt | MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand |
 | **O-10** *(neu)* | **Abwägung für den Telefonkanal K2** (FG-5) — hier bewusst nicht geführt | MKT-AKQ, wenn K2 scharf gestellt wird |
 | **F-7** | **Firmierung** — ohne sie sind Art.-14-Pflichtangaben nicht erfüllbar (§ 2.1) | MKT-MARKE / Zentrale |
 | **O-4** | Zielmengengröße nach Abzug der Ketten-/Konzernbetriebe unbekannt | MKT-FUND / AKQ2 |
 | **O-6** | CRM-/Werkzeugwahl → TOM (§ 8 lit. g) und AVV | MKT-OPS |
+
+> ⭐ **Fälligkeit dieser Posten — nachgetragen 12.08.2026 (Leitsession,
+> R9-Review):** Q-04 (§ 9.1) hat hergeleitet, dass die Vorkehrungen nach
+> LG Rn. 87 **vor dem ersten Verarbeitungsschritt** stehen müssen und
+> dass der erste Verarbeitungsschritt der **Listenaufbau** ist, nicht der
+> Versand. Diese Verschärfung war im Dokument hergeleitet, aber an den
+> Stellen, wo der Leser ankommt, noch nicht nachgezogen — hier, in der
+> Tabelle oben und im Regelwerk stand weiter „vor dem ersten Versand".
+> **Es gilt einheitlich: F-7 (Firmierung), O-9 (Art. 6 Abs. 4) und die
+> Bau-Pflichten des § 10 sind vor dem ERSTEN DATENSATZ fällig, nicht erst
+> vor dem ersten Brief.** Ein „das klären wir, bevor wir losschicken"
+> wäre nach Rn. 87 eine bloße Absicht und trüge die Verarbeitung nicht.
+>
+> *(Fehlerklasse, im selben Zug erkannt: Eine Schärfung erreicht die
+> abgeleitete Stelle nicht, an der der Leser ankommt — dieselbe Klasse
+> wie der fehlende D3.1-Geltungsvermerk im Regelwerk § 2.1, s.
+> `protokolle/R09-nacharbeit-codex-C1.md` B-3. Zwei Belege an einem Tag;
+> Debrief-Kandidat.)*
 
 ### 11.2 Abweichungen und Ergänzungen gegenüber der Kanal-Rechtsmatrix
 

@@ -90,6 +90,17 @@ gegen die Quelle geprüft (§ 12).
 
 ### 2.1 Verfallsfrist der Bestandskundeneigenschaft (D3 Punkt 1)
 
+> ⚠️ **GELTUNGSVERMERK (nachgetragen 12.08.2026, Leitsession — Befund
+> B-3):** Die folgenden 24 Monate gelten **NUR für die
+> BESTANDSKUNDEN-Schiene** (§ 7 Abs. 3 UWG). Sie sind **keine** pauschale
+> Aufbewahrungsfrist für Kaltkontakte — deren Frist ist O-2 (**12 Monate**,
+> User-Entscheid 12.08.2026, s. § 7.4 und `interessenabwaegung-o8.md` § 9).
+> *(Dieser Vermerk stand seit dem 11.08.2026 in der Rechtsmatrix (D3,
+> Commit `474b95e`), wurde hier aber nicht nachgezogen — das Regelwerk
+> war zu diesem Zeitpunkt bereits gebaut. Versäumnis der Leitsession,
+> nicht der bauenden Session; die Korrektur lebte bis heute nur in § 3
+> und § 7.4, also nicht an der Stelle, wo der Leser ankommt.)*
+
 > ✅ **ENTSCHIEDEN (Nachtrag 11.08.2026): 24 Monate** nach letztem
 > Vertragsschluss — zugleich die dokumentierte Löschfrist fürs
 > Verarbeitungsverzeichnis (D2 Punkt 3). Quelle: User-Entscheid
@@ -285,9 +296,19 @@ gelegentlich" (Rechtsmatrix C6).
 >   (dort Fallgruppe FG-4) ist es ein **dokumentiert getragenes
 >   Restrisiko gegen die Aufsichtsauffassung**, keine
 >   Zulässigkeitsfeststellung.
-> - **O-2 bleibt offen** (Löschfrist Kaltkontakte, § 10) — ohne sie ist
->   der VVT-Eintrag unvollständig **und** die Art.-14-Pflichtangabe zur
->   Speicherdauer nicht erfüllbar. Der erste Versand bleibt gesperrt.
+> - ~~**O-2 bleibt offen**~~ ✅ **O-2 ist entschieden (12.08.2026):
+>   12 Monate + Regel O-2b** (§ 7.4, § 10). Die VVT-Angabe und die
+>   Art.-14-Pflichtangabe zur Speicherdauer sind damit erfüllbar.
+> - ⭐ **Fälligkeit der übrigen Sperren — korrigiert 12.08.2026
+>   (Prüferbefund Q-04):** Was noch offen ist (F-7 Firmierung, O-9
+>   Art. 6 Abs. 4, die Bau-Pflichten), sperrt **nicht erst den ersten
+>   Versand, sondern bereits den LISTENAUFBAU** — nach LG Düsseldorf
+>   Rn. 87 müssen die Vorkehrungen „bereits vor dem ersten
+>   Verarbeitungsschritt in die Wege geleitet sein", und der erste
+>   Verarbeitungsschritt ist die Aufnahme des ersten Datensatzes.
+>   *(Vorfassung: „Der erste Versand bleibt gesperrt." — zu schwach; die
+>   Herleitung stand bereits in `interessenabwaegung-o8.md` § 9.1, war
+>   hier aber nicht nachgezogen.)*
 > - **Neu offen:** die **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO**
 >   (Zweckänderung Anbieterkennzeichnung → Werbung), in diesem Regelwerk
 >   und in der Rechtsmatrix bisher nirgends geführt — dort § 5.5/O-9.
@@ -467,12 +488,20 @@ im Zitat, damit beim Verdichten nichts weicher wird.
 - **R-A6.1** ⛔ **Strikte Trennung:** Recherchierte Zielkundenliste und
   Newsletter-Verteiler sind **zwei getrennte Bestände**. Kein Eintrag
   wandert von links nach rechts — nur die Selbstanmeldung erzeugt einen
-  Verteilereintrag. **B2B senkt nichts.**
+  Verteilereintrag. **B2B senkt nichts — § 7 Abs. 2 Nr. 2 UWG kennt
+  keine B2B-Erleichterung** *(Normbegründung nachgetragen 12.08.2026,
+  Befund B-12: Sie war beim Verdichten entfallen; ohne sie liest sich
+  „B2B senkt nichts" wie eine Hausregel statt wie das Gesetz.)*
 - **R-A6.2** Je Anmeldung wird dokumentiert: vollständige
-  Einzeldokumentation, **Ausdruck der abgesandten Bestätigungsmail**
-  (beides „Rechtsprechung, tragend"), Wortlaut des Einwilligungstextes
-  (Behördenauffassung), Zeitstempel (abgeleitet). **IP-Adresse trägt
-  allein nicht.**
+  Einzeldokumentation **mit Speicherung und jederzeitiger
+  Ausdruckmöglichkeit**, **Ausdruck der unter der konkreten Adresse
+  abgesandten Bestätigungsmail** (beides „Rechtsprechung, tragend"),
+  Wortlaut des Einwilligungstextes (Behördenauffassung), Zeitstempel
+  (abgeleitet). **IP-Adresse trägt allein nicht.**
+  *(Nachtrag 12.08.2026, Befund B-6: „Speicherung + jederzeitige
+  Ausdruckmöglichkeit" und die Bedingung „unter der konkreten Adresse"
+  waren beim Verdichten aus A6 weggefallen — beides sind
+  Nachweis-Bedingungen, keine Erläuterungen.)*
 - **R-A6.3** **Tracking braucht nach Aufsichtsauffassung eine eigene
   Einwilligung** — K.-o.-Kriterium bei der Tool-Auswahl: „Das
   Newsletter-Tool muss Tracking **pro Empfänger abschaltbar** können."
@@ -491,7 +520,17 @@ im Zitat, damit beim Verdichten nichts weicher wird.
   nach vier Jahren für unwirksam; keine höchstrichterliche Bestätigung).
 - **R-A6.6** Die Bestätigungsmail bleibt **inhaltlich nackt** — kein
   Claim, kein „übrigens", kein Social-Link; sie darf die Einwilligung nur
-  **verifizieren**, nicht einholen.
+  **verifizieren**, nicht einholen. **Zulässiger Mindestinhalt** (das,
+  was hineingehört): Bestätigungslink, Absenderidentität, Wortlaut der
+  Einwilligung.
+  ⚠️ **Streitstand, nicht wegdefiniert (Nachtrag 12.08.2026, Befund
+  B-5):** Ob die Bestätigungsmail **selbst** schon Werbung ist, ist
+  **höchstrichterlich ungeklärt** — die Quelle (A6) führt dazu drei
+  Positionen. **Klar entschieden** sind nur die werblichen Zusätze;
+  darauf beruht die Betriebsregel oben. *(Die Vorfassung übernahm den
+  Verbotsteil und ließ den Streitstand weg — ein weggefallener
+  Streitstand macht aus „ungeklärt" eine Festlegung und ist die
+  gefährlichste Richtung des Verdichtens.)*
 
 ### 4.5 A7 · Brief
 
@@ -752,13 +791,29 @@ keine Rückfrage, keine „letzte Mail", keine Reaktivierung.
   werden" (C6).
 - **Löschkonzept:** eigene Frist festlegen und dokumentieren — „‚Wir
   behalten das mal' ist kein Löschkonzept" (C6). Für Kunden: 24 Monate
-  (§ 2.1). **Für die Kaltkontakt-Liste offen** (§ 10, O-2).
+  (§ 2.1, **nur Bestandskunden-Schiene**). **Für die Kaltkontakt-Liste:
+  ✅ 12 Monate** nach dem letzten dokumentierten Kontaktversuch
+  (User-Entscheid 12.08.2026, O-2 — Herleitung und Optionen in
+  `akquise/interessenabwaegung-o8.md` § 9). **Nie kontaktierte
+  Datensätze (O-2b):** Disposition binnen 3 Monaten ab Aufnahme —
+  entweder in eine Welle aufnehmen oder mit Grund aussteuern; einmal um
+  3 Monate verlängerbar, danach Löschung. **Kein Datensatz verfällt
+  ohne Disposition** (User-Auflage 12.08.2026), und keine Disposition
+  verlängert über 12 Monate hinaus. Die **Sperrdatei** ist von allen
+  Fristen ausgenommen. *(Vorfassung: „Für die Kaltkontakt-Liste offen
+  (§ 10, O-2)".)*
 - **AVV** (Art. 28) für CRM, Newsletter-Tool, Mailversand, Hosting.
-  ⚠️ Bei **Lead-/Anreicherungsanbietern** ist der AVV oft der **falsche**
-  Vertragstyp (Art. 28 Abs. 10) — vor Vertragsschluss klären. *(Für uns
-  ohnehin nachrangig: Anreicherung ist ⛔.)*
-- **Datenschutzbeauftragter:** nicht benennungspflichtig unter 20
-  Personen — ⚠️ **aber:** „Wer ‚geschäftsmäßig zum Zweck der
+  ⚠️ Bei **Lead-/Anreicherungsanbietern**, „die auf **eigenen
+  Datenbeständen** arbeiten", ist der AVV oft der **falsche**
+  Vertragstyp (Art. 28 Abs. 10) — dann sind sie **eigene
+  Verantwortliche** und brauchen eine **eigene Rechtsgrundlage**; vor
+  Vertragsschluss klären. *(Für uns ohnehin nachrangig: Anreicherung ist
+  ⛔.)* *(Nachtrag 12.08.2026, Befund B-8: Bedingung und Rechtsfolge
+  waren beim Verdichten aus C6 weggefallen — die Folge ist die
+  eigentliche Aussage.)*
+- **Datenschutzbeauftragter:** nicht benennungspflichtig, solange
+  **unter 20 Personen ständig automatisiert verarbeiten** — ⚠️ **aber:**
+  „Wer ‚geschäftsmäßig zum Zweck der
   **Übermittlung**' verarbeitet — also Adressbestände an Dritte
   weitergibt oder für Dritte aufbaut —, ist **unabhängig von jeder
   Kopfzahl** benennungspflichtig" (C6). **R-B9: Keine Weitergabe von
@@ -917,7 +972,7 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 | # | Offener Punkt | Warum offen | Träger |
 |---|---|---|---|
 | **O-1** | **Wortlaut des Einwilligungstextes** (Messe, Newsletter) | D3.3 ist ausdrücklich **OFFEN**: „steht erst beim Bau der Messe-/Newsletter-Texte an; wird dem User dann als Entwurf vorgelegt". **Diese Session entscheidet ihn nicht mit** | User, beim Textbau |
-| **O-2** | **Löschfrist für die KALTKONTAKT-Liste** | Die 24 Monate betreffen die Bestandskundeneigenschaft. Für nie kontaktierte oder nicht reagierende Kaltkontakte ist keine Frist entschieden — Pflicht aus C6 („eigene Frist festlegen und dokumentieren") | User-Entscheid, vor dem VVT-Eintrag |
+| ~~**O-2**~~ | ~~**Löschfrist für die KALTKONTAKT-Liste**~~ | ~~Die 24 Monate betreffen die Bestandskundeneigenschaft…~~ | ✅ **ENTSCHIEDEN 12.08.2026 (User): 12 Monate** nach letztem Kontaktversuch, plus Regel **O-2b** (nie kontaktierte Sätze: Disposition binnen 3 Monaten, einmal verlängerbar, kein Verfall ohne Disposition) — s. § 7.4 und `interessenabwaegung-o8.md` § 9. Offen bleibt nur die technische Umsetzung der Wiedervorlage (MKT-OPS) |
 | **O-3** | **Nachvollziehbarkeit der Auswahl** ohne gespeicherte Auswahlmerkmale | Spannung zwischen Datenminimierung (§ 6) und Dokumentationsinteresse; Vorschlag Wellenprotokoll (§ 6.1) | Beim ersten Wellenbau |
 | **O-4** | **Wie groß ist die Zielmenge wirklich?** | Nach Abzug der Ketten-/Konzern-/Franchise-Betriebe (Positionierungspapier § 3.3) unbekannt; eine Betreiberstruktur-Schneidung existiert nicht (der amtliche Weg dazu ist selbst offen: `regionalstatistik-…` § 8 Punkt 2) | MKT-FUND / AKQ2 |
 | **O-5** | **Nachfass-Anruf nach eigenem Brief** | In der Rechtsmatrix nicht behandelt → **ungeklärt, nicht erlaubt** (R-A7.6) | MKT-HANDEL (N-1 im Akquiseplan) |
@@ -973,15 +1028,32 @@ Session):**
 
 | Größe | Wert |
 |---|---|
-| Geprüfte Zitate (beide Dokumente) | **128** |
-| Davon deklarierte eigene Formulierungen und zitierte Fehlerfassungen (Ausnahmeliste im Skript, je mit Begründung) | **14** |
-| **Quellenzitate wörtlich bestätigt** | **114 / 114** |
+| Geprüfte Zitate (beide Dokumente) | **134** *(Stand 12.08.2026; am 11.08. waren es 128 — die Reparaturvermerke selbst bringen Zitate mit)* |
+| Davon deklarierte eigene Formulierungen und zitierte Fehlerfassungen (Ausnahmeliste im Skript, je mit Begründung) | **18 / 18** *(11.08.: 14)* |
+| **Quellenzitate wörtlich bestätigt** | **116 / 116** *(11.08.: 114 / 114)* |
 | **Blockzitate (2 D3-Kästen + D2-Liste) gegen die Quelle** | **3 / 3**, je 480 / 1.006 / 757 Zeichen verglichen |
 | **Rückbau-Gegenprobe je Block** (verfälschte Fassung muss durchfallen) | **3 / 3** |
 | Positivkontrolle — **ein Anker je Pooldatei, alle 8 abgedeckt** | **11 / 11** |
 | Gegenprobe (verfälschte Fassungen, die NICHT treffen dürfen) | **3 / 3** |
 | Selbsttest des Extraktionspfades (eigene Prüfdatei) | **bestanden** (8 extrahiert / 4 bestätigt / 4 gemeldet) |
-| Exit-Code Hauptlauf / Selbsttest | **0 / 0** |
+| Exit-Code Hauptlauf / Selbsttest | **0 / 0** *(am 12.08. vorübergehend 1 / 0 — s. Kasten)* |
+
+> ⚠️ **Wiederkehrende Fehlerklasse, dreimal belegt (Nachtrag 12.08.2026,
+> Befund B-4 aus der Codex-Restprüfung):** **Wer eine Reparatur
+> DOKUMENTIERT, verändert damit den Prüflauf.** Der Reparaturvermerk
+> zitiert die alte Fassung — und erzeugt so ein „Zitat", das per
+> Konstruktion nicht im Quellenpool stehen kann. Der Lauf wurde dadurch
+> rot, während beide Dokumente korrekt waren: einmal am 11.08.
+> („je Quelldatei einer — 7/7", unbemerkt geblieben, deshalb dokumentierte
+> § 12 bis heute einen Stand, den der Lauf nicht mehr zeigte) und zweimal
+> am 12.08. durch die Vorfassungs-Zitate dieses Nachtrags selbst.
+> **Betriebsregel: Nach jedem Reparaturvermerk das Skript laufen lassen
+> und die Ausnahmeliste im selben Zug ergänzen** — sie trägt seither je
+> Eintrag eine Begründung. **Strukturgrenze, die dabei sichtbar wurde:**
+> Zitate aus Primärquellen außerhalb des Pools (z. B. LG-Volltext in
+> `sensibel/`) kann dieses Skript nicht prüfen; sie stehen als
+> deklarierte Ausnahme drin und ihre Verifikation liegt bei der Session,
+> die sie erhoben hat — nicht bei diesem Lauf.
 
 *(Die Positivkontrolle deckte in der Vorfassung nur **4 von 8**
 Pooldateien mit einem Anker ab und wurde trotzdem als „je Quelldatei
@@ -1026,7 +1098,10 @@ Verfälschung überhaupt fangen *kann*.
 ---
 
 *Erstellt in Runde R08-A (Session Ben Beckman), MKT-AKQ. Quellenbasis:
-`handel/kanal-rechtsmatrix.md` (vollständig gelesen, 856 Zeilen: Teil A
+`handel/kanal-rechtsmatrix.md` (vollständig gelesen **im Stand
+`@d11535f`**, dort 856 Zeilen — die Datei ist seither auf 866 Zeilen
+gewachsen (N-6/N-7-Nachträge `474b95e`); Belegstand deshalb als Commit
+statt als Zeilenzahl, s. Befund B-1: Teil A
 alle sieben Kanäle, Teil B, Teil C, Teil D) ·
 `fund/erhebung/regionalstatistik-groessenklassen.md` § 4.4/4.5/5/8 ·
 `fund/positionierungspapier.md` § 3 · `projektquelle-mkt.md` § 2/§ 7.*

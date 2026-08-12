@@ -77,3 +77,45 @@ R09-A)** · 1 Träger MKT-AKQ · 2 ausdrücklich verworfen mit Grund ·
   Abschlussmeldung.
 - Nicht geprüft: ob die Rechtsmatrix selbst inhaltlich richtig ist
   (war weder Codex' noch dieser Auftrag).
+
+---
+
+## E. Ausführung (12.08.2026, nach der R09-A-Abschlussmeldung)
+
+**Alle sieben Reparaturen ausgeführt**, jede mit sichtbarem
+Vorfassungs-Vermerk (keine stille Neufassung):
+
+| # | Ausgeführt | Ort |
+|---|---|---|
+| B-1 | Zeilenzahl → **Commit-Stand `@d11535f`** in beiden Dokumenten, mit Hinweis auf das Wachstum auf 866 | `listenbau-regelwerk.md` Schlussvermerk · `akquiseplan.md` Schlussvermerk |
+| B-2 | Bedingung „**ständig automatisiert verarbeiten**" ergänzt | Regelwerk § 7.4, DSB-Punkt |
+| B-3 | **Geltungsvermerk** „nur Bestandskunden-Schiene" **vor** den D3.1-Kasten gesetzt — an die Stelle, wo der Leser ankommt | Regelwerk § 2.1 |
+| B-4 | Ausnahmeliste des Skripts um **4 begründete Einträge** ergänzt; § 12-Zahlen nachgezogen (**134 / 18 / 116 von 116 / Exit 0**, Selbsttest bestanden); Fehlerklassen-Kasten ergänzt | `pruefe-zitate.js` · Regelwerk § 12 |
+| B-5 | **Streitstand** („höchstrichterlich ungeklärt", drei Positionen) + zulässiger Mindestinhalt ergänzt | Regelwerk R-A6.6 |
+| B-6 | „Speicherung + jederzeitige Ausdruckmöglichkeit" und „unter der konkreten Adresse" ergänzt | Regelwerk R-A6.2 |
+| B-8 | Bedingung „auf eigenen Datenbeständen" + Rechtsfolge „eigene Verantwortliche / eigene Rechtsgrundlage" ergänzt | Regelwerk § 7.4, AVV-Punkt |
+
+**Nachtrag zur eigenen Disposition — Lücke im Abschnitt B, offen
+ausgewiesen:**
+
+| # | Befund | Disposition |
+|---|---|---|
+| **B-12** | R-A6.1: „B2B senkt nichts" ohne die Normbegründung „§ 7 Abs. 2 Nr. 2 UWG kennt keine B2B-Erleichterung" | **REPARIERT.** Diese Codex-Differenz hatte ich in § B **nicht disponiert** — sie fiel erst beim Ausführen auf. Meine eigene Dispositionsliste war also unvollständig (11 statt 12 Befunde). Genau die Fehlerklasse, gegen die die Nenner-Pflicht steht |
+
+## F. Zwei neue Befunde aus dem R09-A-Review (Leitsession)
+
+| # | Befund | Disposition |
+|---|---|---|
+| **R-1** | **Q-04 verschiebt die Fälligkeit von O-2/F-7/O-9 vom Versand auf den Listenaufbau** — hergeleitet im O-8-Dokument, aber an drei Ankunftsstellen nicht nachgezogen (O-8 § 9.3 und § 11.1, Regelwerk-Nachtragskasten, Regelwerk § 10) | **REPARIERT** an allen vier Stellen. ⭐ **Dieselbe Fehlerklasse wie B-3 — zweiter Beleg an einem Tag:** Eine Schärfung erreicht die abgeleitete Stelle nicht. Debrief-Kandidat, jetzt doppelt belegt |
+| **R-2** | **`akquise/interessenabwaegung-o8.md` liegt außerhalb des Prüfraums von `pruefe-zitate.js`** — das Skript prüft nur Akquiseplan und Regelwerk. Das risikotragende Dokument hat damit **kein dauerhaftes Prüfmittel im Repo**; R09-A hat es „in eigener Sache" verifiziert (eigene Meldung, Block 2) | **TRÄGER: nächste AKQ-/HANDEL-Session.** Nicht heute nachgezogen, weil die Pool-Erweiterung die Primärquellen bräuchte, die in `sensibel/` liegen (git-ignoriert) — das ist ein eigener Zuschnitt, kein Nebenbei-Fix. Bis dahin gilt die Verifikation von R09-A, ausgewiesen als Selbstprüfung |
+
+**Gesamt-Nenner nach Ausführung:** 14 Befunde — **9 repariert**
+(B-1…B-6, B-8, B-12, R-1) · **2 mit Träger** (B-10 MKT-AKQ, R-2
+nächste Session) · **2 verworfen mit Grund** (B-7, B-9) · **1
+Verfahrensbefund** (B-11). Keiner ohne Disposition.
+
+**Beleg nach der Reparatur:** `node akquise/pruefe-zitate.js` →
+**Exit 0**, 134 Zitate, 18/18 Ausnahmen, **116/116 bestätigt**;
+`--selbsttest` → **bestanden** (8 extrahiert / 4 bestätigt / 4
+gemeldet), Exit 0. Beide Läufe nach dem letzten Edit gefahren, nicht
+davor.

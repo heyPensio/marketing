@@ -92,6 +92,20 @@ const EIGEN = [
   // Eigenzitate: das Dokument zitiert sich selbst bzw. eine eigene Setzung.
   ['bei Widerspruch gewinnt die Rechtsmatrix', 'Selbstzitat der eigenen Kollisionsregel'],
   ['entschieden unzulässig', 'eigene Formulierung einer Falschlesart, die R-A1.3 gerade ausschliesst'],
+  // --- Nachtrag 12.08.2026 (Leitsession, Befund B-4) ---
+  // Dieselbe Klasse, dreimal belegt: Wer eine Reparatur DOKUMENTIERT, zitiert
+  // dabei die alte Fassung -- und erzeugt damit ein neues "Zitat", das per
+  // Konstruktion nicht im Pool stehen kann. Der Lauf wurde dadurch rot,
+  // obwohl die Dokumente korrekt sind. Wer hier eine Zeile ergaenzt, ergaenzt
+  // im selben Zug den Reparaturvermerk im Zieldokument.
+  ['je Quelldatei einer — 7/7', 'zitierte Fehlerfassung im Reparaturvermerk (Befund P-04, R08-A)'],
+  ['Der erste Versand bleibt gesperrt.', 'zitierte Vorfassung im Reparaturvermerk (Befund Q-04, R9)'],
+  ['Für die Kaltkontakt-Liste offen (§ 10, O-2)', 'zitierte Vorfassung im Reparaturvermerk (O-2-Entscheid 12.08.2026)'],
+  // Zitat aus einer Primaerquelle AUSSERHALB des Pools: Der LG-Volltext liegt
+  // in sensibel/rohbelege-R09-A/ (git-ignoriert) und kann nicht in den Pool.
+  // ACHTUNG Strukturgrenze: Fuer solche Zitate leistet dieses Skript KEINE
+  // Pruefung -- die Verifikation ist R09-A (am Rohbeleg), nicht dieser Lauf.
+  ['bereits vor dem ersten Verarbeitungsschritt in die Wege geleitet sein', 'Zitat LG Duesseldorf 38 O 243/23 Rn. 87 - Primaerquelle ausserhalb des Pools, am Rohbeleg durch R09-A verifiziert'],
 ];
 const eigenSet = new Set(EIGEN.map(([s]) => norm(s)));
 

@@ -587,7 +587,9 @@ jeweils mit Zielort. Diese Session schreibt sie **nicht** selbst ein
 ---
 
 *Erstellt in Runde R08-A (Session Ben Beckman), MKT-AKQ. Quellenbasis:
-`handel/kanal-rechtsmatrix.md` (vollständig gelesen, 856 Zeilen) ·
+`handel/kanal-rechtsmatrix.md` (vollständig gelesen im Stand
+`@d11535f`, dort 856 Zeilen; seither auf 866 gewachsen — Belegstand als
+Commit statt Zeilenzahl, Befund B-1) ·
 `beleg/baseline-messplan.md` § 5 (Muster) ·
 `protokolle/R00-planpruefung-2026-08-09.md` § (c)/(e) ·
 `fund/erhebung/regionalstatistik-groessenklassen.md` § 4.4/§ 8 ·

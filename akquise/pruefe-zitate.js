@@ -111,6 +111,12 @@ const eigenSet = new Set(EIGEN.map(([s]) => norm(s)));
 
 let gesamt = 0;
 let eigenTreffer = 0;
+// Welche Ausnahme-Eintraege wurden tatsaechlich getroffen? Ein Eintrag darf
+// MEHRFACH vorkommen (dieselbe Vorfassung kann an zwei Stellen zitiert sein) --
+// gezaehlt werden deshalb EINTRAEGE, nicht Fundstellen. Vorher zaehlte das
+// Skript Fundstellen gegen die Listenlaenge und meldete "19 / 18", also rot,
+// obwohl nichts fehlte (Fehlerklasse L-26/Erfolgsbedingung; Fix 12.08.2026).
+const eigenGetroffen = new Set();
 const fehlend = [];
 for (const datei of ZIEL) {
   const roh = lies(datei);
@@ -118,10 +124,13 @@ for (const datei of ZIEL) {
     gesamt++;
     const n = norm(z);
     if (poolText.includes(n)) continue;
-    if (eigenSet.has(n)) { eigenTreffer++; continue; }
+    if (eigenSet.has(n)) { eigenTreffer++; eigenGetroffen.add(n); continue; }
     fehlend.push({ datei, zitat: n });
   }
 }
+// Eine deklarierte Ausnahme, die NIRGENDS mehr vorkommt, ist veraltet und
+// gehoert entfernt -- das bleibt ein Befund und wird unten ausgewiesen.
+const eigenVerwaist = EIGEN.map(([s]) => norm(s)).filter((n) => !eigenGetroffen.has(n));
 
 // --- Positivkontrolle je Kanal (ein Anker, der treffen MUSS) -----------------
 const MUSS = [
@@ -133,7 +142,13 @@ const MUSS = [
   ['R00 KPI (e)', 'Qualifizierte Erstgespräche mit Entscheidern pro Woche'],
   ['Positionierungspapier 3.3', 'Entscheidungsstruktur, nicht die Betten-Zahl'],
   ['Projektquelle 7 Punkt 0a', 'GbR in Gründung, Rebrand-Name offen'],
-  ['STATUS.md', 'Offenlegung ist ab jetzt'],
+  // Anker bewusst im STABILEN Kopf der Datei, nicht in einem Runden-Stand:
+  // Der alte Anker ("Offenlegung ist ab jetzt") stammte aus dem R7-Block und
+  // wurde mit der planmaessigen 2-Runden-Rotation am 12.08.2026 nach
+  // STATUS-archiv.md verschoben -- die Positivkontrolle fiel dadurch auf 10/11,
+  // ohne dass am Pool etwas kaputt war. Ein Anker in einen ROTIERENDEN
+  // Abschnitt altert per Konstruktion (Fehlerklasse: veraltetes Pruefmuster).
+  ['STATUS.md', 'Bei Widerspruch STATUS.md'],
   ['baseline-messplan 5', 'Rückwärtsrechnung vom Livegang'],
   ['CLAUDE.md', 'Internorga Hamburg (März)'],
 ];
@@ -147,7 +162,11 @@ const TREFFEN_NICHT = [
 console.log('=== Zitatabgleich akquise/ gegen Quellenpool ===');
 console.log('Quellenpool: ' + POOL.length + ' Dateien, ' + poolText.length + ' Zeichen normalisiert');
 console.log('Geprueft: ' + gesamt + ' Zitate (>=25 Zeichen, deutsche Anfuehrungszeichen)');
-console.log('Davon eigene Formulierungen (Ausnahmeliste, s. u.): ' + eigenTreffer + ' / ' + EIGEN.length + ' deklarierten');
+console.log('Davon eigene Formulierungen (Ausnahmeliste, s. u.): ' + eigenGetroffen.size + ' / ' + EIGEN.length + ' deklarierten Eintraegen belegt (' + eigenTreffer + ' Fundstellen)');
+if (eigenVerwaist.length) {
+  console.log('  ! VERWAISTE Ausnahme-Eintraege (kommen nirgends mehr vor, gehoeren geprueft/entfernt):');
+  for (const v of eigenVerwaist) console.log('    - ' + v);
+}
 console.log('Quellenzitate bestaetigt: ' + (gesamt - fehlend.length - eigenTreffer) + ' / ' + (gesamt - eigenTreffer));
 console.log('\n--- Ausnahmeliste: eigene Formulierungen, KEINE Quellenzitate ---');
 for (const [s, grund] of EIGEN) console.log('  * "' + s + '"  -> ' + grund);

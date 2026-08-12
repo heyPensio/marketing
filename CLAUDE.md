@@ -592,6 +592,16 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   AUSSERHALB des Prüfpools kann das Werkzeug nie bestätigen — sie als
   Ausnahme führen UND ausweisen, wer sie stattdessen verifiziert hat,
   sonst wird die Ausnahmeliste zur Ausrede. (L-26, drei Belege.)
+- **⭐ Ein Positivkontroll-Anker gehört in den STABILEN Teil einer Datei,
+  nie in einen rotierenden Abschnitt.** Ein Anker aus einem
+  Runden-Stand-Block wandert mit der vorgeschriebenen STATUS-Rotation ins
+  Archiv — die Kontrolle fällt aus, ohne dass am Prüfgegenstand etwas
+  kaputt ist (gemessen: 10/11 nach einer ganz regulären Rotation). Erst
+  das Prüfmuster verdächtigen, dann das Dokument. Ebenso: **eine
+  Ausnahmeliste zählt EINTRÄGE, nicht Fundstellen** — dieselbe Vorfassung
+  darf an zwei Stellen zitiert sein; die Gegenrichtung („verwaister
+  Eintrag, kommt nirgends mehr vor") gehört als eigene Ausgabe dazu.
+  (Sammelvermerk R9, beide beim Anwenden der Regeln selbst gefunden.)
 - **⭐ Ein Zitatabgleich prüft, was als Zitat MARKIERT ist — nicht den
   Fließtext daneben.** Normbegriffe, Absatz-/Buchstabenangaben und
   Rechtsfolgen im Fließtext sieht kein Extraktor; genau dort sitzt die

@@ -291,6 +291,16 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Fehler-/Rückrufprozess für KI-Außenkommunikation. Fertig: Policy aktiv.
 - **OPS3** VVT/AVV-Inventar der Marketing-Werkzeuge (inkl. KI-Anbieter,
   Drittlandtransfer). Fertig: Inventar vollständig.
+  **⚠️ R9-Vermerk (N-15): Der VVT-Zielort EXISTIERT NICHT** — es gibt
+  kein `ops/`-Verzeichnis im Repo (geprüft 12.08.2026). Der fertige,
+  1:1 übernehmbare VVT-Eintrag für die Kaltakquise-Liste liegt in
+  `akquise/interessenabwaegung-o8.md` § 8 (alle Art.-30-Felder, lit. f
+  gefüllt durch E14: 12 Monate) — er braucht einen Träger. **Erster
+  OPS3-Schritt ist damit: Zielort anlegen und den Block übernehmen**,
+  nicht das Inventar von vorn erheben. Ebenfalls dort abholbar: die
+  **technische Umsetzung der O-2b-Wiedervorlage** (nie kontaktierte
+  Datensätze, Disposition binnen 3 Monaten) und die TOM-Frage aus O-6
+  (CRM-Wahl).
 - **OPS4** Zugangs-Register (2FA/Recovery/Notfallzugriff Mitgesellschafter)
   in `sensibel/` + Backup-Weg für `sensibel/` (git-ignoriert = backuplos —
   eigener Sicherungsweg nötig). Fertig: Register + Backup verifiziert.

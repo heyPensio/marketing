@@ -837,6 +837,22 @@ Diese Punkte haben Außenwirkung und werden nicht von der Session festgelegt (CL
 
 # Offene Punkte und Belegstufen-Grenzen
 
+> ⭐ **Nachtrag 12.08.2026 (R9): Sechs Befunde AUS der Abwägungsarbeit,
+> die dieses Dokument betreffen** — eingetragen von der Leitsession,
+> damit sie nicht nur im Abschlussprotokoll stehen (Herkunft:
+> `protokolle/R09-A-abschluss.md` Block 3, dort N-9…N-14; belegt gegen
+> `akquise/interessenabwaegung-o8.md`). **Träger: MKT-HANDEL, nächste
+> Runde** — hier bewusst als Merker, nicht als stille Korrektur:
+>
+> | # | Befund an DIESEM Dokument |
+> |---|---|
+> | **N-9** | **C4 lässt eine Pflichtangabe aus:** Der „Mindestumfang, der zusätzlich ins Anschreiben gehört" nennt die **Empfänger-Angabe** (Art. 14 Abs. 1 lit. e) nicht — obwohl jeder Druck-/Lettershop und jedes CRM Empfänger i. S. d. Art. 4 Nr. 9 ist. Im O-8-Dokument bereits ergänzt |
+> | **N-10** | **Art. 6 Abs. 4 DSGVO (Zweckänderung) fehlt vollständig** (0 Treffer bei greifender Positivkontrolle, Stand `b2cfa12~1`). Die Aufsicht verlangt die Kompatibilitätsprüfung ausdrücklich → offener Punkt **O-9** |
+> | **N-11** | **Die A7-Darstellung des LG-Urteils lässt offen, dass beide Absagegründe auf Stufe 1 liegen** (Rn. 84, Rn. 88) — das Urteil liefert **keinen Abwägungstopos** |
+> | **N-12** | **Die Gegenansicht fehlt:** OLG Stuttgart 2 U 63/22 und Eckhardt (ZD 2024, 399; ZD 2025, 443) sehen Briefwerbung großzügiger; das LG weicht ausdrücklich ab (Rn. 79–83). Ihr Fehlen lässt die Rechtslage **eindeutiger aussehen, als sie ist** |
+> | **N-13** | **Zwei Zahlen ohne Zählweg:** „199 Treffer für Verbraucher" ist nur **case-insensitive** reproduzierbar (case-sensitiv: 187); „109 für DSGVO" ist case-sensitiv. Zählweg an die Zahl schreiben |
+> | **N-14** | **Neu gegenüber Teil B:** DSGVO-Verstöße bei Werbung sind über § 3a UWG abmahnfähig — auch durch **Mitbewerber**. Teil B behandelt nur UWG-Verstöße und die BGB-Schiene (die Frage selbst steht unten als „Streitstand nicht abschließend erhoben"; neu ist der Beleg) |
+
 Ausdrücklich als **nicht erhoben** gekennzeichnet — „nicht gefunden" ist hier nirgends als „existiert nicht" zu lesen:
 
 | Punkt | Stand |

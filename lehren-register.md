@@ -1136,6 +1136,26 @@ teils nicht abrufbar (404 bei `deu`/`de`/`de-DE`, 200 nur bei `eng`) —
 Ausweg ist die Amtsblatt-Mitteilung (`…/celex/<Jahr>CA<Nr>`) mit dem
 amtlichen deutschen Tenor.
 
+**Zwei Werkzeug-Funde des Debriefs selbst (12.08., beim Anwenden von
+L-26 — das Skript lief nach jedem Nachtrag):**
+- **⭐ Ein Positivkontroll-Anker in einem ROTIERENDEN Abschnitt altert
+  planmäßig.** Der STATUS.md-Anker des Zitat-Skripts („Offenlegung ist
+  ab jetzt") stammte aus dem R7-Block und wanderte mit der ganz
+  regulären 2-Runden-Rotation ins Archiv — die Positivkontrolle fiel auf
+  **10/11**, ohne dass am Pool irgendetwas kaputt war. Erst das
+  Prüfmuster verdächtigen, dann das Dokument: **Anker gehören in den
+  STABILEN Teil einer Datei** (Kopf/Zweckblock), nie in einen Abschnitt,
+  dessen Rotation im selben Repo vorgeschrieben ist. Neuer Anker: „Bei
+  Widerspruch STATUS.md".
+- **Die Ausnahmeliste zählte FUNDSTELLEN gegen EINTRÄGE.** Dieselbe
+  Vorfassung an zwei Stellen zu zitieren (LG Rn. 87) ergab „19 / 18
+  deklarierten" und damit Rot ohne Fehler. Umgestellt auf Einträge —
+  plus einer neuen Ausgabe „VERWAISTE Ausnahme-Einträge", die die
+  Gegenrichtung abdeckt (ein Eintrag, der nirgends mehr vorkommt, ist
+  veraltet und gehört entfernt). Endstand: **135 Zitate · 18/18
+  Einträge (19 Fundstellen) · 116/116 bestätigt · Positivkontrolle
+  11/11 · Gegenprobe 3/3 · Selbsttest bestanden · Exit 0.**
+
 **Fremdagenten-Einsatz (Codex, erster MKT-Auftrag C-1):** Der Zuschnitt
 **„Codex inventarisiert und misst, die Leitsession bewertet"** hat
 getragen — 11 belastbare Befunde ohne ein einziges Belegstufen-Urteil,

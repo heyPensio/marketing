@@ -978,6 +978,8 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 | **O-5** | **Nachfass-Anruf nach eigenem Brief** | In der Rechtsmatrix nicht behandelt → **ungeklärt, nicht erlaubt** (R-A7.6) | MKT-HANDEL (N-1 im Akquiseplan) |
 | **O-6** | **CRM-/Werkzeugwahl** und damit die technische Form von Liste und Sperrdatei | Ausdrücklich nicht Gegenstand dieser Session | MKT-OPS |
 | **O-7** | **Hamburg** | Keine Kreisstatistik im Bestand (§ 8) | MKT-FUND |
+| **O-11** *(neu 12.08.2026, R9/N-16)* | **DSK-Ziff. 4.3 „Beipack-Werbung" beim nächsten Durchgang erwähnen** | Von 29 Gliederungspunkten der DSK-Orientierungshilfe (über zwei unabhängige Strukturmerkmale gezählt) sind 18 adressiert; die 11 übrigen betreffen überwiegend die Einwilligungs-Schiene — **Ausnahme Ziff. 4.3**: die einzige Stelle, an der die Aufsicht Briefwerbung per lit. f für zulässig erklärt (Prämisse: Vertragspartner). Tatbestandlich nicht unser Fall, stützt aber die Argumentation | MKT-AKQ, nächster Durchgang |
+| **O-12** *(neu 12.08.2026, R9/R-2)* | **Das O-8-Dokument liegt außerhalb des Prüfraums von `akquise/pruefe-zitate.js`** | Das Skript prüft nur Akquiseplan und dieses Regelwerk; das risikotragende Dokument hat damit **kein dauerhaftes Prüfmittel im Repo** (R09-A hat es in eigener Sache verifiziert). Pool-Erweiterung bräuchte die Primärquellen aus `sensibel/` — eigener Zuschnitt, kein Nebenbei-Fix | nächster Prüflauf |
 | ~~**O-8**~~ | ~~⭐ **Die Interessenabwägung nach Art. 6 Abs. 1 lit. f (Stufe 3) ist nicht durchgeführt**~~ | ~~§ 6 leistet nur Stufe 2 (Erforderlichkeit je Feld). Die Abwägung selbst — Interessen des Betriebs gegen unsere, mit Ergebnis — fehlt. **Damit sind D2 Pflicht 4 und W-b1 offen**, und zwar genau das Dokument, das unter Weg (b) das Risiko trägt (Befund P-01)~~ | ✅ **ERLEDIGT 12.08.2026 (R09-A):** `akquise/interessenabwaegung-o8.md`. **Kein Blankoscheck** — was damit NICHT erledigt ist, steht im Nachtrags-Kasten bei § 3 Pflicht 4 (O-2 offen, Art. 6 Abs. 4 neu offen, acht Bau-Pflichten noch nicht eingearbeitet, anwaltlicher Rat unberührt) |
 | **O-9** *(neu 12.08.2026, R09-A)* | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** (Zweckänderung: Impressumsdaten sind zur Anbieterkennzeichnung veröffentlicht, nicht zu Werbezwecken) | Von der Aufsicht ausdrücklich verlangt (DSK-Orientierungshilfe Ziff. 1.5); in diesem Regelwerk **und** in `handel/kanal-rechtsmatrix.md` bisher **nirgends** geführt — gemessen am Stand **vor** diesem Nachtrag (`git show b2cfa12~1:<datei>`, 12.08.2026): „Art. 6 Abs. 4" **0 Treffer** in beiden Dokumenten, Positivkontrolle „Art. 6 Abs. 1" 7 bzw. 6 Treffer. *(Messstand an die Zahl geschrieben nach Prüferbefund Q-12 — ohne ihn ist die Null in genau der Datei, die sie beschreibt, nicht mehr reproduzierbar.)* | MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand |
 
@@ -1028,9 +1030,10 @@ Session):**
 
 | Größe | Wert |
 |---|---|
-| Geprüfte Zitate (beide Dokumente) | **134** *(Stand 12.08.2026; am 11.08. waren es 128 — die Reparaturvermerke selbst bringen Zitate mit)* |
-| Davon deklarierte eigene Formulierungen und zitierte Fehlerfassungen (Ausnahmeliste im Skript, je mit Begründung) | **18 / 18** *(11.08.: 14)* |
+| Geprüfte Zitate (beide Dokumente) | **135** *(Stand 12.08.2026 nach dem R9-Debrief; am 11.08. waren es 128 — die Reparaturvermerke selbst bringen Zitate mit)* |
+| Davon deklarierte eigene Formulierungen und zitierte Fehlerfassungen (Ausnahmeliste im Skript, je mit Begründung) | **18 / 18 Einträge belegt, 19 Fundstellen** *(11.08.: 14; die Zählung ging am 12.08. von Fundstellen auf Einträge über — dieselbe Vorfassung darf an zwei Stellen zitiert sein)* |
 | **Quellenzitate wörtlich bestätigt** | **116 / 116** *(11.08.: 114 / 114)* |
+| Positivkontrolle / Gegenprobe / Selbsttest | **11 / 11** · **3 / 3** · bestanden — ⚠️ der STATUS.md-Anker musste am 12.08. in den **stabilen Kopf** der Datei verlegt werden: Der alte Anker lag in einem Runden-Stand-Block und wanderte mit der regulären 2-Runden-Rotation ins Archiv (Kontrolle fiel auf 10/11, ohne dass etwas kaputt war) |
 | **Blockzitate (2 D3-Kästen + D2-Liste) gegen die Quelle** | **3 / 3**, je 480 / 1.006 / 757 Zeichen verglichen |
 | **Rückbau-Gegenprobe je Block** (verfälschte Fassung muss durchfallen) | **3 / 3** |
 | Positivkontrolle — **ein Anker je Pooldatei, alle 8 abgedeckt** | **11 / 11** |

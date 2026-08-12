@@ -269,6 +269,38 @@ gelegentlich" (Rechtsmatrix C6).
 > Stufe 3 wird in diesem Dokument nirgends durchgeführt und nirgends
 > abgeschlossen. Gefunden vom Prüfer R08-A, Befund P-01.)*
 
+> ### 📌 NACHTRAG 12.08.2026 (R09-A) — Stufe 3 liegt jetzt vor
+>
+> **Was sich geändert hat:** Der Kasten oben bleibt als Beschreibung des
+> Standes vom 11.08.2026 stehen (er ist die Herkunft des Auftrags). Der
+> Satz „**Stufe 3 OFFEN**" ist seit dem 12.08.2026 **überholt**: Die
+> Abwägung ist in **`akquise/interessenabwaegung-o8.md`** durchgeführt.
+> **D2 Pflicht 4 und W-b1 sind damit erfüllt** — die Erforderlichkeit je
+> Feld liefert weiterhin § 6 dieses Dokuments (Stufe 2), die Abwägung
+> selbst das neue Dokument (Stufe 3).
+>
+> ⚠️ **Was der Nachtrag NICHT bedeutet — positiv aufgelistet, damit die
+> Entwarnung nicht überschießt:**
+> - Das Ergebnis ist **nicht** „zulässig". Für Adressen aus Impressen
+>   (dort Fallgruppe FG-4) ist es ein **dokumentiert getragenes
+>   Restrisiko gegen die Aufsichtsauffassung**, keine
+>   Zulässigkeitsfeststellung.
+> - **O-2 bleibt offen** (Löschfrist Kaltkontakte, § 10) — ohne sie ist
+>   der VVT-Eintrag unvollständig **und** die Art.-14-Pflichtangabe zur
+>   Speicherdauer nicht erfüllbar. Der erste Versand bleibt gesperrt.
+> - **Neu offen:** die **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO**
+>   (Zweckänderung Anbieterkennzeichnung → Werbung), in diesem Regelwerk
+>   und in der Rechtsmatrix bisher nirgends geführt — dort § 5.5/O-9.
+> - Der anwaltliche Rat vor dem ersten Massenversand (Geltungsgrenze der
+>   Rechtsmatrix) ist **nicht** ersetzt.
+> - Aus der Abwägung folgen **acht zusätzliche Bau-Pflichten** (dort
+>   § 10, B-1…B-8), die in diesem Regelwerk noch nicht stehen — darunter
+>   das Aussteuern von Betrieben mit Werbewiderspruch im Impressum, ein
+>   **elektronischer** Widerspruchsweg trotz reinem Briefkanal und die
+>   Versionierung der Informationstexte. Ihre Einarbeitung in §§ 3/7
+>   dieses Regelwerks ist **noch nicht erfolgt** (Träger: MKT-AKQ, nächste
+>   Runde).
+
 Die Prüfung folgt den drei kumulativen Stufen des
 EuGH (C-621/22 Rn. 37, über die Rechtsmatrix C2):
 
@@ -891,7 +923,8 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 | **O-5** | **Nachfass-Anruf nach eigenem Brief** | In der Rechtsmatrix nicht behandelt → **ungeklärt, nicht erlaubt** (R-A7.6) | MKT-HANDEL (N-1 im Akquiseplan) |
 | **O-6** | **CRM-/Werkzeugwahl** und damit die technische Form von Liste und Sperrdatei | Ausdrücklich nicht Gegenstand dieser Session | MKT-OPS |
 | **O-7** | **Hamburg** | Keine Kreisstatistik im Bestand (§ 8) | MKT-FUND |
-| **O-8** | ⭐ **Die Interessenabwägung nach Art. 6 Abs. 1 lit. f (Stufe 3) ist nicht durchgeführt** | § 6 leistet nur Stufe 2 (Erforderlichkeit je Feld). Die Abwägung selbst — Interessen des Betriebs gegen unsere, mit Ergebnis — fehlt. **Damit sind D2 Pflicht 4 und W-b1 offen**, und zwar genau das Dokument, das unter Weg (b) das Risiko trägt (Befund P-01) | **Marketing-Session, VOR dem ersten Versand** — zusammen mit dem VVT-Eintrag (O-2), weil beide dieselbe Begründung brauchen |
+| ~~**O-8**~~ | ~~⭐ **Die Interessenabwägung nach Art. 6 Abs. 1 lit. f (Stufe 3) ist nicht durchgeführt**~~ | ~~§ 6 leistet nur Stufe 2 (Erforderlichkeit je Feld). Die Abwägung selbst — Interessen des Betriebs gegen unsere, mit Ergebnis — fehlt. **Damit sind D2 Pflicht 4 und W-b1 offen**, und zwar genau das Dokument, das unter Weg (b) das Risiko trägt (Befund P-01)~~ | ✅ **ERLEDIGT 12.08.2026 (R09-A):** `akquise/interessenabwaegung-o8.md`. **Kein Blankoscheck** — was damit NICHT erledigt ist, steht im Nachtrags-Kasten bei § 3 Pflicht 4 (O-2 offen, Art. 6 Abs. 4 neu offen, acht Bau-Pflichten noch nicht eingearbeitet, anwaltlicher Rat unberührt) |
+| **O-9** *(neu 12.08.2026, R09-A)* | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** (Zweckänderung: Impressumsdaten sind zur Anbieterkennzeichnung veröffentlicht, nicht zu Werbezwecken) | Von der Aufsicht ausdrücklich verlangt (DSK-Orientierungshilfe Ziff. 1.5); in diesem Regelwerk **und** in `handel/kanal-rechtsmatrix.md` bisher **nirgends** geführt (gemessen 12.08.2026: „Art. 6 Abs. 4" 0 Treffer in beiden Dokumenten, Positivkontrolle „Art. 6 Abs. 1" 7 bzw. 6 Treffer) | MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand |
 
 ---
 

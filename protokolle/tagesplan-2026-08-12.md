@@ -486,6 +486,43 @@ Leitsession gleicht die R09-A-Nachträge beim Review gegen den Bericht ab.
 > `git status` muss danach genau diese eine neue Datei zeigen und sonst
 > nichts.
 
+## Block 2 (revidiert 14:13 MESZ) — Umbau-Runde R10 statt R09-B
+
+> **Nachtrag statt Neufassung:** Die Block-2-PROGNOSE oben (R09-B
+> Preismodell) ist durch das Slot-2-Briefing GEKIPPT
+> (`zentrale\briefings\briefing-2026-08-12-umbau.md`, 13:58 MESZ):
+> User-Entscheid 12.08. nachmittags — die Systemarchitektur wird heute
+> glattgezogen, **inhaltliche Stränge (O-8-Folgeposten, Preismodell)
+> ruhen bis zur Umbau-Abnahme durch die Zentrale**. R09-B bleibt
+> geplant, die Startzeile bleibt zurückgehalten; der PROGNOSE-Zuschnitt
+> oben behält seinen Stand.
+
+**Einstieg:** `/runde` (User-Zeile 14:0x); Debrief-Gate bestanden —
+R9 ist geschlossen (Debrief `7d3dd98` + Nebenbefund-Verankerung
+`c42d32c`, beide Abschlussmeldungen als Dateien, Arbeitsbaum bei
+Rundenstart clean, `git pull` „Already up to date").
+
+**Rundenschnitt R10 (Umbau-Runde, ein Strang):** Die Leitsession
+übernimmt den Strang SELBST — Buchstabe frei gelassen (Schema
+CLAUDE.md). Begründung: alle drei Posten liegen im exklusiven
+Leitsession-Scope (`.gitignore`/`.claude/`-Nachzug = Wahrheits-Kanal-
+bzw. Werkzeug-Ebene). **Codex-geeignet: NEIN** — vom Briefing-Nachtrag
+selbst disponiert (Kerndokument-Schreibarbeit + User-Handgriffe); die
+Codex-geeigneten Umbau-Anteile laufen bereits separat als C1–C3
+(Zentrale). Kein exklusives externes System berührt.
+
+| Posten | Stand |
+|---|---|
+| **F10** settings.local.json | **Sichtung 14:14 MESZ (Leitsession, Volltext, 10 Zeilen): KEINE Secrets** — 4 Allow-Einträge (2× git-Pauschalen, 1 toter Einmal-curl auf gesetze-im-internet.de aus R7, 1 tote hashgebundene Push-Sichtung). Z. 7 trägt den absoluten Benutzerpfad `C:\Users\qwafa_2dwxzia\firma\marketing` — deckt sich mit O1-Bericht § 8.1 (`settings.local.json:7`); gerätegebundenes Profil, Ignore korrekt. Eintrag in `.gitignore` nach zentrale-Muster gesetzt (dieser Commit). |
+| **F13-marketing** | **OFFEN — C2-Rücklauf liegt nicht vor** (Messung 14:13 MESZ: `zentrale\eingang\` enthält nur `README.md`; Positivkontrolle: derselbe Lauf listete die Briefing-Dateien korrekt). Briefing-Regel: NICHT selbst erheben; Posten wandert in die nächste Runde bzw. ans Runden-Ende, falls C2 noch eintrifft. |
+| **Gerüst-Nachzug** | Delta **selbst gemessen** 14:16 MESZ: `git log 69a8574..HEAD` im projektgerüst = **2 Commits** (`c286af0` Kleinposten-Sammel · `bb3b32c` Index-Vorfall-Fix/debrief.md 3d). Wächter: **1 DRIFT (`commands/debrief.md`) / 11 synchron** — deckt sich mit dem Wächter-Lauf des Users (Chat-Zuruf) und ist der von Zentrale-Debrief erwartete DRIFT. ⚠️ Briefing-Angabe „seit `b8597b6` mindestens 3" ist ÜBERHOLT — der R9-Nachzug (Stempel `69a8574`) lag zeitlich nach dem Briefing-Redaktionsstand. Nachzug via `/projekt-init nachzug`, jedes Delta einzeln disponiert, Stempel im selben Commit. |
+
+**Blockwechsel-Handgriff (unverändert gültig, s. oben):** Nach
+gelaufenem Nachzug trägt dieses Fenster einen veralteten
+Regel-Snapshot — vor weiterer Arbeit neues Fenster + `claude --resume`.
+Der Debrief dieser Runde liest `commands/debrief.md` deshalb direkt von
+Platte (Skill-Invoke zeigt bis zum Neustart die alte Fassung).
+
 ## Übergabe-Block
 
 *(wird beim Blockwechsel gefüllt: Session-Stand, offene Handgriffe,

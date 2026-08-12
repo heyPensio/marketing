@@ -10,3 +10,8 @@ sensibel/
 # Betriebssystem-Artefakte
 Thumbs.db
 .DS_Store
+
+# Lokales, konto-/gerätegebundenes Freigabeprofil — kann Secrets
+# tragen, nie committen (O1-Audit F10, 12.08.2026; Sichtung vor dem
+# Eintrag: keine Secrets, Befund im Tagesplan 12.08. Muster: zentrale).
+.claude/settings.local.json

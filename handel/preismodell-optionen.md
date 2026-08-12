@@ -38,6 +38,14 @@
 >   Steuerfolgen. Dieses Papier liefert der Zentrale eine Zulieferung
 >   (§ 10), es ersetzt keine Beratung.
 >
+> **Geprüft:** Ein unabhängiger Prüfer hat die Erstfassung (Commit
+> `8f65e40`) gegen alle Quellen gegengelesen — **28 Befunde**
+> (4 schwer, 10 mittel, 7 niedrig, 7 Hinweise), sämtlich disponiert.
+> **Die vier schweren Befunde lagen alle in Richtung der eigenen
+> Empfehlung** und sind repariert; die geänderten Stellen tragen
+> jeweils sichtbar, was vorher dastand. Protokoll:
+> `protokolle/R11-A-pruefer.md`.
+>
 > **Quell- und Lesestand:** Repo-Stand `f4e0c55` (12.08.2026, 16:28
 > MESZ). Rohbelege dieser Runde: `sensibel/rohbelege-R11-A/`
 > (git-ignoriert) — **138 Dateien, 21.263.562 Bytes** (Zählweg:
@@ -108,7 +116,9 @@ Zentrale, außerhalb des Scope) — Belegstufe daher: Zitat zweiter Hand.
 
 Abschnitt B desselben Papiers enthält ChatGPT-Einschätzungen **ohne
 jede Quelle**. Das Papier selbst markiert sie als „Hypothesen und
-PRÜF-Aufträge, keine Anker". Zwei davon sind hier einschlägig:
+PRÜF-Aufträge, keine Anker". **Drei** davon sind hier einschlägig
+*(die Erstfassung nannte zwei und übersah, dass die Bemessungs-Struktur
+in § 8/§ 12 der dritte ist — Prüferbefund P-02)*:
 
 - **⑤ „Einführung nie kostenlos vorfinanzieren"** (monatliches Modell
   nur mit Startgebühr ODER Mindestlaufzeit ODER anfangs höherem Preis).
@@ -123,15 +133,38 @@ PRÜF-Aufträge, keine Anker". Zwei davon sind hier einschlägig:
   „als Marktanker unbrauchbar" ein. Sie steht hier genau einmal — an
   dieser Stelle, als das, was sie ist. Das Marktbild in § 6 ist
   unabhängig davon erhoben.
+- **⑤ „Pro-Zimmer-Preis nur für gästenahe Module; was nicht mit
+  Zimmerzahl wächst → Fixpauschale je Haus + Grundgebühr Betreuung/
+  Verantwortung; Hardware, Zahlungsgebühren, Fremdlizenzen separat und
+  direkt beim Kunden."**
+  → **Das ist strukturell die Bemessungs-Option (c) in § 8 und die
+  Empfehlung in § 12** — die Erstfassung hat diese Herkunft nicht
+  ausgewiesen (P-02). Sie wird hier offengelegt, weil ein Leser sonst
+  nicht sehen kann, woher die Struktur stammt: Sie kam aus der externen
+  KI, und die eigenen Anker (M1, M7, Straiv) stützen sie
+  **nachträglich**. Das ist ein Indiz, kein Beleg — und der Grund,
+  warum § 12 das Gegenargument für Option (b) ausdrücklich mitführt.
+  Der Zusatz „Hardware, Zahlungsgebühren, Fremdlizenzen direkt beim
+  Kunden" ist als eigener Punkt in § 4.3 aufgenommen.
 
 ### 2.3 Pilot-Abgrenzung (ein Satz mit Quelle)
 
-**Pilotleistungen für Firzlaff's Neumünster, Rabe's Kiel und Hostel
-Boninstraße sind kostenlos** (heyPensio-Entscheid R3; Fundstelle
-`fund/positionierungspapier.md` § 5: „Pilotleistungen sind kostenlos
-(heyPensio-Entscheid R3, Quelle Extraktion B/F2.2): Referenz/
-Pilotstatus ist die Gegenleistung") — **② BESTAND**. Jedes Preismodell
-dieses Papiers gilt ausschließlich für **Folgekunden ab Kunde 1**.
+**Pilotleistungen sind kostenlos** — **② BESTAND**, Fundstelle
+`fund/positionierungspapier.md` § 5 wörtlich: „Pilotleistungen sind
+kostenlos (heyPensio-Entscheid R3, Quelle Extraktion B/F2.2):
+Referenz/Pilotstatus ist die Gegenleistung". Jedes Preismodell dieses
+Papiers gilt ausschließlich für **Folgekunden ab Kunde 1**.
+
+⚠️ **Wie weit der Entscheid reicht, ist NICHT vollständig belegt**
+(Korrektur nach Prüferbefund P-11): Die Erstfassung zählte hier drei
+Objekte auf — Neumünster, Kiel **und Hostel Boninstraße**. Belegt sind
+im Bestand nur **zwei**: Das Rohstoff-Papier (Abschnitt C) nennt
+„Pilotleistungen **NMS + Kiel**"; die zitierte Stelle im
+Positionierungspapier nennt gar kein Objekt. Repoweit war dieses
+Dokument die **einzige** Stelle, die das dritte Objekt mit „kostenlos"
+verband. Das ist erheblich, weil Hostel Boninstraße über eine **eigene
+Firmierung** läuft (LEANE) — es wäre eine dritte Rechtsträgerin, für
+die kein Entscheid vorliegt. **E-5 entscheidet das mit.**
 
 ### 2.4 Zielgruppe (weil sie die Bemessungsachse bestimmt)
 
@@ -139,8 +172,10 @@ dieses Papiers gilt ausschließlich für **Folgekunden ab Kunde 1**.
 Häuser, Kaufentscheidung beim Inhaber; ausdrücklich **auch größere
 Häuser** (E2), Mehr-Objekt-Betriebe eingeschlossen; **keine harte
 Zimmer-Obergrenze gesetzt**, solange FUND2 die Entscheiderfrage nicht
-beantwortet hat. Pilot-Größenklasse zum Vergleich: 10–25 Einheiten je
-Objekt (ebd. § 5).
+beantwortet hat. Pilot-Größenklasse zum Vergleich: „10–25 Einheiten je
+Objekt" (Wortlaut ebd. **§ 3.2**; § 5 nennt die Einzelwerte 23 / ~25 /
+10–11 Einheiten — die Erstfassung wies § 5 als Fundstelle des Wortlauts
+aus, P-27).
 
 ⚠️ **Konsequenz, die man leicht übersieht:** Ohne Größen-Obergrenze
 muss das Preismodell von ~10 Einheiten bis zu einem Haus mit 100+
@@ -178,21 +213,35 @@ Schlüsselspalte, Zählweg und Steuerbasis.**
 |---|---|---|---|---|---|
 | **K1** | Hetzner Cloud CX33 (4 vCPU, 8 GB RAM, 80 GB) inkl. primärer IPv4 | **8,99 €** | pro Monat, Standort DE (FSN1/NBG1), Preisobergrenze („max.") | **netto** (s. Steuervermerk unten) | **① GEMESSEN** 12.08.2026 · 8,49 € (Produkt `CLOUD_133`) + 0,50 € (`CLOUD_21`, primäre IPv4) · Zählweg s. § 4.4 |
 | **K2** | Hetzner Cloud CX43 (8 vCPU, 16 GB, 160 GB) inkl. IPv4 — die größere Stufe | **16,49 €** | pro Monat, DE | netto | **① GEMESSEN** · 15,99 € (`CLOUD_134`) + 0,50 € |
-| **K3** | Supabase Pro (Datenhaltung Meldeschein/Gastprofile) | **25,00 $** | pro Monat **pro Projekt**, inkl. 10 $/Monat Compute-Guthaben („enough to cover one Micro instance") | **unbekannt** — Preisseite nennt keine Steuerbasis | **① GEMESSEN** 12.08.2026, `supabase-pricing-2026-08-12.html`; Währung USD, kein Kurs umgerechnet |
+| **K3** | Supabase Pro (Datenhaltung Meldeschein/Gastprofile) | **ab 25,00 $** für das ERSTE Projekt, **ab 10,00 $** für jedes weitere | pro Monat; wörtlich: „From $ 25 / month **First project included. Additional projects from $10/mo.**" — der Plan hängt an der Organisation, nicht am einzelnen Projekt. Inkl. 10 $/Monat Compute-Guthaben („enough to cover one Micro instance") | **unbekannt** — Preisseite nennt keine Steuerbasis | **① GEMESSEN** 12.08.2026, `supabase-pricing-2026-08-12.html`; Währung USD, kein Kurs umgerechnet. ⚠️ **Korrektur der Erstfassung** (Prüferbefund P-01): Dort stand „25,00 $ pro Monat **pro Projekt**". Das war falsch und hat die gesamte Größenordnung nach oben gezogen. Gegenprobe am Rohbeleg: „per organization" → 0 Treffer, „per project" → 9 Treffer, sämtlich an Feature-Limits, **nie am Preis** (Positivkontrolle „Supabase" 12 ✔, Gegenkontrolle „Platinum" 0 ✔) |
 | **K3-alt** | Supabase Free | **0,00 $** | pro Projekt | — | **① GEMESSEN**, ebd. — ⚠️ s. Warnung unten |
-| **K4** | Vapi (Sprachkanal Check-in) | **20–40 €** | pro Monat **pro Haus**, Größenordnung; Spanne 10–80 € über vier Auslastungs-Szenarien | Angabe ohne Steuervermerk; Umrechnung mit **④ 0,90 €/$** (Quelle: „kein Tageskurs geprüft") | **② BESTAND** `<FIRMENWURZEL>\heypensio\firzlaff\vapi-kostenanalyse-2026-07.md` § 1.3, Stand **28.07.2026** — gemessen an 62 echten Calls, hochgerechnet auf 23 Zimmer |
+| **K4** | Vapi (Sprachkanal Check-in) | **20–40 €** | pro Monat und **Haus der Pilot-Größenklasse (23 Zimmer)**; Spanne 10–80 € über vier Auslastungs-Szenarien. ⚠️ Die Position **skaliert mit der Check-in-Zahl** — für größere Häuser ist sie **nicht erhoben** | Angabe ohne Steuervermerk; Umrechnung mit **④ 0,90 €/$** (Quelle: „kein Tageskurs geprüft") | **② BESTAND** `<FIRMENWURZEL>\heypensio\firzlaff\vapi-kostenanalyse-2026-07.md` § 1.3, Stand **28.07.2026** — gemessen an 62 Calls, **sämtlich Testläufe** (die Quelle: „Alle Calls sind TEST-Läufe (Abnahmetest, E2E) — echte Gastgespräche können länger ausfallen"); das Echtbetriebs-Profil ist eine **gekennzeichnete Annahme der Quelle**. *(Erstfassung schrieb „62 echte Calls" ohne den Vorbehalt und ohne Größen-Scope — Prüferbefund P-09.)* |
 | **K5** | Cloudflare Pages (Terminal-WebUI je Kunde) | **nicht erhoben** | — | — | Nicht gemessen. Im Bestand als „ein Pages-Projekt pro Kunde" geführt, ohne Kostenangabe. Als Kostenposition **offen**, nicht als 0 € behauptet |
 | **K6** | Domain/DNS je Kunde | **nicht erhoben** | — | — | dito |
 | **K7** | n8n (Workflow-Laufzeit) | **0 € Lizenzkosten unterstellt** | self-hosted | — | ⚠️ **④ ANNAHME mit offener Rechtsfrage** — s. § 5.3. Der Bestand nennt die Lizenzfrage als ausdrücklichen Verifikationspunkt VOR Kunde 2 |
 
-**Summe der belegten laufenden Systemkosten je Kunde:** K1 + K3 + K4 =
-**8,99 € + 25,00 $ + 20–40 €**. Bewusst **nicht** zu einer einzigen
-Zahl addiert: Die Positionen tragen zwei Währungen, zwei Steuerbasen
-(eine davon unbekannt) und zwei Bezugsgrößen (je Kunde vs. je Haus) —
-eine Summe wäre eine erfundene Genauigkeit. Als **Größenordnung**:
-**rund 50–70 € pro Monat und Kunde**, wenn man 25 $ mit ④ 0,90 €/$
-rechnet und ein Ein-Objekt-Haus annimmt. Diese Größenordnung ist eine
-④ ANNAHME auf ① gemessenen Einzelposten.
+**Summe der belegten laufenden Systemkosten je Kunde:** K1 + K3 + K4.
+Bewusst **nicht** zu einer einzigen Zahl addiert: Die Positionen tragen
+zwei Währungen, zwei Steuerbasen (eine davon unbekannt) und zwei
+Bezugsgrößen (je Kunde vs. je Haus) — eine Summe wäre eine erfundene
+Genauigkeit.
+
+Als **Größenordnung**, und zwar **getrennt nach der Architektur-Weiche**
+(§ 5), weil sie genau hier durchschlägt — ④ ANNAHME auf ① gemessenen
+Einzelposten, gerechnet mit ④ 0,90 €/$ und einem Ein-Objekt-Haus:
+
+| Weichenstellung | Server | Supabase | Vapi | **Größenordnung je Kunde/Monat** |
+|---|---|---|---|---|
+| **W-A** (geteilte Plattform, heutiges Zielbild) — ab Kunde 2 | 0,45–0,90 € (8,99 € ÷ 10–20 Kunden ②) | ~9 € (10 $ Folgeprojekt) | 20–40 € | **rund 30–50 €** |
+| **W-B** (eigener Server je Kunde, A3) | 8,99 € | ~9 € (bzw. 22,50 € beim ersten Kunden) | 20–40 € | **rund 38–58 €** |
+
+⚠️ **Zwei Korrekturen der Erstfassung, sichtbar statt still**
+(Prüferbefunde P-01 und P-06): Dort stand pauschal „rund 50–70 € pro
+Monat und Kunde" — die Zahl beruhte auf dem falschen Supabase-Scope
+(P-01) **und** setzte stillschweigend einen eigenen Server je Kunde
+voraus, also die Weichenstellung W-B, obwohl § 5 ausdrücklich
+verspricht, dass kein Preisentscheid dieses Papiers eine Weiche
+voraussetzt. Beides ist oben aufgelöst.
 
 ⚠️ **Steuervermerk Hetzner (die Ableitung ist ausgewiesen, nicht
 behauptet):** Die Preisdatei selbst enthält keinen Steuervermerk. Die
@@ -223,9 +272,9 @@ persönliche Kontaktpunkte.
 
 | Schlüssel | Position | Wert | Belegstufe |
 |---|---|---|---|
-| **B1** | Einführungsaufwand je Kunde (Einrichtung Server/Instanz, Workflows importieren, Credentials, Property-Setup, Raten, Tests, Schulung, Übergabedoku) | **nicht erhoben** | ⚠️ **④ offen** — der Bestand beschreibt den Vorgang qualitativ als **manuell** (Vorlage kopieren, Platzhalter füllen, in neue Instanz importieren, Credentials wählen, aktivieren, Webhook-URLs notieren; `blueprint/n8n-vorlagen/README.md`) und hält fest, dass **`/kunde-init` nicht existiert** (`<FIRMENWURZEL>\heypensio\protokolle\R38-CODEX-C-bericht.md` § 4.3, ② BESTAND). Eine Stundenzahl steht nirgends im Bestand |
+| **B1** | Einführungsaufwand je Kunde (Einrichtung Server/Instanz, Workflows importieren, Credentials, Property-Setup, Raten, Tests, Schulung, Übergabedoku) | **nicht erhoben** | ⚠️ **④ offen** — der Bestand beschreibt den Vorgang qualitativ als **manuell** (Vorlage kopieren, Platzhalter füllen, in neue Instanz importieren, Credentials wählen, aktivieren, Webhook-URLs notieren; `blueprint/n8n-vorlagen/README.md`) und hält fest, dass **kein gebauter `/kunde-init` gefunden wurde** (`<FIRMENWURZEL>\heypensio\protokolle\R38-CODEX-C-bericht.md` § 4.3, ② BESTAND — der Bericht schränkt selbst ein: „‚Kein gebauter Command gefunden' ist enger als ‚ein solcher Command existiert nirgends'"; die Erstfassung schrieb verkürzt „existiert nicht", P-10). Der manuelle Vorgang ist in der Blueprint-README unter der Überschrift **„Einspielen (einmalig je Kunde)"** in vier Schritten beschrieben (selbst gelesen). Eine Stundenzahl steht nirgends im Bestand |
 | **B2** | Laufende Betreuung/Monitoring je Kunde und Monat | **nicht erhoben** | ④ offen — dieselbe Lage |
-| **B3** | Interner Stundensatz | **nicht festgelegt** — Marktband **130–160 €/h** | ④ offen als EIGENER Satz. Als **Markt**-Orientierung belegt aus **drei unabhängigen Quellen**: melevo „ab 130 €/Stunde" ③ (§ 6.2, M5) · LeanFlow rechnet seine Stufen selbst in Stunden um → 130–150 €/h ③ (§ 6.3.2, W6) · AngelStone 160 €/h netto ③ (W4). **Das ist ein Marktpreis, nicht unsere Kostenrechnung** — ein interner Kostensatz liegt darunter |
+| **B3** | Interner Stundensatz | **nicht festgelegt** — Marktband **125–160 €/h** | ④ offen als EIGENER Satz. Als **Markt**-Orientierung aus drei Quellen: melevo „ab 130 €/Stunde" ③ (§ 6.2, M5) · AngelStone „Stundensatz 160 € netto" ③ (§ 6.3.2, W4, am Rohbeleg selbst gelesen) · LeanFlow nennt Monatspreis **und** Stundendeckel, der Quotient ist **④ unsere eigene Rechnung**: 150 €/1 h, 390 €/3 h, 750 €/6 h → 150 / 130 / **125** €/h. ⚠️ **Zwei Korrekturen** (Prüferbefund P-05): (a) 750 ÷ 6 = **125**, nicht 130 — das Band beginnt bei 125; (b) weil „bis 1/3/6 Stunden" ein **Deckel** ist, ist der Quotient die **Untergrenze** des effektiven Satzes, kein Stundensatz. **Das ist ein Marktpreis, nicht unsere Kostenrechnung** — ein interner Kostensatz liegt darunter |
 
 > ⭐ **Das ist die wichtigste Lücke dieses Papiers, und sie steht
 > absichtlich hier vorn statt in einer Fußnote:** Ohne B1 und B3 lässt
@@ -244,6 +293,14 @@ Everlast 8.400 €. Diese Positionen laufen beim Kunden — sie sind für
 unser Preismodell nur insofern relevant, als sie **das Budget des
 Kunden vorbelasten** und die Zahlungsbereitschaft für unsere monatliche
 Rechnung mitbestimmen.
+
+**Noch nicht zugeordnet** (ergänzt nach Prüferbefund P-12; das
+Rohstoff-Papier nennt sie in B-Punkt 3, sie waren in der Erstfassung
+verschwunden): **Zahlungs-/Transaktionsgebühren** (Payment ist
+Bestandteil der Guest-Journey-Strecke) und **Fremdlizenzen**. Wer sie
+trägt und ob sie über uns laufen, ist offen — der Rohstoff-Vorschlag
+lautet „separat und direkt beim Kunden" ⑤. Aufgenommen als
+Zulieferungspunkt **Z-5** (§ 10).
 
 ⚠️ Die Zahlen tragen den Stand ihres Datums (28.07.2026) und stammen
 aus einer Kostenanalyse mit anderem Zweck. Vor jeder Verwendung nach
@@ -266,7 +323,11 @@ außen an der Primärquelle (Angebot) prüfen.
    `/_resources/themes/static/dist/vendors.js`, ebenfalls archiviert).
    Abzug: `hetzner-live_data_prices.json` (263.299 Bytes).
 4. Auswertung per Skript: je Matrix-Zeile Servername → `product-key`
-   → Preis für `countryCode: "de"`, `monthly.EUR`. Ausgabe:
+   → Preis für `countryCode: "de"`, `monthly.EUR`; **für Produkte ohne
+   Länderbindung der Eintrag `datacenter: "ALL"`** — das betrifft die
+   primäre IPv4 `CLOUD_21`, die sonst still herausgefallen wäre und in
+   jeder der 25 Zeilen steckt (Präzisierung nach Prüferbefund P-15; der
+   Betrag war richtig, der beschriebene Zählweg unvollständig). Ausgabe:
    `hetzner-preise-auswertung-2026-08-12.txt`.
 5. **Kontrollen im selben Lauf:** (a) erfundener Schlüssel
    `CLOUD_999` → `null` ✔ (die Suche kann also scheitern);
@@ -274,9 +335,11 @@ außen an der Primärquelle (Angebot) prüfen.
    (c) **20 von 25 Matrix-Zeilen** lieferten einen DE-Preis. Die
    **5 Nulltreffer** (CPX11/21/31/41/51) sind **erklärt, nicht
    übergangen**: Diese Produkte führen im JSON ausschließlich
-   US-Standorte (ASH1/HIL1) — geprüft an `CLOUD_121`, `CLOUD_125`,
-   `CLOUD_129`. Sie sind an deutschen Standorten nicht angeboten, der
-   Nulltreffer ist also der richtige Wert.
+   US-Standorte (ASH1/HIL1). Geprüft wurde das zunächst an **3 von 5**
+   (`CLOUD_121`, `CLOUD_125`, `CLOUD_129`); die restlichen zwei
+   (`CLOUD_123`, `CLOUD_127`) hat der Prüfer nachgezogen — **5 von 5
+   bestätigt** (P-16). Sie sind an deutschen Standorten nicht
+   angeboten, der Nulltreffer ist also der richtige Wert.
 
 ---
 
@@ -289,12 +352,17 @@ außen an der Primärquelle (Angebot) prüfen.
 entschieden 14.07.2026, im Kopf ausdrücklich **„Status: GEPARKTES
 MODUL"**, Umsetzung erst beim Onboarding von Kunde 2):
 
-> Kurzformel dort: **„Hardware & Betriebsplattform teilen, Daten &
-> Laufzeit pro Kunde isolieren."** EIN Hetzner-Server + EIN Coolify für
-> alle; eine n8n-Instanz PRO KUNDE; ein Supabase-Projekt pro Kunde;
-> Vapi zentral („Managed Service — Kunde pflegt nie ein Vapi-Konto").
-> Begründung der Server-Teilung dort: „eine n8n-Instanz ≈ 300 MB RAM →
-> ein 8-GB-Server trägt 10–20 Kunden".
+Kurzformel dort — **wörtliches Zitat**: „Hardware & Betriebsplattform
+teilen, Daten & Laufzeit pro Kunde isolieren."
+
+**Zusammenfassung des Zielbilds durch diese Session** (Paraphrase, kein
+Wortlaut — die Erstfassung stellte beides in einen gemeinsamen
+Zitatblock, was den ganzen Block als Wortlaut auswies; P-22): EIN
+Hetzner-Server + EIN Coolify für alle; eine n8n-Instanz pro Kunde; ein
+Supabase-Projekt pro Kunde; Vapi zentral. Die eingebetteten
+Anführungen stammen wörtlich aus der Quelle: „Managed Service — Kunde
+pflegt nie ein Vapi-Konto" und, als Begründung der Server-Teilung,
+„eine n8n-Instanz ≈ 300 MB RAM → ein 8-GB-Server trägt 10–20 Kunden".
 
 **Die User-Position A3 kippt genau diesen Punkt:** eigener Server je
 Kunde, Eigentümerschaft und Zugang beim Kunden/Inhaber.
@@ -354,11 +422,21 @@ auf der der heutige Betrieb ruht.**
 
 Zweite Kollision derselben Art (② BESTAND, R38-CODEX-C-Bericht § 7,
 Kollisionen K03/K04): Der Bestand hält fest „Kunde erhält keinen
-n8n-Zugang" (K03) und „ein Vapi-Konto; Kunde pflegt nie ein
-Vapi-Konto" (K04) — beides klassifiziert der Bericht als **direkten
-Eigentums-/Zugangswiderspruch** zur untersuchten Variante. Der Bericht
-ist ausdrücklich eine **Ist-Aufnahme ohne Bewertung und ohne
-Empfehlung** (③/② — Inventur, keine Entscheidung).
+n8n-Zugang" (**K03**, Klassifikation dort: „direkter Eigentums-/
+Zugangswiderspruch") und „ein Vapi-Konto; Kunde pflegt nie ein
+Vapi-Konto" (**K04**, Klassifikation dort: „direkter Konten-/
+Vertragswiderspruch, **sofern Vapi zur Eigentumsumgebung zählt**").
+*(Erstfassung fasste beide unter eine Klassifikation und ließ die
+Bedingung bei K04 weg — genau sie ist der offene Punkt; Prüferbefund
+P-10.)* Der Bericht ist ausdrücklich eine **Ist-Aufnahme ohne Bewertung
+und ohne Empfehlung** (② — Inventur, keine Entscheidung).
+
+**Damit dieser Befund nicht neuer wirkt, als er ist:** Der Bestand
+führt die Lizenzprüfung bereits selbst als offenen Posten (K26:
+„Architektur verlangt vor Kunde 2 noch Lizenzprüfung für n8n und
+Multi-Org-Prüfung für Vapi", ebenso das Offene-Punkte-Register in § 8
+des Berichts). **Neu ist hier nicht die Frage, sondern ihre
+Verschärfung durch A3** — und ihre Relevanz für den Preisentscheid.
 
 ### 5.4 Was das je Preisoption bedeutet
 
@@ -427,16 +505,23 @@ vollständige Liste:
 
 Zwei Recherche-Läufe, alle Seiten per `curl` selbst gezogen und im
 Rohtext gelesen (kein KI-Zusammenfasser als Quelle), Roh-HTML
-mitarchiviert. **Die tragenden Zahlen wurden nach dem Rücklauf
+mitarchiviert. **Nach dem Rücklauf wurden die gemeldeten Zahlen
 mechanisch gegen die Rohbelege gegengeprüft** — Protokoll:
-`sensibel/rohbelege-R11-A/gegenprobe-agentenzahlen-2026-08-12.txt`,
-**18 Proben, 18 wie erwartet**, davon zwei Gegenkontrollen, die NICHT
-treffen durften (eine erfundene Zahl → 0 Treffer ✔; „Kleinunternehmer"
-bei FoxifAI → 0 Treffer ✔). ⚠️ **Was diese Gegenprobe leistet und was
-nicht:** Sie belegt die **Anwesenheit** der Zahl im Rohbeleg, nicht ihre
-**Zuordnung** zum Schlüssel („130" traf 76×). Die vier Schlüsselstellen
-unten (Straiv AGB 4.3 und 7.4, FoxifAI-Preissatz) wurden deshalb
-zusätzlich **im Wortlaut selbst gelesen**.
+`sensibel/rohbelege-R11-A/gegenprobe-agentenzahlen-2026-08-12.txt`:
+**18 Proben über die Anker M3–M5, Straiv, W1, W3, W5, W6**, 18 wie
+erwartet, davon zwei Gegenkontrollen, die NICHT treffen durften (eine
+erfundene Zahl → 0 Treffer ✔; „Kleinunternehmer" bei FoxifAI →
+0 Treffer ✔). **Nicht in diesen 18 Proben: W2 und W4** — W4 trägt mit
+„160 €/h" eine der drei Säulen des Stundensatz-Bands; der Prüfer hat
+sie nachgeholt und am Rohbeleg bestätigt ✔ (P-21). Die fünf zunächst
+nicht geöffneten Einmalbeträge (melevo-Website, cStack, LeanFlow) sind
+nachträglich ebenfalls einzeln am Rohbeleg gelesen worden ✔.
+⚠️ **Was diese Gegenprobe leistet und was nicht:** Sie belegt die
+**Anwesenheit** der Zahl im Rohbeleg, nicht ihre **Zuordnung** zum
+Schlüssel („130" traf 76×). Die drei Schlüsselstellen unten (Straiv AGB
+4.3 und 7.4, FoxifAI-Preissatz) wurden deshalb zusätzlich **im Wortlaut
+selbst gelesen** *(die Erstfassung schrieb „vier Schlüsselstellen" und
+nannte drei — P-19)*.
 
 #### 6.3.1 ⭐ Straiv — der Haupt-Technikwettbewerber: Preisform belegt, Preishöhe nicht
 
@@ -449,20 +534,25 @@ aufschlussreicher als jeder Betrag:
 
 | Merkmal | Regelung (③ Anbieter-AGB, selbst im Wortlaut gelesen) | Bedeutung für uns |
 |---|---|---|
-| **Preisschlüssel** | Ziff. 4.3: Der Kunde meldet, wenn „die Anzahl seiner Zimmer die bei Vertragsabschluss vereinbarte Anzahl von Zimmern … überschreitet"; Vergütungsanpassung zum Folgemonat, **keine Rückerstattung bei sinkender Zimmerzahl** während einer Mindestlaufzeit | **Der Marktführer unseres Feldes bemisst nach ZIMMERZAHL.** Direktes Argument in F-II |
-| **Einrichtungsgebühr** | Ziff. 7.2: Onboarding-/Einrichtungsgebühr existiert, Höhe „in der aktuell gültigen Paketübersicht" — nicht öffentlich | Einrichtungsgebühr ist in unserem Feld **Marktpraxis**, nicht Zumutung |
+| **Preisschlüssel** | Ziff. 4.3: Der Kunde meldet, wenn „die Anzahl seiner Zimmer die bei Vertragsabschluss vereinbarte Anzahl … überschreitet". **Auslösebedingung wörtlich:** „Übersteigt die Anzahl der **neu hinzugekommenen** Zimmer die bis dahin gebuchte Zimmeranzahl, so findet die Anpassung der Vergütung mit Wirkung zum darauffolgenden Monat statt"; **keine Rückerstattung bei sinkender Zimmerzahl** während einer Mindestlaufzeit | **Der nächstliegende Technikwettbewerber macht die Zimmerzahl zum vertraglichen Vergütungsparameter.** ⚠️ **Ob linear pro Zimmer oder gestaffelt, ist aus der Klausel NICHT ersichtlich** — eine Anpassung, die erst bei einer Verdopplung greift, passt zu einer Größen-Staffel mindestens so gut. Das Argument trägt für (a) **und** für (b) mit Staffel. *(Erstfassung schrieb „Marktführer" — unbelegt, und im eigenen Bestand ist eine gleichartige Steigerung schon einmal gestrichen worden; P-07/P-26.)* |
+| **Einrichtungsgebühr** | Ziff. 7.2 wörtlich: „Mit einem etwaig vereinbarten Startdatum stellt Straiv dem Kunden **mögliche** einmalige Gebühren für das Onboarding und die Einrichtung der Software in Rechnung." Höhe „in der aktuell gültigen Paketübersicht" — nicht öffentlich | Eine **Kann-Regelung des Einzelvertrags**, kein belegter Modellbestandteil. Ob sie im Regelfall anfällt, ist nicht öffentlich. Die Marktpraxis-Aussage stützt sich deshalb auf M2/M4 und W1–W6, **nicht** auf Straiv. *(Erstfassung machte aus „mögliche" ein „existiert" und daraus „Marktpraxis" — zwei Verstärkungsschritte in einer Zelle; P-08.)* |
 | **Laufzeit** | Ziff. 11.1/11.2: **beide** Modelle existieren (monatlich ODER jährlich+), Kündigung 3 Monate zum Laufzeitende bzw. 4 Wochen zum Monatsende | Auch der Wettbewerb legt sich nicht auf ein Laufzeitmodell fest |
 | **Zahlungsturnus** | Ziff. 7.1: **jährlich im Voraus**, sofern nichts anderes vereinbart | Ein dritter Weg zur Einführungskosten-Deckung, den unser Optionenraum bisher nicht führt — s. Hinweis unten |
 | **Steuerbasis** | Ziff. 7.4 wörtlich: „Sämtliche Preise verstehen sich zuzüglich der gesetzlich gültigen Mehrwertsteuer" | **netto — belegt** (einer der wenigen Anker mit klarer Steuerbasis) |
-| **Preisanpassung** | Ziff. 7.7: Erhöhung mit 3 Monaten Ankündigung; bei Mindestlaufzeit frühestens 12 Monate nach Vertragsbeginn | Muster für Z-4 (§ 10) |
+| **Preisanpassung** | Ziff. 7.7: Erhöhung mit 3 Monaten Ankündigung; bei Mindestlaufzeit frühestens 12 Monate nach Vertragsbeginn — **und gekoppelt an ein Sonderkündigungsrecht des Kunden binnen sechs Wochen** („Der Kunde hat bei einer Anpassung der Vergütung das Recht, den jeweiligen Einzelauftrag innerhalb einer Frist von sechs Wochen … zu kündigen") | Muster für Z-4 (§ 10) — **und zwar vollständig**: Genau dieser Gegenpol macht aus dem Anpassungsrecht etwas anderes als ein einseitiges Preisdiktat. *(Erstfassung referierte 7.7 ohne das Sonderkündigungsrecht — P-25.)* |
 | **Erfolgsabhängig** | Upselling-Modul: **5 % Kommission** „ausschließlich auf tatsächlich über das System verkaufte Zusatzleistungen" ③ | Eine fünfte, hier nicht ausgearbeitete Preisform (s. u.) |
 
 **Negativbefund mit Suchraum und Positivkontrolle:** Keine Paket-/
 Lizenzpreise über **21 Inhaltsseiten** (DE-/EN-Start, 8 Lösungsseiten,
 3 Hoteltypseiten, FAQs, Demo, Kontakt, Über uns, White Papers,
 Tech-Partner, AGB, AVV), Muster `[0-9][0-9.,]*\s?(€|EUR|Euro)`.
-Positivkontrolle A: Prozentwerte trafen 13× über 8 Dateien ✔.
-Positivkontrolle B: „Straiv" traf in 21 von 21 Dateien ✔. Ergebnis:
+Positivkontrolle A: Prozentwerte trafen in **8 der 21 Dateien** ✔
+(⚠️ die vom Recherchelauf gemeldete Trefferzahl „13" ließ sich unter
+keiner von vier Musterschreibweisen reproduzieren; die Dateizahl 8
+reproduziert. Die Kontrolle greift in jeder Variante — aber eine Zahl
+ohne Zählweg ist nicht prüfbar und steht deshalb hier nicht mehr;
+P-20). Positivkontrolle B: „Straiv" traf in 21 von 21 Dateien ✔.
+Ergebnis:
 genau zwei Eurobeträge im gesamten Suchraum, beide keine Paketpreise.
 Zusätzlich: **0 Treffer** auf `pric|price|plan|cost|package` in den
 hrefs beider Startseiten — es gibt keine Preisseite in der Navigation.
@@ -492,22 +582,30 @@ eigenen Website**, kein Abschlussbeleg.
 |---|---|---|---|---|---|---|---|
 | **W1** | **FoxifAI** (Huke & Jacobi & Pistorio eGbR) | DE, Bochum | **ab 100 €** | **1.920 €** | **jährlich kündbar** (FAQ ausdrücklich: monatliche Kündigung nein) | keine Angabe (USt-ID vorhanden) | ⭐ **n8n-Workflows auf deutschen Servern, laufender Betrieb, Wartung, persönlicher Ansprechpartner** — die dichteste Entsprechung unserer Bauform im ganzen Bestand |
 | **W2** | Smartbetrieb GmbH | DE, Ronnenberg | **ab 49 €** (Rabatt ab 3/5 Workflows) | SmartAudit 490 € (anrechenbar) + Setup ab 300 € | nicht genannt | keine Angabe | Hosting DE, Backups, Updates, Monitoring, Support |
-| **W3** | Prozessmeister (T. Brandt) | DE, Hamburg | **199 € / 999 €** | ab 490 € / ab 1.990 € | nicht erhoben (clientseitig nachgeladen) | **„Alle Preise zzgl. MwSt."** | 3 bzw. 10 „KI-Agenten", 24/7-Support, Analytics |
-| **W4** | AngelStone Media GmbH | **AT**, Wien | **ab 500 €** (Care-Paket) | KI-Pilot ab 3.000 € / KI-System ab 10.000 € | jährlich kündbar | **netto** (explizit) | Modell-Updates, Prompt-Tuning, Monitoring, Review |
-| **W5** | cStack Solutions | DE, Krefeld | 120 / 275 / **499 €** | 900 / 1.980 / 4.050 € („ab") | monatlich kündbar | Kleinunternehmer (§ 19 UStG) | n8n-Monitoring + 1 Anpassung/Monat bis 3 h/Monat |
+| **W3** | Prozessmeister (T. Brandt) | DE, Hamburg | **ab 99 € / 199 € / 999 €** (drei Stufen) | ab 490 € / ab 1.990 € | nicht erhoben (clientseitig nachgeladen) | **„Alle Preise zzgl. MwSt."** | 3 bzw. 10 „KI-Agenten", 24/7-Support, Analytics |
+| **W4** | AngelStone Media GmbH | **AT**, Wien | **ab 50 €** (Websites-Care) / **ab 500 €** (Digitalisierung & KI, „Wartung & Weiterentwicklung") | KI-Pilot ab 3.000 € / KI-System ab 10.000 € | jährlich kündbar | **netto** (explizit); Stundensatz 160 € netto | Modell-Updates, Prompt-Tuning, Monitoring, Review |
+| **W5** | cStack Solutions | DE, Krefeld | 120 / 275 / **499 €** | 900 / 1.980 / 4.050 € („ab") | monatlich kündbar | „Umsatzsteuerbefreit (Kleinunternehmerregelung)" — **die Quelle nennt keine Norm** | n8n-Monitoring + 1 Anpassung/Monat bis 3 h/Monat |
 | **W6** | LeanFlow Consulting | DE, Hamburg | 150 / 390 / **750 €** | 7.000 / 9.500 / 15.000 € („ab") | nicht genannt | Kleinunternehmer (§ 19 UStG) | Monitoring + 1/3/6 h Anpassung je Monat; **Microsoft-Stack, nicht n8n** |
 
 **⭐ Der belastbarste Anker dieses Laufs ist kein Monatspreis, sondern
-ein Stundensatz.** W6 macht die Rechnung selbst auf (150 € = 1 h,
-390 € = 3 h, 750 € = 6 h → 130–150 €/h); W4 nennt 160 €/h netto; M5
-(melevo, ② Bestand) nennt „ab 130 €/Stunde". **Drei unabhängige Quellen
-landen bei 130–160 €/Stunde.** Das ist der erste belegte Anhalt für
-B3 (§ 4.2) — als **Marktpreis**, nicht als unser Satz.
+ein Stundensatz.** W4 nennt „Stundensatz 160 € netto" ③; M5 (melevo,
+② Bestand) nennt „ab 130 €/Stunde" ③; bei W6 nennt die Quelle
+Monatspreis **und** Stundendeckel („bis 1 / 3 / 6 Stunden pro Monat"),
+der Quotient ist **④ unsere Rechnung**: 150 / 130 / 125 €/h — und weil
+es ein Deckel ist, sind das **Untergrenzen**. **Drei Quellen landen bei
+125–160 €/Stunde**, zwei davon als Anbieterangabe, eine als eigene
+Ableitung. Das ist der erste belegte Anhalt für B3 (§ 4.2) — als
+**Marktpreis**, nicht als unser Satz. *(Erstfassung schrieb „drei
+unabhängige Quellen … 130–160" und stufte die eigene Ableitung als ③
+ein — Prüferbefund P-05.)*
 
 **Drei Einschränkungen, die die Monatspreise nach unten verzerren** —
 sie gehören an jede Verwendung dieser Tabelle:
-1. **W5 und W6 sind Kleinunternehmer** (per Impressum belegt). Ihre
-   Beträge sind Endpreise ohne USt und mit einem Netto-Preis eines
+1. **W5 und W6 sind Kleinunternehmer** (per Impressum belegt — bei W6
+   nennt die Quelle „§ 19 UStG" wörtlich, bei W5 nur
+   „Umsatzsteuerbefreit (Kleinunternehmerregelung)"; die Erstfassung
+   hatte die Norm von W6 auf W5 mitwandern lassen, P-24). Ihre Beträge
+   sind Endpreise ohne USt und mit einem Netto-Preis eines
    regelbesteuerten Anbieters **nicht** direkt vergleichbar.
 2. **Keiner der sechs betreibt Sprach-/Telefoniestrecken oder
    meldepflichtige Fachprozesse.** 100–500 €/Monat kaufen dort
@@ -519,6 +617,14 @@ sie gehören an jede Verwendung dieser Tabelle:
    frisch aufgesetzte Seite ohne belegte Kundschaft. Die Zahl steht in
    der Tabelle, weil das Weglassen eines unbequemen Fundes schlechter
    wäre als das Ausweisen seiner Schwäche.
+4. ⚠️ **Die Erstfassung hat die untere Kante des Marktbildes
+   abgeschnitten** (P-17): Bei W3 fehlte die Einstiegsstufe „ab 99 €",
+   bei W4 das Websites-Care-Paket „ab 50 €". Beide Auslassungen hoben
+   das Preisbild — und zwar in dieselbe Richtung, in der Einschränkung 2
+   eine Verzerrung nach *unten* behauptet. Beide sind jetzt in der
+   Tabelle. **Belegstand nach Korrektur: Die Monatspreise dieses
+   Nachbarmarkts reichen von rund 50 € bis 999 €**, mit einem
+   Schwerpunkt zwischen 100 und 500 €.
 
 ⚠️ **Belegstufe W1 (wichtig, weil W1 der nächste Nachbar ist):** Der
 Satz „Pakete starten bei 1.920 Euro Einrichtung plus ab 100 Euro
@@ -552,8 +658,20 @@ die Quelle.
 
 **Nichts Belegtes.** Es gibt im Bestand keine erhobene
 Zahlungsbereitschaft aus dem eigenen Zielkundenumfeld — weder aus dem
-Pilotumfeld noch aus Gesprächen. Das ist ein dokumentiertes Negativ,
-kein Versäumnis dieser Runde: Die Erhebung ist nie beauftragt worden.
+Pilotumfeld noch aus Gesprächen.
+
+⚠️ **Korrektur einer falschen Entlastung** (Prüferbefund P-04): Die
+Erstfassung schrieb hier „kein Versäumnis dieser Runde: Die Erhebung
+ist nie beauftragt worden." **Das ist falsch, und die Quelle, die es
+widerlegt, ist das Rohstoff-Papier dieser Runde selbst.** Abschnitt D
+routet an MKT-HANDEL wörtlich: Preismodell-Optionen ausarbeiten und die
+ChatGPT-Zahlen „durch belegte Anker ersetzen (Wettbewerbspreise,
+**Zahlungsbereitschaft Pilotumfeld**, Kostenrechnung)". Zwei der drei
+genannten Ersatz-Anker sind erhoben (§ 6, § 4), **der dritte steht
+aus** — er ist beauftragt und nicht geliefert. Der richtige Umgang ist
+Streichen, nicht Abschwächen: **Die Zahlungsbereitschaft ist ein
+offener Posten dieser Arbeitslinie und mit E-7 nachzuholen** — das
+macht E-7 vom freundlichen Vorschlag zum überfälligen Punkt.
 
 **Suchraum und Positivkontrolle:** `grep -rin` über alle `*.md` des
 marketing-Repos, Muster `€\s*(pro|/)\s*(Monat|M\b)|€/Monat|EUR/Monat` →
@@ -589,7 +707,7 @@ keine Mindestlaufzeit.
 | **Deckung der Einführungskosten** | **Nicht gesichert.** Kündigt ein Kunde vor dem Break-even, ist die Einrichtungsarbeit verloren. Rechnung: § 7.5 |
 | **Terminpfad** | **Bestes Ergebnis.** Niedrigste Einstiegshürde, kürzeste Verhandlung, kein Vertragswerk mit Laufzeitklausel nötig — die S1-Stufe (Angebot bis Fr 23.10.2026) ist damit am schnellsten erreichbar |
 | **Dafür** | Trägt den USP „Unabhängigkeit" glaubwürdig · passt zu A5 („die Übergabefähigkeit macht abhängig" — wer jederzeit gehen darf, bleibt aus Zufriedenheit) · stärkstes Verkaufsargument gegen Wettbewerber mit 12-Monats-Bindung (M3) · **das einzige Modell, bei dem der Kunde uns monatlich neu bestätigt** — ein hartes Qualitäts-Frühwarnsystem |
-| **Dagegen** | **Wir finanzieren die Einführung vor** und tragen das volle Abbruchrisiko · bei Kündigung in Monat 1–3 mit hoher Wahrscheinlichkeit Verlust auf diesem Kunden · **der Markt macht es in unserem Nachbarfeld durchgängig anders**: M2/M4 mit Einrichtungsgebühr, M3 mit 12 Monaten Bindung ② · Straiv (Haupt-Technikwettbewerber) mit Onboarding-Gebühr und wahlweise Jahresvorauszahlung ③ · **W1, der einzige gefundene Anbieter mit unserer Bauform, verlangt 1.920 € Einrichtung UND bindet auf ein Jahr** ③. **Zählweg dieser Aussage:** Von den 13 erhobenen Ankern liegen zu **10** (M2, M3, M4, M6, W1–W6) Angaben zu Einmalzahlung **und** Laufzeit vor; **10 von 10** haben mindestens eines von beidem — Einmalzahlung, Bindung oder Vorauszahlung. Zu M1, M5, M7 ist eines der beiden Merkmale **nicht erhoben**, sie zählen weder dafür noch dagegen · erfordert Disziplin beim Onboarding-Aufwand, sonst frisst der erste Monat den Jahresertrag |
+| **Dagegen** | **Wir finanzieren die Einführung vor** und tragen das volle Abbruchrisiko · bei Kündigung in Monat 1–3 mit hoher Wahrscheinlichkeit Verlust auf diesem Kunden · **der Markt macht es in unserem Nachbarfeld durchgängig anders**: M2/M4 mit Einrichtungsgebühr, M3 mit 12 Monaten Bindung ② · Straiv (Haupt-Technikwettbewerber) mit Onboarding-Gebühr und wahlweise Jahresvorauszahlung ③ · **W1, der einzige gefundene Anbieter mit unserer Bauform, verlangt 1.920 € Einrichtung UND bindet auf ein Jahr** ③. **Zählweg dieser Aussage, korrigiert** (Prüferbefund P-03 — die Erstfassung nannte „10 von 10 Ankern mit vollständiger Angabe" und zählte damit ihr eigenes Auswahlkriterium; das war eine Positivliste in Verkleidung): **10 von 13** Ankern haben eine belegte Einmalzahlung (bei M6 nur dem Grunde nach, Höhe unbekannt). Zu **4 von 13** ist zusätzlich die Laufzeit belegt (M3, W1, W4, W5) — davon **binden 2** (M3: 12 Monate; W1: jährlich), **2 sind monatlich kündbar** (W4, W5 — beide mit Einmalzahlung). ⚠️ **Der wichtigste Gegenfall gehört ausdrücklich dazu und wurde in der Erstfassung ausgeschlossen: M1** (AKZENT) ist der einzige Anker mit vollständig veröffentlichter Preisliste und **weist keine Einrichtungsgebühr aus** (Gegenprobe im Bestand: kein Treffer auf `Aufnahmegebühr` oder `Eintrittsgebühr` im AKZENT-Kontext, Positivkontrolle „AKZENT" 25 Treffer ✔). Er ist allerdings ein **Verbandsbeitrag**, kein Dienstleistungsvertrag mit Einrichtungsaufwand — das schwächt ihn als Gegenfall, hebt ihn aber nicht auf · erfordert Disziplin beim Onboarding-Aufwand, sonst frisst der erste Monat den Jahresertrag · ⚠️ **Der Leistungsumfang wird zum Kostentreiber:** Monatliche Kündbarkeit **plus** unbegrenzter Leistungsumfang ist die teuerste denkbare Kombination — der Rohstoff-Punkt „Standard klar begrenzen, sonst zieht das Modell in individuelle Dauerarbeit" (⑤) trifft (i) härter als jede andere Option (in der Erstfassung verschwunden, P-12). *Einordnung der Zentrale dazu, damit sie nicht missverstanden wird: Das ist **kein** Widerspruch zum Grundsatz „Keine Lite-Varianten" — der betrifft die BAUQUALITÄT jedes Werkstücks, nicht die saubere Abgrenzung des Leistungsumfangs.* |
 
 ### 7.2 Option (ii) — Monatlich kündbar + einmalige Startgebühr
 
@@ -642,8 +760,9 @@ Kostenbasis zu prüfen. Ergebnis:
 > Deckungsbeitrag (Monatspreis − laufende Kosten je Kunde)**
 
 Mit den heute belegten Zahlen ist der Nenner bekannt (laufende Kosten
-**rund 50–70 €/Monat**, § 4.1 ①/④) und der **Zähler nicht** (B1 und B3
-sind nicht erhoben, § 4.2). Damit gilt:
+**rund 30–50 €/Monat** unter W-A bzw. **38–58 €** unter W-B, § 4.1
+①/④) und der **Zähler nicht** (B1 ist nicht erhoben, für B3 gibt es
+nur ein Marktband, § 4.2). Damit gilt:
 
 | Wenn der Einführungsaufwand … | … dann ist Option (i) … |
 |---|---|
@@ -661,22 +780,29 @@ nicht belegt.**
 
 **Rechenbeispiel mit fremden Sätzen** (④ ANNAHME durchgehend — das ist
 eine Illustration der Formel, KEINE Kalkulation; sie ersetzt E-6
-nicht). Angesetzt: Marktstundensatz **130 €/h** (unterer Rand des
+nicht). Angesetzt: Marktstundensatz **125 €/h** (unterer Rand des
 belegten Bands, § 4.2 B3), 8 h je Personentag, monatlicher
-Deckungsbeitrag = Monatspreis − 60 € laufende Kosten (Mitte der
-Größenordnung aus § 4.1).
+Deckungsbeitrag = Monatspreis − **45 €** laufende Kosten (Mitte der
+korrigierten Größenordnung aus § 4.1, W-A/W-B gemittelt).
 
-| Einführungsaufwand ④ | Wert bei 130 €/h | Break-even bei 400 €/Monat | bei 800 €/Monat | bei 1.500 €/Monat |
+| Einführungsaufwand ④ | Wert bei 125 €/h | Break-even bei 400 €/Monat | bei 800 €/Monat | bei 1.200 €/Monat |
 |---|---:|---:|---:|---:|
-| 1 Personentag | 1.040 € | **3,1 Monate** | 1,4 Monate | 0,7 Monate |
-| 3 Personentage | 3.120 € | **9,2 Monate** | 4,2 Monate | 2,2 Monate |
-| 5 Personentage | 5.200 € | **15,3 Monate** | 7,0 Monate | 3,6 Monate |
-| 10 Personentage | 10.400 € | **30,6 Monate** | 14,1 Monate | 7,2 Monate |
+| 1 Personentag | 1.000 € | **2,8 Monate** | 1,3 Monate | 0,9 Monate |
+| 3 Personentage | 3.000 € | **8,5 Monate** | 4,0 Monate | 2,6 Monate |
+| 5 Personentage | 5.000 € | **14,1 Monate** | 6,6 Monate | 4,3 Monate |
+| 10 Personentage | 10.000 € | **28,2 Monate** | 13,2 Monate | 8,7 Monate |
 
-*(Zählweg je Zelle: Aufwand ÷ (Monatspreis − 60 €); selbst gerechnet,
+*(Zählweg je Zelle: Aufwand ÷ (Monatspreis − 45 €); selbst gerechnet,
 auf eine Nachkommastelle gerundet. Die Monatspreis-Spalten sind
 **Rechengrößen**, keine Preisvorschläge — die Höhe ist Frage F-III und
-in diesem Papier bewusst offen.)*
+in diesem Papier bewusst offen. Die oberste Spalte lautet bewusst
+1.200 € und nicht 1.500 €: 1.500 € ist die in § 2.2 als unbrauchbar
+verworfene ⑤-Zahl, und sie hier als Rechengröße zu führen hätte sie
+durch die Hintertür zum Anker gemacht — Prüferbefund P-28.
+⚠️ **Korrektur gegenüber der Erstfassung** (P-01/P-05): Dort standen
+130 €/h und ein Nenner von 60 €; beide Werte waren zu hoch — der
+Stundensatz um 5 €, die laufenden Kosten wegen des falschen
+Supabase-Scopes. Alle zwölf Zellen sind neu gerechnet.)*
 
 **Was man an dieser Tabelle ablesen kann, ohne eine einzige Zahl zu
 glauben:** Der Break-even reagiert viel stärker auf den
@@ -707,7 +833,7 @@ Diese Frage ist von § 7 unabhängig und wird deshalb getrennt vorgelegt.
 |---|---|---|---|
 | **(a) Pro Zimmer** | Preis = Zimmerzahl × Betrag; ggf. nur für gästenahe Module | Skaliert automatisch mit der Hausgröße — trägt von 10 bis 100+ Einheiten (unsere Zielgruppe hat **keine Obergrenze**, § 2.4) · im Software-Nachbarfeld belegt üblich (M7: 1,99–10 €/Zi/M ②) · ⭐ **der Haupt-Technikwettbewerber Straiv bemisst genau so** — seine AGB machen die Zimmerzahl zum vertraglichen Vergütungsschlüssel inkl. Anpassung bei Überschreitung ③ (§ 6.3.1). Wer gegen Straiv antritt, wird an dieser Bemessung gemessen · fühlt sich für den Inhaber fair an | Ein Teil unserer Arbeit **wächst nicht mit der Zimmerzahl** (Einrichtung, Betreuung, Monitoring, Ansprechbarkeit) — bei kleinen Häusern deckt der Betrag dann die Fixkosten nicht · ein 10-Zimmer-Haus zahlt bei 5 €/Zi/M nur 50 €/Monat, also **weniger als unsere belegten laufenden Systemkosten** (§ 4.1) |
 | **(b) Fixpauschale je Haus** | Ein Betrag je Objekt, unabhängig von der Größe | Einfachste Kommunikation · deckt die größenunabhängige Arbeit · belegte Marktpraxis (M2 sogar ausdrücklich beworben: „unabhängig von der Zimmer- oder Stellplatzanzahl" ③) | Bei einem 100-Zimmer-Haus lassen wir Geld liegen; bei einem 10-Zimmer-Haus sind wir zu teuer. Ohne Größen-Obergrenze in der Zielgruppe ist das ein echtes Problem, kein theoretisches |
-| **(c) Grundgebühr + zimmerabhängiger Anteil** (Kombination) | Fester Sockel für Betreuung/Verantwortung + Zimmerkomponente für gästenahe Module | **Bildet unsere Kostenstruktur ab** (fixer Betreuungsanteil ① aus § 4.1 + variabler Nutzungsanteil) · deckt beide Enden der Größenspanne · entspricht der Struktur des einzigen belegten Verbund-Ankers (M1 ist genau so gebaut: fixe Positionen + „zusätzliche Zimmer" ②) | Erklärungsbedürftiger; braucht eine saubere Angebotsdarstellung, sonst wirkt es wie eine Mobilfunkrechnung |
+| **(c) Grundgebühr + zimmerabhängiger Anteil** (Kombination) — ⚠️ **Herkunft der Struktur: ⑤** (Rohstoff-Papier B, Punkt 3; s. § 2.2). Die Anker daneben stützen sie nachträglich, sie begründen sie nicht | Fester Sockel für Betreuung/Verantwortung + Zimmerkomponente für gästenahe Module | **Bildet unsere Kostenstruktur ab** (fixer Betreuungsanteil ① aus § 4.1 + variabler Nutzungsanteil) · deckt beide Enden der Größenspanne · entspricht der Struktur des einzigen belegten Verbund-Ankers (M1 ist genau so gebaut: fixe Positionen + „zusätzliche Zimmer" ②) | Erklärungsbedürftiger; braucht eine saubere Angebotsdarstellung, sonst wirkt es wie eine Mobilfunkrechnung |
 
 ⚠️ **Hinweis zur Modulfrage (A2):** Eine Aufschlüsselung nach Modulen
 („Modul A kostet X pro Zimmer") ist mit **jeder** dieser drei
@@ -732,9 +858,17 @@ markiert):
 | S1 | Angebot liegt vor (3 Wochen Entscheidungsdauer ④) | **Angebot raus bis Fr 23.10.2026** |
 | S2 | Erstgespräch → Angebot erstellt | bis Fr 02.10.2026 |
 | S3 | Erstkontakt-Welle 1 raus | bis Fr 11.09.2026 |
+| **S4** | **Liste + Pflichtbausteine gebaut, Brief produktionsfertig** | **Baustart spätestens Fr 14.08.2026** (bei 4 Wochen) bzw. Fr 21.08.2026 (bei 3 Wochen) |
+| **S5** | **Firmierung/Name steht** (Voraussetzung von S4) | **spätestens Fr 14.08.2026 — übermorgen** |
 
 *(Wochentage per Werkzeug geprüft: 23.10.2026 und 13.11.2026 sind
-beides Freitage ✔.)*
+beides Freitage ✔. **Die Erstfassung gab nur S0–S3 wieder** und ließ
+ausgerechnet die beiden Stufen weg, die den Engpass tragen — eine
+Tabelle mit Quellenangabe erhebt aber einen stillen
+Vollständigkeitsanspruch; Prüferbefund P-18. Die Quelle vermerkt zu
+S4/S5 selbst: „Bei vierwöchiger Baudauer muss der Name **am selben
+Tag** stehen, an dem der Bau beginnt — es gibt zwischen beiden **null
+Tage Puffer**.")*
 
 **Das Preismodell ist der zweite Sperr-Posten dieser Kette** (② N-2,
 `akquise/akquiseplan.md` § 9: „Preismodell/Angebotsarchitektur fehlt
@@ -797,9 +931,20 @@ dieses Auftrags) — die Übergabe läuft über die Leitsession.
 
 ## 11. Entscheidungspunkte
 
-Jeder Punkt ist einzeln mit **Ja / Nein / Änderung** beantwortbar.
-Formlos reicht — die Antwort wird danach schriftlich festgehalten.
-Reihenfolge ist nicht bindend, aber E-1 und E-2 tragen die anderen.
+Die Punkte E-1, E-2, E-2a, E-3, E-5 und E-8 sind einzeln mit
+**Ja / Nein / Änderung** beantwortbar; **E-4, E-6 und E-7 sind
+Angabe-Anforderungen** (wer macht was bis wann) — bei ihnen ist ein
+bloßes „Ja" keine verwertbare Antwort (P-23). Formlos reicht in beiden
+Fällen; die Antwort wird danach schriftlich festgehalten.
+
+⭐ **Zur Reihenfolge, weil sie leicht falsch verstanden wird:**
+**E-1 kann warten, bis E-6 beantwortet ist, ohne den Terminpfad zu
+gefährden** — der Engpass ist der Namensentscheid, nicht das
+Preismodell (§ 9). Wer E-1 vor E-6 entscheidet, entscheidet auf
+derselben Beleggrundlage wie die verworfene ChatGPT-These. *(Die
+Erstfassung stellte E-1/E-2 in „So läuft es weiter" vor E-6 und
+widersprach damit ihrem eigenen Vorbehalt in § 12 — Prüferbefund
+P-14.)*
 
 **☐ E-1 — Vertragsform (Frage F-I).** Welche Option soll ausgearbeitet
 werden?
@@ -809,7 +954,21 @@ werden?
 &nbsp;&nbsp;☐ (iv) anfangs höher, später sinkend
 &nbsp;&nbsp;☐ Kombination / anders: _____
 *Empfehlung dieser Session, s. § 12 — aber die Alternativen sind
-gleichwertig ausgearbeitet, nicht als Feigenblatt.*
+gleichwertig ausgearbeitet, nicht als Feigenblatt. **Was (ii) konkret
+heißt:** nach den Marktanalogien dieses Papiers eine **vierstellige**
+Einmalzahlung (M4: 1.495–4.195 € ③ · W1: 1.920 € ③ · W6: ab 7.000 € ③)
+— das ist die Zahl, die der Interessent zuerst sieht.*
+
+**☐ E-2a — Bezugseinheit (Vorfrage zu E-2, ergänzt nach Prüferbefund
+P-13).** Gilt der Preis je **Kunde/Betreiber**, je **Objekt/Haus** oder
+je **Firmierung**?
+&nbsp;&nbsp;☐ je Kunde/Betreiber &nbsp;&nbsp;☐ je Objekt/Haus
+&nbsp;&nbsp;☐ je Firmierung &nbsp;&nbsp;☐ anders: _____
+*Warum das vor E-2 kommt: Der eigene Pilot ist **ein Kunde mit drei
+Objekten in drei Firmierungen** (Codex-Bericht K11: „‚je Kunde' ist als
+technische Zähleinheit nicht gegen Objekt/Firma abgegrenzt"). Bei
+Bemessung (c) entscheidet diese Frage den Preis um den Faktor drei —
+zahlt ein Betreiber mit drei Häusern eine Grundgebühr oder drei?*
 
 **☐ E-2 — Bemessung (Frage F-II).** Woran hängt der Preis?
 &nbsp;&nbsp;☐ (a) pro Zimmer &nbsp;&nbsp;☐ (b) Fixpauschale je Haus
@@ -831,14 +990,19 @@ Name + Zieltermin.
 ausschließlich für Folgekunden; der Pilot bleibt kostenlos, die Frage
 einer späteren Überführung bleibt ausdrücklich offen und wird nicht
 nebenbei mitentschieden. (Ja/Nein)
+&nbsp;&nbsp;**☐ E-5a — und dazu die Teilfrage, die der Bestand nicht
+beantwortet:** Der R3-Entscheid ist belegt für **NMS und Kiel**. Gilt
+er auch für das **dritte Pilotobjekt (Hostel Boninstraße, eigene
+Firmierung LEANE)**? (Ja / Nein / bereits anders geregelt: _____)
 
 **☐ E-6 — Einführungsaufwand messen (§ 4.2/§ 7.5).** Vorschlag: Beim
 nächsten Onboarding-Schritt im Pilotumfeld die reine Arbeitszeit
 mitstoppen (grobe Blöcke genügen: Server/Instanz, Workflows,
 Credentials, Property/Raten, Tests, Schulung, Doku). **Von den zwei
 fehlenden Zahlen ist nach dieser Runde nur noch eine wirklich offen:**
-Für den Stundensatz gibt es jetzt ein belegtes Marktband von
-130–160 €/h aus drei unabhängigen Quellen (§ 4.2 B3) — der
+Für den Stundensatz gibt es jetzt ein Marktband von
+**125–160 €/h** aus drei Quellen (§ 4.2 B3, davon eine als eigene
+Ableitung aus einem Stundendeckel) — der
 Einführungsaufwand in Stunden dagegen ist nirgends erhoben. **Ohne ihn
 bleibt jede Startgebühr und jede Break-even-Aussage geraten** (die
 Tabelle in § 7.5 zeigt, wie stark das Ergebnis daran hängt: 1 vs. 5
@@ -885,9 +1049,10 @@ Begründung in drei Schritten:
 2. **Der Markt deckt seine Einführungskosten in unserem Nachbarfeld
    durchgängig** — per Einrichtungsgebühr (M2, M4, M6 ②; W1–W6 ③), per
    Bindung (M3 ③, W1 ③) oder per Jahresvorauszahlung (Straiv ③).
-   **10 von 10 Ankern mit vollständiger Angabe** haben mindestens eines
-   davon (Zählweg § 7.1). Von unseren vier Optionen ist (ii) die
-   einzige, die das tut, **ohne** den USP zu beschädigen.
+   **10 von 13 Ankern haben eine belegte Einmalzahlung**; zu 4 von 13
+   ist zusätzlich die Laufzeit belegt (Zählweg und Gegenfall M1: § 7.1).
+   Von unseren vier Optionen ist (ii) die einzige, die die
+   Einführungskosten deckt, **ohne** den USP zu beschädigen.
 3. **Option (iii) beschädigt ihn**, (iv) ist eine Startgebühr ohne
    deren Sicherheit und ohne Marktvorbild, (i) verschiebt das gesamte
    Risiko auf uns — in einer Phase, in der wir jeden einzelnen Kunden
@@ -968,3 +1133,16 @@ Ehrlich und vollzählig, damit niemand die Lücken für Ergebnisse hält:
     Reichenbach) — für Außendokumente wäre das ein eigener Prüffall.
 12. **Keine Preishistorie** — alle Anbieterwerte sind der Stand vom
     12.08.2026 (M1–M7: Stand ihres Erhebungsdatums 09./10.08.2026).
+13. **Was der Prüfer selbst als seine Blindstellen benannt hat** (nicht
+    weggelassen, weil es unbequem ist): Eine falsche Zahl in den fünf
+    zunächst nicht geöffneten Einmalbeträgen hätte er nicht gefangen —
+    **diese fünf sind inzwischen einzeln am Rohbeleg nachgelesen** ✔.
+    Ebenso ungeprüft bleibt, ob die archivierten Rohbelege den
+    Live-Stand der Seiten wiedergeben (sie sind Abzüge eines
+    Zeitpunkts), und ob die Anbieter ihre Listenpreise real
+    durchsetzen.
+14. **Was in dieser Runde NICHT geprüft wurde, obwohl es die
+    Empfehlung tragen würde:** ob unsere Zielkunden eine vierstellige
+    Einmalzahlung akzeptieren. Die Marktanalogien zeigen, dass andere
+    sie verlangen — nicht, dass unsere Interessenten sie zahlen (§ 6.4,
+    E-7).

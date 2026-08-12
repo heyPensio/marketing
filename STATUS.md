@@ -25,7 +25,20 @@
 ---
 
 ## Letzte Aktualisierung
-**12.08.2026 (R9, Shanks + eine Arbeits-Session + erster
+**12.08.2026 nachmittags (R10, Umbau-Runde — nur Leitsession)** —
+Kleine Werkzeug-Runde nach dem Slot-2-Briefing der Zentrale
+(Architektur-Umbau-Tag; Inhalts-Stränge ruhen bis zur Abnahme):
+✅ **F10** `settings.local.json` git-ignoriert — Sichtung VOR dem
+Eintrag: keine Secrets (`acb9556`) · ✅ **Gerüst-Nachzug** 2 Deltas
+einzeln disponiert (Duplikat-Grundsatz → „Doku-Hygiene" ·
+`debrief.md` 3d), Stempel `bb3b32c`, Wächter SYNCHRON 12 / 0 DRIFT
+(`6aa2dd9`) · ⏸️ **F13 (Pfad-Ersetzungen) OFFEN** — C2-Rücklauf lag
+14:13 MESZ nicht vor (Briefing-Regel: nicht selbst erheben) ·
+**R09-B (Preismodell) wartet auf die Umbau-Abnahme der Zentrale.**
+⚠️ Nach dem Nachzug gilt Neustart-Pflicht der Leitsession (Tagesplan,
+Blockwechsel-Handgriff). *(Details: Projektquelle-Changelog R10.)*
+
+**Vorheriger Stand — 12.08.2026 (R9, Shanks + eine Arbeits-Session + erster
 Codex-Auftrag)** — ⭐⭐ **Das risikotragende Dokument steht, und es
 verschärft den Terminpfad:** `akquise/interessenabwaegung-o8.md`
 schließt **O-8** (Art. 6 I f Stufe 3, Weg b) mit **Ergebnis je
@@ -47,33 +60,9 @@ und die verkürzte DSB-Bedingung · Methodik: **8 Lehren zurückgeflossen**
 (L-25…L-29), Nachzug 4 Deltas, Stempel `69a8574`, Wächter
 „SYNCHRON: 12". *(Details: Projektquelle-Changelog R9.)*
 
-**Vorheriger Stand — 11.08.2026 (R8, Shanks + zwei Arbeits-Sessions;
-vormittags M1-Methodik-Block)** — ⭐⭐ **MKT-AKQ gestartet — und der Kernbefund
-verschiebt den kritischen Pfad:** Die Rückwärtsrechnung vom Anker
-Fr 13.11. zeigt, dass die November-Frist nicht an der
-Akquise-Kapazität hängt, sondern am **Namens-/Firmierungsentscheid**
-(Brief-Trichter 337–1.600 je Abschluss bei 1.038 SH-Betrieben; der
-Rest hängt am nicht skalierbaren Vorkontakt). **Postkorb-Eskalation an
-die Zentrale** (`8d71def`); zweiter Sperrposten: ohne **Preismodell**
-ist der Terminpfad ab ~23.10. zu. `akquise/` liegt geprüft vor
-(Akquiseplan + Listenbau-Regelwerk; Prüfer 26/26 disponiert, Prüflauf
-unterbrochen mit 5 einzeln disponierten Restschritten). · **D3
-ENTSCHIEDEN (User):** 24 Monate (nur Bestandskunden-Schiene) · **Weg
-(b) Impressumsdaten mit dokumentiertem Restrisiko — GEGEN die
-Matrix-Empfehlung; O-8 (Interessenabwägung Stufe 3) ist damit
-Pflicht VOR dem ersten Versand.** · **P22 aufgelöst** (72/72; acht
-Wettbewerbs-/Kanal-Kandidaten in der Technik-Liste; vierte
-Bestandszahl 74 FIRMEN als Obergrenze) · **P21 Teilstand** (CPH „auch
-bei" Ringhotels seit 01.07.2026; „Südtirol Privat" = heute „Südtirol
-Hosts"/VPS) · **B11.3-Nenner jetzt 3 von 6** — Verbund-Kanal-Bild
-GEMISCHT, je Verbund einzeln prüfen · **B9.4: vier R07-D-Korrekturen
-eingearbeitet (F-6 ✓)** · **F-15 beantwortet: WTSH-Entwurf
-GEGENSTANDSLOS** · Methodik: M1-Nachzug (20 Deltas, Wächter 0 DRIFT,
-Stempel jetzt `0dc102f`), Rückfluss 6 R7- + 7 R8-Lehren, L-21…L-24,
-`skill-bauweise` aktiviert. *(Details: Projektquelle-Changelog R8.)*
-
-*(Davor: R6 — P15/P19 aufgelöst, Bestandsscan 24/37. Ältere Stände:
-`STATUS-archiv.md`.)*
+*(Davor: R8 — MKT-AKQ-Start, kritischer Pfad = Namensentscheid;
+rotiert 12.08.2026 (R10) → `STATUS-archiv.md`. Davor R6 — P15/P19
+aufgelöst, Bestandsscan 24/37. Ältere Stände: `STATUS-archiv.md`.)*
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE
@@ -88,17 +77,11 @@ Stempel jetzt `0dc102f`), Rückfluss 6 R7- + 7 R8-Lehren, L-21…L-24,
 - *(R7-Block rotiert 12.08.2026 → `STATUS-archiv.md`. Weiterhin offen
   daraus: Telkon-Logo · **F-7 Firmierung** · U-1…U-9/O-1…O-7 der
   Referenzvereinbarungs-Vorlage · W-17-/V-1-Rest.)*
-- **R8 (11.08.):** ✅ M1-Nachzug (Stempel `0dc102f`, Wächter 0 DRIFT,
-  `skill-bauweise` aktiviert) · ✅ D3.1/D3.2 entschieden (24 Monate ·
-  Weg b) · ✅ `akquise/` gebaut und geprüft (Akquiseplan +
-  Listenbau-Regelwerk) · ✅ P22 aufgelöst (72/72) · ✅ B9.4/F-6 ·
-  ✅ F-15 eingearbeitet (WTSH-Entwurf gegenstandslos) · ⭐⭐ kritischer
-  Pfad = Namensentscheid (Postkorb `8d71def`) · ⚠️ Preismodell sperrt
-  Terminpfad ab ~23.10. Offen aus R8: **O-8 Interessenabwägung (vor
-  erstem Versand)** · O-2 Kaltkontakt-Löschfrist (User) · Z-3
-  Teil-B-Einstufungen (4 Fälle) · P21-Rest · N-8 fremde Verteiler ·
-  Kategorie-4-Rest des R08-A-Prüfers · Modell-Statuszeilen R08-A/B
-  (User-Ablesung). *(R5+R6 rotiert → `STATUS-archiv.md`.)*
+- *(R8-Block rotiert 12.08.2026 (R10) → `STATUS-archiv.md`. Weiterhin
+  offen daraus: Z-3 Teil-B-Einstufungen (4 Fälle) · P21-Rest · N-8
+  fremde Verteiler. Modell-Statuszeilen R08-A/B ENTFALLEN — User
+  12.08.: Fenster zu, endgültig nicht erhebbar. Kategorie-4-Rest durch
+  Codex-C1 in R9 geschlossen. R5+R6 ebenfalls im Archiv.)*
 - **R9 (12.08.):** ✅ **O-8 gebaut und geprüft**
   (`akquise/interessenabwaegung-o8.md`; Prüfer 24/24 disponiert) ·
   ✅ **O-2 entschieden: 12 Monate + O-2b Lead-Verfall-Verbot**
@@ -113,6 +96,13 @@ Stempel jetzt `0dc102f`), Rückfluss 6 R7- + 7 R8-Lehren, L-21…L-24,
   `pruefe-zitate.js`) · Nebenbefunde **N-9…N-16** (HANDEL/OPS/AKQ) ·
   **R09-B Preismodell nicht gestartet** (sequenziell geplant, Tagesplan).
   *(R7 rotiert → `STATUS-archiv.md`.)*
+- **R10 (12.08. nachmittags, Umbau-Runde — nur Leitsession):** ✅ F10
+  (`settings.local.json` git-ignoriert, Sichtung: keine Secrets,
+  `acb9556`) · ✅ Gerüst-Nachzug 2 Deltas (Duplikat-Grundsatz →
+  „Doku-Hygiene" · `debrief.md` 3d), Stempel `bb3b32c`, Wächter
+  0 DRIFT (`6aa2dd9`) · ⏸️ F13 offen (wartet auf C2-Rücklauf) ·
+  R09-B wartet auf die Umbau-Abnahme der Zentrale. *(R8 rotiert →
+  `STATUS-archiv.md`.)*
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -129,7 +119,10 @@ Stempel jetzt `0dc102f`), Rückfluss 6 R7- + 7 R8-Lehren, L-21…L-24,
    **die sieben Bau-Pflichten** ins Regelwerk · **O-9**
    (Kompatibilitätsprüfung Art. 6 Abs. 4) · Kanalmix-Festzurrung erst
    nach FUND2-Persona-Befund. Details: Projektquelle § 7 Punkt 0 + R9-
-   Changelog.
+   Changelog. ⏸️ **12.08. nachmittags (R10):** Der R09-B-Start wartet
+   zusätzlich auf die **Abnahme des Architektur-Umbaus** durch die
+   Zentrale (Slot-2-Briefing); **F13** (Pfad-Ersetzungen) wartet auf
+   den **C2-Rücklauf**.
 1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
    GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger
    `zentrale\stb-termin-fragenliste-2026-08.md`. **Jetzt DOPPELTER

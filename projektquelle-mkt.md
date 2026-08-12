@@ -791,6 +791,28 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 
 ## CHANGELOG
 
+- 12.08.2026 nachmittags (R10-Debrief, Umbau-Runde — nur Leitsession):
+  **Reine Werkzeug-Runde** nach dem Slot-2-Briefing der Zentrale
+  (Architektur-Umbau-Tag; Inhalts-Stränge ruhen bis zur Abnahme,
+  R09-B/Preismodell zurückgehalten). ✅ **F10** (O1-Audit):
+  `.claude/settings.local.json` git-ignoriert — Sichtung VOR dem
+  Eintrag (Leitsession, Volltext): **keine Secrets**, 4 Allow-Einträge,
+  Z. 7 mit absolutem Benutzerpfad (deckt sich mit O1 § 8.1); `acb9556`.
+  ✅ **Gerüst-Nachzug** 2 fremde Deltas einzeln disponiert (`c286af0`
+  Duplikat-Grundsatz Wächter/Vorrangklausel/sonst-Zeiger → CLAUDE.md
+  „Doku-Hygiene", firmen-integration-Anteil nur Blueprint-Register;
+  `bb3b32c` Git-Pfad-Pflichtform Blueprint-Repo → `commands/debrief.md`
+  3d), Stempel `bb3b32c` im selben Commit, Wächter SYNCHRON 12 /
+  0 DRIFT; `6aa2dd9`. ⏸️ **F13 (Pfad-Ersetzungen) OFFEN** — C2-Rücklauf
+  lag 14:13 MESZ nicht vor (Postkorb-Messung: nur `README.md`;
+  Briefing-Regel: nicht selbst erheben). Kein Inhaltsabschnitt dieses
+  Dokuments betroffen (Werkzeug-Runde); kein Rückfluss-Kandidat
+  (Fremddelta-Einzug). Nebenbeobachtung: fremde Köder-Datei
+  `.codex-c2-koeder-20260812.txt` erschien 14:2x im Arbeitsbaum und
+  war beim nächsten `git status` wieder weg (C2-Hook-Test der
+  Zentrale) — nicht angefasst, Regel „fremde uncommittete Dateien
+  ignorieren" hat getragen.
+
 - 12.08.2026 (R9-Debrief, eine Arbeits-Session + Codex-Auftrag C-1 +
   Leitsession): **Das risikotragende Dokument steht** —
   `akquise/interessenabwaegung-o8.md` (R09-A) schließt **O-8**, D2

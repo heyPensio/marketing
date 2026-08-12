@@ -2,6 +2,47 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 12.08.2026 (R10-Debrief) — R8-Punkt aus „Aktueller Stand"
+
+- **R8 (11.08.):** ✅ M1-Nachzug (Stempel `0dc102f`, Wächter 0 DRIFT,
+  `skill-bauweise` aktiviert) · ✅ D3.1/D3.2 entschieden (24 Monate ·
+  Weg b) · ✅ `akquise/` gebaut und geprüft (Akquiseplan +
+  Listenbau-Regelwerk) · ✅ P22 aufgelöst (72/72) · ✅ B9.4/F-6 ·
+  ✅ F-15 eingearbeitet (WTSH-Entwurf gegenstandslos) · ⭐⭐ kritischer
+  Pfad = Namensentscheid (Postkorb `8d71def`) · ⚠️ Preismodell sperrt
+  Terminpfad ab ~23.10. Offen aus R8: **O-8 Interessenabwägung (vor
+  erstem Versand)** · O-2 Kaltkontakt-Löschfrist (User) · Z-3
+  Teil-B-Einstufungen (4 Fälle) · P21-Rest · N-8 fremde Verteiler ·
+  Kategorie-4-Rest des R08-A-Prüfers · Modell-Statuszeilen R08-A/B
+  (User-Ablesung). *(R5+R6 rotiert → `STATUS-archiv.md`.)*
+
+## Rotiert am 12.08.2026 (R10-Debrief) — R8-Block aus „Letzte Aktualisierung"
+
+**Vorheriger Stand — 11.08.2026 (R8, Shanks + zwei Arbeits-Sessions;
+vormittags M1-Methodik-Block)** — ⭐⭐ **MKT-AKQ gestartet — und der Kernbefund
+verschiebt den kritischen Pfad:** Die Rückwärtsrechnung vom Anker
+Fr 13.11. zeigt, dass die November-Frist nicht an der
+Akquise-Kapazität hängt, sondern am **Namens-/Firmierungsentscheid**
+(Brief-Trichter 337–1.600 je Abschluss bei 1.038 SH-Betrieben; der
+Rest hängt am nicht skalierbaren Vorkontakt). **Postkorb-Eskalation an
+die Zentrale** (`8d71def`); zweiter Sperrposten: ohne **Preismodell**
+ist der Terminpfad ab ~23.10. zu. `akquise/` liegt geprüft vor
+(Akquiseplan + Listenbau-Regelwerk; Prüfer 26/26 disponiert, Prüflauf
+unterbrochen mit 5 einzeln disponierten Restschritten). · **D3
+ENTSCHIEDEN (User):** 24 Monate (nur Bestandskunden-Schiene) · **Weg
+(b) Impressumsdaten mit dokumentiertem Restrisiko — GEGEN die
+Matrix-Empfehlung; O-8 (Interessenabwägung Stufe 3) ist damit
+Pflicht VOR dem ersten Versand.** · **P22 aufgelöst** (72/72; acht
+Wettbewerbs-/Kanal-Kandidaten in der Technik-Liste; vierte
+Bestandszahl 74 FIRMEN als Obergrenze) · **P21 Teilstand** (CPH „auch
+bei" Ringhotels seit 01.07.2026; „Südtirol Privat" = heute „Südtirol
+Hosts"/VPS) · **B11.3-Nenner jetzt 3 von 6** — Verbund-Kanal-Bild
+GEMISCHT, je Verbund einzeln prüfen · **B9.4: vier R07-D-Korrekturen
+eingearbeitet (F-6 ✓)** · **F-15 beantwortet: WTSH-Entwurf
+GEGENSTANDSLOS** · Methodik: M1-Nachzug (20 Deltas, Wächter 0 DRIFT,
+Stempel jetzt `0dc102f`), Rückfluss 6 R7- + 7 R8-Lehren, L-21…L-24,
+`skill-bauweise` aktiviert. *(Details: Projektquelle-Changelog R8.)*
+
 ## Rotiert am 12.08.2026 (R9-Debrief) — R7-Punkt aus „Aktueller Stand"
 
 - **R7 (10.08.):** ✅ R05-A-Nacharbeit geschlossen (24/26, am Rohbeleg

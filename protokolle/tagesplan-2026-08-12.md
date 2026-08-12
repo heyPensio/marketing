@@ -525,5 +525,23 @@ Platte (Skill-Invoke zeigt bis zum Neustart die alte Fassung).
 
 ## Übergabe-Block
 
-*(wird beim Blockwechsel gefüllt: Session-Stand, offene Handgriffe,
-Block-2-Programm, Debrief-Kandidaten)*
+*(gefüllt 12.08. nach der R10-Umbau-Runde — Neustart-Pflicht AKTIV,
+s. Blockwechsel-Handgriff)*
+
+- **Session-Stand:** R10 abgeschlossen und debrieft. F10 ✅
+  (`acb9556`) · Gerüst-Nachzug ✅ Stempel `bb3b32c`, Wächter SYNCHRON
+  12 / 0 DRIFT (`6aa2dd9`) · Vier-Stellen-Sync ✅ (dieser Commit;
+  R8 → Archiv rotiert) · F13 ⏸️ offen (C2-Rücklauf fehlt). Alles
+  gepusht.
+- **Offene Handgriffe (User):** NEUES Fenster + `claude --resume`
+  vor jeder weiteren Leitsession-Arbeit (Regel-Snapshot veraltet
+  nach Nachzug) · Umbau-Abnahme führt die Zentrale · bei C2-Rücklauf:
+  F13 als Kleinposten (Commands, CLAUDE.md, AGENTS.md, STATUS-Kopf
+  Z. 9 — nur operative Träger, Historie bleibt).
+- **Block-Programm danach:** R09-B (Preismodell) — Startzeile bleibt
+  zurückgehalten bis Umbau-Abnahme + User-Zuruf.
+- **Debrief-Kandidaten:** keine offenen. R10-Debrief gefahren; keine
+  Arbeits-Sessions → Gegenprobe-Subagent entfällt begründet
+  (Pflicht erst ab mehr als einer Arbeits-Session); kein
+  projektgerüst-Rückfluss nötig (reiner Fremddelta-Einzug, keine
+  neue projektunabhängige Lehre).

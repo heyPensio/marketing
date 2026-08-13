@@ -1217,6 +1217,22 @@ Session):**
 > außerhalb des R13-B-Schreib-Scopes; Träger: Leitsession/nächste
 > AKQ-Runde. Bis dahin ist der Exit 1 ein AUSGEWIESENER Zustand, keine
 > unbemerkte Rot-Meldung.
+>
+> 📌 **Nachtrag 13.08.2026 abends (Leitsession, R13-Review) — der
+> Träger-Posten ist ERLEDIGT:** Ausnahmeliste in
+> `akquise/pruefe-zitate.js` um die 7 Einträge ergänzt (je mit
+> Begründung *zitiert nach O-8 § 10, Primärquelle außerhalb des Pools,
+> R13-B-Prüfer 9/9 wortgleich* — die Zitiert-nach-Kette endet bei O-8
+> § 10, nicht an der DSK selbst, wie im Prüferprotokoll ausgewiesen).
+> **Lauf danach: 144 Zitate · Ausnahmeliste 25/25 Einträge belegt (26
+> Fundstellen) · Quellenzitate 118/118 bestätigt · Positivkontrolle
+> 11/11 · Gegenprobe 3/3 · Blockzitate 3/3 mit Rückbau-Gegenproben 3/3
+> · Selbsttest bestanden (8/4/4) · Exit-Code Hauptlauf/Selbsttest
+> 0 / 0** (Messweg: `$LASTEXITCODE` unmittelbar nach dem Aufruf, ohne
+> Pipe — ein `cmd /c "… %ERRORLEVEL%"`-Einzeiler expandiert die
+> Variable VOR dem Lauf und meldet immer 0; beim Nachmessen selbst
+> hereingefallen, windows-powershell-Fallenklasse). Der Exit-1-Absatz
+> darüber ist damit Historie.
 
 > ⚠️ **Wiederkehrende Fehlerklasse, dreimal belegt (Nachtrag 12.08.2026,
 > Befund B-4 aus der Codex-Restprüfung):** **Wer eine Reparatur

@@ -106,6 +106,22 @@ const EIGEN = [
   // ACHTUNG Strukturgrenze: Fuer solche Zitate leistet dieses Skript KEINE
   // Pruefung -- die Verifikation ist R09-A (am Rohbeleg), nicht dieser Lauf.
   ['bereits vor dem ersten Verarbeitungsschritt in die Wege geleitet sein', 'Zitat LG Duesseldorf 38 O 243/23 Rn. 87 - Primaerquelle ausserhalb des Pools, am Rohbeleg durch R09-A verifiziert'],
+  // --- Nachtrag 13.08.2026 abends (Leitsession, R13-Review, PB-2-Disposition) ---
+  // Die sieben Zitate der B-1..B-7-Uebernahme (R13-B) stammen aus der
+  // DSK-Orientierungshilfe Direktwerbung bzw. O-8 - beide ausserhalb des Pools
+  // (DSK-OH liegt in sensibel/; Pool-Erweiterung um interessenabwaegung-o8.md
+  // ist laut O-12 ein eigener Zuschnitt, kein Nebenbei-Fix). Verifikation:
+  // wortgleich gegen O-8 Paragraph 10 (dort DSK-Zitate mit Belegstufe ① A)
+  // durch den R13-B-Pruefer maschinell bestaetigt (9/9); die Zitiert-nach-Kette
+  // endet damit bei O-8 Paragraph 10, nicht an der DSK selbst - diese Grenze
+  // weist das Prueferprotokoll R13-B aus.
+  ['revisionsfeste Dokumentation der tatsächlich genutzten Texte mit Versionsnummer', 'DSK Ziff. 2.1 (B-5), zitiert nach O-8 Paragraph 10 - Primaerquelle ausserhalb des Pools, R13-B-Pruefer 9/9'],
+  ['Wer eine E-Mail-Adresse bereitstellt, muss durch technisch-organisatorische Maßnahmen gewährleisten, dass E-Mails, die sich auf Betroffenenrechte beziehen, entweder nicht im Spam-Ordner landen oder dort jedenfalls dennoch umgehend zur Kenntnis genommen werden (Art. 24 DS-GVO)', 'DSK Ziff. 5.3 / TOM-Kopplung Q-06 (B-2), zitiert nach O-8 Paragraph 10'],
+  ['Im Sinne des Erleichterungsgebots nach Art. 12 Abs. 2 S. 1 DS-GVO ist für die Einlegung des Werbewiderspruchs auch eine elektronische Kommunikationsmöglichkeit anzubieten', 'DSK Ziff. 5.3 (B-2), zitiert nach O-8 Paragraph 10'],
+  ['das konkrete Werbevorhaben', 'O-8 Paragraph 1.3 (B-6-Kontext), zitiert nach O-8 - ausserhalb des Pools'],
+  ['möglichst genau zu benennenden kurzen Zeitraum[s]', 'DSK Ziff. 5.4 (B-3), zitiert nach O-8 Paragraph 10'],
+  ['ausdrücklich und allein eine Löschung aller Daten aus der Werbesperrdatei', 'DSK Ziff. 5.1 (B-4, enger Sperrdatei-Scope Q-07), zitiert nach O-8 Paragraph 10'],
+  ['eventuell wieder Werbung erhalten kann', 'DSK Ziff. 5.1 (B-4), zitiert nach O-8 Paragraph 10'],
 ];
 const eigenSet = new Set(EIGEN.map(([s]) => norm(s)));
 

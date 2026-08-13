@@ -1166,6 +1166,19 @@ dieses Auftrags) — die Übergabe läuft über die Leitsession.
 > - **Z-1, Z-5, Z-7** unverändert offen, **kein Träger benannt**. Die
 >   Übergabe an die Zentrale ist **weiterhin nicht erfolgt** (R12-A hat
 >   keine Meldedatei abgelegt — nicht im Scope).
+>
+>   📌 *Nachtrag 13.08.2026 abends (Leitsession, R13-Review — Befunde
+>   R13A-N-2/P-03): Der ÜBERGABE-Stand der Zeile darüber ist überholt.
+>   Die Postkorb-Meldung
+>   `zentrale\eingang\2026-08-13-mkt-preismodell-zulieferungen.md`
+>   wurde beim R12-Debrief committet (zentrale `47958da`); die
+>   StB-Fragenliste führt seither **Frage 13** mit **Z-2 (a) · Z-4 (b)
+>   · Z-1 (c) · Z-7 (d) · E-5a (e) · Verbund-Definition (f)** (selbst
+>   gelesen 13.08. abends, ② Nachbar-Repo-Bestand); **Z-5/Z-6** laufen
+>   parallel bei heypensio im E-4-Bündel (Briefing 13.08., Nachtrag 3).
+>   **Übergeben ist nicht beantwortet** — INHALTLICH bleiben alle
+>   Z-Punkte offen; „kein Träger benannt" gilt damit nur noch für die
+>   BEANTWORTUNG, nicht mehr für die Übergabe.*
 
 ---
 
@@ -1330,6 +1343,17 @@ zahlt ein Betreiber mit drei Häusern eine Grundgebühr oder drei?*
 > - Die **Höhe des Rabatts** (Prozentsatz oder Staffel) ist **offen**.
 >   Das Entscheide-Protokoll schweigt dazu; es ist damit **kein**
 >   Vorschlag dieser Session, sondern ein offener Punkt.
+>
+>   📌 *Nachtrag 13.08.2026 abends (Leitsession, R13-Review — Befund
+>   R13A-P-08): Zur Hälfte überholt. Das **Entscheide-Protokoll 2**
+>   (Briefing 13.08., Nachtrag 4; Dropdown + Freitext, sinngemäß) hat
+>   mit **AA-6 die FORM entschieden: fester Prozentsatz** — Staffel
+>   bleibt spätere Option (Wechsel vor dem ersten Bestandskunden frei,
+>   danach Z-4-Fall). Die **HÖHE bleibt offen** (Hypothese bis E-6).
+>   ✅-Vermerk: `handel/angebotsarchitektur.md` § 5, ✅-AA-6. Ohne
+>   diesen Nachtrag hätte die Vorrangklausel der Ableitungen („bei
+>   Widerspruch gewinnen die Quellen") den Entscheid für jeden Leser
+>   wieder umgekehrt (L-25-Spiegelfall, MKT-R12-P-04-Klasse).*
 > - Die **Ausarbeitung der Mechanik** (ab welchem Haus, worauf genau,
 >   Zusammenspiel mit Paketen) läuft als **E-8/Angebotsarchitektur**
 >   (`handel/angebotsarchitektur.md`, Runde R12-B) — nicht hier.

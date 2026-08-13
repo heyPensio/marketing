@@ -481,6 +481,17 @@ Positivkontrolle „Art. 6 Abs. 1" 7 Treffer in der Rechtsmatrix, 6 im
 Regelwerk. **Heutiger Stand:** Rechtsmatrix unverändert 0; im Regelwerk
 4 Treffer — sämtlich in den Nachträgen dieser Runde.
 
+> 📌 *Nachtrag 13.08.2026 abends (Leitsession, R13-Review — Befund
+> R13B-PB-5): Der „Heutige Stand" oben trägt den Messstand des 12.08.
+> (R9). **Seit R13-B (13.08.) ist O-9 in BEIDEN Dokumenten geführt** —
+> Rechtsmatrix: eigener O-9-Nachtrags-Kasten; Regelwerk: § 3-Nachtrag +
+> § 10-O-9-Zeile. Messstand `58f2f81`: „Art. 6 Abs. 4" **2 Treffer**
+> in der Rechtsmatrix, **6 im Regelwerk** (Zählweg: Select-String
+> -AllMatches, TREFFER gezählt, nicht Zeilen; Positivkontrolle „Art. 6
+> Abs. 1" 7 Treffer in der Rechtsmatrix). **Geführt ist nicht
+> entschieden — O-9 bleibt OFFEN**, Gate unverändert der anwaltliche
+> Rat vor dem ersten Datensatz.*
+
 > ⚠️ *Korrektur 12.08.2026 (Prüferbefund Q-12): Die Vorfassung nannte
 > „0 Treffer in beiden Dokumenten" ohne Messstand. Nachdem die
 > Regelwerks-Nachträge derselben Runde den Begriff eingeführt haben, war
@@ -963,7 +974,7 @@ damit erkennbar ist, warum:
 | # | Punkt | Träger |
 |---|---|---|
 | ~~**O-2**~~ | ~~**Löschfrist Kaltkontakte** — Optionen liegen vor (§ 9)~~ | ✅ **ENTSCHIEDEN 12.08.2026: 12 Monate** (§ 9, Option B) + Zusatzregel **O-2b** (Lead-Verfall-Verbot). Offen bleibt allein die technische Umsetzung der Wiedervorlage → MKT-OPS |
-| **O-9** *(neu)* | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** (Zweckänderung Anbieterkennzeichnung → Werbung) — in Rechtsmatrix und Regelwerk bisher nirgends geführt | MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand |
+| **O-9** *(neu)* | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** (Zweckänderung Anbieterkennzeichnung → Werbung) — in Rechtsmatrix und Regelwerk bisher nirgends geführt *(📌 Nachtrag 13.08.2026 abends, Leitsession: seit R13-B in Rechtsmatrix UND Regelwerk GEFÜHRT — weiter OFFEN, Gate unverändert; Messstand s. § 5.5-Nachtrag)* | MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand |
 | **O-10** *(neu)* | **Abwägung für den Telefonkanal K2** (FG-5) — hier bewusst nicht geführt | MKT-AKQ, wenn K2 scharf gestellt wird |
 | **F-7** | **Firmierung** — ohne sie sind Art.-14-Pflichtangaben nicht erfüllbar (§ 2.1) | MKT-MARKE / Zentrale |
 | **O-4** | Zielmengengröße nach Abzug der Ketten-/Konzernbetriebe unbekannt | MKT-FUND / AKQ2 |

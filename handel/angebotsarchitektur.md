@@ -1525,7 +1525,7 @@ wovon sonst?
 
 | Nr. | Verlangt sie etwas vom ANGEBOTSTEXT? | Wovon sie etwas verlangt | Baustein hier |
 |---|---|---|---|
-| **AU-1** | **Nein** — sie verlangt nichts vom Text, sondern von der **Vertrags- und Kontenlage** dahinter. Der Rohbeleg sagt das ausdrücklich: „Ein ‚Eigentum' nur im Marketingtext trägt nicht." Ein Angebot, das Eigentum **behauptet**, erfüllt AU-1 gerade **nicht** | Vertragsgestaltung + Kontenführung (auf wessen Vertrag laufen Server/Instanz?) | **kein Textbaustein — ein GATE** (§ 6a.7, **GA-2**): AU-1 ist erst erfüllbar, wenn die Vertragspartner-Frage **K04/Z-5** beantwortet ist. ⚠️ **④ Folgerung dieser Session, nicht Rohbeleg:** Läuft der Infrastrukturvertrag auf heyPensio, ist zweifelhaft, ob die Instanz dem Kunden „zurechenbar" ist; **ob das die Lizenznehmer-Stellung berührt, ist offen** — § 3.5 des Rohbelegs knüpft „you" an den **Nutzer**, nicht an den Infrastrukturvertrag. Gehört in die Vertragsprüfung Z-1…Z-7 bzw. zu K04/Z-5 *(Erstfassung schrieb kategorisch „ist der Kunde nicht Lizenznehmer und AU-1 fällt aus" — korrigiert nach Prüferbefund F-17)* |
+| **AU-1** | **Nein** — sie verlangt nichts vom Text, sondern von der **Vertrags- und Kontenlage** dahinter. Der Rohbeleg sagt das ausdrücklich: „Ein ‚Eigentum' nur im Marketingtext trägt nicht." Ein Angebot, das Eigentum **behauptet**, erfüllt AU-1 gerade **nicht** | Vertragsgestaltung + Kontenführung (auf wessen Vertrag laufen Server/Instanz?) | **kein Textbaustein — ein GATE** (§ 6a.7, **GA-2**): AU-1 ist erst erfüllbar, wenn die Vertragspartner-Frage **K04/Z-5** beantwortet ist. ⚠️ **④ Folgerung dieser Session, nicht Rohbeleg:** Läuft der Infrastrukturvertrag auf heyPensio, ist zweifelhaft, ob die Instanz dem Kunden „zurechenbar" ist; **ob das die Lizenznehmer-Stellung berührt, ist offen** — der **Lizenztext selbst** definiert „**You**" als „the individual or entity **agreeing to these terms**" und „**Use**" als „anything you do with the software requiring your license" (§ 3.2 Z. 230 f. @`4fa530b`, **Stufe A**, nach dem Prüferlauf selbst am Primärtext gelesen); der Rohbeleg folgert daraus: „**Wer die Software nutzt, ist ‚you'**". Die Anknüpfung ist also der **Nutzer**, nicht der Infrastrukturvertrag — was AU-1 („zurechenbar") gerade **nicht** erledigt, weil AU-1 zusätzlich verlangt, dass der Kunde die Instanz **behalten kann**. Gehört in die Vertragsprüfung Z-1…Z-7 bzw. zu K04/Z-5 *(Erstfassung schrieb kategorisch „ist der Kunde nicht Lizenznehmer und AU-1 fällt aus" — korrigiert nach Prüferbefund F-17)* |
 | **AU-2** | **Ja, unmittelbar** — „in Angebot, Vertrag und Rechnung auch so benannt". Die einzige Auflage, die eine **Bezeichnungspflicht** an den Text richtet | Positionsbezeichnungen und Struktur der Preisdarstellung | **WP-AU2** (6a.3), verankert in P-A/P-B/P-C |
 | **AU-3** | **Mittelbar, und in die für MKT unbequeme Richtung** — sie verbietet nicht das Angebot, sondern eine **Darstellung**, die der gelieferten Umgebung widerspricht: Wo der Kunde n8n sieht, darf das Angebot die Orchestrierungsschicht nicht als eigene, namenlose „Plattform" verkaufen. **Das ist eine Grenze für das spätere Angebots-Wording** (MKT-MARKE) und für die Bau-Seite | Wording der Außentexte + Bau (keine entfernten/verdeckten Hinweise) | **WG-AU3** (6a.3, Wording-Grenze) — **kein** Textbaustein heute, weil alles Wording auf die Firmierung wartet (Kopfkasten Punkt 2). ⚠️ Belegteilung aus 6a.1 gilt mit |
 | **AU-4** | **Nein zum Angebotstext, ja zum ANGEBOTSINHALT** — sie verlangt einen **Leistungsschritt**, der im Onboarding-Teil erbracht und **nachgewiesen** wird. Ein Angebot muss ihn führen, damit die Leistung geschuldet und der Nachweis erzeugt wird | Onboarding-Prozess + Nachweis (Protokoll) | **ON-L** (6a.4), verankert in P-A/P-B/P-C |
@@ -1587,6 +1587,19 @@ Posten geführt**, nicht als erledigt gebucht (s. 6a.7).
 > der Widerspruch wird hier **benannt statt weitergereicht**. **Dritte
 > Fundstelle derselben Fehlklasse — mit an die heypensio-Leitsession**
 > (zu R14A-N-1).
+> ⭐ **Am PRIMÄRTEXT aufgelöst (Nachtrag nach dem Prüferlauf, § 3.2
+> Z. 216–222 @`4fa530b` selbst gelesen — die Stelle hatte auch der
+> Prüfer nicht gelesen):** Die Klausel **L-3** lautet wörtlich „**You may
+> not alter, remove, or obscure any licensing, copyright, or other
+> notices of the licensor in the software. Any use of the licensor's
+> trademarks is subject to applicable law.**" — sie verbietet
+> **Verändern/Entfernen/Verdecken von Hinweisen** und stellt die
+> **Markennutzung unter das anwendbare Recht**. **Ein Rebranding-Verbot
+> steht dort nicht.** Damit ist belegt: **§ 3.6 stuft richtig ein (B),
+> § 3.4 schießt über (A)** — und `WG-AU3` folgt der zutreffenden
+> Fassung, nicht nur der vorsichtigeren. *(Die Einordnung des Verbots
+> „Entfernen/Verdecken" als Stufe A ist damit ebenfalls am Primärtext
+> bestätigt.)*
 > **Adressat:** MKT-MARKE/MKT-WEB, sobald Außentexte entstehen. **Heute
 > ist hier nichts zu formulieren** (Firmierungs-Vorbehalt).
 
@@ -1918,6 +1931,41 @@ einen. **Kein Gate ist heute erfüllt**; die Kette sperrt also derzeit
 > geltende Sperre.**
 > *(Klasse: die Entwarnung in ihrer Sonderform — sie entlastet nicht die
 > Sache, sondern die Session vom Vorwurf, selbst festgelegt zu haben.)*
+
+> ⭐ **Nachtrag nach dem Prüferlauf: die Härte von GA-1 ist im Lizenztext
+> selbst gemildert — und diese Stelle hatte weder der Bau noch der
+> Prüfer gelesen.** Der Prüfer hat § 3.2 des Rohbelegs ausdrücklich als
+> ungelesen ausgewiesen und dort weitere Belegstufen-Differenzen
+> vermutet; R15-B hat sie daraufhin selbst am Stück gelesen (Z. 209–265
+> @`4fa530b`). Der Fund gehört genau hierher — er wirkt **zugunsten**
+> der Angebotsfähigkeit und wird deshalb mit seiner Grenze zitiert:
+>
+> > **`### Termination`** (Lizenztext, **Stufe A**, wörtlich): „If you
+> > use the software in violation of these terms, such use is not
+> > licensed, and your license will automatically terminate. **If the
+> > licensor provides you with a notice of your violation, and you cease
+> > all violation of this license no later than 30 days after you receive
+> > that notice, your license will be reinstated retroactively.** However,
+> > if you violate these terms after such reinstatement, any additional
+> > violation of these terms will cause your license to terminate
+> > automatically and permanently."
+>
+> **Folge für die Kette:** Ein **Auslegungsirrtum bei K-1 ist heilbar** —
+> rückwirkend, binnen 30 Tagen nach Zugang einer Rüge. Der Rohbeleg zieht
+> daraus ausdrücklich den Schluss, das rechtfertige „**nicht**, den
+> Preisentscheid bis zur Anbieterantwort anzuhalten" (Stufe E).
+> ⚠️ **Die Grenze der Entwarnung gehört mit** (Rohbeleg wörtlich): Sie
+> „deckt nur die *Lizenz*-Folge. **Bereicherungs-, Schadensersatz- oder
+> Vertragsstrafenfragen regelt die Klausel nicht**, und sie sagt nichts
+> über Ansprüche Dritter oder über den Kundenvertrag. Wer daraus ‚kein
+> Risiko' liest, liest zu viel." **Und die Wiederholung ist nicht
+> heilbar** — der zweite Verstoß beendet die Lizenz „automatically and
+> **permanently**", was „für einen laufenden Kundenbetrieb existenziell"
+> wäre. **④ Folgerung dieser Session für GA-1:** Das Gate bleibt
+> begründet, ist aber **kein Alles-oder-nichts** — ein bewusst getragenes,
+> dokumentiertes Risiko ist die zweite zulässige Erfüllungsform (so
+> bereits in der GA-1-Bedingung angelegt). **Ein Entscheid darüber ist
+> das nicht.**
 
 ⚠️ **K-1 bleibt streitig, und der SUL-Rohtext beantwortet ihn nicht** —
 er schweigt zu Plan/Edition (Rohbeleg § 3.7, „Der Widerspruch, der den

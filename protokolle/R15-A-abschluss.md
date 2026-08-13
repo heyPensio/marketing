@@ -25,16 +25,23 @@ Tool-Aufrufe** · O-8-Agent **189.572 / 23** · Prüfer siehe Block 1.
 | **`cca1919`** | `handel/anwalts-briefing-2026-08.md` (997 Zeilen). Zugleich der **eingefrorene Prüfstand** |
 | **(dieser Commit)** | Nacharbeit nach eigener Konsequenz-Probe + Prüfer-Disposition + Prüferprotokoll + diese Meldung |
 
-**⚠️ Push-Lage — bewusst ZURÜCKGEHALTEN.** Unter `cca1919` liegen
-**fünf fremde ungepushte Commits** (`5630bbf` ROCKSTAR · `40d76fb` ROUX ·
-`5f9930b` LIMEJUICE · `3067361` ROUX · `a57977a` YASOPP). Ein Push —
-auch der gezielte Refspec `git push origin <mein-hash>:main` — würde sie
-als **Vorfahren mitveröffentlichen**; der Refspec schützt nur nach oben.
-Nach CLAUDE.md („dagegen hilft nur, nicht zu pushen und zu warten")
-**habe ich nicht gepusht.** Die Commits sind lokal vollständig; es fehlt
-allein die Veröffentlichung. Auflösung durch die Leitsession oder durch
-den Push einer der fünf Sessions, der meinen Commit als Nachfahren
-mitnimmt.
+**⚠️ Push-Lage — bewusst ZURÜCKGEHALTEN.** Gemessen nach frischem
+`git fetch` zu **zwei** Ständen (Doppel-Messstand):
+
+| Messzeitpunkt | ungepushte Commits unter dem eigenen | davon fremd |
+|---|---:|---:|
+| nach `cca1919` | 6 | **5** (ROCKSTAR · ROUX · LIMEJUICE · ROUX · YASOPP) |
+| nach `ba5a059` (Abschluss) | 14 | **13** (zusätzlich 3× YASOPP, 3× ROUX, 1× ROCKSTAR) |
+
+Ein Push — auch der gezielte Refspec `git push origin <mein-hash>:main` —
+würde sie als **Vorfahren mitveröffentlichen**; der Refspec schützt nur
+nach oben. Nach CLAUDE.md („dagegen hilft nur, nicht zu pushen und zu
+warten") **habe ich nicht gepusht.** Beide Commits sind lokal
+vollständig; es fehlt allein die Veröffentlichung. **R15-B hat dieselbe
+Entscheidung getroffen** (Commit `2dd212e`, „Push ZURUECKGEHALTEN"), was
+die Lage bestätigt, sie aber nicht auflöst. Auflösung durch die
+Leitsession oder durch den Push einer Session, die alle darunter
+liegenden Stände als abgeschlossen kennt.
 
 ### Das Deliverable
 

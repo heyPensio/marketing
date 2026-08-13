@@ -120,6 +120,14 @@ Protokoll. Nachmessung nach den Reparaturen: Wächter unverändert
    gepusht, warten. **Nächster Schritt:** Push der Kette bis `fc7b9b2`
    (bzw. Folge-Hash) nachholen, sobald d90edb3 remote ist — durch diese
    Session bei Gelegenheit oder die Leitsession beim Review.
+   *(✅ AUFGELÖST 13.08.2026, gleiche Session, kurz darauf: R13-A hat
+   beim eigenen Push die R13-B-Kette als Vorfahren MITVERÖFFENTLICHT —
+   Beleg `git branch -r --contains 0605871` → `origin/main` nach
+   frischem fetch; `origin/main..0605871` leer. Der spiegelbildliche
+   Fall der Vorfahren-Regel: „der eigene Commit kann durch den Push
+   einer parallelen Session bereits veröffentlicht sein". Kein
+   Handlungsbedarf mehr; nur dieser Nachtrag wurde danach noch selbst
+   gepusht.)*
 
 ## Block 3 — Nebenbefunde außerhalb des Auftrags (je mit Zielort)
 

@@ -48,9 +48,15 @@
 > - **Vertrags-, Rechts- und Steuerfragen** (Z-1…Z-7, Zulieferung an die
 >   Zentrale — bislang **nicht übergeben**).
 >
-> **Erstellt:** Runde **R12-A**, 13.08.2026 · **Quellstand:** Repo-HEAD
-> `e112845`, `handel/preismodell-optionen.md` in der Fassung mit den
-> ✅-Nachträgen vom 13.08. · **Entscheid-Quelle:**
+> **Erstellt:** Runde **R12-A**, 13.08.2026 · **Lesestand beim Bau:**
+> Repo-HEAD `e112845` (Tagesstart) — zu diesem Stand trug
+> `handel/preismodell-optionen.md` die ✅-Nachträge **noch nicht**.
+> **Entstanden ist beides gemeinsam in Commit `9a0b0bd`**, die Nachträge
+> und diese Datei. *(Korrigiert nach Prüferbefund P-11: Die Erstfassung
+> nannte `e112845` und im selben Satz „in der Fassung mit den
+> ✅-Nachträgen" — ein Hash und eine Fassung, die nicht zusammengehören.
+> Genau die Alterung, die ein Verifikationsvermerk durch den eigenen
+> späteren Nachtrag erfährt.)* · **Entscheid-Quelle:**
 > `<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`,
 > „⭐ Entscheide-Protokoll 13.08.2026" (Briefing-Dialog, Dropdown +
 > Freitext, **sinngemäß — Wortlaut nicht archiviert**).
@@ -97,7 +103,13 @@ nicht mehr** — der Deckungsbeitrag der Servicegebühr ist dann
 entgegengesetzte Richtungen, und beide gehören genannt:
 
 - **Für uns günstig:** Der Break-even nach § 7.5 wird kürzer, weil der
-  Nenner nicht mehr um 38–58 € gemindert ist.
+  Nenner nicht mehr um 38–58 € gemindert ist. ⚠️ **Nur unter einer
+  Prämisse, die genannt gehört** (P-17): Das gilt, **wenn die
+  Servicegebühr betraglich dem bisherigen Monatspreis entspricht**.
+  Bleibt stattdessen das **Budget des Kunden** gleich — was der zweite
+  Spiegelstrich selbst nahelegt —, sinkt die durchsetzbare
+  Servicegebühr um eben diese 38–58 €, und der Deckungsbeitrag bleibt
+  unverändert. **Welche der beiden Lagen eintritt, ist nicht erhoben.**
 - **Für uns ungünstig:** Der Kunde sieht seine Infrastrukturkosten
   **zusätzlich** zur Servicegebühr auf der Rechnung. Was er insgesamt
   zahlt, steigt optisch — und das drückt auf die Zahlungsbereitschaft
@@ -146,6 +158,40 @@ Auslastungs-Szenarien der Quelle. **Für ein größeres Haus ist die
 Position nicht erhoben** — sie darf dort nicht mit 20–40 € angesetzt
 werden.
 
+> ### ⚠️ Ungeklärt: Wer ist eigentlich Vertragspartner der Anbieter?
+> *(ergänzt nach Prüferbefund P-06 — die Erstfassung hat diese Frage
+> nicht gestellt, obwohl sie über den Aufbau dieses Abschnitts
+> entscheidet.)*
+>
+> „Durchreichen" setzt voraus, dass **wir** Vertragspartner von
+> Hetzner/Supabase/Vapi sind und dem Kunden weiterberechnen. E-3 will
+> aber zugleich, dass **der Kunde Eigentümer seiner Umgebung ist und
+> die Zugänge hält**. Beides zusammen ist nicht selbstverständlich:
+> - Ist der **Kunde** Vertragspartner, gibt es **nichts durchzureichen**
+>   — die Positionen K1–K7 wären dann gar keine Zeilen unserer
+>   Preisliste, sondern Rechnungen, die direkt bei ihm eingehen.
+> - Sind **wir** Vertragspartner, ist der Kunde nicht vollständig
+>   Eigentümer seiner Umgebung — der Kern des E-3-Arguments („kein
+>   Lock-in beim Dienstleisterwechsel") wird schwächer.
+>
+> **Der eigene Bestand führt dazu einen zweiten, bisher hier fehlenden
+> Widerspruch:** Neben **K03** („Kunde erhält keinen n8n-Zugang" —
+> Eigentums-/Zugangswiderspruch, im Kopfkasten als Z-6 abgedeckt) steht
+> **K04**: „ein Vapi-Konto; **Kunde pflegt nie ein Vapi-Konto**" —
+> Klassifikation dort: „direkter Konten-/**Vertrags**widerspruch,
+> **sofern Vapi zur Eigentumsumgebung zählt**"
+> (`preismodell-optionen.md` § 5.3, ② BESTAND). **Genau diese Bedingung
+> erfüllt die Vapi-Zeile oben**, indem sie Vapi an den Kunden
+> durchreicht.
+>
+> **Folge:** Der Kopfkasten dieser Datei nennt als Strukturvorbehalt nur
+> **Z-6/n8n**. Das ist **eine** Kollision von zweien — die Vapi-Kollision
+> (K04) ist gleichrangig und **ebenfalls ungeklärt**. Sie gehört in
+> dieselbe Klärung wie Z-6 (Träger **E-4**, Ruffy/heypensio) und in die
+> Zentrale-Zulieferung **Z-5** („Wer schließt die Verträge mit
+> Hetzner/Supabase/Vapi/Cloudflare — wir oder der Kunde?"), die genau
+> diese Frage bereits führt.
+
 **⚠️ Steuervermerk (nicht quellenübergreifend ergänzen):** Bei K1/K2 ist
 „netto" eine **begründete Ableitung** (die Hetzner-Website lädt eine
 eigene Steuertabelle und rechnet sie auf die Beträge auf), kein zitierter
@@ -174,7 +220,16 @@ Bezugseinheit **das Objekt/Haus**.
 | **S1** | Grundgebühr Betrieb & Betreuung | `<GRUNDGEBUEHR-JE-HAUS — NICHT FESTGELEGT>` | **je Objekt/Haus** (E-2a) | ⬜ **offen** — belastbar erst nach E-6 (Aufwand) und E-7 (Zahlungsbereitschaft) |
 | **S2** | Zimmerabhängiger Anteil | `<BETRAG-JE-EINHEIT-UND-MONAT — NICHT FESTGELEGT>` | je Einheit/Zimmer und Monat | ⬜ **offen** — dieselbe Lage |
 | **S3** | Mehrhaus-Rabatt auf S1 | `<RABATT-AUF-GRUNDGEBUEHR — HOEHE NICHT ENTSCHIEDEN>` | ab dem 2. Haus desselben Betreibers | ⬜ **offen** — Mechanik § 4, Ausarbeitung R12-B |
-| **S4** | Startgebühr (einmalig) | Hypothesen-Spanne, s. § 5 | je Objekt/Haus (Ableitung aus E-2a, **④** — der Entscheid sagt es für die Startgebühr nicht ausdrücklich) | ④ **Hypothese** |
+| **S4** | Startgebühr (einmalig) — ⚠️ **eigenständige Position, hier nur zur Übersicht mitgeführt** | Hypothesen-Spanne, s. § 5 | je Objekt/Haus (Ableitung aus E-2a, **④** — der Entscheid sagt es für die Startgebühr nicht ausdrücklich) | ④ **Hypothese** |
+
+⚠️ **Zur Einordnung von S4** (P-18): § 1 führt die Startgebühr als
+**dritte, eigenständige Position** neben Infrastruktur und
+Servicegebühr — sie steht hier nur mit in der Tabelle, damit alle
+Positionen an einer Stelle sichtbar sind. **Sie ist kein Bestandteil
+der Servicegebühr.** Praktische Folge, die für R12-B zählt: Der
+**Mehrhaus-Rabatt wirkt nach E-2 auf S1** — und damit **nicht** auf die
+Startgebühr S4. Ob er es sollte, ist offen und gehört in die
+Angebotsarchitektur.
 
 **Die Platzhalter sind absichtlich sprechend und nicht befüllt.** Ein
 plausibel aussehender Beispielbetrag in dieser Tabelle würde beim
@@ -196,8 +251,19 @@ diesem Projekt schon einmal eine unbelegte Zahl zum Anker wurde
   ⚠️ ausdrücklich für ein **anderes Leistungsbild**: „Keiner der sechs
   betreibt Sprach-/Telefoniestrecken oder meldepflichtige
   Fachprozesse." Im Hotelmarkt liegen die belegten Monatswerte höher
-  (M1 781,67–996,77 € für 20/40/50 Zimmer ②; M6 399/849/1.599 € ③).
+  (M1 781,67–996,77 € für 20/40/50 Zimmer ②; M6 **399 € für 20 Zi./3\*,
+  849 € für 75 Zi./4\*, 1.599 € für 100 Zi./5\*** ③ — ⚠️ die Quelle
+  bezeichnet diese drei ausdrücklich **nicht als Tarife, sondern als
+  „reale annäherungsweise Preisbeispiele"**, zuzüglich einer
+  **Einrichtungsgebühr unbekannter Höhe**).
   **Beides sind Zahlungsbereitschafts-Indizien, keine Preisschilder.**
+  ⚠️ **Der Größen-Scope ändert die Aussage:** Unsere Zielgröße ist
+  „10–25 Einheiten je Objekt" (§ 2.4 der Vorlage) — von den drei
+  M6-Werten liegt nur der **unterste** in dieser Nähe. *(Scope und
+  Charakter-Vorbehalt ergänzt nach Prüferbefund P-07: Die Erstfassung
+  nannte nur die Zahlenfolge und ließ die Werte damit wie ein Marktband
+  für Häuser unserer Art erscheinen — Verzerrung zugunsten einer höheren
+  Servicegebühr. Bei M1 stand der Scope im selben Satz bereits korrekt.)*
 - **E-1-Gewichtung wirkt hier mit:** Im ersten Jahr soll die
   Monatsgebühr **geringer** ausfallen — die spätere Verschiebung
   (Monatsanteil hoch, Startgebühr runter) ist ausdrücklich vorgesehen.
@@ -218,7 +284,7 @@ Beide Entscheide gehören zusammen gelesen.
 
 | Frage | Stand |
 |---|---|
-| Worauf wirkt der Rabatt? | **Auf die Grundgebühr S1** — ausdrücklich entschieden. **Nicht** auf den zimmerabhängigen Anteil S2, **nicht** auf die durchgereichte Infrastruktur (§ 2): Durchgereichte Kosten fallen je Objekt real an, ein Rabatt darauf wäre eine Subvention aus unserer Marge |
+| Worauf wirkt der Rabatt? | **Auf die Grundgebühr S1 — ausdrücklich entschieden** (Entscheide-Protokoll: „Mehrhaus-Rabatt **auf die Grundgebühr** als Stellschraube"). **④ Ableitung dieser Session, nicht entschieden:** dass er **nicht** auf den zimmerabhängigen Anteil S2 und **nicht** auf die durchgereichte Infrastruktur (§ 2) wirkt. Begründung der Ableitung: Durchgereichte Kosten fallen je Objekt real an — ein Rabatt darauf wäre eine Subvention aus unserer Marge. *(Belegstufen-Trennung ergänzt nach P-12: Entscheid und Ableitung standen im selben Satz hinter dem Wort „entschieden".)* |
 | Ab wann greift er? | **offen** — ab dem 2. Haus ist der naheliegende Schnitt, **entschieden ist er nicht** |
 | Wie hoch? | **offen** — das Entscheide-Protokoll schweigt dazu. Diese Session macht dazu **keinen Vorschlag als Festlegung** |
 | Prozent oder Staffel? | **offen** — Ausarbeitung in `handel/angebotsarchitektur.md` (E-8/R12-B) |
@@ -261,11 +327,11 @@ viele Rechtsträger dahinterstehen. **Entschieden ist das nicht.**
 
 Alle Werte **kopiert** aus `preismodell-optionen.md` § 6.2/§ 6.3
 (② BESTAND, dortige Belegstufe ③ Selbstauskunft), **plus** eine eigene
-Gegenprobe am Rohbeleg — s. § 5.4.
+Gegenprobe am Rohbeleg — s. § 5.5 *(Verweis korrigiert, P-13)*.
 
 | Schlüssel | Anbieter / Gegenstand | Einmalbetrag | Scope | Steuerbasis | Nähe-Klasse (§ 5.2) |
 |---|---|---|---|---|---|
-| **W1** | FoxifAI — n8n-Workflows auf deutschen Servern, laufender Betrieb, Wartung, persönlicher Ansprechpartner | **ab 1.920 €** | „Pakete starten bei"; Preis hängt „von der Anzahl und Komplexität der Workflows ab" | keine Angabe (USt-ID vorhanden) | **A** — bauformnächster Anker im ganzen Bestand |
+| **W1** | FoxifAI — n8n-Workflows auf deutschen Servern, laufender Betrieb, Wartung, persönlicher Ansprechpartner | **ab 1.920 €** | „Pakete starten bei"; Preis hängt „von der Anzahl und Komplexität der Workflows ab" | keine Angabe (USt-ID vorhanden) | **A** — bauformnächster Anker im ganzen Bestand. ⚠️ **schwächste Belegform der Tabelle:** Der Satz steht in einem **Ratgeber-/Vergleichs-Artikel des Anbieters über sich selbst**, nicht in einem Tarifblatt — „**eine Stufe unter einer Preisliste**" (Wortlaut der Quelle, § 6.3.2) |
 | **W2** | Smartbetrieb — Hosting DE, Backups, Updates, Monitoring, Support | **490 €** SmartAudit (anrechenbar) **+ ab 300 €** Setup | je einzelnem Workflow | keine Angabe | **A** |
 | **W3** | Prozessmeister — „KI-Agenten", 24/7-Support, Analytics | **ab 490 €** / **ab 1.990 €** | zwei Stufen | „Alle Preise zzgl. MwSt." → **netto** | **A** |
 | **W5** | cStack Solutions — n8n-Monitoring + 1 Anpassung/Monat | **ab 900 / 1.980 / 4.050 €** | drei Stufen | **Kleinunternehmer**, umsatzsteuerbefreit | **A** ⚠️ schwacher Beleg (Placeholder-Testimonials) |
@@ -326,7 +392,8 @@ Anbieter ohne Betrag (M6, Straiv) nicht mitgezählt.
 |---|---|---|
 | **Gesamtspanne der Kernmenge** | **300 – 4.195 €** | Minimum = W2-Setup „ab 300 €"; Maximum = M4-Topstufe 4.195 € |
 | **Dichtestes 400-€-Fenster** | ⚠️ **399 – 799 €** | **6 der 15** Werte: M2 399 · M2 599 · M2 799 · M2 799 · W2 490 · W3 490. **Das ist NICHT das Band der Arbeitshypothese** — s. den Kasten darunter |
-| **Zweitdichtestes Fenster (mit Betriebsbezug)** | **1.920 – 2.320 €** | **4 der 15** Werte: W1 1.920 · W5 1.980 · W3 1.990 · M4 2.295 |
+| **Rang 2 und 3** | **490 – 890 €** und **300 – 700 €** | je **5 der 15** Werte — beide ebenfalls unten, beide enthalten Klasse-A-Werte (W2 490/300, W3 490) |
+| **Erstes Fenster oberhalb von 1.000 €** | **1.920 – 2.320 €** | **4 der 15** Werte: W1 1.920 · W5 1.980 · W3 1.990 · M4 2.295. Es ist **Rang 4**, nicht Rang 2 |
 | **⭐ Arbeitshypothese für ein Haus der Pilot-Größenklasse (10–25 Einheiten)** | **rund 1.500 – 2.500 €** | Fenster 1.920–2.320 €, nach unten erweitert bis zur untersten Stufe der marktnahen Klasse C (M4 1.495 €) und nach oben gerundet |
 | **Obere Orientierung für größere Häuser** | **bis rund 4.200 €** | M4 4.195 € und W5 4.050 € — die beiden Topstufen der Kernmenge |
 
@@ -334,7 +401,18 @@ Anbieter ohne Betrag (M6, Straiv) nicht mitgezählt.
 vorhandener Wert als Fensterstart, Fensterbreite 400 €;
 Ergebnisprotokoll in `sensibel/rohbelege-R12-A/`. **Nicht im Kopf
 gezählt** — der erste Entwurf dieser Tabelle behauptete „kein anderes
-400-€-Fenster enthält mehr als drei Werte", und genau das war falsch.)*
+400-€-Fenster enthält mehr als drei Werte", und genau das war falsch.
+⚠️ **Zweite Korrektur an derselben Stelle, nach Prüferbefund P-01:** Die
+zweite Fassung nannte das Fenster 1.920–2.320 € das
+„**zweitdichteste** (mit Betriebsbezug)". Auch das war falsch — es ist
+**Rang 4**; zwei 5er-Fenster liegen dazwischen, und beide enthalten
+ebenfalls Klasse-A-Werte, während das 1.920er-Fenster mit M4 2.295 €
+selbst einen Klasse-C-Wert enthält. Der Zusatz „mit Betriebsbezug"
+rettete den Rang also nicht, er verdeckte ihn. **Beide Fehler gingen in
+dieselbe Richtung: Sie ließen das Band der Arbeitshypothese dichter
+belegt aussehen, als es ist.** Die Zahlen standen jeweils korrekt im
+eigenen Skript-Protokoll — falsch war beide Male die von Hand
+formulierte **Rangaussage** über die maschinelle Zählung.)*
 
 > ### ⚠️ Der unbequeme Befund gehört an diese Stelle, nicht in eine Fußnote
 >
@@ -359,6 +437,36 @@ gezählt** — der erste Entwurf dieser Tabelle behauptete „kein anderes
 > Das ist der Punkt, an dem **E-6** die Frage entscheidet und nicht die
 > Marktanalogie.
 
+> ### ⚠️ Offenlegung: die Spanne fällt zahlengleich mit einer gesperrten ⑤-Zahl zusammen
+> *(ergänzt nach Prüferbefund P-02)*
+>
+> `preismodell-optionen.md` § 2.2 führt eine **ausdrücklich als
+> unbrauchbar verworfene** ChatGPT-Zahl (**⑤**): „nicht unter
+> ~1.500 € netto/Monat, **1.500–2.000** für kleines Setup,
+> **2.500–4.000** bei mehreren Modulen". Sie steht dort „**genau
+> einmal** … als das, was sie ist", und § 7.5 hat daraus eine eigene
+> Konsequenz gezogen: Die oberste Rechengrößen-Spalte lautet **bewusst
+> 1.200 € statt 1.500 €**, damit die gesperrte Zahl nicht „durch die
+> Hintertür zum Anker" wird.
+>
+> **Die Arbeitshypothese oben lautet 1.500–2.500 € — beide Ränder
+> stimmen mit Bandgrenzen dieser gesperrten Zahl überein.** Das wird
+> hier offengelegt, weil es sonst der erste Eindruck jedes Lesers wäre,
+> der § 2.2 kennt — und weil eine solche Koinzidenz sich leicht als
+> **Bestätigung** liest („die Marktanalyse kommt auf dasselbe wie die
+> KI"). **Das wäre falsch.**
+>
+> **Was den Zusammenfall entschärft — und was nicht:**
+> - **Andere Größe:** Die ⑤-Zahl ist ein **Monatspreis**, die
+>   Arbeitshypothese ein **Einmalbetrag**. Es ist keine Übernahme.
+> - **Eigener Zählweg:** Die 1.500 € stammen aus M4 (1.495 €, Klasse C),
+>   die 2.500 € aus der Rundung des Fensters 1.920–2.320 € — beides oben
+>   nachvollziehbar hergeleitet.
+> - **Nicht entschärft ist die Lesbarkeit:** Wer die Spanne
+>   weiterverwendet, muss diesen Absatz mitnehmen. **Die
+>   Übereinstimmung ist Zufall der Größenordnung, kein Beleg — und erst
+>   recht keine gegenseitige Bestätigung.**
+
 **Warum die Werte unter ~1.500 € nicht die Arbeitshypothese tragen:**
 M2 (399–799 €), W2 (300 €), W3 (490 €) und W5 (900 €) bepreisen jeweils
 ein **schmaleres** Einrichtungsbild — einen einzelnen Workflow, einen
@@ -377,10 +485,15 @@ ist argumentiert, nicht gemessen.
    W5 durchgehend), **8 sind feste Stufenpreise** (M2 komplett, M4
    komplett, W2-SmartAudit). Was Kunden real zahlen, liegt bei
    „ab"-Preisen **darüber**, nicht darunter. **Bezeichnend: Die
-   „ab"-Werte sind genau die Anbieter mit Betriebsbezug** (Klasse A) —
-   die Angebote, die unserem am nächsten kommen, sind auch die, die
-   ihren Preis am wenigsten festlegen. *(Zählweg: dasselbe Skript wie
-   oben; der erste Entwurf schrieb „9 von 15" — nachgezählt sind es 7.)*
+   „ab"-Werte stammen sämtlich aus Klasse A** (Betriebsbezug) — die
+   Angebote, die unserem am nächsten kommen, sind auch die, die ihren
+   Preis am wenigsten festlegen. ⚠️ **Die Umkehrung gilt nicht:** Nicht
+   jeder Klasse-A-Wert ist ein „ab"-Wert — **W2-SmartAudit 490 €** ist
+   ein Festpreis. *(Die Erstfassung schrieb „genau die Anbieter mit
+   Betriebsbezug" und behauptete damit eine Äquivalenz, die der eigene
+   Satz zwei Zeilen weiter widerlegt — P-19.)* *(Zählweg: dasselbe
+   Skript wie oben; der erste Entwurf schrieb „9 von 15" — nachgezählt
+   sind es 7.)*
 2. **Die Steuerbasen sind uneinheitlich und werden hier nicht
    vereinheitlicht.** In der Kernmenge: netto belegt nur bei W3;
    **unbekannt** bei M2; **nicht angegeben** bei M4, W1, W2;
@@ -392,6 +505,15 @@ ist argumentiert, nicht gemessen.
    betreibt Sprach-/Telefoniestrecken oder meldepflichtige Fachprozesse
    (§ 6.3.2). Ob unser Einführungsaufwand höher liegt, ist **nicht
    gemessen** — er wird nur vermutet.
+   ⚠️ **Und der tragende Anker ist zugleich der schwächst belegte:**
+   W1 (1.920 €) bildet die Untergrenze des Fensters, auf dem die
+   Arbeitshypothese ruht, und ist der einzige Anker, der namentlich in
+   die Kreuzprobe (§ 5.4) eingeht — seine Quelle ist aber ein
+   **Selbstauskunfts-Artikel, kein Tarifblatt** (s. Tabellenzeile W1).
+   *(Ergänzt nach Prüferbefund P-03: Dieser Vorbehalt stand in der
+   Quelle in einem Fließtext-Absatz **unterhalb** der Tabelle und ging
+   beim Übertragen Tabelle→Tabelle verloren, während die analoge
+   W5-Schwäche — sie stand IN der Zeile — mitkam.)*
 4. **Keine Zahlungsbereitschafts-Deckung.** Es gibt **keinen** Beleg,
    dass ein Zielkunde einen dieser Beträge zahlt (§ 6.4). E-7 holt das
    nach — als **n=1** aus dem eigenen Pilotumfeld, nicht als Sample.
@@ -437,22 +559,37 @@ sie zeigt nur, wie viel an E-6 hängt.**
 Rohbeleg gelesen, 13.08.2026): Derselbe Anbieter, der den Stundensatz
 „160 € netto" nennt (W4), verkauft **einen Tag als Festpreis „ab 600 €
 netto"** (Rubrik „Eintrittsangebot", Tech-Check). Listen-Stundensatz und
-real angebotene Tagesvergütung gehen bei ihm um **Faktor ~2**
-auseinander (160 € × 8 h = 1.280 € gegen 600 €). Ein Eintrittsangebot
+real angebotene Tagesvergütung gehen bei ihm um **bis zu Faktor ~2**
+auseinander (160 € × 8 h = 1.280 € gegen 600 €). ⚠️ **Auch die 600 €
+sind ein „ab"-Wert** — der Faktor ist damit eine **Obergrenze der
+Divergenz, keine gemessene Divergenz** (P-16; derselbe Vorbehalt, den
+Vorbehalt 1 in § 5.3 für die Startgebühr-Anker macht). Ein
+Eintrittsangebot
 ist nicht repräsentativ — aber es belegt, dass ein Listen-Stundensatz
 die reale Tagesvergütung nach **oben** verzerren kann. **Das macht die
 Kreuzprobe oben eher optimistisch als vorsichtig.**
 
 ### 5.5 Gegenprobe der Zahlen (Positivkontrolle mit Nenner)
 
-**Jeder Einmalbetrag der Klassen A und B wurde am Rohbeleg selbst
-nachgelesen**, nicht aus dem Vorgängerdokument geglaubt. Protokoll:
+**Jeder einzelne Einmalbetrag wurde selbst nachgelesen**, nicht aus dem
+Vorgängerdokument geglaubt. Protokoll:
 `sensibel/rohbelege-R12-A/gegenprobe-einmalbetraege-2026-08-13.txt`
 (git-ignoriert).
 
-- **6 von 6** Anbietern der Klassen A/B am Rohbeleg bestätigt (W1, W2,
-  W3, W4, W5, W6) — Rohbelege aus `sensibel/rohbelege-R11-A/`
-  (Abzüge vom 12.08.2026, nur gelesen).
+- ⭐ **Nenner ist der BETRAG, nicht der Anbieter: 20 von 20
+  Einzelbeträgen** haben eine eigene Fundzeile — Klasse A/B am Rohbeleg
+  (W1 1 · W2 2 · W3 2 · W4 2 · W5 3 · W6 3 = **13 von 13**), Klasse C an
+  der Ur-Quelle `fund/wettbewerbsbild.md` (M2 4 · M4 3 = **7 von 7**).
+  Rohbelege aus `sensibel/rohbelege-R11-A/` (Abzüge vom 12.08.2026, nur
+  gelesen).
+  *(Korrigiert nach Prüferbefund **P-10**: Die Erstfassung zählte „6 von
+  6 **Anbietern**" — ein Nenner, der gar nicht anders ausfallen kann,
+  sobald je Anbieter ein Treffer genügt, während der Satz daneben
+  „jeder Einmalbetrag" behauptete. Tatsächlich fehlten die Fundzeilen zu
+  **W5 4.050 €** und **M2 599/799/799 €**; beide sind nachgezogen, die
+  Werte waren richtig — **der Befund betraf den Beleg, nicht die
+  Zahl**. W5 4.050 € trägt die Zeile „Obere Orientierung … bis rund
+  4.200 €".)*
 - **Positivkontrolle je Datei:** der Anbietername musste treffen — 5 bis
   17 Zeilen je Datei ✔ (die Suche funktioniert also je Kanal, nicht nur
   im Sammellauf).
@@ -487,7 +624,7 @@ wird, sieht in einer Spanne wie eine Obergrenze aus.
 
 | Punkt | Stand | Träger / nächster Schritt |
 |---|---|---|
-| **Preishöhe (F-III)** — Grundgebühr, Zimmeranteil, konkrete Startgebühr | **offen** | braucht **E-6** (Aufwand, Ruffy/heypensio) und möglichst **E-7** (Zahlungsbereitschaft, FUND2-Gespräch ~23.08.) |
+| **Preishöhe (F-III)** — Grundgebühr, Zimmeranteil, konkrete Startgebühr | **offen** | ⭐ **Entscheider: der USER.** Das Briefing 13.08.2026 führt „**Startgebühr-HÖHE (nach MKT-Schätzung + E-6)**" ausdrücklich unter „**Offene User-Entscheide**" — die Reihenfolge lautet also: **MKT liefert die Schätzung → E-6 liefert den Aufwand → der User entscheidet.** E-6 (Ruffy/heypensio) und E-7 (FUND2-Gespräch ~23.08.) sind **Zulieferer, keine Entscheider**; sie **ermitteln** die Höhe nicht, sie machen sie entscheidbar. *(Ergänzt nach Prüferbefund P-05 — die Erstfassung nannte nur die Zulieferer und ließ die Zeile ohne Träger.)* |
 | **Architektur-Entscheid** (eigener Server je Kunde ↔ geteilte Plattform) | **NICHT gefallen** | heypensio / Gesellschafter. E-3 setzt nur die **Rechenbasis** dieser Liste |
 | **n8n-Lizenzfrage Z-6** | **ungeklärt** — kann die W-B-Rechenbasis kippen | **Ruffy/heypensio** (E-4), gebündelt mit der n8n-MCP-Entscheidungsvorlage, **ohne Kalendertermin** |
 | **Höhe und Mechanik des Mehrhaus-Rabatts** | **offen** | `handel/angebotsarchitektur.md` (E-8, R12-B) — **zuerst die Zuordnungsfrage Betreiber ↔ Firmierung, § 4** |

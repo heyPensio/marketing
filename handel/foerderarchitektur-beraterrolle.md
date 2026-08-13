@@ -207,16 +207,22 @@ mehr Tage (P07D-17).
 > die Kollision stammt aus zwei getrennt nummerierten
 > Abschlussmeldungen und ist hier nur benannt, nicht aufgelöst.)*
 >
-> **Der Wert — Marktband 125–160 €/Stunde**, Leseweg `SEKUNDÄR`,
-> Quellenart `ANBIETER-SELBST` + `EIGEN`. Herkunft:
+> **Der Wert — Marktband 125–160 €/Stunde.** Herkunft:
 > `handel/preismodell-optionen.md` § 4.2 (B3) und § 6.3.2, **drei
-> Quellen**:
+> Quellen**. **Belegstufe je Zeile getrennt** (die Notation dieses
+> Dokuments, § 0 — Leseweg × Quellenart; ⚠️ die Marken ①–⑤ des
+> Quelldokuments werden hier **nicht** verwendet, weil dieses Dokument
+> ihre Legende nicht führt — P-14):
 >
-> | Quelle | Wert | Art |
-> |---|---|---|
-> | melevo, Projektberatung (M5) | **ab 130 €/h** | `ANBIETER-SELBST` (③) |
-> | AngelStone Media, Wien (W4) | **160 €/h netto** | `ANBIETER-SELBST` (③), am Rohbeleg gelesen |
-> | LeanFlow Consulting (W6) | **150 / 130 / 125 €/h** | ⚠️ **`EIGEN`** — die Quelle nennt Monatspreis (150/390/750 €) **und** Stundendeckel („bis 1/3/6 Stunden"); der Quotient ist **unsere Rechnung** |
+> | Quelle | Wert | Leseweg | Quellenart |
+> |---|---|---|---|
+> | melevo, Projektberatung (M5) | **ab 130 €/h** | `SEKUNDÄR` (aus dem Repo-Dokument übernommen) | `ANBIETER-SELBST` |
+> | AngelStone Media, Wien (W4) | **160 €/h netto** | `BYTE` (R12-A hat den Rohbeleg selbst gelesen) | `ANBIETER-SELBST` |
+> | LeanFlow Consulting (W6) | **150 / 130 / 125 €/h** | `SEKUNDÄR` | ⚠️ **`EIGEN`** — die Quelle nennt Monatspreis (150/390/750 €) **und** Stundendeckel („bis 1/3/6 Stunden"); der Quotient ist **unsere Rechnung** |
+>
+> **Das BAND als solches ist `SEKUNDÄR`** (es stammt aus
+> `preismodell-optionen.md`); selbst gelesen wurden die W4-Zeile und der
+> Gegenbefund unten.
 >
 > ⚠️ **Drei Einschränkungen, ohne die der Wert falsch verwendet wird:**
 > 1. **Es ist ein MARKTpreis, nicht unser Kostensatz.** Ein interner
@@ -238,13 +244,16 @@ mehr Tage (P07D-17).
 > deckt aber das obere Ende des Bands nicht ab.
 >
 > ⚠️ **Gegenbefund aus derselben Erhebung, damit die Rechnung nicht zu
-> günstig gelesen wird** (① am Rohbeleg selbst gelesen, R12-A
-> 13.08.2026, `sensibel/rohbelege-R11-A/agent2-angelstone-preisliste.txt`):
+> günstig gelesen wird** (`BYTE`/`ANBIETER-SELBST`, R12-A hat den
+> Rohbeleg am 13.08.2026 selbst gelesen:
+> `sensibel/rohbelege-R11-A/agent2-angelstone-preisliste.txt`):
 > Genau der Anbieter, der „160 €/h netto" nennt (W4), verkauft **einen
 > Tag als Festpreis „ab 600 € netto"** (Rubrik „Eintrittsangebot",
 > Tech-Check, „1 Tag · Festpreis"). Listen-Stundensatz und real
-> angebotene Tagesvergütung gehen bei ihm um **Faktor ~2** auseinander
-> (160 × 8 = 1.280 € gegen 600 €). Ein Eintrittsangebot ist nicht
+> angebotene Tagesvergütung gehen bei ihm um **bis zu Faktor ~2**
+> auseinander (160 × 8 = 1.280 € gegen 600 €). ⚠️ **Auch die 600 € sind
+> ein „ab"-Wert** — der Faktor ist damit eine **Obergrenze der
+> Divergenz, keine gemessene Divergenz** (P-16). Ein Eintrittsangebot ist nicht
 > repräsentativ — aber es zeigt, dass **ein Listen-Stundensatz die real
 > gezahlte Tagesvergütung nach oben verzerren kann.** Wer aus dem Band
 > eine Kalkulation baut, rechnet damit eher optimistisch.

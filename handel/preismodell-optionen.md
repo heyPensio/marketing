@@ -2,10 +2,17 @@
 
 > ## 🟢 NACHTRAG 13.08.2026 — die acht Entscheidungspunkte sind beantwortet
 >
-> **Der gesamte Text unterhalb dieses Kastens ist die Fassung vom
-> 12.08.2026 und bleibt unverändert lesbar.** Was der Entscheid vom
-> 13.08.2026 überholt, ist an der jeweiligen Stelle mit einem
-> Vorwärtsverweis markiert — nichts ist stillschweigend neu gefasst.
+> **Der fortlaufende Text unterhalb dieses Kastens ist die Fassung vom
+> 12.08.2026 und bleibt unverändert lesbar** — er ist um Nachträge
+> **ergänzt**, aber an keiner Stelle ersetzt. Alles, was der Entscheid
+> vom 13.08.2026 überholt, trägt an seiner Stelle einen als
+> **🟢 Nachtrag 13.08.2026** markierten Kasten; nichts ist
+> stillschweigend neu gefasst. **Mechanischer Beleg:** Der Commit, der
+> diese Nachträge einbrachte, enthält über alle drei berührten Dateien
+> **0 gelöschte Zeilen** bei 1.078 hinzugefügten.
+> *(Formulierung präzisiert nach Prüferbefund P-15: Die Erstfassung
+> sagte „der gesamte Text unterhalb" — unterhalb stehen aber 15 weitere
+> Nachtragskästen vom 13.08.)*
 >
 > Am 13.08.2026 hat der User **alle acht Entscheidungspunkte**
 > (E-1…E-8, inkl. E-2a und E-5a) beantwortet. Die Antworten stehen
@@ -715,6 +722,34 @@ sie gehören an jede Verwendung dieser Tabelle:
    Nachbarmarkts reichen von rund 50 € bis 999 €**, mit einem
    Schwerpunkt zwischen 100 und 500 €.
 
+> **🟢 Nachtrag 13.08.2026 (R12-A) — W1 ist ein „ab"-Wert, nicht
+> 1.920 € fest.**
+>
+> Die Rohbeleg-Gegenprobe der Runde R12-A hat den Satz im Wortlaut
+> gelesen (`sensibel/rohbelege-R11-A/agent2-foxifai-kosten.txt`):
+> „**Pakete starten bei** 1.920 Euro Einrichtung plus ab 100 Euro
+> monatlich, jährlich kündbar. **Der genaue Preis hängt von der Anzahl
+> und Komplexität der Workflows ab.**"
+>
+> **Richtig ist damit „ab 1.920 €".** Betroffen sind vier Stellen
+> dieses Papiers, die den Wert als Festbetrag führen — sie bleiben
+> stehen und sind hiermit **gemeinsam präzisiert**:
+> **§ 6.3.2** (Tabellenzeile W1, Spalte „Einmalig") · **§ 7.1**
+> („verlangt 1.920 € Einrichtung") · **§ 7.5** (Schlussabsatz: „nimmt
+> 1.920 € Einrichtung") · **§ 11** (Vorspann zu E-1: „W1: 1.920 € ③").
+>
+> **Warum das nicht kosmetisch ist:** Ein „ab"-Wert, der als Festpreis
+> zitiert wird, sieht in einer Spanne wie eine **Obergrenze** aus,
+> während er eine **Untergrenze** ist. Die Fehlerrichtung ist harmlos
+> (real liegt der Preis eher höher), die Klasse nicht.
+>
+> *(Herkunft: Prüferbefund **P-04** der Runde R12-A. Der Befund entstand
+> in der abgeleiteten Datei `handel/preisliste-vorlaeufig.md` § 5.5 —
+> und wäre dort steckengeblieben: Deren Vorrangklausel („bei Widerspruch
+> gewinnt `preismodell-optionen.md`") hätte ausgerechnet die
+> unpräzisere Fassung gewinnen lassen. **Wer eine Ableitung schärft,
+> zieht die Quelle im selben Zug nach.**)*
+
 ⚠️ **Belegstufe W1 (wichtig, weil W1 der nächste Nachbar ist):** Der
 Satz „Pakete starten bei 1.920 Euro Einrichtung plus ab 100 Euro
 monatlich, jährlich kündbar" steht in einem **Ratgeber-/Vergleichs-
@@ -928,9 +963,15 @@ Supabase-Scopes. Alle zwölf Zellen sind neu gerechnet.)*
 > laufenden Kosten (W-A/W-B gemittelt). Nach **E-3** ist die
 > Rechenbasis **W-B allein**, dessen Mitte bei **48 €** liegt
 > (38–58 €, § 4.1). Der Nenner sinkt dadurch von 355 € auf 352 € (bei
-> 400 €/Monat), die Break-even-Werte steigen um **rund 0,9 %**
-> — durchgängig, weil sich nur der Nenner ändert (Zählweg:
-> 355 ÷ 352 = 1,0085). **Die Tabelle wird deshalb NICHT neu gerechnet:**
+> 400 €/Monat), die Break-even-Werte steigen um **höchstens rund
+> 0,9 %** (Zählweg: 355 ÷ 352 = 1,0085). ⚠️ **Genauer, nach
+> Prüferbefund P-08:** Der Nennerwechsel ist ein **absoluter** Abzug von
+> 3 €, seine **relative** Wirkung sinkt mit steigendem Monatspreis —
+> **+0,85 % in der 400-€-Spalte, +0,40 % bei 800 €, +0,26 % bei
+> 1.200 €**. Die Erstfassung schrieb „durchgängig 0,9 %"; durchgängig
+> ist der **Mechanismus**, nicht die **Größe**. Der Schluss bleibt in
+> allen drei Spalten derselbe, weil 0,85 % der Maximalwert ist.
+> **Die Tabelle wird deshalb NICHT neu gerechnet:**
 > Eine Verschiebung unter einem Prozent an einer Illustration, deren
 > Zähler (B1) überhaupt nicht erhoben ist, wäre erfundene Genauigkeit.
 > Sie bleibt, was sie ist — eine Illustration der Formel, keine
@@ -1221,6 +1262,17 @@ Einmalzahlung (M4: 1.495–4.195 € ③ · W1: 1.920 € ③ · W6: ab 7.000 �
 > „geringer" ausfällt. **Auftrag aus dem Entscheid:** die Höhe **sofort
 > als Spanne aus den Marktankern schätzen**, ausdrücklich als
 > Hypothese; **belastbar erst nach E-6.**
+>
+> ⭐ **Wer die Höhe am Ende entscheidet: der USER** *(ergänzt nach
+> Prüferbefund P-05)*. Das Briefing vom 13.08.2026 führt die
+> **Startgebühr-HÖHE** unter „**Offene User-Entscheide** (Rest nach dem
+> heutigen Abarbeiten)" — wörtlich: „Startgebühr-HÖHE (nach
+> MKT-Schätzung + E-6)". Die Reihenfolge lautet damit: **MKT liefert die
+> Schätzung → E-6 liefert den Aufwand → der User entscheidet.**
+> **E-6 und E-7 sind Zulieferer, keine Entscheider** — sie ermitteln die
+> Höhe nicht, sie machen sie entscheidbar. *(Die Erstfassung dieses
+> Kastens nannte nur die Zulieferer; damit stand der wichtigste offene
+> Posten dieser Arbeitslinie ohne Träger da.)*
 > → Umgesetzt in **`handel/preisliste-vorlaeufig.md`**, Abschnitt
 > **„Startgebühr — Herleitung der Hypothesen-Spanne"**, durchgehend
 > **④** gekennzeichnet.
@@ -1580,8 +1632,14 @@ Einführungskosten aus dem Cashflow, ohne Bindungsklausel) und eine
 
 ## 13. Grenzen dieses Papiers (was NICHT geprüft wurde)
 
-> **🟢 Nachtrag 13.08.2026 — welche Grenzen der Entscheid berührt (drei
-> von vierzehn), und welche NICHT:**
+> **🟢 Nachtrag 13.08.2026 — welche der 14 Grenzen der Entscheid
+> berührt, und welche NICHT.** Von den 14 sind unten **fünf** einzeln
+> aufgeführt; **berührt** sind davon **zwei** (Nr. 8 präzisiert, Nr. 14
+> verschärft), die anderen drei sind einzeln benannt, weil sie
+> **unverändert offen** bleiben und leicht als erledigt gelesen würden.
+> *(Zähler korrigiert nach Prüferbefund P-09: Die Erstfassung schrieb
+> „drei von vierzehn" — eine Zahl, die zu keiner Lesart der eigenen
+> Tabelle passt. Der Nenner 14 stimmt.)*
 >
 > | Grenze | Stand nach dem 13.08.2026 |
 > |---|---|

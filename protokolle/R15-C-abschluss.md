@@ -1,6 +1,6 @@
 # R15-C — Abschluss Lucky Roux: Wächter-Reichweite + Hygiene
 
-**Session:** R15-C · **Rolle:** Lucky Roux · **Datum:** 14.08.2026  
+**Session:** R15-C · **Rolle:** Lucky Roux · **Datum:** 14.08.2026
 **Scope geschrieben:** `akquise/pruefe-zitate.js`,
 `akquise/selbsttest-zitate.md`, dieses Protokoll. Die geprüften Dokumente
 und der Wahrheits-Kanal wurden nicht angefasst.

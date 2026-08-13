@@ -853,7 +853,16 @@ Diese Punkte haben Außenwirkung und werden nicht von der Session festgelegt (CL
 > | **N-13** | **Zwei Zahlen ohne Zählweg:** „199 Treffer für Verbraucher" ist nur **case-insensitive** reproduzierbar (case-sensitiv: 187); „109 für DSGVO" ist case-sensitiv. Zählweg an die Zahl schreiben |
 > | **N-14** | **Neu gegenüber Teil B:** DSGVO-Verstöße bei Werbung sind über § 3a UWG abmahnfähig — auch durch **Mitbewerber**. Teil B behandelt nur UWG-Verstöße und die BGB-Schiene (die Frage selbst steht unten als „Streitstand nicht abschließend erhoben"; neu ist der Beleg) |
 
-Ausdrücklich als **nicht erhoben** gekennzeichnet — „nicht gefunden" ist hier nirgends als „existiert nicht" zu lesen:
+> ⭐ **Nachtrag 13.08.2026 (R13-B) — O-9 wird hiermit auch in DIESEM
+> Dokument als offener Posten geführt.** Bis zu diesem Nachtrag stand
+> er hier nur als Befund-Merker (N-10 oben); Aussagen der Klasse „in
+> der Rechtsmatrix nirgends geführt" (O-8 § 5.5/§ 11.1, Regelwerk
+> § 10 O-9 — je zum Messstand `b2cfa12~1` korrekt) sind damit für den
+> heutigen Stand überholt. **Geführt heißt nicht entschieden.**
+>
+> | Posten | Inhalt | Stand | Träger / Fälligkeit |
+> |---|---|---|---|
+> | **O-9** | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** — Zweckänderung: Impressumsdaten sind zur **Anbieterkennzeichnung** veröffentlicht, nicht zu Werbezwecken; ob die Weiterverwendung zu Werbezwecken mit dem Ursprungszweck vereinbar ist, verlangt die Aufsicht ausdrücklich zu prüfen (DSK-Orientierungshilfe Ziff. 1.5 — Volltext-Zitat in `akquise/interessenabwaegung-o8.md` § 5.2, Prüfpunkt C-8; als offener Posten geführt dort in § 5.5/§ 11.1) | **OFFEN — weder entschieden noch geprüft.** Die Prüfung nimmt keine Marketing-Session selbst vor; anwaltlicher Rat ist das Gate. Solange O-9 offen ist, steht neben der Impressums-Fallgruppe (FG-4 der Abwägung) ein **zweiter** ungeklärter Rechtsgrund — das verschärft das Risikobild, es entlastet nicht (O-8 § 5.5) | **MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand.** ⭐ Fällig **vor dem ERSTEN DATENSATZ** (Listenaufbau), nicht erst vor dem Versand — LG Düsseldorf Rn. 87, Herleitung O-8 § 9.1/§ 11.1 (Rn.-87-Verschärfung, R9) | — „nicht gefunden" ist hier nirgends als „existiert nicht" zu lesen:
 
 | Punkt | Stand |
 |---|---|

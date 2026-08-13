@@ -160,6 +160,16 @@ Aus dem Kasten in 2.2, **ohne Umformulierung** in Pflichten übersetzt:
 | **W-b3** | „Werbesperrdatei vor dem ersten Versand (D2 Punkt 2)" | § 7.3 — Sperrdatei und Abgleichspflicht |
 | **W-b4** | „Restrisiko-Vermerk im Verarbeitungsverzeichnis-Eintrag (D2 Punkt 3)" | § 3, Pflicht 3 — Textbaustein für den VVT-Eintrag |
 
+> 📌 **Fälligkeits-Vorwärtsverweis (Nachtrag 13.08.2026, R13-B):** Das
+> „vor dem ersten Versand" in W-b3 ist Zitat des User-Entscheids und
+> bleibt als solches unverändert. Als FÄLLIGKEIT ist es durch die
+> Rn.-87-Verschärfung überholt: Die Vorkehrungen müssen **vor dem
+> ersten Datensatz** (Listenaufbau) stehen, nicht erst vor dem Versand
+> — Herleitung im Nachtrags-Kasten bei § 3 Pflicht 4 (Prüferbefund
+> Q-04, R9) und `interessenabwaegung-o8.md` § 11.1. Wer früher fertig
+> sein muss, verstößt nicht gegen den Entscheid — die Verschärfung
+> zieht die Frist nur nach vorn.
+
 ---
 
 ## 3. Die sechs D2-Bau-Pflichten — „Was gebaut werden muss, bevor der erste Kontakt rausgeht"
@@ -174,6 +184,39 @@ rausgeht"); die Spalte rechts ist die Umsetzung dieser Session.
 > 4. **Dokumentierte Abwägung** nach Art. 6 Abs. 1 lit. f — je Datenfeld die Erforderlichkeit.
 > 5. **Lead-Bogen für Messen** mit abgesetztem, unangekreuztem Einwilligungsfeld, Widerrufshinweis und Datenschutzhinweis zum Mitnehmen.
 > 6. **Quellenprotokoll je Adresse** — aus welcher Quelle sie stammt (Art. 14 Abs. 2 lit. f verlangt die Angabe) und ob deren Nutzungsbedingungen Werbung erlauben.
+
+> ### 📌 NACHTRAG 13.08.2026 (R13-B) — die B-Pflichten aus der Interessenabwägung sind eingearbeitet
+>
+> Quelle: `akquise/interessenabwaegung-o8.md` § 10 (*Bau-Pflichten, die
+> aus dieser Abwägung folgen*). **Zählweg:** Die dortige Tabelle trägt
+> **acht Zeilen B-1…B-8; B-8 (Robinsonlisten-Abgleich) ist dort
+> ersatzlos GESTRICHEN** (Prüferbefund Q-09, 12.08.2026) — übernommen
+> sind die **sieben aktiven Pflichten B-1…B-7**. Formulierungen wie
+> *acht zusätzliche Bau-Pflichten* (u. a. im Nachtrags-Kasten bei
+> Pflicht 4 unten) zählen die gestrichene Zeile mit.
+> **Fälligkeit:** vor dem **ERSTEN DATENSATZ** (Listenaufbau), nicht
+> erst vor dem Versand — Herleitung im Nachtrags-Kasten bei Pflicht 4
+> (Prüferbefund Q-04) und in `interessenabwaegung-o8.md` § 11.1; hier
+> nicht wiederholt.
+> ⚠️ **Namensraum-Hinweis:** „B-x" bezeichnet in DIESEM Kasten und den
+> zugehörigen Nachträgen die **Bau-Pflichten aus O-8 § 10**. Dieselben
+> Kurzzeichen kommen in diesem Dokument auch als **Leitsession-BEFUNDE**
+> vor (Befund B-3 im Geltungsvermerk § 2.1, Befund B-8 im AVV-Absatz
+> § 7.4) — zwei verschiedene Serien; die Kollision stammt aus den
+> Quellen, nicht aus diesem Nachtrag, und wird hier nur sichtbar
+> gemacht.
+> **Verortung** (jede B-Pflicht ERGÄNZT oder SCHÄRFT eine bestehende
+> Stelle, dupliziert nicht — Dublettenregel der Doku-Hygiene):
+>
+> | # | Kern | Eingearbeitet in |
+> |---|---|---|
+> | B-1 | Impressums-Werbewiderspruch prüfen und aussteuern | § 7.1 (Aufnahme-Ablauf) + § 9 rote Linie 13 |
+> | B-2 | Elektronischer Widerspruchsweg + gekoppelte TOM-Pflicht | § 3 Pflicht 2 |
+> | B-3 | Individuelles Antwortschreiben auf jeden Widerspruch | § 7.3 (R-B10) |
+> | B-4 | Löschwunsch ≠ Widerspruch (enger Sperrdatei-Fall) | § 7.3 (R-B11) |
+> | B-5 | Versionierung der Informationstexte | § 3 Pflicht 1 |
+> | B-6 | Wellenprotokoll mit Fallgruppen-Anteil | § 6.1 — ⚠️ Abweichung vom §§-3/7-Planzielort (Projektquelle § 7): die Vorform (O-3-Wellenprotokoll) lebt in § 6.1, dorthin nachgezogen statt zweite Fundstelle anzulegen |
+> | B-7 | Berechtigtes Interesse im Brief ausformuliert | § 3 Pflicht 1 (bestehende Mindestumfang-Zeile geschärft) |
 
 ### Pflicht 1 · Datenschutzinformation für Geschäftskontakte
 
@@ -205,6 +248,27 @@ hängen am offenen Posten **F-7** (Firmierung/Rebrand) — der Rohtext ist
 ohne Namen baubar, die Veröffentlichung nicht (`akquise/akquiseplan.md`
 § 3.1, S5).
 
+> 📌 **Nachtrag 13.08.2026 (R13-B) — zwei Schärfungen aus der Abwägung**
+> (`interessenabwaegung-o8.md` § 10; Index-Kasten am Kopf von § 3):
+>
+> - **B-5 · Versionierung der Informationstexte.** Der Art.-14-Beileger
+>   und der Widerspruchs-Kasten bekommen eine **Versionsnummer**; je
+>   Welle wird protokolliert, welche Version an welche Adressen ging —
+>   „revisionsfeste Dokumentation der tatsächlich genutzten Texte mit
+>   Versionsnummer" (DSK Ziff. 2.1, Belegstufe ① A, zitiert nach
+>   `interessenabwaegung-o8.md` § 10 B-5). Deckt sich mit dem
+>   Kanon-Versionsschema `v1-<Datum>` (Baustein `freigabe-vorlagen`;
+>   Pflicht 5 verlangt die Textversion am Messestand bereits). Das
+>   Wellenprotokoll (§ 6.1, B-6) führt die Textversion als Pflichtfeld.
+> - **B-7 · Das berechtigte Interesse muss AUSFORMULIERT in den
+>   Beileger.** Die bestehende Mindestumfang-Zeile oben („das konkret
+>   verfolgte berechtigte Interesse, ausformuliert — nicht
+>   ‚Marketingzwecke'") wird konkretisiert, nicht dupliziert: Der
+>   auszuformulierende Text ist der Kern von
+>   `interessenabwaegung-o8.md` § 3.2, in Kundensprache — Pflichtangabe
+>   nach Art. 14 Abs. 2 lit. b (Belegstufe ① A; DSK Ziff. 2.1; § 10
+>   B-7).
+
 ### Pflicht 2 · Werbesperrdatei
 
 **Status: nicht gebaut. Sie muss VOR dem ersten Versand stehen** (W-b3).
@@ -229,6 +293,30 @@ Sperrdatei ist eine **eigene, von der Zielkundenliste getrennte** Datei,
 die auch dann bestehen bleibt, wenn ein Listeneintrag gelöscht wird. Sie
 enthält nur, was zum Sperren nötig ist (Firma, Anschrift, ggf. Kanal-Kennung,
 Datum und Weg des Widerspruchs) — sie ist keine Zweitliste.
+
+> 📌 **Nachtrag 13.08.2026 (R13-B) — B-2 · Elektronischer
+> Widerspruchsweg trotz reinem Briefkanal** (`interessenabwaegung-o8.md`
+> § 10 B-2; die Kopplung zuerst, dann die Pflicht):
+>
+> - ⭐ **Die daran gekoppelte TOM-Pflicht gehört untrennbar dazu** — in
+>   der Quelle ausdrücklich als Prüferfang nachgetragen (Q-06,
+>   12.08.2026, dort wörtlich: *Die Vorfassung übernahm die Pflicht und
+>   ließ ihre Bedingung weg*); sie darf beim Verdichten nicht erneut
+>   abfallen:
+>   „Wer eine E-Mail-Adresse bereitstellt, muss durch
+>   technisch-organisatorische Maßnahmen gewährleisten, dass E-Mails,
+>   die sich auf Betroffenenrechte beziehen, entweder nicht im
+>   Spam-Ordner landen oder dort jedenfalls dennoch umgehend zur
+>   Kenntnis genommen werden (Art. 24 DS-GVO)" (DSK Ziff. 5.3, ① A,
+>   zitiert nach § 10 B-2).
+> - Die Pflicht selbst: „Im Sinne des Erleichterungsgebots nach Art. 12
+>   Abs. 2 S. 1 DS-GVO ist für die Einlegung des Werbewiderspruchs auch
+>   eine elektronische Kommunikationsmöglichkeit anzubieten" (ebenda).
+>   **Der Brief trägt also eine E-Mail-Adresse für Datenschutzbelange**
+>   — obwohl E-Mail als WERBEkanal gesperrt bleibt (R-A1): die Adresse
+>   ist Betroffenenrechte-Weg, kein Werbekanal. Formlose Eingänge über
+>   **jeden** Kanal müssen denselben Weg nehmen (Erfassungsweg oben —
+>   bestehende Anforderung, hier geschärft, nicht dupliziert).
 
 ### Pflicht 3 · Verarbeitungsverzeichnis-Eintrag
 
@@ -312,6 +400,12 @@ gelegentlich" (Rechtsmatrix C6).
 > - **Neu offen:** die **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO**
 >   (Zweckänderung Anbieterkennzeichnung → Werbung), in diesem Regelwerk
 >   und in der Rechtsmatrix bisher nirgends geführt — dort § 5.5/O-9.
+>   *(Nachtrag 13.08.2026, R13-B: Das „nirgends geführt" galt dem Stand
+>   vor R9 und ist überholt — O-9 wird inzwischen GEFÜHRT: hier in § 10
+>   (seit 12.08.2026) und seit 13.08.2026 auch in
+>   `handel/kanal-rechtsmatrix.md`, Abschnitt „Offene Punkte und
+>   Belegstufen-Grenzen". Geführt heißt nicht entschieden — O-9 selbst
+>   bleibt OFFEN.)*
 > - Der anwaltliche Rat vor dem ersten Massenversand (Geltungsgrenze der
 >   Rechtsmatrix) ist **nicht** ersetzt.
 > - Aus der Abwägung folgen **acht zusätzliche Bau-Pflichten** (dort
@@ -321,6 +415,11 @@ gelegentlich" (Rechtsmatrix C6).
 >   Versionierung der Informationstexte. Ihre Einarbeitung in §§ 3/7
 >   dieses Regelwerks ist **noch nicht erfolgt** (Träger: MKT-AKQ, nächste
 >   Runde).
+>   *(Nachtrag 13.08.2026, R13-B: Einarbeitung ERFOLGT — als **sieben
+>   aktive Pflichten B-1…B-7**; die achte Tabellenzeile B-8 ist in der
+>   Quelle selbst ersatzlos gestrichen (Prüferbefund Q-09, 12.08.2026),
+>   das „acht" oben zählt sie mit. Verortung aller sieben: Index-Kasten
+>   am Kopf von § 3.)*
 
 Die Prüfung folgt den drei kumulativen Stufen des
 EuGH (C-621/22 Rn. 37, über die Rechtsmatrix C2):
@@ -721,6 +820,21 @@ nachvollziehbar (warum wurde Betrieb X aufgenommen, Y nicht?). Eine
 Hotels in NF/OH, keine Ketten") löst das ohne Personenbezug — als
 Wellenprotokoll, nicht als Feld. (§ 10, O-3.)
 
+> 📌 **Nachtrag 13.08.2026 (R13-B) — B-6 · Das Wellenprotokoll ist
+> jetzt PFLICHT, nicht mehr nur Vorschlag**
+> (`interessenabwaegung-o8.md` § 10 B-6; Quellangabe dort: O-8 § 1.3/
+> § 5.4 + dieses Regelwerk § 6.1): Je Welle werden protokolliert —
+> **Auswahlkriterien (aggregiert, ohne Personenbezug) · Menge · Anteil
+> FG-4 (Impressumsquelle) · Datum des Sperrdatei-Abgleichs ·
+> Textversion** (B-5, § 3 Pflicht 1). Das ist zugleich die Antwort auf
+> **O-3** und der Beleg für „das konkrete Werbevorhaben" im Sinne der
+> Abwägung (O-8 § 1.3/§ 5.4). ⚠️ **O-3 ist damit konzeptionell
+> beantwortet, aber nichts ist gebaut** — die Umsetzung bleibt beim
+> ersten Wellenbau (§ 10-Tabelle). ⚠️ **Zielort-Abweichung
+> ausgewiesen:** Der Planzielort der B-Pflichten war §§ 3/7
+> (Projektquelle § 7); die Vorform des Wellenprotokolls lebt hier in
+> § 6.1 — nachgezogen statt zweite Fundstelle angelegt.
+
 ---
 
 ## 7. Prüfung [4] — der Betrieb: Ablauf, Fristen, Sperren
@@ -737,6 +851,20 @@ Wellenprotokoll, nicht als Feld. (§ 10, O-3.)
    versandfähig.
 5. **F-09 setzen** — ab hier läuft die Monatsuhr (§ 7.2).
 6. **Gegen die Sperrdatei prüfen** (§ 7.3).
+
+> 📌 **Nachtrag 13.08.2026 (R13-B) — B-1 · Neuer Prüfschritt zwischen
+> Schritt 2 und 3** (`interessenabwaegung-o8.md` § 10 B-1; DSK
+> Ziff. 4.2 letzter Satz, Belegstufe ① A): **Jedes Ziel-Impressum wird
+> darauf geprüft, ob dort ein Werbewiderspruch vermerkt ist; wenn ja:
+> kein Datensatz, ohne Ermessen.** Die Aufsicht nennt diesen Vermerk
+> ausdrücklich als Mittel des Betriebs. *(Lesart dieser Übernahme,
+> keine Quellenaussage: „Jedes Ziel-Impressum" hängt nicht an der
+> Adressquelle — die Prüfung läuft auch, wenn die Adresse aus einem
+> Verzeichnis stammt, nicht nur bei Q-2 = `Impressum`.)* Ob das
+> Prüfergebnis als eigenes Protokollfeld geführt wird, ist
+> Umsetzungsfrage beim ersten Wellenbau — die Pflicht selbst ist
+> unbedingt und **vor dem ersten Datensatz** wirksam (Fälligkeit:
+> § 3-Index-Kasten). Als rote Linie ergänzt: § 9 Nr. 13.
 
 ### 7.2 Die Fristenuhr — die härteste Betriebsregel
 
@@ -782,6 +910,26 @@ eingehende (A5 Nr. 3 / C5).
 **R-B8:** Der Widerspruch ist **absolut**: „Kein Ermessen, keine
 Abwägung, keine Begründungsmöglichkeit" (Art. 21 Abs. 3, C5). Es gibt
 keine Rückfrage, keine „letzte Mail", keine Reaktivierung.
+
+> 📌 **Nachtrag 13.08.2026 (R13-B) — zwei Pflichten aus der Abwägung**
+> (`interessenabwaegung-o8.md` § 10; Index-Kasten am Kopf von § 3):
+>
+> **R-B10 (B-3) · Individuelles Antwortschreiben auf jeden
+> Widerspruch** — mit Bestätigung der Beachtung und Nennung eines
+> „möglichst genau zu benennenden kurzen Zeitraum[s]", in dem noch
+> Werbung ankommen kann; dazu Unterrichtung über die Aufnahme in die
+> Sperrdatei (DSK Ziff. 5.4 und 5.1, ① A, zitiert nach § 10 B-3).
+>
+> **R-B11 (B-4) · Löschwunsch ≠ Widerspruch — der enge Scope zuerst:**
+> Die Regel gilt **NUR für den Fall, dass jemand „ausdrücklich und
+> allein eine Löschung aller Daten aus der Werbesperrdatei"
+> verlangt** — er wird darauf hingewiesen, dass er „eventuell wieder
+> Werbung erhalten kann"; im Zweifel ist zu klären, was gewollt ist
+> (DSK Ziff. 5.1, ① A, § 10 B-4). ⚠️ **Auf ein reguläres
+> Löschverlangen (allgemeiner Art.-17-Fall, § 7.4) gehört dieser
+> Hinweis gerade NICHT** — die Vorfassung der Quelle hatte genau
+> diesen Scope verloren (dort als Korrektur Q-07 markiert); er darf
+> hier nicht erneut zum allgemeinen Fall zurückdriften.
 
 ### 7.4 Auskunft, Löschung, Organisation
 
@@ -964,6 +1112,10 @@ Zum Aushängen. Jede Zeile ist oben belegt:
     abgesetzten Widerspruchshinweis IM Brief.**
 11. ⛔ **Keine Weitergabe von Adressbeständen an Dritte** (DSB-Schwelle).
 12. ⛔ **Kein Listenaufbau auf Vorrat** (Monatsuhr ab Aufnahme).
+13. ⛔ **Kein Datensatz für einen Betrieb, dessen Impressum einen
+    Werbewiderspruch trägt** — ohne Ermessen. *(Zeile ergänzt
+    13.08.2026, R13-B — B-1, § 7.1-Nachtrag; DSK Ziff. 4.2 via
+    `interessenabwaegung-o8.md` § 10.)*
 
 ---
 
@@ -973,7 +1125,7 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 |---|---|---|---|
 | **O-1** | **Wortlaut des Einwilligungstextes** (Messe, Newsletter) | D3.3 ist ausdrücklich **OFFEN**: „steht erst beim Bau der Messe-/Newsletter-Texte an; wird dem User dann als Entwurf vorgelegt". **Diese Session entscheidet ihn nicht mit** | User, beim Textbau |
 | ~~**O-2**~~ | ~~**Löschfrist für die KALTKONTAKT-Liste**~~ | ~~Die 24 Monate betreffen die Bestandskundeneigenschaft…~~ | ✅ **ENTSCHIEDEN 12.08.2026 (User): 12 Monate** nach letztem Kontaktversuch, plus Regel **O-2b** (nie kontaktierte Sätze: Disposition binnen 3 Monaten, einmal verlängerbar, kein Verfall ohne Disposition) — s. § 7.4 und `interessenabwaegung-o8.md` § 9. Offen bleibt nur die technische Umsetzung der Wiedervorlage (MKT-OPS) |
-| **O-3** | **Nachvollziehbarkeit der Auswahl** ohne gespeicherte Auswahlmerkmale | Spannung zwischen Datenminimierung (§ 6) und Dokumentationsinteresse; Vorschlag Wellenprotokoll (§ 6.1) | Beim ersten Wellenbau |
+| **O-3** | **Nachvollziehbarkeit der Auswahl** ohne gespeicherte Auswahlmerkmale | Spannung zwischen Datenminimierung (§ 6) und Dokumentationsinteresse; Vorschlag Wellenprotokoll (§ 6.1) *(Nachtrag 13.08.2026, R13-B: Antwort liegt vor — das Wellenprotokoll ist per B-6 PFLICHT geworden, § 6.1-Nachtrag; offen bleibt allein der Bau)* | Beim ersten Wellenbau |
 | **O-4** | **Wie groß ist die Zielmenge wirklich?** | Nach Abzug der Ketten-/Konzern-/Franchise-Betriebe (Positionierungspapier § 3.3) unbekannt; eine Betreiberstruktur-Schneidung existiert nicht (der amtliche Weg dazu ist selbst offen: `regionalstatistik-…` § 8 Punkt 2) | MKT-FUND / AKQ2 |
 | **O-5** | **Nachfass-Anruf nach eigenem Brief** | In der Rechtsmatrix nicht behandelt → **ungeklärt, nicht erlaubt** (R-A7.6) | MKT-HANDEL (N-1 im Akquiseplan) |
 | **O-6** | **CRM-/Werkzeugwahl** und damit die technische Form von Liste und Sperrdatei | Ausdrücklich nicht Gegenstand dieser Session | MKT-OPS |
@@ -981,7 +1133,7 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 | **O-11** *(neu 12.08.2026, R9/N-16)* | **DSK-Ziff. 4.3 „Beipack-Werbung" beim nächsten Durchgang erwähnen** | Von 29 Gliederungspunkten der DSK-Orientierungshilfe (über zwei unabhängige Strukturmerkmale gezählt) sind 18 adressiert; die 11 übrigen betreffen überwiegend die Einwilligungs-Schiene — **Ausnahme Ziff. 4.3**: die einzige Stelle, an der die Aufsicht Briefwerbung per lit. f für zulässig erklärt (Prämisse: Vertragspartner). Tatbestandlich nicht unser Fall, stützt aber die Argumentation | MKT-AKQ, nächster Durchgang |
 | **O-12** *(neu 12.08.2026, R9/R-2)* | **Das O-8-Dokument liegt außerhalb des Prüfraums von `akquise/pruefe-zitate.js`** | Das Skript prüft nur Akquiseplan und dieses Regelwerk; das risikotragende Dokument hat damit **kein dauerhaftes Prüfmittel im Repo** (R09-A hat es in eigener Sache verifiziert). Pool-Erweiterung bräuchte die Primärquellen aus `sensibel/` — eigener Zuschnitt, kein Nebenbei-Fix | nächster Prüflauf |
 | ~~**O-8**~~ | ~~⭐ **Die Interessenabwägung nach Art. 6 Abs. 1 lit. f (Stufe 3) ist nicht durchgeführt**~~ | ~~§ 6 leistet nur Stufe 2 (Erforderlichkeit je Feld). Die Abwägung selbst — Interessen des Betriebs gegen unsere, mit Ergebnis — fehlt. **Damit sind D2 Pflicht 4 und W-b1 offen**, und zwar genau das Dokument, das unter Weg (b) das Risiko trägt (Befund P-01)~~ | ✅ **ERLEDIGT 12.08.2026 (R09-A):** `akquise/interessenabwaegung-o8.md`. **Kein Blankoscheck** — was damit NICHT erledigt ist, steht im Nachtrags-Kasten bei § 3 Pflicht 4 (O-2 offen, Art. 6 Abs. 4 neu offen, acht Bau-Pflichten noch nicht eingearbeitet, anwaltlicher Rat unberührt) |
-| **O-9** *(neu 12.08.2026, R09-A)* | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** (Zweckänderung: Impressumsdaten sind zur Anbieterkennzeichnung veröffentlicht, nicht zu Werbezwecken) | Von der Aufsicht ausdrücklich verlangt (DSK-Orientierungshilfe Ziff. 1.5); in diesem Regelwerk **und** in `handel/kanal-rechtsmatrix.md` bisher **nirgends** geführt — gemessen am Stand **vor** diesem Nachtrag (`git show b2cfa12~1:<datei>`, 12.08.2026): „Art. 6 Abs. 4" **0 Treffer** in beiden Dokumenten, Positivkontrolle „Art. 6 Abs. 1" 7 bzw. 6 Treffer. *(Messstand an die Zahl geschrieben nach Prüferbefund Q-12 — ohne ihn ist die Null in genau der Datei, die sie beschreibt, nicht mehr reproduzierbar.)* | MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand |
+| **O-9** *(neu 12.08.2026, R09-A)* | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** (Zweckänderung: Impressumsdaten sind zur Anbieterkennzeichnung veröffentlicht, nicht zu Werbezwecken) | Von der Aufsicht ausdrücklich verlangt (DSK-Orientierungshilfe Ziff. 1.5); in diesem Regelwerk **und** in `handel/kanal-rechtsmatrix.md` bisher **nirgends** geführt — gemessen am Stand **vor** diesem Nachtrag (`git show b2cfa12~1:<datei>`, 12.08.2026): „Art. 6 Abs. 4" **0 Treffer** in beiden Dokumenten, Positivkontrolle „Art. 6 Abs. 1" 7 bzw. 6 Treffer. *(Messstand an die Zahl geschrieben nach Prüferbefund Q-12 — ohne ihn ist die Null in genau der Datei, die sie beschreibt, nicht mehr reproduzierbar.)* | MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand. *(Nachtrag 13.08.2026, R13-B: **Fällig ist O-9 vor dem ERSTEN DATENSATZ**, nicht erst vor dem Versand — Rn.-87-Verschärfung, s. Nachtrags-Kasten bei § 3 Pflicht 4 (Q-04) bzw. `interessenabwaegung-o8.md` § 11.1. Seit 13.08.2026 wird O-9 auch in `handel/kanal-rechtsmatrix.md` als offener Posten geführt — das dortige „nirgends geführt" ist überholt.)* |
 
 ---
 

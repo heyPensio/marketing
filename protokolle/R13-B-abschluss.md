@@ -109,6 +109,17 @@ Protokoll. Nachmessung nach den Reparaturen: Wächter unverändert
 3. **Bau der Pflichten** (Sperrdatei, Beileger, Wellenprotokoll …)
    bleibt offen — Regelwerk beschreibt weiterhin Soll-Zustände; war
    nicht Auftrag.
+4. **⚠️ Push ZURÜCKGESTELLT (Vorfahren-Regel, L-14):** Die
+   Push-Sichtung (`git log origin/main..HEAD` als eigener Befehl, dazu
+   `git branch -r --contains` nach frischem fetch) fand den fremden,
+   ungepushten Commit **`d90edb3` (R13-A)** als direkten VORFAHREN
+   meiner drei Commits — R13-A committete zwischen meinem Session-Start-
+   Pull und meinem ersten Commit, ihre Session läuft noch (uncommittete
+   `handel/`-Änderungen im Status). Jeder Push von mir — auch der
+   gezielte Refspec — würde d90edb3 mitveröffentlichen. Folge: nicht
+   gepusht, warten. **Nächster Schritt:** Push der Kette bis `fc7b9b2`
+   (bzw. Folge-Hash) nachholen, sobald d90edb3 remote ist — durch diese
+   Session bei Gelegenheit oder die Leitsession beim Review.
 
 ## Block 3 — Nebenbefunde außerhalb des Auftrags (je mit Zielort)
 

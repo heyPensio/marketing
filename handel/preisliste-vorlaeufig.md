@@ -1,6 +1,46 @@
 # Vorläufige Preisliste (MKT-HANDEL, Stufe F-III) — INTERN
 
-> ## ⚠️ Status und vier Vorbehalte (bitte zuerst lesen)
+> ## 📌 NACHTRAG 13.08.2026 nachmittags (R13-A) — was sich seit dem Bau geändert hat
+>
+> *(Markierter Nachtrag an der Stelle, an der der Leser ankommt. Der
+> Kopfkasten darunter bleibt unverändert stehen — er beschreibt den
+> Stand vom Vormittag.)*
+>
+> Das **Entscheide-Protokoll 2** vom 13.08.2026 nachmittags
+> (Briefing-Dialog, Dropdown + Freitext, **sinngemäß — Wortlaut nicht
+> archiviert**;
+> `<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`,
+> „📮 Nachtrag 4") berührt diese Liste an **drei** Stellen:
+>
+> 1. **✅ S4 fällt je HAUS an** — entschieden, nicht mehr abgeleitet
+>    (§ 3-Nachtrag).
+> 2. **✅ Der Mehrhaus-Rabatt wirkt auch auf die Startgebühr S4**, ab
+>    Haus 2 desselben **Betreibers** (AA-8 + AA-1 Lesart A;
+>    § 3-/§ 4-Nachtrag). Der bisherige Satz „der Rabatt wirkt **nicht**
+>    auf S4" ist damit überholt.
+> 3. **✅ Die Rabatt-MECHANIK ist entschieden** — ab Haus 2 (AA-5),
+>    fester Prozentsatz (AA-6), ohne Deckel mit Prüfposten nach E-6
+>    (AA-7); Zuordnung je Betreiber (AA-1). § 4-Nachtrag.
+>
+> ⚠️ **Was sich NICHT geändert hat — die vier Vorbehalte unten gelten
+> unverändert und ausnahmslos:** **Keine einzige HÖHE ist entschieden**
+> (weder S1/S2/S4 noch ein Rabattsatz; Entscheider ist der **USER**
+> nach E-6) · **Status weiterhin VORLÄUFIG und INTERN**, nichts geht
+> nach außen (Firmierungs-Vorbehalt) · **Z-6 ungeklärt**, die
+> W-B/A3-Rechenbasis kann weiterhin kippen · **B1/B2, K5/K6 nicht
+> erhoben** · **E-7 steht aus**. Die Entscheide sind sämtlich
+> **Struktur- und Zuordnungsentscheide**, keine Beträge.
+>
+> ⚠️ **Eine Abgrenzung im Kasten darunter ist damit überholt:** Der
+> Eintrag „Nicht Teil dieser Datei" führt „Leistungspakete und die
+> ausgearbeitete Mehrhaus-Rabatt-Mechanik … **Diese Liste benennt den
+> Rabatt nur als Stellschraube.**" Das stimmt so nicht mehr — **§ 4
+> trägt jetzt die entschiedene Mechanik** (Zuordnung, Einstiegspunkt,
+> Form, Deckelung, Wirkung auf S4). **Unverändert richtig bleibt die
+> Arbeitsteilung im Übrigen:** Die **Leistungspakete** (Paketform,
+> Katalog-Grenze) und die ausgearbeiteten Abwägungen gehören weiterhin
+> in `handel/angebotsarchitektur.md`; diese Liste führt die
+> **Preiswirkung**, nicht die Angebotsstruktur.
 >
 > **1. Status: VORLÄUFIG und INTERN.** Diese Datei setzt die
 > Entscheide E-1, E-2, E-2a und E-3 vom 13.08.2026
@@ -231,6 +271,66 @@ der Servicegebühr.** Praktische Folge, die für R12-B zählt: Der
 Startgebühr S4. Ob er es sollte, ist offen und gehört in die
 Angebotsarchitektur.
 
+> ### 📌 NACHTRAG 13.08.2026 nachmittags (R13-A) — zwei Angaben der Tabelle und der Kasten darüber sind ENTSCHIEDEN
+> *(markierter Nachtrag; Tabelle und Kasten oben bleiben unverändert
+> lesbar — sie geben den Stand vom Vormittag wieder)*
+>
+> **Quelle aller drei Nachträge unten:** Briefing-Dialog **13.08.2026
+> nachmittags**, Dropdown + Freitext, **sinngemäß — Wortlaut nicht
+> archiviert** (`<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`,
+> „📮 Nachtrag 4 — Entscheide-Protokoll 2: S4 + AA-1…AA-8").
+>
+> **1. ✅ S4-Bezugseinheit: je HAUS — entschieden, nicht mehr
+> abgeleitet.** Die Spalte „Bezugseinheit" der S4-Zeile führt „je
+> Objekt/Haus (**Ableitung** aus E-2a, ④ — der Entscheid sagt es für
+> die Startgebühr nicht ausdrücklich)". **Diese Einschränkung ist
+> überholt:** Der User hat die S4-Klärfrage ausdrücklich beantwortet —
+> **die Startgebühr fällt je HAUS an** (im Protokoll als „konsistent zu
+> E-2a" begründet; dort ausdrücklich: „die ④-Ableitung der Preisliste
+> ist damit ENTSCHIEDEN, nicht mehr abgeleitet"). **Belegstufe der
+> Bezugseinheit steigt damit von ④ auf entschieden.** Was **nicht**
+> steigt: Die **Höhe** von S4 bleibt ④ Hypothesen-Spanne (§ 5) — die
+> Status-Spalte „④ Hypothese" bleibt insoweit richtig.
+>
+> **2. ✅ AA-8: Der Mehrhaus-Rabatt wirkt AUCH auf S4.** Der Satz im
+> Kasten oben („der Mehrhaus-Rabatt wirkt nach E-2 auf S1 — und damit
+> **nicht** auf die Startgebühr S4. Ob er es sollte, ist offen") ist
+> **überholt**: Er wirkt **auch auf S4, ab dem 2. Haus desselben
+> BETREIBERS** — Zuordnung nach **AA-1 = Lesart A** (der Betreiber
+> zählt, Verbund-Klammer über Firmierungen hinweg; die Firmierung
+> bleibt Rechnungsempfänger). Der Entscheid fiel **bewusst gegen die
+> Empfehlung** der Angebotsarchitektur-Session (dort war „später
+> entscheiden, nach E-6" empfohlen); tragende Abwägung des Users:
+> **Mehrhaus-Abschluss wiegt schwerer als maximale
+> Erstjahres-Liquidität.** Unverändert bleibt, dass S4 **kein
+> Bestandteil der Servicegebühr** ist — die Rabattwirkung ändert die
+> Einordnung der Position nicht.
+>
+> ⚠️ **3. Die HÖHE beider Rabatte (auf S1 und auf S4) ist NICHT
+> entschieden und bleibt bis zur E-6-Messung Hypothese.** Der
+> Platzhalter **S3** deckt nach seinem Wortlaut nur den **Rabatt auf
+> die Grundgebühr** ab; für den **S4-Rabatt existiert kein
+> Platzhalter** — und diese Session legt keinen an, weil das Protokoll
+> zur Höhe schweigt. **Drei Randfragen bleiben ausdrücklich offen**
+> (keine wird hier beantwortet): (a) **derselbe** Prozentsatz für S1
+> und S4 oder zwei eigene? (b) Gilt „**ohne Deckel**" (AA-7, im
+> S1-Block entschieden) auch für S4? (c) Berührt ein rabattierter
+> Einmalbetrag die Rechtsnatur der Startgebühr (**Z-2**,
+> StB-Fragenliste Frage 13 (a))? Volltext der Randfragen:
+> `handel/angebotsarchitektur.md` § 5, ✅-AA-8-Kasten.
+>
+> **4. Die S3-Zeile der Tabelle oben ist nur noch zur HÄLFTE offen.**
+> Sie führt „⬜ **offen** — Mechanik § 4, Ausarbeitung R12-B". Richtig
+> ist ab jetzt: **Die Mechanik ist entschieden** (ab Haus 2 · fester
+> Prozentsatz · ohne Deckel · je Betreiber — AA-5/AA-6/AA-7/AA-1);
+> **offen ist allein die HÖHE**, und genau die trägt der Platzhalter
+> `<RABATT-AUF-GRUNDGEBUEHR — HOEHE NICHT ENTSCHIEDEN>` schon in
+> seinem Wortlaut. Die Angabe „ab dem 2. Haus desselben Betreibers"
+> in der Bezugseinheits-Spalte war zum Bauzeitpunkt eine Vorwegnahme
+> und ist durch **AA-5 + AA-1** jetzt **gedeckt**. Der Zusatz
+> „Ausarbeitung R12-B" ist erledigt (R12-B hat die Optionen gebaut,
+> **R13-A** trägt die Entscheide nach).
+
 **Die Platzhalter sind absichtlich sprechend und nicht befüllt.** Ein
 plausibel aussehender Beispielbetrag in dieser Tabelle würde beim
 nächsten Weiterverwenden als Preis gelesen — genau der Weg, auf dem in
@@ -306,6 +406,47 @@ Eintrag in die Liste:* Den Rabatt an den **Betreiber** zu binden
 zu verwenden, bildet den Nutzen ab, aus dem er entsteht — mehrere Häuser
 bedeuten für uns weniger Einarbeitung je Haus, unabhängig davon, wie
 viele Rechtsträger dahinterstehen. **Entschieden ist das nicht.**
+
+> ### 📌 NACHTRAG 13.08.2026 nachmittags (R13-A) — die Mechanik ist entschieden, die Höhe nicht
+> *(markierter Nachtrag; Tabelle und Vorschlagsabsatz oben bleiben
+> unverändert lesbar — sie geben den Stand vom Vormittag wieder)*
+>
+> **Quelle:** Briefing-Dialog **13.08.2026 nachmittags**, Dropdown +
+> Freitext, **sinngemäß — Wortlaut nicht archiviert** (Briefing
+> 13.08., „📮 Nachtrag 4 — Entscheide-Protokoll 2"). Volltext je Punkt
+> samt Abwägung: `handel/angebotsarchitektur.md` § 2/§ 5.
+>
+> | Zeile der Tabelle oben | Stand 13.08. nachmittags |
+> |---|---|
+> | **Worauf wirkt der Rabatt?** | ✅ **erweitert: auch auf die Startgebühr S4** (AA-8), ab Haus 2 desselben Betreibers — s. den Nachtrag in § 3. Auf **S1** unverändert (E-2). **④ und unverändert NICHT entschieden** bleibt, dass er *nicht* auf **S2** und *nicht* auf die durchgereichten § 2-Zeilen wirkt — das Protokoll schweigt dazu |
+> | **Ab wann greift er?** | ✅ **ab dem 2. Haus** (**AA-5**) — gezählt **je Betreiber** (AA-1) |
+> | **Wie hoch?** | ⬜ **weiterhin OFFEN** — das Entscheide-Protokoll 2 schweigt zur Höhe **ausdrücklich** („die HÖHE beider Rabatte bleibt bis zur E-6-Messung Hypothese"). Diese Session macht weiterhin **keinen Vorschlag als Festlegung** |
+> | **Prozent oder Staffel?** | ✅ **fester Prozentsatz** (**AA-6**). Die Staffel ist **nicht verworfen, sondern zurückgestellt** — ⚠️ ein Wechsel ist **nur bis zum ersten Bestandskunden** frei, danach **Z-4-Fall** (Preisänderung im laufenden Vertrag) |
+> | **Deckelung?** *(in der Tabelle oben nicht geführt)* | ✅ **ohne Deckel** (**AA-7**), mit **Prüfposten nach der E-6-Messung** — die Frage wird beim E-6-Rücklauf erneut aufgerufen, zusammen mit der Höhe |
+> | **Je Betreiber oder je Firmierung?** | ✅ **je BETREIBER** (**AA-1, Lesart A**) — Verbund-Klammer über Firmierungen hinweg; die Firmierung bleibt Rechnungsempfänger. Der Vorschlagsabsatz oben ist damit **eingelöst** (er war ein Vorschlag, der Entscheid kam vom User) |
+>
+> ⚠️ **Der „⚠️ offene Punkt"-Absatz oben ist damit beantwortet — aber
+> nicht erledigt:** Die Zuordnung steht (Betreiber), die dafür nötige
+> **Verbund-Definition** steht **nicht**. Sie ist als StB-Punkt
+> übergeben — `<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md`,
+> **Frage 13 (f)** (① selbst gelesen 13.08.2026): „Wann gelten mehrere
+> Häuser verschiedener Firmierungen als EIN Betreiber … der Rabatt
+> braucht eine missbrauchsfeste, prüfbare Klammer." **Übergeben ist
+> nicht beantwortet** — bis zum StB-Rücklauf gibt es keine
+> vertragsfeste Klammer, und die im Vorschlagsabsatz mitschwingende
+> Begründung („weniger Einarbeitung je Haus") bleibt **④ ungemessen**
+> (E-6).
+>
+> **Der Satz des Abschnitts oben, der unverändert gilt:** „**Das ist
+> eine Zuordnungs- und keine Preisfrage**" — genau deshalb ist sie
+> heute entscheidbar gewesen, während jede Höhe es nicht war.
+>
+> ⚠️ **Auch die ÜBERSCHRIFT dieses Abschnitts ist zu eng geworden:**
+> „Mehrhaus-Rabatt **auf die Grundgebühr**" beschreibt seit **AA-8**
+> nur noch einen von zwei Wirkungsorten — er wirkt auch auf die
+> **Startgebühr S4**. Die Überschrift bleibt hier stehen (sie ist der
+> E-2-Ursprung des Rabatts und wird an mehreren Stellen so
+> referenziert); wer sie liest, liest sie mit diesem Nachtrag.
 
 ---
 
@@ -524,6 +665,49 @@ am **oberen** Rand zu bewegen und den Monatsanteil entsprechend
 niedriger anzusetzen. **Eine Zahl folgt daraus nicht** — und die in E-1
 vorgesehene spätere Verschiebung wirkt in die Gegenrichtung.
 
+> ### 📌 NACHTRAG 13.08.2026 nachmittags (R13-A) — was die S4-Entscheide für diese Spanne bedeuten
+> *(markierter Nachtrag; § 5 oben bleibt unverändert — die Spanne
+> selbst ist NICHT betroffen und wird nicht verschoben)*
+>
+> **Quelle:** Briefing-Dialog **13.08.2026 nachmittags**, Dropdown +
+> Freitext, **sinngemäß — Wortlaut nicht archiviert** (Briefing
+> 13.08., Nachtrag 4).
+>
+> **1. Der Bezug der Spanne ist jetzt entschieden, nicht abgeleitet.**
+> Die Arbeitshypothese **1.500–2.500 €** gilt „für ein Haus der
+> Pilot-Größenklasse" — dass die Startgebühr **je Haus** anfällt, war
+> bis heute eine ④-Ableitung aus E-2a (§ 3) und ist nun **entschieden**
+> (S4-Klärfrage). **Die Spanne ändert sich dadurch nicht** — sie war
+> schon vorher je Haus gerechnet; entschieden ist ihre **Bezugsgröße**,
+> nicht ihre Höhe. **Alle vier Vorbehalte oben gelten unverändert**,
+> ebenso der ⑤-Offenlegungskasten und der unbequeme Befund (dichtestes
+> Marktfenster **399–799 €**).
+>
+> ⚠️ **2. Die Je-Haus-Entscheidung hat eine Kehrseite, die im
+> Marktvergleich nicht steckt:** Bei einem Mehrhaus-Betreiber
+> multipliziert sich S4 (**×n Häuser**). Die Marktanker der Tabelle
+> § 5.1 sind ganz überwiegend **je Kunde/Projekt** erhoben, nicht je
+> Objekt — **ein Vergleich „unsere 2.000 € gegen deren 1.920 €" ist
+> für einen Drei-Haus-Interessenten also nicht der Vergleich, den er
+> anstellt.** Das ist **④ Einordnung dieser Session**, kein neuer
+> Marktbefund und keine Aufforderung, die Spanne zu senken.
+>
+> **3. Genau dort greift AA-8 — und genau dort arbeitet er gegen
+> E-1.** Der Mehrhaus-Rabatt wirkt seit dem 13.08. **auch auf S4** (ab
+> Haus 2 desselben Betreibers, AA-1 Lesart A). Für den Mehrhaus-Fall
+> ist der Absatz oben („eher am oberen Rand") damit **nicht mehr die
+> ganze Richtung**: E-1 zieht die Startgebühr hoch, AA-8 zieht sie ab
+> Haus 2 wieder herunter. Der User hat diese Kollision **gesehen und
+> bewusst zugunsten des Mehrhaus-Abschlusses entschieden**
+> (`handel/angebotsarchitektur.md` § 5, ✅-AA-8-Kasten). **Für
+> Ein-Haus-Kunden ändert sich nichts.**
+>
+> ⚠️ **4. Keine Zahl folgt aus alledem.** Weder Spanne noch
+> Rabattsatz sind entschieden; **belastbar wird beides erst nach
+> E-6**, und die **Höhe entscheidet der USER** (§ 6). Wer aus diesem
+> Nachtrag eine Anhebung oder Absenkung der Spanne ableitet, leitet
+> mehr ab, als hier steht.
+
 ### 5.4 Kreuzprobe gegen die eigene Kostenseite
 
 Was deckt eine Startgebühr in dieser Größenordnung an Arbeitszeit ab?
@@ -634,6 +818,19 @@ wird, sieht in einer Spanne wie eine Obergrenze aus.
 | **Steuerbasis unserer eigenen Preisangaben** | **offen** | **Z-7**, Zulieferung an die Zentrale — **noch nicht übergeben** |
 | **Pilot** (inkl. LEANE) | **kostenlos**, E-5/E-5a — diese Liste gilt für ihn **nicht** | offen bleibt, **wie** die unentgeltliche Leistung gegenüber der dritten Rechtsträgerin dokumentiert wird |
 | **Vertragsfragen Z-1…Z-5** | **offen**, kein Träger benannt | Zentrale (Postkorb), Übergabe steht aus |
+
+> ### 📌 NACHTRAG 13.08.2026 nachmittags (R13-A) — drei Zeilen dieser Tabelle haben einen neuen Stand
+> *(markierter Nachtrag; die Tabelle oben bleibt unverändert)*
+>
+> | Zeile | Neuer Stand |
+> |---|---|
+> | **Höhe und Mechanik des Mehrhaus-Rabatts** | **geteilt:** Die **Mechanik ist entschieden** (AA-1 Betreiber · AA-5 ab Haus 2 · AA-6 fester Prozentsatz · AA-7 ohne Deckel · AA-8 wirkt auch auf S4) — s. § 4-Nachtrag. **Die HÖHE bleibt offen**, Entscheider ist der **USER** nach E-6. Der Zusatz „zuerst die Zuordnungsfrage" ist **erledigt** |
+> | **Leistungspakete / Paket vs. Baukasten (A2)** | **P-B als ZIELBILD** (AA-2) — ⚠️ **endgültige Festlegung erst nach E-7**; P-A und P-C bleiben lebende Optionen. Die Zeile bleibt also **nicht abschließend entschieden** |
+> | **Vertragsfragen Z-1…Z-5** | **teilübergeben** — die StB-Fragenliste der Zentrale führt seit dem 13.08. unter **Frage 13**: Z-2 (a) · Z-4 (b) · Z-1 (c) · Z-7 (d) · E-5a (e) · **Verbund-Definition (f)**, Herkunftsvermerk dort „NEU 13.08., MKT-R12-Postkorb" (① selbst gelesen 13.08.2026, `<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md`). **Nicht als eigene StB-Frage geführt: Z-3, Z-5, Z-6** — Z-5/Z-6 laufen bei heypensio (E-4). ⚠️ **Übergeben ist nicht beantwortet:** Der StB-Termin steht aus. Die Formulierungen „Übergabe steht aus" / „nicht übergeben" in dieser Tabelle, im Kopfkasten und in `preismodell-optionen.md` § 10 sind insoweit **überholt** — die Quelle nachzuziehen liegt außerhalb des R13-A-Scopes (**Nebenbefund an die Leitsession**) |
+>
+> **Unverändert:** Preishöhe (F-III) offen · Architektur-Entscheid
+> nicht gefallen · **Z-6 ungeklärt** · K5/K6 nicht erhoben · B1/B2
+> nicht erhoben · Steuerbasis Z-7 offen · Pilot kostenlos.
 
 ---
 

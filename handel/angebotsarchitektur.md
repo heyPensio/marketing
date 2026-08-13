@@ -1,5 +1,43 @@
 # Angebotsarchitektur (MKT-HANDEL, E-8) — INTERN, ENTWURF
 
+> ## 📌 NACHTRAG 13.08.2026 nachmittags (R13-A) — sieben der acht Entscheidungspunkte sind beantwortet
+>
+> *(Markierter Nachtrag an der Stelle, an der der Leser ankommt. Der
+> Kopfkasten darunter bleibt unverändert stehen — er beschreibt den
+> Stand des Baus am Vormittag und wird durch diesen Kasten nur an zwei
+> Punkten überholt.)*
+>
+> **Was sich geändert hat:** Das **Entscheide-Protokoll 2** vom
+> 13.08.2026 nachmittags (Briefing-Dialog, Dropdown + Freitext,
+> **sinngemäß — Wortlaut nicht archiviert**;
+> `<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`,
+> „📮 Nachtrag 4") beantwortet **AA-1, AA-2, AA-3 und AA-5…AA-8** —
+> **7 von 8**. **AA-4 bleibt offen** (User hat Kayhan gefragt, Antwort
+> steht aus). Jeder Entscheid steht als eigener ✅-Kasten am Punkt
+> selbst (§ 2 · § 4 · § 5), die Übersicht in **§ 7**.
+>
+> **Was sich NICHT geändert hat — und deshalb im Kopfkasten unten
+> unverändert gilt:**
+> - **Kein Betrag ist entschieden.** Punkt 4 unten („Beträge kommen
+>   hier nicht vor — mit Absicht") gilt unverändert; **jede Höhe bleibt
+>   F-III** und braucht **E-6/E-7**. Die entschiedenen Punkte sind
+>   sämtlich **Struktur**.
+> - **Der Firmierungs-Vorbehalt (2) und der Z-6-/K04-Vorbehalt (3)
+>   gelten unverändert.** Nichts geht nach außen; die W-B-Grundlage
+>   kann weiterhin kippen.
+> - **AA-2 ist ein ZIELBILD, keine endgültige Paketform-Festlegung**
+>   (endgültig erst nach E-7).
+>
+> **Nur diese beiden Formulierungen unten sind überholt:**
+> (a) „**nichts entschieden**" in Punkt 1 — richtig ist: **keine Höhe
+> entschieden, sieben Strukturpunkte entschieden**;
+> (b) die Aussage, die Zulieferung **Z-1…Z-7** sei „bislang nicht
+> übergeben" — sie ist **teilübergeben** (StB-Fragenliste Frage 13
+> (a)–(f); Einzelnachweis im Nachtrag zu § 7).
+>
+> **Status bleibt ENTWURF** — ein Angebotsdokument entsteht daraus
+> erst nach der Firmierung.
+
 > ## ⚠️ Status und Vorbehalte (bitte zuerst lesen)
 >
 > **1. Status: ENTWURF — nichts entschieden, nichts geht nach außen.**
@@ -112,7 +150,9 @@ Servicegebühr S1+S2 · Startgebühr S4; `preisliste-vorlaeufig.md` § 1).
 
 **Und vor beiden steht eine Zuordnungsfrage**, die bisher in keinem
 Dokument entschieden ist und ohne die keine Rabatt-Mechanik trägt —
-sie kommt deshalb zuerst (§ 2).
+sie kommt deshalb zuerst (§ 2). *(📌 **Überholt 13.08.2026
+nachmittags:** Sie ist entschieden — **AA-1, Lesart A**; s. den
+✅-Kasten in § 2. Der Satz beschreibt den Stand beim Bau.)*
 
 **Was bereits festliegt und hier nur referenziert wird (alle
 ✅-Vermerke: § 11 der Vorlage; Belegstufe einheitlich sinngemäß,
@@ -126,6 +166,33 @@ Wortlaut nicht archiviert):**
 | Mehrhaus-Rabatt **auf die Grundgebühr S1** als Stellschraube | **E-2** (Zusatz) | § 11 E-2; `preisliste-vorlaeufig.md` § 4 |
 | Rechenbasis W-B/A3 mit Durchreichung, unter Z-6-Vorbehalt | **E-3** | § 11 E-3 |
 | Angebotsarchitektur intern bauen | **E-8** | § 11 E-8 |
+
+> ### 📌 Nachtrag 13.08.2026 nachmittags — beide „offen gebliebenen" Strukturfragen sind beantwortet
+> *(markierter Nachtrag; Text und Tabelle oben bleiben unverändert)*
+>
+> Die beiden oben als offen benannten Fragen **und** die ihnen
+> vorgelagerte Zuordnungsfrage sind durch das **Entscheide-Protokoll 2**
+> (13.08. nachmittags) beantwortet:
+> 1. **Leistungspakete (A2)** → **AA-2: P-B als Zielbild**, endgültige
+>    Festlegung erst nach E-7 (§ 4).
+> 2. **Mehrhaus-Rabatt-Mechanik** → **AA-5** ab Haus 2 · **AA-6**
+>    fester Prozentsatz · **AA-7** ohne Deckel (Prüfposten nach E-6) ·
+>    **AA-8** wirkt auch auf S4 (§ 5). **Die Höhen sind weiterhin
+>    offen** — die Mechanik steht, die Zahlen nicht.
+> 3. **Zuordnungsfrage (§ 2)** → **AA-1: Lesart A, der Betreiber
+>    zählt.**
+>
+> ⚠️ **Die Tabelle oben ist damit nicht mehr vollständig** — sie führt
+> nur die E-Entscheide vom Vormittag. Die AA-Entscheide stehen **nicht**
+> hier (das wäre eine Zweitfassung), sondern je in ihrem ✅-Kasten und
+> in der Übersicht **§ 7**. Wer diese Tabelle als „was bereits
+> festliegt" liest, muss § 7 dazulesen. **Namentlich betroffen ist die
+> Zeile „Mehrhaus-Rabatt auf die Grundgebühr S1"** — als Wiedergabe
+> von **E-2** bleibt sie richtig, als Beschreibung der **heutigen
+> Rabattwirkung** ist sie unvollständig (AA-8: auch auf S4). *(Diese Warnung steht hier,
+> weil eine Referenz-Tabelle, die nur einen Teil trägt, sich als
+> vollständige Wiedergabe liest — dieselbe Klasse, die bei E-1 schon
+> einmal zugeschlagen hat, s. Prüferbefund PB-02 in der Zeile oben.)*
 
 ---
 
@@ -214,6 +281,53 @@ Angebotsfähigkeit schwerer wiegen als die Reichweite des Rabatts.**
 Zweck erfüllt" — korrigiert nach Prüferbefund PB-05: Das überschärfte
 die eigene ④/n=1-Beleglage in Richtung der eigenen Empfehlung.)*
 
+> ### ✅ AA-1 ENTSCHIEDEN — Lesart A: der BETREIBER zählt
+>
+> **Entscheid:** **Lesart A** — der Rabatt wird dem **Betreiber**
+> zugerechnet (Verbund-Klammer über Firmierungen hinweg). Mehrere
+> Häuser zählen zusammen, wenn derselbe Betreiber sie führt,
+> unabhängig davon, wie viele Rechtsträger dahinterstehen. Die
+> Firmierung bleibt Rechnungsempfänger.
+>
+> **Die Folge, die Lesart A auslöst, ist bereits ERLEDIGT:** Die
+> **Verbund-Definition** ist als StB-Punkt an die Zentrale gegeben —
+> `<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md`,
+> **Frage 13 (f)** („Wann gelten mehrere Häuser verschiedener
+> Firmierungen als EIN Betreiber — Gesellschafter-Identität?
+> Familienverbund? faktische Geschäftsführung? … der Rabatt braucht
+> eine missbrauchsfeste, prüfbare Klammer"; ② BESTAND, gelesen
+> 13.08.2026 durch R13-A). **Keine neue Postkorb-Meldung nötig.**
+> ⚠️ **Erledigt ist die ÜBERGABE der Frage, nicht ihre BEANTWORTUNG:**
+> Solange der StB-Termin nicht stattgefunden hat, gibt es **keine
+> vertragsfeste Verbund-Definition** — der „Dagegen"-Pol der Lesart A
+> oben (Definitionsbedarf, Prüfaufwand, Missbrauchskante) bleibt
+> vollständig stehen und ist mit diesem Entscheid **nicht** ausgeräumt,
+> sondern nur zugewiesen.
+>
+> **Was damit scharf wird:** Der Pilot-Konsequenz-Text der Lesart A
+> (drei Objekte, drei Firmierungen → Rabatt greift) ist ab jetzt die
+> geltende Zuordnung — er bleibt aber **Illustration**, weil der Pilot
+> kostenlos ist (E-5/E-5a). Der Verbund-Fall wird erst beim **ersten
+> Folgekunden** mit dieser Struktur praktisch.
+>
+> **Was NICHT mitentschieden ist:** die **Höhe** des Rabatts (F-III,
+> Entscheider ist der User nach E-6) · welche der Rechnungen den
+> Rabatt trägt, wenn ein Verbund über mehrere Firmierungen abgerechnet
+> wird (Z-7-Nachbarschaft, in der „Dagegen"-Zeile oben benannt und
+> weiter offen).
+>
+> **Quelle/Datum/Form:** Briefing-Dialog **13.08.2026 nachmittags**,
+> Dropdown + Freitext, **sinngemäß — Wortlaut nicht archiviert**
+> (`<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`,
+> „📮 Nachtrag 4 … Entscheide-Protokoll 2 — S4 + AA-1…AA-8").
+>
+> ⚠️ **Vorwärtsverweis für die beiden Lesart-Tabellen oben:** Sie
+> bleiben **vollständig stehen** (sie tragen die Abwägung, aus der der
+> Entscheid entstand) — **Lesart B ist damit verworfen**, nicht mehr
+> gleichrangig, und der Empfehlungsabsatz darüber ist durch den
+> Entscheid **überholt**. Wer die Lesart-B-Spalten liest, liest die
+> unterlegene Option.
+
 ---
 
 ## 3. Leistungs-Bestand — was überhaupt paketierbar ist
@@ -252,6 +366,40 @@ Wording.
 | Beratungs-/Agentur-Achse: Beschaffungs-Management · Website-Übernahme/-Betrieb · Raten-/Preis-/Stornostruktur · Compliance-BEGLEITUNG · StB-Koordination · Einweisung/Übergabe | E11/E13 | **real erbracht** (Belegstufe A der R04-Erhebung — überwiegend am Piloten, teils unentgeltlich) | **offen — AA-4** |
 | Beratungs-Achse über Kayhan (operative Prozesse, Personalführung, Revenue Management) | E11/E13 | **vereinbart, Ausgestaltung OFFEN** (kein Vertrag, keine Konditionen, kein Leistungskatalog — StB-Posten) | **offen — AA-4**; ohne Vertragsgrundlage nicht zusagefähig |
 | Agentur-Leistungen (Social, Ads, Bewertungsmanagement; Ausnahme: technisches Onpage-SEO ist dokumentiert) | E11/E13 | **„im Aufbau"** — ohne Substanz und ohne Träger (Negativbefund R04, für Onpage-SEO überholt) | **offen — AA-4** |
+
+> ### 📌 Nachtrag 13.08.2026 nachmittags — was AA-3 an dieser Tabelle ändert (und was nicht)
+> *(markierter Nachtrag; die Tabelle oben bleibt unverändert)*
+>
+> **Geändert — die Katalog-Grenze ist weiter gezogen:** Nach **AA-3**
+> dürfen **auch geplante / in Entwicklung befindliche Module angeboten
+> werden**. Betroffen ist vor allem die Zeile **Mobiler Concierge
+> („in Arbeit")** und, je nach Klärung der Randfrage unten, die
+> Zeilen **KI-Telefonassistent** („vorgemerkt, nicht gebaut") und
+> **Aftersales-Versand** („Konzept vorhanden, nicht gebaut").
+>
+> **NICHT geändert — die Leitplanke darüber:** „Leistungen ohne Träger
+> bekommen in Kundentexten **keine Präsens-Zusage**" gilt unverändert;
+> AA-3 wiederholt sie ausdrücklich. **Jede so angebotene Position
+> trägt sichtbar ihren Reifegrad.** Der Entscheid erweitert den
+> Katalog, nicht die Zusage — die Reifegrad-Spalte dieser Tabelle wird
+> damit **wichtiger**, nicht entbehrlich.
+>
+> ⚠️ **Die Sammelzeile „geparkt / geplant (je Quelle)" bleibt
+> geschlossen** — sie bündelt zwei Zustände, die AA-3 verschieden
+> behandelt (s. die Randfrage im ✅-AA-3-Kasten, § 4). **Wer sie öffnen
+> will, muss sie zuvor je Modul in „geparkt" und „geplant"
+> auftrennen** — an der Quelle (`fund/positionierungspapier.md` § 6),
+> nicht hier. Ihr Eintrag „nicht paketierbar, solange geparkt" bleibt
+> für die tatsächlich geparkten Module richtig.
+>
+> **Unverändert offen bleiben die drei „offen — AA-4"-Zeilen**
+> (Beratungs-/Agentur-Achse E11/E13 · Kayhan-Achse · Agentur-
+> Leistungen) — AA-4 ist der einzige unbeantwortete Punkt.
+>
+> ⚠️ **Und der Vollständigkeits-Vorbehalt über der Tabelle gilt
+> weiter:** Die Quell-Liste endet mit „u. a."; weitere Module sind an
+> der heypensio-Projektquelle zu erheben. AA-3 erweitert die
+> **Grenze** des Katalogs, nicht seine **Vollzähligkeit**.
 
 **Zwei Leitplanken, die bereits entschieden sind und jede Paketform
 binden:**
@@ -373,6 +521,44 @@ zwischen P-B und P-A. (Erstfassung schrieb „die einzige Option, die
 P-C-Dafür-Zeile trug das halbe Gegenargument; § 9-Vorbehalt ergänzt
 nach PB-12.)*
 
+> ### ✅ AA-2 ENTSCHIEDEN — P-B als ZIELBILD; endgültige Festlegung erst nach E-7
+>
+> **Entscheid:** **P-B (Basis + zubuchbare Module) als ZIELBILD** —
+> **die endgültige Festlegung der Paketform fällt erst nach E-7**
+> (Zahlungsbereitschaft, FUND2-Kayhan-Gespräch ~23.08.2026).
+>
+> ⚠️ **Das ist KEINE endgültige Paketform-Festlegung.** Wer diesen
+> Vermerk als „P-B ist gesetzt" liest, liest ihn falsch. Konkrete
+> Folgen, die aus dem Zielbild-Charakter fließen:
+> - **P-A und P-C bleiben lebende Optionen** — ihre Tabellen oben sind
+>   nicht überholt und werden nicht abgeräumt. Ergibt E-7 ein anderes
+>   Bild, wird die Form gewechselt, ohne dass etwas zurückgenommen
+>   werden muss.
+> - **Kein Arbeitsschritt, der P-B als endgültig voraussetzt, darf
+>   vorgezogen werden** — insbesondere keine Modul-Einzelpreisfindung
+>   (das ist die im „Dagegen"-Pol benannte Multiplikation der
+>   F-III-Fragen) und kein Basis-Zuschnitt als Festlegung. Der
+>   Basis-Zuschnitt-Vorschlag oben (PMS-Betrieb + betreuter Betrieb +
+>   Pre-Check-in/Meldeschein-Strecke) bleibt **④ Vorschlag**.
+> - Der **Zielbild-Vorbehalt wandert mit**: Jede spätere Stelle, die
+>   P-B nennt, trägt „Zielbild, endgültig nach E-7" mit.
+>
+> **Was der Entscheid trägt:** Die Richtung ist gesetzt — vorbereitende
+> Arbeit darf auf P-B ausgerichtet werden (Struktur, Darstellungslogik,
+> Bemessungsachse S1/S2), solange sie ohne Zahlen auskommt und einen
+> Formwechsel überlebt.
+>
+> **Was NICHT mitentschieden ist:** der Basis-Zuschnitt · welche Module
+> zubuchbar sind (das begrenzt AA-3) · jede Höhe.
+>
+> **Quelle/Datum/Form:** Briefing-Dialog **13.08.2026 nachmittags**,
+> Dropdown + Freitext, **sinngemäß — Wortlaut nicht archiviert**
+> (Briefing 13.08., Nachtrag 4).
+>
+> *(Der Empfehlungsabsatz oben lautete „P-B als Zielbild, aber erst
+> nach E-7; bis dahin keine Festlegung" — der Entscheid folgt ihm
+> einschließlich des Vorbehalts. Die Erstfassungen bleiben sichtbar.)*
+
 ### ☐ AA-3 — Entscheidungspunkt Katalog-Grenze (Reifegrad)
 
 **Klartext:** Welche Module dürfen in den Erstverkaufs-Katalog — nur
@@ -393,6 +579,56 @@ Erwartungen ohne Träger
 *Hinweis: Das ist eine Struktur-, keine Wording-Frage — die
 Wording-Ebene (wie eine Kennzeichnung formuliert wird) wartet auf die
 Firmierung und die Freigabe-Regeln für Außentexte.*
+
+> ### ✅ AA-3 ENTSCHIEDEN — auch GEPLANTE / in Entwicklung befindliche Module dürfen angeboten werden
+>
+> **Entscheid (Protokoll-Wortlaut, sinngemäß):** „Auch **GEPLANTE / in
+> Entwicklung befindliche** Module dürfen angeboten werden."
+> Mitgeführter User-Wortlaut, im Briefing selbst als **sinngemäß**
+> markiert und hier ebenfalls nur als sinngemäß geführt: „auch Sachen,
+> die geplant, aber noch in der Entwicklung sind, dürfen angeboten
+> werden."
+>
+> **Die Leitplanke bleibt BINDEND — sie ist nicht mitgelockert:** Jede
+> solche Position trägt **sichtbar ihren Reifegrad**, **keine
+> Präsens-Zusagen** (Leitplanke § 3 aus dem Positionierungspapier
+> § 6-Nachtrag; im Protokoll ausdrücklich wiederholt). Der Entscheid
+> erweitert den **Katalog**, nicht die **Zusage**.
+>
+> **Options-Zuordnung — gemessen am Protokoll, nicht ausgelegt:**
+>
+> | ☐-Option oben | vom Entscheid gedeckt? | Messung |
+> |---|---|---|
+> | nur gebaut/E2E-belegt | **nein** | Der Entscheid geht ausdrücklich darüber hinaus („auch …") |
+> | plus „in Arbeit"-Module mit sichtbarer Kennzeichnung | **ja** | „in Entwicklung befindlich" = „in Arbeit"; die Kennzeichnungspflicht nennt das Protokoll selbst |
+> | plus geparkte Module als „auf Anfrage" | **nicht gedeckt — und nicht ausdrücklich verworfen** | s. Randfrage unten |
+>
+> ⚠️ **Offene Randfrage (nicht von dieser Session entschieden):**
+> Deckt „geplant" auch **GEPARKTE** Module? Drei Befunde, die
+> auseinanderlaufen:
+> 1. Der **Freitext** des Users verbindet beides konjunktiv („geplant,
+>    **aber noch in der Entwicklung**") — geparkte Module sind nach
+>    Bestandsdefinition gerade **nicht** in Entwicklung („geparkt heißt
+>    bewusst nicht gebaut", § 6 des Positionierungspapiers). Nach dieser
+>    Lesart sind sie **nicht** gedeckt.
+> 2. Die **Kopfzeile** des Protokolls trennt mit Schrägstrich
+>    („GEPLANTE / in Entwicklung befindliche") — als Alternative
+>    gelesen, könnte „geplant" eine eigene, weitere Kategorie sein.
+> 3. Die **Bestandstabelle § 3 dieses Dokuments bündelt beides in EINER
+>    Zeile** („geparkt / **geplant** (je Quelle)") — für die dort
+>    geführten Module ist der Status nicht getrennt ausgewiesen. Wer
+>    diese Zeile öffnen will, muss sie zuvor je Modul auftrennen.
+>
+> **Konsequenz bis zur Klärung:** Der Katalog wird um **„in
+> Arbeit"-Module mit sichtbarer Kennzeichnung** erweitert (gedeckt);
+> die § 3-Zeile „geparkt/geplant" bleibt **geschlossen**, weil die
+> Deckung dort nicht feststeht. Das ist die vorsichtige, nicht die
+> entschiedene Lesart — **die Randfrage gehört dem User vorgelegt**
+> (kein Träger außerhalb).
+>
+> **Quelle/Datum/Form:** Briefing-Dialog **13.08.2026 nachmittags**,
+> Dropdown + Freitext, **sinngemäß — Wortlaut nicht archiviert**
+> (Briefing 13.08., Nachtrag 4).
 
 ### ☐ AA-4 — Entscheidungspunkt Beratungs-/Agentur-Achse
 
@@ -428,6 +664,30 @@ bestätigt damit zugleich diese Auslegung. (2) Die
 des Positionierungspapiers, StB-Posten) — sie ist heute nicht
 zusagefähig, egal welche Option gewählt wird.*
 
+> ### ⬜ AA-4 BLEIBT OFFEN — kein Entscheid (Stand 13.08.2026 nachmittags)
+>
+> **Kein Entscheid.** Das Entscheide-Protokoll 2 führt AA-4
+> ausdrücklich als offen: **„User hat Kayhan gefragt, Antwort steht
+> aus."** Es ist damit der **einzige** der acht Punkte ohne Antwort —
+> das ☐ oben bleibt unangetastet, alle drei Optionen bleiben
+> gleichrangig im Rennen.
+>
+> **Folge, die bis zur Antwort gilt:** Die **Kayhan-Achse ist nicht
+> zusagefähig** (unverändert; sie war es auch vor dem Protokoll nicht,
+> mangels Vertrag und Konditionen). Die **drei „offen — AA-4"-Zeilen
+> der Leistungstabelle in § 3** (Beratungs-/Agentur-Achse E11/E13,
+> Kayhan-Achse, Agentur-Leistungen) **bleiben offen** und werden nicht
+> vorsorglich zugeordnet.
+>
+> ⚠️ **Kein Zeitanker:** Wann die Antwort kommt, ist nicht festgelegt;
+> Träger der Frage ist der **User** (er hat gefragt). Ein
+> Wiedervorlage-Punkt existiert bislang nicht — wer AA-4 braucht, muss
+> ihn setzen.
+>
+> **Quelle/Datum/Form:** Briefing-Dialog **13.08.2026 nachmittags**,
+> Dropdown + Freitext, **sinngemäß — Wortlaut nicht archiviert**
+> (Briefing 13.08., Nachtrag 4).
+
 ---
 
 ## 5. Mehrhaus-Rabatt-Mechanik — die offenen Fragen als Optionen
@@ -448,6 +708,36 @@ Höhe fest** — jede Zahl (Prozentsatz, Staffelwerte, Deckel) ist
 F-III und braucht E-6/E-7; Platzhalter dafür führt die Preisliste
 (S3: `<RABATT-AUF-GRUNDGEBUEHR — HOEHE NICHT ENTSCHIEDEN>`).
 
+> ### 📌 Nachtrag 13.08.2026 nachmittags — der Stand dieses Abschnitts hat sich geändert
+> *(markierter Nachtrag; der Text oben bleibt unverändert lesbar)*
+>
+> **Zwei Sätze des Vorspanns sind überholt:**
+> 1. „**Alle vier Punkte unten sind Struktur-Entscheide**" — richtig,
+>    aber sie sind jetzt **getroffen**: AA-5 ✅ · AA-6 ✅ · AA-7 ✅ ·
+>    AA-8 ✅ (je eigener Kasten am Punkt).
+> 2. „Der Rabatt wirkt **auf die Grundgebühr S1**" als vollständige
+>    Wirkungsbeschreibung — **überholt durch AA-8: er wirkt auch auf
+>    die Startgebühr S4**, ab dem 2. Haus desselben Betreibers.
+>
+> **Unverändert gültig bleibt der Rest der Wirkungsabgrenzung, samt
+> seiner Belegstufe:** Dass der Rabatt **nicht** auf den Zimmeranteil
+> **S2** und **nicht** auf die durchgereichten § 2-Zeilen wirkt, ist
+> weiterhin eine **④-Ableitung der Preisliste, kein Entscheid** — das
+> Entscheide-Protokoll 2 hat dazu **geschwiegen** und AA-8 nur nach S4
+> gefragt. Der Kreis der Ableitung ist durch AA-8 also **kleiner**
+> geworden, nicht bestätigt: Wer sie kippen will, kippt weiterhin eine
+> Begründung, keinen Beschluss.
+>
+> ⚠️ **Der Satz „KEINER legt eine Höhe fest" gilt unverändert und
+> jetzt erst recht** — alle vier Entscheide sind Struktur; jeder
+> Prozentsatz, Staffelwert und Deckelbetrag bleibt F-III und braucht
+> E-6/E-7.
+>
+> **Auch die Überschrift dieses Abschnitts ist überholt:** „die
+> **offenen** Fragen als Optionen" — die vier Fragen sind beantwortet;
+> die **Optionen-Darstellungen bleiben stehen**, weil sie die Abwägung
+> tragen, aus der die Entscheide entstanden sind.
+
 ### ☐ AA-5 — Ab wann greift der Rabatt?
 
 &nbsp;&nbsp;☐ **ab dem 2. Haus** — der naheliegende Schnitt (so schon
@@ -466,6 +756,27 @@ erhoben**) — geht leer aus; die Stellschraube verfehlt ihn
 verschieden — unter Lesart B beginnt die Zählung je Firmierung neu.
 Deshalb steht AA-1 vor diesem Punkt.*
 
+> ### ✅ AA-5 ENTSCHIEDEN — ab dem 2. Haus
+>
+> **Entscheid:** Der Rabatt greift **ab dem 2. Haus**.
+>
+> **Die Zählung läuft nach AA-1 über den BETREIBER** (Lesart A) — „Haus
+> Nr. 2" ist also das zweite Haus **desselben Betreibers**, auch wenn
+> es auf eine andere Firmierung läuft. Die Wechselwirkung oben ist
+> damit aufgelöst.
+>
+> ⚠️ **Der unbequeme Pol der gewählten Option bleibt stehen und wird
+> nicht weggeschrieben:** Der Rabatt greift dort, wo der Skaleneffekt
+> am kleinsten ist — **ob es überhaupt einen gibt, misst erst E-6**
+> (④, unverändert ungemessen).
+>
+> **Was NICHT mitentschieden ist:** die **Höhe** (F-III, User nach
+> E-6).
+>
+> **Quelle/Datum/Form:** Briefing-Dialog **13.08.2026 nachmittags**,
+> Dropdown + Freitext, **sinngemäß — Wortlaut nicht archiviert**
+> (Briefing 13.08., Nachtrag 4).
+
 ### ☐ AA-6 — Prozentsatz oder Staffel?
 
 &nbsp;&nbsp;☐ **fester Prozentsatz** auf die S1 jedes weiteren
@@ -479,6 +790,32 @@ Erklärungslast; verstärkt das „Mobilfunkrechnungs"-Risiko (§ 8)
 pauschal reduziert" — dieselbe Mechanik wie der feste Satz in
 anderer Darstellung): _____
 
+> ### ✅ AA-6 ENTSCHIEDEN — fester Prozentsatz
+>
+> **Entscheid:** **fester Prozentsatz** auf die S1 jedes weiteren
+> Hauses. **Die Staffel bleibt eine spätere Option** — sie ist nicht
+> verworfen, sondern zurückgestellt.
+>
+> ⚠️ **Ausdrücklich mitentschieden ist das Wechsel-FENSTER, und es
+> schließt sich von selbst:** Ein Wechsel auf die Staffel ist **vor dem
+> ersten Bestandskunden frei** — **danach ist er ein Z-4-Fall**
+> (Preisänderung im laufenden Vertrag,
+> `preismodell-optionen.md` § 10; Z-4 liegt bei der Zentrale/StB und
+> ist **nicht übergeben**). Praktische Folge: Wer die Staffel je will,
+> entscheidet sie **vor dem ersten Abschluss** — nicht „irgendwann
+> später". Der November-Anker (erster zahlender Kunde) ist damit
+> zugleich die **Frist dieses Fensters**.
+>
+> **Was NICHT mitentschieden ist:** die **Höhe** des Prozentsatzes
+> (F-III, User nach E-6). Der eigene „Dagegen"-Pol der gewählten
+> Option bleibt gültig: Ein fester Satz bildet einen **wachsenden**
+> Verbund-Effekt nicht ab — was folgenlos ist, solange dieser Effekt
+> ungemessen ist (④, E-6).
+>
+> **Quelle/Datum/Form:** Briefing-Dialog **13.08.2026 nachmittags**,
+> Dropdown + Freitext, **sinngemäß — Wortlaut nicht archiviert**
+> (Briefing 13.08., Nachtrag 4).
+
 ### ☐ AA-7 — Deckelung?
 
 &nbsp;&nbsp;☐ **ohne Deckel** — einfachste Form; der Rabatt gilt für
@@ -490,6 +827,30 @@ Die Untergrenze, die er schützen soll (hausfixe Betreuungskosten B2),
 ist **nicht erhoben** (`preismodell-optionen.md` § 4.2) — es gibt
 keine belegbare Zahl, unter die S1 nicht fallen darf
 &nbsp;&nbsp;☐ anders: _____
+
+> ### ✅ AA-7 ENTSCHIEDEN — ohne Deckel, mit Prüfposten nach E-6
+>
+> **Entscheid:** **ohne Deckel** — der Rabatt gilt für jedes weitere
+> Haus gleich. **Mitentschieden: ein Prüfposten nach der
+> E-6-Messung** — die Deckel-Frage wird nach dem Aufwandswert **erneut
+> aufgerufen**, sie ist nicht endgültig verneint.
+>
+> ⚠️ **Der Prüfposten braucht einen Träger, sonst verfällt er.**
+> Auslöser ist der Rücklauf von **E-6** (Ruffy/heypensio, ohne
+> Kalendertermin — Termin-Anker bereits erbeten, Briefing 13.08.
+> Nachtrag 3 Punkt 3). Solange E-6 keinen Termin hat, hat auch dieser
+> Prüfposten keinen. **Er wird beim Rücklauf zusammen mit der
+> Rabatt-HÖHE aufgerufen**, nicht davor.
+>
+> **Was der Entscheid inhaltlich offenlässt:** Die Untergrenze, die ein
+> Deckel schützen soll (hausfixe Betreuungskosten **B2**), ist
+> weiterhin **nicht erhoben** — genau deshalb war der Deckel heute nur
+> strukturell entscheidbar. Der Entscheid „ohne Deckel" ist damit die
+> Form, die **keine ungemessene Zahl voraussetzt**.
+>
+> **Quelle/Datum/Form:** Briefing-Dialog **13.08.2026 nachmittags**,
+> Dropdown + Freitext, **sinngemäß — Wortlaut nicht archiviert**
+> (Briefing 13.08., Nachtrag 4).
 
 ### ☐ AA-8 — Wirkt der Rabatt auch auf die Startgebühr S4?
 
@@ -533,6 +894,67 @@ die richtige Wahl, wenn der Mehrhaus-Abschluss das knappere Gut ist
 als die Liquidität — das ist eine unternehmerische Abwägung, keine
 Beleglage.*
 
+> ### ✅ AA-8 ENTSCHIEDEN — JA, der Rabatt wirkt AUCH auf die Startgebühr S4
+>
+> **Entscheid:** **Ja** — der Rabatt wirkt **auch auf die Startgebühr
+> S4**, **ab dem 2. Haus desselben Betreibers** (Zuordnung nach AA-1
+> Lesart A: Betreiber, nicht Firmierung).
+>
+> ⭐ **Der Entscheid fiel BEWUSST GEGEN die Empfehlung dieser Session.**
+> Die Empfehlung oben lautete „später entscheiden" (nach E-6); der
+> User hat **heute** entschieden und dabei ausdrücklich die
+> **unternehmerische Abwägung** gesetzt: **der Mehrhaus-Abschluss wiegt
+> schwerer als maximale Erstjahres-Liquidität.** Das ist genau die
+> Konstellation, die der letzte Satz der Empfehlung beschreibt („‚ja'
+> ist die richtige Wahl, wenn der Mehrhaus-Abschluss das knappere Gut
+> ist als die Liquidität — das ist eine unternehmerische Abwägung,
+> keine Beleglage"). **Die Empfehlungs-Passagen bleiben unverändert
+> stehen** — sie werden nicht geglättet, nicht abgeschwächt und nicht
+> nachträglich in Richtung des Entscheids umgeschrieben. Wer sie liest,
+> liest die überstimmte Empfehlung samt ihrer Begründung; das ist
+> beabsichtigt.
+>
+> **Die Gegenkraft bleibt gültig und wird nicht kleingeschrieben:** Der
+> Rabatt auf S4 **arbeitet der E-1-Gewichtung entgegen** („im ersten
+> Jahr Startgebühr verstärkt", Liquiditätsentscheid des Users, ✅ E-1).
+> Beide Entscheide stammen vom selben Entscheider und stehen
+> nebeneinander — der spätere schränkt den früheren im Mehrhaus-Fall
+> ein, hebt ihn aber nicht auf (Ein-Haus-Kunden sind unberührt).
+>
+> ⚠️ **Die HÖHE beider Rabatte (auf S1 und auf S4) bleibt bis zur
+> E-6-Messung HYPOTHESE.** Kein Prozentsatz, kein Betrag ist
+> entschieden; die tragende Größe — ob das zweite Haus real weniger
+> Einführungsaufwand kostet — ist **④ und ungemessen** (E-6, Träger
+> Ruffy/heypensio, ohne Kalendertermin). Dieser Vorbehalt gilt an
+> **jeder** Stelle, die eine Rabattwirkung beschreibt.
+>
+> **Die ④-Voraussetzung dieses Punktes ist inzwischen ENTSCHIEDEN:**
+> Der PB-01-Kasten oben setzt voraus, dass S4 überhaupt **je
+> Objekt/Haus** anfällt, und markiert das als bloße Ableitung aus
+> E-2a. **Dieselbe Erhebung hat die S4-Bezugseinheit ausdrücklich
+> entschieden: je HAUS** (Entscheide-Protokoll 2, S4-Klärfrage;
+> nachgetragen in `handel/preisliste-vorlaeufig.md` § 3/§ 5). Die
+> Ja-Option und das „×n"-Gesprächsargument stehen damit auf
+> entschiedenem, nicht mehr auf abgeleitetem Grund.
+>
+> **Was NICHT mitentschieden ist — drei offene Randfragen dieser
+> Session, keine davon vom Protokoll beantwortet:**
+> 1. **Ein Satz oder zwei?** Ob der S4-Rabatt **denselben** Prozentsatz
+>    trägt wie der S1-Rabatt (AA-6) oder einen eigenen, sagt das
+>    Protokoll nicht. Beide Höhen sind ohnehin F-III.
+> 2. **Gilt „ohne Deckel" (AA-7) auch für S4?** AA-7 wurde im
+>    S1-Mechanik-Block entschieden; eine ausdrückliche Erstreckung auf
+>    S4 enthält das Protokoll nicht.
+> 3. **Rechtsnatur-Rückwirkung:** Ein rabattierter Einmalbetrag berührt
+>    die ohnehin offene Frage **Z-2** (Rechtsnatur/Fälligkeit/
+>    Rückzahlbarkeit der Startgebühr, StB-Fragenliste Frage 13 (a)) —
+>    hier nur benannt, nicht bewertet.
+>
+> **Quelle/Datum/Form:** Briefing-Dialog **13.08.2026 nachmittags**,
+> Dropdown + Freitext, **sinngemäß — Wortlaut nicht archiviert**
+> (`<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`,
+> „📮 Nachtrag 4 … Entscheide-Protokoll 2 — S4 + AA-1…AA-8").
+
 ---
 
 ## 6. Übergabefähigkeit als roter Faden (E-3/A5) — und wo die Paketierung ihr widerspricht
@@ -568,6 +990,29 @@ erst dann mit der Übergabe-Erzählung verkaufen, wenn Z-6/K04
 Angebots-Seite desselben Vorbehalts, den die Preisliste im Kopfkasten
 trägt.)*
 
+> ### 📌 Nachtrag 13.08.2026 nachmittags — die AA-Entscheide räumen keinen dieser Widersprüche aus
+> *(markierter Nachtrag; Tabelle und Text oben bleiben unverändert)*
+>
+> **Die sieben Entscheide vom 13.08. nachmittags betreffen
+> ausschließlich Zuordnung, Paketform, Katalog-Grenze und
+> Rabatt-Mechanik — sie ändern an den Widersprüchen 1–4 nichts.**
+> Insbesondere:
+> - **K03/n8n (1)** und **K04/Vapi (2)** bleiben **ungeklärt**, Träger
+>   **E-4** (Ruffy/heypensio), weiterhin **ohne Kalendertermin**.
+> - Die **Vertragspartner-Frage (3)** bleibt ungeklärt; sie läuft im
+>   E-4-Bündel (Briefing 13.08., Nachtrag 3 Punkt 1) mit.
+> - Das **Zielbild P-B (AA-2)** erbt diese Vorbehalte vollständig —
+>   ein Zielbild ist keine Klärung. Kippt Z-6/K04, kippt die
+>   **Grundlage** auch von P-B, nicht nur ein Modulzuschnitt.
+> - Der Satz oben bleibt der geltende: **Ein Angebot darf erst mit der
+>   Übergabe-Erzählung verkaufen, wenn Z-6/K04 geklärt sind.**
+>
+> ⚠️ **Ein Entscheid, der hier zusätzlich anschlägt:** **AA-1 (Lesart
+> A)** hängt an einer **Verbund-Definition**, die es noch nicht gibt
+> (StB-Frage 13 (f), übergeben, unbeantwortet). Das ist strukturell
+> derselbe Fall wie die Zeilen 1–3: eine gewählte Struktur, deren
+> Vorbedingung außerhalb liegt und aussteht.
+
 ---
 
 ## 7. Entscheidungspunkte im Überblick — und wie es weitergeht
@@ -575,16 +1020,33 @@ trägt.)*
 **Die acht Punkte (Volltext je Punkt in § 2, § 4, § 5 — diese Tabelle
 ist nur der Zeiger, keine Zweitfassung):**
 
-| Punkt | Frage (Kurzform) | Steht in | Vorbedingung |
-|---|---|---|---|
-| **☐ AA-1** | Rabatt-Zuordnung: Betreiber oder Firmierung? | § 2 | **zuerst beantworten** — vor AA-5…AA-8 |
-| **☐ AA-2** | Paketform: Gesamtpaket / Basis+Module / Stufen | § 4 | — |
-| **☐ AA-3** | Katalog-Grenze: nur Gebautes oder mit Kennzeichnung? | § 4 | — |
-| **☐ AA-4** | Beratungsachse: in S1, nach Aufwand oder Kontingent? | § 4 | Kayhan-Achse bleibt bis Vertrag nicht zusagefähig |
-| **☐ AA-5** | Rabatt ab Haus 2 oder Haus 3? | § 5 | AA-1 |
-| **☐ AA-6** | Prozentsatz oder Staffel? | § 5 | AA-1 |
-| **☐ AA-7** | Deckel ja/nein (Höhe erst nach E-6 bezifferbar) | § 5 | AA-1 |
-| **☐ AA-8** | Rabatt auch auf die Startgebühr S4? | § 5 | AA-1; inhaltlich sinnvoll erst nach E-6 |
+> ### 📌 Nachtrag 13.08.2026 nachmittags — sieben von acht Punkten sind entschieden
+> *(markierter Nachtrag; die Tabelle unten ist um die Spalte „Stand"
+> erweitert, die ☐-Marker bleiben sichtbar stehen — kein Punkt wurde
+> still umgeschrieben)*
+>
+> **Nenner: 7 von 8 AA-Punkten entschieden, 1 offen (AA-4).** Dazu die
+> **S4-Bezugseinheits-Klärfrage** entschieden (je Haus) — sie war kein
+> AA-Punkt, sondern eine Frage der Preisliste, und wird dort geführt
+> (`handel/preisliste-vorlaeufig.md` § 3/§ 5). **Zusammen: 8 von 9
+> Fragen der Erhebung beantwortet.**
+>
+> ⚠️ **Entschieden heißt nicht bezifferbar:** Keine einzige HÖHE ist
+> gefallen (F-III, Entscheider ist der User nach E-6/E-7). Und **AA-2
+> ist ein ZIELBILD, keine endgültige Festlegung** (E-7-Vorbehalt).
+> Die **Kurzfassungen unten sind Zeiger** — verbindlich ist der
+> ✅-Kasten am jeweiligen Punkt, nie diese Zeile.
+
+| Punkt | Frage (Kurzform) | Steht in | Vorbedingung | **Stand 13.08.2026 nachmittags** |
+|---|---|---|---|---|
+| **☐ AA-1** | Rabatt-Zuordnung: Betreiber oder Firmierung? | § 2 | ~~zuerst beantworten~~ ✅ erfüllt — AA-5…AA-8 konnten folgen | ✅ **Lesart A: Betreiber** (Verbund-Klammer über Firmierungen). Verbund-Definition als StB-Punkt übergeben (Frage 13 (f)) — **übergeben, nicht beantwortet** |
+| **☐ AA-2** | Paketform: Gesamtpaket / Basis+Module / Stufen | § 4 | — | ✅ **P-B als ZIELBILD** — ⚠️ **endgültige Festlegung erst nach E-7**; P-A/P-C bleiben lebende Optionen |
+| **☐ AA-3** | Katalog-Grenze: nur Gebautes oder mit Kennzeichnung? | § 4 | — | ✅ **auch geplante / in Entwicklung befindliche Module** — Reifegrad-Leitplanke bindend; ⚠️ Randfrage „deckt das GEPARKTE?" offen |
+| **☐ AA-4** | Beratungsachse: in S1, nach Aufwand oder Kontingent? | § 4 | Kayhan-Achse bleibt bis Vertrag nicht zusagefähig | ⬜ **OFFEN — einziger unbeantworteter Punkt.** User hat Kayhan gefragt, Antwort steht aus; kein Zeitanker |
+| **☐ AA-5** | Rabatt ab Haus 2 oder Haus 3? | § 5 | AA-1 | ✅ **ab dem 2. Haus** (Zählung je Betreiber, AA-1) |
+| **☐ AA-6** | Prozentsatz oder Staffel? | § 5 | AA-1 | ✅ **fester Prozentsatz**; Staffel bleibt spätere Option — Wechsel **nur bis zum ersten Bestandskunden** frei, danach Z-4-Fall |
+| **☐ AA-7** | Deckel ja/nein (Höhe erst nach E-6 bezifferbar) | § 5 | AA-1 | ✅ **ohne Deckel**, mit **Prüfposten nach der E-6-Messung** (Träger des Aufrufs: E-6-Rücklauf, ohne Termin) |
+| **☐ AA-8** | Rabatt auch auf die Startgebühr S4? | § 5 | AA-1; inhaltlich sinnvoll erst nach E-6 | ✅ **JA**, ab Haus 2 desselben Betreibers — **bewusst gegen die Session-Empfehlung** (unternehmerische Abwägung); **Höhe beider Rabatte bis E-6 Hypothese** |
 
 ### So läuft es weiter
 
@@ -612,6 +1074,49 @@ ist nur der Zeiger, keine Zweitfassung):**
    korrigiert nach Prüferbefund PB-03 — eine Statusaussage über
    fremde Arbeit ohne Beleg; das Briefing führt E-6 bei heypensio
    unter „Als Nächstes", nicht unter „Läuft".)*
+
+> ### 📌 Nachtrag 13.08.2026 nachmittags — Stand der fünf Punkte oben
+> *(markierter Nachtrag; die Liste oben bleibt unverändert lesbar)*
+>
+> | Punkt | Stand nach dem Entscheide-Protokoll 2 |
+> |---|---|
+> | 1. Antworten formlos, dann schriftlich im Repo | ✅ **so geschehen** — Erhebung im Briefing-Dialog 13.08. nachmittags (Dropdown + Freitext, sinngemäß), Festhaltung in den ✅-Kästen dieses Dokuments (R13-A) |
+> | 2. Entscheider ist der User | ✅ **bestätigt** — alle sieben Antworten kamen vom User; diese Session hat nichts entschieden, auch nicht dort, wo das Protokoll schweigt |
+> | 3. AA-1 zuerst | ✅ **eingehalten** — AA-1 ist beantwortet (Lesart A), AA-5…AA-8 stehen darauf auf. ⚠️ **Der zweite Halbsatz gilt unverändert:** AA-8 und jeder Deckel-Betrag werden **inhaltlich erst nach E-6 belastbar** — der Entscheid ist gefallen, die Bezifferung nicht |
+> | 4. Textänderungen jetzt am billigsten | ⚠️ **weiterhin gültig, mit kleinerem Fenster** — für AA-6 zusätzlich hart terminiert: Der Wechsel zur Staffel ist **nur bis zum ersten Bestandskunden** frei (danach Z-4) |
+> | 5. Was an andere Träger geht | s. Zeilen darunter |
+>
+> **Zu Punkt 5 im Einzelnen:**
+> - **Verbund-Definition (Lesart A):** ✅ **übergeben** — sie steht in
+>   der StB-Fragenliste der Zentrale als **Frage 13 (f)**
+>   (`<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md`,
+>   ① selbst gelesen 13.08.2026 durch R13-A). ⚠️ **Übergeben ≠
+>   beantwortet:** Der StB-Termin steht aus (Anruf war für den 13.08.
+>   als User-Handgriff angesetzt) — bis zum Rücklauf gibt es keine
+>   vertragsfeste Verbund-Klammer.
+> - **Vertragspartner-Frage (Z-5):** unverändert **ungeklärt**; sie
+>   läuft im **E-4-Bündel bei heypensio** (Briefing 13.08., Nachtrag 3
+>   Punkt 1 — K04 dort ausdrücklich gleichrangig geführt).
+> - **E-6-Präzisierung „Blöcke je Objekt getrennt":** ✅ **übergeben** —
+>   Briefing 13.08., Nachtrag 3 Punkt 2 (an Ruffy). Ein
+>   **Kalendertermin** für E-6 ist dort erbeten (Punkt 3), aber
+>   **noch nicht gesetzt**.
+>
+> ⚠️ **Korrektur einer Bestandsaussage dieses Dokuments (nicht
+> geglättet, sondern benannt):** Der Kopfkasten und § 6 führen die
+> Zulieferung **Z-1…Z-7** als „**bislang nicht übergeben**". Das ist
+> für einen Teil **überholt**: Die StB-Fragenliste führt seit dem
+> 13.08. unter Frage 13 die Punkte **Z-2 (a) · Z-4 (b) · Z-1 (c) ·
+> Z-7 (d)** sowie **E-5a (e)** und die **Verbund-Definition (f)**
+> (Herkunftsvermerk dort: „NEU 13.08., MKT-R12-Postkorb"). **Weiterhin
+> nicht als eigene StB-Frage geführt sind Z-3, Z-5 und Z-6** — Z-5/Z-6
+> laufen bei heypensio (E-4) und werden in der Liste nur für den Fall
+> erwähnt, dass der StB von sich aus darauf kommt. **Der Stand ist
+> also: teilübergeben, nicht beantwortet** — die Aussage „nicht
+> übergeben" wird hier nicht überschrieben, sondern präzisiert; die
+> QUELLE dieser Aussage (`preismodell-optionen.md` § 10) gehört im
+> selben Sinn nachgezogen und liegt außerhalb des R13-A-Scopes
+> (**Nebenbefund an die Leitsession**).
 
 ---
 

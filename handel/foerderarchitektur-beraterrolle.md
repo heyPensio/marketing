@@ -194,6 +194,66 @@ diese Zahl nicht.** ⚠️ **Das ist eine Untergrenze, keine feste Zahl:**
 1.100 € ist ein Maximum, bei niedrigerem Tagessatz sind es entsprechend
 mehr Tage (P07D-17).
 
+> ### 🟢 Nachtrag 13.08.2026 (R12-A) — was der Markt für Beratung verlangt (Posten N-10)
+>
+> **Anlass:** Runde R11-A hat als Nebenbefund **N-10** einen belegten
+> **Marktstundensatz** erhoben, der weit über sein Ursprungspapier
+> hinaus brauchbar ist — unter anderem für die Beraterrolle. Er wird
+> hier nachgezogen, weil dies die einzige Stelle des Dokuments ist, die
+> mit Sätzen je Zeiteinheit rechnet.
+> *(⚠️ **Kurz-ID-Hinweis:** „N-10" ist die Nebenbefund-Nummer aus
+> `protokolle/R11-A-abschluss.md`. In `handel/kanal-rechtsmatrix.md`
+> bezeichnet „N-10" einen **anderen** Befund (Art. 6 Abs. 4 DSGVO) —
+> die Kollision stammt aus zwei getrennt nummerierten
+> Abschlussmeldungen und ist hier nur benannt, nicht aufgelöst.)*
+>
+> **Der Wert — Marktband 125–160 €/Stunde**, Leseweg `SEKUNDÄR`,
+> Quellenart `ANBIETER-SELBST` + `EIGEN`. Herkunft:
+> `handel/preismodell-optionen.md` § 4.2 (B3) und § 6.3.2, **drei
+> Quellen**:
+>
+> | Quelle | Wert | Art |
+> |---|---|---|
+> | melevo, Projektberatung (M5) | **ab 130 €/h** | `ANBIETER-SELBST` (③) |
+> | AngelStone Media, Wien (W4) | **160 €/h netto** | `ANBIETER-SELBST` (③), am Rohbeleg gelesen |
+> | LeanFlow Consulting (W6) | **150 / 130 / 125 €/h** | ⚠️ **`EIGEN`** — die Quelle nennt Monatspreis (150/390/750 €) **und** Stundendeckel („bis 1/3/6 Stunden"); der Quotient ist **unsere Rechnung** |
+>
+> ⚠️ **Drei Einschränkungen, ohne die der Wert falsch verwendet wird:**
+> 1. **Es ist ein MARKTpreis, nicht unser Kostensatz.** Ein interner
+>    Kostensatz liegt darunter (so ausdrücklich in der Quelle).
+> 2. **Die W6-Werte sind Untergrenzen**, weil „bis n Stunden" ein
+>    **Deckel** ist: Wer den Deckel nicht ausschöpft, zahlt effektiv
+>    mehr je Stunde.
+> 3. **Zwei der drei Quellen sind Kleinunternehmer bzw. ohne
+>    Steuerangabe** — nur W4 nennt „netto" ausdrücklich. **Das Band ist
+>    steuerbasis-uneinheitlich** und darf nicht als Netto-Band zitiert
+>    werden.
+>
+> **Was das für den Beratertagessatz-Deckel oben bedeutet** (`EIGEN`,
+> Zählweg: Band × 8 h je Personentag — **die 8 h sind eine Annahme
+> dieser Session**, keine Quellenangabe): 125–160 €/h entsprechen
+> **1.000–1.280 € je Beratertag**. Der IFB-Deckel von **1.100 € netto**
+> liegt damit **mitten im Marktband** — er ist für einen
+> marktüblich kalkulierenden Berater **keine ungewöhnliche Kürzung**,
+> deckt aber das obere Ende des Bands nicht ab.
+>
+> ⚠️ **Gegenbefund aus derselben Erhebung, damit die Rechnung nicht zu
+> günstig gelesen wird** (① am Rohbeleg selbst gelesen, R12-A
+> 13.08.2026, `sensibel/rohbelege-R11-A/agent2-angelstone-preisliste.txt`):
+> Genau der Anbieter, der „160 €/h netto" nennt (W4), verkauft **einen
+> Tag als Festpreis „ab 600 € netto"** (Rubrik „Eintrittsangebot",
+> Tech-Check, „1 Tag · Festpreis"). Listen-Stundensatz und real
+> angebotene Tagesvergütung gehen bei ihm um **Faktor ~2** auseinander
+> (160 × 8 = 1.280 € gegen 600 €). Ein Eintrittsangebot ist nicht
+> repräsentativ — aber es zeigt, dass **ein Listen-Stundensatz die real
+> gezahlte Tagesvergütung nach oben verzerren kann.** Wer aus dem Band
+> eine Kalkulation baut, rechnet damit eher optimistisch.
+>
+> **Was dieser Nachtrag NICHT tut:** Er legt **keinen eigenen
+> Stundensatz** fest (der ist im Bestand ausdrücklich „nicht
+> festgelegt") und ändert **keine** Aussage dieses Dokuments zur
+> Förderfähigkeit, zur Beraterrolle oder zu den Programmvoraussetzungen.
+
 ### 3.2 Fördergegenstand — der Wortlaut, um den es geht
 
 Ziffer 3 nennt zwei Bereiche. Der einschlägige ist **„Digitaler Wandel"**

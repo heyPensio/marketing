@@ -1,8 +1,49 @@
 # Preismodell-Optionen (MKT-HANDEL1) — Entscheidungsvorlage
 
+> ## 🟢 NACHTRAG 13.08.2026 — die acht Entscheidungspunkte sind beantwortet
+>
+> **Der gesamte Text unterhalb dieses Kastens ist die Fassung vom
+> 12.08.2026 und bleibt unverändert lesbar.** Was der Entscheid vom
+> 13.08.2026 überholt, ist an der jeweiligen Stelle mit einem
+> Vorwärtsverweis markiert — nichts ist stillschweigend neu gefasst.
+>
+> Am 13.08.2026 hat der User **alle acht Entscheidungspunkte**
+> (E-1…E-8, inkl. E-2a und E-5a) beantwortet. Die Antworten stehen
+> **einzeln an ihrem Punkt in § 11** als ✅-Vermerk.
+>
+> **Belegstufe aller acht Entscheide — sie gilt für jeden einzelnen
+> ✅-Vermerk und wird dort nicht abgeschwächt:** Briefing-Dialog vom
+> 13.08.2026, Dropdown-Abfrage + Freitext, **sinngemäß — der Wortlaut
+> ist nicht archiviert**. Quelle:
+> `<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`, Abschnitt
+> „⭐ Entscheide-Protokoll 13.08.2026", Unterabschnitt „Preismodell
+> E-1…E-8". Das ist eine **schwächere Belegstufe als ein archiviertes
+> Zitat** — kein Satz dieses Papiers darf einen Entscheid als wörtliche
+> Äußerung des Users ausgeben.
+>
+> **Was sich am Status ändert — und was ausdrücklich NICHT:**
+>
+> | | |
+> |---|---|
+> | **Entschieden (neu)** | **F-I Vertragsform:** E-1 = Option (ii), monatlich kündbar + Startgebühr, **mit umgekehrter Gewichtung im ersten Jahr** · **F-II Bemessung:** E-2 = (c) Grundgebühr + Zimmeranteil, plus Mehrhaus-Rabatt · **Bezugseinheit:** E-2a = je Objekt/Haus |
+> | **Weiterhin OFFEN** | **F-III Preishöhe.** Sie ist durch diesen Entscheid **nicht** gefallen. Was seit dem 13.08. existiert, ist eine **Hypothesen-Spanne aus Marktanalogie** (④) in `handel/preisliste-vorlaeufig.md` — kein Preis, keine Zusage. Belastbar erst nach **E-6** (Einführungsaufwand) und möglichst **E-7** (Zahlungsbereitschaft) |
+> | **Weiterhin OFFEN** | Der **Architektur-Entscheid** (§ 5). E-3 hat **nur die Rechenbasis** der vorläufigen Preisliste gesetzt (vorläufig W-B/A3), **nicht die Architektur** — diese Grenze trägt § 11 E-3 im Wortlaut |
+> | **Unverändert** | Der **Firmierungs-Vorbehalt** (Punkt 2 unten) gilt vollständig weiter: nichts aus diesem Papier oder seiner Preisliste geht nach außen |
+> | **Unverändert** | **Pilotleistungen bleiben kostenlos** — E-5 bestätigt das und erweitert es mit E-5a auf das dritte Objekt (Hostel Boninstraße/LEANE) |
+>
+> **Neu entstandenes Folgedokument:** `handel/preisliste-vorlaeufig.md`
+> (F-III-Stufe, ausdrücklich vorläufig und intern) — gebaut in Runde
+> R12-A am 13.08.2026. Es ersetzt diese Vorlage nicht; es setzt die
+> Entscheide um.
+>
+> ---
+>
 > ## ⚠️ Status und zwei Vorbehalte (bitte zuerst lesen)
 >
 > **1. Status: ENTSCHEIDUNGSVORLAGE — hier ist nichts entschieden.**
+> *(→ **Für E-1/E-2/E-2a überholt am 13.08.2026**, s. Nachtragskasten
+> oben und die ✅-Vermerke in § 11. Für die **Preishöhe F-III** und den
+> **Architektur-Entscheid** gilt der Satz unverändert weiter.)*
 > Dieses Papier stellt einen Optionenraum auf, rechnet ihn gegen die
 > eigene Kostenbasis und legt die Entscheidungen einzeln zur Antwort vor.
 > Es enthält eine begründete Empfehlung (§ 9), aber keinen Beschluss —
@@ -166,6 +207,15 @@ verband. Das ist erheblich, weil Hostel Boninstraße über eine **eigene
 Firmierung** läuft (LEANE) — es wäre eine dritte Rechtsträgerin, für
 die kein Entscheid vorliegt. **E-5 entscheidet das mit.**
 
+> **🟢 Nachtrag 13.08.2026 — die Lücke ist geschlossen:** **E-5a = Ja**
+> (§ 11): Auch das **Hostel Boninstraße (LEANE)** ist kostenloses
+> Pilotobjekt. Der Absatz oben beschreibt damit den **Belegstand vom
+> 12.08.2026**, nicht mehr die heutige Lage. Was er weiterhin richtig
+> beschreibt: Der ursprüngliche R3-Entscheid deckte im Bestand nur NMS
+> und Kiel — das dritte Objekt ist **neu entschieden**, nicht
+> nachträglich belegt. Offen bleibt, **wie** die unentgeltliche
+> Leistung gegenüber der dritten Rechtsträgerin dokumentiert wird.
+
 ### 2.4 Zielgruppe (weil sie die Bemessungsachse bestimmt)
 
 **② BESTAND**, `fund/positionierungspapier.md` § 3: inhabergeführte
@@ -198,6 +248,15 @@ getrennt beantwortbar:
 
 F-I und F-II sind **unabhängig** voneinander: Jede Vertragsform
 funktioniert mit jeder Bemessung.
+
+> **🟢 Nachtrag 13.08.2026 — Stand der drei Fragen:** **F-I
+> entschieden** (Option ii, § 11 E-1) · **F-II entschieden** (c) je
+> Objekt/Haus, § 11 E-2/E-2a) · **F-III weiterhin offen.** Die
+> Beschreibung von F-III in der Tabelle gilt unverändert: Die Höhe
+> braucht **E-6** und möglichst **E-7**, beides steht aus. Was seit dem
+> 13.08. existiert, ist eine **Hypothesen-Spanne** in
+> `handel/preisliste-vorlaeufig.md` — sie beantwortet F-III **nicht**,
+> sie macht die Lücke rechenbar.
 
 ---
 
@@ -242,6 +301,18 @@ Monat und Kunde" — die Zahl beruhte auf dem falschen Supabase-Scope
 voraus, also die Weichenstellung W-B, obwohl § 5 ausdrücklich
 verspricht, dass kein Preisentscheid dieses Papiers eine Weiche
 voraussetzt. Beides ist oben aufgelöst.
+
+> **🟢 Nachtrag 13.08.2026 — welche Zeile ab jetzt gerechnet wird:**
+> Nach **E-3** (§ 11) rechnet die vorläufige Preisliste auf der
+> **W-B-Zeile** (**rund 38–58 €/Kunde/Monat**), nicht auf W-A. **Beide
+> Zeilen bleiben stehen** — die Tabelle ist weiterhin richtig, es hat
+> sich nur die gewählte Rechenbasis geändert.
+> ⚠️ **Der Unterschied zur Erstfassungs-Korrektur oben ist wesentlich:**
+> Dort wurde W-B **stillschweigend vorausgesetzt** — das war der Fehler.
+> Hier ist W-B **ausdrücklich als vorläufige Rechenbasis entschieden**,
+> und der Architektur-Entscheid bleibt trotzdem offen (§ 5.4, § 11 E-3).
+> Das Versprechen von § 5 ist damit nicht gebrochen: Der **Entscheid**
+> setzt die Weiche, nicht das **Papier**.
 
 ⚠️ **Steuervermerk Hetzner (die Ableitung ist ausgewiesen, nicht
 behauptet):** Die Preisdatei selbst enthält keinen Steuervermerk. Die
@@ -447,6 +518,24 @@ Verschärfung durch A3** — und ihre Relevanz für den Preisentscheid.
 
 **Die Weiche bleibt offen.** Kein Preisentscheid dieses Papiers setzt
 W-A oder W-B voraus; jede Option in § 7 nennt, was sie braucht.
+
+> **🟢 Nachtrag 13.08.2026 — präzisiert, nicht überholt.** Der Satz
+> „Die Weiche bleibt offen" gilt **unverändert**: Der
+> **Architektur-Entscheid** ist NICHT gefallen und liegt weiterhin bei
+> heypensio/den Gesellschaftern.
+>
+> **Was sich geändert hat, ist nur die Rechenbasis:** Mit **E-3**
+> (§ 11) rechnet die vorläufige Preisliste **preisseitig vorläufig auf
+> W-B/A3** — Kunde als Eigentümer, Infrastruktur zum Selbstkostenpreis
+> durchgereicht, Servicegebühr getrennt, alles unter **Z-6-Vorbehalt**.
+>
+> **Die beiden Sätze, die auseinandergehalten gehören:**
+> „Wir **rechnen** vorläufig W-B" ≠ „Wir **bauen** W-B".
+>
+> ⚠️ Und die Warnung der W-B-Zeile oben wird durch den Entscheid
+> **nicht** entwertet: Sie gilt weiter („⚠️ Erst nach Klärung § 5.3").
+> E-3 hat den Vorbehalt nicht aufgelöst, sondern ausdrücklich
+> mitgenommen; den Klärungs-Träger benennt **E-4**.
 
 ---
 
@@ -686,6 +775,18 @@ einem einzigen Beleg, dass ein Zielkunde diesen Betrag zahlt. Der
 billigste Weg, das zu ändern, steht als Entscheidungspunkt **E-7** in
 § 11.
 
+> **🟢 Nachtrag 13.08.2026 — E-7 ist beauftragt, die Lücke besteht
+> fort.** Die Frage geht ins FUND2-Kayhan-Gespräch (~23.08.2026, § 11
+> E-7). **An diesem Abschnitt ändert das nichts:** „Nichts Belegtes"
+> ist am 13.08.2026 unverändert richtig. Ein terminierter Vorsatz ist
+> kein Beleg — und die Erhebung wird, wenn sie stattfindet, **ein**
+> nahestehender Gesprächspartner sein (n=1), kein Zielkunden-Sample.
+> ⚠️ **Was sich verschärft hat:** Die Startgebühr-Spanne in
+> `handel/preisliste-vorlaeufig.md` ruht auf genau der Marktanalogie,
+> die dieser Abschnitt als unzureichend ausweist. Der Satz oben ist
+> damit nicht historisch, sondern **die tragende Einschränkung der
+> neuen Preisliste**.
+
 ---
 
 ## 7. Der Optionenraum (Frage F-I: Vertragsform)
@@ -710,6 +811,24 @@ keine Mindestlaufzeit.
 | **Dagegen** | **Wir finanzieren die Einführung vor** und tragen das volle Abbruchrisiko · bei Kündigung in Monat 1–3 mit hoher Wahrscheinlichkeit Verlust auf diesem Kunden · **der Markt macht es in unserem Nachbarfeld durchgängig anders**: M2/M4 mit Einrichtungsgebühr, M3 mit 12 Monaten Bindung ② · Straiv (Haupt-Technikwettbewerber) mit Onboarding-Gebühr und wahlweise Jahresvorauszahlung ③ · **W1, der einzige gefundene Anbieter mit unserer Bauform, verlangt 1.920 € Einrichtung UND bindet auf ein Jahr** ③. **Zählweg dieser Aussage, korrigiert** (Prüferbefund P-03 — die Erstfassung nannte „10 von 10 Ankern mit vollständiger Angabe" und zählte damit ihr eigenes Auswahlkriterium; das war eine Positivliste in Verkleidung): **10 von 13** Ankern haben eine belegte Einmalzahlung (bei M6 nur dem Grunde nach, Höhe unbekannt). Zu **4 von 13** ist zusätzlich die Laufzeit belegt (M3, W1, W4, W5) — davon **binden 2** (M3: 12 Monate; W1: jährlich), **2 sind monatlich kündbar** (W4, W5 — beide mit Einmalzahlung). ⚠️ **Der wichtigste Gegenfall gehört ausdrücklich dazu und wurde in der Erstfassung ausgeschlossen: M1** (AKZENT) ist der einzige Anker mit vollständig veröffentlichter Preisliste und **weist keine Einrichtungsgebühr aus** (Gegenprobe im Bestand: kein Treffer auf `Aufnahmegebühr` oder `Eintrittsgebühr` im AKZENT-Kontext, Positivkontrolle „AKZENT" 25 Treffer ✔). Er ist allerdings ein **Verbandsbeitrag**, kein Dienstleistungsvertrag mit Einrichtungsaufwand — das schwächt ihn als Gegenfall, hebt ihn aber nicht auf · erfordert Disziplin beim Onboarding-Aufwand, sonst frisst der erste Monat den Jahresertrag · ⚠️ **Der Leistungsumfang wird zum Kostentreiber:** Monatliche Kündbarkeit **plus** unbegrenzter Leistungsumfang ist die teuerste denkbare Kombination — der Rohstoff-Punkt „Standard klar begrenzen, sonst zieht das Modell in individuelle Dauerarbeit" (⑤) trifft (i) härter als jede andere Option (in der Erstfassung verschwunden, P-12). *Einordnung der Zentrale dazu, damit sie nicht missverstanden wird: Das ist **kein** Widerspruch zum Grundsatz „Keine Lite-Varianten" — der betrifft die BAUQUALITÄT jedes Werkstücks, nicht die saubere Abgrenzung des Leistungsumfangs.* |
 
 ### 7.2 Option (ii) — Monatlich kündbar + einmalige Startgebühr
+
+> **🟢 GEWÄHLT am 13.08.2026 (§ 11 E-1).** Die Bewertung unten bleibt
+> unverändert stehen — auch die Spalte „Dagegen": Sie beschreibt die
+> Risiken, die wir mit dieser Wahl **übernommen** haben, nicht die, die
+> wir vermieden haben.
+>
+> **Zwei Ergänzungen, die der Entscheid gegenüber dieser Beschreibung
+> mitbringt:**
+> 1. **Gewichtung im ersten Jahr:** Startgebühr **verstärkt**,
+>    Monatsgebühr **geringer** — diese Variante ist oben **nicht**
+>    ausgearbeitet. Sie verschärft den Punkt „höchste Einstiegshürde
+>    beim allerersten Kunden" (Spalte „Dagegen"), weil sie genau die
+>    Zahl erhöht, die der Interessent zuerst sieht. Als **spätere
+>    Verschiebungsrichtung** ist der niedrigschwellige Einstieg
+>    ausdrücklich vorgesehen (§ 11 E-1).
+> 2. **Die Annahme in Zeile 1 ist weiterhin ungeprüft:** „Startgebühr
+>    deckt den Einführungsaufwand" ist ④ und **prüfbar erst mit
+>    B1/B3** — also erst nach **E-6**.
 
 Wie (i), zusätzlich eine einmalige Einrichtungsgebühr zu Beginn.
 
@@ -804,6 +923,32 @@ durch die Hintertür zum Anker gemacht — Prüferbefund P-28.
 Stundensatz um 5 €, die laufenden Kosten wegen des falschen
 Supabase-Scopes. Alle zwölf Zellen sind neu gerechnet.)*
 
+> **🟢 Nachtrag 13.08.2026 — was E-3 an dieser Tabelle ändert (wenig,
+> und das ist nachgerechnet):** Die Tabelle rechnet mit **45 €**
+> laufenden Kosten (W-A/W-B gemittelt). Nach **E-3** ist die
+> Rechenbasis **W-B allein**, dessen Mitte bei **48 €** liegt
+> (38–58 €, § 4.1). Der Nenner sinkt dadurch von 355 € auf 352 € (bei
+> 400 €/Monat), die Break-even-Werte steigen um **rund 0,9 %**
+> — durchgängig, weil sich nur der Nenner ändert (Zählweg:
+> 355 ÷ 352 = 1,0085). **Die Tabelle wird deshalb NICHT neu gerechnet:**
+> Eine Verschiebung unter einem Prozent an einer Illustration, deren
+> Zähler (B1) überhaupt nicht erhoben ist, wäre erfundene Genauigkeit.
+> Sie bleibt, was sie ist — eine Illustration der Formel, keine
+> Kalkulation.
+>
+> ⭐ **Was E-3 dagegen an der FORMEL ändert, und das ist erheblich:**
+> Der Nenner „Monatspreis − laufende Kosten je Kunde" setzt voraus,
+> dass **wir** die Systemkosten tragen. Nach E-3 werden
+> Hetzner/Supabase/Vapi **zum Selbstkostenpreis durchgereicht** — dann
+> mindern sie unseren Deckungsbeitrag **nicht mehr**, und der richtige
+> Nenner lautet „Servicegebühr − unsere Arbeitszeit". Zwei
+> gegenläufige Folgen, beide gehören genannt: Der Break-even wird
+> **kürzer** (für uns günstig), und die Gesamtrechnung des Kunden wird
+> **sichtbar größer** (ungünstig für die Zahlungsbereitschaft, über die
+> wir nach § 6.4 nichts Belegtes wissen). Ausgeführt in
+> `handel/preisliste-vorlaeufig.md`, Abschnitt „Der Aufbau in einem
+> Satz". **④ — gerechnet, nicht gemessen.**
+
 **Was man an dieser Tabelle ablesen kann, ohne eine einzige Zahl zu
 glauben:** Der Break-even reagiert viel stärker auf den
 Einführungsaufwand als auf den Monatspreis. Bei 1–3 Personentagen ist
@@ -826,6 +971,25 @@ also die Kombination aus (ii) und (iii).
 ---
 
 ## 8. Die Bemessungs-Achse (Frage F-II) — eine eigene Entscheidung
+
+> **🟢 ENTSCHIEDEN am 13.08.2026 (§ 11 E-2/E-2a): Bemessung (c)**,
+> Bezugseinheit **je Objekt/Haus**, ergänzt um einen **Mehrhaus-Rabatt
+> auf die Grundgebühr**. Die Tabelle unten bleibt vollständig stehen —
+> auch die Spalte „Dagegen" zu (c) („erklärungsbedürftiger; braucht
+> eine saubere Angebotsdarstellung"): Sie benennt die Aufgabe, die
+> **R12-B/E-8** jetzt zu lösen hat.
+>
+> **Zwei Dinge, die der Entscheid NICHT erledigt hat:**
+> - Die **Höhe des Mehrhaus-Rabatts** ist offen (§ 11 E-2).
+> - Der **Hinweis zur Modulfrage (A2)** unten gilt unverändert: Paket
+>   vs. Baukasten ist eine **vierte** Frage und mit E-2 **nicht**
+>   mitentschieden.
+>
+> ⚠️ **Und die Herkunfts-Kennzeichnung von (c) bleibt gültig:** Die
+> Struktur stammt aus dem ChatGPT-Teil des Rohstoff-Papiers (**⑤**,
+> § 2.2); die eigenen Anker stützen sie **nachträglich**. Dass sie
+> jetzt entschieden ist, macht sie **nicht** zu einem eigenen Befund —
+> die Belegstufe der Struktur ändert sich durch einen Entscheid nicht.
 
 Diese Frage ist von § 7 unabhängig und wird deshalb getrennt vorgelegt.
 
@@ -900,6 +1064,22 @@ Namensentscheid (S5, spätestens Fr 14.08.2026 — **in zwei Tagen**).
 > sie ist nicht der Engpass** — wer sie beschleunigt, um den Termin zu
 > retten, optimiert die falsche Stelle.
 
+> **🟢 Nachtrag 13.08.2026 — der Sperr-Posten ist teilweise gelöst, der
+> Engpass nicht:**
+> - **Gelöst:** F-I und F-II sind entschieden (§ 11 E-1/E-2/E-2a); die
+>   vorläufige Preisliste steht. Der N-2-Sperrgrund
+>   „Preismodell/Angebotsarchitektur fehlt" ist damit **nicht mehr
+>   vollständig** zutreffend — die Angebotsarchitektur folgt als R12-B.
+> - **Nicht gelöst:** Die **Höhe** (F-III) trägt noch kein Angebot, und
+>   **S5 (Firmierung/Name)** ist unverändert der kritische Pfad. Der
+>   Kasten oben gilt Wort für Wort weiter.
+> - ⚠️ **Terminanker gealtert:** Die Tabelle nennt S4/S5 mit „spätestens
+>   Fr 14.08.2026 — übermorgen". Aus Sicht des **13.08.2026** ist das
+>   **morgen**. Die Datumsangaben stimmen, die relativen Zeitangaben
+>   sind der Stand des 12.08. — der Bestand wird hier **nicht**
+>   umgeschrieben, weil sonst der Lesestand der Vorfassung verloren
+>   geht.
+
 ---
 
 ## 10. Zulieferung an die Zentrale (Vertrag / StB)
@@ -927,9 +1107,46 @@ Preisentscheidung gefallen ist:
 Diese Session hat **keine** Meldedatei dort abgelegt (nicht im Scope
 dieses Auftrags) — die Übergabe läuft über die Leitsession.
 
+> **🟢 Nachtrag 13.08.2026 — Stand der sieben Zulieferungspunkte:**
+> - **Z-6 hat einen Träger:** **Ruffy/heypensio** (§ 11 E-4), gebündelt
+>   mit der n8n-MCP-Entscheidungsvorlage; **kein Kalendertermin**.
+> - **Z-2 (Startgebühr: Rechtsnatur, Fälligkeit, Rückzahlbarkeit)** ist
+>   durch E-1 **schärfer geworden**: Die Option, die diesen Punkt
+>   auslöst, ist jetzt die gewählte — und die Gewichtung „erstes Jahr
+>   Startgebühr verstärkt" erhöht den Betrag, um dessen Rückzahlbarkeit
+>   bei früher Kündigung es geht.
+> - **Z-3 (Mindestlaufzeit)** und **Z-4 (Preisänderung im laufenden
+>   Vertrag)** hängen an den **nicht** gewählten Optionen (iii)/(iv) und
+>   sind damit vorerst **nachrangig** — nicht erledigt, aber ohne
+>   Auslöser. ⚠️ Ausnahme: Die in E-1 vorgesehene **spätere
+>   Verschiebung** (Startgebühr runter, Monatsanteil rauf) ist eine
+>   Preisänderung im laufenden Vertragsverhältnis — **sie fällt unter
+>   Z-4**, sobald sie den ersten Bestandskunden trifft.
+> - **Z-1, Z-5, Z-7** unverändert offen, **kein Träger benannt**. Die
+>   Übergabe an die Zentrale ist **weiterhin nicht erfolgt** (R12-A hat
+>   keine Meldedatei abgelegt — nicht im Scope).
+
 ---
 
 ## 11. Entscheidungspunkte
+
+> ### 🟢 Nachtrag 13.08.2026 — Stand dieses Abschnitts
+>
+> **Alle acht Punkte sind beantwortet.** Jeder Punkt trägt unten einen
+> eigenen ✅-Kasten mit Entscheid-Inhalt, Quelle, Datum und Form. **Die
+> ursprüngliche Frage und ihre ☐-Optionen bleiben darüber stehen** —
+> wer wissen will, worüber entschieden wurde, muss die Frage lesen
+> können, die gestellt war.
+>
+> **Belegstufe, einheitlich für alle acht:** Briefing-Dialog
+> 13.08.2026, Dropdown + Freitext, **sinngemäß — Wortlaut nicht
+> archiviert**; Quelle
+> `<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`,
+> Abschnitt „⭐ Entscheide-Protokoll 13.08.2026". Die Vermerke sagen
+> also, **was** entschieden wurde, nicht **mit welchen Worten**.
+>
+> **Eingetragen von:** Session R12-A, 13.08.2026. Diese Session hat
+> **nichts entschieden** — sie hat übertragen.
 
 Die Punkte E-1, E-2, E-2a, E-3, E-5 und E-8 sind einzeln mit
 **Ja / Nein / Änderung** beantwortbar; **E-4, E-6 und E-7 sind
@@ -946,6 +1163,29 @@ Erstfassung stellte E-1/E-2 in „So läuft es weiter" vor E-6 und
 widersprach damit ihrem eigenen Vorbehalt in § 12 — Prüferbefund
 P-14.)*
 
+> **🟢 Nachtrag 13.08.2026 zum Reihenfolge-Kasten — der Warntext oben
+> bleibt stehen, weil er zutrifft.**
+>
+> Der User hat **E-1 bewusst VOR E-6 entschieden.** Der Kasten darüber
+> ist damit nicht widerlegt, sondern **in Kenntnis seines Inhalts
+> überstimmt** — das ist etwas anderes und muss lesbar bleiben.
+>
+> - **Was das heißt:** Die **Vertragsform** (ii) steht fest. Die
+>   **Höhe** der Startgebühr steht **nicht** fest und ruht weiterhin auf
+>   derselben schwachen Beleggrundlage, die der Kasten benennt — sie ist
+>   bis E-6 eine **④ Hypothese aus Marktanalogie**, nicht mehr.
+> - **Begründung des Users (sinngemäß, Briefing-Dialog 13.08.2026):**
+>   Liquiditätslage der Firma — schnell auf eine solide Basis kommen.
+>   Das ist eine **unternehmerische**, keine belegtechnische Begründung;
+>   sie ersetzt E-6 nicht, sie priorisiert an ihm vorbei.
+> - **Was daraus folgt:** E-6 wird durch diesen Entscheid **nicht
+>   erledigt, sondern dringlicher** — solange er offen ist, kann niemand
+>   sagen, ob die gewählte Startgebühr den Einführungsaufwand deckt
+>   (das ist genau die Frage, für die Option (ii) gewählt wurde).
+> - **Der Satz des Kastens, der weiter gilt:** Wer die HÖHE ohne E-6
+>   festlegt, entscheidet auf derselben Beleggrundlage wie die
+>   verworfene ChatGPT-These.
+
 **☐ E-1 — Vertragsform (Frage F-I).** Welche Option soll ausgearbeitet
 werden?
 &nbsp;&nbsp;☐ (i) monatlich, ohne Bindung, ohne Startgebühr
@@ -959,6 +1199,37 @@ heißt:** nach den Marktanalogien dieses Papiers eine **vierstellige**
 Einmalzahlung (M4: 1.495–4.195 € ③ · W1: 1.920 € ③ · W6: ab 7.000 € ③)
 — das ist die Zahl, die der Interessent zuerst sieht.*
 
+> ### ✅ E-1 ENTSCHIEDEN — Option (ii), mit umgekehrter Gewichtung im ersten Jahr
+>
+> **Entscheid:** **Option (ii) — monatlich kündbar + einmalige
+> Startgebühr.** Zusätzlich eine Gewichtungs-Vorgabe, die im
+> Optionenraum oben nicht vorgesehen war: **Im ersten Jahr wird die
+> Startgebühr VERSTÄRKT und die Monatsgebühr GERINGER angesetzt.**
+>
+> **Begründung (User, sinngemäß):** Liquiditätslage der Firma — schnell
+> auf eine solide Basis kommen.
+>
+> **Ausdrücklich mitentschieden — die spätere Verschiebungsrichtung:**
+> Die **eigentliche Präferenz** des Users ist der **niedrigschwellige
+> Einstieg mit stärkerem Monatsanteil**. Sie ist nicht verworfen,
+> sondern **als spätere Verschiebung ausdrücklich vorgesehen**. Wer
+> diese Vorgabe später umsetzt, setzt keinen neuen Kurs, sondern den
+> ursprünglich gewollten.
+>
+> **Was NICHT entschieden ist:** die **Höhe** — weder der Startgebühr
+> noch der Monatsgebühr, und auch nicht, wie stark „verstärkt"/
+> „geringer" ausfällt. **Auftrag aus dem Entscheid:** die Höhe **sofort
+> als Spanne aus den Marktankern schätzen**, ausdrücklich als
+> Hypothese; **belastbar erst nach E-6.**
+> → Umgesetzt in **`handel/preisliste-vorlaeufig.md`**, Abschnitt
+> **„Startgebühr — Herleitung der Hypothesen-Spanne"**, durchgehend
+> **④** gekennzeichnet.
+>
+> **Quelle:** `<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`,
+> „⭐ Entscheide-Protokoll 13.08.2026" · **Datum:** 13.08.2026 ·
+> **Form:** Briefing-Dialog, Dropdown + Freitext, **sinngemäß —
+> Wortlaut nicht archiviert**.
+
 **☐ E-2a — Bezugseinheit (Vorfrage zu E-2, ergänzt nach Prüferbefund
 P-13).** Gilt der Preis je **Kunde/Betreiber**, je **Objekt/Haus** oder
 je **Firmierung**?
@@ -970,10 +1241,51 @@ technische Zähleinheit nicht gegen Objekt/Firma abgegrenzt"). Bei
 Bemessung (c) entscheidet diese Frage den Preis um den Faktor drei —
 zahlt ein Betreiber mit drei Häusern eine Grundgebühr oder drei?*
 
+> ### ✅ E-2a ENTSCHIEDEN — je Objekt/Haus
+>
+> **Entscheid:** Der Preis gilt **je Objekt/Haus** — nicht je
+> Kunde/Betreiber und nicht je Firmierung.
+>
+> **Was das konkret bedeutet** (die Frage oben nennt genau diesen Fall):
+> Ein Betreiber mit drei Häusern zahlt **drei** Grundgebühren, nicht
+> eine. Der eigene Pilot — ein Kunde, drei Objekte, drei Firmierungen —
+> wäre nach dieser Regel dreimal zu bemessen. *(Für den Piloten bleibt
+> das folgenlos: er ist kostenlos, E-5/E-5a.)*
+>
+> **Der Gegen-Effekt ist mitentschieden, nicht übersehen:** Genau
+> deshalb trägt E-2 den **Mehrhaus-Rabatt auf die Grundgebühr** als
+> Stellschraube — die Bezugseinheit „je Haus" setzt den Regelfall, der
+> Rabatt federt den Mehrhaus-Fall ab. Beide Entscheide gehören
+> zusammen gelesen.
+>
+> **Quelle/Datum/Form:** wie E-1 (Entscheide-Protokoll 13.08.2026,
+> Briefing-Dialog, sinngemäß — Wortlaut nicht archiviert).
+
 **☐ E-2 — Bemessung (Frage F-II).** Woran hängt der Preis?
 &nbsp;&nbsp;☐ (a) pro Zimmer &nbsp;&nbsp;☐ (b) Fixpauschale je Haus
 &nbsp;&nbsp;☐ (c) Grundgebühr + zimmerabhängiger Anteil
 &nbsp;&nbsp;☐ anders: _____
+
+> ### ✅ E-2 ENTSCHIEDEN — (c) Grundgebühr + Zimmeranteil, plus Mehrhaus-Rabatt
+>
+> **Entscheid:** **Bemessung (c)** — Grundgebühr **je Objekt/Haus**
+> (E-2a) **plus** zimmerabhängiger Anteil. **Ergänzend entschieden:**
+> ein **Mehrhaus-Rabatt auf die Grundgebühr** als Stellschraube für
+> preissensible Mehrhaus-Betreiber (Empfehlung der Zentrale, vom User
+> bestätigt).
+>
+> **Was NICHT entschieden ist — und wo es hingehört:**
+> - Die **Höhe des Rabatts** (Prozentsatz oder Staffel) ist **offen**.
+>   Das Entscheide-Protokoll schweigt dazu; es ist damit **kein**
+>   Vorschlag dieser Session, sondern ein offener Punkt.
+> - Die **Ausarbeitung der Mechanik** (ab welchem Haus, worauf genau,
+>   Zusammenspiel mit Paketen) läuft als **E-8/Angebotsarchitektur**
+>   (`handel/angebotsarchitektur.md`, Runde R12-B) — nicht hier.
+> - Die **Modulfrage (A2)** bleibt unberührt: Der Hinweis in § 8
+>   („eine vierte Frage, Paket vs. Baukasten") gilt weiter und ist mit
+>   E-2 **nicht** mitentschieden.
+>
+> **Quelle/Datum/Form:** wie E-1.
 
 **☐ E-3 — Architektur-Weiche: dürfen wir preisseitig VORLÄUFIG von der
 geteilten Plattform (W-A) ausgehen**, solange der Architektur-Entscheid
@@ -982,9 +1294,68 @@ an, falls A3 kommt. Nein = wir warten mit der Kalkulation auf den
 Architektur-Entscheid — dann verschiebt sich die Preisliste um dessen
 Dauer.)
 
+> ### ✅ E-3 — NICHT mit Ja/Nein beantwortet, sondern NEU GEFASST
+>
+> ⚠️ **Die Frage oben bleibt bewusst stehen, obwohl sie so nicht
+> beantwortet wurde** — der Entscheid ist sonst nicht verstehbar. Die
+> Vorlage fragte: „Dürfen wir vorläufig von **W-A** (geteilte
+> Plattform) ausgehen?" Der User hat die Frage **umgedreht**: nicht
+> W-A, sondern W-B.
+>
+> **Entscheid (Neufassung durch den User, Richtung
+> „Übergabefähigkeit"):** Die vorläufige Preisliste wird auf der
+> **W-B/A3-Struktur** gerechnet:
+> 1. **Kunde = Eigentümer.** Die Zugänge zur betriebenen Umgebung
+>    gehören ihm; **kein Lock-in beim Dienstleisterwechsel.**
+> 2. **Infrastrukturkosten separat und zum Selbstkostenpreis
+>    durchgereicht** (Hetzner · Supabase · Vapi) — kein Aufschlag,
+>    keine Bündelung in die Servicegebühr. **Das Vapi-Nutzungsrisiko
+>    bleibt beim Verursacher** (wer telefoniert, zahlt).
+> 3. **Servicegebühr getrennt** ausgewiesen — sie ist der Preis für
+>    unsere Arbeit, nicht für fremde Infrastruktur.
+> 4. **Alles unter Z-6-Vorbehalt:** Die n8n-Lizenzfrage (§ 5.3, § 10
+>    Z-6) kann A3 kippen. Kippt sie, kippt die Rechenbasis dieser
+>    Preisliste mit → **E-4**.
+>
+> **⚠️ Die Grenze, die hier nicht verwischt werden darf (sie ist der
+> Kern des Entscheids):** Entschieden ist die **Rechenbasis der
+> vorläufigen Preisliste** — **nicht die Architektur.** Der
+> **Architektur-Entscheid zum Betreiber-Eigentumsmodell bleibt OFFEN**
+> und liegt bei heypensio/den Gesellschaftern (§ 5, Kopfkasten „Nicht
+> Teil dieser Vorlage"). Aus „wir rechnen vorläufig W-B" folgt **nicht**
+> „wir bauen W-B". Wer diese zwei Sätze zusammenzieht, hat einen
+> Architektur-Entscheid erfunden, den niemand getroffen hat.
+>
+> **Wirkung auf dieses Papier:** § 5 und § 5.4 bleiben inhaltlich
+> unverändert gültig; sie tragen ab sofort einen Vorwärtsverweis auf
+> diesen Entscheid. Die Kostengrößenordnung, mit der ab jetzt gerechnet
+> wird, ist die **W-B-Zeile** aus § 4.1 (**rund 38–58 €/Kunde/Monat**,
+> ④ auf ①-Einzelposten) — nicht die W-A-Zeile.
+>
+> **Quelle/Datum/Form:** wie E-1.
+
 **☐ E-4 — Wer klärt die n8n-Lizenzfrage (Z-6), und bis wann?** Das ist
 keine Preisfrage, aber sie kann A3 kippen. Konkrete Angabe erbeten:
 Name + Zieltermin.
+
+> ### ✅ E-4 ENTSCHIEDEN — Träger benannt: Ruffy/heypensio
+>
+> **Entscheid:** Die n8n-Lizenzfrage (**Z-6**, § 5.3) klärt
+> **Ruffy/heypensio**.
+>
+> **Zieltermin:** kein Kalenderdatum genannt — **gebündelt mit der
+> n8n-MCP-Entscheidungsvorlage** im heypensio-Strang. Der
+> Übergabe-Posten „n8n-Lizenz ↔ A3" **liegt dort bereits**.
+>
+> ⚠️ **Belegstufen-Hinweis:** Damit ist die **Angabe-Anforderung** aus
+> § 11 („Name + Zieltermin") **zur Hälfte** erfüllt — der Name steht,
+> der Termin ist an ein anderes Arbeitspaket gekoppelt statt datiert.
+> Das ist als Verabredung tragfähig, als Terminanker **nicht**: Wer
+> einen Stichtag braucht (z. B. bevor ein Angebot auf W-B-Basis nach
+> außen geht), muss ihn erfragen. Bis dahin steht die W-B-Rechenbasis
+> der Preisliste unter einem Vorbehalt **ohne Ablaufdatum**.
+>
+> **Quelle/Datum/Form:** wie E-1.
 
 **☐ E-5 — Pilot-Abgrenzung bestätigen:** Das Preismodell gilt
 ausschließlich für Folgekunden; der Pilot bleibt kostenlos, die Frage
@@ -994,6 +1365,32 @@ nebenbei mitentschieden. (Ja/Nein)
 beantwortet:** Der R3-Entscheid ist belegt für **NMS und Kiel**. Gilt
 er auch für das **dritte Pilotobjekt (Hostel Boninstraße, eigene
 Firmierung LEANE)**? (Ja / Nein / bereits anders geregelt: _____)
+
+> ### ✅ E-5 + E-5a ENTSCHIEDEN — Ja, und ja: LEANE ist eingeschlossen
+>
+> **E-5 = Ja.** Das Preismodell gilt **ausschließlich für Folgekunden
+> ab Kunde 1**; der **Pilot bleibt kostenlos**. Die Frage einer
+> späteren Überführung des Piloten in ein Preismodell bleibt
+> ausdrücklich **offen** und ist hiermit **nicht** mitentschieden
+> (Kopfkasten „Nicht Teil dieser Vorlage").
+>
+> **E-5a = Ja.** Auch das **Hostel Boninstraße (eigene Firmierung
+> LEANE)** ist **kostenloses Pilotobjekt**.
+>
+> **Was dieser Entscheid repariert:** § 2.3 hielt fest, dass der
+> R3-Entscheid im Bestand nur für **NMS und Kiel** belegt war und
+> dieses Dokument repoweit die **einzige** Stelle war, die das dritte
+> Objekt mit „kostenlos" verband — erheblich, weil LEANE eine dritte
+> Rechtsträgerin ist. **Diese Lücke ist damit geschlossen** (§ 2.3
+> trägt den Vorwärtsverweis).
+>
+> ⚠️ **Was der Entscheid NICHT beseitigt:** Er ersetzt keine
+> vertragliche/steuerliche Prüfung der unentgeltlichen Leistung an eine
+> **dritte Rechtsträgerin**. Der Entscheid sagt „kostenlos" — er sagt
+> nicht, wie das gegenüber LEANE dokumentiert wird. Wer das braucht,
+> nimmt es in die Zentrale-Zulieferung (§ 10) auf.
+>
+> **Quelle/Datum/Form:** wie E-1.
 
 **☐ E-6 — Einführungsaufwand messen (§ 4.2/§ 7.5).** Vorschlag: Beim
 nächsten Onboarding-Schritt im Pilotumfeld die reine Arbeitszeit
@@ -1009,17 +1406,76 @@ Tabelle in § 7.5 zeigt, wie stark das Ergebnis daran hängt: 1 vs. 5
 Personentage verschieben den Break-even von 3 auf 15 Monate). Konkrete
 Angabe erbeten: Wer misst, an welchem Vorgang, bis wann?
 
+> ### ✅ E-6 ENTSCHIEDEN — Träger benannt: Ruffy/heypensio
+>
+> **Entscheid:** **Ruffy/heypensio** misst. **An welchem Vorgang:**
+> beim **nächsten Pilot-Onboarding-Schritt**. **Wie:** die reine
+> Arbeitszeit **in groben Blöcken mitstoppen**. Die Zulieferung geht an
+> MKT.
+>
+> **Zieltermin:** **kein Datum genannt** — die Messung hängt am
+> nächsten Onboarding-Schritt, dessen Zeitpunkt hier nicht belegt ist.
+>
+> ⚠️ **Das ist der wichtigste offene Posten dieses Papiers, und der
+> Entscheid schließt ihn nicht:** Solange B1 nicht gemessen ist, bleibt
+> **jede** Startgebühr-Zahl eine Hypothese — auch die neue Spanne in
+> `handel/preisliste-vorlaeufig.md`. Die Terminlage hat sich durch den
+> E-1-Entscheid **verschärft**, nicht entspannt: E-1 ist gefallen,
+> **bevor** die Zahl vorlag, die ihn tragfähig macht (s.
+> Reihenfolge-Kasten oben).
+>
+> **Quelle/Datum/Form:** wie E-1.
+
 **☐ E-7 — Zahlungsbereitschaft erheben (§ 6.4).** Vorschlag: Im
 ohnehin geplanten Kayhan-Gespräch (FUND2) die Frage unterbringen, was
 ein vergleichbares Haus für einen betriebenen Digitalisierungs-Service
 im Monat ansetzen würde. Kostet nichts extra und schließt die größte
 Beleglücke dieses Papiers. (Ja/Nein/anders)
 
+> ### ✅ E-7 ENTSCHIEDEN — Ja, im FUND2-Kayhan-Gespräch
+>
+> **Entscheid: Ja.** Die Zahlungsbereitschafts-Frage geht in das
+> ohnehin geplante **FUND2-Kayhan-Gespräch (~23.08.2026)**. Der
+> Terminposten trägt sie seit dem 13.08. ausdrücklich mit
+> (Briefing 13.08., Terminposten „23.08.").
+>
+> **Was damit erledigt ist:** der **Auftrag**, die Frage zu stellen.
+> **Was NICHT erledigt ist:** die **Antwort**. § 6.4 („Nichts
+> Belegtes") und Grenze 2 in § 13 gelten unverändert, bis die
+> Erhebung stattgefunden hat — ein terminierter Vorsatz ist kein
+> Beleg.
+>
+> ⚠️ **Reichweite der Erhebung, damit sie später nicht überdehnt
+> wird:** Kayhan ist **ein** Gesprächspartner aus dem eigenen
+> Pilotumfeld, kein Zielkunden-Sample. Was daraus kommt, ist ein
+> **erster** Anhalt (n=1, nahestehend), keine erhobene
+> Zahlungsbereitschaft des Zielmarkts.
+>
+> **Quelle/Datum/Form:** wie E-1.
+
 **☐ E-8 — Freigabe des Rahmens für die nächste Stufe:** Soll auf
 Grundlage von E-1/E-2 die **Angebotsarchitektur** (Leistungspakete,
 Angebotsdokument, Preisliste) gebaut werden — unter dem
 Firmierungs-Vorbehalt, also ohne Namen und ohne Außenversand?
 (Ja/Nein)
+
+> ### ✅ E-8 ENTSCHIEDEN — Ja, intern und ohne Außenversand
+>
+> **Entscheid: Ja.** Die **Angebotsarchitektur** wird gebaut —
+> **intern**, unter **Firmierungs-Vorbehalt** (ohne Namen), **ohne
+> Außenversand**.
+>
+> **Umsetzung:** `handel/angebotsarchitektur.md`, Runde **R12-B**
+> (Leistungspakete + Mehrhaus-Rabatt-Mechanik aus E-2). Die
+> **vorläufige Preisliste** (`handel/preisliste-vorlaeufig.md`) ist
+> bereits gebaut (R12-A, 13.08.2026).
+>
+> ⚠️ **Was die Freigabe NICHT umfasst:** kein Angebotsdokument nach
+> außen, keine Preiszusage, keine Anbieter-/Kundenkommunikation. Die
+> Freigabe betrifft das **Bauen**, nicht das **Verwenden** — der
+> Firmierungs-Vorbehalt (Kopfkasten) ist davon unberührt.
+>
+> **Quelle/Datum/Form:** wie E-1.
 
 ### So läuft es weiter
 
@@ -1034,9 +1490,44 @@ Firmierungs-Vorbehalt, also ohne Namen und ohne Außenversand?
    sobald daraus ein Angebotsdokument gebaut ist, hängt an jeder
    Formulierung eine Kette.
 
+> **🟢 Nachtrag 13.08.2026 — wo die fünf Schritte stehen:**
+>
+> | Schritt | Stand am 13.08.2026 |
+> |---|---|
+> | 1. Antworten formlos, dann schriftlich im Repo | ✅ **erledigt** — Entscheide-Protokoll im Briefing, ✅-Vermerke oben |
+> | 2. Preistabelle aus E-1/E-2 (F-III) — „braucht E-6 und möglichst E-7" | ⚠️ **teilweise, bewusst vorgezogen:** `handel/preisliste-vorlaeufig.md` steht — **ohne** E-6 und **ohne** E-7, deshalb durchgehend als **Hypothese/Struktur** und ausdrücklich **vorläufig**. Der Vorbehalt dieses Satzes gilt unverändert: **belastbar wird die Tabelle erst mit E-6** |
+> | 3. Angebotsarchitektur + Angebotsdokument (E-8) | 🔄 **läuft** — Angebotsarchitektur als R12-B; **Angebotsdokument nicht**, es wäre außenwirksam (Firmierungs-Vorbehalt) |
+> | 4. Z-1…Z-7 an die Zentrale | ⏸️ **offen** — unverändert; **Z-6 hat mit E-4 einen Träger** (Ruffy/heypensio), die übrigen nicht |
+> | 5. Textänderungen jetzt am billigsten | ✅ **angewandt** — R12-A hat beim Nachtragen die Stellen mitkorrigiert, die unter den Entscheiden schief wurden; jede Korrektur steht als sichtbarer Kasten |
+
 ---
 
 ## 12. Empfehlung dieser Session (begründet, nicht bindend)
+
+> **🟢 Nachtrag 13.08.2026 — die Empfehlung ist gefolgt worden, aber
+> aus einem anderen Grund.** Der Entscheid deckt sich im **Ergebnis**
+> mit beiden Empfehlungen dieses Abschnitts: **(ii)** bei der
+> Vertragsform, **(c)** bei der Bemessung (§ 11 E-1/E-2).
+>
+> ⚠️ **Die Begründung ist eine andere — und das gehört
+> auseinandergehalten:** Dieser Abschnitt begründet (ii) mit
+> **Marktpraxis und USP-Erhalt**. Der User hat mit der **Liquiditätslage
+> der Firma** begründet und zusätzlich die **Gewichtung** vorgegeben
+> (erstes Jahr: Startgebühr verstärkt, Monatsgebühr geringer) — eine
+> Variante, die dieser Abschnitt **nicht** vorgeschlagen und nicht
+> geprüft hat. **Eine Übereinstimmung im Ergebnis ist keine Bestätigung
+> der Begründung.**
+>
+> **Die Einschränkung unten ist NICHT ausgeräumt.** „Wenn der
+> Einführungsaufwand (E-6) klein ist, ist (i) die bessere Wahl" — E-6
+> ist weiterhin offen (§ 11 E-6). Der Entscheid ist also genau in der
+> Lage gefallen, die dieser Abschnitt als Vorbehalt beschreibt; der
+> Satz „Wer sie ohne E-6 umsetzt, entscheidet auf derselben
+> Beleggrundlage wie die ChatGPT-These" bleibt stehen und ist im
+> Reihenfolge-Kasten in § 11 ausdrücklich mitentschieden worden.
+>
+> **Der Text unten wird nicht umgeschrieben** — er ist die Empfehlung,
+> die vorlag, als entschieden wurde.
 
 **Zur Vertragsform (E-1): Option (ii) — monatlich kündbar mit
 Startgebühr**, mit einer ausdrücklichen Einschränkung.
@@ -1088,6 +1579,18 @@ Einführungskosten aus dem Cashflow, ohne Bindungsklausel) und eine
 ---
 
 ## 13. Grenzen dieses Papiers (was NICHT geprüft wurde)
+
+> **🟢 Nachtrag 13.08.2026 — welche Grenzen der Entscheid berührt (drei
+> von vierzehn), und welche NICHT:**
+>
+> | Grenze | Stand nach dem 13.08.2026 |
+> |---|---|
+> | **Nr. 1** (B1/B3 nicht erhoben) | **unverändert offen.** B3 hat ein Marktband (125–160 €/h), **B1 ist weiterhin nicht erhoben** — E-6 benennt nur den Träger |
+> | **Nr. 2** (kein Zahlungsbereitschafts-Beleg) | **unverändert offen** — E-7 terminiert die Frage (~23.08.), die Antwort steht aus |
+> | **Nr. 3** (n8n-Lizenz nicht gelesen) | **unverändert offen** — E-4 benennt den Träger (Ruffy/heypensio), nicht das Ergebnis |
+> | **Nr. 8** („Preishöhe bewusst nicht beziffert") | ⚠️ **präzisiert:** Dieses Papier beziffert weiterhin **keinen Preis**. Seit dem 13.08. existiert in `handel/preisliste-vorlaeufig.md` eine **④-Hypothesen-Spanne** für die Startgebühr aus Marktanalogie. Der Satz „Wer aus diesem Papier eine Zahl zitiert, zitiert keinen Preis von uns" gilt **für beide Dokumente** — die Spanne ist eine Schätzung, keine Preisangabe und keine Zusage |
+> | **Nr. 14** (vierstellige Einmalzahlung nicht geprüft) | ⚠️ **verschärft, nicht gelöst:** Mit E-1 ist die vierstellige Einmalzahlung **entschieden** — geprüft ist sie damit nicht. Die Marktanalogien zeigen weiterhin nur, was **andere verlangen** |
+> | **Alle übrigen (4–7, 9–13)** | **unverändert** — der Entscheid berührt sie nicht |
 
 Ehrlich und vollzählig, damit niemand die Lücken für Ergebnisse hält:
 

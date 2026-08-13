@@ -1651,12 +1651,56 @@ entfällt auch die Kollision mit R15-D.
 - **R15-D · Codex: JA für den Messteil** (Zitat-für-Zitat-Abgleich,
   Betrags-Extraktion über die Rohbelege), **NEIN für die Folgerung**
   „trägt A3 weiterhin?".
-- **R15-E · Codex: TEILWEISE** — Fundstellen-/Zitat-Abgleich
+- ~~**R15-E · Codex: TEILWEISE** — Fundstellen-/Zitat-Abgleich
   (existiert der Beleg? deckt er den Satz?) maschinell prüfbar; die
-  Reparatur-Formulierung im Wettbewerbsbild nicht.
+  Reparatur-Formulierung im Wettbewerbsbild nicht.~~
+  ⚠️ **ÜBERHOLT durch den Umschnitt vom 14.08. 00:15** — diese Zeile
+  bewertete den alten Auftrag (R05-A-Nacharbeit). Sie stehenzulassen
+  wäre eine Bewertung ohne Gegenstand.
 
 *(Werkzeugwahl trifft der User — die Evaluation ist Bringschuld der
 Leitsession.)*
+
+### Codex-Pflichtzeilen — NEUFASSUNG nach der Prüfer-Disposition (14.08. 00:15)
+
+Die Prompt-Korrekturen haben den maschinellen Anteil mehrerer Stränge
+verschoben; die Zeilen werden deshalb neu vergeben, nicht fortgeschrieben.
+
+- **R15-A · Codex: NEIN — mit GEWACHSENEM Ja-Teil.** Der Strang bleibt
+  Urteilsarbeit (außenwirksames Dokument an einen Dritten,
+  Belegstufen-Urteil). **Aber die Zulieferung ist größer geworden:**
+  Zum Rn.-Abgleich der 21 § 3a-UWG-Treffer kommen jetzt drei geprüfte
+  Quellenlücken (EuGH C-621/22 Rn. 56 · Rechtskraft/Instanz LG
+  Düsseldorf 38 O 243/23 · Rn. 130 UGPRL) — reine Fundstellen-Arbeit
+  mit hartem Soll.
+- **R15-B · Codex: NEIN — Ja-Teil ebenfalls gewachsen.** Außenwirksame
+  Angebots-/Vertragsbausteine bleiben Urteilsarbeit. Maschinell prüfbar
+  ist jetzt zusätzlich: die **n-von-4-Erhebung über AU-1…AU-4** (welche
+  Auflage verlangt was im Angebotstext?) und die **Zählprobe
+  Überschrift ↔ Tabelle** an den beiden bekannten Fundorten (§ 3.6
+  „drei", § 3.8 „AU-1…AU-3" — beide Male führt die Tabelle vier).
+- **R15-C · Codex: JA** — unverändert. Exit-Code, n/n-Zählung,
+  Selbsttest in beide Richtungen: hartes maschinelles Soll. ⚠️ **Aber
+  mit geändertem Fertig-Kriterium** (F-5): Der Zielzustand ist
+  „Selbsttest grün + Erst-Fundmenge ausgewiesen", **nicht** ein grüner
+  Hauptlauf. Wer den Auftrag an Codex gibt, muss das mitgeben — sonst
+  arbeitet der Fremdagent auf ein unerreichbares Grün hin. Die
+  **Bewertung** der Fehl-Zitate bleibt in der Leitsession.
+- **R15-D · Codex: JA für den Messteil — jetzt SAUBERER als vorher.**
+  Der Beschaffungsteil entfällt (F-2: die 35 Dateien liegen
+  versioniert vor), übrig bleibt ein reiner Zitat-für-Zitat-Abgleich
+  gegen einen **eingefrorenen, hash-belegten** Quellenbestand — die
+  ideale Fremdagenten-Form. **NEIN** bleibt für die Folgerung „trägt A3
+  weiterhin?" und für jede Einarbeitung.
+- **R15-E · Codex: NEIN — NEU BEWERTET für den umgeschnittenen
+  Auftrag.** Sperrdatei-Struktur und Wellenprotokoll sind
+  **datenschutzrechtlich tragende Werkzeuge** (Werbewiderspruch,
+  Löschwunsch, Abgleichspflicht vor jedem Versand); der Feldschnitt ist
+  Urteilsarbeit, und der Strang muss laufend entscheiden, wo ein
+  Platzhalter mit Gate-Vermerk statt einer Angabe steht. **Teilaufgabe
+  JA:** der Zuordnungs-Nachweis **n von 7** (jede Pflicht aus B-1…B-7
+  liegt in einer Vorlage oder ist als „nicht hier" ausgewiesen) ist ein
+  mechanischer Abgleich mit hartem Soll.
 
 ### Disjunktheits-Schnitt (5 Stränge = 10 Paare, auf DATEI-Ebene)
 

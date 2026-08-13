@@ -1,11 +1,19 @@
 # Briefing an einen Rechtsanwalt — vier Fragen zur B2B-Kaltakquise per Brief und zur n8n-Lizenzarchitektur
 
-**Strang:** MKT-HANDEL · **Runde:** R15-A (Session Ben Beckman) ·
-**Stand:** 14.08.2026 · **Status: ENTWURF — noch nicht versendet**
+**Stand:** 14.08.2026 · **Vertraulich** · **Nur für den Empfänger
+bestimmt** · Übermittelt zum Zweck der Mandatsanbahnung
+
+> **Zu diesem Dokument:** Es enthält interne Vorüberlegungen,
+> Bewertungen und offene Punkte unseres Hauses. Wir bitten um
+> vertrauliche Behandlung auch für den Fall, dass es nicht zu einer
+> Beauftragung kommt.
 
 ---
 
-## ⚠️ Statusblock (interne Zeile, vor dem Versand entfernen)
+## ⚠️ Statusblock — **vor dem Versand entfernen**, zusammen mit den beiden Zeilen darunter
+
+**Strang:** MKT-HANDEL · **Runde:** R15-A (Session Ben Beckman) ·
+**Status: ENTWURF — noch nicht versendet**
 
 | Feld | Eintrag |
 |---|---|
@@ -13,9 +21,10 @@
 | **Anlass** | Vier offene Rechtsfragen sperren den Start der Zielkundenlisten-Arbeit (drei davon vor dem **ersten Datensatz**) bzw. das erste Kundenangebot in der Architekturvariante mit kundeneigener Instanz |
 | **Empfänger** | **⛔ NOCH NICHT BESTIMMT.** Im Repo ist keine Kanzlei benannt; die Auswahl trifft der User / die Firmen-Ebene. Bis dahin steht überall `[KANZLEI]` |
 | **Absender** | **⛔ FIRMIERUNG OFFEN (interner Posten F-7).** Der Rebrand ist entschieden, der neue Name steht noch nicht fest. Überall `[FIRMIERUNG — offen, F-7]`. **Keine erfundene Firmierung**, auch nicht als Beispiel |
-| **Quell-Abgleich gelaufen** | `handel/kanal-rechtsmatrix.md` · `akquise/interessenabwaegung-o8.md` · `akquise/listenbau-regelwerk.md` · `projektquelle-mkt.md` § 5 · `protokolle/R14-B-abschluss.md`, je gegen die **Rohbelege** (s. § 7), 14.08.2026 |
+| **Quell-Abgleich gelaufen** | `handel/kanal-rechtsmatrix.md` · `akquise/interessenabwaegung-o8.md` · `akquise/listenbau-regelwerk.md` · `akquise/sperrdatei-struktur.md` · `projektquelle-mkt.md` § 5 · `protokolle/R14-B-abschluss.md`, je gegen die **Rohbelege** (s. § 7), 14.08.2026 — **zweiter Durchgang nach dem Prüferlauf** (Befund S-2: der erste hatte die Fallgruppen-Tabelle des O-8-Dokuments auf ihrer eigenen Achse nicht gefangen) |
 | **Repo-Stand beim Bau** | `4b84693` (eingefroren zu Beginn der Session; zweiter Messstand vor dem Commit in `protokolle/R15-A-abschluss.md`) |
 | **Was dieses Dokument NICHT tut** | Es **entscheidet nichts** und nimmt keine Antwort vorweg. Wo unsere eigene Vorarbeit einen Streitstand gefunden hat, steht „streitig" — nicht der bequemere Pol |
+| **⚠️ Offene User-Entscheidung vor dem Versand** | § 0 Satz 7 offenbart, dass wir das Impressums-Risiko **bewusst und gegen die eigene Empfehlung** tragen. Das ist der ehrlichste und zugleich der angreifbarste Satz des Dokuments: Er geht an einen Empfänger, der zu diesem Zeitpunkt noch nicht mandatiert ist. **Drei Möglichkeiten:** (a) so lassen — der Anwalt kann ohne diese Angabe nicht sinnvoll beraten; (b) erst nach Mandatserteilung nachreichen; (c) neutraler fassen („wir haben uns nach Abwägung für die Nutzung entschieden"). **Empfehlung dieser Session: (a)**, weil Weg B in § 1.5 sonst nicht bewertbar ist — die Entscheidung trifft der User |
 
 ---
 
@@ -25,9 +34,14 @@
 ein KI-gestütztes Assistenzprodukt für Beherbergungsbetriebe (Hotels,
 Pensionen, Ferienwohnungsvermieter). Der Vertrieb soll über
 **Direktansprache** laufen; nach unserer eigenen Vorprüfung ist der
-**Werbebrief an den Betrieb** der einzige Kanal, der ohne vorherige
-Einwilligung trägt. E-Mail-, Telefon- und Plattform-Kaltakquise haben
-wir für uns als gesperrt bzw. streitig eingestuft.
+**Werbebrief an den Betrieb** der tragfähigste Kanal für den
+Erstkontakt ohne vorherige Einwilligung. E-Mail-Kaltakquise haben wir
+für uns als gesperrt eingestuft, Telefon-Kaltakquise als nur mit
+konkretem Anlass zulässig. Bei der **Plattform-Direktnachricht**
+(LinkedIn) ist unsere eigene Einstufung: die reine Kontaktanfrage ohne
+Werbetext ist „rechtlich nicht abschließend geklärt … eine **offene
+Rechtsfrage mit Restrisiko**, **nicht** ein grüner Kanal". Wir geben
+das so wieder, wie es bei uns steht — nicht als erledigt.
 
 **Was wir bereits selbst erarbeitet haben** (und was wir Ihnen als
 Anlage geben können, s. § 6):
@@ -67,10 +81,11 @@ Bestätigung.**
    Art.-21-Abs.-4-Widerspruchshinweis in optisch abgesetzter Form
    enthalten; eine Werbesperrdatei wird vor dem ersten Versand
    aufgebaut.
-7. Der Geschäftsführer hat sich am 11.08.2026 ausdrücklich dafür
-   entschieden, die Nutzung von Impressumsdaten mit dokumentiertem
-   Restrisiko zu betreiben — gegen die Empfehlung unserer eigenen
-   Vorprüfung und in Kenntnis der gegenläufigen Aufsichtsauffassung.
+7. Wir haben uns am 11.08.2026 ausdrücklich dafür entschieden, die
+   Nutzung von Impressumsdaten mit dokumentiertem Restrisiko zu
+   betreiben — **gegen die Empfehlung unserer eigenen Vorprüfung** und
+   in Kenntnis der gegenläufigen Aufsichtsauffassung. Die Entscheidung
+   ist mit Datum und Erhebungsform festgehalten.
 
 **Zeitliche Lage:** Nach unserer Lesart von LG Düsseldorf, Urt. v.
 06.02.2026 – 38 O 243/23, Rn. 87 müssen die datenschutzrechtlichen
@@ -79,6 +94,21 @@ Verarbeitungsschritt ist bei uns der **Listenaufbau**, nicht der
 Versand. Die Fragen 1 bis 3 sperren daher bereits den ersten Datensatz.
 Frage 4 sperrt kein Datum, sondern das erste Kundenangebot in einer
 bestimmten Architekturvariante.
+
+**Zwei Umstände, die Ihre Antwort beeinflussen könnten und die wir
+deshalb nicht in eine Fußnote stellen:**
+
+- **Wir stehen unter Termindruck.** Unser eigenes Ziel ist der erste
+  zahlende Kunde bis Mitte November 2026; der Listenaufbau ist der
+  vorgelagerte Schritt. **Das ist keine Bitte um eine schnellere
+  Antwort, sondern die Information, warum wir die Fragen jetzt stellen
+  und nicht nach dem ersten Versand.** Eine belastbare Antwort in drei
+  Wochen ist uns lieber als eine schnelle in drei Tagen.
+- **Die Rechtsform und der Sitz des Verantwortlichen stehen noch nicht
+  abschließend fest** (Rebrand und Gründungsformalitäten laufen). Das
+  wirkt sich darauf aus, wer Verantwortlicher im Sinne der DSGVO ist und
+  welche Aufsichtsbehörde zuständig wäre. Wenn eine Ihrer Antworten
+  davon abhängt, sagen Sie es uns bitte — wir liefern den Stand nach.
 
 ⚠️ **Ein Vorbehalt zu dieser Lesart, den wir selbst gefunden haben und
 nicht verschweigen:** Der Satz aus Rn. 87 steht nicht in der tragenden
@@ -125,6 +155,21 @@ Bei inhabergeführten Betrieben sind es personenbezogene Daten.
 4. Praktisch: Genügt es, die Prüfung zu **dokumentieren** und das
    Ergebnis im Verarbeitungsverzeichnis zu vermerken, oder ist die
    Impressumsquelle für uns unbrauchbar?
+5. **Auslesen oder Speichern — woran knüpft die Beurteilung an?** Die
+   Aufsicht formuliert ihr Verdikt über das **Auslesen** der Daten; das
+   Auslesen ist bereits Verarbeitung nach Art. 4 Nr. 2 DSGVO. Beim
+   Auslesen liegt der Name des Vertretungsberechtigten regelmäßig vor,
+   weil § 5 Abs. 1 Nr. 1 DDG ihn im Impressum verlangt — auch dann, wenn
+   er nicht in unsere Liste übernommen wird. **Ändert das etwas daran,
+   ob wir bei Kapitalgesellschaften ohne Personennamen außerhalb der
+   DSGVO bleiben?**
+6. **Die Monatsfrist bei Wellenbetrieb.** Nach der Orientierungshilfe
+   (Ziff. 2.2, Wortlaut in 1.3 b) läuft die Frist ab **Erhalt der
+   Daten**, und es zählt, welche Bedingung zuerst eintritt. Wir bauen
+   die Liste in Wellen und wollen die Information **mit dem Brief**
+   erteilen. **Was gilt, wenn zwischen Erhebung und Versand mehr als ein
+   Monat liegt — und wie informiert man postalisch eine Adresse, die man
+   noch nicht anschreiben will?**
 
 ### 1.3 Quellenlage mit Fundstelle
 
@@ -166,13 +211,14 @@ Tatsachen**, keine Bewertung — die Bewertung ist Ihre Frage.
 | **lit. b** Zusammenhang der Erhebung, insbesondere Verhältnis Betroffener ↔ Verantwortlicher | Zwischen uns und dem Betrieb besteht **kein Vorkontakt und keine Geschäftsbeziehung**. Wir erheben aus einer öffentlich abrufbaren Quelle, die der Betrieb nicht freiwillig, sondern aufgrund gesetzlicher Pflicht vorhält |
 | **lit. c** Art der Daten | Firmenkontaktdaten und, bei inhabergeführten Betrieben, der Name des Inhabers. **Keine besonderen Kategorien nach Art. 9, keine Daten nach Art. 10** |
 | **lit. d** mögliche Folgen für die betroffene Person | Ein postalisches Werbeschreiben an die Geschäftsanschrift; kein Profiling, keine Weitergabe an Dritte außer Druck- und Versanddienstleister, kein automatisiertes Scoring |
-| **lit. e** geeignete Garantien | Werbesperrdatei mit Abgleich vor jedem Versand · Quellenprotokoll je Adresse · Art.-14-Information und Art.-21-Abs.-4-Hinweis im ersten Brief · dokumentierte Löschfrist · Aussteuerung von Betrieben, die einen Werbewiderspruch im Impressum vermerkt haben · **keine** Anreicherung um Umsatz, Größe, Scores oder Profile |
+| **lit. e** geeignete Garantien | Werbesperrdatei mit Abgleich vor jedem Versand · Quellenprotokoll je Adresse · Art.-14-Information und Art.-21-Abs.-4-Hinweis im ersten Brief · dokumentierte Löschfrist · Aussteuerung von Betrieben, die einen Werbewiderspruch im Impressum vermerkt haben · **keine** Anreicherung um Umsatz, Größe, Scores oder Profile. ⚠️ **Wir wissen, dass die erste dieser Garantien in einem Zirkel steht:** Nach Ziff. 5.1 der Orientierungshilfe kann eine Werbesperrdatei „letztlich nur rechtmäßig sein, wenn die zu verhindernde Verarbeitung zu Werbezwecken auf Art. 6 Abs. 1 UAbs. 1 lit. f DS-GVO beruht" — sie hängt also an derselben Rechtsgrundlage, die hier geprüft wird |
 
 **b) Die Aufsichtsauffassung.** Datenschutzkonferenz, Orientierungshilfe
 zur Verarbeitung personenbezogener Daten für Zwecke der Direktwerbung,
-**Stand Februar 2022** — Volltext selbst gelesen, über zwei unabhängige
-Behörden-Domains belegt (die Textextrakte beider Abrufe sind
-md5-identisch).
+**Stand Februar 2022** — Volltext selbst gelesen. Sie liegt uns über
+zwei unabhängige Behörden-Domains vor, deren Textextrakte md5-identisch
+sind; *das belegt die **Fassung**, nicht die Negativbefunde weiter unten
+— die laufen über einen Text, also einen Leseweg.*
 
 **Ziff. 1.5 „Zweckänderung", vollständig** (im Original zwei Absätze):
 
@@ -208,13 +254,41 @@ Drei Beobachtungen zum Wortlaut, die wir **nicht** bewerten:
 3. Die Fassung ist von Februar 2022 und nennt noch **§ 5 TMG**; die
    Impressumspflicht steht heute in § 5 DDG.
 
-**Ziff. 4.1 — der Satz unmittelbar davor, auf den sich das „hingegen"
-bezieht:**
+**Ziff. 4.1 — die Ziffer davor, auf die sich das „hingegen" bezieht,
+vollständig (drei Sätze):**
 
 > „Eine Verarbeitung von Postadressdaten für Zwecke der eigenen
 > Direktwerbung aus der Durchführung von Preisausschreiben und
 > Gewinnspielen sowie aufgrund von Katalog- und Prospektanforderungen
-> ist nach Art. 6 Abs. 1 UAbs. 1 lit. f DS-GVO **zulässig**."
+> ist nach Art. 6 Abs. 1 UAbs. 1 lit. f DS-GVO **zulässig**.
+> **Spätestens bei der Datenerhebung ist über die werbliche
+> Datenverarbeitung zu informieren**; eine Einwilligung der betroffenen
+> Personen ist bei solchen Sachverhalten sodann nicht erforderlich. Die
+> Anforderungen aus Ziffer 2.1 sind zu beachten."
+
+4. Auch der permissive Gegenpol ist **bedingt**: Er verlangt die
+   Information „spätestens bei der Datenerhebung".
+
+**Ziff. 2.2 „Zeitpunkt der Information nach Art. 14 DS-GVO" — der
+operative Fristmaßstab der Aufsicht:**
+
+> „Eine unverzügliche Information fordert das Gesetz nicht. Die
+> Information muss jedoch innerhalb einer angemessenen Frist, jedenfalls
+> zum Zeitpunkt der ersten Kommunikation (Aussendung einer Werbung),
+> **spätestens aber innerhalb eines Monats nach Erhalt der Daten**
+> erfolgen. **Es kommt also darauf an, welche Bedingung zuerst
+> eintritt.** Erfolgt die Information in Verbindung mit der ersten
+> Werbezusendung, sind beide Bestandteile (Information und Werbetext)
+> **klar voneinander zu trennen** und die Information (einschließlich
+> des Hinweises auf das Werbewiderspruchsrecht) entsprechend deutlich
+> herauszustellen."
+
+Das betrifft unsere Planung unmittelbar (Frage 1.2 Nr. 6): Wir bauen die
+Liste in Wellen, und die Erhebung läuft dem Versand voraus.
+
+⚠️ **Geltungsgrenze der Orientierungshilfe, die sie selbst zieht**
+(Fußnote 1): Sie „thematisiert **nicht das Thema Adresshandel**". Der
+vom LG entschiedene Fall ist ein Adresshändler-Fall.
 
 **Unser eigener Stand dazu:** Wir führen die Frage seit dem 12.08.2026
 als **offen** und haben sie ausdrücklich **nicht** selbst beantwortet.
@@ -266,7 +340,7 @@ nicht tragfähig:
 |---|---|---|
 | **A — Impressumsquelle fallenlassen** | Nur freiwillig veröffentlichte Kontaktseiten und Verzeichnisse. Kleinere Liste, geringeres Risiko | Nichts weiter; wir kennen die Alternativquellen |
 | **B — Impressumsquelle nutzen, Risiko dokumentiert tragen** | Der heutige Entscheid des Geschäftsführers (11.08.2026) | Ihre Einschätzung, wie groß dieses Risiko tatsächlich ist, und ob eine dokumentierte Kompatibilitätsprüfung es messbar senkt |
-| **C — Nach Betriebsform trennen** | Impressumsdaten nur bei Kapitalgesellschaften (dort nach ErwG 14 S. 2 DSGVO kein Personenbezug der Firmendaten), bei inhabergeführten Betrieben nur freiwillige Quellen | Ihre Bestätigung oder Korrektur, ob diese Trennlinie trägt |
+| **C — Nach Betriebsform trennen** | Impressumsdaten nur bei Kapitalgesellschaften, bei inhabergeführten Betrieben nur freiwillige Quellen. ⚠️ **Diese Trennlinie führen wir selbst als „vertretbar, nicht gesichert":** *dafür* spricht ErwG 14 S. 2 DSGVO (ohne personenbezogenes Datum in der Liste ist die Verordnung für diese Felder nicht anwendbar); *dagegen*, dass das Verdikt der Aufsicht am **Auslesen** anknüpft, das Auslesen bereits Verarbeitung ist (Art. 4 Nr. 2 DSGVO) und beim Auslesen der Vertretungsberechtigte regelmäßig vorliegt, weil § 5 Abs. 1 Nr. 1 DDG ihn im Impressum verlangt. **Der Unterschied zwischen Auslesen und Speichern ist bei uns nicht geklärt** | Ihre Bestätigung oder Korrektur, ob diese Trennlinie trägt |
 
 **Wir bitten nicht um eine Empfehlung „für B", sondern um die
 Einschätzung, welche dieser Wege rechtlich tragen.**
@@ -328,7 +402,12 @@ Urteil prüft die lauterkeitsrechtliche Schiene durch und bejaht sie.
    **betroffene Person** an, träfe also auch den namentlich
    angeschriebenen Inhaber. **Ist das richtig?**
 4. Welche Bedeutung hat es, dass es sich um ein **erstinstanzliches**
-   Urteil handelt und die Rechtskraft ungeklärt ist (dazu 2.3)?
+   Urteil handelt und die Rechtskraft ungeklärt ist (dazu 2.3)? **Und
+   welches Gewicht hat es, dass das zuständige Berufungsgericht nach den
+   Angaben der dortigen Beklagten bereits eine abweichende Auffassung
+   als vorläufiges Beratungsergebnis mitgeteilt haben soll und sie in
+   einer nicht tragenden Erwägung eines Beschlusses geäußert hat**
+   (Rn. 111, Wortlaut in 2.3)?
 5. **Die Datenquelle im Brief — Rn. 115.** Art. 14 Abs. 2 lit. f DSGVO
    verlangt die Angabe der Datenherkunft. Das Gericht macht daraus in
    Rn. 115 ein **Irreführungs**-Argument: Hätte die Beklagte angegeben,
@@ -339,6 +418,16 @@ Urteil prüft die lauterkeitsrechtliche Schiene durch und bejaht sie.
    Unternehmenswebsite"). Ist damit die Irreführungsgefahr ausgeräumt —
    oder entsteht daraus ein neues Problem, wenn ein Brief trotz
    korrekter Herkunftsangabe persönlich adressiert ist?
+   ⚠️ **Zum Einordnen:** Im Urteil ist die fehlende Herkunftsangabe
+   **ein Umstand unter mehreren**. Rn. 114 leitet den Block ein mit „Das
+   auf Verschleierung angelegte Bestreben der Beklagten tritt außer in
+   der Aufmachung des Anschreibens und den darin gewählten
+   Formulierungen in **weiteren Umständen** zu Tage", und Rn. 115
+   beginnt „Diese liegen **zunächst** darin, dass …". **Deshalb die
+   umfassendere Frage: Welche Gestaltungsmerkmale muss unser Brief
+   erfüllen, damit er nicht als Geschäftspost aus einer laufenden
+   Beziehung erscheint?** Genügt die Herkunftsangabe, oder ist die
+   Vorstellung des Absenders der eigentliche Punkt?
 6. **Trägt Rn. 87 die Betriebsfolge, die wir daraus ziehen?** Wir haben
    daraus abgeleitet, dass sämtliche Vorkehrungen (Sperrdatei,
    Informationstexte, Quellenprotokoll) **vor dem ersten Datensatz**
@@ -368,6 +457,8 @@ gelesen, den Absatz davor und danach jeweils mit.
 | **115** | „Hätte sie (wie es gemäß Art. 14 Abs. 1 Abs. 2 Buchst. f und Abs. 3 Buchst. b DSGVO erforderlich gewesen wäre) in dem Schreiben angegeben, die Daten des Adressaten **aus öffentlichen Quellen entnommen** oder von einem Adresshändler erworben zu haben, hätte das den aufgebauten Eindruck, bei dem Schreiben handele es sich um Geschäftspost im Rahmen einer laufenden Geschäftsbeziehung …, **zerstört** und dem Adressaten einen Hinweis darauf gegeben, dass es sich um das Werbeschreiben eines mit dem Adressaten nicht verbundenen Unternehmens handelt." |
 | **136** | „**Es kann offenbleiben**, ob im Allgemeinen in erster Linie § 3a UWG … heranzuziehen ist, oder § 3 Abs. 2 UWG … Bezogen auf die … angegriffenen Verstöße liegen **sowohl** die Voraussetzungen von § 3a UWG vor … **als auch** diejenigen von § 3 Abs. 2 UWG" |
 | **137** | „Die gegen Artt. 5 Abs. 1 Buchstabe a, 6 Abs. 1 Unterabs. 1 DSGVO verstoßenden geschäftlichen Handlungen sind gemäß § 3a UWG unlauter." |
+| **141** | „Artt. 5 Abs. 1 Buchstabe a, 6 Abs. 1 Unterabs. 1 DSGVO sind **Marktverhaltensregelungen** in diesem Sinn, weil und soweit sie die Zulässigkeit der Datenverarbeitung zum Zwecke der Werbung regeln" |
+| **142** | „Beruft sich **ein Marktteilnehmer** auf einen Erlaubnistatbestand um die Nutzung personenbezogener Daten bei seiner Werbung zu rechtfertigen, bezwecken die einem solchen Marktverhalten … gesetzten Grenzen auch den Schutz **der betroffenen Person in ihrer Stellung als Marktteilnehmer**" — der Satz davor bindet das allerdings an den Verbraucher zurück („wobei dem Erfordernis der Einwilligung **des Verbrauchers** eine zentrale Bedeutung zukommt") |
 | **147** | „Die gegen Artt. 5 Abs. 1 Buchstabe a, 6 Abs. 1 Unterabs. 1 DSGVO verstoßenden geschäftlichen Handlungen sind **außerdem** gemäß § 3 Abs. 2 UWG unlauter." |
 
 ⚠️ **Das Urteil trägt an dieser Stelle eine Doppelbegründung.** Rn. 136
@@ -392,11 +483,40 @@ Volltext festgestellt haben:**
   einstweiliges Verfügungsverfahren). Das ist für Frage 3 erheblich: Der
   Mitbewerber-Angriff ist in diesem Sachverhalt kein theoretischer Fall.
   *(Hinweis für die Lektüre: Rn. 90 bis 110 sind ein wörtliches Zitat aus
-  dem Urteil 38 O 88/23, nicht Text dieser Entscheidung.)*
+  dem Urteil 38 O 88/23, nicht Text dieser Entscheidung — die Kammer
+  macht sich diese Passage in Rn. 111 aber ausdrücklich zu eigen.)*
+
+⭐ **Rn. 111 — für die Belastbarkeit dieses Urteils die wichtigste
+Stelle:**
+
+> „An dieser Beurteilung des Werbeschreibens der Beklagten hält die
+> Kammer weiterhin fest, und zwar auch **in Ansehung der abweichenden
+> Auffassung, die nach den Angaben der Beklagten von dem
+> Oberlandesgericht in mehreren mündlichen Verhandlungen als vorläufiges
+> Beratungsergebnis mitgeteilt worden sein soll** und die in dem (von
+> der Beklagten als Anlage B9 vorgelegten) **Beschluss vom 19. Dezember
+> 2024 - 20 W 37/24** (= Landgericht Düsseldorf 38 O 17/22) beiläufig in
+> einer die dort getroffene Entscheidung nicht tragenden Erwägung
+> geäußert worden ist."
+
+Zwei Feststellungen dazu, ohne Bewertung: Das Oberlandesgericht
+Düsseldorf ist für dieses Landgericht das **Berufungsgericht**. Und die
+Passage steht im Abschnitt zur **lauterkeitsrechtlichen** Würdigung des
+Schreibens, nicht in der DSGVO-Prüfung — sie wirkt aber auf den zweiten
+Absagegrund zurück, weil Rn. 88 die Rechtmäßigkeit des verfolgten
+Interesses gerade an der lauterkeitsrechtlichen Zulässigkeit misst.
+**Den Beschluss 20 W 37/24 haben wir nicht beschafft.**
 
 **Tenor:** Untersagt wurden fünf Verhaltensweisen gegenüber
 **Verbrauchern**; Nr. 4 knüpft an die Informationspflicht nach „Art. 14
-Abs. 1 und Abs. 2 DSGVO" an. **Ein Art.-21-Abs.-4-Verbot ist im Tenor
+Abs. 1 und Abs. 2 DSGVO" an — und zwar ausdrücklich nur für Daten, die
+„**bei einem Dritten** erhoben" wurden. *(Ob eigene Recherche in
+öffentlich zugänglichen Quellen ein Erheben „bei einem Dritten" ist,
+wäre für uns eine eigene Frage; wir stellen sie hier mit.)* **Nr. 5**
+betrifft die verspätete Auskunft nach Art. 15 DSGVO — nach Rn. 237
+genügt dafür, dass ein Auskunftsverlangen in einer Abmahnung **zitiert**
+wird; ein erneutes Verlangen ist nicht nötig. Für uns ist das ein
+Bau-Posten neben der Sperrdatei, keine Rechtsfrage. **Ein Art.-21-Abs.-4-Verbot ist im Tenor
 nicht enthalten** — Art. 21 Abs. 4 trägt dort die Art.-6-Prüfung
 (Rn. 85). Wer ein „tenoriertes Art.-21-Verbot" zitiert, zitiert zu weit.
 Auch das war ein Fehler in unserem Bestand; er ist korrigiert.
@@ -404,9 +524,13 @@ Auch das war ein Fehler in unserem Bestand; er ist korrigiert.
 **Zu Teilfrage 5 — EuGH, Urt. v. 04.10.2024 – C-621/22
 (Koninklijke Nederlandse Lawn Tennisbond), Rn. 56.** Der deutsche
 Volltext ist über den amtlichen Kanal nicht abrufbar; wir haben die
-**englische** Sprachfassung gelesen (Randnummern sind
-sprachfassungsgleich) und dazu die amtliche deutsche
-Amtsblatt-Mitteilung mit dem Tenor. Rn. 56 lautet dort:
+**englische** Sprachfassung gelesen und dazu die amtliche deutsche
+Amtsblatt-Mitteilung mit dem Tenor. *(Dass die Randnummern über die
+Sprachfassungen hinweg übereinstimmen, konnten wir mangels deutscher
+Volltextfassung **nicht am Objekt prüfen** — wir führen es als Annahme.
+Verfahrenssprache war Niederländisch; auch die englische Fassung ist
+eine Übersetzung, und eine eigene Übersetzung haben wir nicht
+angefertigt.)* Rn. 56 lautet dort:
 
 > „In addition, the referring court will have to take account of the
 > fact that the data in question are transmitted, inter alia, to a
@@ -427,16 +551,25 @@ account"), sie betrifft einen besonders gelagerten Sachverhalt
 (Weitergabe an einen Glücksspielanbieter, Suchtrisiko), und das fehlende
 Näheverhältnis erscheint dort als **ein** zu berücksichtigender Umstand
 neben anderen. Der Erwartungshorizont der Betroffenen ist bereits in
-Rn. 55 behandelt. Der Tenor (amtliche deutsche Fassung) beschränkt sich
+Rn. 55 behandelt. **Und Rn. 54 nennt die Abwägungsfaktoren
+vollständiger, als wir sie zunächst wiedergegeben hatten:** Das
+vorlegende Gericht müsse „insbesondere" berücksichtigen „the reasonable
+expectations of the data subject **as well as the scale of the
+processing at issue and its impact on that person**" — also auch
+**Umfang und Auswirkung** der Verarbeitung. Bei uns: wenige hundert
+Adressen je Welle, ein Brief, kein Profiling, kein Scoring, keine
+Weitergabe außer an den Versanddienstleister. **Welches Gewicht dieser
+Faktor in unserer Konstellation hat — und ab welcher Skalierung er
+kippt —, ist Teil der Frage.** Der Tenor (amtliche deutsche Fassung) beschränkt sich
 darauf, dass die Verarbeitung „**absolut notwendig**" sein muss und das
 geltend gemachte Interesse „rechtmäßig". Zum dreistufigen Aufbau nennt
 das Urteil Rn. 37 (drei kumulative Voraussetzungen), Rn. 39 (ErwG 47,
 Direktwerbung als Beispiel eines berechtigten Interesses), Rn. 40
 (Rechtmäßigkeit) und Rn. 42/43 (Erforderlichkeit zusammen mit der
 Datenminimierung). **Ob unsere Zuspitzung „ausdrücklich als
-Negativfaktor" trägt, entscheiden wir nicht** — sie steht seit R14-B als
-offener Bewertungsposten in unserem Bestand und ist deshalb hier
-enthalten.
+Negativfaktor" trägt, entscheiden wir nicht** — sie steht seit einer
+internen Gegenprüfung vom 13.08.2026 als offener Bewertungsposten in
+unserem Bestand und ist deshalb hier enthalten.
 
 **Instanz und Rechtskraft — eigene Messung, 14.08.2026:** Das Urteil ist
 erstinstanzlich und „vorläufig vollstreckbar". Ein Rechtsmittelhinweis
@@ -482,6 +615,8 @@ Fassung; sie ist korrigiert.)*
 | **OLG Stuttgart** | „OLG Stuttgart, Beschluss vom 2. Februar 2024 - 2 U 63/22, GRUR-RS 2024, 3802" (Rn. 79, erneut Rn. 83) | Vom LG referiert als möglicherweise dahin zu verstehen, „dass an die Zulässigkeit einer zum Zwecke der Direktwerbung vorgenommenen Datenverarbeitung weniger strenge Anforderungen zu stellen sind" |
 | **Eckhardt, ZD 2024, 399** | Rn. 79, mit Fazit-Zitat [S. 401] | „die Neukundengewinnung mittels Briefpostwerbung […] grundsätzlich gerechtfertigt ist, es sei denn, die betroffene Person hat widersprochen" |
 | **Eckhardt, ZD 2025, 443** | Rn. 79, Rn. 83 [444] und [447] | Direktwerbung als berechtigtes Interesse nach ErwG 47; die Vertreter dieser Sicht setzen aber voraus, dass die Betroffenen nach Artt. 13, 14, 21 DSGVO in der Werbesendung transparent informiert werden |
+| ⭐ **OLG Düsseldorf**, Beschl. v. 19.12.2024 – 20 W 37/24 | Rn. 111 | **Abweichende Auffassung des zuständigen Berufungsgerichts**, geäußert in einer nicht tragenden Erwägung; dazu ein von der dortigen Beklagten behauptetes vorläufiges Beratungsergebnis aus mehreren mündlichen Verhandlungen. **Original nicht beschafft** |
+| **Ziebarth, VuR 2024, 379 [383 ff.]** | Rn. 79, Rn. 77 | Vom Gericht auf der **strengeren** Seite angeführt — der Vollständigkeit halber genannt, damit die Tabelle nicht nur die großzügigere Literatur führt. **Original nicht beschafft** |
 
 Die drei Gegengründe (Rn. 80 bis 82): Direktwerbung *kann* ein
 berechtigtes Interesse sein, muss es aber nicht (Rn. 80); auch dann
@@ -566,7 +701,12 @@ an, keine Verbraucher.**
 ### 3.2 Konkrete Fragestellung
 
 1. **Kann ein DSGVO-Verstoß bei einer reinen B2B-Werbeaussendung über
-   § 3a UWG verfolgt werden?**
+   § 3a UWG verfolgt werden?** Das Urteil qualifiziert Artt. 5 Abs. 1
+   lit. a, 6 Abs. 1 Unterabs. 1 DSGVO als **Marktverhaltensregelungen**,
+   die auch den Schutz der betroffenen Person „in ihrer Stellung als
+   Marktteilnehmer" bezwecken (Rn. 141/142) — bindet das aber im selben
+   Absatz an die Verbrauchereigenschaft zurück. **Trägt diese Brücke
+   auch, wenn der Adressat Unternehmer ist?**
 2. Wie wirkt die Grenze, die das LG in Rn. 129 aus der
    **Vollharmonisierung durch die UGPRL** ableitet, wenn die
    Geschäftspraxis **überhaupt keine Verbraucher erreicht**? Nach dem
@@ -605,9 +745,9 @@ an, keine Verbraucher.**
 |---|---|
 | **127** | „Unter solchen Umständen kann die Lauterkeit einer datenschutzrechtliche Vorschriften verletzenden Geschäftspraxis vom Grundsatz her gemäß § 3a UWG oder gemäß § 3 Abs. 2 UWG beurteilt werden." |
 | **128** | „Regelmäßig wird … anhand von § 3a UWG geprüft, ob ein geschäftliches Handeln, das gegen datenschutzrechtliche Vorschriften verstößt, unlauter ist" — mit Belegen auf BGH, Urteile v. 27.03.2025 – I ZR 186/17 „App-Zentrum III", I ZR 222/19 „Arzneimittelbestelldaten III", I ZR 223/19 „Arzneimittelbestelldaten II" |
-| **129** | „Eine Anwendung von § 3a UWG … könnte insofern Bedenken begegnen, als die UGPRL zu einer vollständigen Harmonisierung des Lauterkeitsrechts geführt hat … Vor diesem Hintergrund können Rechtsverstöße eine Unlauterkeit nach § 3a UWG nur begründen, wenn die verletzte Vorschrift - wie das etwa bei allein das Verhältnis zwischen Mittbewerbern betreffenden Regelungen der Fall ist - außerhalb des Anwendungsbereiches der UGPRL liegt … oder sie einen Bereich betrifft, der von der UGPRL - etwa gemäß deren Art. 3 Abs. 2 bis Abs. 10 - unberührt bleibt" *(Schreibweise „Mittbewerbern" wie im Original)* |
+| **129** | „Eine Anwendung von § 3a UWG … könnte insofern Bedenken begegnen, als die UGPRL zu einer vollständigen Harmonisierung des Lauterkeitsrechts geführt hat (vgl. Art. 4 UGPRL) **und die Frage der Unlauterkeit von Geschäftspraktiken im Geschäftsverkehr zwischen Unternehmen und Verbrauchern abschließend regelt ohne einen § 3a UWG entsprechenden Rechtsbruchtatbestand vorzusehen.** Vor diesem Hintergrund können Rechtsverstöße eine Unlauterkeit nach § 3a UWG **nur** begründen, wenn die verletzte Vorschrift - wie das etwa bei **allein das Verhältnis zwischen Mittbewerbern betreffenden Regelungen** der Fall ist - **außerhalb des Anwendungsbereiches der UGPRL** liegt … oder sie einen Bereich betrifft, der von der UGPRL - etwa gemäß deren Art. 3 Abs. 2 bis Abs. 10 - unberührt bleibt". Der Schlusssatz nennt als Beispiel des zweiten Falls die **Arzneimittelbestelldaten**-Entscheidungen, die „in die Bereichsausnahme des **Art. 3 Abs. 3 UGPRL** fielen" *(Schreibweise „Mittbewerbern" wie im Original)* |
 | **130** | „In Bezug auf den von dem Kläger in diesem Rechtsstreit gerügten Verstoß kann auf Art. 3 Abs. 4 UGPRL zurückgegriffen werden. Datenschutzrechtliche Bestimmungen können, wie der letzte Satz von Erwägungsgrund 14 zur UGPRL zeigt, besondere Aspekte unlauterer Geschäftspraktiken regeln, und wären insoweit als gegenüber der UGPRL speziellere Regelungen vorrangig anwendbar, **was im Grundsatz die Beurteilung einer auch Verbraucher erreichenden Geschäftspraxis anhand von § 3a UWG ermöglicht**" (Hervorhebung von uns) |
-| **134** | Der EuGH habe „die im deutschen Recht für **Mitbewerber des Verletzers** und Verbraucherschutzverbände vorgesehene Möglichkeit, datenschutzrechtliche Verstöße als unlauterere Geschäftspraktik … zu ahnden, gebilligt" (EuGH C-21/23 „ND/DR"/„Lindenapotheke" Rn. 73; C-319/20 „Meta Platforms Ireland" Rn. 79) |
+| **134** | Der EuGH habe „die im deutschen Recht für **Mitbewerber des Verletzers** und Verbraucherschutzverbände vorgesehene Möglichkeit, datenschutzrechtliche Verstöße als unlauterere Geschäftspraktik … zu ahnden, gebilligt" (EuGH C-21/23 „ND/DR"/„Lindenapotheke" Rn. 73; C-319/20 „Meta Platforms Ireland" Rn. 79). **⚠️ Dieselbe Randnummer nimmt das zwei Sätze später wieder ein Stück zurück:** Im Fall „ND/DR" seien „zugleich die Voraussetzungen von **Art. 3 Abs. 3** der [UGPRL] erfüllt" gewesen, „was das in der Sache ‚Meta Platforms Ireland Limited' **nicht** der Fall. Zwar musste der Gerichtshof angesichts der ihm vorgelegten Fragen **nicht entscheiden, ob der deutsche Rechtsbruchtatbestand unter diesen Umständen angewandt werden kann. Immerhin hat er dies aber auch nicht ausgeschlossen.**" |
 | **135** | „führt … keiner der beiden Wege dazu, dass im Sinne eines Automatismus jeder Verstoß gegen die DSGVO eine unlautere Handlung darstellt" |
 
 **b) Normtexte** (eigene Abzüge, 14.08.2026):
@@ -619,6 +759,10 @@ an, keine Verbraucher.**
   Verbrauchern vor, während und nach Abschluss eines auf ein Produkt
   bezogenen Handelsgeschäfts." *(Die konsolidierte Fassung trägt hier
   die Berichtigung „von Unternehmen gegenüber Verbrauchern".)*
+- **Art. 3 Abs. 3 UGPRL** — die Bereichsausnahme, auf die Rn. 129 und
+  Rn. 134 abstellen: „Diese Richtlinie lässt die Rechtsvorschriften der
+  Gemeinschaft oder der Mitgliedstaaten in Bezug auf die Gesundheits-
+  und Sicherheitsaspekte von Produkten unberührt."
 - **Art. 3 Abs. 4 UGPRL** (in beiden Fassungen wortgleich): „Kollidieren
   die Bestimmungen dieser Richtlinie mit anderen Rechtsvorschriften der
   Gemeinschaft, die besondere Aspekte unlauterer Geschäftspraktiken
@@ -660,7 +804,14 @@ DSK-Orientierungshilfe daraufhin durchsucht (Zählweg durchgehend
 | `Geschäftskontakt` · `Ansprechpartner` · `GmbH` · `Handelsregister` · `Hotel` · `Kaltakquise` | je **0** |
 | `B2B` | **3** |
 | `Unternehmer` | 1 |
-| Positivkontrollen im selben Lauf: `Direktwerbung` 21 · `Interessenabwägung` 11 · `ä` 224 | — |
+| Positivkontrollen im selben Lauf: `Direktwerbung` **26** · `Interessenabwägung` 11 · `ä` 224 | — |
+
+*(Zur Zahl 26: Sie ist der case-insensitive Wert des deklarierten
+Zählwegs — 21 Treffer in normaler Schreibweise, 5 in Versalien
+(`DIREKTWERBUNG`) im Inhaltsverzeichnis. Wir führen sie ausdrücklich als
+Kontrollpaar cs=21 / ci=26, weil alle übrigen Kontrollen dieser Tabelle
+in beiden Kanälen dieselbe Zahl liefern und den Kanal deshalb nicht
+prüfen können.)*
 
 **Alle drei B2B-Treffer stehen im selben Abschnitt — und der betrifft
 Telefonanrufe**, nicht Briefe: Ziff. 1.4.2 lit. b „Bei sonstigen
@@ -669,17 +820,29 @@ Marktteilnehmern (B2B)". Dort heißt es:
 > „Bei Werbung mit einem Telefonanruf gegenüber einem sonstigen
 > Marktteilnehmer (B2B) kommt es für die Interessenabwägung nach Art. 6
 > Abs. 1 UAbs. 1 lit. f DS-GVO ebenso auf die wettbewerbsrechtliche
-> Zulässigkeit gemäß § 7 Abs. 2 Nr. 2 UWG … an … **Im B2B-Bereich
-> stehen deshalb bei einem Nutzen von Telefonnummern für Werbeanrufe
-> nicht von vorneherein überwiegende schutzwürdige Interessen der
-> telefonisch anzusprechenden Gewerbetreibenden … entgegen.**
+> Zulässigkeit gemäß § 7 Abs. 2 Nr. 2 UWG **und somit darauf an, dass
+> von dessen zumindest mutmaßlicher Einwilligung ausgegangen werden
+> kann. Im B2B-Bereich stehen deshalb bei einem Nutzen von
+> Telefonnummern für Werbeanrufe nicht von vorneherein überwiegende
+> schutzwürdige Interessen der telefonisch anzusprechenden
+> Gewerbetreibenden nach Art. 6 Abs. 1 UAbs. 1 lit. f DS-GVO
+> entgegen.**
 >
 > Eine bloße Sachbezogenheit (z. B. Werbung für Büroartikel, Telefon-
 > und Stromanbieter oder auch die entgeltliche Vermittlung von
 > Aufträgen) genügt jedoch nicht, um von einem Einverständnis des
-> angerufenen Unternehmers auszugehen … Vielmehr ist es jedenfalls
-> notwendig, dass für den Anruf ein konkreter und aus dem
-> Interessenbereich des Anzurufenden herzuleitender Grund vorliegt."
+> angerufenen Unternehmers auszugehen (vgl. BGH, Urteil vom 16.11.2006
+> – I ZR 191/03). Vielmehr ist es jedenfalls notwendig, dass für den
+> Anruf ein konkreter und aus dem Interessenbereich des Anzurufenden
+> herzuleitender Grund vorliegt **(dies kann z. B. ein geschäftlicher
+> Vorkontakt sein)**."
+
+⚠️ **Der fett gesetzte Satz steht unter einer Bedingung, und die
+Bedingung erfüllen wir nicht:** Er setzt die mutmaßliche Einwilligung
+voraus, und der Folgeabsatz verlangt dafür einen konkreten Grund aus dem
+Interessenbereich des Angesprochenen — als Beispiel nennt die Aufsicht
+den geschäftlichen **Vorkontakt**. Zwischen uns und den Betrieben
+besteht keiner (§ 1.3, lit. b).
 
 **Wir ziehen daraus ausdrücklich keinen Schluss für den Briefkanal.**
 Die Frage, ob der erste Satz eine übertragbare Grundhaltung der Aufsicht
@@ -694,9 +857,18 @@ den Punkten, bei denen wir Ihre Einschätzung brauchen.
   derselben Vorschrift). Die Aussage, es habe sich um **keinen
   Mitbewerber** gehandelt, steht so **nicht im Urteil** — sie ist eine
   Ableitung; wir kennzeichnen sie als solche (Zählweg: „kein
-  Mitbewerber" = 0 Treffer, „Mitbewerber" als Wortstamm = 8, bei
-  Positivkontrolle „Kläger" = 119). Die Mitbewerber-Aussage in Rn. 134
-  ruht auf der Billigung durch den EuGH, nicht auf dem Streitgegenstand.
+  Mitbewerber" = 0 Treffer, Wortstamm `Mitt?bewerber` = **9** — nämlich
+  Mitbewerber 3 · Mitbewerberin 3 · Mitbewerbern 2 · **Mittbewerbern 1**,
+  die Tippfehlerform aus Rn. 129; eine Suche nur nach „Mitbewerber"
+  liefert 8 und übersieht sie. Positivkontrolle „Kläger" = 119). Die Mitbewerber-Aussage in Rn. 134
+  stützt sich auf Rn. 134, nicht auf den Streitgegenstand — **und Rn. 134
+  trägt sie nur eingeschränkt**: Das Gericht stellt dort selbst fest,
+  der EuGH habe für die Konstellation **ohne** die Bereichsausnahme des
+  Art. 3 Abs. 3 UGPRL „nicht entscheiden [müssen], ob der deutsche
+  Rechtsbruchtatbestand unter diesen Umständen angewandt werden kann",
+  und dies lediglich „auch nicht ausgeschlossen". Unser Fall —
+  Briefwerbung, keine Gesundheits- oder Sicherheitsaspekte von
+  Produkten — liegt außerhalb des Art. 3 Abs. 3 UGPRL.
   ⚠️ **Aber:** Dieselbe Werbung war Gegenstand zweier weiterer Verfahren
   derselben Kammer, die eine **Mitbewerberin** der Beklagten geführt hat
   (Rn. 44, Rn. 89). Der Mitbewerber-Angriff ist hier also real
@@ -721,15 +893,30 @@ den Punkten, bei denen wir Ihre Einschätzung brauchen.
   Aufwendungsersatz war überhaupt nur zuzusprechen, weil das Gericht
   einen **Ausnahmefall** annahm: Verbände müssen typische Abmahnungen
   selbst aussprechen können (Rn. 266), hier seien die Fragen aber
-  „**überdurchschnittlich schwierig**" gewesen (Rn. 267). Vorläufige
-  Vollstreckbarkeit nach **§ 709 ZPO** (Rn. 271).
+  „**überdurchschnittlich schwierig**" gewesen (Rn. 267). ⚠️ **Der
+  Folgesatz nennt den Grund und relativiert den Anker:** „Das ergibt
+  sich schon daraus, dass **im Zeitpunkt der Abmahnung unklar war, ob
+  Verbraucherschutzverbände nach Inkrafttreten der DSGVO befugt sind,
+  Verstöße gegen sie zu verfolgen.**" Diese Unklarheit dürfte heute
+  ausgeräumt sein. Vorläufige Vollstreckbarkeit nach **§ 709 ZPO**
+  (Rn. 271).
+- ⚠️ **Der eigentliche Kostenhebel steht nicht im Streitwert, sondern im
+  Tenor:** „Für jeden Fall der Zuwiderhandlung wird der Beklagten ein
+  **Ordnungsgeld bis zu € 250.000**, ersatzweise Ordnungshaft, oder
+  Ordnungshaft bis zu sechs Monaten angedroht, wobei die Ordnungshaft an
+  ihren **organschaftlichen Vertretern** zu vollziehen ist." Dazu
+  Rn. 249: Ein unzulässiges Verhalten begründe eine tatsächliche
+  Vermutung für die Wiederholung „**identischer und kerngleicher**"
+  Verstöße. **Für uns heißt das: Nicht die erste Abmahnung ist das
+  Risiko, sondern der zweite Verstoß nach einer Unterlassungserklärung
+  bei einer Aussendung in Wellen.**
 
 ### 3.5 Entscheidungsalternativen
 
 | Weg | Was er bedeutet |
 |---|---|
 | **A — unverändert weiter** | Die Bau-Pflichten (Art.-14-Information im Brief, Art.-21-Hinweis, Sperrdatei, Quellenprotokoll) erfüllen; das § 3a-Risiko als getragenes Restrisiko führen |
-| **B — Zuschnitt ändern** | Nur Kapitalgesellschaften ohne Personennamen anschreiben, damit die DSGVO für die Kontaktzeile nicht greift und damit auch der § 3a-Anknüpfungspunkt entfällt. Das verkleinert die Zielgruppe erheblich, weil unsere Zielgruppe überwiegend inhabergeführt ist |
+| **B — Zuschnitt ändern** | Nur Kapitalgesellschaften ohne Personennamen anschreiben, **in der Absicht**, für die Kontaktzeile außerhalb der DSGVO zu bleiben und damit auch dem § 3a-Anknüpfungspunkt den Boden zu entziehen. **Ob beides trägt, ist gerade Gegenstand von Frage 1 (Teilfrage 5) und dieser Frage.** Der Weg verkleinert die Zielgruppe erheblich, weil sie überwiegend inhabergeführt ist |
 | **C — Vorsorge gegen die Kostenfolge** | Unabhängig von der Auslegung: Prüfroutine für eingehende Abmahnungen gegen § 13 Abs. 2 UWG, Einigungsstelle nach § 13a Abs. 5 UWG einplanen |
 
 Wir bitten um Ihre Einschätzung des **realistischen Risikos** (nicht nur
@@ -746,8 +933,10 @@ deshalb hier nicht als Bezeichner verwendet.)*
 
 ### 4.1 Sachverhalt
 
-Unser Produkt setzt auf der Automatisierungssoftware **n8n** (n8n GmbH,
-Novalisstr. 10, 10115 Berlin, HRB 212509 B) auf. Für die Auslieferung an
+Unser Produkt setzt auf der Automatisierungssoftware **n8n** auf.
+Anbieter ist nach dessen eigener Anbieterkennzeichnung die n8n GmbH,
+Novalisstr. 10, 10115 Berlin, HRB 212509 B *(Selbstauskunft aus dem
+Impressum; ein Registerauszug liegt uns nicht vor)*. Für die Auslieferung an
 Kunden stehen zwei Architekturvarianten zur Wahl; eine davon — intern
 „A3" — sieht vor, dass **der Kunde Eigentümer seiner eigenen
 Serverumgebung ist und den Zugang hält**. In dieser Variante wäre nach
@@ -768,9 +957,15 @@ betrifft nach seinem Wortlaut **„Business or Enterprise features"**. Ob
 auch der **kostenlose** Lizenzschlüssel der registrierten
 Community-Edition täglich pingt, **ist in den uns vorliegenden Quellen
 nicht belegt** — die Herstellerdokumentation zur registrierten
-Community-Edition erwähnt keinen Ping (eigener Suchlauf über alle
-vorliegenden Herstellerquellen; einziger Ping-Treffer ist der zitierte
-Satz). Wir klären das technisch selbst beim Hersteller und liefern das
+Community-Edition erwähnt keinen Ping. *(Zählweg: rekursive Suche mit
+Wortgrenze `grep -r -o -i -E "(^|[^a-z])ping([^a-z]|$)"` über alle 62
+Dateien unseres Herstellerquellen-Bestands — Treffer in genau drei
+Dateien: der Preisseite in beiden Formaten, beide im zitierten Satz, und
+einem Changelog-Eintrag ohne Lizenzbezug. Positivkontrolle im selben
+Lauf: `license` trifft in 41 der 62 Dateien; Gegenprobe mit einem
+erfundenen Begriff: 0. Ohne Wortgrenze liefert dieselbe Suche Treffer in
+rund der Hälfte der Dateien — `prototyping`, `mapping`, `scoping`; der
+Befund hängt also am Zählweg.)* Wir klären das technisch selbst beim Hersteller und liefern das
 Ergebnis nach. **Für Ihre Antwort bitten wir, beide Fälle zu
 unterscheiden.**
 
@@ -812,8 +1007,13 @@ Klärung (ob, was und wohin genau gesendet wird) machen wir selbst.
 ⚠️ **Was wir NICHT wissen und nicht behaupten:** wohin der Ping
 technisch geht (der Sitz des Herstellers in Berlin sagt nichts über den
 Standort des Lizenzservers), welche Felder er genau enthält, und ob die
-Telemetrie personenbezogene Daten umfasst. **Diese Punkte erheben wir
-selbst und reichen sie nach.**
+Telemetrie personenbezogene Daten umfasst. Auch die Angabe, die
+Telemetrie sei **abschaltbar**, stützt sich allein auf den zitierten
+Satz der Preisseite; die uns vorliegende Auszugsfassung der
+Konfigurationsdokumentation enthält dazu **keine Angabe** (eigener
+Suchlauf über `diagnostics` und `telemetr`: 0 Treffer bei greifender
+Positivkontrolle — 57 Treffer für Konfigurationsvariablen desselben
+Namensraums). **Diese Punkte erheben wir selbst und reichen sie nach.**
 
 ### 4.4 Gegenansicht
 
@@ -845,15 +1045,18 @@ versehentlich mitbeantworten.
 
 ---
 
-## 4a. ⚠️ Ein fünfter Kandidat für dieselbe Beauftragung — Entscheidung des Users vor dem Versand
+## 4a. ⚠️ Zwei weitere Kandidaten für dieselbe Beauftragung — Entscheidung des Users vor dem Versand
 
 **Dieser Abschnitt ist eine Vorlage, keine Festlegung.** Er steht hier,
-weil unser eigener Bestand ihn ausdrücklich für **denselben**
-anwaltlichen Rat vorsieht und ein zweiter Termin sonst unvermeidlich
-wäre. Ob er mitgeht, entscheidet der User; wenn nicht, wird der
-Abschnitt vor dem Versand ersatzlos gestrichen.
+weil unser eigener Bestand beide Punkte für **denselben** anwaltlichen
+Rat vorsieht und ein zweiter Termin sonst unvermeidlich wäre. Ob sie
+mitgehen, entscheidet der User; wenn nicht, wird der Abschnitt vor dem
+Versand ersatzlos gestrichen. **Beide sind bewusst kurz gehalten** — sie
+sollen die vier Hauptfragen nicht verdrängen.
 
-**Der Punkt:** Die Aufsicht empfiehlt Websitebetreibern, „vorsorglich
+### Kandidat A — Speicherung eines fremden Impressums-Werbewiderspruchs
+
+Die Aufsicht empfiehlt Websitebetreibern, „vorsorglich
 einen Werbewiderspruch in sein Impressum" aufzunehmen (DSK-OH Ziff. 4.2,
 letzter Satz). Wir prüfen jedes Ziel-Impressum darauf und steuern solche
 Betriebe aus. **Frage: Dürfen wir das Ergebnis dieser Prüfung
@@ -867,6 +1070,31 @@ Bis zur Klärung führen wir solche Einträge **ohne Personennamen** und
 ohne jede weitere Angabe. Unser Bestand vermerkt dazu: „Ob der Eintrag
 eines fremden Impressumsvermerks in einen eigenen Sperrbestand
 seinerseits eine zulässige Verarbeitung ist, ist **nicht erhoben**."
+
+**Die Aufsicht sagt zu Werbesperrdateien dies** (Ziff. 5.1): Sie können
+„aufgrund von Art. 21 Abs. 3, Art. 6 Abs. 1 UAbs. 1 lit. f DS-GVO
+i. V. m. Art. 17 Abs. 3 lit. b DS-GVO … zulässig sein", aber „nur
+rechtmäßig …, wenn die zu verhindernde Verarbeitung zu Werbezwecken auf
+Art. 6 Abs. 1 UAbs. 1 lit. f DS-GVO beruht". Und weiter: „**Die
+betroffenen Personen müssen im Zusammenhang mit der Unterrichtung
+(Art. 12 Abs. 3 DS-GVO) über die Beachtung ihres Werbewiderspruchs auch
+über den Sinn und Zweck der Aufnahme ihrer Daten in eine Sperrdatei
+unterrichtet werden.**" **Diese Unterrichtung setzt einen Adressaten
+voraus — im Impressums-Fall hat uns gegenüber niemand etwas erklärt.
+Wie ist die Pflicht dann zu erfüllen?**
+
+### Kandidat B — Telefonischer Nachfass auf den eigenen Werbebrief
+
+Nach unserer Vorprüfung ist die Telefon-Kaltakquise gegenüber
+Unternehmern nur zulässig, wenn eine mutmaßliche Einwilligung nach § 7
+Abs. 2 Nr. 1 UWG angenommen werden kann; bloße Branchenpassung genügt
+dafür nicht, ein persönlicher Vorkontakt trägt. **Ungeklärt ist die
+Konstellation dazwischen: Ist ein von uns selbst versandter Werbebrief
+ein solcher Vorkontakt, der einen Nachfass-Anruf trägt?** Unsere eigene
+Kanal-Rechtsmatrix behandelt diese Konstellation nicht und schließt
+zugleich jeden Rückschluss von einem zulässigen Kanal auf einen anderen
+aus. Der Punkt ist bei uns als offener Befund geführt; er betrifft den
+Kanal, den unsere Planung auf Rang 1 setzt.
 
 ---
 
@@ -915,6 +1143,12 @@ Randnummern-Anker ist am Rohbeleg gelesen, und zwar der Absatz davor und
 danach mit. Ein Grep auf ein Zitat bestätigt das Zitat und verbirgt
 seinen Kontext.
 
+**Einheitlicher Zählweg aller Trefferzahlen:**
+`grep -o "<muster>" <datei> | wc -l` — gezählt werden **Fundstellen,
+nicht Zeilen** (`grep -c` wäre falsch, weil es eine Zeile mit zwei
+Treffern einmal zählt). Wo case-insensitiv gemessen wurde, steht es an
+der Zahl. Teilworttreffer sind, wo sie vorkommen können, aufgeschlüsselt.
+
 ### 7.1 Verwendete Rohbelege
 
 | Kurzname | Quelle | Abruf | Prüfstand |
@@ -939,9 +1173,16 @@ Beschaffungsprotokoll, Prüfsummen und Positivkontrollen.)*
   nur in der Wiedergabe des LG-Urteils gelesen.
 - **Die Rechtskraft des LG-Urteils ist ungeklärt**, nicht verneint
   (Messung s. 2.3).
-- **Die Inhalte der vom LG zitierten EuGH- und BGH-Entscheidungen
-  (C-21/23, C-319/20, I ZR 186/17, I ZR 222/19, I ZR 223/19) haben wir
-  nicht am Original geprüft** — nur ihre Wiedergabe im LG-Volltext.
+- **Die Inhalte der vom LG zitierten EuGH- und BGH-Entscheidungen haben
+  wir nicht am Original geprüft** — nur ihre Wiedergabe im LG-Volltext.
+  Vollständig sind das: **C-21/23** · **C-319/20** · **I ZR 186/17** ·
+  **I ZR 222/19** · **I ZR 223/19** · **OLG Düsseldorf 20 W 37/24**
+  (Rn. 111, die abweichende Auffassung des Berufungsgerichts) · **BGH
+  I ZR 167/09 „Kreditkartenübersendung"** (Rn. 83, trägt die Bedingung
+  „sofort und unmissverständlich erkennbar") · **EuGH C-394/23
+  „Mousse"** (Rn. 82, trägt das Widerspruchs-Argument) · **Ziebarth,
+  VuR 2024, 379** (Rn. 79) · **BGH I ZR 191/03** (aus der
+  Orientierungshilfe, Ziff. 1.4.2 b).
 - **Zur Kostenfolge des § 13 Abs. 4 Nr. 2 UWG bei § 3a-Verfolgung haben
   wir keine Rechtsprechung erhoben.**
 - **Zum technischen Verhalten des Lizenz-Pings** liegen uns nur
@@ -979,7 +1220,7 @@ auffallen, ist uns der Hinweis willkommen.**
 | **2** | Frage 2 (Reichweite des LG-Urteils) | Bestimmt, was in allen unseren Betriebsunterlagen steht |
 | **3** | Frage 3 (§ 3a UWG bei B2B, Kostenfolge) | Bestimmt das Risikoprofil, nicht den Start |
 | **4** | Frage 4 (Lizenzserver-Ping) | Sperrt kein Datum, sondern das erste Angebot in einer bestimmten Architektur; hier fehlt uns außerdem noch eine technische Angabe |
-| *(offen)* | Abschnitt 4a (Speicherung eines fremden Impressums-Werbewiderspruchs) | **Nur falls er im Auftrag bleibt** — die Entscheidung darüber fällt vor dem Versand |
+| *(offen)* | Abschnitt 4a, Kandidaten A und B | **Nur falls sie im Auftrag bleiben** — die Entscheidung darüber fällt vor dem Versand |
 
 **Form der Antwort:** Uns hilft eine schriftliche Einschätzung mehr als
 ein Telefonat, weil wir die Aussagen in Betriebsunterlagen übernehmen

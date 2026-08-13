@@ -286,6 +286,33 @@ Schlüsselspalte, Zählweg und Steuerbasis.**
 | **K6** | Domain/DNS je Kunde | **nicht erhoben** | — | — | dito |
 | **K7** | n8n (Workflow-Laufzeit) | **0 € Lizenzkosten unterstellt** | self-hosted | — | ⚠️ **④ ANNAHME mit offener Rechtsfrage** — s. § 5.3. Der Bestand nennt die Lizenzfrage als ausdrücklichen Verifikationspunkt VOR Kunde 2 |
 
+> **📌 Nachtrag 13.08.2026 abends (R14-A) zur Zeile K7 — die Annahme
+> „0 € Lizenzkosten" steht jetzt auf besserem Grund, und ein
+> Kostenargument gegen W-B ist WEG (`R40-N-6`):** Die offene
+> Rechtsfrage der Zeile ist **beantwortet** — die Lizenz trägt A3
+> (§ 5.3-Nachtrag). Und für den Fall, dass je ein **bezahlter**
+> Lizenzschlüssel nötig würde, gilt nach n8n's eigener Preis-FAQ
+> (Belegstufe B, wörtlich zitiert in
+> `<FIRMENWURZEL>\heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`
+> § 3.7): Ein Schlüssel gilt für eine **„unlimited number of
+> instances"**, und die Nutzung **aller** Instanzen zählt **gemeinsam**
+> auf **eine Quota**. **Folge für die Weichenfrage:** „eigener Server je
+> Kunde" heißt **nicht** „eigene Lizenz je Kunde" — ein Lizenz-Aufschlag
+> skaliert im Bedarfsfall mit dem **Ausführungsvolumen**, nicht mit der
+> Kundenzahl. Damit fällt ein Kostenargument gegen **W-B/A3** weg, das
+> nie geprüft worden war.
+> ⚠️ **Zwei Grenzen dieser Entlastung:** (1) Die Regel gilt laut Quelle
+> für **Business-/Enterprise-Schlüssel** — sie ist eine Aussage über den
+> **Bedarfsfall**, nicht über die heute unterstellte kostenlose
+> Community-Edition; ob n8n diese für unseren Fall akzeptiert, ist genau
+> der offene Restpunkt **K-1**. (2) Die **gemeinsame Quota** ist
+> zweischneidig: Sie verbilligt die Instanz-Zahl, macht aber das
+> **Ausführungsvolumen aller Kunden zur gemeinsamen
+> Bemessungsgrundlage** — bei vielen Kunden auf einem Schlüssel ist
+> nicht die Server-, sondern die Volumengrenze der Kostentreiber.
+> **Herkunft:** heypensio R40, Nebenbefund **N-6**, via Briefing
+> 13.08.2026 „📮 Nachtrag 6" (Rundenpräfix **R40-N-6**).
+
 **Summe der belegten laufenden Systemkosten je Kunde:** K1 + K3 + K4.
 Bewusst **nicht** zu einer einzigen Zahl addiert: Die Positionen tragen
 zwei Währungen, zwei Steuerbasen (eine davon unbekannt) und zwei
@@ -516,6 +543,93 @@ Multi-Org-Prüfung für Vapi", ebenso das Offene-Punkte-Register in § 8
 des Berichts). **Neu ist hier nicht die Frage, sondern ihre
 Verschärfung durch A3** — und ihre Relevanz für den Preisentscheid.
 
+> ### 📌 NACHTRAG 13.08.2026 abends (R14-A) — ⭐ Z-6 IST AUFGELÖST: „A3 TRÄGT". Dieser Abschnitt ist die WURZEL des Vorbehalts und damit überholt
+>
+> *(Markierter Nachtrag; der Abschnitt oben bleibt vollständig
+> unverändert stehen — er ist der Stand vom 12./13.08. und der Grund,
+> warum der Vorbehalt überhaupt gesetzt wurde. **Alle anderen
+> Z-6-Fundstellen dieses Papiers und der beiden abgeleiteten Dokumente
+> verweisen auf DIESEN Kasten**; sie tragen nur noch einen Zeiger, keine
+> zweite Fassung der Begründung.)*
+>
+> **Ergebnis (Entwarnung mit Quelle im Satz):** Die n8n **Sustainable
+> Use License trägt** das Kunden-Eigentums-Modell A3. Beleg:
+> `<FIRMENWURZEL>\heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`
+> § 1 / § 3.2 / § 3.4 (Lizenztext wörtlich, dort Belegstufe **A**) und
+> die n8n-Lizenz-FAQ (dort Belegstufe **B**), übermittelt über
+> `<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`,
+> „📮 Nachtrag 6" (13.08.2026 nachmittags). Selbst gelesen von R14-A am
+> 13.08.2026 abends (② Nachbar-Repo-Bestand).
+>
+> **Die Prämisse dieses Abschnitts ist nicht bestätigt, sondern
+> UMGEKEHRT worden** (Wortlaut der Quelle, § 1): Der Lizenztext erlaubt
+> die Nutzung „**for your own internal business purposes**" — ein Hotel,
+> das seine eigene Instanz für seinen eigenen Betrieb nutzt, ist der
+> **Kernfall** dieser Erlaubnis, nicht ihr Grenzfall. Die Anbieter-FAQ
+> nennt das Aufsetzen und Betreuen gegen Entgelt ausdrücklich als
+> erlaubt und hat die frühere Beschränkung entgeltlicher
+> Dienstleistungen **2022 aufgehoben**. Damit gilt: **A3 verbessert die
+> Lizenzlage gegenüber dem heutigen Modell W-A**, weil es Lizenznehmer
+> und Nutzungszweck zur Deckung bringt.
+>
+> **⚠️ Der Satz oben („Die Architektur-Weiche kann die
+> Lizenz-Argumentation entwerten") ist damit überholt** — ebenso die
+> Einstufung „**möglicher K.-o.-Punkt für A3**" im Belegstufen-Kasten.
+> Beide bleiben als Vorfassung sichtbar stehen; sie waren zum
+> Erhebungszeitpunkt korrekt begründet (die Lizenz war **nicht
+> gelesen**, ④), und genau das ist der Lehrsatz: Die Folgerung ④ ging in
+> die Gegenrichtung der später gemessenen Quelle.
+>
+> **⚠️ Und das wörtliche Zitat oben ist ein PSEUDO-ZITAT** (Befund B-1
+> der Quelle, § 3.8): Die Wendung „**als Service anzubieten**" steht so
+> **nicht** in der Lizenz — sie ist Commons-Clause-Vokabular, also genau
+> die Fassung, die n8n am **17.03.2022 ersetzt** hat. Der Satz ist über
+> diesen Abschnitt („② BESTAND, wörtlich") in dieses Preismodell-Papier
+> gewandert. **Die Reparatur gehört an die Quelle**
+> (`blueprint/architektur-multi-kunden.md`, Träger: heypensio-Leitsession,
+> dort Posten **O-5**) — sie liegt außerhalb des R14-A-Scopes und wird
+> hier nur ausgewiesen, damit niemand das Zitat weiterverwendet.
+> Ebenfalls dort zu korrigieren: der Adressat „n8n-**Sales**" (richtig
+> ist `license@n8n.io`, weil Sales ein Eigeninteresse an der Antwort
+> hat — Quelle § 5.2).
+>
+> ---
+>
+> **⚠️ WAS NICHT AUFGELÖST IST — drei Dinge, die hier auseinandergehalten
+> gehören** (die Auflösung betrifft **nur** die n8n-Lizenzfrage):
+>
+> | # | Bleibt offen | Warum |
+> |---|---|---|
+> | **1** | **Der Restpunkt K-1 der Lizenzprüfung** — akzeptiert n8n die **kostenlose Community-Edition** als Backend für ein entgeltliches Produkt? | **Streitig, Belegstufe B gegen B:** Die Lizenz-FAQ erlaubt es („**Usually yes**", ohne Plan-Bedingung, und wir erfüllen ihr Kriterium — keine fremden Nutzer-Credentials); OEM-Doku und Vertriebsseite nennen „all paid plans" bzw. „a regular Enterprise license"; der **Lizenztext schweigt**. ⭐ **Dieser Punkt trifft A3 und W-A GLEICH stark und darf nicht als Argument gegen A3 verbucht werden** (Quelle § 1, ausdrücklich). Klärweg: schriftliche Anfrage an `license@n8n.io` (Träger: User + heypensio-Folgestrang, Posten **O-4**), **fällig, bevor ein Kunden-Angebot mit A3-Architektur hinausgeht** — nicht vor dem nächsten Preisentscheid |
+> | **2** | **Die Vapi-Kollision K04 / die Vertragspartner-Frage Z-5** | Unberührt. Sie war nie eine Lizenzfrage. Träger unverändert **E-4-Bündel** (Ruffy/heypensio, Briefing Nachtrag 3) bzw. **Z-5** (Zentrale) |
+> | **3** | **Der ARCHITEKTUR-Entscheid W-A ↔ W-B/A3** | Unberührt und **nicht gefallen** — er liegt bei heypensio/den Gesellschaftern. Die Lizenz sagt, was **erlaubt** ist, nicht, was **gewollt** ist. „Wir rechnen vorläufig W-B" ≠ „Wir bauen W-B" (§ 5.4-Nachtrag) |
+>
+> **Vier Auflagen, unter denen „A3 trägt" gilt** (Quelle § 3.6,
+> Belegstufe E, je an eine zitierte Klausel gebunden) — sie sind der
+> Preis der Entwarnung und gehören in Angebot, Vertrag und Onboarding:
+> **AU-1** der Kunde ist tatsächlich Lizenznehmer (Instanz auf einem ihm
+> zurechenbaren Vertrag/Konto, er kann sie behalten) · **AU-2** das
+> Entgelt ist als **Dienstleistungsentgelt** ausgewiesen, nicht als
+> Zugangs-/Nutzungsgebühr für n8n — Infrastruktur zum Selbstkostenpreis
+> durchgereicht, Servicegebühr getrennt, **und in Angebot, Vertrag und
+> Rechnung auch so benannt** · **AU-3** kein White-Labeling, n8n bleibt
+> sichtbar · **AU-4** der Kunde bekommt die Lizenzbedingungen
+> nachweislich mit (Klausel `### Notices`, Vermerk ins
+> Onboarding-Protokoll).
+> ⭐ **AU-2 deckt sich mit E-3** — der Lizenzbefund **stützt** den
+> Entscheid, statt ihn zu gefährden.
+> ⚠️ **Abweichung vom Formulierungsvorschlag der Quelle, bewusst:** Der
+> dortige Vorschlag (§ 3.8, B-2) endet mit „Klärweg + Auflagen
+> **AU-1…AU-3**" — er zählt **AU-4 nicht mit**, obwohl dasselbe Papier
+> sie in § 3.6 als vierte Auflage führt (sie wurde dort erst nach dem
+> Prüferbefund F3 nachgetragen). R14-A übernimmt deshalb **AU-1…AU-4**
+> und weist die Abweichung hier aus, statt sie stillschweigend zu
+> glätten. **Nebenbefund an die heypensio-Leitsession** (R14A-N-1).
+>
+> **Was aus dieser Auflösung NICHT folgt:** kein Preisentscheid, keine
+> Architektur-Festlegung, keine Höhe. Aufgelöst ist ein **Vorbehalt**,
+> nicht eine Frage des Preismodells.
+
 ### 5.4 Was das je Preisoption bedeutet
 
 | Weichenstellung | Kostenwirkung je Kunde/Monat | Wirkung auf das Preismodell |
@@ -543,6 +657,17 @@ W-A oder W-B voraus; jede Option in § 7 nennt, was sie braucht.
 > **nicht** entwertet: Sie gilt weiter („⚠️ Erst nach Klärung § 5.3").
 > E-3 hat den Vorbehalt nicht aufgelöst, sondern ausdrücklich
 > mitgenommen; den Klärungs-Träger benennt **E-4**.
+>
+> > **📌 Nachtrag 13.08.2026 abends (R14-A):** Der **Z-6-Teil** dieses
+> > Vorbehalts ist **aufgelöst** — die n8n-Lizenz trägt A3
+> > (§ 5.3-Nachtrag; Quelle: heypensio R40 via Briefing Nachtrag 6).
+> > **Der Satz „alles unter Z-6-Vorbehalt" ist damit überholt**;
+> > an seine Stelle treten der **Restpunkt K-1** (Community-Edition,
+> > streitig — trifft W-A und W-B gleich) und **unverändert die
+> > Vapi-Kollision K04 / Z-5**. **Die Warnung der W-B-Zeile bleibt
+> > trotzdem stehen**, denn sie verweist auf § 5.3 als Ganzes: Der
+> > **Architektur-Entscheid** ist weiter nicht gefallen, und „Wir
+> > rechnen W-B" ≠ „Wir bauen W-B" gilt unverändert.
 
 ---
 
@@ -1151,6 +1276,17 @@ dieses Auftrags) — die Übergabe läuft über die Leitsession.
 > **🟢 Nachtrag 13.08.2026 — Stand der sieben Zulieferungspunkte:**
 > - **Z-6 hat einen Träger:** **Ruffy/heypensio** (§ 11 E-4), gebündelt
 >   mit der n8n-MCP-Entscheidungsvorlage; **kein Kalendertermin**.
+>   > **📌 Nachtrag 13.08.2026 abends (R14-A) — Z-6 ist BEANTWORTET, nicht
+>   > mehr nur getragen:** Der Träger hat **geliefert**. Ergebnis: **„A3
+>   > trägt"** (§ 5.3-Nachtrag; Quelle
+>   > `<FIRMENWURZEL>\heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`
+>   > via Briefing 13.08., Nachtrag 6). **Die Zeile Z-6 der Tabelle oben
+>   > ist damit erledigt** und braucht keine Zentrale-Zulieferung mehr.
+>   > ⚠️ **Zwei Reste, die NICHT mit erledigt sind:** der Lizenz-Restpunkt
+>   > **K-1** (Community-Edition als Backend — streitig, Klärweg
+>   > `license@n8n.io`, trifft W-A und W-B gleich) und **Z-5**
+>   > (Vertragspartner Hetzner/Supabase/Vapi), das **unverändert offen**
+>   > und weiterhin ohne Träger in dieser Tabelle steht.
 > - **Z-2 (Startgebühr: Rechtsnatur, Fälligkeit, Rückzahlbarkeit)** ist
 >   durch E-1 **schärfer geworden**: Die Option, die diesen Punkt
 >   auslöst, ist jetzt die gewählte — und die Gewichtung „erstes Jahr
@@ -1179,6 +1315,12 @@ dieses Auftrags) — die Übergabe läuft über die Leitsession.
 >   **Übergeben ist nicht beantwortet** — INHALTLICH bleiben alle
 >   Z-Punkte offen; „kein Träger benannt" gilt damit nur noch für die
 >   BEANTWORTUNG, nicht mehr für die Übergabe.*
+>   > **📌 Nachtrag 13.08.2026 abends (R14-A):** Für **Z-6** gilt der Satz
+>   > „übergeben ist nicht beantwortet" **nicht mehr** — Z-6 ist
+>   > **beantwortet** („A3 trägt", § 5.3-Nachtrag). Für **Z-5** gilt er
+>   > unverändert: Die Vertragspartner-Frage läuft weiter im E-4-Bündel
+>   > und ist offen. **Die Sätze „INHALTLICH bleiben ALLE Z-Punkte
+>   > offen" und „Z-5/Z-6 laufen parallel" sind insoweit überholt.**
 
 ---
 
@@ -1201,6 +1343,74 @@ dieses Auftrags) — die Übergabe läuft über die Leitsession.
 >
 > **Eingetragen von:** Session R12-A, 13.08.2026. Diese Session hat
 > **nichts entschieden** — sie hat übertragen.
+>
+> > ### 📌 NACHTRAG 13.08.2026 abends (R14-A) — ⭐ BELEGSTUFE GEHOBEN: „Wortlaut archiviert (sensibel, 13.08.)"
+> >
+> > **Gilt für alle neun ✅-Vermerke dieses Abschnitts** (E-1 · E-2a ·
+> > E-2 · E-3 · E-4 · E-5/E-5a · E-6 · E-7 · E-8). Die Angabe
+> > „**sinngemäß — Wortlaut nicht archiviert**" oben und in jedem
+> > einzelnen Kasten ist damit **überholt**; sie bleibt als Vorfassung
+> > sichtbar stehen.
+> >
+> > **Was sich geändert hat:** Die Zentrale hat die **Wortlaute beider
+> > Erhebungen vom 13.08.** rückwirkend archiviert — Dropdown-Antworten
+> > und User-Freitexte, wörtlich, in
+> > `<FIRMENWURZEL>\zentrale\sensibel\entscheide-erhebungen-2026-08-13-wortlaut.md`
+> > (git-ignoriert; **nur als Verweis geführt, keine Volltext-Kopie ins
+> > Repo** — Zentrale-Regel D8). Freigabe der Hebung: Briefing
+> > 13.08.2026, „📮 Nachtrag 8". Die Archivierung geht auf die
+> > R13-A-Prüferrüge zurück, dass die Entscheide bis dahin nur
+> > **selbstbestätigend** prüfbar waren (R13A-N-6).
+> >
+> > **Prüfung durch R14-A (Wortlaut-Datei vollständig gelesen, 13.08.
+> > abends): 9 Vermerke geprüft · 9 durch den Wortlaut gedeckt und
+> > gehoben · 0 inhaltlich abweichend · 3 Präzisierungen** (unten). Der
+> > Nenner ist die Zahl **aller** ✅-Vermerke dieses Abschnitts, nicht
+> > eine Auswahl.
+> >
+> > ⚠️ **Was die Hebung NICHT bedeutet:** Die Belegstufe steigt von
+> > „sinngemäß" auf „wörtlich belegt" — **nicht** auf „vollständig
+> > protokolliert". Die Datei hält Antworten und Freitexte fest, nicht
+> > den Gesprächsverlauf; **was die Session dem User erklärt hat, bevor
+> > er antwortete, ist nicht archiviert** (bei E-2 und AA-6 ist genau
+> > das relevant, s. u.). Und sie ändert **keinen Entscheid-Inhalt**.
+> >
+> > **Die drei Präzisierungen — einzeln, mit kurzem Beleg-Zitat:**
+> >
+> > 1. **E-2 · Herkunft des Mehrhaus-Rabatts.** Der Kasten führt ihn als
+> >    „Empfehlung der Zentrale, vom User bestätigt". Der Wortlaut zeigt,
+> >    dass der **User den preissensiblen Mehrhaus-Fall selbst
+> >    aufgebracht** hat: *„pro Haus macht schon Sinn außer der Betreiber
+> >    ist sehr preissensibel dann könnte man da schon was machen."* Der
+> >    Entscheid-INHALT ist unverändert; nur die Zuschreibung war zu
+> >    einseitig. **Kein Widerspruch, eine Präzisierung.**
+> > 2. **E-3 · Belegstufe der Ausgestaltung.** Wörtlich gedeckt ist der
+> >    **Kern** (Übergabefähigkeit, Eigentum, kein Lock-in): *„Zugänge
+> >    und alles gehören ihm."* Zur **Form der Durchreichung** hat sich
+> >    der User im selben Freitext ausdrücklich **nicht festgelegt** —
+> >    *„oder man legt die Kosten gleich auf ihn um … bin mir nicht
+> >    schlüssig"*. Die Punkte 2 und 3 des Entscheids (separat
+> >    ausgewiesen, Servicegebühr getrennt) sind daher eine **von der
+> >    Session vorgeschlagene und vom User bestätigte Fassung**
+> >    („Ja, so festhalten"), keine User-Formulierung. **Praktische
+> >    Folge:** Wer diese Ausgestaltung später ändern will, ändert eine
+> >    bestätigte Session-Fassung, nicht eine ausdrückliche
+> >    User-Festlegung — die Schwelle ist niedriger. *(Sie deckt sich
+> >    zudem mit Lizenz-Auflage **AU-2**, § 5.3-Nachtrag.)*
+> > 3. **E-2 · eine Frage des Users blieb im Protokoll unsichtbar.** Der
+> >    Freitext endet mit *„Man könnte es aber auch pro Zimmer
+> >    kalkulieren was sagst du dazu?"* — sachlich aufgenommen durch die
+> >    gewählte Bemessung **(c)** (Grundgebühr **plus zimmerabhängiger
+> >    Anteil**), aber als **Frage** nirgends beantwortet vermerkt.
+> >    Ebenso im Wortlaut: die Rückfrage *„von welcher geteilten
+> >    Plattform ist hier die Rede?"* — sie zeigt, dass die Begriffe
+> >    W-A/W-B bei der Erhebung **nicht vorausgesetzt** werden konnten.
+> >
+> > **Was der Wortlaut zusätzlich BESTÄTIGT** (vorher nur behauptet):
+> > E-4/E-6 wurden mit *„Ruffy/heypensio beides"* beantwortet — **ohne
+> > jede Terminangabe**. Der Belegstufen-Hinweis im E-4-Kasten („kein
+> > Kalenderdatum genannt") ist damit **am Wortlaut belegt**, nicht mehr
+> > nur eine Beobachtung der übertragenden Session.
 
 Die Punkte E-1, E-2, E-2a, E-3, E-5 und E-8 sind einzeln mit
 **Ja / Nein / Änderung** beantwortbar; **E-4, E-6 und E-7 sind
@@ -1409,10 +1619,30 @@ Dauer.)
 > ④ auf ①-Einzelposten) — nicht die W-A-Zeile.
 >
 > **Quelle/Datum/Form:** wie E-1.
+>
+> > **📌 Nachtrag 13.08.2026 abends (R14-A) — Punkt 4 dieses Entscheids
+> > ist überholt:** „Alles unter **Z-6-Vorbehalt** … kann A3 kippen.
+> > Kippt sie, kippt die Rechenbasis dieser Preisliste mit" — **die
+> > n8n-Lizenz kann A3 nicht kippen; sie trägt es** (§ 5.3-Nachtrag;
+> > Quelle: heypensio R40 via Briefing 13.08., Nachtrag 6). **Die Punkte
+> > 1–3 des Entscheids bleiben unberührt** und sind durch den
+> > Lizenzbefund sogar **gestützt**: Auflage **AU-2** verlangt genau das,
+> > was Punkt 2 und 3 festlegen (Infrastruktur zum Selbstkostenpreis
+> > durchgereicht, Servicegebühr getrennt und als Dienstleistungsentgelt
+> > benannt). ⚠️ **Was an Punkt 4 stehen bleibt:** Die Rechenbasis steht
+> > weiterhin unter Vorbehalt — aber unter dem der **Vapi-Kollision K04 /
+> > Z-5** und des offenen **Architektur-Entscheids**, nicht mehr unter
+> > dem der Lizenz. **Der Verweis auf E-4 bleibt richtig**, weil dort
+> > auch K04/Z-5 laufen.
 
 **☐ E-4 — Wer klärt die n8n-Lizenzfrage (Z-6), und bis wann?** Das ist
 keine Preisfrage, aber sie kann A3 kippen. Konkrete Angabe erbeten:
 Name + Zieltermin.
+
+*(📌 **R14-A, 13.08.2026 abends:** Der zweite Satz dieser Frage — „sie
+kann A3 kippen" — ist durch die Antwort **widerlegt**; die Frage bleibt
+im Wortlaut stehen, weil der Entscheid darunter sonst nicht lesbar ist.
+S. § 5.3-Nachtrag.)*
 
 > ### ✅ E-4 ENTSCHIEDEN — Träger benannt: Ruffy/heypensio
 >
@@ -1432,6 +1662,22 @@ Name + Zieltermin.
 > der Preisliste unter einem Vorbehalt **ohne Ablaufdatum**.
 >
 > **Quelle/Datum/Form:** wie E-1.
+>
+> > **📌 Nachtrag 13.08.2026 abends (R14-A) — der Träger hat GELIEFERT,
+> > am selben Tag:** Die Lizenzfrage ist **beantwortet** — „A3 trägt"
+> > (Papier `n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`, heypensio-Strang
+> > R40-C, via Briefing Nachtrag 6; s. § 5.3-Nachtrag). **Der
+> > Belegstufen-Hinweis oben hat sich damit erledigt** — der fehlende
+> > Zieltermin ist folgenlos geblieben, weil die Lieferung schneller kam
+> > als der Termin.
+> > ⚠️ **Der Satz „Vorbehalt ohne Ablaufdatum" gilt aber weiter, nur für
+> > andere Punkte:** für die **Vapi-Kollision K04 / Z-5** (unverändert im
+> > E-4-Bündel, weiterhin ohne Kalendertermin) und für den
+> > Lizenz-Restpunkt **K-1**. Für K-1 gibt es immerhin eine
+> > FÄLLIGKEITSREGEL statt eines Datums (Quelle § 5.3 dort): Die Anfrage
+> > an `license@n8n.io` ist fällig, **bevor ein Kunden-Angebot mit
+> > A3-Architektur hinausgeht** — nicht vor dem nächsten Preisentscheid.
+> > Für die Preisarbeit heißt das: **kein Anhalten.**
 
 **☐ E-5 — Pilot-Abgrenzung bestätigen:** Das Preismodell gilt
 ausschließlich für Folgekunden; der Pilot bleibt kostenlos, die Frage
@@ -1575,6 +1821,14 @@ Firmierungs-Vorbehalt, also ohne Namen und ohne Außenversand?
 > | 3. Angebotsarchitektur + Angebotsdokument (E-8) | 🔄 **läuft** — Angebotsarchitektur als R12-B; **Angebotsdokument nicht**, es wäre außenwirksam (Firmierungs-Vorbehalt) |
 > | 4. Z-1…Z-7 an die Zentrale | ⏸️ **offen** — unverändert; **Z-6 hat mit E-4 einen Träger** (Ruffy/heypensio), die übrigen nicht |
 > | 5. Textänderungen jetzt am billigsten | ✅ **angewandt** — R12-A hat beim Nachtragen die Stellen mitkorrigiert, die unter den Entscheiden schief wurden; jede Korrektur steht als sichtbarer Kasten |
+>
+> > **📌 Nachtrag 13.08.2026 abends (R14-A) — Zeile 4 hat einen neuen
+> > Stand:** „**Z-6 hat mit E-4 einen Träger**" ist überholt — **Z-6 ist
+> > beantwortet** („A3 trägt", § 5.3-Nachtrag). Die **übrigen
+> > Z-Punkte** bleiben wie beschrieben: Z-1/Z-2/Z-4/Z-7 sind über die
+> > StB-Fragenliste **teilübergeben, nicht beantwortet**; **Z-3 und Z-5**
+> > sind weder als StB-Frage geführt noch beantwortet — **Z-5** läuft
+> > im E-4-Bündel bei heypensio weiter.
 
 ---
 

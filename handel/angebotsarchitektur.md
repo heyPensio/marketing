@@ -25,6 +25,12 @@
 > - **Der Firmierungs-Vorbehalt (2) und der Z-6-/K04-Vorbehalt (3)
 >   gelten unverändert.** Nichts geht nach außen; die W-B-Grundlage
 >   kann weiterhin kippen.
+>   > **📌 R14-A, 13.08.2026 abends:** Für den **Z-6-Teil** stimmt das
+>   > nicht mehr — die n8n-Lizenz ist geklärt, sie **trägt** A3 (s.
+>   > Vorbehalt 3 unten und `preismodell-optionen.md` § 5.3-Nachtrag).
+>   > **Unverändert gelten der Firmierungs-Vorbehalt, der offene
+>   > Architektur-Entscheid und K04/Z-5** — die W-B-Grundlage kann also
+>   > weiterhin kippen, nur nicht mehr an der Lizenz.
 > - **AA-2 ist ein ZIELBILD, keine endgültige Paketform-Festlegung**
 >   (endgültig erst nach E-7).
 >
@@ -52,6 +58,60 @@
 >
 > **Status bleibt ENTWURF** — ein Angebotsdokument entsteht daraus
 > erst nach der Firmierung.
+
+> ## 📌 NACHTRAG 13.08.2026 abends (R14-A) — ⭐ BELEGSTUFE GEHOBEN: „Wortlaut archiviert (sensibel, 13.08.)"
+>
+> **Gilt für alle elf Belegstufen-Angaben dieses Dokuments:** den
+> Kopf-Nachtrag oben · die Quellenliste im § 1-Nachtrag · die
+> Sammelangabe „Was bereits festliegt" (§ 1) · und die acht
+> **Quelle/Datum/Form**-Zeilen der Kästen **AA-1 … AA-8** (einschließlich
+> des ⬜-Kastens **AA-4**). Überall ist „**sinngemäß — Wortlaut nicht
+> archiviert**" **überholt**; die Vorfassung bleibt sichtbar stehen.
+>
+> **Grund:** Die Wortlaute **beider** Erhebungen des 13.08.
+> (Dropdown-Antworten + User-Freitexte) sind rückwirkend archiviert —
+> `<FIRMENWURZEL>\zentrale\sensibel\entscheide-erhebungen-2026-08-13-wortlaut.md`
+> (git-ignoriert; **nur Verweis, kein Volltext ins Repo**). Freigabe:
+> Briefing 13.08.2026, „📮 Nachtrag 8". Auslöser war die R13-A-Prüferrüge,
+> dass diese Entscheide bis dahin nur **selbstbestätigend** prüfbar waren.
+>
+> **Prüfung durch R14-A (Wortlaut-Datei vollständig gelesen): 11
+> Angaben geprüft · 11 gehoben · 0 inhaltlich abweichend.** Jeder der
+> sieben Entscheide ist wörtlich gedeckt (*„Je Betreiber"* · *„P-B als
+> Zielbild, fix nach E-7"* · AA-3 s. u. · *„Ab dem 2. Haus"* · *„Fester
+> Prozentsatz"* · *„Ohne Deckel, Prüfposten nach E-6"* · *„Ja, Rabatt ab
+> Haus 2"*), ebenso die S4-Klärfrage (*„Je Haus"*).
+>
+> ⭐ **Drei Befunde, die die Hebung zusätzlich liefert:**
+>
+> 1. **AA-4 ist im Wortlaut exakt so offen, wie das Dokument es führt.**
+>    Die Antwort lautete vollständig: *„Habe Kayhan hierzu gefragt und
+>    warte auf seine Antwort."* Damit ist am Rohbeleg bestätigt, was der
+>    ⬜-Kasten sagt — **kein Entscheid, kein Zeitanker, Träger ist der
+>    User.** Es gibt hier **nichts zu heben außer der Belegstufe der
+>    Nicht-Entscheidung** selbst.
+> 2. ⚠️ **Die offene AA-3-Randfrage bekommt einen Beleg — zugunsten der
+>    ENGEREN Lesart.** Offen war seit R13: Deckt „geplant" auch
+>    **GEPARKTE** Module? Der Wortlaut lautet: *„auch sachen die geplant
+>    aber noch in der Entwicklung sind dürfen angeboten werden."* Die
+>    Formulierung **„aber noch in der Entwicklung"** beschreibt Module,
+>    an denen **gearbeitet wird** — nicht solche, die bewusst
+>    **zurückgestellt** sind. Das ist ein **Indiz, kein Entscheid**: Die
+>    Frage war dem User nicht gestellt, er konnte sie nicht beantworten.
+>    **Die engere Lesart bleibt die Arbeitsgrundlage**, jetzt aber mit
+>    Beleg statt nur mit Vorsicht begründet. Die Klärung bleibt ein
+>    User-Posten.
+> 3. ⚠️ **Grenze der Hebung, an einem Punkt konkret:** Archiviert sind
+>    **Antworten**, nicht der Gesprächsverlauf. Bei **AA-6** ist das
+>    einschlägig — der Wortlaut zeigt als erste Reaktion *„erkläre mir
+>    das bitte näher"*, der Entscheid *„Fester Prozentsatz"* fiel
+>    **nach einer Erklärung durch die Session**, und **diese Erklärung
+>    ist nicht archiviert**. Der Entscheid steht; was ihm zugrunde lag,
+>    ist nur mittelbar belegt. Die Belegstufe lautet deshalb **„wörtlich
+>    belegt"**, nicht „vollständig protokolliert".
+>
+> **Kein Entscheid-Inhalt, keine Zuordnung und keine Höhe ändert sich
+> durch diese Hebung.**
 
 > ## ⚠️ Status und Vorbehalte (bitte zuerst lesen)
 >
@@ -87,6 +147,43 @@
 > *(Verbreitert nach Prüferbefund PB-08: Die Erstfassung verengte die
 > Kipp-Wirkung auf § 6, während § 4 auf derselben Grundlage ruht —
 > das eigene § 6 sagte es bereits richtig.)*
+>
+> > **📌 Nachtrag 13.08.2026 abends (R14-A) — von den DREI Bestandteilen
+> > dieses Vorbehalts fällt EINER weg:**
+> > - **Z-6 / n8n-Lizenz: AUFGELÖST.** Die Sustainable Use License
+> >   **trägt** das Kunden-Eigentums-Modell A3 (Lizenztext + Anbieter-FAQ,
+> >   wörtlich in
+> >   `<FIRMENWURZEL>\heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`;
+> >   via Briefing 13.08.2026 „📮 Nachtrag 6"). Fassung, **vier Auflagen
+> >   AU-1…AU-4** und Grenzen: `preismodell-optionen.md`
+> >   § 5.3-Nachtrag — **dort steht die Fassung, hier nur der Zeiger.**
+> > - **Architektur-Entscheid: unverändert NICHT gefallen.** Die Lizenz
+> >   sagt, was erlaubt ist, nicht, was gebaut wird.
+> > - **K04 / Vapi-Kollision: unverändert ungeklärt** (mit der
+> >   Vertragspartner-Frage **Z-5**), Träger weiterhin **E-4**, ohne
+> >   Kalendertermin.
+> >
+> > **Für dieses Dokument ändert sich damit nichts an der Wirkung:**
+> > „Kippt eine dieser Fragen, kippt die Grundlage" gilt weiter — nur
+> > eben für **zwei** statt drei Fragen. **Die Überschrift dieses
+> > Punktes 3 ist zu lesen als „K04-/Architektur-Vorbehalt".**
+> > ⚠️ **Und eine vierte, kleinere Sache bleibt aus der Lizenzprüfung
+> > offen:** ob n8n die kostenlose **Community-Edition** als Backend
+> > eines entgeltlichen Produkts akzeptiert (**K-1**, streitig). Sie
+> > trifft W-A und W-B gleich, kippt also die Wahl nicht — **fällig ist
+> > sie aber genau hier**: bevor ein **Kunden-Angebot mit
+> > A3-Architektur** hinausgeht. Das ist ein Angebots-Posten, kein
+> > Preislisten-Posten.
+> >
+> > ⭐ **Neu für § 5/§ 6 relevant — die Auflage AU-2:** Das Entgelt muss
+> > als **Dienstleistungsentgelt** ausgewiesen sein (Infrastruktur zum
+> > Selbstkostenpreis durchgereicht, Servicegebühr getrennt) — **und in
+> > Angebot, Vertrag und Rechnung auch so benannt werden.** Das ist
+> > keine Preisfrage, sondern eine **Formvorgabe an die
+> > Angebotsdarstellung**, die aus der Lizenz folgt. Ebenso **AU-3**
+> > (kein White-Labeling — n8n bleibt sichtbar, wo der Kunde es sieht)
+> > und **AU-4** (der Kunde bekommt die Lizenzbedingungen nachweislich
+> > mit — ein **Onboarding-Schritt**, der in jedes Paket gehört).
 >
 > **4. Beträge kommen hier nicht vor — mit Absicht.** Wo eine Höhe
 > berührt wird, verweist dieses Dokument auf die **Platzhalter und
@@ -181,6 +278,15 @@ Wortlaut nicht archiviert):**
 | Mehrhaus-Rabatt **auf die Grundgebühr S1** als Stellschraube | **E-2** (Zusatz) | § 11 E-2; `preisliste-vorlaeufig.md` § 4 |
 | Rechenbasis W-B/A3 mit Durchreichung, unter Z-6-Vorbehalt | **E-3** | § 11 E-3 |
 | Angebotsarchitektur intern bauen | **E-8** | § 11 E-8 |
+
+> **📌 Nachtrag 13.08.2026 abends (R14-A) zur Zeile „Rechenbasis W-B/A3
+> … unter Z-6-Vorbehalt":** Der **Z-6-Vorbehalt ist aufgelöst** — die
+> n8n-Lizenz trägt A3 (`preismodell-optionen.md` § 5.3-Nachtrag; Quelle:
+> heypensio R40 via Briefing Nachtrag 6). **Die Rechenbasis W-B/A3
+> selbst bleibt unverändert** das, was E-3 festlegt: eine **Rechenbasis
+> mit Vorbehalt**, nicht ein Architektur-Entscheid — die verbliebenen
+> Vorbehalte sind **K04/Z-5** und der offene **Architektur-Entscheid**
+> (Kopfkasten Punkt 3).
 
 > ### 📌 Nachtrag 13.08.2026 nachmittags — beide „offen gebliebenen" Strukturfragen sind beantwortet
 > *(markierter Nachtrag; Text und Tabelle oben bleiben unverändert)*
@@ -517,6 +623,27 @@ der Kunde direkt Vertragspartner der Anbieter wird, ist die
 **ungeklärte Vertragspartner-Frage** (Preisliste § 2, Kasten;
 K03/K04) — **die Darstellung des Durchreichungsblocks in jedem
 Angebot hängt an dieser Antwort** (s. § 6).
+
+> **📌 Nachtrag 13.08.2026 abends (R14-A) — zwei Präzisierungen zu
+> diesem Absatz:**
+> 1. **Die Klammer „K03/K04" ist überholt.** **K03** (kein
+>    n8n-Zugang für den Kunden) ist mit der Z-6-Auflösung **erledigt**
+>    — die Lizenz trägt A3 (Kopfkasten Punkt 3;
+>    `preismodell-optionen.md` § 5.3-Nachtrag). K03 war zudem nie die
+>    Vertragspartner-Frage, sondern die Zugangsfrage; sie liefen nur im
+>    selben Bündel. **Die Vertragspartner-Frage selbst bleibt
+>    unverändert ungeklärt** und hängt allein an **K04/Z-5** — der Satz
+>    „die Darstellung des Durchreichungsblocks hängt an dieser Antwort"
+>    gilt also **unverändert**.
+> 2. ⭐ **Der Satz davor ist jetzt doppelt getragen:** Dass eine
+>    Paketdarstellung Infrastruktur **nicht** „inklusive" erscheinen
+>    lassen darf, folgt seit dem 13.08. abends nicht nur aus **E-3**,
+>    sondern auch aus der Lizenz-Auflage **AU-2** (Entgelt als
+>    **Dienstleistungsentgelt** ausgewiesen, Infrastruktur zum
+>    Selbstkostenpreis durchgereicht, Servicegebühr getrennt — „und in
+>    Angebot, Vertrag und Rechnung auch so benannt"). Aus einer
+>    Gestaltungsvorgabe ist damit zusätzlich eine **Bedingung der
+>    Lizenzkonformität** geworden.
 
 ### ☐ AA-2 — Entscheidungspunkt Paketform
 
@@ -1076,6 +1203,45 @@ trägt.)*
 > (StB-Frage 13 (f), übergeben, unbeantwortet). Das ist strukturell
 > derselbe Fall wie die Zeilen 1–3: eine gewählte Struktur, deren
 > Vorbedingung außerhalb liegt und aussteht.
+
+> ### 📌 NACHTRAG 13.08.2026 abends (R14-A) — Widerspruch 1 (K03/n8n) ist AUFGELÖST; 2, 3 und 4 bleiben
+>
+> **Zeile 1 der Tabelle oben ist überholt.** Die Lizenz-Argumentation
+> des Betriebs ruht **nicht** auf dem fehlenden Kundenzugang — der
+> Lizenztext erlaubt die Nutzung „**for your own internal business
+> purposes**", und ein Hotel, das seine eigene Instanz für seinen
+> eigenen Betrieb nutzt, ist der **Kernfall** dieser Erlaubnis. **A3
+> verbessert die Lizenzlage sogar gegenüber W-A.** Beleg:
+> `<FIRMENWURZEL>\heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`
+> (Lizenztext Stufe A + Anbieter-FAQ Stufe B, beide wörtlich), via
+> Briefing 13.08.2026 „📮 Nachtrag 6"; Fassung und Auflagen:
+> `preismodell-optionen.md` § 5.3-Nachtrag.
+>
+> **Konkrete Folge für die Erzählung dieses Abschnitts:** Der Satz
+> „Solange Z-6 offen ist, ist die Kernleistung ‚Workflow-Betrieb' nicht
+> in dem Sinn übergabefähig, den E-3 erzählt" **gilt nicht mehr** — die
+> Lizenz steht der Übergabefähigkeit **nicht** entgegen, sie setzt sie
+> nur unter Auflagen (**AU-1…AU-4**, Kopfkasten Punkt 3).
+>
+> ⚠️ **Was das NICHT auflöst — und warum der Verkaufs-Satz stehen
+> bleibt:** **Widerspruch 2 (K04/Vapi)** und **Widerspruch 3
+> (Vertragspartner-Frage/Z-5)** sind unverändert **ungeklärt**, Träger
+> weiterhin **E-4**. Der Satz „**Ein Angebot darf erst dann mit der
+> Übergabe-Erzählung verkaufen, wenn Z-6/K04 geklärt sind**" bleibt
+> deshalb **in Kraft** — er ist ab jetzt zu lesen als **„wenn K04/Z-5
+> geklärt sind"**. Ebenso bleibt **Widerspruch 4** (Abgrenzung Umgebung
+> ↔ Dienstleistung Betrieb) unberührt; er war nie eine Lizenzfrage.
+> **Und das Zielbild P-B erbt weiterhin alles davon.**
+>
+> ⭐ **Neu hinzu kommt eine Angebots-PFLICHT statt eines Vorbehalts:**
+> Auflage **AU-2** verlangt, dass das Entgelt in **Angebot, Vertrag und
+> Rechnung** als **Dienstleistungsentgelt** benannt ist (nicht als
+> Zugangs-/Nutzungsgebühr für n8n) — die Durchreichungs-Darstellung
+> jedes Pakets muss das tragen. **AU-4** verlangt, dass der Kunde die
+> Lizenzbedingungen bei der Einrichtung **nachweislich mitbekommt** —
+> ein Schritt im Onboarding-Teil jedes Pakets. Beide sind
+> **umsetzbar**, nicht blockierend; sie gehören ins Angebots-Wording,
+> sobald die Firmierung steht.
 
 ---
 

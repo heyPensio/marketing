@@ -170,26 +170,26 @@ const eigenVerwaist = SELBSTTEST
 
 // --- Positivkontrolle je Kanal (ein Anker, der treffen MUSS) -----------------
 const MUSS = [
-  ['Rechtsmatrix D2 Pflicht 1', 'eigene, dauerhaft erreichbare Seite mit allen 13 Art.-14-Angaben'],
-  ['Rechtsmatrix D3 Kasten 1', 'ENTSCHIEDEN (Nachtrag 11.08.2026): 24 Monate nach letztem Vertragsschluss'],
-  ['Rechtsmatrix D3 Kasten 2', 'Weg (b) - Risiko bewusst tragen und dokumentieren.'.replace(/-/g, '—')],
-  ['Rechtsmatrix C3 Impressum', 'Nicht zulässig ist hingegen das Auslesen der Daten aus einem Online-Impressum'],
-  ['Regionalstatistik 4.4', 'Summe beider Kreiszeilen ÷ Landeszeile'],
-  ['R00 KPI (e)', 'Qualifizierte Erstgespräche mit Entscheidern pro Woche'],
-  ['Positionierungspapier 3.3', 'Entscheidungsstruktur, nicht die Betten-Zahl'],
-  ['Projektquelle 7 Punkt 0a', 'GbR in Gründung, Rebrand-Name offen'],
+  ['Rechtsmatrix D2 Pflicht 1', 'handel/kanal-rechtsmatrix.md', 'eigene, dauerhaft erreichbare Seite mit allen 13 Art.-14-Angaben'],
+  ['Rechtsmatrix D3 Kasten 1', 'handel/kanal-rechtsmatrix.md', 'ENTSCHIEDEN (Nachtrag 11.08.2026): 24 Monate nach letztem Vertragsschluss'],
+  ['Rechtsmatrix D3 Kasten 2', 'handel/kanal-rechtsmatrix.md', 'Weg (b) - Risiko bewusst tragen und dokumentieren.'.replace(/-/g, '—')],
+  ['Rechtsmatrix C3 Impressum', 'handel/kanal-rechtsmatrix.md', 'Nicht zulässig ist hingegen das Auslesen der Daten aus einem Online-Impressum'],
+  ['Regionalstatistik 4.4', 'fund/erhebung/regionalstatistik-groessenklassen.md', 'Summe beider Kreiszeilen ÷ Landeszeile'],
+  ['R00 KPI (e)', 'protokolle/R00-planpruefung-2026-08-09.md', 'Qualifizierte Erstgespräche mit Entscheidern pro Woche'],
+  ['Positionierungspapier 3.3', 'fund/positionierungspapier.md', 'Entscheidungsstruktur, nicht die Betten-Zahl'],
+  ['Projektquelle 7 Punkt 0a', 'projektquelle-mkt.md', 'GbR in Gründung, Rebrand-Name offen'],
   // Anker bewusst im STABILEN Kopf der Datei, nicht in einem Runden-Stand:
   // Der alte Anker ("Offenlegung ist ab jetzt") stammte aus dem R7-Block und
   // wurde mit der planmaessigen 2-Runden-Rotation am 12.08.2026 nach
   // STATUS-archiv.md verschoben -- die Positivkontrolle fiel dadurch auf 10/11,
   // ohne dass am Pool etwas kaputt war. Ein Anker in einen ROTIERENDEN
   // Abschnitt altert per Konstruktion (Fehlerklasse: veraltetes Pruefmuster).
-  ['STATUS.md', 'Bei Widerspruch STATUS.md'],
-  ['baseline-messplan 5', 'Rückwärtsrechnung vom Livegang'],
-  ['CLAUDE.md', 'Internorga Hamburg (März)'],
-  ['O-8 Interessenabwaegung', 'das konkrete Werbevorhaben'],
-  ['Wettbewerbsbild Teil A', 'Wer baut dieselbe Technik?'],
-  ['Preismodell Optionen', 'Eine fünfte Bedingung neben AU-1…AU-4, und sie trifft den KUNDEN'],
+  ['STATUS.md', 'STATUS.md', 'Bei Widerspruch STATUS.md'],
+  ['baseline-messplan 5', 'beleg/baseline-messplan.md', 'Rückwärtsrechnung vom Livegang'],
+  ['CLAUDE.md', 'CLAUDE.md', 'Internorga Hamburg (März)'],
+  ['O-8 Interessenabwaegung', 'akquise/interessenabwaegung-o8.md', 'das konkrete Werbevorhaben'],
+  ['Wettbewerbsbild Teil A', 'fund/wettbewerbsbild.md', 'Wer baut dieselbe Technik?'],
+  ['Preismodell Optionen', 'handel/preismodell-optionen.md', 'Eine fünfte Bedingung neben AU-1…AU-4, und sie trifft den KUNDEN'],
 ];
 // --- Gegenrichtung: darf NICHT treffen (sonst ist der Vergleich blind) -------
 const TREFFEN_NICHT = [
@@ -277,10 +277,10 @@ console.log('Blockzitate: ' + bl + ' / ' + BLOECKE.length + ' bestaetigt, Gegenp
 
 console.log('\n--- Positivkontrolle (MUSS treffen) ---');
 let pk = 0;
-for (const [name, s] of MUSS) {
-  const hit = poolText.includes(norm(s));
+for (const [name, datei, s] of MUSS) {
+  const hit = poolTexte.get(datei).includes(norm(s));
   if (hit) pk++;
-  console.log((hit ? 'OK   ' : 'FEHL ') + name);
+  console.log((hit ? 'OK   ' : 'FEHL ') + name + ' [' + datei + ']');
 }
 console.log('Positivkontrolle: ' + pk + ' / ' + MUSS.length);
 

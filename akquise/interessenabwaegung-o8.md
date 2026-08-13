@@ -618,6 +618,14 @@ nicht im Text (Suchlauf `berufung|rechtsmittel|rechtskräftig`: 0 Treffer
 Briefwerbung ist streitig; das LG Düsseldorf vertritt die strenge
 Linie.**
 
+> 📌 *Nachtrag 13.08.2026 abends (Leitsession, R14-Nacharbeit; Herkunft:
+> R14-B, `protokolle/R14-B-abschluss.md` Block 3, R14B-N-1):* Der Satz
+> „Gegenansicht, die in der Rechtsmatrix **fehlt**" ist **überholt** —
+> die Gegenansicht (OLG Stuttgart 2 U 63/22, beide Eckhardt-Fundstellen,
+> „streitig" als Eintrag) steht seit R14-B in
+> `handel/kanal-rechtsmatrix.md` A7 (Nachtragskasten R9A-N-12). Die
+> Sätze oben bleiben als Befund-Historie stehen.
+
 ### 6.3 Die Risikofälle und ihre Größenordnung
 
 | Fall | Wer | Folge | Größenordnung |
@@ -716,6 +724,19 @@ Siebener-Liste als abschließend las. **Die Lücke ist aus
 `handel/kanal-rechtsmatrix.md` C4 geerbt** — dort steht dieselbe
 Aufzählung ohne die Empfänger-Angabe; das ist als achter Punkt an
 MKT-HANDEL gemeldet, § 11.2 Nr. 8.)*
+
+> 📌 *Nachtrag 13.08.2026 abends (Leitsession, R14-Nacharbeit; Herkunft:
+> R14B-N-2/N-6/N-8):* **C4 ist seit R14-B nachgezogen** — die
+> Empfänger-Zeile steht jetzt auch dort (§ 11.2 Nr. 8 damit erledigt).
+> **Und die Quellen-Richtung ist hiermit festgelegt (Zirkel-Auflösung):**
+> Die achtteilige Aufzählung ist in DIESEM Dokument am Quellwortlaut
+> (DSK Ziff. 2.1 + Art. 14) entwickelt — **dieses Dokument ist die
+> Quelle**, C4 führt die Betriebs-Kurzfassung mit ausdrücklicher
+> Vorrangklausel zugunsten dieser Datei. Die Einleitung „Mindestumfang
+> im Brief nach Rechtsmatrix C4" oben bezeichnet die Herkunft des
+> KONZEPTS (wo der Mindestumfang zuerst beschrieben war), nicht der
+> Listen-Formulierung. Wer eine der beiden Listen ändert, zieht die
+> andere im selben Zug nach.
 
 **Wie:** Getrennt vom Werbetext. „Erfolgt die Information in Verbindung
 mit der ersten Werbezusendung, sind beide Bestandteile (Information und
@@ -1002,6 +1023,21 @@ damit erkennbar ist, warum:
 
 Diese Punkte gehören als Nebenbefunde an **MKT-HANDEL** (die Rechtsmatrix
 wird von dieser Session **nicht** angefasst):
+
+> 📌 **Nachtrag 13.08.2026 abends (Leitsession, R14-Nacharbeit) — Stand
+> der acht Punkte nach der R14-B-Rechtsmatrix-Pflege** (Herkunft:
+> `protokolle/R14-B-abschluss.md` Block 3, R14B-N-1…N-8; die Punkte
+> unten bleiben als Historie unverändert stehen):
+>
+> | Nr. | Stand 13.08. abends |
+> |---|---|
+> | 1 | **überholt** — die Stufe-1-Klarstellung steht in der Rechtsmatrix (A7, Kasten R9A-N-11) |
+> | 2 | **überholt** — Gegenansicht eingetragen (A7, Kasten R9A-N-12; Eintrag „streitig") |
+> | 3 | **an der Ankunftsstelle dokumentiert** — der Art.-21-Tenor-Punkt steht jetzt im PB-1-Kasten vor A7; die NEUFASSUNG des „ausschließlich"-Satzes selbst bleibt offen (Träger MKT-HANDEL, zusammen mit dem O-9-Rechtsrat) |
+> | 4 | **unverändert offen** (EuGH Rn. 56 / C2) — Träger MKT-HANDEL; von R14-B ausdrücklich als unbearbeitet gemeldet, Prüfung braucht den EuGH-Volltext |
+> | 5 | **überholt UND in einem Teil widerlegt:** Die Zählwege stehen seit R14-B an den Zahlen in A7. ⚠️ Die Aussage unten „109 ist case-sensitiv" ist **falsch** — gemessen (R14-B) und unabhängig reproduziert (R14-B-Prüfer): 109 ist **nicht case-abhängig** (`grep -o` = `grep -oi` = 109). Case-abhängig ist nur die 199/187-Zählung („Verbraucher") |
+> | 6, 7 | unverändert gültig |
+> | 8 | **erledigt** — Empfänger-Zeile in C4 ergänzt (R14-B, byte-gleiche Übernahme mit Vorrangklausel; s. Nachtrag am Q-05-Kasten in § 7.1) |
 
 1. **Das LG-Düsseldorf-Urteil hat die Abwägung nie erreicht.** Die
    Rechtsmatrix stellt es (A7) als Fall dar, in dem Briefwerbung

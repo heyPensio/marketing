@@ -1538,3 +1538,472 @@ AA-4-Nachtrag bei Kayhan-Antwort — entscheidet der User.
   Feierabend; entscheidet der User. **Vor weiterer Leitsessions-Arbeit:
   NEUES Fenster** (Regel-Snapshot veraltet — CLAUDE.md + drei Kopien
   geändert).
+
+---
+
+## Block 6 (13.08. 23:40 MESZ) — Folgerunde R15 via `/runde`, NACHT-SLOT
+
+**Auslöser:** Firmen-Briefing Nacht-Slot
+`zentrale\briefings\briefing-2026-08-13-nacht.md` (User-Entscheid ~23:20:
+„noch ein paar größere Multi-Sessions, 4–5 pro Abteilung, natürlich nur
+wenn es Sinn macht"). Neues Fenster erfüllt (Neustart-Pflicht aus dem
+Block-5-Abschluss). Debrief-Gate: R14 geschlossen (`0f77e6d`).
+
+### Vorlauf — Gerüst-Nachzug VOR dem Rundenschnitt (`ad1bef4`, gepusht)
+
+Briefing-Auflage, weil der Nachzug genau die Regeln ändert, unter denen
+die R15-Stränge laufen. Blueprint-Selbstcheck OK; Wächter vorher
+**1 DRIFT** (`commands/tagesstart.md` — genau das nachzuziehende Delta),
+nachher **SYNCHRON 12 / 0 DRIFT**. Stempel `ee8c468` → **`ae819a0`**.
+
+| Delta | Anteil | Disposition |
+|---|---|---|
+| `0e4d2d9` | Wächter-Frage 3. Achse („welchen Text schreibt der ABLAUF?") + teuerste Form (plausibler, für den Betriebsweg falscher Messpunkt) + Grenzenlisten n-von-n | **übernommen** → CLAUDE.md, ERSETZT die Zwei-Achsen-Fassung (L-21-Anker erhalten) |
+| `ae819a0` (1) | Historie kennt keine Session-Identität → Kennung als erstes Wort der Commit-Message | **übernommen** → Multi-Session Regel 1 |
+| `ae819a0` (2) | Zwei Sessions am selben Vorgang → die zweite hält AN, EINE schreibende Hand je Datei | **übernommen** → Multi-Session Regel 1 |
+| `ae819a0` (3) | Vollzug hinter dem User-Entscheid = aktiv zu meldende Abweichung | **übernommen** → Arbeitsregeln |
+| `ae819a0` (4) | Gekappte Session macht nur MECHANIK | **übernommen** → Arbeitsregeln |
+| `ae819a0` (5–7) | Codex-PFLICHTZEILE · Ausführungslauf-Beleg · Namens-Zuweisungs-Pflicht | **via Kopie** `commands/tagesstart.md` (md5 `a909ec0e…`, byte-gleich) |
+
+**Löschungszählung (L-38):** 6 gelöschte Zeilen, alle einzeln gesichtet
+— ausschließlich Ersetzungen der eigenen Edits. Keine ungewollte.
+**Größenmessung:** 80.380 B / 78.476 Codepoints (vor Nachzug 75.635 B →
+**+4.745**). ⚠️ **Verdichtungs-Posten für den R15-Debrief** — dort
+greift die Formdisziplin „Schärfung ERSETZT Kern" (`fe6fcaf`) erstmals.
+
+### Tagesrahmen-Kurzcheck
+
+- **Do 13.08.2026, 23:40 MESZ** (`date`-Werkzeug, nicht aus dem Kopf).
+  Nacht-Slot → **nur Innen-Stränge**; Anbieter/Behörden/Registrar sind
+  nicht erreichbar, jede Außenhandlung ist ausgeschnitten.
+- **Handgriff-Liste:** unverändert gegenüber Block 5 (gleicher Tag,
+  gleiche Datei — keine Migration fällig). Offen bleiben AA-4 (Kayhan),
+  AA-3/AA-8-Randfragen, StB-Anruf-Ergebnis, H-1 (bis 16.08.),
+  MARKE1-Paket, Modell-Statuszeilen R3-A…R14-B.
+- **Eingänge:** Das Nacht-Briefing IST der Eingang; seine Triage wird
+  übernommen (keine zweite Volldurchsicht). **Nachtrags-Gegenprobe
+  (R14-Lehre):** Der Slot trägt keine Nachträge und keine
+  `…-korrektur*.md` — Verzeichnis-Listing von `zentrale\briefings\`
+  zeigt 11 Dateien, jüngste ist der Nacht-Slot selbst.
+- **Wochen-Kontingent:** vom User nicht abgelesen; Kontingent ist
+  ohnehin **kein Zuschnitt-Kriterium** (CLAUDE.md Regel 6).
+
+### Zuschnitt-Entscheid — zwei begründete Abweichungen vom Briefing
+
+Die Strang-Hoheit liegt laut Briefing bei der Leitsession. Ich folge dem
+Vorschlag der Zentrale, mit zwei Korrekturen aus der **eigenen
+Ist-Stand-Prüfung** (nicht delegiert):
+
+1. 🔴 **Kollision R15-D ↔ R15-E auf `fund/wettbewerbsbild.md`.** Beide
+   Aufträge schreiben dort (D: melevo-Befunde einarbeiten · E: W-16
+   Dittlmann-Pseudozitat reparieren). Verstößt gegen die im selben
+   Vorlauf nachgezogene Regel „genau EINE schreibende Hand je Datei".
+   **Auflösung: E bekommt die Datei exklusiv; D misst und MELDET nur**
+   (Protokoll + Nebenbefund an die Leitsession), arbeitet nichts ein.
+2. **R15-E läuft nicht parallel, sondern sequenziert** (⛔ startet erst
+   nach der Abschlussmeldung von R15-A). Grund: Die Rote-Haar-Bande hat
+   genau **vier** Arbeits-Session-Namen (`zentrale\rollen-charta.md`),
+   keine Reserve-Liste — eine namenlose fünfte Session wäre ein
+   Formfehler des Zuschnitts (Namens-Zuweisungs-Pflicht `ae819a0`). Das
+   Briefing hat diese Variante selbst angeboten („2. Fenster oder
+   Reserve").
+
+**Dritte Korrektur, im Prompt statt am Zuschnitt:**
+- **R15-D:** Die melevo-Abzüge liegen **auch im ÄLTEREN Ordner**
+  `sensibel/rohbelege-R05-A/a3/` (u. a. `melevo-preise.html`/`.txt`) —
+  das Briefing nennt nur R11-A. Genau die R14-Lehre
+  (`quellen-beschaffung` Punkt 6), die zuletzt einen
+  „nicht feststellbar"-Befund gekippt hat. Als Pflicht in den Prompt.
+- **R15-B:** `handel/angebotsarchitektur.md` führt AU-4 bereits als
+  SOLL („ein Schritt im Onboarding-Teil jedes Pakets") — aber mit der
+  Gate-Bedingung **„sobald die Firmierung steht"** (F-7 offen). Die
+  Briefing-Prämisse „kein Paket führt den Schritt" trifft den BAU, nicht
+  die Erwähnung. Der Prompt sagt beides.
+
+### Strang-Tabelle R15 (Modellwahl trifft der USER — Spalte wird nachdokumentiert)
+
+| Strang | Name | Aufgabe | Exklusive Systeme | Modell (User) | Review |
+|---|---|---|---|---|---|
+| **R15-A** | Ben Beckman | Anwalts-Briefing mit vier Fragen (O-9 · A7-Kernsatz · § 3a UWG B2B · O-11) | keine | _(nachtragen)_ | **Voll-Review** (außenwirksam an Dritte) |
+| **R15-B** | Yasopp | Angebotsbausteine AU-2/AU-4 + O-2-Klausel + K-1-Anker | keine | _(nachtragen)_ | **Voll-Review** (Vertrags-/Angebotstext) |
+| **R15-C** | Lucky Roux | Wächter-Reichweite `pruefe-zitate.js` + Kleinposten | keine | _(nachtragen)_ | Kurzraster + **Ausführungslauf-Beleg** |
+| **R15-D** | Rockstar | Belegketten: SUL-Zitatabgleich + melevo-Beträge | keine (SUL ist öffentlich, kein Außenkontakt) | _(nachtragen)_ | **Voll-Review** (kippt ggf. die Z-6-Entwarnung) |
+| **R15-E** | Ben Beckman (2. Fenster) | R05-A-Nacharbeit, zitatkritische zuerst | keine | _(nachtragen)_ | **Voll-Review** (außenwirksame Texte) |
+
+⛔ **R15-E startet erst nach der Abschlussmeldung von R15-A.**
+
+### Codex-Eignung (PFLICHTZEILE je Strang, `ae819a0` — eigene Prüfung auf TEILAUFGABEN-Ebene, nicht aus dem Briefing übernommen)
+
+- **R15-A · Codex: NEIN** — Belegstufen-Urteil und außenwirksames
+  Dokument an einen Dritten. **ABER Teilaufgabe JA:** der
+  Rn.-/Fundstellen-Abgleich der 21 § 3a-UWG-Treffer gegen den Rohbeleg
+  hat ein hartes Soll und darf als Zulieferung laufen.
+- **R15-B · Codex: NEIN** — außenwirksame Angebots-/Vertragsbausteine.
+  **Teilaufgabe JA (klein):** die Bestandserhebung „welches Paket führt
+  heute welchen Onboarding-Schritt?" ist mechanisch prüfbar.
+- **R15-C · Codex: JA** — Exit-Code, n/n-Zählung, Selbsttest in beide
+  Richtungen: hartes maschinelles Soll. Die **Bewertung** der neu
+  gemeldeten Fehl-Zitate gehört zurück in die Leitsession.
+- **R15-D · Codex: JA für den Messteil** (Zitat-für-Zitat-Abgleich,
+  Betrags-Extraktion über die Rohbelege), **NEIN für die Folgerung**
+  „trägt A3 weiterhin?".
+- **R15-E · Codex: TEILWEISE** — Fundstellen-/Zitat-Abgleich
+  (existiert der Beleg? deckt er den Satz?) maschinell prüfbar; die
+  Reparatur-Formulierung im Wettbewerbsbild nicht.
+
+*(Werkzeugwahl trifft der User — die Evaluation ist Bringschuld der
+Leitsession.)*
+
+### Disjunktheits-Schnitt (5 Stränge = 10 Paare, auf DATEI-Ebene)
+
+| Strang | schreibt | liest (ohne Schreibrecht) |
+|---|---|---|
+| A | `handel/anwalts-briefing-2026-08.md` (**neu**), `protokolle/R15-A-*.md` | kanal-rechtsmatrix · interessenabwaegung-o8 · preismodell-optionen · listenbau-regelwerk |
+| B | `handel/angebotsarchitektur.md`, `protokolle/R15-B-*.md` | preismodell-optionen · preisliste-vorlaeufig · interessenabwaegung-o8 |
+| C | `akquise/pruefe-zitate.js`, `akquise/selbsttest-zitate.md`, `protokolle/R15-C-*.md` | alle ZIEL-/POOL-Kandidaten |
+| D | `protokolle/R15-D-*.md`, `sensibel/rohbelege-R15-D/` (**neu, nur D**) | SUL-Rohtext · Rohbelege R05-A + R11-A · wettbewerbsbild (**nur lesend**) |
+| E | `fund/wettbewerbsbild.md` (**exklusiv**), `protokolle/R06-nacharbeit-R05A-befunde.md`, `protokolle/R15-E-*.md` | R05-A-Prüferprotokoll · Rohbelege |
+
+Alle 10 Paare geschnitten. Verbleibende Berührungen, im Prompt geregelt:
+- **C ↔ D/E: wandernder Messstand** (L-40). C erweitert die Reichweite
+  auf Dokumente, an denen D/E parallel arbeiten → C friert seinen
+  Prüfstand per Commit-Hash ein und meldet die Erst-Fundmenge MIT Hash.
+- **B ↔ D: inhaltlicher Berührungspunkt** (R14A-N-1 betrifft AU-4).
+  D meldet, B baut — kein gemeinsamer Pfad.
+- **Neues Verzeichnis:** nur D (`sensibel/rohbelege-R15-D/`, eigener
+  Runden-Ordner nach der Rohbelege-Regel).
+
+### Prüf-Subagent (tagesstart Abschnitt 2 Baustein 1, ≥ 3 Stränge)
+
+Die Ist-Stand-Prüfung hat die **Leitsession selbst** gefahren (Pflicht —
+nie als ersten Arbeitsschritt delegieren) und dabei drei
+Prämissen-Korrekturen gefunden (s. o.). Der zusätzliche Prüf-Subagent
+mit der Einzelfrage „Welcher Strang behandelt etwas als neu, wozu
+eigener oder Dritt-Bestand existiert?" ist dem **User angeboten**, nicht
+ungefragt gestartet.
+
+---
+
+## Session-Prompts R15 (Single Source — Sessions lesen HIER)
+
+### Strang R15-A (Ben Beckman) — Anwalts-Briefing mit vier Fragen
+
+> Du bist **Ben Beckman**, Arbeits-Session `R15-A` der Rote-Haar-Bande
+> (Marketing). Die Leitsession Shanks läuft separat (Multi-Session-Modell
+> lt. CLAUDE.md). Session-Start: `git pull`.
+>
+> **Aufgabe:** Baue **ein einziges Briefing an einen Rechtsanwalt**, das
+> vier offene Fragen bündelt. Es ist ein **außenwirksames Dokument an
+> einen Dritten** — es entscheidet nichts, es fragt.
+>
+> Die vier Fragen (Bestand und Fundstellen im Repo, nicht aus dieser
+> Aufzählung nacherzählen):
+> 1. **O-9** — Kompatibilitätsprüfung Art. 6 Abs. 4 DSGVO. Geführt seit
+>    R13 in `akquise/interessenabwaegung-o8.md` und
+>    `akquise/listenbau-regelwerk.md`; Gate „vor dem ersten Datensatz".
+> 2. **A7-Kernsatz-Neufassung** — der Kernsatz der
+>    `handel/kanal-rechtsmatrix.md` behauptet, das LG Düsseldorf habe
+>    „ausschließlich auf die DSGVO" gestützt. **R14-B hat das mit 148
+>    UWG-Treffern / 21× § 3a UWG widerlegt**; die Stelle ist markiert.
+>    Du legst dem Anwalt den Widerspruch VOR — **die Neufassung selbst
+>    ist Dir ausdrücklich untersagt.**
+> 3. **Streitstand § 3a UWG für B2B** inkl. UGPRL-Grenze und
+>    Kostenfolge § 13 Abs. 4 Nr. 2 UWG (aus R14-B).
+> 4. **O-11** — Lizenzserver-Ping im A3-Modell (Projektquelle § 5,
+>    geparkt).
+>
+> **Form je Frage, verbindlich:** Sachverhalt · konkrete Fragestellung ·
+> Quellenlage mit Fundstelle · **Gegenansicht** · Entscheidungs-
+> alternativen. **Nichts inhaltlich entscheiden.** Wo die Rechtslage
+> streitig ist, ist „streitig" der Eintrag, nicht der bequemere Pol.
+>
+> **Pflicht-Gegenprüfung am ROHBELEG:** Die R14-Befunde erreichen Dich
+> über Abschlussprotokolle — das sind **Quellen zweiter Hand, auch aus
+> dem eigenen Haus** (L-42: 3 von 10 hielten zuletzt nicht stand, alle
+> Korrekturen in die unbequemere Richtung). Jede Zahl und jeden
+> Rn.-Anker, den Du übernimmst, prüfst Du am Rohbeleg nach; den
+> **Absatz-/Rn.-Block am STÜCK lesen**, nie nur das Zitat greppen
+> (L-39: ein byte-genaues Zitat endete am Satzpunkt unmittelbar vor
+> seinem Gegenbeleg).
+>
+> **Dein Scope:** `handel/anwalts-briefing-2026-08.md` (**lege sie an**)
+> und `protokolle/R15-A-abschluss.md` / `-pruefer.md`. Lesen darfst Du
+> alles. **Nicht anfassen:** `handel/kanal-rechtsmatrix.md` (die
+> Neufassung ist gesperrt), `handel/angebotsarchitektur.md` (R15-B),
+> `fund/wettbewerbsbild.md` (R15-E), Projektquelle, STATUS.md, CLAUDE.md,
+> Skills/Commands. Exklusive Systeme: **keine** — Nacht-Slot, keine
+> Außenhandlung.
+>
+> **Subagenten (konkret, nicht generisch):** (a) **ein Agent je
+> QUELLDOKUMENT** für den Fundstellen-/Rn.-Abgleich (LG-Düsseldorf-
+> Rohbeleg, UWG-Fundstellen, O-8) mit dem Auftrag „Absatz davor und
+> danach mitlesen" — ein Agent je Befund findet nur den Befund. (b) EIN
+> **unabhängiger Prüfer** mit frischem Kontext, eingefrorenem
+> Commit-Hash, Schreibrecht auf genau `protokolle/R15-A-pruefer.md`;
+> Pflicht-Kategorie „**Was aus der Quelle ist gar nicht erst
+> angekommen?**" — von der QUELLE rückwärts gelesen, Leseraum ist das
+> DOKUMENT, der Abschnitt nur der Einstieg. Zusatzfragen an ihn:
+> „Welche Verfälschung hätte Dein Verfahren NICHT gefangen?" und
+> „Hättest Du diese Funde auch ohne den Kategorien-Hinweis gefunden?"
+>
+> **Fertig-Kriterium:** Das Briefing liegt vollständig vor, jede der
+> vier Fragen trägt ihre fünf Pflichtteile, **jeder Rn.-Anker ist am
+> Rohbeleg belegt** (Zählweg im Dokument), und kein Satz nimmt eine
+> Antwort vorweg. Der Prüfer ist gelaufen und seine Befunde sind
+> **kategorienweise MIT NENNER** disponiert.
+>
+> Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; **Session-Kennung
+> `BECKMAN | ` als erstes Wort der Commit-Message** (neue Regel
+> `ae819a0` — die Historie kennt keine Session-Identität). Reihenfolge
+> add → commit → `git fetch` + `git log HEAD..origin/main` (0 Commits →
+> Rebase entfällt) → push per `git push origin <dein-hash>:main`.
+> Abschlussmeldung in VIER Blöcken, zusätzlich als
+> `protokolle/R15-A-abschluss.md`. Kein eigener Debrief.
+
+### Strang R15-B (Yasopp) — Angebotsbausteine AU-2/AU-4 + O-2 + K-1-Anker
+
+> Du bist **Yasopp**, Arbeits-Session `R15-B` (Targeting/Zielkunden —
+> der Scharfschütze). Leitsession Shanks läuft separat. Session-Start:
+> `git pull`.
+>
+> **Aufgabe:** Aus der Z-6-Auflösung (R14-A) fallen konkrete
+> Bauaufträge in die Angebotsarchitektur. Reine **Prozess- und
+> Klauselarbeit — keine Beträge**, alle Höhen hängen an E-6/E-7.
+> 1. **AU-2:** Das Entgelt muss in **Angebot, Vertrag und Rechnung**
+>    ausdrücklich als *Dienstleistungsentgelt* benannt sein (nicht als
+>    Zugangs-/Nutzungsgebühr für n8n). Die Durchreichungs-Darstellung
+>    jedes Pakets muss das tragen.
+> 2. **AU-4:** Der Kunde bekommt die Lizenzbedingungen bei jeder
+>    Einrichtung **nachweislich** mit — als Schritt im Onboarding-Teil
+>    **jedes** Pakets P-A/P-B/P-C.
+>    ⚠️ **Gemessene Ist-Lage (Leitsession, vor dem Prompt):**
+>    `handel/angebotsarchitektur.md` **beschreibt** AU-4 bereits als
+>    SOLL („ein Schritt im Onboarding-Teil jedes Pakets"), aber **kein
+>    Paket führt den Schritt gebaut**, und der Satz trägt die
+>    Gate-Bedingung **„sobald die Firmierung steht"** (F-7 offen). Du
+>    baust den Schritt und die Nachweisform; wo die Firmierung im
+>    Wortlaut nötig wäre, setzt Du einen **sichtbaren Platzhalter mit
+>    Gate-Vermerk**, keine erfundene Firmierung.
+> 3. **O-2-Kunden-Pflicht** als Vertragsklausel (der Kunde öffnet n8n
+>    nicht seinen Gästen) — die fünfte Kunden-Pflicht aus O-2.
+> 4. **K-1-Wiedervorlage-Anker:** Akzeptiert n8n die Community-Edition
+>    als Backend eines entgeltlichen Produkts? **Streitig, kein
+>    Termin** — der Anker ist die REGEL „bevor ein A3-Angebot
+>    hinausgeht", nicht ein Datum.
+>
+> **Pflicht-Gegenprüfung am ROHBELEG:** Die Auflagen AU-1…AU-4 erreichen
+> Dich über das R14-A-Protokoll und `preismodell-optionen.md` § 5.3 —
+> Quellen zweiter Hand. Prüfe den Wortlaut jeder Auflage an der dort
+> benannten Fassung nach, bevor Du daraus eine Klausel baust.
+> ⚠️ **Bekannter Fallstrick (R14A-N-1):** Der Formulierungsvorschlag im
+> heypensio-Lizenzpapier zählt nur **AU-1…AU-3** — wer ihn wörtlich
+> übernimmt, **verliert AU-4, die einzige Auflage mit Handlungspflicht.**
+>
+> **Dein Scope:** `handel/angebotsarchitektur.md` und
+> `protokolle/R15-B-abschluss.md` / `-pruefer.md`. **Nicht anfassen:**
+> `handel/preismodell-optionen.md` und `handel/preisliste-vorlaeufig.md`
+> (nur lesen), `handel/anwalts-briefing-2026-08.md` (R15-A),
+> `fund/wettbewerbsbild.md` (R15-E), Wahrheits-Kanal. Exklusive Systeme:
+> **keine**.
+>
+> **Subagent:** EIN unabhängiger Prüfer, frischer Kontext, eingefrorener
+> Commit-Hash, Schreibrecht auf `protokolle/R15-B-pruefer.md`.
+> Pflicht-Kategorien: „Was aus der Quelle ist gar nicht erst
+> angekommen?" (von AU-1…AU-4 rückwärts) · „Welche Klausel behauptet
+> etwas über die Firmierung, das noch nicht feststeht?" · „Welcher Satz
+> nimmt eine Preis-/Höhen-Entscheidung vorweg?"
+>
+> **Fertig-Kriterium:** AU-2 und AU-4 sind in **jedem** der drei Pakete
+> als benannter Schritt/Wording-Pflicht verankert (n von n ausgewiesen,
+> nicht in Auswahl), die O-2-Klausel liegt als Vertragstext vor, der
+> K-1-Anker ist als Regel geführt, und **keine Zahl** ist neu erfunden.
+> Prüferbefunde kategorienweise MIT NENNER disponiert.
+>
+> Commit-Kennung: **`YASOPP | `** als erstes Wort. Git-Reihenfolge und
+> Abschlussmeldung wie in der Vorlage (`protokolle/R15-B-abschluss.md`).
+
+### Strang R15-C (Lucky Roux) — Wächter-Reichweite + Hygiene
+
+> Du bist **Lucky Roux**, Arbeits-Session `R15-C`
+> (Content/Community/Bestandspflege). Leitsession Shanks läuft separat.
+> Session-Start: `git pull`.
+>
+> **Aufgabe:** `akquise/pruefe-zitate.js` gibt heute Entwarnung über
+> Dokumente, die er **nie liest**. Gemessener Ist-Stand (Leitsession):
+> `ZIEL` = genau **2** Dateien (`akquise/akquiseplan.md`,
+> `akquise/listenbau-regelwerk.md`), `POOL` = **8** Dateien.
+> Daraus folgt: `fund/wettbewerbsbild.md` (300 kB) steht in **keiner**
+> Liste · `handel/kanal-rechtsmatrix.md` nur im POOL ·
+> `akquise/interessenabwaegung-o8.md` in **keiner von beiden**
+> (Altposten R-2). Ein grüner Lauf sagt über diese Dokumente nichts.
+>
+> 1. **Reichweite erweitern** — und im selben Zug die Frage stellen, die
+>    seit `ae819a0` vollständig lautet: *welchen Text liest der Wächter,
+>    welchen NICHT — und welchen Text schreibt der ABLAUF, den er
+>    absichern soll?* Gibt es zwei mögliche Stände (Arbeitsbaum vs.
+>    Index vs. Commit-Fassung), **nimm den schärferen**.
+> 2. **Selbsttest in BEIDE Richtungen** erweitern: jedes neue
+>    ZIEL-Dokument braucht seine Zeile, plus die `TREFFEN-NICHT`-
+>    Gegenrichtung. Ein Selbsttest, der denselben Extraktionspfad nutzt,
+>    ERBT dessen Blindstellen (L-21) — sag im Protokoll, was Deiner
+>    **nicht** prüfen kann.
+> 3. **Erst-Fundmenge einzeln disponieren** — jeder neu gemeldete
+>    Fehl-Zitat-Treffer bekommt eine Zeile. ⚠️ Die **Bewertung**, ob ein
+>    Fund echt ist, gehört zurück in die Leitsession; Du lieferst die
+>    Liste mit Fundstelle und Zählweg.
+> 4. **Kleinposten:** Kurz-ID **`Z-6` ist doppelt belegt** (R14A-N-7) —
+>    jede repo-weite Z-6-Zählung läuft darauf zu; erhebe beide
+>    Namensräume und schlage die Trennung vor (**nicht** selbst
+>    umbenennen, das berührt fremde Dokumente). Dazu: das **Rendering
+>    der teils dreifach verschachtelten Nachtrags-Kästen** ist ungeprüft.
+>
+> ⚠️ **Wandernder Messstand (L-40):** R15-D und R15-E arbeiten
+> **gleichzeitig** an Dokumenten, die Du in die Reichweite nimmst
+> (`fund/wettbewerbsbild.md` gehört exklusiv R15-E). **Friere Deinen
+> Prüfstand per Commit-Hash ein** und melde jede Fundzahl MIT diesem
+> Hash — „nach den Edits" ist keine Angabe. Und: ordne das Lauf-Delta
+> **je Datei** zu, statt es pauschal der eigenen Arbeit zuzuschreiben.
+> **Ziehe die Wächter-BASELINE vor Deinen Edits** — erst der
+> Vorher-Lauf macht das Nachher-Delta zuordenbar.
+>
+> **Fertig-Kriterium — mit ECHTEM Ausführungslauf** (neue Regel
+> `ae819a0`: ein geparster Erfolg zählt nicht): `node
+> akquise/pruefe-zitate.js` und `node akquise/pruefe-zitate.js
+> --selbsttest` sind **real gelaufen**, Exit-Codes separat gelesen
+> (⚠️ nicht hinter einer Pipe — `$LASTEXITCODE` unmittelbar nach dem
+> Aufruf; `cmd /c "… & echo %ERRORLEVEL%"` meldet IMMER den Wert von
+> VORHER), Ausgabe in eine Datei umgeleitet und **zu Ende gelesen** (eine
+> abgeschnittene Ausgabe trägt kein Negativ). Regression ausgewiesen:
+> **alt-ROT / neu-GRÜN**. Jede n-von-n-Zahl trägt ihren Zählweg
+> (`grep -o … | wc -l`, nie `grep -c`).
+>
+> **Dein Scope:** `akquise/pruefe-zitate.js`,
+> `akquise/selbsttest-zitate.md`, `protokolle/R15-C-abschluss.md`.
+> **Nicht anfassen:** die geprüften Dokumente selbst (Du erweiterst den
+> WÄCHTER, nicht seinen Prüfgegenstand), `fund/wettbewerbsbild.md`
+> (R15-E exklusiv), Wahrheits-Kanal. Exklusive Systeme: **keine**.
+>
+> **Subagent:** für den mechanischen Reichweiten-Scan (welche
+> `.md`-Dokumente des Repos tragen Zitate in deutschen
+> Anführungszeichen, stehen aber in keiner Liste?) — mit
+> Positivkontrolle **pro Muster**, nicht pro Lauf.
+>
+> Commit-Kennung: **`ROUX | `**. Abschlussmeldung wie in der Vorlage.
+
+### Strang R15-D (Rockstar) — Belegketten nachprüfen
+
+> Du bist **Rockstar**, Arbeits-Session `R15-D` (Außenkommunikation/PR
+> — der Bote). Leitsession Shanks läuft separat. Session-Start:
+> `git pull`.
+>
+> **Aufgabe 1 — die Z-6-Entwarnung ruht ungeprüft auf fremden Zitaten.**
+> Sämtliche Aussagen zur n8n-Lizenz (und damit die Auflösung „A3 trägt")
+> stützen sich auf ein **heypensio-Papier**
+> (`<FIRMENWURZEL>\heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`).
+> Die Kette **Lizenz-Rohquelle → heypensio-Papier** hat **niemand**
+> geprüft — weder Session noch Prüfer.
+> - Beschaffe den **Rohtext der n8n Sustainable Use License** (öffentlich,
+>   **kein Außenkontakt**, kein Anbieter-Mailverkehr — Nacht-Slot).
+>   Lege den Abzug in **`sensibel/rohbelege-R15-D/`** (Dein Ordner,
+>   Deine Runde — Rohbelege gehören NIE in den Ordner einer früheren
+>   Runde). **Roh-HTML mitarchivieren**: Aussagen in der Auszeichnung
+>   verschwinden beim Entmarkupen spurlos.
+> - Gleiche **Zitat für Zitat** ab. Fehlalarme eines Textabgleichs sind
+>   fast alle **Normalisierungsfehler** (Blockquote-Präfixe,
+>   Silbentrennung, Umbruch am Bindestrich) — jede Normalisierungsstufe
+>   wirkt **symmetrisch auf beide Seiten**, und die Reihenfolge zählt.
+> - **Befund an heypensio MELDEN, nicht ändern** (fremdes Repo). Weg:
+>   Postkorb `<FIRMENWURZEL>\zentrale\eingang\2026-08-13-mkt-<thema>.md`
+>   — **in den Ordner, nicht in die Repo-Wurzel**.
+> - **Nimm R14A-N-1 mit:** Der Formulierungsvorschlag jenes Papiers
+>   zählt nur AU-1…AU-3 und verliert **AU-4 — die einzige Auflage mit
+>   Handlungspflicht.**
+> - Die **Folgerung** „trägt A3 weiterhin?" triffst Du **nicht** — Du
+>   lieferst die Beleglage, die Leitsession bewertet.
+>
+> **Aufgabe 2 — melevo-Beträge.** Offen: Sind die **10 €** laufend oder
+> einmalig? Die Quelle sagt es nicht — ein Umkehrschluss aus der
+> Abwesenheit eines Sternchens ist **keine Quellenaussage**; zulässige
+> Einträge sind „als Ableitung gekennzeichnet" oder „von der Quelle
+> nicht bezeichnet".
+> ⚠️ **Suchraum, korrigiert gegenüber dem Briefing:** Die Abzüge liegen
+> **nicht nur** in `sensibel/rohbelege-R11-A/` — auch
+> `sensibel/rohbelege-R05-A/a3/` trägt melevo-Material, darunter
+> **`melevo-preise.html` / `.txt`**. Fahre eine **rekursive Vollsuche**
+> über den GESAMTEN Rohbelege-Bestand (`find -iname`, nie ein
+> nicht-rekursives Listing), bevor eine Neu/Alt-Aussage fällt — genau
+> dieser Griff hat in R14 einen „nicht feststellbar"-Befund gekippt.
+>
+> **Dein Scope:** `protokolle/R15-D-abschluss.md` / `-pruefer.md`,
+> `sensibel/rohbelege-R15-D/` (**Du legst ihn an**), und die
+> Postkorb-Datei im `zentrale`-Repo (dort mit **explizitem Pfad**
+> committen). 🔴 **`fund/wettbewerbsbild.md` gehört exklusiv R15-E — Du
+> liest es, Du schreibst nicht hinein.** Deine melevo-Befunde gehen als
+> Nebenbefund in die Abschlussmeldung; die Einarbeitung disponiert die
+> Leitsession. Wahrheits-Kanal: nicht anfassen. Exklusive Systeme:
+> **keine** (öffentlicher Lizenztext, kein Anbieterkontakt).
+>
+> **Subagent:** ein Agent je QUELLDOKUMENT (SUL-Rohtext ·
+> heypensio-Papier · melevo-Abzüge) mit „Absatz davor und danach
+> mitlesen". **Delegierte Zahlen nie ohne mitgelieferten Zählweg
+> übernehmen.** Dazu EIN unabhängiger Prüfer
+> (`protokolle/R15-D-pruefer.md`) mit eingefrorenem Commit-Hash.
+>
+> **Fertig-Kriterium:** Jedes Zitat des heypensio-Papiers ist am
+> SUL-Rohtext bestätigt oder als Abweichung ausgewiesen (**n von n**,
+> mit Zählweg), die Rohbelege liegen im R15-D-Ordner, der Postkorb-
+> Eintrag ist committet, und die melevo-Frage ist entweder **belegt**
+> beantwortet oder ausdrücklich als „von der Quelle nicht bezeichnet"
+> eingetragen. Positivkontrolle je Suchlauf, **pro Muster**.
+>
+> Commit-Kennung: **`ROCKSTAR | `**. Abschlussmeldung wie in der Vorlage.
+
+### Strang R15-E (Ben Beckman, 2. Fenster) — R05-A-Nacharbeit
+
+> ⛔ **STARTET ERST nach der Abschlussmeldung von R15-A.**
+>
+> Du bist **Ben Beckman**, Arbeits-Session `R15-E` (zweites Fenster).
+> Leitsession Shanks läuft separat. Session-Start: `git pull`.
+>
+> **Aufgabe:** Seit R6 offen — **24 von 37 handlungspflichtigen
+> R05-A-Prüferbefunden** sind nicht eingearbeitet. Der Träger mit
+> Vollliste und Reihenfolge liegt vor:
+> `protokolle/R06-nacharbeit-R05A-befunde.md`.
+> **Zuerst die zitatkritischen**, weil sie Risiko in außenwirksame Texte
+> tragen: **W-16** (Dittlmann-Pseudozitat) · **H-3/H-4** (Zitat-Anker) ·
+> **H-10** (fehlende Geltungseinschränkung). Rest nach Restzeit — eine
+> Verkürzung ist ein **gültiges Ergebnis**, ein stillschweigend
+> gelassener Befund nicht.
+>
+> **Arbeitsweise:** Jeder Befund wird **repariert, ausdrücklich
+> verworfen oder bekommt einen benannten Träger** — kategorienweise MIT
+> NENNER. „Hinweis" ist eine Schwere-Angabe, keine Erledigungs-Kategorie.
+> **Miss die Reparatur am ROHBELEG**, nicht am Befundtext: Ein
+> „eingearbeitet" im Träger ist kein Beleg, und eine Reparatur kann
+> einen ANDEREN Befund verschärfen. **Reparaturen sichtbar machen, nicht
+> still glätten** — jede geänderte Stelle trägt als markierter Kasten,
+> was vorher dastand und warum es fiel.
+> ⚠️ Beim Reparieren einer **Entwarnung** ist der Reflex, sie
+> abzuschwächen — richtig ist meist, sie zu **STREICHEN**. Prüffrage:
+> Ist der schwächere Satz jetzt belegt — oder nur leiser?
+>
+> **Dein Scope:** `fund/wettbewerbsbild.md` (**exklusiv Dir** — R15-D
+> liest dort, schreibt aber nicht),
+> `protokolle/R06-nacharbeit-R05A-befunde.md`,
+> `protokolle/R15-E-abschluss.md` / `-pruefer.md`. Wahrheits-Kanal:
+> nicht anfassen. Exklusive Systeme: **keine**.
+>
+> **Subagent:** ein Agent je QUELLDOKUMENT für den Zitat-/
+> Fundstellen-Abgleich (existiert der Beleg? **deckt er den Satz?** —
+> zwei getrennte Prüfungen). Dazu EIN unabhängiger Prüfer mit
+> eingefrorenem Commit-Hash, der zusätzlich die **LÖSCHUNGEN** gesondert
+> sichtet (`git diff --numstat`, jede gelöschte Zeile einzeln) — bei
+> vielen Einfügungen liest niemand die wenigen Löschungen.
+>
+> **Fertig-Kriterium:** Die vier zitatkritischen Befunde
+> (W-16/H-3/H-4/H-10) sind disponiert und am Rohbeleg belegt; für den
+> Rest steht **x von 24** mit Kategorie und Träger. Löschungszählung im
+> Protokoll ausgewiesen.
+>
+> Commit-Kennung: **`BECKMAN | `**. Abschlussmeldung wie in der Vorlage.

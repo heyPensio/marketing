@@ -697,3 +697,373 @@ s. Blockwechsel-Handgriff)*
   (Rechtsmatrix-/FUND-Pflege N-9…N-14/N-3…N-6, sieben Bau-Pflichten,
   O-9) · oder Feierabend; entscheidet der User.
 - **Debrief-Kandidaten:** keine offenen — R12 vollständig debrieft.
+
+---
+
+## Block 4 (13.08. 13:08–13:25 MESZ) — Folgerunde R13 via `/runde` (neues Fenster, Neustart-Pflicht erfüllt)
+
+**Kurzcheck (13:08 MESZ, `Get-Date`):** Repo clean auf `03fadd3`
+(R12-Debrief), `git pull` „Already up to date"; Stempel-Delta
+`cd45642..HEAD` im projektgerüst = **0 Commits** (selbst gemessen);
+keine fremden uncommitteten Reste; keine ausstehenden
+Abschlussmeldungen. User-Zuruf (AskUserQuestion 13:12): **außerhalb
+nichts Neues** — StB-Anruf noch nicht gemeldet, keine Kayhan-Antwort
+zu AA-4.
+
+**Auslöser der Runde:** Briefing **Nachtrag 4** (13.08. nachmittags,
+`zentrale\briefings\briefing-2026-08-13.md`) — **Entscheide-Protokoll 2:
+S4 + AA-1…AA-8** (Belegstufe: Briefing-Dialog 13.08. nachmittags,
+Dropdown + Freitext, sinngemäß — Wortlaut nicht archiviert).
+Kernpunkte: S4 je HAUS (entschieden, nicht mehr ④) · AA-1 Lesart A
+(Betreiber; Verbund-Definition bereits als StB-Frage 13 (f) bei der
+Zentrale) · AA-2 P-B als ZIELBILD (endgültig erst nach E-7) · AA-3
+geplante Module erlaubt, Reifegrad-Leitplanke bleibt bindend ·
+**AA-4 OFFEN** (Kayhan gefragt, Antwort aussteht) · AA-5 ab 2. Haus ·
+AA-6 fester Prozentsatz · AA-7 ohne Deckel (Prüfposten nach E-6) ·
+AA-8 JA, Rabatt auch auf S4 (bewusst GEGEN die Session-Empfehlung;
+Höhe beider Rabatte Hypothese bis E-6).
+
+**Dazu Briefing Nachtrag 2 (User-Fang, an beide Leitsessions):**
+Codex-Eignungs-Ausweis gilt für JEDE vorgelegte Aufteilung, auch
+Briefing-gelieferte. Für R13 sichtbar in der Strang-Tabelle unten;
+**Debrief-Posten R13: den Fang als Klasse führen** (Regel stand im
+Command und griff nicht — Formatfrage; Grep 13:10: im Lehren-Register/
+Changelog bisher NICHT geführt, Positivkontrolle CLAUDE.md-Kopf-Zeile
+„Codex-Eignungsprüfung" trifft).
+
+**Ist-Stand-Prüfung (Leitsession SELBST, 13:08–13:15):**
+`handel/angebotsarchitektur.md` — alle acht AA-Punkte stehen als
+offene ☐ (§ 2 AA-1, § 4 AA-2…AA-4, § 5 AA-5…AA-8, § 7-Tabelle);
+AA-4-Zeilen in § 4 tragen „offen — AA-4". `handel/
+preisliste-vorlaeufig.md` — S4-Bezugseinheit als ④-Ableitung
+(„je Objekt/Haus … der Entscheid sagt es für die Startgebühr nicht
+ausdrücklich") + S4-Einordnungs-Kasten („Rabatt wirkt auf S1, NICHT
+auf S4 — ob er sollte, ist offen"); beide Stellen werden durch
+Nachtrag 4 ENTSCHIEDEN. — Für R13-B:
+`akquise/interessenabwaegung-o8.md` § 10 trägt B-1…B-8, **B-8
+ersatzlos gestrichen (Q-09) → sieben aktive Bau-Pflichten B-1…B-7**
+(Zählweg: 8 Tabellenzeilen, 1 gestrichen; die „acht"-Formulierungen
+im Dokument selbst zählen die gestrichene Zeile mit); Zielort laut
+Projektquelle § 7: Regelwerk §§ 3/7. O-9 (Art. 6 Abs. 4) ist laut
+§ 11.1 „in Rechtsmatrix und Regelwerk bisher nirgends geführt" —
+Rechtsmatrix-Datei existiert: `handel/kanal-rechtsmatrix.md` (Glob
+13:18).
+
+### Strang-Tabelle R13
+
+| Session | Rolle | Strang | Scope (Schreibrechte) | Exklusive Systeme | Review | Codex-geeignet | Modell (User-Wahl, nachdok.) |
+|---|---|---|---|---|---|---|---|
+| **R13-A** | Ben Beckman | Entscheide-Protokoll 2 einarbeiten (S4 + AA-1…AA-8) | `handel/angebotsarchitektur.md` (nur markierte Nachträge/✅-Vermerke) · `handel/preisliste-vorlaeufig.md` (nur markierte Nachträge) · `protokolle/R13-A-*` · `sensibel/rohbelege-R13-A/` (neu, git-ignoriert) | Web/Recherche (Erlaubnis, kaum nötig) | **Voll-Review** (Prüfer Pflicht — freigabetragende ✅-Vermerke) | **NEIN** — Urteils-/Formulierungsarbeit an Belegstufen und Vorbehalts-Erhalt, kein maschinell prüfbares Fertig-Kriterium | *offen (User)* |
+| **R13-B** | Yasopp | Sieben Bau-Pflichten B-1…B-7 ins Regelwerk + O-9 in Rechtsmatrix/Regelwerk FÜHREN | `akquise/listenbau-regelwerk.md` (nur markierte Nachträge) · `handel/kanal-rechtsmatrix.md` (nur O-9-Nachtrag) · `protokolle/R13-B-*` · `sensibel/rohbelege-R13-B/` (neu, git-ignoriert) | keine | **Voll-Review** (Prüfer Pflicht — rechtstragendes Regelwerk) | **NEIN** — Rechtstext-Übertragung mit Belegstufen-Urteil (DSK-Zitate, Geltungsgrenzen), kein hartes maschinelles Kriterium | *offen (User)* |
+| *(Leit, Buchstabe frei)* | Shanks | Reviews beider Richtungen · danach `/debrief` | Wahrheits-Kanal · dieser Tagesplan | keine | Kurzraster (Werkzeuge) | — | Fable 5 (Umgebungsangabe; Bestätigung User-Handgriff) |
+
+**Disjunktheits-Prüfung (Datei-Ebene, 3 Paare):** A∩B = ∅ — beide
+berühren `handel/`, die Scope-Grenze ist bewusst auf DATEI-Ebene
+gezogen (A: angebotsarchitektur + preisliste; B: kanal-rechtsmatrix);
+A∩Leit = ∅ · B∩Leit = ∅. Kein Strang legt ein neues Verzeichnis an
+(nur die je eigenen Rohbelege-Ordner, L-20). **A und B sind inhaltlich
+unabhängig → PARALLEL möglich** (die R12-Sequenz-Regel war ein
+Entscheid für jene Runde; hier keine gemeinsame Vorbedingung).
+
+### Session-Prompts R13 (Single Source — Sessions lesen HIER)
+
+#### Strang R13-A (Ben Beckman) — Entscheide-Protokoll 2 (S4 + AA-1…AA-8) einarbeiten
+
+> Parallel-Session „R13-A" (Leitsession läuft separat,
+> Multi-Session-Modell lt. CLAUDE.md). Session-Start: `git pull`; dein
+> tatsächliches Modell verifizierst du NUR per Statuszeile (nicht per
+> Selbstauskunft) und nennst es in der Abschlussmeldung; ist die
+> Statuszeile nicht lesbar, meldest du das mit der Umgebungsangabe.
+>
+> **Kontext:** Der User hat am 13.08.2026 nachmittags im
+> Briefing-Dialog die S4-Klärfrage und die acht Entscheidungspunkte
+> der Angebotsarchitektur beantwortet (AA-4 ausgenommen — dort steht
+> die Kayhan-Antwort aus). Maßgebliche Quelle ist **Nachtrag 4** in
+> `<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`
+> („Entscheide-Protokoll 2 — S4 + AA-1…AA-8"); `<FIRMENWURZEL>` =
+> Elternordner der Repo-Wurzel (`git rev-parse --show-toplevel`),
+> fehlt das Repo dort: abbrechen statt raten. Lies das GANZE Briefing,
+> nicht nur Nachtrag 4 — ein Quellverweis benennt, wo du anfängst,
+> nicht, wo du aufhörst (L-34). **Belegstufe der Entscheide:
+> Briefing-Dialog 13.08. nachmittags, Dropdown + Freitext, sinngemäß —
+> Wortlaut nicht archiviert. Genau so gehört sie in jeden ✅-Vermerk**
+> (Quelle + Datum + Form; nie als wörtliches Zitat setzen; einzig
+> AA-3 trägt im Briefing einen als sinngemäß markierten
+> User-Wortlaut — auch der bleibt „sinngemäß").
+>
+> **Aufgabe in drei Teilen:**
+>
+> **Teil 1 — ✅-Vermerke in `handel/angebotsarchitektur.md`:** je
+> Punkt AA-1…AA-8 ein markierter Nachtrag am ☐-Punkt selbst (§ 2 /
+> § 4 / § 5) UND in der § 7-Tabelle — nie stille Neufassung, das ☐
+> bleibt sichtbar als entschieden markiert. Die heiklen Stellen:
+> (a) **AA-1 = Lesart A (Betreiber zählt, Verbund-Klammer über
+> Firmierungen).** Die Folge „Verbund-Definition als StB-Punkt an die
+> Zentrale" ist bereits ERLEDIGT (StB-Fragenliste Frage 13 (f),
+> `<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md` — nur
+> referenzieren, keine neue Postkorb-Meldung). Der Pilot-Konsequenz-
+> Text der Lesart A (drei Objekte, drei Firmierungen → Rabatt greift)
+> wird damit scharf — prüfe die Konsequenz-Passagen in § 2 auf
+> Vorwärtsverweis-Bedarf.
+> (b) **AA-2 = P-B (Basis + Module) als ZIELBILD, endgültige
+> Festlegung erst nach E-7.** Das ist KEINE endgültige Paketform-
+> Festlegung — der Vorbehalt gehört in den Vermerk und an jede
+> Stelle, die P-B jetzt als gesetzt lesen könnte.
+> (c) **AA-3 = auch geplante / in Entwicklung befindliche Module
+> dürfen angeboten werden** — die bestehende Leitplanke bleibt
+> BINDEND: jede solche Position trägt sichtbar ihren Reifegrad, keine
+> Präsens-Zusagen. Welche ☐-Option des Bestands das trifft (§ 4:
+> „plus ‚in Arbeit'-Module mit sichtbarer Kennzeichnung" vs. „plus
+> geparkte Module"), entscheidest du NICHT selbst — miss den
+> Options-Wortlaut am Protokoll und weise eine verbleibende Unschärfe
+> (z. B. ob „geplant" auch GEPARKTE Module deckt) als offene
+> Randfrage aus, statt sie zuzudecken.
+> (d) **AA-4 = OFFEN.** Kein Entscheid; markierter Vermerk „User hat
+> Kayhan gefragt, Antwort steht aus (Briefing Nachtrag 4)"; die
+> Kayhan-Achse bleibt bis dahin nicht zusagefähig — die drei
+> „offen — AA-4"-Zeilen der Leistungstabelle bleiben offen.
+> (e) **AA-5 = ab dem 2. Haus · AA-6 = fester Prozentsatz (Staffel
+> bleibt spätere Option; Wechsel vor dem ersten Bestandskunden frei,
+> danach Z-4-Fall) · AA-7 = ohne Deckel, Prüfposten nach der
+> E-6-Messung.**
+> (f) **AA-8 = JA — der Rabatt wirkt AUCH auf die Startgebühr S4, ab
+> dem 2. Haus desselben Betreibers.** Der Entscheid fiel **bewusst
+> GEGEN die Session-Empfehlung** (unternehmerische Abwägung:
+> Mehrhaus-Abschluss wiegt schwerer als maximale Erstjahres-
+> Liquidität) — das gehört SO in den Vermerk; die Empfehlungs-
+> Passagen im Dokument bleiben stehen und bekommen den
+> Vorwärtsverweis, keine Glättung. **Die HÖHE beider Rabatte bleibt
+> bis zur E-6-Messung Hypothese** — dieser Vorbehalt wandert in jeden
+> Vermerk, der eine Rabattwirkung beschreibt.
+> Nach den Nachträgen die Konsequenz-Durchsicht: § 6/§ 8 und alle
+> Stellen, die „AA-x offen" oder die alte S1-nur-Logik tragen, auf
+> Widersprüche prüfen und Vorwärtsverweise setzen — das Papier darf
+> sich nirgends selbst widersprechen.
+>
+> **Teil 2 — `handel/preisliste-vorlaeufig.md` nachziehen:**
+> (a) **S4-Bezugseinheit „je Haus" ist jetzt ENTSCHIEDEN** — der
+> ④-Vermerk an der S4-Zeile (§ 3) und die Ableitungs-Formulierung
+> („der Entscheid sagt es für die Startgebühr nicht ausdrücklich")
+> sind überholt: markierter Nachtrag mit der neuen Quelle, alte
+> Fassung bleibt lesbar.
+> (b) Der **S4-Einordnungs-Kasten** („Rabatt wirkt auf S1, NICHT auf
+> die Startgebühr S4; ob er es sollte, ist offen") ist durch AA-8
+> überholt → markierter Nachtrag: Rabatt wirkt auch auf S4 ab Haus 2
+> desselben Betreibers (AA-1 Lesart A mitzitieren), Höhe Hypothese
+> bis E-6.
+> (c) **§ 4 Rabatt-Fragen** (ab wann · Prozent vs. Staffel · Deckel)
+> als entschieden nachtragen (AA-5/AA-6/AA-7, je mit Quelle).
+> (d) Konsequenz-Durchsicht der übrigen Paragraphen (besonders § 5
+> Startgebühr und den Verweis-Block) auf Sätze, die jetzt
+> widersprechen.
+>
+> **Teil 3 — Selbstwiderspruchs-Probe über BEIDE Dokumente:** grep
+> über beide Dateien auf die entschiedenen Größen (S4, Rabatt,
+> Startgebühr, P-B/Paketform, Reifegrad) und jede Trefferstelle gegen
+> den neuen Stand lesen; Ergebnis (geprüfte Muster + Trefferzahlen als
+> Positivkontrolle) ins Protokoll.
+>
+> **Harte Grenzen:** (a) Nichts geht nach außen. (b) Du entscheidest
+> NICHTS neu — wo das Protokoll schweigt (Rabatt-HÖHE, AA-4), ist
+> „offen" der Eintrag. (c) Vorbehalt zuerst übernehmen, dann den Satz
+> bauen; jede Entwarnung trägt ihre Quelle im Satz; Zahlen bleiben an
+> ihren Schlüsseln. (d) ✅-Vermerke tragen die Belegstufe „sinngemäß,
+> Wortlaut nicht archiviert". (e) Fremde Repos (zentrale) nur LESEN.
+>
+> **Dein Scope (Schreibrechte):** `handel/angebotsarchitektur.md` +
+> `handel/preisliste-vorlaeufig.md` (je nur markierte
+> Nachträge/✅-Vermerke/Vorwärtsverweise) · `protokolle/R13-A-*` ·
+> `sensibel/rohbelege-R13-A/` (neu falls gebraucht, git-ignoriert, nie
+> committen). Alles andere nur lesen — ausdrücklich NICHT anfassen:
+> übrige `handel/`-Dateien (auch `kanal-rechtsmatrix.md` — die gehört
+> R13-B), `akquise/` (gehört R13-B), `fund/`, Projektquelle,
+> STATUS.md, CLAUDE.md, Skills/Commands. Kein eigener Debrief.
+> Exklusive Systeme: Web-/Recherche-Kanäle gehören dir (Erlaubnis,
+> keine Vorgabe — kaum nötig). **R13-B läuft PARALLEL in
+> `akquise/` + `handel/kanal-rechtsmatrix.md`** — fremde uncommittete
+> Dateien im `git status` ignorieren.
+>
+> **Subagenten:** Bestandsarbeit — KEIN Fan-out. **Prüfer (Pflicht,
+> Voll-Review):** Nach dem ersten vollständigen Stand committen, Hash
+> notieren, dann EIN unabhängiger Prüf-Subagent mit frischem Kontext;
+> eingefrorener Prüfstand: dein Commit-Hash (Prüfgegenstand UND
+> Quellen per `git show <hash>:<pfad>` — bewährt MKT R12); Schreibrecht
+> nur auf `protokolle/R13-A-pruefer.md`; Arbeitsbaum-Diff ausdrücklich
+> NICHT sichten. ⭐ Prüfraum-Regel: Prüfgegenstand sind deine zwei
+> Dokumente, der PRÜFRAUM ist alles, worauf sie zeigen — der Prüfer
+> liest das GANZE Briefing (Nachtrag 4 nur als Einstieg) und die
+> referenzierten Abschnitte. **Pflicht-Kategorien mit Ergebnis je
+> Kategorie (auch „keine Auffälligkeit"):** (1) ✅-Vermerk weicht vom
+> Protokoll ab (je Punkt, Nenner x/9 inkl. S4) · (2) Was aus dem
+> Protokoll ist gar nicht angekommen? — vom PROTOKOLL RÜCKWÄRTS,
+> inkl. Begründungen/Vorbehalte (gegen-die-Empfehlung-Ausweis AA-8,
+> E-7-Vorbehalt AA-2, Reifegrad-Leitplanke AA-3, Z-4-Klausel AA-6,
+> Prüfposten AA-7) · (3) eine Hypothese wirkt wie ein Beleg
+> (Rabatt-Höhen!) · (4) Vorbehaltsverlust (Firmierung · Z-6/
+> Architektur · „Höhe bis E-6" · AA-4 offen · K04-Vertragspartner) ·
+> (5) stille Neufassung statt markiertem Nachtrag (besonders
+> S4-Kasten, AA-8-Empfehlungspassagen) · (6) Widerspruch in/zwischen
+> beiden Dokumenten nach den Edits · (7) AA-3-Optionszuordnung: deckt
+> der Vermerk nur, was das Protokoll trägt? Dazu die zwei
+> Zusatzfragen: „Welche Verfälschung hätte dein Verfahren NICHT
+> gefangen?" und „Hättest du deine Funde auch OHNE die
+> Kategorien-Hinweise gefunden?".
+> **Danach disponierst du JEDEN Prüferbefund** (repariert /
+> ausdrücklich verworfen mit Grund / benannter Träger) — am ROHBELEG
+> gemessen. Kein Subagent für Git-Operationen und kleine Edits.
+>
+> **Git:** Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; Reihenfolge zwingend
+> add → commit → `git pull --rebase --autostash` → push als
+> `git push origin <dein-hash>:main` (CLAUDE.md Regel 3; ⚠️ R13-B
+> läuft parallel — Autostash-Warnung und Vorfahren-Regel beachten).
+> Message-Datei mit dem Write-Tool im Scratchpad, Betreff in
+> ASCII-Transliteration. Ein blockierter Push ist ein Betriebszustand:
+> nicht umgehen, später erneut versuchen.
+>
+> **Fertig-Kriterium:** ✅-Vermerke AA-1…AA-8 (AA-4 als OFFEN geführt)
+> + S4-Entscheid stehen mit Quelle+Datum+Form; S4-/§ 4-Nachträge der
+> Preisliste gesetzt; Selbstwiderspruchs-Probe gelaufen und
+> protokolliert; Prüferprotokoll `protokolle/R13-A-pruefer.md` liegt
+> vor; **alle** Prüferbefunde disponiert. **Abschlussmeldung in VIER
+> Blöcken** (gebaut/verifiziert mit Commit-Hashes+Pfaden · offen
+> geblieben · Nebenbefunde außerhalb des Auftrags · Stolpersteine/
+> Learnings, getrennt nach (i) Fallen und (ii) bewährten Mustern),
+> zusätzlich committet als `protokolle/R13-A-abschluss.md` mit
+> Kopfzeile „Token-Verbrauch: von der Session nicht erhebbar —
+> Subagenten-Zahlen soweit bekannt: …". **Prüferbefunde kategorienweise
+> MIT NENNER und mit dem LAUF-STATUS des Prüfers** (offene
+> Prüfschritte einzeln ausweisen, nie glätten; abgebrochene Prüfer
+> fortsetzen statt neu starten).
+
+#### Strang R13-B (Yasopp) — Sieben Bau-Pflichten ins Regelwerk + O-9 führen
+
+> Parallel-Session „R13-B" (Leitsession läuft separat,
+> Multi-Session-Modell lt. CLAUDE.md). Session-Start: `git pull`; dein
+> tatsächliches Modell verifizierst du NUR per Statuszeile (nicht per
+> Selbstauskunft) und nennst es in der Abschlussmeldung; ist die
+> Statuszeile nicht lesbar, meldest du das mit der Umgebungsangabe.
+>
+> **Kontext:** Die O-8-Interessenabwägung
+> (`akquise/interessenabwaegung-o8.md`, R9) hat in § 10 Bau-Pflichten
+> hergeleitet, die laut Projektquelle § 7 in §§ 3/7 des
+> Listenbau-Regelwerks einzuarbeiten sind — offen seit R9. **Zählweg
+> (Leitsession, 13:15):** § 10 trägt acht Tabellenzeilen B-1…B-8,
+> **B-8 ist ersatzlos GESTRICHEN (Q-09)** → **sieben aktive Pflichten
+> B-1…B-7**; die „acht Bau-Pflichten"-Formulierungen im Dokument
+> zählen die gestrichene Zeile mit — du übernimmst NUR B-1…B-7 und
+> dokumentierst den Zählweg. Dazu ist **O-9 (Kompatibilitätsprüfung
+> Art. 6 Abs. 4 DSGVO, § 11.1)** laut Bestand „in Rechtsmatrix und
+> Regelwerk bisher nirgends geführt" — er wird jetzt GEFÜHRT, nicht
+> entschieden.
+>
+> **Aufgabe in drei Teilen:**
+>
+> **Teil 1 — B-1…B-7 in `akquise/listenbau-regelwerk.md`
+> einarbeiten** (Zielort laut Projektquelle: §§ 3/7 — miss selbst, wo
+> jede Pflicht sachlich hingehört, und weise Abweichungen vom
+> §§-3/7-Zielort aus): je Pflicht ein markierter Nachtrag mit
+> Quellangabe (`interessenabwaegung-o8.md` § 10, je DSK-Ziffer wie
+> dort) — beim Übernehmen gilt: **Vorbehalt/Bedingung zuerst, dann
+> der Satz** (B-2 trägt eine gekoppelte TOM-Pflicht; B-4 einen engen
+> Sperrdatei-Scope, der NICHT zum allgemeinen Art.-17-Fall werden
+> darf — beide Präzisierungen sind Prüferfänge und dürfen beim
+> Verdichten nicht zurückdriften). Prüfe je Pflicht, ob das Regelwerk
+> schon eine Vorform trägt (die sechs D2-Pflichten und W-b1…W-b4
+> stehen dort — B-x ERGÄNZT oder SCHÄRFT, dupliziert nie: bestehende
+> Stelle nachziehen statt zweite Fundstelle anlegen, Doku-Hygiene-
+> Dublettenregel).
+> **Teil 2 — Fälligkeits-Anker:** An beiden Ankunftsstellen gilt die
+> Rn.-87-Verschärfung: fällig **vor dem ERSTEN DATENSATZ**
+> (Listenaufbau), nicht erst vor dem Versand (§ 11.1-Kasten der
+> Abwägung; im Regelwerk steht die Verschärfung seit R9 § 0/§ 3 —
+> gegenlesen, nicht doppeln).
+> **Teil 3 — O-9 führen:** In `handel/kanal-rechtsmatrix.md` UND im
+> Regelwerk je einen markierten Nachtrag: O-9 als OFFENER Posten
+> (Zweckänderung Anbieterkennzeichnung → Werbung, Art. 6 Abs. 4;
+> Träger: MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand;
+> fällig vor dem ersten Datensatz). **Du entscheidest O-9 NICHT und
+> nimmst die Prüfung nicht selbst vor** — anwaltlicher Rat bleibt das
+> Gate; deine Arbeit ist, dass der Posten an beiden Stellen sichtbar
+> geführt wird und niemand mehr „nirgends geführt" vorfindet. Wo die
+> Rechtslage streitig ist, ist „streitig" der Eintrag, nicht der
+> bequemere Pol.
+>
+> **Harte Grenzen:** (a) Nichts geht nach außen. (b) Keine neuen
+> Rechts-Bewertungen — du überträgst belegte Pflichten und führst
+> offene Posten; DSK-Zitate byte-genau aus der Quelle KOPIEREN (nicht
+> abschreiben), die Selbsttest-Datei `akquise/selbsttest-zitate.md`
+> liegt daneben — wer ein Zitat-Muster ergänzt, ergänzt die
+> Selbsttest-Zeile im selben Zug (nur falls du dort geführte Muster
+> berührst; die Datei gehört sonst nicht zu deinem Auftrag und du
+> weist jede Änderung an ihr als solche aus). (c) Jede Entwarnung
+> trägt ihre Quelle im Satz. (d) Fremde Repos nur LESEN.
+>
+> **Dein Scope (Schreibrechte):** `akquise/listenbau-regelwerk.md`
+> (nur markierte Nachträge) · `handel/kanal-rechtsmatrix.md` (nur der
+> O-9-Nachtrag) · ggf. `akquise/selbsttest-zitate.md` (nur bei
+> berührten Zitat-Mustern, mit Ausweis) · `protokolle/R13-B-*` ·
+> `sensibel/rohbelege-R13-B/` (neu falls gebraucht, git-ignoriert).
+> Alles andere nur lesen — ausdrücklich NICHT anfassen:
+> `akquise/interessenabwaegung-o8.md` (deine QUELLE — Befunde daran
+> sind Nebenbefunde, keine Edits), `akquise/akquiseplan.md`, übrige
+> `handel/`-Dateien (gehören R13-A), `fund/`, Projektquelle,
+> STATUS.md, CLAUDE.md, Skills/Commands. Kein eigener Debrief.
+> Exklusive Systeme: keine. **R13-A läuft PARALLEL in `handel/`** —
+> fremde uncommittete Dateien im `git status` ignorieren.
+>
+> **Subagenten:** Bestandsarbeit — KEIN Fan-out. **Prüfer (Pflicht,
+> Voll-Review):** Nach dem ersten vollständigen Stand committen, Hash
+> notieren, dann EIN unabhängiger Prüf-Subagent mit frischem Kontext;
+> eingefrorener Prüfstand: dein Commit-Hash (Prüfgegenstand UND
+> Quellen per `git show <hash>:<pfad>`); Schreibrecht nur auf
+> `protokolle/R13-B-pruefer.md`; Arbeitsbaum-Diff ausdrücklich NICHT
+> sichten. ⭐ Prüfraum-Regel: Prüfgegenstand sind deine Nachträge,
+> der PRÜFRAUM ist die ganze Abwägung § 10/§ 11 und das ganze
+> Regelwerk. **Pflicht-Kategorien mit Ergebnis je Kategorie (auch
+> „keine Auffälligkeit"):** (1) Pflicht inhaltlich verfälscht
+> übernommen (je B-1…B-7 gegen § 10, Nenner x/7; DSK-Zitate
+> nachzählen) · (2) Was aus § 10/§ 11.1 ist gar nicht angekommen? —
+> von der QUELLE RÜCKWÄRTS (Bedingungen/Kopplungen: B-2-TOM-Kopplung,
+> B-4-Sperrdatei-Scope, B-6-FG-4-Anteil, Versionsschema B-5) ·
+> (3) B-8 irrtümlich mitübernommen oder die 7er-Zählung falsch ·
+> (4) Vorbehaltsverlust (Rn.-87-Fälligkeit · „streitig"-Einträge ·
+> O-9 bleibt OFFEN, keine implizite Erledigung) · (5) Dublette statt
+> Nachziehen (dieselbe Pflicht jetzt an zwei Stellen ohne Wächter/
+> Vorrangklausel) · (6) Widerspruch Regelwerk ↔ Abwägung ↔
+> Rechtsmatrix nach den Edits · (7) Zitat-Treue (byte-Ebene, gegen
+> `git show <hash>` der Quelle). Dazu die zwei Zusatzfragen: „Welche
+> Verfälschung hätte dein Verfahren NICHT gefangen?" und „Hättest du
+> deine Funde auch OHNE die Kategorien-Hinweise gefunden?".
+> **Danach disponierst du JEDEN Prüferbefund** (repariert /
+> ausdrücklich verworfen mit Grund / benannter Träger) — am ROHBELEG
+> gemessen. Kein Subagent für Git-Operationen und kleine Edits.
+>
+> **Git:** Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; Reihenfolge zwingend
+> add → commit → `git pull --rebase --autostash` → push als
+> `git push origin <dein-hash>:main` (CLAUDE.md Regel 3; ⚠️ R13-A
+> läuft parallel — Autostash-Warnung und Vorfahren-Regel beachten).
+> Message-Datei mit dem Write-Tool im Scratchpad, Betreff in
+> ASCII-Transliteration. Ein blockierter Push ist ein Betriebszustand:
+> nicht umgehen, später erneut versuchen.
+>
+> **Fertig-Kriterium:** B-1…B-7 stehen als markierte Nachträge im
+> Regelwerk (Zählweg dokumentiert); O-9 wird in Rechtsmatrix UND
+> Regelwerk sichtbar als offener Posten geführt; Prüferprotokoll
+> `protokolle/R13-B-pruefer.md` liegt vor; **alle** Prüferbefunde
+> disponiert. **Abschlussmeldung in VIER Blöcken** (gebaut/verifiziert
+> mit Commit-Hashes+Pfaden · offen geblieben · Nebenbefunde außerhalb
+> des Auftrags · Stolpersteine/Learnings, getrennt nach (i) Fallen und
+> (ii) bewährten Mustern), zusätzlich committet als
+> `protokolle/R13-B-abschluss.md` mit Kopfzeile „Token-Verbrauch: von
+> der Session nicht erhebbar — Subagenten-Zahlen soweit bekannt: …".
+> **Prüferbefunde kategorienweise MIT NENNER und mit dem LAUF-STATUS
+> des Prüfers** (offene Prüfschritte einzeln ausweisen, nie glätten;
+> abgebrochene Prüfer fortsetzen statt neu starten).
+
+**Block-Programm danach (PROGNOSE):** Leitsession-Reviews beider
+Richtungen je Abschlussmeldung · `/debrief` R13 (Debrief-Posten:
+Nachtrag-2-Fang als Klasse · ggf. Stempel-Nachzug, Delta aktuell 0) ·
+danach Tag offen (AA-4-Nachtrag bei Kayhan-Antwort · restliche
+R11-Posten · Feierabend — entscheidet der User).

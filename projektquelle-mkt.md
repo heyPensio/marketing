@@ -308,6 +308,23 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   > Gemeint sind vier Auflagen an **uns** plus **eine** Kundenpflicht =
   > fünf Bedingungen. **O-2 enthält genau EINE Pflicht** — eine erste
   > bis vierte Kunden-Pflicht existiert nicht und wurde nie behauptet.
+  > > ⚠️ **Nachtrag 14.08.2026, EIGENE Korrektur überschoss** (Anlass:
+  > > R15-B-Prüferbefund F-2, von der Leitsession am Rohbeleg
+  > > nachgemessen — `heypensio\n8n-lizenz-…-2026-08.md` § 3.4): Der
+  > > Satz oben ist als **Zählaussage über O-2** richtig, als
+  > > **Verneinung** aber zu weit. **O-2 ist NICHT die einzige Pflicht,
+  > > die den Kunden trifft:** § 3.4 führt aus L-3 zwei weitere Auflagen
+  > > (Stufe A) — „licensing, copyright, or other notices" nicht
+  > > entfernen oder verdecken, kein Rebranding der n8n-Oberfläche —,
+  > > und zwar ausdrücklich für „**der Kunde — und wir beim
+  > > Aufsetzen**". Sie laufen im Bestand als **O-1** und gehören damit
+  > > in BEIDES: Vertragsklausel **und** eigene Betriebsdoku. Der Zusatz
+  > > „Vertragsklausel, keine Betriebsdoku" oben gilt deshalb nur für
+  > > O-2, nicht für die Kundenpflichten insgesamt.
+  > > *(Klasse L-39/L-19: Beim Reparieren eines Zählfehlers ist eine
+  > > überschießende Verneinung eingebaut worden — eine Reparatur kann
+  > > einen anderen Befund verschärfen. Gefunden hat es R15-B, zwei
+  > > Commits nach meiner Korrektur.)*
   > *(Warum die Korrektur hier steht: Aus dieser Stelle hat die
   > Leitsession den R15-B-Prompt gebaut und den Fehler weitergereicht;
   > gefangen hat ihn erst der Prüf-Subagent. Klasse „eine Ableitung

@@ -6,6 +6,37 @@ K-1-Anker) · **Datum:** 14.08.2026 (Nacht-Slot) ·
 **Prüfstand (eingefroren):** `a57977a` · **Reparatur-Commit:** `d4f23c8`
 · **Nachtrags-Commit:** s. Block 1 Punkt 6.
 
+> ## 🔴 PUSH ZURÜCKGEHALTEN — bewusst, nicht vergessen
+>
+> **Alle drei Commits liegen lokal, nichts ist verloren. Gepusht ist
+> nichts.** Gemessen 14.08.2026 nach `git fetch`:
+> - **Eingehend** `HEAD..origin/main` → **0 Commits**; ein Rebase entfällt
+>   damit, und mit ihm das `--autostash`-Risiko für fremde unfertige
+>   Stände.
+> - **Ausgehend** `origin/main..HEAD` → **12 Commits, davon 9 FREMDE**
+>   (ROUX/R15-C · ROCKSTAR/R15-D · BECKMAN/R15-A · LIMEJUICE). Sie
+>   liegen **zwischen** meinem Bau-Commit `a57977a` und meinen beiden
+>   späteren Commits.
+>
+> **Warum das nicht mit einem gezielten Refspec zu lösen ist:**
+> `git push origin 1d538c1:main` schützt nur nach **oben** — die neun
+> fremden Commits sind **Vorfahren** meiner beiden späteren und gingen
+> mit. Ein Push von `a57977a` allein wäre technisch möglich (Parent
+> `88ad1bf` liegt auf origin/main), würde aber genau den Stand
+> veröffentlichen, der die **zwei schweren Prüferbefunde noch
+> unrepariert** trägt — schlechter als gar kein Push.
+>
+> **Und die fremden Stände sind Zwischenstände:** `git status` zeigt
+> uncommittete Arbeit in `handel/anwalts-briefing-2026-08.md` (R15-A) und
+> `akquise/sperrdatei-struktur.md` (R15-E) — beide Sessions gelten nach
+> CLAUDE.md Regel 3a als **LAUFEND** (keine Abschlussmeldung + offene
+> Arbeit im Scope). Ihre Arbeit zu veröffentlichen ist nicht meine
+> Entscheidung.
+>
+> **Posten für die Leitsession:** Sobald die Parallelstränge gemeldet
+> haben, pusht die Leitsession (oder gibt R15-B frei). ⚠️ Vor dem Push
+> gilt die Sichtung erneut — sie **altert** im geteilten Arbeitsbaum.
+
 **Modell laut Statuszeile:** ⚠️ **nicht erhoben** — die Statuszeile ist
 nur dem User sichtbar; die Selbstauskunft des Modells ist nach CLAUDE.md
 kein Beleg. **Als offener Posten geführt**, nicht als Angabe.

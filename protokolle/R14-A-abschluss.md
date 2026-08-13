@@ -284,13 +284,28 @@ auftragsgemäß nicht gesichtet.
 
 ## Anhang — Git-Belege
 
-- **Push:** `95fe3f1..8b46e64` (Refspec `git push origin 8b46e64:main`),
-  danach `1a795d7`. ⚠️ **Vorfahren-Regel:** Der Commit **`af9909f`** der
-  Parallel-Session **R14-B** lag VOR meinem und wurde als **Vorfahre
-  mitveröffentlicht** — der gezielte Refspec schützt nur nach oben.
-  Belegt per `git branch -r --contains` **nach frischem `git fetch`**
-  für beide Hashes. R14-B hatte selbst committet (mitlaufendes
-  Committen); ein Zurückhalten hätte den eigenen Push blockiert.
+- **Pushes:** `95fe3f1..8b46e64` (Refspec `git push origin 8b46e64:main`)
+  und `8b46e64..3a92727` (Refspec `git push origin 3a92727:main`).
+  **Alle vier Commits nach frischem `git fetch` per
+  `git branch -r --contains` als veröffentlicht belegt**
+  (`1a795d7`, `3a92727` eigene; `4b5bcc2`, `b7e3497` R14-B);
+  `origin/main..HEAD` **leer**, Arbeitsbaum sauber.
+- ⚠️ **Vorfahren-Regel, zweimal einschlägig — und beim zweiten Mal war
+  es eine fremde Disposition:** Beim ersten Push ging `af9909f` (R14-B)
+  als Vorfahre mit. Beim zweiten Push lagen **`4b5bcc2` und `b7e3497`**
+  von R14-B unter meinem Commit — und `b7e3497` trägt ausdrücklich den
+  Betreff „**zweiter Commit bewusst zurückgehalten**". **Vor dem Push
+  gelesen**: R14-B hatte NICHT gepusht, weil *mein* Commit `1a795d7`
+  darunter lag, und hat die Auflösung schriftlich delegiert — „*wird
+  nicht gepusht, sondern gewartet — Auflösung durch den Push von R14-A
+  oder durch die Leitsession*". **Das ist eine dokumentierte
+  Willenserklärung, kein Indizienschluss** (Regel 3a): Auf dieser
+  Grundlage habe ich gepusht und beide R14-B-Commits mitveröffentlicht.
+  Beide Sessions haben ihre Abschlussmeldung committet; der
+  Arbeitsbaum war zum Push-Zeitpunkt leer.
+- **Fremde Arbeit nicht angefasst:** `handel/kanal-rechtsmatrix.md`
+  (R14-B) erschien im `git status`, wurde **nicht** gestaget und
+  **nicht** committet.
 - **Fremde Arbeit nicht angefasst:** `handel/kanal-rechtsmatrix.md`
   (R14-B) erschien im `git status`, wurde **nicht** gestaget und
   **nicht** committet (`git show --stat` je Commit gegengelesen).

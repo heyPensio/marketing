@@ -1628,9 +1628,13 @@ Ist-Stand-Prüfung** (nicht delegiert):
 | **R15-B** | Yasopp | Angebotsbausteine AU-2/AU-4 + O-2-Klausel + K-1-Anker | keine | _(nachtragen)_ | **Voll-Review** (Vertrags-/Angebotstext) |
 | **R15-C** | Lucky Roux | Wächter-Reichweite `pruefe-zitate.js` + Kleinposten | keine | _(nachtragen)_ | Kurzraster + **Ausführungslauf-Beleg** |
 | **R15-D** | Rockstar | Belegketten: SUL-Zitatabgleich + melevo-Beträge | keine (SUL ist öffentlich, kein Außenkontakt) | _(nachtragen)_ | **Voll-Review** (kippt ggf. die Z-6-Entwarnung) |
-| **R15-E** | Ben Beckman (2. Fenster) | R05-A-Nacharbeit, zitatkritische zuerst | keine | _(nachtragen)_ | **Voll-Review** (außenwirksame Texte) |
+| **R15-E** | **Limejuice** | ~~R05-A-Nacharbeit~~ → **Sperrdatei-Struktur + Wellenprotokoll-Vorlage** (B-1…B-7) | keine | _(nachtragen)_ | **Voll-Review** (sperrt den ersten Datensatz) |
 
-⛔ **R15-E startet erst nach der Abschlussmeldung von R15-A.**
+✅ **R15-E läuft PARALLEL** (Änderung vom 14.08. 00:15): Die
+Sequenzierung war nur durch den Namensmangel begründet — die
+Rote-Haar-Bande hat seit `4cc1de7` **Limejuice, Hongo, Bonk Punch** als
+Reserve. Der Strang ist zudem umgeschnitten (Prüferbefund F-1), damit
+entfällt auch die Kollision mit R15-D.
 
 ### Codex-Eignung (PFLICHTZEILE je Strang, `ae819a0` — eigene Prüfung auf TEILAUFGABEN-Ebene, nicht aus dem Briefing übernommen)
 
@@ -1684,7 +1688,67 @@ ungefragt gestartet.
 
 ---
 
+## ⚠️ Prüfer-Disposition R15 (14.08. 00:15 MESZ) — 11 Befunde, 11 disponiert
+
+Der Prüf-Subagent lief NACH dem ersten Schnitt (Prüfstand `58bfd2b`,
+Einzelfrage „Welcher Strang behandelt etwas als NEU, wozu Bestand
+existiert?"). **Ergebnis: 4 von 5 Strängen trugen eine widerlegte
+Prämisse — in allen vier Fällen eine VERNEINUNG** („nicht eingearbeitet",
+„liegt nicht vor", „hat niemand geprüft", „kein Paket führt"). Die
+Prompts unten sind daraufhin korrigiert; die Reparaturen stehen hier
+sichtbar mit Vorher/Nachher, nicht still geglättet.
+
+**Nenner: 11 Befunde · 4 an der Quelle von der Leitsession nachgemessen ·
+9 in Prompt-Korrekturen umgesetzt · 1 als Wahrheits-Kanal-Posten
+übernommen · 1 als Methodik-Posten (Debrief).** Kein Befund blieb ohne
+Disposition.
+
+| # | Schwere | Befund | Disposition |
+|---|---|---|---|
+| **F-1** | 🔴 | R15-E gegenstandslos: R05-A-Nacharbeit ist **ABGEARBEITET in R07-A**; „24 von 37" doppelt falsch (Nenner 31, Status geschlossen: 24/26 repariert, 2 mit Träger) | **NACHGEMESSEN** an `R06-nacharbeit-R05A-befunde.md:16-18,:41-48` → bestätigt. **Strang E komplett umgeschnitten** (s. u.). Veraltete Fundstellen im Wahrheits-Kanal → Leitsession |
+| **F-2** | 🔴 | SUL-Rohtext liegt versioniert mit SHA-256 im Nachbar-Repo — R15-D sollte ihn neu beschaffen | **NACHGEMESSEN**: 35 Dateien in `heypensio/quellen-n8n-lizenz/`, Commit `4fa530b` → bestätigt. D-Prompt: „beschaffe" → „lies in der Commit-Fassung" |
+| **F-3** | 🔴 | „Die Kette hat NIEMAND geprüft" ist zu weit — das heypensio-Papier trägt einen Prüferlauf (`R40-C`, 28 Befunde, mit Positivkontrolle) | **übernommen**: Negativ verengt auf „**marketing** hat die Rohquelle nie selbst gelesen"; die zwei dort benannten MKT-Bestandsfehler neu in D's Auftrag |
+| **F-4** | 🔴 | „fünfte **Kunden**-Pflicht aus O-2" existiert nicht — die Quelle sagt „fünfte **Bedingung** neben AU-1…AU-4, und sie trifft den Kunden" | **NACHGEMESSEN** an `preismodell-optionen.md:694-702` → bestätigt. B-Prompt korrigiert. Fehlerkette `projektquelle-mkt.md:301` → Leitsession |
+| **F-5** | 🟠 | C's Fertig-Kriterium „alt-ROT/neu-GRÜN" ist auf beiden Seiten unerfüllbar | **NACHGEMESSEN** (echter Lauf): Hauptlauf **Exit 0**, Selbsttest **Exit 0** — es gibt kein alt-ROT; und neu-GRÜN ist unerreichbar, weil C die Funde weder reparieren noch als Ausnahme führen darf. **Kriterium ersetzt** |
+| **F-6** | 🟠 | Der L-40-Vermerk nennt nur C↔D/E; C's Scan trifft auch B's Datei, und A's neues Dokument kann in C's Prüfstand nicht existieren | **übernommen**: Vermerk auf **alle vier Parallelstränge** erweitert + Ausweis-Pflicht für in dieser Runde entstehende Dokumente |
+| **F-7** | 🟠 | Kurz-ID-Kollisionen: nicht nur `Z-6`, sondern mindestens fünf — **`O-11` und `O-4` sitzen im Anwaltsdokument** | **übernommen**: C's Kleinposten generisch erweitert; A muss O-11/O-4 **ausschreiben statt kürzeln** |
+| **F-8** | 🟡 | AU-4-Nachweisform verkürzt (Rohbeleg: `LICENSE.md` + `LICENSE_EE.md` übergeben + Vermerk im Onboarding-Protokoll); Quelle nennt **vier** Auflagen fürs Angebot, Prompt greift zwei | **übernommen** in B; Brücke B↔D gelegt (die Dateien liegen in D's Quellenordner) |
+| **F-9** | 🟡 | **Dritter Fundort** der Zählfehler-Klasse: `§ 3.6` überschreibt „die **drei** Auflagen", die Tabelle darunter führt vier | **übernommen** in B — der Prompt warnte vor der falschen Stelle (§ 3.8) |
+| **F-10** | 🟡 | Ein Briefing-Nachtrag steht **im Briefing selbst** (additiver Kopf, `zentrale b2a7a4a`, 23:58) — 5 min NACH dem Zuschnitt; ein Verzeichnis-Listing ist gegen diese Form blind | **anerkannt**: Inhaltlich nur heyPensio-Stränge, **aber seine Lehre trifft uns** („Subagenten-Erhebung ist Indiz, kein Beleg — besonders Verneinungen"). → **Methodik-Posten für den R15-Debrief**: Nachtrags-Messung darf nicht am Verzeichnis-Listing hängen |
+| **F-11** | 🟡 | Datumswechsel: Postkorb-Dateiname `2026-08-13-…` bereits falsch | **übernommen**: D schreibt `2026-08-14-…` |
+
+**Blindstellen des Prüfers, die er selbst benennt** (und die stehen
+bleiben): Kategorie B (Dritt-Bestand) ist ohne Netzzugriff schwach —
+beide B-Treffer kamen aus dem eigenen Bestand · er hat die Prompts gegen
+den Bestand geprüft, nicht gegeneinander auf Wortlaut-Widersprüche · die
+Reparaturen in `fund/wettbewerbsbild.md` hat er nur bei W-16 selbst
+gelesen. **Sein wertvollster Selbstbefund:** Kein Kategorienraster fragt
+„läuft das, was der Prompt voraussetzt?" — F-5 fand er nur, weil er das
+Werkzeug **ausgeführt** hat.
+
+### Folge für den Zuschnitt
+
+- **R15-E ist umgeschnitten** — von „24 Befunde nacharbeiten" (erledigt)
+  auf **Sperrdatei-Struktur + Wellenprotokoll-Vorlage** (B-1…B-7). Das
+  ist ein echter Bauposten, der den **ersten Datensatz sperrt**, und er
+  stand als „baubar" im Briefing, das mein erster Schnitt übersehen hat
+  (Prüfer-Kategorie C: `"Wellenprotokoll"` → 0 Treffer im Tagesplan).
+- **Die Kollision D↔E auf `fund/wettbewerbsbild.md` entfällt damit
+  von selbst** — E fasst die Datei nicht mehr an. D bleibt trotzdem bei
+  „messen und melden": Grund ist jetzt die **Bewertungshoheit** der
+  Leitsession, nicht mehr ein Schreibkonflikt.
+- **R15-E läuft parallel**, nicht sequenziert: Die Rote-Haar-Bande hat
+  seit `4cc1de7` **Limejuice, Hongo, Bonk Punch** als Reserve. Der
+  Namensmangel, der die Sequenzierung erzwang, ist beseitigt. Strang E
+  geht an **Limejuice**.
+
+---
+
 ## Session-Prompts R15 (Single Source — Sessions lesen HIER)
+
+> ⚠️ **Stand der Prompts: korrigierte Fassung vom 14.08. 00:15** nach
+> der Prüfer-Disposition oben. Wer eine ältere Fassung im Fenster hat,
+> lädt neu.
 
 ### Strang R15-A (Ben Beckman) — Anwalts-Briefing mit vier Fragen
 
@@ -1711,6 +1775,26 @@ ungefragt gestartet.
 >    Kostenfolge § 13 Abs. 4 Nr. 2 UWG (aus R14-B).
 > 4. **O-11** — Lizenzserver-Ping im A3-Modell (Projektquelle § 5,
 >    geparkt).
+>
+> 🔴 **Kurz-IDs im Anwaltsdokument AUSSCHREIBEN, nicht kürzeln**
+> (Prüferbefund F-7): `O-11` ist im Repo **doppelt belegt** (Projektquelle
+> § 5 Lizenzserver-Ping ↔ `akquise/listenbau-regelwerk.md:1137`
+> DSK-Ziff. 4.3 Beipack-Werbung), `O-4` ebenso (Zielmengengröße ↔
+> anwaltliche Durchsicht ↔ K-1-Klärweg). Ein Anwalt, der „O-11" liest,
+> kann nichts damit anfangen — und wir selbst greifen beim Rücklauf ins
+> falsche Fach. **Jede Frage benennt ihren Gegenstand im Klartext**, das
+> Kürzel höchstens in Klammern dahinter.
+>
+> **Zusätzlich zu prüfen (Prüfer-Hinweis, DELEGIERT und daher von Dir am
+> Objekt zu belegen — nicht als Tatsache übernehmen):** Ob die
+> Quellenlage der A7-Frage vollständig ist. Kandidaten, die im Bestand
+> als offen geführt sein sollen: **EuGH C-621/22 Rn. 56** (Träger
+> MKT-HANDEL, von R14-B als unbearbeitet gemeldet — braucht den
+> Volltext) · die **Rechtskraft/Instanz** von LG Düsseldorf 38 O 243/23
+> (nie geprüft — ein nicht rechtskräftiges Urteil trägt anders) ·
+> **Rn. 130** (Art. 3 Abs. 4 UGPRL), die die Rn.-129-Grenze im eigenen
+> Beleg auflösen soll. Prüfe jeden Punkt selbst; was Du nicht belegen
+> kannst, wird als „nicht erhoben" ausgewiesen, nicht weggelassen.
 >
 > **Form je Frage, verbindlich:** Sachverhalt · konkrete Fragestellung ·
 > Quellenlage mit Fundstelle · **Gegenansicht** · Entscheidungs-
@@ -1785,20 +1869,66 @@ ungefragt gestartet.
 >    baust den Schritt und die Nachweisform; wo die Firmierung im
 >    Wortlaut nötig wäre, setzt Du einen **sichtbaren Platzhalter mit
 >    Gate-Vermerk**, keine erfundene Firmierung.
-> 3. **O-2-Kunden-Pflicht** als Vertragsklausel (der Kunde öffnet n8n
->    nicht seinen Gästen) — die fünfte Kunden-Pflicht aus O-2.
+> 3. **O-2 als Vertragsklausel** (der Kunde öffnet n8n nicht seinen
+>    Gästen).
+>    ⚠️ **KORRIGIERT gegenüber der Erstfassung dieses Prompts**
+>    (Prüferbefund F-4, an der Quelle nachgemessen): Dort stand „die
+>    fünfte **Kunden**-Pflicht aus O-2" — das gibt es nicht. Die Quelle
+>    (`handel/preismodell-optionen.md:694-702`) sagt: „eine fünfte
+>    **Bedingung** neben AU-1…AU-4, und sie trifft den KUNDEN". Also
+>    vier Auflagen an UNS **plus eine** Kundenpflicht = fünf Bedingungen.
+>    O-2 enthält **genau eine** Pflicht; eine erste bis vierte
+>    Kunden-Pflicht existiert nicht. Die Fehlerkette läuft über
+>    `projektquelle-mkt.md:301` — die zieht die Leitsession nach, **Du
+>    nicht** (Wahrheits-Kanal).
 > 4. **K-1-Wiedervorlage-Anker:** Akzeptiert n8n die Community-Edition
 >    als Backend eines entgeltlichen Produkts? **Streitig, kein
 >    Termin** — der Anker ist die REGEL „bevor ein A3-Angebot
 >    hinausgeht", nicht ein Datum.
+>    ⚠️ **Ist-Stand (Prüferbefund F-A, vor dem Prompt erhoben): Der
+>    Anker EXISTIERT bereits wörtlich** — `preismodell-optionen.md:644`
+>    („fällig, bevor ein Kunden-Angebot mit A3-Architektur hinausgeht"),
+>    inkl. Klärweg `license@n8n.io` und Träger-Posten O-4; dazu
+>    `angebotsarchitektur.md:215-221` und `preisliste-vorlaeufig.md:1095`.
+>    **Dein Auftrag ist damit nicht „anlegen", sondern: prüfen, ob der
+>    Anker an der Stelle greift, wo ein Angebot tatsächlich
+>    hinausgeht** — und ihn dort verankern, wo er heute fehlt. Doppelt
+>    anlegen wäre eine Dublette ohne Wächter (CLAUDE.md Doku-Hygiene).
+>    Und: K-1 bleibt **streitig** — die Lizenz-FAQ sagt „usually yes",
+>    die Vertriebsseite „all paid plans", **der Lizenztext schweigt**.
+>    Der SUL-Rohtext, den R15-D holt, beantwortet K-1 **nicht**.
 >
 > **Pflicht-Gegenprüfung am ROHBELEG:** Die Auflagen AU-1…AU-4 erreichen
 > Dich über das R14-A-Protokoll und `preismodell-optionen.md` § 5.3 —
 > Quellen zweiter Hand. Prüfe den Wortlaut jeder Auflage an der dort
 > benannten Fassung nach, bevor Du daraus eine Klausel baust.
 > ⚠️ **Bekannter Fallstrick (R14A-N-1):** Der Formulierungsvorschlag im
-> heypensio-Lizenzpapier zählt nur **AU-1…AU-3** — wer ihn wörtlich
-> übernimmt, **verliert AU-4, die einzige Auflage mit Handlungspflicht.**
+> heypensio-Lizenzpapier (§ 3.8) zählt nur **AU-1…AU-3** — wer ihn
+> wörtlich übernimmt, **verliert AU-4, die einzige Auflage mit
+> Handlungspflicht.**
+> 🔴 **Und ein DRITTER Fundort derselben Fehlklasse, neu (Prüferbefund
+> F-9):** Schon die Überschrift `§ 3.6` desselben Papiers sagt „**die
+> drei Auflagen**, unter denen ‚A3 trägt' gilt" — **die Tabelle
+> darunter führt vier** (AU-4 wurde nach Prüferbefund F3 nachgetragen,
+> die Überschrift nie nachgezogen). Der Fallstrick sitzt also an
+> mindestens zwei Stellen; **zähle die Auflagen an der TABELLE, nie an
+> einer Überschrift oder einem Fließtext-Satz.**
+>
+> 🔴 **AU-4-Nachweisform — im Zwischendokument verkürzt (Prüferbefund
+> F-8):** Der Rohbeleg (Z. 453) verlangt konkret: „Bei jeder Einrichtung
+> einer Kunden-Instanz werden **`LICENSE.md` und `LICENSE_EE.md`**
+> übergeben und die Übergabe **im Onboarding-Protokoll vermerkt**." In
+> `angebotsarchitektur.md` ist daraus „die Lizenzbedingungen
+> nachweislich mit" geworden — **die Nachweisform ist unterwegs
+> verlorengegangen.** Bau sie zurück: WELCHE Dateien, WO vermerkt.
+> 📎 **Die beiden Dateien liegen bereits im Haus** —
+> `<FIRMENWURZEL>\heypensio\quellen-n8n-lizenz\` (versioniert, mit
+> SHA-256; R15-D arbeitet an demselben Ordner). Du brauchst sie nicht zu
+> beschaffen, nur korrekt zu benennen.
+> **Und die Quelle sagt „vier Auflagen … gehören in Angebot, Vertrag und
+> Onboarding"** — Dein Auftrag nennt AU-2 und AU-4; prüfe im selben Zug,
+> ob AU-1 und AU-3 im Angebotstext etwas verlangen, und weise das
+> Ergebnis **je Auflage** aus (n von 4), statt nur zwei zu bearbeiten.
 >
 > **Dein Scope:** `handel/angebotsarchitektur.md` und
 > `protokolle/R15-B-abschluss.md` / `-pruefer.md`. **Nicht anfassen:**
@@ -1852,20 +1982,43 @@ ungefragt gestartet.
 >    Fehl-Zitat-Treffer bekommt eine Zeile. ⚠️ Die **Bewertung**, ob ein
 >    Fund echt ist, gehört zurück in die Leitsession; Du lieferst die
 >    Liste mit Fundstelle und Zählweg.
-> 4. **Kleinposten:** Kurz-ID **`Z-6` ist doppelt belegt** (R14A-N-7) —
->    jede repo-weite Z-6-Zählung läuft darauf zu; erhebe beide
->    Namensräume und schlage die Trennung vor (**nicht** selbst
->    umbenennen, das berührt fremde Dokumente). Dazu: das **Rendering
->    der teils dreifach verschachtelten Nachtrags-Kästen** ist ungeprüft.
+> 4. **Kleinposten — GENERISCH erweitert** (Prüferbefund F-7; die
+>    Erstfassung nannte nur `Z-6`): Die Kollision ist **kein Einzelfall**
+>    — der Prüfer fand **mindestens fünf** belegte Doppelbelegungen:
+>    `Z-6` (Lizenzposten ↔ `brandnamic-partner-vollerhebung.md:585`
+>    Z-1…Z-9-Reihe) · **`O-11`** (Lizenzserver-Ping ↔
+>    `listenbau-regelwerk.md:1137` DSK-Ziff. 4.3) · **`O-4`**
+>    (Zielmengengröße ↔ anwaltliche Durchsicht ↔ K-1-Klärweg) ·
+>    **`O-2`** (Lizenz-Kundenpflicht ↔ Kaltkontakt-Löschfrist) ·
+>    **`K-2`** (Lizenzfrage im Rohbeleg ↔ 12 Prüferbefund-IDs aus
+>    R05/R06/R07). **Erhebe die Kollisionen generisch** (Muster über die
+>    ID-Form, nicht über eine vorher notierte Namensliste — sonst ist es
+>    eine Positivliste in Verkleidung) und schlage je Kollision die
+>    Trennung vor. **Nicht selbst umbenennen** — das berührt fremde
+>    Dokumente und läuft in dieser Runde durch vier Parallelstränge.
+>    **Positivkontrolle mit einem unabhängig BEKANNTEN Sollwert**
+>    (L-35): `Z-6` und `O-11` müssen in Deinem Lauf auftauchen; tun sie
+>    es nicht, ist zuerst Dein Muster verdächtig, nicht der Bestand.
+>    Dazu: das **Rendering der teils dreifach verschachtelten
+>    Nachtrags-Kästen** ist ungeprüft.
 >
-> ⚠️ **Wandernder Messstand (L-40):** R15-D und R15-E arbeiten
-> **gleichzeitig** an Dokumenten, die Du in die Reichweite nimmst
-> (`fund/wettbewerbsbild.md` gehört exklusiv R15-E). **Friere Deinen
-> Prüfstand per Commit-Hash ein** und melde jede Fundzahl MIT diesem
-> Hash — „nach den Edits" ist keine Angabe. Und: ordne das Lauf-Delta
-> **je Datei** zu, statt es pauschal der eigenen Arbeit zuzuschreiben.
-> **Ziehe die Wächter-BASELINE vor Deinen Edits** — erst der
-> Vorher-Lauf macht das Nachher-Delta zuordenbar.
+> ⚠️ **Wandernder Messstand (L-40) — Reichweite korrigiert**
+> (Prüferbefund F-6; die Erstfassung nannte nur R15-D/E): **ALLE VIER
+> Parallelstränge** bewegen Dokumente, die Du in die Reichweite nimmst —
+> **R15-B schreibt `handel/angebotsarchitektur.md`** (zitatführend, ein
+> Reichweiten-Kandidat), **R15-D** und **R15-E** arbeiten an weiteren
+> Dokumenten, und **R15-A legt `handel/anwalts-briefing-2026-08.md`
+> ERST AN**: ein zitat- und Rn.-dichtes Rechtsdokument, das in Deinem
+> eingefrorenen Prüfstand **per Konstruktion nicht existieren kann**.
+> **Friere Deinen Prüfstand per Commit-Hash ein** und melde jede Fundzahl
+> MIT diesem Hash — „nach den Edits" ist keine Angabe. Ordne das
+> Lauf-Delta **je Datei** zu, statt es pauschal der eigenen Arbeit
+> zuzuschreiben. **Ziehe die Wächter-BASELINE vor Deinen Edits.**
+> Und: **Dokumente, die in dieser Runde erst entstehen, weist Du
+> ausdrücklich als „nicht im Prüfstand enthalten" aus** — sie dürfen in
+> keine n-von-n-Reichweitenaussage eingerechnet werden. Sonst behauptet
+> Dein grüner Lauf Vollständigkeit über genau das Dokument, das die
+> Runde am dringendsten braucht.
 >
 > **Fertig-Kriterium — mit ECHTEM Ausführungslauf** (neue Regel
 > `ae819a0`: ein geparster Erfolg zählt nicht): `node
@@ -1874,15 +2027,47 @@ ungefragt gestartet.
 > (⚠️ nicht hinter einer Pipe — `$LASTEXITCODE` unmittelbar nach dem
 > Aufruf; `cmd /c "… & echo %ERRORLEVEL%"` meldet IMMER den Wert von
 > VORHER), Ausgabe in eine Datei umgeleitet und **zu Ende gelesen** (eine
-> abgeschnittene Ausgabe trägt kein Negativ). Regression ausgewiesen:
-> **alt-ROT / neu-GRÜN**. Jede n-von-n-Zahl trägt ihren Zählweg
-> (`grep -o … | wc -l`, nie `grep -c`).
+> abgeschnittene Ausgabe trägt kein Negativ). Jede n-von-n-Zahl trägt
+> ihren Zählweg (`grep -o … | wc -l`, nie `grep -c`).
+>
+> ⚠️ **KORRIGIERT gegenüber der Erstfassung** (Prüferbefund F-5, von der
+> Leitsession per echtem Lauf nachgemessen): Dort stand „Regression
+> ausgewiesen: **alt-ROT / neu-GRÜN**". Das ist auf beiden Seiten
+> unerfüllbar — **gemessen: Hauptlauf Exit 0, Selbsttest Exit 0**, es
+> gibt kein alt-ROT. Und „neu-GRÜN" ist strukturell unerreichbar: Der
+> Exit hängt an `fehlend.length === 0`; erweiterst Du den ZIEL-Raum,
+> entstehen `fehlend`-Einträge, die Du **weder reparieren darfst** (die
+> geprüften Dokumente sind nicht Dein Scope) **noch als Ausnahme führen
+> darfst** (die Bewertung gehört der Leitsession). Ein Werkzeug, dessen
+> Zielzustand nie erreichbar ist, meldet ausgerechnet nach geglückter
+> Arbeit rot — CLAUDE.md nennt das eine eigene Fehlerklasse.
+> **Es gilt stattdessen:**
+> 1. **Selbsttest grün in beide Richtungen** (das ist Dein hartes
+>    Kriterium, Exit 0) — er läuft gegen `selbsttest-zitate.md`, die in
+>    Deinem Scope liegt.
+> 2. **Hauptlauf ausgeführt, Erst-Fundmenge einzeln ausgewiesen.** Ein
+>    **roter Exit ist hier das ERWARTETE Ergebnis** und kein Fehlschlag —
+>    er bedeutet „die erweiterte Reichweite hat etwas gefunden". Melde
+>    ihn als Befund, nicht als Problem, und **hebe die Baseline nicht an,
+>    um grün zu werden.**
+> 3. **Je neuem POOL-Kanal ein eigener `MUSS`-Anker.** Die Regel „ein
+>    Kontrollkandidat je PRÜFKANAL" gilt nicht nur für ZIEL — ein
+>    Sammellauf mit Treffern sieht aus wie ein funktionierender Prüfweg
+>    und verdeckt das einzelne tote Muster.
+> 4. **Vorher-/Nachher-Zahlen je Lauf mit dem Prüfstand-Hash**, damit
+>    das Delta zuordenbar bleibt.
+>
+> 📌 **Ist-Stand vor Deinem Edit** (Prüferbefund F-A, damit Du nichts
+> doppelt baust): Die `TREFFEN-NICHT`-Gegenrichtung **existiert bereits**
+> — als Abschnitt in `selbsttest-zitate.md:22` und als Array mit 3
+> Einträgen; die Positivkontrolle `MUSS` führt 11 Einträge. Du
+> **erweiterst** beide, Du legst sie nicht an.
 >
 > **Dein Scope:** `akquise/pruefe-zitate.js`,
 > `akquise/selbsttest-zitate.md`, `protokolle/R15-C-abschluss.md`.
 > **Nicht anfassen:** die geprüften Dokumente selbst (Du erweiterst den
-> WÄCHTER, nicht seinen Prüfgegenstand), `fund/wettbewerbsbild.md`
-> (R15-E exklusiv), Wahrheits-Kanal. Exklusive Systeme: **keine**.
+> WÄCHTER, nicht seinen Prüfgegenstand), Wahrheits-Kanal. Exklusive
+> Systeme: **keine**.
 >
 > **Subagent:** für den mechanischen Reichweiten-Scan (welche
 > `.md`-Dokumente des Repos tragen Zitate in deutschen
@@ -1897,25 +2082,64 @@ ungefragt gestartet.
 > — der Bote). Leitsession Shanks läuft separat. Session-Start:
 > `git pull`.
 >
-> **Aufgabe 1 — die Z-6-Entwarnung ruht ungeprüft auf fremden Zitaten.**
+> **Aufgabe 1 — MARKETING hat die Lizenz-Rohquelle nie selbst gelesen.**
 > Sämtliche Aussagen zur n8n-Lizenz (und damit die Auflösung „A3 trägt")
-> stützen sich auf ein **heypensio-Papier**
-> (`<FIRMENWURZEL>\heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`).
-> Die Kette **Lizenz-Rohquelle → heypensio-Papier** hat **niemand**
-> geprüft — weder Session noch Prüfer.
-> - Beschaffe den **Rohtext der n8n Sustainable Use License** (öffentlich,
->   **kein Außenkontakt**, kein Anbieter-Mailverkehr — Nacht-Slot).
->   Lege den Abzug in **`sensibel/rohbelege-R15-D/`** (Dein Ordner,
->   Deine Runde — Rohbelege gehören NIE in den Ordner einer früheren
->   Runde). **Roh-HTML mitarchivieren**: Aussagen in der Auszeichnung
->   verschwinden beim Entmarkupen spurlos.
+> stützen sich hier auf ein **heypensio-Papier**
+> (`<FIRMENWURZEL>\heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`),
+> das uns über eine Briefing-Zeile erreicht hat.
+> `handel/preismodell-optionen.md` sagt das selbst: „die n8n-Lizenz
+> selbst wurde in dieser Runde nicht gelesen".
+>
+> ⚠️ **ZWEI KORREKTUREN gegenüber der Erstfassung dieses Prompts**
+> (Prüferbefunde F-2 und F-3, beide von der Leitsession nachgemessen):
+>
+> **(a) Der Rohtext ist NICHT zu beschaffen — er liegt bereits
+> versioniert im Haus.** `<FIRMENWURZEL>\heypensio\quellen-n8n-lizenz\`
+> führt **35 Dateien**, committet als **`4fa530b`** (Strang R40-C,
+> 13.08.), darunter `n8n-repo-LICENSE.md`, `LICENSE-tag-2.10.4.md`,
+> `LICENSE-2022-03-17-erstfassung-SUL.md`, `n8n-repo-LICENSE_EE.md` und
+> die Doku-Fassung in drei Kanälen — **mit SHA-256 je Datei im README.**
+> Eine Neubeschaffung in einen git-ignorierten Ordner würde die
+> Belegstufe von *versioniert mit Hash* auf *unversioniert* **senken**.
+> **Lies stattdessen in der COMMIT-Fassung** (`git show <commit>:<datei>`
+> — das dortige README nennt eine CRLF-Falle bei den SHA-Prüfungen).
+> ⚠️ Dasselbe README dokumentiert eine Werkzeugfalle des
+> Beschaffungswegs: `docs.n8n.io` liefert im `.md`-Kanal **HTTP 200 für
+> frei erfundene Pfade** — ein selbst konstruierter Pfad ist dort kein
+> Negativbefund, sondern ein falsches Positiv. Du würdest sie bei einer
+> Neubeschaffung erneut betreten.
+> `sensibel/rohbelege-R15-D/` legst Du nur an, wenn Du **tatsächlich neu
+> beschaffst** (z. B. die FAQ-Seite) — dann mit **Roh-HTML**, weil
+> Aussagen in der Auszeichnung beim Entmarkupen spurlos verschwinden.
+>
+> **(b) „Die Kette hat NIEMAND geprüft" war zu weit gefasst.** Das
+> heypensio-Papier trägt einen eigenen Prüferlauf (`§ 11`, Protokoll
+> `protokolle/R40-C-pruefer.md`, 28 Befunde, **mit gesetzter
+> Verfahrens-Positivkontrolle**). Richtig ist: **Marketing** hat die
+> Rohquelle nie selbst gelesen. Das ist immer noch Grund genug für
+> Deinen Lauf — aber es ist eine Aussage über UNS, nicht über die
+> Sorgfalt der Nachbarabteilung. Formuliere sie im Bericht so.
+>
+> **(c) NEU in Deinen Auftrag** (aus demselben Papier): Es benennt
+> **zwei Bestandsfehler in MKT-Dokumenten** — ein **Pseudo-Zitat** in
+> `handel/preismodell-optionen.md:547` und eine Z-6-Formulierung, die
+> „falsch herum" stehe. Prüfe beide am Rohbeleg nach und melde sie; die
+> **Reparatur** disponiert die Leitsession (die Datei liegt außerhalb
+> Deines Schreib-Scopes).
 > - Gleiche **Zitat für Zitat** ab. Fehlalarme eines Textabgleichs sind
 >   fast alle **Normalisierungsfehler** (Blockquote-Präfixe,
 >   Silbentrennung, Umbruch am Bindestrich) — jede Normalisierungsstufe
 >   wirkt **symmetrisch auf beide Seiten**, und die Reihenfolge zählt.
 > - **Befund an heypensio MELDEN, nicht ändern** (fremdes Repo). Weg:
->   Postkorb `<FIRMENWURZEL>\zentrale\eingang\2026-08-13-mkt-<thema>.md`
->   — **in den Ordner, nicht in die Repo-Wurzel**.
+>   Postkorb `<FIRMENWURZEL>\zentrale\eingang\2026-08-14-mkt-<thema>.md`
+>   — **in den Ordner, nicht in die Repo-Wurzel**. ⚠️ Datum **14.08.**
+>   (Prüferbefund F-11: Der Kalendertag ist während der Runde
+>   gewechselt; der Arbeitstag heißt weiter 13.08., die Datei-Konvention
+>   folgt aber dem Kalender.) ⚠️ **Im `zentrale`-Repo schreiben heute
+>   Nacht auch die Zentrale und heyPensio R43** — Du legst eine NEUE
+>   Datei an und committest sie mit explizitem Pfad; triffst Du fremde
+>   Änderungen an, wird nicht vorsichtig weitergeschrieben, sondern
+>   gemessen und gemeldet (genau EINE schreibende Hand je Datei).
 > - **Nimm R14A-N-1 mit:** Der Formulierungsvorschlag jenes Papiers
 >   zählt nur AU-1…AU-3 und verliert **AU-4 — die einzige Auflage mit
 >   Handlungspflicht.**
@@ -1927,6 +2151,11 @@ ungefragt gestartet.
 > Abwesenheit eines Sternchens ist **keine Quellenaussage**; zulässige
 > Einträge sind „als Ableitung gekennzeichnet" oder „von der Quelle
 > nicht bezeichnet".
+> 📌 **Auflage aus dem Briefing, die meine Erstfassung übersehen hat**
+> (Prüferbefund F-C, Zählweg: `"ungenutzte"` → 0 Treffer im Tagesplan):
+> Es geht um **acht ungenutzte Abzüge** im R11-A-Ordner — die
+> Vollständigkeit Deiner Auswertung wird an dieser Zahl gemessen. Weise
+> **n von 8** aus (und was die rekursive Vollsuche zusätzlich findet).
 > ⚠️ **Suchraum, korrigiert gegenüber dem Briefing:** Die Abzüge liegen
 > **nicht nur** in `sensibel/rohbelege-R11-A/` — auch
 > `sensibel/rohbelege-R05-A/a3/` trägt melevo-Material, darunter
@@ -1959,51 +2188,81 @@ ungefragt gestartet.
 >
 > Commit-Kennung: **`ROCKSTAR | `**. Abschlussmeldung wie in der Vorlage.
 
-### Strang R15-E (Ben Beckman, 2. Fenster) — R05-A-Nacharbeit
+### Strang R15-E (Limejuice) — Sperrdatei-Struktur + Wellenprotokoll-Vorlage
 
-> ⛔ **STARTET ERST nach der Abschlussmeldung von R15-A.**
+> 🔄 **UMGESCHNITTEN am 14.08. 00:15.** Die Erstfassung dieses Strangs
+> lautete „R05-A-Nacharbeit — 24 von 37 Befunden offen". **Das ist
+> erledigte Arbeit:** Der Träger `protokolle/R06-nacharbeit-R05A-
+> befunde.md:16-18` trägt seit dem 10.08. „➡️ **ABGEARBEITET in R07-A**
+> — 24 von **26** repariert, **0** bewusst offen, **2** mit benanntem
+> Träger (W-17-Rest, V-1-Rest)"; der Nenner 37 ist dort selbst
+> durchgestrichen (richtig: 31). Gefunden vom Prüf-Subagenten (F-1),
+> von der Leitsession an der Quelle nachgemessen. Die zwei echten
+> Restposten und die veralteten Fundstellen im Wahrheits-Kanal führt
+> die Leitsession. **Dieser Strang macht stattdessen den Bauposten, der
+> im Briefing als „baubar" stand und in meinem ersten Schnitt fehlte.**
 >
-> Du bist **Ben Beckman**, Arbeits-Session `R15-E` (zweites Fenster).
-> Leitsession Shanks läuft separat. Session-Start: `git pull`.
+> Du bist **Limejuice**, Arbeits-Session `R15-E` der Rote-Haar-Bande
+> (Reserve-Rolle, seit `4cc1de7` in der Rollen-Charta). Leitsession
+> Shanks läuft separat. Session-Start: `git pull`.
 >
-> **Aufgabe:** Seit R6 offen — **24 von 37 handlungspflichtigen
-> R05-A-Prüferbefunden** sind nicht eingearbeitet. Der Träger mit
-> Vollliste und Reihenfolge liegt vor:
-> `protokolle/R06-nacharbeit-R05A-befunde.md`.
-> **Zuerst die zitatkritischen**, weil sie Risiko in außenwirksame Texte
-> tragen: **W-16** (Dittlmann-Pseudozitat) · **H-3/H-4** (Zitat-Anker) ·
-> **H-10** (fehlende Geltungseinschränkung). Rest nach Restzeit — eine
-> Verkürzung ist ein **gültiges Ergebnis**, ein stillschweigend
-> gelassener Befund nicht.
+> **Aufgabe:** Die sieben Bau-Pflichten **B-1…B-7** stehen seit R13-B
+> als **SOLL** im `akquise/listenbau-regelwerk.md` — aber die
+> **WERKZEUGE sind nicht gebaut**, und laut STATUS.md sperrt genau das
+> „weiter den ersten Datensatz". Bau die zwei, die heute Nacht ohne
+> fremde Antwort baubar sind:
+> 1. **Sperrdatei-Struktur** (§ 7.3, B-4): eine **eigene, von der
+>    Zielkundenliste getrennte** Datei — Feldschnitt, Aufnahme-Anlass,
+>    Abgleichspflicht vor jedem Versand, und der **enge Fall B-4**
+>    (Löschwunsch ≠ Werbewiderspruch) sauber unterschieden. Der
+>    Sperrvermerk F-13 verweist bereits darauf.
+> 2. **Wellenprotokoll-Vorlage** (§ 6.1, B-6): Pflichtfelder laut
+>    R13-B-Nachtrag — Fallgruppen-Anteil, FG-4 (Impressumsquelle),
+>    **Datum des Sperrdatei-Abgleichs**, **Textversion des Beilegers**
+>    (B-5 führt sie als Pflichtfeld).
 >
-> **Arbeitsweise:** Jeder Befund wird **repariert, ausdrücklich
-> verworfen oder bekommt einen benannten Träger** — kategorienweise MIT
-> NENNER. „Hinweis" ist eine Schwere-Angabe, keine Erledigungs-Kategorie.
-> **Miss die Reparatur am ROHBELEG**, nicht am Befundtext: Ein
-> „eingearbeitet" im Träger ist kein Beleg, und eine Reparatur kann
-> einen ANDEREN Befund verschärfen. **Reparaturen sichtbar machen, nicht
-> still glätten** — jede geänderte Stelle trägt als markierter Kasten,
-> was vorher dastand und warum es fiel.
-> ⚠️ Beim Reparieren einer **Entwarnung** ist der Reflex, sie
-> abzuschwächen — richtig ist meist, sie zu **STREICHEN**. Prüffrage:
-> Ist der schwächere Satz jetzt belegt — oder nur leiser?
+> ⛔ **AUSDRÜCKLICH NICHT: der Beileger-TEXT.** Er braucht die
+> **Firmierung** (F-7 offen) und **O-9** (anwaltlicher Rat, läuft als
+> R15-A). Du baust das FELD und die Versionierungs-Mechanik, nie den
+> Text. Wo ein Wortlaut nötig wäre, steht ein **sichtbarer Platzhalter
+> mit Gate-Vermerk** — keine erfundene Firmierung, kein Vorgriff auf
+> die Rechtsauskunft.
 >
-> **Dein Scope:** `fund/wettbewerbsbild.md` (**exklusiv Dir** — R15-D
-> liest dort, schreibt aber nicht),
-> `protokolle/R06-nacharbeit-R05A-befunde.md`,
-> `protokolle/R15-E-abschluss.md` / `-pruefer.md`. Wahrheits-Kanal:
-> nicht anfassen. Exklusive Systeme: **keine**.
+> **Arbeitsweise:** Beide Werkzeuge sind **Vorlagen mit
+> Ausfüll-Disziplin**, keine Prosa. Ein Feld, das man vergessen kann,
+> ist ein Feld, das vergessen wird — mach Pflichtfelder als solche
+> kenntlich. **Vorläufige Werte sind sprechende Platzhalter, nie
+> plausible Dummys**, und die Vorläufigkeit gehört ins Werkzeug selbst
+> (sichtbarer Warntext), nicht nur in die Doku.
+> ⚠️ **Prüfe vor dem Bau den Ist-Stand selbst** (Deine erste Handlung):
+> `grep -rn "Sperrdatei\|Wellenprotokoll" akquise/` — es kann bereits
+> eine Vorform geben (§ 6.1 trägt laut Regelwerk die O-3-Vorform des
+> Wellenprotokolls). **Erweitern schlägt Neuanlegen**; eine zweite
+> Fundstelle ohne Wächter oder Vorrangklausel ist eine Dublette.
 >
-> **Subagent:** ein Agent je QUELLDOKUMENT für den Zitat-/
-> Fundstellen-Abgleich (existiert der Beleg? **deckt er den Satz?** —
-> zwei getrennte Prüfungen). Dazu EIN unabhängiger Prüfer mit
-> eingefrorenem Commit-Hash, der zusätzlich die **LÖSCHUNGEN** gesondert
-> sichtet (`git diff --numstat`, jede gelöschte Zeile einzeln) — bei
-> vielen Einfügungen liest niemand die wenigen Löschungen.
+> **Dein Scope:** `akquise/sperrdatei-struktur.md` und
+> `akquise/wellenprotokoll-vorlage.md` (**Du legst sie an** — Namen
+> vorher gegen den Bestand prüfen), `akquise/listenbau-regelwerk.md`
+> **nur für Zeiger auf die neuen Dateien** (keine inhaltliche
+> Umschrift), `protokolle/R15-E-abschluss.md` / `-pruefer.md`.
+> ⚠️ **`akquise/pruefe-zitate.js` und `akquise/selbsttest-zitate.md`
+> gehören R15-C** — nicht anfassen. Wahrheits-Kanal: nicht anfassen.
+> Exklusive Systeme: **keine**.
 >
-> **Fertig-Kriterium:** Die vier zitatkritischen Befunde
-> (W-16/H-3/H-4/H-10) sind disponiert und am Rohbeleg belegt; für den
-> Rest steht **x von 24** mit Kategorie und Träger. Löschungszählung im
-> Protokoll ausgewiesen.
+> **Subagent:** EIN unabhängiger Prüfer mit frischem Kontext,
+> eingefrorenem Commit-Hash, Schreibrecht auf
+> `protokolle/R15-E-pruefer.md`. Pflicht-Kategorien: „**Was aus der
+> Quelle ist gar nicht erst angekommen?**" — von B-1…B-7 und § 7.3/§ 6.1
+> RÜCKWÄRTS gelesen (Leseraum ist das ganze Regelwerk, der Abschnitt nur
+> der Einstieg) · „Welches Feld setzt eine Angabe voraus, die heute
+> nicht feststeht?" · „Wo behauptet die Vorlage Rechtssicherheit, die
+> erst der anwaltliche Rat liefert?"
 >
-> Commit-Kennung: **`BECKMAN | `**. Abschlussmeldung wie in der Vorlage.
+> **Fertig-Kriterium:** Beide Vorlagen liegen vor, **jede Pflicht aus
+> B-1…B-7 ist einer Vorlage zugeordnet oder ausdrücklich als „nicht
+> hier" ausgewiesen** (n von 7, mit Zählweg), der Beileger-Text ist
+> nachweislich NICHT geschrieben, und das Regelwerk zeigt per Zeiger auf
+> beide Dateien. Prüferbefunde kategorienweise MIT NENNER disponiert.
+>
+> Commit-Kennung: **`LIMEJUICE | `**. Abschlussmeldung wie in der
+> Vorlage (`protokolle/R15-E-abschluss.md`).

@@ -294,6 +294,15 @@ die auch dann bestehen bleibt, wenn ein Listeneintrag gelöscht wird. Sie
 enthält nur, was zum Sperren nötig ist (Firma, Anschrift, ggf. Kanal-Kennung,
 Datum und Weg des Widerspruchs) — sie ist keine Zweitliste.
 
+> ➡️ **Werkzeug gebaut 14.08.2026 (R15-E): `akquise/sperrdatei-struktur.md`**
+> — Feldschnitt (`SP-01`…`SP-15`), Aufnahme-Anlässe (`ANL-1`…`ANL-4`),
+> Eintrags- und Abgleich-Ablauf, der enge B-4-Fall und die
+> Ausfüll-Vorlage. **Dieser Abschnitt bleibt die Quelle**; die
+> Struktur-Datei ist die Ableitung und trägt die Vorrangklausel — bei
+> Widerspruch gewinnt dieses Regelwerk. ⚠️ Der Bestand ist leer und darf
+> es sein — die Gates (F-7, O-9, B-2, O-6) sind offen; sie stehen dort
+> im Kopf-Kasten.
+
 > 📌 **Nachtrag 13.08.2026 (R13-B) — B-2 · Elektronischer
 > Widerspruchsweg trotz reinem Briefkanal** (`interessenabwaegung-o8.md`
 > § 10 B-2; die Kopplung zuerst, dann die Pflicht). *Fälligkeits-Hinweis
@@ -839,6 +848,27 @@ Wellenprotokoll, nicht als Feld. (§ 10, O-3.)
 > (Projektquelle § 7); die Vorform des Wellenprotokolls lebt hier in
 > § 6.1 — nachgezogen statt zweite Fundstelle angelegt.
 
+> ➡️ **Werkzeug gebaut 14.08.2026 (R15-E):
+> `akquise/wellenprotokoll-vorlage.md`** — Blöcke A–H, drei
+> Summenproben als Freigabebedingung, Abgleich-Journal, Ausfüll-Vorlage.
+> **Dieser Abschnitt bleibt die Quelle**, die Vorlage ist die Ableitung
+> (Vorrangklausel dort im Kopf). **Damit ist O-3 auch gebaut**, nicht
+> nur konzeptionell beantwortet — die § 10-Tabelle führt für O-3 noch
+> den Vermerk, offen bleibe allein der Bau; das ist mit dieser Datei
+> erledigt.
+> ⚠️ **Drei Stellen, an denen die Vorlage über die Aufzählung dieses
+> Nachtrags hinausgeht** — jeweils belegt aus den Quellen, hier nur
+> angezeigt (Herleitung: Vorlage § 10):
+> **(a)** der **FG-2-Anteil** ist ebenfalls auszuweisen — die
+> FG-2-Zeile in `interessenabwaegung-o8.md` § 5.4 verlangt „Anteil im
+> Wellenprotokoll ausweisen (B-6)" wörtlich; dieser Nachtrag nennt nur
+> FG-4. **(b)** B-5 nennt **zwei** Texte (Art.-14-Beileger **und**
+> Widerspruchs-Kasten), also **zwei** Versionsfelder — „Textversion"
+> hier ist Singular. **(c)** Das Abgleichs-Datum ist **mehrzeilig**
+> (s. § 7.3-Zeiger). Die Nachführung dieses Nachtrags und der
+> § 10-Tabelle liegt bei der Leitsession (Wahrheits-Kanal-Regel), nicht
+> bei R15-E.
+
 ---
 
 ## 7. Prüfung [4] — der Betrieb: Ablauf, Fristen, Sperren
@@ -934,6 +964,18 @@ keine Rückfrage, keine „letzte Mail", keine Reaktivierung.
 > Hinweis gerade NICHT** — die Vorfassung der Quelle hatte genau
 > diesen Scope verloren (dort als Korrektur Q-07 markiert); er darf
 > hier nicht erneut zum allgemeinen Fall zurückdriften.
+
+> ➡️ **Werkzeuge gebaut 14.08.2026 (R15-E).** Der Ablauf zu R-B10/R-B11
+> steht als ausfüllbare Form in `akquise/sperrdatei-struktur.md` (§ 4
+> Eintrags-Ablauf, § 6 der enge B-4-Fall mit Abgrenzungsfrage und
+> Unterblock `SP-14`). Das **Abgleich-Journal** zu R-B6 liegt in
+> `akquise/wellenprotokoll-vorlage.md` Block D — dort, wo auch die
+> Menge steht, gegen die abgeglichen wird; es existiert **einmal**,
+> nicht in beiden Dateien. ⚠️ **Hinweis zur Form:** R-B6 nennt **zwei**
+> Anlässe (vor jedem Versand **und** vor jedem Druckauftrag), das
+> Journal ist deshalb **mehrzeilig je Welle** — ein einzelnes
+> Abgleichs-Datum kann eine Welle mit mehreren Druckaufträgen nicht
+> abbilden.
 
 ### 7.4 Auskunft, Löschung, Organisation
 

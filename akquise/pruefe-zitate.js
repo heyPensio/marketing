@@ -1,5 +1,6 @@
-// Zitatabgleich R08-A: Prueft jedes in deutschen Anfuehrungszeichen gesetzte
-// Zitat der beiden akquise/-Dokumente gegen den Quellenpool.
+// Zitatabgleich R08-A/R15-C: Prueft jedes in deutschen
+// Anfuehrungszeichen gesetzte Zitat der operativen Zieldokumente gegen den
+// Quellenpool.
 // Aufruf:  node akquise/pruefe-zitate.js
 // Repo-relative Pfade (CLAUDE.md/windows-powershell: keine Scratchpad-Pfade im Repo).
 const fs = require('fs');
@@ -10,13 +11,17 @@ const REPO = path.resolve(__dirname, '..');
 // --selbsttest prueft NICHT die Projektdokumente, sondern die mitgelieferte
 // Selbsttest-Datei - durch DIESELBEN Funktionen (zitate() + norm() + Pool).
 // Grund: Ein Selbsttest, der die Zusammensetzung nachbaut, prueft sie nicht.
-// Erwartung: 4 Zitate bestaetigt (T1-T4), 4 als fehlend gemeldet (F1-F4).
+// Erwartung: 8 Zitate bestaetigt (T1-T8), 8 als fehlend gemeldet (F1-F8).
 const SELBSTTEST = process.argv.includes('--selbsttest');
 const ZIEL = SELBSTTEST
   ? ['akquise/selbsttest-zitate.md']
   : [
       'akquise/akquiseplan.md',
       'akquise/listenbau-regelwerk.md',
+      'akquise/interessenabwaegung-o8.md',
+      'fund/wettbewerbsbild.md',
+      'handel/kanal-rechtsmatrix.md',
+      'handel/angebotsarchitektur.md',
     ];
 const POOL = [
   'handel/kanal-rechtsmatrix.md',
@@ -27,6 +32,9 @@ const POOL = [
   'STATUS.md',
   'beleg/baseline-messplan.md',
   'CLAUDE.md',
+  'akquise/interessenabwaegung-o8.md',
+  'fund/wettbewerbsbild.md',
+  'handel/preismodell-optionen.md',
 ];
 
 const lies = (p) => fs.readFileSync(path.join(REPO, p), 'utf8');
@@ -55,7 +63,16 @@ function norm(s) {
 //  (3) Schraegstrich + Whitespace -> Schraegstrich (gleicher Grund).
 //  (4) NBSP -> Leerzeichen (erste replace-Zeile).
 
-const poolText = POOL.map((p) => norm(lies(p))).join('\n@@@\n');
+// Manche Dokumente sind zugleich ZIEL (ihr eigener Wortlaut wird geprueft)
+// und POOL (nachgelagerte Dokumente zitieren sie). Beim Vergleich eines
+// Zieldokuments muss sein eigener Pool-Anteil deshalb entfallen; andernfalls
+// bestaetigt jede Datei ihre eigenen Zitate und der Kanal ist blind.
+const poolTexte = new Map(POOL.map((p) => [p, norm(lies(p))]));
+const poolTextFuer = (ziel) => POOL
+  .filter((p) => p !== ziel)
+  .map((p) => poolTexte.get(p))
+  .join('\n@@@\n');
+const poolText = POOL.map((p) => poolTexte.get(p)).join('\n@@@\n');
 
 // Zitate: alles zwischen deutschen Anfuehrungszeichen, mind. 25 Zeichen
 // (kuerzere sind fast immer eigene Begriffe wie "streitig", keine Quellenzitate).
@@ -66,7 +83,14 @@ function zitate(text) {
   const out = [];
   const re = /„([^"„]{25,})"/g;
   let m;
-  while ((m = re.exec(text)) !== null) out.push(m[1]);
+  let letztePosition = 0;
+  let zeile = 1;
+  while ((m = re.exec(text)) !== null) {
+    const dazwischen = text.slice(letztePosition, m.index);
+    zeile += (dazwischen.match(/\n/g) || []).length;
+    out.push({ text: m[1], zeile });
+    letztePosition = m.index;
+  }
   return out;
 }
 
@@ -101,27 +125,6 @@ const EIGEN = [
   ['je Quelldatei einer — 7/7', 'zitierte Fehlerfassung im Reparaturvermerk (Befund P-04, R08-A)'],
   ['Der erste Versand bleibt gesperrt.', 'zitierte Vorfassung im Reparaturvermerk (Befund Q-04, R9)'],
   ['Für die Kaltkontakt-Liste offen (§ 10, O-2)', 'zitierte Vorfassung im Reparaturvermerk (O-2-Entscheid 12.08.2026)'],
-  // Zitat aus einer Primaerquelle AUSSERHALB des Pools: Der LG-Volltext liegt
-  // in sensibel/rohbelege-R09-A/ (git-ignoriert) und kann nicht in den Pool.
-  // ACHTUNG Strukturgrenze: Fuer solche Zitate leistet dieses Skript KEINE
-  // Pruefung -- die Verifikation ist R09-A (am Rohbeleg), nicht dieser Lauf.
-  ['bereits vor dem ersten Verarbeitungsschritt in die Wege geleitet sein', 'Zitat LG Duesseldorf 38 O 243/23 Rn. 87 - Primaerquelle ausserhalb des Pools, am Rohbeleg durch R09-A verifiziert'],
-  // --- Nachtrag 13.08.2026 abends (Leitsession, R13-Review, PB-2-Disposition) ---
-  // Die sieben Zitate der B-1..B-7-Uebernahme (R13-B) stammen aus der
-  // DSK-Orientierungshilfe Direktwerbung bzw. O-8 - beide ausserhalb des Pools
-  // (DSK-OH liegt in sensibel/; Pool-Erweiterung um interessenabwaegung-o8.md
-  // ist laut O-12 ein eigener Zuschnitt, kein Nebenbei-Fix). Verifikation:
-  // wortgleich gegen O-8 Paragraph 10 (dort DSK-Zitate mit Belegstufe ① A)
-  // durch den R13-B-Pruefer maschinell bestaetigt (9/9); die Zitiert-nach-Kette
-  // endet damit bei O-8 Paragraph 10, nicht an der DSK selbst - diese Grenze
-  // weist das Prueferprotokoll R13-B aus.
-  ['revisionsfeste Dokumentation der tatsächlich genutzten Texte mit Versionsnummer', 'DSK Ziff. 2.1 (B-5), zitiert nach O-8 Paragraph 10 - Primaerquelle ausserhalb des Pools, R13-B-Pruefer 9/9'],
-  ['Wer eine E-Mail-Adresse bereitstellt, muss durch technisch-organisatorische Maßnahmen gewährleisten, dass E-Mails, die sich auf Betroffenenrechte beziehen, entweder nicht im Spam-Ordner landen oder dort jedenfalls dennoch umgehend zur Kenntnis genommen werden (Art. 24 DS-GVO)', 'DSK Ziff. 5.3 / TOM-Kopplung Q-06 (B-2), zitiert nach O-8 Paragraph 10'],
-  ['Im Sinne des Erleichterungsgebots nach Art. 12 Abs. 2 S. 1 DS-GVO ist für die Einlegung des Werbewiderspruchs auch eine elektronische Kommunikationsmöglichkeit anzubieten', 'DSK Ziff. 5.3 (B-2), zitiert nach O-8 Paragraph 10'],
-  ['das konkrete Werbevorhaben', 'O-8 Paragraph 1.3 (B-6-Kontext), zitiert nach O-8 - ausserhalb des Pools'],
-  ['möglichst genau zu benennenden kurzen Zeitraum[s]', 'DSK Ziff. 5.4 (B-3), zitiert nach O-8 Paragraph 10'],
-  ['ausdrücklich und allein eine Löschung aller Daten aus der Werbesperrdatei', 'DSK Ziff. 5.1 (B-4, enger Sperrdatei-Scope Q-07), zitiert nach O-8 Paragraph 10'],
-  ['eventuell wieder Werbung erhalten kann', 'DSK Ziff. 5.1 (B-4), zitiert nach O-8 Paragraph 10'],
 ];
 const eigenSet = new Set(EIGEN.map(([s]) => norm(s)));
 
@@ -134,19 +137,33 @@ let eigenTreffer = 0;
 // obwohl nichts fehlte (Fehlerklasse L-26/Erfolgsbedingung; Fix 12.08.2026).
 const eigenGetroffen = new Set();
 const fehlend = [];
+const dateiStatistik = [];
 for (const datei of ZIEL) {
   const roh = lies(datei);
-  for (const z of zitate(roh)) {
+  const vergleichsPool = poolTextFuer(datei);
+  const statistik = { datei, gesamt: 0, bestaetigt: 0, eigen: 0, fehlend: 0 };
+  for (const fund of zitate(roh)) {
+    const z = fund.text;
     gesamt++;
+    statistik.gesamt++;
     const n = norm(z);
-    if (poolText.includes(n)) continue;
-    if (eigenSet.has(n)) { eigenTreffer++; eigenGetroffen.add(n); continue; }
-    fehlend.push({ datei, zitat: n });
+    if (vergleichsPool.includes(n)) { statistik.bestaetigt++; continue; }
+    if (eigenSet.has(n)) {
+      eigenTreffer++;
+      statistik.eigen++;
+      eigenGetroffen.add(n);
+      continue;
+    }
+    statistik.fehlend++;
+    fehlend.push({ datei, zeile: fund.zeile, zitat: n });
   }
+  dateiStatistik.push(statistik);
 }
 // Eine deklarierte Ausnahme, die NIRGENDS mehr vorkommt, ist veraltet und
 // gehoert entfernt -- das bleibt ein Befund und wird unten ausgewiesen.
-const eigenVerwaist = EIGEN.map(([s]) => norm(s)).filter((n) => !eigenGetroffen.has(n));
+const eigenVerwaist = SELBSTTEST
+  ? []
+  : EIGEN.map(([s]) => norm(s)).filter((n) => !eigenGetroffen.has(n));
 
 // --- Positivkontrolle je Kanal (ein Anker, der treffen MUSS) -----------------
 const MUSS = [
@@ -167,6 +184,9 @@ const MUSS = [
   ['STATUS.md', 'Bei Widerspruch STATUS.md'],
   ['baseline-messplan 5', 'Rückwärtsrechnung vom Livegang'],
   ['CLAUDE.md', 'Internorga Hamburg (März)'],
+  ['O-8 Interessenabwaegung', 'das konkrete Werbevorhaben'],
+  ['Wettbewerbsbild Teil A', 'Wer baut dieselbe Technik?'],
+  ['Preismodell Optionen', 'Eine fünfte Bedingung neben AU-1…AU-4, und sie trifft den KUNDEN'],
 ];
 // --- Gegenrichtung: darf NICHT treffen (sonst ist der Vergleich blind) -------
 const TREFFEN_NICHT = [
@@ -184,11 +204,16 @@ if (eigenVerwaist.length) {
   for (const v of eigenVerwaist) console.log('    - ' + v);
 }
 console.log('Quellenzitate bestaetigt: ' + (gesamt - fehlend.length - eigenTreffer) + ' / ' + (gesamt - eigenTreffer));
+console.log('\n--- Laufzahlen je Zieldatei ---');
+for (const s of dateiStatistik) {
+  console.log(s.datei + ': ' + s.gesamt + ' geprueft | ' + s.bestaetigt
+    + ' bestaetigt | ' + s.eigen + ' eigene | ' + s.fehlend + ' nicht im Pool');
+}
 console.log('\n--- Ausnahmeliste: eigene Formulierungen, KEINE Quellenzitate ---');
 for (const [s, grund] of EIGEN) console.log('  * "' + s + '"  -> ' + grund);
 if (fehlend.length) {
   console.log('\n--- NICHT im Pool gefunden (einzeln zu bewerten) ---');
-  for (const f of fehlend) console.log('[' + f.datei + '] ' + f.zitat);
+  for (const f of fehlend) console.log('[' + f.datei + ':' + f.zeile + '] ' + f.zitat);
 }
 
 // --- BLOCKZITATE ---------------------------------------------------------
@@ -269,11 +294,11 @@ if (SELBSTTEST) {
   // Rueckbau-Gegenprobe des EXTRAKTIONS-Pfades: Ohne sie meldet ein Muster,
   // das gar nicht treffen kann, ein sauberes "0 Abweichungen".
   const bestaetigt = gesamt - fehlend.length - eigenTreffer;
-  const ok = gesamt === 8 && bestaetigt === 4 && fehlend.length === 4;
+  const ok = gesamt === 16 && bestaetigt === 8 && fehlend.length === 8;
   console.log('\n=== SELBSTTEST ===');
-  console.log('Zitate extrahiert : ' + gesamt + ' (erwartet 8)');
-  console.log('davon bestaetigt  : ' + bestaetigt + ' (erwartet 4 - T1..T4)');
-  console.log('davon gemeldet    : ' + fehlend.length + ' (erwartet 4 - F1..F4)');
+  console.log('Zitate extrahiert : ' + gesamt + ' (erwartet 16)');
+  console.log('davon bestaetigt  : ' + bestaetigt + ' (erwartet 8 - T1..T8)');
+  console.log('davon gemeldet    : ' + fehlend.length + ' (erwartet 8 - F1..F8)');
   console.log(ok ? 'SELBSTTEST BESTANDEN' : 'SELBSTTEST FEHLGESCHLAGEN');
   process.exit(ok && pk === MUSS.length && gp === TREFFEN_NICHT.length ? 0 : 1);
 }

@@ -19,6 +19,20 @@ T3 (Regionalstatistik § 4.4, prüft Sonderzeichen ÷ und Ziffern):
 T4 (Rechtsmatrix A7, prüft Bindestrich-über-Umbruch): „Der Grad der
 Belästigung ist bei einer Werbung per Post jedoch gering."
 
+T5 (neues ZIEL O-8, Quelle Rechtsmatrix): „Rechtswidrige Werbung ist
+kein berechtigtes Interesse. Die UWG-Prüfung steht VOR der Abwägung,
+nicht daneben."
+
+T6 (neues ZIEL Wettbewerbsbild, Quelle Positionierungspapier): „Kein
+Wettbewerber im untersuchten Feld bündelt das identisch"
+
+T7 (neues ZIEL Rechtsmatrix, Quelle O-8): „Art. 21 Abs. 4 ist im Tenor
+des Urteils nicht enthalten — er trägt dort die Art.-6-Prüfung"
+
+T8 (neues ZIEL Angebotsarchitektur, Quelle Preismodell): „Einrichtung
+Server/Instanz, Workflows importieren, Credentials, Property-Setup,
+Raten, Tests, Schulung, Übergabedoku"
+
 ## TREFFEN-NICHT — müssen als NICHT gefunden gemeldet werden
 
 F1 (verfälschte Zahl — eine Ziffer geändert): „eigene, dauerhaft
@@ -33,4 +47,16 @@ berechtigtes Interesse dokumentiert ist."
 
 F4 (echtes Zitat, aber aus einer Quelle AUSSERHALB des Pools — prüft,
 dass der Pool nicht versehentlich das halbe Repo umfasst):
-„Dieser Satz steht in keiner der acht Quellendateien des Pools."
+„Dieser Satz steht in keiner der elf Quellendateien des Pools."
+
+F5 (Gegenrichtung für neues ZIEL O-8 — Rechtsfolge verkehrt):
+„Rechtswidrige Werbung begründet stets ein berechtigtes Interesse"
+
+F6 (Gegenrichtung für neues ZIEL Wettbewerbsbild — Alleinstellung
+erfunden): „Jeder Wettbewerber im untersuchten Feld bündelt das identisch"
+
+F7 (Gegenrichtung für neues ZIEL Rechtsmatrix — Tenor verfälscht):
+„Art. 21 Abs. 4 ist als Verbot im Tenor des Urteils enthalten"
+
+F8 (Gegenrichtung für neues ZIEL Angebotsarchitektur — Leistungsumfang
+verfälscht): „Einrichtung ohne Tests, Schulung und Übergabedokumentation"

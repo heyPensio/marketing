@@ -98,11 +98,65 @@ namentlich benannt.
 | ④-Ableitung „Rabatt wirkt nicht auf S2 / nicht auf § 2-Zeilen" | Das Protokoll **schweigt** dazu; Belegstufe bleibt ④, nicht durch AA-8 mitentschieden |
 | **Spanne 1.500–2.500 €** und alle vier Vorbehalte (§ 5 Preisliste) | Keine Höhe war Gegenstand der Erhebung; die Spanne ist unberührt |
 
+## 4a. 📌 NACHTRAG nach dem Prüferlauf — die Probe hatte eine Lücke, die der Prüfer gefunden hat
+
+⭐ **Der schwerste Befund des Prüferlaufs (P-01) lag im Suchraum dieser
+Probe und wurde von ihr NICHT gefunden.** Der Prüfer hat das
+ausdrücklich vermerkt, und er hat recht: Meine acht Muster (`S4`,
+`rabatt`, `startgebühr`, `paket`, `P-B`, `reifegrad`, `staffel`,
+`deckel`) enthalten **kein Muster für den ÜBERGABE-Status** — die
+falsche Aussage „Z-4 … ist nicht übergeben" enthält keines der acht
+Wörter. **Die Geltungsgrenze in § 5 beschrieb diesen Fall exakt
+vorher** („eine sachliche Abweichung, die keines dieser acht Wörter
+enthält, findet sie nicht") — sie hat den Ausfall angekündigt, aber
+nicht verhindert. **Eine korrekt ausgewiesene Grenze ersetzt das
+fehlende Muster nicht.**
+
+**Nachgezogener Lauf (nach der Befund-Disposition):**
+
+| Muster (`-i`) | `angebotsarchitektur.md` | `preisliste-vorlaeufig.md` |
+|---|---:|---:|
+| `übergeben` | 17 | 7 |
+| `übergabe` | 1 | 0 |
+| `Z-4` | 9 | 3 |
+| `Z-1` | 11 | 4 |
+| `Z-7` | 6 | 8 |
+
+**Jede der 10 Fundstellen mit „nicht übergeben / Übergabe steht aus"
+wurde einzeln gelesen.** Ergebnis:
+- **7 Stellen** sind entweder mein eigener Reparatur-/Nachtragstext
+  oder tragen bereits einen Vorwärtsverweis ✔
+- **1 Stelle** ist sachlich weiterhin richtig: Angebotsarchitektur § 6,
+  Widerspruch 3 — „**Z-5** (Zentrale), nicht übergeben"; Z-5 ist
+  tatsächlich **nicht** als eigene StB-Frage geführt ✔
+- **2 Stellen** waren echte Restlücken und wurden geschlossen:
+  Angebotsarchitektur § 2 „Konsequenz Terminpfad" (= Prüferbefund
+  **P-03**) und **Preisliste Kopfkasten, Eintrag „Vertrags-, Rechts-
+  und Steuerfragen"** — letztere ist ein **eigener Fang dieses
+  nachgezogenen Laufs**, sie stand in keinem Prüferbefund.
+
+**Lehre für die Musterwahl:** Die Muster dieser Probe kamen aus den
+**entschiedenen Größen** (was hat sich geändert?). Der Fehler saß
+aber in einer **Bestandsaussage über einen Dritten** — eine Kategorie,
+die kein Entscheid berührt und die deshalb in der Musterliste fehlte.
+**Wer prüft, ob ein Dokument sich selbst widerspricht, braucht Muster
+für BEIDE Achsen: die geänderten Größen UND die Statusaussagen über
+fremde Träger**, weil neu geschriebener Text genau dort unbelegte
+Behauptungen einbaut.
+
 ## 5. Ergebnis
 
-**Kein verbleibender Selbstwiderspruch in oder zwischen beiden
-Dokumenten gefunden** — Stand: Arbeitsbaum vor dem Commit,
-Prüfumfang: die acht Muster oben über beide Dateien vollständig.
+⚠️ **Diese Aussage stand hier in ihrer Erstfassung als Entwarnung und
+war zu breit** — der Prüferlauf hat danach **zwei** Selbstwidersprüche
+im Suchraum gefunden, die diese Probe nicht fangen konnte (P-01, P-03),
+und der nachgezogene Lauf (§ 4a) eine dritte Stelle. **Korrigierte
+Fassung:**
+
+**Nach den acht Mustern des Erstlaufs plus den fünf nachgezogenen
+Mustern (§ 4a) ist kein verbleibender Selbstwiderspruch bekannt** —
+Stand: Arbeitsbaum nach der Befund-Disposition, geschlossen sind
+SW-1…SW-4 (Erstlauf), P-01/P-03 (Prüfer) und die Kopfkasten-Stelle
+der Preisliste (Nachlauf).
 
 ⚠️ **Was diese Probe NICHT leistet** (Geltungsgrenze, nicht
 Entwarnung): Sie prüft die **entschiedenen Größen** an ihren

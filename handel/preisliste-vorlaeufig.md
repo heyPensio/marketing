@@ -31,6 +31,28 @@
 > erhoben** · **E-7 steht aus**. Die Entscheide sind sämtlich
 > **Struktur- und Zuordnungsentscheide**, keine Beträge.
 >
+> ⚠️ **Und der Strukturvorbehalt ist DOPPELT, nicht einfach**
+> *(ergänzt nach Prüferbefund P-16)*: Neben **Z-6/n8n** steht
+> **gleichrangig die Vapi-Kollision K04** („Kunde pflegt nie ein
+> Vapi-Konto" ↔ Durchreichung an den Kunden) — § 2 dieser Datei stellt
+> das ausdrücklich fest, und die **Vertragspartner-Frage (Z-5)** hängt
+> daran. Beide laufen in derselben Klärung (**E-4**,
+> Ruffy/heypensio, ohne Kalendertermin). Die Erstfassung dieses
+> Nachtrags nannte nur Z-6 — genau die Verkürzung, die R12 in dieser
+> Datei schon einmal gefunden hatte.
+>
+> ⚠️ **Eine weitere Formulierung im Kasten darunter ist überholt**
+> *(eigener Fang beim Nachziehen des Prüfmusters „übergeben", das der
+> Selbstwiderspruchs-Probe zunächst gefehlt hatte)*: Der Eintrag
+> „**Vertrags-, Rechts- und Steuerfragen** (Z-1…Z-7, Zulieferung an
+> die Zentrale — **bislang nicht übergeben**)" stimmt so nicht mehr.
+> Richtig ist **teilübergeben**: Die StB-Fragenliste führt seit dem
+> 13.08. unter Frage 13 die Punkte **Z-2 (a) · Z-4 (b) · Z-1 (c) ·
+> Z-7 (d)** sowie E-5a (e) und die Verbund-Definition (f); **nicht als
+> eigene StB-Frage geführt sind Z-3, Z-5, Z-6** (Z-5/Z-6 laufen bei
+> heypensio, E-4). ⚠️ **Übergeben ist nicht beantwortet** — der
+> StB-Termin steht aus. Einzelnachweis: § 6-Nachtrag.
+>
 > ⚠️ **Eine Abgrenzung im Kasten darunter ist damit überholt:** Der
 > Eintrag „Nicht Teil dieser Datei" führt „Leistungspakete und die
 > ausgearbeitete Mehrhaus-Rabatt-Mechanik … **Diese Liste benennt den
@@ -41,6 +63,26 @@
 > Katalog-Grenze) und die ausgearbeiteten Abwägungen gehören weiterhin
 > in `handel/angebotsarchitektur.md`; diese Liste führt die
 > **Preiswirkung**, nicht die Angebotsstruktur.
+>
+> > **🔧 Reparatur nach Prüferbefund P-02 (mittel) — eine Löschung, die
+> > dem eigenen Nachtragstext widersprach:** Der Kasten oben behauptet
+> > „*der Kopfkasten darunter bleibt unverändert stehen*" —
+> > tatsächlich hatte diese Session dabei die **Überschrift** des
+> > Kopfkastens (`⚠️ Status und vier Vorbehalte (bitte zuerst lesen)`)
+> > **ersetzt, statt sie darunter wiederherzustellen.** Es war die
+> > **einzige Löschung** der ganzen Datei in `d90edb3`: Die Vorbehalte
+> > 1–4 und „Nicht Teil dieser Datei" hingen dadurch im selben
+> > Blockquote unter der NACHTRAG-Überschrift, und die Leseanweisung
+> > „bitte zuerst lesen" war ersatzlos entfallen — während zwei
+> > Stellen weiter auf „die **vier Vorbehalte** unten/oben" verwiesen.
+> > **Die Überschrift steht jetzt wieder an ihrem Platz** (direkt
+> > unten), der Nachtrag ist als eigener Kasten davor abgesetzt.
+> > *(Die Angebotsarchitektur hatte dieselbe Stelle richtig gebaut —
+> > Nachtrag ÜBER der erhaltenen Überschrift. Gefunden hat der Prüfer
+> > das nicht am Text, sondern über die **Löschungszählung**: 1 von
+> > 199 geänderten Zeilen.)*
+
+> ## ⚠️ Status und vier Vorbehalte (bitte zuerst lesen)
 >
 > **1. Status: VORLÄUFIG und INTERN.** Diese Datei setzt die
 > Entscheide E-1, E-2, E-2a und E-3 vom 13.08.2026
@@ -429,9 +471,15 @@ viele Rechtsträger dahinterstehen. **Entschieden ist das nicht.**
 > nicht erledigt:** Die Zuordnung steht (Betreiber), die dafür nötige
 > **Verbund-Definition** steht **nicht**. Sie ist als StB-Punkt
 > übergeben — `<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md`,
-> **Frage 13 (f)** (① selbst gelesen 13.08.2026): „Wann gelten mehrere
-> Häuser verschiedener Firmierungen als EIN Betreiber … der Rabatt
-> braucht eine missbrauchsfeste, prüfbare Klammer." **Übergeben ist
+> **Frage 13 (f)** (**② BESTAND** — Repo-Dokument des Nachbar-Repos,
+> Stand 13.08.2026; **Leseweg:** von R13-A selbst am Original gelesen.
+> *Belegstufe von ① korrigiert nach Prüferbefund P-04 — „selbst
+> gelesen" ist der LESEWEG, nicht die Quellenart*): „Wann gelten
+> mehrere Häuser verschiedener Firmierungen als EIN Betreiber
+> (Gesellschafter-Identität? Familienverbund? faktische
+> Geschäftsführung?) — der Rabatt braucht eine missbrauchsfeste,
+> prüfbare Klammer." *(Zitat vervollständigt nach P-11 — die
+> Erstfassung kürzte die Klammer mit „…" weg.)* **Übergeben ist
 > nicht beantwortet** — bis zum StB-Rücklauf gibt es keine
 > vertragsfeste Klammer, und die im Vorschlagsabsatz mitschwingende
 > Begründung („weniger Einarbeitung je Haus") bleibt **④ ungemessen**
@@ -685,12 +733,37 @@ vorgesehene spätere Verschiebung wirkt in die Gegenrichtung.
 >
 > ⚠️ **2. Die Je-Haus-Entscheidung hat eine Kehrseite, die im
 > Marktvergleich nicht steckt:** Bei einem Mehrhaus-Betreiber
-> multipliziert sich S4 (**×n Häuser**). Die Marktanker der Tabelle
-> § 5.1 sind ganz überwiegend **je Kunde/Projekt** erhoben, nicht je
-> Objekt — **ein Vergleich „unsere 2.000 € gegen deren 1.920 €" ist
-> für einen Drei-Haus-Interessenten also nicht der Vergleich, den er
-> anstellt.** Das ist **④ Einordnung dieser Session**, kein neuer
-> Marktbefund und keine Aufforderung, die Spanne zu senken.
+> multipliziert sich S4 (**×n Häuser**). **Ob die Marktanker der
+> Tabelle § 5.1 je Objekt oder je Kunde/Projekt gemeint sind, ist
+> überwiegend NICHT ERHOBEN** — Zählweg an der Scope-Spalte von § 5.1,
+> 12 Zeilen: **ausdrücklich objektbezogen 2** (M4 „je Website" · M3
+> „je Haus") · **ausdrücklich projekt-/kundenbezogen 3** (W1 „hängt von
+> Anzahl und Komplexität der Workflows ab" · W4 · W6 — ⚠️ **W4/W6
+> gehören zur Klasse B, die § 5.2 aus der Kernmenge ausschließt**) ·
+> **ohne Bezugsangabe 7** (W2, W3, W5, M2, M6, Straiv, M1). **Für
+> einen Mehrhaus-Interessenten ist unser Angebotspreis damit
+> möglicherweise ein Vielfaches dessen, was er beim Vergleich sieht —
+> belegt ist das nicht.** Das ist **④ Einordnung dieser Session**,
+> kein Marktbefund und keine Aufforderung, die Spanne zu senken.
+>
+> > **🔧 Reparatur nach Prüferbefunden P-06 + P-07 (beide mittel):**
+> > (a) Die Erstfassung behauptete, die Marktanker seien „**ganz
+> > überwiegend je Kunde/Projekt** erhoben, nicht je Objekt" — eine
+> > **Mengenaussage ohne Zählweg**, die die eigene Scope-Spalte nicht
+> > trägt: Ausdrücklich je Projekt sind **3 von 12** Zeilen, zwei
+> > davon aus der ausgeschlossenen Klasse B, und **zwei Zeilen sagen
+> > ausdrücklich das Gegenteil**. Ersetzt durch den Zählweg und den
+> > richtigen Befund: Der Bezug ist bei 7 von 12 **gar nicht
+> > angegeben**. Die Richtung des Fehlers war nicht eigennützig — die
+> > Klasse ist es trotzdem (④-Marke stand an der Folgerung, nicht an
+> > der Prämisse).
+> > (b) Die Erstfassung illustrierte mit „**unsere 2.000 €** gegen
+> > deren 1.920 €". **Gestrichen, nicht abgeschwächt:** Das wäre der
+> > erste konkrete eigene Preisbetrag dieser Datei gewesen — genau
+> > das, was ihr eigener § 3 verbietet („ein plausibel aussehender
+> > Beispielbetrag würde beim nächsten Weiterverwenden als Preis
+> > gelesen"). Die Regel steht dort an einer Tabelle; die Gefahr ist
+> > im Fließtext dieselbe.
 >
 > **3. Genau dort greift AA-8 — und genau dort arbeitet er gegen
 > E-1.** Der Mehrhaus-Rabatt wirkt seit dem 13.08. **auch auf S4** (ab
@@ -819,18 +892,21 @@ wird, sieht in einer Spanne wie eine Obergrenze aus.
 | **Pilot** (inkl. LEANE) | **kostenlos**, E-5/E-5a — diese Liste gilt für ihn **nicht** | offen bleibt, **wie** die unentgeltliche Leistung gegenüber der dritten Rechtsträgerin dokumentiert wird |
 | **Vertragsfragen Z-1…Z-5** | **offen**, kein Träger benannt | Zentrale (Postkorb), Übergabe steht aus |
 
-> ### 📌 NACHTRAG 13.08.2026 nachmittags (R13-A) — drei Zeilen dieser Tabelle haben einen neuen Stand
+> ### 📌 NACHTRAG 13.08.2026 nachmittags (R13-A) — vier Zeilen dieser Tabelle haben einen neuen Stand
 > *(markierter Nachtrag; die Tabelle oben bleibt unverändert)*
 >
 > | Zeile | Neuer Stand |
 > |---|---|
 > | **Höhe und Mechanik des Mehrhaus-Rabatts** | **geteilt:** Die **Mechanik ist entschieden** (AA-1 Betreiber · AA-5 ab Haus 2 · AA-6 fester Prozentsatz · AA-7 ohne Deckel · AA-8 wirkt auch auf S4) — s. § 4-Nachtrag. **Die HÖHE bleibt offen**, Entscheider ist der **USER** nach E-6. Der Zusatz „zuerst die Zuordnungsfrage" ist **erledigt** |
 > | **Leistungspakete / Paket vs. Baukasten (A2)** | **P-B als ZIELBILD** (AA-2) — ⚠️ **endgültige Festlegung erst nach E-7**; P-A und P-C bleiben lebende Optionen. Die Zeile bleibt also **nicht abschließend entschieden** |
-> | **Vertragsfragen Z-1…Z-5** | **teilübergeben** — die StB-Fragenliste der Zentrale führt seit dem 13.08. unter **Frage 13**: Z-2 (a) · Z-4 (b) · Z-1 (c) · Z-7 (d) · E-5a (e) · **Verbund-Definition (f)**, Herkunftsvermerk dort „NEU 13.08., MKT-R12-Postkorb" (① selbst gelesen 13.08.2026, `<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md`). **Nicht als eigene StB-Frage geführt: Z-3, Z-5, Z-6** — Z-5/Z-6 laufen bei heypensio (E-4). ⚠️ **Übergeben ist nicht beantwortet:** Der StB-Termin steht aus. Die Formulierungen „Übergabe steht aus" / „nicht übergeben" in dieser Tabelle, im Kopfkasten und in `preismodell-optionen.md` § 10 sind insoweit **überholt** — die Quelle nachzuziehen liegt außerhalb des R13-A-Scopes (**Nebenbefund an die Leitsession**) |
+> | **Vertragsfragen Z-1…Z-5** | **teilübergeben** — die StB-Fragenliste der Zentrale führt seit dem 13.08. unter **Frage 13**: Z-2 (a) · Z-4 (b) · Z-1 (c) · Z-7 (d) · E-5a (e) · **Verbund-Definition (f)**. Herkunftsvermerk im **Kopf** von Frage 13: „NEU 13.08., MKT-R12-Postkorb" — er deckt (a)–(e); **(f) trägt einen eigenen: „NEU 13.08. nachmittags, AA-1-Entscheid ‚je Betreiber'"** *(präzisiert nach Prüferbefund P-12; (f) ist NACH dem AA-1-Entscheid entstanden — was den „erledigt"-Vermerk stützt)*. Beleg: **② BESTAND**, `<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md`, Leseweg „von R13-A selbst gelesen 13.08.2026" *(Belegstufe von ① korrigiert, P-04)*. **Nicht als eigene StB-Frage geführt: Z-3, Z-5, Z-6** — Z-5/Z-6 laufen bei heypensio (E-4). ⚠️ **Übergeben ist nicht beantwortet:** Der StB-Termin steht aus. Die Formulierungen „Übergabe steht aus" / „nicht übergeben" in dieser Tabelle, im Kopfkasten und in `preismodell-optionen.md` § 10 sind insoweit **überholt** — die Quelle nachzuziehen liegt außerhalb des R13-A-Scopes (**Nebenbefund an die Leitsession**) |
+| **Steuerbasis unserer eigenen Preisangaben (Z-7)** | *(ergänzt nach Prüferbefund **P-15** — die Überschrift dieses Nachtrags nannte „drei Zeilen", tatsächlich sind es **vier**)* **teilübergeben:** Z-7 ist **Frage 13 (d)**. ⚠️ **Inhaltlich unverändert offen** — die Steuerbasis ist nicht entschieden; übergeben ist die Frage, nicht die Antwort |
 >
 > **Unverändert:** Preishöhe (F-III) offen · Architektur-Entscheid
 > nicht gefallen · **Z-6 ungeklärt** · K5/K6 nicht erhoben · B1/B2
-> nicht erhoben · Steuerbasis Z-7 offen · Pilot kostenlos.
+> nicht erhoben · **Steuerbasis Z-7 inhaltlich offen** (nur der
+> ÜBERGABE-Stand hat sich geändert, s. Zeile oben — P-15) · Pilot
+> kostenlos.
 
 ---
 

@@ -28,12 +28,27 @@
 > - **AA-2 ist ein ZIELBILD, keine endgültige Paketform-Festlegung**
 >   (endgültig erst nach E-7).
 >
-> **Nur diese beiden Formulierungen unten sind überholt:**
+> **Diese Formulierungen unten sind überholt:**
 > (a) „**nichts entschieden**" in Punkt 1 — richtig ist: **keine Höhe
 > entschieden, sieben Strukturpunkte entschieden**;
 > (b) die Aussage, die Zulieferung **Z-1…Z-7** sei „bislang nicht
 > übergeben" — sie ist **teilübergeben** (StB-Fragenliste Frage 13
-> (a)–(f); Einzelnachweis im Nachtrag zu § 7).
+> (a)–(f); Einzelnachweis im Nachtrag zu § 7);
+> (c) **§ 2, Lesart-A-Tabelle, Zeile „Konsequenz Terminpfad":** „die
+> Zentrale-Zulieferung (**bisher nicht übergeben**) wird dringlicher"
+> — **Z-1 ist Frage 13 (c), die Verbund-Definition Frage 13 (f).**
+> Die Zeile bleibt im Übrigen richtig: Die **Definition** wird vor dem
+> ersten Angebot mit Rabatt gebraucht und liegt nicht vor — übergeben
+> ist nicht beantwortet.
+>
+> > **🔧 Reparatur nach Prüferbefund P-03 (mittel):** Die Erstfassung
+> > schrieb „**Nur diese beiden** Formulierungen unten sind überholt"
+> > und machte damit aus einer unvollständigen Liste eine
+> > Vollständigkeitsaussage — die Stelle (c) fehlte. Das ist genau die
+> > Klasse, vor der dieses Dokument im § 1-Nachtrag selbst warnt.
+> > **„Nur" gestrichen, (c) ergänzt.** ⚠️ Auch die korrigierte Liste
+> > erhebt **keinen** Vollständigkeitsanspruch: Sie nennt, was diese
+> > Session gefunden hat.
 >
 > **Status bleibt ENTWURF** — ein Angebotsdokument entsteht daraus
 > erst nach der Firmierung.
@@ -292,11 +307,20 @@ die eigene ④/n=1-Beleglage in Richtung der eigenen Empfehlung.)*
 > **Die Folge, die Lesart A auslöst, ist bereits ERLEDIGT:** Die
 > **Verbund-Definition** ist als StB-Punkt an die Zentrale gegeben —
 > `<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md`,
-> **Frage 13 (f)** („Wann gelten mehrere Häuser verschiedener
-> Firmierungen als EIN Betreiber — Gesellschafter-Identität?
-> Familienverbund? faktische Geschäftsführung? … der Rabatt braucht
-> eine missbrauchsfeste, prüfbare Klammer"; ② BESTAND, gelesen
-> 13.08.2026 durch R13-A). **Keine neue Postkorb-Meldung nötig.**
+> **Frage 13 (f)** — dort im Wortlaut: „Wann gelten mehrere Häuser
+> verschiedener Firmierungen als EIN Betreiber
+> (Gesellschafter-Identität? Familienverbund? faktische
+> Geschäftsführung?) — der Rabatt braucht eine missbrauchsfeste,
+> prüfbare Klammer." **Belegstufe ② BESTAND** (Repo-Dokument des
+> Nachbar-Repos `zentrale`, Stand seines Datums 13.08.2026);
+> **Leseweg: von R13-A selbst am Original gelesen.** *(Zitat-Wortlaut
+> und Klammersetzung korrigiert nach Prüferbefund P-11 — die
+> Erstfassung hatte die Klammer zu einem Gedankenstrich umgeformt und
+> ein „…" gesetzt, wo die Quelle nichts auslässt. Belegstufe von ① auf
+> ② korrigiert nach P-04: ① ist der Primärquellen-Wert; die
+> StB-Fragenliste ist ein eigenes Repo-Dokument, und „selbst gelesen"
+> ist der LESEWEG, nicht die Quellenart — beide Achsen stehen jetzt
+> getrennt.)* **Keine neue Postkorb-Meldung nötig.**
 > ⚠️ **Erledigt ist die ÜBERGABE der Frage, nicht ihre BEANTWORTUNG:**
 > Solange der StB-Termin nicht stattgefunden hat, gibt es **keine
 > vertragsfeste Verbund-Definition** — der „Dagegen"-Pol der Lesart A
@@ -623,8 +647,21 @@ Firmierung und die Freigabe-Regeln für Außentexte.*
 > Arbeit"-Module mit sichtbarer Kennzeichnung** erweitert (gedeckt);
 > die § 3-Zeile „geparkt/geplant" bleibt **geschlossen**, weil die
 > Deckung dort nicht feststeht. Das ist die vorsichtige, nicht die
-> entschiedene Lesart — **die Randfrage gehört dem User vorgelegt**
-> (kein Träger außerhalb).
+> entschiedene Lesart — sie setzt den Katalog damit **enger, als der
+> Protokollwortlaut ihn zieht** („auch GEPLANTE … dürfen angeboten
+> werden"), und ist deshalb eine **Arbeitsregel dieser Session, kein
+> Entscheid**.
+>
+> ⚠️ **WIEDERVORLAGE-ORT der Randfrage** *(ergänzt nach Prüferbefund
+> P-14 — die Erstfassung schrieb „gehört dem User vorgelegt (kein
+> Träger außerhalb)" und ließ die Frage damit ohne Ankunftsstelle,
+> dieselbe Lücke, die der AA-4-Kasten bei sich selbst ausdrücklich
+> benennt)*: Die Frage geht **mit den offenen Punkten dieser Runde an
+> den User** — zusammen mit **AA-4**, dem einzigen unbeantworteten
+> AA-Punkt, und ist in der Abschlussmeldung R13-A als offener Posten
+> geführt. **Wer die § 3-Sammelzeile öffnen will, braucht vorher zwei
+> Dinge:** die Antwort des Users **und** die Auftrennung der Zeile je
+> Modul an der Quelle (`fund/positionierungspapier.md` § 6).
 >
 > **Quelle/Datum/Form:** Briefing-Dialog **13.08.2026 nachmittags**,
 > Dropdown + Freitext, **sinngemäß — Wortlaut nicht archiviert**
@@ -796,15 +833,42 @@ anderer Darstellung): _____
 > Hauses. **Die Staffel bleibt eine spätere Option** — sie ist nicht
 > verworfen, sondern zurückgestellt.
 >
-> ⚠️ **Ausdrücklich mitentschieden ist das Wechsel-FENSTER, und es
-> schließt sich von selbst:** Ein Wechsel auf die Staffel ist **vor dem
-> ersten Bestandskunden frei** — **danach ist er ein Z-4-Fall**
-> (Preisänderung im laufenden Vertrag,
-> `preismodell-optionen.md` § 10; Z-4 liegt bei der Zentrale/StB und
-> ist **nicht übergeben**). Praktische Folge: Wer die Staffel je will,
-> entscheidet sie **vor dem ersten Abschluss** — nicht „irgendwann
-> später". Der November-Anker (erster zahlender Kunde) ist damit
-> zugleich die **Frist dieses Fensters**.
+> ⚠️ **Das Wechsel-FENSTER schließt sich von selbst:** Ein Wechsel auf
+> die Staffel ist **vor dem ersten Bestandskunden frei** — **danach ist
+> er ein Z-4-Fall** (Preisänderung im laufenden Vertrag; so ausdrücklich
+> `preismodell-optionen.md` § 10, 🟢-Nachtrag: die Verschiebung „**IST
+> eine solche Preisänderung, sobald sie den ersten Bestandskunden
+> trifft**"). Praktische Folge: Wer die Staffel je will, entscheidet
+> sie **vor dem ersten Abschluss** — nicht „irgendwann später".
+>
+> > **🔧 Reparatur nach Prüferbefund P-01 (schwer) — zwei falsche
+> > Zusätze gestrichen, nicht abgeschwächt:**
+> > (a) Die Erstfassung dieses Kastens schrieb: „*Z-4 liegt bei der
+> > Zentrale/StB und ist **nicht übergeben***". **Das ist falsch.**
+> > Z-4 steht seit dem 13.08. als **Frage 13 (b)** in der
+> > StB-Fragenliste. Auch die genannte Fundstelle trug die Aussage
+> > nicht: `preismodell-optionen.md` § 10 sagt zu Z-4 „**nachrangig —
+> > nicht erledigt, aber ohne Auslöser**", nicht „nicht übergeben"
+> > (② selbst nachgemessen an `d90edb3:handel/preismodell-optionen.md`,
+> > Zeilen des 🟢-Nachtrags). Der Satz widersprach damit zugleich dem
+> > Kopf- und dem § 7-Nachtrag desselben Commits. **Aussage und
+> > Fundstelle waren beide falsch — beide gestrichen.**
+> > (b) Die Erstfassung schloss mit „*Der November-Anker (erster
+> > zahlender Kunde) ist damit zugleich die **Frist dieses
+> > Fensters***". **Gestrichen (nicht abgeschwächt):** Das Protokoll
+> > sagt nur „vor dem ersten Bestandskunden". Der November-Anker ist
+> > ein **Ziel** aus einer Rückwärtsrechnung, kein Zeitpunkt, zu dem
+> > der erste Bestandskunde feststeht — wird er verfehlt, bleibt das
+> > Fenster länger offen. Die Gleichsetzung war eine ④-Folgerung
+> > dieser Session in einem Kasten, der nur User-Entscheide führen
+> > darf.
+> > (c) Ebenfalls zurückgenommen: Die Überschrift des Absatzes lautete
+> > „**Ausdrücklich mitentschieden** ist das Wechsel-FENSTER". Ob der
+> > Klammerinhalt des Protokolls User-Äußerung oder Anmerkung der
+> > Briefing-Session ist, ist an der Quelle **nicht unterscheidbar** —
+> > „ausdrücklich mitentschieden" behauptete mehr, als sie hergibt.
+> > **Das Protokoll führt das Fenster in einer Klammer mit; genau so
+> > steht es jetzt hier.**
 >
 > **Was NICHT mitentschieden ist:** die **Höhe** des Prozentsatzes
 > (F-III, User nach E-6). Der eigene „Dagegen"-Pol der gewählten
@@ -1039,13 +1103,13 @@ ist nur der Zeiger, keine Zweitfassung):**
 
 | Punkt | Frage (Kurzform) | Steht in | Vorbedingung | **Stand 13.08.2026 nachmittags** |
 |---|---|---|---|---|
-| **☐ AA-1** | Rabatt-Zuordnung: Betreiber oder Firmierung? | § 2 | ~~zuerst beantworten~~ ✅ erfüllt — AA-5…AA-8 konnten folgen | ✅ **Lesart A: Betreiber** (Verbund-Klammer über Firmierungen). Verbund-Definition als StB-Punkt übergeben (Frage 13 (f)) — **übergeben, nicht beantwortet** |
+| **☐ AA-1** | Rabatt-Zuordnung: Betreiber oder Firmierung? | § 2 | ~~**zuerst beantworten** — vor AA-5…AA-8~~ ✅ erfüllt *(vollständige Durchstreichung der Vorfassung nachgeholt, Prüferbefund P-13 — die Erstfassung hatte den zweiten Halbsatz ersetzt statt durchgestrichen, während der Nachtrag darüber „kein Punkt wurde still umgeschrieben" behauptete)* | ✅ **Lesart A: Betreiber** (Verbund-Klammer über Firmierungen). Verbund-Definition als StB-Punkt übergeben (Frage 13 (f)) — **übergeben, nicht beantwortet** |
 | **☐ AA-2** | Paketform: Gesamtpaket / Basis+Module / Stufen | § 4 | — | ✅ **P-B als ZIELBILD** — ⚠️ **endgültige Festlegung erst nach E-7**; P-A/P-C bleiben lebende Optionen |
 | **☐ AA-3** | Katalog-Grenze: nur Gebautes oder mit Kennzeichnung? | § 4 | — | ✅ **auch geplante / in Entwicklung befindliche Module** — Reifegrad-Leitplanke bindend; ⚠️ Randfrage „deckt das GEPARKTE?" offen |
 | **☐ AA-4** | Beratungsachse: in S1, nach Aufwand oder Kontingent? | § 4 | Kayhan-Achse bleibt bis Vertrag nicht zusagefähig | ⬜ **OFFEN — einziger unbeantworteter Punkt.** User hat Kayhan gefragt, Antwort steht aus; kein Zeitanker |
 | **☐ AA-5** | Rabatt ab Haus 2 oder Haus 3? | § 5 | AA-1 | ✅ **ab dem 2. Haus** (Zählung je Betreiber, AA-1) |
 | **☐ AA-6** | Prozentsatz oder Staffel? | § 5 | AA-1 | ✅ **fester Prozentsatz**; Staffel bleibt spätere Option — Wechsel **nur bis zum ersten Bestandskunden** frei, danach Z-4-Fall |
-| **☐ AA-7** | Deckel ja/nein (Höhe erst nach E-6 bezifferbar) | § 5 | AA-1 | ✅ **ohne Deckel**, mit **Prüfposten nach der E-6-Messung** (Träger des Aufrufs: E-6-Rücklauf, ohne Termin) |
+| **☐ AA-7** | Deckel ja/nein (Höhe erst nach E-6 bezifferbar) | § 5 | AA-1 | ✅ **ohne Deckel**, mit **Prüfposten nach der E-6-Messung**. ⚠️ **AUSLÖSER ist der E-6-Rücklauf — ein TRÄGER ist nicht benannt** (der Posten verfällt, wenn ihn niemand übernimmt) *(korrigiert nach Prüferbefund P-10: Die Erstfassung schrieb „Träger des Aufrufs: E-6-Rücklauf" und ließ den Posten damit versorgt aussehen, während der ✅-Kasten in § 5 richtig sagt, dass der Träger fehlt)* |
 | **☐ AA-8** | Rabatt auch auf die Startgebühr S4? | § 5 | AA-1; inhaltlich sinnvoll erst nach E-6 | ✅ **JA**, ab Haus 2 desselben Betreibers — **bewusst gegen die Session-Empfehlung** (unternehmerische Abwägung); **Höhe beider Rabatte bis E-6 Hypothese** |
 
 ### So läuft es weiter
@@ -1081,7 +1145,7 @@ ist nur der Zeiger, keine Zweitfassung):**
 > | Punkt | Stand nach dem Entscheide-Protokoll 2 |
 > |---|---|
 > | 1. Antworten formlos, dann schriftlich im Repo | ✅ **so geschehen** — Erhebung im Briefing-Dialog 13.08. nachmittags (Dropdown + Freitext, sinngemäß), Festhaltung in den ✅-Kästen dieses Dokuments (R13-A) |
-> | 2. Entscheider ist der User | ✅ **bestätigt** — alle sieben Antworten kamen vom User; diese Session hat nichts entschieden, auch nicht dort, wo das Protokoll schweigt |
+> | 2. Entscheider ist der User | ✅ **bestätigt** — alle **acht** Antworten der Erhebung (sieben AA-Punkte **plus die S4-Klärfrage**) kamen vom User. **Diese Session hat keinen der neun Punkte entschieden.** ⚠️ **Zwei Einschränkungen, damit der Satz keine Entwarnung wird** *(nach Prüferbefund P-09)*: (a) Wo das Protokoll schweigt, hat sie **Arbeitsregeln gesetzt** — die vorsichtige AA-3-Lesart („Sammelzeile bleibt geschlossen") ist eine Festlegung, ausdrücklich als solche gekennzeichnet und dem User zur Klärung vorgelegt; (b) ein überschießender Zusatz im AA-6-Kasten (November-Anker als Frist) war eine eigene Folgerung und wurde **gestrichen** (P-05). Der ursprüngliche Nenner „alle sieben" stand hier neben „8 von 9" im selben Nachtrag und las sich als Widerspruch — beide Zahlen waren für sich richtig, jetzt steht der Bezug dabei |
 > | 3. AA-1 zuerst | ✅ **eingehalten** — AA-1 ist beantwortet (Lesart A), AA-5…AA-8 stehen darauf auf. ⚠️ **Der zweite Halbsatz gilt unverändert:** AA-8 und jeder Deckel-Betrag werden **inhaltlich erst nach E-6 belastbar** — der Entscheid ist gefallen, die Bezifferung nicht |
 > | 4. Textänderungen jetzt am billigsten | ⚠️ **weiterhin gültig, mit kleinerem Fenster** — für AA-6 zusätzlich hart terminiert: Der Wechsel zur Staffel ist **nur bis zum ersten Bestandskunden** frei (danach Z-4) |
 > | 5. Was an andere Träger geht | s. Zeilen darunter |
@@ -1090,7 +1154,9 @@ ist nur der Zeiger, keine Zweitfassung):**
 > - **Verbund-Definition (Lesart A):** ✅ **übergeben** — sie steht in
 >   der StB-Fragenliste der Zentrale als **Frage 13 (f)**
 >   (`<FIRMENWURZEL>\zentrale\stb-termin-fragenliste-2026-08.md`,
->   ① selbst gelesen 13.08.2026 durch R13-A). ⚠️ **Übergeben ≠
+>   **② BESTAND**, von R13-A selbst gelesen am 13.08.2026 — Quellenart
+>   und Leseweg getrennt, korrigiert nach Prüferbefund P-04).
+>   ⚠️ **Übergeben ≠
 >   beantwortet:** Der StB-Termin steht aus (Anruf war für den 13.08.
 >   als User-Handgriff angesetzt) — bis zum Rücklauf gibt es keine
 >   vertragsfeste Verbund-Klammer.
@@ -1117,6 +1183,25 @@ ist nur der Zeiger, keine Zweitfassung):**
 > QUELLE dieser Aussage (`preismodell-optionen.md` § 10) gehört im
 > selben Sinn nachgezogen und liegt außerhalb des R13-A-Scopes
 > (**Nebenbefund an die Leitsession**).
+>
+> ⚠️ **ZWEITER Nachzieh-Bedarf in derselben Quelle — und der ist der
+> gefährlichere** *(ergänzt nach Prüferbefund P-08; die Erstfassung
+> meldete nur den Übergabestand und las sich dabei wie eine
+> vollständige Liste)*: `preismodell-optionen.md` § 11, ✅-Kasten zu
+> **E-2**, führt weiterhin „**Die Höhe des Rabatts (Prozentsatz oder
+> Staffel) ist offen**" (② nachgemessen an `d90edb3`). **Die FORM ist
+> seit AA-6 entschieden** (fester Prozentsatz) — offen ist nur noch
+> die Höhe. Weil beide Ableitungsdokumente eine **Vorrangklausel**
+> tragen („bei Widerspruch gewinnen die Quellen"), **kehrt die
+> unveränderte Quelle den AA-6-Entscheid für jeden Leser wieder um**.
+> Das ist die Spiegelrichtung der Doku-Hygiene-Regel (L-25 /
+> MKT-R12-P-04): Wer in einer ABLEITUNG präzisiert, zieht die QUELLE
+> im selben Zug nach. **Der Edit liegt außerhalb des R13-A-Scopes —
+> beide Nachzieh-Bedarfe sind an die Leitsession gemeldet.**
+> *(Schwächerer Nachbarfall, hier nur benannt: § 11 ✅-E-2 und § 8
+> führen die **Modulfrage A2** als „nicht mitentschieden" — durch
+> AA-2 ist sie als **Zielbild** beantwortet, endgültig aber erst nach
+> E-7, die Quelle ist insoweit nicht falsch.)*
 
 ---
 

@@ -5,9 +5,13 @@
 > **1. Status: ENTWURF — nichts entschieden, nichts geht nach außen.**
 > Dieses Dokument ist eine **Struktur-Vorlage mit Entscheidungspunkten**
 > (AA-1…AA-8), kein Preisdokument und kein Angebot. Es setzt den
-> Entscheid **E-8** vom 13.08.2026 um („Angebotsarchitektur bauen —
-> intern, unter Firmierungs-Vorbehalt, ohne Außenversand";
-> `handel/preismodell-optionen.md` § 11 E-8).
+> Entscheid **E-8** vom 13.08.2026 um: Angebotsarchitektur bauen —
+> intern, unter Firmierungs-Vorbehalt, ohne Außenversand (sinngemäß
+> nach `handel/preismodell-optionen.md` § 11 E-8; der User-Wortlaut
+> ist nicht archiviert). *(Anführungszeichen entfernt nach
+> Prüferbefund PB-06: Die Erstfassung setzte den Satz als Zitat mit
+> Anker § 11, wörtlich stand er aber nur im Briefing-Protokoll —
+> Zitat und Anker gehören zusammen, L-01-Klasse.)*
 >
 > **2. Firmierungs-Vorbehalt.** Der Namensentscheid ist offen (Strang
 > MKT-MARKE). **Nichts aus dieser Datei geht nach außen** — kein
@@ -24,8 +28,12 @@
 > Vapi-Kollision K04** („Kunde pflegt nie ein Vapi-Konto" ↔
 > Durchreichung an den Kunden; `handel/preisliste-vorlaeufig.md` § 2,
 > Kasten „Wer ist eigentlich Vertragspartner?"). Kippt eine dieser
-> Fragen, kippen die Teile dieses Dokuments, die auf der
-> Übergabe-Erzählung ruhen (§ 6) — nicht nur einzelne Sätze.
+> Fragen, kippt die **Grundlage dieses Dokuments** — die
+> W-B-Preisstruktur, die alle Paketoptionen (§ 4) voraussetzen, und
+> die Übergabe-Erzählung (§ 6) — nicht nur einzelne Sätze.
+> *(Verbreitert nach Prüferbefund PB-08: Die Erstfassung verengte die
+> Kipp-Wirkung auf § 6, während § 4 auf derselben Grundlage ruht —
+> das eigene § 6 sagte es bereits richtig.)*
 >
 > **4. Beträge kommen hier nicht vor — mit Absicht.** Wo eine Höhe
 > berührt wird, verweist dieses Dokument auf die **Platzhalter und
@@ -112,7 +120,7 @@ Wortlaut nicht archiviert):**
 
 | Festlegung | Entscheid | Fundstelle |
 |---|---|---|
-| Vertragsform: monatlich kündbar + Startgebühr; erstes Jahr Startgebühr VERSTÄRKT, Monatsgebühr GERINGER | **E-1** | § 11 E-1 |
+| Vertragsform: monatlich kündbar + Startgebühr; erstes Jahr Startgebühr VERSTÄRKT, Monatsgebühr GERINGER — **und ausdrücklich mitentschieden: die spätere VERSCHIEBUNG** (Monatsanteil rauf, Startgebühr runter; die eigentliche User-Präferenz, als spätere Richtung vorgesehen) | **E-1** | § 11 E-1 *(Verschiebungs-Bestandteil ergänzt nach Prüferbefund PB-02 — die Erstfassung dieser Zeile las sich als vollständige E-1-Wiedergabe und war es nicht)* |
 | Bemessung: Grundgebühr + zimmerabhängiger Anteil | **E-2** | § 11 E-2 |
 | Bezugseinheit: **je Objekt/Haus** (nicht je Kunde/Betreiber, nicht je Firmierung) | **E-2a** | § 11 E-2a |
 | Mehrhaus-Rabatt **auf die Grundgebühr S1** als Stellschraube | **E-2** (Zusatz) | § 11 E-2; `preisliste-vorlaeufig.md` § 4 |
@@ -144,9 +152,12 @@ der Rabatt über die **Firmierung**, bekäme ein so strukturierter
 Folgekunde **keinen** Rabatt; läuft er über den **Betreiber**, bekäme
 er ihn. *(Randbeleg derselben Konstellation: Für den Piloten ist am
 12.08. „EIN Apaleo-Account für alle Standorte" entschieden worden —
-Briefing 13.08.2026, Entscheide-Protokoll Punkt 2, sinngemäß. Die
-technische Kontoführung folgt dort also der wirtschaftlichen Einheit,
-nicht den Rechtsträgern.)*
+Briefing 13.08.2026, Entscheide-Protokoll Punkt 2, sinngemäß. **④
+Folgerung dieser Session:** Die technische Kontoführung folgt dort
+der wirtschaftlichen Einheit, nicht den Rechtsträgern — eine
+n=1-Analogie aus einem anderen Sachgebiet (PMS-Kontoführung, kein
+Preis- oder Zuordnungsentscheid), Indiz und nicht mehr. Belegstufe
+und Einordnung ergänzt nach Prüferbefund PB-10.)*
 
 ### Lesart A — Rabatt je BETREIBER (wirtschaftliche Einheit)
 
@@ -187,14 +198,21 @@ zählen
 &nbsp;&nbsp;☐ anders: _____
 
 *Empfehlung dieser Session (begründet, nicht bindend): **Lesart A** —
-sie ist die einzige, unter der der Rabatt seinen in E-2 benannten
-Zweck erfüllt; die Definitionsarbeit ist real, aber einmalig und
-gehört ohnehin ins Vertragswerk (Z-1). Die Vorrunde hat dieselbe
-Richtung als ausdrücklichen Nur-Vorschlag notiert
+sie ist die Option, unter der der Rabatt seinen Zweck **auch** in der
+Objektgesellschafts-Konstellation erfüllt; unter Lesart B erfüllt er
+ihn weiterhin für jeden Betreiber, dessen Häuser in EINER Firmierung
+laufen — leer geht dort nur die Objektgesellschafts-Konstellation
+aus, deren Verbreitung im Zielmarkt **nicht erhoben** ist (n=1, der
+eigene Pilot). Die Definitionsarbeit von Lesart A ist real, aber
+einmalig und gehört ohnehin ins Vertragswerk (Z-1). Die Vorrunde hat
+dieselbe Richtung als ausdrücklichen Nur-Vorschlag notiert
 (`preisliste-vorlaeufig.md` § 4: Betreiber-Bindung, Firmierung nur
 für die Rechnungslegung). **Lesart B ist gleichwertig ausgearbeitet
 und die richtige Wahl, wenn Vertragseinfachheit und sofortige
-Angebotsfähigkeit schwerer wiegen als die Reichweite des Rabatts.***
+Angebotsfähigkeit schwerer wiegen als die Reichweite des Rabatts.**
+(Erstfassung schrieb „die einzige, unter der der Rabatt seinen …
+Zweck erfüllt" — korrigiert nach Prüferbefund PB-05: Das überschärfte
+die eigene ④/n=1-Beleglage in Richtung der eigenen Empfehlung.)*
 
 ---
 
@@ -251,11 +269,27 @@ binden:**
 
 ## 4. Paketstruktur — der Optionenraum (A2: Paket vs. Baukasten vs. Stufen)
 
+*(Namensraum-Hinweis, nach Prüferbefund PB-11: Die Options-IDs
+**P-A/P-B/P-C** dieses Abschnitts sind Buchstaben-IDs und haben nichts
+mit den nummerierten Prüferbefunden **P-01…P-27** der
+Nachbardokumente in `handel/` zu tun.)*
+
 Alle drei Optionen setzen die entschiedene Preisstruktur voraus
 (S1 je Haus + S2 je Zimmer + S4 einmalig + Durchreichungsblock;
 `preisliste-vorlaeufig.md` § 1–§ 3) — sie unterscheiden sich darin,
 **was für S1/S2 geliefert wird und wie Zubuchbares organisiert ist**.
 Keine Option trägt hier Beträge.
+
+⚠️ **Eine E-1-Vorgabe, die jede Paketform tragen muss** *(ergänzt nach
+Prüferbefund PB-02 — dieser mitentschiedene E-1-Bestandteil war in der
+Erstfassung nirgends angekommen)*: Die Gewichtung „Startgebühr
+verstärkt / Monatsgebühr geringer" gilt **fürs erste Jahr**, und die
+**spätere Verschiebung** (Monatsanteil rauf, Startgebühr runter) ist
+ausdrücklich vorgesehen (✅ E-1). Die gewählte Paketform muss diese
+Verschiebung strukturell aushalten, ohne dass Pakete neu geschnitten
+werden — und sobald sie den ersten Bestandskunden trifft, ist sie eine
+Preisänderung im laufenden Vertrag und fällt unter **Z-4**
+(`preismodell-optionen.md` § 10, 🟢-Nachtrag, ausdrücklich).
 
 ### Option P-A — Ein Gesamtpaket („alles drin")
 
@@ -266,7 +300,7 @@ die einzigen laufenden Preisstellen.
 | | |
 |---|---|
 | **Annahmen** | Der gebaute Modulbestand passt für jedes Haus der Zielgruppe (**④ Hypothese** — die Zielgruppe hat keine Größen-Obergrenze, § 2.4; ob ein 100-Zimmer-Haus denselben Zuschnitt will wie ein 10-Zimmer-Haus, ist nicht erhoben, E-7 offen) |
-| **Dafür** | Einfachste Kommunikation — das direkte Gegenmittel gegen das benannte Risiko der Bemessung (c): „wirkt sonst wie eine Mobilfunkrechnung" (§ 8 der Vorlage, Dagegen-Spalte). Kein Konfigurationsaufwand im Erstgespräch. Passt zum Betreibermodell: Wir betreiben ohnehin die ganze Strecke |
+| **Dafür** | Einfachste Kommunikation — das direkte Gegenmittel gegen das benannte Risiko der Bemessung (c): „sonst wirkt es wie eine Mobilfunkrechnung" (§ 8 der Vorlage, Dagegen-Spalte; *Wortlaut angeglichen nach Prüferbefund PB-07 — die Erstfassung zitierte mit Wortumstellung*). Kein Konfigurationsaufwand im Erstgespräch. Passt zum Betreibermodell: Wir betreiben ohnehin die ganze Strecke |
 | **Dagegen (der unbequeme Pol)** | **Widerspricht der Portfolio-These E10** („größere Häuser buchen mehr Checkpoints" — hier bucht jeder alles; der Ausbau-Pfad entfällt, das Portfolio skaliert nur noch über die Zimmerzahl S2). Der Kunde zahlt strukturell für Module mit, die er nicht nutzt (z. B. Voice-Terminal ohne Terminal-Hardware). Und: Ein Gesamtpaket setzt die eine Grundgebühr hoch an — genau dort, wo wir über die Zahlungsbereitschaft **nichts Belegtes** wissen (§ 6.4 der Vorlage, unverändert offen) |
 | **Verkaufsgespräch** | Kürzestes Gespräch, eine Preisfrage. Aber die Antwort auf „ich brauche X nicht — wird es billiger?" ist strukturell „nein" |
 | **Terminpfad** | Schnellste Option: F-III bleibt EINE Höhenfrage je S1/S2/S4 |
@@ -285,7 +319,7 @@ Zimmeranteil S2, hausfixe über S1 (§ 8-Bemessungsachse).
 | **Dafür** | Bildet die Portfolio-These E10 exakt ab (Modul-Ausbau nach Hausgröße; der Modul-Nachverkauf an Bestandskunden ist der eingebaute Wachstumspfad). Der Kunde zahlt, was er nutzt — das stützt das Fairness-Argument, an das der Markt gewöhnt ist (§ 8 der Vorlage zu (a), ②/③-Anker). Passt zur Bemessungsachse: „gästenahe Module je Zimmer, Grundleistungen je Haus" ist mit E-2 (c) bereits strukturell angelegt |
 | **Dagegen (der unbequeme Pol)** | **Maximale Erklärungslast:** Die Rechnung hat dann vier Blöcke (Durchreichung + S1 + S2 je Modul + S4) — das „Mobilfunkrechnungs"-Risiko aus § 8 tritt in seiner stärksten Form ein. **F-III multipliziert sich:** Statt einer S2-Höhe braucht jedes Modul eine Preisfindung — und JEDE dieser Zahlen ist heute ungedeckt (E-6/E-7 offen). Der Baukasten macht außerdem sichtbar, wie schmal der heute gebaute Modulbestand ist (§ 3: ein großer Teil ist geparkt/nicht gebaut) |
 | **Verkaufsgespräch** | Längstes Gespräch; braucht eine saubere Angebotsdarstellung (genau die Aufgabe, die § 8 benennt) — dafür die beste Antwort auf Preissensibilität („starten Sie schmal") |
-| **Terminpfad** | Langsamste Option bis zur Angebotsfähigkeit (viele Höhenfragen). ⚠️ Terminanker der Kette: Angebot bis 23.10.2026 (S1-Stufe der Rückwärtsrechnung, ② `preismodell-optionen.md` § 9 nach `akquise/akquiseplan.md`; Dauerannahmen dort ④) |
+| **Terminpfad** | Langsamste Option bis zur Angebotsfähigkeit (viele Höhenfragen). ⚠️ Terminanker der Kette: Angebot bis 23.10.2026 (Angebots-Stufe der Rückwärtsrechnung, ② `preismodell-optionen.md` § 9 nach `akquise/akquiseplan.md`; Dauerannahmen dort ④). ⚠️ **Der ⭐-Vorbehalt derselben Quelle gilt mit:** Der Engpass der Kette ist der **Namensentscheid**, nicht das Preismodell — „wer sie beschleunigt, um den Termin zu retten, optimiert die falsche Stelle" (§ 9). *(Stufen-Bezeichnung „S1" der Rückwärtsrechnung hier umschrieben und § 9-Vorbehalt ergänzt nach Prüferbefunden PB-11/PB-12 — „S1" kollidierte im selben Satz mit dem Preisschlüssel S1, und der Terminpfad stand ohne den Engpass-Vorbehalt der Quelle)* |
 
 ### Option P-C — Gestufte Pakete (zwei bis drei vordefinierte Bündel)
 
@@ -297,7 +331,7 @@ Modulwahl.
 | | |
 |---|---|
 | **Annahmen** | Es gibt zwei bis drei Bündel-Zuschnitte, die die realen Bedarfe treffen (**④ Hypothese — und zwar die riskanteste dieser Option:** welche Kombinationen Kunden wollen, ist nicht erhoben; der Zuschnitt wäre heute Ratearbeit vor E-7) |
-| **Dafür** | Mittelweg: einfacher kommunizierbar als der Baukasten, skaliert trotzdem entlang der E10-These (Stufen = mehr Checkpoints). **Stufenpreise sind die häufigste Form im erhobenen Markt** (② aus `preisliste-vorlaeufig.md` § 5.1: M2 vier Stufen · M4 drei · W5 drei · W3 zwei — Zählweg: die dortige Tabelle; ⚠️ Belegstufe der Quellen dort ③ Selbstauskunft) |
+| **Dafür** | Mittelweg: einfacher kommunizierbar als der Baukasten, skaliert trotzdem entlang der E10-These (Stufen = mehr Checkpoints). **Gestufte Preise sind im erhobenen Markt verbreitet** (② aus `preisliste-vorlaeufig.md` § 5.1: M2 vier Stufen · M4 drei · W5 drei · W3 zwei — Zählweg: die dortige Tabelle; ⚠️ Belegstufe der Quellen dort ③ Selbstauskunft). ⚠️ **Scope der Zahl** *(ergänzt nach Prüferbefund PB-09)*: Die § 5.1-Tabelle erhebt **Einmalbeträge** (Setup-Stufen) — die Übertragung auf die **Paketform des laufenden Angebots** ist eine **④-Analogie dieser Session**, kein Marktbeleg für Paketstufen |
 | **Dagegen (der unbequeme Pol)** | Der Bündel-Zuschnitt ist eine zusätzliche Festlegung ohne Beleg (E-7 offen) und erzeugt den bekannten Vergleichsdruck („warum ist X erst im Top-Paket?"). Falsch geschnittene Bündel sind später schwer korrigierbar, weil Bestandskunden auf ihnen sitzen (Z-4-Nachbarschaft: Änderung im laufenden Vertrag) |
 | **Verkaufsgespräch** | Kurz („welches der drei passt zu Ihnen?"), aber die Stufe zwingt Kunden in Bündel, die nicht passen — dann beginnt doch die Modul-Diskussion |
 | **Terminpfad** | Mittel: zwei bis drei Höhenfragen je Stufe statt einer bzw. vieler |
@@ -322,16 +356,22 @@ Module &nbsp;&nbsp;☐ **P-C** gestufte Pakete &nbsp;&nbsp;☐ anders /
 Mischform: _____
 
 *Empfehlung dieser Session (begründet, nicht bindend): **P-B als
-Zielbild, aber erst nach E-7; bis dahin keine Festlegung.** P-B ist
-die einzige Option, die die bereits entschiedene Bemessungsachse
-(E-2 c: Sockel + Zimmeranteil) und die bestätigte Portfolio-These
-(E10: Modul-Ausbau) strukturell fortschreibt. Ihr Hauptrisiko
+Zielbild, aber erst nach E-7; bis dahin keine Festlegung.** P-B
+schreibt die bereits entschiedene Bemessungsachse (E-2 c: Sockel +
+Zimmeranteil) und die bestätigte Portfolio-These (E10: Modul-Ausbau)
+am direktesten fort — P-C skaliert ebenfalls entlang der E10-These
+(s. die eigene Dafür-Zeile oben), setzt dafür aber Bündel-Zuschnitte
+voraus, die vor E-7 Ratearbeit sind. Das P-B-Hauptrisiko
 (Erklärungslast, multiplizierte Höhenfragen) ist real — deshalb ist
 **P-A als Startform mit späterem Modul-Ausbau** die gleichwertige
 Gegenposition, wenn der erste Abschluss (Terminpfad, Angebot bis
-23.10.) schwerer wiegt als die Struktur-Kontinuität. Wer heute
-entscheiden muss, entscheidet zwischen diesen beiden; P-C setzt am
-meisten ungemessenes Kundenwissen voraus.*
+23.10.) schwerer wiegt als die Struktur-Kontinuität — ⚠️ wobei der
+Engpass der Terminkette der Namensentscheid ist, nicht die Paketform
+(§ 9 der Vorlage, ⭐-Kasten). Wer heute entscheiden muss, entscheidet
+zwischen P-B und P-A. (Erstfassung schrieb „die einzige Option, die
+… fortschreibt" — korrigiert nach Prüferbefund PB-13, die eigene
+P-C-Dafür-Zeile trug das halbe Gegenargument; § 9-Vorbehalt ergänzt
+nach PB-12.)*
 
 ### ☐ AA-3 — Entscheidungspunkt Katalog-Grenze (Reifegrad)
 
@@ -375,8 +415,15 @@ darüber nach Aufwand
 
 *Zwei Grenzen, die jede Antwort einhalten muss: (1) **E13a** verbietet
 die nach außen sichtbare Stufen-Trennung — ein separates
-„Beratungspaket" neben dem Technikpaket wäre genau das; die Trennung
-darf preislich sein, nicht angebotsstrukturell. (2) Die
+„Beratungspaket" neben dem Technikpaket wäre genau das. ⚠️ Der
+Folgesatz ist eine **④-Auslegung dieser Session, kein
+Entscheid-Bestandteil** *(Kennzeichnung ergänzt nach Prüferbefund
+PB-04 — die Erstfassung formulierte die Auslegung als bindende
+Grenze)*: dass eine im Angebot sichtbare PREIS-Trennung („nach
+Aufwand") mit „EIN Angebot" vereinbar ist, solange die
+Angebotsstruktur nicht trennt. Ob der User E13a so versteht, ist
+nicht erhoben — wer AA-4 mit „separat nach Aufwand" beantwortet,
+bestätigt damit zugleich diese Auslegung. (2) Die
 **Kayhan-Achse** hat keinen Vertrag und keine Konditionen (§ 6-Nachtrag
 des Positionierungspapiers, StB-Posten) — sie ist heute nicht
 zusagefähig, egal welche Option gewählt wird.*
@@ -450,6 +497,14 @@ keine belegbare Zahl, unter die S1 nicht fallen darf
 S4-Einordnungs-Kasten): Nach E-2 wirkt der Rabatt auf S1 — **nicht**
 auf die Startgebühr. **Ob er es sollte, ist offen und gehört genau
 hierher.**
+
+⚠️ **Vorausgesetzt ist dabei eine ④-Ableitung, kein Entscheid**
+*(ergänzt nach Prüferbefund PB-01)*: Dass die Startgebühr überhaupt
+**je Objekt/Haus** anfällt, ist in der Preisliste ausdrücklich als
+Ableitung aus E-2a markiert („④ — der Entscheid sagt es für die
+Startgebühr nicht ausdrücklich", § 3 Zeile S4). Wäre S4 je **Kunde**
+einmalig, löste sich diese Frage auf — die Ja-Option und das
+„×n"-Gesprächsargument unten setzen die Je-Haus-Lesart voraus.
 
 &nbsp;&nbsp;☐ **nein — S4 bleibt rabattfrei** (Status der heutigen
 Ableitung). Dafür spricht die E-1-Gewichtung: Im ersten Jahr soll die
@@ -550,9 +605,13 @@ ist nur der Zeiger, keine Zweitfassung):**
    Vertragspartner-Frage als Z-5-Punkt in die Zentrale-Zulieferung
    (`preismodell-optionen.md` § 10 — Übergabe steht weiterhin aus);
    die Aufwands-Frage „Haus 2 billiger als Haus 1?" als
-   Präzisierungs-Wunsch an die laufende **E-6**-Messung
-   (Ruffy/heypensio): wenn dort ohnehin gestoppt wird, die Blöcke je
-   Objekt getrennt notieren.
+   Präzisierungs-Wunsch an die **beauftragte E-6-Messung** (Träger
+   Ruffy/heypensio; sie hängt am nächsten Pilot-Onboarding-Schritt,
+   ohne Termin — ✅ E-6): wenn dort gestoppt wird, die Blöcke je
+   Objekt getrennt notieren. *(„laufende Messung" der Erstfassung
+   korrigiert nach Prüferbefund PB-03 — eine Statusaussage über
+   fremde Arbeit ohne Beleg; das Briefing führt E-6 bei heypensio
+   unter „Als Nächstes", nicht unter „Läuft".)*
 
 ---
 

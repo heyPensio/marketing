@@ -1761,6 +1761,34 @@ Disposition.
 | **F-10** | 🟡 | Ein Briefing-Nachtrag steht **im Briefing selbst** (additiver Kopf, `zentrale b2a7a4a`, 23:58) — 5 min NACH dem Zuschnitt; ein Verzeichnis-Listing ist gegen diese Form blind | **anerkannt**: Inhaltlich nur heyPensio-Stränge, **aber seine Lehre trifft uns** („Subagenten-Erhebung ist Indiz, kein Beleg — besonders Verneinungen"). → **Methodik-Posten für den R15-Debrief**: Nachtrags-Messung darf nicht am Verzeichnis-Listing hängen |
 | **F-11** | 🟡 | Datumswechsel: Postkorb-Dateiname `2026-08-13-…` bereits falsch | **übernommen**: D schreibt `2026-08-14-…` |
 
+### Nachführung des Wahrheits-Kanals (14.08. 00:40, Leitsession, `HEAD`)
+
+Aus F-1 und F-4 folgte Arbeit am Wahrheits-Kanal — sie fasst keinen
+Session-Scope an und lief deshalb parallel zu den fünf Strängen.
+
+| Stelle | Art | Behandlung |
+|---|---|---|
+| `STATUS.md` Punkt 4a | **aktuelle Handlungsaussage**, falsch | **korrigiert** — durchgestrichen + ✅-Vermerk mit dem echten Stand (24/26, 0 offen, 2 Träger) und dem richtigen Nenner 31; dazu der Anlass (aus dieser Zeile entstand R15-E) |
+| `projektquelle-mkt.md` R6-Changelog (c3) | **historisch**, zum Datum korrekt | **unverändert** + Vorwärtsverweis „➡️ ÜBERHOLT" an der Ankunftsstelle |
+| `projektquelle-mkt.md` R6-Stand | **historisch** | **unverändert** + Kurz-Vorwärtsverweis |
+| `projektquelle-mkt.md` R14-Changelog „fünfte KUNDEN-Pflicht" | **aktuelle Sachaussage**, falsch | **korrigiert** zu „fünfte BEDINGUNG" + sichtbarer Korrektur-Kasten mit der Fehlerkette (aus dieser Stelle baute die Leitsession den falschen B-Prompt) |
+
+Zählweg der Vollständigkeit: `grep -rn --include="*.md" "24 von 37\|24
+offenen"` über das Repo; Positivkontrolle `"24 von 26"` trifft in beiden
+Zieldateien. Verbleibende Treffer sind disponiert (s. u.).
+
+🔎 **Nebenbefund aus derselben Suche — Blueprint-Posten, NICHT einseitig
+geändert:** Die Lehre **L-13** trägt ihre Belegzahl als „**24 von 37**
+Befunden blieben so liegen" — und genau diese Zahl ist vom Träger
+korrigiert worden (richtig: **20 von 31**). Die Regel, die vor Nennern
+ohne saubere Grundgesamtheit warnt, trägt also selbst einen falschen
+Nenner. Sie steht in `CLAUDE.md` **und** in der Wächter-Kopie
+`.claude/commands/tagesstart.md`, deren Master im Blueprint liegt —
+**Master-zuerst-Regel: eine einseitige Änderung hier erzeugt DRIFT.**
+→ **Debrief-Posten R15:** Korrektur im Blueprint (`CLAUDE-vorlage.md` +
+`commands/tagesstart.md` + `LEHREN-CHANGELOG`), danach Kopien ziehen.
+Die Lehre selbst bleibt gültig, nur ihre Illustrationszahl fällt.
+
 **Blindstellen des Prüfers, die er selbst benennt** (und die stehen
 bleiben): Kategorie B (Dritt-Bestand) ist ohne Netzzugriff schwach —
 beide B-Treffer kamen aus dem eigenen Bestand · er hat die Prompts gegen

@@ -268,10 +268,25 @@ Stände: `STATUS-archiv.md`.)*
    („tatsächliche Größe") · Betreiber-Briefing bis 23.08., **gekoppelt
    mit dem FUND2-Kayhan-Gespräch** · H-4 Altdaten-Sicherung anstoßen
    (bis 07.09.) · Modell-Statuszeilen R3-A/B/D + R04-A bestätigen.
-4. **R7-Kandidaten:** (a) ⭐ **Nacharbeit der 24 offenen
-   R05-A-Prüferbefunde** — Träger `protokolle/R06-nacharbeit-R05A-
-   befunde.md`, zuerst die zitatkritischen (W-16/H-3/H-4/H-10), weil
-   sie Risiko in außenwirksame Texte tragen; (b) E-V4-Welle (nach den
+4. **R7-Kandidaten:** (a) ~~⭐ **Nacharbeit der 24 offenen
+   R05-A-Prüferbefunde** — zuerst die zitatkritischen
+   (W-16/H-3/H-4/H-10)~~ ✅ **ERLEDIGT in R07-A (10.08.2026) — diese
+   Zeile war seit vier Tagen falsch.** Der Träger
+   `protokolle/R06-nacharbeit-R05A-befunde.md` weist aus: **24 von 26**
+   handlungspflichtigen Posten repariert, **0** bewusst offen, **2** mit
+   benanntem Träger (**W-17-Rest, V-1-Rest** — die stehen weiter offen,
+   s. R7-Block oben). Auch der Nenner war falsch: nicht 37, sondern
+   **31** handlungspflichtige Befunde (der Träger korrigiert das selbst,
+   Summenprobe 4+17+10 = 31 ✔). Die vier zitatkritischen sind repariert,
+   je mit sichtbarem Reparatur-Kasten.
+   ⚠️ **Warum das hier steht statt still korrigiert zu werden:** Aus
+   genau dieser Zeile hat die Bestands-Erhebung des Nacht-Briefings am
+   13.08. einen kompletten Arbeitsstrang (R15-E) gebaut — auf erledigte
+   Arbeit. Gefunden vom R15-Prüf-Subagenten (Befund F-1), von der
+   Leitsession am Träger nachgemessen. Historische Changelog-Einträge
+   mit derselben Zahl (`projektquelle-mkt.md` R6-Changelog) bleiben
+   unverändert und tragen dort einen Vorwärtsverweis — sie waren zu
+   ihrem Datum korrekt. (b) E-V4-Welle (nach den
    Shortlist-Handgriffen); (c) FUND2-Rest (Kayhan-Gespräch;
    Apaleo-Teil erst nach dem Trigger ~14.08.); (d)
    HANDEL-Einarbeitung der R5/R6-Preisanker + IFB-Vorabklärung

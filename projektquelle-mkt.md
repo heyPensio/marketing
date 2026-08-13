@@ -298,9 +298,20 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   A3-Kundenangebot hinausgeht) · **die Belegstufe: geklärt auf A + B,
   Auslegung E — der Entgelt-Teil trägt eine FAQ, nicht den
   Vertragstext; vertragsfest erst mit der Antwort auf K-1.** Dazu eine
-  fünfte KUNDEN-Pflicht neben AU-1…AU-4 (Betriebsregel O-2: der Kunde
-  öffnet n8n nicht seinerseits seinen Gästen, sonst OEM-Fall) —
-  Vertragsklausel, keine Betriebsdoku. Zusätzlich: **Belegstufe aller
+  fünfte ~~KUNDEN-Pflicht~~ **BEDINGUNG** neben AU-1…AU-4
+  (Betriebsregel O-2: der Kunde öffnet n8n nicht seinerseits seinen
+  Gästen, sonst OEM-Fall) — Vertragsklausel, keine Betriebsdoku.
+  > ⚠️ **Korrektur 14.08.2026 (R15-Prüferbefund F-4, an der Quelle
+  > nachgemessen):** Hier stand „fünfte **KUNDEN**-Pflicht". Die Quelle
+  > (`handel/preismodell-optionen.md` § zu O-2) sagt: „eine fünfte
+  > **Bedingung** neben AU-1…AU-4, **und sie trifft den KUNDEN**".
+  > Gemeint sind vier Auflagen an **uns** plus **eine** Kundenpflicht =
+  > fünf Bedingungen. **O-2 enthält genau EINE Pflicht** — eine erste
+  > bis vierte Kunden-Pflicht existiert nicht und wurde nie behauptet.
+  > *(Warum die Korrektur hier steht: Aus dieser Stelle hat die
+  > Leitsession den R15-B-Prompt gebaut und den Fehler weitergereicht;
+  > gefangen hat ihn erst der Prüf-Subagent. Klasse „eine Ableitung
+  > erbt den Fehler ihrer Quelle" — Doku-Hygiene, Spiegelrichtung.)* Zusätzlich: **Belegstufe aller
   Entscheide-Vermerke gehoben** (Wortlaute seit 13.08. abends
   archiviert, Briefing Nachtrag 8 — 27 geprüft, 26 gehoben, 0
   inhaltlich falsch; die S4-Reichweite von AA-8 ist nur über die
@@ -932,6 +943,18 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    Zitat-Anker · H-10 fehlende Geltungseinschränkung) — sie tragen
    Risiko in die außenwirksame Weiterverwendung. Eigene Session,
    R7-Kandidat.
+   > ➡️ **ÜBERHOLT — Vorwärtsverweis (nachgetragen 14.08.2026, R15):**
+   > Dieser R6-Eintrag beschreibt den Stand seines Datums korrekt und
+   > bleibt deshalb unverändert stehen. **Erledigt ist er seit R07-A
+   > (10.08.2026):** 24 von **26** repariert, 0 offen, 2 mit Träger
+   > (W-17-Rest, V-1-Rest). **Auch die Zahlen dieses Eintrags sind vom
+   > Träger selbst korrigiert worden** — nicht 37, sondern **31**
+   > handlungspflichtige Befunde (4+17+10 ✔), und nicht 24, sondern 20
+   > waren nicht eingearbeitet. Maßgeblich ist der Träger
+   > `protokolle/R06-nacharbeit-R05A-befunde.md` § „TEIL 2", nicht diese
+   > Stelle. *(Anlass des Nachtrags: Aus der veralteten Zahl hat die
+   > Briefing-Erhebung am 13.08. einen ganzen Arbeitsstrang auf
+   > erledigte Arbeit gebaut — R15-Prüferbefund F-1.)*
    (c2) **R5-Nebenbefund-Zielorte (aus R05-A Block 3):** an
    MKT-HANDEL: Preisanker-Tabelle Beratungsmarkt (nur 3 mit
    Steuerbasis — vor Vergleich normalisieren) + Preisintransparenz
@@ -1374,7 +1397,11 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
   14.08.) · ⭐ **Bestandsscan-Fund: 24 von 37 Prüferbefunden aus R05-A
   waren nicht eingearbeitet** — Träger
   `protokolle/R06-nacharbeit-R05A-befunde.md`, Nacharbeit ist
-  R7-Kandidat · Register **L-11/L-12/L-13** + Sammelvermerk R6 ·
+  R7-Kandidat *(➡️ **überholt:** erledigt in R07-A am 10.08.2026 —
+  24 von **26**, 2 mit Träger; Nenner richtig **31**, nicht 37. Siehe
+  Vorwärtsverweis im R6-Changelog § (c3) und STATUS.md Punkt 4a.
+  Nachgetragen 14.08.2026 nach R15-Prüferbefund F-1)* · Register
+  **L-11/L-12/L-13** + Sammelvermerk R6 ·
   CLAUDE-Schärfungen (Gliederungs-Positivkontrolle ·
   Fußnoten-Vermischung · Befund-Disposition mit Nenner in Regel 8/9) ·
   Bausteine `quellen-beschaffung` (Auszeichnungs-Falle,

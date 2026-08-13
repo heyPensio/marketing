@@ -80,6 +80,10 @@ const poolText = POOL.map((p) => poolTexte.get(p)).join('\n@@@\n');
 // U+201C ("). Ein Muster auf U+201C findet NULL Treffer und sieht dabei wie ein
 // sauberes Negativ aus - genau die Fehlerklasse "Muster kann nicht treffen".
 function zitate(text) {
+  // Git-/Windows-Checkouts koennen denselben Blob als LF oder CRLF liefern.
+  // Ohne Vereinheitlichung zaehlt das \r an der 25-Zeichen-Schwelle mit und
+  // derselbe Commit produziert je Checkout eine andere Fundmenge.
+  text = text.replace(/\r\n?/g, '\n');
   const out = [];
   const re = /„([^"„]{25,})"/g;
   let m;
@@ -115,7 +119,6 @@ const EIGEN = [
   ['nicht nur die byte-getreue Übernahme der D3-/D2-Blöcke, sondern jedes Zitat', 'zitierte Fehlerfassung im Reparaturvermerk (Befund P-02)'],
   // Eigenzitate: das Dokument zitiert sich selbst bzw. eine eigene Setzung.
   ['bei Widerspruch gewinnt die Rechtsmatrix', 'Selbstzitat der eigenen Kollisionsregel'],
-  ['entschieden unzulässig', 'eigene Formulierung einer Falschlesart, die R-A1.3 gerade ausschliesst'],
   // --- Nachtrag 12.08.2026 (Leitsession, Befund B-4) ---
   // Dieselbe Klasse, dreimal belegt: Wer eine Reparatur DOKUMENTIERT, zitiert
   // dabei die alte Fassung -- und erzeugt damit ein neues "Zitat", das per
@@ -294,11 +297,15 @@ if (SELBSTTEST) {
   // Rueckbau-Gegenprobe des EXTRAKTIONS-Pfades: Ohne sie meldet ein Muster,
   // das gar nicht treffen kann, ein sauberes "0 Abweichungen".
   const bestaetigt = gesamt - fehlend.length - eigenTreffer;
-  const ok = gesamt === 16 && bestaetigt === 8 && fehlend.length === 8;
+  const eolLf = zitate('„123456789012\n123456789012"').map((f) => f.text);
+  const eolCrlf = zitate('„123456789012\r\n123456789012"').map((f) => f.text);
+  const eolOk = JSON.stringify(eolLf) === JSON.stringify(eolCrlf);
+  const ok = gesamt === 16 && bestaetigt === 8 && fehlend.length === 8 && eolOk;
   console.log('\n=== SELBSTTEST ===');
   console.log('Zitate extrahiert : ' + gesamt + ' (erwartet 16)');
   console.log('davon bestaetigt  : ' + bestaetigt + ' (erwartet 8 - T1..T8)');
   console.log('davon gemeldet    : ' + fehlend.length + ' (erwartet 8 - F1..F8)');
+  console.log('LF/CRLF invariant : ' + (eolOk ? 'JA' : 'NEIN'));
   console.log(ok ? 'SELBSTTEST BESTANDEN' : 'SELBSTTEST FEHLGESCHLAGEN');
   process.exit(ok && pk === MUSS.length && gp === TREFFEN_NICHT.length ? 0 : 1);
 }

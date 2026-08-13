@@ -1097,3 +1097,404 @@ R11-Posten · Feierabend — entscheidet der User).
 - **Block-Programm danach:** Tag offen — Kandidaten: R11-Restposten
   (Rechtsmatrix-/FUND-Pflege) als R14 via `/runde` · AA-4-Nachtrag
   bei Kayhan-Antwort · Feierabend; entscheidet der User.
+
+---
+
+## Block 5 (13.08. 19:52 MESZ) — Folgerunde R14 via `/runde` (neues Fenster, Neustart-Pflicht erfüllt)
+
+**Kurzcheck (19:52 MESZ, `Get-Date`):** Donnerstag abends; Repo clean
+auf `bcf910e` (R13-Debrief), `git fetch` + `git log HEAD..origin/main`
+= 0 eingehende Commits (Rebase entfällt); Stempel-Delta
+`5f18694..HEAD` im projektgerüst = **0 Commits**,
+Blueprint-Arbeitsbaum clean (beide selbst gemessen 19:5x); keine
+fremden uncommitteten Reste, keine ausstehenden Abschlussmeldungen.
+User-Zuruf (AskUserQuestion 19:5x): **außerhalb nichts Neues** — kein
+StB-Ergebnis gemeldet, keine Kayhan-Antwort zu AA-4.
+**Erreichbarkeits-Satz:** Abend — irrelevant, beide Stränge sind
+Bestandsarbeit ohne Außenkontakt.
+
+**Eingänge (gesichtet vor dem Rundenschnitt, je mit Disposition):**
+Das Briefing `briefing-2026-08-13.md` trägt seit dem R13-Lesestand
+drei neue Nachträge an Shanks — **gemessen am Repo-Bestand nicht
+angekommen** (grep „Nachtrag 6/7/8"/„A3 trägt"/„Schärfung ERSETZT
+Kern" = 0 Treffer; Positivkontrolle „Nachtrag 4" = 31 Treffer über 9
+Dateien; der R13-Debrief-Commit `bcf910e` 18:15 lag 2 Minuten NACH dem
+Nachtrag-8-Commit der Zentrale `3f472e6` 18:13 — die Nachträge kamen
+während/nach dem Debrief):
+
+| Eingang | Inhalt (Kurzform) | Disposition |
+|---|---|---|
+| **Nachtrag 6** (nachmittags) | **Z-6 AUFGELÖST: „A3 trägt"** (SUL-Klausel + n8n-FAQ archiviert; Formulierungsvorschlag `heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`, Existenz geprüft 19:5x ✔) · R40-N-6: EIN Lizenzschlüssel, „unlimited instances", gemeinsame Quota → entkräftet Kostenargument gegen W-B · offen aus dem Bündel nur noch **Z-5/K04 (Vapi-Vertragspartner)** · R40-N-5 (Expertenprogramm) dort „bewusst nicht verfolgt" | **R14-A, heute** (alle drei `handel/`-Preisdokumente) |
+| **Nachtrag 8** (abends, `3f472e6`) | **Belegstufen-Upgrade:** Wortlaute BEIDER Entscheide-Erhebungen 13.08. archiviert in `zentrale\sensibel\entscheide-erhebungen-2026-08-13-wortlaut.md` (Existenz geprüft 19:5x ✔, git-ignoriert, D8: nur Verweis); Vermerke dürfen Belegstufe auf „Wortlaut archiviert" heben. Regel für KÜNFTIGE Erhebungen: Wiedervorlage bei Garp (Zentrale), kein MKT-Posten | **R14-A, heute** (Hebung in den Bestandsdokumenten; Protokolle bleiben historische Artefakte) |
+| **Nachtrag 7** (abends) | **Governance, „sofort wirksam, vor jedem weiteren Debrief":** (1) MKT-CLAUDE.md-Größe messen und im STATUS notieren; (2) Formdisziplin „Schärfung ERSETZT Kern" (Fallgeschichten ins Register, nicht in die CLAUDE.md). Werkzeuge kommen später per Nachzug (nach heypensio R42) | **Leitsession:** Messung GEZOGEN 19:5x — **CLAUDE.md = 73.399 Bytes** (Zählweg: `Get-Item .Length`, Bytes ≠ Zeichen bei UTF-8-Umlauten) → STATUS-Notiz + Formdisziplin-Anwendung = **Debrief-Posten R14** |
+
+**Rundenschnitt (User-Entscheid AskUserQuestion 19:5x): ZWEI Stränge
+parallel** — R14-A (Nachträge 6+8) + R14-B (R11-Restposten).
+
+**Ist-Stand-Prüfung (Leitsession SELBST, 19:52–20:05):**
+- **Z-6-Zeilentreffer** (grep, zählt ZEILEN): `preismodell-optionen.md`
+  9 · `preisliste-vorlaeufig.md` 14 · `angebotsarchitektur.md` 9.
+  ⚠️ Die heypensio-Vorlage nennt „8 Vorbehalts-Fundstellen im
+  Preismodell-Papier" — Diskrepanz zur eigenen Zeilen-Zählung ist
+  erwartbar (Zeile ≠ Fundstelle ≠ Vorbehalt); R14-A zählt selbst und
+  disponiert JEDE Trefferstelle einzeln.
+- **„Wortlaut nicht archiviert"-Zeilen:** preismodell-optionen 2 ·
+  preisliste 3 · angebotsarchitektur 11 (übrige Treffer liegen in
+  Protokollen/STATUS/Register — Protokolle sind historisch, STATUS/
+  Projektquelle macht die Leitsession beim Debrief).
+- **R14-B-Quellen:** Rechtsmatrix-Merker-Kasten „Offene Punkte und
+  Belegstufen-Grenzen" trägt R9A-N-9…N-14 als Tabelle („Träger:
+  MKT-HANDEL, nächste Runde"); **N-10 = O-9 ist seit R13-B GEFÜHRT**
+  (eigener Kasten daneben) — gegenlesen, nicht doppeln. FUND-Posten
+  R11A-N-3…N-6 stehen in `protokolle/R11-A-abschluss.md` (Straiv ×2,
+  melevo ×2, Zielort `fund/wettbewerbsbild.md`, existiert ✔);
+  Rohbelege `sensibel/rohbelege-R11-A/` existieren ✔ (lesbar).
+  Zitat-Wächter `akquise/pruefe-zitate.js` existiert ✔ (R13-Stand:
+  Exit 0/0).
+
+### Strang-Tabelle R14
+
+| Session | Rolle | Strang | Scope (Schreibrechte) | Exklusive Systeme | Review | Codex-geeignet | Modell (User-Wahl, nachdok.) |
+|---|---|---|---|---|---|---|---|
+| **R14-A** | Ben Beckman | Z-6-Auflösung + R40-N-6-Nachzug + Belegstufen-Hebung (Nachträge 6+8) | `handel/preismodell-optionen.md` · `handel/preisliste-vorlaeufig.md` · `handel/angebotsarchitektur.md` (je nur markierte Nachträge) · `protokolle/R14-A-*` · `sensibel/rohbelege-R14-A/` (neu, git-ignoriert) | Web/Recherche (Erlaubnis, kaum nötig — Quellen liegen im Bestand) | **Voll-Review** (Prüfer Pflicht — freigabetragende ✅-Vermerke + Vorbehalts-Auflösung) | **NEIN** — Belegstufen-/Vorbehalts-Urteil je Fundstelle, kein hartes maschinelles Fertig-Kriterium (die grep-Zählungen sind trivialer Teilschritt, kein eigener Fremdagent-Auftrag) | *offen (User)* |
+| **R14-B** | Yasopp | Rechtsmatrix-Pflege R9A-N-9…N-14 + FUND-Pflege R11A-N-3…N-6 | `handel/kanal-rechtsmatrix.md` (nur markierte Nachträge) · `fund/wettbewerbsbild.md` (nur markierte Nachträge) · `protokolle/R14-B-*` · `sensibel/rohbelege-R14-B/` (neu, git-ignoriert) | Web/Recherche (Erlaubnis — nur falls ein N-12-Nachbeleg fehlt; Bestand zuerst) | **Voll-Review** (Prüfer Pflicht — rechtstragende Matrix) | **NEIN** — Rechtstext-/Belegstufen-Übertragung mit Urteil (Gegenansicht, Streitstand); einzig N-13-Zählwege wären maschinell, zu klein für einen Fremdagenten | *offen (User)* |
+| *(Leit, Buchstabe frei)* | Shanks | Reviews beider Richtungen · danach `/debrief` (inkl. Nachtrag-7-Posten) | Wahrheits-Kanal · dieser Tagesplan | keine | Kurzraster (Werkzeuge) | — | Fable 5 (Umgebungsangabe; Bestätigung User-Handgriff) |
+
+**Disjunktheits-Prüfung (Datei-Ebene, 3 Paare):** A∩B = ∅ — beide
+berühren `handel/`, Grenze auf DATEI-Ebene (A: die drei
+Preisdokumente; B: nur `kanal-rechtsmatrix.md`); B zusätzlich
+`fund/wettbewerbsbild.md` (A liest nur). A∩Leit = ∅ · B∩Leit = ∅.
+Kein Strang legt ein neues Verzeichnis an (nur je eigene
+Rohbelege-Ordner, L-20). **A und B inhaltlich unabhängig → PARALLEL**
+(User-Entscheid).
+
+### Session-Prompts R14 (Single Source — Sessions lesen HIER)
+
+#### Strang R14-A (Ben Beckman) — Z-6-Auflösung + R40-N-6 + Belegstufen-Hebung
+
+> Parallel-Session „R14-A" (Leitsession läuft separat,
+> Multi-Session-Modell lt. CLAUDE.md). Session-Start: `git pull`; dein
+> tatsächliches Modell verifizierst du NUR per Statuszeile (nicht per
+> Selbstauskunft) und nennst es in der Abschlussmeldung; ist die
+> Statuszeile nicht lesbar, meldest du das mit der Umgebungsangabe.
+>
+> **Kontext:** Das Firmen-Briefing
+> `<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md` trägt
+> zwei Nachträge an MKT, die der R13-Lauf nicht mehr gesehen hat
+> (`<FIRMENWURZEL>` = Elternordner der Repo-Wurzel,
+> `git rev-parse --show-toplevel`; fehlt ein referenziertes Repo dort:
+> abbrechen statt raten). Lies das GANZE Briefing, nicht nur die
+> Nachträge — ein Quellverweis benennt, wo du anfängst, nicht, wo du
+> aufhörst (L-34).
+> **Nachtrag 6:** Z-6 ist AUFGELÖST — „A3 trägt": die n8n Sustainable
+> Use License verträgt das Kunden-Eigentums-Modell; Beleg + 
+> Formulierungsvorschlag in
+> `<FIRMENWURZEL>\heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`
+> (Existenz von der Leitsession geprüft 13.08. 19:5x). Offen aus dem
+> Bündel bleibt NUR **Z-5/K04 (Vapi-Vertragspartner-Frage)** — dieser
+> Vorbehalt bleibt stehen. Dazu **R40-N-6**: EIN n8n-Lizenzschlüssel
+> gilt für „unlimited instances" mit gemeinsamer Ausführungs-Quota —
+> entkräftet das Kostenargument gegen W-B.
+> **Nachtrag 8:** Die WORTLAUTE beider Entscheide-Erhebungen vom 13.08.
+> (E-1…E-8 · S4/AA-1…AA-8) sind rückwirkend archiviert:
+> `<FIRMENWURZEL>\zentrale\sensibel\entscheide-erhebungen-2026-08-13-wortlaut.md`
+> (git-ignoriert; Existenz geprüft 13.08. 19:5x). ✅-Vermerke zu diesen
+> Entscheiden dürfen die Belegstufe auf **„Wortlaut archiviert
+> (sensibel, 13.08.)"** heben.
+>
+> **Aufgabe in vier Teilen:**
+>
+> **Teil 1 — Z-6-Auflösung einarbeiten** in allen drei Dokumenten
+> (`handel/preismodell-optionen.md` · `handel/preisliste-vorlaeufig.md`
+> · `handel/angebotsarchitektur.md`): Erst ZÄHLEN (grep „Z-6" je
+> Datei; Leitsessions-Messung 19:5x: 9/14/9 ZEILEN — Zeile ≠
+> Fundstelle, zähl selbst und dokumentiere den Zählweg), dann JEDE
+> Trefferstelle einzeln disponieren: (a) Z-6-VORBEHALT → markierter
+> Nachtrag „aufgelöst 13.08. (heypensio R40, SUL-Klausel; Briefing
+> Nachtrag 6)" — alte Fassung bleibt lesbar; (b) Stelle meint sachlich
+> K04/Vapi oder den Architektur-Entscheid → Vorbehalt BLEIBT, ggf.
+> präzisieren (die Auflösung betrifft NUR die n8n-Lizenzfrage);
+> (c) reine Erwähnung ohne Vorbehaltscharakter → dokumentierter
+> Nicht-Edit. Dispositions-Tabelle (Stelle → a/b/c) ins Protokoll.
+> Der Formulierungsvorschlag aus der heypensio-Vorlage ist ANGEBOT,
+> nicht Pflicht — du misst ihn an der jeweiligen Stelle. ⚠️ Grenze
+> nicht verwischen: Z-6-Auflösung ≠ Architektur-ENTSCHEID (der bleibt,
+> wo der Bestand ihn führt) ≠ K04-Auflösung.
+> **Teil 2 — R40-N-6 nachziehen:** In `handel/preisliste-vorlaeufig.md`
+> (und wo die anderen beiden Dokumente das n8n-Kostenargument gegen
+> W-B führen) ein markierter Nachtrag: ein Schlüssel/unlimited
+> instances, gemeinsame Quota — Herkunft „heypensio R40 via Briefing
+> Nachtrag 6" mit Rundenpräfix **R40-N-6** (nie nacktes „N-6" — der
+> eigene Bestand hat kollidierende N-Nummern, L-35).
+> **Teil 3 — Belegstufen-Hebung:** Lies zuerst die Wortlaut-Datei
+> VOLLSTÄNDIG. Dann je ✅-Vermerk in den drei Dokumenten (E-1…E-8
+> inkl. E-2a/E-5a · S4 · AA-1…AA-8; Leitsessions-Messung: Zeilen mit
+> „Wortlaut nicht archiviert": 2/3/11 — zähl die VERMERKE selbst):
+> (a) prüfe den sinngemäßen Vermerk-Inhalt GEGEN den archivierten
+> Wortlaut — Aussage und Fundstelle getrennt; (b) deckt der Wortlaut
+> den Vermerk → markierter Hebungs-Nachtrag „Belegstufe gehoben:
+> Wortlaut archiviert (sensibel, 13.08.)" PER VERWEIS auf die Datei
+> (D8-Muster: Wortlaut-Volltexte NICHT ins Repo kopieren); (c) weicht
+> der Wortlaut ab → das ist ein BEFUND: markierter Nachtrag mit der
+> tragenden Wortlaut-Passage als kurzem Beleg-Zitat, alte Fassung
+> bleibt sichtbar — nie stille Korrektur. Nenner ins Protokoll: „x
+> Vermerke geprüft, y gehoben, z abweichend (je einzeln)" — der Nenner
+> hängt am PRÜFGEGENSTAND (alle Vermerke), nicht an einer Auswahl
+> (L-30). AA-4 bleibt OFFEN (dazu gibt es keinen Entscheid-Wortlaut zu
+> heben — nur prüfen, ob die Erhebung AA-4 erwähnt, und das als
+> Randnotiz führen).
+> **Teil 4 — Selbstwiderspruchs-Probe über alle drei Dokumente:** grep
+> auf die geänderten Größen (Z-6, n8n-Lizenz, SUL, Belegstufe,
+> „Wortlaut nicht archiviert", W-B-Kostenargument) UND auf
+> Statusaussagen über fremde Träger (übergeben/beantwortet/offen —
+> zweite Musterachse, L-37); jede Trefferstelle gegen den neuen Stand
+> lesen; Muster + Trefferzahlen (Positivkontrolle je Muster) ins
+> Protokoll. ⚠️ Wächter-Regel (L-26-Schärfung): VOR deinen Edits einen
+> Baseline-Lauf `node akquise/pruefe-zitate.js` ziehen, nach den Edits
+> erneut — jede NEUE Meldung einzeln erklären; berühren deine
+> Nachträge Zitate/Ausnahmeliste, ziehst du die Ausnahmeliste im
+> selben Zug nach (je Eintrag mit Begründung). Exit-Code per
+> `$LASTEXITCODE` unmittelbar nach dem Aufruf, nie via cmd-`%ERRORLEVEL%`.
+>
+> **Harte Grenzen:** (a) Nichts geht nach außen. (b) Du entscheidest
+> NICHTS neu — du arbeitest zwei Zentrale-Nachträge ein; wo eine
+> Stelle unklar ist (Vorbehalt Z-6 oder K04?), ist die dokumentierte
+> Randfrage der Eintrag, nicht deine Festlegung. (c) Vorbehalt zuerst
+> übernehmen, dann den Satz bauen; jede Entwarnung trägt ihre Quelle
+> im Satz; die Auflösung eines Vorbehalts ist eine ENTWARNUNG mit
+> voller Belegpflicht (Quelle = Nachtrag 6 + heypensio-Vorlage, je im
+> Satz). (d) Aus `zentrale\sensibel\` nichts als Volltext ins Repo —
+> nur Verweise + kurze Beleg-Zitate bei Abweichungs-Befunden.
+> (e) Fremde Repos (zentrale, heypensio) nur LESEN.
+>
+> **Dein Scope (Schreibrechte):** `handel/preismodell-optionen.md` ·
+> `handel/preisliste-vorlaeufig.md` · `handel/angebotsarchitektur.md`
+> (je nur markierte Nachträge/Hebungs-Vermerke) · `protokolle/R14-A-*`
+> · `sensibel/rohbelege-R14-A/` (neu falls gebraucht, git-ignoriert,
+> nie committen). Alles andere nur lesen — ausdrücklich NICHT
+> anfassen: `handel/kanal-rechtsmatrix.md` + `fund/` (gehören R14-B),
+> `akquise/` (nur der Wächter-LAUF ist erlaubt, Edits an
+> `akquise/`-Dateien inkl. Ausnahmeliste nur, wenn DEINE Nachträge
+> neue Wächter-Meldungen erzeugen — dann mit Ausweis), Projektquelle,
+> STATUS.md, CLAUDE.md, Skills/Commands. Kein eigener Debrief.
+> **R14-B läuft PARALLEL** in `handel/kanal-rechtsmatrix.md` +
+> `fund/` — fremde uncommittete Dateien im `git status` ignorieren.
+>
+> **Subagenten:** Bestandsarbeit — KEIN Fan-out. **Prüfer (Pflicht,
+> Voll-Review):** Nach dem ersten vollständigen Stand committen, Hash
+> notieren, dann EIN unabhängiger Prüf-Subagent mit frischem Kontext;
+> eingefrorener Prüfstand: dein Commit-Hash (Prüfgegenstand UND
+> Quellen per `git show <hash>:<pfad>`; die Wortlaut-Datei liegt
+> außerhalb von git — Pfad nennen, Lese-Stand mit Datum); Schreibrecht
+> nur auf `protokolle/R14-A-pruefer.md`; Arbeitsbaum-Diff ausdrücklich
+> NICHT sichten. Prüfraum-Regel: Prüfgegenstand sind deine drei
+> Dokumente, der PRÜFRAUM ist alles, worauf sie zeigen (ganzes
+> Briefing, heypensio-Vorlage, Wortlaut-Datei). **Pflicht-Kategorien
+> mit Ergebnis je Kategorie (auch „keine Auffälligkeit"):**
+> (1) Z-6-Disposition falsch (je Trefferstelle gegen Quelle, Nenner
+> x/y; auch: K04-/Architektur-Vorbehalt fälschlich mit aufgelöst) ·
+> (2) Was aus Nachtrag 6/8 + heypensio-Vorlage ist gar nicht
+> angekommen? — von den QUELLEN RÜCKWÄRTS (auch: „offen bleibt
+> Z-5/K04", Quota-Grenze bei R40-N-6) · (3) Hebung ohne
+> Wortlaut-Deckung / Abweichung still korrigiert statt als Befund
+> geführt (je Vermerk gegen die Wortlaut-Datei, Nenner) ·
+> (4) Vorbehaltsverlust (Firmierung · K04 · „Höhe bis E-6/E-7" ·
+> AA-4 offen · Architektur-Entscheid) · (5) stille Neufassung statt
+> markiertem Nachtrag · (6) Widerspruch in/zwischen den drei
+> Dokumenten nach den Edits · (7) Wächter-Stand: Baseline- und
+> Nachher-Lauf dokumentiert, neue Meldungen erklärt,
+> Löschungszählung `git diff --numstat` — jede gelöschte Zeile
+> einzeln (L-38). Dazu die zwei Zusatzfragen: „Welche Verfälschung
+> hätte dein Verfahren NICHT gefangen?" und „Hättest du deine Funde
+> auch OHNE die Kategorien-Hinweise gefunden?".
+> **Danach disponierst du JEDEN Prüferbefund** (repariert /
+> ausdrücklich verworfen mit Grund / benannter Träger) — am ROHBELEG
+> gemessen. Kein Subagent für Git-Operationen und kleine Edits.
+>
+> **Git:** Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; Reihenfolge zwingend
+> add → commit → erst `git fetch` + `git log HEAD..origin/main` (gehen
+> 0 Commits ein, entfällt der Rebase) → sonst `git pull --rebase
+> --autostash` (⚠️ R14-B läuft parallel — Autostash-Warnung) → push
+> als `git push origin <dein-hash>:main` (Vorfahren-Regel beachten).
+> Message-Datei mit dem Write-Tool im Scratchpad, Betreff in
+> ASCII-Transliteration. Ein blockierter Push ist ein Betriebszustand:
+> nicht umgehen, später erneut versuchen.
+>
+> **Fertig-Kriterium:** Alle Z-6-Trefferstellen disponiert (Tabelle im
+> Protokoll, Nenner = eigene Zählung); R40-N-6-Nachtrag steht;
+> Belegstufen-Hebung mit Nenner „x geprüft / y gehoben / z abweichend"
+> abgeschlossen; Selbstwiderspruchs-Probe + Wächter-Läufe (Baseline +
+> nachher) protokolliert; Prüferprotokoll `protokolle/R14-A-pruefer.md`
+> liegt vor; **alle** Prüferbefunde disponiert. **Abschlussmeldung in
+> VIER Blöcken** (gebaut/verifiziert mit Commit-Hashes+Pfaden · offen
+> geblieben · Nebenbefunde außerhalb des Auftrags · Stolpersteine/
+> Learnings, getrennt nach (i) Fallen und (ii) bewährten Mustern),
+> zusätzlich committet als `protokolle/R14-A-abschluss.md` mit
+> Kopfzeile „Token-Verbrauch: von der Session nicht erhebbar —
+> Subagenten-Zahlen soweit bekannt: …". **Prüferbefunde kategorienweise
+> MIT NENNER und mit dem LAUF-STATUS des Prüfers** (offene
+> Prüfschritte einzeln ausweisen, nie glätten; abgebrochene Prüfer
+> fortsetzen statt neu starten).
+
+#### Strang R14-B (Yasopp) — Rechtsmatrix-Pflege R9A-N-9…N-14 + FUND-Pflege R11A-N-3…N-6
+
+> Parallel-Session „R14-B" (Leitsession läuft separat,
+> Multi-Session-Modell lt. CLAUDE.md). Session-Start: `git pull`; dein
+> tatsächliches Modell verifizierst du NUR per Statuszeile (nicht per
+> Selbstauskunft) und nennst es in der Abschlussmeldung; ist die
+> Statuszeile nicht lesbar, meldest du das mit der Umgebungsangabe.
+>
+> **Kontext:** Zwei Pflege-Pakete, beide seit Runden offen (STATUS
+> „R11-Block rotiert … weiterhin offen"):
+> (a) **Rechtsmatrix-Pflege:** `handel/kanal-rechtsmatrix.md` trägt im
+> Abschnitt „Offene Punkte und Belegstufen-Grenzen" einen
+> Merker-Kasten mit sechs Befunden **R9A-N-9…N-14** („Träger:
+> MKT-HANDEL, nächste Runde" — das ist jetzt DEINE Runde). Quelle der
+> Befunde: `protokolle/R09-A-abschluss.md` Block 3; Sachquelle
+> dahinter: `akquise/interessenabwaegung-o8.md`. ⚠️ **N-10 (= O-9) ist
+> seit R13-B bereits GEFÜHRT** — der O-9-Kasten steht direkt unter dem
+> Merker-Kasten: gegenlesen und den Merker-Eintrag als erledigt
+> disponieren, NICHT doppeln (Dubletten-Regel).
+> (b) **FUND-Pflege:** `protokolle/R11-A-abschluss.md` Block 3 führt
+> vier Nebenbefunde **R11A-N-3…N-6** mit Zielort
+> `fund/wettbewerbsbild.md` (Straiv: Zimmerzahl als vertraglicher
+> Vergütungsparameter/AGB-Konditionen + AGB-nennt-4-Website-bewirbt-8;
+> melevo: zwei verschiedene Anschriften + heutige Zusatzposten, „ob
+> neu: nicht feststellbar"). Rohbelege: `sensibel/rohbelege-R11-A/`
+> (existiert, nur LESEN — Rohbelege NEUER Abzüge gehören in DEINEN
+> Ordner `sensibel/rohbelege-R14-B/`, L-20).
+>
+> **Aufgabe in drei Teilen:**
+>
+> **Teil 1 — Rechtsmatrix-Pflege:** Die fünf offenen Befunde (N-9 ·
+> N-11 · N-12 · N-13 · N-14; N-10 s. o. nur disponieren) an ihren
+> SACHSTELLEN einarbeiten — je als markierter Nachtrag, nie stille
+> Neufassung: **N-9** C4-Mindestumfang um die Empfänger-Angabe
+> (Art. 14 Abs. 1 lit. e) ergänzen (im O-8-Dokument bereits ergänzt —
+> Formulierung von dort messen, nicht neu erfinden) · **N-11**
+> A7-Darstellung des LG-Urteils präzisieren (beide Absagegründe Stufe 1,
+> Rn. 84/88; kein Abwägungstopos) · **N-12** die GEGENANSICHT
+> eintragen (OLG Stuttgart 2 U 63/22; Eckhardt ZD 2024, 399 + ZD 2025,
+> 443; LG weicht ausdrücklich ab, Rn. 79–83) — die Rechtslage darf
+> danach nicht eindeutiger aussehen, als sie ist: „streitig" ist der
+> Eintrag, nicht der bequemere Pol · **N-13** Zählwege an die zwei
+> Zahlen (199 nur case-insensitive [case-sensitiv 187] · 109
+> case-sensitiv) — reproduzier die Zählungen am Bestand, bevor du sie
+> einträgst, und schreib den Zählweg an die Zahl · **N-14** § 3a
+> UWG-Abmahnschiene (auch durch Mitbewerber) in Teil B nachtragen —
+> der Bestand führt die Frage als „Streitstand nicht abschließend
+> erhoben": neu ist der BELEG, nicht die Frage; so ausweisen. Danach
+> im Merker-Kasten je Zeile die Disposition vermerken (eingearbeitet
+> wo / erledigt durch R13-B / …) — der Kasten bleibt als Historie
+> lesbar.
+> **Teil 2 — FUND-Pflege:** R11A-N-3…N-6 in `fund/wettbewerbsbild.md`
+> einarbeiten, je als markierter Nachtrag mit Herkunft
+> (`protokolle/R11-A-abschluss.md`, Rundenpräfix R11A-N-x) und
+> Belegstufe AUS DER QUELLE (Straiv-AGB = Anbieter-Selbstauskunft;
+> Zahlen mit Schlüssel + Scope + Steuerbasis-Stand KOPIEREN, nicht
+> abschreiben; melevo-Zusatzposten tragen sichtbar „ob neu gegenüber
+> 09.08.: nicht feststellbar"). Wo das Wettbewerbsbild Straiv „ohne
+> Preisform" führt, wird die Stelle nachgezogen (markierter Nachtrag,
+> Vorwärtsverweis-Konvention). Anschriften-Befund (N-5): auch als
+> Belegfall der Regel „Anschriften über mehrere Stellen belegen"
+> kennzeichnen (Baustein aussenwirksame-texte).
+> **Teil 3 — Konsequenz-/Selbstwiderspruchs-Probe:** grep über beide
+> Dokumente auf die geänderten Größen (Empfänger/Art. 14 · Gegenansicht/
+> OLG/Eckhardt · Zählwege/Trefferzahlen · § 3a UWG · Straiv/melevo)
+> UND auf Statusaussagen über fremde Träger (L-37, zweite Achse);
+> Muster + Trefferzahlen (Positivkontrolle je Muster) ins Protokoll.
+> ⚠️ Wächter-Regel (L-26-Schärfung): VOR deinen Edits Baseline-Lauf
+> `node akquise/pruefe-zitate.js`, nach den Edits erneut — jede NEUE
+> Meldung einzeln erklären; neue Zitate (N-12-Fundstellen!) ggf. mit
+> Ausnahmeliste-/Selbsttest-Nachzug im selben Zug (je Eintrag mit
+> Begründung + wer stattdessen verifiziert hat). Exit-Code per
+> `$LASTEXITCODE`, nie cmd-`%ERRORLEVEL%`.
+>
+> **Harte Grenzen:** (a) Nichts geht nach außen. (b) Keine neuen
+> Rechts-BEWERTUNGEN — du überträgst belegte Befunde; wo streitig, ist
+> „streitig" der Eintrag. (c) Urteils-/Literatur-Fundstellen aus den
+> Quellen KOPIEREN (byte-genau), nie aus dem Gedächtnis; fehlt dir für
+> N-12 ein Rohbeleg im Bestand, ist Web-Recherche ERLAUBT (Baustein
+> quellen-beschaffung gilt; neue Rohbelege → `sensibel/rohbelege-R14-B/`)
+> — trägt der Bestand die Fundstelle, gewinnt der Bestand. (d) Jede
+> Entwarnung trägt ihre Quelle im Satz. (e) Fremde Repos nur LESEN.
+>
+> **Dein Scope (Schreibrechte):** `handel/kanal-rechtsmatrix.md` (nur
+> markierte Nachträge) · `fund/wettbewerbsbild.md` (nur markierte
+> Nachträge) · ggf. `akquise/selbsttest-zitate.md` + Ausnahmeliste in
+> `akquise/pruefe-zitate.js` (NUR bei neuen Wächter-Meldungen durch
+> deine Edits, je mit Ausweis) · `protokolle/R14-B-*` ·
+> `sensibel/rohbelege-R14-B/` (neu falls gebraucht, git-ignoriert).
+> Alles andere nur lesen — ausdrücklich NICHT anfassen:
+> `akquise/interessenabwaegung-o8.md` + `akquise/listenbau-regelwerk.md`
+> (Quellen — Befunde daran sind Nebenbefunde, keine Edits), die drei
+> Preisdokumente in `handel/` (gehören R14-A), Projektquelle,
+> STATUS.md, CLAUDE.md, Skills/Commands. Kein eigener Debrief.
+> **R14-A läuft PARALLEL** in den drei `handel/`-Preisdokumenten —
+> fremde uncommittete Dateien im `git status` ignorieren.
+>
+> **Subagenten:** Bestandsarbeit — KEIN Fan-out (bei N-12-Nachbelegen
+> ggf. EIN read-only Recherche-Agent, mit den Werkzeugfallen des
+> quellen-beschaffung-Bausteins im Prompt). **Prüfer (Pflicht,
+> Voll-Review):** Nach dem ersten vollständigen Stand committen, Hash
+> notieren, dann EIN unabhängiger Prüf-Subagent mit frischem Kontext;
+> eingefrorener Prüfstand: dein Commit-Hash (Prüfgegenstand UND
+> Quellen per `git show <hash>:<pfad>`); Schreibrecht nur auf
+> `protokolle/R14-B-pruefer.md`; Arbeitsbaum-Diff ausdrücklich NICHT
+> sichten. Prüfraum-Regel: Prüfgegenstand sind deine zwei Dokumente,
+> der PRÜFRAUM ist alles, worauf sie zeigen (R09-A-/R11-A-Abschluss,
+> O-8-Abwägung, Rohbelege R11-A). **Pflicht-Kategorien mit Ergebnis je
+> Kategorie (auch „keine Auffälligkeit"):** (1) Befund verfälscht
+> übernommen (je N-Posten gegen seine Quelle, Nenner x/6 + x/4) ·
+> (2) Was aus den Quell-Befunden ist gar nicht angekommen? — von den
+> ABSCHLUSSPROTOKOLLEN RÜCKWÄRTS (Bedingungen/Einschränkungen: „neu
+> ist der Beleg, nicht die Frage" N-14 · „nicht feststellbar" N-6 ·
+> case-Zählwege N-13) · (3) die Rechtslage sieht nach den Edits
+> eindeutiger aus als vorher (N-12-Gegenansicht vollständig? beide
+> Eckhardt-Fundstellen?) · (4) Vorbehaltsverlust (Streitstand ·
+> Belegstufen der Anbieter-Selbstauskünfte · O-9 bleibt OFFEN) ·
+> (5) Dublette statt Nachziehen (N-10/O-9! · dieselbe Pflicht an zwei
+> Stellen ohne Wächter/Vorrangklausel) · (6) Widerspruch
+> Rechtsmatrix ↔ Abwägung ↔ Wettbewerbsbild nach den Edits ·
+> (7) Zitat-Treue + Wächter-Stand (Baseline/Nachher-Lauf, neue
+> Meldungen erklärt) + Löschungszählung `git diff --numstat`, jede
+> gelöschte Zeile einzeln (L-38). Dazu die zwei Zusatzfragen: „Welche
+> Verfälschung hätte dein Verfahren NICHT gefangen?" und „Hättest du
+> deine Funde auch OHNE die Kategorien-Hinweise gefunden?".
+> **Danach disponierst du JEDEN Prüferbefund** (repariert /
+> ausdrücklich verworfen mit Grund / benannter Träger) — am ROHBELEG
+> gemessen. Kein Subagent für Git-Operationen und kleine Edits.
+>
+> **Git:** Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; Reihenfolge zwingend
+> add → commit → erst `git fetch` + `git log HEAD..origin/main` (gehen
+> 0 Commits ein, entfällt der Rebase) → sonst `git pull --rebase
+> --autostash` (⚠️ R14-A läuft parallel — Autostash-Warnung) → push
+> als `git push origin <dein-hash>:main` (Vorfahren-Regel beachten).
+> Message-Datei mit dem Write-Tool im Scratchpad, Betreff in
+> ASCII-Transliteration. Ein blockierter Push ist ein Betriebszustand:
+> nicht umgehen, später erneut versuchen.
+>
+> **Fertig-Kriterium:** R9A-N-9…N-14 vollständig disponiert (5
+> eingearbeitet an den Sachstellen + N-10 als „durch R13-B geführt"
+> vermerkt; Merker-Kasten je Zeile mit Disposition); R11A-N-3…N-6 im
+> Wettbewerbsbild eingearbeitet; Konsequenz-Probe + Wächter-Läufe
+> protokolliert; Prüferprotokoll `protokolle/R14-B-pruefer.md` liegt
+> vor; **alle** Prüferbefunde disponiert. **Abschlussmeldung in VIER
+> Blöcken** (gebaut/verifiziert mit Commit-Hashes+Pfaden · offen
+> geblieben · Nebenbefunde außerhalb des Auftrags · Stolpersteine/
+> Learnings, getrennt nach (i) Fallen und (ii) bewährten Mustern),
+> zusätzlich committet als `protokolle/R14-B-abschluss.md` mit
+> Kopfzeile „Token-Verbrauch: von der Session nicht erhebbar —
+> Subagenten-Zahlen soweit bekannt: …". **Prüferbefunde kategorienweise
+> MIT NENNER und mit dem LAUF-STATUS des Prüfers** (offene
+> Prüfschritte einzeln ausweisen, nie glätten; abgebrochene Prüfer
+> fortsetzen statt neu starten).
+
+**Block-Programm danach (PROGNOSE):** Leitsession-Reviews beider
+Richtungen je Abschlussmeldung · `/debrief` R14 (Debrief-Posten:
+Nachtrag-7-Vollzug — CLAUDE.md-Größe 73.399 Bytes in den STATUS,
+Formdisziplin „Schärfung ERSETZT Kern" ab diesem Debrief anwenden ·
+ggf. Stempel-Nachzug, Delta aktuell 0) · danach Feierabend oder
+AA-4-Nachtrag bei Kayhan-Antwort — entscheidet der User.

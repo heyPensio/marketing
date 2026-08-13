@@ -121,6 +121,24 @@
 > > belegt**, nicht auf **vollständig protokolliert** — archiviert sind
 > > Antworten und Freitexte, nicht der Gesprächsverlauf. **Kein
 > > Entscheid-Inhalt und keine Zahl ändert sich dadurch.**
+> >
+> > **📌 Nachschärfung 13.08. abends (Prüferbefunde PR-06, PR-07) — zwei
+> > der Zitate oben sind zu stark gefasst:**
+> > 1. **„(Recommended)" fehlt in den Zitaten.** Die Archivdatei weist
+> >    „Antwort:" als die **exakt gewählte Dropdown-Option** aus; dort
+> >    stehen „Je Haus **(Recommended)**", „Ab dem 2. Haus
+> >    **(Recommended)**", „Fester Prozentsatz **(Recommended)**", „Ohne
+> >    Deckel, Prüfposten nach E-6 **(Recommended)**". Der Zusatz
+> >    relativiert die Belegstufe: Es sind **von der Session
+> >    vorgeschlagene, vom User bestätigte Fassungen** — **außer AA-8**
+> >    („gegen Empfehlung").
+> > 2. **AA-8: gedeckt ist die ZUSTIMMUNG, nicht die REICHWEITE.** Der
+> >    Wortlaut lautet vollständig *„Ja, Rabatt ab Haus 2"* — kein Wort
+> >    zur **Startgebühr S4**; die S4-Erstreckung ergibt sich aus der
+> >    **nicht archivierten Frage**. Belegstufe dafür:
+> >    **Briefing-Nachtrag 4 + Antwort**, nicht der Wortlaut allein.
+> >    *(Die daneben stehende Aussage „zu S2 und den § 2-Zeilen schweigt
+> >    das Protokoll" bleibt korrekt — das Schweigen ist gemessen.)*
 >
 > ⚠️ **Eine Abgrenzung im Kasten darunter ist damit überholt:** Der
 > Eintrag „Nicht Teil dieser Datei" führt „Leistungspakete und die
@@ -407,7 +425,17 @@ werden.
 > > verbliebene Strukturvorbehalt:** Die n8n-Frage **Z-6 ist aufgelöst**
 > > („A3 trägt", `preismodell-optionen.md` § 5.3-Nachtrag; Quelle:
 > > heypensio R40 via Briefing Nachtrag 6). **K03/n8n ist damit erledigt
-> > — K04/Vapi und Z-5 sind es NICHT.** Was der Kasten oben feststellt,
+> > — K04/Vapi und Z-5 sind es NICHT.**
+> > ⚠️ **Präzisierung 13.08. abends (Prüferbefund PR-08): „K03 erledigt"
+> > ist zu pauschal.** K03 hat zwei Teile. Entfallen ist die
+> > **Lizenz-BEGRÜNDUNG** („die Lizenz-Argumentation ruht auf dem
+> > fehlenden Zugang" — sie ruht nicht darauf). **Bestehen bleibt der
+> > Sachverhalt selbst:** Der Bestand beschreibt einen Bau, in dem der
+> > Kunde **keinen** n8n-Zugang hat, während die E-3-Rechenbasis ihn als
+> > Eigentümer mit Zugang führt. Diesen Widerspruch löst nicht die
+> > Lizenz, sondern nur der **Architektur-Entscheid** — der nicht
+> > gefallen ist. Und die Bestandsstelle im heypensio-Blueprint ist bis
+> > zum dortigen Posten **O-5 unverändert**. Was der Kasten oben feststellt,
 > > gilt unverändert und wiegt jetzt sogar schwerer: Die Vapi-Kollision
 > > war nie dieselbe Frage, sie lief nur im selben Bündel. **Der Träger
 > > bleibt E-4** (Briefing 13.08., Nachtrag 3 Punkt 1 führt die
@@ -1065,6 +1093,18 @@ wird, sieht in einer Spanne wie eine Obergrenze aus.
 > |---|---|---|
 > | **K04 / Vapi-Kollision + Vertragspartner-Frage Z-5** | **ungeklärt** — kann die Durchreichungs-Struktur dieser Liste kippen (§ 2) | **E-4** (Ruffy/heypensio) + **Z-5** (Zentrale), **ohne Kalendertermin** |
 > | **K-1 — Lizenz-Restpunkt:** akzeptiert n8n die kostenlose **Community-Edition** als Backend eines entgeltlichen Produkts? | **streitig** (n8n-Quellen widersprechen sich; Lizenztext schweigt). ⚠️ Trifft **W-A und W-B gleich stark** — kein Argument gegen die Rechenbasis | Anfrage an `license@n8n.io`; **User + heypensio-Folgestrang**. Fällig, **bevor ein Kunden-Angebot mit A3-Architektur hinausgeht** |
+>
+> ⚠️ **Präzisierung des „✅ GEKLÄRT" oben (13.08. abends, nach
+> Prüferbefund PR-03):** Richtig ist **„geklärt auf Belegstufe A + B,
+> Auslegung E"** — nicht „vertragsfest". Der für ein **Preismodell**
+> entscheidende Teil (dass wir für Einrichtung und Betreuung Geld nehmen
+> dürfen) trägt die **Anbieter-FAQ (B)**, nicht der Lizenztext (A); die
+> Quelle sagt dazu selbst: „**Keine Rechtsberatung. Die Auslegung ist
+> Stufe E**" und „‚passt zu dem, was die Lizenz erlaubt' ist bewusst
+> nicht ‚von der Lizenz **gedeckt**' … **ob eine FAQ im Streitfall
+> bindet, ist offen**". Ein ✅ ohne diesen Zusatz erbt nicht von der
+> schwächsten Prämisse. Fassung: `preismodell-optionen.md`
+> § 5.3-Nachtrag.
 
 ---
 

@@ -28,6 +28,47 @@
 > Zitat** — kein Satz dieses Papiers darf einen Entscheid als wörtliche
 > Äußerung des Users ausgeben.
 >
+> > ### 📌 NACHTRAG 13.08.2026 abends (R14-A, nach Prüferbefund PR-02) — dieser Belegstufen-Absatz ist ÜBERHOLT
+> >
+> > **Die Wortlaute sind seit dem 13.08. abends archiviert**
+> > (`<FIRMENWURZEL>\zentrale\sensibel\entscheide-erhebungen-2026-08-13-wortlaut.md`,
+> > git-ignoriert; Freigabe: Briefing „📮 Nachtrag 8"). Die vollständige
+> > Hebung mit Nenner, Präzisierungen und Grenzen steht im
+> > **§ 11-Hebungskasten** — hier nur der Zeiger.
+> >
+> > ⚠️ **Der Satz „kein Satz dieses Papiers darf einen Entscheid als
+> > wörtliche Äußerung des Users ausgeben" ist in dieser Form nicht mehr
+> > haltbar** und wäre sonst ein Selbstwiderspruch zum § 11-Kasten, der
+> > den User wörtlich zitiert. **Was an die Stelle tritt — enger
+> > gefasst:** Zitierfähig sind die **archivierten Antwort-Wortlaute und
+> > Freitexte**. **Nicht** zitierfähig als User-Äußerung bleiben die
+> > **Formulierungen der Entscheide selbst**: Sie sind überwiegend
+> > **von der Session vorgeschlagene und vom User bestätigte Fassungen**
+> > (die Archivdatei weist die Dropdown-Optionen als „(Recommended)" aus
+> > — s. § 11-Kasten). Der Vorbehalt des Absatzes oben war also nicht
+> > falsch, nur zu weit: Er verbot das Zitieren generell, während heute
+> > **die Antwort** belegt ist und **die Fassung** nicht.
+> >
+> > ⚠️ **Warum dieser Kasten erst nach dem Prüferlauf entstand
+> > (sichtbar, nicht still repariert):** Das Suchmuster der Hebung war
+> > die Zeichenkette „Wortlaut nicht archiviert" — es trifft die hier
+> > verwendete Variante „**der Wortlaut ist nicht archiviert**" nicht.
+> > Zusätzlich hing der Nenner des § 11-Kastens am **Abschnitt** § 11
+> > statt am **Dokument** (bei den beiden Nachbardokumenten hing er am
+> > Dokument). **Ein Muster ist eine Annahme über die Form** — und ein
+> > Nenner am Auswahlkriterium ist keine Zählung (L-30).
+> >
+> > **📌 Zugleich (Prüferbefund PR-13) — zwei Bestandszahlen dieses
+> > Kopfkastens sind durch spätere Commits veraltet:** „**0 gelöschte
+> > Zeilen** bei **1.078** hinzugefügten" und „**15** weitere
+> > Nachtragskästen" beschreiben den R13-A-Commit. **Stand `8b46e64`
+> > (R14-A):** über dieselben drei Dateien **578 weitere Einfügungen bei
+> > erneut 0 Löschungen** (254/158/166), und die Zahl der markierten
+> > Kästen ist entsprechend höher. **Die Aussage „0 Löschungen" gilt
+> > also für beide Commits** — nur die Summen sind fortzuschreiben.
+> > *(Klasse: Ein Dokument, das seinen eigenen Prüfstand dokumentiert,
+> > veraltet durch genau die Edits, die es beschreibt.)*
+>
 > **Was sich am Status ändert — und was ausdrücklich NICHT:**
 >
 > | | |
@@ -629,6 +670,42 @@ Verschärfung durch A3** — und ihre Relevanz für den Preisentscheid.
 > **Was aus dieser Auflösung NICHT folgt:** kein Preisentscheid, keine
 > Architektur-Festlegung, keine Höhe. Aufgelöst ist ein **Vorbehalt**,
 > nicht eine Frage des Preismodells.
+>
+> ---
+>
+> **📌 Ergänzung 13.08.2026 abends (R14-A, nach Prüferbefunden PR-03 und
+> PR-10) — zwei Vorbehalte der QUELLE, die in der Erstfassung dieses
+> Kastens fehlten. Beide schwächen die Entwarnung, und genau deshalb
+> gehören sie hierher:**
+>
+> 1. ⚠️ **Die Auslegung der Quelle ist Stufe E — keine Rechtsberatung.**
+>    Wörtlich (§ 0.2): „**Keine Rechtsberatung. Die Auslegung ist Stufe
+>    E.** Für einen Preisentscheid, der Geld bindet, ist der Klärweg in
+>    § 5 zu gehen." Und zur Formulierung selbst (§ 10, dort nach
+>    Prüferbefund F5 präzisiert): „‚**passt zu dem, was die Lizenz
+>    erlaubt**' ist bewusst nicht ‚von der Lizenz **gedeckt**'. Der Kern
+>    der Erlaubnis steht in einer **FAQ**, nicht im Vertragstext — und
+>    **ob eine FAQ im Streitfall bindet, ist offen**."
+>    **Das ist für ein Preismodell der entscheidende Teil:** Dass wir für
+>    Einrichtung und Betreuung **Geld nehmen dürfen**, trägt die FAQ
+>    (Stufe **B**), nicht der Lizenztext (Stufe A). „A3 trägt" ist damit
+>    belegt, aber **nicht vertragsfest** — es erbt die Belegstufe seiner
+>    schwächsten tragenden Prämisse.
+> 2. ⚠️ **Eine fünfte Bedingung neben AU-1…AU-4, und sie trifft den
+>    KUNDEN:** „A3 trägt" gilt (§ 3.7) nur, „**solange der Kunde n8n
+>    nicht seinerseits seinen Gästen öffnet**" — sonst kippt der
+>    Backend-Fall in den **OEM-Fall**, für den n8n eine eigene
+>    kommerzielle Vereinbarung verlangt. Die Quelle führt das als
+>    Betriebsregel **O-2**. **Im A3-Modell gehört die Instanz dem
+>    Kunden** — die Grenze ist also gerade dort einschlägig und ist eine
+>    **Kunden**-Pflicht: Sie gehört als **Vertragsklausel** ins Angebot,
+>    nicht in unsere eigene Betriebsdoku.
+>
+> **Folge für die Wortwahl in allen drei Dokumenten:** Ein „✅ GEKLÄRT"
+> ohne Belegstufe wäre nach der eigenen Regel („Status-Symbole erben von
+> der SCHWÄCHSTEN Prämisse") zu stark. Richtig ist: **geklärt auf
+> Belegstufe A + B, Auslegung E; vertragsfest erst mit der Antwort auf
+> K-1.**
 
 ### 5.4 Was das je Preisoption bedeutet
 

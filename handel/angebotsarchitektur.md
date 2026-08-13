@@ -112,6 +112,51 @@
 >
 > **Kein Entscheid-Inhalt, keine Zuordnung und keine Höhe ändert sich
 > durch diese Hebung.**
+>
+> ### 📌 Nachschärfung 13.08.2026 abends (R14-A, nach Prüferbefunden PR-06, PR-07, PR-11, PR-12)
+>
+> Vier Korrekturen am Kasten oben — **die Hebung wird dadurch enger, nicht
+> weiter**:
+>
+> 1. ⚠️ **„(Recommended)" gehört zu den Zitaten (PR-07).** Die Archivdatei
+>    weist aus, dass „Antwort:" die **exakt gewählte Dropdown-Option**
+>    ist — und diese Optionen lauten dort „Je Betreiber
+>    **(Recommended)**", „Ab dem 2. Haus **(Recommended)**", „Fester
+>    Prozentsatz **(Recommended)**" usw. Die Zitate oben lassen den
+>    Zusatz weg. **Er ist genau das Merkmal, das die Belegstufe
+>    relativiert:** Die Option war der **Vorschlag der Session**. Damit
+>    gilt die Präzisierung, die weiter oben nur zu E-3 steht, für **alle
+>    „(Recommended)"-Entscheide**: Sie sind **von der Session
+>    vorgeschlagene und vom User bestätigte Fassungen**. **Ausdrücklich
+>    NICHT so entschieden wurde AA-8** — dort vermerkt das Archiv „gegen
+>    Empfehlung"; und die reinen **Freitexte** (AA-3, AA-4) sind
+>    User-Formulierungen.
+> 2. ⚠️ **AA-8 ist nur in der ZUSTIMMUNG wörtlich gedeckt, nicht in der
+>    Reichweite (PR-06).** Der archivierte Wortlaut lautet vollständig
+>    *„Ja, Rabatt ab Haus 2"* — **wortgleich mit der AA-5-Antwort** und
+>    **ohne ein Wort zur Startgebühr**. Dass der Rabatt **auch auf S4**
+>    wirkt, ergibt sich aus der **gestellten Frage**, und das Archiv hält
+>    ausdrücklich nur **Antworten** fest, nicht die Fragen. Belegstufe
+>    für die S4-Erstreckung ist deshalb **Briefing-Nachtrag 4 + die
+>    Antwort**, nicht der Antwort-Wortlaut allein. Das trifft ausgerechnet
+>    den Entscheid, der **gegen die Empfehlung** fiel und Geld kostet —
+>    also die Stelle, an der eine zu starke Belegstufe am teuersten wäre.
+> 3. ⚠️ **Nicht von der Hebung betroffen (PR-11):** die
+>    Belegstufen-Angabe in **„⚠️ Status und Vorbehalte", Punkt 1** („der
+>    **User-Wortlaut** ist nicht archiviert", zur E-8-Formulierung „intern,
+>    unter Firmierungs-Vorbehalt, ohne Außenversand"). Sie bleibt
+>    **richtig**: Das Archiv hält zu E-8 nur *„Ja"* fest; die
+>    Formulierung ist eine Session-Fassung. Das „**Überall**" oben ist
+>    insoweit einzuschränken. *(Auch diese Variante hat das Suchmuster
+>    nicht gefunden — dieselbe Klasse wie PR-02.)*
+> 4. ⚠️ **Zitattreue (PR-12):** Der Rohbeleg schreibt AA-3 klein und ohne
+>    Satzzeichen — *„auch sachen die geplant aber noch in der Entwicklung
+>    sind dürfen angeboten werden"* (die Archivdatei vermerkt:
+>    „Tippfehler des Originals sind belassen"). Die geglättete Fassung im
+>    **AA-3-Kasten** (Großschreibung, Kommata, Schlusspunkt) ist eine
+>    **Lesefassung**, kein Zitat — solange die Belegstufe „sinngemäß"
+>    war, war das gedeckt; **nach der Hebung ist es kenntlich zu machen.**
+>    Gleiches gilt für die Schlusspunkte in den Zitaten dieses Kastens.
 
 > ## ⚠️ Status und Vorbehalte (bitte zuerst lesen)
 >
@@ -184,6 +229,23 @@
 > > (kein White-Labeling — n8n bleibt sichtbar, wo der Kunde es sieht)
 > > und **AU-4** (der Kunde bekommt die Lizenzbedingungen nachweislich
 > > mit — ein **Onboarding-Schritt**, der in jedes Paket gehört).
+> >
+> > ⭐ **Und eine fünfte Bedingung, die den KUNDEN trifft — nachgetragen
+> > 13.08. abends nach Prüferbefund PR-10:** „A3 trägt" gilt nur,
+> > „**solange der Kunde n8n nicht seinerseits seinen Gästen öffnet**"
+> > (Quelle § 3.7, Betriebsregel **O-2**) — sonst kippt der
+> > **Backend**-Fall in den **OEM**-Fall, für den n8n eine eigene
+> > kommerzielle Vereinbarung verlangt. **Im A3-Modell gehört die
+> > Instanz dem Kunden**, also ist das gerade hier einschlägig: Die
+> > Grenze ist eine **Kunden-Pflicht** und gehört als **Vertragsklausel**
+> > ins Angebot, nicht in unsere Betriebsdoku. Sie ist damit die
+> > einzige der fünf Bedingungen, die **nach der Übergabe** fortwirkt —
+> > und die einzige, deren Verletzung wir nicht selbst verhindern können.
+> >
+> > ⚠️ **Belegstufe der ganzen Auflösung** (Prüferbefund PR-03): geklärt
+> > auf **A + B, Auslegung E** — der Entgelt-Teil trägt eine **FAQ**,
+> > nicht den Vertragstext, und „ob eine FAQ im Streitfall bindet, ist
+> > offen". **Vertragsfest** wird die Lage erst mit der Antwort auf K-1.
 >
 > **4. Beträge kommen hier nicht vor — mit Absicht.** Wo eine Höhe
 > berührt wird, verweist dieses Dokument auf die **Platzhalter und
@@ -626,10 +688,18 @@ Angebot hängt an dieser Antwort** (s. § 6).
 
 > **📌 Nachtrag 13.08.2026 abends (R14-A) — zwei Präzisierungen zu
 > diesem Absatz:**
-> 1. **Die Klammer „K03/K04" ist überholt.** **K03** (kein
->    n8n-Zugang für den Kunden) ist mit der Z-6-Auflösung **erledigt**
->    — die Lizenz trägt A3 (Kopfkasten Punkt 3;
->    `preismodell-optionen.md` § 5.3-Nachtrag). K03 war zudem nie die
+> 1. **Die Klammer „K03/K04" ist überholt.** An **K03** (kein
+>    n8n-Zugang für den Kunden) ist mit der Z-6-Auflösung die
+>    **Lizenz-BEGRÜNDUNG entfallen** — die Lizenz-Argumentation ruht
+>    nicht mehr auf dem fehlenden Zugang (Kopfkasten Punkt 3;
+>    `preismodell-optionen.md` § 5.3-Nachtrag). ⚠️ **Der Widerspruch
+>    selbst besteht fort** *(präzisiert nach Prüferbefund PR-08 — die
+>    Erstfassung dieses Nachtrags schrieb pauschal „erledigt")*: Der
+>    Bestand beschreibt einen Bau **ohne** Kundenzugang, die
+>    E-3-Rechenbasis führt den Kunden als **Eigentümer mit** Zugang.
+>    Auflösen kann das nur der **Architektur-Entscheid**, der nicht
+>    gefallen ist; die Bestandsstelle im heypensio-Blueprint ist bis zum
+>    dortigen Posten **O-5 unverändert**. K03 war zudem nie die
 >    Vertragspartner-Frage, sondern die Zugangsfrage; sie liefen nur im
 >    selben Bündel. **Die Vertragspartner-Frage selbst bleibt
 >    unverändert ungeklärt** und hängt allein an **K04/Z-5** — der Satz
@@ -1204,9 +1274,21 @@ trägt.)*
 > derselbe Fall wie die Zeilen 1–3: eine gewählte Struktur, deren
 > Vorbedingung außerhalb liegt und aussteht.
 
-> ### 📌 NACHTRAG 13.08.2026 abends (R14-A) — Widerspruch 1 (K03/n8n) ist AUFGELÖST; 2, 3 und 4 bleiben
+> ### 📌 NACHTRAG 13.08.2026 abends (R14-A) — Widerspruch 1 (K03/n8n) verliert seine LIZENZ-BEGRÜNDUNG; 2, 3 und 4 bleiben
 >
-> **Zeile 1 der Tabelle oben ist überholt.** Die Lizenz-Argumentation
+> ⚠️ **Überschrift und Erstfassung dieses Kastens sagten „ist
+> AUFGELÖST" — das war zu pauschal** *(präzisiert nach Prüferbefund
+> PR-08, sichtbar statt still)*. **Aufgelöst ist der zweite Teil der
+> Zeile 1** (die Lizenz-Argumentation ruht auf dem fehlenden Zugang);
+> **der erste Teil besteht fort** — der Bestand hält einen Bau **ohne**
+> Kundenzugang fest, während E-3 den Kunden als **Eigentümer mit**
+> Zugang rechnet. Das ist ein **Architektur**-Widerspruch, und der
+> Architektur-Entscheid ist **nicht gefallen**. Die Bestandsstelle im
+> heypensio-Blueprint bleibt bis zum dortigen Posten **O-5**
+> unverändert.
+>
+> **Zum aufgelösten Teil — Zeile 1 der Tabelle oben ist insoweit
+> überholt.** Die Lizenz-Argumentation
 > des Betriebs ruht **nicht** auf dem fehlenden Kundenzugang — der
 > Lizenztext erlaubt die Nutzung „**for your own internal business
 > purposes**", und ein Hotel, das seine eigene Instanz für seinen

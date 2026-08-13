@@ -296,7 +296,11 @@ Datum und Weg des Widerspruchs) — sie ist keine Zweitliste.
 
 > 📌 **Nachtrag 13.08.2026 (R13-B) — B-2 · Elektronischer
 > Widerspruchsweg trotz reinem Briefkanal** (`interessenabwaegung-o8.md`
-> § 10 B-2; die Kopplung zuerst, dann die Pflicht):
+> § 10 B-2; die Kopplung zuerst, dann die Pflicht). *Fälligkeits-Hinweis
+> zur Statuszeile oben („VOR dem ersten Versand", W-b3): Das ist das
+> Zitat des Entscheids; als Fälligkeit gilt seit der Rn.-87-Verschärfung
+> „vor dem ersten Datensatz" — s. den Vorwärtsverweis unter § 2.3 und
+> den Nachtrags-Kasten bei Pflicht 4 (Q-04).*
 >
 > - ⭐ **Die daran gekoppelte TOM-Pflicht gehört untrennbar dazu** — in
 >   der Quelle ausdrücklich als Prüferfang nachgetragen (Q-06,
@@ -1132,7 +1136,7 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 | **O-7** | **Hamburg** | Keine Kreisstatistik im Bestand (§ 8) | MKT-FUND |
 | **O-11** *(neu 12.08.2026, R9/N-16)* | **DSK-Ziff. 4.3 „Beipack-Werbung" beim nächsten Durchgang erwähnen** | Von 29 Gliederungspunkten der DSK-Orientierungshilfe (über zwei unabhängige Strukturmerkmale gezählt) sind 18 adressiert; die 11 übrigen betreffen überwiegend die Einwilligungs-Schiene — **Ausnahme Ziff. 4.3**: die einzige Stelle, an der die Aufsicht Briefwerbung per lit. f für zulässig erklärt (Prämisse: Vertragspartner). Tatbestandlich nicht unser Fall, stützt aber die Argumentation | MKT-AKQ, nächster Durchgang |
 | **O-12** *(neu 12.08.2026, R9/R-2)* | **Das O-8-Dokument liegt außerhalb des Prüfraums von `akquise/pruefe-zitate.js`** | Das Skript prüft nur Akquiseplan und dieses Regelwerk; das risikotragende Dokument hat damit **kein dauerhaftes Prüfmittel im Repo** (R09-A hat es in eigener Sache verifiziert). Pool-Erweiterung bräuchte die Primärquellen aus `sensibel/` — eigener Zuschnitt, kein Nebenbei-Fix | nächster Prüflauf |
-| ~~**O-8**~~ | ~~⭐ **Die Interessenabwägung nach Art. 6 Abs. 1 lit. f (Stufe 3) ist nicht durchgeführt**~~ | ~~§ 6 leistet nur Stufe 2 (Erforderlichkeit je Feld). Die Abwägung selbst — Interessen des Betriebs gegen unsere, mit Ergebnis — fehlt. **Damit sind D2 Pflicht 4 und W-b1 offen**, und zwar genau das Dokument, das unter Weg (b) das Risiko trägt (Befund P-01)~~ | ✅ **ERLEDIGT 12.08.2026 (R09-A):** `akquise/interessenabwaegung-o8.md`. **Kein Blankoscheck** — was damit NICHT erledigt ist, steht im Nachtrags-Kasten bei § 3 Pflicht 4 (O-2 offen, Art. 6 Abs. 4 neu offen, acht Bau-Pflichten noch nicht eingearbeitet, anwaltlicher Rat unberührt) |
+| ~~**O-8**~~ | ~~⭐ **Die Interessenabwägung nach Art. 6 Abs. 1 lit. f (Stufe 3) ist nicht durchgeführt**~~ | ~~§ 6 leistet nur Stufe 2 (Erforderlichkeit je Feld). Die Abwägung selbst — Interessen des Betriebs gegen unsere, mit Ergebnis — fehlt. **Damit sind D2 Pflicht 4 und W-b1 offen**, und zwar genau das Dokument, das unter Weg (b) das Risiko trägt (Befund P-01)~~ | ✅ **ERLEDIGT 12.08.2026 (R09-A):** `akquise/interessenabwaegung-o8.md`. **Kein Blankoscheck** — was damit NICHT erledigt ist, steht im Nachtrags-Kasten bei § 3 Pflicht 4 (O-2 offen, Art. 6 Abs. 4 neu offen, acht Bau-Pflichten noch nicht eingearbeitet, anwaltlicher Rat unberührt). *(Nachtrag 13.08.2026, R13-B: Die Bau-Pflichten sind seither eingearbeitet — sieben aktive B-1…B-7, B-8 in der Quelle gestrichen; Index-Kasten am Kopf von § 3. O-2 war schon am 12.08. entschieden. Weiter offen aus dieser Aufzählung: Art. 6 Abs. 4 (O-9) und der anwaltliche Rat.)* |
 | **O-9** *(neu 12.08.2026, R09-A)* | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** (Zweckänderung: Impressumsdaten sind zur Anbieterkennzeichnung veröffentlicht, nicht zu Werbezwecken) | Von der Aufsicht ausdrücklich verlangt (DSK-Orientierungshilfe Ziff. 1.5); in diesem Regelwerk **und** in `handel/kanal-rechtsmatrix.md` bisher **nirgends** geführt — gemessen am Stand **vor** diesem Nachtrag (`git show b2cfa12~1:<datei>`, 12.08.2026): „Art. 6 Abs. 4" **0 Treffer** in beiden Dokumenten, Positivkontrolle „Art. 6 Abs. 1" 7 bzw. 6 Treffer. *(Messstand an die Zahl geschrieben nach Prüferbefund Q-12 — ohne ihn ist die Null in genau der Datei, die sie beschreibt, nicht mehr reproduzierbar.)* | MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand. *(Nachtrag 13.08.2026, R13-B: **Fällig ist O-9 vor dem ERSTEN DATENSATZ**, nicht erst vor dem Versand — Rn.-87-Verschärfung, s. Nachtrags-Kasten bei § 3 Pflicht 4 (Q-04) bzw. `interessenabwaegung-o8.md` § 11.1. Seit 13.08.2026 wird O-9 auch in `handel/kanal-rechtsmatrix.md` als offener Posten geführt — das dortige „nirgends geführt" ist überholt.)* |
 
 ---
@@ -1192,6 +1196,27 @@ Session):**
 | Gegenprobe (verfälschte Fassungen, die NICHT treffen dürfen) | **3 / 3** |
 | Selbsttest des Extraktionspfades (eigene Prüfdatei) | **bestanden** (8 extrahiert / 4 bestätigt / 4 gemeldet) |
 | Exit-Code Hauptlauf / Selbsttest | **0 / 0** *(am 12.08. vorübergehend 1 / 0 — s. Kasten)* |
+
+> 📌 **Nachtrag 13.08.2026 (R13-B, Prüferbefund PB-2) — Stand nach den
+> B-Pflichten-Nachträgen:** Der Hauptlauf meldet jetzt **144 Zitate,
+> 118/125 Quellenzitate bestätigt, Exit 1** — die Tabelle oben
+> beschreibt den Stand vom 12.08.2026 und bleibt als Historie stehen.
+> Die **7 nicht bestätigten** sind sämtlich die neuen Übernahmen aus
+> `interessenabwaegung-o8.md` § 10 (6 DSK-Zitate + *das konkrete
+> Werbevorhaben* aus O-8 § 1.3): **die Primärquelle (DSK-Orientierungs-
+> hilfe) und das O-8-Dokument liegen außerhalb des Quellenpools** —
+> dieselbe Strukturgrenze wie beim Rn.-87-Zitat (Kasten unten) und wie
+> in § 10 O-12 ausgewiesen. **Verifiziert hat sie stattdessen R13-B**
+> per eigenem Wortlaut-Abgleich gegen `interessenabwaegung-o8.md` am
+> Prüfstand (Skript-Gegenprobe: alle übernommenen Zitate/Kernsätze
+> bestätigt, 3/3 Verfälschungs-Gegenproben schlagen an; zusätzlich vom
+> R13-B-Prüfer unabhängig nachgezählt, 9/9 wortgleich —
+> `protokolle/R13-B-pruefer.md`). **Offen mit Träger:** Die
+> Ausnahmeliste in `akquise/pruefe-zitate.js` um diese 7 Einträge
+> ergänzen (je mit Begründung, analog Rn.-87-Eintrag) — das Skript lag
+> außerhalb des R13-B-Schreib-Scopes; Träger: Leitsession/nächste
+> AKQ-Runde. Bis dahin ist der Exit 1 ein AUSGEWIESENER Zustand, keine
+> unbemerkte Rot-Meldung.
 
 > ⚠️ **Wiederkehrende Fehlerklasse, dreimal belegt (Nachtrag 12.08.2026,
 > Befund B-4 aus der Codex-Restprüfung):** **Wer eine Reparatur

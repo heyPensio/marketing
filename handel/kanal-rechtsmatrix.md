@@ -862,7 +862,15 @@ Diese Punkte haben Außenwirkung und werden nicht von der Session festgelegt (CL
 >
 > | Posten | Inhalt | Stand | Träger / Fälligkeit |
 > |---|---|---|---|
-> | **O-9** | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** — Zweckänderung: Impressumsdaten sind zur **Anbieterkennzeichnung** veröffentlicht, nicht zu Werbezwecken; ob die Weiterverwendung zu Werbezwecken mit dem Ursprungszweck vereinbar ist, verlangt die Aufsicht ausdrücklich zu prüfen (DSK-Orientierungshilfe Ziff. 1.5 — Volltext-Zitat in `akquise/interessenabwaegung-o8.md` § 5.2, Prüfpunkt C-8; als offener Posten geführt dort in § 5.5/§ 11.1) | **OFFEN — weder entschieden noch geprüft.** Die Prüfung nimmt keine Marketing-Session selbst vor; anwaltlicher Rat ist das Gate. Solange O-9 offen ist, steht neben der Impressums-Fallgruppe (FG-4 der Abwägung) ein **zweiter** ungeklärter Rechtsgrund — das verschärft das Risikobild, es entlastet nicht (O-8 § 5.5) | **MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand.** ⭐ Fällig **vor dem ERSTEN DATENSATZ** (Listenaufbau), nicht erst vor dem Versand — LG Düsseldorf Rn. 87, Herleitung O-8 § 9.1/§ 11.1 (Rn.-87-Verschärfung, R9) | — „nicht gefunden" ist hier nirgends als „existiert nicht" zu lesen:
+> | **O-9** | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** — Zweckänderung: Impressumsdaten sind zur **Anbieterkennzeichnung** veröffentlicht, nicht zu Werbezwecken; ob die Weiterverwendung zu Werbezwecken mit dem Ursprungszweck vereinbar ist, verlangt die Aufsicht ausdrücklich zu prüfen (DSK-Orientierungshilfe Ziff. 1.5 — Volltext-Zitat in `akquise/interessenabwaegung-o8.md` § 5.2, Prüfpunkt C-8; als offener Posten geführt dort in § 5.5/§ 11.1) | **OFFEN — weder entschieden noch geprüft.** Die Prüfung nimmt keine Marketing-Session selbst vor; anwaltlicher Rat ist das Gate. Solange O-9 offen ist, steht neben der Impressums-Fallgruppe (FG-4 der Abwägung) ein **zweiter** ungeklärter Rechtsgrund — das verschärft das Risikobild, es entlastet nicht (O-8 § 5.5) | **MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand.** ⭐ Fällig **vor dem ERSTEN DATENSATZ** (Listenaufbau), nicht erst vor dem Versand — LG Düsseldorf Rn. 87, Herleitung O-8 § 9.1/§ 11.1 (Rn.-87-Verschärfung, R9) |
+
+> *(Reparaturvermerk 13.08.2026, R13-B, Prüferbefund PB-1: Beim
+> Einfügen des O-9-Kastens war die nachfolgende Kennzeichnungszeile der
+> „nicht erhoben"-Tabelle versehentlich zerteilt worden — ihr Anfang
+> gelöscht, ihr Rest an die O-9-Tabellenzeile geklebt. Die Zeile ist
+> unten im Originalwortlaut wiederhergestellt.)*
+
+Ausdrücklich als **nicht erhoben** gekennzeichnet — „nicht gefunden" ist hier nirgends als „existiert nicht" zu lesen:
 
 | Punkt | Stand |
 |---|---|

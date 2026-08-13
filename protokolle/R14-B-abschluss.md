@@ -28,8 +28,21 @@ Strang R14-B.
 | **`af9909f`** | Einarbeitung beider Pflege-Pakete + `protokolle/R14-B-protokoll.md`. Zugleich der **eingefrorene Prüfstand**. 587 Einfügungen / 6 Löschungen |
 | **(dieser Commit)** | Disposition **aller 17** Prüferbefunde in beiden Dokumenten + Protokoll-Nachtrag § 9 + Prüferprotokoll + diese Meldung |
 
-**Push-Lage:** `af9909f` ist auf `origin/main` — allerdings **nicht durch
-meinen eigenen Push**. Zwei Versuche liefen in die
+**⚠️ Push-Lage des ZWEITEN Commits — bewusst ZURÜCKGEHALTEN.** Zum
+Zeitpunkt dieser Meldung liegt unter meinem Commit ein **ungepushter
+Commit von R14-A** (`1a795d7`, deren Prüfer-Disposition). Ein Push —
+auch der gezielte Refspec `git push origin <mein-hash>:main` — würde ihn
+als **Vorfahre mitveröffentlichen**; der Refspec schützt nur nach oben.
+Nach CLAUDE.md („dagegen hilft nur, nicht zu pushen und zu warten") und
+Regel 3a (der Zustand einer Parallel-Session wird **nie aus Commits
+geschlossen** — ein Commit ist strukturell ein Zwischenstand) **habe ich
+nicht gepusht**. Auflösung: entweder R14-A pusht selbst und nimmt meinen
+Commit als Nachfahren mit, oder die Leitsession pusht nach deren
+Abschlussmeldung. **Der Commit ist lokal vollständig; es fehlt allein
+die Veröffentlichung.**
+
+**Push-Lage des ERSTEN Commits:** `af9909f` ist auf `origin/main` —
+allerdings **nicht durch meinen eigenen Push**. Zwei Versuche liefen in die
 Sicherheits-Klassifikator-Blockade (Betriebszustand, nicht umgangen,
 gemeldet), der dritte in ein `non-fast-forward`, weil R14-A inzwischen
 darüber committet und gepusht hatte. **Mein Commit ist damit als

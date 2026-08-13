@@ -1594,3 +1594,160 @@ ungeglättet stehen blieben (AA-8-Empfehlung, vom Prüfer „vorbildlich").
   R12-Grenze (Sammelvermerk R12, letzter Punkt) — neu ist nur ihre
   Eskalation als Nebenbefund R13A-N-6 an die Zentrale (Postkorb,
   Wortlaut-Archivierung künftiger Entscheide-Erhebungen).
+
+## L-39 — Ein präzises Negativ wird zur falschen Verallgemeinerung (R14, 13.08.2026)
+
+**Fall (R14-B, Prüferbefund PB-1 — der schwerste der Runde):** Die
+gemessene Zahl „§ 7 UWG = 0" ist richtig; aus ihr wurde in A7 der
+Rechtsmatrix „untersagt — gestützt **ausschließlich** auf die DSGVO".
+Dasselbe Urteil trägt 148 UWG-Treffer (davon 21× § 3a UWG) und bejaht
+die lauterkeitsrechtliche Schiene ausdrücklich (Rn. 137). Verschärfend:
+Die Session hatte GENAU diesen Satz angefasst (N-13-Zählweg-Nachtrag
+sitzt darin), ohne die Reichweitenaussage daneben gegen den eigenen
+neuen Teil-B-Text zu lesen. Der Schnitt eines byte-genauen Zitats am
+Satzpunkt (Rn. 88) verbarg zusätzlich den Gegenbeleg (PB-2) — gefunden
+nur durch Lesen des Rn.-Blocks am Stück, nicht per Ziel-Grep.
+
+**Handlungskern (CLAUDE.md, Positivkontroll-Block + (f)):** Ein
+präzises Negativ („X = 0") belegt nie die Verallgemeinerung („kein Y");
+wer eine Bestandsstelle anfasst, liest den ganzen Satz gegen den
+eigenen neuen Bestand; Zitat-Nachprüfung liest den Absatz-/Rn.-Block am
+Stück.
+
+## L-40 — Wächter-Entwarnung über die eigene Arbeit: Konstanten lesen, Delta je Datei zuordnen, wandernder Stand (R14, 13.08.2026)
+
+**Fall (beide Sessions unabhängig, dieselbe Halbfrage):** Der
+Zitat-Wächter meldete beiden Sessions Exit 0. **R14-B (PB-5):** Von
+~20 neu gesetzten Zitaten hatte der Wächter kein einziges gelesen —
+`fund/wettbewerbsbild.md` steht in keiner Liste, die Rechtsmatrix nur
+im POOL (Quelle, nicht Prüfgegenstand); „0 neue Meldungen" war eine
+Nicht-Messung. **R14-A (PR-01, schwer):** schrieb „meine drei Dokumente
+liegen im Quellenpool" ohne die Konstante je gelesen zu haben, und
+erklärte das Pool-Delta (+13.847) als Wirkung der eigenen Arbeit — es
+stammte VOLLSTÄNDIG aus der Datei der Parallel-Session (fremde Arbeit
+als Beleg der eigenen; L-36-Klasse). Dazu: Der Wächter liest den
+ARBEITSBAUM — im Parallelbetrieb ein wandernder Stand; der
+„Nachher"-Wert maß einen Zwischenstand fremder Arbeit.
+
+**Handlungskern (CLAUDE.md, Anwesenheit-ist-nicht-Wirksamkeit-Block):**
+Wächter-Entwarnung über eigene Arbeit nur nach Lektüre der
+ZIEL-/POOL-Konstanten; Lauf-Delta je Datei zuordnen; im Parallelbetrieb
+gilt der Doppel-Messstand-Vertrag auch für Werkzeugläufe.
+**Werkzeug-Folgeposten:** ZIEL-Aufnahme von Rechtsmatrix +
+Wettbewerbsbild in `pruefe-zitate.js` (R14B-N-9, offen).
+
+## L-41 — Formfehler-Klassen haben Nachbarformen; der Nenner wird gleich gebunden (R14, 13.08.2026)
+
+**Fall (R14-A, PR-02 schwer + PR-11):** Die Hebungs-Suche fand die
+UMBRUCH-Variante der Belegstufen-Phrase selbst (drei verdeckte
+Vorkommen) — und verfehlte die WORT-Variante derselben Phrase („der
+Wortlaut IST nicht archiviert", „der USER-Wortlaut …"): zwei Stellen,
+darunter der Kopfkasten (Ankunftsstelle des Lesers) mit einem Satz, der
+der eigenen Hebung widersprach. Zweite Ursache: Der Nenner hing bei
+einer Datei am ABSCHNITT, bei zweien am DOKUMENT (L-30-Klasse) — genau
+die inkonsistente Datei verlor ihre wichtigste Stelle. Bewährt daneben
+(R14-A selbst): Die URSACHEN-DIAGNOSE des Prüferbefunds als Klasse auf
+alle drei Dateien angewandt fand eine zweite Stelle, die der Befund
+nicht nannte.
+
+**Handlungskern (CLAUDE.md, Positivkontroll-Block + (a)):** Wer eine
+Formfehler-Klasse findet, sucht im selben Zug die Nachbarformen
+(Umbruch-, Wort-, Groß-Variante); Nenner gleichartiger Prüfgegenstände
+ans Dokument binden; Prüfer-Diagnosen als Klasse rückwirkend anwenden.
+
+## L-42 — Abschlussprotokolle sind Quellen zweiter Hand: Befunde am Rohbeleg gegenprüfen, nicht übertragen (R14, 13.08.2026)
+
+**Fall (R14-B, Pflege-Auftrag „belegte Befunde übertragen"):** 3 von 10
+Quell-Befunden aus eigenen früheren Abschlussmeldungen hielten der
+Rohbeleg-Messung nicht stand — alle drei Korrekturen in die unbequemere
+Richtung: die 5-%-Kommission stand NICHT in den AGB (nur auf der
+Werbeseite), der melevo-Anschriften-Widerspruch lag in DERSELBEN Datei,
+und „ob die Zusatzposten neu sind: nicht feststellbar" war WIDERLEGT —
+der Vorher-Abzug lag seit dem 09.08. im Rohbelege-Ordner einer FRÜHEREN
+Runde (`a3/`-Unterordner; die nicht-rekursive Suche hätte ihn verfehlt).
+Der Prüfer bestätigte alle drei Korrekturen unabhängig.
+
+**Handlungskern (CLAUDE.md (a) + quellen-beschaffung-Baustein +
+tagesstart):** Einarbeitungs-/Übertragungs-Aufträge verpflichten auf
+Rohbeleg-Gegenprüfung je Befund; beim Vergleich zweier Erhebungsstände
+ist der ÄLTERE Rohbelege-Ordner die systematisch übersehene Quelle
+(rekursive Vollsuche über den ganzen Bestand); ein Umkehrschluss aus
+einer Abwesenheit (fehlendes Sternchen) ist eine eigene Ableitung,
+keine Quellenaussage.
+
+## Sammelvermerk R14 (13.08.2026) — Zweitbelege, Nachträge, bewährte Muster
+
+- **L-37 — stärkster Wirksamkeitsbeleg bisher (R14-A):** Die zweite
+  Musterachse (Statusaussagen über fremde Träger) lieferte den EINZIGEN
+  Sachfang der Probe — die Stelle trug den Suchbegriff „Z-6" gar nicht
+  („K03/K04"-Klammer); keine noch so gründliche Erstachsen-Suche hätte
+  sie gefunden. Dazu PR-08 als L-37-Klassenfall: „K03 erledigt" war
+  eine Statusaussage über einen fremden Träger ohne Vollzugsbeleg.
+- **L-05 — sechster Beleg (R14-A):** Push in BEIDEN Kanälen blockiert,
+  Minuten später unverändert in PowerShell durch. Zeitpunkt-, nicht
+  kanalgebunden; Regel unverändert.
+- **L-17-Zweitbeleg (R14-B, PB-3):** Die Schlusssatz-Entwarnung „an
+  unseren Bau-Pflichten ändert der Streitstand nichts" wurde GESTRICHEN,
+  nicht abgeschwächt — sie war zugleich neue Rechtsbewertung und vom
+  eigenen Kasten widerlegt. Der gefährlichste Satz eines
+  vorbehaltstreuen Kastens ist sein Schlusssatz.
+- **Positivkontroll-Zweitbelege (beide „Regel stand wörtlich, griff
+  nicht beim Schreiben"):** case-insensitive Kontrolle (35) beglaubigte
+  ein case-sensitives Negativ nicht (PB-4 — Suchmechanik-Regel);
+  nicht-rekursives `ls` hätte „kein Vorher-Abzug" erzeugt
+  (windows-powershell-Regel, wörtlich im Baustein). Beide von
+  Prüfer/Session selbst gefangen. Dazu Teilwort-Treffer „950" in
+  „1.950" — im selben Dokument, das die Teilwort-Klasse bei
+  „Verbraucher" vorbildlich auswies.
+- **Prüfer-Verwerfung braucht eigene Nachmessung (R14-A, PR-05):**
+  „Unter keinem Zählweg reproduzierbar" war selbst ein Negativ mit zu
+  engem Suchraum — beide Zahlen reproduzierten exakt unter dem
+  Session-Muster (Leitsession-Drittmessung: 39/34/33 bestätigt); der
+  KERN (Zählweg fehlte an der Zahl) blieb berechtigt. Befund und
+  Diagnose getrennt — auch in der Verwerfungs-Richtung.
+- **Vorfahren-Regel, beide Richtungen an einem Abend, sauber:** R14-B
+  hielt zwei Commits zurück (ungepushter R14-A-Commit als Vorfahre) und
+  delegierte die Auflösung SCHRIFTLICH in der Abschlussmeldung; R14-A
+  pushte auf dieser dokumentierten Willenserklärung (kein
+  Indizienschluss, Regel-3a-konform) und veröffentlichte beide mit.
+- **Bewährte Muster (je mit Beleg):** Zeiger-Modell mit Wurzel-Kasten
+  bei 28 Fundstellen in drei Dokumenten (R14-A, vom Prüfer bestätigt) ·
+  Grenzen im selben Satz wie die Entlastung (R40-N-6: „nirgends über
+  ihren Wortlaut hinaus verwendet") · Belegstufen-Hebung belegt auch
+  das SCHWEIGEN des Protokolls (S2/S4, AA-8-Randfragen — Archiv
+  rückwärts lesen, R40-Regel-Zweitbeleg) · Wächter-Baseline vorher
+  (R14-B; Grenze ehrlich: die Baseline bleibt Selbstauskunft, der
+  Prüfer konnte sie nicht reproduzieren) · Reparatur-Kästen machten
+  alle 26 Löschungen erklärbar (R14-B) · Prüfer-Selbstfragen ehrlich
+  beantwortet: der jeweils schwerste Fund hing am Kategorien-Hinweis
+  (beide Sessions) · **Nachtrags-Ankunft am Repo-Bestand MESSEN**
+  (Leitsession beim `/runde`-Einstieg: grep auf Nachtrags-Kerne +
+  Positivkontrolle fand drei nicht disponierte Briefing-Nachträge —
+  der R13-Debrief-Commit lag 2 Minuten NACH dem letzten Nachtrag).
+- **PowerShell-Zweitbelege (R14-A):** `Select-Object -First` hinter
+  `git show` bricht die Pipe (Exit 255) · unmaskiertes `|` in
+  Tabellenzelle — beide Regeln standen im Baustein, beide selbst
+  gefangen.
+- **Vorwärtsverweis-Konvention — Zweitbeleg mit Suchweg-Facette
+  (R14-B):** Zwei Kopf-Aussagen („Teil A inhaltlich unverändert")
+  wären durch die eigenen Edits still falsch geworden; gefunden hat sie
+  ein grep auf die **eigene Behauptung**, nicht auf das Thema (die
+  CLAUDE.md-Regel sagt „nach den GEKIPPTEN WERTEN greppen, nicht nach
+  dem Thema" — der Suchweg „eigene Behauptung" ist die operative Form
+  davon). Dieselbe Klasse traf die Session an einer Stelle, an der sie
+  die Regel NICHT ausführte (PB-1, s. L-39): **die Regel greift nur,
+  wo man sie anwendet.**
+- **Debrief-Gegenprobe R14 (Subagent, 58 Positionen):** **1 volle
+  Lücke + 6 Teil-Lücken gefunden und geschlossen** — R14A-N-5
+  (Expertenprogramm + O-11) war in keinem Kanal (jetzt § 5 geparkt, mit
+  Zielorten) · R14A-N-1 (AU-4 fehlt im Formulierungsvorschlag) hatte
+  keinen Übergabe-Träger an heypensio · § 3a-UWG-Streitstand,
+  melevo-10-€-Achse, acht unausgewertete melevo-Abzüge,
+  Straiv-Preishöhen standen nur im Sachdokument, nicht im
+  Wahrheits-Kanal · der Vorwärtsverweis-Zweitbeleg oben fehlte im
+  Sammelvermerk. **Facette für die Zukunft:** Vier der sechs
+  Teil-Lücken waren „im Sachdokument dokumentiert, im Wahrheits-Kanal
+  unsichtbar" — der gemeldete TRÄGER (MKT-FUND, anwaltlicher Rat) wird
+  aber über STATUS/Projektquelle angesteuert, nicht über das
+  Sachdokument. Zusätzlich fand die Gegenprobe eine Doku-Hygiene-Lücke:
+  MKT-HANDEL bekam einen R14-Stand, FUND3 nicht — nachgezogen.

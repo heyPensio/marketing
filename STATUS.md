@@ -26,7 +26,51 @@
 ---
 
 ## Letzte Aktualisierung
-**13.08.2026 abends (R13, Shanks + R13-A/Ben Beckman + R13-B/Yasopp —
+**13.08.2026 spätabends (R14, Shanks + R14-A/Ben Beckman + R14-B/Yasopp
+— Briefing-Nachträge + Pflege-Pakete, parallel)** — ⭐⭐ **Der
+Z-6-Lizenzvorbehalt ist AUFGELÖST („A3 trägt"), die Belegstufe aller
+Entscheide-Vermerke ist gehoben, und zwei seit Runden offene
+Pflege-Pakete sind abgearbeitet.** Auslöser: drei Briefing-Nachträge
+(6/7/8), die der R13-Debrief nicht mehr gesehen hatte — der
+Nachtrag-8-Commit der Zentrale lag **zwei Minuten** vor dem
+R13-Debrief-Commit; gefunden, weil die Leitsession die Ankunft am
+Repo-Bestand gemessen hat (grep 0 Treffer bei greifender
+Positivkontrolle).
+**R14-A:** **Z-6 aufgelöst — 28/28 Fundstellen disponiert** (13
+aufgelöst · 10 Vorbehalt bleibt · 5 dokumentierter Nicht-Edit), EINE
+Fassung im Wurzel-Kasten `preismodell-optionen.md` § 5.3, sonst Zeiger
++ Vorrangklausel · R40-N-6 (ein Lizenzschlüssel, unlimited instances)
+mit drei Grenzen · **Belegstufen-Hebung 27 geprüft / 26 gehoben / 0
+inhaltlich falsch** (Wortlaut-Archiv der Zentrale, nur per Verweis).
+⚠️ **Nicht mit aufgelöst:** K04/Z-5 · Architektur-Entscheid · **K-1**
+(Community-Edition als Backend — streitig, fällig VOR dem ersten
+A3-Kundenangebot) · Belegstufe **A + B, Auslegung E** (der Entgelt-Teil
+trägt eine FAQ, nicht den Vertragstext). Prüfer **14/14 disponiert**
+(2 schwer, beide repariert).
+**R14-B:** Rechtsmatrix-Pflege R9A-N-9…N-14 **6/6** + FUND-Pflege
+R11A-N-3…N-6 **4/4**; **drei Quell-Befunde am Rohbeleg widerlegt**
+(u. a. „ob die melevo-Zusatzposten neu sind: nicht feststellbar" —
+der Vorher-Abzug lag seit 09.08. im Rohbelege-Ordner einer früheren
+Runde), alle Korrekturen in die unbequemere Richtung. Prüfer **17/17
+disponiert**. 🔴 **Ein schwerer Fund mit Folgen: Der A7-Kernsatz der
+Rechtsmatrix („untersagt — gestützt ausschließlich auf die DSGVO") ist
+widerlegt** (148 UWG-Treffer, 21× § 3a UWG) — markiert, Neufassung an
+**MKT-HANDEL zusammen mit dem O-9-Rechtsrat** (verschärft das
+Abmahnrisiko, entlastet nicht).
+**Leitsession-Nacharbeit (`1f7b865`):** O-8-Quellen-Nachzug nach
+R14B-N-1…N-8 — sonst hätte die neue Vorrangklausel zugunsten O-8 die
+frischen Präzisierungen wieder umgekehrt (zweite Runde in Folge
+dieselbe Klasse). · Methodik: **4 Lehren → Blueprint** (L-39…L-42,
+`ee8c468`), fremdes Delta `fe6fcaf` (heyPensio R42) disponiert, Kopien
+debrief + tagesstart + quellen-beschaffung gezogen, Stempel `ee8c468`,
+Wächter SYNCHRON 12 / 0 DRIFT. **Nachtrag-7-Vollzug: CLAUDE.md =
+75.635 Bytes** (vor R14: 73.399; Zählweg `Get-Item .Length`) —
+Formdisziplin „Schärfung ERSETZT Kern" kommt per debrief-Kopie (R42)
+und gilt ab dem nächsten Debrief. ⚠️ Modell-Statuszeilen R14-A (Opus 5
+1M) + R14-B (Opus 5 1M) unbestätigt (User-Handgriff).
+*(Details: Projektquelle-Changelog R14.)*
+
+**Vorheriger Stand — 13.08.2026 abends (R13, Shanks + R13-A/Ben Beckman + R13-B/Yasopp —
 Entscheide-Protokoll 2 + R9-Restposten, parallel)** — ⭐⭐
 **S4 + AA-1…AA-8 sind eingearbeitet (nur AA-4 offen), die sieben
 Bau-Pflichten stehen im Regelwerk, O-9 ist geführt.** Quelle: Briefing
@@ -58,41 +102,13 @@ windows-powershell gezogen, Stempel `5f18694`, Wächter SYNCHRON 12 /
 unbestätigt (User-Handgriff). *(Details: Projektquelle-Changelog
 R13.)*
 
-**Vorheriger Stand — 13.08.2026 mittags (R12, Shanks + R12-A/Ben Beckman + R12-B/Yasopp —
-Entscheide-Einarbeitung, sequenziell)** — ⭐⭐ **Alle acht
-Preismodell-Entscheide E-1…E-8 sind eingearbeitet, die vorläufige
-Preisliste und der Angebotsarchitektur-Einstieg stehen.**
-Entscheide-Quelle: Briefing-Dialog 13.08. (Dropdown + Freitext,
-sinngemäß — Wortlaut nicht archiviert; so in allen ✅-Vermerken).
-**R12-A:** ✅-Vermerke in `handel/preismodell-optionen.md` § 11 (16
-Nachtragskästen, 0 Löschungen; E-3-Neufassung W-B/A3 + Durchreichung
-+ getrennte Servicegebühr unter Z-6-Vorbehalt; E-1 bewusst vor E-6,
-Warntext steht) · **`handel/preisliste-vorlaeufig.md` NEU** —
-Startgebühr-HYPOTHESE 1.500–2.500 €/Haus (Entscheider der Höhe: der
-USER, nach E-6; dichtestes Marktfenster liegt bei 399–799 €, sichtbar
-geführt) · N-10-Marktband in der Förderarchitektur. Prüfer **19/19
-disponiert** (0 schwer). **R12-B:**
-**`handel/angebotsarchitektur.md` NEU** (E-8) — **acht ☐-Punkte
-AA-1…AA-8 beim User** (AA-1 Rabatt-Zuordnung Betreiber↔Firmierung
-ZUERST; Paketformen P-A/P-B/P-C; keine Beträge, nichts entschieden);
-Widerspruchsliste K03/K04/Vertragspartner ungeglättet. Prüfer **13/13
-disponiert** (0 schwer; Schritt 11 von der Leitsession getragen).
-⚠️ **Strukturbefund an die Zentrale (Postkorb
-`2026-08-13-mkt-preismodell-zulieferungen.md`):** Vertragspartner-
-Frage der Durchreichung (K04 gleichrangig zu Z-6) + Z-1…Z-7 +
-E-6-Präzisierung (Blöcke je Objekt stoppen). · Methodik: **6 Lehren →
-Blueprint** (L-33…L-35 + 3 Schärfungen, `cd45642`), fremde Deltas
-`3905a1c` (Secret-Rotations-Kette → CLAUDE.md) + `a7499d9` (nur
-Blueprint-Register) disponiert, Kopie tagesstart gezogen, Stempel
-`cd45642`, Wächter SYNCHRON 12 / 0 DRIFT. ⚠️ Modell-Statuszeilen
-R12-A (Umgebungsangabe Opus 5 1M) + R11-A unbestätigt
-(User-Handgriff). *(Details: Projektquelle-Changelog R12.)*
-
-*(Davor: R11 — Preismodell-Entscheidungsvorlage gebaut/geprüft;
-rotiert 13.08.2026 (R13) → `STATUS-archiv.md`. Davor R10 —
-Umbau-Runde F10/F13/Nachzug; rotiert 13.08.2026 (R12). Davor R9 —
-O-8 gebaut/geprüft, O-2 entschieden, Rn.-87-Verschärfung Listenaufbau;
-rotiert 12.08.2026 (R11). Ältere Stände: `STATUS-archiv.md`.)*
+*(Davor: R12 — E-1…E-8 eingearbeitet, Preisliste + Angebotsarchitektur
+gebaut; rotiert 13.08.2026 (R14) → `STATUS-archiv.md`. Davor R11 —
+Preismodell-Entscheidungsvorlage gebaut/geprüft; rotiert 13.08.2026
+(R13). Davor R10 — Umbau-Runde F10/F13/Nachzug; rotiert 13.08.2026
+(R12). Davor R9 — O-8 gebaut/geprüft, O-2 entschieden,
+Rn.-87-Verschärfung Listenaufbau; rotiert 12.08.2026 (R11). Ältere
+Stände: `STATUS-archiv.md`.)*
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE
@@ -154,6 +170,41 @@ rotiert 12.08.2026 (R11). Ältere Stände: `STATUS-archiv.md`.)*
   R13A-N-4 zweite Rabattposition (nach E-6) · R13A-N-5
   Marktanker-Bezugsangaben (E-7-Erhebung mitfragen) ·
   Modell-Statuszeilen R13-A (Opus 5 1M) / R13-B (Fable 5).
+- **R14 (13.08. spätabends, Briefing-Nachträge + Pflege-Pakete,
+  parallel):** ✅ **Z-6 aufgelöst** (28/28 Fundstellen disponiert,
+  Fassung `preismodell-optionen.md` § 5.3) · ✅ **Belegstufen-Hebung**
+  (27/26/0, Wortlaut-Archiv der Zentrale, nur per Verweis) · ✅
+  **R40-N-6** an beiden K7-Zeilen · ✅ **Rechtsmatrix-Pflege 6/6 +
+  FUND-Pflege 4/4** (drei Quell-Befunde am Rohbeleg widerlegt) · ✅
+  Leitsession-Nacharbeit `1f7b865` (O-8-Quellen-Nachzug, sonst hätte
+  die Vorrangklausel die Präzisierungen umgekehrt) · ✅ Prüfer 14/14 +
+  17/17 disponiert (3 schwere, alle repariert bzw. mit Träger) · ✅ 4
+  Lehren → Blueprint (`ee8c468`), fremdes Delta `fe6fcaf` disponiert,
+  Stempel `ee8c468`, Wächter SYNCHRON 12 / 0 DRIFT.
+  **Offen aus R14:** 🔴 **A7-Kernsatz-Neufassung** (Rechtsmatrix,
+  „ausschließlich DSGVO" widerlegt — MKT-HANDEL zusammen mit dem
+  O-9-Rechtsrat) · **K-1** (n8n-Community-Edition als Backend eines
+  entgeltlichen Produkts, streitig — fällig vor dem ersten
+  A3-Kundenangebot, heute ohne MKT-Träger) · **AU-2/AU-4 im
+  Angebotsstrang** (kein Paket führt den Onboarding-Schritt
+  „Lizenzbedingungen übergeben") · **O-2-Kunden-Pflicht** als
+  Vertragsklausel (Kunde öffnet n8n nicht seinen Gästen) · EuGH-Rn.-56
+  (O-8 § 11.2 Nr. 4, braucht den Volltext) · Wächter-Reichweite
+  (Rechtsmatrix + Wettbewerbsbild stehen in keiner ZIEL-Liste,
+  R14B-N-9) · Kurz-ID `Z-6` doppelt belegt (R14A-N-7) · **drei
+  Rückmeldungen an heypensio ohne Träger** (O-5: Pseudo-Zitat +
+  falscher Adressat im Blueprint; **R14A-N-1: der
+  Formulierungsvorschlag des Lizenzpapiers zählt nur AU-1…AU-3 — wer
+  ihn wörtlich übernimmt, verliert AU-4, die einzige Auflage mit
+  Handlungspflicht**) · **die Kette Lizenz-Rohquelle → heypensio-Papier
+  hat niemand geprüft** (alle Z-6-Aussagen ruhen darauf) · Rendering
+  der verschachtelten Nachtrags-Kästen ungeprüft · **MKT-FUND-Posten
+  aus der Pflege** (melevo 10 €: laufend oder einmalig? · acht
+  unausgewertete melevo-Abzüge im R11-A-Ordner · Straiv-Preishöhen
+  unbelegt — s. Projektquelle § 2 FUND3 R14-Stand) · **§ 3a-UWG-
+  Streitstand** (UGPRL-Grenze B2B + Kostenfolge) gehört in denselben
+  anwaltlichen Rat wie O-9/A7 · **O-11** (Lizenzserver-Ping, § 5
+  geparkt) ebenfalls · Modell-Statuszeilen R14-A/R14-B (je Opus 5 1M).
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -175,13 +226,21 @@ rotiert 12.08.2026 (R11). Ältere Stände: `STATUS-archiv.md`.)*
    ~~sieben Bau-Pflichten~~ ✅ **ins Regelwerk eingearbeitet (R13-B —
    als SOLL; der BAU der Werkzeuge [Sperrdatei, Beileger,
    Wellenprotokoll] steht aus und sperrt weiter den ersten
-   Datensatz)** · O-9 seit R13 GEFÜHRT, Rechtsprüfung offen. Spitzenposten jetzt: **AA-4
+   Datensatz)** · O-9 seit R13 GEFÜHRT, Rechtsprüfung offen.
+   ~~Z-6-Lizenzvorbehalt~~ ✅ **AUFGELÖST 13.08. spätabends (R14,
+   „A3 trägt") — aber nur die Lizenzfrage; K-1, K04/Z-5 und der
+   Architektur-Entscheid bleiben offen, und die Belegstufe ist A + B
+   (Auslegung E).** Spitzenposten jetzt: **AA-4
    (User → Kayhan) + AA-3-/AA-8-Randfragen** · **F-III-Höhe
    entscheidet der User nach E-6** (Zulieferung heypensio,
    Kalendertermin nachhalten — trägt auch den AA-7-Prüfposten) ·
-   **O-9-Rechtsprüfung** (anwaltlicher Rat, vor dem ersten
-   Datensatz) · Kanalmix-Festzurrung erst nach FUND2-Persona-
-   Befund. Details: Projektquelle § 7 Punkt 0 + R13-Changelog.
+   **EIN anwaltlicher Rat mit VIER Fragen: O-9 · A7-Kernsatz-Neufassung
+   · Streitstand § 3a UWG (UGPRL-Grenze B2B + Kostenfolge § 13 Abs. 4
+   Nr. 2) · O-11 (Lizenzserver-Ping im A3-Modell)** — die ersten drei
+   vor dem ersten Datensatz; die § 3a-UWG-Schiene aus R14-B verschärft
+   das Bild, sie entlastet nicht · **K-1 vor dem ersten
+   A3-Kundenangebot** · Kanalmix-Festzurrung erst nach FUND2-Persona-
+   Befund. Details: Projektquelle § 7 Punkt 0 + R14-Changelog.
    ~~⏸️ R09-B wartet auf Umbau-Abnahme~~ ✅ Freeze aufgehoben
    (User-Entscheid 12.08. abends, Briefing Slot 3), als R11-A
    ausgeführt; ~~F13 wartet auf C2-Rücklauf~~ ✅ nachgereicht 14:49

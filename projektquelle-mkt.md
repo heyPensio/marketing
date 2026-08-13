@@ -109,6 +109,24 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Technik-Segment — die Beratungs-/Agentur-Achse ist bewusst NICHT
   erhoben (P12/P13) und hängt an der Portfolio-Klärung (§ 7 Punkt 4a);
   8 neue Anbieter bisher nur selbstauskunfts-belegt (P6).
+  **Stand R14 (13.08.2026 spätabends): FUND-Pflege R11A-N-3…N-6
+  eingearbeitet** (R14-B, `fund/wettbewerbsbild.md`): Straiv-Preisform
+  aus den AGB (Zimmerzahl als vertraglicher Vergütungsparameter,
+  Kann-Einrichtungsgebühr, Jahresvorauszahlung, Transaktionsprovision,
+  **einseitiges Preiserhöhungsrecht** — fünf Elemente) · AGB nennen
+  vier Lösungen, die Website bewirbt acht · melevo-Anschriften-
+  Widerspruch (in DERSELBEN Datei belegt) · melevo-Zusatzposten:
+  **„ob sie neu sind: nicht feststellbar" ist WIDERLEGT** — sie standen
+  am Erhebungstag schon da und blieben bei der Erst-Auswertung liegen.
+  **Offen daraus (Träger MKT-FUND):** (a) die beiden **10-€-Posten**
+  (Cookie-Banner, Integration Buchungsmaschine) sind **laufend oder
+  einmalig? Die Quelle bezeichnet es nicht** — zu klären, bevor jemand
+  mit den Werten rechnet; (b) **Straiv-PREISHÖHEN weiterhin unbelegt**
+  (die „aktuell gültige Paketübersicht" ist nicht öffentlich; ihre
+  Beschaffung wäre eine Außenhandlung und ist nicht terminiert);
+  (c) im R11-A-Rohbelege-Ordner liegen **acht bisher unausgewertete
+  melevo-Abzüge** (19 vs. 8 Dateien) — bezahlte Quelle, aus der genau
+  ein solcher Fund schon einen Befund gekippt hat (R14B-N-10).
 - **FUND4** Kern-Wording, Sprachentscheid (DE-only vs. DE/EN),
   Zielzahl (zahlende Objekte bis wann) + **Marketing-Budget als Zahl**
   (Makro-Rahmen für Marke/Domains/Tools/Anzeigen/KI-Token;
@@ -266,6 +284,27 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Randfragen beim User (AA-3: decken „geplante" auch GEPARKTE Module?
   · AA-8: ein Rabattsatz oder zwei, Deckel-Geltung für S4,
   Z-2-Rechtsnatur).
+  **R14-Stand (13.08.2026 spätabends): Der Z-6-Vorbehalt ist
+  AUFGELÖST — „A3 trägt".** Die n8n Sustainable Use License verträgt
+  das Kunden-Eigentums-Modell (Quelle: heypensio R40 via Briefing
+  Nachtrag 6; Fassung im Wurzel-Kasten `preismodell-optionen.md`
+  § 5.3, alle 28 Fundstellen in den drei Preisdokumenten disponiert —
+  13 aufgelöst, 10 Vorbehalt bleibt, 5 Nicht-Edit). ⚠️ **Alle
+  Z-6-Erwähnungen in den R12-/R13-Ständen oben sind damit überholt.**
+  **Ausdrücklich NICHT mit aufgelöst:** K04/Z-5 (Vapi-Vertragspartner)
+  · der Architektur-Entscheid selbst · K-1 (akzeptiert n8n die
+  Community-Edition als Backend eines entgeltlichen Produkts? —
+  streitig, trifft W-A und W-B gleich, fällig bevor ein
+  A3-Kundenangebot hinausgeht) · **die Belegstufe: geklärt auf A + B,
+  Auslegung E — der Entgelt-Teil trägt eine FAQ, nicht den
+  Vertragstext; vertragsfest erst mit der Antwort auf K-1.** Dazu eine
+  fünfte KUNDEN-Pflicht neben AU-1…AU-4 (Betriebsregel O-2: der Kunde
+  öffnet n8n nicht seinerseits seinen Gästen, sonst OEM-Fall) —
+  Vertragsklausel, keine Betriebsdoku. Zusätzlich: **Belegstufe aller
+  Entscheide-Vermerke gehoben** (Wortlaute seit 13.08. abends
+  archiviert, Briefing Nachtrag 8 — 27 geprüft, 26 gehoben, 0
+  inhaltlich falsch; die S4-Reichweite von AA-8 ist nur über die
+  nicht archivierte FRAGE belegt, die Zustimmung wörtlich).
 - **HANDEL2** Sales-Deck/One-Pager (Problem → Guest Journey →
   Pilot-Beleg → Pakete → Förderweg). Fertig: versandfähig.
 - **HANDEL3** Kanal-Rechtsmatrix (UWG § 7: Kalt-E-Mail vs. Telefon vs.
@@ -521,6 +560,31 @@ OPS4-Register in `sensibel/`.)*
   nie direkt ins Produkt-Repo** (Zielort-Anker dort:
   `blueprint/architektur-multi-kunden.md` § Verifikationspunkte,
   existiert — nachgesehen 12.08.).
+  ✅ **ERLEDIGT 13.08.2026 (R14, Übergabe war angekommen):** Die
+  heypensio-Leitsession hat die Frage in R40 geprüft und beantwortet —
+  **„A3 trägt"** (SUL-Klausel + n8n-FAQ, Papier
+  `heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`), Rücklauf über
+  Briefing Nachtrag 6; in allen drei MKT-Preisdokumenten eingearbeitet
+  (Fassung: `handel/preismodell-optionen.md` § 5.3). **Nicht miterledigt
+  und weiterhin offen:** K-1 (Community-Edition als Backend eines
+  entgeltlichen Produkts — streitig) · die Belegstufe (A + B, Auslegung
+  E: der Entgelt-Teil trägt eine FAQ) · K04/Z-5 (Vapi-Vertragspartner) ·
+  der Architektur-Entscheid selbst.
+- **n8n-Expertenprogramm als Partner-/Marketing-Spur** (geparkt
+  13.08.2026, R14A-N-5; Herkunft: heypensio R40 via Briefing Nachtrag 6
+  Nr. 3, dort ausdrücklich „bewusst nicht verfolgt" — **mit Zielort
+  marketing-Repo**). Prämissen beim Ent-Parken prüfen: Was verlangt das
+  Programm (Nachweise, Gebühren, Sichtbarkeit)? Trägt es unter der
+  offenen Firmierung überhaupt? Zielort dann MKT-AKQ (Kanalmix) bzw.
+  MKT-HANDEL (Partnerschafts-Baustein).
+- **O-11 — Lizenzserver-Ping/Telemetrie von n8n** (geparkt 13.08.2026,
+  R14A-N-5; Quelle: `heypensio\n8n-lizenz-z6-und-mcp-vorlage-2026-08.md`
+  § 9 O-11). ⚠️ **Im A3-Modell ist das keine reine Produktfrage:** Die
+  Instanz gehört dem Kunden, er wäre **Verantwortlicher**, und ein
+  täglicher Ping ginge an einen Dritten — das berührt dieselbe
+  DSGVO-Achse wie O-9. **Zielort: als Frage in den anwaltlichen Rat zu
+  O-9/A7 mitnehmen** (Bündelung, s. § 7 Punkt 0); die technische Klärung
+  führt die heypensio-Leitsession.
 - **Wellness-Proximity-Push** (geparkt 09.08.2026; User-Gedankenspiel als
   Beleg der Portfolio-Richtung „größere Häuser"): Gast hat sich per
   QR-Code am Handy in den AI-Concierge eingecheckt; läuft er am
@@ -747,6 +811,37 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    selben Rücklauf) · O-9-Rechtsprüfung (anwaltlicher Rat) ·
    Rechtsmatrix-/FUND-Pflege N-9…N-14/N-3…N-6 (R11) · Zentrale-Rücklauf
    Z-5/K04 + Verbund-Definition (StB-Termin) abwarten.
+   **→ STAND 13.08.2026 spätabends (R14): Z-6 AUFGELÖST, zwei
+   Pflege-Pakete erledigt, ein neuer Rechts-Posten offen.** Die
+   n8n-Lizenzfrage trägt A3 (Details § 2 R14-Stand / Changelog R14);
+   **Rechtsmatrix-Pflege R9A-N-9…N-14 und FUND-Pflege R11A-N-3…N-6 sind
+   abgearbeitet** (R14-B) — offen bleibt daraus **R9A-N-10/O-9**
+   (unverändert) und der EuGH-Rn.-56-Posten (O-8 § 11.2 Nr. 4, braucht
+   den EuGH-Volltext). ⚠️ **NEU und rechtlich tragend: Der A7-Kernsatz
+   der Rechtsmatrix („untersagt — gestützt ausschließlich auf die
+   DSGVO") ist WIDERLEGT** und als überholungsbedürftig markiert; die
+   Neufassung ist eine Rechtsbewertung → **MKT-HANDEL, zusammen mit dem
+   O-9-Rechtsrat** (die materielle Anknüpfung ist die DSGVO, die
+   Anspruchsgrundlage das UWG — § 3a-Schiene; das verschärft das
+   Abmahnrisiko, es entlastet nicht). **Neue Spitzenposten-Reihung:**
+   **AA-4** (Kayhan, kein Zeitanker) + AA-3-/AA-8-Randfragen (User) ·
+   Preishöhe F-III nach E-6 · **K-1** (n8n-Community-Edition als
+   Backend eines entgeltlichen Produkts — streitig; fällig BEVOR ein
+   A3-Kundenangebot hinausgeht, heute ohne MKT-Träger) ·
+   **A7-Neufassung + O-9-Rechtsprüfung** (ein Termin, ein Rat) ·
+   AU-2/AU-4 im Angebotsstrang verankern (kein Paket führt heute den
+   Onboarding-Schritt „Lizenzbedingungen übergeben") · Zentrale-Rücklauf
+   Z-5/K04 + Verbund-Definition abwarten.
+   ⭐ **Der anwaltliche Rat bündelt VIER Fragen, nicht zwei** (sonst
+   fehlt beim Briefing des Anwalts genau das, was diese Runde neu
+   gefunden hat): (1) **O-9** Kompatibilitätsprüfung Art. 6 Abs. 4 ·
+   (2) **A7-Neufassung** (die Anspruchsgrundlage ist das UWG, materiell
+   angeknüpft an die DSGVO) · (3) **Streitstand § 3a UWG**, der
+   ausdrücklich NICHT abschließend erhoben ist — **UGPRL-Grenze bei
+   einer reinen B2B-Aussendung** (Rn. 129/130) und die **Kostenfolge**
+   (§ 13 Abs. 4 Nr. 2 UWG bei einem über § 3a verfolgten
+   DSGVO-Verstoß) · (4) **O-11** (Lizenzserver-Ping an einen Dritten
+   im A3-Modell, § 5) — dieselbe DSGVO-Achse, gleicher Termin.
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -885,6 +980,54 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 
 ## CHANGELOG
 
+- 13.08.2026 spätabends (R14-Debrief, zwei Arbeits-Sessions PARALLEL +
+  Leitsession): **Drei Briefing-Nachträge eingearbeitet, die der
+  R13-Debrief nicht mehr gesehen hatte** (Nachtrag-8-Commit der Zentrale
+  lag 2 Minuten vor dem R13-Debrief-Commit; Ankunft am Repo-Bestand
+  gemessen — grep 0 Treffer bei Positivkontrolle „Nachtrag 4" 31
+  Treffer über 9 Dateien). **R14-A (Ben Beckman,
+  `8b46e64`→`5404e96`):** **Z-6 aufgelöst („A3 trägt")** — 28 von 28
+  Fundstellen disponiert (13 aufgelöst / 10 Vorbehalt bleibt / 5
+  dokumentierter Nicht-Edit; Zählschlüssel Zeile ≠ Vorkommen ≠
+  Fundstelle offengelegt, 9/14/9 · 9/16/10 · 9/11/8), EINE Fassung im
+  Wurzel-Kasten § 5.3, sonst Zeiger + Vorrangklausel · **R40-N-6** an
+  beiden K7-Zeilen mit drei mitgeschriebenen Grenzen ·
+  **Belegstufen-Hebung 27 geprüft / 26 gehoben / 1 begründet nicht
+  gehoben / 0 inhaltlich falsch** (Wortlaut-Archiv der Zentrale, nur
+  per Verweis — D8). Prüfer **14/14 disponiert** (2 schwer, beide
+  repariert: PR-01 Wächter-Blindstelle falsch begründet + fremdes
+  Delta der eigenen Arbeit zugeschrieben · PR-02 ungehobener
+  Kopfkasten, der wörtliche Zitate verbot; 1 teilweise verworfen mit
+  eigener Nachmessung, 2 an Träger). **R14-B (Yasopp,
+  `af9909f`→`b7e3497`):** Rechtsmatrix-Pflege R9A-N-9…N-14 (6/6
+  disponiert) + FUND-Pflege R11A-N-3…N-6 (4/4) — **drei Quell-Befunde
+  am Rohbeleg widerlegt** (5 %-Kommission steht nicht in den AGB ·
+  Anschriften-Widerspruch liegt in DERSELBEN Datei · „ob die
+  melevo-Zusatzposten neu sind: nicht feststellbar" ist WIDERLEGT, der
+  Vorher-Abzug lag seit 09.08. im Rohbelege-Ordner einer früheren
+  Runde), alle drei Korrekturen in die unbequemere Richtung. Prüfer
+  **17/17 disponiert** (1 schwer PB-1: der A7-Kernsatz „gestützt
+  ausschließlich auf die DSGVO" wird vom eigenen N-14-Nachtrag
+  widerlegt — 148 UWG-Treffer, 21× § 3a UWG; markiert und an
+  MKT-HANDEL übergeben, die Neufassung wäre eine Rechtsbewertung).
+  **Leitsession-Nacharbeit (`1f7b865`):** O-8-Quellen-Nachzug nach
+  R14B-N-1…N-8 — sonst hätte die von R14-B eingezogene Vorrangklausel
+  („bei Widerspruch gewinnt O-8") die frischen Präzisierungen wieder
+  umgekehrt (L-25-Spiegelklasse, zweite Runde in Folge); § 11.2 trägt
+  jetzt eine Stands-Tabelle über alle acht Punkte inkl. der
+  widerlegten Aussage „109 ist case-sensitiv". **Push-Chronik:** R14-B
+  hielt zwei Commits zurück (fremder Vorfahre) und delegierte die
+  Auflösung schriftlich in der Abschlussmeldung — R14-A pushte auf
+  dieser dokumentierten Willenserklärung (Regel 3a, kein
+  Indizienschluss). · Methodik: **4 Lehren → Blueprint** (L-39…L-42,
+  `ee8c468`), fremdes Delta `fe6fcaf` (heyPensio R42) einzeln
+  disponiert — CLAUDE-Anteil übernommen (einschränkende
+  settings-Änderungen wirken sofort, jetzt inkl. Hook-Registrierung;
+  ersetzt die deny-only-Fassung), Governance-Formregeln via
+  debrief-Kopie; Kopien debrief + tagesstart + quellen-beschaffung
+  gezogen, Stempel `ee8c468`, Wächter SYNCHRON 12 / 0 DRIFT.
+  **Nachtrag-7-Vollzug:** CLAUDE.md-Größe gemessen — **75.635 Bytes**
+  (vor R14: 73.399; Zählweg `Get-Item .Length`).
 - 13.08.2026 abends (R13-Debrief, zwei Arbeits-Sessions PARALLEL +
   Leitsession): **Entscheide-Protokoll 2 eingearbeitet (S4 + AA-1…AA-8,
   AA-4 offen) und die sieben Bau-Pflichten + O-9-Führung nachgeholt.**

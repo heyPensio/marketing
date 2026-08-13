@@ -130,6 +130,24 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    wurde hier nicht nachgezogen: STOPP, dem User melden, auflösen — nie
    stillschweigend weiterarbeiten. INFO-Zeilen (projektspezifische oder
    nicht aktivierte Dateien) sind Lesestoff, keine Befunde.
+   **Budget-Wächter im selben Schritt (falls das Projekt einen führt;
+   Herkunft: heyPensio R42):** CLAUDE.md-Größe gegen die projektweiten
+   Marken messen (beide Zählwege: Bytes inkl. CRLF + Codepoints, der
+   größere zählt; Arbeitsbaum UND versionierter Stand); Ergebnis-Zeile
+   in den Tagesplan. Rot (≥ Hartmarke) heißt: Verdichtungs-Posten VOR
+   jeder neuen Sachrunde disponieren, nie stillschweigend weiterlaufen.
+   **Loader-Kanarienvogel (Herkunft: heyPensio R42) — AUSLÖSER-gebunden
+   (CLI-Versionswechsel), nicht ritual-gebunden:** Der Lade-Mechanismus
+   (path-rules/Skill-Trigger) ist eine Fremdsystem-Abhängigkeit und
+   kann bei CLI-Updates STILL wegbrechen; einmalige Migrations-Tests
+   reichen nicht. Jede `.claude/rules/*.md` trägt als erste
+   Inhaltszeile eine Kanarien-Zeile; weicht die CLI-Version vom letzten
+   Tagesplan-Vermerk ab: je Rules-Datei den Trigger-Test fahren (eine
+   Datei im Pfad-Scope lesen — kommt die Kanarien-Zeile im Kontext an?
+   PLUS Gegenrichtung: ein Read außerhalb des Scopes darf sie nicht
+   laden) und EIN Skill-Invoke als Trigger-Probe; Ergebnisse mit
+   CLI-Version in den Tagesplan. Klasse „Anwesenheit ist nicht
+   Wirksamkeit", angewandt auf den Loader selbst.
 2. **Runden-Stand prüfen:**
    - Uncommittete Reste im `git status`? Klären, aus welcher Session sie
      stammen — nie blind committen.
@@ -171,6 +189,14 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    Punkte sonst als offen, während die Antwort längst im Postfach liegt
    (Herkunft: heyPensio R38 — fünf Tage gealterte „unbeantwortet"-Posten
    neben ihrer notierten Antwort).
+   **⭐ Briefing-NACHTRÄGE: Ankunft am eigenen Repo-Bestand MESSEN, nie
+   aus dem Gedächtnis ableiten** (Herkunft: MKT R14): Nachträge können
+   WÄHREND oder Minuten nach dem eigenen Debrief eintreffen — je
+   Nachtrag ein grep auf seine Kernbegriffe übers eigene Repo plus eine
+   Positivkontrolle mit einem nachweislich eingearbeiteten Nachtrag;
+   0 Treffer heißt „nicht disponiert", egal was die Erinnerung sagt
+   (drei Nachträge lagen so unbemerkt, einer kippte einen zentralen
+   Vorbehalt).
 4. **Neue Runde vorschlagen:** Aus STATUS.md („Nächster konkreter
    Schritt"), Eingängen und User-Zuruf die Stränge schneiden — disjunkte
    Scopes, exklusive Systeme (je System EINE Session), Modellwahl je
@@ -218,7 +244,13 @@ Vorab: Welche Sessions laufen bereits, mit welchen Scopes? Saubere Basis
 einer, beim User nachfragen statt raten:
 
 1. **Ziel/Aufgabe** — konkret, mit Verweis auf Bauplan/Doku im Repo statt
-   Nacherzählung. **Pflicht davor: Ist-Stand-Prüfung des
+   Nacherzählung. **⭐ Bei Einarbeitungs-/Übertragungs-Aufträgen
+   (Befunde oder Entscheide aus Meldungen in Bestandsdokumente): Der
+   Prompt verpflichtet die Session ausdrücklich, jeden Quell-Befund am
+   ROHBELEG gegenzuprüfen statt ihn zu übertragen** — Abschlussmeldungen
+   sind Quellen zweiter Hand, auch aus dem eigenen Haus (Herkunft:
+   MKT R14 — 3 von 10 hielten nicht stand, alle Korrekturen in die
+   unbequemere Richtung). **Pflicht davor: Ist-Stand-Prüfung des
    Auftragsgegenstands durch die Leitsession SELBST, BEVOR der Prompt
    geschnitten wird** (nie als ersten Arbeitsschritt delegieren) —
    ZWEISEITIG: (a) nach innen Repo-grep über Modulname + Synonyme (was

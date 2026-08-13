@@ -2,6 +2,42 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 13.08.2026 (R14-Debrief) — R12-Block aus „Letzte Aktualisierung"
+
+**Vorheriger Stand — 13.08.2026 mittags (R12, Shanks + R12-A/Ben Beckman + R12-B/Yasopp —
+Entscheide-Einarbeitung, sequenziell)** — ⭐⭐ **Alle acht
+Preismodell-Entscheide E-1…E-8 sind eingearbeitet, die vorläufige
+Preisliste und der Angebotsarchitektur-Einstieg stehen.**
+Entscheide-Quelle: Briefing-Dialog 13.08. (Dropdown + Freitext,
+sinngemäß — Wortlaut nicht archiviert; so in allen ✅-Vermerken).
+**R12-A:** ✅-Vermerke in `handel/preismodell-optionen.md` § 11 (16
+Nachtragskästen, 0 Löschungen; E-3-Neufassung W-B/A3 + Durchreichung
++ getrennte Servicegebühr unter Z-6-Vorbehalt; E-1 bewusst vor E-6,
+Warntext steht) · **`handel/preisliste-vorlaeufig.md` NEU** —
+Startgebühr-HYPOTHESE 1.500–2.500 €/Haus (Entscheider der Höhe: der
+USER, nach E-6; dichtestes Marktfenster liegt bei 399–799 €, sichtbar
+geführt) · N-10-Marktband in der Förderarchitektur. Prüfer **19/19
+disponiert** (0 schwer). **R12-B:**
+**`handel/angebotsarchitektur.md` NEU** (E-8) — **acht ☐-Punkte
+AA-1…AA-8 beim User** (AA-1 Rabatt-Zuordnung Betreiber↔Firmierung
+ZUERST; Paketformen P-A/P-B/P-C; keine Beträge, nichts entschieden);
+Widerspruchsliste K03/K04/Vertragspartner ungeglättet. Prüfer **13/13
+disponiert** (0 schwer; Schritt 11 von der Leitsession getragen).
+⚠️ **Strukturbefund an die Zentrale (Postkorb
+`2026-08-13-mkt-preismodell-zulieferungen.md`):** Vertragspartner-
+Frage der Durchreichung (K04 gleichrangig zu Z-6) + Z-1…Z-7 +
+E-6-Präzisierung (Blöcke je Objekt stoppen). · Methodik: **6 Lehren →
+Blueprint** (L-33…L-35 + 3 Schärfungen, `cd45642`), fremde Deltas
+`3905a1c` (Secret-Rotations-Kette → CLAUDE.md) + `a7499d9` (nur
+Blueprint-Register) disponiert, Kopie tagesstart gezogen, Stempel
+`cd45642`, Wächter SYNCHRON 12 / 0 DRIFT. ⚠️ Modell-Statuszeilen
+R12-A (Umgebungsangabe Opus 5 1M) + R11-A unbestätigt
+(User-Handgriff). *(Details: Projektquelle-Changelog R12.)*
+
+*(⚠️ Nachtrag der Rotation, R14: Der Z-6-Vorbehalt in diesem Block ist
+seit dem 13.08. spätabends AUFGELÖST — „A3 trägt", s. STATUS
+R14-Block.)*
+
 ## Rotiert am 13.08.2026 (R13-Debrief) — R11-Block aus „Letzte Aktualisierung"
 
 **Vorheriger Stand — 12.08.2026 abends (R11, Shanks + R11-A/Yasopp — Preismodell-Runde)** —

@@ -179,6 +179,18 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   erfüllt („vollerhebung" bei Teilerhebung), gehört der Widerspruch
   als Warnkasten AN DEN ANFANG der Datei — an die Stelle, wo der
   Leser ankommt.
+  (5) **Ein Umkehrschluss aus einer ABWESENHEIT ist keine
+  Quellenaussage** (Herkunft: MKT R14): Posten ohne Einmalig-Sternchen
+  als „laufend" auszuweisen war eine eigene Ableitung — bei
+  Preisbefunden ist genau die Achse laufend/einmalig
+  entscheidungsrelevant; als Ableitung kennzeichnen oder „von der
+  Quelle nicht bezeichnet" eintragen. (6) **Beim Vergleich zweier
+  Erhebungsstände ist der ÄLTERE Rohbelege-Ordner die systematisch
+  übersehene Quelle** (Herkunft: MKT R14): Der Fund, der einen „nicht
+  feststellbar"-Befund kippte, lag seit Tagen im Ordner einer früheren
+  Runde — rekursive Vollsuche über den ganzen Rohbelege-Bestand
+  (`find -iname`, nie nicht-rekursives Listing), bevor eine
+  Neu/Alt-Aussage fällt.
 - **Für Kategorien-/Bestandsfragen zuerst die INSTITUTIONELLE Quelle
   suchen** (Landesagentur, Verband, Register), dann Anbieter — eine
   Landesagentur-B2B-Seite lieferte sieben Verbünde in einem Abruf,

@@ -3,7 +3,28 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`5f18694`** (R13-Debrief 13.08.2026 abends:
+> am 2026-08-09; Stand **`ee8c468`** (R14-Debrief 13.08.2026 spätabends:
+> eigener Rückfluss von 4 R14-Lehren — L-39 (Negativ-Reichweite:
+> „X = 0" belegt nie „kein Y" + Zitat-Block am Stück lesen), L-40
+> (Wächter-Entwarnung über die eigene Arbeit: ZIEL/POOL-Konstanten
+> lesen, Lauf-Delta je Datei zuordnen, wandernder Stand im
+> Parallelbetrieb, Probe-nach-Reparatur), L-41 (Formfehler-Nachbarformen
+> + gleiche Nenner-Bindung), L-42 (Abschlussprotokolle sind Quellen
+> zweiter Hand → Rohbeleg-Gegenprüfung in Prompt-Baustein 1,
+> Diagnose-als-Klasse) in CLAUDE-Vorlage/tagesstart-Vorlage, dazu
+> `quellen-beschaffung` Punkte 5+6 (Umkehrschluss aus Abwesenheit ·
+> älterer Rohbelege-Ordner) und die tagesstart-Eingänge-Regel
+> „Briefing-Nachtrags-Ankunft am Repo-Bestand messen"; fremdes Delta
+> einzeln disponiert: `fe6fcaf` (heyPensio R42 — Wachstums-Governance;
+> CLAUDE-Anteil „einschränkende settings-Änderungen wirken sofort,
+> inkl. Hook-Registrierung" übernommen und ersetzt die deny-only-Fassung,
+> debrief-/tagesstart-Anteile via Kopie); Kopien `commands/debrief.md`
+> + `commands/tagesstart.md` + `rules/quellen-beschaffung.md` vom
+> Master gezogen; Wächter SYNCHRON 12 / 0 DRIFT.
+> **Größenmessung (Briefing Nachtrag 7): 75.635 Bytes** — Zählweg
+> `Get-Item .Length` nach den R14-Edits, Bytes ≠ Zeichen bei
+> UTF-8-Umlauten; Vergleichswert vor R14: 73.399.)
+> Davor Stand **`5f18694`** (R13-Debrief 13.08.2026 abends:
 > eigener Rückfluss von 5 R13-Lehren — L-36…L-38 + L-26-Schärfung
 > (Wächter-Stands-Doku/Baseline) in die CLAUDE-Vorlage, Löschungszählung
 > in den tagesstart-Prüfer-Baustein, cmd-%ERRORLEVEL%-Parse-Falle in den
@@ -391,7 +412,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   heyPensio R12–R31, dort teuer belegt):
   (a) Delegierte Fundstellen und Zuordnungen driften systematisch —
   Aussage und Fundstelle GETRENNT prüfen; bei Prüfern zusätzlich BEFUND
-  und URSACHEN-DIAGNOSE getrennt prüfen. **⭐ Delegierte ZAHLEN sind noch
+  und URSACHEN-DIAGNOSE getrennt prüfen — **die Diagnose zusätzlich als
+  KLASSE rückwirkend auf alle eigenen Artefakte anwenden: sie findet
+  Stellen, die der Befund nicht nennt; und ein Abschlussprotokoll (auch
+  das eigene) ist Quelle zweiter Hand — Befunde beim Einarbeiten am
+  ROHBELEG gegenprüfen, nicht übertragen (3 von 10 hielten nicht stand,
+  alle Korrekturen unbequemer; L-42).** **⭐ Delegierte ZAHLEN sind noch
   schwächer als delegierte Fundstellen:** Eine Agenten-Zahl ohne
   mitgelieferten Zählweg ist nicht übernehmbar — eine gemeldete
   „Positivkontrolle: 65 Treffer" reproduzierte unter KEINEM Zählweg und
@@ -420,7 +446,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   „sowohl-als-auch" mitlisten. (Herkunft: heyPensio R33.)
   (f) Ein richtiges Zitat kann das Gegenteil belegen — Quellzeile GANZ
   lesen, bei Gesprächsquellen die zugehörige FRAGE mit ins Zitat,
-  Überschrift/Geltungsbereich mitlesen.
+  Überschrift/Geltungsbereich mitlesen. **Bei Zitat-Nachprüfungen den
+  Absatz-/Rn.-Block am STÜCK lesen — ein Grep auf das Zitat bestätigt
+  das Zitat und verbirgt seinen Kontext** (ein byte-genaues Zitat endete
+  am Satzpunkt unmittelbar vor seinem Gegenbeleg; MKT R14).
   (g) Widerspricht ein neuer Beleg dem Protokoll → ROHQUELLE holen und
   zweiter Lesedurchgang.
   (h) Ein NEGATIV aus einer Gegenprobe braucht einen ZWEITEN Lesekanal
@@ -434,7 +463,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Ursachen-NACHWEIS — Ausschluss und Nachweis getrennt formulieren.
 - **⭐ Positivkontrolle (operative Pflichtform):** Jede Negativ-Suche läuft
   mit einem Suchbegriff, der treffen MUSS, im selben Lauf. Der mitgenannte
-  SUCHRAUM eines Negativs ist selbst Teil der Behauptung. Randfälle einzeln
+  SUCHRAUM eines Negativs ist selbst Teil der Behauptung — **und seine
+  REICHWEITE: Ein präzises Negativ („X = 0") belegt nie die
+  Verallgemeinerung („kein Y"); wer eine Bestandsstelle anfasst (auch nur
+  für einen Zählweg-Nachtrag), liest den GANZEN Satz gegen den eigenen
+  neuen Bestand (L-39).** Randfälle einzeln
   belegen statt Vollabdeckung behaupten. Je PRÜFKANAL ein konkreter
   Kontrollkandidat — eine Regel „je Suchlauf" ist erst umgesetzt, wenn
   JEDER Kanal seinen benannten Anker hat; der stärkste Kontrollbegriff
@@ -453,6 +486,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Muster mindestens einmal feuern muss, plus eine `TREFFEN-NICHT`-Zeile für
   die Gegenrichtung — und wer ein Muster ergänzt, ergänzt im selben Zug die
   Selbsttest-Zeile. (Herkunft: heyPensio R35.)
+  **⭐ Formfehler-Klassen haben NACHBARFORMEN** (Umbruch-, Wort-,
+  Groß-Variante derselben Phrase): Wer eine findet, sucht die übrigen im
+  selben Zug — und der NENNER gleichartiger Prüfgegenstände wird GLEICH
+  gebunden (ans Dokument, nie teils an einen Abschnitt): genau der
+  inkonsistent gebundene verlor seine wichtigste Stelle (L-41).
   **⭐ Und die Musterliste einer Selbstwiderspruchs-/Konsequenz-Probe
   braucht ZWEI Achsen:** (1) die geänderten GRÖSSEN und (2)
   STATUSAUSSAGEN über fremde Träger (übergeben/beantwortet/offen) —
@@ -682,6 +720,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Selbsttest, der denselben Extraktionspfad nutzt, ERBT dessen
   Blindstellen statt sie zu finden** (L-21; MKT R8 P-02, überlebte
   einen bestandenen Selbsttest).
+  **⭐ Eine Wächter-Entwarnung über die EIGENE Arbeit setzt die Lektüre
+  seiner Prüfmengen-Konstanten (ZIEL/POOL) voraus; das Lauf-Delta wird
+  je Datei zugeordnet, nie pauschal der eigenen Arbeit zugeschrieben**
+  (fremde Parallel-Arbeit kann es vollständig erklären — beide Sessions
+  einer Runde saßen derselben Halbfrage auf, eine schrieb fremde Arbeit
+  als Beleg der eigenen). **Im Parallelbetrieb misst ein
+  Arbeitsbaum-Lauf einen WANDERNDEN Stand — der Doppel-Messstand-Vertrag
+  gilt auch für Werkzeugläufe.** (L-40.)
 - **Ein Test, der nichts verändert, prüft nichts** — Testaufbauten brauchen
   ihre eigene Positivkontrolle. **⭐ Auch die RÜCKBAU-Gegenprobe braucht
   sie, und zwar als ZÄHLUNG: „gesetzt: n von m".** Ein Durchlauf setzte
@@ -723,6 +769,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   AUSSERHALB des Prüfpools kann das Werkzeug nie bestätigen — sie als
   Ausnahme führen UND ausweisen, wer sie stattdessen verifiziert hat,
   sonst wird die Ausnahmeliste zur Ausrede. (L-26, drei Belege.)
+  **Gilt auch für die eigene Selbstwiderspruchs-Probe: Eine Probe, die
+  eine Reparatur AUSLÖST, ist danach veraltet — nach der Reparatur
+  erneut laufen lassen, Zahlen mit Commit-Hash statt „nach den Edits"
+  (MKT R14).**
   **⭐ Zwei Schärfungen (MKT R13): (1) Ein Dokument, das seinen eigenen
   Wächter-Stand dokumentiert, veraltet durch genau die Edits, die der
   Wächter prüft** — der Stands-Nachtrag am PRÜFGEGENSTAND gehört in
@@ -1041,11 +1091,15 @@ hierher, nicht ins Repo.
   Platte per grep prüfen. Dasselbe gilt für MCP-Connectors: Der Tool-Pool
   wird beim Session-Start festgelegt; fehlt ein Connector →
   `claude --continue` (bzw. bei parallelen Sessions `claude --resume`).
-  ⚠️ **`permissions.deny` wirkt dagegen SOFORT auf die laufende
-  Session** — der Snapshot gilt nur fürs HINZUFÜGEN, nicht fürs
-  Entziehen; Wirksamkeits-Beleg ist das beobachtete Verschwinden aus
-  dem Pool, nie ein Test-Call auf ein Schreibtool. (Herkunft:
-  heyPensio R39, Nachzug R11.)
+  ⚠️ **EINSCHRÄNKENDE settings-Änderungen wirken dagegen SOFORT auf die
+  laufende Session** — deny-gelistete Tools verschwinden ohne Neustart
+  aus dem Pool, und ein neu registrierter PreToolUse-Hook greift beim
+  nächsten Tool-Call (Commit-Probe real geblockt). Der Snapshot gilt nur
+  fürs HINZUFÜGEN, nicht für einschränkende Änderungen;
+  Wirksamkeits-Beleg einer deny-Baseline ist das beobachtete
+  Verschwinden aus dem Pool, nie ein Test-Call auf ein Schreibtool.
+  (Herkunft: heyPensio R39 deny + R42 Hook-Registrierung, Nachzug
+  R11/R14.)
 - Multi-Agent-Workflows nach Abbruch nie neu starten, sondern resumen
   (`resumeFromRunId`) — ein Neustart verbrennt das bezahlte Ergebnis.
   Gilt auch für abgebrochene PRÜF-Subagenten: aus dem Transkript

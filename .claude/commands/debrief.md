@@ -42,18 +42,37 @@ Rohstoff für Phase 4b (Wahrheits-Kanal).
   nicht zurückgeschrieben — Grund · **(d) projektunabhängig →
   projektgerüst-Nachzug** (siehe 3d). Kein Learning ohne Disposition;
   „war schon klar" ist eine Disposition, Schweigen nicht.
+- **Retrieval VOR dem Einsortieren (Herkunft: heyPensio R42):** Bevor
+  ein Learning als „neue Regel" disponiert wird, gezielter
+  Bestands-Abruf — grep über CLAUDE.md + `lehren-register.md` +
+  betroffene Skills/Rules: Ist es Zweitbeleg oder Schärfung eines
+  BESTEHENDEN Kerns statt Neuanlage? Die Disposition nennt den Treffer
+  bzw. das Negativ (Negativ mit Positivkontrolle im selben Lauf).
 - **Bewährte Muster zählen wie Fallen** — sie rutschen systematisch eher
   durch, weil die Aufmerksamkeit Fehler sucht. Getrennt durchgehen.
 - Meldungen, die zugleich NACHARBEIT auslösen, zuerst auswerten, dann
   handeln.
 
 **3a) Generelle Regel für die Arbeitsweise?** → `CLAUDE.md`.
-- Gezielter Edit am Ankerstring, nie Vollumschrift. Kern/Beleg-Trennung:
-  CLAUDE.md trägt den HANDLUNGSKERN + Anker; Herleitung/Fallgeschichte
-  wandert als datierter Eintrag ins `lehren-register.md` (`L-NN`).
-  Ein Zweitbeleg ist ein Register-Nachtrag, keine neue CLAUDE.md-Prosa.
+- Gezielter Edit am Ankerstring, nie Vollumschrift. **Kern/Beleg-
+  Trennung + Formregeln (Wachstums-Governance, Herkunft: heyPensio
+  R42):** CLAUDE.md trägt den HANDLUNGSKERN (imperativ, mit
+  Geltungsbereich) — **Zielform ≤ ~500 Zeichen inkl. `L-NN`-Anker**;
+  Herleitung/Fallgeschichte wandert als datierter Eintrag ins
+  `lehren-register.md`. **⛔ Das ⭐-Anbaumuster ist VERBOTEN: Eine
+  SCHÄRFUNG ERSETZT den Kern an Ort und Stelle** (Alt-Kern → datierter
+  Register-Nachtrag; den Alt-Wortlaut trägt der Git-Verlauf). Ein
+  Zweitbeleg ist NUR ein Register-Nachtrag, keine neue CLAUDE.md-Prosa.
+  **Schreibreihenfolge zwingend: Register ZUERST, Kern danach** — ein
+  Budget-Wächter kann so nie eine Lehre blockieren, nur ihren Ort
+  erzwingen.
 - Nach dem Edit verifizieren: neuer Text per grep gefunden, Struktur
-  intakt. Nur echte Dauer-Regeln.
+  intakt. **Messzeile je Debrief:** CLAUDE.md-Größe vorher → nachher
+  (Zählweg, erreichte Marke) im Änderungsreport; ab der projektweiten
+  Sollmarke gilt KOMPENSATIONSPFLICHT (+n Zeichen erfordern −n im
+  SELBEN Debrief; Kürzungsauswahl mit Nenner ausweisen — sonst werden
+  die unbequemen statt der toten Regeln verdichtet). Nur echte
+  Dauer-Regeln.
 
 **3b) Muss ein bestehender Skill/Command genauer werden?** → direkt
 anpassen (gezielte Edits), Description mitziehen, Konsistenz prüfen.
@@ -128,6 +147,14 @@ Dispositions-Liste aus 3-0 mit (a)/(b)/(c)/(d) je Learning · je
 Prüfschicht der Runde eine Fangquoten-Zeile (Funde / davon unikal /
 Schweregrad; Quelle: `protokolle/R<runde>-*`). Wenn in einem Kanal nichts
 zu tun war, das ausdrücklich sagen.
+**Fangquoten-Rückkopplung (Herkunft: heyPensio R42):** Die Tabelle wird
+gegen die Verdichtungs-Historie gehalten — taucht eine Fehlerklasse
+auf, deren Regel-Kern zuvor gekürzt/verlagert wurde, wird der Kern im
+SELBEN Debrief zurückgeschärft bzw. in den Auto-Kanal zurückgeholt
+(billig, das Register trägt den Volltext). Die Rückkopplung ist ein
+NACHLAUFENDES Warnsignal (erkennt nur reale, entdeckte Fehler,
+ursachenvermischt) — sie wird nie als Qualitätsbeweis der Verdichtung
+BEHAUPTET.
 
 **Gegenprobe durch einen Verifikations-Subagenten (Pflicht bei mehr als
 einer Arbeits-Session):** Er bekommt die UNGEKÜRZTEN Abschlussmeldungen

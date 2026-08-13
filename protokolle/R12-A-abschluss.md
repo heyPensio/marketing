@@ -24,10 +24,20 @@
 | Hash | Inhalt | Pfade |
 |---|---|---|
 | **`9a0b0bd`** | Erststand aller vier Teile (**eingefrorener Prüfstand**) | `handel/preismodell-optionen.md` · `handel/preisliste-vorlaeufig.md` (neu) · `handel/foerderarchitektur-beraterrolle.md` |
-| **`<Reparatur-Commit>`** | Disposition aller 19 Prüferbefunde + Prüferprotokoll + diese Meldung | dieselben drei Dateien · `protokolle/R12-A-pruefer.md` · `protokolle/R12-A-abschluss.md` |
+| **`87be372`** | Disposition aller 19 Prüferbefunde + Prüferprotokoll + diese Meldung | dieselben drei Dateien · `protokolle/R12-A-pruefer.md` · `protokolle/R12-A-abschluss.md` |
 
-*(Der zweite Hash wird beim Commit dieser Datei eingesetzt — s. Nachtrag
-am Ende.)*
+**Beide Commits sind veröffentlicht** — gezielter Refspec
+(`git push origin <hash>:main`), Beleg nach frischem `git fetch`:
+`git branch -r --contains 9a0b0bd` → `origin/main` ✔;
+`git log origin/main..HEAD` → leer ✔.
+
+⚠️ **Zur Zeilenstatistik, damit sie nicht falsch zitiert wird:** Die
+Aussage **„1.078 Einfügungen, 0 Löschungen"** gilt für **`9a0b0bd`**
+(den Nachtrags-Commit) und belegt dort die Nachtrags-Disziplin.
+**`87be372`** trägt **1.570 Einfügungen und 44 Löschungen** — die
+44 Löschungen sind die **Reparaturen** der Prüferbefunde, also ersetzte
+eigene Formulierungen aus `9a0b0bd`. Jede dieser Ersetzungen weist im
+Text aus, was vorher dastand und warum es fiel.
 
 ### Teil 1 — Entscheide E-1…E-8 in § 11
 
@@ -314,7 +324,22 @@ Belegstufe ist damit korrekt ausgewiesen.
 
 ---
 
-## Nachtrag: Commit-Hash dieser Meldung
+## Nachtrag: Commit-Hashes
 
-*(Wird unmittelbar nach dem Commit ergänzt — die Datei kann ihren
-eigenen Hash nicht enthalten.)*
+| Commit | Inhalt | Veröffentlicht |
+|---|---|---|
+| **`9a0b0bd`** | Erststand aller vier Teile (eingefrorener Prüfstand) | ✔ |
+| **`87be372`** | Disposition 19/19 + Prüferprotokoll + diese Meldung (Erstfassung) | ✔ |
+| **dieser Commit** | Hash-Nachtrag in dieser Datei | wird im selben Zug gepusht |
+
+*(Eine Datei kann ihren eigenen Hash nicht enthalten — deshalb dieser
+dritte, rein dokumentarische Commit. Der Prüfstand des Reviews bleibt
+`9a0b0bd`; an den Fachdateien ändert dieser Commit nichts.)*
+
+**Damit sind alle Fertig-Kriterien des Auftrags erfüllt:** ✅-Vermerke
+E-1…E-8 (inkl. 2a/5a) mit Quelle+Datum+Form in § 11 · E-3- und
+Reihenfolge-Kasten-Nachträge samt Vorwärtsverweisen ·
+`handel/preisliste-vorlaeufig.md` committet und gepusht · N-10-Nachtrag
+steht · `protokolle/R12-A-pruefer.md` liegt vor · **alle 19
+Prüferbefunde disponiert** · Abschlussmeldung in vier Blöcken
+committet.

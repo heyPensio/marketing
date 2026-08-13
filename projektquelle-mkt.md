@@ -234,6 +234,22 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   auf E-6 warten, ohne den Terminpfad zu gefährden (Engpass ist der
   Namensentscheid). HANDEL1 ist damit als Sperr-Posten ENTSCHÄRFT,
   solange die E-Punkte zügig beantwortet werden.
+  **R12-Stand (13.08.2026): ALLE E-Punkte E-1…E-8 sind entschieden und
+  eingearbeitet** (Quelle: Entscheide-Protokoll Briefing 13.08.,
+  sinngemäß — ✅-Vermerke in § 11 der Vorlage; Kern: (ii) mit
+  Startgebühr-VERSTÄRKT-Gewichtung erstes Jahr · je Objekt/Haus ·
+  Grundgebühr+Zimmeranteil+Mehrhaus-Rabatt · vorläufig W-B/A3 mit
+  Kosten-Durchreichung unter Z-6-Vorbehalt). Dazu NEU:
+  **`handel/preisliste-vorlaeufig.md`** (F-III-Struktur mit
+  Platzhaltern und Startgebühr-HYPOTHESE 1.500–2.500 €/Haus — Höhe
+  entscheidet der USER nach E-6) und
+  **`handel/angebotsarchitektur.md`** (E-8-Einstieg: Paketformen,
+  Rabatt-Mechanik — **acht ☐-Punkte AA-1…AA-8 beim User**, AA-1
+  Rabatt-Zuordnung Betreiber↔Firmierung zuerst). ⚠️ Strukturell
+  ungeklärt und an die Zentrale übergeben (Postkorb 13.08.): die
+  **Vertragspartner-Frage der Durchreichung** (K03/K04 — ist der
+  Kunde Vertragspartner, gibt es nichts durchzureichen; Z-5) samt
+  Z-1…Z-7.
 - **HANDEL2** Sales-Deck/One-Pager (Problem → Guest Journey →
   Pilot-Beleg → Pakete → Förderweg). Fertig: versandfähig.
 - **HANDEL3** Kanal-Rechtsmatrix (UWG § 7: Kalt-E-Mail vs. Telefon vs.
@@ -688,6 +704,18 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    sieben Bau-Pflichten · O-9 · R-2 · Rechtsmatrix-Pflege N-9…N-14 +
    FUND-Pflege N-3…N-6 (R11-Nebenbefunde) · Übergabe-Posten n8n-Lizenz
    ↔ A3 an heypensio-Leitsession (§ 5, R11/N-2).
+   **→ STAND 13.08.2026 (R12): E-1…E-8 ENTSCHIEDEN und eingearbeitet**
+   (Briefing-Dialog 13.08.; ✅-Vermerke § 11 der Vorlage; Details
+   Changelog R12). Preisliste (vorläufig, W-B-Basis) und
+   Angebotsarchitektur-Einstieg liegen geprüft vor. **Neue
+   Spitzenposten-Reihung:** User-Handgriff **AA-1…AA-8** beantworten
+   (`handel/angebotsarchitektur.md` § 7; AA-1 zuerst) **+
+   S4-Bezugseinheits-Klärfrage** (gilt die Startgebühr je Haus oder je
+   Kunde? — heute nur ④-Ableitung) · Preishöhe F-III entscheidet der
+   USER nach E-6-Zulieferung (heypensio, ohne Kalendertermin — Anker
+   nachhalten) · sieben Bau-Pflichten · O-9 · R-2 ·
+   Rechtsmatrix-/FUND-Pflege (R11) · Zentrale-Rücklauf zur
+   Vertragspartner-Frage Z-5/K04 abwarten (Postkorb 13.08.).
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -826,6 +854,62 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 
 ## CHANGELOG
 
+- 13.08.2026 mittags (R12-Debrief, zwei Arbeits-Sessions sequenziell +
+  Leitsession): **Die acht Preismodell-Entscheide des Users sind
+  eingearbeitet, die vorläufige Preisliste und der Einstieg in die
+  Angebotsarchitektur stehen.** Entscheide-Quelle: Briefing 13.08.
+  (Briefing-Dialog, Dropdown + Freitext, sinngemäß — Wortlaut nicht
+  archiviert; so in allen ✅-Vermerken). **R12-A (Ben Beckman,
+  `9a0b0bd`→`87be372`):** ✅-Vermerke E-1…E-8 in § 11 der Vorlage
+  (E-1 = Option (ii) mit umgekehrter Gewichtung erstes Jahr:
+  Startgebühr VERSTÄRKT/Monatsgebühr geringer, Liquiditätsentscheid,
+  Verschiebung vorgesehen — bewusst VOR E-6 entschieden, Warntext
+  steht · E-2a je Objekt/Haus · E-2 (c) + Mehrhaus-Rabatt auf S1 ·
+  E-3 NEU GEFASST: W-B/A3-Rechenbasis, Durchreichung zum
+  Selbstkostenpreis, Servicegebühr getrennt, Z-6-Vorbehalt · E-4/E-6
+  → Ruffy/heypensio, ohne Kalendertermin · E-5 inkl. E-5a LEANE
+  kostenlos · E-7 → FUND2-Gespräch ~23.08. · E-8 Ja) — 16
+  Nachtragskästen, 0 Löschungen; **`handel/preisliste-vorlaeufig.md`
+  NEU** (Durchreichungs-Zeilen K1–K7, K5/K6 sichtbar offen;
+  Servicegebühr S1/S2 + Rabatt S3 als sprechende Platzhalter;
+  Startgebühr-HYPOTHESE rund 1.500–2.500 €/Haus, obere Orientierung
+  ~4.200 € — Zählweg per Skript, unbequemster Befund sichtbar: das
+  dichteste Marktfenster liegt bei 399–799 €; ⚠️ Entscheider der Höhe
+  ist der USER, E-6/E-7 sind Zulieferer) · N-10-Marktband in die
+  Förderarchitektur. Prüfer 19/19 disponiert (0 schwer; Lauf-Status:
+  3 nicht prüfbar, 1 offen — von der Leitsession getragen).
+  **R12-B (Yasopp, `5097f37`→`8674632`):**
+  **`handel/angebotsarchitektur.md` NEU** (E-8): Zuordnungsfrage
+  **AA-1** (Mehrhaus-Rabatt je Betreiber ↔ je Firmierung, beide
+  Lesarten — der Pilot mit 3 Objekten/3 Firmierungen ist der
+  Belegfall) ZUERST, dann Paketform-Optionenraum P-A/P-B/P-C,
+  Katalog-Grenze, Beratungsachsen-Verortung, Rabatt-Mechanik —
+  **acht ☐-Punkte AA-1…AA-8 beim User**, nichts entschieden, keine
+  Beträge; Übergabefähigkeits-Kapitel mit ungeglätteter
+  Widerspruchsliste (K03 n8n · K04 Vapi · Vertragspartner-Frage).
+  Prüfer 13/13 disponiert (0 schwer); Prüfschritt 11 von der
+  Leitsession getragen (Paket-Achsen-Probe, 0 Widersprüche).
+  **Gewichtigster Nebenbefund (R12A-N-1/P-06):** Die DURCHREICHUNG
+  setzt voraus, dass WIR Vertragspartner von Hetzner/Supabase/Vapi
+  sind — E-3 will zugleich den Kunden als Eigentümer; ist ER
+  Vertragspartner, gibt es nichts durchzureichen (K04-Vapi-Kollision
+  gleichrangig zu Z-6). → Zentrale-Zulieferung Z-1…Z-7 + diese Frage
+  als **Postkorb-Meldung
+  `2026-08-13-mkt-preismodell-zulieferungen.md`** übergeben. ·
+  Methodik: **6 Lehren in den Blueprint** (L-33
+  Zählung-maschinisiert-auch-Aussage · L-34 Quellverweis-Leseraum +
+  Prüfraum-Regel · L-35 ID-Namensräume dokumentübergreifend, dreifach
+  an einem Tag · Nenner-an-Prüfgegenstand · Ableitung-präzisiert-
+  Quelle-nachziehen · Prüfstand-git-show-Quellen; `cd45642`), Kopie
+  `commands/tagesstart.md` gezogen; fremde Deltas einzeln disponiert:
+  `3905a1c` (Secret-Rotations-Kette + Versionssprünge → CLAUDE.md
+  „Arbeitsregeln") + `a7499d9` (Sandbox-NTFS, keine Kopienwirkung);
+  Stempel `cd45642`, Wächter SYNCHRON 12 / 0 DRIFT. **Offen aus
+  R12:** AA-1…AA-8 + S4-Bezugseinheits-Klärfrage (User) · Preishöhe
+  F-III (User, nach E-6) · E-4/E-6 ohne Kalendertermin (heypensio) ·
+  K5/K6 nicht erhoben · Terminpfad-Stufen-Umbenennung T0–T5
+  (Kandidat, nächste akquiseplan-Pflege) · Modell-Statuszeilen
+  R12-A (Umgebungsangabe Opus 5 1M) und R11-A unbestätigt.
 - 12.08.2026 abends (R11-Debrief, eine Arbeits-Session + Leitsession):
   **Die Preismodell-Entscheidungsvorlage steht** —
   `handel/preismodell-optionen.md` (R11-A/Yasopp, Ausführung der

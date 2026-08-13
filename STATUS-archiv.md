@@ -2,6 +2,35 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 13.08.2026 (R12-Debrief) — R10-Block aus „Letzte Aktualisierung"
+
+**Vorheriger Stand — 12.08.2026 nachmittags (R10, Umbau-Runde — nur Leitsession)** —
+Kleine Werkzeug-Runde nach dem Slot-2-Briefing der Zentrale
+(Architektur-Umbau-Tag; Inhalts-Stränge ruhen bis zur Abnahme):
+✅ **F10** `settings.local.json` git-ignoriert — Sichtung VOR dem
+Eintrag: keine Secrets (`acb9556`) · ✅ **Gerüst-Nachzug** 2 Deltas
+einzeln disponiert (Duplikat-Grundsatz → „Doku-Hygiene" ·
+`debrief.md` 3d), Stempel `bb3b32c`, Wächter SYNCHRON 12 / 0 DRIFT
+(`6aa2dd9`) · ✅ **F13 NACHGEREICHT** (Nachtrag 14:49 MESZ:
+C2-Rücklauf 14:32 eingetroffen, User-Entsperrung — Command-Kopien vom
+Master `b04c264` gezogen, CLAUDE.md/AGENTS.md/STATUS-Kopf auf
+`<FIRMENWURZEL>`-Platzhalter entkoppelt, Wächter 0 DRIFT; um 14:13
+lag der Rücklauf noch nicht vor) ·
+**R09-B (Preismodell) wartet auf die Umbau-Abnahme der Zentrale.**
+⚠️ Nach dem Nachzug gilt Neustart-Pflicht der Leitsession (Tagesplan,
+Blockwechsel-Handgriff). *(Details: Projektquelle-Changelog R10.)*
+
+## Rotiert am 13.08.2026 (R12-Debrief) — R10-Punkt aus „Aktueller Stand"
+
+- **R10 (12.08. nachmittags, Umbau-Runde — nur Leitsession):** ✅ F10
+  (`settings.local.json` git-ignoriert, Sichtung: keine Secrets,
+  `acb9556`) · ✅ Gerüst-Nachzug 2 Deltas (Duplikat-Grundsatz →
+  „Doku-Hygiene" · `debrief.md` 3d), Stempel `bb3b32c`, Wächter
+  0 DRIFT (`6aa2dd9`) · ✅ F13 nachgereicht (C2-Rücklauf 14:32;
+  Kopien + CLAUDE.md/AGENTS.md/STATUS-Kopf entkoppelt, Stempel
+  `b04c264`) · R09-B wartet auf die Umbau-Abnahme der Zentrale.
+  *(R8 rotiert → `STATUS-archiv.md`.)*
+
 ## Rotiert am 12.08.2026 (R11-Debrief) — R9-Punkt aus „Aktueller Stand"
 
 - **R9 (12.08.):** ✅ **O-8 gebaut und geprüft**

@@ -3,7 +3,19 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`4fa4453`** (R11-Debrief 12.08.2026 abends:
+> am 2026-08-09; Stand **`cd45642`** (R12-Debrief 13.08.2026 mittags:
+> eigener Rückfluss von 6 R12-Lehren — L-33…L-35 + 3 Schärfungen in
+> die CLAUDE-Vorlage (Verdichten/x-von-y/Doku-Hygiene/
+> Gegenprobe-Achse) und die tagesstart-Vorlage
+> (Rückwärts-Kategorie-Suchraum + Prüfraum-Regel,
+> Prüfstand-git-show-Quellen), Kopie `commands/tagesstart.md` vom
+> Master gezogen; fremde Deltas einzeln disponiert: `3905a1c`
+> (Secret-Rotations-Kette + Versionssprünge-kippen-Negative → beide in
+> „Arbeitsregeln" übernommen) + `a7499d9` (Sandbox-NTFS-Eigentum, nur
+> `firmen-integration.md` — keine Vorlagen-/Kopienwirkung); Wächter
+> SYNCHRON 12 / 0 DRIFT; Blueprint-Push `a7499d9..cd45642` sauber,
+> Sichtung zeigte nur den eigenen Commit.)
+> Davor Stand `4fa4453` (R11-Debrief 12.08.2026 abends:
 > eigener Rückfluss von 6 R11-Lehren — L-30…L-32 in die
 > CLAUDE-Vorlage, Nachlade-Befund-Regel in den Baustein
 > `quellen-beschaffung`, Prompt-Bestandsangaben- +
@@ -450,7 +462,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Auswahlkriterium — die Auswahl war die Aussage (Positivliste in
   Verkleidung), und ausgerechnet der stärkste Gegenfall fiel durchs
   Raster. Wenn das Ergebnis nicht anders ausfallen kann, ist es keine
-  Zählung. (L-30.)
+  Zählung. (L-30.) **Der Nenner gehört an den PRÜFGEGENSTAND, nicht an
+  das Auswahlkriterium:** „6 von 6 Anbietern bestätigt" kann nicht
+  anders ausfallen, sobald je Anbieter ein Treffer genügt, während der
+  Satz daneben „jeder EinmalBETRAG" behauptet — zwei Beträge hatten
+  keine Fundzeile. (L-30-Nachtrag, MKT R12.)
   **⭐ Eine Quelle vollständig GELESEN zu haben und sie vollständig
   ÜBERNOMMEN zu haben sind zwei Behauptungen mit zwei Belegen** — eine
   Kontrolle „es fehlt keine Seite" übersah, dass nur 3 von 4 Pflichten des
@@ -482,6 +498,19 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   bewerten, gegen den VORHER-Stand messen (`git show <commit>~1:<datei>`).
   (Herkunft: R29-B/R31, 7 Belege; + MKT R3, Sammelvermerk;
   Protokoll-Erweiterung heyPensio R34.)
+  **⭐ Und für die AUSSAGE ÜBER eine maschinelle Zählung:** Die
+  Skript-Ausgabe kann korrekt danebenliegen, während die von Hand
+  formulierte RANG-/Vergleichsaussage darüber falsch ist — zweimal in
+  einer Runde, beide Male in Richtung der eigenen Hypothese. Wer eine
+  Zählung maschinisiert, maschinisiert auch die Aussage darüber — oder
+  liest die Ausgabe Zeile für Zeile gegen den geschriebenen Satz.
+  **Empfehlungs-Superlative („die einzige Option, die …") sind die
+  Struktur-Variante derselben Drift** — vor dem Commit die eigenen
+  Dafür/Dagegen-Zeilen der ANDEREN Optionen gegenlesen (zweimal trug
+  die Erstfassung ihr Gegenargument selbst). **Und eine Referenz-/
+  Festlegungs-Tabelle, die nur den Entscheid-KERN trägt, liest sich als
+  vollständige Wiedergabe** — den ✅-Kasten auf „ausdrücklich
+  mitentschieden"-Zusätze gegenlesen. (L-33; MKT R12.)
   **⭐ Belegstufen-Disziplin gilt auch für STRUKTUREN und
   Denkfiguren:** Die Gliederung einer Empfehlung kann aus einer
   verworfenen Quelle stammen, während jede einzelne Zahl sauber belegt
@@ -530,7 +559,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Suchauftrag. Spiegelfall Einarbeitung: Ein Auftrag mit namentlicher
   Zielortliste macht die Quelle zur Abarbeitung — vorher einmal umgekehrt
   greppen: „Welche Punkte der Quelle nennen MEIN Dokument als Zielort?"
-  (Herkunft: R30-D/R31-C.)
+  (Herkunft: R30-D/R31-C.) **⭐ Ein präziser Quellverweis benennt, wo
+  man ANFÄNGT, nicht, wo man aufhört:** Der Auftrag nannte den
+  Unterabschnitt — die Nachbar-Rubrik desselben Dokuments trug den
+  Entscheider des wichtigsten offenen Postens und blieb ungelesen;
+  dieselbe Verengung führte einen Prüfer per „vom Protokoll rückwärts"
+  zur Entwarnung, bis er den Suchraum selbst erweiterte. Quell-Aufträge
+  nennen das DOKUMENT als Leseraum und den Abschnitt nur als Einstieg.
+  (L-34, MKT R12 — P-05 in Bau und Prüfung derselben Runde.)
 - **⭐ Bewertungs-/Risikodokumente: Ergebnis JE FALLGRUPPE, plus eine
   Liste ausdrücklich GESPERRTER Argumente.** Ein Pauschalurteil zieht
   entweder die tragfähigen Fälle herunter oder deckt das Risiko zu —
@@ -666,6 +702,31 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Credential aktiv nutzt** — fremdgenutzte Zugangsdaten nie im Alleingang
   rotieren; Automations-Secrets von vornherein in EIGENE Postfächer/
   Konten trennen (noreply-Muster). (Herkunft: heyPensio R33, User-Fang.)
+- **⭐ Secret-Rotation ist eine KETTE, kein UI-Klick** (Herkunft:
+  heyPensio 0s5, vier Rotationen an einem Abend): (a) Neuer Wert direkt
+  in den Passwortmanager — nie Chat/Doku/Repo; auch credential-NAHE
+  Werte (Hashes, URLs mit Token) zählen als Werte, und landet doch einer
+  im Chat, während die Rotation ohnehin läuft, wird neu gewürfelt statt
+  hingenommen. (b) Config-/Workflow-Träger referenzieren das Secret per
+  **Env-Ausdruck statt Rohwert** — Exporte bleiben secretfrei, Vorlagen
+  werden generisch; bei Haupt-/Worker-Prozess-Architekturen die Variable
+  in ALLEN Containern belegen (der geplante Lauf führt oft im Worker
+  aus), per maskiertem Längenvergleich gegen einen vorher lokal
+  gemessenen Sollwert, nie per Wert-Ausgabe. (c) Die Rotation endet mit
+  der **SOFORTIGEN Nachmessung „alter Wert tot"** (Umschlag am Objekt +
+  Positivkontrolle des Messwegs mit erfundenem Wert) — sie fing einen
+  Reset, der im UI erzeugt, aber nie persistiert war: **ein
+  „Zurücksetzen"-Klick in einem UI-Teilformular ist erst mit dem
+  Formular-Save wirksam.** (d) Die stärkste Rotation eines UNGENUTZTEN
+  Zugangs ist sein Abschalten — dann gibt es nichts mehr zu verwahren.
+- **Versionssprünge der EIGENEN Systeme kippen eigene
+  Capability-Negative** genauso, wie Anbieter-Negative altern (Herkunft:
+  heyPensio 0s5; ergänzt die „Negative altern"-Regel): Ein „Feature X
+  ist unbrauchbar"-Verwurf galt einer Version — das Major-Update trug
+  ein völlig neues Modell desselben Features. Vor der Wiederverwendung
+  eines eigenen Verwurfs die Versionslage am System prüfen; die Antwort
+  auf einen Nutzungswunsch ist dann eine Neubewertung, kein Zitat des
+  Alt-Verwurfs.
 - **⭐ Bei einer Schwachstelle über KANÄLE lautet die Frage nicht „ist der
   Kanal dicht?", sondern „sind es ALLE Kanäle derselben Klasse?"** Ein
   Sicherheitspapier beschrieb eine Informations-Preisgabe über zwei Wege und
@@ -804,7 +865,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   „wer hat aus dieser Datei abgeleitet?" (grep auf den Dateinamen übers
   Repo), und geprüft wird die ANKUNFTSSTELLE, nicht der Changelog. Die
   Klasse ist zäh, weil beide Dokumente für sich korrekt aussehen — zwei
-  Belege an einem Tag (L-25). Nachtrags-Ketten auch rückwärts pflegen. Nach jeder
+  Belege an einem Tag (L-25). **Spiegelrichtung (MKT R12, P-04): Wer
+  beim Arbeiten in einer ABLEITUNG eine Quellen-Angabe präzisiert,
+  zieht die QUELLE im selben Zug nach — sonst kehrt die Vorrangklausel
+  („bei Widerspruch gewinnt die Quelle") die Präzisierung wieder um.**
+  Nachtrags-Ketten auch rückwärts pflegen. Nach jeder
   Richtungsentscheidung die betroffenen Alt-Dokumente durchgehen —
   ausdrücklich auch gemeinsam genutzte KALKULATIONSZEILEN in fremden
   Rechnungen, nicht nur thematisch betroffene Dateien. **Und seit es
@@ -845,6 +910,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   auffällig. Analog Modellnamen-Regel. (L-07.)
 - **Vor der Vergabe neuer Kurz-IDs die Kurzzeichen der Nachbardokumente
   greppen** (Kollisionen doppelt belegt). ID-Anker brauchen Rundenbezug.
+  **⭐ Dreifach-Beleg an einem Tag (MKT R12, L-35): Auch
+  NEBENBEFUND-Nummern aus Abschlussmeldungen (N-1…) und SACHSCHLÜSSEL
+  (S1…) kollidieren dokumentübergreifend** — Nebenbefunde wandern nur
+  MIT Rundenpräfix in den Wahrheits-Kanal (`R12A-N-1`);
+  Sachschlüssel-Namensräume je Domäne trennen (Terminpfad-Stufen ≠
+  Preisschlüssel); die Kollisions-Suche trägt eine Positivkontrolle mit
+  einem unabhängig BEKANNTEN Kollisions-Sollwert.
 - **Drift-Vorsorge bei AUSLÖSER, nicht nach Kalender:** Commit einer
   Doku-Änderung · Richtungsentscheid · neues Dokument · Freigabe.
   Baselines nie anheben, um einen Lauf grün zu bekommen.

@@ -1292,3 +1292,162 @@ verworfenen Quelle?".
   (je Session neu zu messen, betrifft Browser-Zuteilungen künftiger
   Runden — z. B. E-V4) · Hetzner-Preisseiten liefern Text ohne Werte
   (Nachlade-Befund, jetzt Baustein-Regel `quellen-beschaffung`).
+
+## L-33 — Wer eine Zählung maschinisiert, maschinisiert auch die AUSSAGE darüber (R12, 13.08.2026)
+
+**Fall (R12-A, Prüferbefund P-01 + eigener Selbstfang):** Die
+Fenster-Zählung der Startgebühr-Marktanker lief per Skript, das
+Ergebnisprotokoll lag gesichert daneben — und die von Hand formulierte
+Rangaussage DARÜBER war zweimal nacheinander falsch: erst „kein anderes
+Fenster hat mehr als drei Werte" (Selbstfang), dann „zweitdichtestes
+Fenster" (real Rang 4; der Zusatz „mit Betriebsbezug" rettete den Rang
+nicht, er verdeckte ihn — beide Zwischenfenster trugen ebenfalls
+Klasse-A-Werte). **Beide Fehler gingen in dieselbe Richtung: Sie ließen
+das Band der eigenen Arbeitshypothese dichter belegt aussehen.** Die
+Zeilen zwischen „Sieger" und „gesuchtem Wert" wurden schlicht nicht
+gelesen.
+
+**Struktur-Variante derselben Drift (R12-B, PB-05/PB-13):**
+Empfehlungs-Superlative — „die einzige Option, unter der …" — zweimal
+unabhängig im selben Dokument, obwohl die eigenen Dafür/Dagegen-Zeilen
+der anderen Optionen das Gegenargument bereits trugen. Die Verdichtung
+zugunsten der eigenen Empfehlung trifft also auch reine
+STRUKTUR-Dokumente ohne Zahlen.
+
+**Dritte Facette (R12-B, PB-02):** Eine Referenz-Tabelle, die nur den
+Entscheid-KERN wiedergibt, liest sich als vollständige Wiedergabe — der
+ausdrücklich mitentschiedene Neben-Bestandteil (E-1-Verschiebung, samt
+Z-4-Kopplung) war nirgends angekommen.
+
+**Handlungskern (CLAUDE.md, Verdichten-Block):** Rangaussagen über
+Skript-Ausgaben Zeile für Zeile gegen die Ausgabe lesen oder
+mit-maschinisieren · Empfehlungs-Superlative gegen die eigenen
+Dafür/Dagegen-Zeilen der anderen Optionen prüfen · ✅-Kästen auf
+„ausdrücklich mitentschieden"-Zusätze gegenlesen, bevor eine
+Referenz-Tabelle als Wiedergabe gilt.
+
+## L-34 — Ein präziser Quellverweis benennt, wo man anfängt, nicht, wo man aufhört (R12, 13.08.2026)
+
+**Fall (R12-A, Prüferbefund P-05 — dieselbe Verengung in Bau UND
+Prüfung):** Der Bau-Auftrag nannte als Quelle den Unterabschnitt
+„Preismodell E-1…E-8" des Briefings. Die Nachbar-Rubrik „Offene
+User-Entscheide" desselben Dokuments — die den ENTSCHEIDER der
+Startgebühr-Höhe benennt — stand eine Bildschirmseite daneben und wurde
+nicht gelesen; beide Dokumente führten den wichtigsten offenen Posten
+der Arbeitslinie daraufhin ohne Träger. Der Prüfer wäre per „vom
+Protokoll rückwärts lesen" im benannten Abschnitt zur ENTWARNUNG
+gekommen („27 von 27 angekommen") — der Fund entstand erst, als er den
+Suchraum eigenmächtig über den benannten Abschnitt hinaus erweiterte.
+Seine eigene Formulierung: „Die Kategorie war richtig, ihr Suchraum zu
+eng."
+
+**Handlungskern:** Quell-Aufträge (Bau wie Prüfung) nennen das DOKUMENT
+als Leseraum und den Abschnitt nur als Einstieg; Prüfaufträge mit
+Quellenbezug weisen den Prüfer an, den Suchraum über den benannten
+Abschnitt hinaus zu erweitern. Schwesterregel für Prüfer (R12-B-Prüfer,
+wörtlich): „Der Prüfgegenstand ist das Dokument, der PRÜFRAUM ist
+alles, worauf es zeigt."
+
+## L-35 — ID-Namensräume kollidieren dokumentübergreifend: dreifach an einem Tag (R12, 13.08.2026)
+
+**Drei unabhängige Fälle in einer Runde:** (1) „N-10" bezeichnete
+zugleich den Marktstundensatz-Posten (R11-Abschlussmeldung) und einen
+DSGVO-Befund (Rechtsmatrix, aus R09-A) — gefunden von R12-A beim
+N-10-Nachtrag. (2) Die R12-A-Nebenbefunde hießen ihrerseits N-1…N-8 und
+kollidieren mit den N-Nummern aus R9/R11, die der STATUS führt —
+gefunden von der Leitsession beim Review. (3) Die Terminpfad-Stufen
+S0–S5 (akquiseplan/§ 9 der Preismodell-Vorlage) kollidieren mit den
+Preisschlüsseln S1–S4 der Preisliste — „S1" ist je nach Dokument eine
+Terminstufe oder eine Grundgebühr (R12-B, PB-11a).
+
+**Warum die bestehende Regel nicht reichte:** „Vor der Vergabe neuer
+Kurz-IDs die Nachbardokumente greppen" zielt auf die VERGABE — die
+Fälle 1–2 entstehen aber beim FÜHREN fremd vergebener IDs im
+Wahrheits-Kanal (Abschlussmeldungs-Nummern sind lokal, der STATUS macht
+sie global), Fall 3 zwischen SACHSCHLÜSSELN zweier Domänen.
+
+**Handlungskern (CLAUDE.md, Doku-Hygiene):** Nebenbefund-Nummern
+wandern nur MIT Rundenpräfix in den Wahrheits-Kanal (`R12A-N-1`);
+Sachschlüssel-Namensräume je Domäne trennen; die Kollisions-Suche
+trägt eine Positivkontrolle mit einem unabhängig bekannten
+Kollisions-Sollwert (der R12-B-Prüfer nutzte die bekannte
+N-10-Kollision als Sollwert — die Kontrolle konnte eine echte
+Unmöglichkeit zeigen). Operativer Rest: Kandidat Umbenennung der
+Terminpfad-Stufen (T0–T5) bei der nächsten akquiseplan-Pflege.
+
+## Sammelvermerk R12 (13.08.2026) — Zweitbelege, bewährte Muster, Grenzfälle
+
+- **L-05 — vierter Beleg, korrigierte Fassung bestätigt:** Der
+  Push-Klassifikator blockierte zweimal, der dritte Versuch lief — bei
+  unverändertem Kommando, Kanal und Commit (R12-A).
+  Zeitpunkt-/kontextgebunden, nicht kanalgebunden.
+- **L-24/L-30-Klasse — Nenner-Facette:** siehe L-30-Nachtrag in
+  CLAUDE.md (Nenner an den Prüfgegenstand; R12-A-Gegenprobe „6 von 6
+  Anbietern" bei behaupteten Einzelbeträgen, zwei ohne Fundzeile —
+  die Werte stimmten, der Beleg fehlte).
+- **L-27-Klasse — Zweitbeleg in der ÜBERNAHME-Richtung (P-03):** Bei
+  Tabelle→Tabelle-Übernahme kam der Fließtext-Vorbehalt UNTER der
+  Quelltabelle nicht mit, die In-Zeile-Warnung des Nachbarn schon —
+  ausgerechnet beim tragenden Anker W1.
+- **Verifikationsvermerk-Alterung (Sammelvermerk-R9-Klasse, neue
+  Facette P-11):** Lesestand-Hash und beschriebene Fassung müssen
+  zusammengehören — „Repo-HEAD `e112845` in der Fassung mit den
+  ✅-Nachträgen" nannte einen Hash, zu dem es die Nachträge noch nicht
+  gab (beides entstand im selben späteren Commit).
+- **Edit-Falle beim Kasten-Einfügen (R12-A, Falle 5):** Ein
+  Nachtrags-Kasten riss den kommentierten Satz aus dem `old_string` mit
+  — nach jedem Kasten-Edit prüfen, ob der kommentierte Text noch
+  dasteht; per grep sofort gefangen.
+- **„beauftragt" ≠ „läuft" (R12-B, PB-03):** Statusaussagen über
+  fremde Arbeit rutschen in Halbsätzen durch („laufende E-6-Messung" in
+  einem So-läuft-es-weiter-Punkt) — Regel-3a-Klasse, gilt auch für
+  Nebensätze.
+- **Werkzeug-Zweitbelege:** `grep` case-sensitiv („Tagessatz" findet
+  „Beratertagessatz" nicht — Kopf-Volldump statt drittem Muster) ·
+  Kontextfenster-Muster verfehlen kurze Zeilen (0 Treffer für einen
+  11-fach vorhandenen Betrag) · `Measure-Object -Line` zählt
+  Leerzeilen nicht (1512 statt ~1660) — alle drei Klassen standen
+  bereits in Bausteinen und wurden von den Sessions selbst gefangen,
+  WEIL die Prompts die Fallen mitgaben (tagesstart-Regel `4fa4453`
+  wirkt).
+- **Bewährte Muster (je mit Beleg):** Rohbeleg-Anker fängt
+  Vorrunden-Fehler mit (W1 „ab 1.920 €" fiel beim Zeilen-Lesen an,
+  ungesucht) · `git show --numstat` mit 0 Löschungen als billigster
+  Nachtrags-Disziplin-Beleg (Grenze benannt: fängt keine Umdeutung
+  durch hinzugefügten Kasten) · Ausschluss-Entscheidungen sichtbar
+  GEGEN das eigene Interesse begründen (W4/W6-Ausschluss senkt die
+  eigene Spanne) · unbequemster Befund an der Ankunftsstelle
+  (399–799-€-Kasten direkt unter der Hypothese) · sprechende
+  Platzhalter (Drittbeleg) · eingefrorener Prüfstand mit
+  `git show <hash>:<pfad>` AUCH für die referenzierten Quellen
+  (R12-B-Prüfer; Arbeitsbaum-Drift ausgeschlossen) · offene
+  Prüfschritte selbst am Rohbeleg schließen statt neu prüfen
+  (L-22-Linie, Schritt 10 = ein Grep) · Zuordnungsfrage vor
+  Mechanik-Fragen (AA-1 vor AA-5…AA-8; E-2a-Muster bestätigt) ·
+  Selbstprüfung senkt die Befundzahl, ersetzt den Prüfer nicht (zwei
+  Selbstfänge, der Prüfer fand an derselben Stelle den dritten).
+- **Rückwärts-Leserichtung — DRITTBELEG der Wirksamkeit (R12-B,
+  PB-01/PB-02; Fund der Debrief-Gegenprobe — war zunächst in keinem
+  Kanal):** Beide Mittel-Befunde der Kategorie 2 kamen ausschließlich
+  aus der RÜCKWÄRTS-Leserichtung; der Prüfer bestätigt ausdrücklich,
+  er hätte sie vorwärts vermutlich nicht gefunden. Nach R08
+  (Prüfer-Selbstauskunft „Befundtyp wäre komplett ausgefallen") und
+  R11 (Kategorie-2-Befunde) der dritte Wirksamkeitsbeleg der
+  Pflicht-Kategorie — zusammen mit der R12-Suchraum-Weitung (L-34)
+  gilt: Kategorie behalten, Suchraum weiten.
+- **Sichtbare Reparaturvermerke — Zweitbeleg als PRÜFER-NUTZEN (R12-B;
+  Fund der Debrief-Gegenprobe):** Jede der 12 Reparaturen trug, was
+  vorher dastand und warum es fiel — das R7-Muster (CLAUDE.md
+  Doku-Hygiene „Reparaturen sichtbar machen") in der zweiten Runde in
+  Folge fortgeführt; der Leitsession-Review konnte die Dispositionen
+  dadurch ohne Rohbeleg-Neuaufriss am Text nachvollziehen.
+- **Grenzfall, bewusst ohne Regel:** Prüferprotokoll-Kopf R12-A zählte
+  „zwei" nicht prüfbare Schritte, der eigene Abschnitt listete drei
+  (Meldung korrekt: 3) — Einzelfall der „Zahl ohne Zählweg"-Klasse,
+  historisches Prüfer-Artefakt nicht editiert, hier vermerkt.
+- **Grenze der Beleglage (R12-B-Prüfer, strukturell):** Ein Fehler im
+  SINNGEMÄSSEN Entscheide-Protokoll selbst ist für jeden Textprüfer der
+  Kette unsichtbar — Dokument, § 11 und Briefing bestätigen einander
+  dann gegenseitig. Einzige Prüfinstanz ist der User; die
+  ✅-Belegstufe „sinngemäß, Wortlaut nicht archiviert" trägt genau
+  diese Grenze und bleibt Pflicht-Bestandteil jedes Vermerks.

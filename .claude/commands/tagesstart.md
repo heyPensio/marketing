@@ -346,6 +346,17 @@ einer, beim User nachfragen statt raten:
      an den Prüfer: **„Hättest du diese Funde auch OHNE den
      Kategorien-Hinweis gefunden?"** — misst, ob der Katalog trägt oder
      nur bestätigt (Herkunft: heyPensio L-25).
+     **⭐ Und der SUCHRAUM der Kategorie wird weit gefasst:** Die
+     Rückwärts-Kategorie mit eng benanntem Quellabschnitt führt den
+     Prüfer zur ENTWARNUNG („alles angekommen"), wenn der relevante
+     Posten in der Nachbar-Rubrik desselben Dokuments steht —
+     Pflichtform: das DOKUMENT als Leseraum nennen, den Abschnitt nur
+     als Einstieg, plus die Prüfraum-Regel „der Prüfgegenstand ist das
+     Dokument, der PRÜFRAUM ist alles, worauf es zeigt" (der Prüfer
+     öffnet auch die referenzierten Abschnitte der Quellen).
+     (Herkunft: MKT R12 — dieselbe Verengung in Bau und Prüfung
+     derselben Runde; Prüfer-Selbstauskunft „Kategorie richtig,
+     Suchraum zu eng".)
    - **⭐ Agenten ausdrücklich auf den UNBEQUEMEN Pol verpflichten.** Der
      Satz „Wo die Rechtslage/Sachlage streitig ist, ist ‚streitig' der
      Eintrag, nicht der bequemere Pol" hat in MKT R7 sichtbar gewirkt:
@@ -368,6 +379,11 @@ einer, beim User nachfragen statt raten:
      während des Prüflaufs committet, ändert den Gegenstand unter ihm;
      der Prüfer meldet dann eine Verfahrensverletzung statt eines
      Sachbefunds. (Herkunft: MKT R7, vom Prüfer selbst gemeldet.)
+     **Bewährte Ausbaustufe: der Prüfer liest Prüfgegenstand UND die
+     referenzierten Quellen per `git show <hash>:<pfad>` in der
+     Commit-Fassung** — Arbeitsbaum-Drift ist damit auch auf der
+     Quellen-Seite ausgeschlossen, der Lauf reproduzierbar.
+     (Herkunft: MKT R12.)
    - **⭐ Ein Agent je QUELLDOKUMENT schlägt einen Agenten je BEFUND**,
      mit dem Auftrag „Absatz davor und danach mitlesen": In MKT R7 fanden
      alle vier Zitat-Agenten MEHR, als der jeweilige Befund behauptete

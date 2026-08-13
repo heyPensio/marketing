@@ -669,4 +669,31 @@ Handgriff-Liste.**
 
 ## Übergabe-Block
 
-*(wird beim Blockwechsel/Neustart gefüllt)*
+*(gefüllt 13.08. nach dem R12-Debrief — Neustart-Pflicht AKTIV,
+s. Blockwechsel-Handgriff)*
+
+- **Session-Stand:** R12 abgeschlossen und debrieft. Beide
+  Arbeits-Sessions reviewt (19/19 + 13/13 Befunde disponiert, 0
+  schwere) · Rückschreiben komplett: 6 CLAUDE.md-Edits (inkl. Nachzug
+  `3905a1c`), L-33…L-35 + Sammelvermerk R12 im Register, Blueprint
+  `cd45642` (gepusht), Kopie tagesstart gezogen, Stempel `cd45642`,
+  Wächter SYNCHRON 12 / 0 DRIFT · Vier-Stellen-Sync ✅ (Changelog R12,
+  HANDEL1-Abschnitt, § 7 Punkt 0, STATUS mit R10-Rotation) ·
+  Postkorb-Meldung `2026-08-13-mkt-preismodell-zulieferungen.md` in
+  zentrale committet (`47958da`) — **zentrale-Push ZURÜCKGESTELLT**
+  (7 fremde ungepushte Commits, Garp-Session heute) ·
+  Debrief-Gegenprobe (Subagent, 39 Positionen): **2 Lücken gefunden
+  und geschlossen** (Rückwärts-Leserichtung-Drittbeleg ·
+  Reparaturvermerke-Zweitbeleg — beide Register-Nachträge).
+- **Offene Handgriffe (User):** NEUES Fenster + `claude --resume` vor
+  jeder weiteren Leitsession-Arbeit (Regel-Snapshot veraltet nach
+  Nachzug) · **AA-1…AA-8 beantworten** (`handel/angebotsarchitektur.md`
+  § 7, AA-1 zuerst) + **S4-Bezugseinheits-Klärfrage** (Startgebühr je
+  Haus oder je Kunde?) · Modell-Statuszeilen R11-A (Opus 5) + R12-A
+  (Opus 5 1M) bestätigen · StB-Anruf (heute zugesagt) · H-1 bis 16.08.
+  · MARKE1-Paket (diese Woche) · restliche Handgriff-Tabelle oben.
+- **Block-Programm danach:** Tag offen — Kandidaten: AA-Antworten
+  einarbeiten (Folgerunde R13 via `/runde`) · R11-Restposten
+  (Rechtsmatrix-/FUND-Pflege N-9…N-14/N-3…N-6, sieben Bau-Pflichten,
+  O-9) · oder Feierabend; entscheidet der User.
+- **Debrief-Kandidaten:** keine offenen — R12 vollständig debrieft.

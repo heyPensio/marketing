@@ -26,7 +26,37 @@
 ---
 
 ## Letzte Aktualisierung
-**12.08.2026 abends (R11, Shanks + R11-A/Yasopp — Preismodell-Runde)** —
+**13.08.2026 mittags (R12, Shanks + R12-A/Ben Beckman + R12-B/Yasopp —
+Entscheide-Einarbeitung, sequenziell)** — ⭐⭐ **Alle acht
+Preismodell-Entscheide E-1…E-8 sind eingearbeitet, die vorläufige
+Preisliste und der Angebotsarchitektur-Einstieg stehen.**
+Entscheide-Quelle: Briefing-Dialog 13.08. (Dropdown + Freitext,
+sinngemäß — Wortlaut nicht archiviert; so in allen ✅-Vermerken).
+**R12-A:** ✅-Vermerke in `handel/preismodell-optionen.md` § 11 (16
+Nachtragskästen, 0 Löschungen; E-3-Neufassung W-B/A3 + Durchreichung
++ getrennte Servicegebühr unter Z-6-Vorbehalt; E-1 bewusst vor E-6,
+Warntext steht) · **`handel/preisliste-vorlaeufig.md` NEU** —
+Startgebühr-HYPOTHESE 1.500–2.500 €/Haus (Entscheider der Höhe: der
+USER, nach E-6; dichtestes Marktfenster liegt bei 399–799 €, sichtbar
+geführt) · N-10-Marktband in der Förderarchitektur. Prüfer **19/19
+disponiert** (0 schwer). **R12-B:**
+**`handel/angebotsarchitektur.md` NEU** (E-8) — **acht ☐-Punkte
+AA-1…AA-8 beim User** (AA-1 Rabatt-Zuordnung Betreiber↔Firmierung
+ZUERST; Paketformen P-A/P-B/P-C; keine Beträge, nichts entschieden);
+Widerspruchsliste K03/K04/Vertragspartner ungeglättet. Prüfer **13/13
+disponiert** (0 schwer; Schritt 11 von der Leitsession getragen).
+⚠️ **Strukturbefund an die Zentrale (Postkorb
+`2026-08-13-mkt-preismodell-zulieferungen.md`):** Vertragspartner-
+Frage der Durchreichung (K04 gleichrangig zu Z-6) + Z-1…Z-7 +
+E-6-Präzisierung (Blöcke je Objekt stoppen). · Methodik: **6 Lehren →
+Blueprint** (L-33…L-35 + 3 Schärfungen, `cd45642`), fremde Deltas
+`3905a1c` (Secret-Rotations-Kette → CLAUDE.md) + `a7499d9` (nur
+Blueprint-Register) disponiert, Kopie tagesstart gezogen, Stempel
+`cd45642`, Wächter SYNCHRON 12 / 0 DRIFT. ⚠️ Modell-Statuszeilen
+R12-A (Umgebungsangabe Opus 5 1M) + R11-A unbestätigt
+(User-Handgriff). *(Details: Projektquelle-Changelog R12.)*
+
+**Vorheriger Stand — 12.08.2026 abends (R11, Shanks + R11-A/Yasopp — Preismodell-Runde)** —
 ⭐⭐ **Die Preismodell-ENTSCHEIDUNGSVORLAGE steht:**
 `handel/preismodell-optionen.md` (R11-A, Ausführung der R09-B-Planung
 nach Freeze-Aufhebung, Briefing Slot 3) — Optionenraum (i) monatlich
@@ -55,26 +85,10 @@ zentrale-Push ZURÜCKGESTELLT (9 fremde ungepushte Commits). ⚠️
 R11-A-Modell: Umgebungsangabe „Opus 5", Statuszeilen-Bestätigung =
 User-Handgriff. *(Details: Projektquelle-Changelog R11.)*
 
-**Vorheriger Stand — 12.08.2026 nachmittags (R10, Umbau-Runde — nur Leitsession)** —
-Kleine Werkzeug-Runde nach dem Slot-2-Briefing der Zentrale
-(Architektur-Umbau-Tag; Inhalts-Stränge ruhen bis zur Abnahme):
-✅ **F10** `settings.local.json` git-ignoriert — Sichtung VOR dem
-Eintrag: keine Secrets (`acb9556`) · ✅ **Gerüst-Nachzug** 2 Deltas
-einzeln disponiert (Duplikat-Grundsatz → „Doku-Hygiene" ·
-`debrief.md` 3d), Stempel `bb3b32c`, Wächter SYNCHRON 12 / 0 DRIFT
-(`6aa2dd9`) · ✅ **F13 NACHGEREICHT** (Nachtrag 14:49 MESZ:
-C2-Rücklauf 14:32 eingetroffen, User-Entsperrung — Command-Kopien vom
-Master `b04c264` gezogen, CLAUDE.md/AGENTS.md/STATUS-Kopf auf
-`<FIRMENWURZEL>`-Platzhalter entkoppelt, Wächter 0 DRIFT; um 14:13
-lag der Rücklauf noch nicht vor) ·
-**R09-B (Preismodell) wartet auf die Umbau-Abnahme der Zentrale.**
-⚠️ Nach dem Nachzug gilt Neustart-Pflicht der Leitsession (Tagesplan,
-Blockwechsel-Handgriff). *(Details: Projektquelle-Changelog R10.)*
-
-*(Davor: R9 — O-8 gebaut/geprüft, O-2 entschieden, Rn.-87-Verschärfung
-Listenaufbau; rotiert 12.08.2026 (R11) → `STATUS-archiv.md`. Davor R8 —
-MKT-AKQ-Start, kritischer Pfad = Namensentscheid; rotiert 12.08.2026
-(R10). Ältere Stände: `STATUS-archiv.md`.)*
+*(Davor: R10 — Umbau-Runde F10/F13/Nachzug; rotiert 13.08.2026 (R12)
+→ `STATUS-archiv.md`. Davor R9 — O-8 gebaut/geprüft, O-2 entschieden,
+Rn.-87-Verschärfung Listenaufbau; rotiert 12.08.2026 (R11). Ältere
+Stände: `STATUS-archiv.md`.)*
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE
@@ -94,14 +108,6 @@ MKT-AKQ-Start, kritischer Pfad = Namensentscheid; rotiert 12.08.2026
   fremde Verteiler. Modell-Statuszeilen R08-A/B ENTFALLEN — User
   12.08.: Fenster zu, endgültig nicht erhebbar. Kategorie-4-Rest durch
   Codex-C1 in R9 geschlossen. R5+R6 ebenfalls im Archiv.)*
-- **R10 (12.08. nachmittags, Umbau-Runde — nur Leitsession):** ✅ F10
-  (`settings.local.json` git-ignoriert, Sichtung: keine Secrets,
-  `acb9556`) · ✅ Gerüst-Nachzug 2 Deltas (Duplikat-Grundsatz →
-  „Doku-Hygiene" · `debrief.md` 3d), Stempel `bb3b32c`, Wächter
-  0 DRIFT (`6aa2dd9`) · ✅ F13 nachgereicht (C2-Rücklauf 14:32;
-  Kopien + CLAUDE.md/AGENTS.md/STATUS-Kopf entkoppelt, Stempel
-  `b04c264`) · R09-B wartet auf die Umbau-Abnahme der Zentrale.
-  *(R8 rotiert → `STATUS-archiv.md`.)*
 - **R11 (12.08. abends, Preismodell-Runde):** ✅ **HANDEL1-Vorlage
   gebaut und geprüft** (`handel/preismodell-optionen.md`; Prüfer 28/28
   disponiert, 0 offene Prüfschritte; = R09-B-Planung ausgeführt) ·
@@ -121,6 +127,22 @@ MKT-AKQ-Start, kritischer Pfad = Namensentscheid; rotiert 12.08.2026
   (N-9, vor Browser-Zuteilungen messen) · Modell-Statuszeile R11-A
   (User-Ablesung). *(Offen aus R9 weiterhin: O-9 · O-10 · sieben
   Bau-Pflichten · R-2; R9 rotiert → `STATUS-archiv.md`.)*
+- **R12 (13.08. mittags, Entscheide-Einarbeitung, zwei Sessions
+  sequenziell):** ✅ **E-1…E-8 eingearbeitet** (✅-Vermerke § 11;
+  Quelle Briefing-Dialog 13.08., sinngemäß) · ✅
+  **`handel/preisliste-vorlaeufig.md`** (W-B-Basis, Durchreichung,
+  Startgebühr-Hypothese 1.500–2.500 €/Haus — Höhe entscheidet der
+  USER nach E-6) · ✅ **`handel/angebotsarchitektur.md`** (E-8;
+  **AA-1…AA-8 beim User**, AA-1 zuerst) · ✅ N-10-Marktband
+  nachgezogen · Prüfer 19/19 + 13/13 disponiert (0 schwere) ·
+  Postkorb-Zulieferung Z-1…Z-7 + Vertragspartner-Frage (K04) an die
+  Zentrale · 6 Lehren → Blueprint (`cd45642`), Stempel `cd45642`,
+  Wächter SYNCHRON 12 / 0 DRIFT. **Offen aus R12:** AA-1…AA-8 +
+  S4-Bezugseinheits-Klärfrage (User) · F-III-Höhe (User, nach E-6) ·
+  E-4/E-6-Kalendertermine (heypensio nachhalten) · K5/K6 nicht
+  erhoben · Terminpfad-Stufen T0–T5-Umbenennung (Kandidat) ·
+  Modell-Statuszeilen R11-A/R12-A. *(R10 rotiert →
+  `STATUS-archiv.md`.)*
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -135,12 +157,16 @@ MKT-AKQ-Start, kritischer Pfad = Namensentscheid; rotiert 12.08.2026
    ~~O-2~~ ✅ entschieden (12 Monate + O-2b). ~~Preismodell/HANDEL1~~
    ✅ **Vorlage liegt vor (R11, 12.08. abends)** — der Sperr-Posten
    ist entschärft, SOLANGE die E-Punkte zügig beantwortet werden:
-   Spitzenposten jetzt: **User-Handgriff E-1…E-8 beantworten**
-   (`handel/preismodell-optionen.md` § 11; E-6/E-7 sind die zwei
-   fehlenden Zahlen, E-1 kann auf E-6 warten) · **die sieben
+   ~~User-Handgriff E-1…E-8 beantworten~~ ✅ **ENTSCHIEDEN 13.08.
+   (Briefing-Dialog) und in R12 eingearbeitet.** Spitzenposten jetzt:
+   **User-Handgriff AA-1…AA-8 beantworten**
+   (`handel/angebotsarchitektur.md` § 7; AA-1 Rabatt-Zuordnung
+   zuerst) **+ S4-Bezugseinheits-Klärfrage** (Startgebühr je Haus
+   oder je Kunde?) · **F-III-Höhe entscheidet der User nach E-6**
+   (Zulieferung heypensio, Kalendertermin nachhalten) · **die sieben
    Bau-Pflichten** ins Regelwerk · **O-9** (Kompatibilitätsprüfung
    Art. 6 Abs. 4) · Kanalmix-Festzurrung erst nach FUND2-Persona-
-   Befund. Details: Projektquelle § 7 Punkt 0 + R11-Changelog.
+   Befund. Details: Projektquelle § 7 Punkt 0 + R12-Changelog.
    ~~⏸️ R09-B wartet auf Umbau-Abnahme~~ ✅ Freeze aufgehoben
    (User-Entscheid 12.08. abends, Briefing Slot 3), als R11-A
    ausgeführt; ~~F13 wartet auf C2-Rücklauf~~ ✅ nachgereicht 14:49

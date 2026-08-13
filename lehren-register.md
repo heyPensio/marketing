@@ -1451,3 +1451,146 @@ Terminpfad-Stufen (T0–T5) bei der nächsten akquiseplan-Pflege.
   dann gegenseitig. Einzige Prüfinstanz ist der User; die
   ✅-Belegstufe „sinngemäß, Wortlaut nicht archiviert" trägt genau
   diese Grenze und bleibt Pflicht-Bestandteil jedes Vermerks.
+
+## L-36 — Eine Bestandsaussage in neu geschriebenem Text braucht dieselbe Messung wie eine Zahl (R13, 13.08.2026)
+
+**Fall (R13-A, Prüferbefund P-01 — der einzige schwere der Runde):**
+Der ✅-AA-6-Kasten trug den Zusatz „Z-4 liegt bei der Zentrale/StB und
+ist nicht übergeben" — aus dem Gedächtnis des Bestands geschrieben,
+mit einer Fundstelle belegt, die die Aussage nicht trug (§ 10 sagt
+„nachrangig — ohne Auslöser"), während **dieselbe Session an drei
+anderen Stellen desselben Commits festgestellt hatte, dass genau
+dieser Bestand überholt ist** (Z-4 = StB-Frage 13 (b)). Beide Achsen
+falsch, in einem Satz, in einem ✅-Kasten.
+
+**Die Klasse:** Nicht Flüchtigkeit — beim Nachtragen von Entscheiden
+schreibt man KONTEXT dazu, und der Kontext wird nicht gemessen, weil
+der ENTSCHEID gemessen wurde. Der Entscheid hatte Quelle, Datum, Form;
+der Nebensatz daneben hatte nichts.
+
+**Handlungskern (CLAUDE.md, Verifikations-Block):** Eine
+Bestandsaussage in neu geschriebenem Text braucht dieselbe Messung wie
+eine Zahl. Reparaturform war Streichen, nicht Abschwächen (L-17-Linie).
+
+## L-37 — Musterlisten brauchen zwei Achsen; eine ausgewiesene Geltungsgrenze verhindert den Ausfall nicht (R13, 13.08.2026)
+
+**Fall (R13-A, Selbstwiderspruchs-Probe):** Alle acht Probe-Muster
+kamen aus den ENTSCHIEDENEN GRÖSSEN („was hat sich geändert?"); der
+schwere Fehler saß in einer STATUSAUSSAGE über einen fremden Träger
+(„übergeben") — eine Kategorie, die kein Entscheid berührt. Die Probe
+schrieb ihre Grenze selbst („eine Abweichung, die keines dieser acht
+Wörter enthält, findet sie nicht") und fiel exakt hinein: **ehrlich,
+vollständig und nutzlos.** Fünf nachgezogene Muster kosteten einen
+Lauf und fanden eine dritte Stelle, die in keinem Prüferbefund stand.
+
+**Handlungskern (CLAUDE.md, Positivkontroll-Block):** Musterlisten von
+Selbstwiderspruchs-/Konsequenz-Proben führen ZWEI Achsen (geänderte
+Größen + Statusaussagen über fremde Träger); wer eine Geltungsgrenze
+benennen kann, kann meist auch das Muster ergänzen — die Grenze ist
+ein Arbeitsauftrag, kein Ausweis.
+
+## L-38 — Ein Edit-Anker, der Überschrift oder Folgezeilen-Anfang konsumiert, löscht bzw. zerlegt sie still (R13, 13.08.2026)
+
+**Zwei Sessions unabhängig am selben Tag:** (1) R13-A (P-02): Beim
+Voranstellen eines Nachtrags wurde die Kopfkasten-Überschrift der
+Preisliste Teil des `old_string` und im Ersetzungstext nicht
+wiederhergestellt — die **einzige Löschung der Datei** unter 198
+Einfügungen, während der Nachtrag daneben „der Kopfkasten bleibt
+unverändert stehen" behauptete; beim selben Handgriff im
+Schwesterdokument ging es gut — der Unterschied war Zufall.
+(2) R13-B (PB-1): Ein Anker endete mitten in der Kennzeichnungszeile
+der Folgetabelle; der Rest klebte als überzählige Tabellenzelle an der
+neuen Zeile und **verschwand beim Rendern spurlos** — ein
+Vorbehaltssatz, unsichtbar für jede Text-Suche am Quelltext-Muster.
+
+**Handlungskern (CLAUDE.md, Doku-Hygiene):** Anker beim Einfügen vor
+Bestandstext so schneiden, dass Überschrift/Folgezeile vollständig
+wiederkehren; Nahtstelle danach neu lesen. **Prüf- und Nachweismittel
+ist die Löschungszählung** (`git diff --numstat`, jede Löschung
+einzeln — auch als Prüfer-Auftrag in der tagesstart-Vorlage): Bei
+Hunderten Einfügungen liest niemand die Löschungen, und „0 Löschungen
+im Abschnitt" belegt zugleich mechanisch, dass überstimmte Passagen
+ungeglättet stehen blieben (AA-8-Empfehlung, vom Prüfer „vorbildlich").
+
+## Sammelvermerk R13 (13.08.2026) — Zweitbelege, Nachträge, bewährte Muster
+
+- **L-26 — zwei Schärfungen + Eigenbeleg der Leitsession:** (1) Regelwerk
+  § 12 dokumentierte einen grünen Wächter, den der Prüfstand nicht mehr
+  hatte (R13-B, PB-2) — der Stands-Nachtrag am PRÜFGEGENSTAND gehört in
+  denselben Zug wie der Edit. (2) Wächter-Baseline VOR den Edits ziehen
+  („genau 7 neue Meldungen, alle erklärt"). Eigenbeleg beim Debrief:
+  Der eigene § 12-Nachtrag der Leitsession erzeugte prompt ein 145.
+  „Zitat" — gefangen nur, weil der Lauf im selben Zug lief.
+- **L-05 — fünfter Beleg mit neuer Facette (R13-A):** Push im
+  Bash-Kanal zweimal blockiert (auch als ZERLEGTER Einzelbefehl —
+  anders als im R3-Fall half das Zerlegen nicht); identischer Befehl
+  lief Sekunden später im PowerShell-Kanal. A/B trägt weiter nur die
+  Falsifikation; neu ist die Enge des Abstands (Sekunden statt
+  Stunden). Regel unverändert: Kanalwechsel ist legitimer Versuch,
+  kein Mechanismus.
+- **L-35 — vierter Fall, neue Facette GEERBTE Kollision (R13-B):** Die
+  Bau-Pflichten-Serie B-1…B-8 (O-8 § 10) kollidiert mit der
+  Leitsession-Befundserie B-x im Regelwerk — die Kollision stammte aus
+  den QUELLEN, nicht aus der Vergabe; der Kollisions-Grep vor der
+  ID-Vergabe (R-B10/R-B11, Positivkontrolle „R-B1" 5 Treffer) fand sie
+  mit. Namensraum-Hinweis im § 3-Index-Kasten gesetzt.
+- **Bestandsangaben im Prompt — Zweitbeleg, diesmal NEU geschrieben
+  (Leitsession):** Die R13-B-Prompt-Angabe „Verschärfung seit R9 in
+  § 0/§ 3" war ungemessen (real nur § 3) — die R11-Lehre galt geerbten
+  Prognose-Texten, der Fall zeigt: auch frisch formulierte
+  Bestandsangaben im Prompt sind Messpflicht. Gefangen von der
+  Arbeits-Session per grep.
+- **Belegstufen-Facetten (R13-A):** ④-Marke am Satzende deckt die
+  PRÄMISSE nicht (P-06 — Mengenaussage „ganz überwiegend" ohne Zählweg,
+  Richtung nicht eigennützig und gerade darum unverdächtig; Klasse
+  „Status erbt von der schwächsten Prämisse") · Klammern in fremden
+  Protokollen sind Zitat-UMGEBUNG, nicht Zitatinhalt („ausdrücklich
+  mitentschieden" behauptete mehr, als die Quelle trennt; P-05) ·
+  Leseweg ≠ Quellenart erneut belegt (P-04: „selbst gelesen" hob ② auf
+  ① — die Zwei-Achsen-Regel des quellen-beschaffung-Bausteins griff
+  beim Disponieren).
+- **Werkzeug-Zweitbelege:** case-sensitives Muster verfehlt Komposita
+  („Paket" fand „Leistungspakete" nicht — heyPensio-R35-Klasse, erneut;
+  aufgefallen an einer Zahl, die nicht sein KONNTE) · `Measure-Object
+  -Line` (594 statt ~880, R13-B, vor der Verwendung verworfen) ·
+  **NEU: `cmd /c "… %ERRORLEVEL%"` expandiert beim Parsen** und meldet
+  den Exit-Code von VOR dem Lauf (Leitsession, beim Nachmessen des
+  Wächters — Ausgabe zeigte 7 Fehlende, „Exit" 0; jetzt
+  windows-powershell-Baustein).
+- **Bewährte Muster (je mit Beleg):** ⭐ **Wo das Protokoll schweigt,
+  ist „offen" der Eintrag — und die RANDFRAGE ist wertvoller als die
+  Antwort** (R13-A: drei AA-8-Randfragen, AA-3-Unschärfe und der
+  bewusst NICHT angelegte S4-Platzhalter machen sichtbar, was der
+  Entscheid nicht mitentschieden hat; vom Prüfer als „korrekt und
+  ehrlich" bestätigt — Fund der Debrief-Gegenprobe, war zunächst in
+  keinem Kanal) · Reparatur-Unterkästen zahlen sich im SELBEN Lauf aus
+  (R13-A: beim Nachziehen des übergeben-Musters war sofort
+  unterscheidbar, welche der 10 Fundstellen Reparaturtext und welche
+  ungeprüfter Bestand war — neuer Nutzen-Beleg der R7-Regel
+  „Reparaturen sichtbar machen"; ebenfalls Gegenprobe-Fund) ·
+  Löschungszählung als
+  Prüfer-Auftrag (P-02 nur so gefunden; „der Kategorien-Hinweis hat
+  gearbeitet, nicht ich") · Prüfraum > Prüfgegenstand — vierter
+  Wirksamkeitsbeleg, erstmals mit Fund VOLLSTÄNDIG außerhalb beider
+  Prüfdateien (P-08) · überstimmten Vorschlag stehen lassen, Beleg ist
+  die Löschungszahl (AA-8, „vorbildlich") · Wächter-Baseline vorher
+  (R13-B) · eigenes Gegenprobe-Skript mit Verfälschungs-Gegenproben
+  fing eigenen Quellverweis-Fehler VOR dem Commit (R13-B) ·
+  git-show-Prüfstand störungsfrei neben paralleler Session
+  (Zweitbeleg) · fetch-vor-Rebase (heyPensio-R40-Regel) noch am
+  Debrief-Abend erstmals angewendet (0 eingehend, Rebase entfiel).
+- **Codex-Eignungs-Ausweis (Briefing Nachtrag 2, User-Fang — als
+  Klasse geführt):** Die Regel stand im Command und griff nicht, weil
+  der Auftrag fertig aus dem Briefing kam und Schritt 4 („Neue Runde
+  vorschlagen") übersprungen wirkte — **Formatfrage, nicht
+  Wissensfrage**: Eine Prüfpflicht ohne Format-Träger (Pflichtzeile/
+  Spalte, deren FEHLEN sichtbar ist) fällt unter Last durch. R13 trug
+  die Spalte je Strang; die tagesstart-Verschärfung (Prüfpflicht auch
+  bei Briefing-gelieferten Aufträgen + Pflichtzeile) hat die ZENTRALE
+  als Blueprint-Rückfluss angekündigt (Nachtrag 2) — beim nächsten
+  Nachzug prüfen, ob sie angekommen ist, sonst selbst nachziehen.
+- **Grenzfall, bewusst ohne eigenen Kanal:** Die R13-A-Prüfer-Grenze
+  „Belegstufe sinngemäß strukturell nicht prüfbar" ist die bekannte
+  R12-Grenze (Sammelvermerk R12, letzter Punkt) — neu ist nur ihre
+  Eskalation als Nebenbefund R13A-N-6 an die Zentrale (Postkorb,
+  Wortlaut-Archivierung künftiger Entscheide-Erhebungen).

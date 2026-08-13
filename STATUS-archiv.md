@@ -2,6 +2,59 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 13.08.2026 (R13-Debrief) — R11-Block aus „Letzte Aktualisierung"
+
+**Vorheriger Stand — 12.08.2026 abends (R11, Shanks + R11-A/Yasopp — Preismodell-Runde)** —
+⭐⭐ **Die Preismodell-ENTSCHEIDUNGSVORLAGE steht:**
+`handel/preismodell-optionen.md` (R11-A, Ausführung der R09-B-Planung
+nach Freeze-Aufhebung, Briefing Slot 3) — Optionenraum (i) monatlich
+ohne Bindung · (ii) + Startgebühr · (iii) + Mindestlaufzeit · (iv)
+sinkender Staffelpreis, quer dazu Bemessungsachse und
+Bezugseinheit-Vorfrage E-2a; Kostenbasis selbst belegt
+(Hetzner/Supabase/Vapi, 138 Rohbelege, Summenprobe ohne Rest); 13
+Marktanker (u. a. Marktstundensatz 125–160 €/h); A3-Architektur-Weiche
+OFFEN geführt; acht ☐-Entscheidungspunkte nach `freigabe-vorlagen`.
+**Nichts entschieden — die Preishöhe braucht E-6 (Einführungsaufwand
+messen) + E-7 (Zahlungsbereitschaft, überfällig lt. Rohstoff-Routing);
+E-1 kann auf E-6 warten, der Engpass bleibt der Namensentscheid.**
+Prüfer **28/28 disponiert** (4 schwere — alle in der Verdichtung,
+alle Richtung eigener Empfehlung), 0 offene Prüfschritte ·
+Leitsession-Review beidseitig (P-01 am Rohbeleg nachgemessen; 10
+Nebenbefunde mit Zielort disponiert) · **Debrief-Gegenprobe: 1
+verlorenes Muster gefunden und nachgezogen** (Baustein-Fallen an
+Recherche-Agenten, `4fa4453`), 3 Grenzfälle geschlossen · Methodik:
+**6 Lehren → Blueprint** (L-30…L-32 + 3 Vorlagen-Schärfungen), fremde
+Deltas `a49bf8e` + `30ba699` (heyPensio R39, permissions.deny)
+disponiert, Stempel `4fa4453`, Wächter SYNCHRON 12 / 0 DRIFT.
+⚠️ **Push-Befund:**
+`b04c264`/`a49bf8e` lagen unveröffentlicht im Blueprint — beim
+R11-Push als Vorfahren mitveröffentlicht (Postkorb-Meldung);
+zentrale-Push ZURÜCKGESTELLT (9 fremde ungepushte Commits). ⚠️
+R11-A-Modell: Umgebungsangabe „Opus 5", Statuszeilen-Bestätigung =
+User-Handgriff. *(Details: Projektquelle-Changelog R11.)*
+
+## Rotiert am 13.08.2026 (R13-Debrief) — R11-Punkt aus „Aktueller Stand"
+
+- **R11 (12.08. abends, Preismodell-Runde):** ✅ **HANDEL1-Vorlage
+  gebaut und geprüft** (`handel/preismodell-optionen.md`; Prüfer 28/28
+  disponiert, 0 offene Prüfschritte; = R09-B-Planung ausgeführt) ·
+  ✅ Methodik: 6 Lehren → Blueprint (L-30…L-32 + 3
+  Vorlagen-Schärfungen inkl. Gegenprobe-Nachtrag), fremde Deltas
+  `a49bf8e` + `30ba699` disponiert, Stempel `4fa4453`, Wächter
+  SYNCHRON 12 / 0 DRIFT · ⚠️ Push-Befund projektgeruest
+  (Postkorb-Meldung; zentrale-Push zurückgestellt).
+  **Offen aus R11:** User-Entscheidungspunkte **E-1…E-8** der Vorlage
+  (E-6 Einführungsaufwand-Messung + E-7 Zahlungsbereitschaft sind die
+  zwei fehlenden Zahlen) · Rechtsmatrix-Pflege N-9…N-14 + FUND-Pflege
+  N-3…N-6 · **N-10 Marktstundensatz 125–160 €/h in
+  `handel/foerderarchitektur-beraterrolle.md` nachziehen** (Wert
+  belegt, Zielort-Eintrag steht aus) · N-8 Payment/Fremdlizenzen als
+  Z-5-Zulieferung im Deliverable getragen · n8n-Lizenz↔A3-Übergabe an
+  heypensio (Projektquelle § 5) · Chrome-Kanal war nicht verbunden
+  (N-9, vor Browser-Zuteilungen messen) · Modell-Statuszeile R11-A
+  (User-Ablesung). *(Offen aus R9 weiterhin: O-9 · O-10 · sieben
+  Bau-Pflichten · R-2; R9 rotiert → `STATUS-archiv.md`.)*
+
 ## Rotiert am 13.08.2026 (R12-Debrief) — R10-Block aus „Letzte Aktualisierung"
 
 **Vorheriger Stand — 12.08.2026 nachmittags (R10, Umbau-Runde — nur Leitsession)** —

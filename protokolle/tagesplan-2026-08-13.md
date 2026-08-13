@@ -1067,3 +1067,33 @@ Richtungen je Abschlussmeldung · `/debrief` R13 (Debrief-Posten:
 Nachtrag-2-Fang als Klasse · ggf. Stempel-Nachzug, Delta aktuell 0) ·
 danach Tag offen (AA-4-Nachtrag bei Kayhan-Antwort · restliche
 R11-Posten · Feierabend — entscheidet der User).
+
+---
+
+## Block-4-Abschluss (13.08. abends) — R13 fertig, reviewt, debrieft
+
+- **Beide Stränge bestanden:** R13-A (Prüfer 16/16 disponiert, 1
+  schwer repariert) · R13-B (5/5, 2 schwer repariert). Leitsession-
+  Nacharbeit `daa50a5` (Quellen-Nachzug + O-8-Messstände + Wächter
+  grün). Push-Chronik: beide Richtungen der Vorfahren-Regel an einem
+  Nachmittag, sauber belegt (R13-B zurückgestellt, R13-A bewusst
+  mitveröffentlicht).
+- **Debrief gelaufen:** 5 Lehren → Blueprint `5f18694` (L-36…L-38 +
+  L-26-Schärfung + cmd-%ERRORLEVEL%-Falle), fremde Deltas
+  `f756e79`/`13a6659` einzeln disponiert, Kopien tagesstart +
+  windows-powershell gezogen, Stempel `5f18694`, Wächter SYNCHRON 12 /
+  0 DRIFT · Vier-Stellen-Sync + STATUS mit R11-Rotation · Postkorb
+  `2026-08-13-mkt-belegstufe-entscheide-erhebungen.md` (zentrale
+  `c9b20f2`, gepusht — Push-Lage dort war sauber).
+- **⚠️ Blockwechsel-Handgriff (User): NEUES Fenster + `claude
+  --resume` vor jeder weiteren Leitsession-Arbeit** — nach dem Nachzug
+  trägt dieses Fenster einen veralteten Regel-Snapshot (CLAUDE.md +
+  zwei Kopien geändert).
+- **Offene User-Handgriffe:** AA-4 (Kayhan) · AA-3-Randfrage
+  (geparkt vs. geplant) · drei AA-8-Randfragen · Modell-Statuszeilen
+  R13-A (Opus 5 1M) / R13-B (Fable 5) + R11-A/R12-A · StB-Anruf (heute
+  zugesagt, Ergebnis noch nicht gemeldet) · H-1 bis 16.08. ·
+  MARKE1-Paket (diese Woche) · restliche Handgriff-Tabelle oben.
+- **Block-Programm danach:** Tag offen — Kandidaten: R11-Restposten
+  (Rechtsmatrix-/FUND-Pflege) als R14 via `/runde` · AA-4-Nachtrag
+  bei Kayhan-Antwort · Feierabend; entscheidet der User.

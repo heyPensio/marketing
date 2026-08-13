@@ -26,7 +26,39 @@
 ---
 
 ## Letzte Aktualisierung
-**13.08.2026 mittags (R12, Shanks + R12-A/Ben Beckman + R12-B/Yasopp —
+**13.08.2026 abends (R13, Shanks + R13-A/Ben Beckman + R13-B/Yasopp —
+Entscheide-Protokoll 2 + R9-Restposten, parallel)** — ⭐⭐
+**S4 + AA-1…AA-8 sind eingearbeitet (nur AA-4 offen), die sieben
+Bau-Pflichten stehen im Regelwerk, O-9 ist geführt.** Quelle: Briefing
+Nachtrag 4 (Dropdown + Freitext, sinngemäß — so in allen ✅-Vermerken).
+**R13-A:** ✅-Vermerke in `handel/angebotsarchitektur.md` +
+`handel/preisliste-vorlaeufig.md` — S4 je HAUS (nicht mehr ④) · AA-1
+Lesart A (Betreiber) · AA-2 P-B-Zielbild bis E-7 · AA-3
+Reifegrad-Leitplanke bindend · **AA-4 OFFEN (Kayhan)** · AA-5 ab
+Haus 2 · AA-6 fester Prozentsatz · AA-7 ohne Deckel · **AA-8 Rabatt
+auch auf S4, bewusst GEGEN die Session-Empfehlung** (Passagen
+ungeglättet, 0 Löschungen mechanisch belegt); alle Höhen Hypothesen
+bis E-6/E-7. Prüfer **16/16 disponiert** (1 schwer — Bestandsaussage
+aus dem Gedächtnis, gestrichen; 5 Prüfschritte offen ausgewiesen).
+**R13-B:** B-1…B-7 aus O-8 § 10 ins Listenbau-Regelwerk (Zählweg
+8/1/7: B-8 gestrichen) + **O-9 in Rechtsmatrix UND Regelwerk als
+OFFENER Posten geführt** (Gate anwaltlicher Rat, fällig vor dem ersten
+Datensatz). Prüfer **5/5 disponiert** (2 schwere repariert).
+**Leitsession-Nacharbeit (`daa50a5`):** Quellen-Nachzug
+`preismodell-optionen.md` § 10/§ 11 (die Vorrangklausel hätte AA-6
+sonst umgekehrt) · O-8-Messstände · **Zitat-Wächter wieder grün**
+(Ausnahmeliste +7, Lauf 144 Zitate · 25/25 Einträge · 118/118, Exit
+0/0). Postkorb an Zentrale: Belegstufen-Grenze der
+Entscheide-Erhebungen (`c9b20f2`, gepusht). · Methodik: **5 Lehren →
+Blueprint** (L-36…L-38 + L-26-Schärfung + cmd-%ERRORLEVEL%-Falle,
+`5f18694`), fremde Deltas `f756e79` + `13a6659` (heyPensio R40/R41)
+einzeln disponiert und übernommen, Kopien tagesstart +
+windows-powershell gezogen, Stempel `5f18694`, Wächter SYNCHRON 12 /
+0 DRIFT. ⚠️ Modell-Statuszeilen R13-A (Opus 5 1M) + R13-B (Fable 5)
+unbestätigt (User-Handgriff). *(Details: Projektquelle-Changelog
+R13.)*
+
+**Vorheriger Stand — 13.08.2026 mittags (R12, Shanks + R12-A/Ben Beckman + R12-B/Yasopp —
 Entscheide-Einarbeitung, sequenziell)** — ⭐⭐ **Alle acht
 Preismodell-Entscheide E-1…E-8 sind eingearbeitet, die vorläufige
 Preisliste und der Angebotsarchitektur-Einstieg stehen.**
@@ -56,39 +88,11 @@ Blueprint-Register) disponiert, Kopie tagesstart gezogen, Stempel
 R12-A (Umgebungsangabe Opus 5 1M) + R11-A unbestätigt
 (User-Handgriff). *(Details: Projektquelle-Changelog R12.)*
 
-**Vorheriger Stand — 12.08.2026 abends (R11, Shanks + R11-A/Yasopp — Preismodell-Runde)** —
-⭐⭐ **Die Preismodell-ENTSCHEIDUNGSVORLAGE steht:**
-`handel/preismodell-optionen.md` (R11-A, Ausführung der R09-B-Planung
-nach Freeze-Aufhebung, Briefing Slot 3) — Optionenraum (i) monatlich
-ohne Bindung · (ii) + Startgebühr · (iii) + Mindestlaufzeit · (iv)
-sinkender Staffelpreis, quer dazu Bemessungsachse und
-Bezugseinheit-Vorfrage E-2a; Kostenbasis selbst belegt
-(Hetzner/Supabase/Vapi, 138 Rohbelege, Summenprobe ohne Rest); 13
-Marktanker (u. a. Marktstundensatz 125–160 €/h); A3-Architektur-Weiche
-OFFEN geführt; acht ☐-Entscheidungspunkte nach `freigabe-vorlagen`.
-**Nichts entschieden — die Preishöhe braucht E-6 (Einführungsaufwand
-messen) + E-7 (Zahlungsbereitschaft, überfällig lt. Rohstoff-Routing);
-E-1 kann auf E-6 warten, der Engpass bleibt der Namensentscheid.**
-Prüfer **28/28 disponiert** (4 schwere — alle in der Verdichtung,
-alle Richtung eigener Empfehlung), 0 offene Prüfschritte ·
-Leitsession-Review beidseitig (P-01 am Rohbeleg nachgemessen; 10
-Nebenbefunde mit Zielort disponiert) · **Debrief-Gegenprobe: 1
-verlorenes Muster gefunden und nachgezogen** (Baustein-Fallen an
-Recherche-Agenten, `4fa4453`), 3 Grenzfälle geschlossen · Methodik:
-**6 Lehren → Blueprint** (L-30…L-32 + 3 Vorlagen-Schärfungen), fremde
-Deltas `a49bf8e` + `30ba699` (heyPensio R39, permissions.deny)
-disponiert, Stempel `4fa4453`, Wächter SYNCHRON 12 / 0 DRIFT.
-⚠️ **Push-Befund:**
-`b04c264`/`a49bf8e` lagen unveröffentlicht im Blueprint — beim
-R11-Push als Vorfahren mitveröffentlicht (Postkorb-Meldung);
-zentrale-Push ZURÜCKGESTELLT (9 fremde ungepushte Commits). ⚠️
-R11-A-Modell: Umgebungsangabe „Opus 5", Statuszeilen-Bestätigung =
-User-Handgriff. *(Details: Projektquelle-Changelog R11.)*
-
-*(Davor: R10 — Umbau-Runde F10/F13/Nachzug; rotiert 13.08.2026 (R12)
-→ `STATUS-archiv.md`. Davor R9 — O-8 gebaut/geprüft, O-2 entschieden,
-Rn.-87-Verschärfung Listenaufbau; rotiert 12.08.2026 (R11). Ältere
-Stände: `STATUS-archiv.md`.)*
+*(Davor: R11 — Preismodell-Entscheidungsvorlage gebaut/geprüft;
+rotiert 13.08.2026 (R13) → `STATUS-archiv.md`. Davor R10 —
+Umbau-Runde F10/F13/Nachzug; rotiert 13.08.2026 (R12). Davor R9 —
+O-8 gebaut/geprüft, O-2 entschieden, Rn.-87-Verschärfung Listenaufbau;
+rotiert 12.08.2026 (R11). Ältere Stände: `STATUS-archiv.md`.)*
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE
@@ -108,25 +112,13 @@ Stände: `STATUS-archiv.md`.)*
   fremde Verteiler. Modell-Statuszeilen R08-A/B ENTFALLEN — User
   12.08.: Fenster zu, endgültig nicht erhebbar. Kategorie-4-Rest durch
   Codex-C1 in R9 geschlossen. R5+R6 ebenfalls im Archiv.)*
-- **R11 (12.08. abends, Preismodell-Runde):** ✅ **HANDEL1-Vorlage
-  gebaut und geprüft** (`handel/preismodell-optionen.md`; Prüfer 28/28
-  disponiert, 0 offene Prüfschritte; = R09-B-Planung ausgeführt) ·
-  ✅ Methodik: 6 Lehren → Blueprint (L-30…L-32 + 3
-  Vorlagen-Schärfungen inkl. Gegenprobe-Nachtrag), fremde Deltas
-  `a49bf8e` + `30ba699` disponiert, Stempel `4fa4453`, Wächter
-  SYNCHRON 12 / 0 DRIFT · ⚠️ Push-Befund projektgeruest
-  (Postkorb-Meldung; zentrale-Push zurückgestellt).
-  **Offen aus R11:** User-Entscheidungspunkte **E-1…E-8** der Vorlage
-  (E-6 Einführungsaufwand-Messung + E-7 Zahlungsbereitschaft sind die
-  zwei fehlenden Zahlen) · Rechtsmatrix-Pflege N-9…N-14 + FUND-Pflege
-  N-3…N-6 · **N-10 Marktstundensatz 125–160 €/h in
-  `handel/foerderarchitektur-beraterrolle.md` nachziehen** (Wert
-  belegt, Zielort-Eintrag steht aus) · N-8 Payment/Fremdlizenzen als
-  Z-5-Zulieferung im Deliverable getragen · n8n-Lizenz↔A3-Übergabe an
-  heypensio (Projektquelle § 5) · Chrome-Kanal war nicht verbunden
-  (N-9, vor Browser-Zuteilungen messen) · Modell-Statuszeile R11-A
-  (User-Ablesung). *(Offen aus R9 weiterhin: O-9 · O-10 · sieben
-  Bau-Pflichten · R-2; R9 rotiert → `STATUS-archiv.md`.)*
+- *(R11-Block rotiert 13.08.2026 (R13) → `STATUS-archiv.md`.
+  Weiterhin offen daraus: Rechtsmatrix-Pflege N-9…N-14 + FUND-Pflege
+  N-3…N-6 · N-8 Z-5-Zulieferung im Deliverable getragen ·
+  n8n-Lizenz↔A3-Übergabe an heypensio (Projektquelle § 5) ·
+  Chrome-Kanal je Session neu messen (N-9) · Modell-Statuszeile R11-A.
+  ~~E-1…E-8~~ ✅ R12 · ~~N-10~~ ✅ R12 · ~~sieben Bau-Pflichten/
+  O-9-Führung aus R9~~ ✅ R13; O-10 weiter offen [K2-Trigger].)*
 - **R12 (13.08. mittags, Entscheide-Einarbeitung, zwei Sessions
   sequenziell):** ✅ **E-1…E-8 eingearbeitet** (✅-Vermerke § 11;
   Quelle Briefing-Dialog 13.08., sinngemäß) · ✅
@@ -143,6 +135,25 @@ Stände: `STATUS-archiv.md`.)*
   erhoben · Terminpfad-Stufen T0–T5-Umbenennung (Kandidat) ·
   Modell-Statuszeilen R11-A/R12-A. *(R10 rotiert →
   `STATUS-archiv.md`.)*
+- **R13 (13.08. abends, Entscheide-Protokoll 2 + R9-Restposten,
+  parallel):** ✅ **S4 + AA-1…AA-8 eingearbeitet** (AA-4 offen —
+  Kayhan-Antwort aussteht; AA-8 bewusst gegen die Session-Empfehlung,
+  ungeglättet) · ✅ **B-1…B-7 im Listenbau-Regelwerk + O-9 in
+  Rechtsmatrix und Regelwerk geführt** (offen, Gate anwaltlicher Rat)
+  · ✅ Leitsession-Nacharbeit `daa50a5` (Quellen-Nachzug § 10/§ 11 ·
+  O-8-Messstände · Zitat-Wächter grün, Ausnahmeliste +7) · ✅ Prüfer
+  16/16 + 5/5 disponiert (3 schwere, alle repariert) · ✅ 5 Lehren →
+  Blueprint (`5f18694`), 2 fremde Deltas übernommen, Stempel
+  `5f18694`, Wächter SYNCHRON 12 / 0 DRIFT · Postkorb
+  Belegstufen-Grenze (`c9b20f2`). **Offen aus R13:** **AA-4 (User →
+  Kayhan, kein Zeitanker)** · AA-3-Randfrage (deckt „geplant" auch
+  GEPARKTE Module? — bis dahin engere Lesart) · drei AA-8-Randfragen
+  (ein Rabattsatz oder zwei? · gilt „ohne Deckel" auch für S4? ·
+  Z-2-Rechtsnatur → StB) · alle Höhen nach E-6/E-7 · AA-7-Prüfposten
+  hängt am E-6-Rücklauf-Anker (Briefing Nachtrag 3 hat ihn erbeten) ·
+  R13A-N-4 zweite Rabattposition (nach E-6) · R13A-N-5
+  Marktanker-Bezugsangaben (E-7-Erhebung mitfragen) ·
+  Modell-Statuszeilen R13-A (Opus 5 1M) / R13-B (Fable 5).
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -158,15 +169,19 @@ Stände: `STATUS-archiv.md`.)*
    ✅ **Vorlage liegt vor (R11, 12.08. abends)** — der Sperr-Posten
    ist entschärft, SOLANGE die E-Punkte zügig beantwortet werden:
    ~~User-Handgriff E-1…E-8 beantworten~~ ✅ **ENTSCHIEDEN 13.08.
-   (Briefing-Dialog) und in R12 eingearbeitet.** Spitzenposten jetzt:
-   **User-Handgriff AA-1…AA-8 beantworten**
-   (`handel/angebotsarchitektur.md` § 7; AA-1 Rabatt-Zuordnung
-   zuerst) **+ S4-Bezugseinheits-Klärfrage** (Startgebühr je Haus
-   oder je Kunde?) · **F-III-Höhe entscheidet der User nach E-6**
-   (Zulieferung heypensio, Kalendertermin nachhalten) · **die sieben
-   Bau-Pflichten** ins Regelwerk · **O-9** (Kompatibilitätsprüfung
-   Art. 6 Abs. 4) · Kanalmix-Festzurrung erst nach FUND2-Persona-
-   Befund. Details: Projektquelle § 7 Punkt 0 + R12-Changelog.
+   (Briefing-Dialog) und in R12 eingearbeitet.**
+   ~~AA-1…AA-8 + S4-Klärfrage~~ ✅ **ENTSCHIEDEN 13.08. nachmittags
+   (Nachtrag 4) und in R13 eingearbeitet — offen nur AA-4** ·
+   ~~sieben Bau-Pflichten~~ ✅ **ins Regelwerk eingearbeitet (R13-B —
+   als SOLL; der BAU der Werkzeuge [Sperrdatei, Beileger,
+   Wellenprotokoll] steht aus und sperrt weiter den ersten
+   Datensatz)** · O-9 seit R13 GEFÜHRT, Rechtsprüfung offen. Spitzenposten jetzt: **AA-4
+   (User → Kayhan) + AA-3-/AA-8-Randfragen** · **F-III-Höhe
+   entscheidet der User nach E-6** (Zulieferung heypensio,
+   Kalendertermin nachhalten — trägt auch den AA-7-Prüfposten) ·
+   **O-9-Rechtsprüfung** (anwaltlicher Rat, vor dem ersten
+   Datensatz) · Kanalmix-Festzurrung erst nach FUND2-Persona-
+   Befund. Details: Projektquelle § 7 Punkt 0 + R13-Changelog.
    ~~⏸️ R09-B wartet auf Umbau-Abnahme~~ ✅ Freeze aufgehoben
    (User-Entscheid 12.08. abends, Briefing Slot 3), als R11-A
    ausgeführt; ~~F13 wartet auf C2-Rücklauf~~ ✅ nachgereicht 14:49

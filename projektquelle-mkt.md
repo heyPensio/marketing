@@ -250,6 +250,22 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   **Vertragspartner-Frage der Durchreichung** (K03/K04 — ist der
   Kunde Vertragspartner, gibt es nichts durchzureichen; Z-5) samt
   Z-1…Z-7.
+  **R13-Stand (13.08.2026 abends): Entscheide-Protokoll 2 eingearbeitet
+  — S4 + sieben von acht AA-Punkten entschieden** (Quelle: Briefing
+  Nachtrag 4, sinngemäß; ✅-Vermerke an den ☐-Punkten und in § 7 der
+  Angebotsarchitektur): S4 je HAUS (nicht mehr ④) · AA-1 Lesart A
+  (Betreiber; Verbund-Definition = StB-Frage 13 (f), übergeben, nicht
+  beantwortet) · AA-2 P-B als ZIELBILD bis E-7 · AA-3 geplante Module
+  mit bindender Reifegrad-Leitplanke · **AA-4 OFFEN (Kayhan-Antwort
+  aussteht — Beratungsachse bis dahin nicht zusagefähig)** · AA-5 ab
+  Haus 2 · AA-6 fester Prozentsatz (Wechselfenster bis zum ersten
+  Bestandskunden, danach Z-4) · AA-7 ohne Deckel (Prüfposten nach E-6,
+  Träger = E-6-Rücklauf-Anker) · AA-8 Rabatt auch auf S4, **bewusst
+  gegen die Session-Empfehlung** (Mehrhaus-Abschluss vor
+  Erstjahres-Liquidität). Alle HÖHEN bleiben Hypothesen bis E-6/E-7;
+  Randfragen beim User (AA-3: decken „geplante" auch GEPARKTE Module?
+  · AA-8: ein Rabattsatz oder zwei, Deckel-Geltung für S4,
+  Z-2-Rechtsnatur).
 - **HANDEL2** Sales-Deck/One-Pager (Problem → Guest Journey →
   Pilot-Beleg → Pakete → Förderweg). Fertig: versandfähig.
 - **HANDEL3** Kanal-Rechtsmatrix (UWG § 7: Kalt-E-Mail vs. Telefon vs.
@@ -716,6 +732,21 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
    nachhalten) · sieben Bau-Pflichten · O-9 · R-2 ·
    Rechtsmatrix-/FUND-Pflege (R11) · Zentrale-Rücklauf zur
    Vertragspartner-Frage Z-5/K04 abwarten (Postkorb 13.08.).
+   **→ STAND 13.08.2026 abends (R13): Entscheide-Protokoll 2
+   eingearbeitet, zwei Sperr-Posten kleiner.** S4 = je Haus + AA-1…AA-8
+   bis auf AA-4 entschieden (Details § 2 R13-Stand / Changelog R13);
+   **die sieben Bau-Pflichten B-1…B-7 sind ins Regelwerk eingearbeitet**
+   (R13-B; Zählweg: 8 Zeilen in O-8 § 10, B-8 gestrichen) und **O-9 ist
+   in Rechtsmatrix + Regelwerk GEFÜHRT** — bleibt OFFEN, Gate
+   anwaltlicher Rat vor dem ersten Datensatz. R-2 unverändert (O-8
+   außerhalb des Wächter-Pools; die 7 Regelwerk-Zitate daraus sind seit
+   13.08. als begründete Ausnahmen geführt, Lauf grün — Pool-Erweiterung
+   bleibt O-12-Zuschnitt). **Neue Spitzenposten-Reihung:** **AA-4**
+   (Kayhan, kein Zeitanker) + AA-3-/AA-8-Randfragen (User) · Preishöhe
+   F-III nach E-6 (Kalendertermin nachhalten; AA-7-Prüfposten hängt am
+   selben Rücklauf) · O-9-Rechtsprüfung (anwaltlicher Rat) ·
+   Rechtsmatrix-/FUND-Pflege N-9…N-14/N-3…N-6 (R11) · Zentrale-Rücklauf
+   Z-5/K04 + Verbund-Definition (StB-Termin) abwarten.
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -854,6 +885,45 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 
 ## CHANGELOG
 
+- 13.08.2026 abends (R13-Debrief, zwei Arbeits-Sessions PARALLEL +
+  Leitsession): **Entscheide-Protokoll 2 eingearbeitet (S4 + AA-1…AA-8,
+  AA-4 offen) und die sieben Bau-Pflichten + O-9-Führung nachgeholt.**
+  Entscheide-Quelle: Briefing 13.08. Nachtrag 4 (Dropdown + Freitext,
+  sinngemäß — so in allen ✅-Vermerken). **R13-A (Ben Beckman,
+  `d90edb3`→`5a8e15a`):** ✅-Vermerke S4 + AA-1…AA-8 in
+  Angebotsarchitektur (☐-Punkte + § 7-Tabelle) und Preisliste
+  (S4-Kasten ④→entschieden, § 4-Rabattfragen, AA-8-Folge) — Kern: S4 je
+  Haus · AA-1 Lesart A · AA-2 P-B-Zielbild bis E-7 · AA-3 mit
+  Reifegrad-Leitplanke (vorsichtige Lesart, Randfrage geparkt-vs-geplant
+  beim User) · AA-4 OFFEN (Kayhan) · AA-5 ab Haus 2 · AA-6 fester
+  Prozentsatz · AA-7 ohne Deckel · AA-8 Rabatt auch auf S4 gegen die
+  Session-Empfehlung, überstimmte Passagen ungeglättet (0 Löschungen in
+  § 5, mechanisch belegt). Prüfer 16/16 disponiert (1 schwer P-01
+  „Z-4 nicht übergeben" — Bestandsaussage aus dem Gedächtnis, gestrichen
+  statt abgeschwächt; Lauf-Status: 5 Schritte offen ausgewiesen, u. a.
+  Belegstufe sinngemäß strukturell nicht prüfbar → Postkorb R13A-N-6).
+  **R13-B (Yasopp, `63a995e`→`6bd4a9e`):** B-1…B-7 aus O-8 § 10 als
+  markierte Nachträge ins Listenbau-Regelwerk (Zählweg 8/1/7
+  dokumentiert; B-6 → § 6.1 statt §§ 3/7, Abweichung ausgewiesen —
+  nachgezogen statt Dublette), O-9 in Rechtsmatrix UND Regelwerk als
+  OFFENER Posten geführt, Rn.-87-Fälligkeit an allen Ankunftsstellen.
+  Prüfer 5/5 disponiert (2 schwer: PB-1 zerstörte Vorbehalts-Zeile
+  repariert · PB-2 Wächter-Stand § 12 nachgezogen). **Leitsession-
+  Nacharbeit (`daa50a5`):** Quellen-Nachzug preismodell-optionen § 10/
+  § 11 (Übergabestand Frage 13 (a)–(f) selbst gelesen; AA-6-Form-
+  Entscheid — sonst hätte die Vorrangklausel ihn umgekehrt, L-25-Klasse)
+  · O-8 § 5.5/§ 11.1 Messstand-Nachträge (PB-5) · Wächter-Ausnahmeliste
+  +7 Einträge, Lauf 144 Zitate/25-25 Einträge/118-118 bestätigt, Exit
+  0/0 (PB-2-Träger erledigt). **Push-Chronik:** R13-B stellte nach
+  L-14 zurück (fremder Vorfahre d90edb3), R13-A veröffentlichte die
+  Kette bewusst mit — beide Richtungen der Vorfahren-Regel an einem
+  Nachmittag, sauber belegt. · Methodik: **5 Lehren → Blueprint**
+  (L-36…L-38 + L-26-Schärfung + cmd-%ERRORLEVEL%-Falle, `5f18694`),
+  fremde Deltas `f756e79` (heyPensio R40) + `13a6659` (heyPensio R41)
+  einzeln disponiert und übernommen, Kopien tagesstart +
+  windows-powershell gezogen, Stempel `5f18694`, Wächter SYNCHRON 12 /
+  0 DRIFT. Postkorb an Zentrale: Belegstufen-Grenze der
+  Entscheide-Erhebungen (`c9b20f2`, gepusht).
 - 13.08.2026 mittags (R12-Debrief, zwei Arbeits-Sessions sequenziell +
   Leitsession): **Die acht Preismodell-Entscheide des Users sind
   eingearbeitet, die vorläufige Preisliste und der Einstieg in die

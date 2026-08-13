@@ -185,7 +185,14 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    10.08.2026: Werkzeug- und Kostenwahl gehören dem User) — die
    Evaluation zu liefern ist Bringschuld der Leitsession, nie erst auf
    User-Impuls. (Anlass: User-Fang 12.08.2026 — bis dahin stellte
-   keine Leitsession die Frage selbst.)
+   keine Leitsession die Frage selbst.) **⭐ GESCHÄRFT (Herkunft:
+   heyPensio R40, ZWEITER User-Fang derselben Klasse): Die Prüfung
+   läuft auf TEILAUFGABEN-Ebene, nie nur auf Strang-Ebene — und ein
+   pauschales „nicht geeignet" aus einem Briefing/Vorlauf wird NIE
+   ungeprüft übernommen.** Prüffrage je Strang: „Welcher ERHEBUNGS-Teil
+   dieses Strangs hat ein hartes, maschinell prüfbares Soll?" (In R40
+   steckten in drei Nein-Strängen zwei saubere Fremdagent-Erhebungen —
+   herausgefragt hat sie wieder der User.)
    **⭐ Auftragsform, wenn ein Strang an Codex geht (am ersten realen
    Auftrag bewährt, MKT R9):** Zuschnitt „**Codex inventarisiert und
    misst — die Leitsession bewertet**"; der Auftrag verlangt
@@ -270,7 +277,14 @@ einer, beim User nachfragen statt raten:
    Zugangsarten) und NIE aus einer Vorrunde als „geklärt" übernommen.
    Richtige Form: „Zugangsweg X war in R<n> gangbar — prüfe ihn als
    ERSTEN Schritt und melde eine Blockade, statt einen Ersatzkanal zu
-   suchen." **Eine Zuteilung ist eine ERLAUBNIS, keine Vorgabe** — die
+   suchen." **⭐ Fällt DIESELBE Vorbedingung ZWEIMAL in Folge, wird der
+   Zugang ein EIGENER, abgeschlossener VORGANG (mit dem User) VOR dem
+   Strang — nicht erneut Schritt 1 im Strang:** Der Zuschnitt setzt
+   sonst jedes Mal voraus, was jedes Mal fehlt, und jeder Anlauf
+   verbrennt seinen Setup-Block, ohne dass die Sache vorankommt
+   (Herkunft: heyPensio R40 — drei E2E-Anläufe an drei Tagen an
+   derselben Vorbedingung). **Eine Zuteilung ist eine ERLAUBNIS, keine
+   Vorgabe** — die
    Session misst den billigsten Kanal zuerst; die Zuteilung selbst ist
    eine Annahme der Leitsession über das System. (Herkunft: MKT R3,
    zweifach: beide zugeteilten Chrome-Stränge kamen ohne Browser aus.)
@@ -293,6 +307,13 @@ einer, beim User nachfragen statt raten:
    - **Verifikation mit frischem Kontext:** unabhängiger Prüfer, der die
      Erzeugung nicht gemacht hat. Der Prüfauftrag: ganze Datei lesen und
      quervergleichen (nie nur den Diff — der Schaden sitzt oft daneben);
+     **dazu die LÖSCHUNGEN gesondert: `git diff --numstat
+     <vorher>..<prüfstand>` ziehen und JEDE gelöschte Zeile einzeln
+     sichten** — bei Hunderten Einfügungen liest niemand die wenigen
+     Löschungen; eine still gelöschte Kopfkasten-Überschrift (einzige
+     Löschung der Datei, der Nachtrag daneben behauptete das Gegenteil)
+     fiel nur über die Zählung auf — „der Kategorien-Hinweis hat hier
+     gearbeitet, nicht ich" (Prüfer-Selbstauskunft; Herkunft: MKT R13);
      Lese-git erlaubt; Schreibrecht auf GENAU EINE Datei (sein Protokoll:
      „lies alles, ändere nichts, schreib EIN Protokoll unter
      `protokolle/R<runde>-<session>-pruefer.md`").
@@ -314,7 +335,14 @@ einer, beim User nachfragen statt raten:
      `git checkout -- <datei>`; **nach dem Rückbau die Datei vor
      weiteren Edits NEU lesen** — der Session-Kontext ist nach einem
      checkout stale, Edit-Anker können danebengreifen; MKT R2); NIE in
-     eine Datei mit Live-Wirkung; der
+     eine Datei mit Live-Wirkung — **⭐ bewährte Pflichtform dafür
+     (Herkunft: heyPensio R40): SCRATCHPAD-KOPIE des Prüfgegenstands
+     als Prüfstand, und der USER pflanzt die Verfälschung per
+     Direktkanal** (cp + sed-Einzeiler mit Kontrollzeile; Soll-Zahlen
+     per `grep -o|wc -l`, nie `grep -c`) — die Kopie ist byte-identisch
+     bis auf die eine Stelle, echte Funde übertragen sich 1:1, kein
+     git-Rückbau nötig, und Sicherheits-Klassifikatoren blockieren das
+     Agenten-Pflanzen in Produktiv-Spiegeldateien ohnehin zu Recht; der
      Prüfer begründet den Fund INHALTLICH, nicht mit „steht im Diff" —
      **und der Prüfauftrag weist ihn EXPLIZIT an, den Arbeitsbaum-Diff
      nicht zu sichten** (sonst misst die Kontrolle seine Forensik statt
@@ -368,6 +396,21 @@ einer, beim User nachfragen statt raten:
      ein Nachtrag oder Teilbericht an, ist die gezielte Nachforderung des
      Hauptberichts billiger und belastbarer, als die fehlenden Teile aus
      dem Vorhandenen zu erschließen. (Herkunft: MKT R7, zwei Fälle.)
+   - **⭐ Blinde Zweitmeinung:** Soll eine Empfehlung/Analyse
+     UNVOREINGENOMMEN wiederholt werden, bekommt der Agent (i) einen
+     **eingefrorenen Commit-Stand VOR den eigenen Arbeitsständen** als
+     einzigen Quellenraum (`git show <hash>:` — die eigenen Ergebnisse
+     existieren dort noch nicht), (ii) eine **Kontaminations-SPERRE MIT
+     MELDEPFLICHT** (Ausschluss-Dateien benennen; Berührung wird in
+     einem eigenen Berichtsabschnitt gemeldet, nie still fortgesetzt —
+     die Meldepflicht ist der wirksame Teil), (iii) einen **neutralen
+     Auftrag ohne Optionen-Framing.** Rückläufe im Scratchpad
+     zwischenlagern, bis der LETZTE Lauf zurück ist (ein Repo-Commit
+     kontaminiert laufende Läufe); Restlücke: das Session-Scratchpad ist
+     agentenübergreifend sichtbar — dort fängt nur die Meldepflicht.
+     Einordnung: **blind ≠ unabhängig** (gleicher Auftrag/Commit/
+     Modellfamilie) — Konvergenz belegt primär die Klarheit des
+     Bestands. (Herkunft: heyPensio R41, vier Läufe sauber.)
    - **Zwei Prüfer mit GETRENNTEN Fragen schlagen einen mit zwei Fragen**
      (Prüfraum teilen, nicht verdoppeln). Widersprüche zwischen Agenten
      sind ein Gewinn — sie werden am ORIGINAL aufgelöst, nie nach

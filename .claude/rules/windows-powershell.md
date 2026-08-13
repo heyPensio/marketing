@@ -35,6 +35,13 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
   während das Skript mit 1 endete. Ausgabe in eine Datei, Exit-Code
   separat lesen. (Herkunft: MKT R8; Schwesterfall zum
   `| tail`-Exit-Code, heyPensio R33.)
+- **`cmd /c "… & echo %ERRORLEVEL%"` meldet IMMER den Wert von VOR dem
+  Lauf** — cmd expandiert `%ERRORLEVEL%` beim PARSEN der Zeile, nicht
+  nach dem Kommando; ein roter Lauf sieht so grün aus, und die Zahl
+  wirkt wie ein sauberer Messwert. Belastbar ist `$LASTEXITCODE` in
+  PowerShell unmittelbar nach dem Aufruf (ohne Pipe dazwischen).
+  (Herkunft: MKT R13 — die Ausgabe zeigte 7 fehlende Zitate, der
+  „Exit-Code" 0; aufgefallen nur, weil beides nebeneinander lag.)
 - Zeilenzahl-Kontrollen nie per `Measure-Object -Line` (zählt Leerzeilen
   nicht); belastbar ist `git diff --stat`.
 - `grep -c` zählt ZEILEN, nicht Treffer (minifizierte Dateien: immer 1);

@@ -3,7 +3,19 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`cd45642`** (R12-Debrief 13.08.2026 mittags:
+> am 2026-08-09; Stand **`5f18694`** (R13-Debrief 13.08.2026 abends:
+> eigener Rückfluss von 5 R13-Lehren — L-36…L-38 + L-26-Schärfung
+> (Wächter-Stands-Doku/Baseline) in die CLAUDE-Vorlage, Löschungszählung
+> in den tagesstart-Prüfer-Baustein, cmd-%ERRORLEVEL%-Parse-Falle in den
+> windows-powershell-Baustein; fremde Deltas einzeln disponiert:
+> `f756e79` (heyPensio R40 — fetch-vor-Rebase + Quellen-Gegendurchgang-
+> auch-bei-Archiv → beide in „Arbeitsregeln"/„Multi-Session", tagesstart-
+> Anteile via Kopie) + `13a6659` (heyPensio R41 — Chat-Glättungs-
+> Schärfung der Verdichten-Regel → übernommen; Blinde-Zweitmeinung +
+> Auto-Load-Ankündigung via tagesstart-Kopie/Changelog); Kopien
+> `commands/tagesstart.md` + `rules/windows-powershell.md` vom Master
+> gezogen; Wächter SYNCHRON 12 / 0 DRIFT.)
+> Davor Stand `cd45642` (R12-Debrief 13.08.2026 mittags:
 > eigener Rückfluss von 6 R12-Lehren — L-33…L-35 + 3 Schärfungen in
 > die CLAUDE-Vorlage (Verdichten/x-von-y/Doku-Hygiene/
 > Gegenprobe-Achse) und die tagesstart-Vorlage
@@ -224,7 +236,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
      Dateien im geteilten Arbeitsbaum und spielt sie zurück** — zeigt
      der `git status` fremde Arbeit, vor dem Pull prüfen, ob er warten
      kann; die „Applied autostash"-Zeile gegenlesen (2× belegt 11.08.;
-     L-23).
+     L-23). **⭐ Davor die billigere Frage: erst `git fetch` +
+     `git log HEAD..origin/main` — gehen 0 Commits ein, entfällt der
+     Rebase (und damit das Autostash-Risiko für fremde unfertige
+     Stände) ganz** (Herkunft: heyPensio R40).
    - **`git commit` OHNE Pfadargument committet den GESAMTEN Index — auch
      fremde, bereits gestagete Änderungen** (alle Sessions teilen einen
      Arbeitsbaum und damit einen Index; der Hook fängt diesen Fall nicht).
@@ -353,6 +368,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   geprüft; bei Unklarheit **eine Rückfrage statt eines ausgearbeiteten
   Punktes**. (Herkunft: Zentrale 10.08.2026 — der F-15-Fall dieses
   Projekts ist der Belegfall.)
+- **⭐ Eine BESTANDSAUSSAGE in neu geschriebenem Text braucht dieselbe
+  Messung wie eine Zahl.** Beim Nachtragen von Entscheiden/Befunden
+  schreibt man KONTEXT dazu („X ist nicht übergeben") — und der Kontext
+  wird nicht gemessen, weil der ENTSCHEID gemessen wurde. Der einzige
+  schwere Befund von R13 war genau das: Gedächtnis-Zusatz in einem
+  ✅-Kasten, Aussage UND Fundstelle falsch, während dieselbe Session
+  den neuen Stand dreimal selbst festgestellt hatte. (L-36.)
 - **⭐ Frage an den HANDELNDEN adressieren.** Vor jeder Rückfrage an
   Dritte klären, wer die fragliche Handlung überhaupt vornimmt — im
   Belegfall ging eine Frage an den Kunden, obwohl das eigene Team der
@@ -431,6 +453,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Muster mindestens einmal feuern muss, plus eine `TREFFEN-NICHT`-Zeile für
   die Gegenrichtung — und wer ein Muster ergänzt, ergänzt im selben Zug die
   Selbsttest-Zeile. (Herkunft: heyPensio R35.)
+  **⭐ Und die Musterliste einer Selbstwiderspruchs-/Konsequenz-Probe
+  braucht ZWEI Achsen:** (1) die geänderten GRÖSSEN und (2)
+  STATUSAUSSAGEN über fremde Träger (übergeben/beantwortet/offen) —
+  neu geschriebener Text baut unbelegte Behauptungen bevorzugt in der
+  zweiten Klasse ein, die kein Entscheid berührt. **Eine korrekt
+  AUSGEWIESENE Geltungsgrenze verhindert den Ausfall nicht** — wer die
+  Lücke benennen kann, kann meist auch das Muster ergänzen. (L-37;
+  MKT R13, die Probe sagte ihren blinden Fleck wörtlich voraus.)
   **⭐ Eine ABGESCHNITTENE oder ausgelagerte Werkzeugausgabe trägt kein
   Negativ** — wer eine 39-KB-Ausgabe auf 2 KB liest und daraus „nicht
   gefunden" macht, hat nicht gesucht: entweder zu Ende lesen (Datei/Volldump)
@@ -511,6 +541,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Festlegungs-Tabelle, die nur den Entscheid-KERN trägt, liest sich als
   vollständige Wiedergabe** — den ✅-Kasten auf „ausdrücklich
   mitentschieden"-Zusätze gegenlesen. (L-33; MKT R12.)
+  **⭐ Und für die CHAT-Zusammenfassung der eigenen Berichtslage:**
+  Kernsätze an den User tragen dieselbe Belegstufen-Pflicht wie
+  Dokumente — Existenz-Prüfung nie mit Deckungs-Prüfung verschmelzen;
+  „billiger/schneller/sicherer" ohne Messung ist eine HYPOTHESE und
+  wird so genannt (das Plan-Dokument trug die Vorbehalte, der Chat
+  glättete sie — 2× an einem Tag, beide extern gefangen; Herkunft:
+  heyPensio R41).
   **⭐ Belegstufen-Disziplin gilt auch für STRUKTUREN und
   Denkfiguren:** Die Gliederung einer Empfehlung kann aus einer
   verworfenen Quelle stammen, während jede einzelne Zahl sauber belegt
@@ -589,6 +626,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   einen Agenten mit frischem Kontext, der den Fragenkatalog NICHT kennt.
   Drei Fang-Kategorien benennen: Fragen des Gegenübers ·
   Prozessbeschreibungen · beiläufige Zusagen des eigenen Sprechers.
+  **⭐ Der Gegen-Durchgang ist AUCH fällig, wenn die Quelle bereits
+  vollständig im EIGENEN Archiv liegt — Archivierung fühlt sich wie
+  Auswertung an**; die stärkste Fundstelle für die eigene These kann
+  trotz Volltext-Lektüre liegen bleiben, weil die Auswertung entlang
+  des Fragenkatalogs läuft (Herkunft: heyPensio R40).
 - **⭐ Zahlen an ihren SCHLÜSSEL binden — eine stimmende Summe ist KEIN
   Zuordnungsbeleg:** Sechs Werte wurden in Quellreihenfolge übernommen, die
   zugehörigen Namen daneben „natürlich" sortiert — vier von sechs paarweise
@@ -681,6 +723,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   AUSSERHALB des Prüfpools kann das Werkzeug nie bestätigen — sie als
   Ausnahme führen UND ausweisen, wer sie stattdessen verifiziert hat,
   sonst wird die Ausnahmeliste zur Ausrede. (L-26, drei Belege.)
+  **⭐ Zwei Schärfungen (MKT R13): (1) Ein Dokument, das seinen eigenen
+  Wächter-Stand dokumentiert, veraltet durch genau die Edits, die der
+  Wächter prüft** — der Stands-Nachtrag am PRÜFGEGENSTAND gehört in
+  denselben Zug wie der Edit, nicht ins Abschlussprotokoll. **(2) Die
+  Wächter-BASELINE vor den Edits ziehen:** Erst der Vorher-Lauf macht
+  das Nachher-Delta zuordenbar („genau n neue Meldungen, alle erklärt").
 - **⭐ Ein Positivkontroll-Anker gehört in den STABILEN Teil einer Datei,
   nie in einen rotierenden Abschnitt.** Ein Anker aus einem
   Runden-Stand-Block wandert mit der vorgeschriebenen STATUS-Rotation ins
@@ -917,6 +965,17 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Sachschlüssel-Namensräume je Domäne trennen (Terminpfad-Stufen ≠
   Preisschlüssel); die Kollisions-Suche trägt eine Positivkontrolle mit
   einem unabhängig BEKANNTEN Kollisions-Sollwert.
+- **⭐ Ein Edit-Anker, der eine Überschrift oder den ANFANG der
+  Folgezeile konsumiert, löscht bzw. zerlegt sie still** (MKT R13, zwei
+  Sessions unabhängig: gelöschte Kopfkasten-Überschrift als einzige
+  Löschung unter 198 Einfügungen, Nachtrag daneben behauptete das
+  Gegenteil; zerteilter Tabellen-Vorbehaltssatz, beim Rendern spurlos).
+  Beim Einfügen VOR Bestandstext den Anker so schneiden, dass
+  Überschrift/Folgezeile im Ersetzungstext vollständig wiederkehren,
+  die Nahtstelle danach neu lesen. **Prüf- und Nachweismittel ist die
+  LÖSCHUNGSZÄHLUNG** (`git diff --numstat`, jede gelöschte Zeile
+  einzeln) — „0 Löschungen im Abschnitt" ist zugleich der mechanische
+  Beleg, dass überstimmte Passagen ungeglättet stehen blieben. (L-38.)
 - **Drift-Vorsorge bei AUSLÖSER, nicht nach Kalender:** Commit einer
   Doku-Änderung · Richtungsentscheid · neues Dokument · Freigabe.
   Baselines nie anheben, um einen Lauf grün zu bekommen.

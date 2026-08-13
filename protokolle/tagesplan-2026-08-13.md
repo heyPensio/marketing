@@ -1498,3 +1498,43 @@ Nachtrag-7-Vollzug — CLAUDE.md-Größe 73.399 Bytes in den STATUS,
 Formdisziplin „Schärfung ERSETZT Kern" ab diesem Debrief anwenden ·
 ggf. Stempel-Nachzug, Delta aktuell 0) · danach Feierabend oder
 AA-4-Nachtrag bei Kayhan-Antwort — entscheidet der User.
+
+---
+
+## Block-5-Abschluss (13.08. spätabends) — R14 fertig, reviewt, debrieft
+
+- **Beide Stränge bestanden:** R14-A (Prüfer 14/14 disponiert, 2 schwer
+  repariert, 1 teilweise verworfen mit eigener Nachmessung, 2 an
+  Träger) · R14-B (17/17, 1 schwer mit Träger, 16 repariert).
+  Leitsession-Nacharbeit `1f7b865` (O-8-Quellen-Nachzug — sonst hätte
+  die neue Vorrangklausel die Präzisierungen umgekehrt).
+  **Push-Chronik:** R14-B hielt zwei Commits zurück und delegierte die
+  Auflösung SCHRIFTLICH; R14-A pushte auf dieser Willenserklärung
+  (Regel 3a) — Vorfahren-Regel beide Richtungen, sauber belegt.
+- **Debrief gelaufen:** 4 Lehren → Blueprint `ee8c468` (L-39…L-42),
+  fremdes Delta `fe6fcaf` (heyPensio R42) einzeln disponiert, Kopien
+  debrief + tagesstart + quellen-beschaffung gezogen, Stempel
+  `ee8c468`, Wächter SYNCHRON 12 / 0 DRIFT · Vier-Stellen-Sync +
+  STATUS mit R12-Rotation (`0f77e6d`, gepusht) ·
+  **Debrief-Gegenprobe (Subagent, 58 Positionen): 1 volle + 6
+  Teil-Lücken gefunden, alle geschlossen.**
+- ⚠️ **Neues Stempel-Delta schon jetzt: `0e4d2d9`** (heypensio-R42-
+  Nachtrag, im geteilten Blueprint-Arbeitsbaum direkt auf `ee8c468`
+  aufgesetzt und gepusht — mein Rückfluss ist dadurch als Vorfahre
+  veröffentlicht, belegt per `branch -r --contains` nach fetch).
+  **Beim nächsten Nachzug disponieren:** Wächter-Frage „welchen Text
+  schreibt der ABLAUF, den der Wächter absichern soll?" +
+  Grenzenlisten vollzählig (n von n).
+- **L-05, siebter Beleg:** Der Debrief-Push war als Kette blockiert
+  (Klassifikator) und lief unverändert als EINZELBEFEHL durch —
+  Zerlegen half diesmal (anders als R13-A). Nicht umgangen, gemeldet.
+- **Offene User-Handgriffe:** AA-4 (Kayhan) · AA-3-/AA-8-Randfragen ·
+  Modell-Statuszeilen R14-A/R14-B (je Opus 5 1M) + R11-A…R13-B ·
+  StB-Anruf (heute zugesagt, Ergebnis noch nicht gemeldet) · H-1 bis
+  16.08. · MARKE1-Paket (diese Woche) · restliche Handgriff-Tabelle.
+- **Block-Programm danach:** Tag offen — Kandidaten: anwaltlicher Rat
+  vorbereiten (vier gebündelte Fragen) · FUND3-Restposten (drei
+  MKT-FUND-Punkte aus der Pflege) · AU-2/AU-4 im Angebotsstrang ·
+  Feierabend; entscheidet der User. **Vor weiterer Leitsessions-Arbeit:
+  NEUES Fenster** (Regel-Snapshot veraltet — CLAUDE.md + drei Kopien
+  geändert).

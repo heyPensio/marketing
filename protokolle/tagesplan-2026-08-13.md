@@ -616,6 +616,57 @@ ausgegeben.
 
 ---
 
+## Block 3 (13.08. ~11:30 MESZ) — R12-B-Review, Runde inhaltlich fertig
+
+**R12-B abgeschlossen und reviewt (Leitsession, beide Richtungen):**
+
+- **Nach innen:** Commits 4/4 nur auf Scope-Pfaden (`--name-only`
+  geprüft). Prüferprotokoll SELBST gelesen: 13 Befunde (0 schwer /
+  5 mittel / 8 Hinweise), alle 7 Kategorien mit Nenner — deckt sich
+  mit der Meldung; Disposition 12 repariert + PB-11b als
+  Namensraum-Hinweis getragen, Reparaturvermerke im Dokument sichtbar
+  (PB-01/02/03/04/05/06/07/08/09/10/11/12/13 im Volltext
+  nachvollzogen). Lauf-Status konsistent: Prüfer 9/11, Schritt 10 von
+  der Session am R38-Bericht geschlossen (10/11), Schritt 11 offen an
+  die Leitsession. **Schritt 11 von der Leitsession getragen:**
+  gezielte Widerspruchs-Probe über die nicht referenzierten
+  Vorlage-Abschnitte (grep Paket/Bündel/Baukasten/Stufen/zubuchbar,
+  15 Trefferzeilen = Positivkontrolle): kein indirekter Widerspruch —
+  die Vorlage führt die Paketfrage durchgängig als eigene,
+  nicht mitentschiedene Frage (u. a. § 8-Nachtrag, § 10-Nachtrag);
+  Durchreichung bleibt in beiden Dokumenten außerhalb der Pakete.
+  ⚠️ Belegstufe dieser Probe: begriffsgebundene Stichprobe auf der
+  riskantesten Achse (Paketierung), KEINE Voll-Lesung — der Rest
+  bleibt durch die Vorrangklausel des Dokuments getragen (bei
+  Widerspruch gewinnen die Quellen). `handel/angebotsarchitektur.md`
+  von der Leitsession VOLLSTÄNDIG gelesen (629 Z.): Vorbehalte
+  vollständig geerbt (inkl. K04 gleichrangig), AA-1 mit beiden
+  Lesarten gleichwertig, keine „einzige"-Rhetorik mehr, Belegstufen
+  sauber (④-Kennzeichnungen an allen Ableitungen).
+- **Nach außen (4 Nebenbefunde disponiert):** (1) ⭐
+  S0–S5/S1–S4-Namenskollision (Terminpfad-Stufen ↔ Preisschlüssel)
+  → **Debrief-Posten Doku-Hygiene** (zusammen mit N-10-Kollision und
+  N-Präfix-Klasse aus R12-A — dritter Fall derselben Klasse an einem
+  Tag); (2) S4-Bezugseinheit „je Haus" ist ④-Ableitung → **als
+  Klärfrage zusammen mit den AA-Antworten dem User stellen** (in die
+  AA-Vorlage an den User aufgenommen, s. u.); (3) E-6-Präzisierung
+  (Blöcke je Objekt getrennt stoppen) → **in die
+  Postkorb-Meldung an die Zentrale** (Weitergabe an Ruffy via
+  Briefing); (4) Beleglage-Grenze sinngemäßes Protokoll →
+  Kenntnisnahme, keine Aktion (strukturell, vom Prüfer korrekt
+  benannt).
+- **Modell R12-B:** Umgebungsangabe Fable 5; User-`/model`-Ablesung
+  „Set model to Fable 5" beim Start — Bestätigung als erledigt
+  betrachtet der Debrief, die Strang-Tabelle dokumentiert nach.
+
+**Damit sind beide Stränge der Runde R12 fertig und reviewt. Nächster
+Schritt: `/debrief` (Stempel-Nachzug 2 Deltas einzeln ·
+Postkorb-Meldung `2026-08-13-mkt-preismodell-zulieferungen.md` mit
+Z-1…Z-7 + N-1/N-5/N-6/N-8 + E-6-Präzisierung · Doku-Hygiene-Posten
+ID-Kollisionen · Vier-Stellen-Sync mit Rundenpräfix für
+Nebenbefund-IDs). Die 8 AA-Punkte gehen als User-Entscheide in die
+Handgriff-Liste.**
+
 ## Übergabe-Block
 
 *(wird beim Blockwechsel/Neustart gefüllt)*

@@ -397,6 +397,225 @@ Voll-Review mit Prüfer analog R12-A.
 
 ---
 
+## Block 2 (13.08. 10:32 MESZ) — R12-A-Review + R12-B scharf
+
+**R12-A abgeschlossen und reviewt (Leitsession, beide Richtungen,
+10:05–10:32 MESZ):**
+
+- **Nach innen:** Abschlussmeldung vollständig (vier Blöcke, Nenner je
+  Kategorie, Lauf-Status ungeglättet). Prüfprotokoll SELBST geöffnet
+  und gezählt: **19 Befunde (0/7/7/5), P-01…P-19 — deckt sich mit der
+  Meldung**; alle 7 Pflicht-Kategorien tragen ein Ergebnis.
+  Dispositions-Stichproben am Objekt gemessen (Diff `87be372`
+  vollständig gesichtet, 502 Zeilen): P-01 (Rangaussage, sichtbare
+  Doppel-Korrektur-Kette) · P-02 (Offenlegungs-Kasten ⑤-Koinzidenz) ·
+  P-03 (W1-Belegstufe an beiden Stellen) · P-04 (Sammelnachtrag in der
+  QUELLE § 6.3.2 — Ableitung→Quelle nachgezogen) · P-06
+  (Vertragspartner-Kasten mit K03/K04) · P-07 (M6-Scope) — alle
+  inhaltlich korrekt, als markierte Kästen. **P-05 selbst am Briefing
+  nachgemessen:** „Startgebühr-HÖHE (nach MKT-Schätzung + E-6)" steht
+  wörtlich unter „Offene User-Entscheide" ✓ — die Reparatur zitiert
+  korrekt. Commits nur auf Scope-Pfaden (`git show --stat`, 3/3).
+  **Ein Review-Kleinbefund:** Der KOPF des Prüfprotokolls sagt „Zwei
+  Prüfschritte nicht prüfbar", der eigene Abschnitt listet DREI; die
+  Abschlussmeldung führt korrekt 3. Das Protokoll ist ein historisches
+  Prüfer-Artefakt und wird nicht editiert — Vermerk hier, Zählweg beim
+  Debrief gegenprüfen.
+- **Nach außen (8 Nebenbefunde, Zielorte geprüft):** N-2/N-7 bereits
+  eingearbeitet ✓ · N-3 (Rabatt-Zuordnung Betreiber↔Firmierung) →
+  in den R12-B-Prompt übernommen ✓ · **N-1 (Vertragspartner-Frage
+  K03/K04) + N-5 (Z-4-Anschluss der E-1-Verschiebung) + N-6
+  (LEANE-Dokumentationsfrage) + N-8 (E-4/E-6 ohne Kalendertermin) +
+  Z-1…Z-7 (R11-Rest, nie übergeben) → EINE gebündelte
+  Postkorb-Meldung an die Zentrale, schreibt die Leitsession beim
+  Debrief** (`zentrale\eingang\2026-08-13-mkt-preismodell-zulieferungen.md`)
+  · N-4 (Kurz-ID-Kollision „N-10") → Debrief-Posten Doku-Hygiene.
+  ⚠️ **Dieselbe ID-Klasse einmal mehr:** Die R12-A-Nebenbefunde heißen
+  N-1…N-8 und kollidieren ihrerseits mit den N-Nummern aus R9/R11 im
+  STATUS — beim Vier-Stellen-Sync mit Rundenpräfix führen
+  (`R12A-N-1` …); Debrief-Posten.
+- **Modell R12-A:** Statuszeile von der Session nicht lesbar,
+  Umgebungsangabe „Opus 5 (1M)" — Bestätigung bleibt User-Handgriff
+  (Handgriff-Liste).
+
+**R12-B-Freigabe:** Ist-Stand neu gemessen (10:30):
+`handel/angebotsarchitektur.md` existiert NICHT (Glob über `handel/`);
+`handel/preisliste-vorlaeufig.md` existiert jetzt (§ 1–§ 7; § 3 trägt
+S1–S4, § 4 die Rabatt-Fragen als offen). Startzeile wird jetzt
+ausgegeben.
+
+### Session-Prompt R12-B (Yasopp) — Angebotsarchitektur (E-8), SCHARF
+
+> Parallel-Session „R12-B" (Leitsession läuft separat,
+> Multi-Session-Modell lt. CLAUDE.md). Session-Start: `git pull`; dein
+> tatsächliches Modell verifizierst du NUR per Statuszeile (nicht per
+> Selbstauskunft) und nennst es in der Abschlussmeldung; ist die
+> Statuszeile nicht lesbar, meldest du das mit der Umgebungsangabe
+> (wie R12-A).
+>
+> **Aufgabe:** Baue den **Einstieg in die Angebotsarchitektur (E-8)**
+> als neues internes Dokument **`handel/angebotsarchitektur.md`** —
+> Leistungspakete und die Mehrhaus-Rabatt-Mechanik, unter
+> Firmierungs-Vorbehalt, ohne Außenversand. Es ist eine
+> STRUKTUR-Vorlage mit Entscheidungspunkten, **kein Preisdokument**
+> (Beträge referenzierst du ausschließlich aus
+> `handel/preisliste-vorlaeufig.md`; dort sind sie Platzhalter oder
+> Hypothesen — genau so bleiben sie bei dir).
+>
+> **Rechtsgrundlage deines Auftrags (lies zuerst, GANZ):**
+> (a) `handel/preismodell-optionen.md` § 11 mit den ✅-Vermerken vom
+> 13.08. (E-8 = Ja: Angebotsarchitektur intern; E-1 = (ii) mit
+> Startgebühr verstärkt/Monatsgebühr geringer im ersten Jahr; E-2 =
+> (c) Grundgebühr + Zimmeranteil + Mehrhaus-Rabatt; E-2a = je
+> Objekt/Haus; E-3 = W-B/A3-Rechenbasis mit Durchreichung) —
+> Belegstufe der Entscheide: sinngemäß, Wortlaut nicht archiviert;
+> (b) `handel/preisliste-vorlaeufig.md` vollständig — besonders § 1
+> (drei getrennte Positionen), § 2 (Durchreichung inkl. des
+> UNGEKLÄRTEN Vertragspartner-Kastens), § 3 (S1–S4 samt
+> S4-Einordnungs-Kasten: der Rabatt wirkt auf S1, NICHT auf die
+> Startgebühr — ob er es sollte, ist offen und gehört zu DIR), § 4
+> (Rabatt-Fragen: ab wann / wie hoch / Prozent oder Staffel — alle
+> offen);
+> (c) das Entscheide-Protokoll im Briefing
+> (`<FIRMENWURZEL>\zentrale\briefings\briefing-2026-08-13.md`) — und
+> zwar das GANZE Briefing, nicht nur den Preismodell-Abschnitt: Ein
+> Quellverweis benennt, wo du anfängst, nicht, wo du aufhörst
+> (R12-A-Falle 7, P-05).
+>
+> **Was das Dokument leisten muss (Mindeststruktur, Reihenfolge frei):**
+> 1. **Kopfkasten:** Firmierungs-Vorbehalt · „ENTWURF — nichts
+>    entschieden, nichts geht nach außen" · Z-6-/Architektur-Vorbehalt
+>    (geerbt aus der Preisliste) · „Nicht Teil dieses Dokuments"
+>    (mindestens: Preishöhen [F-III, Entscheider User] ·
+>    Angebots-WORDING/Außentexte [warten auf Firmierung] ·
+>    Vertragswerk [Zentrale/StB, Z-1…Z-7]).
+> 2. **⭐ Zuordnungsfrage ZUERST (R12-A-Nebenbefund N-3):** Bekommt den
+>    Mehrhaus-Rabatt der **Betreiber** oder die **Firmierung**? Der
+>    eigene Pilot ist EIN Kunde mit drei Objekten in DREI Firmierungen
+>    — je nach Antwort bekäme er den Rabatt oder nicht. Du entscheidest
+>    das NICHT: Arbeite beide Lesarten mit Konsequenzen aus und stelle
+>    sie als ☐-Entscheidungspunkt VOR alle Höhen-/Mechanik-Punkte
+>    (dieselbe Klasse wie E-2a in der Vorrunde). Prüfe dabei den
+>    E-2a-✅-Wortlaut („je Objekt/Haus") und das Preislisten-§ 4 —
+>    was dort schon festliegt, wird referenziert, nicht neu gefragt.
+> 3. **Leistungspakete:** Welche Leistungen gehören in welches Paket?
+>    Quellen für den Leistungs-Bestand: `handel/preismodell-optionen.md`
+>    § 2.4 (Zielgruppe/Module) und § 8 (Bemessungsachse: gästenahe
+>    Module vs. Grundleistungen) sowie das Positionierungspapier in
+>    `fund/` (grep nach Modul-/Leistungsbegriffen; nur lesen). Baue
+>    einen Optionenraum (z. B. ein Paket vs. Basis+Module vs.
+>    Staffel), je Option: Annahmen (einzeln GEMESSEN vs. HYPOTHESE) ·
+>    was dafür / was dagegen spricht (der unbequeme Pol gehört ins
+>    Dokument) · Konsequenz für Verkaufsgespräch und Terminpfad.
+>    **Keine Paket-PREISE** — nur Struktur und Verweis auf die
+>    Platzhalter der Preisliste.
+> 4. **Mehrhaus-Rabatt-Mechanik:** die offenen Fragen aus
+>    Preisliste § 4 (ab wann · Prozent vs. Staffel · Deckelung ·
+>    Wirkung nur auf S1 oder auch auf S4) als ausgearbeitete Optionen
+>    mit Konsequenzen — je als ☐-Punkt, nichts festlegen. Die
+>    Kostenlogik dahinter (durchgereichte Kosten fallen je Objekt real
+>    an → kein Rabatt auf § 2-Zeilen) ist eine ④-Ableitung der
+>    Preisliste — übernimm sie MIT dieser Belegstufe, nicht als
+>    Entscheid.
+> 5. **Übergabefähigkeit als roter Faden (E-3/A5):** Die Pakete müssen
+>    die W-B/A3-Erzählung tragen (Kunde = Eigentümer, Übergabedoku als
+>    fester Bestandteil, kein Lock-in). Wo eine Paketierung dem
+>    widerspricht (z. B. Leistungen, die nur bei uns liegen können),
+>    gehört der Widerspruch benannt — nicht geglättet. ⚠️ Der
+>    Vertragspartner-Kasten der Preisliste (§ 2, K03/K04) ist
+>    UNGEKLÄRT: Pakete, die von der Antwort abhängen, weisen das aus.
+> 6. **Entscheidungspunkte:** nummerierte ☐-Punkte nach Baustein
+>    `freigabe-vorlagen` (Klartext, einzeln beantwortbar, „So läuft es
+>    weiter" mit Antwortweg). ⚠️ **ID-Vergabe: Deine Punkte heißen
+>    `AA-1`, `AA-2`, …** (nicht E-x, nicht N-x) — vor der Vergabe grep
+>    über `handel/` + `protokolle/` auf Kollisionen; die Runde hat
+>    gerade eine N-10-Kollision gefunden (R12-A-Meldung N-4).
+>
+> **Harte Grenzen:**
+> (a) Nichts nach außen; kein Wording für Außentexte (das wartet auf
+> die Firmierung).
+> (b) Du entscheidest NICHTS — auch nicht implizit durch eine
+> Empfehlung, die nur eine Option ernsthaft ausarbeitet; begründete
+> Empfehlung MIT gleichwertigen Alternativen ist erwünscht.
+> (c) Jede Entwarnung trägt ihre Quelle im Satz; Vorbehalt zuerst
+> übernehmen, dann den Satz bauen; jede Zahl bleibt an ihrem Schlüssel
+> und trägt ihre Belegstufe aus der Quelle.
+> (d) `handel/preisliste-vorlaeufig.md` und
+> `handel/preismodell-optionen.md` fasst du NICHT an — Befunde daran
+> sind Nebenbefunde deiner Abschlussmeldung, keine Edits.
+>
+> **Dein Scope (Schreibrechte):** `handel/angebotsarchitektur.md`
+> (neu) · `protokolle/R12-B-*` · `sensibel/rohbelege-R12-B/` (neu
+> anlegen falls gebraucht, git-ignoriert, nie committen). Alles andere
+> nur lesen — ausdrücklich NICHT anfassen: alle übrigen
+> `handel/`-Dateien, `akquise/`, `fund/`, Projektquelle, STATUS.md,
+> CLAUDE.md, Skills/Commands, fremde Repos (zentrale nur LESEN). Kein
+> eigener Debrief. Exklusive Systeme: **Web-/Recherche-Kanäle gehören
+> dir** (Erlaubnis, keine Vorgabe — voraussichtlich kaum nötig; miss
+> den billigsten Kanal zuerst). Fremde uncommittete Dateien im
+> `git status` ignorieren.
+>
+> **Subagenten (konkret, nicht generisch):**
+> - Bestandsarbeit — KEIN Recherche-Fan-out nötig; bei Bedarf ein
+>   read-only Agent für Quervergleiche (z. B. Modul-Begriffe in
+>   `fund/`).
+> - **Prüfer (Pflicht, Voll-Review):** Nach dem ersten vollständigen
+>   Stand committen, Hash notieren, dann EIN unabhängiger
+>   Prüf-Subagent mit frischem Kontext; **eingefrorener Prüfstand:
+>   dein genannter Commit-Hash**; Schreibrecht nur auf
+>   `protokolle/R12-B-pruefer.md`; Arbeitsbaum-Diff ausdrücklich NICHT
+>   sichten. ⭐ **Prüfraum-Regel aus R12-A (vom dortigen Prüfer selbst
+>   formuliert): Der Prüfgegenstand ist dein Dokument, der PRÜFRAUM
+>   ist alles, worauf es zeigt** — der Prüfer öffnet auch die
+>   referenzierten Abschnitte der Preisliste/Vorlage und das GANZE
+>   Briefing, nicht nur den benannten Abschnitt.
+>   **Pflicht-Kategorien mit Ergebnis je Kategorie (auch „keine
+>   Auffälligkeit"):** (1) Entscheid falsch übernommen (jeder
+>   referenzierte E-Punkt gegen § 11, mit Nenner) · (2) **Was aus den
+>   Quellen ist gar nicht erst angekommen?** — von Preisliste § 2–§ 4
+>   und Entscheide-Protokoll RÜCKWÄRTS lesen (fehlende Vorbehalte
+>   erzeugen keine auffällige Textstelle) · (3) eine Ableitung/
+>   Hypothese wirkt wie ein Entscheid (besonders: Rabatt-Kostenlogik,
+>   Paket-Zuschnitte) · (4) Vorbehaltsverlust (Firmierung ·
+>   Z-6/Architektur · Vertragspartner-Frage · „Höhe offen") ·
+>   (5) versteckte Festlegung durch einseitig ausgearbeitete Option ·
+>   (6) ID-Kollisionen der neuen ☐-Punkte (grep-Beleg) ·
+>   (7) Widerspruch zur Preisliste/Vorlage nach dem Bau. Dazu die zwei
+>   Zusatzfragen: „Welche Verfälschung hätte dein Verfahren NICHT
+>   gefangen?" und „Hättest du deine Funde auch OHNE die
+>   Kategorien-Hinweise gefunden?".
+> - **Danach disponierst du JEDEN Prüferbefund** (repariert /
+>   ausdrücklich verworfen mit Grund / benannter Träger) — am ROHBELEG
+>   gemessen.
+> - **Kein** Subagent für Git-Operationen und kleine Edits.
+>
+> **Git:** Committen nur mit `git add <deine Pfade>` und
+> `git commit -F <msgdatei> -- <deine Pfade>`; Reihenfolge zwingend
+> add → commit → `git pull --rebase --autostash` → push als
+> `git push origin <dein-hash>:main` (CLAUDE.md Regel 3). Message-Datei
+> mit dem Write-Tool im Scratchpad anlegen, Betreff in
+> ASCII-Transliteration. Ein blockierter Push ist ein Betriebszustand:
+> nicht umgehen, später erneut versuchen (L-05: zeitpunkt-, nicht
+> kanalgebunden — R12-A dreifach belegt).
+>
+> **Fertig-Kriterium:** `handel/angebotsarchitektur.md` committet +
+> gepusht; die Zuordnungsfrage (Punkt 2) steht als erster ☐-Punkt mit
+> beiden Lesarten; Leistungspaket-Optionenraum und Rabatt-Mechanik
+> stehen entscheidungsfähig; Prüferprotokoll
+> `protokolle/R12-B-pruefer.md` liegt vor; **alle** Prüferbefunde
+> disponiert. **Abschlussmeldung in VIER Blöcken** (gebaut/verifiziert
+> mit Commit-Hashes+Pfaden · offen geblieben · Nebenbefunde außerhalb
+> des Auftrags · Stolpersteine/Learnings, getrennt nach (i) Fallen und
+> (ii) bewährten Mustern), zusätzlich committet als
+> `protokolle/R12-B-abschluss.md` mit Kopfzeile „Token-Verbrauch: von
+> der Session nicht erhebbar — Subagenten-Zahlen soweit bekannt: …".
+> **Prüferbefunde meldest du kategorienweise MIT NENNER** und **mit dem
+> LAUF-STATUS des Prüfers** (offene Prüfschritte einzeln ausweisen, nie
+> zu „keine Auffälligkeit" glätten; abgebrochene Prüfer fortsetzen
+> statt neu starten).
+
+---
+
 ## Übergabe-Block
 
 *(wird beim Blockwechsel/Neustart gefüllt)*

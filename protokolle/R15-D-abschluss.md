@@ -377,7 +377,30 @@ zulässig, nicht „damals noch nicht veröffentlicht“.
 
 ## Anhang B — Git-Belege
 
-Die pfadgenauen Commit- und Push-Belege werden nach dem ersten
-Trägercommit und dem separaten Zentral-Commit in einem abschließenden
-Git-Nachtrag ergänzt. Ein Commit kann seinen eigenen Hash nicht
+- Marketing-Trägercommit:
+  `5630bbf81c2e8e61c7e5721d48a7ed3875a80259` — genau
+  `protokolle/R15-D-abschluss.md` und `protokolle/R15-D-pruefer.md`,
+  642 Einfügungen, keine fremden Pfade.
+- Zentral-Postkorb-Commit:
+  `626bff01ea63c779d38accfa973291ad686aa7e6` — genau
+  `eingang/2026-08-14-mkt-n8n-lizenz-belegkette.md`, 171 Einfügungen.
+- Nach frischem `fetch` lag im Marketing-Repo **1 eingehender**
+  Parallel-Commit (`cca1919`, R15-A) vor. Unter dem eigenen Commit
+  lagen zugleich fünf **ungepushte fremde Vorfahren** aus R15-B/C/E.
+  Nach der Parallelregel wurden diese weder eigenmächtig rebasiert noch
+  mitveröffentlicht. Zusätzlich war `protokolle/R15-C-abschluss.md`
+  noch uncommittiert; mangels Abschlussmeldung gilt der Strang als
+  laufend.
+- Der gezielte Push des konfliktfreien Zentral-Commits wurde von der
+  Sicherheitsprüfung als nicht ausdrücklich autorisierter Export eines
+  internen Lizenzberichts abgelehnt. Kein Ersatzkanal und kein
+  Umgehungsversuch. Beide Commits liegen lokal vor; die Veröffentlichung
+  braucht eine ausdrückliche User-Freigabe bzw. die Leitsession.
+- Die fremde uncommittierte Datei
+  `protokolle/R15-C-abschluss.md` blieb unangetastet. Zuvor sichtbare
+  R15-A-/R15-E-Dateien wurden durch deren eigene Sessions committet und
+  nicht von R15-D gestaget.
+
+Dieser Git-Nachtrag selbst folgt als pfadgenauer zweiter
+`ROCKSTAR |`-Commit; ein Commit kann seinen eigenen Hash nicht
 selbstreferenziell enthalten.

@@ -3,7 +3,36 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
-> am 2026-08-09; Stand **`ee8c468`** (R14-Debrief 13.08.2026 spätabends:
+> am 2026-08-09; Stand **`ae819a0`** (R15-Vorlauf-Nachzug 13.08.2026
+> nachts, VOR dem Rundenschnitt — Briefing-Auflage, weil der Nachzug
+> genau die Regeln ändert, unter denen die R15-Stränge laufen):
+> **2 fremde Deltas einzeln disponiert.** `0e4d2d9` (heyPensio R42
+> Nachtrag): Wächter-Frage um die dritte Achse erweitert („welchen Text
+> schreibt der ABLAUF, den er absichern soll?") + teuerste Form
+> (existierender, plausibler, für den Betriebsweg FALSCHER Messpunkt —
+> Commit-Hook las den Index) + Grenzenlisten-Regel „n von n, nie in
+> Auswahl" → ersetzt die bisherige Zwei-Achsen-Fassung in
+> „Anwesenheit ist nicht Wirksamkeit" (L-21-Anker erhalten).
+> `ae819a0` (Zentrale-Nachhol-Zug, 7 Kandidaten): vier CLAUDE-Anteile
+> übernommen — (1) Historie kennt KEINE Session-Identität +
+> Session-Kennung als erstes Wort der Commit-Message, (2) zwei Sessions
+> am selben Vorgang → die zweite hält AN (genau EINE schreibende Hand je
+> Datei; geteilter Fremd-Arbeitsbaum; Beleg-Ketten sachlich gebunden)
+> — beide nach „Multi-Session" Regel 1 —, (3) Vollzug hinter dem
+> User-Entscheid = aktiv zu meldende Abweichung, (4) gekappte Session
+> macht nur MECHANIK — beide nach „Arbeitsregeln"; die drei
+> tagesstart-Anteile (Codex-PFLICHTZEILE je Strang · geparster
+> Fremdagent-Bau ist kein Ausführungs-Beleg · Namens-Zuweisungs-Pflicht
+> + Persönlichkeit im internen Ton) via **Kopie** `commands/tagesstart.md`
+> vom Master (md5-gleich). Blueprint-Selbstcheck OK, Wächter vorher
+> 1 DRIFT (genau diese Kopie) → nachher **SYNCHRON 12 / 0 DRIFT**.
+> **Größenmessung: 80.380 Bytes / 78.476 Codepoints** (Zählweg
+> `Get-Item .Length` + `[IO.File]::ReadAllText().Length` nach den
+> Nachzugs-Edits; vor dem Nachzug 75.635 Bytes → **+4.745**). ⚠️ Das
+> Wachstum ist ein Verdichtungs-Posten für den R15-Debrief — die
+> Formdisziplin „Schärfung ERSETZT Kern" (debrief-Kopie `fe6fcaf`)
+> greift dort erstmals.
+> Davor Stand **`ee8c468`** (R14-Debrief 13.08.2026 spätabends:
 > eigener Rückfluss von 4 R14-Lehren — L-39 (Negativ-Reichweite:
 > „X = 0" belegt nie „kein Y" + Zitat-Block am Stück lesen), L-40
 > (Wächter-Entwarnung über die eigene Arbeit: ZIEL/POOL-Konstanten
@@ -243,6 +272,25 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    ein Verzeichnis ANLEGT (Herkunft: MKT R7, L-20, Fehler der Leitsession). Fremde uncommittete Dateien im `git status` sind Arbeit
    einer anderen Session — ignorieren, nie mit-committen, nie stashen oder
    resetten.
+   **⭐ Die Historie kennt KEINE Session-Identität** (Herkunft: Zentrale
+   13.08.2026): Autor und `Co-Authored-By` sind bei allen Sessions
+   identisch — aus einem Commit ist NIE ablesbar, welche Session ihn
+   schrieb. Wer Sessions unterscheidbar braucht, setzt eine
+   **Session-Kennung als erstes Wort der Commit-Message**; ohne sie ist
+   jede Zuordnung eine Vermutung (Belegfall: eine Abnahme-Session ordnete
+   zwei fremde Commits der falschen Session zu).
+   **⭐ Zwei Sessions am selben Vorgang: die zweite hält AN** (Herkunft:
+   Zentrale 13.08.2026, schadenfrei belegt). Trifft eine Session auf
+   fremde Commits oder uncommittete Änderungen an genau den Dateien, die
+   sie schreiben will, wird nicht „vorsichtig weitergeschrieben": Stand
+   messen, melden, Zuständigkeit vom User/der Leitsession setzen lassen —
+   **genau EINE schreibende Hand je Datei.** Gilt auch für einen
+   GETEILTEN Fremd-Arbeitsbaum (z. B. das Blueprint-Repo): Arbeitet dort
+   eine fremde Session, wird der eigene Rückfluss AUFGESCHOBEN und als
+   Posten geführt, nie parallel geschrieben. **Bei Ketten mit
+   Beleg-Wirkung** (Signaturen, Hashes, Messläufe) ist der Schnitt
+   zusätzlich SACHLICH gebunden: Wer baut oder signiert, darf nicht
+   abnehmen — und ein zweites Signieren zerstört jeden Hash-Beleg.
 2. **Wahrheits-Kanal exklusiv:** Projektquelle, STATUS.md, CLAUDE.md und
    Skills/Commands ändert NUR die Leitsession — am Ende, nachdem die
    Arbeits-Sessions gemeldet und gepusht haben.
@@ -377,6 +425,23 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - Konzept-, UX- und Betriebs-Festlegungen mit Außenwirkung NIE im
   Alleingang festigen — erst dem User als Optionen vorlegen, dann
   schreiben.
+- **⭐ Ein Vollzug, der hinter dem User-Entscheid ZURÜCKBLEIBT, ist eine
+  AKTIV zu meldende Abweichung — kein stiller Park-Status.** (Herkunft:
+  Zentrale 13.08.2026, vom User gefangen.) „Gebaut, aber geparkt" statt
+  „gebaut und scharf" ist nicht die kleine Schwester des Entscheids,
+  sondern sein Nichtvollzug; wer ihn ablegt, ohne ihn zu melden,
+  verschiebt eine User-Entscheidung in die eigene Zuständigkeit. Beim
+  Abschluss jedes Arbeitsblocks gegen den Entscheid-WORTLAUT prüfen,
+  nicht gegen die eigene Umsetzung — und die Differenz benennen.
+- **⭐ Eine gekappte Session macht nur MECHANIK, nie Urteilsarbeit.**
+  (Herkunft: heyPensio 13.08.2026, 150k-Auto-Load-Riss.) Läuft eine
+  Session mit unvollständig geladenem Regelwerk (Kontext-Kappung,
+  gerissenes Auto-Load-Limit, fehlender Pflicht-Lese-Bestand), führt sie
+  ausschließlich mechanisch beschreibbare Schritte aus — Verschieben,
+  Zählen, byte-gleiches Kopieren mit Hash-Beleg. **Verdichten, Kürzen,
+  Bewerten und jedes Belegstufen-Urteil sind gesperrt**, bis eine
+  frische Session mit vollem Regelwerk übernimmt; der Zwischenstand wird
+  als solcher ausgewiesen.
 - Realitätstreue vor später: immer die vollständige, produktionsreife
   Variante als Standard; Vereinfachungen nur auf ausdrücklichen Wunsch.
   Erst Proof, dann Perfektion — aber der Proof muss echt sein.
@@ -714,12 +779,25 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Datei; bei jedem Wächter fragen, WELCHEN Text er liest, nicht nur, was
   er prüft (Ausgabe und Prüfgegenstand sehen im Log gleich aus; Fix nur
   mit Rückbau-Gegenprobe glauben). (Herkunft: heyPensio R34.)
-  **Vollständig lautet die Frage: welchen Text liest er — und welchen
-  NICHT?** Positivkontrollen, die über einen ANDEREN Kanal laufen
+  **Vollständig lautet die Frage: welchen Text liest er, welchen NICHT
+  — und welchen Text schreibt der ABLAUF, den er absichern soll?**
+  Positivkontrollen, die über einen ANDEREN Kanal laufen
   (Quelle statt Zieldokument), decken die Blindstelle zu — **und ein
   Selbsttest, der denselben Extraktionspfad nutzt, ERBT dessen
   Blindstellen statt sie zu finden** (L-21; MKT R8 P-02, überlebte
-  einen bestandenen Selbsttest).
+  einen bestandenen Selbsttest). **⭐ Teuerste Form: Der Wächter misst
+  einen EXISTIERENDEN, PLAUSIBLEN, für den Betriebsweg aber FALSCHEN
+  Stand** — ein Commit-Hook las den git-INDEX, während die
+  vorgeschriebene Commit-Form den ARBEITSBAUM-Stand schreibt; der Schutz
+  wäre bei jedem regelkonformen Commit umgangen worden. **Vor der
+  Abnahme eines Wächters den abzusichernden Ablauf Schritt für Schritt
+  gegen seinen Messpunkt halten; gibt es zwei mögliche Stände, den
+  schärferen nehmen.** (Herkunft: heyPensio R42, von der
+  Debrief-Gegenprobe gefunden — das Review übernahm nur drei der vier
+  Posten, die der Bau-Bericht selbst benannt hatte: **eine fremde
+  Grenzenliste wird VOLLZÄHLIG abgearbeitet, n von n, nie in Auswahl
+  akzeptiert** — sie ist beim Verdichten so vorbehalts-anfällig wie eine
+  Messung.)
   **⭐ Eine Wächter-Entwarnung über die EIGENE Arbeit setzt die Lektüre
   seiner Prüfmengen-Konstanten (ZIEL/POOL) voraus; das Lauf-Delta wird
   je Datei zugeordnet, nie pauschal der eigenen Arbeit zugeschrieben**

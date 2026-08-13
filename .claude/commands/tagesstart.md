@@ -206,8 +206,13 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    Urteil über Belegstufe · kein Kerndokument-Schreibrecht nötig —
    Kriterien-Volltext `zentrale\rollen-charta.md` „Codex",
    Dispositions-Pflicht). Das Ergebnis steht sichtbar in der
-   vorgelegten Aufteilung („Codex-geeignet: ja/nein + ein Halbsatz
-   warum"). Die WERKZEUGWAHL trifft der User (Richtungsentscheid
+   vorgelegten Aufteilung als **PFLICHTZEILE `Codex: ja/nein — <Grund>`
+   je Strang** — Format-Träger statt Fließtext-Regel, damit ihr FEHLEN
+   auffällt: Schweigen ist keine Prüfung, und das wird nur sichtbar,
+   wenn die Zeile strukturell erwartet wird (Herkunft: Zentrale
+   13.08.2026, nachdem die Fließtext-Fassung zweimal folgenlos blieb).
+   Die Pflichtzeile gilt **auch für Aufträge, die fertig aus einem
+   Briefing kommen** — das Pull-Modell umgeht diesen Schritt nicht. Die WERKZEUGWAHL trifft der User (Richtungsentscheid
    10.08.2026: Werkzeug- und Kostenwahl gehören dem User) — die
    Evaluation zu liefern ist Bringschuld der Leitsession, nie erst auf
    User-Impuls. (Anlass: User-Fang 12.08.2026 — bis dahin stellte
@@ -234,6 +239,16 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    Fremdagenten ist nicht ohne eigene Gegenmessung übernehmbar** — er
    sieht den Arbeitsbaum in einem anderen Benutzer-/Konfigurationskontext
    (belegt: gemeldete „untrackte" Datei war lokal global git-ignoriert).
+   ⚠️ **Und die Bau-Regel: Ein von einem Fremdagenten nur GEPARSTER
+   Skript-/Bau-Erfolg ist kein AUSFÜHRUNGS-Beleg** (Herkunft: Zentrale
+   13.08.2026, Broker-Deployskripte: „Parser PASS" — beim ersten echten
+   Lauf fielen nacheinander drei Blocker, die nur der Lauf zeigt).
+   Skript-, Installations- und Migrations-Aufträge tragen deshalb einen
+   **echten Ausführungslauf im Fertig-Kriterium** (bei Werkzeugen mit
+   Schutzwirkung zusätzlich: Selbsttest in BEIDE Richtungen + Regression
+   alt-ROT/neu-GRÜN) — sonst gilt ihr Ergebnis bis zum ersten realen Lauf
+   als UNGEPRÜFT. Die Pflichtabschnitte fangen das, WENN man sie liest:
+   Der Bericht hatte die Grenze selbst benannt.
 5. **Nach Bestätigung:** Start-Prompts nach Abschnitt 2 erzeugen und nach
    Abschnitt 4 ausgeben.
 
@@ -562,6 +577,18 @@ geführt. Kein Fenster wartet auf eine Ablesung.)*
 Buchstaben nicht überspringen; übernimmt die Leitsession einen Strang,
 wird der Buchstabe frei gelassen und vermerkt. Kollidieren zwei Scopes,
 das VOR der Ausgabe auflösen, nicht dem User überlassen.
+
+**⭐ Trägt das Projekt ein Rollen-/Namensschema für Sessions, WEIST der
+Zuschnitt den Namen ausdrücklich zu** — erste Zeile des Start-Prompts
+„Du bist &lt;Name&gt; …" (Herkunft: User-Befund 13.08.2026: „die
+Leitsessions vergessen oft, den Worker-Sessions Namen zuzuweisen").
+Eine namenlose Arbeits-Session ist ein **Formfehler des Zuschnitts**,
+kein Stilthema: Der Name trägt Identität, Zuständigkeit und die
+Mensch/KI-Kennzeichnung im Organigramm. Erlaubt eine Rollen-Charta
+Persönlichkeit, gilt sie für den INTERNEN Ton ausdrücklich als
+erwünscht — Dokumente, Protokolle, Commits und alles Außenwirksame
+bleiben davon unberührt sachlich, und im Zweifel schlägt Präzision die
+Rolle.
 
 **Sequenzierte Sessions: die abhängige STARTZEILE zurückhalten** und
 erst nach der Abschlussmeldung der Vorgänger-Session ausgeben; steht der

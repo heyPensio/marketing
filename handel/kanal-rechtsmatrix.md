@@ -8,8 +8,14 @@
 > Nachtrags-Runden las sich das wie „Stand des Dokuments" — geändert
 > wurde allein diese Beschriftung zu „Stand der ERHEBUNG", das Datum
 > ist unverändert.)* Die Erhebung stammt vom
-> 10.08.2026 und wurde seitdem **nicht wiederholt**; alle Negative und
-> Fassungsstände tragen deshalb weiter dieses Datum. Ergänzt wurde das
+> 10.08.2026 und wurde seitdem **nicht wiederholt**; die Negative und
+> Fassungsstände tragen deshalb weiter dieses Datum — **mit einer
+> ausdrücklichen Ausnahme:** Die Zählungen am LG-Düsseldorf-Rohbeleg in
+> A7 (199 / 187 / 109 / „§ 7 UWG" 0) und die UWG-Trefferzahlen im
+> PB-1-Kasten sind am **13.08.2026** neu gemessen und tragen dieses
+> Datum. *(Korrigiert nach Prüferbefund PB-11: Die Erstfassung sagte
+> „alle" ohne Ausnahme und widersprach damit den Nachmessungen im
+> selben Commit.)* Ergänzt wurde das
 > Dokument danach ausschließlich durch **markierte Nachträge** —
 > vollständige Liste, erhoben per `git log -- handel/kanal-rechtsmatrix.md`
 > am 13.08.2026 (fünf Commits nach dem Erhebungs-Commit `a2e3e97`):
@@ -567,7 +573,38 @@ Nicht der Kanal, sondern die **Gestaltung** ist die klassische Abmahnfalle — u
 
 ### ⭐ Der Angriffsweg, der 2026 tatsächlich gegriffen hat: die DSGVO
 
-**LG Düsseldorf, Urt. v. 06.02.2026 – 38 O 243/23** (von der Leit-Session **selbst** am amtlichen NRWE im Volltext gegengelesen, ① A) hat eine **Briefpost**-Werbesendung untersagt — gestützt ausschließlich auf Art. 6 Abs. 1 lit. f und die Art. 12–14, 21 DSGVO. **Eigene Kontrollmessung: „§ 7 UWG" kommt im gesamten Urteil 0-mal vor**, bei 109 Treffern für „DSGVO". *(Zählweg — nachgetragen 13.08.2026, R14-B, Befund R9A-N-13: `grep -o "DSGVO" <datei> | wc -l` = **109**; case-insensitive derselbe Wert, die Zahl ist also nicht case-abhängig. Für das Negativ: `grep -o "§ 7 UWG" <datei> | wc -l` = **0** bei Positivkontrolle „Werbung" = 35 im selben Lauf. Gezählt werden Fundstellen, nicht Zeilen — `grep -c` wäre hier falsch. Prüfgegenstand ist der Textabzug `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt` (git-ignoriert); der HTML-Abzug derselben Beschaffung liefert dieselben Werte. Nachgemessen 13.08.2026.)* Die Beklagte war daran gescheitert, dass sie
+> ⛔ **Nachtrag 13.08.2026 (R14-B), Prüferbefund PB-1 — der erste Satz
+> des folgenden Absatzes trägt in dieser Form nicht.** Er sagt, das LG
+> Düsseldorf habe untersagt „gestützt **ausschließlich** auf Art. 6
+> Abs. 1 lit. f und die Art. 12–14, 21 DSGVO". **Dasselbe Urteil prüft
+> die lauterkeitsrechtliche Schiene durch und bejaht sie** (s. Teil B,
+> Nachtrag R9A-N-14): „Die gegen Artt. 5 Abs. 1 Buchstabe a, 6 Abs. 1
+> Unterabs. 1 DSGVO verstoßenden geschäftlichen Handlungen sind gemäß
+> **§ 3a UWG** unlauter" (Rn. 137), und die Absage in Rn. 88 wird
+> ausdrücklich lauterkeitsrechtlich begründet (§ 3 Abs. 1, §§ 5, 5a UWG).
+> **Eigene Messung am Rohbeleg (13.08.2026):** „UWG" **148** Treffer,
+> davon „§ 3a UWG" **21**, „§ 3 Abs. 1 UWG" **5** — Zählweg
+> `grep -o "<muster>" <datei> | wc -l`. Die daneben stehende Zahl
+> „§ 7 UWG = 0" bleibt richtig; **„kein § 7 UWG" ist aber nicht „kein
+> UWG"**, und genau diese Verwechslung steckt im Wort „ausschließlich".
+>
+> ⚠️ **Zweiter Punkt am selben Satz (Quelle: `akquise/interessenabwaegung-o8.md`
+> § 11.2 Nr. 3, dort seit R9 unerledigt):** „**Art. 21 Abs. 4 ist im
+> Tenor des Urteils nicht enthalten** — er trägt dort die
+> Art.-6-Prüfung (Rn. 85), untersagt wurde nach Art. 14 (Tenor Nr. 4).
+> Wer ein ‚tenoriertes Art.-21-Verbot' zitiert, zitiert zu weit." Die
+> Aufzählung „Art. 12–14, 21" im Satz unten legt genau diese Lesart nahe.
+>
+> **Was hier NICHT entschieden wird:** wie der Satz richtig zu fassen
+> ist. Die materielle Anknüpfung ist die DSGVO, die Anspruchsgrundlage
+> das UWG (Kläger war ein Verband nach § 8 Abs. 3 Nr. 3 UWG, Rn. 34/64)
+> — welche Formulierung das sauber abbildet, ist eine
+> **Rechts-Bewertung** und damit außerhalb des Auftrags dieser Session
+> (harte Grenze: keine neuen Rechtsbewertungen). **Der Satz unten bleibt
+> deshalb sichtbar stehen; er ist hiermit als überholungsbedürftig
+> markiert.** Träger: MKT-HANDEL, zusammen mit dem O-9-Rechtsrat.
+
+**LG Düsseldorf, Urt. v. 06.02.2026 – 38 O 243/23** (von der Leit-Session **selbst** am amtlichen NRWE im Volltext gegengelesen, ① A) hat eine **Briefpost**-Werbesendung untersagt — gestützt ausschließlich auf Art. 6 Abs. 1 lit. f und die Art. 12–14, 21 DSGVO. **Eigene Kontrollmessung: „§ 7 UWG" kommt im gesamten Urteil 0-mal vor**, bei 109 Treffern für „DSGVO". *(Zählweg — nachgetragen 13.08.2026, R14-B, Befund R9A-N-13: `grep -o "DSGVO" <datei> | wc -l` = **109**; case-insensitive derselbe Wert, die Zahl ist also nicht case-abhängig. Für das Negativ: `grep -o "§ 7 UWG" <datei> | wc -l` = **0** bei case-**sensitiver** Positivkontrolle „Werbung" = **14** im selben Lauf, dazu die Gegenprobe `grep -o "§ 7"` = **1** (einziger Treffer: „§ 709 S. 1 und S. 2 ZPO", Teilwort) — der Suchweg findet Treffer dieser Form, das Negativ ist echt. *(⚠️ Korrigiert 13.08.2026 nach Prüferbefund PB-4: Hier stand „Positivkontrolle ‚Werbung' = 35 im selben Lauf". Die 35 ist nur **case-insensitiv** erreichbar; case-sensitiv sind es 14. Eine case-insensitive Kontrolle beglaubigt einen case-sensitiven Nulltreffer nicht — die Kontrolle muss die **Suchmechanik** des Negativs spiegeln.)* Gezählt werden Fundstellen, nicht Zeilen — `grep -c` wäre hier falsch. Prüfgegenstand ist der Textabzug `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt` (git-ignoriert); der HTML-Abzug derselben Beschaffung liefert dieselben Werte. Nachgemessen 13.08.2026.)* Die Beklagte war daran gescheitert, dass sie
 
 > „es versäumt [hat], den Adressaten des Schreibens **spätestens mit diesem Schreiben** (wie es gemäß Art. 14 Abs. 3 Buchst. b DSGVO geboten war) die … Informationen … zur Verfügung zu stellen. Ferner hat sie es unterlassen, den Adressaten … **spätestens mit diesem Schreiben ausdrücklich in einer verständlichen und von anderen Informationen getrennten Form** darauf hinzuweisen, dass er gemäß Art. 21 Abs. 2 DSGVO das Recht hat, jederzeit Widerspruch … einzulegen."
 
@@ -578,7 +615,12 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > ⭐ **Nachtrag 13.08.2026 (R14-B), Befund R9A-N-11 — was dieses Urteil
 > NICHT liefert.** Die Darstellung oben ließ offen, auf welcher
 > Prüfungsstufe das Gericht absagt. Belegt ist: **Beide Absagegründe
-> liegen auf Stufe 1 (berechtigtes Interesse), nicht in der Abwägung.**
+> liegen auf Stufe 1, nicht in der Abwägung.** *(⚠️ Präzisiert nach
+> Prüferbefund PB-13: Hier stand zunächst „Stufe 1 **(berechtigtes
+> Interesse)**". Der Klammerzusatz ist ein eigener und trifft nur für
+> Rn. 88 genau; Rn. 84 sagt die **lit.-f-Voraussetzungen insgesamt** ab,
+> nicht speziell das Tatbestandsmerkmal „berechtigtes Interesse". Die
+> Quellen sagen beide nur „Stufe 1".)*
 > - **Rn. 84 (① A, eigener Volltext-Abgleich am NRWE-Abzug):** „Die
 >   dargestellten Voraussetzungen von Art. 6 Abs. 1 Unterabs. 1
 >   Buchstabe f DSGVO sind schon deshalb nicht erfüllt, weil die
@@ -587,7 +629,13 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > - **Rn. 88 (① A):** „Darüber hinaus liegen die Voraussetzungen von
 >   Art. 6 Abs. 1 Unterabs. 1 Buchstabe f DSGVO deshalb nicht vor, weil
 >   das von der Beklagten mit der Werbung verfolgte Interesse nicht
->   rechtmäßig ist."
+>   rechtmäßig ist. **Die von der Beklagten betriebene Werbung ist gemäß
+>   § 3 Abs. 1 UWG unzulässig, weil sie gemäß §§ 5 Abs. 1 und Abs. 2,
+>   5a Abs. 1 bis Abs. 3 UWG unlauter ist.**" *(⚠️ Der zweite Satz war
+>   in der Erstfassung dieses Nachtrags abgeschnitten — Prüferbefund
+>   PB-2. Er trägt die Absage und ist **lauterkeitsrechtlich**, nicht
+>   datenschutzrechtlich; ohne ihn stützt die Stelle die überholte
+>   „ausschließlich DSGVO"-Lesart, s. Kasten am Abschnittsanfang.)*
 >
 > **Folge für die Verwendung dieses Urteils:** Es liefert **keinen
 > Abwägungstopos** — die Stufe-3-Abwägung hat das Gericht nie erreicht.
@@ -626,10 +674,19 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > **das LG selbst offen** („Sollten … dahin zu verstehen sein"). Für
 > unsere Zwecke ist der Eintrag deshalb **„streitig"** — nicht „das LG
 > hat recht" und nicht „Briefwerbung ist großzügig zu behandeln".
-> ⭐ **Und der praktische Gleichlauf beider Pole:** Selbst die
-> großzügigere Ansicht verlangt die transparente Information nach
-> Artt. 13, 14, 21 DSGVO in der Werbesendung (Rn. 83) — **an unseren
-> Bau-Pflichten ändert der Streitstand nichts.**
+> ⛔ *(**Gestrichen 13.08.2026 nach Prüferbefund PB-3.** Hier stand:
+> „⭐ Und der praktische Gleichlauf beider Pole: Selbst die großzügigere
+> Ansicht verlangt die transparente Information nach Artt. 13, 14, 21
+> DSGVO in der Werbesendung (Rn. 83) — **an unseren Bau-Pflichten ändert
+> der Streitstand nichts.**" Drei Gründe, und die Reparatur ist
+> **Streichen, nicht Abschwächen**: (1) Der Satz ist eine **Entwarnung**
+> und wird von der Tabelle drei Zeilen darüber widerlegt — das dort
+> zitierte Eckhardt-Fazit (ZD 2024, 399) kennt diese Voraussetzung
+> gerade nicht. (2) Rn. 83 belegt die Voraussetzung mit **einer**
+> Fundstelle und ausdrücklich „für das **Lettershopverfahren**" — ein
+> Sonderfall, kein Gleichlauf. (3) Es ist eine **neue
+> Rechtsbewertung**; sie steht in keiner der beiden Quellen und war
+> dieser Session ausdrücklich untersagt.)*
 > (Herkunft des Befundes: `protokolle/R09-A-abschluss.md` Block 3, dort
 > N-12; Rohbeleg `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt`,
 > gelesen 13.08.2026.)
@@ -717,6 +774,7 @@ durchprüft (alle Fundstellen aus dem Volltext kopiert, ① A, Rohbeleg
 | **127** | „Unter solchen Umständen kann die Lauterkeit einer datenschutzrechtliche Vorschriften verletzenden Geschäftspraxis vom Grundsatz her gemäß § 3a UWG oder gemäß § 3 Abs. 2 UWG beurteilt werden." |
 | **128** | „Regelmäßig wird … anhand von § 3a UWG geprüft, ob ein geschäftliches Handeln, das gegen datenschutzrechtliche Vorschriften verstößt, unlauter ist" — mit BGH-Belegen (Urteile v. 27.03.2025 – I ZR 186/17 „App-Zentrum III"; I ZR 222/19 und I ZR 223/19 „Arzneimittelbestelldaten III/II") |
 | **129** | Grenze: Weil die UGPRL das B2C-Lauterkeitsrecht vollharmonisiert, tragen Rechtsverstöße § 3a UWG nur, wenn die verletzte Vorschrift **außerhalb** des UGPRL-Anwendungsbereichs liegt „wie das etwa bei allein das Verhältnis zwischen Mittbewerbern betreffenden Regelungen der Fall ist" *(Schreibweise „Mittbewerbern" wie im Original)* oder einen von der UGPRL unberührten Bereich betrifft |
+| **130** | ⭐ **Auflösung der Grenze aus Rn. 129 durch das Gericht** *(ergänzt nach Prüferbefund PB-17 — die Erstfassung sprang von 129 auf 134 und ließ die Rn.-129-Grenze offener wirken, als das Urteil sie lässt)*: „In Bezug auf den … gerügten Verstoß kann auf **Art. 3 Abs. 4 UGPRL** zurückgegriffen werden … was im Grundsatz die Beurteilung einer **auch Verbraucher erreichenden** Geschäftspraxis anhand von § 3a UWG ermöglicht" |
 | **134** | Der EuGH hat „die im deutschen Recht für **Mitbewerber des Verletzers** und Verbraucherschutzverbände vorgesehene Möglichkeit, datenschutzrechtliche Verstöße als unlauterere Geschäftspraktik … zu ahnden, gebilligt" (EuGH C-21/23 „ND/DR"/„Lindenapotheke" Rn. 73; C-319/20 „Meta Platforms Ireland" Rn. 79) |
 | **135** | ⚠️ **Kein Automatismus:** „führt … keiner der beiden Wege dazu, dass im Sinne eines Automatismus jeder Verstoß gegen die DSGVO eine unlautere Handlung darstellt" |
 | **137** | Im entschiedenen Fall bejaht: „Die gegen Artt. 5 Abs. 1 Buchstabe a, 6 Abs. 1 Unterabs. 1 DSGVO verstoßenden geschäftlichen Handlungen sind gemäß § 3a UWG unlauter." |
@@ -733,6 +791,17 @@ ist:**
   § 8 Abs. 3 Nr. 3 UWG (Rn. 34, 64), **kein Mitbewerber.** Die
   Mitbewerber-Aussage stützt sich auf Rn. 134 (Billigung durch den EuGH),
   nicht auf den Streitgegenstand.
+- ⚠️ **Belegkraft des Belegs selbst** *(ergänzt nach Prüferbefund PB-8 —
+  die Erstfassung dieses Abschnitts nannte weder Instanz noch
+  Rechtskraft, obwohl Teil B gerade der Teil zur Angriffs- und
+  Kostenlage ist)*: Es ist ein **Urteil erster Instanz**, „vorläufig
+  vollstreckbar". Ein Rechtsmittelhinweis oder eine Rechtskraftangabe
+  **steht nicht im Text** — gemessen in `akquise/interessenabwaegung-o8.md`
+  § 6.2 (Suchlauf `berufung|rechtsmittel|rechtskräftig`: 0 Treffer).
+  **Das ist „nicht prüfbar", kein Negativbefund** — die Rechtskraft ist
+  damit ungeklärt, nicht verneint. *(Dieselbe Präzisierung ist in A7
+  fällig, wo bisher nur „Rechtskraft nicht geprüft" steht; sie ist als
+  Posten für MKT-HANDEL vermerkt.)*
 - ⚠️ **Nicht erhoben — und deshalb hier auch nicht behauptet:** Der Fall
   ist **B2C**. Ob und wie die UGPRL-Grenze aus Rn. 129 bei einer reinen
   **B2B**-Aussendung wirkt, ist eine eigene Frage; sie wurde von dieser
@@ -883,6 +952,25 @@ Weil wir die Daten **nicht bei der betroffenen Person** erheben, gilt Art. 14 �
 > Aufzählung bleibt der Mindestumfang IM BRIEF** — sie ist nicht die
 > volle Art.-14-Pflicht (13 Angaben, s. Absatz oben); der Rest gehört
 > auf die eigene Seite „Datenschutzinformation für Geschäftskontakte".
+>
+> ⚠️ **Vorrangklausel (eingezogen 13.08.2026 nach Prüferbefund PB-14 —
+> die Aufzählung steht jetzt in ZWEI Dateien).** Dieselbe achtteilige
+> Liste steht in `akquise/interessenabwaegung-o8.md` (dort im
+> Art.-14-Abschnitt). Ein Wächter deckt sie nicht ab: `pruefe-zitate.js`
+> führt weder das O-8-Dokument noch diese Aufzählung als Blockzitat.
+> Die Doku-Hygiene lässt eine Dublette über Dateigrenzen nur mit
+> Wächter **oder** Vorrangklausel zu — deshalb gilt ab jetzt:
+> **Bei Widerspruch zwischen dieser Aufzählung und der in
+> `akquise/interessenabwaegung-o8.md` gewinnt das O-8-Dokument** (dort
+> ist die Liste am Quellwortlaut der DSK-Orientierungshilfe und an
+> Art. 14 entwickelt, hier steht sie als Betriebs-Kurzfassung). Wer eine
+> der beiden ändert, zieht die andere im selben Zug nach.
+> ⚠️ Zugleich ist der **Zirkel** aufzulösen: O-8 leitet seine Liste mit
+> „Mindestumfang im Brief **nach Rechtsmatrix C4** + DSK Ziff. 2.1" ein,
+> während der Kasten oben sagt, die Formulierung sei **von dort**
+> übernommen. Jede Datei nennt die andere als Quelle. Die Auflösung
+> gehört ins O-8-Dokument und ist als Nebenbefund gemeldet (außerhalb
+> des Scopes dieser Session).
 
 Und: Information und Werbetext sind **klar voneinander zu trennen** und die Information deutlich herauszustellen (Aufsichtsauffassung).
 

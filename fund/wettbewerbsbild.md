@@ -343,6 +343,10 @@ Check-in Rate / Upsell Revenue / Guest Satisfaction Score) und ein Tool
 > Lösungen). Die **AGB** nennen in Ziff. 1.2 wörtlich: „Derzeit werden
 > von Straiv folgende Lösungen angeboten: Online Check-in & -out /
 > Guest Messaging / Digital Concierge / Upselling" — **vier**
+> *(⚠️ ausgewiesen nach Prüferbefund PB-12: In der Quelle steht der
+> Einleitungssatz auf einer Zeile und die vier Lösungen auf **vier
+> eigenen Zeilen**; die Schrägstriche sind eine Setzung dieser Session,
+> Wortbestand und Reihenfolge sind unverändert)*
 > (Beleg-Typ: **SELBST**, Anbieter-AGB, Abzug 12.08.2026,
 > `sensibel/rohbelege-R11-A/agent1-straiv-agb.txt`, git-ignoriert;
 > Herkunft des Befundes: `protokolle/R11-A-abschluss.md` Block 3, dort
@@ -541,12 +545,14 @@ Paket.
 > | **7.1** | Einmal- und/oder laufender Betrag, **Zahlung jährlich im Voraus** | „einen einmaligen und/oder wiederkehrenden Betrag in Abhängigkeit vom gewählten Paket und dem vereinbarten Zahlungsturnus. Soweit nicht abweichend vereinbart, zahlt der Kunde die jeweilige Vergütung **jährlich im Voraus**." |
 > | **7.2** | **Einrichtungsgebühr als Kann-Position** | „stellt Straiv dem Kunden **mögliche** einmalige Gebühren für das Onboarding und die Einrichtung der Software in Rechnung. Die Höhe … ist in der aktuell gültigen **Paketübersicht** aufrufbar." |
 > | **7.3** | Transaktionsbasierte Vergütung als eigene Kategorie | „die jeweils vereinbarte **prozentuale Provision pro Transaktion**", Abrechnung zum Monatsende |
-> | **7.4** | **Steuerbasis — hier ausnahmsweise belegt** | „**Sämtliche Preise verstehen sich zuzüglich der gesetzlich gültigen Mehrwertsteuer.**" Alle Straiv-Beträge sind damit **netto**. ⚠️ Gilt für die AGB-Preise; die **Store-Listing-Werte** oben (2,50 / 1,00 / 1,00 €/Zi/M) tragen weiterhin **keine** Angabe zu netto/brutto — zwei Quellen, zwei Fußnotenlagen, nicht vermischen |
+> | **7.4** | **Steuerbasis der VERTRAGSPREISE** | „**Sämtliche Preise verstehen sich zuzüglich der gesetzlich gültigen Mehrwertsteuer.**" (Schlusssatz der Ziffer) ⚠️ **Wofür das gilt und wofür nicht** *(präzisiert nach Prüferbefund PB-16 — hier stand „Alle Straiv-Beträge sind damit **netto**", was leer ist, weil in den AGB gar keine Beträge stehen)*: Die Klausel bindet die **Vertragspreise aus Paketübersicht/Einzelvertrag**, die dieses Papier nicht kennt. Für die **Store-Listing-Werte** oben (2,50 / 1,00 / 1,00 €/Zi/M) gilt sie **nicht** — die stammen aus einer anderen Quelle und tragen dort weiterhin **keine** Angabe zu netto/brutto. Fußnoten nie quellenübergreifend ergänzen |
+> | **7.7** | ⭐ **Einseitiges Preiserhöhungsrecht** *(ergänzt nach Prüferbefund PB-15 — die Erstfassung ließ es aus, und die Auslassung wirkte in Richtung „Wettbewerbsmodell milder als es ist")* | „Straiv ist berechtigt, die vereinbarte Vergütung der Leistungen mit einer Ankündigung per E-Mail von drei Monaten zum Monatsende zu erhöhen. Der Kunde hat … das Recht, den jeweiligen Einzelauftrag innerhalb einer Frist von sechs Wochen zum Wirksamwerden der Preisanpassung zu kündigen." **Mit Grenze zugunsten des Kunden:** „Im Fall einer gewählten Mindestlaufzeit sind Preiserhöhungen erst 12 Monate nach Vertragsbeginn möglich", weitere frühestens 12 Monate nach der letzten Anpassung |
 > | **11.1 / 11.2** | **Zwei Laufzeitmodelle nebeneinander** | jährliche Mindestlaufzeit: Kündigung „mit einer Frist von drei Monaten zum Ende der jeweiligen Laufzeit", sonst automatische Verlängerung · monatliche Mindestlaufzeit: „Frist von vier Wochen zum Monatsende" |
 >
 > **Was das für uns heißt:** Der nächstliegende Technikwettbewerber
 > arbeitet mit **Zimmerzahl-Bemessung + Jahresvorauszahlung +
-> Kann-Setup-Gebühr + Transaktionsprovision** — vier Preisform-Elemente,
+> Kann-Setup-Gebühr + Transaktionsprovision + einseitigem
+> Preiserhöhungsrecht** — fünf Preisform-Elemente,
 > die in unserer eigenen Preisarbeit als Optionen geführt werden
 > (Zielort dort: `handel/preismodell-optionen.md`; **von dieser Session
 > nicht angefasst**, fremder Scope).
@@ -2327,13 +2333,22 @@ wer sie weiterverwendet, muss das dazuschreiben):
 >
 > | Position | Betrag laut Quelle | Art |
 > |---|---|---|
-> | Cookie-Banner | **10 €** (in allen drei Website-Spalten derselbe Wert) | laufend (Monatsspalte) |
-> | Integration Buchungsmaschine | **10 €** | laufend (Monatsspalte) |
-> | Google Analytics Setup | **260 €\*** | einmalig |
-> | Erstellung neuer Website-Texte | **1.050 € / 1.950 € / 3.250 €\*** | einmalig |
-> | Einmalige On-Site SEO | **650 € / 950 € / 1.580 €\*** | einmalig |
+> | Cookie-Banner | **10 €** (dreimal derselbe Wert) | ⚠️ **von der Quelle nicht bezeichnet** |
+> | Integration Buchungsmaschine | **10 €** | ⚠️ **von der Quelle nicht bezeichnet** |
+> | Google Analytics Setup | **260 €\*** | einmalig (Sternchen) |
+> | Erstellung neuer Website-Texte | **1.050 € / 1.950 € / 3.250 €\*** | einmalig (Sternchen) |
+> | Einmalige On-Site SEO | **650 € / 950 € / 1.580 €\*** | einmalig (Sternchen) |
 >
 > *\* = „Einmalige Gebühr" — die Fußnote steht so unter der Matrix.*
+>
+> ⚠️ *(Korrigiert 13.08.2026 nach Prüferbefund PB-9: Die Erstfassung
+> wies die beiden 10-€-Posten als „**laufend (Monatsspalte)**" aus. Das
+> war ein **Umkehrschluss aus der Abwesenheit des Sternchens**, keine
+> Quellenaussage — bei den beiden Posten steht in der Quelle nur der
+> Betrag, ohne Spaltenkopf und ohne Marker. Bei einem Preisbefund ist
+> genau diese Achse entscheidungsrelevant: **10 €/Monat ≠ 10 €
+> einmalig.** Die Zuordnung ist damit offen und muss an der gerenderten
+> Seite geklärt werden, wenn jemand mit den Werten rechnet.)*
 >
 > ⚠️ **Drei Grenzen, die zu diesen Zahlen gehören:**
 > **(1) Steuerbasis:** von der Quelle **nicht angegeben** — wie bei den
@@ -2354,8 +2369,17 @@ wer sie weiterverwendet, muss das dazuschreiben):
 > identischen Beträgen** — je 1 Treffer für „Cookie-Banner",
 > „Integration Buchungsmaschine", „Google Analytics Setup",
 > „Erstellung neuer Website-Texte", „Einmalige On-Site SEO" und für die
-> Werte 260 · 1.050 · 1.950 · 3.250 · 650 · 950 · 1.580; Gegenprobe mit
-> einem erfundenen Betrag („4.999") = 0 Treffer.
+> Werte 260 · 1.050 · 1.950 · 3.250 · 650 · 1.580 (je 1 Treffer) sowie
+> **„950" mit 2 Treffern — der zweite ist ein Teilwort-Treffer in
+> „1.950"**; Gegenprobe mit einem erfundenen Betrag („4.999") =
+> 0 Treffer. *(⚠️ Korrigiert nach Prüferbefund PB-10: Die Erstfassung
+> schrieb „7 Wertproben **je 1 Treffer**" — für „950" stimmt das nicht,
+> dieselbe Teilwortklasse, die weiter oben bei „Verbraucher"
+> ausgewiesen ist. Und die beiden **10-€-Posten** waren zunächst nur
+> über ihren NAMEN geprüft, nicht über den Betrag; beide Abzüge zeigen
+> jedoch an identischer Stelle „Cookie-Banner / 10€ / 10€ / 10€ /
+> Anfrageformular / Integration Buchungsmaschine / 10€" — nachgemessen
+> 13.08.2026, die Sachaussage trägt.)*
 >
 > **Der richtige Befund lautet deshalb: Die Posten sind NICHT neu — sie
 > waren am Erhebungstag vorhanden und sind bei der Auswertung

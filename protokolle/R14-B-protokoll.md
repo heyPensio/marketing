@@ -145,12 +145,47 @@ Zählweg je Muster `grep -ro --include="*.md" "<muster>" . | wc -l`.
 | `Rn. 84` / `Rn. 88` / `Rn. 79` | 12 / 10 / 12 | O-8, Rechtsmatrix |
 | `199` / `187` / `109 Treffer` | 31 / 21 / 4 | O-8, Rechtsmatrix, Wettbewerbsbild, Preisdokumente |
 
-**Zwei Trefferstellen sind durch meine Edits überholt** — beide in
+**Trefferstellen, die durch meine Edits überholt sind** — alle in
 `akquise/interessenabwaegung-o8.md`, **außerhalb meines Scopes**, daher
-als Nebenbefund gemeldet und im N-12-Kasten sichtbar vermerkt:
-(a) „Gegenansicht, die in der Rechtsmatrix **fehlt**";
-(b) Q-05-Vermerk „die Lücke ist aus C4 **geerbt** — dort steht dieselbe
-Aufzählung ohne die Empfänger-Angabe".
+als Nebenbefund gemeldet:
+
+> ⛔ **KORREKTUR 13.08.2026 nach Prüferbefund PB-6.** Hier stand „**Zwei**
+> Trefferstellen sind durch meine Edits überholt" und danach die Punkte
+> (a) und (b). Das war eine Bestandsaussage mit stillem
+> Vollständigkeitsanspruch **und sie war zu klein**: Die Suche lief über
+> die geänderten GRÖSSEN (Achse 1), nicht über die **Statusaussagen des
+> Nachbardokuments über die Rechtsmatrix** — Achse 2 wurde nur auf die
+> eigenen zwei Dokumente angewendet. Das Quellkapitel
+> `akquise/interessenabwaegung-o8.md` § 11.2 („Abweichungen und
+> Ergänzungen gegenüber der Kanal-Rechtsmatrix") trägt **acht**
+> nummerierte Punkte; nachgezählt am Bestand 13.08.2026:
+
+| O-8-Stelle | Aussage | Status nach R14-B |
+|---|---|---|
+| § 6.2 | „Gegenansicht, die in der Rechtsmatrix **fehlt**" | **überholt** |
+| § 7.1 (Q-05-Kasten) | „die Lücke ist aus C4 **geerbt**" | **überholt** |
+| § 11.2 Nr. 1 | „lässt aber offen, dass beide Absagegründe auf Stufe 1 liegen" | **überholt** (N-11 eingearbeitet) |
+| § 11.2 Nr. 2 | „In der Rechtsmatrix ist diese Gegenansicht nicht vermerkt" | **überholt** (N-12 eingearbeitet) |
+| § 11.2 Nr. 5 | „Zwei Zahlen ohne Zählweg" | **überholt** (N-13 eingearbeitet) |
+| § 11.2 Nr. 8 | „in der Rechtsmatrix **nachzuziehen**" | **erledigt** (N-9 eingearbeitet) |
+
+> ⚠️ **Und ein Sachfehler, den erst die Messung dieser Runde erzeugt
+> hat:** § 11.2 Nr. 5 sagt „109 ist case-sensitiv". Diese Runde hat
+> gemessen (und der Prüfer hat reproduziert), dass die Zahl **nicht
+> case-abhängig** ist. Das Nachbardokument trägt damit eine **widerlegte**
+> Aussage — weder dort markiert noch bisher gemeldet. Jetzt als
+> Nebenbefund geführt.
+
+**Zwei weitere Rechtsmatrix-Befunde desselben Quellkapitels** (§ 11.2
+Nr. 3 und Nr. 4), die nie als N-Posten in `R09-A-abschluss.md` Block 3
+weitergereicht wurden und deshalb nicht im Auftrag standen — nach L-34
+(„ein Quellverweis nennt, wo man anfängt") und CLAUDE.md Regel 8(b)
+gehören sie trotzdem disponiert:
+
+| Punkt | Inhalt | Disposition durch R14-B |
+|---|---|---|
+| **§ 11.2 Nr. 3** | „Art. 21 Abs. 4 ist im **Tenor** des Urteils nicht enthalten … Wer ein ‚tenoriertes Art.-21-Verbot' zitiert, zitiert zu weit" | **eingearbeitet** — er trifft denselben A7-Satz wie PB-1 und steht jetzt in dessen Nachtragskasten |
+| **§ 11.2 Nr. 4** | Rechtsmatrix C2 zu **EuGH Rn. 56**: die Zuspitzung „ausdrücklich als Negativfaktor" trägt nur teilweise | **NICHT eingearbeitet — Träger MKT-HANDEL.** Die Prüfung verlangt den EuGH-Volltext C-621/22; er liegt zwar in `sensibel/rohbelege-R09-A/` (EN-Volltext + amtlicher dt. Tenor), aber die Bewertung, ob die Zuspitzung trägt, ist eine **Rechts-Bewertung** und damit außerhalb dieses Auftrags. Fundstelle in der Rechtsmatrix: Teil C, Stufe-3-Abschnitt |
 
 **Gegenprüfung ohne Befund:** Die 5-%-Angabe in
 `handel/preismodell-optionen.md` § 6.3.1 ist bereits korrekt als
@@ -206,9 +241,42 @@ Ausnahmeliste und **kein** Eingriff in `akquise/` nötig.
 
 > ⭐ Die Poolgrößen-Änderung ist zugleich die Positivkontrolle des
 > Wächter-Laufs: Sie belegt, dass das Werkzeug die **geänderte** Fassung
-> der Rechtsmatrix gelesen hat und nicht einen alten Stand — die Frage
-> „welchen Text liest der Wächter?" ist damit beantwortet, nicht
-> unterstellt.
+> der Rechtsmatrix gelesen hat und nicht einen alten Stand.
+
+> ⛔ **KORREKTUR 13.08.2026 nach Prüferbefund PB-5 — die obige Entwarnung
+> war eine halbe.** Der ursprüngliche Absatz schloss mit: „die Frage
+> ‚welchen Text liest der Wächter?' ist damit beantwortet, nicht
+> unterstellt." **Die vollständige Frage lautet: welchen Text liest er —
+> und welchen NICHT?** Gemessen an den Konstanten in
+> `akquise/pruefe-zitate.js` (selbst gelesen, 13.08.2026):
+>
+> - `ZIEL` = `akquise/akquiseplan.md` + `akquise/listenbau-regelwerk.md`
+> - `POOL` = Rechtsmatrix · Regionalstatistik-Erhebung ·
+>   Positionierungspapier · R00-Planprüfung · Projektquelle · STATUS.md ·
+>   baseline-messplan · CLAUDE.md
+>
+> Daraus folgt zweierlei: **(1)** `fund/wettbewerbsbild.md` steht **weder
+> in ZIEL noch in POOL** — von diesem Dokument hat der Wächter kein Wort
+> gelesen. **(2)** Die Rechtsmatrix steht nur im **POOL**, wird also als
+> *Quelle für fremde Zitate* gelesen; ob die Zitate **in ihr** stimmen,
+> prüft der Wächter nicht.
+>
+> **Damit gilt: Von den rund 20 wörtlichen Zitaten, die R14-B neu gesetzt
+> hat, hat der Wächter kein einziges geprüft.** „Exit 0" heißt hier nur:
+> *meine Edits haben keine bestehende Prüfung gebrochen* — es ist keine
+> Bestätigung meiner neuen Zitate.
+>
+> **Was stattdessen trägt** (damit die Lücke nicht offen bleibt): Alle
+> neuen Zitate wurden beim Schreiben aus den Rohbelegen **kopiert**, und
+> der unabhängige Prüf-Subagent hat **16 von 16** wörtlichen Zitaten
+> byte-genau gegen die Rohbelege verglichen sowie 9 von 9
+> Rn.-Zuordnungen bestätigt. Das ist ein Beleg durch einen zweiten
+> Leser, kein maschineller — und als solcher ausgewiesen.
+>
+> 📌 **Folgeposten (Träger MKT-AKQ / Leitsession):** Ob
+> `fund/wettbewerbsbild.md` und die Rechtsmatrix als **ZIEL** in den
+> Wächter aufgenommen werden sollten, ist eine Werkzeug-Entscheidung
+> außerhalb dieses Auftrags — der Befund ist gemeldet.
 
 ---
 
@@ -247,3 +315,73 @@ verschwunden.
 - **Kein neuer Rohbeleg-Ordner**, keine Außenhandlung, keine
   Web-Recherche.
 - **O-9 bleibt OFFEN** — geführt ist nicht entschieden.
+
+---
+
+## 9. Prüferbefunde — Disposition mit Nenner (Nachtrag nach dem Prüflauf)
+
+Prüfer: unabhängiger Subagent, frischer Kontext, eingefrorener Prüfstand
+**`af9909f`**, Schreibrecht nur auf `protokolle/R14-B-pruefer.md`,
+Arbeitsbaum-Diff ausdrücklich nicht gesichtet.
+**17 Befunde: 1 SCHWER · 8 MITTEL · 8 HINWEIS.**
+
+> **17 von 17 disponiert — 16 repariert, 1 mit benanntem Träger
+> weitergereicht, 0 stillschweigend offen.** Jede Reparatur steht als
+> **sichtbarer Kasten** im jeweiligen Dokument („hier stand X, das war
+> falsch, weil …"), nie als stille Neufassung. **Jeder tragende Befund
+> wurde vor der Reparatur am ROHBELEG selbst nachgemessen**, nicht am
+> Prüferwort.
+
+| ID | Schwere | Disposition | Eigene Nachmessung |
+|---|---|---|---|
+| **PB-1** | SCHWER | **repariert** — Nachtragskasten am A7-Abschnittsanfang: „gestützt ausschließlich auf … DSGVO" ist als überholungsbedürftig markiert, mit Verweis auf Teil B. Der Bestandssatz bleibt sichtbar; **wie er richtig zu fassen ist, entscheidet diese Session NICHT** (Rechts-Bewertung, harte Grenze b) → Träger MKT-HANDEL | **bestätigt:** „UWG" 148 · „§ 3a UWG" 21 · „§ 3 Abs. 1 UWG" 5, bei „§ 7 UWG" = 0 |
+| **PB-2** | MITTEL | **repariert** — Rn.-88-Zitat um den Folgesatz („§ 3 Abs. 1 UWG … §§ 5, 5a UWG") vervollständigt | am Rohbeleg gelesen ✔ |
+| **PB-3** | MITTEL | **repariert durch STREICHEN** (L-17: nicht abschwächen) — der Gleichlauf-Satz war eine Entwarnung, wurde von der eigenen Tabellenzeile widerlegt und war eine neue Rechtsbewertung. Vorfassung im Streichungsvermerk sichtbar | Rn. 83 gelesen: Beleg ist eine Fundstelle „für das Lettershopverfahren" ✔ |
+| **PB-4** | MITTEL | **repariert** — Positivkontrolle auf den case-**sensitiven** Wert 14 korrigiert, Gegenprobe „§ 7" = 1 (Teilwort „§ 709 ZPO") ergänzt | **bestätigt:** „Werbung" cs = **14**, ci = 35 |
+| **PB-5** | MITTEL | **repariert** — § 6 des Protokolls sagt jetzt, welchen Text der Wächter **NICHT** liest; Ersatz-Beleg (16/16 byte-genau durch den Prüfer) ausgewiesen; Werkzeug-Folgeposten gemeldet | **bestätigt:** `ZIEL`/`POOL` selbst gelesen — Wettbewerbsbild in keinem, Rechtsmatrix nur im POOL |
+| **PB-6** | MITTEL | **repariert** — Nebenbefund-Inventar von 2 auf **6** überholte Stellen erweitert + der widerlegte § 11.2 Nr. 5 als eigener Nebenbefund | **bestätigt:** § 11.2 hat acht Punkte |
+| **PB-7** | MITTEL | **geteilt disponiert** — Nr. 3 (Art. 21 Abs. 4 nicht im Tenor) **eingearbeitet** in den PB-1-Kasten; Nr. 4 (EuGH Rn. 56) **ausdrücklich weitergereicht**, Träger MKT-HANDEL, Grund im Protokoll benannt | § 11.2 Nr. 3/Nr. 4 im Wortlaut gelesen ✔ |
+| **PB-8** | MITTEL | **repariert** — Instanz + Rechtskraft („nicht prüfbar", kein Negativbefund) im N-14-Abschnitt ergänzt; die schwächere A7-Formulierung als Posten vermerkt | O-8 § 6.2 Messung gelesen ✔ |
+| **PB-9** | MITTEL | **repariert** — „laufend (Monatsspalte)" war ein Umkehrschluss aus dem fehlenden Sternchen; Spalte auf „von der Quelle nicht bezeichnet" zurückgeführt, Entscheidungsrelevanz benannt | Quelle gelesen: bei beiden Posten nur der Betrag ✔ |
+| **PB-10** | HINWEIS | **repariert** — „950" trägt 2 Treffer (Teilwort in „1.950"); die zwei 10-€-Posten waren nur über den Namen geprüft, jetzt am Betrag nachgemessen | **bestätigt:** 950 = 2 in **beiden** Abzügen |
+| **PB-11** | HINWEIS | **repariert (B)** — „alle Negative tragen das Datum 10.08." bekommt die ausdrückliche Ausnahme der 13.08.-Nachmessungen. **(A)** Die Aussage über die fünf fremden Commits war beim Schreiben ungemessen (L-36-Klasse); der Prüfer hat sie nachgemessen und **bestätigt** (7 Löschungen, alter Wortlaut kehrt je wieder) — sie bleibt stehen, der Messweg ist jetzt dokumentiert | Prüfer-Messung nachvollzogen ✔ |
+| **PB-12** | HINWEIS | **repariert** — die Schrägstriche im „wörtlich"-Zitat sind als Setzung dieser Session ausgewiesen | Quellzeilen 111–115 gelesen ✔ |
+| **PB-13** | HINWEIS | **repariert** — Klammerzusatz „(berechtigtes Interesse)" entfernt; die Quellen sagen nur „Stufe 1", und für Rn. 84 trifft die Klammer nicht | Rn. 84 gelesen ✔ |
+| **PB-14** | HINWEIS | **repariert** — **Vorrangklausel** in C4 eingezogen (bei Widerspruch gewinnt das O-8-Dokument), Zirkel der Quellenangaben benannt und als Nebenbefund gemeldet | `pruefe-zitate.js` gelesen: kein Wächter für diese Dublette ✔ |
+| **PB-15** | HINWEIS | **repariert** — AGB Ziff. 7.7 (einseitiges Preiserhöhungsrecht) ergänzt, **mit** der Grenze zugunsten des Kunden (12-Monats-Sperre bei Mindestlaufzeit); Fazit von vier auf **fünf** Preisform-Elemente korrigiert | **bestätigt:** Ziff. 7.7 im Wortlaut gelesen |
+| **PB-16** | HINWEIS | **repariert** — „Alle Straiv-Beträge sind damit netto" war leer (in den AGB steht keine Höhe); jetzt auf die **Vertragspreise** bezogen, Store-Listing-Werte ausdrücklich ausgenommen | Ziff. 7.4 im Volldump gelesen ✔ |
+| **PB-17** | HINWEIS | **repariert** — Rn. 130 (Art. 3 Abs. 4 UGPRL) in die N-14-Tabelle eingefügt; die Grenze aus Rn. 129 hat im Urteil eine Antwort | **bestätigt:** „Art. 3 Abs. 4 UGPRL" 5 Treffer |
+
+### LAUF-STATUS des Prüfers — offene Prüfschritte einzeln, nicht geglättet
+
+Der Prüfer hat **kein Session-Limit** erreicht; sein Protokoll ist
+vollständig. Er weist selbst vier Grenzen aus:
+
+1. **Die Wächter-BASELINE (361.183 Zeichen) konnte er nicht
+   reproduzieren** — sie liegt vor den Edits und ist aus dem
+   eingefrorenen Stand nicht rekonstruierbar, ohne den (verbotenen)
+   Arbeitsbaum anzufassen. **Nicht geprüft, keine Entwarnung.** Er
+   bestätigt nur, dass der Nachher-Lauf in jeder Zeile reproduziert und
+   dass das Pool-Delta **nur** aus der Rechtsmatrix stammen kann.
+2. **Der Selbsttest-Modus** (`--selbsttest`) wurde nicht gefahren.
+3. **`akquise/listenbau-regelwerk.md`** hat er nur über den Wächter-Lauf
+   berührt, nicht gelesen — der Prüfraum nennt es, er hat es nicht
+   ausgeschöpft.
+4. **Achse 2 der Konsequenz-Probe** hat er mit **6 von 11** Mustern
+   stichprobenhaft nachgezählt (alle 6 exakt); die unveränderten Teile
+   beider Dokumente hat er **nicht systematisch** gegengelesen.
+
+**Nicht prüfbar (eigene Kategorie):** Der **Inhalt** aller
+Sekundärquellen — EuGH C-621/22, C-21/23, C-319/20, OLG Stuttgart
+2 U 63/22, Eckhardt ZD 2024, 399 und ZD 2025, 443, die BGH-Urteile aus
+Rn. 128. Geprüft ist ausschließlich ihre **Wiedergabe im LG-Volltext**.
+Belegstufe ③ ist im Dokument gesetzt; ob die Fundstellen inhaltlich
+zutreffen, ist mit dem vorhandenen Bestand **nicht feststellbar**.
+
+**Ein Prüferbefund war in seiner Ursachen-Diagnose teilweise vorschnell**
+(er hat es selbst offengelegt): Bei PB-16 hielt er die Netto-Zuordnung
+zunächst für eine Fehlzuordnung, weil ein auf 200 Zeichen begrenzter
+Kontext-Grep nur den Anfang von Ziff. 7.4 zeigte. Erst der Volldump löste
+es auf — **eine abgeschnittene Werkzeugausgabe trägt kein Negativ, auch
+nicht beim Prüfer.** Der Befund selbst (die Aussage ist leer) trägt
+trotzdem.

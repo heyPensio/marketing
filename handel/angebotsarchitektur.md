@@ -219,10 +219,15 @@
 > > sie aber genau hier**: bevor ein **Kunden-Angebot mit
 > > A3-Architektur** hinausgeht. Das ist ein Angebots-Posten, kein
 > > Preislisten-Posten.
+> >
 > > **📌 R15-B, 14.08.2026:** Dieser Vorbehalt hat seitdem eine Stelle,
-> > an der er **greift** — die Gate-Kette **§ 6a.7** (G-1 … G-4). Sie
+> > an der er **greift** — die Gate-Kette **§ 6a.7** (GA-1 … GA-4). Sie
 > > führt keine zweite Fassung von K-1, sondern zeigt auf die hier und
-> > in `preismodell-optionen.md` § 5.3 stehende.
+> > in `preismodell-optionen.md` § 5.3 stehende. ⚠️ **Die Kette ist bis
+> > zur Vorlage beim User ein VORSCHLAG** (§ 6a.7, Reparatur F-7).
+> > *(Trennzeile davor ergänzt nach Prüferbefund F-15: ohne sie
+> > verschmolz dieser Nachtrag beim Rendern mit dem R14-A-Text darüber
+> > zu einem Absatz und war als späterer Eintrag nicht mehr erkennbar.)*
 > >
 > > ⭐ **Neu für § 5/§ 6 relevant — die Auflage AU-2:** Das Entgelt muss
 > > als **Dienstleistungsentgelt** ausgewiesen sein (Infrastruktur zum
@@ -703,8 +708,10 @@ Modulwahl.
 > § 6a, hier nur der Zeiger:** **WP-AU2** gilt für **jede Stufe** — keine
 > Stufe darf sich über „mehr Zugang" definieren, sondern nur über **mehr
 > Leistung**. **ON-L** ist in **jeder** Stufe gleich, auch in der
-> kleinsten. ⚠️ **Formspezifisches Verbot:** Die Lizenzübergabe darf
-> **nie** ein Stufenmerkmal sein — eine Stufe ohne sie wäre lizenzwidrig.
+> kleinsten. ⚠️ **Formspezifische Grenze:** Die Lizenzübergabe darf
+> **nie** ein Stufenmerkmal sein — eine Stufe ohne sie ließe AU-4 für
+> diese Stufe leerlaufen (**④ Folgerung dieser Session**; Erstfassung
+> schrieb „wäre lizenzwidrig", korrigiert nach Prüferbefund F-10).
 
 ⚠️ **Für alle drei Optionen gilt:** Der **Durchreichungsblock** (§ 2
 der Preisliste) steht AUSSERHALB der Pakete — er ist kein
@@ -1363,9 +1370,16 @@ trägt.)*
 > > (`ON-L1…ON-L4`)**; die Verankerung in allen drei Paketformen steht in
 > > **§ 6a.5** (3 von 3), die Bezeichnungspflicht zu AU-2 in **§ 6a.3**
 > > (`WP-AU2`). ⚠️ **Der Satz „sobald die Firmierung steht" bleibt für
-> > das WORDING richtig** — er gilt aber **nicht** für den
-> > Onboarding-Schritt selbst: ON-L braucht keine Firmierung und ist
-> > **nicht** an F-7 gebunden. Zusätzlich in § 6a: **AU-1** und **AU-3**
+> > das WORDING richtig** — er gilt aber **nicht** unverändert für den
+> > Onboarding-Schritt selbst: **ON-L braucht für seine DURCHFÜHRUNG
+> > keine Firmierung** (der Protokollvermerk funktioniert ohne sie);
+> > **als geschuldete LEISTUNG hängt er wie jede andere am Vertrag und
+> > damit an F-7** (Gate `GA-3`). Der Firmierungs-Vorbehalt verzögert
+> > also nicht den Schritt, wohl aber seine vertragliche Verankerung.
+> > *(Die Erstfassung schrieb unbeschränkt „ist **nicht** an F-7
+> > gebunden" — das widersprach dem eigenen `GA-3` im selben Commit;
+> > korrigiert nach Prüferbefund F-8.)*
+> > Zusätzlich in § 6a: **AU-1** und **AU-3**
 > > (4 von 4 geprüft, § 6a.2), die Kundenpflicht **O-2** als
 > > Klauselentwurf `VK-O2` (§ 6a.6) und die Gate-Kette vor dem
 > > Angebotsausgang (§ 6a.7).
@@ -1383,7 +1397,13 @@ trägt.)*
 > Klauselarbeit: keine Beträge, keine Höhen, keine Fristen** — alle
 > Höhen hängen unverändert an E-6/E-7 (Kopfkasten Punkt 4).
 > **Erstellt:** Runde **R15-B**, 14.08.2026 · **Lesestand:** Repo-HEAD
-> `4b84693`.
+> `4b84693` · **Nachlauf-Check vor dem Commit** *(ergänzt nach
+> Prüferbefund F-16 — er war gelaufen, aber nicht ausgewiesen)*:
+> `git log 4b84693..HEAD -- handel/preismodell-optionen.md
+> handel/preisliste-vorlaeufig.md` → **0 Commits**; der zwischenzeitlich
+> eingegangene Fremd-Commit `88ad1bf` betraf nur `STATUS.md`,
+> `projektquelle-mkt.md` und den Tagesplan, keine der hier gelesenen
+> Quellen.
 
 ### 6a.1 Der Wortlaut der vier Auflagen — am ROHBELEG zurückgeholt
 
@@ -1408,7 +1428,14 @@ gegreppt.
 >    Gestaltungsauflagen".
 > 2. **Der Formulierungsvorschlag § 3.8 endet mit „Klärweg + Auflagen
 >    AU-1…**AU-3**"** — wer ihn wörtlich übernimmt, verliert **AU-4, die
->    einzige Auflage mit einer Handlungspflicht** (so bereits als
+>    einzige Auflage mit einer Handlungspflicht** (Quelle im Satz: der
+>    Rohbeleg selbst, § 3.6 zur `### Notices`-Klausel — „Die Klausel
+>    begründet eine **positive Handlungspflicht**, nicht nur ein
+>    Unterlassen; **sie ist die einzige Auflage dieses Katalogs, die
+>    etwas zu TUN verlangt**". ⚠️ Derselbe Rohbeleg schreibt zwei Absätze
+>    weiter „**AU-2 ist die einzige, die laufende Arbeit macht**" — die
+>    beiden Superlative stehen nebeneinander; hier gilt der auf AU-4
+>    bezogene, weil er die Klausel auslegt) — (so bereits als
 >    Nebenbefund **R14A-N-1** an heypensio gemeldet;
 >    `preismodell-optionen.md` § 5.3-Nachtrag weist die bewusste
 >    Abweichung aus).
@@ -1419,7 +1446,26 @@ gegreppt.
 > heypensio-Leitsession; hier stehen sie als Zählwarnung, damit die
 > Fehlklasse nicht ein drittes Mal weiterwandert.
 
-| Nr. | Wortlaut der Auflage (① am Rohbeleg, § 3.6-Tabelle) | Woran sie hängt (Belegstufe des Rohbelegs) |
+> 🔧 **Reparatur nach Prüferbefund F-1 (schwer) — der wichtigste
+> Vorbehalt der Quelle war verlorengegangen:** Der Rohbeleg leitet die
+> Tabelle wörtlich ein mit „Sie gilt unter drei Gestaltungsauflagen
+> (**alle Stufe E**, jede an eine zitierte Klausel gebunden)" (§ 3.6,
+> Z. 445 f. @`4fa530b`, selbst nachgemessen). **Die Erstfassung dieses
+> Abschnitts überschrieb die dritte Spalte mit „Belegstufe des
+> Rohbelegs" und trug dort „Stufe A" ein** — dadurch lasen sich AU-1 und
+> AU-4 als lizenztextfest, obwohl die **Auflage selbst** in der Quelle
+> durchgehend **Stufe E** ist. **Der Spaltenkopf ist korrigiert; die
+> Vorfassung steht hier.** Die Spalte nennt jetzt, was sie nennt: die
+> **zitierte Klausel**, an die die Auflage gebunden ist — nicht die
+> Belegstufe der Auflage. *(Klasse: Beim Kopieren einer Tabelle sind die
+> ZELLEN byte-treu und der KOPF umformuliert — der Vorbehalt fällt genau
+> dort, wo nicht kopiert, sondern geschrieben wird.)*
+
+⚠️ **Belegstufe der vier Auflagen: durchgehend E** (Auslegung der
+Rohbeleg-Session) — die Spalte rechts nennt nur die **zitierte Klausel**,
+an die die jeweilige Auflage gebunden ist, und deren Stufe.
+
+| Nr. | Wortlaut der Auflage (① am Rohbeleg, § 3.6-Tabelle) | Zitierte Klausel, an die sie gebunden ist (Stufe **der Klausel**, nicht der Auflage) |
 |---|---|---|
 | **AU-1** | „**Der Kunde ist tatsächlich Lizenznehmer** — die Instanz läuft auf einem Vertrag/Konto, das ihm zurechenbar ist, und er kann sie behalten, wenn die Zusammenarbeit endet. Ein ‚Eigentum' nur im Marketingtext trägt nicht." | L-1 „your own" (**Stufe A**, Lizenztext) |
 | **AU-2** | „**Das Entgelt ist als Dienstleistungsentgelt ausgewiesen**, nicht als Zugangs-/Nutzungsgebühr für n8n. Infrastruktur zum Selbstkostenpreis durchgereicht (so ohnehin E-3), Servicegebühr getrennt — **und in Angebot, Vertrag und Rechnung auch so benannt.**" | FAQ „Hosting n8n and charging people money to access it" (**Stufe B**) |
@@ -1449,8 +1495,23 @@ werden dürfen:**
    „Onboarding-Protokoll"). Die Zusammenfassung ist **② BESTAND aus der
    Zwischenquelle**, kein Rohbeleg-Zitat — Zählweg:
    `grep -n "vier Auflagen"` im Rohbeleg → **0 Treffer**,
-   Positivkontrolle `grep -n "AU-1"` → **1 Treffer** (Z. 450, die
-   Tabellenzeile), gemessen 14.08.2026 @`4fa530b`.
+   Positivkontrolle `grep -n "AU-1"` → **2 Treffer** (Z. 450
+   Tabellenzeile, Z. 719 Formulierungsvorschlag § 3.8), gemessen
+   14.08.2026 @`4fa530b`, **Suchraum: der ganze Rohbeleg**. **Zweite
+   Kontrolle in derselben Suchmechanik** (der Nulltreffer ist eine
+   Zwei-Wort-Phrase, ein Einzel-Token prüft sie nicht):
+   `grep -c "drei Auflagen"` → **1 Treffer** (Z. 443).
+   > 🔧 **Reparatur nach Prüferbefund F-3 (mittel):** Die Erstfassung
+   > schrieb „**1 Treffer**" und nannte als Suchraum nur die
+   > Tabellenzeile — gezählt worden war offenbar nur innerhalb § 3.6.
+   > **Der zweite Treffer ist ausgerechnet die Zeile, die dieser
+   > Abschnitt 30 Zeilen weiter oben selbst zitiert** (§ 3.8,
+   > „AU-1…AU-3"); das Dokument widersprach sich in sich selbst. Zudem
+   > spiegelte die Kontrolle die **Suchmechanik** des Nulltreffers nicht.
+   > **Beides korrigiert.** Die Nullaussage selbst hält — vom Prüfer
+   > unabhängig reproduziert, einschließlich zeilenübergreifender
+   > Gegenprobe (`tr '\n' ' ' | grep -o "vier *Auflagen"` → 0) und
+   > NBSP-Zählung (0).
 
 ### 6a.2 Wirkung je Auflage auf den Angebotstext — **4 von 4 geprüft**
 
@@ -1464,7 +1525,7 @@ wovon sonst?
 
 | Nr. | Verlangt sie etwas vom ANGEBOTSTEXT? | Wovon sie etwas verlangt | Baustein hier |
 |---|---|---|---|
-| **AU-1** | **Nein** — sie verlangt nichts vom Text, sondern von der **Vertrags- und Kontenlage** dahinter. Der Rohbeleg sagt das ausdrücklich: „Ein ‚Eigentum' nur im Marketingtext trägt nicht." Ein Angebot, das Eigentum **behauptet**, erfüllt AU-1 gerade **nicht** | Vertragsgestaltung + Kontenführung (auf wessen Vertrag laufen Server/Instanz?) | **kein Textbaustein — ein GATE** (6a.6, **G-2**): AU-1 ist erst erfüllbar, wenn die Vertragspartner-Frage **K04/Z-5** beantwortet ist. Ist **heyPensio** Vertragspartner der Infrastruktur, ist der Kunde nicht Lizenznehmer und AU-1 fällt aus |
+| **AU-1** | **Nein** — sie verlangt nichts vom Text, sondern von der **Vertrags- und Kontenlage** dahinter. Der Rohbeleg sagt das ausdrücklich: „Ein ‚Eigentum' nur im Marketingtext trägt nicht." Ein Angebot, das Eigentum **behauptet**, erfüllt AU-1 gerade **nicht** | Vertragsgestaltung + Kontenführung (auf wessen Vertrag laufen Server/Instanz?) | **kein Textbaustein — ein GATE** (§ 6a.7, **GA-2**): AU-1 ist erst erfüllbar, wenn die Vertragspartner-Frage **K04/Z-5** beantwortet ist. ⚠️ **④ Folgerung dieser Session, nicht Rohbeleg:** Läuft der Infrastrukturvertrag auf heyPensio, ist zweifelhaft, ob die Instanz dem Kunden „zurechenbar" ist; **ob das die Lizenznehmer-Stellung berührt, ist offen** — § 3.5 des Rohbelegs knüpft „you" an den **Nutzer**, nicht an den Infrastrukturvertrag. Gehört in die Vertragsprüfung Z-1…Z-7 bzw. zu K04/Z-5 *(Erstfassung schrieb kategorisch „ist der Kunde nicht Lizenznehmer und AU-1 fällt aus" — korrigiert nach Prüferbefund F-17)* |
 | **AU-2** | **Ja, unmittelbar** — „in Angebot, Vertrag und Rechnung auch so benannt". Die einzige Auflage, die eine **Bezeichnungspflicht** an den Text richtet | Positionsbezeichnungen und Struktur der Preisdarstellung | **WP-AU2** (6a.3), verankert in P-A/P-B/P-C |
 | **AU-3** | **Mittelbar, und in die für MKT unbequeme Richtung** — sie verbietet nicht das Angebot, sondern eine **Darstellung**, die der gelieferten Umgebung widerspricht: Wo der Kunde n8n sieht, darf das Angebot die Orchestrierungsschicht nicht als eigene, namenlose „Plattform" verkaufen. **Das ist eine Grenze für das spätere Angebots-Wording** (MKT-MARKE) und für die Bau-Seite | Wording der Außentexte + Bau (keine entfernten/verdeckten Hinweise) | **WG-AU3** (6a.3, Wording-Grenze) — **kein** Textbaustein heute, weil alles Wording auf die Firmierung wartet (Kopfkasten Punkt 2). ⚠️ Belegteilung aus 6a.1 gilt mit |
 | **AU-4** | **Nein zum Angebotstext, ja zum ANGEBOTSINHALT** — sie verlangt einen **Leistungsschritt**, der im Onboarding-Teil erbracht und **nachgewiesen** wird. Ein Angebot muss ihn führen, damit die Leistung geschuldet und der Nachweis erzeugt wird | Onboarding-Prozess + Nachweis (Protokoll) | **ON-L** (6a.4), verankert in P-A/P-B/P-C |
@@ -1477,7 +1538,7 @@ Rohbeleg-Tabelle § 3.6, einzeln beantwortet. Die Zählung kann anders
 ausfallen — AU-1 und AU-3 liefern gerade **kein** Textergebnis.)*
 
 ⚠️ **Was diese Prüfung NICHT sagt:** Sie sagt nicht, dass AU-1 und AU-3
-erfüllt sind. AU-1 ist **offen** (G-2), AU-3 ist eine **Dauerpflicht**
+erfüllt sind. AU-1 ist **offen** (GA-2), AU-3 ist eine **Dauerpflicht**
 ohne heutigen Prüfpunkt, weil es noch keinen Außentext gibt.
 
 ### 6a.3 AU-2 — die Bezeichnungspflicht (WP-AU2) und die Wording-Grenze WG-AU3
@@ -1517,6 +1578,15 @@ Posten geführt**, nicht als erledigt gebucht (s. 6a.7).
 > das **Rebranding gegenüber Kunden** trägt nur die **FAQ (B)**. Wer die
 > Grenze weitergibt, gibt die Belegteilung mit — sie ist **nicht**
 > durchgehend Stufe A.
+> ⚠️ **Der Rohbeleg ist hier nicht einheitlich** *(ergänzt nach
+> Prüferbefund F-18)*: **§ 3.4** stuft das Rebranding-Verbot als **Stufe
+> A** ein (aus L-3, wörtlich: „Kein Rebranding der n8n-Oberfläche, kein
+> Entfernen von Hinweisen, kein ‚heyPensio-Automationsstudio'-Etikett
+> auf dem n8n-Editor"), **§ 3.6** nur als **B**. **WG-AU3 folgt der
+> vorsichtigeren Fassung (§ 3.6)** — das ist die sichere Richtung, aber
+> der Widerspruch wird hier **benannt statt weitergereicht**. **Dritte
+> Fundstelle derselben Fehlklasse — mit an die heypensio-Leitsession**
+> (zu R14A-N-1).
 > **Adressat:** MKT-MARKE/MKT-WEB, sobald Außentexte entstehen. **Heute
 > ist hier nichts zu formulieren** (Firmierungs-Vorbehalt).
 
@@ -1560,6 +1630,17 @@ Anzahl von Übergaben zusagen.
 > Original gelesen**). **Für die heutige Instanzversion 2.10.4 ist die
 > Fassung byte-gleich belegt** — die dortige Tabelle führt
 > `LICENSE-tag-2.10.4.md` mit demselben Kurzwert `d2f621f59aa4c10e`.
+> 🔧 **Reparatur nach Prüferbefund F-6 (mittel) — die Entwarnung galt nur
+> für EINE der beiden Dateien:** Der Satz oben sagt „**die Fassung**" im
+> Singular in einem Kasten, dessen Gegenstand (ON-L1) **beide** Dateien
+> sind. Richtig ist: **Für `LICENSE.md` ist die Fassungsidentität zur
+> Instanzversion 2.10.4 byte-gleich belegt. Für `LICENSE_EE.md` liegt
+> KEIN versions-getaggter Abzug vor** — die Fassungsidentität ist dort
+> **nicht erhoben** (nicht „nicht identisch"). Der Prüfer hat den Ordner
+> vollständig gelistet: eine Datei `LICENSE_EE-tag-2.10.4.md` existiert
+> nicht; die README führt `LICENSE_EE.md` ausschließlich vom
+> `master`-Abruf 13.08.2026. **ON-L3 verlangt den Fassungsstand deshalb
+> für BEIDE Dateien als Pflichtfeld.**
 > ⚠️ **Für künftige Versionen ist das NICHT belegt.** Wer die Dateien
 > einmal ablegt und dauerhaft weiterreicht, übergibt irgendwann die
 > Fassung einer anderen Version — deshalb nennt **ON-L3 den
@@ -1613,7 +1694,7 @@ Schritt?", nicht „steht die Auflage irgendwo im Dokument?".
 |---|---|---|---|
 | **P-A — Ein Gesamtpaket** | **verankert** — gilt für die eine Servicegebühr; der Durchreichungsblock bleibt außerhalb des Pakets | **verankert** — ON-L1…ON-L4 im Onboarding-Teil | Der Verzicht auf Konfiguration erhöht das AU-2-Risiko: Ein „alles drin"-Paket lädt dazu ein, Infrastruktur als inklusive darzustellen — genau das ist untersagt |
 | **P-B — Basis + Module** (Zielbild AA-2) | **verankert** — gilt für Basis **und** für **jedes** zugebuchte Modul; kein Modul darf als „Zugang zu …" bezeichnet werden | **verankert** — ON-L hängt an der **Einrichtung der Instanz**, nicht am Modulumfang; er entfällt also auch im schmalsten Basis-Zuschnitt **nicht** | Die vier Rechnungsblöcke (§ 4, „Dagegen"-Pol) vervielfachen die Stellen, an denen eine falsche Bezeichnung entstehen kann |
-| **P-C — Gestufte Pakete** | **verankert** — gilt für **jede** Stufe; keine Stufe darf sich über „mehr Zugang" definieren, sondern nur über **mehr Leistung** | **verankert** — in **jeder** Stufe gleich, auch in der kleinsten | ON-L darf **nie** ein Stufenmerkmal sein: Eine Stufe ohne Lizenzübergabe wäre lizenzwidrig |
+| **P-C — Gestufte Pakete** | **verankert** — gilt für **jede** Stufe; keine Stufe darf sich über „mehr Zugang" definieren, sondern nur über **mehr Leistung** | **verankert** — in **jeder** Stufe gleich, auch in der kleinsten | ON-L darf **nie** ein Stufenmerkmal sein: Eine Stufe ohne Lizenzübergabe ließe AU-4 für diese Stufe leerlaufen (**④**, s. u.) |
 
 **Nenner: 3 von 3 Paketformen tragen beide Bausteine** — ⚠️ und zwar
 **unabhängig davon, welche Form nach E-7 gewählt wird** (AA-2 ist ein
@@ -1622,26 +1703,84 @@ bewusst so geschnitten, dass sie **einen Formwechsel überleben** — genau
 die Bedingung, die der ✅-AA-2-Kasten an vorbereitende Arbeit stellt.
 
 ⚠️ **Keiner der beiden Bausteine ist ein kostenpflichtiges Zusatzmodul.**
-ON-L ist Bestandteil der Einführungsleistung (S4-Sphäre, § 3), WP-AU2 ist
-eine Formvorgabe ohne eigene Position. Ein Paket, das die Lizenzübergabe
-als Upgrade führt, verstößt gegen die Auflage — strukturell dieselbe
-Grenze, die § 6 für die Übergabedoku zieht.
+**④ Folgerung dieser Session:** Ein Paket, das die Lizenzübergabe als
+kostenpflichtiges Upgrade führt, würde die Auflage aushöhlen — **der
+Rohbeleg sagt das nicht ausdrücklich**; die Analogie ist die
+Übergabedoku-Grenze aus § 6. Ebenso ist die Zuordnung „ON-L in die
+**S4-Sphäre**, WP-AU2 ohne eigene Position" ein **Vorschlag an E-6/E-7,
+kein Entscheid dieser Session** — sie schließt eine Gestaltungsoption
+aus und hat damit mittelbare Preiswirkung.
+*(Erstfassung schrieb ohne ④-Markierung „**verstößt gegen die Auflage**"
+und stellte die Sphären-Zuordnung als gesetzt dar — korrigiert nach
+Prüferbefund F-10. Klasse: das Spiegelbild der Entwarnung — eine
+**Verbots**-Behauptung fühlt sich sicher an, weil sie streng ist, und
+entgeht deshalb der Belegstufen-Prüfung.)*
 
-### 6a.6 O-2 als Vertragsklausel (**VK-O2**) — die einzige Pflicht, die den KUNDEN trifft
+### 6a.6 O-2 als Vertragsklausel (**VK-O2**) — die Kundenpflicht aus der Backend-/OEM-Grenze
+
+> 🔴 **Reparatur nach Prüferbefund F-2 (schwer) — drei Superlative
+> gestrichen, nicht abgeschwächt, und eine Sachlücke geschlossen:**
+> Die Erstfassung überschrieb diesen Abschnitt mit „**die einzige
+> Pflicht, die den KUNDEN trifft**" und schrieb im Text „Es gibt **genau
+> EINE** Kundenpflicht". **Beides ist am Rohbeleg widerlegt.** § 3.4
+> sagt dort ausdrücklich unter **Stufe A**: „Der **Kunde** — und wir beim
+> Aufsetzen — dürfen ‚licensing, copyright, or other notices' nicht
+> entfernen oder verdecken. **Kein Rebranding der n8n-Oberfläche, kein
+> Entfernen von Hinweisen** … **Zwei Auflagen, die in einem
+> Übergabemodell leicht untergehen**" (Z. 394–398 @`4fa530b`, von R15-B
+> nach dem Prüferlauf selbst am Original gelesen; der dortige Posten
+> **O-1** spricht ebenfalls vom „**Kunden-Eigentums-Modell**").
+> **Damit trifft auch die AU-3-Grundlage L-3 den Kunden**, und zwar
+> ebenfalls **nach** der Übergabe und ebenfalls ohne dass wir die
+> Verletzung verhindern könnten.
+> **Was daraus folgt — die unbequemere Richtung:**
+> 1. Die drei Superlative („einzige Kundenpflicht" · „einzige, die nach
+>    der Übergabe fortwirkt" · „einzige, deren Verletzung wir nicht
+>    selbst verhindern können") sind **gestrichen**. Die beiden letzten
+>    stammen aus dem § 6-Nachtrag (R14-A) und wurden von dieser Session
+>    **übernommen, ohne sie am Rohbeleg zu prüfen** — genau die
+>    Quellen-zweiter-Hand-Klasse, vor der der eigene Auftrag warnt.
+>    **Nebenbefund an die Leitsession:** Die Aussage steht so auch noch
+>    in `handel/preismodell-optionen.md` § 5.3-Nachtrag und im
+>    § 6-Nachtrag dieses Dokuments — **beide liegen außerhalb des
+>    R15-B-Scopes**.
+> 2. **`VK-O2` bekommt einen zusätzlichen Absatz (3)**: eine
+>    Kundenpflicht, die n8n-Hinweise nicht zu entfernen. Sie fehlte —
+>    das war eine **Sachlücke im Vertragsentwurf**, nicht nur eine
+>    falsche Überschrift.
+> 3. **Unberührt bleibt die Zählkorrektur aus dem Auftrag:** **O-2
+>    enthält genau EINE Pflicht**, und eine „erste bis vierte
+>    Kunden-Pflicht" existiert nicht. Falsch war nicht diese Zählung,
+>    sondern ihre **Verallgemeinerung** auf alle Bedingungen.
 
 **Der Sachverhalt am Rohbeleg (① gemessen, § 3.7):** Unser Fall ist der
 **Backend**-Fall — „Gäste lösen über Terminal/WebUI Workflows aus, die
-wir gebaut haben; sie bauen nichts." Wörtlich weiter: „⚠️ Und das bleibt
-so, **solange der Kunde n8n nicht seinerseits seinen Gästen öffnet**. Das
-ist keine hypothetische Grenze, sondern die Betriebsregel O-2 (§ 7)."
+wir gebaut haben; sie bauen nichts." **Wörtlich weiter — ein Satz
+ausgelassen** *(Markierung nachgetragen nach Prüferbefund F-12; der
+ausgelassene Satz lautet: „Auch unter A3 ändert sich das nicht — dann
+besitzt der Kunde die Instanz, aber die **Gäste** sehen weiterhin kein
+n8n." Er wirkt zugunsten der eigenen Position; die Auslassung schwächt
+die Aussage also nicht auf — markiert wird sie trotzdem)*: „⚠️ Und das
+bleibt so, **solange der Kunde n8n nicht seinerseits seinen Gästen
+öffnet**. Das ist keine hypothetische Grenze, sondern die Betriebsregel
+O-2 (§ 7)."
 Kippt der Fall, wird er zum **OEM**-Fall, für den n8n „a separate
-commercial agreement" verlangt (Rohbeleg § 3.7, Stufe B).
+commercial agreement" verlangt. ⚠️ **Fundstelle getrennt ausgewiesen**
+*(korrigiert nach Prüferbefund F-14)*: Die **Kipp-Aussage** („sonst
+kippt der Backend-Fall in den OEM-Fall") steht im Rohbeleg **§ 9,
+Posten O-2** — § 3.7 sagt nur, dass es beim Backend-Fall **bleibt**,
+solange der Kunde nicht öffnet. Die zitierte Wendung „a separate
+commercial agreement" stammt aus der **§ 3.7-Tabelle (Stufe B)**.
 
 ⚠️ **Klarstellung zur Zählung, damit sie nicht ein drittes Mal falsch
 weiterwandert:** O-2 ist **eine fünfte BEDINGUNG neben AU-1…AU-4**, und
 sie trifft den Kunden — **vier Auflagen an UNS plus eine Kundenpflicht =
-fünf Bedingungen**. Es gibt **genau EINE** Kundenpflicht; eine erste bis
-vierte Kunden-Pflicht existiert nicht. *(② nachgemessen an
+fünf Bedingungen**. **O-2 enthält genau EINE Pflicht**; eine erste bis
+vierte Kunden-Pflicht existiert nicht. ⚠️ **Nicht zu verwechseln mit der
+Frage, wen die ÜBRIGEN Bedingungen treffen:** Die Zuordnung „vier an uns"
+ist die Zählung der Zwischenquelle; **die AU-3-Grundlage L-3 trifft nach
+Rohbeleg § 3.4 auch den Kunden** (s. Reparaturkasten oben). *(②
+nachgemessen an
 `handel/preismodell-optionen.md` Z. 694–702 @`4b84693`: „Eine fünfte
 Bedingung neben AU-1…AU-4, und sie trifft den KUNDEN".)*
 
@@ -1661,29 +1800,47 @@ Bedingung neben AU-1…AU-4, und sie trifft den KUNDEN".)*
 > über die dafür vorgesehenen Oberflächen (z. B. Terminal, Web-Link)
 > auslösen und deren Ergebnisse nutzen.
 >
-> **(3)** Der Kunde erkennt an, dass die Lizenzbedingungen des
-> Herstellers der Automatisierungsumgebung diese Grenze setzen und dass
+> **(3)** *(neu nach Prüferbefund F-2 — die Pflicht fehlte)* Der Kunde
+> **entfernt oder verdeckt keine Lizenz-, Urheber- oder sonstigen
+> Hinweise** des Herstellers in der Automatisierungsumgebung und
+> versieht deren Oberfläche nicht mit einer eigenen oder fremden Marke.
+> ⚠️ **Herkunft, getrennt ausgewiesen: Dieser Absatz stammt NICHT aus
+> O-2**, sondern aus der Klausel **L-3** des Lizenztextes (Rohbeleg
+> § 3.4, dort **Stufe A**: „Der Kunde — und wir beim Aufsetzen — dürfen
+> ‚licensing, copyright, or other notices' nicht entfernen oder
+> verdecken"). Er ist die **Kundenseite** der Auflage **AU-3**, deren
+> Betreiberseite als Wording-Grenze `WG-AU3` in § 6a.3 steht.
+> ⚠️ **Belegteilung gilt auch hier** (§ 6a.3, F-18): Das
+> **Entfernen/Verdecken** trägt der Lizenztext (**A**); die Reichweite
+> des **Rebranding**-Verbots wird im Rohbeleg uneinheitlich eingestuft
+> (§ 3.4: **A** · § 3.6: **B**).
+>
+> **(4)** Der Kunde erkennt an, dass die Lizenzbedingungen des
+> Herstellers der Automatisierungsumgebung diese Grenzen setzen und dass
 > ihre Überschreitung eine **eigene Vereinbarung mit dem Hersteller**
 > erforderlich macht. Er zeigt `<FIRMIERUNG — F-7 OFFEN, MKT-MARKE>` eine
-> beabsichtigte Öffnung **vorher** an.
+> beabsichtigte Öffnung nach Absatz (2) **vorher** an.
 >
-> **(4)** `<RECHTSFOLGE BEI VERSTOSS — ZULIEFERUNGSBEDARF, s. u.>`
+> **(5)** `<RECHTSFOLGE BEI VERSTOSS — ZULIEFERUNGSBEDARF, s. u.>`
 
-**Zum Platzhalter in (4) — bewusst nicht ausformuliert:** Welche
+**Zum Platzhalter in (5) — bewusst nicht ausformuliert:** Welche
 Rechtsfolge ein Verstoß auslöst (Freistellung, Anpassungs- oder
 Kündigungsrecht, Haftungsverteilung), ist **Vertragsarbeit** und gehört
 zur Zulieferung **Z-1…Z-7** an Zentrale/StB (Kopfkasten, „Nicht Teil
 dieses Dokuments"). Diese Session formuliert die **Pflicht**, nicht ihre
 Sanktion. **Als Zulieferungs-Bedarf geführt** (6a.7).
 
-**Zwei Eigenschaften dieser Klausel, die ihre Form bestimmen (② aus dem
-§-6-Nachtrag, dort ausdrücklich):** Sie ist die **einzige der fünf
-Bedingungen, die nach der Übergabe fortwirkt**, und die **einzige, deren
-Verletzung wir nicht selbst verhindern können**. **④ Folgerung dieser
-Session daraus:** Eine bloße AGB-Zeile trägt das schwach — die Klausel
-gehört an eine Stelle, an der der Kunde sie zur Kenntnis nimmt, und
-Absatz (3) enthält deshalb eine **Anzeigepflicht vor** der Öffnung, nicht
-erst danach. Das ist eine Gestaltungsempfehlung, kein Entscheid.
+**Zwei Eigenschaften dieser Klausel, die ihre Form bestimmen:** Sie wirkt
+**nach der Übergabe fort**, und **wir können ihre Verletzung nicht selbst
+verhindern**. ⚠️ *(Der § 6-Nachtrag nennt beides als **Alleinstellung**
+von O-2 — das ist nach Prüferbefund F-2 widerlegt: Die L-3-Pflicht aus
+Absatz (3) hat **dieselben beiden Eigenschaften**. Die Eigenschaften
+selbst stimmen, ihr „einzige" nicht; hier steht deshalb die Aussage ohne
+den Superlativ.)* **④ Folgerung dieser Session daraus:** Eine bloße
+AGB-Zeile trägt das schwach — die Klausel gehört an eine Stelle, an der
+der Kunde sie zur Kenntnis nimmt, und Absatz (4) enthält deshalb eine
+**Anzeigepflicht vor** der Öffnung, nicht erst danach. Das ist eine
+Gestaltungsempfehlung, kein Entscheid.
 
 ⚠️ **Warum der Platzhalter und keine Firmierung:** Der
 Firmierungs-Vorbehalt (Kopfkasten Punkt 2) ist unverändert in Kraft; der
@@ -1698,7 +1855,8 @@ entschieden ist** — er ist kein Formatierungsrest.
 bereits** — im Kopfkasten Punkt 3 dieses Dokuments („fällig ist sie aber
 genau hier: bevor ein **Kunden-Angebot mit A3-Architektur** hinausgeht"),
 in `preismodell-optionen.md` § 5.3 (Klärweg `license@n8n.io`, Träger
-**O-4**) und in `preisliste-vorlaeufig.md` § 5 (Tabellenzeile). **Er wird
+**O-4**) und in `preisliste-vorlaeufig.md` **§ 6 („Was diese Liste NICHT
+entscheidet"), NACHTRAG-Kasten R14-A** (Tabellenzeile). **Er wird
 hier NICHT zweitgefasst** — eine Dublette ohne Wächter wäre ein Verstoß
 gegen die Doku-Hygiene. **Was fehlte, ist die Stelle, an der er greift:**
 Ein Kopfkasten-Vorbehalt wirkt beim Lesen, ein Gate wirkt beim Handeln,
@@ -1706,19 +1864,60 @@ und dieses Dokument führte bisher **keinen** Schritt „Angebot geht
 hinaus". Die Kette unten ist dieser Schritt; jede Zeile ist ein
 **Zeiger** auf die Fassung, die anderswo steht.
 
+> 🔧 **Zwei Reparaturen nach dem Prüferlauf, sichtbar:**
+> (a) **Prüferbefund F-4 (mittel):** Die Erstfassung wies die
+> Preislisten-Fundstelle als „**§ 5**" aus — die K-1-Zeile steht dort in
+> **§ 6** (letzte Überschrift vor der Fundzeile, generisch erhoben; in
+> § 5 gibt es **keine** K-1-Fundstelle). Ein Zeiger auf einen Abschnitt
+> ohne die Fassung erfüllt die Doku-Hygiene-Regel formal und verfehlt
+> sie sachlich: Wer ihm folgt, findet nichts und legt im Zweifel doch
+> eine Zweitfassung an. **Ursache: Der Auftragsprompt nannte die Stelle
+> als reine Zeilennummer** (`preisliste-vorlaeufig.md:1095`) — die
+> Übersetzung in einen Abschnittsbezug musste diese Session leisten und
+> hat sie geraten. *(Die drei übrigen Zeilen-Anker des Prompts wurden
+> gegengeprüft und sind korrekt.)*
+> (b) **Prüferbefund F-5 (mittel):** Die Gates hießen in der Erstfassung
+> **`G-1…G-4`** — diese IDs sind im Repo bereits als Prüfer-Befund-IDs
+> vergeben (R02-A/R03-A/R04-A) und **ohne Rundenpräfix in
+> Arbeitsdokumente gewandert** (`beleg/baseline-messplan.md`,
+> `beleg/vorlagen/interviewleitfaden-baseline.md`; selbst nachgemessen).
+> **Umbenannt in `GA-1…GA-4`** („Gate Angebotsausgang"), alle zehn
+> Fundstellen im selben Zug nachgezogen (Zählweg: Regex mit Wortgrenze
+> über die ganze Datei, Rest `G-[1-4]` → **0**). Das Kollisions-Grep vor
+> der Vergabe war unterblieben — die Klasse ist bekannt (L-35) und
+> reproduziert sich hier ein weiteres Mal.
+
 | Gate | Bedingung, bevor ein Angebot mit A3-Architektur hinausgeht | Fassung steht in | Stand |
 |---|---|---|---|
-| **G-1** | **K-1** beantwortet — oder das Risiko ausdrücklich getragen und dokumentiert | `preismodell-optionen.md` § 5.3-Nachtrag, „WAS NICHT AUFGELÖST IST" Nr. 1 (Klärweg `license@n8n.io`, Träger O-4: User + heypensio-Folgestrang) | **streitig, kein Termin** — FAQ „usually yes", Vertriebsseite „regular Enterprise license", **Lizenztext schweigt** |
-| **G-2** | **AU-1 erfüllbar** — die Vertragspartner-Frage ist beantwortet, und die Instanz läuft auf einem dem Kunden **zurechenbaren** Vertrag/Konto | Kopfkasten Punkt 3 + § 6 Widerspruch 3 (**K04/Z-5**, Träger E-4 bzw. Zentrale) | **ungeklärt, ohne Kalendertermin** |
-| **G-3** | **Firmierung steht** (**F-7**) — ohne sie gibt es keinen Außentext und keine Vertragspartei | Kopfkasten Punkt 2; Strang **MKT-MARKE** | **offen** |
-| **G-4** | **Architektur-Entscheid gefallen** — „wir rechnen A3" ist nicht „wir bauen A3"; ohne ihn gibt es keine A3-Architektur, für die G-1/G-2 überhaupt gelten | Kopfkasten Punkt 3 (heypensio/Gesellschafter) | **nicht gefallen** |
+| **GA-1** | **K-1** beantwortet — oder das Risiko ausdrücklich getragen und dokumentiert | `preismodell-optionen.md` § 5.3-Nachtrag, „WAS NICHT AUFGELÖST IST" Nr. 1 (Klärweg `license@n8n.io`, Träger O-4: User + heypensio-Folgestrang; die Quelle grenzt dort selbst ein: „**nicht vor dem nächsten Preisentscheid**") | **streitig, kein Termin** — **vier** Quellen, nicht drei *(ergänzt nach Prüferbefund F-13)*: Lizenz-**FAQ** „usually yes" · **OEM-Doku** „all paid plans" · **Vertriebsseite** „a regular Enterprise license" · **Lizenztext schweigt**. Die fehlende OEM-Doku-Zeile war eine der beiden **einschränkenden** Quellen — der Widerspruch sah dadurch kleiner aus, als er ist |
+| **GA-2** | **AU-1 erfüllbar** — die Vertragspartner-Frage ist beantwortet, und die Instanz läuft auf einem dem Kunden **zurechenbaren** Vertrag/Konto | Kopfkasten Punkt 3 + § 6 Widerspruch 3 (**K04/Z-5**, Träger E-4 bzw. Zentrale) | **ungeklärt, ohne Kalendertermin** |
+| **GA-3** | **Firmierung steht** (**F-7**) — ohne sie gibt es keinen Außentext und keine Vertragspartei | Kopfkasten Punkt 2; Strang **MKT-MARKE** | **offen** |
+| **GA-4** | **Architektur-Entscheid gefallen** — „wir rechnen A3" ist nicht „wir bauen A3"; ohne ihn gibt es keine A3-Architektur, für die GA-1/GA-2 überhaupt gelten | Kopfkasten Punkt 3 (heypensio/Gesellschafter) | **nicht gefallen** |
 
 ⚠️ **Die Kette ist eine REGEL, kein Termin.** Der Auslöser ist das
 Ereignis „ein Angebot mit A3-Architektur geht hinaus", nicht ein Datum —
 K-1 hat keinen Kalendertermin, und keiner der vier Punkte bekommt hier
 einen. **Kein Gate ist heute erfüllt**; die Kette sperrt also derzeit
-**jedes** A3-Kundenangebot. Das ist eine Feststellung des Bestands, keine
-neue Sperre dieser Session.
+**jedes** A3-Kundenangebot.
+
+> 🔴 **Reparatur nach Prüferbefund F-7 (mittel) — ein Entlastungssatz
+> gestrichen, nicht abgeschwächt:** Die Erstfassung schloss mit „Das ist
+> eine Feststellung des Bestands, **keine neue Sperre dieser Session**".
+> **Das stimmt nicht — und der Abschnitt sagt zwei Absätze darüber selbst
+> das Gegenteil** („dieses Dokument führte bisher **keinen** Schritt
+> ‚Angebot geht hinaus'. **Die Kette unten ist dieser Schritt**").
+> **Richtig ist:** Die vier Vorbehalte sind **Bestand** — an das Ereignis
+> „Angebot mit A3-Architektur geht hinaus" gebunden war im Bestand aber
+> **nur K-1** (Kopfkasten Punkt 3; `preismodell-optionen.md` § 5.3).
+> **Ihre Bündelung zu einer Sperre am Angebotsausgang ist eine
+> Festlegung dieser Session.** Sie verschiebt den Angebotsausgang
+> faktisch bis F-7 und bis zum Architektur-Entscheid und ist deshalb
+> **dem User bzw. der Leitsession vorzulegen** — eine Betriebs-Festlegung
+> mit Außenwirkung festigt keine Arbeits-Session im Alleingang
+> (CLAUDE.md). ⚠️ **Bis dahin ist GA-1…GA-4 ein VORSCHLAG, keine
+> geltende Sperre.**
+> *(Klasse: die Entwarnung in ihrer Sonderform — sie entlastet nicht die
+> Sache, sondern die Session vom Vorwurf, selbst festgelegt zu haben.)*
 
 ⚠️ **K-1 bleibt streitig, und der SUL-Rohtext beantwortet ihn nicht** —
 er schweigt zu Plan/Edition (Rohbeleg § 3.7, „Der Widerspruch, der den
@@ -1747,6 +1946,8 @@ die falsche Quelle; die Antwort kann nur von n8n selbst kommen (O-4).
 | **VK-O2 Absatz (4)** | Rechtsfolge bei Verstoß | **Z-1…Z-7** (Zentrale/StB) |
 | **EE-Datei bei Community-Installation** | Wird `LICENSE_EE.md` bei einer reinen Community-Installation mit übergeben? Rohbeleg verlangt beide, sagt es aber nicht | mit **K-1** in den Klärweg **O-4** (`license@n8n.io`) |
 | **Zählfehler im Rohbeleg** | § 3.6-Überschrift/Einleitung („drei Auflagen") und § 3.8-Formulierungsvorschlag („AU-1…AU-3") | **heypensio-Leitsession** (verschärft R14A-N-1: **zweite** Fundstelle derselben Klasse) |
+| 🔴 **Gewährleistungs-Reichweite** *(ergänzt nach Prüferbefund F-9)* | Rohbeleg-Posten **O-12** / § 4 Nr. 5: „**Der Gewährleistungsausschluss der Lizenz deckt UNSEREN Dienstleistungsvertrag nicht** … Verfügbarkeits- und Fehlerbehebungszusagen sollten nicht weiter reichen als das, was ein Upstream ohne Gewährleistung ermöglicht." Berührt unmittelbar die **Support-Position** aus § 6a.3 | **Z-1…Z-7** (Zentrale/StB) über die Leitsession. ⚠️ **Der Posten ist im gesamten MKT-Repo nie angekommen** — Zählweg: `grep -ric "Gewährleistungs-Asymmetrie"` über alle `*.md` → **0** (außer im R15-B-Prüfprotokoll selbst); Positivkontrolle mit den Nachbar-Posten derselben Quelle: `Lizenzserver-Ping` (O-11) → 9 Dateien. Der Suchweg findet alles andere aus dieser Quelle |
+| **Superlative über O-2** | „einzige Bedingung, die nach der Übergabe fortwirkt / deren Verletzung wir nicht verhindern können" steht so noch in `preismodell-optionen.md` § 5.3-Nachtrag und im § 6-Nachtrag dieses Dokuments — durch Rohbeleg § 3.4 widerlegt (§ 6a.6, F-2) | **Leitsession** (beide Stellen außerhalb des R15-B-Scopes) |
 
 ---
 

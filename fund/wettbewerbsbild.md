@@ -13,7 +13,12 @@
 >
 > **⭐ Das Papier hat seit 09.08.2026 (R05-A) ZWEI Teile:**
 > **Teil A (§§ 0–8)** beantwortet „Wer baut dieselbe **Technik**?" —
-> Stand R03-D, inhaltlich unverändert. **Teil B** (ab „TEIL B" am Ende)
+> Stand R03-D, inhaltlich unverändert *(⚠️ **überholt seit 13.08.2026,
+> R14-B:** § 3.1 trägt jetzt **zwei markierte Nachträge** zu Straiv —
+> Preisform aus den AGB (R11A-N-3) und der Auseinanderfall
+> AGB-Lösungsliste ↔ Website-Navigation (R11A-N-4). Alles Übrige in
+> Teil A ist weiterhin Stand R03-D; wer aus § 3.1 zitiert, prüft den
+> Nachtragskasten mit)*. **Teil B** (ab „TEIL B" am Ende)
 > beantwortet „Wer verkauft demselben Hotelier dieselbe **Leistung**?" —
 > die zweite Wettbewerbsachse Beratung/Agentur, entsperrt durch den
 > Portfolio-Entscheid E11/E13. **Wer nur Teil A liest, liest ein
@@ -332,6 +337,22 @@ Navigation: **Individualhotels · Hotelketten · Serviced Apartments.**
 Check-in Rate / Upsell Revenue / Guest Satisfaction Score) und ein Tool
 „Smart Feedback" (ROH, SELBST, Blog).
 
+> ⭐ **Nachtrag 13.08.2026 (R14-B), Befund R11A-N-4: Die vertraglich
+> geregelte Produktmenge ist kleiner als die beworbene.** Die
+> Modul-Aufzählung oben stammt aus der **Website-Navigation** (acht
+> Lösungen). Die **AGB** nennen in Ziff. 1.2 wörtlich: „Derzeit werden
+> von Straiv folgende Lösungen angeboten: Online Check-in & -out /
+> Guest Messaging / Digital Concierge / Upselling" — **vier**
+> (Beleg-Typ: **SELBST**, Anbieter-AGB, Abzug 12.08.2026,
+> `sensibel/rohbelege-R11-A/agent1-straiv-agb.txt`, git-ignoriert;
+> Herkunft des Befundes: `protokolle/R11-A-abschluss.md` Block 3, dort
+> N-4). ⚠️ **Was daraus NICHT folgt:** dass die übrigen vier Module
+> nicht existieren oder nicht verkauft würden — die AGB verweisen für
+> jede Lösung zusätzlich auf **Produktspezifische Vertragsbedingungen
+> (PVB, Ziff. 1.4/1.6)**, und die AGB-Fassung kann älter sein als die
+> Website. Belegt ist nur der **Auseinanderfall der beiden Listen** zum
+> Abrufstand; die Ursache ist **nicht erhoben**.
+
 **Kiosk in drei Bauformen (ROH, SELBST, straiv.io/de/loesungen/
 self-service-kiosk, 09.08.2026), wörtlich:** „Variante 1: Der Tabletop
 Kiosk", „Variante 2: Der Indoor Kiosk", „Variante 3: Der Outdoor Kiosk
@@ -503,6 +524,54 @@ kein Kiosk-Hardware-Preis. Der im Alt-Dossier genannte Wert „Journey
 ~4,50 €/Zi/M" ist die **Summe der drei Einstiegspreise** (2,50 + 1,00 +
 1,00) — eine Rechnung des Dossiers, kein vom Anbieter ausgewiesenes
 Paket.
+
+> ⭐ **Nachtrag 13.08.2026 (R14-B), Befund R11A-N-3: Die PREISFORM ist
+> belegt — auch wenn die Preishöhe es nicht ist.** Der Absatz oben sagt
+> zu Recht, dass es außer dem Store-Listing **keine öffentliche
+> Preisangabe** gibt. Er ließ aber offen, dass die **AGB die
+> Preis-MECHANIK** regeln; dieses Papier führte Straiv damit bisher
+> „ohne Preisform". Belegt ist Folgendes (Beleg-Typ **SELBST**,
+> Anbieter-AGB in der Fassung des Abzugs vom 12.08.2026,
+> `sensibel/rohbelege-R11-A/agent1-straiv-agb.txt`, git-ignoriert;
+> Herkunft: `protokolle/R11-A-abschluss.md` Block 3, dort N-3):
+>
+> | Ziff. | Was geregelt ist | Wortlaut-Kern |
+> |---|---|---|
+> | **4.3** | **Die Zimmerzahl ist vertraglicher Vergütungsparameter** | Der Kunde muss melden, wenn „die Anzahl seiner Zimmer die bei Vertragsabschluss vereinbarte Anzahl von Zimmern … überschreitet"; die Vergütung wird dann „mit Wirkung zum darauffolgenden Monat" angepasst — „**Eine Rückerstattung bei eventuell sinkender Zimmeranzahl ist bei einer Mindestlaufzeit ausgeschlossen.**" (Anpassung also **nur nach oben**) |
+> | **7.1** | Einmal- und/oder laufender Betrag, **Zahlung jährlich im Voraus** | „einen einmaligen und/oder wiederkehrenden Betrag in Abhängigkeit vom gewählten Paket und dem vereinbarten Zahlungsturnus. Soweit nicht abweichend vereinbart, zahlt der Kunde die jeweilige Vergütung **jährlich im Voraus**." |
+> | **7.2** | **Einrichtungsgebühr als Kann-Position** | „stellt Straiv dem Kunden **mögliche** einmalige Gebühren für das Onboarding und die Einrichtung der Software in Rechnung. Die Höhe … ist in der aktuell gültigen **Paketübersicht** aufrufbar." |
+> | **7.3** | Transaktionsbasierte Vergütung als eigene Kategorie | „die jeweils vereinbarte **prozentuale Provision pro Transaktion**", Abrechnung zum Monatsende |
+> | **7.4** | **Steuerbasis — hier ausnahmsweise belegt** | „**Sämtliche Preise verstehen sich zuzüglich der gesetzlich gültigen Mehrwertsteuer.**" Alle Straiv-Beträge sind damit **netto**. ⚠️ Gilt für die AGB-Preise; die **Store-Listing-Werte** oben (2,50 / 1,00 / 1,00 €/Zi/M) tragen weiterhin **keine** Angabe zu netto/brutto — zwei Quellen, zwei Fußnotenlagen, nicht vermischen |
+> | **11.1 / 11.2** | **Zwei Laufzeitmodelle nebeneinander** | jährliche Mindestlaufzeit: Kündigung „mit einer Frist von drei Monaten zum Ende der jeweiligen Laufzeit", sonst automatische Verlängerung · monatliche Mindestlaufzeit: „Frist von vier Wochen zum Monatsende" |
+>
+> **Was das für uns heißt:** Der nächstliegende Technikwettbewerber
+> arbeitet mit **Zimmerzahl-Bemessung + Jahresvorauszahlung +
+> Kann-Setup-Gebühr + Transaktionsprovision** — vier Preisform-Elemente,
+> die in unserer eigenen Preisarbeit als Optionen geführt werden
+> (Zielort dort: `handel/preismodell-optionen.md`; **von dieser Session
+> nicht angefasst**, fremder Scope).
+>
+> ⚠️ **Zwei Belegstufen-Grenzen, ausdrücklich:**
+> **(1) Keine einzige HÖHE steht in den AGB.** Sie verweisen für
+> Einrichtungsgebühr und Provision auf die „aktuell gültige
+> Paketübersicht" — diese ist **nicht öffentlich und nicht beschafft**
+> (R11-A Block 2 Nr. 7: ihre Beschaffung wäre eine Außenhandlung
+> gewesen).
+> **(2) ⚠️ Korrektur einer Zuordnung im Quell-Befund:** Der
+> R11-A-Abschluss nennt im selben Satz wie die AGB-Ziffern „**5 %
+> Kommission auf vermitteltes Upselling**". **Diese Zahl steht nicht in
+> den AGB.** Eigene Nachmessung am Rohbeleg-Bestand (13.08.2026): In
+> `agent1-straiv-agb.txt` gibt es genau einen Prozentwert, und das ist
+> die Verfügbarkeit „mindestens 99 %" in Ziff. 9.1. Die 5 % stehen auf
+> der **Produkt-/Marketingseite** (`agent1-straiv-loesungen-upselling.txt`,
+> zwei Fundstellen, wörtlich: „Es fällt eine Kommission von 5 %
+> ausschließlich auf tatsächlich über das System verkaufte
+> Zusatzleistungen und Upgrades an."). **Belegstufe deshalb:
+> Anbieter-Selbstauskunft auf einer Werbeseite, nicht AGB** — die AGB
+> (Abschnitt D „Upselling") nennen nur, dass Straiv „möglicherweise eine
+> Gebühr … und … eine Provision" erhält und dass die Höhe aus der
+> Paketübersicht folgt, die Straiv einseitig ändern kann (mit
+> 3-Monats-Vorlauf und Kündigungsrecht des Kunden).
 
 **Marktbewegungen 2026 (ROH, SELBST, straiv.io/de/blog):** Partnerschaft
 mit **Shiji** für das Daylight PMS — Dateline „Stuttgart, 26. Februar
@@ -1323,6 +1392,7 @@ Misstrauen gegen die Quelle.
 | 11.08.2026 | R8 (Leitsession, nach R08-B-Review) | **P22 aufgelöst, P21-Teilstand, V-5-Nenner-Entscheid.** P22: 72/72 Domains ausgewertet (`fund/erhebung/brandnamic-partner-vollerhebung.md`, R08-B) — Registerzeile auf erledigt, Kernergebnisse dort; vierte Bestandszahl 74 FIRMEN (zwei neue Dubletten; Obergrenze). P17 + vier namentliche Kandidaten (Z-2). P21: Teilstand nachgetragen (Ringhotels-Träger · CPH„auch bei"Ringhotels seit 01.07.2026 · Südtirol Privat→Hosts/VPS), bleibt offen. **B11.3: Nenner-Nachtrag 3 von 6** — zwei neue Träger (Verein, Verband) gehören in denselben Nenner (Zählkriterium ist „belegte Trägerschaft", Träger-Art ist Ergebnis); Kernaussage „überwiegend wettbewerbsbesetzt" auf ihren R6-Entstehungs-Ausschnitt begrenzt, Bild über den erweiterten Bestand GEMISCHT. Vorwärtsverweise in B11.2(b)/(c) und B11.6. Leseweg-Verifikation der zwei bestandskippenden R08-B-Aussagen an der Rohquelle (cmp byte-identisch ✔ · CPH-Wortlaut ✔). |
 | 11.08.2026 | R8 (Leitsession) | **Vier R07-D-Befunde in B9.4 eingearbeitet (F-6)** — sie kamen in R7 als Zuruf in die laufende R07-A-Session und wurden dort nicht mehr verarbeitet: (1) „niedrigste Hürde" (Hamburg) qualifiziert — Selbsterklärung `WDIG029F0126 LCD` trägt vier [§]-Verpflichtungen nach § 264 StGB inkl. 3-Referenzprojekte-Pflicht · (2) SH-DKU-Größenschwelle ergänzt (nur *kleine* Unternehmen, wirkt auf die Portfolio-These) · (3) SH-DKU-**Werbe-Ausschluss** als ⭐⭐-Block ergänzt (Ziffer 5.2.1 + Positiv-/Negativliste; die Abgrenzungsfrage schlägt die Antragsberechtigungs-Frage) · (4) Quellenkonflikt-Kasten: Zuschreibung korrigiert (Altstand steckt im Seitentext, nicht im Richtlinien-Link; Fehlwirkung umgedreht: „fälschlich für BERECHTIGT"), Alt-Wortlaut sichtbar. Dazu R07-D-Befunde 5–7: Freie-Berufe-Kontrast bei Klärpunkt 1 · 404-Fehlerseiten-Warnung (`hh-programme.html`/`hh-bcw.html`) im R8-Korrektur-Kasten · F-13-Vorwärtsverweis in `fund/positionierungspapier.md` Säule 5. Quellen: `handel/foerderarchitektur-beraterrolle.md` §§ 2.1/3.3/4.2/4.3, `protokolle/R07-D-abschluss.md` Block 3. |
 | 10.08.2026 | R07-A | **Nacharbeit der in R5 liegengebliebenen Prüferbefunde — jede Reparatur am Rohbeleg gemessen** (`protokolle/R05-A-pruefer.md`, Träger `protokolle/R06-nacharbeit-R05A-befunde.md` TEIL 2). Bilanz mit Nenner: **24 von 26** handlungspflichtigen Posten repariert, 0 bewusst offen, 2 mit benanntem Träger (W-17-Rest, V-1-Rest). **Zitatkritisch:** Dittlmann-Pseudo-Zitat in zwei Zitate mit je eigener Fundstelle zerlegt (der Spleiß überbrückte 11.600 Zeichen und 35 Blockelemente, mit Wortlautwechsel an der Nahtstelle) · 42-GmbH-Partnerzitat bis zum Satzende geführt (die Erstfassung hatte zusätzlich einen Punkt gesetzt, den die Quelle nicht hat) · Bräu-Zitat mit Anker je Teil, Teil 2 stammt aus einem beim Aufruf geschlossenen, seitenweiten Overlay · DEHOGA-BW-Bundesweit-Zitat um die Hessen-/Saarland-Klausel ergänzt. **Nenner/Zählweg:** „15 von 16" mit Kanal-Vorbehalt · „drei Größenschwellen" → zwei Schwellen + ein Preisboden · „in aller Regel straiv" → **5 von 17**, „De-facto-Standard" gestrichen · DEHOGA-HH-Staffel vollständig (zehn Stufen) · Designkontor-Zählweg (161 Datenzeilen) · Mews-Länderzuordnung aufgelöst (Impressen, nicht die Mews-Seite) samt Versalien-Falle im Zählweg. **Einstufung/Kanal:** „Die Hotelberater" als **vorläufig** markiert · **TC Hotel Marketing „—" → W1 (Teilleistung)** mit neu ausformulierter Vergabelinie **L-B1b** und rückwirkender Bestandsprüfung · MEET THE EXPERTS auf **W1 + K** (Trägersatz Arbeitskreis ITK / IHK zu Lübeck) · „Vollsuchraum" auf die deutsche Fassung eingegrenzt · Nachtragsliste in **B1 Punkt 8** (ADDITIVE). **Preis-Scope:** Scope-Zusätze bei HotelPartner/RevenueRise zurückgeholt, „mehr als das Doppelte" gestrichen, RevenueRise-Selbstwiderspruch vermerkt · Setup-Gebühr und Mindestlaufzeit ergänzt, „Einstiegskorridor" gestrichen · 250 € der Architekten-Beratung zugeordnet · Preisuntergrenze aus dem **Nettotagessatz 985 €** statt aus dem Eigenanteil. **Neu:** Beleg-Anhang **B12** (Fundstellen-Anker je Strang) · Vorwärtsverweise in **§ 5.1/§ 5.2** · P8 zurückgeschnitten · **P23/P24/P25** neu. **Acht Befunde fand diese Runde selbst** (in keinem R05-A-Befund), darunter zwei harte Zitatabweichungen in § 5.2 in tragender Beweisführung: fehlendes „wir" (Bedeutungsumkehr) und „Hotels aller Größen" in Zitatform, obwohl die Formulierung im ganzen Archiv nicht vorkommt. **Zwei R05-A-Befunde trugen selbst nicht** (W-3/Plaschke, H-9/Mews) — dokumentiert im Träger T2.4. Nach eigenem Prüferlauf (`protokolle/R07-A-pruefer.md`) zusätzlich korrigiert: doppelt vergebene Kurz-ID P22 → **P24** · P23/P25 ins § 7-Register nachgetragen · **B12-Ankerzahlen** (zu enges Regex-Muster: 35 statt 11 ankerlose Dateien in a4, zwei fehlende Domains inkl. `smart-host.com`) · vier Positivkontrollen tragen jetzt ihren **Zählweg** (`grep -c` zählt Zeilen, nicht Treffer), eine delegierte Agentenzahl („65") war nicht reproduzierbar und wurde durch eigene Messung ersetzt. |
+| 13.08.2026 | R14-B | **FUND-Pflege: vier liegengebliebene Nebenbefunde aus R11-A eingearbeitet** (`protokolle/R11-A-abschluss.md` Block 3, dort N-3…N-6, Zielort dort „MKT-FUND, `fund/wettbewerbsbild.md`"). Je markierter Nachtrag, keine stille Neufassung, keine Bestandszeile geändert: **§ 3.1 (Teil A!)** — Straiv-**Preisform** aus den AGB (Zimmerzahl als Vergütungsparameter Ziff. 4.3, Jahresvorauszahlung 7.1, Kann-Einrichtungsgebühr 7.2, Transaktionsprovision 7.3, zwei Laufzeitmodelle 11.1/11.2) · Auseinanderfall **AGB-Lösungsliste (vier, Ziff. 1.2) ↔ Website-Navigation (acht)**. **§ B5.3** — melevo-**Zusatzposten** der Website-Preisliste (Cookie-Banner/Buchungsmaschine je 10 €, Analytics-Setup 260 €\*, Texterstellung 1.050–3.250 €\*, On-Site-SEO 650–1.580 €\*) · **Anschriften-Widerspruch** (Römerweg 9 ↔ Hauptstraße 6) als Belegfall der Mehrfachbeleg-Regel. **Zwei eigene Korrekturen am Quell-Befund, am Rohbeleg gemessen:** (1) Die „5 % Kommission" steht **nicht in den AGB**, sondern auf der Upselling-Produktseite — Belegstufe auf Selbstauskunft/Werbeseite zurückgeführt (in den AGB ist der einzige Prozentwert die Verfügbarkeit „mindestens 99 %"); (2) der Anschriften-Widerspruch liegt **innerhalb derselben Datei** (Verantwortlicher ↔ Kontaktabschnitt), nicht „Datenschutz vs. Footer". **Dritte eigene Korrektur, die den Quell-Befund kippt:** N-6 führte die Zusatzposten als „ob neu: **nicht feststellbar**". Das ist **widerlegt** — es existiert ein Abzug derselben Preisseite vom **09.08.2026** (`sensibel/rohbelege-R05-A/a3/melevo-preise.txt`, Unterordner-Ebene, von einer nicht-rekursiven Suche verfehlt), und **alle fünf Posten stehen dort schon mit identischen Beträgen** (7 Wertproben je 1 Treffer, Gegenprobe „4.999" = 0). Sie sind also **nicht neu, sondern bei der Erst-Auswertung liegengeblieben**. Ausgewiesene Grenzen: Steuerbasis fehlt in der melevo-Quelle (bei Straiv dagegen belegt: AGB 7.4, netto) · Spaltenzuordnung der Matrix aus der Textextraktion nicht belastbar (als Band übernommen) · der Anschriften-Widerspruch ist am Vorher-Stand **nicht prüfbar** (die Trägerseite wurde am 09.08. nicht abgerufen) · keine Straiv-**Höhe** belegt (Paketübersicht nicht öffentlich, nicht beschafft). Kopf und Teil-B-Kopf mit Vorwärtsverweis nachgezogen, weil beide „Teil A inhaltlich unverändert" sagten. Belegbasis: `sensibel\rohbelege-R11-A\` (nur gelesen, keine neuen Abzüge). |
 
 ---
 ---
@@ -1335,7 +1405,11 @@ Misstrauen gegen die Quelle.
 > Leistung?"** Das sind verschiedene Grundgesamtheiten, verschiedene
 > Beschaffungswege und verschiedene Belege. Teil A bleibt deshalb
 > unangetastet — wer Zahlen aus Teil A zitiert, zitiert weiter den Stand
-> R03-D.
+> R03-D. *(⚠️ **Präzisiert 13.08.2026, R14-B:** Der Satz gilt für die
+> R05-A-Erweiterung, die ihn geschrieben hat. Seit 13.08.2026 trägt
+> § 3.1 in Teil A **zwei markierte Nachträge** — s. Kopf des Dokuments.
+> Sie ändern keine Teil-A-Zahl, sondern ergänzen die Straiv-Preisform
+> und einen Listen-Widerspruch.)*
 >
 > **Erhebung:** Session R05-A (Ben Beckman) am 09.08.2026, sieben
 > Recherche-Stränge über Subagenten plus eine von der Session selbst
@@ -2243,6 +2317,91 @@ wer sie weiterverwendet, muss das dazuschreiben):
   Hotelsoftware".
 - Website: **95 / 145 / 275 € pro Monat** plus einmalig **1.495 / 2.295 /
   4.195 €**.
+
+> ⭐ **Nachtrag 13.08.2026 (R14-B), Befund R11A-N-6: Die Preisliste führt
+> heute Website-Zusatzposten, die dieser Bestandsstand nicht kennt.**
+> Erhoben am 12.08.2026 (R11-A-Abzug
+> `sensibel/rohbelege-R11-A/agent1-melevo-preise.txt`, git-ignoriert;
+> Herkunft: `protokolle/R11-A-abschluss.md` Block 3, dort N-6), Werte am
+> Rohbeleg gegengelesen 13.08.2026:
+>
+> | Position | Betrag laut Quelle | Art |
+> |---|---|---|
+> | Cookie-Banner | **10 €** (in allen drei Website-Spalten derselbe Wert) | laufend (Monatsspalte) |
+> | Integration Buchungsmaschine | **10 €** | laufend (Monatsspalte) |
+> | Google Analytics Setup | **260 €\*** | einmalig |
+> | Erstellung neuer Website-Texte | **1.050 € / 1.950 € / 3.250 €\*** | einmalig |
+> | Einmalige On-Site SEO | **650 € / 950 € / 1.580 €\*** | einmalig |
+>
+> *\* = „Einmalige Gebühr" — die Fußnote steht so unter der Matrix.*
+>
+> ⚠️ **Drei Grenzen, die zu diesen Zahlen gehören:**
+> **(1) Steuerbasis:** von der Quelle **nicht angegeben** — wie bei den
+> Werten oben. Wer sie weiterverwendet, muss das dazuschreiben.
+> **(2) Spaltenzuordnung:** Die Werte stammen aus einer dreispaltigen
+> Vergleichsmatrix. Welcher Betrag zu welcher Paketstufe gehört, ist aus
+> der **Textextraktion nicht belastbar** (die Reihenfolge im Textabzug ist
+> kein Zuordnungsbeleg) — die Reihen sind deshalb als **Band** übernommen,
+> in der Reihenfolge der Quelle, ohne Paket-Zuweisung. Wer die Zuordnung
+> braucht, muss die Seite gerendert nachsehen.
+> **(3) ⭐ „Neu" ist WIDERLEGT — eigene Nachmessung 13.08.2026 am
+> Vorher-Abzug.** Der Quell-Befund führt die Posten als „ob sie neu
+> sind, ist **nicht** feststellbar — der Bestand führt sie nur nicht".
+> Das trägt nicht mehr: Es **existiert** ein Abzug derselben Preisseite
+> vom **09.08.2026**, dem Erhebungstag dieses Papiers
+> (`sensibel/rohbelege-R05-A/a3/melevo-preise.txt`, Strang a3 der
+> R05-A-Erhebung). **Alle fünf Posten stehen dort bereits, mit
+> identischen Beträgen** — je 1 Treffer für „Cookie-Banner",
+> „Integration Buchungsmaschine", „Google Analytics Setup",
+> „Erstellung neuer Website-Texte", „Einmalige On-Site SEO" und für die
+> Werte 260 · 1.050 · 1.950 · 3.250 · 650 · 950 · 1.580; Gegenprobe mit
+> einem erfundenen Betrag („4.999") = 0 Treffer.
+>
+> **Der richtige Befund lautet deshalb: Die Posten sind NICHT neu — sie
+> waren am Erhebungstag vorhanden und sind bei der Auswertung
+> liegengeblieben.** Das ist die unbequemere Fassung: Nicht der Anbieter
+> hat nachgelegt, sondern die eigene Extraktion hat nur den
+> Paket-Grundpreis aufgenommen. *(Warum der Quell-Befund es anders sah:
+> Die R11-A-Session hat mit ihrem eigenen Abzug gearbeitet und den
+> Vorher-Ordner einer FRÜHEREN Runde nicht durchsucht — die Datei liegt
+> zudem in einem Unterordner, den eine nicht-rekursive Suche verfehlt.)*
+
+> ⭐ **Nachtrag 13.08.2026 (R14-B), Befund R11A-N-5: melevo führt zwei
+> verschiedene Anschriften — und das ist zugleich ein Belegfall der
+> eigenen Regel.** Am Rohbeleg-Bestand nachgelesen (13.08.2026):
+> - **„Römerweg 9, 78564 Reichenbach"** — Impressum, Footer aller
+>   abgerufenen Seiten und die Verantwortlichen-Angabe nach Art. 4 Nr. 7
+>   DSGVO in der Datenschutzerklärung („melevo Sebastian Mauch, Römerweg
+>   9, 78564 Reichenbach").
+> - **„Hauptstraße 6, 78564 Reichenbach"** — Kontaktabschnitt „J. Kontakt"
+>   **derselben** Datenschutz-/AGB-Seite.
+>
+> ⚠️ **Präzisierung gegenüber dem Quell-Befund:** Der R11-A-Abschluss
+> beschreibt den Widerspruch als „Datenschutz … vs. Footer". Genauer ist:
+> **beide Anschriften stehen in DERSELBEN Datei** — Verantwortlicher
+> „Römerweg 9", Kontaktabschnitt „Hauptstraße 6". Das ist die schärfere
+> Fassung des Befundes, nicht seine Abschwächung.
+> **Welche die zutreffende ist, wurde NICHT ermittelt** (kein
+> Registerabruf, keine zweite unabhängige Stelle) — hier steht der
+> Widerspruch, nicht seine Auflösung.
+>
+> ⚠️ **Und was der Vorher-Bestand dazu NICHT sagt:** Im Abzug vom
+> 09.08.2026 (`sensibel/rohbelege-R05-A/a3/`) steht durchgängig nur
+> „Römerweg 9" (Impressum, Startseite, Hotelsoftware-Seite,
+> Preisseite — 5 Fundstellen, Positivkontrolle „Reichenbach" greift).
+> **Daraus folgt nicht, dass der Widerspruch neu ist:** Die
+> Datenschutz-/AGB-Seite, die „Hauptstraße 6" trägt, wurde am 09.08.
+> **gar nicht abgerufen** (vier Seiten im Ordner, diese nicht). Der
+> Vorher-Stand ist für diese Frage also **kein Beleg in eine der beiden
+> Richtungen** — nicht prüfbar, nicht „damals konsistent".
+>
+> ⭐ **Als Regel-Belegfall zu führen:** „Anschriften für Außendokumente
+> über MEHRERE unabhängige Stellen belegen" (Baustein
+> `aussenwirksame-texte`, dort mit dem heypensio-Fall der falschen
+> Hausnummer belegt). Hier widerspricht sich **eine einzige Quelle in
+> sich selbst** — eine Anschrift von der Website eines Anbieters zu
+> übernehmen, ohne sie zu kreuzen, hätte hier eine 50-%-Trefferchance
+> gehabt.
 
 ### B5.4 Feldbefunde und Negative (mit Suchraum und Positivkontrolle)
 

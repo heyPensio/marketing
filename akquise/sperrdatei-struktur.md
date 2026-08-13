@@ -7,10 +7,28 @@
 > Abgleich-Ablauf — und trennt den **engen Fall B-4** (Löschwunsch aus
 > der Sperrdatei) vom regulären Löschverlangen.
 >
-> **Was es NICHT ist:** keine Rechtsprüfung und keine neue Regel. Alle
-> materiellen Vorgaben stammen aus `akquise/listenbau-regelwerk.md`
-> (§ 3 Pflicht 2, § 7.3, § 7.4) und aus
-> `akquise/interessenabwaegung-o8.md` (§ 7.2, § 7.4, § 8, § 10).
+> ## ⚠️ Geltungsgrenze — bitte zuerst lesen
+>
+> **Dieses Dokument ist KEINE Rechtsberatung.** Es erbt die
+> Geltungsgrenze seiner Quellen und trägt sie mit: Alle Rechtsaussagen
+> stammen aus `handel/kanal-rechtsmatrix.md` über
+> `akquise/listenbau-regelwerk.md` und `akquise/interessenabwaegung-o8.md`
+> — „*Dieses Dokument ist eine eigene Recherche zur betrieblichen
+> Orientierung. Es ist KEINE Rechtsberatung*". Der anwaltliche Rat
+> (**O-9** und die Punkte in § 8) steht aus. Ein ausgefülltes Formular
+> nach dieser Struktur ist **kein Compliance-Nachweis**.
+> *(Kasten ergänzt 14.08.2026 nach Prüferbefund PE-8: Das Regelwerk
+> verpflichtet ausdrücklich dazu, seine Geltungsgrenze mitzutragen —
+> die Erstfassung tat das nicht.)*
+>
+> **Was es NICHT ist:** keine Rechtsprüfung. Die materiellen Vorgaben
+> stammen aus `akquise/listenbau-regelwerk.md` (§ 3 Pflicht 2, § 7.3,
+> § 7.4) und aus `akquise/interessenabwaegung-o8.md` (§ 7.2, § 7.4,
+> § 8, § 10). ⚠️ **Wo diese Datei darüber hinausgeht, ist es
+> gekennzeichnet** — die Erstfassung sagte pauschal „keine neue Regel"
+> und traf damit für `ANL-2`, `ANL-4` und `SP-09` nicht zu
+> (Prüferbefund PE-11). Die Setzungen dieser Datei sind in § 3a
+> abschließend aufgelistet.
 > **Vorrangklausel: Bei Widerspruch gewinnt das Regelwerk** — und bei
 > Widerspruch zwischen Regelwerk und `handel/kanal-rechtsmatrix.md`
 > gewinnt die Rechtsmatrix (Regelwerk § 11). Ändert sich dort etwas,
@@ -34,7 +52,8 @@ und damit entsteht auch kein Sperrfall.
 | **O-9 · Art. 6 Abs. 4 DSGVO** | anwaltlicher Rat, fällig **vor dem ersten Datensatz** (Regelwerk § 10) | Betrifft die Zulässigkeit des Listenbaus insgesamt, nicht diese Datei — aber ohne Liste kein Sperrbetrieb |
 | **B-2 · elektronischer Widerspruchsweg + TOM** | E-Mail-Postfach für Datenschutzbelange samt Art.-24-Maßnahmen; hängt an F-7 und an MKT-OPS | Feld `SP-06` kann den Wert `E-Mail` erst führen, wenn der Weg existiert |
 | **Antwortschreiben-Text (B-3)** | braucht Firmierung (F-7); Text ist **hier nicht** gebaut | `SP-11`/`SP-12` sind Nachweisfelder, nicht der Text |
-| **O-6 · Werkzeugwahl** | CRM-/Werkzeugentscheid offen (MKT-OPS) | Diese Datei definiert die Struktur **werkzeugneutral**. Die Markdown-Tabelle in § 9 ist die tragfähige Erstform, bis ein Werkzeug steht |
+| **O-6 · Werkzeugwahl** | CRM-/Werkzeugentscheid offen (MKT-OPS) | Diese Datei definiert die Struktur **werkzeugneutral**. ⚠️ **Sie ist selbst kein Ablageort** — der Bestand lebt in `sensibel/` oder im Werkzeug, **nie im Repo** (§ 9, Ablageregel; korrigiert nach Prüferbefund PE-5) |
+| **Belegablage** | Ablageort für Originale von Widersprüchen (Mail, Scan, Telefonnotiz) — hängt an B-2 (Postfach) und O-6 (Scan-/Notizort) | `SP-10` ist Pflichtfeld und heute **nicht befüllbar**; bis zum Entscheid trägt es `<<BELEGABLAGE — O-6/B-2 OFFEN>>`. *(Gate ergänzt nach Prüferbefund PE-6 — das Feld hatte als einziges Pflichtfeld kein Gate, obwohl `SP-06`/`SP-11` genau dafür eines bekommen hatten.)* |
 
 > ⚠️ **Sprechende Platzhalter, keine Dummys.** Wo ein Wortlaut oder
 > eine Angabe noch nicht feststeht, steht im Werkzeug sichtbar
@@ -64,10 +83,19 @@ tragen muss:
    sonst steht der Betrieb bei der nächsten Listenrunde wieder im
    Verteiler" (Regelwerk § 3 Pflicht 2, nach Rechtsmatrix C5).
 3. **Fristfrei.** „Die **Sperrdatei** ist von allen Fristen
-   ausgenommen" (Regelwerk § 7.4). Rechtsgrundlage der Aufbewahrung —
-   bereits belegt, hier nur zitiert: „Der Eintrag in der
-   **Werbesperrdatei** wird nicht gelöscht (Art. 21 Abs. 3 / Art. 17
-   Abs. 3 lit. b)" (`interessenabwaegung-o8.md` § 8, VVT-Block lit. f).
+   ausgenommen" (Regelwerk § 7.4) — das ist die **betrieblich getragene**
+   Grundlage dieser Datei. Als Normzuordnung nennt
+   `interessenabwaegung-o8.md` § 8 (VVT-Block lit. f): „Der Eintrag in
+   der **Werbesperrdatei** wird nicht gelöscht (Art. 21 Abs. 3 /
+   Art. 17 Abs. 3 lit. b)".
+   ⚠️ **Belegstufe dieser Normzuordnung: keine.** 🔧 *Repariert
+   14.08.2026 (Prüferbefund PE-9, MITTEL): Hier stand „Rechtsgrundlage
+   der Aufbewahrung — **bereits belegt**, hier nur zitiert". Das Zitat
+   ist wortgetreu, aber die Fundstelle ist ein zur Übernahme gebauter
+   **VVT-Textblock ohne Belegstufe**; o8 § 9.2 formuliert dieselbe
+   Aussage als betriebliche Begründung. „Bereits belegt" war damit
+   selbst unbelegt — und genau die Formulierung, die jeden weiteren
+   Prüfer beruhigt. Der Anspruch ist **gestrichen, nicht abgeschwächt.***
 4. **Minimal.** Sie ist keine Zweitliste. Jedes Feld, das nicht zum
    Sperren, zum Nachweis oder zur Betroffenenrechte-Kette gebraucht
    wird, gehört nicht hinein — die Datenminimierung des Feldregisters
@@ -107,9 +135,10 @@ Bedingung, sonst **leer lassen** · ⛔ = wird bewusst **nicht** geführt.
 | **SP-06** | Eingangsweg | ✅ | einer aus: `Brief` · `E-Mail` · `Telefon` · `Anwaltsschreiben` · `Dritte` · `Impressumsvermerk` · `sonstiger` (dann `SP-15` ausfüllen) | B-2/R-B7: Der Widerspruch bindet unabhängig vom Eingangsweg. Das Feld belegt, dass **formlose** Eingänge tatsächlich erfasst werden |
 | **SP-07** | Eingangsdatum | ✅ | Datum (bei Telefon zusätzlich Uhrzeit) | Startpunkt der Unverzüglichkeits-Messung |
 | **SP-08** | Eintragsdatum in die Sperrdatei | ✅ | Datum (Uhrzeit empfohlen) | **Ab hier wirkt die Sperre.** Die Differenz `SP-08 − SP-07` ist der einzige Nachweis für „unverzüglich" (§ 4) |
-| **SP-09** | Reichweite der Sperre | ✅ | Standardwert `alle Kanäle`; ein abweichender Wert ist nur mit ausdrücklicher Erklärung des Betriebs zulässig und braucht `SP-15` | „Ein erklärter Widerspruch bindet uns **kanalübergreifend**" (Regelwerk § 3 Pflicht 2, nach A7). Das Feld existiert, damit die Kanalübergreifendheit **sichtbar** ist, nicht damit sie verhandelbar wird |
+| **SP-09** | Reichweite der Sperre | ✅ | **Fester Wert `alle Kanäle`. Das Feld hat keinen zweiten zulässigen Wert.** Erklärt ein Betrieb ausdrücklich, er wolle nur einen Kanal sperren, wird das als **Wortlaut in `SP-15` vermerkt** — die Sperrreichweite bleibt davon **unberührt** | „Ein erklärter Widerspruch bindet uns **kanalübergreifend**" (Regelwerk § 3 Pflicht 2, nach A7). 🔧 **Repariert 14.08.2026 (Prüferbefund PE-12, MITTEL):** Die Erstfassung ließ „einen abweichenden Wert mit ausdrücklicher Erklärung des Betriebs" zu — und baute damit unmittelbar neben dem Zitat, das die Kanalübergreifendheit trägt, einen zulässigen Weg zur **Teil**-Sperre. Ob eine betroffene Person ihren Widerspruch wirksam auf einen Kanal begrenzen kann, ist eine **ungeklärte Rechtsfrage** (keine Quelle behandelt sie) — als **PS-6** in § 8 geführt. Bis zur Klärung gilt der sichere Zustand: volle Sperre |
 | **SP-10** | Beleg-Referenz | ✅ | Ablageort des Originals (Mail-ID, Scan-Dateiname, Telefonnotiz-ID) — **nicht** der Volltext | Nachweispflicht (Art. 5 Abs. 2). Der Volltext gehört in die Belegablage, nicht in die Sperrdatei (Minimalitätsgebot, § 1 Nr. 4) |
-| **SP-11** | Antwortschreiben versandt am | 🔶 | Datum; Pflicht bei `ANL-1` und `ANL-2`, bei `ANL-3`/`ANL-4` **leer** (s. § 3) | B-3 / R-B10: „Individuelles Antwortschreiben auf jeden Widerspruch" |
+| **SP-11** | Antwortschreiben versandt am | 🔶 | Datum. **Pflicht bei `ANL-1`, `ANL-2` und `ANL-4`** — leer **nur** bei `ANL-3` (kein Erklärender) oder bei `ANL-4` ohne erreichbaren Absender, dann Grund in `SP-15` (s. § 3) | B-3 / R-B10: „Individuelles Antwortschreiben auf jeden Widerspruch". 🔧 **Repariert 14.08.2026 (Prüferbefund PE-23, MITTEL):** Diese Zeile sagte „bei `ANL-3`/`ANL-4` leer" und war damit die **pflichtenärmste** von drei einander widersprechenden Fassungen in derselben Datei — sie strich das Antwortschreiben für einen Fall, den § 3 ausdrücklich verlangt. § 2, § 3, § 4 und § 9 sind jetzt auf **eine** Fassung gebracht |
+| **SP-11a** | Bestätigung der Beachtung enthalten | 🔶 | `ja` / `nein`; Pflicht, wenn `SP-11` gefüllt ist | **Erstes** der drei B-3-Elemente. *(Feld ergänzt nach Prüferbefund PE-4: `SP-12` und `SP-13` hatten je ein eigenes Nachweisfeld, Element 1 nur das Sammelfeld `SP-11` — dieselbe Begründung, die `SP-13` sein Feld gab, gilt hier.)* Der **Text** selbst hängt an F-7 |
 | **SP-12** | Genannter Rest-Zeitraum | 🔶 | konkrete Angabe, z. B. `bis 05.09.2026`; Pflicht immer dann, wenn `SP-11` gefüllt ist | B-3 verlangt die Nennung eines „möglichst genau zu benennenden kurzen Zeitraum[s]", in dem noch Werbung ankommen kann. Ein Feld ohne Wert ist hier eine offene Rechtspflicht |
 | **SP-13** | Unterrichtung über die Sperrlisten-Aufnahme | 🔶 | `ja` / `nein`; Pflicht, wenn `SP-11` gefüllt ist | Zweiter, eigenständiger Teil von B-3 (DSK Ziff. 5.1) — er fällt beim Verdichten regelmäßig weg und bekommt deshalb ein eigenes Feld |
 | **SP-14** | B-4-Vorgang | 🔶 | Unterblock nach § 6; nur bei einem Löschverlangen **aus der Sperrdatei** | Der enge Fall B-4 — er hat einen eigenen Ablauf und darf nicht als regulärer Art.-17-Fall behandelt werden |
@@ -128,9 +157,9 @@ den **Rechtsfolgen** — das ist der Grund, warum das Feld existiert.
 | Anlass | Was vorliegt | Antwortschreiben (B-3)? | Grundlage |
 |---|---|---|---|
 | **ANL-1** | **Werbewiderspruch nach Art. 21 Abs. 2**, uns gegenüber erklärt — über **jeden** Kanal, auch formlos, auch telefonisch, auch über einen Anwalt | ✅ **Ja, Pflicht** — mit Rest-Zeitraum (`SP-12`) und Unterrichtung (`SP-13`) | R-B7/R-B8; B-3 / R-B10 |
-| **ANL-2** | **Sonstige uns gegenüber erklärte Ablehnung weiterer Werbung**, die nicht ausdrücklich als Widerspruch bezeichnet ist („bitte nicht mehr anschreiben") | ✅ **Ja** — wird wie `ANL-1` behandelt | R-B7 („unabhängig vom Eingangsweg"), R-B8 (kein Ermessen). Die Bezeichnung durch den Betrieb ist unerheblich |
+| **ANL-2** | **Sonstige uns gegenüber erklärte Ablehnung weiterer Werbung**, die nicht ausdrücklich als Widerspruch bezeichnet ist („bitte nicht mehr anschreiben") | ✅ **Ja** — wird wie `ANL-1` behandelt | ⚠️ **Setzung dieser Datei** (§ 3a Nr. 2), an R-B7/R-B8 angelehnt, aber dort nicht ausgesprochen. Wirkt in die **sichere** Richtung (mehr Pflichten) |
 | **ANL-3** | **Werbewiderspruch im Impressum** des Betriebs (B-1) — kein an uns gerichteter Vorgang | ⛔ **Nein** — es gibt keinen Erklärenden, dem geantwortet werden könnte, und keine an uns gerichtete Erklärung | Regelwerk § 7.1-Nachtrag (B-1) und § 9 rote Linie 13. ⚠️ **Einstufung ist eine Setzung dieser Datei**, s. Kasten unten |
-| **ANL-4** | **Rückläufer mit Sperrwirkung** — z. B. ein Brief kommt mit ausdrücklichem Vermerk „keine Werbung" zurück | ✅ **Nur, wenn ein Absender erreichbar ist**; sonst `SP-11` leer und Grund in `SP-15` | R-B7 (formloser Eingang). Ein nicht beantwortbarer Vorgang wird als solcher dokumentiert, nicht stillschweigend übergangen |
+| **ANL-4** | **Rückläufer mit Sperrwirkung** — z. B. ein Brief kommt mit ausdrücklichem Vermerk „keine Werbung" zurück | ✅ **Ja — außer der Absender ist nicht erreichbar**; dann `SP-11` leer **und Grund in `SP-15` Pflicht** | ⚠️ **Setzung dieser Datei** (§ 3a Nr. 3), an R-B7 (formloser Eingang) angelehnt. Ein nicht beantwortbarer Vorgang wird als solcher dokumentiert, nicht stillschweigend übergangen |
 
 > ⚠️ **`ANL-3` ist eine Setzung dieser Session, keine Quellenaussage.**
 > Das Regelwerk (§ 7.1-Nachtrag, B-1) verlangt, jedes Ziel-Impressum
@@ -148,12 +177,35 @@ den **Rechtsfolgen** — das ist der Grund, warum das Feld existiert.
 >    nichts erklärt (Unterschied zu `ANL-1`).
 > 2. Ob der Eintrag eines fremden Impressumsvermerks in einen eigenen
 >    Sperrbestand seinerseits eine zulässige Verarbeitung ist, ist
->    **nicht erhoben**. Der Punkt ist als **P-1** in § 8 geführt und
+>    **nicht erhoben**. Der Punkt ist als **PS-1** in § 8 geführt und
 >    gehört in denselben anwaltlichen Rat wie O-9.
 >
 > Bis zur Klärung gilt die **engere** Handhabung: `ANL-3`-Einträge
 > tragen nur `SP-02`, `SP-03`, `SP-05` bis `SP-08` und `SP-10` —
 > **niemals `SP-04`** (kein Personenname).
+
+---
+
+## 3a. Die Setzungen dieser Datei — abschließende Liste
+
+*(Ergänzt 14.08.2026 nach Prüferbefund PE-11. Der Kopf-Kasten sagte
+pauschal „keine neue Regel"; drei Stellen gingen tatsächlich über die
+Quellen hinaus und waren nicht als Setzung markiert. Eine Kopf-Zusage,
+die nicht stimmt, ist schlimmer als keine — sie beruhigt jeden Prüfer.)*
+
+| # | Setzung | Quellenlage | Richtung |
+|---|---|---|---|
+| 1 | **`ANL-3`** — der im fremden Impressum vorgefundene Werbewiderspruch wird in der Sperrdatei geführt | Regelwerk § 7.1 verlangt die **Prüfung**, lässt die Führung ausdrücklich offen | mehr Aufwand, Zulässigkeit offen → **PS-1** |
+| 2 | **`ANL-2`** — eine nicht als Widerspruch bezeichnete Ablehnung löst dieselben Pflichten aus wie ein Widerspruch, **inklusive Antwortschreiben** | R-B7/R-B8 sagen „unabhängig vom Eingangsweg" und „kein Ermessen", aber nichts über die **Bezeichnung** | **sichere** Richtung (mehr Pflichten) |
+| 3 | **`ANL-4`** — ein Rückläufer mit Vermerk ist ein Sperrfall | R-B7 (formloser Eingang) trägt es sinngemäß, spricht es aber nicht aus | **sichere** Richtung |
+| 4 | **Meldeschwelle** „mehr als ein Werktag" für `SP-08 − SP-07` | Die Quelle nennt nur „unverzüglich" | Schwelle ist **Meldeanlass**, keine Erlaubnis → **PS-2** |
+| 5 | **Feldschnitt und ⛔-Zeilen** (kein Grund-Feld, kein Ablauf-Datum) | abgeleitet aus R-B8 und § 7.4 | **sichere** Richtung |
+
+⚠️ **Nicht mehr in dieser Liste, weil zurückgebaut:** Die Erstfassung
+ließ bei `SP-09` eine Teil-Sperre zu. Das war eine Setzung in die
+**unsichere** Richtung und ist entfernt (s. `SP-09`, Prüferbefund
+PE-12) — die offene Rechtsfrage wird als **PS-6** geführt, statt sie
+im Feld vorwegzunehmen.
 
 ---
 
@@ -219,9 +271,12 @@ in beiden Dateien.
 - Die Zahl der Aussteuerungen geht in die Summenprobe der Welle
   (`akquise/wellenprotokoll-vorlage.md`, Block E). Geht die Probe nicht
   auf, ist die Welle **nicht freigegeben**.
-- **Ein Abgleich mit null Treffern wird genauso protokolliert wie
-  einer mit Treffern.** Ein fehlender Journal-Eintrag ist ununterscheidbar
-  von einem unterlassenen Abgleich.
+- **Die Null-Treffer-Regel** (ein Abgleich ohne Treffer wird genauso
+  eingetragen wie einer mit Treffern) steht **einmal**, bei den
+  Journal-Regeln in `akquise/wellenprotokoll-vorlage.md` § 5.
+  *(🔧 Dublette entfernt 14.08.2026, Prüferbefund PE-19 — sie stand
+  hier wortgleich ein zweites Mal, ohne Wächter und ohne Rangfolge
+  zwischen den beiden neuen Dateien.)*
 
 ---
 
@@ -292,10 +347,20 @@ Belegstufe ① A):
 - Der **Sperreintrag bleibt bestehen.**
 - Der Vorgang wird als `Klärungsfall` in `SP-14.3` geführt, nicht
   vorsorglich in eine der beiden Richtungen aufgelöst.
-- ⚠️ **Ein regulärer Art.-17-Fall ist parallel weiter fristgebunden**
-  (Regelwerk § 7.4: Antwort binnen eines Monats, Verlängerung nur, wenn
-  sie innerhalb des ersten Monats mitgeteilt und begründet wird). Die
-  Klärung setzt diese Frist **nicht** aus.
+- ⚠️ **Ein regulärer Art.-17-Fall läuft parallel weiter** und wird
+  nicht dadurch angehalten, dass wir klären.
+  🔧 **Repariert 14.08.2026 (Prüferbefund PE-10, MITTEL):** Hier stand
+  „ist parallel weiter fristgebunden (**Regelwerk § 7.4:** Antwort
+  binnen eines Monats, Verlängerung nur, wenn sie innerhalb des ersten
+  Monats mitgeteilt und begründet wird)". Die zitierte Stelle ist auf
+  **Art. 15 (Auskunft)** gescopet; über Antwortfristen bei
+  Löschverlangen sagt der Löschkonzept-Absatz daneben nichts. Dass die
+  Monatsfrist des Art. 12 Abs. 3 auch Art.-17-Anträge erfasst, mag
+  zutreffen — es wäre eine **eigene Rechtsaussage**, und diese Datei
+  erhebt keine (§ 11). Die Frist des regulären Löschverlangens ist
+  daher hier **nicht bestimmt**; sie gehört in den anwaltlichen Rat
+  (**PS-7**, § 8). Was bleibt: **Die Klärung ist kein Grund, den
+  Vorgang liegen zu lassen.**
 
 ---
 
@@ -309,7 +374,7 @@ Zum Aushängen neben den roten Linien des Regelwerks (§ 9).
 3. ⛔ **Keine Rückfrage, keine „letzte Mail", keine Reaktivierung**
    (R-B8).
 4. ⛔ **Kein Ablauf-, Verfalls- oder Wiedervorlage-Datum** auf einem
-   Sperreintrag (§ 7.4: von allen Fristen ausgenommen).
+   Sperreintrag (Regelwerk § 7.4: von allen Fristen ausgenommen).
 5. ⛔ **Kein B-4-Hinweis auf ein reguläres Löschverlangen** (§ 6.1).
 6. ⛔ **Keine Weitergabe der Sperrdatei an Dritte** — R-B9; die
    DSB-Benennungsschwelle „geschäftsmäßig zum Zweck der Übermittlung"
@@ -323,18 +388,21 @@ Zum Aushängen neben den roten Linien des Regelwerks (§ 9).
 
 | # | Punkt | Warum offen | Träger |
 |---|---|---|---|
-| **P-1** | **Zulässigkeit der `ANL-3`-Führung** — darf ein im fremden Impressum vorgefundener Werbewiderspruch in einen eigenen Sperrbestand? | Die Quelle verlangt die Prüfung und die Nicht-Aufnahme (B-1), sagt aber nichts über die Speicherung des Ergebnisses. Eigene Setzung, s. § 3 | Anwaltlicher Rat — **mit O-9 bündeln** |
-| **P-2** | **Meldeschwelle für `SP-08 − SP-07`** (hier: ein Werktag) | Setzung dieser Datei; die Quelle nennt nur „unverzüglich" (§ 4) | MKT-AKQ beim ersten Wellenbau |
-| **P-3** | **Technische Form** — Datei, Tabelle, CRM-Feld | O-6 (Werkzeugwahl) ist offen (Regelwerk § 10) | MKT-OPS |
-| **P-4** | **Abgleich-Verfahren bei abweichender Schreibweise** — `SP-02`/`SP-03` sind Freitext; ein Abgleich über Firmennamen trifft „Hotel Seeblick GmbH" und „Hotel Seeblick" nicht sicher gleich | Kein Verfahren festgelegt. Bis dahin gilt: **im Zweifel aussteuern** | MKT-OPS, mit P-3 |
-| **P-5** | **Diese Datei und `akquise/wellenprotokoll-vorlage.md` liegen außerhalb des Prüfraums von `akquise/pruefe-zitate.js`** | **Am Skript gemessen 14.08.2026** (Stand `3067361`): Die `ZIEL`-Liste führt `akquise/akquiseplan.md`, `akquise/listenbau-regelwerk.md`, `akquise/interessenabwaegung-o8.md`, `fund/wettbewerbsbild.md`, `handel/kanal-rechtsmatrix.md`, `handel/angebotsarchitektur.md` — die beiden neuen Dateien sind **nicht** darunter. Die hier geführten Zitate haben damit **kein dauerhaftes Prüfmittel im Repo** | Leitsession / R15-C — gleiche Klasse wie R14B-N-9 |
+| **PS-1** | **Zulässigkeit der `ANL-3`-Führung** — darf ein im fremden Impressum vorgefundener Werbewiderspruch in einen eigenen Sperrbestand? | Die Quelle verlangt die Prüfung und die Nicht-Aufnahme (B-1), sagt aber nichts über die Speicherung des Ergebnisses. Eigene Setzung, s. § 3 | Anwaltlicher Rat — **mit O-9 bündeln** |
+| **PS-2** | **Meldeschwelle für `SP-08 − SP-07`** (hier: ein Werktag) | Setzung dieser Datei; die Quelle nennt nur „unverzüglich" (§ 4) | MKT-AKQ beim ersten Wellenbau |
+| **PS-3** | **Technische Form** — Datei, Tabelle, CRM-Feld | O-6 (Werkzeugwahl) ist offen (Regelwerk § 10) | MKT-OPS |
+| **PS-4** | **Abgleich-Verfahren bei abweichender Schreibweise** — `SP-02`/`SP-03` sind Freitext; ein Abgleich über Firmennamen trifft „Hotel Seeblick GmbH" und „Hotel Seeblick" nicht sicher gleich | Kein Verfahren festgelegt. Bis dahin gilt: **im Zweifel aussteuern** | MKT-OPS, mit PS-3 |
+| **PS-6** | **Kann eine betroffene Person ihren Werbewiderspruch wirksam auf EINEN Kanal begrenzen?** | Von keiner Quelle behandelt. `SP-09` nahm die Antwort in der Erstfassung vorweg (Teil-Sperre zulässig) — zurückgebaut, s. Prüferbefund PE-12. **Bis zur Klärung gilt die volle Sperre** | Anwaltlicher Rat — **mit O-9 bündeln** |
+| **PS-7** | **Antwortfrist bei einem regulären Löschverlangen (Art. 17)** | Regelwerk § 7.4 nennt eine Monatsfrist ausdrücklich nur für **Art. 15 (Auskunft)**. Ob Art. 12 Abs. 3 auch Art.-17-Anträge erfasst, wäre eine **eigene Rechtsaussage**; diese Datei erhebt keine (§ 11). S. § 6.3, Prüferbefund PE-10 | Anwaltlicher Rat — **mit O-9 bündeln** |
+| **PS-8** | **Belegablage** — wo Originale von Widersprüchen liegen | `SP-10` ist Pflichtfeld, der Ablageort hängt an B-2 (Postfach) und O-6 (Scan-/Notizort). Als Gate ergänzt, s. Prüferbefund PE-6 | MKT-OPS, mit PS-3 |
+| **PS-5** | **Diese Datei und `akquise/wellenprotokoll-vorlage.md` liegen außerhalb des Prüfraums von `akquise/pruefe-zitate.js`** | **Am Skript gemessen 14.08.2026** (Stand `3067361`): Die `ZIEL`-Liste führt `akquise/akquiseplan.md`, `akquise/listenbau-regelwerk.md`, `akquise/interessenabwaegung-o8.md`, `fund/wettbewerbsbild.md`, `handel/kanal-rechtsmatrix.md`, `handel/angebotsarchitektur.md` — die beiden neuen Dateien sind **nicht** darunter. Die hier geführten Zitate haben damit **kein dauerhaftes Prüfmittel im Repo** | Leitsession / R15-C — gleiche Klasse wie R14B-N-9 |
 
 ---
 
 ## 9. Ausfüll-Vorlage
 
 **Kopiervorlage. Eine Zeile je Sperrfall.** Bei mehr als wenigen
-Einträgen wird die Tabelle unhandlich — dann greift P-3 (Werkzeug).
+Einträgen wird die Tabelle unhandlich — dann greift PS-3 (Werkzeug).
 
 ```text
 SP-01  Sperr-ID .............. SPD-2026-___
@@ -348,8 +416,12 @@ SP-07  Eingangsdatum ......... ____.____.2026  (Uhrzeit bei Telefon: ______)
 SP-08  Eintragsdatum ......... ____.____.2026  ______ Uhr
        → Differenz SP-08 − SP-07: ______   (> 1 Werktag: Grund in SP-15)
 SP-09  Reichweite ............ alle Kanäle   [Abweichung nur mit SP-15]
-SP-10  Beleg-Referenz ........ ____________________________________
-SP-11  Antwortschreiben am ... ____.____.2026   [bei ANL-3: leer]
+SP-10  Beleg-Referenz ........ <<BELEGABLAGE — O-6/B-2 OFFEN>>
+SP-11  Antwortschreiben am ... ____.____.2026
+       [leer NUR bei ANL-3, oder bei ANL-4 ohne erreichbaren Absender
+        — dann Grund in SP-15 Pflicht]
+SP-11a Bestaetigung der
+       Beachtung enthalten ... ja / nein        [Pflicht, wenn SP-11 gefuellt]
 SP-12  Rest-Zeitraum genannt . bis ____.____.2026
 SP-13  Sperrlisten-Aufnahme
        mitgeteilt ............ ja / nein
@@ -366,31 +438,69 @@ Absender des Antwortschreibens: <<FIRMIERUNG — F-7 OFFEN>>
 Eingangsadresse Datenschutz:    <<DATENSCHUTZ-E-MAIL — F-7/B-2 OFFEN>>
 ```
 
-### Tabellenform (für den laufenden Bestand)
+### ⛔ Wo der Bestand NICHT lebt — Ablageregel
 
-| SP-01 | SP-02 Firma | SP-03 Anschrift | SP-05 Anlass | SP-06 Weg | SP-07 Eingang | SP-08 Eintrag | SP-09 Reichweite | SP-11 Antwort am | SP-13 | SP-15 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| *(leer — noch kein Sperrfall; es existiert noch kein Datensatz und kein Versand)* | | | | | | | | | | |
+> 🔧 **Reparatur 14.08.2026 (Prüferbefund PE-5, SCHWER).** Hier stand
+> eine ausfüllbare Markdown-**Tabellenform „für den laufenden Bestand"**
+> mit den Spalten `SP-01` · Firma · Anschrift · Anlass · Weg · Eingang ·
+> Eintrag · Reichweite · Antwort · `SP-13` · Bemerkung, und die
+> Gate-Zeile O-6 nannte sie „die tragfähige Erstform, bis ein Werkzeug
+> steht". **Das war falsch und ist ersatzlos entfernt** — beide Quellen
+> verbieten es:
+>
+> - `interessenabwaegung-o8.md` § 8 **lit. g** (TOM, Art. 24): „Mindestens:
+>   Zugriffsbeschränkung, **Ablage außerhalb des Repos** (Projektquelle
+>   § 2 AKQ2), Sperrdatei-Abgleich als technischer Schritt vor jedem
+>   Druckauftrag".
+> - `listenbau-regelwerk.md` § 11: „⚠️ **Ablageregel:** Die Liste selbst
+>   gehört **nicht** ins Repo" (Projektquelle § 2 AKQ2:
+>   „personenbezogene Daten nur in `sensibel/`/CRM").
+>
+> Dass die Sperrdatei keine Zielkundenliste ist, entlastet nicht: Sie
+> trägt nach eigenem Feldschnitt Firma und Anschrift und **kann**
+> `SP-04` tragen — bei inhabergeführten Häusern sind schon Firma und
+> Anschrift regelmäßig personenbezogen (Rechtsmatrix C1). Wer die
+> entfernte Tabelle befolgt hätte, hätte personenbezogene Daten
+> **unwiderruflich in die Git-Historie** committet. Das war der einzige
+> Befund dieser Session, der auch bei geschlossenen Gates sofort
+> gewirkt hätte — ein Sperrfall entsteht, sobald jemand widerspricht,
+> auch ohne Versand.
 
-> ⚠️ **Die Leerzeile ist ein Befund, kein Formfehler.** Solange die
-> Gates oben offen sind, **kann** es keinen Sperrfall geben. Wer hier
-> später einen leeren Bestand vorfindet, prüft zuerst, ob überhaupt
-> schon versandt wurde — nicht, ob jemand vergessen hat einzutragen.
+**Verbindlich:**
+
+1. ⛔ **Der Sperrbestand wird NIE in diesem Repository geführt** — weder
+   als Tabelle, noch als CSV, noch als Beispielzeile mit echten Daten.
+2. ✅ Zulässige Orte: `sensibel/` (git-ignoriert) oder das CRM/Werkzeug
+   nach **O-6**, jeweils mit Zugriffsbeschränkung.
+3. Die Ausfüll-Vorlage oben ist eine **Feldbeschreibung zum Abschreiben**
+   — sie wird am Ablageort ausgefüllt, nicht hier.
+4. Auch **Belege** (`SP-10`) und Klärungsvorgänge (`SP-14`) folgen dieser
+   Regel; `SP-10` referenziert einen Ablageort, nie den Volltext.
+
+> ⚠️ **Dass es hier keinen Bestand gibt, ist deshalb kein Befund über
+> den Betrieb** — er gehört hier nicht hin. Wer prüfen will, ob
+> Sperrfälle vorliegen, sieht am Ablageort nach, nicht in dieser Datei.
+> Solange die Gates offen sind, **kann** es zusätzlich noch keinen
+> Sperrfall geben: Wer später nichts findet, prüft zuerst die Gates,
+> nicht die Sorgfalt.
 
 ---
 
 ## 10. Zuordnung zu den Bau-Pflichten B-1…B-7
 
-Vollständige Zuordnung siehe `akquise/wellenprotokoll-vorlage.md` § 8
-— dort steht sie **einmal** für beide Werkzeuge, mit Zählweg. Hier nur
-der Ausschnitt dieser Datei:
+**Die vollständige Zuordnung steht genau EINMAL:** in
+`akquise/wellenprotokoll-vorlage.md` **§ 11**, mit Zählweg und
+Summenprobe.
 
-| Pflicht | In dieser Datei |
-|---|---|
-| **B-2** | teilweise — Feld `SP-06` (Eingangsweg) belegt die Erfassung formloser Eingänge. Der **Bau** des elektronischen Wegs und der Art.-24-TOM ist **nicht hier** (F-7 / MKT-OPS, Gate oben) |
-| **B-3** | ✅ Nachweisfelder `SP-11` bis `SP-13` + Ablauf § 4 Schritt 5. Der **Text** des Antwortschreibens ist **nicht hier** (F-7) |
-| **B-4** | ✅ vollständig — § 6 (Abgrenzung, Ablauf, Unterblock `SP-14`) |
-| **B-1** | teilweise — `ANL-3` als Aufnahme-Anlass, mit ausgewiesenem Klärvorbehalt P-1. Die **Prüfpflicht** selbst steht im Regelwerk § 7.1 und bleibt dort |
+> 🔧 **Repariert 14.08.2026 (Prüferbefunde PE-21 + PE-19, MITTEL).**
+> Zwei Fehler an dieser Stelle: (a) Der Verweis lautete
+> „**§ 8**" — das ist in der Zieldatei „Block G — Fristen"; richtig ist
+> **§ 11** (Fundstellen-Drift zwischen zwei Dateien mit je eigener
+> §-Zählung). (b) Der Satz behauptete „dort steht sie **einmal**" und
+> **wiederholte darunter** die Einstufungen für B-1…B-4 — eine Dublette
+> ohne Wächter, zwischen zwei Dateien, für die es keine Rangfolge gibt
+> (beide liegen außerhalb des Prüfraums von `pruefe-zitate.js`, PS-5).
+> Die Wiederholung ist **entfernt**; „einmal" stimmt jetzt.
 
 ---
 
@@ -417,16 +527,20 @@ jeweils mitgeführt:
 > zitiert, zitiert die Quelle, nicht sie.
 
 > 🔧 **Reparaturvermerk 14.08.2026 (R15-E, Selbstfang).** Die
-> Erstfassung von **P-5** begründete den Prüfraum mit dem Satz „Das
+> Erstfassung von **PS-5** begründete den Prüfraum mit dem Satz „Das
 > Skript prüft nach O-12 nur Akquiseplan und Regelwerk" — **aus zweiter
 > Hand vom Regelwerk § 10 O-12 übernommen, nicht am Skript gemessen.**
 > Der Prüfraum ist seit `3067361` (R15-C) auf **sechs** Dokumente
 > erweitert; die O-12-Zeile im Regelwerk ist damit überholt. Das
-> **Ergebnis** von P-5 änderte sich nicht (beide neuen Dateien stehen
+> **Ergebnis** von PS-5 änderte sich nicht (beide neuen Dateien stehen
 > weiterhin nicht in `ZIEL`), die **Begründung** war falsch — genau die
 > Klasse, vor der CLAUDE.md warnt: eine Bestandsaussage in neu
 > geschriebenem Text braucht dieselbe Messung wie eine Zahl. Aufgefallen
 > beim Wächterlauf, nicht beim Redigieren.
-> ➡️ **Die Nachführung von O-12 im Regelwerk liegt bei der
-> Leitsession** (Wahrheits-Kanal-nah, R15-E fasst § 10 nicht an) — als
-> Nebenbefund gemeldet.
+> ➡️ **Nachgetragen 14.08.2026:** Die O-12-Zeile im Regelwerk § 10
+> trägt jetzt einen Vorwärtsverweis mit dem gemessenen Stand; ihre
+> inhaltliche **Neufassung** liegt bei der Leitsession bzw. R15-C —
+> nicht wegen der Wahrheits-Kanal-Regel (die erfasst dieses Regelwerk
+> gar nicht), sondern weil der Start-Prompt diese Datei nur für Zeiger
+> freigegeben hat. *(Die Erstfassung nannte hier „Wahrheits-Kanal-nah"
+> als Grund — falsche Begründung, Prüferbefund PE-22.)*

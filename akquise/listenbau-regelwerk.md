@@ -865,9 +865,14 @@ Wellenprotokoll, nicht als Feld. (§ 10, O-3.)
 > FG-4. **(b)** B-5 nennt **zwei** Texte (Art.-14-Beileger **und**
 > Widerspruchs-Kasten), also **zwei** Versionsfelder — „Textversion"
 > hier ist Singular. **(c)** Das Abgleichs-Datum ist **mehrzeilig**
-> (s. § 7.3-Zeiger). Die Nachführung dieses Nachtrags und der
-> § 10-Tabelle liegt bei der Leitsession (Wahrheits-Kanal-Regel), nicht
-> bei R15-E.
+> (s. § 7.3-Zeiger). **Die inhaltliche Neufassung dieses Nachtrags
+> liegt bei der Leitsession** — nicht wegen der Wahrheits-Kanal-Regel
+> (die erfasst Projektquelle, STATUS.md, CLAUDE.md und Skills/Commands,
+> **nicht** dieses Regelwerk), sondern weil der Start-Prompt von R15-E
+> diese Datei ausdrücklich **nur für Zeiger** freigegeben hat. *(Die
+> Erstfassung berief sich hier auf die Wahrheits-Kanal-Regel; das war
+> die falsche Begründung — Prüferbefund PE-22. Die Zeiger nach § 7.1,
+> § 10/O-3 und § 10/O-12 sind nachgetragen.)*
 
 ---
 
@@ -899,6 +904,14 @@ Wellenprotokoll, nicht als Feld. (§ 10, O-3.)
 > Umsetzungsfrage beim ersten Wellenbau — die Pflicht selbst ist
 > unbedingt und **vor dem ersten Datensatz** wirksam (Fälligkeit:
 > § 3-Index-Kasten). Als rote Linie ergänzt: § 9 Nr. 13.
+>
+> ➡️ **Diese Umsetzungsfrage ist seit 14.08.2026 (R15-E) beantwortet:**
+> `akquise/wellenprotokoll-vorlage.md` führt sie als **zwei** Felder —
+> `WP-13` (Zahl der ausgesteuerten Treffer) und `WP-13a` (bei wie vielen
+> der `WP-11` Kandidaten die Prüfung überhaupt lief). Das zweite Feld
+> ist nötig, weil `WP-13 = 0` sonst ununterscheidbar bleibt von „gar
+> nicht geprüft". *(Vorwärtsverweis nachgetragen nach Prüferbefund
+> PE-22 — er fehlte an genau der Stelle, an der der Leser ankommt.)*
 
 ### 7.2 Die Fristenuhr — die härteste Betriebsregel
 
@@ -1171,13 +1184,13 @@ Zum Aushängen. Jede Zeile ist oben belegt:
 |---|---|---|---|
 | **O-1** | **Wortlaut des Einwilligungstextes** (Messe, Newsletter) | D3.3 ist ausdrücklich **OFFEN**: „steht erst beim Bau der Messe-/Newsletter-Texte an; wird dem User dann als Entwurf vorgelegt". **Diese Session entscheidet ihn nicht mit** | User, beim Textbau |
 | ~~**O-2**~~ | ~~**Löschfrist für die KALTKONTAKT-Liste**~~ | ~~Die 24 Monate betreffen die Bestandskundeneigenschaft…~~ | ✅ **ENTSCHIEDEN 12.08.2026 (User): 12 Monate** nach letztem Kontaktversuch, plus Regel **O-2b** (nie kontaktierte Sätze: Disposition binnen 3 Monaten, einmal verlängerbar, kein Verfall ohne Disposition) — s. § 7.4 und `interessenabwaegung-o8.md` § 9. Offen bleibt nur die technische Umsetzung der Wiedervorlage (MKT-OPS) |
-| **O-3** | **Nachvollziehbarkeit der Auswahl** ohne gespeicherte Auswahlmerkmale | Spannung zwischen Datenminimierung (§ 6) und Dokumentationsinteresse; Vorschlag Wellenprotokoll (§ 6.1) *(Nachtrag 13.08.2026, R13-B: Antwort liegt vor — das Wellenprotokoll ist per B-6 PFLICHT geworden, § 6.1-Nachtrag; offen bleibt allein der Bau)* | Beim ersten Wellenbau |
+| ~~**O-3**~~ | ~~**Nachvollziehbarkeit der Auswahl** ohne gespeicherte Auswahlmerkmale~~ | ~~Spannung zwischen Datenminimierung (§ 6) und Dokumentationsinteresse; Vorschlag Wellenprotokoll (§ 6.1)~~ *(Nachtrag 13.08.2026, R13-B: Antwort liegt vor — das Wellenprotokoll ist per B-6 PFLICHT geworden, § 6.1-Nachtrag; offen bleibt allein der Bau)* | ✅ **GEBAUT 14.08.2026 (R15-E):** `akquise/wellenprotokoll-vorlage.md` — Blöcke A–H, drei Summenproben, Abgleich-Journal. **Kein Blankoscheck:** Das Werkzeug ist gebaut, **angewandt ist es nicht** (kein Datensatz, keine Welle; alle Gates dort offen). *(Vorwärtsverweis nachgetragen nach Prüferbefund PE-22 — die Zeile führte den Vermerk, offen bleibe allein der Bau, nachdem der Bau erfolgt war. Anführungszeichen hier bewusst vermieden: Ein Reparaturvermerk, der die alte Fassung zitiert, erzeugt ein Zitat, das per Konstruktion in keiner Pool-Quelle stehen kann und den Zitat-Wächter rot färbt — L-26.)* |
 | **O-4** | **Wie groß ist die Zielmenge wirklich?** | Nach Abzug der Ketten-/Konzern-/Franchise-Betriebe (Positionierungspapier § 3.3) unbekannt; eine Betreiberstruktur-Schneidung existiert nicht (der amtliche Weg dazu ist selbst offen: `regionalstatistik-…` § 8 Punkt 2) | MKT-FUND / AKQ2 |
 | **O-5** | **Nachfass-Anruf nach eigenem Brief** | In der Rechtsmatrix nicht behandelt → **ungeklärt, nicht erlaubt** (R-A7.6) | MKT-HANDEL (N-1 im Akquiseplan) |
 | **O-6** | **CRM-/Werkzeugwahl** und damit die technische Form von Liste und Sperrdatei | Ausdrücklich nicht Gegenstand dieser Session | MKT-OPS |
 | **O-7** | **Hamburg** | Keine Kreisstatistik im Bestand (§ 8) | MKT-FUND |
 | **O-11** *(neu 12.08.2026, R9/N-16)* | **DSK-Ziff. 4.3 „Beipack-Werbung" beim nächsten Durchgang erwähnen** | Von 29 Gliederungspunkten der DSK-Orientierungshilfe (über zwei unabhängige Strukturmerkmale gezählt) sind 18 adressiert; die 11 übrigen betreffen überwiegend die Einwilligungs-Schiene — **Ausnahme Ziff. 4.3**: die einzige Stelle, an der die Aufsicht Briefwerbung per lit. f für zulässig erklärt (Prämisse: Vertragspartner). Tatbestandlich nicht unser Fall, stützt aber die Argumentation | MKT-AKQ, nächster Durchgang |
-| **O-12** *(neu 12.08.2026, R9/R-2)* | **Das O-8-Dokument liegt außerhalb des Prüfraums von `akquise/pruefe-zitate.js`** | Das Skript prüft nur Akquiseplan und dieses Regelwerk; das risikotragende Dokument hat damit **kein dauerhaftes Prüfmittel im Repo** (R09-A hat es in eigener Sache verifiziert). Pool-Erweiterung bräuchte die Primärquellen aus `sensibel/` — eigener Zuschnitt, kein Nebenbei-Fix | nächster Prüflauf |
+| **O-12** *(neu 12.08.2026, R9/R-2)* | **Das O-8-Dokument liegt außerhalb des Prüfraums von `akquise/pruefe-zitate.js`** | ~~Das Skript prüft nur Akquiseplan und dieses Regelwerk~~ ⚠️ **ÜBERHOLT — am Skript gemessen 14.08.2026 (R15-E), Stand `3067361`:** Die `ZIEL`-Liste führt inzwischen **sechs** Dokumente (Akquiseplan · dieses Regelwerk · `interessenabwaegung-o8.md` · `fund/wettbewerbsbild.md` · `handel/kanal-rechtsmatrix.md` · `handel/angebotsarchitektur.md`) — **O-8 ist seither IM Prüfraum**, die Kernaussage dieser Zeile trifft nicht mehr zu. **Was bleibt:** `akquise/sperrdatei-struktur.md` und `akquise/wellenprotokoll-vorlage.md` (neu, R15-E) stehen **nicht** in `ZIEL` — ihre Zitate haben kein dauerhaftes Prüfmittel im Repo. *(Vorwärtsverweis nachgetragen nach Prüferbefund PE-22; die Neufassung der Zeile selbst liegt bei der Leitsession bzw. R15-C.)* | R15-C / nächster Prüflauf |
 | ~~**O-8**~~ | ~~⭐ **Die Interessenabwägung nach Art. 6 Abs. 1 lit. f (Stufe 3) ist nicht durchgeführt**~~ | ~~§ 6 leistet nur Stufe 2 (Erforderlichkeit je Feld). Die Abwägung selbst — Interessen des Betriebs gegen unsere, mit Ergebnis — fehlt. **Damit sind D2 Pflicht 4 und W-b1 offen**, und zwar genau das Dokument, das unter Weg (b) das Risiko trägt (Befund P-01)~~ | ✅ **ERLEDIGT 12.08.2026 (R09-A):** `akquise/interessenabwaegung-o8.md`. **Kein Blankoscheck** — was damit NICHT erledigt ist, steht im Nachtrags-Kasten bei § 3 Pflicht 4 (O-2 offen, Art. 6 Abs. 4 neu offen, acht Bau-Pflichten noch nicht eingearbeitet, anwaltlicher Rat unberührt). *(Nachtrag 13.08.2026, R13-B: Die Bau-Pflichten sind seither eingearbeitet — sieben aktive B-1…B-7, B-8 in der Quelle gestrichen; Index-Kasten am Kopf von § 3. O-2 war schon am 12.08. entschieden. Weiter offen aus dieser Aufzählung: Art. 6 Abs. 4 (O-9) und der anwaltliche Rat.)* |
 | **O-9** *(neu 12.08.2026, R09-A)* | **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO** (Zweckänderung: Impressumsdaten sind zur Anbieterkennzeichnung veröffentlicht, nicht zu Werbezwecken) | Von der Aufsicht ausdrücklich verlangt (DSK-Orientierungshilfe Ziff. 1.5); in diesem Regelwerk **und** in `handel/kanal-rechtsmatrix.md` bisher **nirgends** geführt — gemessen am Stand **vor** diesem Nachtrag (`git show b2cfa12~1:<datei>`, 12.08.2026): „Art. 6 Abs. 4" **0 Treffer** in beiden Dokumenten, Positivkontrolle „Art. 6 Abs. 1" 7 bzw. 6 Treffer. *(Messstand an die Zahl geschrieben nach Prüferbefund Q-12 — ohne ihn ist die Null in genau der Datei, die sie beschreibt, nicht mehr reproduzierbar.)* | MKT-HANDEL / anwaltlicher Rat vor dem ersten Massenversand. *(Nachtrag 13.08.2026, R13-B: **Fällig ist O-9 vor dem ERSTEN DATENSATZ**, nicht erst vor dem Versand — Rn.-87-Verschärfung, s. Nachtrags-Kasten bei § 3 Pflicht 4 (Q-04) bzw. `interessenabwaegung-o8.md` § 11.1. Seit 13.08.2026 wird O-9 auch in `handel/kanal-rechtsmatrix.md` als offener Posten geführt — das dortige „nirgends geführt" ist überholt.)* |
 

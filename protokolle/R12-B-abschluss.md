@@ -195,3 +195,12 @@ Zuordnungsfrage steht als erster ☐-Punkt mit beiden Lesarten ·
 Leistungspaket-Optionenraum und Rabatt-Mechanik entscheidungsfähig ·
 Prüferprotokoll liegt vor · 13/13 Befunde disponiert · Abschlussmeldung
 = diese Datei.
+
+> **Hash-Nachtrag (nach dem Push, R12-A-Muster):** Die drei
+> R12-B-Commits sind `5097f37` (Erstfassung = Prüfstand) · `8674632`
+> (Prüferprotokoll + 12 Reparaturen) · `c12f07b` (diese
+> Abschlussmeldung). **Push-Beleg:** `git push origin c12f07b:main`
+> → `5df3f83..c12f07b` (13.08.2026); die Sichtung
+> `origin/main..HEAD` unmittelbar davor zeigte ausschließlich diese
+> drei eigenen Commits. Dieser Nachtrag selbst ist ein vierter,
+> kleiner Commit.

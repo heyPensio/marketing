@@ -91,6 +91,16 @@ Elternordner der eigenen Repo-Wurzel, F13 12.08.2026):
   (Kundennamen, Systemnamen, Pfade), Herkunftsvermerk kurz
   („Herkunft: MKT R<n>").
 - Eintrag in `LEHREN-CHANGELOG.md` (Datum · Quelle · eine Zeile Kern).
+- **⭐ VOR DEM SETZEN DES STEMPELS die Delta-Liste ERNEUT messen**
+  (`git fetch` + `log <alter-stempel>..HEAD`) — **nie die Liste vom
+  Beginn des Debriefs verwenden.** Ein Stempel auf einen EIGENEN
+  Rückfluss-Commit behauptet implizit, alle **Vorfahren** seien
+  disponiert — auch fremde Deltas, die zwischen Anfangsmessung und
+  Rückfluss hereinkamen; der eigene Rückfluss ist genau der Moment, in
+  dem die Anfangsmessung veraltet ist. Belegfälle: ein Stempel lief über
+  ein Delta hinweg, das 10 Minuten nach der Messung hereinkam; im
+  Folge-Debrief fand die Nachmessung **doppelt so viele** offene Deltas
+  wie die Liste vom Beginn. (Herkunft: MKT R43.)
 - Dort committen (eigenes Repo, eigener Commit).
 - **Werkzeug-Umbauten sind ein eigener Lehren-Typ:** Wurde in dieser
   Runde ein Command/Skill/Ablauf umbenannt, ersetzt oder strukturell

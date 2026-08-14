@@ -3,8 +3,23 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`ae819a0`** (R15-Vorlauf-Nachzug 14.08.2026,
-> 2 Deltas einzeln disponiert, Wächter SYNCHRON 12 / 0 DRIFT).
+> 2026-08-09; Stand **`fed78f3`** (R15-Debrief 14.08.2026 nachts:
+> eigener Rückfluss von 6 Lehren — L-43 (Positivkontrolle spiegelt
+> Zeichenklasse UND Kanal), L-44 (Personendaten nie ins Repo /
+> TOM-Zeile / Gate-Pfad), L-45 (Belegpflicht kennt keine Richtung:
+> Verbots-Aussagen + Entwarnung über die eigene Handlung), L-46
+> (Rollenzuschreibung ist Bestandsaussage), L-47 (Vorbehalt fällt im
+> Tabellenkopf), L-48 („nicht prüfbar" des Prüfers = Nacharbeits-Liste)
+> + L-39-Schärfung (Zitat-Abbruch markiert die eigene Grenze); davor
+> 3 fremde Deltas einzeln disponiert: `6e5364c` + `6831482` (GARP —
+> Verallgemeinerungen AUS diesem R15-Zuschnitt: Fertig-Kriterium muss
+> zur Auftragsart passen · Arbeitsvorrat = Liste von VERNEINUNGEN ·
+> Codex-Zeile wird beim Umschnitt neu gestellt) und `3814ab5`
+> (heyPensio R43 — ERFÜLLEN als dritte Kategorie · konditionale Warnung
+> altert · Fix erfindet Vorbedingung · Treffer ist Lesestelle ·
+> Werkzeug erzwingt nur teilweise); Kopien `commands/tagesstart.md` +
+> `commands/debrief.md` vom Master gezogen, Wächter SYNCHRON 12 /
+> 0 DRIFT. Davor Stand `ae819a0` (R15-Vorlauf-Nachzug, 2 Deltas).
 > **Die vollständige Nachzugs- und Stempel-Historie steht in
 > `geruest-nachzug-protokoll.md`** — sie gehört nicht in den
 > auto-geladenen Kanal (Transit-Verbot G5). Dort auch die
@@ -342,6 +357,18 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   gelesen — es gibt keine Wiederherstellung und keinen Diff (Belegfall:
   30 von 128 Zeilen gelesen, Rest überschrieben, seitdem nicht mehr
   feststellbar). (Herkunft: Zentrale 10.08.2026.)
+- **⭐ Ein ARBEITSVORRAT ist eine Liste von VERNEINUNGEN — die teuerste
+  Aussagenklasse.** „Was ist offen?" heißt „was existiert noch nicht?".
+  Ein Positiv belegt EINE Fundstelle, ein Negativ behauptet etwas über
+  den GESAMTEN Bestand. **Negative altern still** (sie werden falsch in
+  dem Moment, in dem jemand die Sache baut — der Posten wird beim
+  Erledigen nicht gestrichen, weil das Ergebnis anderswo dokumentiert
+  wird), und **der Suchweg bestimmt das Ergebnis** (was unter anderem
+  Namen existiert, liefert einen leeren Grep). **Pflichtform: Jede
+  Verneinung, die einen AUFTRAG trägt, wird am OBJEKT geprüft und mit
+  Suchweg + Stand ausgewiesen** — besonders „X existiert nicht",
+  „niemand hat Y geprüft", „kein Z führt W". (Herkunft: MKT R15 — 4 von
+  5 Strängen einer Runde trugen eine widerlegte Verneinung.)
 - **Verifizieren statt glauben:** gegen echte Daten/Doku/Quelle prüfen,
   bevor eine Beobachtung als Regel behandelt wird. Widerlegt die Messung
   den im Auftrag vorgegebenen LÖSUNGSWEG, ist das ein Befund, kein
@@ -386,7 +413,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Überschrift/Geltungsbereich mitlesen. **Bei Zitat-Nachprüfungen den
   Absatz-/Rn.-Block am STÜCK lesen — ein Grep auf das Zitat bestätigt
   das Zitat und verbirgt seinen Kontext** (ein byte-genaues Zitat endete
-  am Satzpunkt unmittelbar vor seinem Gegenbeleg; MKT R14).
+  am Satzpunkt unmittelbar vor seinem Gegenbeleg; MKT R14). **⭐ Und der
+  Abbruch markiert verlässlich die Grenze der EIGENEN Umsetzung: Endet
+  ein Zitat mitten in einer Aufzählung — ohne Auslassungszeichen —, ist
+  der ungenannte Rest die unangenehmere Pflicht** (L-39, Bau-Richtung
+  R15-E). Ein Satzpräfix wird durch einen künstlichen Punkt nie zum
+  vollständigen Zitat; sichtbare Ellipsen sind Pflicht.
   (g) Widerspricht ein neuer Beleg dem Protokoll → ROHQUELLE holen und
   zweiter Lesedurchgang.
   (h) Ein NEGATIV aus einer Gegenprobe braucht einen ZWEITEN Lesekanal
@@ -409,7 +441,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Kontrollkandidat — eine Regel „je Suchlauf" ist erst umgesetzt, wenn
   JEDER Kanal seinen benannten Anker hat; der stärkste Kontrollbegriff
   spiegelt die SUCHMECHANIK des Nulltreffers (z. B. Teilwort-Probe),
-  nicht nur irgendeinen garantierten Treffer. (Sammelvermerk R3.)
+  nicht nur irgendeinen garantierten Treffer. **Er trägt dazu die
+  ZEICHENKLASSE des Musters (`§`, Umlaut, Ziffer) und hat je Kanal einen
+  VERSCHIEDENEN Sollwert (cs ≠ ci)** — eine Kontrolle, die in beiden
+  Kanälen dieselbe Zahl liefert, prüft den Kanal nicht; reine
+  Buchstaben-Kontrollen liefen sauber durch, während „§ 3a" = 0 ein
+  Entity-Artefakt war (L-43, vierfach). (Sammelvermerk R3.)
   **Bei EXTRAKTIONEN prüft die Kontrolle die Vollständigkeit des
   ERGEBNISSES** (bekannte Elemente müssen in der Extraktion erscheinen),
   nicht die Erreichbarkeit der Quelle — „Nutzlast gefunden" beglaubigt
@@ -496,6 +533,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   bauen — nie umgekehrt. Bewertungs-/Syntheseabschnitte gegen das eigene
   DETAILKAPITEL zurücklesen, nie gegen die Erinnerung an die Quelle — der
   gefährliche Moment ist der Übergang vom Detail zur Bewertung.
+  **⭐ Beim Übernehmen von TABELLEN fällt der Vorbehalt im KOPF, nicht in
+  den Zellen** — Zellen werden byte-treu kopiert, der Kopf neu
+  formuliert; genau dort ging „alle Stufe E" verloren. Den Tabellenkopf
+  wie ein Zitat behandeln: byte-treue Zellen daneben sind kein Beleg für
+  einen korrekten Kopf, sie signalisieren nur Sorgfalt (L-47).
   **Gilt auch für eigene MESS- und BEFUNDPROTOKOLLE:** Zahlen driften
   beim Zusammenfassen in Richtung eigener Vollständigkeit (Auslassungen
   und Vorher/Nachher-Verwechslungen, keine Erfindungen). Rohausgabe beim
@@ -536,9 +578,20 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   eine unverifizierte Verbindlichkeit. Keine beiläufige Zusage im PRÄSENS,
   die noch nicht wahr ist („ich frage gerade ab" → „ich hole ein und
   reiche nach"). Aussagen darüber, WER etwas entschieden hat, tragen
-  dieselbe Belegpflicht wie Zahlen. Auch **„bestätigt"/„re-bestätigt"/
-  „unverändert" sind Entwarnungen** mit voller Belegpflicht — sie fühlen
-  sich wie Nicht-Aussagen an und rutschen deshalb ungeprüft durch.
+  dieselbe Belegpflicht wie Zahlen — **auch Funktions-/Organbezeichnungen
+  (Geschäftsführer, Inhaber) sind belegpflichtige Bestandsaussagen; im
+  Zweifel neutral benennen („wir"), verschärft bei Firmen in Gründung**
+  (L-46: „Der Geschäftsführer hat sich entschieden" wäre als erfundene
+  Organstellung an einen Anwalt gegangen). Auch
+  **„bestätigt"/„re-bestätigt"/„unverändert" sind Entwarnungen** mit
+  voller Belegpflicht — sie fühlen sich wie Nicht-Aussagen an und
+  rutschen deshalb ungeprüft durch. **⭐ Und die Belegpflicht kennt
+  keine RICHTUNG: Verbots-/Unzulässigkeits-Aussagen („verstößt gegen",
+  „wäre lizenzwidrig") fühlen sich sicher an, WEIL sie streng sind, und
+  entgehen genau deshalb der Prüfung, die jede Entlastung durchläuft.
+  Ebenso die Entwarnung über die EIGENE HANDLUNG („keine neue Sperre
+  dieser Session") — sie entlastet nicht die Sache, sondern die Session,
+  und wird am eigenen Delta gemessen, nie an der Erinnerung** (L-45).
   (Sammelvermerk R3.) **⭐ Die Entlastung über den eigenen AUFTRAG
   („das war nie beauftragt") verallgemeinert den eigenen Prompt zum
   Gesamtauftrag** — vor jedem „nicht beauftragt" das Routing-/
@@ -563,7 +616,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   und muss wiederholt werden. Gilt auch für gestellte, unbeantwortete
   Fragen („gestellt am X, unbeantwortet seit Y").
 - **„Nicht prüfbar" ist ein eigenes Ergebnis** und darf nicht zu „keine
-  Auffälligkeiten" geglättet werden.
+  Auffälligkeiten" geglättet werden. **⭐ Und der Abschnitt „nicht
+  erhoben / nicht prüfbar" eines PRÜFERS ist die erste
+  Nacharbeits-Liste, kein Haftungsausschluss — er benennt Fundorte, nicht
+  Grenzen:** Ein als ungelesen ausgewiesener Quellabschnitt trug drei
+  Funde, darunter eine Klausel, die ein ganzes Gate milderte; der Prüfer
+  hatte sie vorhergesagt (L-48).
 - **Recherchen brauchen eine Gegenprobe-Achse**, die die PRÄMISSE des
   Auftrags prüft, nicht nur seine Ausführung. Ein Recherche-Auftrag, der
   bekannte Kandidaten NAMENTLICH nennt, wird zur Verifikation statt zur
@@ -627,6 +685,19 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Prüferfang). Superlative sofort mit Scope einschränken. **Für
   jede Zahl, die in ein Dokument geht, den Zählweg benennen** — die
   plausible Zahl wird nie nachgeprüft, gerade sie ist gefährlich.
+- **⭐ Ein TREFFER ist eine LESESTELLE, kein Befund** — der einzige
+  Treffer eines Musters kann das gesuchte Wort in einer
+  durchgestrichenen, aufgehobenen Zeile sein; die Trefferzahl allein
+  behauptet einen Beleg. Spiegelbild: **ein Muster mit 0 Treffern sieht
+  aus wie ein kaputtes Muster** — ohne Positivkontrolle PRO MUSTER ist
+  „Muster stumm" von „Bestand schweigt" nicht unterscheidbar, und beides
+  führt zu ENTGEGENGESETZTEN Schlüssen. (Herkunft: heyPensio R43.)
+- **⭐ Ein Werkzeug kann eine Regel DOKUMENTIEREN und nur TEILWEISE
+  erzwingen** — eine Selbsttest-Datei behauptete „jedes Muster muss
+  feuern", erzwungen war es für eine Teilmenge; wer die Datei las, hielt
+  die Regel für durchgesetzt. Die Textzusage eines Werkzeugs über sich
+  selbst ist keine Messung: prüfen, für welche TEILMENGE die Schranke
+  greift. (Herkunft: heyPensio R43.)
 - **Eine Zahl, die offensichtlich nicht passen kann, ist ein
   Werkzeugfehler, kein Befund** — erst das Werkzeug prüfen, dann die
   Sache. Und: Schlägt eine Prüfliste an, ist zuerst das PRÜFMUSTER
@@ -805,6 +876,15 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Soll-Aussage existiert. **Bevor Bildwissen in einen außenwirksamen Text
   einfließt, wird es als Ist-Beschreibung im Repo festgehalten** (mit Quelle
   und Datum). (Herkunft: heyPensio R35, User-Fang.)
+- **⭐ Personenbezogene Daten NIE in eine versionierte Repo-Datei** —
+  die Git-Historie ist unwiderruflich, Löschen repariert sie nicht
+  (`sensibel/` oder externer Träger). **Wer ein BETRIEBSWERKZEUG baut,
+  liest die TOM-/Ablage-Zeile der Quelle als Anforderung an SICH SELBST,
+  nicht als Zulieferung an einen anderen Strang** — genau diese
+  Fehllesung stellte eine Repo-Tabelle als Erstform für einen
+  Sperrbestand bereit. **Und ein Gate schützt nur den Pfad, auf dem es
+  liegt:** prüfen, ob der Fall auch DAVOR entstehen kann (ein Sperrfall
+  entsteht ohne Versand, also vor jedem Versand-Gate). (L-44.)
 - **Sicherheits-Regeln:** Den leeren Zustand GETRENNT behandeln
   („Weglassen" ist der leere Zustand; „Weglassen" und „Wiederholen" sind
   dieselbe Operation). Nach jeder geschlossenen Fehlerklasse fragen, wie
@@ -907,6 +987,18 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Festlegung, bekommt die ALTE Stelle im selben Zug einen Vorwärtsverweis
   („überholt durch X") — an der Stelle, wo der Leser ANKOMMT, nicht im
   Changelog.
+  **⭐ Die dritte Kategorie neben Kippen und Ergänzen heißt ERFÜLLEN:**
+  Wer einen Offen-Posten schlicht erfüllt, liest sein Ergebnis nicht als
+  Änderung an fremdem Text und fasst die Stelle nie an — die Zeile bleibt
+  stehen und wird von der nächsten Ebene KORREKT zitiert, die daraus
+  einen gegenstandslosen Auftrag schneidet. **Pflichtform: Wer einen
+  benannten OFFEN-Posten erfüllt, schließt ihn an seinem TRÄGER;** darf
+  eine Session den Träger nicht anfassen (Wahrheits-Kanal), ist
+  **„welchen benannten Posten erfüllt mein Ergebnis?" Pflichtfeld ihrer
+  Abschlussmeldung.** Auslöser ist die Rotation des Kurz-Einstiegs, nicht
+  der Kalender. (Herkunft: heyPensio R43 + MKT R15 — in R15 baute die
+  Briefing-Erhebung aus einer zehn Tage überholten STATUS-Zeile einen
+  ganzen Strang auf erledigte Arbeit.)
   **⭐ Und die GEGENRICHTUNG, die dabei regelmäßig ausfällt: Wer eine
   QUELLE schärft, zieht im selben Zug die daraus ABGELEITETEN Dokumente
   nach.** Der Suchraum ist dann nicht „wo steht der alte Wert?", sondern
@@ -976,6 +1068,19 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   LÖSCHUNGSZÄHLUNG** (`git diff --numstat`, jede gelöschte Zeile
   einzeln) — „0 Löschungen im Abschnitt" ist zugleich der mechanische
   Beleg, dass überstimmte Passagen ungeglättet stehen blieben. (L-38.)
+- **⭐ Eine KONDITIONALE Warnung altert lautlos.** „Wird der Termin
+  verlegt, ist dieses Datum eine alte Zusage" ist korrekt formuliert und
+  trotzdem wirkungslos, sobald die Bedingung eintritt — niemand prüft die
+  Bedingung nach. Eine Warnung mit Bedingung braucht einen TERMIN oder
+  einen PRÜFSCHRITT, sonst ist sie ein Papierzustand; die Suche nach
+  ihren Folgen läuft über den gekippten WERT, nicht über das Thema.
+  (Herkunft: heyPensio R43.)
+- **⭐ Ein FIX kann eine VORBEDINGUNG erfinden** („gehört in den
+  Team-Speicher" setzt ein Konto dort voraus). „Text nachziehen" und
+  „Blocker setzen" trennen: Nach jedem Fix prüfen, ob er eine neue
+  Vorbedingung erzeugt — sie zu SETZEN ist nie Teil des
+  Reparaturauftrags, sondern wird mit beiden Lesarten vorgelegt.
+  (Herkunft: heyPensio R43.)
 - **Drift-Vorsorge bei AUSLÖSER, nicht nach Kalender:** Commit einer
   Doku-Änderung · Richtungsentscheid · neues Dokument · Freigabe.
   Baselines nie anheben, um einen Lauf grün zu bekommen.

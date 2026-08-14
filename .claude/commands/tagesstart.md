@@ -212,7 +212,15 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    wenn die Zeile strukturell erwartet wird (Herkunft: Zentrale
    13.08.2026, nachdem die Fließtext-Fassung zweimal folgenlos blieb).
    Die Pflichtzeile gilt **auch für Aufträge, die fertig aus einem
-   Briefing kommen** — das Pull-Modell umgeht diesen Schritt nicht. Die WERKZEUGWAHL trifft der User (Richtungsentscheid
+   Briefing kommen** — das Pull-Modell umgeht diesen Schritt nicht.
+   ⚠️ **Ein UMGESCHNITTENER Strang erbt seinen Codex-Ausweis NICHT**
+   (Belegfall MKT R15, 14.08.2026: Nach der Prüfer-Disposition wurde
+   ein Strang inhaltlich komplett ersetzt, die Codex-Zeile beschrieb
+   weiter den alten Inhalt). Ändert sich der Inhalt eines Strangs,
+   wird die Pflichtzeile **neu gestellt**, nicht mitgeschleift —
+   dieselbe Klasse wie jede andere Aussage, die wahr geschrieben und
+   still falsch wird. Praktische Form: Die Zeile trägt den
+   Strang-Inhalt in drei Worten mit, dann fällt ihre Veraltung auf. Die WERKZEUGWAHL trifft der User (Richtungsentscheid
    10.08.2026: Werkzeug- und Kostenwahl gehören dem User) — die
    Evaluation zu liefern ist Bringschuld der Leitsession, nie erst auf
    User-Impuls. (Anlass: User-Fang 12.08.2026 — bis dahin stellte
@@ -244,10 +252,25 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    13.08.2026, Broker-Deployskripte: „Parser PASS" — beim ersten echten
    Lauf fielen nacheinander drei Blocker, die nur der Lauf zeigt).
    Skript-, Installations- und Migrations-Aufträge tragen deshalb einen
-   **echten Ausführungslauf im Fertig-Kriterium** (bei Werkzeugen mit
-   Schutzwirkung zusätzlich: Selbsttest in BEIDE Richtungen + Regression
-   alt-ROT/neu-GRÜN) — sonst gilt ihr Ergebnis bis zum ersten realen Lauf
-   als UNGEPRÜFT. Die Pflichtabschnitte fangen das, WENN man sie liest:
+   **echten Ausführungslauf im Fertig-Kriterium** — sonst gilt ihr
+   Ergebnis bis zum ersten realen Lauf als UNGEPRÜFT.
+   ⚠️ **Das Fertig-Kriterium muss zur Auftragsart passen — sonst ist es
+   unerfüllbar** (Belegfall MKT R15, 14.08.2026: ein
+   Zentrale-/Leitsessions-Kriterium „Regression alt-ROT/neu-GRÜN" für
+   die ERWEITERUNG eines Prüfwerkzeugs; beide Läufe kamen Exit 0, und
+   „neu-GRÜN" war strukturell unerreichbar):
+   - **Fehlerbehebung** → Regression **alt-ROT / neu-GRÜN**: Der Test
+     muss VOR dem Fix rot sein, sonst reproduziert er den Defekt nicht.
+   - **Reichweiten-Erweiterung eines Wächters/Prüfskripts** → **NICHT**
+     alt-ROT/neu-GRÜN. Ein erweiterter Wächter darf hinterher
+     berechtigt ROT sein (er findet jetzt echte Fundstellen); sein
+     Exit-Code ist kein Erfolgsmaß. Richtiges Kriterium:
+     **Positivkontrolle** (er findet eine bekannt fehlerhafte Stelle)
+     **+ Negativkontrolle** (er meldet eine bekannt saubere Stelle
+     nicht) **+ Nenner** (n von n neu erfassten Dateien geprüft).
+   - **Werkzeug mit Schutzwirkung** → zusätzlich `--selbsttest` in
+     beide Richtungen (er schlägt an, wenn der Schutz fehlt, und
+     schweigt, wenn er greift). Die Pflichtabschnitte fangen das, WENN man sie liest:
    Der Bericht hatte die Grenze selbst benannt.
 5. **Nach Bestätigung:** Start-Prompts nach Abschnitt 2 erzeugen und nach
    Abschnitt 4 ausgeben.
@@ -520,7 +543,11 @@ einer, beim User nachfragen statt raten:
 > <überprüfbares Ergebnis>, danach Abschlussmeldung in VIER Blöcken
 > (gebaut/verifiziert mit Commits+Pfaden; offen geblieben; **Nebenbefunde
 > außerhalb des Auftrags** — was dir begegnet ist, das einem anderen
-> Strang gehört; Stolpersteine/Learnings, getrennt: (i) Fallen ·
+> Strang gehört, **und als PFLICHTFELD: welchen benannten Posten des
+> Kurz-Einstiegs/Wahrheits-Kanals dein Ergebnis ERFÜLLT** (du darfst ihn
+> nicht selbst schließen, also geht er ohne diese Zeile verloren;
+> „keiner" ist eine gültige Antwort, Schweigen nicht);
+> Stolpersteine/Learnings, getrennt: (i) Fallen ·
 > (ii) bewährte Muster). **Lief ein Prüfer, meldest du seine Befunde
 > kategorienweise MIT NENNER** („x von y repariert, z bewusst offen mit
 > Grund, Träger für den Rest") — nie nur die reparierten plus eine

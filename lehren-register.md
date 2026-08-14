@@ -1751,3 +1751,150 @@ keine Quellenaussage.
   aber über STATUS/Projektquelle angesteuert, nicht über das
   Sachdokument. Zusätzlich fand die Gegenprobe eine Doku-Hygiene-Lücke:
   MKT-HANDEL bekam einen R14-Stand, FUND3 nicht — nachgezogen.
+
+---
+
+## L-43 — Eine Positivkontrolle spiegelt die Suchmechanik nur, wenn sie dieselbe ZEICHENKLASSE und denselben KANAL prüft (R15, 14.08.2026)
+
+**Fall 1 (R15-A, UWG-Extraktion):** Der erste Lauf dekodierte nur benannte
+HTML-Entities (`&auml;`), nicht die numerischen (`&#167;`, `&#228;`,
+`&#160;`), die gesetze-im-internet.de durchgängig verwendet. Ergebnis:
+„§ 3a" = **0** Treffer, „§ 13" = **0** — während die Kontrollen
+„Rechtsbruch" = 1 und „Marktteilnehmer" = 22 sauber durchliefen. **Die
+Kontrollen bestanden aus reinen Buchstaben; das Negativ hing am
+`§`-Zeichen.** Aufgefallen nur, weil die Null direkt neben der
+Überschrift des gesuchten Paragraphen stand.
+
+**Fall 2 (R15-A, DSK-Tabelle, vom Prüfer gefunden):** `Direktwerbung` = 21
+unter einem als **case-insensitiv** deklarierten Zählweg — richtig sind
+26 (fünf Versalien-Treffer im Inhaltsverzeichnis). Das Bittere: **keine**
+der drei Positivkontrollen hätte den Fehler finden können, weil alle drei
+in beiden Groß-/Kleinkanälen dieselbe Zahl liefern. Reparatur:
+Kontrollpaar cs=21 / ci=26.
+
+**Fall 3 (R15-A, eigene Klasse):** Zwei Absätze nach der eigenen Warnung
+vor Tippfehler-Varianten („Artt.", „Mittbewerbern") zählte dieselbe
+Session „Mitbewerber" mit einem Muster, das genau die Tippfehlerform
+übersieht (8 statt 9). **Bei einem Negativ ist eine untererfassende
+Stammsuche das falsche Werkzeug.**
+
+**Fall 4 (R15-C, CRLF):** Derselbe Git-Blob lieferte im LF-Arbeitsbaum
+143, im CRLF-Archiv 144 Treffer — `\r` zählte gegen die
+25-Zeichen-Schwelle mit.
+
+**Handlungskern (CLAUDE.md, Positivkontroll-Block):** Der
+Kontrollkandidat trägt die **Zeichenklasse** des Musters (`§`, Umlaut,
+Ziffer) und hat **je Kanal einen VERSCHIEDENEN Sollwert** (cs ≠ ci);
+Kontrollen, die in beiden Kanälen dieselbe Zahl liefern, prüfen den Kanal
+nicht. Erweitert die Regel „der stärkste Kontrollbegriff spiegelt die
+SUCHMECHANIK" (Sammelvermerk R3) um die beiden Achsen, an denen sie in
+R15 dreifach ausfiel.
+
+---
+
+## L-44 — Personenbezogene Daten gehören NIE in eine versionierte Repo-Datei: die Git-Historie ist unwiderruflich (R15, 14.08.2026)
+
+**Fall (R15-E, schwerster Prüferbefund der Runde, PE-5):** Die Erstfassung
+der Sperrdatei-Struktur stellte in § 9 eine **Markdown-Tabelle im Repo**
+als Erstform für den Sperrbestand bereit — gegen `interessenabwaegung-o8`
+§ 8 lit. g und Regelwerk § 11, die beide eine andere Ablage vorschreiben.
+Wer der Anleitung gefolgt wäre, hätte **personenbezogene Daten
+unwiderruflich in die Git-Historie committet**. Die vorhandenen Gates
+hätten es nicht verhindert, weil ein Sperrfall **ohne Versand** entsteht
+— also vor jedem Gate. Ersatzlos entfernt.
+
+**Warum es passierte (Diagnose der Session):** Die Ablageregel stand in
+der **TOM-Zeile** der Quelle und wurde als VVT-Zulieferung an MKT-OPS
+gelesen — als Aussage über ein anderes Dokument, nicht als Vorgabe an das
+eigene Werkzeug.
+
+**Handlungskern (CLAUDE.md, Sicherheits-Regeln):** Wer ein
+Betriebswerkzeug baut, liest die TOM-/Ablage-Zeile der Quelle als
+Anforderung **an sich selbst**, nicht als Zulieferung an einen anderen
+Strang. Personenbezogene Daten nie als Repo-Datei — `sensibel/` oder
+externer Träger; ein Löschen repariert die Historie nicht. Und: Ein Gate
+schützt nur den Pfad, auf dem es liegt — prüfen, ob der Fall auch
+**davor** entstehen kann.
+
+---
+
+## L-45 — Die VERBOTS-Behauptung ist das Spiegelbild der Entwarnung — und die Entwarnung über die EIGENE HANDLUNG ist die unauffälligste Form (R15, 14.08.2026)
+
+**Fall 1 (R15-B, F-10):** „verstößt gegen die Auflage" / „wäre
+lizenzwidrig" fühlt sich sicher an, **weil es streng ist**, und entgeht
+deshalb der Belegstufen-Prüfung, die jede entlastende Aussage durchläuft
+— in einem Abschnitt, der sonst sorgfältig mit Belegstufen markiert ist.
+Die Belegpflicht kennt keine Richtung: Wer ein Verbot behauptet,
+behauptet eine Rechtsfolge.
+
+**Fall 2 (R15-B, F-7):** „Das ist eine Feststellung des Bestands, keine
+neue Sperre dieser Session" — während zwei Absätze darüber steht, dass
+die Gate-Kette der neue Schritt ist. **Diese Form entlastet nicht die
+Sache, sondern die SESSION vom Vorwurf, im Alleingang festgelegt zu
+haben**, und ist deshalb schwerer zu bemerken als eine sachliche
+Entwarnung.
+
+**Handlungskern (CLAUDE.md, Entwarnungs-Block):** Die Belegpflicht der
+Entwarnung gilt spiegelbildlich für **Verbots-/Unzulässigkeits-Aussagen**
+(sie klingen streng und rutschen genau deshalb durch) und für
+**Entwarnungen über die eigene Handlung** („war schon so", „keine neue
+Festlegung") — letztere gegen das eigene Delta derselben Arbeit prüfen,
+nicht gegen die Erinnerung.
+
+---
+
+## L-46 — Eine Rollenzuschreibung ist eine Bestandsaussage (R15, 14.08.2026)
+
+**Fall (R15-A, Selbstfund vor dem Versand):** Im Anwalts-Briefing stand
+„Der Geschäftsführer hat sich entschieden". Der Bestand sagt „der **User**
+hat sich entschieden"; dass er Geschäftsführer ist, steht **nirgends
+belegt** — und die Firma ist in Gründung. In einem Dokument an einen
+Anwalt wäre das eine **erfundene Organstellung** gewesen. Ersetzt durch
+„Wir haben uns … entschieden".
+
+**Handlungskern (CLAUDE.md, aussenwirksame Texte / Belegpflicht):**
+Funktions- und Organbezeichnungen (Geschäftsführer, Inhaber,
+Bevollmächtigter) sind belegpflichtige Bestandsaussagen wie Zahlen — im
+Zweifel die handelnde Person neutral benennen („wir", „der Auftraggeber").
+Gilt verschärft bei Gesellschaften in Gründung.
+
+---
+
+## L-47 — Der Vorbehalt fällt im TABELLENKOPF, nicht in den Zellen (R15, 14.08.2026)
+
+**Fall (R15-B, schwerer Prüferbefund F-1):** Beim Übernehmen einer
+Quell-Tabelle werden die **Zellen** byte-treu kopiert und der **Kopf** neu
+formuliert — genau dort ging der Vorbehalt „alle Stufe E" verloren. Die
+Verdichtungs-Regel („Vorbehalt zuerst übernehmen, dann den Satz bauen")
+war bisher auf Fließtext gemünzt; **im Tabellenkopf ist der Ausfall
+unauffälliger, weil daneben lauter byte-treue Zellen stehen und
+Sorgfalt signalisieren.**
+
+**Handlungskern (CLAUDE.md, Verdichten-Block):** Beim Übernehmen von
+Tabellen wird der KOPF wie ein Zitat behandelt (Vorbehalt/Belegstufe
+zuerst übernehmen) — byte-treue Zellen sind kein Beleg für einen
+korrekten Kopf.
+
+---
+
+## L-48 — Die „nicht prüfbar"-Liste des Prüfers ist ein ARBEITSAUFTRAG, keine Einschränkung (R15, 14.08.2026)
+
+**Fall 1 (R15-B, produktivste Zeile der Runde):** Der Prüfer wies § 3.2
+der Quelle als **ungelesen** aus und sagte voraus, dass dort weitere
+Belegstufen-Differenzen liegen könnten. Genau dort lagen **drei** Funde:
+die `Termination`-Klausel (mildert ein Gate — ein Auslegungsirrtum ist
+rückwirkend binnen 30 Tagen heilbar), der L-3-Wortlaut (löst einen Befund
+am Primärtext auf) und die `You`/`Use`-Definitionen. **Der Prüfer hat
+damit mehr geliefert als seine 18 Befunde.**
+
+**Fall 2 (R15-E):** Der Prüfer schlüsselte selbst auf, welcher Befund
+welcher Auftragsvorgabe zu verdanken war: der schwerste allein der
+Kategorie-B-Frage, der zweitschwerste allein der
+Ganzes-Dokument-Leseraum-Auflage. **Beide Vorgaben zusammen, nicht die
+eine statt der anderen.**
+
+**Handlungskern (CLAUDE.md, Prüfer-/Subagenten-Block):** Der Abschnitt
+„nicht erhoben / nicht prüfbar" des Prüfers wird als erste
+Nacharbeits-Liste gelesen, nicht als Haftungsausschluss — er benennt
+Fundorte, keine Grenzen. Ergänzt „‚Nicht prüfbar' ist ein eigenes
+Ergebnis" um die Handlungsseite.

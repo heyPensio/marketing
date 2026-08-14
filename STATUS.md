@@ -236,8 +236,11 @@ Stände: `STATUS-archiv.md`.)*
   Neu-Führungs-Trigger aus** · 🔴 **R15E-N-4 ANL-3-Rechtsfrage fehlt im
   Anwalts-Briefing** (vor Versand nachtragen) · **R15A-N-4:** die
   tragende Rn.-87-Verschärfung steht in einer Literatur-Abwehr — die
-  gesamte Terminlage F-7/O-9/Bau-Pflichten ruht darauf · Postkorb an
-  heypensio liegt lokal (`626bff0`, Klassifikator-Blockade) ·
+  gesamte Terminlage F-7/O-9/Bau-Pflichten ruht darauf · **Postkorb an heypensio ist ANGEKOMMEN** (`626bff0` veroeffentlicht,
+  von der Zentrale eingearbeitet und an Ruffy weitergeleitet — die
+  Klassifikator-Blockade bei R15-D war zeitpunktgebunden, L-05 achter
+  Beleg; Stand gemessen 14.08. 03:25 per `branch -r --contains` nach
+  frischem fetch) ·
   **Zitat-Wächter dauerhaft rot** (863 „nicht im Pool" — Pool erweitern
   oder Modus-Trennung) · Beileger-Text weiter gesperrt (Firmierung +
   O-9) · **Verdichtungs-Posten CLAUDE.md** (+5.642 B netto über die

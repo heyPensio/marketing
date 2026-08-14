@@ -797,8 +797,12 @@ ist ausdrücklich als „bewusst nicht verfolgt" markiert.)*
 | **R15A-N-7 ff. / R15-C** | Kurz-ID-Kollisionen generisch erhoben (mind. fünf: `Z-6`, `O-11`, `O-4`, `O-2`, `K-2`) — **Trennung vorgeschlagen, nichts umbenannt** (berührt fremde Dokumente) | Leitsession, eigener Zug |
 | **R15B-N-7** | Fehler im Auftragsprompt der Leitsession, an der Quelle korrigiert („all paid plans" steht in der OEM-Doku, nicht auf der Vertriebsseite) | erledigt, Vermerk |
 
-**An heypensio (über den Postkorb, liegt lokal `626bff0` — Push vom
-Klassifikator abgelehnt):** R15B-N-1 (Zählfehler an **drei** Stellen
+**An heypensio (über den Postkorb — ✅ ANGEKOMMEN: `626bff0` ist
+veröffentlicht, von der Zentrale eingearbeitet und an Ruffy
+weitergeleitet; der Klassifikator-Stopp bei R15-D war zeitpunktgebunden.
+Stand gemessen 14.08. 03:25 per `branch -r --contains` nach frischem
+fetch — die Gegenrichtung zur eigenen Statusaussage von 03:05, die
+damit still falsch geworden war):** R15B-N-1 (Zählfehler an **drei** Stellen
 desselben Papiers — verschärft R14A-N-1) · R15B-N-2 (interner
 Belegstufen-Widerspruch, am Primärtext aufgelöst: **§ 3.6 stuft richtig
 ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D

@@ -1898,3 +1898,120 @@ eine statt der anderen.**
 Nacharbeits-Liste gelesen, nicht als Haftungsausschluss — er benennt
 Fundorte, keine Grenzen. Ergänzt „‚Nicht prüfbar' ist ein eigenes
 Ergebnis" um die Handlungsseite.
+
+---
+
+## Sammelvermerk R15 (14.08.2026) — Zweitbelege, gedeckte Muster und die Nachträge der Debrief-Gegenprobe
+
+**Nenner:** 58 gemeldete Learnings aus fünf Arbeits-Sessions (Fallen +
+bewährte Muster) · **14 als neue Lehren** zurückgeschrieben (L-43…L-48 +
+L-39-Schärfung) · **32 gedeckt** durch Bestandsregeln (unten
+kategorienweise, das ist ihre Disposition) · **12 waren zunächst NICHT
+disponiert** — gefunden von der Debrief-Gegenprobe, hier nachgetragen.
+
+### Gedeckte Zweitbelege (32) — keine neue Regel, aber belegte Wiederholung
+
+- **L-40** (wandernder Messstand): R15-A F7 · R15-C F3 · R15-E M5 —
+  dreifach in einer Runde. Der Arbeitsbaum bewegte sich in ALLEN
+  parallelen Strängen; R15-C rekonstruierte 25 fremde Funde aus dem
+  eigenen Delta heraus.
+- **L-21** (Selbsttest erbt Blindstellen): R15-C F4/F5.
+- **L-26** (Reparaturvermerk färbt den Wächter): R15-C M1 · R15-E F6 —
+  R15-E reparierte an der EIGENEN Seite statt über die Ausnahmeliste,
+  weil ein Pool-Zitat nie vorlag. Vorbildliche Anwendung.
+- **L-34** (Quellverweis verengt den Leseraum): R15-E F3 — erstmals aus
+  der **Bau**-Richtung belegt; der Prüfer fand die 300er-Schwelle nur
+  über die Ganzes-Dokument-Auflage („sonst hätte ich dort aufgehört, wo
+  die Prüflinge aufgehört haben").
+- **L-35** (Kurz-ID greppen, zuerst im eigenen Dokument): R15-B F3
+  (vierte Reproduktion) · R15-E M2.
+- **L-42** (Quellen zweiter Hand): R15-A M3 · R15-B F2.
+- **quellen-beschaffung P5/P6** (Schweigen ≠ Gegenregel · rekursiver
+  Bestand): R15-D Nr. 7 + Nr. 8 — beide R14-Lehren trugen in R15 sofort.
+- **Zählschlüssel** (Eintrag ≠ Datei ≠ Quelle): R15-D Nr. 6 — „19 − 8"
+  wäre ein falscher Nenner gewesen.
+- Ferner gedeckt: Agent je Quelldokument (R15-A M1) · eigener
+  Quellen-Anker vor dem Fan-out (R15-A M2) · Prämissen-Regel (R15-B M2) ·
+  Heredoc/Backslash (R15-B F7) · Doku-Hygiene sichtbare Reparaturen
+  (R15-B M4) · Probe nach der Reparatur erneut (R15-B M5) · leerer
+  Zustand (R15-E M7) · Platzhalter statt Erfindung (R15-E M6) ·
+  Werkzeug-vor-System (R15-E F7).
+
+### Nachträge der Gegenprobe — 8 Kerne, die zunächst durchfielen
+
+1. **Eine Datei in ZIEL und POOL bestätigt sich selbst** (R15-C F1).
+   Reichweiten-Erweiterung durch bloßes Anhängen an beide Arrays macht
+   den neuen Kanal **grün und blind** — der Vergleich braucht den
+   Selbstausschluss je Zieldatei. Das ist die URSACHE der
+   Scheinentwarnung, die diese Runde aufgedeckt hat. → CLAUDE.md,
+   Wächter-Block (neben L-21).
+2. **Eine Verfahrens-Positivkontrolle altert mit ihrem KORPUS**
+   (R15-D Nr. 3). Der frühere Prüflauf deckte 1.055 Zeilen, das Papier
+   hat heute 1.454; seine Kontrolle belegt die Fehlerklasse „erfundene
+   Einfügung", **nicht die Vollständigkeit eines späteren Rückbaus** —
+   und genau dort saßen die beiden einzigen Abweichungen der Runde
+   (Q13/W10). Unterscheidet sich von „Anker im stabilen Teil"
+   (Sammelvermerk R9): dort wandert der Anker, hier wächst der Prüfraum.
+   → CLAUDE.md, Positivkontroll-Block.
+3. **Zwei Nenner bei der Löschungszählung** (R15-B M6): gegen den
+   **Rundenstart** (0 = beweist „kein Bestandstext angetastet") UND gegen
+   den **Bau-Commit** (45 = eigene Reparaturen). Ein einzelner Nenner
+   verschweigt entweder Arbeit oder suggeriert Löschungen an fremdem
+   Text. → Schärft L-38.
+4. **Verwendete IDs gegen definierte IDs zählen** (R15-E M3): eine
+   Kontrolle, die fehlschlagen KANN (43 = 43, lückenlos) — nach einer
+   Umnummerierung über vier Blöcke der einzige belastbare Beleg, dass
+   kein Verweis verwaist. → Nachsorge-Pflicht an L-35.
+5. **Praktische Schutzmaßnahme ≠ Quellenwortlaut** (R15-D Nr. 5): Eigene
+   Vorsichts-/Nachweisregeln können vernünftig sein — **gerade deshalb
+   müssen sie als eigene Gestaltung gekennzeichnet werden statt als
+   Anbieter-Wortlaut**, sonst wird eine Übergabepflicht still als
+   materielle Erlaubnis gelesen („Notices ist keine Erlaubnisklausel",
+   Nr. 4). Gegenrichtung zu „Selbstauskünfte kennzeichnen".
+6. **Ein Parser-Erfolg ist keine visuelle Freigabe** (R15-C F6):
+   Balanciertes HTML belegt die Struktur, nicht Viewer-CSS,
+   Seitenumbruch, Lesbarkeit. Ergänzt die Generator-Ketten-Regel
+   (heyPensio R36) um die Darstellungs-Achse.
+7. **Texttreue-Nenner ≠ Auslegungs-Nenner** (R15-D Nr. 1): „28/30 Zitate
+   bestätigt" neben „4/13 Auslegungen nur teilweise" sind zwei Achsen mit
+   getrennter Berichtspflicht — die Zitate können fast vollständig
+   stimmen und die daraus gezogenen Regeln den Wortlaut dennoch
+   überdehnen. Nachbar von L-27.
+8. **Der Superlativ ist die Stelle, an der die Quelle geprüft gehört —
+   nicht der Anführungsstrich** (R15-B F2, Restkern): Die
+   Rohbeleg-Gegenprüfung lief bei AU-1…AU-4, aber **nicht** beim Satz
+   ÜBER O-2, weil er wie eine Einordnung aussah statt wie ein Zitat.
+   Trigger-Schärfung zu L-33/L-42.
+
+### Zwei Korrekturen an BESTEHENDEN Registereinträgen
+
+- **L-24 eingeschränkt** (R15-E F5, am eigenen Objekt belegt): L-24 führt
+  „Summenprobe ohne Rest" als STARKE Kontrollform. **Sie ist an der
+  EINSTUFUNGS-Achse blind:** „2+4+1=7" kann bei sieben Zeilen in drei
+  Kategorien nie anders ausfallen — sie fängt eine vergessene Zeile, eine
+  **Fehleinstufung** nie. Die Einschränkung gehört an die Quelle L-24,
+  nicht nur in L-30 (Doku-Hygiene: Quelle schärfen → Ableitung nachziehen).
+- **L-38 erweitert** um den Zwei-Nenner-Kern (s. Nachtrag 3).
+
+### Werkzeug-Nachträge (Baustein `windows-powershell`, via Master)
+
+- **Umlaut-Zählung vor und nach jedem `sed`** — billigste Absicherung
+  gegen Encoding-Schaden bei Massenersetzungen (R15-E M4, real angewandt:
+  779/414 vorher = nachher).
+- **`git ls-files --eol` ist der belastbare Zeilenenden-Messweg** — eine
+  CRLF-Messung meldete „432 Zeilen mit CR" bei einer 432-Zeilen-Datei
+  (degeneriertes Muster; Zahl, die nicht passen kann → erst das Werkzeug
+  verdächtigen). R15-E F7.
+- **Python ist auf diesem Rechner NICHT verfügbar** (R15-B F7).
+
+### Prozess-Befund über den Debrief selbst
+
+Die Gegenprobe fand **12 nicht disponierte Learnings und 31
+Nebenbefunde ohne Routing-Nachweis** (Zählweg: `grep -o "R15[A-E]-N-[0-9]*"`
+außerhalb der Abschlussmeldungen → 0; Positivkontrolle mit
+`R14[AB]-N-[0-9]*` → 14 Dateien). **Der Ausfall lag nicht am Einzelfall,
+sondern an der Reihenfolge:** Phase 3 (Lehren) lief vor Phase 4b
+(Wahrheits-Kanal), und die Nebenbefunde hängen an 4b. Konsequenz für den
+nächsten Debrief: **Block 3 und Block 4 in EINEM Durchgang je Meldung
+abarbeiten**, nicht blockweise über alle Meldungen — sonst überlebt Block
+3 die Phase, in der er hätte geroutet werden müssen.

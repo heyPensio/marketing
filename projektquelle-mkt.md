@@ -757,6 +757,53 @@ Drift-Fall ist belegt (A/A2 „versendet 04.08." ist falsch; korrekt
 Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 (L-01); wer A2-Daten zitiert, prüft dieses Datum.
 
+### 6a. R15-NEBENBEFUNDE — Routing-Tabelle (14.08.2026)
+
+*(Angelegt im R15-Debrief, nachdem die Gegenprobe **31 Nebenbefunde ohne
+Routing-Nachweis** fand — Zählweg `grep -o "R15[A-E]-N-[0-9]*"` außerhalb
+der Abschlussmeldungen = 0, Positivkontrolle mit `R14[AB]-N-…` = 14
+Dateien. **Jeder Befund hat hier einen Zielort und einen Träger** oder
+ist ausdrücklich als „bewusst nicht verfolgt" markiert.)*
+
+**🔴 Rechtslage — gehen in den anwaltlichen Rat oder kippen Bestand:**
+
+| ID | Befund | Träger |
+|---|---|---|
+| **R15A-N-1** | Der A7-Nachtragskasten schreibt „weicht ab" — Rn. 79 ist **konditional** („sollten … könnte nicht gefolgt werden"); die Bestandsfassung ist schärfer als die Quelle | MKT-HANDEL, mit der A7-Neufassung |
+| **R15A-N-2** | Die § 3a-Schiene ist im Urteil eine **DOPPELbegründung** (Rn. 136: „sowohl … als auch" § 3 Abs. 2 UWG; Rn. 147 bejaht ihn ausdrücklich) — im Bestand steht nur die Hälfte, wer die Tabelle liest, hält § 3a für den gewählten Weg | MKT-HANDEL |
+| **R15A-N-3** | „Der Kläger war kein Mitbewerber" ist eine **Ableitung**, keine Quellenaussage (Zählweg 0 bei Positivkontrolle 119) — und zwei Parallelverfahren wurden „von einer Mitbewerberin" geführt | MKT-HANDEL |
+| **R15A-N-4** ⭐ | **Die tragende „Rn.-87-Verschärfung" steht in der ABWEHR eines Literatureinwands** — der tragende Absagegrund selbst in Rn. 84/85. Auf diesem einen Satz ruht die Fälligkeit „vor dem ersten Datensatz" und damit die gesamte Terminlage von F-7/O-9/Bau-Pflichten | Anwalt (als Teilfrage gestellt) + Bestandsvermerk |
+| **R15A-N-5** | Rn. 115 (Herkunftsangabe wird zum Irreführungsargument) fehlt im Bestand und trifft uns direkt | MKT-HANDEL |
+| **R15E-N-4** ⭐ | **`ANL-3`-Rechtsfrage fehlt im O-9-Bündel:** Darf ein im FREMDEN Impressum vorgefundener Werbewiderspruch in einen eigenen Sperrbestand? | **Nachtrag zum Anwalts-Briefing, VOR Versand** |
+| **R15B-N-3** | Rohbeleg-Posten **O-12** (Gewährleistungs-Reichweite) ist im ganzen MKT-Repo nie angekommen (0 Treffer, Positivkontrolle O-11 = 9 Dateien) | Z-1…Z-7 (Zentrale/StB) |
+
+**🟠 Planung und Betrieb:**
+
+| ID | Befund | Träger |
+|---|---|---|
+| **R15E-N-5** ⭐ | **Die 300er-Schwelle aus o8 § 11.3 kollidiert mit der Akquiseplanung:** Der Plan rechnet mit ≈ 337–1.600 Briefen je Abschluss — **jede realistische Welle löst den Neu-Führungs-Trigger der Abwägung aus.** Kein Formfehler, ein Planungskonflikt: entweder kleinere Wellen oder routinemäßige Neu-Führung | MKT-AKQ, Akquiseplan § 4.2 |
+| **R15E-N-1** | Der § 6.1-Nachtrag des Regelwerks bleibt an **drei Stellen** hinter o8 zurück — die Vorlagen setzen es um, **die Quelle ist nicht nachgezogen** | Leitsession (Quellen-Nachzug) |
+| **R15E-N-2** | Regelwerk § 10 / O-12 behauptet, der Wächter prüfe „nur Akquiseplan und Regelwerk" — gemessen sind es **sechs** Dokumente; Vorwärtsverweis gesetzt, Neufassung offen | Leitsession |
+| **R15B-N-4** | Die O-2-Superlative stehen unverändert in **zwei Fremd-Dokumenten**, durch Rohbeleg § 3.4 widerlegt | Leitsession (Quellen-Nachzug) |
+
+**🟡 Werkzeug und Hygiene:**
+
+| ID | Befund | Träger |
+|---|---|---|
+| **R15E-N-3** | Die zwei neuen Vorlagen stehen **nicht in ZIEL** des Zitat-Wächters — gleiche Klasse wie R14B-N-9 | nächster Prüflauf |
+| **R15E-N-6** | Der Prüfer benennt seine größte Lücke selbst: `kanal-rechtsmatrix.md` **nicht gelesen**, obwohl beide Prüflinge sie als vorrangige Quelle nennen — **die Vorrangklausel zeigt auf ein ungeprüftes Dokument** | nächster Prüflauf |
+| **R15B-N-5** | Kurz-ID-Kollision **repo-übergreifend**: Der Rohbeleg führt ein eigenes `O-9`, im MKT-Repo ist O-9 die DSGVO-Kompatibilitätsprüfung — für ein Grep im eigenen Repo **unsichtbar** | Leitsession |
+| **R15B-N-6** | `G-1…G-4` waren im eigenen Repo bereits vergeben (Prüfer-IDs **ohne Rundenpräfix**) — der Bestand bleibt Kollisionsquelle für jede künftige `G-n`-Vergabe | Leitsession |
+| **R15A-N-7 ff. / R15-C** | Kurz-ID-Kollisionen generisch erhoben (mind. fünf: `Z-6`, `O-11`, `O-4`, `O-2`, `K-2`) — **Trennung vorgeschlagen, nichts umbenannt** (berührt fremde Dokumente) | Leitsession, eigener Zug |
+| **R15B-N-7** | Fehler im Auftragsprompt der Leitsession, an der Quelle korrigiert („all paid plans" steht in der OEM-Doku, nicht auf der Vertriebsseite) | erledigt, Vermerk |
+
+**An heypensio (über den Postkorb, liegt lokal `626bff0` — Push vom
+Klassifikator abgelehnt):** R15B-N-1 (Zählfehler an **drei** Stellen
+desselben Papiers — verschärft R14A-N-1) · R15B-N-2 (interner
+Belegstufen-Widerspruch, am Primärtext aufgelöst: **§ 3.6 stuft richtig
+ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
+(unmarkierte Kürzung des L-1-Zitats).
+
 ## 7. NÄCHSTER KONKRETER SCHRITT
 
 0. **⭐⭐ NEU AUS R7 — der Akquisekanal, auf den die November-Frist
@@ -1019,6 +1066,68 @@ Wörtlich zu übernehmende Kernsätze daher an der Rohquelle gegenlesen
 ---
 
 ## CHANGELOG
+
+- 14.08.2026 nachts (**R15-Debrief, FÜNF Arbeits-Sessions parallel +
+  Leitsession — Nacht-Slot**): Größte Runde des Projekts, 24 Commits.
+  **Der Rundenschnitt selbst war der teuerste Befund:** Ein
+  Zuschnitt-Prüfer fand, dass **4 von 5 Strängen eine widerlegte
+  Prämisse trugen — jedes Mal eine VERNEINUNG** („nicht eingearbeitet",
+  „liegt nicht vor", „hat niemand geprüft", „kein Paket führt"). Zwei
+  Stränge wurden daraufhin umgeschnitten, bevor eine Session startete.
+  Daraus die firmenweite Regel: *Ein Arbeitsvorrat ist eine Liste von
+  Verneinungen — der teuersten Aussagenklasse.*
+  **R15-A (Ben Beckman):** `handel/anwalts-briefing-2026-08.md` gebaut —
+  vier Fragen (O-9 · A7-Kernsatz · § 3a UWG B2B · O-11), je mit
+  Sachverhalt/Fragestellung/Quellenlage/Gegenansicht/Alternativen; jeder
+  Rn.-Anker am Rohbeleg belegt. **UWG- und UGPRL-Volltexte erstmals
+  beschafft** (`sensibel/rohbelege-R15-A/`) — die Rechtsmatrix zitierte
+  beide mit höchster Belegstufe, ohne dass ein Volltext im Bestand lag.
+  Prüfer **22/22 disponiert** (5 schwer); schwerster Fund: **Rn. 111
+  enthält die abweichende Auffassung des OLG Düsseldorf — des
+  zuständigen BERUFUNGSgerichts — samt behauptetem vorläufigem
+  Beratungsergebnis, und sie fehlte vollständig.**
+  **R15-B (Yasopp):** Neuer § 6a der Angebotsarchitektur — AU-1…AU-4
+  **4 von 4** geprüft (nicht nur die beauftragten zwei; zwei liefern
+  bewusst KEIN Textergebnis), AU-4-Nachweisform zurückgebaut (welche
+  Dateien, welche Fassung, wo vermerkt), VK-O2 als Klauselentwurf,
+  GA-1…GA-4 als Gate-Kette. **0 Löschungen gegen den Rundenstart.**
+  Prüfer **18/18 disponiert**; sein als „ungelesen" ausgewiesener
+  Abschnitt trug drei Nachträge, darunter die **Termination-Klausel: ein
+  Auslegungsirrtum bei K-1 ist rückwirkend binnen 30 Tagen heilbar.**
+  **R15-C (Lucky Roux):** Zitat-Wächter erweitert — **ZIEL 2→6,
+  POOL 8→11**, dateigenaue 14/14-MUSS-Anker, Selbsttest in beide
+  Richtungen, LF/CRLF-Härtung. **Leitsessions-Bewertung der 806er
+  Erstfundmenge: NULL Widerlegungen — alle 863 unbestätigten Zitate sind
+  „nicht im Pool"** (Summenprobe 113+467+144+139 = 863 ohne Rest). Der
+  frühere grüne Lauf war damit eine **Scheinentwarnung**: Er prüfte zwei
+  Dokumente, deren Quellen zufällig vollständig im Pool lagen.
+  **R15-D (Rockstar):** Lizenz-Belegkette erstmals von Marketing selbst
+  geprüft — **28/30 Texttreue bestätigt**, zwei zusammenhängende
+  Abweichungen durch ein **unmarkiert gekürztes L-1-Zitat**;
+  Semantikprüfung **9/13 bestätigt, 4/13 nur teilweise (sieben hohe
+  Risiken)**. Die Folgerung „trägt A3 weiterhin?" bewusst NICHT
+  getroffen. melevo **8/8** Abzüge geprüft: die 10-€-Posten sind **von
+  der Quelle nicht bezeichnet**. Postkorb an heypensio liegt lokal
+  (`626bff0`) — **Push vom Klassifikator abgelehnt** (L-05, achter Beleg).
+  **R15-E (Limejuice):** `akquise/sperrdatei-struktur.md` +
+  `akquise/wellenprotokoll-vorlage.md` gebaut, **7/7 Bau-Pflichten
+  zugeordnet**, Beileger-Text gesperrt gelassen (Firmierung + O-9).
+  Prüfer **23/23 disponiert**; schwerster Fund: **Die Erstfassung stellte
+  eine Repo-Tabelle als Sperrbestand bereit — personenbezogene Daten
+  wären unwiderruflich in die Git-Historie gewandert, und die
+  Versand-Gates hätten nicht gegriffen, weil ein Sperrfall OHNE Versand
+  entsteht.** Ersatzlos entfernt.
+  **Leitsession:** Vorlauf-Nachzug `ad1bef4` · **Transit-Verbot G5
+  vollzogen** (Nachzugs-Historie aus dem CLAUDE.md-Kopf nach
+  `geruest-nachzug-protokoll.md`, 136/136 Zeilen byte-gleich belegt) ·
+  Push-Freigabe für 15 Commits aus fünf Sessions (vier hatten die
+  Auflösung an die Leitsession delegiert) · Wahrheits-Kanal-Korrekturen
+  (R05-A-Status, „fünfte Bedingung") · **6 Lehren → Blueprint**
+  (L-43…L-48 + L-39-Schärfung, `fed78f3`/`8d80a64`), 3 fremde Deltas
+  disponiert, Stempel `8d80a64`, Wächter SYNCHRON 12 / 0 DRIFT.
+  **Debrief-Gegenprobe (Subagent):** fand **12 nicht disponierte
+  Learnings + 31 ungeroutete Nebenbefunde** — alle im selben Zug
+  nachgetragen (Sammelvermerk R15 + Routing-Tabelle § 2).
 
 - 13.08.2026 spätabends (R14-Debrief, zwei Arbeits-Sessions PARALLEL +
   Leitsession): **Drei Briefing-Nachträge eingearbeitet, die der

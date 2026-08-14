@@ -3,7 +3,7 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`fed78f3`** (R15-Debrief 14.08.2026 nachts:
+> 2026-08-09; Stand **`8d80a64`** (R15-Debrief 14.08.2026 nachts:
 > eigener Rückfluss von 6 Lehren — L-43 (Positivkontrolle spiegelt
 > Zeichenklasse UND Kanal), L-44 (Personendaten nie ins Repo /
 > TOM-Zeile / Gate-Pfad), L-45 (Belegpflicht kennt keine Richtung:
@@ -491,13 +491,24 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Verkleidung); die Extraktion holt die Gliederung generisch über das
   Strukturmerkmal (L-11 — zweifach reproduziert im selben Papier,
   R5 B8.4 + R6 K-1).
+  **⭐ Eine Verfahrens-Positivkontrolle ALTERT MIT IHREM KORPUS** — sie
+  belegt die Fehlerklasse, die sie damals prüfte, nie die Vollständigkeit
+  eines späteren Rückbaus: Der Prüflauf deckte 1.055 Zeilen, das Papier
+  hat heute 1.454, und genau in der Differenz saßen die einzigen zwei
+  Abweichungen. Bei jeder Wiederverwendung fragen: Ist der Prüfraum seit
+  dem Lauf GEWACHSEN? (Anderer Fall als der wandernde Anker,
+  Sammelvermerk R9.)
   **⭐ Eine Kontrolle trägt nur, wenn ihr Ergebnis eine erkennbare
   UNMÖGLICHKEIT liefern kann** — zwei Werkzeugfehler flogen nur auf,
   weil die Kontrollzahl nicht sein KONNTE; bei „90 von 99" wäre beides
   durchgerutscht. Starke Formen: Summenprobe ohne Rest · zwei
   unabhängige Strukturmerkmale für dieselbe Zahl · Kontrollkandidat mit
   unabhängig bekanntem Sollwert plus schweigende Gegenrichtung.
-  (L-24; MKT R8, zwei unabhängige Fälle.)
+  (L-24; MKT R8, zwei unabhängige Fälle.) **⚠️ EINSCHRÄNKUNG (R15, am
+  eigenen Objekt): Die Summenprobe ist an der EINSTUFUNGS-Achse blind** —
+  „2+4+1=7" kann bei sieben Zeilen in drei Kategorien nie anders
+  ausfallen; sie fängt eine vergessene Zeile, eine FEHLEINSTUFUNG nie.
+  Sie belegt die Vollzähligkeit, nie die Richtigkeit der Zuordnung.
   **⭐ Und eine „x von y"-Aussage wird am KRITERIUM geprüft, nicht an
   der Zahl:** Könnte das Ergebnis überhaupt anders ausfallen? „10 von
   10 Ankern mit vollständiger Angabe" zählte sein eigenes
@@ -741,6 +752,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Grenzenliste wird VOLLZÄHLIG abgearbeitet, n von n, nie in Auswahl
   akzeptiert** — sie ist beim Verdichten so vorbehalts-anfällig wie eine
   Messung.)
+  **⭐ Ein Prüfling, der zugleich im BELEG-POOL liegt, bestätigt sich
+  selbst** — eine Reichweiten-Erweiterung durch bloßes Anhängen an beide
+  Listen macht den neuen Kanal **grün und blind**; der Vergleich braucht
+  den Selbstausschluss je Zieldatei (R15: die Ursache einer
+  Scheinentwarnung, die zwei Dokumente prüfte und über vier schwieg).
   **⭐ Eine Wächter-Entwarnung über die EIGENE Arbeit setzt die Lektüre
   seiner Prüfmengen-Konstanten (ZIEL/POOL) voraus; das Lauf-Delta wird
   je Datei zugeordnet, nie pauschal der eigenen Arbeit zugeschrieben**
@@ -1067,7 +1083,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   die Nahtstelle danach neu lesen. **Prüf- und Nachweismittel ist die
   LÖSCHUNGSZÄHLUNG** (`git diff --numstat`, jede gelöschte Zeile
   einzeln) — „0 Löschungen im Abschnitt" ist zugleich der mechanische
-  Beleg, dass überstimmte Passagen ungeglättet stehen blieben. (L-38.)
+  Beleg, dass überstimmte Passagen ungeglättet stehen blieben. **Sie
+  braucht ZWEI Nenner: gegen den RUNDENSTART (0 beweist „kein
+  Bestandstext angetastet") und gegen den eigenen BAU-COMMIT (zeigt die
+  eigenen Reparaturen)** — ein einzelner Nenner verschweigt entweder
+  Arbeit oder suggeriert Löschungen an fremdem Text. (L-38, R15.)
 - **⭐ Eine KONDITIONALE Warnung altert lautlos.** „Wird der Termin
   verlegt, ist dieses Datum eine alte Zusage" ist korrekt formuliert und
   trotzdem wirkungslos, sobald die Bedingung eintritt — niemand prüft die

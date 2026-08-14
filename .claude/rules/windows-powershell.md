@@ -15,6 +15,19 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
 - Ein Encoding-BEFUND über eine Datei (Mojibake „Ã¶") ist erst nach
   Byte-Prüfung (`ReadAllBytes`) ein Datei-Befund — sonst ist es der eigene
   Leseweg; eine „Reparatur" würde die gesunde Datei beschädigen.
+- **⭐ Umlaut-Zählung VOR und NACH jedem `sed`/jeder Massenersetzung** —
+  die billigste Absicherung gegen Encoding-Schaden; ein Vorher/Nachher
+  mit identischer Zahl ist der Beleg, den sonst niemand nachliefern kann.
+  (Herkunft: MKT R15, real angewandt.)
+- **⭐ Zeilenenden misst `git ls-files --eol`, nicht ein Grep auf `\r`** —
+  ein degeneriertes CRLF-Muster meldete „432 Zeilen mit CR" bei einer
+  Datei mit 432 Zeilen. Eine Zahl, die exakt der Zeilenzahl entspricht,
+  ist zuerst ein Werkzeugfehler. ⚠️ CRLF kann außerdem Zeichen-Schwellen
+  verschieben (derselbe Blob lieferte 143 vs. 144 Treffer, weil `\r`
+  gegen eine Mindestlänge mitzählte) — vor der Extraktion auf LF
+  vereinheitlichen. (Herkunft: MKT R15.)
+- **Python ist auf diesem Rechner NICHT verfügbar** — Skripte laufen über
+  Node. (Herkunft: MKT R15.)
 - Feldnamen NIE am geparsten Objekt einer case-insensitiven Sprache
   prüfen — PowerShell verschluckt Groß-/Klein-Asymmetrien, die in JS zu
   `undefined` führen. Bei Feldnamen-Fragen das Roh-JSON ansehen.

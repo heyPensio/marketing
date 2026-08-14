@@ -26,7 +26,50 @@
 ---
 
 ## Letzte Aktualisierung
-**13.08.2026 spätabends (R14, Shanks + R14-A/Ben Beckman + R14-B/Yasopp
+**14.08.2026 nachts (R15, Shanks + FÜNF Arbeits-Sessions parallel —
+Nacht-Slot)** — ⭐⭐ **Größte Runde des Projekts: 24 Commits, fünf
+Stränge, drei schwere Funde, die je einen Bestandssatz gekippt haben.**
+🔴 **Der teuerste Befund war der Rundenschnitt selbst:** Ein
+Zuschnitt-Prüfer fand vor dem Start, dass **4 von 5 Strängen eine
+widerlegte Prämisse trugen — jedes Mal eine VERNEINUNG** („nicht
+eingearbeitet", „liegt nicht vor", „hat niemand geprüft", „kein Paket
+führt"). Zwei Stränge wurden umgeschnitten, bevor eine Session lief.
+Daraus die firmenweite Regel: *Ein Arbeitsvorrat ist eine Liste von
+Verneinungen — der teuersten Aussagenklasse.*
+**R15-A:** Anwalts-Briefing mit vier Fragen gebaut, jeder Rn.-Anker am
+Rohbeleg belegt; **UWG-/UGPRL-Volltexte erstmals im Bestand** (die
+Rechtsmatrix zitierte sie mit höchster Belegstufe, ohne dass ein
+Volltext vorlag). Prüfer 22/22. 🔴 Schwerster Fund: **Rn. 111 enthält
+die abweichende Auffassung des OLG Düsseldorf — des zuständigen
+BERUFUNGSgerichts — und fehlte vollständig.**
+**R15-B:** § 6a der Angebotsarchitektur — AU-1…AU-4 **4 von 4** geprüft,
+AU-4-Nachweisform zurückgebaut, VK-O2 + Gate-Kette; 0 Löschungen gegen
+den Rundenstart. Prüfer 18/18. Fund aus seinem „ungelesen"-Abschnitt:
+**ein Auslegungsirrtum bei K-1 ist rückwirkend binnen 30 Tagen heilbar.**
+**R15-C:** Zitat-Wächter **ZIEL 2→6, POOL 8→11**. **Bewertung der 806er
+Fundmenge (Leitsession): NULL Widerlegungen** — alle 863 unbestätigten
+Zitate sind „nicht im Pool" (Summenprobe ohne Rest). Der frühere grüne
+Lauf war eine **Scheinentwarnung**.
+**R15-D:** Lizenzkette erstmals selbst geprüft — **28/30 Texttreue**,
+zwei Abweichungen durch ein **unmarkiert gekürztes L-1-Zitat**;
+Semantik **9/13 bestätigt, 4/13 teilweise (sieben hohe Risiken)**. Die
+Folgerung „trägt A3?" bewusst nicht getroffen. melevo 8/8: 10-€-Posten
+**von der Quelle nicht bezeichnet**.
+**R15-E:** Sperrdatei-Struktur + Wellenprotokoll-Vorlage gebaut, 7/7
+Bau-Pflichten zugeordnet. Prüfer 23/23. 🔴 Schwerster Fund: **Die
+Erstfassung hätte personenbezogene Daten unwiderruflich in die
+Git-Historie geschrieben — die Versand-Gates hätten nicht gegriffen,
+weil ein Sperrfall OHNE Versand entsteht.**
+**Leitsession:** Vorlauf-Nachzug · **Transit-Verbot G5 vollzogen**
+(CLAUDE.md-Historie ausgelagert, 136/136 Zeilen byte-gleich belegt) ·
+Push-Freigabe für 15 Commits aus fünf Sessions · **6 Lehren → Blueprint**
+(L-43…L-48), Stempel `8d80a64`, Wächter 12/0 · **Debrief-Gegenprobe fand
+12 nicht disponierte Learnings + 31 ungeroutete Nebenbefunde** — alle
+nachgetragen (Sammelvermerk R15 + Routing-Tabelle Projektquelle § 6a).
+⚠️ Modell-Statuszeilen aller fünf Sessions unbestätigt (User-Handgriff).
+*(Details: Projektquelle-Changelog R15.)*
+
+**Vorheriger Stand — 13.08.2026 spätabends (R14, Shanks + R14-A/Ben Beckman + R14-B/Yasopp
 — Briefing-Nachträge + Pflege-Pakete, parallel)** — ⭐⭐ **Der
 Z-6-Lizenzvorbehalt ist AUFGELÖST („A3 trägt"), die Belegstufe aller
 Entscheide-Vermerke ist gehoben, und zwei seit Runden offene
@@ -70,39 +113,8 @@ und gilt ab dem nächsten Debrief. ⚠️ Modell-Statuszeilen R14-A (Opus 5
 1M) + R14-B (Opus 5 1M) unbestätigt (User-Handgriff).
 *(Details: Projektquelle-Changelog R14.)*
 
-**Vorheriger Stand — 13.08.2026 abends (R13, Shanks + R13-A/Ben Beckman + R13-B/Yasopp —
-Entscheide-Protokoll 2 + R9-Restposten, parallel)** — ⭐⭐
-**S4 + AA-1…AA-8 sind eingearbeitet (nur AA-4 offen), die sieben
-Bau-Pflichten stehen im Regelwerk, O-9 ist geführt.** Quelle: Briefing
-Nachtrag 4 (Dropdown + Freitext, sinngemäß — so in allen ✅-Vermerken).
-**R13-A:** ✅-Vermerke in `handel/angebotsarchitektur.md` +
-`handel/preisliste-vorlaeufig.md` — S4 je HAUS (nicht mehr ④) · AA-1
-Lesart A (Betreiber) · AA-2 P-B-Zielbild bis E-7 · AA-3
-Reifegrad-Leitplanke bindend · **AA-4 OFFEN (Kayhan)** · AA-5 ab
-Haus 2 · AA-6 fester Prozentsatz · AA-7 ohne Deckel · **AA-8 Rabatt
-auch auf S4, bewusst GEGEN die Session-Empfehlung** (Passagen
-ungeglättet, 0 Löschungen mechanisch belegt); alle Höhen Hypothesen
-bis E-6/E-7. Prüfer **16/16 disponiert** (1 schwer — Bestandsaussage
-aus dem Gedächtnis, gestrichen; 5 Prüfschritte offen ausgewiesen).
-**R13-B:** B-1…B-7 aus O-8 § 10 ins Listenbau-Regelwerk (Zählweg
-8/1/7: B-8 gestrichen) + **O-9 in Rechtsmatrix UND Regelwerk als
-OFFENER Posten geführt** (Gate anwaltlicher Rat, fällig vor dem ersten
-Datensatz). Prüfer **5/5 disponiert** (2 schwere repariert).
-**Leitsession-Nacharbeit (`daa50a5`):** Quellen-Nachzug
-`preismodell-optionen.md` § 10/§ 11 (die Vorrangklausel hätte AA-6
-sonst umgekehrt) · O-8-Messstände · **Zitat-Wächter wieder grün**
-(Ausnahmeliste +7, Lauf 144 Zitate · 25/25 Einträge · 118/118, Exit
-0/0). Postkorb an Zentrale: Belegstufen-Grenze der
-Entscheide-Erhebungen (`c9b20f2`, gepusht). · Methodik: **5 Lehren →
-Blueprint** (L-36…L-38 + L-26-Schärfung + cmd-%ERRORLEVEL%-Falle,
-`5f18694`), fremde Deltas `f756e79` + `13a6659` (heyPensio R40/R41)
-einzeln disponiert und übernommen, Kopien tagesstart +
-windows-powershell gezogen, Stempel `5f18694`, Wächter SYNCHRON 12 /
-0 DRIFT. ⚠️ Modell-Statuszeilen R13-A (Opus 5 1M) + R13-B (Fable 5)
-unbestätigt (User-Handgriff). *(Details: Projektquelle-Changelog
-R13.)*
-
-*(Davor: R12 — E-1…E-8 eingearbeitet, Preisliste + Angebotsarchitektur
+*(Davor: R13 — S4 + AA-1…AA-8 eingearbeitet, B-1…B-7 im Regelwerk,
+O-9 geführt; rotiert 14.08.2026 (R15) → `STATUS-archiv.md`. Davor R12 — E-1…E-8 eingearbeitet, Preisliste + Angebotsarchitektur
 gebaut; rotiert 13.08.2026 (R14) → `STATUS-archiv.md`. Davor R11 —
 Preismodell-Entscheidungsvorlage gebaut/geprüft; rotiert 13.08.2026
 (R13). Davor R10 — Umbau-Runde F10/F13/Nachzug; rotiert 13.08.2026
@@ -205,6 +217,32 @@ Stände: `STATUS-archiv.md`.)*
   Streitstand** (UGPRL-Grenze B2B + Kostenfolge) gehört in denselben
   anwaltlichen Rat wie O-9/A7 · **O-11** (Lizenzserver-Ping, § 5
   geparkt) ebenfalls · Modell-Statuszeilen R14-A/R14-B (je Opus 5 1M).
+- **R15 (14.08. nachts, Nacht-Slot, fünf Sessions parallel):** ✅
+  **Anwalts-Briefing gebaut** (vier Fragen, jeder Rn.-Anker am Rohbeleg;
+  UWG-/UGPRL-Volltexte erstmals im Bestand) · ✅ **§ 6a
+  Angebotsarchitektur** (AU-1…AU-4 4/4, AU-4-Nachweisform, VK-O2,
+  Gate-Kette GA-1…GA-4) · ✅ **Zitat-Wächter ZIEL 2→6 / POOL 8→11**
+  (Bewertung: 0 Widerlegungen, 863 „nicht im Pool") · ✅
+  **Lizenz-Belegkette selbst geprüft** (28/30 Texttreue, 9/13 Semantik)
+  · ✅ **Sperrdatei-Struktur + Wellenprotokoll-Vorlage** (7/7
+  Bau-Pflichten) · ✅ Prüfer 22+18+23 disponiert, dazu Zuschnitt-Prüfer
+  (11 Befunde) und Debrief-Gegenprobe (12+31 Nachträge) · ✅ 6 Lehren →
+  Blueprint (`8d80a64`), Transit-Verbot G5 vollzogen, Wächter 12/0.
+  **Offen aus R15:** 🔴 **A7-Kernsatz + § 3a-Doppelbegründung + Rn. 111
+  (OLG-Gegenauffassung) + Rn. 115** — alle vier an MKT-HANDEL, s.
+  Routing-Tabelle Projektquelle § 6a · 🔴 **R15E-N-5
+  Planungskonflikt:** die 300er-Schwelle kollidiert mit ≈ 337–1.600
+  Briefen je Abschluss — **jede realistische Welle löst den
+  Neu-Führungs-Trigger aus** · 🔴 **R15E-N-4 ANL-3-Rechtsfrage fehlt im
+  Anwalts-Briefing** (vor Versand nachtragen) · **R15A-N-4:** die
+  tragende Rn.-87-Verschärfung steht in einer Literatur-Abwehr — die
+  gesamte Terminlage F-7/O-9/Bau-Pflichten ruht darauf · Postkorb an
+  heypensio liegt lokal (`626bff0`, Klassifikator-Blockade) ·
+  **Zitat-Wächter dauerhaft rot** (863 „nicht im Pool" — Pool erweitern
+  oder Modus-Trennung) · Beileger-Text weiter gesperrt (Firmierung +
+  O-9) · **Verdichtungs-Posten CLAUDE.md** (+5.642 B netto über die
+  Runde trotz −6.343 Auslagerung; Sollmarke vorschlagen) ·
+  Modell-Statuszeilen aller fünf R15-Sessions.
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -234,13 +272,32 @@ Stände: `STATUS-archiv.md`.)*
    (User → Kayhan) + AA-3-/AA-8-Randfragen** · **F-III-Höhe
    entscheidet der User nach E-6** (Zulieferung heypensio,
    Kalendertermin nachhalten — trägt auch den AA-7-Prüfposten) ·
-   **EIN anwaltlicher Rat mit VIER Fragen: O-9 · A7-Kernsatz-Neufassung
-   · Streitstand § 3a UWG (UGPRL-Grenze B2B + Kostenfolge § 13 Abs. 4
-   Nr. 2) · O-11 (Lizenzserver-Ping im A3-Modell)** — die ersten drei
-   vor dem ersten Datensatz; die § 3a-UWG-Schiene aus R14-B verschärft
-   das Bild, sie entlastet nicht · **K-1 vor dem ersten
-   A3-Kundenangebot** · Kanalmix-Festzurrung erst nach FUND2-Persona-
-   Befund. Details: Projektquelle § 7 Punkt 0 + R14-Changelog.
+   ~~**EIN anwaltlicher Rat mit VIER Fragen**~~ ✅ **GEBAUT in R15-A
+   (14.08.):** `handel/anwalts-briefing-2026-08.md` — O-9 ·
+   A7-Kernsatz-Neufassung · Streitstand § 3a UWG (UGPRL-Grenze B2B +
+   Kostenfolge § 13 Abs. 4 Nr. 2) · O-11, je mit Sachverhalt,
+   Fragestellung, Quellenlage, **Gegenansicht** und Alternativen.
+   ⚠️ **VOR dem Versand fehlen noch drei Schritte, alle beim User:**
+   (a) **R15E-N-4 nachtragen** — darf ein im FREMDEN Impressum
+   vorgefundener Werbewiderspruch in einen eigenen Sperrbestand? (die
+   Frage entstand parallel in R15-E und ist im Briefing nicht enthalten);
+   (b) **Entscheid, ob der Satz „wir tragen das Impressums-Risiko
+   bewusst gegen die eigene Empfehlung" an einen noch nicht mandatierten
+   Anwalt geht** (drei Optionen + Empfehlung im Statusblock des
+   Dokuments); (c) **Empfänger wählen + Firmierung** (Platzhalter mit
+   Gate-Vermerk, F-7 offen).
+   **NEU aus R15-A, verschärft die Lage:** **Rn. 111 enthält die
+   abweichende Auffassung des OLG Düsseldorf** — des zuständigen
+   Berufungsgerichts —, die § 3a-Schiene ist eine **Doppelbegründung**
+   (im Bestand steht nur die Hälfte), und **die tragende
+   Rn.-87-Verschärfung steht in der Abwehr eines Literatureinwands**
+   (R15A-N-4) — auf diesem einen Satz ruht die Fälligkeit „vor dem
+   ersten Datensatz" und damit die gesamte Terminlage. · **K-1 vor dem
+   ersten A3-Kundenangebot** (⭐ R15-B fand: ein Auslegungsirrtum ist
+   nach der Termination-Klausel **rückwirkend binnen 30 Tagen heilbar** —
+   mildert das Gate, hebt es nicht auf) · Kanalmix-Festzurrung erst nach
+   FUND2-Persona-Befund. Details: Projektquelle § 6a (Routing-Tabelle) +
+   § 7 Punkt 0 + R15-Changelog.
    ~~⏸️ R09-B wartet auf Umbau-Abnahme~~ ✅ Freeze aufgehoben
    (User-Entscheid 12.08. abends, Briefing Slot 3), als R11-A
    ausgeführt; ~~F13 wartet auf C2-Rücklauf~~ ✅ nachgereicht 14:49

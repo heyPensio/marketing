@@ -2,6 +2,40 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 14.08.2026 (R15-Debrief) — R13-Block aus „Letzte Aktualisierung"
+
+**Vorheriger Stand — 13.08.2026 abends (R13, Shanks + R13-A/Ben Beckman + R13-B/Yasopp —
+Entscheide-Protokoll 2 + R9-Restposten, parallel)** — ⭐⭐
+**S4 + AA-1…AA-8 sind eingearbeitet (nur AA-4 offen), die sieben
+Bau-Pflichten stehen im Regelwerk, O-9 ist geführt.** Quelle: Briefing
+Nachtrag 4 (Dropdown + Freitext, sinngemäß — so in allen ✅-Vermerken).
+**R13-A:** ✅-Vermerke in `handel/angebotsarchitektur.md` +
+`handel/preisliste-vorlaeufig.md` — S4 je HAUS (nicht mehr ④) · AA-1
+Lesart A (Betreiber) · AA-2 P-B-Zielbild bis E-7 · AA-3
+Reifegrad-Leitplanke bindend · **AA-4 OFFEN (Kayhan)** · AA-5 ab
+Haus 2 · AA-6 fester Prozentsatz · AA-7 ohne Deckel · **AA-8 Rabatt
+auch auf S4, bewusst GEGEN die Session-Empfehlung** (Passagen
+ungeglättet, 0 Löschungen mechanisch belegt); alle Höhen Hypothesen
+bis E-6/E-7. Prüfer **16/16 disponiert** (1 schwer — Bestandsaussage
+aus dem Gedächtnis, gestrichen; 5 Prüfschritte offen ausgewiesen).
+**R13-B:** B-1…B-7 aus O-8 § 10 ins Listenbau-Regelwerk (Zählweg
+8/1/7: B-8 gestrichen) + **O-9 in Rechtsmatrix UND Regelwerk als
+OFFENER Posten geführt** (Gate anwaltlicher Rat, fällig vor dem ersten
+Datensatz). Prüfer **5/5 disponiert** (2 schwere repariert).
+**Leitsession-Nacharbeit (`daa50a5`):** Quellen-Nachzug
+`preismodell-optionen.md` § 10/§ 11 (die Vorrangklausel hätte AA-6
+sonst umgekehrt) · O-8-Messstände · **Zitat-Wächter wieder grün**
+(Ausnahmeliste +7, Lauf 144 Zitate · 25/25 Einträge · 118/118, Exit
+0/0). Postkorb an Zentrale: Belegstufen-Grenze der
+Entscheide-Erhebungen (`c9b20f2`, gepusht). · Methodik: **5 Lehren →
+Blueprint** (L-36…L-38 + L-26-Schärfung + cmd-%ERRORLEVEL%-Falle,
+`5f18694`), fremde Deltas `f756e79` + `13a6659` (heyPensio R40/R41)
+einzeln disponiert und übernommen, Kopien tagesstart +
+windows-powershell gezogen, Stempel `5f18694`, Wächter SYNCHRON 12 /
+0 DRIFT. ⚠️ Modell-Statuszeilen R13-A (Opus 5 1M) + R13-B (Fable 5)
+unbestätigt (User-Handgriff). *(Details: Projektquelle-Changelog
+R13.)*
+
 ## Rotiert am 13.08.2026 (R14-Debrief) — R12-Block aus „Letzte Aktualisierung"
 
 **Vorheriger Stand — 13.08.2026 mittags (R12, Shanks + R12-A/Ben Beckman + R12-B/Yasopp —

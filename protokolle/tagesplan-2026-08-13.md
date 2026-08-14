@@ -1761,6 +1761,59 @@ Disposition.
 | **F-10** | 🟡 | Ein Briefing-Nachtrag steht **im Briefing selbst** (additiver Kopf, `zentrale b2a7a4a`, 23:58) — 5 min NACH dem Zuschnitt; ein Verzeichnis-Listing ist gegen diese Form blind | **anerkannt**: Inhaltlich nur heyPensio-Stränge, **aber seine Lehre trifft uns** („Subagenten-Erhebung ist Indiz, kein Beleg — besonders Verneinungen"). → **Methodik-Posten für den R15-Debrief**: Nachtrags-Messung darf nicht am Verzeichnis-Listing hängen |
 | **F-11** | 🟡 | Datumswechsel: Postkorb-Dateiname `2026-08-13-…` bereits falsch | **übernommen**: D schreibt `2026-08-14-…` |
 
+### 🔎 Leitsessions-BEWERTUNG der R15-C-Erstfundmenge (14.08., Pflicht aus dem C-Prompt)
+
+R15-C hat die Fundmenge geliefert, die **Bewertung** war ausdrücklich der
+Leitsession vorbehalten. Sie lautet: **Kein einziges Zitat ist widerlegt
+worden — aber 863 sind NICHT PRÜFBAR, und das ist ein eigenes Ergebnis,
+keine Entwarnung.**
+
+Laufzahlen je Zieldatei (Endstand, eigener Lauf nach allen fünf Strängen;
+Exit 1, Positivkontrolle 14/14, Gegenprobe 3/3 — die Mechanik ist intakt,
+die Meldungen sind echt):
+
+| Zieldatei | geprüft | bestätigt | eigene | **nicht im Pool** |
+|---|---|---|---|---|
+| `akquise/akquiseplan.md` | 29 | 25 | 4 | **0** |
+| `akquise/listenbau-regelwerk.md` | 115 | 102 | 13 | **0** |
+| `akquise/interessenabwaegung-o8.md` | 143 | 30 | 0 | **113** |
+| `fund/wettbewerbsbild.md` | 494 | 27 | 0 | **467** |
+| `handel/kanal-rechtsmatrix.md` | 168 | 24 | 0 | **144** |
+| `handel/angebotsarchitektur.md` | 172 | 33 | 0 | **139** |
+
+Summenprobe: 113+467+144+139 = **863** = 1104 − 241 ✔ (ohne Rest — die
+Zerlegung ist vollständig, es gibt keine dritte Kategorie).
+
+**Bewertung in drei Sätzen:**
+1. **Null Widerlegungen.** Es gibt keinen einzigen Fall „Quelle liegt im
+   Pool, Zitat weicht ab". Die 863 sind ausnahmslos Zitate, deren Quelle
+   der Wächter gar nicht besitzt.
+2. **Die zwei ALTEN ZIEL-Dateien haben 0 „nicht im Pool".** Genau
+   deshalb war der grüne Lauf der alten Fassung eine **Scheinentwarnung**
+   — er prüfte zwei Dokumente, deren Quellen zufällig vollständig im
+   Pool lagen, und schwieg über vier Dokumente mit 863 Zitaten aus
+   Gesetzen, Urteilen und Anbieterseiten. R15-C hat nicht 863 Fehler
+   gefunden, sondern eine **Blindstelle sichtbar gemacht**.
+3. **Stichprobe der Klassifikation** (Leitsession, am Objekt): Die
+   unbestätigten Zitate sind Gesetzestext („Abweichend von Absatz 2
+   Nummer 2" — UWG), Anbieter-Rohbelege („von 43 auf rund 65
+   Mitarbeitende angewachsen") und teils **gar keine Zitate**
+   (rhetorische Fragen in Anführungszeichen: „Wer baut dieselbe
+   Technik?"). Die Klassifikation trägt.
+
+⚠️ **Folgeposten, und er ist dringend:** Der Wächter ist damit
+**dauerhaft rot** — genau der Zustand, vor dem CLAUDE.md warnt („ein
+Wächter, der beim gewöhnlichen Fall rot wird, wird abgeschaltet"). Die
+863 gehören **nicht** in die Ausnahmeliste (das wäre die Ausrede, vor der
+L-26 warnt). Richtig sind zwei Wege, beide für die nächste Runde:
+(a) **Pool erweitern** — R15-A hat UWG- und UGPRL-Volltexte beschafft
+(`sensibel/rohbelege-R15-A/`), damit werden große Teile der 144/113
+erstmals prüfbar; (b) **Modus-Trennung im Werkzeug** — „im Pool prüfbar"
+als eigener Exit-Pfad, „außerhalb" als ausgewiesene Geltungsgrenze im
+Dokument. Bis dahin gilt: **Der Wächter sagt über vier der sechs
+Dokumente inhaltlich nichts** — das gehört als Geltungsgrenze in die
+Dokumente, nicht in eine Fußnote.
+
 ### Nachführung des Wahrheits-Kanals (14.08. 00:40, Leitsession, `HEAD`)
 
 Aus F-1 und F-4 folgte Arbeit am Wahrheits-Kanal — sie fasst keinen

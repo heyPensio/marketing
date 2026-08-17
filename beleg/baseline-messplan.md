@@ -295,6 +295,22 @@ heypensio-Repo erfragen und diesen Plan bei Abweichung nachziehen
 (Verschiebung nach VORN verkürzt das Fenster — deshalb konservativ
 geplant).
 
+> ⏰ **Stand H-1 am 17.08.2026 (R16-C): weiterhin kein Tagesdatum — die
+> Frist 16.08. ist verstrichen.** Am Objekt nachgeprüft statt aus dem
+> Bestand übernommen: **Suchweg** `grep -rniE "livegang|go.?live"` über
+> `<FIRMENWURZEL>\heypensio\**\*.md`, 17.08.2026 — 559 Treffer gesamt
+> (Positivkontrolle), **kein einziger mit Tagesdatum**; das Nachbar-Repo
+> führt durchgehend das Ziel Ende September als **Prognose des
+> Betreibers** (E-T4, `firzlaff/apaleo-config/rollout-bauplan-sandbox-live.md`)
+> und H-1 seinerseits als offenen User-Handgriff
+> (`firzlaff/apaleo-config/anfrage-apaleo-nachfass-2026-08-17.md`, 17.08.).
+> **Der Planungsanker 22.09. bleibt damit unverändert gültig** — es gibt
+> kein echtes Datum, gegen das er zu prüfen wäre. ⚠️ Nebenbefund für den
+> Träger (nicht hier eingearbeitet): Die dortige Kette (Vertrag → KYC
+> ~3 Wochen → Kartengerät ~3 Wochen) und der am 12.08. als überfällig
+> gemessene Vertragseingang (IN-A10) weisen eher auf eine Verschiebung
+> nach HINTEN — für dieses Messfenster die ungefährliche Richtung.
+
 | Zeitraum | Schritt | Wer |
 |---|---|---|
 | bis So 16.08. | Plan-Review (Leitsession) + User-Freigabe inkl. Entscheid BM-4/BM-5 | Leitsession + User |
@@ -319,7 +335,7 @@ muss später saisongleiche Vergleiche wählen oder den Vorbehalt nennen.
 
 | # | Handgriff | Wer | bis |
 |---|---|---|---|
-| H-1 | Konkretes Livegang-Datum erfragen (Quelle: Betreiber/heypensio-Leitsession); bei Abweichung vom Planungsanker 22.09. diesen Plan nachziehen | User | 16.08. |
+| H-1 | Konkretes Livegang-Datum erfragen (Quelle: Betreiber/heypensio-Leitsession); bei Abweichung vom Planungsanker 22.09. diesen Plan nachziehen | User | ⏰ **VERSTRICHEN 16.08. — neues Datum weiter OFFEN, erneut erfragt 17.08.2026 (R16-C)** |
 | H-2 | Plan-Freigabe inkl. Entscheid Zusatz-Optionen BM-4/BM-5 und Zielstichprobe | User (nach Leitsession-Review) | 16.08. |
 | H-3 | Betreiber-Briefing: Erhebungsfragen E-1 bis E-5 klären, Vorlagen übergeben, Messstart vereinbaren; Kayhan-Konventionen beachten | User | 23.08. |
 | H-4 | Alt-System-Datensicherung: HS/3-/DIRS21-/OTA-Auszüge (No-Show-Historie, Belegung) exportieren/fotografieren, BEVOR der Systemwechsel sie gefährdet | User + Betreiber | 07.09. |

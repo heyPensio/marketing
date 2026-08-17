@@ -2015,3 +2015,199 @@ sondern an der Reihenfolge:** Phase 3 (Lehren) lief vor Phase 4b
 nächsten Debrief: **Block 3 und Block 4 in EINEM Durchgang je Meldung
 abarbeiten**, nicht blockweise über alle Meldungen — sonst überlebt Block
 3 die Phase, in der er hätte geroutet werden müssen.
+
+## L-49 — Die frisch gelernte Regel schützt den Text, auf den man sie ANWENDET — nicht den, den man dabei SCHREIBT (R16, 17.08.2026)
+
+**Fall (R16-A, Ben Beckman, vom eigenen Prüfer gefunden, S-2):** Der
+Auftrag hieß, R15A-N-1 zu reparieren — „weicht ab" ist schärfer als die
+konditionale Quelle (Rn. 79 „sollten … könnte nicht gefolgt werden").
+Die Session reparierte das in einem Reparatur-Kasten korrekt und schrieb
+**90 Zeilen tiefer im selben Commit**, das LG „weiche ausdrücklich ab"
+von der „ständigen Rechtsprechung" des OLG — wo die Quelle „**verbleibt**
+die Kammer" sagt und die „ständige Rechtsprechung" als **Vortrag der
+Beklagten** in Anführungszeichen führt (Rn. 43). Zwei Fehler in einem
+Satz, beide derselben Klasse wie der reparierte. **Der Unterschied: dort
+stand die Klasse in einem Zitat, hier im Fließtext daneben — und der
+Zitat-Wächter meldete 17/17.**
+
+**Warum die Klasse zäh ist:** Wer eine Regel gerade anwendet, hält sich
+für geschützt; die Aufmerksamkeit liegt auf dem reparierten Satz, nicht
+auf der eigenen Begründung. Zweiter Fall derselben Runde (R16-A, F-4): das
+eigene Rn.-79-Zitat trug einen künstlichen Satzabschluss (Doppelpunkt vor
+dem Literaturbeleg) — genau L-39, die die Session in Teil 1 anwenden
+sollte.
+
+**Handlungskern (CLAUDE.md, ersetzt den Kern „frisch geschriebene Regel
+schützt nur künftigen Code"):** Der Bestand wird gegen die neue Regel
+durchsucht — **und der eigene Reparatur-/Begründungstext im selben Commit
+zuerst.** Prüffrage jeder Reparatur-Session: „Habe ich meine eigene
+Reparaturbegründung gegen dieselbe Regel gelesen?" Und wer „n/n
+bestätigt" schreibt, schreibt dazu, was das Werkzeug NICHT prüft (L-27,
+dritter Beleg: Fließtext neben markierten Zitaten).
+
+## L-50 — Der Suchweg bestimmt das Negativ: Kürzel ≠ Sache, Ausschnitt ≠ Datei, Fremdmeldung ≠ heutiger Stand (R16, 17.08.2026)
+
+Drei Fälle EINER Klasse an EINEM Tag, alle vor oder in der Runde:
+
+**Fall 1 (Leitsession, Tagesstart — vom Prüf-Subagenten gefangen):**
+`grep "R15E-N-4|ANL-3"` über das Anwalts-Briefing = 0 Treffer, mit
+greifender Positivkontrolle. Die SACHE (darf ein im fremden Impressum
+vorgefundener Werbewiderspruch in den eigenen Sperrbestand?) stand seit
+`ba5a059` als „§ 4a Kandidat A" im Dokument. Der Kürzel-Grep war
+korrekt und das Negativ falsch; die Briefing-Prämisse 2 („nachtragen")
+hätte die Frage ein zweites Mal ins Dokument geschrieben. Zusatz: Die
+R15-E-Meldung „dort heute nicht enthalten" war beim Schreiben (01:54)
+20 Minuten alt gegenüber `ba5a059` (01:34) — **eine Parallelsession-
+Meldung über ein fremdes Dokument trägt den Stand ihres Lesezeitpunkts**,
+und die Routing-Tabelle hatte sie ohne Zeitabgleich übernommen.
+
+**Fall 2 (R16-C, Lucky Roux):** „Kein H-1-Datum nachgetragen" gestützt
+auf einen `sed`-Bereich vom Abschnitt „Nachträge" bis zum Prüfer-Kopf —
+die Antwort stand in einem neuen Abschnitt am Dateiende, den der Bereich
+per Konstruktion nicht erreichte. Der Auftrag hatte den Abschnitt
+namentlich genannt (L-34: der Verweis sagt, wo man ANFÄNGT). Kosten: ein
+veröffentlichter Commit mit falscher Aussage, 20 Minuten später sichtbar
+korrigiert. Gefunden nicht durch Prüfung, sondern durch eine unerwartete
+Commit-Referenz in der `git push`-Ausgabe. **Mitschuld der Leitsession:**
+Sie hatte im Prompt „Abschnitt Nachträge" als Ablage benannt und dann ans
+Dateiende geschrieben — wer einen Ort benennt, schreibt DORT.
+
+**Fall 3 (Leitsession, Tagesstart):** „Kein Selbstausschluss der
+Zieldatei aus dem Pool" — gelesen am Konstanten-Kopf (ZIEL/POOL), nicht
+am Vergleichspfad; `poolTextFuer` (Z. 71) existierte seit `3067361`.
+L-40 (Prüfmengen-Konstanten lesen) reicht nicht — den Vergleichs-PFAD
+lesen.
+
+**Handlungskern (CLAUDE.md, schärft „Arbeitsvorrat = Verneinungen"):**
+Jede Verneinung, die einen Auftrag trägt, wird (1) über Kürzel UND
+Sachbegriff gesucht, (2) über die GANZE Datei, nie über einen Ausschnitt
+(Zeilenspanne protokollieren, MKT R7), (3) bei Fremdmeldungen mit
+Zeitstempel gegen den heutigen Stand geprüft. Eine unerwartete Referenz
+in einer Werkzeugausgabe ist ein Prüfauftrag, kein Rauschen.
+
+## Sammelvermerk R16 (17.08.2026) — Zweitbelege, bewährte Muster, Werkzeug-Nachträge
+
+*(Quellen: `protokolle/R16-A-abschluss.md` Block 3/4 · `R16-B-bericht.md`
+§ 3/4 · `R16-C-abschluss.md` Block 3/4 · Tagesplan 17.08. Jedes Learning
+einzeln disponiert; „Zweitbeleg" = Register-Nachtrag ohne neue
+CLAUDE.md-Prosa.)*
+
+### Zweitbelege zu bestehenden Regeln (24)
+
+1. **L-27** (Zitatabgleich prüft nur Markiertes) — R16-A F-9: 17/17 und
+   zwei schwere Fließtext-Fehler daneben. Kern in L-49 aufgenommen.
+2. **L-39** (künstlicher Satzpunkt) — R16-A F-4: Rn.-79-Zitat mit
+   Doppelpunkt vor dem Literaturbeleg; 16/17 vom eigenen Abgleich gefangen.
+3. **L-41** (Nachbarformen) — R16-A F-3: Genitiv „Oberlandesgerichts"
+   (4 von 5 Fundstellen) und der Original-Tippfehler „Mittbewerbern"
+   (Rn. 129) — Flexion und Schreibfehler sind dieselbe Klasse.
+4. **L-43** (Zeichenklasse) — R16-A F-10: HTML-Abzug mit 1.359 NBSP:
+   `§ 3a UWG` im .txt 21, im .html 0, alle Buchstaben-Zahlen gleich; der
+   Bestandssatz „beide Abzüge liefern dieselben Werte" galt nur für
+   Buchstaben (M-7 repariert). R16-C M-2: `[0-9]{3}` als Kontrolle für
+   ein Zahlen-Negativ, Wort-Kontrolle lieferte bei einer Datei 0.
+5. **L-24** (Kontrolle mit erkennbarer Unmöglichkeit) — R16-A F-1: 139
+   statt 273 Absätze = exakt jeder zweite; nur die Lückenprüfung fing den
+   Extraktor-Fehler. R16-A F-11: Abdeckungs-Zählweg zählte „Rn. 141/142"
+   als 141 — Messwerkzeuge brauchen eigene Positivkontrollen (vier laufen
+   nun mit).
+6. **Quellen-Baustein „Muster über Auszeichnung ist Annahme über die
+   Form"** — R16-A F-1: `absatzLinks` ist ein `<p>`, kein `<span>`.
+7. **windows-powershell `grep -c`** — R16-A F-2: eine „4 Fundstellen"-Zahl
+   aus `grep -c` stand schon im Dokument; `grep -o | wc -l` ergab 1 bzw. 5.
+8. **Regel (e) „Auftrag ist Annahme"** — R16-A F-5: der Auftragstext
+   beschrieb Rn. 115 in der falschen Richtung (Herkunftsangabe als
+   Problem — am Rohbeleg ist ihr FEHLEN das Problem).
+9. **L-40 / Doppel-Messstand** — R16-A F-7 (Prüfstand `0c4692f`, Commit
+   auf `686ff18`, nur an der Push-Ausgabe sichtbar → **nach dem Commit
+   den PARENT prüfen**), R16-B F-3 (alle Zahlen aus dem Snapshot), R16-C
+   F-3 (Auftragsdatei wuchs 694 → 730 Zeilen zwischen Lesen und Prüfen).
+10. **L-05** (Klassifikator trifft Ketten) — R16-A F-12: `git push | tail`
+    in `&&`-Kette blockiert, Einzelbefehl lief. Neunter Beleg.
+11. **L-17** (streichen statt abschwächen) — R16-A M-4: „kein Mitbewerber"
+    gestrichen; die Gegenrichtung (Mitbewerberinnen klagten, Rn. 44/89/124)
+    war der stärkere Befund.
+12. **L-38** (zwei Nenner) — R16-A M-6: identische Löschungszahlen gegen
+    `0c4692f` und `84ce2a6` belegen zugleich, dass niemand die Dateien
+    zwischen den Ständen anfasste.
+13. **L-42** (Prüferbefund am Rohbeleg gegenprüfen) — R16-A M-7: 18/18
+    hielten stand; bei S-2 schärfte die Gegenprüfung die Reparatur um
+    einen zweiten Fehler im selben Satz (Parteivortrag als Rechtsprechung).
+14. **L-11** (Gliederung generisch extrahieren) — R16-A M-1: Randnummern
+    über das Strukturmerkmal, Lücken-/Dubletten-/Zweitmerkmal-Prüfung.
+15. **Regel (a) Aussage/Fundstelle getrennt** — R16-A M-2: zwei Achsen
+    (Wortlaut · Randnummer), Kontrollfall „richtiger Satz, falsche Rn."
+    fiel nur auf der zweiten durch.
+16. **„Prüffrage vor jedem Versand an einen Entscheider"** — R16-A M-5:
+    auf das eigene Teil-1-Ergebnis angewandt → Teilfrage 1a; sonst wäre
+    die Doppelbegründung in der Matrix und nicht im Briefing gestanden.
+17. **tagesstart „Fertig-Kriterium passt zur Auftragsart"** — R16-B F-1:
+    ZIEL-Erweiterung erzeugt einen eigenen Aufnahmebestand (19 + 24), der
+    weder „neu" noch Ausnahmeliste ist; getrennt und unbewertet geführt.
+18. **„Treffer ist Lesestelle"** — R16-B F-4: 201 Trefferdokumente sind
+    keine 201 Primärquellen (HTML/TXT-Dubletten, Ableitungen).
+19. **Sammelvermerk R9 „jeder Modus eigene Erfolgsbedingung"** — R16-B M-1
+    (Hauptlauf/`--altlast`/`--selbsttest`).
+20. **„Anwesenheit ist nicht Wirksamkeit"** — R16-B M-4: Selbstausschluss
+    durch denselben Text in zwei Zuständen belegt (nur eigene Datei → nicht
+    bestätigt; plus Fremdpool → bestätigt).
+21. **L-33** (Empfehlungs-Drift zugunsten der eigenen These) — R16-C F-4:
+    „zwei unabhängige Rechnungen ergeben 300" wäre plausibel gewesen;
+    `git log -S` zeigte einen Commit.
+22. **L-39-Schärfung „ganzen Satz lesen"** — R16-C F-5: der Prompt nannte
+    von der M1-Zeile nur „18 Commits", die Zeile trug auch „6+ DRIFT" —
+    beide Hälften gemessen.
+23. **L-15** (delegierte Zahlen selbst reproduzieren) — R16-C M-3
+    (148/21/0 in zwei Minuten); **aussenkorrespondenz „Vorbefunde
+    sichern"** — R16-C M-4 (die Zentrale führte den § 3a-Befund schon:
+    Meldung von „neu" auf „Belegstufe gehoben" gedreht).
+24. **Dubletten-Regel** — R16-C M-5: Zeiger auf WP-35 statt dritter
+    Fundstelle; **L-25** — R16-A N-1: fünf Ableitungen des A7-Kernsatzes
+    gelistet, drei außerhalb des Scopes (o8 § 6.2/§ 11.2, Regelwerk § 7.1,
+    `preismodell-optionen.md` Rn.-87-Satz) → MKT-HANDEL.
+
+### Bewährte Muster ohne bestehenden Anker (Register-Eintrag, kein CLAUDE.md-Kern)
+
+- **Herkunft einer Zahl über `git log -S`, nicht über den Text** (R16-C
+  M-1): der Text sagt, woher eine Zahl angeblich stammt, `-S` sagt, wann
+  sie entstand.
+- **Werkzeug-Umbau unter laufender Messung arithmetisch einhegen**
+  (R16-A M-8): `37 = 33 + 4`, `2 = 0 + 2` — die zweite Zahl unabhängig
+  prüfbar.
+- **Baseline doppelt binden** (R16-B M-2): lesbare Nutzlast mit Nennern
+  plus fest verdrahteter SHA-256 + Summen; ein veränderbarer Nenner
+  allein schützt nicht gegen Anheben. Grenze (Codex selbst): gleichzeitige
+  Änderung von Nutzlast UND Hash umgeht die Prüfung — Review-Aufgabe.
+- **Baseline als Multimenge je Datei** (R16-B F-2): ein Set verliert
+  Duplikate — ein zweites Vorkommen desselben Zitats würde sonst unter dem
+  alten Eintrag verschwinden.
+- **Ein Fremdbefund, der sich unabhängig reproduziert** (R16-A M-3): die
+  21 § 3a-Treffer fielen aus dem eigenen Extrakt, ohne Suche danach.
+
+### Werkzeug-Nachträge
+
+- **Unsichtbare Zeichen zählen wie Umlaute** (R16-A F-6): zwei Soft-Hyphen
+  U+00AD kamen mit kopiertem Text ins Dokument (Vorher-Nenner 0); sie
+  hätten jeden Grep auf „Mittbewerbern" ins Leere laufen lassen. →
+  Baustein `windows-powershell` (Master) ergänzt.
+- **Fremdagenten-Scratch gehört ins Session-Scratchpad, nicht in den
+  Repo-Root** (Leitsession, R16-B): Codex legte `.r16b-scratch-<hash>/`
+  im Arbeitsbaum an (untracked, später aufgeräumt) — im `git status`
+  eine fremde Datei mehr, die keine Session zuordnen kann. → Auflage im
+  Codex-Auftragsmuster (tagesstart-Master).
+- **Wächter-Struktur (offen, R17-Posten):** Rohbelege liegen in
+  `sensibel/` und damit außerhalb des Pools — jedes Rn.-Zitat ist per
+  Konstruktion „nicht im Pool"; nach R16-A meldet der frisch entrotete
+  Wächter 51 NEU in der Rechtsmatrix (Urteilszitate + eigene
+  Formulierungen, R16A-N-5). Codex-Scan: 352/863 Altlast mit
+  Kandidatendatei, 511/863 ohne Texttreffer. Entscheid nötig: Pool um
+  lokale Rohbeleg-Pfade (mit Fehltoleranz für frische Klone) +
+  Ausnahmeliste für Eigenformulierungen.
+
+### Prozess-Befund über den Debrief selbst
+
+Nach dem R15-Befund (Block 3 und 4 je Meldung in EINEM Durchgang) wurde
+so gearbeitet: je Meldung Nebenbefunde UND Learnings vollständig gelesen,
+bevor die nächste geöffnet wurde. Zusätzlich hat der Tagesplan die
+Zielorte der Nebenbefunde bereits beim Review (16:00/16:40) geführt —
+Phase 4b findet sie dort vor.

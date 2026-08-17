@@ -368,7 +368,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Verneinung, die einen AUFTRAG trägt, wird am OBJEKT geprüft und mit
   Suchweg + Stand ausgewiesen** — besonders „X existiert nicht",
   „niemand hat Y geprüft", „kein Z führt W". (Herkunft: MKT R15 — 4 von
-  5 Strängen einer Runde trugen eine widerlegte Verneinung.)
+  5 Strängen einer Runde trugen eine widerlegte Verneinung.) **Der
+  Suchweg selbst hat drei Pflichtachsen (L-50, drei Fälle an einem
+  Tag): Kürzel UND Sachbegriff (die Sache stand unter anderem Namen im
+  Dokument) · die GANZE Datei, nie ein Ausschnitt (die Antwort stand
+  hinter dem gelesenen Bereich) · Fremdmeldungen tragen den Stand ihres
+  Lesezeitpunkts, nie den heutigen. Eine unerwartete Referenz in einer
+  Werkzeugausgabe ist ein Prüfauftrag, kein Rauschen.**
 - **Verifizieren statt glauben:** gegen echte Daten/Doku/Quelle prüfen,
   bevor eine Beobachtung als Regel behandelt wird. Widerlegt die Messung
   den im Auftrag vorgegebenen LÖSUNGSWEG, ist das ein Befund, kein
@@ -919,9 +925,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Sicherheitsmerkmal — Kriterium ist der Zwischenzustand. Nach jeder
   Alarm-Unterdrückung fragen: Woran merkt jetzt noch jemand, dass es
   läuft? (Positiv-Beleg je Lauf, nicht weicherer Alarm.)
-- **⭐ Eine frisch geschriebene Regel schützt nur künftigen Code — der
-  BESTAND wird im selben Zug rückwirkend gegen sie durchsucht**, beginnend
-  mit dem Artefakt, das die Regel ausgelöst hat.
+- **⭐ Eine frisch geschriebene oder gerade angewandte Regel schützt den
+  Text, auf den man sie anwendet — nicht den, den man dabei schreibt
+  (L-49).** Der BESTAND wird im selben Zug rückwirkend gegen sie
+  durchsucht, beginnend mit dem auslösenden Artefakt — **und der eigene
+  Reparatur-/Begründungstext desselben Commits zuerst** (Belegfall: die
+  reparierte Klasse 90 Zeilen unter ihrer Reparatur erneut begangen, im
+  Fließtext neben 17/17 bestätigten Zitaten). Wer „n/n bestätigt"
+  schreibt, schreibt dazu, was das Werkzeug NICHT prüft.
 - **Ein geklonter Textbaustein transportiert die Entwarnung des Originals
   in einen Zustand, in dem sie nicht mehr gilt** — nach jedem Klonen jeden
   Satz gegen den NEUEN Zustand prüfen, nicht nur die Variablen.
@@ -977,15 +988,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **Geführte Entscheidungs-Durchsprachen:** Fachkürzel erst in einem Satz
   Klartext erklären, dann die Frage. Freitext-Antworten VOLLSTÄNDIG
   auswerten — sie tragen oft Entscheide zu anderen Punkten huckepack.
-- **Verhandlungs-Informationshygiene gegenüber Anbietern:** keine harten
-  Förderzahlen/-quoten, keine Wettbewerber-WERTUNGEN, keine laufenden
-  Parallel-Termine nennen; antwortende Person und DOMAIN am letzten
-  Thread-Eingang prüfen, nie am Adressbuch. (Ablauf: Baustein
-  `aussenkorrespondenz`.)
-- **AVV-Merksatz:** Newsletter-/Kampagnen-Tools und Analytics SIND
-  Auftragsverarbeiter — jede Freigabe-Vorlage prüft AVV (Art. 28) und
-  DSB-Frage mit Status + Begründung; „kommt nicht vor" ist kein Status.
-  (Form: Baustein `freigabe-vorlagen`.)
+- **Verhandlungs-Informationshygiene** → Baustein `aussenkorrespondenz`;
+  **AVV-/DSB-Pflichtprüfpunkt** (Newsletter-/Analytics-Tools SIND
+  Auftragsverarbeiter) → Baustein `freigabe-vorlagen`. *(Beide Kerne
+  lebten hier doppelt ohne Wächter — Zeiger seit R16, Dubletten-Regel.)*
 - **Prüffrage vor jedem Versand an einen Entscheider:** Welcher Satz
   würde seine Antwort ändern, wenn er ihn läse — und steht er drin? Die
   unbequeme Grenze gehört in die Vorlage, nicht in Fußnoten.
@@ -1067,9 +1073,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   gehört als Commit-Hash ins Dokument, nie als Zeilenzahl
   (Sammelvermerk R9).
 - **Kalender-Etiketten (Wochentage zu Datumsangaben) nie aus dem Kopf**
-  — immer per Werkzeug (`Get-Date`) erheben; aus dem Kopf vergebene
-  Etiketten geraten teils richtig, teils falsch und sind dadurch schwer
-  auffällig. Analog Modellnamen-Regel. (L-07.)
+  — immer per Werkzeug (`Get-Date`) erheben; analog Modellnamen (L-07:
+  teils richtig, teils falsch, dadurch schwer auffällig).
 - **Vor der Vergabe neuer Kurz-IDs die Kurzzeichen der Nachbardokumente
   greppen** (Kollisionen doppelt belegt). ID-Anker brauchen Rundenbezug.
   **⭐ Dreifach-Beleg an einem Tag (MKT R12, L-35): Auch
@@ -1121,9 +1126,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   (`grep --include="*.md"`) — Binärbestände sprengen sonst Timeouts.
 - **Rohbelege gehören in den Ordner IHRER Runde** (`sensibel/rohbelege-R<n>-<S>/`)
   — wer neue Abzüge in den Ordner einer FRÜHEREN Runde legt, lässt jede
-  Bestandszahl still altern, die je über diesen Ordner erhoben wurde. Kostete
-  in R7 eine Messung: dokumentiert 2132, gemessen 2134, Ursache waren zwei
-  am selben Tag ergänzte Dateien. (Herkunft: MKT R7, L-20.)
+  Bestandszahl still altern, die je über diesen Ordner erhoben wurde
+  (L-20, Belegfall im Register).
 - **⭐ Eine Trennungs-/Unabhängigkeitsregel bestimmt den ABLAGEORT ihrer
   Belege mit.** (Herkunft: Zentrale 14.08.2026, Blueprint `5020bc2` —
   49 Beleg-Dateien einer Abnahme wuchsen 6,5 h außerhalb jeder
@@ -1143,9 +1147,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   und welche Sätze ohne ihn heute falsch dort stünden. In R7 fand der
   Prüfer eine übersehene Befundlücke und eine ID-Kollision genau daran.
 - **Ein `|` im Fließtext einer Markdown-Tabellenzelle zerlegt die Zeile** —
-  fiel ausgerechnet in einer Fußnote auf, die einen Zählweg (`… | wc -l`)
-  dokumentieren sollte, und erst beim maschinellen Nachzählen. In
-  Tabellenzellen maskieren (`\|`) oder umformulieren. (MKT R7.)
+  in Tabellenzellen maskieren (`\|`) oder umformulieren (MKT R7,
+  Belegfall im Register).
 - **Läuft zu einem Dokument noch Recherche, trägt es einen SICHTBAREN
   Vorbehalt — oder der Commit wartet.** Ein committetes Dokument ohne
   Vorbehalt liest sich als fertig; im Multi-Session-Betrieb baut die
@@ -1205,13 +1208,11 @@ hierher, nicht ins Repo.
   vor dem Melden einmal in Einzelbefehle zerlegen; und sie ist
   kontext-/zeitpunktgebunden (derselbe `git push` lief später in
   derselben Session) — ein Kanal-Negativ nicht als Dauer-Zustand
-  dokumentieren. ~~Drittbefund R3: Die Blockade ist auch KANAL-gebunden~~
-  **Korrektur (R7, doppelt bestätigt R8): Die Bindung ist PRIMÄR
-  zeitpunkt-/kontextgebunden, nicht kanalgebunden** — R8 maß beide
-  Richtungen am selben Tag (vormittags PowerShell blockiert/Bash lief;
-  nachmittags Bash blockiert/PowerShell lief). Der Kanalwechsel ist ein
-  legitimer VERSUCH, kein Mechanismus; ein A/B über zwei Kanäle trägt
-  die Falsifikation, nie den Ursachennachweis (L-05-Nachträge R3/R7/R8).
+  dokumentieren. Die Bindung ist PRIMÄR zeitpunkt-/kontextgebunden,
+  nicht kanalgebunden (R7/R8 in beide Richtungen gemessen) — der
+  Kanalwechsel ist ein legitimer VERSUCH, kein Mechanismus; ein A/B
+  über zwei Kanäle trägt die Falsifikation, nie den Ursachennachweis
+  (L-05, neun Belege bis R16 — Historie im Register).
 
 ## Aktivierte Bausteine
 

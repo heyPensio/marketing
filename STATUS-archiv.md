@@ -2,6 +2,83 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 17.08.2026 (R18-Debrief) — R16-Block aus „Letzte Aktualisierung"
+
+**Vorheriger Stand — 17.08.2026 nachmittags (R16, Shanks + Ben Beckman + Codex + Lucky Roux
+parallel — erste Runde nach drei arbeitsfreien Tagen)** — ⭐⭐ **Die
+Rechtslage steht ehrlich im Bestand, das Anwalts-Briefing ist bis auf
+fünf User-Entscheide versandfertig, der Zitat-Wächter ist aus dem
+Dauer-Rot, und der Regelwerk-Wächter ist als Pflicht-Baustein scharf.**
+🔴 Vor dem Start kippte der Prüf-Subagent **zwei Briefing-Prämissen** —
+die ANL-3-Frage stand seit `ba5a059` als § 4a Kandidat A im Briefing
+(Kürzel-Grep 0, Sache vorhanden), der Wächter-Selbstausschluss existierte
+seit `3067361` (L-50: Kürzel ≠ Sache · Ausschnitt ≠ Datei · Fremdmeldung
+≠ heutiger Stand).
+**R16-A:** **6/6 Rechtsposten** in der Rechtsmatrix (A7-Kernsatz neu
+gefasst, Doppelbegründung Rn. 136/137/147/148, Rn. 111 OLG-Gegenauffassung
+[Original nicht beschafft], Rn. 115, Rn. 79 konditional, „kein
+Mitbewerber" gestrichen), Rn.-87-Vermerk in Matrix + o8, Briefing
+konsistent (ENTWURF); **Klartext-Entscheidungsvorlage** in
+`protokolle/R16-A-abschluss.md`. Prüfer **18 = 2/7/9, 17 repariert + 1 →
+Leitsession; 8 Nacharbeits-Fundorte offen.** 🔴 S-2/L-49: die zu
+reparierende Klasse 90 Zeilen unter ihrer Reparatur erneut begangen —
+bei 17/17 bestätigten Zitaten.
+**R16-B (Codex, Abnahme `9538c3f`):** Wächter meldet nur noch NEUE
+Verstöße; Altlast **863/863 + 43/43** als Baseline mit Nenner + SHA-256,
+ZIEL 6→8, Selbsttest 4 Musterklassen beide Richtungen; O-12-Satz neu.
+⚠️ Nach R16-A **51 NEU in der Rechtsmatrix** (Urteilszitate — Rohbeleg in
+`sensibel/`, außerhalb des Pools) → R17-Posten, bis dahin berechtigt rot
+*(→ erledigt R17-B, s. R17-Block oben)*.
+**R16-C:** Planungskonflikt 300er-Schwelle als Entscheidungsvorlage
+Akquiseplan § 4.4 (**300 = eigene Setzung ohne Quellenbindung**; Entscheid
+**E-A4**) · R14 per Postkorb nachgemeldet (Zentrale `7cf1761`) · **H-1 =
+Di 22.09.2026** (User; Puffer zum Anker aufgebraucht).
+**Leitsession:** Reserve-Namen in CLAUDE.md · Nachzug 8d80a64 → **7a0f76b**
+(8 Deltas; **Regelwerk-Wächter Pflicht: Marken 80k/85k/90k, Selbsttests
+9/9 + 9/9, Erstlauf 84.028 B**) · Sollmarke gesetzt · L-49/L-50 +
+Sammelvermerk R16 · Blueprint-Rückfluss 5 Regeln. **User-Entscheide der
+Runde:** Modell-Statuszeilen R3…R15 ENTFALLEN · fünf offene (s.
+„Nächster Schritt" 0). *(Details: Projektquelle-Changelog R16, Tagesplan
+17.08.)*
+
+## Rotiert am 17.08.2026 (R18-Debrief) — R14-Punkt aus „Aktueller Stand"
+
+- **R14 (13.08. spätabends, Briefing-Nachträge + Pflege-Pakete,
+  parallel):** ✅ **Z-6 aufgelöst** (28/28 Fundstellen disponiert,
+  Fassung `preismodell-optionen.md` § 5.3) · ✅ **Belegstufen-Hebung**
+  (27/26/0, Wortlaut-Archiv der Zentrale, nur per Verweis) · ✅
+  **R40-N-6** an beiden K7-Zeilen · ✅ **Rechtsmatrix-Pflege 6/6 +
+  FUND-Pflege 4/4** (drei Quell-Befunde am Rohbeleg widerlegt) · ✅
+  Leitsession-Nacharbeit `1f7b865` (O-8-Quellen-Nachzug, sonst hätte
+  die Vorrangklausel die Präzisierungen umgekehrt) · ✅ Prüfer 14/14 +
+  17/17 disponiert (3 schwere, alle repariert bzw. mit Träger) · ✅ 4
+  Lehren → Blueprint (`ee8c468`), fremdes Delta `fe6fcaf` disponiert,
+  Stempel `ee8c468`, Wächter SYNCHRON 12 / 0 DRIFT.
+  **Offen aus R14:** 🔴 **A7-Kernsatz-Neufassung** (Rechtsmatrix,
+  „ausschließlich DSGVO" widerlegt — MKT-HANDEL zusammen mit dem
+  O-9-Rechtsrat) · **K-1** (n8n-Community-Edition als Backend eines
+  entgeltlichen Produkts, streitig — fällig vor dem ersten
+  A3-Kundenangebot, heute ohne MKT-Träger) · **AU-2/AU-4 im
+  Angebotsstrang** (kein Paket führt den Onboarding-Schritt
+  „Lizenzbedingungen übergeben") · **O-2-Kunden-Pflicht** als
+  Vertragsklausel (Kunde öffnet n8n nicht seinen Gästen) · EuGH-Rn.-56
+  (O-8 § 11.2 Nr. 4, braucht den Volltext) · Wächter-Reichweite
+  (Rechtsmatrix + Wettbewerbsbild stehen in keiner ZIEL-Liste,
+  R14B-N-9) · Kurz-ID `Z-6` doppelt belegt (R14A-N-7) · **drei
+  Rückmeldungen an heypensio ohne Träger** (O-5: Pseudo-Zitat +
+  falscher Adressat im Blueprint; **R14A-N-1: der
+  Formulierungsvorschlag des Lizenzpapiers zählt nur AU-1…AU-3 — wer
+  ihn wörtlich übernimmt, verliert AU-4, die einzige Auflage mit
+  Handlungspflicht**) · **die Kette Lizenz-Rohquelle → heypensio-Papier
+  hat niemand geprüft** (alle Z-6-Aussagen ruhen darauf) · Rendering
+  der verschachtelten Nachtrags-Kästen ungeprüft · **MKT-FUND-Posten
+  aus der Pflege** (melevo 10 €: laufend oder einmalig? · acht
+  unausgewertete melevo-Abzüge im R11-A-Ordner · Straiv-Preishöhen
+  unbelegt — s. Projektquelle § 2 FUND3 R14-Stand) · **§ 3a-UWG-
+  Streitstand** (UGPRL-Grenze B2B + Kostenfolge) gehört in denselben
+  anwaltlichen Rat wie O-9/A7 · **O-11** (Lizenzserver-Ping, § 5
+  geparkt) ebenfalls · Modell-Statuszeilen R14-A/R14-B (je Opus 5 1M).
+
 ## Rotiert am 17.08.2026 (R17-Debrief) — R15-Block aus „Letzte Aktualisierung"
 
 **Vorheriger Stand — 14.08.2026 nachts (R15, Shanks + FÜNF Arbeits-Sessions parallel —

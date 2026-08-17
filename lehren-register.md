@@ -2486,7 +2486,7 @@ Gruppe unten.)*
 21. **Unsichtbare Zeichen (windows-powershell):** A-F4/N-4 (U+2011 aus
     dem EuGH-Text wanderte ins Briefing; 34× U+2011 + 306× NBSP im
     DE-Volltext — `C-621/22` mit ASCII-Bindestrich = 0) · C-N3
-    (Soft-Hyphen in „Termin­quote", Akquiseplan § 5).
+    (Soft-Hyphen in „Termin[U+00AD]quote" — hier als Klartext-Marker, damit der Register-Grep nicht ins Leere läuft; R18-Debrief —, Akquiseplan § 5).
 22. **Bash-Kanal-Fallen (windows-powershell):** A-F5/F6 (`node -e`
     mit Windows-Pfaden, `cd` verschiebt beide Kanäle — beide bereits im
     Baustein, trotzdem hineingelaufen) · C-F6/N6 (NBSP-Literal in
@@ -2795,10 +2795,13 @@ Leit 5 = **62 Posten**, jeder unten disponiert (a/b/c/d).)*
 19. **L-19 Reparatur verschärft anderen Befund (R18-A Prüfer M-4 + Falle
     10):** der Reparaturtext erzeugte die Einfüge-Klasse (→ L-38-Schärfung).
 20. **Prüf-Subagent Zuschnitt (tagesstart § 2 Baustein 1; Leitsession):**
-    20 Verneinungen, **4 Prompt-Prämissen gekippt VOR dem Start** (Rn. 220
+    20 Verneinungen, **5 (teil)widerlegt VOR dem Start** (A1 Rn. 220
     stand in o8 § 7.1 — Prämisse „nirgends" aus R17-A N-3, vom R17-A-
-    Prüfer schon zurückgezogen; 7 der 8 Aufnahmebefunde L-26; Akquiseplan
-    Z. 413 Kreuzzitate; `core.autocrlf` System- statt Repo-Config) + 5
+    Prüfer schon zurückgezogen; B2 `norm()`-Residuum nur im Pool-Kanal;
+    C4 Vorlagen seit R3 gebaut; C5 Akquiseplan Z. 413 Kreuzzitate; L1
+    `core.autocrlf` System- statt Repo-Config) + A7 bestätigt mit
+    Bestand (7 der 8 Aufnahmebefunde L-26 — Aufwandsersparnis, keine
+    gekippte Prämisse; korrigiert nach Debrief-Gegenprobe) + 5
     Nebenfunde (Briefing „Original nicht beschafft"-Folgesätze L-51;
     Zielort Rn. 187/188 in STATUS/Projektquelle falsch; EIGEN_R17-
     Residuum; U+00AD im Wahrheits-Kanal; R17-A § 1.3 ↔ § 5.6). Vierte
@@ -2827,7 +2830,8 @@ Leit 5 = **62 Posten**, jeder unten disponiert (a/b/c/d).)*
 26. **Ebene über den Repos (Zentrale 14.08.; Leitsession):** Codex legte
     `firma/r18b-scratch-86afceb` + `.tar` auf der Firmen-Ebene ab —
     Nicht-Repo-Ordner mit dem Ausgabe-Archiv der Läufe; vom User zur
-    Löschung nach dem Debrief freigegeben. Der tagesstart-Auflagentext
+    Löschung nach dem Debrief freigegeben (Chat 17.08. ~20:50: „darf
+    nach dem /debrief weg" — Chat-Belegstufe). Der tagesstart-Auflagentext
     sagte „außerhalb des Repos", nicht „Session-Scratchpad" (Werkzeug-
     Nachtrag unten).
 27. **Prompt-Prämisse „R18-B arbeitet außerhalb des Repos" (R18-A N-1):**
@@ -2841,9 +2845,12 @@ Leit 5 = **62 Posten**, jeder unten disponiert (a/b/c/d).)*
     Positivliste → zwei Briefing-Stellen nachgezogen; `wellenprotokoll-
     vorlage.md` Z. ~399 „nur FG-4" durch den o8-Edit überholt (Träger
     unten).
-30. **L-46/L-51 Folgesätze (R18-A Teil 7a):** „Original nicht beschafft"
-    zu 20 W 37/24 an vier Stellen des Briefings nach der Beschaffung
-    stehen geblieben — repariert mit Vorwärtsverweis.
+30. **L-51 Folgesätze + „Verdichten verliert den Vorbehalt" (R18-A Teil
+    7a; korrigiert nach Debrief-Gegenprobe):** vier reparierte Stellen =
+    **drei im Briefing + eine in der Rechtsmatrix**; zwei davon „Original
+    nicht beschafft" nach der Beschaffung stehen geblieben, zwei die
+    „begründet"-Überdehnung („dürfte" → „ist", Rn. 22 sagt „Kenntnis") —
+    Klasse: gekippter Satz + Vorbehaltsverlust, nicht L-46.
 31. **Bash-Heredoc-Riss (Leitsession, `windows-powershell`):** ein
     quotiertes `<< 'EOF'` mit ~180 Zeilen Markdown riss („unexpected
     EOF") ohne erkennbaren Backslash; der zweite Anlauf per Write-Tool +
@@ -2878,8 +2885,9 @@ Leit 5 = **62 Posten**, jeder unten disponiert (a/b/c/d).)*
 2. **ε Baseline je Vorkommen (1):** Zählweg auf VORKOMMEN umstellen
    (derselbe Text zweimal in einer Datei = zwei Prüfgegenstände);
    Baseline-Nenner mit Stand neu ausweisen. Bau R19.
-3. **ζ Reparaturvermerk-Selbstzitate (18 + 7 aus `ROHBELEG_OFFEN_R17` +
-   19 aus A's Delta):** eigene Konstante `REPARATURVERMERK_R<n>` mit
+3. **ζ Reparaturvermerk-Selbstzitate (18 + 8 aus `ROHBELEG_OFFEN_R17` —
+   7 L-26 + Nr. 2, das nach der Reparatur ebenfalls im Reparaturkasten
+   steht — + 19 aus A's Delta):** eigene Konstante `REPARATURVERMERK_R<n>` mit
    Begründung + Verifizierer je Eintrag (L-26-Modus-Trennung), Selbsttest
    beide Richtungen; **keine Kursiv-Konvention** für Vorfassungen
    (würde sie dem Zitatabgleich entziehen, L-27). Bau R19 — die 8
@@ -2903,6 +2911,81 @@ Leit 5 = **62 Posten**, jeder unten disponiert (a/b/c/d).)*
 - R18-A N-6 (Datumsuneinheitlichkeit des Beschlusses) — bereits im
   Briefing § 2.3 vermerkt, nur Bestätigung.
 
+### Nachträge der Debrief-Gegenprobe (7 von ~75 Posten nicht gelandet, 0 verworfen; Nenner-Kritik angenommen)
+
+- **L-05, elfter Beleg (R18-A Push geblockt, gemeldet statt umgangen;
+  Leitsession-Push `b6bd318`)** — CLAUDE.md-Zähler „zehn Belege bis R17"
+  → „elf bis R18" nachgezogen.
+- **R18-B § 11 letzter Punkt: der git-ignorierte Rohbeleg-Pool hat keinen
+  Git-Prüfstand** (696 Dateien / 9.228.861 Byte nur als Momentaufnahme;
+  historische Reproduzierbarkeit nicht aus `86afceb` ableitbar) —
+  Doppel-Messstand-Vertrag hat für den Pool keinen Träger → **Wächter-
+  Policy 7 (R19): Pool-Manifest mit SHA-256 je Datei, im Lauf ausgegeben.**
+- **R18-C Block 2 Nr. 5: siebte Ein-Gate-Stelle offen** (Vollzähligkeit
+  nach G-1 nicht garantiert) → **R19 AKQ** (Suchmuster aus der Sache,
+  Nenner ans Dokument).
+- **R18-C Muster 1 („zuerst messen, dann schreiben" — Wächter, Zeichen,
+  Kollisions-Grep VOR dem ersten Edit) und Muster 6 („nach dem Prüferlauf
+  in EINEM Commit nacharbeiten" — Prüfstand bleibt gültig, zwei saubere
+  Nenner)** → Zweitbelege zu L-40/Doppel-Messstand bzw. L-38 (zwei
+  Nenner); bewährte Muster zählen wie Fallen — hier zunächst
+  durchgerutscht.
+- **R18C-N-4** (H-7 nannte E-A1…A3, § 8 führt seit R16-C vier — selbst
+  nachgezogen) → Zweitbeleg **L-25** (Ableitungslücke im selben
+  Dokument).
+- **Kurz-IDs `G-n`/`O-9`** (Leitsession-Programm 7) → Projektquelle § 7
+  R19 Leitsession (4b) — im Sammelvermerk fehlte der Posten.
+- **Prüf-Subagent-Blindstelle „PK 14/14 ≠ 33/33"** → nicht abgeglichen,
+  (c): der Subagent zählte Muster, die Leitsession Kontrollzeilen; beide
+  Läufe grün, kein Sachbefund — bewusst nicht weiterverfolgt.
+- **Zweifelhaft-Liste disponiert:** A-N-5 (eigene Ableitung „also Art. 14
+  Abs. 3 lit. a") → **Träger MKT-HANDEL R19** (als Ableitung kennzeichnen)
+  · R18C-N-6 (Gegenleser ohne Werkzeuglauf) → gedeckt durch den
+  Leitsession-Live-Lauf 59 = 29 + 30 · „Prüferbefund H-2" in AA →
+  Leitsession R19 (4b) · A-Block-2-2 (nur das Datum fehlt; Brute-Force
+  bewusst unterlassen) → Projektquelle § 7 (4b) · **R18-A-Prüfer-
+  Blindstellen (9: Rn. 227–273 nicht am Stück, Wächter nicht gelesen,
+  L-51/L-25-Listen nur Stichproben) → R19 HANDEL Nacharbeitsliste
+  (L-48)** · Ebene über den Repos: Listing 17.08. 21:00 = `heypensio`,
+  `marketing`, `projektgeruest`, `zentrale`, `secret-broker`, `werkzeuge`,
+  `r18b-scratch-86afceb` + `.tar` (letztere zur Löschung freigegeben) ·
+  Zentrale-STATUS „Geparkt R17" → Chat-Bericht an Garp.
+- **Nenner-Kritik (angenommen):** „62" zählt (i)/(ii)/N-Blöcke, nicht
+  Block 2 (A 4 + C 6), Prüfer-Blindstellen (9), B § 11/§ 14 und die
+  20 Verdikte einzeln — L-30 am eigenen Sammelvermerk, dritte Runde in
+  Folge; die nicht gezählten Posten sind oben nachgetragen, der Nenner
+  wird nicht rückwirkend „geschönt", sondern so ausgewiesen: **62 gezählt
+  + 13 außerhalb des Nenners = 75 Posten, 7 davon erst hier gelandet.**
+
+### ⚠️ Eigener Vorfall im Debrief (Regel 1 „geteilter Fremd-Arbeitsbaum", Zweitbeleg zum Vorfall 12.08.2026)
+
+Der Blueprint-Rückfluss `74277bc` (21:17:17) trägt in
+`vorlage/commands/tagesstart.md` **35 Zeilen fremde, uncommittete Edits der
+heyPensio-Leitsession (R44: Objekt-Blick, Zweck-Satz + Kontrollpunkt,
+AskUserQuestion-Regel)** mit — heyPensio committete 48 s später
+`9858070` mit ihren sechs Changelog-Einträgen darüber. Ablauf: `git status`
+im Blueprint war zu Beginn von 3d leer; die fremden Edits kamen WÄHREND
+meiner Arbeit in dieselbe Datei; mein Skript las den Arbeitsbaum-Stand,
+`git add <pfad>` staged die ganze Datei; der Status vor dem Commit
+zeigte „M tagesstart.md" — meine eigene Änderung, die fremde darin
+unsichtbar. **Die CLAUDE.md-Regel existiert bereits** („Geteilte
+Log-/Sammel-Dateien … vor `git add <datei>` erst `git diff <datei>`
+sichten (fremde Zeilen!)") — sie gilt für JEDE Datei im geteilten
+Blueprint-Baum, nicht nur für Sammeldateien: **vor dem Add den Diff der
+Datei gegen die eigenen Edits halten** (Zeilenzahl der eigenen Änderung
+kennen; jede Zeile darüber ist fremd). Historie nicht korrigierbar
+(gepusht, überbaut); Zuordenbarkeit über die Changelog-Einträge
+(Ruffy in `9858070`) gegeben. **Folgen:** (1) die MKT-Kopien
+`tagesstart.md`/`windows-powershell.md` wurden vom Master-Arbeitsbaum
+gezogen und tragen damit heyPensio-R44/R45-Anteile (ZIELUMGEBUNG,
+`.gitattributes`-Regel) — Wächter SYNCHRON, aber der Kopf-Stempel
+„0 fremde Deltas" war FALSCH → korrigiert auf „1 fremdes Delta
+`9858070` offen (Nachzug-Posten: 6 Lehren, u. a. Feature-AUS ≠ Endpunkt
+zu, in CLAUDE.md noch nicht)"; (2) Postkorb-Meldung an die Zentrale
+(`2026-08-17-mkt-blueprint-fremdedit-74277bc.md`); (3) Zweitbeleg zu
+Regel 1 + zur `git diff <datei>`-Regel — gefunden von der Debrief-
+Gegenprobe, nicht von mir.
+
 ### Träger-Liste (Projekt-Posten aus Nebenbefunden, → Projektquelle § 7 R19)
 
 R18-A N-2 Wellenprotokoll „nur FG-4" (MKT-AKQ) · N-3/N-4 Rn. 180/194/184
@@ -2920,7 +3003,7 @@ eigener Vorgang nach R18) · P6 Webdesign-Leitlinie (Zeiger MKT-WEB) ·
 P7 n8n-Lizenz (Warten; Nachzieh-Suchraum „A3 trägt" 6× Preismodell, 3×
 Projektquelle, STATUS).
 
-### Kompensations-Auslagerungen dieses Debriefs (Anker `V18-nn`; CLAUDE.md +569 B Kerne / −567 B Belege = 79.937, plus Stempel-Kopf +23 → 79.960 B; netto +25 B unter Soll)
+### Kompensations-Auslagerungen dieses Debriefs (Anker `V18-nn`; CLAUDE.md +569 B Kerne / −567 B Belege = 79.937, plus Stempel-Kopf/Gegenprobe-Reparaturen/Delta-Hinweis +55 → 79.992 B; netto +57 B, unter Soll)
 
 - **V18-1 (L-34-Fallgeschichte, MKT R12, aus CLAUDE.md gekürzt):** Der
   Auftrag nannte den Unterabschnitt — die Nachbar-Rubrik desselben
@@ -2929,9 +3012,9 @@ Projektquelle, STATUS).
   Protokoll rückwärts" zur Entwarnung, bis er den Suchraum selbst
   erweiterte (P-05 in Bau und Prüfung derselben Runde). Volltext unter
   L-34.
-- **V18-2 (Kanäle-Belegfall, heyPensio, aus CLAUDE.md gekürzt):** Fix an
-  EINEM von zwei beschriebenen Wegen geprüft, die Nachmessung fand drei
-  weitere, darunter einen Endpunkt in einem anderen Namensraum.
+- **V18-2 (Kanäle-Belegfall, aus CLAUDE.md gekürzt):** = **V17-12** (dort
+  ausführlich, heyPensio R35) — Zeiger statt zweiter Fundstelle; Fix an
+  EINEM von zwei Wegen geprüft, Nachmessung fand drei weitere.
 - **V18-3 (Bildwissen-Belegfall, heyPensio R35, aus CLAUDE.md gekürzt):**
   Ein Anleitungstext beschrieb ein Bedienelement falsch; die richtige
   Beschreibung existierte nur auf Fotos aus einer früheren Sitzung.

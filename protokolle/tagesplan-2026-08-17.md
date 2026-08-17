@@ -2523,3 +2523,125 @@ Projektquelle § 7 Punkt 0 R18 (4) und (7) prüfen), committet als
 - **Prompt-Prämisse „B arbeitet außerhalb des Repos" (A N-1):** unpräzise formuliert — Codex' Scratch lag außerhalb (`firma/r18b-scratch-86afceb`, ⚠️ das ist ein Nicht-Repo-Ordner auf der Ebene über den Repos → Debrief-Prüfschritt „Ebene über den Repos", vor dem Löschen: Ausgabe-Archiv der Läufe liegt dort), die Lieferdateien im Arbeitsbaum (wie R17). Für R19 exakt formulieren.
 - **Stand:** A ✔ (Voll-Review) · B ✔ (Abnahme) · C ✔ (Kurzraster + Gegenleser) · origin = HEAD. **Nächster Schritt: `/debrief` R18.**
 - Zeitstempel: 21:08 MESZ (`date`).
+
+## Block 6 (17.08. ab ~21:00 MESZ per `date`, Debrief R18) — R18 fertig, reviewt, Debrief
+
+### Fangquoten je Prüfschicht (Quelle: Protokolle R18)
+
+| Schicht | Funde | davon unikal | Schwere | Selbstauskunft Blindstelle |
+|---|---|---|---|---|
+| Prüf-Subagent Zuschnitt (1 Frage, 20 Verneinungen) | 4 Prämissen gekippt (Rn. 220 in o8 § 7.1 · 7/8 Aufnahmebefunde L-26 · Z. 413 Kreuzzitate · autocrlf System-Config) + 5 Nebenfunde | 9 — vor dem Start | 2 gesparte Bauposten, 1 falsche Prämisse aus R17-A N-3, 1 falscher C-Auftrag | Rohbeleg-Inhalte nur auf Vorhandensein; PK-Zählweg 14/14 ≠ 33/33 der Leitsession (Muster vs. Kontrollzeilen) |
+| Prüfer R18-A (frischer Kontext, `git show`, Rohbelege am Pfad) | 23 = 3/9/11 + Rückwärts 8 | 23 (S-1/S-2/S-3 alle im eigenen Neubau; Rückwärts Rn. 205, 189/191 STÄRKEN die Position) | ⭐⭐ drei schwere im eigenen Begründungstext (L-49) | Rn. 178–209 nur gegen die genannten Rn.; Einfüge-Variante nur gerendert erkennbar |
+| Gegenleser R18-C (1 Frage + 2 Kalibrier-Behauptungen, eine falsch) | 16 = 2/6/8 | 16 (G-1 sechste Ein-Gate-Stelle · G-2 ERFÜLLEN) | ⭐ G-1 Suchmuster aus dem gekippten Wortlaut → L-51 geschärft | kein Prüfwerkzeug ausgeführt; Rn.-86/87 nur gegen Rechtsmatrix/o8 (2. Hand) |
+| Codex R18-B Selbsttest + Regression | 46/46, alt-ROT/neu-GRÜN, PK 33/33, Gegenprobe 3/3, 36/36 Inventar | 1 Werkzeugbefund (EIGEN_R17-Residuum) | — | 33 PK + 3 GP + 3 Blockzitate hätten `> >` NIE gefunden (§ 12) |
+| Leitsession-Abnahme R18-B (Prüfstand + Rückbau) | Prüfstand 29 NEU reproduziert; Rückbau 1/1 → 3 Muster kippen | 0 Abweichung zum Bericht | — | Policy-Entscheide vertagt (R19) |
+| Zitat-Wächter selbst (Live-Lauf) | 1 verkürzter STATUS-Vorbehalt in R18-C (C Falle 6) | 1 — kein Prüfer fand ihn | mittel | nur Zitate ≥ 25 Zeichen in „…" |
+| Verdichtungs-Gegenprobe (Subagent) | 8/8 Hunks an Soll-Stellen, 0 verlorene Aussagen, 3 kleine Befunde (Kopf-Zahl veraltet · V18-2 Register-Dublette von V17-12 · „Werten" statt „Zuordnungen") | 3 — alle repariert vor Commit | klein | Register-Zeilen nur am Stand 85313ef |
+| Debrief-Gegenprobe (Subagent) | s. Nachtrag unten | | | |
+
+**Fangquoten-Rückkopplung:** S-1/S-2/S-3 (A) und C-6 gehören zu L-49 /
+„Verdichten verliert den Vorbehalt" — beide Kerne ungekürzt (R17
+verdichtet, aber die Kerne blieben; R18-Verdichtung berührte nur
+Belegtexte V18-1…4). G-1 gehört zu L-51 — der Kern war R17 neu und ist
+jetzt GESCHÄRFT, nicht gekürzt. Keine Fehlerklasse des Tages hatte
+einen zuvor gekürzten Kern. Nachlaufendes Signal, kein Qualitätsbeweis.
+
+### Debrief-Änderungsreport (Phase 3/3d/4b)
+
+- **CLAUDE.md (`85313ef` + Reparaturen):** drei Schärfungen ERSETZEN an
+  Ort und Stelle — **L-51** („Suchmuster aus der SACHE … Warnsignal, kein
+  Negativ") · **L-38** („Gegen die EINFÜGE-Variante ist sie blind …
+  Nahtstelle als STRUKTUR lesen") · **Werkzeugfehler-Zahl** („Passt EINE
+  Kontrollzahl nicht, ist der ganze LAUF tot") · Kompensation V18-1…4
+  (L-34-Fallgeschichte, Kanäle-/Bild-/Schlüssel-Belegfälle → Register) ·
+  Kopf-Stempel `35fd61b` → `74277bc`. **Messzeile: 79.935 → 79.992 B**
+  (`tools/pruefe-budget.js`, Bytes = Wert; +569 Kerne / −567 Belege /
+  +55 Kopf/Reparaturen/Delta-Hinweis; unter Soll 80.000, Kompensationspflicht erfüllt).
+- **lehren-register.md:** Sammelvermerk R18 (**62 Posten:** 3 Schärfungen
+  · 31 Zweitbelege · 3 Werkzeug-Nachträge · Wächter-Policy 6 Entscheide ·
+  4 c · Träger-Liste) · V18-1…4 (V18-2 = Zeiger auf V17-12) · U+00AD in
+  Z. 2489 durch Klartext-Marker ersetzt (Prüfer-Nebenfund 4).
+- **Skills/Commands (Kopien vom Master):** `windows-powershell` (Grep-Tool
+  erbt Bash-`cd`) · `tagesstart` (Codex-Scratch nur Session-Scratchpad,
+  nie Ebene über den Repos; Lieferdateien ungestagt im Arbeitsbaum;
+  Gegenlese-Kalibrierung „davon eine FALSCHE"). Wächter SYNCHRON 12/0.
+- **projektgerüst:** `74277bc` — 5 Changelog-Einträge, Selbstcheck OK,
+  Delta `35fd61b..HEAD` vor dem Stempel neu gemessen: 0 fremde — **48 s
+  danach `9858070` (heyPensio R44/R45) → offenes Delta; ⚠️ `74277bc`
+  trägt 35 fremde uncommittete tagesstart-Zeilen mit (Regel-1-Vorfall,
+  s. Nachtrag Gegenprobe).**
+- **Werkzeug-Umbau der Runde:** Zitat-Wächter `> >`-Normalisierung +
+  EIGEN_R18 (Codex, `d107529`) — projektspezifisch; Policy-Entscheide
+  δ/ε/ζ/γ/β + AA-Rohbeleg-Zuordnung → **R19-Bauposten** (Register
+  „Wächter-Policy R18", Projektquelle § 7). `ROHBELEG_OFFEN_R17`
+  Begründungen 8/8 (Leitsession).
+- **Wahrheits-Kanal:** Projektquelle Changelog R18 · § 2 MKT-WEB Zeiger
+  P6 · § 7 Punkt 0 R18 (2)–(9) erledigt/teilweise + **R19-Liste** (User ·
+  Wächter · HANDEL · AKQ · Leit inkl. P7-Vorbehalt „Auflösung strittig",
+  N-1-Korrektur, Zielort Rn. 187/188 = AA § 6a) · U+00AD entfernt ·
+  STATUS.md R18-Kopf/-Punkt/Nächster Schritt 0, Zielort-Korrektur Z. ~245;
+  Rotation **R16-Block (38 Z.) + R14-Punkt (36 Z.) verbatim** ins Archiv.
+- **Postkorb Zentrale:** `86b1467` (Regel-1-Vorfall `74277bc`); die
+  überholte Zentrale-STATUS-Zeile „Geparkt R17" wird mit dem
+  R18-Chat-Bericht an Garp gemeldet (Chat-Belegstufe wie R16).
+- **Ebene über den Repos:** `firma/r18b-scratch-86afceb` + `.tar`
+  (Codex-Prüfstand + Ausgabe-Archiv, Hashes im Bericht) — **vom User zur
+  Löschung nach dem Debrief freigegeben** → gelöscht am Ende dieses
+  Blocks (Zeit s. Nachtrag). Sonst unverändert (6 Ordner, 5 Repos,
+  `werkzeuge/`).
+- **Dispositions-Liste (3-0):** A 10 F + 8 M + 8 N · B 7 · C 7 F + 6 M + 6
+  N · Prüf-Subagent 5 · Leit 5 = **62** — (a) 3 Schärfungen · (b) 31 ·
+  (c) 4 · (d) 3 Werkzeug-Nachträge + 3 Kern-Schärfungen im Blueprint ·
+  Projekt-Posten (Träger-Liste/Policy) 6 + 6.
+
+### Nachtrag Debrief-Gegenprobe (Verifikations-Subagent, ~75 Posten; Verdichtungs-Gegenprobe 8/8 Hunks 0 Verluste)
+
+**7 nicht gelandet → alle nachgetragen** (Register „Nachträge der
+Debrief-Gegenprobe"): L-05 elfter Beleg (CLAUDE-Zähler „elf bis R18") ·
+R18-B § 11 Rohbeleg-Pool ohne Git-Prüfstand → Wächter-Policy 7 (Manifest)
+· C Block 2 Nr. 5 siebte Ein-Gate-Stelle → R19 AKQ · C Muster 1/6 →
+Zweitbelege · R18C-N-4 → L-25 · Kurz-IDs `G-n`/`O-9` → Projektquelle ·
+PK-Zählweg 14 ≠ 33 → (c). **Zweifelhaft-Liste (8) disponiert**, u. a.
+A-Prüfer-Blindstellen (9) als R19-Nacharbeitsliste (L-48), A-N-5 → HANDEL.
+**Deckungs-Befunde (5) korrigiert:** Zweitbeleg 30 (3 Briefing + 1
+Rechtsmatrix, Klasse Vorbehalt statt L-46) · Zweitbeleg 20 (A7 war
+bestätigt; B2/C4 fehlten) · Zweitbeleg 26 (Freigabe = Chat) · Policy 3
+(8 statt 7) · **⚠️ Deckungs-Befund 5 = eigener Regel-1-Vorfall:**
+Blueprint `74277bc` trägt **35 fremde uncommittete tagesstart-Zeilen**
+(heyPensio R44) mit — Status zu Beginn leer, fremde Edits kamen WÄHREND
+der Arbeit in dieselbe Datei, `git add <datei>` staged alles, der Status
+vor dem Commit zeigte nur „M" (eigene Änderung). Historie gepusht/
+überbaut (`9858070` 48 s später) → nicht korrigierbar; **sichtbar
+gemacht:** Register (Vorfall + Lehre: `git diff <datei>` gegen die
+eigenen Edits VOR jedem Add im geteilten Baum), Kopf-Stempel „1 fremdes
+Delta `9858070` OFFEN" (statt „0 fremde"), Postkorb Zentrale `86b1467`,
+Nachzug-Posten R19. **Nenner-Kritik angenommen:** 62 gezählt + 13
+außerhalb (Block 2 A/C, Prüfer-Blindstellen, B § 11/§ 14) = 75; L-30 am
+eigenen Sammelvermerk, dritte Runde in Folge — der Nenner des nächsten
+Sammelvermerks wird an ALLE Meldungsblöcke gebunden (Block 2 + Blind-
+stellen mitzählen), Register-Prozessbefund. Positivkontrollen des
+Agenten: A-F1 · C-F6 · A-N-7 per Zeile wiedergefunden.
+
+### Block-6-Abschluss — Übergabe
+
+- **R18 fertig, reviewt, debrieft.** Commits: marketing (s. `git log`
+  ab `a7fca1c`), projektgeruest `74277bc` (+ fremd `9858070` offen),
+  zentrale `86b1467`. Wächter: Kopien 12/0 · Budget **79.992 B** (unter
+  Soll) · Zitat-Wächter 59 NEU (berechtigt rot bis R19-Bau) · Selbsttest
+  46/46 · Prüfstand `86afceb` 29 NEU.
+- **Offene User-Handgriffe:** fünf R16-Entscheide (Satz · Kanzlei ·
+  Absender · § 4a A/B/**C** · E-A4) → Versand des Anwalts-Briefings ·
+  Zielstichprobe ≥ 30 / H-2-Anker (R17-C) · **Lesart „Vorlagen
+  beauftragt" + A5-Probedruck VOR dem Betreiber-Briefing So 23.08.**
+  (R18-C) · Anker H-8/AKQ-H-2 · E-6-Zulieferung heypensio · AA-4 · DEHOGA/
+  IHK-Entwürfe · H-4 bis 07.09. · MARKE1-Paket · **StB-Anruf Di 18.08.** ·
+  `.gitattributes` (eigener Vorgang, kein paralleler Baum) · Codex-Scratch
+  gelöscht (s. Zeitstempel unten).
+- **R19-Kandidaten (PROGNOSE):** Wächter-Bau (Policy 1–7 + AA-Rohbeleg) ·
+  HANDEL (Rn. 180/194/184 · H-7 · Sperrposten ×3 · A-Prüfer-Blindstellen ·
+  N-5) · AKQ (Wellenprotokoll „nur FG-4" · siebte Ein-Gate-Stelle?) ·
+  Leitsession (Nachzug `9858070` · H-1-Kollision · Prüfer-Namensräume ·
+  P7 warten · Zentrale-STATUS „Geparkt R17" überholt).
+- **Blockwechsel-Handgriff:** vor R19 NEUES Fenster (CLAUDE.md, Rules,
+  Commands geändert).
+- Zeitstempel Block-6-Abschluss: 21:30 MESZ (`date`).

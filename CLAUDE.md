@@ -5,10 +5,11 @@ Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
 > 2026-08-09; Stand **`74277bc`** (R18-Debrief 17.08.2026: eigener
 > Rückfluss 3 Schärfungen [L-51/L-38/Werkzeugfehler-Zahl] + 2
-> Werkzeug-Nachträge [windows-powershell, tagesstart], 0 fremde Deltas;
+> Werkzeug-Nachträge; ⚠️ 1 fremdes Delta `9858070` [heyPensio R44/R45]
+> OFFEN, Nachzug-Posten;
 > Wächter SYNCHRON 12 / 0 DRIFT — ⚠️ Ordner-Bausteine misst er nicht
 > [Postkorb Zentrale `f58f1c0`]; Regelwerk-Wächter Soll 80.000 / Warn
-> 85.000 / Hart 90.000 B, R18 79.937 B unter Soll). **Die vollständige Nachzugs- und Stempel-Historie steht
+> 85.000 / Hart 90.000 B, R18 79.992 B unter Soll). **Die vollständige Nachzugs- und Stempel-Historie steht
 > in `geruest-nachzug-protokoll.md`** — sie gehört nicht in den
 > auto-geladenen Kanal (Transit-Verbot G5). Nachzug neuer
 > Methodik-Lehren: `/projekt-init nachzug`.
@@ -637,7 +638,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   trotz Volltext-Lektüre liegen bleiben, weil die Auswertung entlang
   des Fragenkatalogs läuft (Herkunft: heyPensio R40).
 - **⭐ Zahlen an ihren SCHLÜSSEL binden — eine stimmende Summe ist KEIN
-  Zuordnungsbeleg:** vier von sechs Werten paarweise vertauscht, **die
+  Zuordnungsbeleg:** vier von sechs Zuordnungen paarweise vertauscht, **die
   Kontrollsumme stimmte weiter** (Register V18-4). Zahlenlisten immer als Tabelle **mit Schlüsselspalte** übernehmen, nie an
   eine Prosa-Reihenfolge gebunden; beim Verdichten aus der Quelle
   **kopieren**, nicht abschreiben. (Herkunft: heyPensio R35.)
@@ -1141,7 +1142,7 @@ hierher, nicht ins Repo.
   PRIMÄR zeitpunkt-/kontextgebunden, nicht kanalgebunden — ein
   Kanal-Negativ nie als Dauer-Zustand dokumentieren; Kanalwechsel ist ein
   VERSUCH, kein Mechanismus; ein A/B über zwei Kanäle trägt die
-  Falsifikation, nie den Ursachennachweis (L-05, zehn Belege bis R17 —
+  Falsifikation, nie den Ursachennachweis (L-05, elf Belege bis R18 —
   Historie im Register).
 
 ## Aktivierte Bausteine

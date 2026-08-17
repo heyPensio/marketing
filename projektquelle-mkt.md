@@ -357,6 +357,17 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Fertig: dokumentiert, jede Entwarnung mit Quelle.
 - **WEB4** Social-Profile anlegen (Auswahl nach FUND2-Befund; Impressum
   auf Profilen). Fertig: Profile live, Zugänge im Zugangs-Register.
+- ⭐ **Firmenweite Webdesign-/Conversion-Leitlinie (Zentrale-Postkorb P6,
+  Ruffy R44 `45de6eb`, 17.08.2026):** heypensio hat einen vom User
+  übergebenen externen Leitfaden disponiert (`heypensio/blueprint/
+  webdesign-leitlinie.md`, L1–L10: Conversion statt Deko, Zielgruppen-
+  sprache, Anti-KI-Look, Mobile-First, Interview vor Code, Design-Vorgaben-
+  Datei, iterativ + Prüfer, Repo + Env, Kunde ist Eigentümer/kein Lock-in;
+  verworfen: Bypass-Mode, fremde Skill-Installation, Google-Fonts-
+  Fremdladung, Vercel/Stripe/Video-Streaming). Die Zentrale entscheidet
+  den Ablageort (Blueprint-Baustein). **WEB1–WEB4 lesen sie vor dem
+  Start als Vorgabe** — bis zur Zentrale-Entscheidung Zeiger auf das
+  heypensio-Dokument (Kenntnisnahme R18, keine MKT-Handlung).
 
 ### MKT-AKQ — Akquise & Kampagnen
 - **AKQ1** Kanalmix-Entscheid NACH FUND2 (Kandidaten: Founder-
@@ -958,7 +969,7 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    Ein-Gate-Logik in Akquiseplan § 6/§ 7 (H-8)/§ 8 (E-A1) (R17-C Block 2)
    · Sperrdatei-Struktur: Positivliste vor § 3a lässt SP-01/SP-09
    fallen (R17A-N-7) · Relativzeit „S5 in drei Tagen" (R17C-N-4) ·
-   Soft-Hyphen „Termin­quote" § 5 (R17C-N-3) · (5) **Leitsession R18:**
+   Soft-Hyphen „Terminquote" § 5 (R17C-N-3) · (5) **Leitsession R18:**
    `.gitattributes` (`* text=auto eol=lf`) statt lokalem
    `core.autocrlf=true` (R17A-N-1) · Kurz-ID-Kollisionen H-2 dreifach
    (R17C-N-2) + R15B-N-5/N-6 · Kopien-Wächter-Blindfleck Ordner-Bausteine
@@ -981,6 +992,59 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    C-F4-Klasse — kursiv statt Anführungszeichen, R18) und Regelwerk 0
    NEU; die C-Zahlen selbst (0/0 gegen den eingefrorenen Stand mit dem
    alten Wächter) wurden nicht reproduziert — als Zahl mit Stand geführt.
+   **⭐ R18 (17.08. spätabends): (2) ✅ R18-A** (Rn. 220 als Zeiger, Rn.
+   187/188 als PV-1 in **AA § 6a — nicht in der Rechtsmatrix**, N-2-Zielort;
+   Klauselblock klauselweise; o8 B-6 + Regelwerk § 6.1; Parallelverfahren
+   negativ mit Kanalbefund, Bitte an die Kanzlei sichtbar) · **(3) ✅
+   R18-B** (`> >`-Fix, 36/36 eingeordnet, EIGEN_R18) · **(4) ✅ R18-C**
+   (6 Stellen, Relativzeiten, Soft-Hyphen; Sperrdatei SP-01/SP-09 durch
+   R18-A) · **(5) teilweise:** `.gitattributes` als eigener Vorgang nach
+   R18 (⚠️ R17A-N-1 korrigiert: `core.autocrlf=true` kommt aus der
+   SYSTEM-gitconfig, nicht repo-lokal) · Kurz-ID `H-2` → `AKQ-H-2` im
+   Akquiseplan, Kollision war ≥ 6 (nicht 3), Prüfer-Namensräume offen ·
+   **(6) ✅** Arbeitstitel-Frage als § 4a Kandidat C · **(7) ✅ erhoben,
+   nicht erfüllt** (Vorlagen gebaut seit R3; „beauftragt" undefiniert →
+   User-Rückfrage, s. u.) · **(8) ✅** 8/8 eingeordnet (7 L-26, 1
+   repariert) · **(9) ✅** reproduziert (2 NEU = 2 NEU, Kreuzzitate).
+   **Was jetzt oben liegt — R19-Kandidaten:** (1) **User:** fünf
+   R16-Entscheide · Zielstichprobe/H-2-Teil 3 · **Lesart „Vorlagen
+   beauftragt" + A5-Probedruck vor dem Betreiber-Briefing So 23.08.**
+   (Messplan § 9, Klartext-Rückfrage) · neue Anker H-8/AKQ-H-2 · (2)
+   **R19 Wächter (Bau, Policy im Register „Wächter-Policy R18"):**
+   Kreuzzitat-Klasse ZIEL↔ZIEL getrennt ausweisen · Baseline je
+   VORKOMMEN · Konstante `REPARATURVERMERK_R<n>` (18 + 8 + 19 Fundstellen,
+   ersetzt `ROHBELEG_OFFEN_R17`) · γ 7 Fremdzitate + β 4 einzeln
+   einordnen · **AA dem LG-Rohbeleg zuordnen** (R18A-N-7: korrekte
+   Urteilszitate dort können nie grün werden) · EIGEN_R17-Residuum
+   bereinigt ✅ (R18-B) — bis dahin 59 NEU berechtigt rot · (3) **R19
+   HANDEL:** Rn. 180/194 (Anspruchsgrundlage begrenzt Prüfung nicht) +
+   Rn. 184 (Einbeziehung angreifbar) → Rechtsmatrix (R18A-N-3/N-4) ·
+   Prüfer H-7: R14-B-Kasten „kein Wächter deckt sie ab" seit R17-B
+   ungemessen (R18A-N-8) · Sperrposten „Preismodell/AA existiert nicht"
+   ×3 im Akquiseplan überholt — HANDEL bewertet, AKQ zieht nach (R18C-N-3)
+   · (4) **R19 AKQ:** `wellenprotokoll-vorlage.md` Z. ~399 „nur FG-4"
+   durch o8-B-6-Edit überholt (R18A-N-2, Prüfer M-8) · (5) **Leitsession
+   R19:** `H-1`-Kollision (Akquiseplan-Anker 13.11. ≠ Messplan-Livegang;
+   STATUS meint den Messplan) · Prüferbefund-Namensräume (H-2 in R05-A/
+   R15-A/R16-A/R17-A ohne Rundenpräfix; „Prüferbefund H-2" in AA Z. ~2020)
+   · Kurz-IDs `G-n`/`O-9` · **Gerüst-Nachzug `9858070`** (heyPensio R44/R45:
+   Zweck-Satz + Kontrollpunkt, Objekt-Blick, AskUserQuestion, Zielumgebung,
+   Feature-AUS ≠ Endpunkt zu, `.gitattributes` — Kopien tagesstart/
+   windows-powershell tragen ihre Anteile bereits, CLAUDE.md nicht) ·
+   **R18-A-Prüfer-Blindstellen als Nacharbeitsliste** (Rn. 227–273 am
+   Stück, L-51/L-25-Listen vollständig; L-48) · A-N-5 „also Art. 14 Abs. 3
+   lit. a" als Ableitung kennzeichnen (HANDEL) · **siebte Ein-Gate-Stelle?**
+   (AKQ, Suchmuster aus der Sache) · Wächter-Policy 7: Rohbeleg-Pool-
+   Manifest mit SHA-256 (Pool hat keinen Git-Prüfstand, R18-B § 11) · **P7 n8n-Lizenz:** `preismodell-optionen.md`
+   § 5.3 „Z-6 IST AUFGELÖST: A3 TRÄGT" ist laut heypensio R44-D (Robin,
+   E6-Review 5 HOCH) **überholt — „Auflösung zu früh"**; heypensio bittet,
+   NOCH NICHTS nachzuziehen, bereinigte Meldung folgt; Nachzieh-Suchraum
+   dann: „A3 trägt" 6× Preismodell (§ 5.3/§ 5.4/§ 10/§ 11 …), 3× diese
+   Projektquelle (§ 2 R14-Stand, § 4, Changelog R14), STATUS Punkt 0 —
+   bis dahin gilt der Vorbehalt „Auflösung strittig" · Zentrale-STATUS-Zeile
+   „Geparkt R17 …" ist überholt (R17/R18 erledigt) → Postkorb mit dem
+   R18-Bericht · Codex-Scratch `firma/r18b-scratch-86afceb` (+ .tar)
+   löschen (User-Freigabe nach Debrief).
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -1139,6 +1203,86 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
 
 ## CHANGELOG
 
+- 17.08.2026 spätabends (**R18-Debrief, drei Arbeits-Sessions parallel —
+  Ben Beckman · Codex · Lucky Roux — + Leitsession; zweite Folgerunde nach
+  `/clear`, Schnitt `a7fca1c`, 19:23–21:30 MESZ**): ⭐ **Der Prüf-Subagent
+  kippte vor dem Start vier von 20 Prompt-Prämissen** — Rn. 220 stand seit
+  12.08. in o8 § 7.1 (N-3 „nirgends" war vom R17-A-Prüfer bereits
+  zurückgezogen), 7 der 8 „Rohbeleg bestätigt nicht"-Aufnahmebefunde sind
+  L-26-Reparaturkasten-Selbstzitate (nur Z. 696 echt), Akquiseplan Z. 413
+  sind byte-treue Kreuzzitate aus Sperrdatei/Wellenprotokoll (kein
+  Selbstzitat), `core.autocrlf=true` kommt aus der SYSTEM-gitconfig (N-1
+  „repo-lokal" war Fehllesung); dazu 5 Nebenfunde (u. a. „Original nicht
+  beschafft"-Folgesätze im Briefing, falscher Zielort Rn. 187/188 im
+  Wahrheits-Kanal — hier korrigiert).
+  **R18-A (Ben Beckman, `8fe60d8` + `b6bd318`, Voll-Review):** Rn. 220 als
+  ZEIGER auf o8 § 7.1 (Dubletten-Regel) · Rn. 187/188 als terminierter
+  Prüfposten **PV-1 in `angebotsarchitektur.md` § 6a** (Auslöser
+  Verbraucher-Berührung, Träger benannt) · **8/8 Aufnahmebefunde am
+  Rohbeleg eingeordnet** — 7 L-26 (bleiben, Verifizierer je Eintrag), 1
+  repariert: Tenor Nr. 4 „bei einem Dritten **zu dem Zweck** erhoben hat"
+  (drei Wörter ohne Ellipse UND stiller Aktiv→Passiv-Wechsel, der die
+  Beschränkung von der Person auf die Daten verschob) · Parallelverfahren
+  I-20 U 107/23 + 117/23: zweiter Beschaffungsversuch **negativ mit
+  Kanalbefund** (3 Kanäle/4 Läufe, dejure liefert für gesuchtes und
+  Kontroll-Az. byte-identische Antworten, SHA-256), Bitte an die Kanzlei
+  jetzt als sichtbare Teilfrage; ⭐ **Rn. 22 des Beschlusses sagt
+  „Kenntnis", nicht „begründet"** — zwei Bestandssätze gekippt ·
+  Arbeitstitel-Rechtsfrage als **§ 4a Kandidat C** (streitig/ungeklärt,
+  nichts entschieden, Status ENTWURF) · o8 § 10 B-6 um FG-2 erweitert +
+  Regelwerk § 6.1 nachgezogen (beide Ableitungen hatten die Lücke schon
+  gemeldet — offen war die Quelle) · Sperrdatei-Positivliste repariert
+  (SP-01/SP-09 waren als Pflichtfelder herausgefallen), zwei Briefing-
+  Ableitungen nachgezogen · L-51-Folgesätze „Original nicht beschafft" an
+  vier Stellen · Klauselblock Rn. 178–209: 32 Rn./11 Prüfschritte, 3
+  Wirkungen (Rn. 205 Überschrift-Regel, Rn. 189/191 „nie einbezogen"
+  gesperrt, Rn. 184 Einbeziehung angreifbar) · **Prüfer 23 = 3/9/11 +
+  Rückwärts 8: 3/3 · 8/9 (M-8 → MKT-AKQ) · 9/11 (H-7 → Leitsession) ·
+  5/8 eingearbeitet**; 🔴 alle drei schweren Befunde saßen im EIGENEN
+  Begründungstext des einzigen Neubaus (S-1 erfundene o8-Fallgruppen, S-2
+  Geltungsgrenze ungemessen, S-3 Entwarnung über eigene Arbeit) —
+  gestrichen, nicht abgeschwächt (L-49 dritter Beleg) · Wächter-Delta +30
+  je Fundstelle klassifiziert (19 L-26 · 7 Eigenzitate · 4 echte
+  Urteilszitate in AA, die dem LG-Rohbeleg NICHT zugeordnet ist — R18A-N-7)
+  · Löschungen 32/32 eigene, U+00AD/NBSP/U+2011 = 0 · Push geblockt (L-05,
+  11. Beleg), Leitsession-Push.
+  **R18-B (Codex, Abnahme + Commit `d107529`):** `> >`-Normalisierung
+  symmetrisch (Regression alt-ROT/neu-GRÜN; **Rückbau-Gegenprobe der
+  Leitsession 1/1: drei Muster kippen**) · **36 NEU 36/36 inventarisiert:
+  α 0 · β 8 · γ 7 · δ 2 Kreuzzitate · ε 1 Zweitvorkommen · ζ 18
+  Reparaturvermerke** · EIGEN_R18 sieben (R17-A N-5; achter „verbleiben"
+  begründet nicht) → Prüfstand `86afceb` **29 NEU**, Live 59 = 29 + 30 (A)
+  · Selbsttest 46/46, PK 33/33, Gegenprobe 3/3, Baselines 507/863 · 43/43
+  · 442/447 unverändert · **fünf Policy-Fragen an die Leitsession** (δ/ε/
+  ζ/γ/β) → entschieden im Register „Wächter-Policy R18", **Bau R19** ·
+  Leitsession-Nacharbeit: `ROHBELEG_OFFEN_R17`-Begründungen 8/8 nach A.
+  **R18-C (Lucky Roux, `106dc0e`, `cc8143b`, `126ac69`):** Akquiseplan
+  **6 statt 5** Ein-Gate-Stellen auf die Zwei-Gate-Logik (§ 2 K1 vom
+  Gegenleser gefunden — Suchmuster aus dem gekippten Vokabular fanden nur
+  die Reparaturstelle, L-51 geschärft) · Relativzeiten § 3.1 absolut ·
+  Soft-Hyphen § 5 1→0 · `H-2` → `AKQ-H-2` (Kollision ≥ 6, nicht 3 —
+  Auftrags-Sollwert der Leitsession war falsch, R18C-N-1) · Messplan § 9
+  **Vorlagen-Stand erhoben**: Vorlagen seit R3 gebaut, „beauftragt"
+  undefiniert → Klartext-Rückfrage (drei Lesarten; praktisch fällig
+  A5-Probedruck vor H-3 **So 23.08.**) · Gegenleser **16 = 2/6/8, 16/16
+  repariert** (G-2: § 3.2 behauptete die Stellen weiter als offen —
+  ERFÜLLEN-Klasse, ERLEDIGT-Marke) · 🔴 Vorbehalt eines STATUS-Zitats
+  („SOLANGE die E-Punkte…") weggelassen — gefangen vom Zitat-Wächter, nicht
+  vom Prüfer.
+  **Leitsession:** Zentrale-Postkorb gesichtet — **P6** Webdesign-
+  Leitlinie (Zeiger § 2 MKT-WEB) · **P7** n8n-Lizenz: „Z-6 aufgelöst"
+  laut heypensio R44-D ÜBERHOLT, Nachzug ausdrücklich aufgeschoben (§ 7) ·
+  drei Schärfungen L-51/L-38/Werkzeugfehler-Zahl + Kompensation V18-1…4
+  (**79.935 → 79.992 B**, unter Soll) · Sammelvermerk R18 (62 Posten) ·
+  Blueprint `74277bc`, Stempel gesetzt, Wächter 12/0 — ⚠️ **eigener
+  Regel-1-Vorfall: `74277bc` trägt 35 fremde uncommittete tagesstart-Zeilen
+  (heyPensio R44) mit** (Register Sammelvermerk R18, Postkorb Zentrale);
+  **1 fremdes Delta `9858070` (heyPensio R44/R45, 6 Lehren) OFFEN →
+  Nachzug-Posten R19** · **`.gitattributes` als eigener Vorgang NACH der Runde** (kein paralleler Arbeitsbaum) ·
+  Codex-Scratch lag auf der Ebene über den Repos (User: nach Debrief
+  löschen). **User-Fragen offen:** fünf R16-Entscheide · Zielstichprobe/
+  H-2-Teil 3 · **Vorlagen-Lesart + A5-Probedruck vor So 23.08.** · Anker
+  H-8/AKQ-H-2.
 - 17.08.2026 abends (**R17-Debrief, drei Arbeits-Sessions parallel — Ben
   Beckman · Codex · Lucky Roux — + Leitsession; Folgerunde nach `/clear`,
   Schnitt `90254e1`**): ⭐ **Der Prüf-Subagent kippte vor dem Start drei

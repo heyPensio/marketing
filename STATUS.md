@@ -26,7 +26,45 @@
 ---
 
 ## Letzte Aktualisierung
-**17.08.2026 abends (R17, Shanks + Ben Beckman + Codex + Lucky Roux
+**17.08.2026 spätabends (R18, Shanks + Ben Beckman + Codex + Lucky Roux
+parallel — zweite Folgerunde nach `/clear`, 19:23–21:30 MESZ)** — ⭐⭐
+**Rechtsmatrix und Briefing tragen jetzt den Stand, den R17 gefunden hat;
+der Akquiseplan hat an sechs Stellen die Zwei-Tore-Logik; der Zitat-Wächter
+normalisiert verschachtelte Zitate und hat alle 36 Rot-Meldungen in sechs
+Klassen sortiert.**
+🔴 Prüf-Subagent kippte **4 von 20** Prompt-Prämissen (Rn. 220 stand in
+o8 § 7.1 · 7 von 8 Aufnahmebefunden L-26 · Z. 413 Kreuzzitate ·
+`core.autocrlf` System-Config).
+**R18-A:** Rn. 220 als Zeiger · **PV-1** (Rn. 187/188) in AA § 6a · **8/8
+Aufnahmebefunde am Rohbeleg** (1 repariert: Tenor Nr. 4 „bei einem Dritten
+**zu dem Zweck** erhoben hat" — Ellipse fehlte, Aktiv→Passiv) ·
+Parallelverfahren negativ mit Kanalbefund (SHA-identische Antworten),
+Kanzlei-Bitte sichtbar; ⭐ Rn. 22 sagt „Kenntnis", nicht „begründet" ·
+Arbeitstitel-Frage § 4a Kandidat C · o8 B-6 + FG-2 · Sperrdatei SP-01/
+SP-09 · Klauselblock 32 Rn. → 3 Wirkungen · Prüfer **23 = 3/9/11 + 8
+rückwärts**, 3/3 · 8/9 · 9/11 · 5/8; 🔴 alle drei schweren im eigenen
+Begründungstext (L-49). Push geblockt → Leitsession.
+**R18-B (Codex, Abnahme `d107529`):** `> >`-Fix mit Regression +
+Rückbau-Gegenprobe 1/1 · **36/36 klassifiziert** (α0 β8 γ7 δ2 ε1 ζ18) ·
+EIGEN_R18 = 7 · Prüfstand 29 NEU, Live **59 NEU** (= 29 + 30 R18-A) ·
+Baselines unverändert · fünf Policy-Fragen → entschieden, **Bau R19**.
+**R18-C:** **6 statt 5** Ein-Gate-Stellen (Gegenleser fand § 2 K1) ·
+Relativzeiten absolut · Soft-Hyphen 1→0 · `AKQ-H-2` (Kollision ≥ 6, der
+Auftrags-Sollwert 3 war falsch) · **Vorlagen-Stand erhoben: gebaut seit
+R3, „beauftragt" undefiniert → User-Rückfrage, A5-Probedruck vor So
+23.08.** · Gegenleser 16/16; 🔴 STATUS-Vorbehalt „SOLANGE …" beim
+Zitieren weggelassen — vom Wächter gefangen.
+**Leitsession:** P6 Webdesign-Leitlinie (Zeiger MKT-WEB) · **P7: „Z-6
+aufgelöst" laut heypensio ÜBERHOLT, Nachzug wartet** · L-51/L-38/
+Werkzeugfehler-Zahl geschärft, **79.992 B** unter Soll · Sammelvermerk
+R18 (62 + 13) · Blueprint `74277bc` (⚠️ eigener Regel-1-Vorfall: 35
+fremde tagesstart-Zeilen mit-committet, Postkorb) · **Nachzug `9858070`
+offen** · Wächter 12/0. **Beim User offen: fünf
+R16-Entscheide · Zielstichprobe · Vorlagen-Lesart/A5-Probedruck (So 23.08.)
+· Anker H-8/AKQ-H-2.** *(Details: Projektquelle-Changelog R18, Tagesplan
+17.08. Block 5.)*
+
+**Vorheriger Stand — 17.08.2026 abends (R17, Shanks + Ben Beckman + Codex + Lucky Roux
 parallel — Folgerunde nach `/clear`)** — ⭐⭐ **Die Gegenauffassung des
 Berufungsgerichts liegt im Original vor, das Urteil ist vollständig
 ausgewertet, der Zitat-Wächter deckt 27 Dateien mit lokalem Rohbeleg-Pool,
@@ -65,44 +103,9 @@ L-15/L-48 geschärft**, Sammelvermerk R17 (69 Posten), Blueprint
 R17-C-Fragen** (Zielstichprobe ≥ 30 · H-2-Anker). *(Details:
 Projektquelle-Changelog R17, Tagesplan 17.08. Block 3.)*
 
-**Vorheriger Stand — 17.08.2026 nachmittags (R16, Shanks + Ben Beckman + Codex + Lucky Roux
-parallel — erste Runde nach drei arbeitsfreien Tagen)** — ⭐⭐ **Die
-Rechtslage steht ehrlich im Bestand, das Anwalts-Briefing ist bis auf
-fünf User-Entscheide versandfertig, der Zitat-Wächter ist aus dem
-Dauer-Rot, und der Regelwerk-Wächter ist als Pflicht-Baustein scharf.**
-🔴 Vor dem Start kippte der Prüf-Subagent **zwei Briefing-Prämissen** —
-die ANL-3-Frage stand seit `ba5a059` als § 4a Kandidat A im Briefing
-(Kürzel-Grep 0, Sache vorhanden), der Wächter-Selbstausschluss existierte
-seit `3067361` (L-50: Kürzel ≠ Sache · Ausschnitt ≠ Datei · Fremdmeldung
-≠ heutiger Stand).
-**R16-A:** **6/6 Rechtsposten** in der Rechtsmatrix (A7-Kernsatz neu
-gefasst, Doppelbegründung Rn. 136/137/147/148, Rn. 111 OLG-Gegenauffassung
-[Original nicht beschafft], Rn. 115, Rn. 79 konditional, „kein
-Mitbewerber" gestrichen), Rn.-87-Vermerk in Matrix + o8, Briefing
-konsistent (ENTWURF); **Klartext-Entscheidungsvorlage** in
-`protokolle/R16-A-abschluss.md`. Prüfer **18 = 2/7/9, 17 repariert + 1 →
-Leitsession; 8 Nacharbeits-Fundorte offen.** 🔴 S-2/L-49: die zu
-reparierende Klasse 90 Zeilen unter ihrer Reparatur erneut begangen —
-bei 17/17 bestätigten Zitaten.
-**R16-B (Codex, Abnahme `9538c3f`):** Wächter meldet nur noch NEUE
-Verstöße; Altlast **863/863 + 43/43** als Baseline mit Nenner + SHA-256,
-ZIEL 6→8, Selbsttest 4 Musterklassen beide Richtungen; O-12-Satz neu.
-⚠️ Nach R16-A **51 NEU in der Rechtsmatrix** (Urteilszitate — Rohbeleg in
-`sensibel/`, außerhalb des Pools) → R17-Posten, bis dahin berechtigt rot
-*(→ erledigt R17-B, s. R17-Block oben)*.
-**R16-C:** Planungskonflikt 300er-Schwelle als Entscheidungsvorlage
-Akquiseplan § 4.4 (**300 = eigene Setzung ohne Quellenbindung**; Entscheid
-**E-A4**) · R14 per Postkorb nachgemeldet (Zentrale `7cf1761`) · **H-1 =
-Di 22.09.2026** (User; Puffer zum Anker aufgebraucht).
-**Leitsession:** Reserve-Namen in CLAUDE.md · Nachzug 8d80a64 → **7a0f76b**
-(8 Deltas; **Regelwerk-Wächter Pflicht: Marken 80k/85k/90k, Selbsttests
-9/9 + 9/9, Erstlauf 84.028 B**) · Sollmarke gesetzt · L-49/L-50 +
-Sammelvermerk R16 · Blueprint-Rückfluss 5 Regeln. **User-Entscheide der
-Runde:** Modell-Statuszeilen R3…R15 ENTFALLEN · fünf offene (s.
-„Nächster Schritt" 0). *(Details: Projektquelle-Changelog R16, Tagesplan
-17.08.)*
-
-*(Davor: R15 — Anwalts-Briefing, § 6a Angebotsarchitektur, Wächter
+*(Davor: R16 — Rechtsposten im Bestand, Briefing an der Versandschwelle,
+Wächter aus dem Dauer-Rot, Regelwerk-Wächter Pflicht; rotiert 17.08.2026
+(R18) → `STATUS-archiv.md`. Davor R15 — Anwalts-Briefing, § 6a Angebotsarchitektur, Wächter
 ZIEL 2→6, Lizenzkette, Sperrdatei; rotiert 17.08.2026 (R17) →
 `STATUS-archiv.md`. Davor R14 — Z-6 aufgelöst, Belegstufen-Hebung, § 3a-Befund;
 rotiert 17.08.2026 (R16) → `STATUS-archiv.md`. Davor R13 — S4 + AA-1…AA-8 eingearbeitet, B-1…B-7 im Regelwerk,
@@ -139,41 +142,10 @@ Stände: `STATUS-archiv.md`.)*
   Chrome-Kanal je Session neu messen (N-9) · Modell-Statuszeile R11-A.
   ~~E-1…E-8~~ ✅ R12 · ~~N-10~~ ✅ R12 · ~~sieben Bau-Pflichten/
   O-9-Führung aus R9~~ ✅ R13; O-10 weiter offen [K2-Trigger].)*
-- **R14 (13.08. spätabends, Briefing-Nachträge + Pflege-Pakete,
-  parallel):** ✅ **Z-6 aufgelöst** (28/28 Fundstellen disponiert,
-  Fassung `preismodell-optionen.md` § 5.3) · ✅ **Belegstufen-Hebung**
-  (27/26/0, Wortlaut-Archiv der Zentrale, nur per Verweis) · ✅
-  **R40-N-6** an beiden K7-Zeilen · ✅ **Rechtsmatrix-Pflege 6/6 +
-  FUND-Pflege 4/4** (drei Quell-Befunde am Rohbeleg widerlegt) · ✅
-  Leitsession-Nacharbeit `1f7b865` (O-8-Quellen-Nachzug, sonst hätte
-  die Vorrangklausel die Präzisierungen umgekehrt) · ✅ Prüfer 14/14 +
-  17/17 disponiert (3 schwere, alle repariert bzw. mit Träger) · ✅ 4
-  Lehren → Blueprint (`ee8c468`), fremdes Delta `fe6fcaf` disponiert,
-  Stempel `ee8c468`, Wächter SYNCHRON 12 / 0 DRIFT.
-  **Offen aus R14:** 🔴 **A7-Kernsatz-Neufassung** (Rechtsmatrix,
-  „ausschließlich DSGVO" widerlegt — MKT-HANDEL zusammen mit dem
-  O-9-Rechtsrat) · **K-1** (n8n-Community-Edition als Backend eines
-  entgeltlichen Produkts, streitig — fällig vor dem ersten
-  A3-Kundenangebot, heute ohne MKT-Träger) · **AU-2/AU-4 im
-  Angebotsstrang** (kein Paket führt den Onboarding-Schritt
-  „Lizenzbedingungen übergeben") · **O-2-Kunden-Pflicht** als
-  Vertragsklausel (Kunde öffnet n8n nicht seinen Gästen) · EuGH-Rn.-56
-  (O-8 § 11.2 Nr. 4, braucht den Volltext) · Wächter-Reichweite
-  (Rechtsmatrix + Wettbewerbsbild stehen in keiner ZIEL-Liste,
-  R14B-N-9) · Kurz-ID `Z-6` doppelt belegt (R14A-N-7) · **drei
-  Rückmeldungen an heypensio ohne Träger** (O-5: Pseudo-Zitat +
-  falscher Adressat im Blueprint; **R14A-N-1: der
-  Formulierungsvorschlag des Lizenzpapiers zählt nur AU-1…AU-3 — wer
-  ihn wörtlich übernimmt, verliert AU-4, die einzige Auflage mit
-  Handlungspflicht**) · **die Kette Lizenz-Rohquelle → heypensio-Papier
-  hat niemand geprüft** (alle Z-6-Aussagen ruhen darauf) · Rendering
-  der verschachtelten Nachtrags-Kästen ungeprüft · **MKT-FUND-Posten
-  aus der Pflege** (melevo 10 €: laufend oder einmalig? · acht
-  unausgewertete melevo-Abzüge im R11-A-Ordner · Straiv-Preishöhen
-  unbelegt — s. Projektquelle § 2 FUND3 R14-Stand) · **§ 3a-UWG-
-  Streitstand** (UGPRL-Grenze B2B + Kostenfolge) gehört in denselben
-  anwaltlichen Rat wie O-9/A7 · **O-11** (Lizenzserver-Ping, § 5
-  geparkt) ebenfalls · Modell-Statuszeilen R14-A/R14-B (je Opus 5 1M).
+- *(R14-Punkt rotiert 17.08.2026 (R18) → `STATUS-archiv.md`. Weiterhin
+  offen daraus: K-1 (n8n-CE als Backend) · O-9-Rechtsprüfung · Z-5/K04 ·
+  Verbund-Definition (StB) · O-11 · **Z-6 „aufgelöst" laut heypensio R44-D
+  überholt (P7, Nachzug wartet)**. Modell-Statuszeilen R14 ENTFALLEN.)*
 - **R15 (14.08. nachts, Nacht-Slot, fünf Sessions parallel):** ✅
   **Anwalts-Briefing gebaut** (vier Fragen, jeder Rn.-Anker am Rohbeleg;
   UWG-/UGPRL-Volltexte erstmals im Bestand) · ✅ **§ 6a
@@ -242,7 +214,9 @@ Stände: `STATUS-archiv.md`.)*
   zwei R17-C-Fragen beim User** (Zielstichprobe ≥ 30 Check-ins je
   Hotel · neuer H-2-Anker) · **R18 HANDEL:** OLG-Parallelverfahren
   I-20 U 107/23 + 117/23 (Briefing fragt die Kanzlei) · Klauselblock
-  Rn.-weise · Rn. 187/188 + 220 in die Rechtsmatrix (R17A-N-2/N-3) · o8
+  Rn.-weise · Rn. 187/188 → AA § 6a (N-2-Zielort, ✅ R18 PV-1) + Rn. 220 →
+  Rechtsmatrix (✅ R18 Zeiger; korrigiert R18: hier stand „beide in die
+  Rechtsmatrix") · o8
   § 5.4 ↔ § 10 B-6 (R17C-N-1) · **R18 Wächter:** 36 NEU (Selbstzitate,
   OLG-Zitate, acht EIGEN-Kandidaten R17A-N-5, `> >`-Normalisierung) ·
   **R18 AKQ:** fünf Ein-Gate-Stellen § 6/§ 7/§ 8 · Sperrdatei SP-01/SP-09
@@ -250,6 +224,22 @@ Stände: `STATUS-archiv.md`.)*
   R18:** `.gitattributes` statt `core.autocrlf` (R17A-N-1) · Kurz-IDs
   H-2 dreifach + R15B-N-5/N-6 · Rohbeleg-Ordner `rohbelege-R17-A/`
   angelegt (OLG, EuGH-DE, Quellenliste).
+- **R18 (17.08. spätabends, drei Sessions parallel, zweite Folgerunde):**
+  ✅ **Rechtsmatrix/Briefing/AA/o8/Regelwerk/Sperrdatei auf R17-Stand**
+  (R18-A: Rn. 220 Zeiger, PV-1, 8/8 Aufnahmebefunde, Kandidat C, B-6 +
+  FG-2, SP-01/SP-09, L-51-Folgesätze; Prüfer 23 + 8 rückwärts) ✅
+  **Wächter `> >`-Fix + 36/36 klassifiziert + EIGEN_R18** (R18-B; 59 NEU
+  live, R19-Bauposten) ✅ **Akquiseplan 6 Ein-Gate-Stellen, Relativzeiten,
+  Soft-Hyphen, AKQ-H-2; Messplan Vorlagen-Stand erhoben** (R18-C) ✅
+  Debrief: 3 Schärfungen, Sammelvermerk R18 (62), Blueprint `74277bc`,
+  P6/P7 disponiert. **Offen aus R18:** 🔴 User: fünf R16-Entscheide ·
+  Zielstichprobe · Vorlagen-Lesart + A5-Probedruck (So 23.08.) · Anker
+  H-8/AKQ-H-2 · **R19 Wächter** (Kreuzzitat/Vorkommen/REPARATURVERMERK/AA-
+  Rohbeleg, γ 7 + β 4) · **R19 HANDEL** (Rn. 180/194/184 · H-7 · Sperrposten
+  ×3) · **R19 AKQ** (Wellenprotokoll „nur FG-4") · **Leit** (`.gitattributes`
+  eigener Vorgang · H-1-Kollision · Prüfer-Namensräume · P7 warten ·
+  Codex-Scratch löschen). Rohbeleg-Ordner `rohbelege-R18-A/`: keiner
+  (Beschaffung negativ).
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -314,6 +304,16 @@ Stände: `STATUS-archiv.md`.)*
    R17-C** (Messplan H-2 Teil 3: Zielstichprobe ≥ 30 Check-ins je Hotel
    bestätigen? · neuer Anker statt 16.08.). Zitat-Wächter: 27 Dateien,
    36 NEU aus der R17-Arbeit → R18.
+   ⭐ **R18 (17.08. spätabends): Die Rechtsdokumente sind auf dem
+   R17-Stand (Kanzlei-Bitte um die Parallelverfahren jetzt sichtbar,
+   Arbeitstitel-Frage als § 4a Kandidat C — beide entscheiden nichts);
+   der Wächter steht mit 59 NEU berechtigt rot bis zum R19-Bau
+   (Kreuzzitat/Vorkommen/Reparaturvermerk-Konstante/AA-Rohbeleg).**
+   Beim User zusätzlich: **Lesart „Vorlagen beauftragt" — praktisch fällig
+   ist der A5-Probedruck VOR dem Betreiber-Briefing So 23.08.** (Messplan
+   § 9, Klartext-Rückfrage von R18-C) und neue Anker für H-8/AKQ-H-2.
+   ⚠️ P7 (heypensio R44-D): „Z-6 aufgelöst" ist ÜBERHOLT — Nachzug
+   wartet auf die bereinigte Meldung; bis dahin „Auflösung strittig".
    ⭐ **R16 (17.08.): Rechtsposten im Bestand, Briefing versandfertig
    bis auf FÜNF User-Entscheide in Klartext** (`protokolle/R16-A-abschluss.md`
    Ende): (1) selbstkritischer Satz an den nicht mandatierten Anwalt —

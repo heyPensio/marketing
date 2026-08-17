@@ -728,3 +728,42 @@ R15, eigene Leitsession).
   Regel „Ablageort von Belegen").
 - **Warte auf:** Abschlussmeldungen R16-A (Ben Beckman), R16-B
   (Codex-Bericht → Abnahme + Commit durch mich), R16-C (Lucky Roux).
+
+### Zwischenstand Leitsession ~16:00 MESZ — R16-C reviewt, R16-B abgenommen
+
+- **R16-C (Lucky Roux) — Review nach innen: bestanden.** Commits
+  `5d7d78d` · `686ff18` → `b31f7f9` (eigene sichtbare Korrektur) ·
+  `a67f857` · `7bf973e`; Zentrale `7cf1761` (Postkorb). Löschungen gegen
+  Rundenstart: akquiseplan 0, messplan 5 (alle die H-1-Reparatur, je
+  ~~durchgestrichen~~ erhalten). Herkunfts-Behauptung der 300 am Objekt
+  reproduziert (`git log -S`: A-8/R-K1 in `6e4daa5`, o8-Trigger in
+  `3e83253` — § 4.4 sagt genau das). Klartext-Pflicht erfüllt (§ 4.4 „ohne
+  Fachwörter"). **Nach außen (Zielorte, Debrief):** E-A4 → User-Entscheid
+  (300er-Schwelle: Vorschlag (D) „neu führen" definieren, dann (B)) ·
+  R16C-N-1 (Akquiseplan § 3.2 „Liste sofort baubar" veraltet) → Leitsession
+  Vorwärtsverweis · R16C-N-2 (Textbruch § 4.3) → nächste AKQ-Pflege ·
+  R16C-N-3 (H-2 gleiche verstrichene Frist) → Handgriff-Liste ·
+  R16C-N-4 („genau 300" Grenzfall) → in E-A4-Vorlage mitentscheiden.
+  Erfüllt-Posten: R15E-N-5 · Ziel 7 · H-1 · F10/M1 (Zentrale-Zeilen
+  veraltet, im Postkorb gemeldet).
+- **R16-B (Codex) — Abnahme am fertigen Artefakt: bestanden**, committet
+  `9538c3f`. Eigene Läufe: Hauptlauf ZIEL 8/8, Altlast 863/863 + 43/43 mit
+  Nenner, **0 NEU in 7/8 Dateien, 33 NEU in `kanal-rechtsmatrix.md` =
+  laufende R16-A-Arbeit (Wächter greift live — Positivkontrolle aus dem
+  Betrieb)** · `--selbsttest` Exit 0 (a 8/8, b 1/1, c 8/8, d 1/1 +
+  Gegenrichtung 1/1, LF/CRLF invariant) · `--altlast` 906/906 ·
+  Regelwerk-Diff 1/1 Zeile · `git diff --check` 0. Codex-Scratch
+  `.r16b-scratch-0c4692f/` ist aufgeräumt (untracked verschwunden).
+  Erfüllt-Posten: R15E-N-2 · R15E-N-3 · Zentrale-Posten „Dauer-Rot" ·
+  Briefing-Ziel 3. **Struktur-Nebenbefund für den Debrief:** Die
+  Rohbelege (Urteilstexte, Volltexte) liegen in `sensibel/` und damit
+  außerhalb des Pools — jedes Rn.-Zitat ist „nicht im Pool" per
+  Konstruktion; Codex' Scan (Bericht Rohausgabe F): 352/863 mit
+  Kandidatendatei, 511/863 ohne Texttreffer. Entscheid nötig: Pool um
+  lokale `sensibel/rohbelege-*`-Pfade erweitern (nur lokal lauffähig,
+  frischer Klon würde anders zählen) oder Altlast als Dauer-Baseline
+  akzeptieren.
+- **⛔ Push zurückgehalten:** `origin/main..HEAD` trägt unter `9538c3f`
+  den ungepushten Fremd-Commit `8e5ea42` (BENBECKMAN, R16-A läuft). Ein
+  Refspec-Push schützt nur nach oben — ich pushe erst, wenn Ben Beckman
+  gepusht hat (Regel L-14).

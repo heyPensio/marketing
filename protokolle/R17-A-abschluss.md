@@ -357,6 +357,26 @@ Rohbeleg-Pool gebaut hat. **Sieben** Meldungen sind dagegen echte
 | **R15B-N-4** (O-2-Superlative, „zwei Fremd-Dokumente") | Leitsession / Projektquelle § 6a | ⚠️ **teils erfüllt, teils gegenstandslos:** Die Stelle in `handel/angebotsarchitektur.md` ist repariert; **das Preismodell trug den Superlativ nie** (Zählweg oben). **Die Projektquellen-Formulierung „zwei Fremd-Dokumente" ist damit falsch und gehört von der Leitsession korrigiert** — ich darf die Projektquelle nicht anfassen |
 | **R16A-N-5** (EIGEN-Ausnahmekandidaten des Zitat-Wächters) | R17-B | ➕ **erweitert um 7 neue Kandidaten** (s. N-5 unten) |
 
+### Die acht Fundorte des R16-A-Prüfers — Bilanz mit Nenner: 8 von 8 disponiert
+
+Der R16-A-Prüfer führte acht Fundorte unter „Nicht erhoben / nicht
+prüfbar" — **eine Nacharbeits-Liste, kein Haftungsausschluss** (L-48).
+Stand nach dieser Runde:
+
+| # | Fundort | Disposition |
+|---:|---|---|
+| 1 | Grundgesamtheit „17 Zitate" nicht dokumentiert | ✅ **R17-A** — die R16-Auswahl bleibt nicht rekonstruierbar (das ist der Befund); eigene Erhebung mit offengelegtem Kriterium in § 6, **zwei echte Zitierfehler dabei gefunden und repariert** |
+| 2 | Beschluss 20 W 37/24 nicht beschafft | ✅ **R17-A** — beschafft, Volltext, ausgewertet |
+| 3 | Gegenstand von 38 O 17/22 unbekannt | ✅ **R17-A** — Ordnungsmittelverfahren, Titel Anlage K 7; Identität der Schreiben bleibt ausdrücklich offen |
+| 4 | Rn. 156–273 nicht ausgewertet | ✅ **R17-A** — vollständige Tabelle § 1.3; **der wichtigste Fund der Runde stammt genau von dort** (dritte Schiene). Der R15-A-Prüfer hatte vorhergesagt, dass ungelesene Quellabschnitte Funde tragen (L-48) — **bestätigt** |
+| 5 | `akquise/listenbau-regelwerk.md` § 7.1 trägt den Rn.-87-Satz ohne Bestandsvermerk (offener L-25-Fall) | ✅ **von R17-C erledigt, nicht von mir** — nachgeprüft am heutigen Stand: § 7.1 trägt seit `1804b1c` den Bestandsvermerk (Befund R16A-N-1). Die Datei war für mich Sperrgebiet |
+| 6 | Sieben SP-Felder nicht am Objekt gezählt | ✅ **R17-A** — Zahl bestätigt, der Ausschluss-Zusatz korrigiert |
+| 7 | Rn.-56-Aussage / Sprachfassungs-Annahme offen | ✅ **R17-A** — DE-Volltext beschafft, Annahme am Objekt bestätigt |
+| 8 | Zeilenenden/Encoding nicht gemessen | ✅ **R17-A** — vorher/nachher je Datei, ein eingeschlepptes U+2011 dabei gefunden |
+
+**Nenner: 8 von 8 disponiert — 7 durch diese Session, 1 durch R17-C.
+Keiner bewusst verworfen, keiner ohne Träger.**
+
 ### N-1 · `core.autocrlf=true` ist repo-lokal gesetzt, ohne `.gitattributes`
 
 `git config core.autocrlf` = **true** (lokal; global leer), und es gibt
@@ -484,6 +504,25 @@ sie gefunden. **Kandidat fürs Lehren-Register; Träger: Leitsession
    fehlt" — das war der Zwischenstand der Parallel-Session, nicht ein
    Befund über meine Dateien. Wer das als Rot über die eigene Arbeit
    liest, repariert am falschen Ort.
+8. **⭐ Der eigene Superlativ in der eigenen Überschrift — im selben
+   Commit, in dem ich einen fremden Superlativ repariert habe.** Ich
+   schrieb über die dritte Schiene: „*sie ist die **einzige**, deren
+   Tatbestand B2B ausdrücklich einschließt*" — an drei Stellen
+   (Rechtsmatrix-Überschrift, o8-Nachtrag, Briefing-Teilfrage).
+   **Widerlegt am selben Urteil, das ich gerade gelesen hatte:**
+   § 3a UWG nennt „die Interessen von Verbrauchern, **sonstigen
+   Marktteilnehmern** oder Mitbewerbern" (Rn. 143). Verbrauchergebunden
+   ist von den drei Schienen **nur** § 3 Abs. 2 UWG.
+   **Warum das lehrreich ist:** Der Superlativ machte den Fund größer,
+   und genau deshalb stand er da. Die Runde hatte an Posten 8 einen
+   **fremden** Superlativ derselben Bauart repariert („die einzige der
+   fünf Bedingungen, die nach der Übergabe fortwirkt") — **die
+   angewandte Regel schützt den Text, auf den man sie anwendet, nicht
+   den, den man dabei schreibt** (L-49, hier am eigenen Objekt).
+   Gefunden bei der Selbstprüfung **vor** dem Prüferlauf; an allen drei
+   Stellen korrigiert, Vorfassung sichtbar. **Prüffrage, die es gefunden
+   hat: „Steht in meinem eigenen neuen Text ein ‚einzige/nur/immer', und
+   habe ich die anderen Fälle gezählt?"**
 
 ### (ii) Bewährte Muster
 
@@ -568,6 +607,16 @@ derselben Zeile lesen). **19 Zuordnungen geprüft, 19 bestätigt** — die
 21 Zitate enthalten zwei Dubletten (#6/#14 Kurz- und Langfassung
 desselben Rn.-136-Satzes, #16/#18 desselben Rn.-148-Satzes), die
 zusammen geprüft wurden.
+
+**Beleg der Zuordnungs-Methode (weil sie selbst ein Werkzeug ist):**
+Das Skript liest die Randnummer am **Zeilenanfang** derselben Zeile.
+Ob das trägt, ist messbar: Von **274** Zeilen mit führender Zahl bilden
+**273** die **lückenlose, aufsteigende Folge 1…273** — genau die
+Randnummern des Urteils. **Genau eine** Zeile ist eine
+Pseudo-Randnummer: Zeile 55, das Aktenzeichen „38 O 243/23" im Rubrum,
+das als „Rn. 38" gelesen würde. **Keine meiner 19 Zuordnungen liegt
+dort.** Damit ist die Methode belegt *und* ihre einzige Fehlerquelle
+benannt.
 
 ⚠️ **Drei Zitate sind im Urteil nicht eindeutig verortet** — der
 Wortlaut kommt mehrfach vor. Die im Bau gewählte Zuordnung ist jeweils

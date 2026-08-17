@@ -1371,7 +1371,7 @@ Satz, warum.
 | **149** | ⭐ **§ 3 Abs. 2 UWG ist richtlinienkonform auszulegen** (Art. 5 Abs. 2 UGPRL) — zweistufig: erstens Verstoß gegen die **berufliche Sorgfalt**, zweitens **wesentliche Beeinflussung** des wirtschaftlichen Verhaltens; Maßstab durchgehend der „normal informierte, angemessen aufmerksame und verständige **Durchschnittsverbraucher**" | ⭐ **Bestand ergänzt und in der R16-Lücken-Liste gar nicht enthalten.** Verstärkt die Adressatengrenze: Der Maßstab dieser Schiene ist **normativ an den Verbraucher gebunden**, nicht nur der Wortlaut des § 3 Abs. 2 UWG |
 | **150** | Übergang zur Subsumtion („erfüllt diese Voraussetzungen") | **keine** — Satzbrücke; ⚠️ der Satz ist im Original grammatisch unvollständig („Das … gegen Artt. 5 Abs. 1 Buchstabe a, 6 Abs. 1 Unterabs. 1 DSGVO erfüllt diese Voraussetzungen") |
 | **151** | ⭐ **Berufliche Sorgfalt:** „Ein Durchschnittsverbraucher kann von einem Unternehmer billigerweise erwarten, dass er die in Art. 5 DSGVO festgelegten … Grundsätze **kennt** und sie bei seiner unternehmerischen Tätigkeit **anwendet**." Verschärfend: „wenn dies bei der Verarbeitung persönlicher Daten im Rahmen einer **großangelegten, unter keinem Zeitdruck stehenden Werbekampagne** geschieht" | ⭐ **Bestand ergänzt.** Zwei Betriebsfolgen: (1) Unkenntnis der DSGVO entlastet nicht. (2) Der Verschärfungsgrund knüpft an **Größe und Vorbereitungszeit** an — dieselbe Achse wie die Spürbarkeit (Rn. 146, „massenhaft verbreitete Werbeaussendung"). **Was „großangelegt" heißt, sagt das Urteil nicht** |
-| **152** | ⭐ **Die Schwelle der „wesentlichen Beeinflussung":** Sie „ergibt sich … **schon daraus, dass** sie bei Beachtung der Sorgfalt mangels eines mit ihr verfolgten rechtmäßigen Interesses **insgesamt unterblieben wäre** und die Adressaten keiner werblichen Ansprache ausgesetzt gewesen wären" | ⭐ **Bestand ergänzt — die praktisch schärfste der vierzehn.** Nach dieser Begründung ist die zweite Stufe des § 3 Abs. 2 UWG bei einer rechtswidrigen Werbeaussendung **strukturell immer erfüllt**, weil sie ohne die Rechtswidrigkeit gar nicht stattgefunden hätte. **Ob das ein tragfähiger allgemeiner Satz oder eine Einzelfallformulierung ist, entscheidet dieses Dokument nicht — Frage an den Anwalt, s. `handel/anwalts-briefing-2026-08.md` Frage 3** |
+| **152** | ⭐ **Die Schwelle der „wesentlichen Beeinflussung":** Sie „ergibt sich … **schon daraus, dass** sie bei Beachtung der Sorgfalt mangels eines mit ihr verfolgten rechtmäßigen Interesses **insgesamt unterblieben wäre** und die Adressaten keiner werblichen Ansprache ausgesetzt gewesen wären" | ⭐ **Bestand ergänzt — die praktisch schärfste der vierzehn.** ⚠️ **Was hier steht, ist die Wiedergabe der Urteilsbegründung, keine Rechtsfolge für uns.** Das Gericht leitet die zweite Stufe des § 3 Abs. 2 UWG **im entschiedenen Fall** allein daraus ab, dass die Aussendung ohne die Rechtswidrigkeit unterblieben wäre. **Eine Lesart, die sich aufdrängt und die dieses Dokument ausdrücklich NICHT als Ergebnis setzt:** Wäre dieser Schluss verallgemeinerbar, wäre die Stufe bei jeder rechtswidrigen Werbeaussendung erfüllt. Ob der Satz so trägt oder einzelfallgebunden ist, **entscheidet der anwaltliche Rat — s. `handel/anwalts-briefing-2026-08.md` Frage 3** |
 | **153** | Antrag II: Verstoß gegen die **TKG-Informationspflichten** (§§ 54, 55 TKG, Umsetzung von Art. 102 der Richtlinie (EU) 2018/1972) | **keine** — telekommunikationsspezifische Pflichten, die uns tatbestandlich nicht treffen. *(Der Weg, auf dem das Gericht daraus Unlauterkeit ableitet, trifft uns sehr wohl — s. den Nachtrag zu Rn. 156–273 unten)* |
 | **154** | Was zur „Werbeaussendung" zählte (Anschreiben, „Vertragszusammenfassung", Widerrufsbelehrung, Auftragsformular); auf das **rückzusendende** Formular kommt es nicht an, „weil das Auftragsformular bestimmungsgemäß nicht bei dem Verbraucher **verblieben** soll und deshalb nicht geeignet ist, ihm Informationen **dauerhaft** zur Verfügung zu stellen" *(Schreibweise „verblieben" wie im Original; die Erstfassung dieses Kastens hatte still „verbleiben" daraus gemacht — vom eigenen Zitat-Abgleich gefangen, 29/30)* | ⭐ **Bestand ergänzt (kleiner, aber betriebsrelevanter Satz):** Pflichtangaben auf einem Rückantwort-Element zählen **nicht**. Für unsere Briefgestaltung: Was rechtlich zählen soll, gehört auf das Blatt, **das beim Empfänger bleibt** |
 | **155** | Auf den Inhalt der „Vertragszusammenfassung" kommt es für die TKG-Informationspflicht nicht an | **keine** — Fortsetzung von 154 im TKG-Kontext |
@@ -1384,7 +1384,21 @@ Richtigkeit der Einstufung** — die Einstufungs-Achse ist einzeln
 nachzulesen, jede Zeile trägt ihren Grund. Abdeckung Block 79–155 nach
 diesem Nachtrag: **77 / 77**.
 
-### 🔴 Nachtrag 17.08.2026 (R17-A), aus Rn. 156–273: Es gibt eine DRITTE Unlauterkeits-Schiene — und sie ist die einzige, deren Tatbestand B2B ausdrücklich einschließt
+### 🔴 Nachtrag 17.08.2026 (R17-A), aus Rn. 156–273: Es gibt eine DRITTE Unlauterkeits-Schiene — und ihr Tatbestand nennt „sonstige Marktteilnehmer" ausdrücklich
+
+> 🔧 **Selbstkorrektur im selben Zug (R17-A, vor der Prüfung gefunden):**
+> Die Erstfassung dieser Überschrift lautete „*… und sie ist die
+> **einzige**, deren Tatbestand B2B ausdrücklich einschließt*". **Das
+> ist widerlegt** — **§ 3a UWG nennt „sonstige Marktteilnehmer"
+> ebenso**, und das Urteil zitiert es wörtlich: „Der Verstoß ist
+> geeignet, die Interessen von Verbrauchern, **sonstigen
+> Marktteilnehmern** oder Mitbewerbern spürbar zu beeinträchtigen"
+> (Rn. 143); ebenso Rn. 139 („im Interesse der Marktteilnehmer das
+> Marktverhalten zu regeln"). **Verbrauchergebunden ist von den drei
+> Schienen nur § 3 Abs. 2 UWG** (Rn. 148/149). Ein Superlativ in einer
+> Überschrift ist die Struktur-Variante der Verdichtungs-Drift — er
+> stand hier, weil er die Neuigkeit größer macht, nicht weil er
+> gemessen war. **Der Sachbefund bleibt; er ist nur nicht exklusiv.**
 
 Der Urteilsblock ab Rn. 156 war im ganzen Bestand nie gelesen. Er trägt
 einen Befund, der die bisherige Darstellung „Doppelbegründung § 3a UWG
@@ -1403,13 +1417,20 @@ eigenständigen Weg — **§ 5a Abs. 1 in Verbindung mit § 5b Abs. 4 UWG**
 | Und was gilt, wenn sie nicht greift | **Rn. 244** | „Die Wesentlichkeit der Informationen ergibt sich jedoch aus den **allgemeinen, zu § 5a Abs. 1 entwickelten Grundsätzen**" |
 | ⭐ **Beweislast** | **Rn. 176** (für Antrag II, in Rn. 234 auf Antrag IV übertragen) | Die Merkmale des § 5a Abs. 1 Nr. 1 und 2 UWG „sind **im Regelfall erfüllt**, wenn dem Verbraucher wesentliche Informationen vorenthalten werden, und **es obliegt dem Unternehmer aufzuzeigen**, dass der Informationserfolg bereits auf anderem Wege erreicht worden ist oder sonst ein Ausnahmefall vorliegt" — in Rn. 234: „Die Beklagte hat … **keine Umstände aufgezeigt**" |
 
-**Warum das für uns anders liegt als die beiden bekannten Schienen.**
-Der Bestand führt (zu Recht) als Entlastungslinie, dass § 3 Abs. 2 UWG
-tatbestandlich an Verbraucher gebunden ist („die sich an Verbraucher
-richten oder diese erreichen", Rn. 148) und dass der
-Durchschnittsverbraucher-Maßstab dort durchgängig gilt (Rn. 149).
-**§ 5a Abs. 1 UWG trägt diese Grenze nicht:** Sein Tatbestand nennt
-„einen Verbraucher **oder sonstigen Marktteilnehmer**". Dieselbe
+**Wie die drei Schienen zur B2B-Frage stehen — die Achse ist nicht
+„zwei gegen eine".** Der Bestand führt (zu Recht) als Entlastungslinie,
+dass § 3 Abs. 2 UWG tatbestandlich an Verbraucher gebunden ist („die
+sich an Verbraucher richten oder diese erreichen", Rn. 148) und dass
+der Durchschnittsverbraucher-Maßstab dort durchgängig gilt (Rn. 149).
+
+| Schiene | Nennt der Tatbestand nicht-Verbraucher? | Wo die B2B-Frage dann liegt |
+|---|---|---|
+| **§ 3a UWG** | **Ja** — „die Interessen von Verbrauchern, **sonstigen Marktteilnehmern** oder Mitbewerbern" (Rn. 143); „im Interesse der **Marktteilnehmer**" (Rn. 139) | **nicht** im Wortlaut, sondern in der Marktverhaltensregelungs-Brücke: Rn. 142 bindet sie im selben Absatz an den **Verbraucher** zurück |
+| **§ 3 Abs. 2 UWG** | **Nein** — „die sich **an Verbraucher** richten oder diese erreichen" (Rn. 148) | **im Tatbestand selbst**, verstärkt durch den Maßstab (Rn. 149) |
+| **§ 5a Abs. 1 UWG** *(neu)* | **Ja** — „einen Verbraucher **oder sonstigen Marktteilnehmer**" (Rn. 223) | **in der Vermutungsregel** § 5b Abs. 4 UWG, die von „dem Verbraucher" spricht (Rn. 223 a. E., Grenze in Rn. 243) |
+
+**§ 5a Abs. 1 UWG trägt die Verbrauchergrenze also nicht — wie § 3a
+UWG, anders als § 3 Abs. 2 UWG.** Dieselbe
 Feststellung steht bereits an anderer Stelle in unserem Bestand —
 `akquise/interessenabwaegung-o8.md` § 6.2 hält fest, die in Rn. 88
 genannten Normen „§§ 5 Abs. 1 und Abs. 2, 5a Abs. 1 bis Abs. 3 UWG"

@@ -672,8 +672,14 @@ Linie.**
 > ⚠️ **Und die Aufzählung oben ist eine Mindestliste, keine
 > Vollzähligkeit** — sie nennt, was uns damals aufgefallen ist.
 >
-> **(3) Es gibt eine DRITTE Schiene, und sie ist die einzige, deren
-> Tatbestand B2B ausdrücklich einschließt.** Für den **Art.-14-Verstoß**
+> **(3) Es gibt eine DRITTE Schiene, und ihr Tatbestand nennt
+> „sonstige Marktteilnehmer" ausdrücklich.** *(🔧 Der Halbsatz „und sie
+> ist die **einzige**, deren Tatbestand B2B einschließt" stand hier in
+> der Erstfassung dieses Nachtrags und ist **widerlegt**: § 3a UWG
+> nennt „sonstige Marktteilnehmer" ebenso — Rn. 143, im Urteil wörtlich
+> zitiert. Verbrauchergebunden ist von den drei Schienen nur § 3 Abs. 2
+> UWG. Selbstkorrektur derselben Session, s. Vergleichstabelle in
+> `handel/kanal-rechtsmatrix.md`.)* Für den **Art.-14-Verstoß**
 > (Klageantrag IV, nicht Antrag I) stützt das Gericht die Unlauterkeit
 > zusätzlich auf **§§ 5a Abs. 1, 5b Abs. 4 UWG**: „In dem mit Antrag IV
 > angegriffenen Verhalten … liegt zugleich ein Verstoß gegen das

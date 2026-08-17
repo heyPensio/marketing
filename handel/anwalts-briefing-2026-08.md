@@ -859,8 +859,8 @@ an, keine Verbraucher.**
    wir die Größenordnung planen müssen und heute nicht wissen, ob sie
    rechtlich überhaupt eine Rolle spielt.)*
 1c. **Und eine DRITTE Schiene, die wir erst am 17.08.2026 gefunden
-   haben — sie ist die einzige, deren Tatbestand B2B ausdrücklich
-   einschließt.** Für den **Art.-14-Verstoß** (dort Klageantrag IV,
+   haben — ihr Tatbestand nennt „sonstige Marktteilnehmer"
+   ausdrücklich.** Für den **Art.-14-Verstoß** (dort Klageantrag IV,
    nicht Antrag I) stützt dasselbe Urteil die Unlauterkeit zusätzlich
    auf **§§ 5a Abs. 1, 5b Abs. 4 UWG**: „In dem mit Antrag IV
    angegriffenen Verhalten … liegt **zugleich ein Verstoß gegen das

@@ -2204,6 +2204,42 @@ CLAUDE.md-Prosa.)*
   lokale Rohbeleg-Pfade (mit Fehltoleranz für frische Klone) +
   Ausnahmeliste für Eigenformulierungen.
 
+### Nachträge der Debrief-Gegenprobe (5 von 54 Posten waren nicht gelandet)
+
+1. **R16-B § 3.3 — ZIEL-Kandidaten:** Der generische Scan (`--zielkandidaten`)
+   fand **20 Markdown-Dateien außerhalb ZIEL mit zusammen 718 Zitaten**
+   (u. a. `handel/anwalts-briefing-2026-08.md` 114 ·
+   `handel/preismodell-optionen.md` 139 · `handel/foerderarchitektur-
+   beraterrolle.md` 97 · `handel/preisliste-vorlaeufig.md` 79; Bericht
+   Rohausgabe E). Auftragsgemäß nicht aufgenommen — **Träger: R17-Wächter-
+   Posten** (Aufnahme mit eigenem Aufnahmebestand je Datei, wie 19 + 24).
+   Bis dahin ist „ZIEL 8/8" eine Aussage über acht Dateien, nicht über den
+   Bestand.
+2. **R16-A N-3 — der Prompt nannte `P-1`, es heißt `PS-1`:** Zweitbeleg zu
+   „(e) Auch der Auftrag ist eine Annahme" — Kennungen im Prompt sind
+   Vermutungen der Leitsession, am Objekt zu prüfen (die Session hat es
+   getan).
+3. **R16-A N-4 — CLAUDE.md änderte sich während der Session (44 Zeilen
+   +/25 −):** Träger Leitsession, hier geprüft: die Änderungen waren
+   Namensliste + Nachzug (Müdigkeit, Ziele statt Schnitte, Dauer-Rot,
+   Ablageort, Baustein-Prüffrage) — **keine davon berührt eine Regel, die
+   R16-A anwandte**; die Session lief mit ihrem Start-Snapshot korrekt.
+   Zweitbeleg zu „Regel-Snapshot beim Session-Start" (Werkzeug-Disziplin).
+4. **R16-B M-3 — Positiv-/Negativkontrolle am ECHTEN Pfad** (0→1
+   gepflanztes Zitat, 0→1 neuer Verstoß, Exit 0→1, in einer Scratchpad-
+   Kopie): Zweitbeleg zu „Ein Test, der nichts verändert, prüft nichts —
+   Rückbau-Gegenprobe als Zählung ‚gesetzt: n von m'".
+5. **R16-C M-6 — eigene Reparatur sichtbar gemacht** (Korrektur-Kasten im
+   Messplan, Vorfassung lesbar, Commit-Hash der Vorfassung): Zweitbeleg zu
+   „Reparaturen und Vorfassungs-Fehler SICHTBAR machen" (MKT R7).
+
+Gegenrichtung (Debrief-Behauptung vs. Meldung): Dispositions-Liste im
+Tagesplan zählte C mit 5 Mustern, die Meldung hat 6 → **43 Learnings**;
+STATUS „Offen aus R15" trug drei erledigte Posten ungestrichen (ANL-3 ·
+Wächter-Dauer-Rot · Statuszeilen) → gestrichen. Zahlen der Meldungen
+(18 = 2/7/9, 863 = 113+467+144+139, 43 = 19+24, 16/17, 694→730) decken
+sich.
+
 ### Prozess-Befund über den Debrief selbst
 
 Nach dem R15-Befund (Block 3 und 4 je Meldung in EINEM Durchgang) wurde

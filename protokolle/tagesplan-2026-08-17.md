@@ -804,3 +804,101 @@ R15, eigene Leitsession).
   Anwalt? (2) Kanzlei? (3) Name/„in Gründung"? (4) § 4a Kandidaten A/B
   mitgeben? (5) E-A4 300er-Schwelle.
 - Block 1 fertig → **`/debrief` R16** jetzt (Block 2).
+
+## Block 2 (17.08. ~17:00–19:00 MESZ) — R16 fertig, reviewt, Debrief
+
+### Fangquoten je Prüfschicht (Quelle: Protokolle R16)
+
+| Schicht | Funde | davon unikal | Schwere | Selbstauskunft Blindstelle |
+|---|---|---|---|---|
+| Prüf-Subagent Zuschnitt (Tagesstart, 1 Frage, 3 Stränge) | 2 widerlegte Prämissen von 6 geprüften Verneinungen | 2 (kein anderer Kanal hätte sie vor dem Start gefunden) | je 1 Bauposten gespart (Doppel-Einschreiben ANL-3; Doppel-Bau Selbstausschluss) | Kürzel-Grep als Suchweg — er selbst suchte über Sachbegriffe |
+| Prüfer R16-A (frischer Kontext, eingefrorener Hash) | 18 (2 SCHWER / 7 MITTEL / 9 HINWEIS) | 18 — S-1/S-2 durch LESEN, nicht Messen | 2 schwere im NEUEN Text der Session, beide L-49-Klasse | Rn. 156–273 ungelesen · Fließtext neben Zitaten (L-27) · Nachbardokumente nicht geöffnet · HTML/TXT gleiche Beschaffung · Summenprobe einstufungsblind |
+| Codex R16-B Selbsttest + Positiv-/Negativkontrolle | 9 Musterprüfungen grün, 1/1 gepflanztes Zitat gefangen | — (Werkzeug-Selbstprüfung) | — | semantisch falscher Satz mit Pool-Wortlaut · Fließtext · < 25 Zeichen · Nutzlast+Hash gleichzeitig ändern |
+| Leitsession-Abnahme R16-B am fertigen Artefakt | 0 Abweichungen zum Bericht; 33 → 51 NEU in der Rechtsmatrix als Live-Positivkontrolle | — | — | — |
+| Leitsession-Review R16-C (Kurzraster) | 0 Befunde; Herkunfts-Behauptung reproduziert | — | — | Rohbeleg-Zahlen nur stichprobenweise |
+| Debrief-Gegenprobe (Subagent) | s. Nachtrag unten | | | |
+
+**Fangquoten-Rückkopplung:** Die zwei schweren Funde (S-1/S-2) gehören zu
+den Klassen L-27 (Zitatabgleich prüft Markiertes) und L-39/„weicht ab"
+(R15A-N-1) — beide Kerne stehen ungekürzt in CLAUDE.md; keine
+Verdichtung war ursächlich. Der Fund verlangte einen NEUEN Kern (L-49:
+der eigene Reparaturtext), keine Rückschärfung.
+
+### Debrief-Änderungsreport (Phase 3/3d/4b)
+
+- **CLAUDE.md** (`305d99f`, `<nachzug>`): L-49 ERSETZT den Kern „frisch
+  geschriebene Regel schützt nur künftigen Code" · L-50 SCHÄRFT
+  „Arbeitsvorrat = Verneinungen" (drei Suchweg-Achsen) · Kompensation:
+  L-05-Historie → Register, zwei Baustein-Dubletten → Zeiger, zwei
+  Belege → Register-Anker, L-07 gestrafft · Nachzug: Stempel `7a0f76b`,
+  Pflicht-Baustein `regelwerk-waechter` (Marken 80k/85k/90k), Parent-
+  Prüfung im Doppel-Messstand. **Messzeile: 83.977 → 84.713 B**
+  (`tools/pruefe-budget.js`; +736 netto, davon +685 der Pflicht-Baustein-
+  Nachzug; Phase 3 allein +51). Unter Warnschwelle, über Soll →
+  Kompensationspflicht bleibt aktiv, Verdichtungs-Posten R17 (frische
+  Session).
+- **lehren-register.md:** L-49, L-50, Sammelvermerk R16 (24 Zweitbelege,
+  5 Muster ohne Anker, 3 Werkzeug-Nachträge, Prozess-Befund).
+- **Skills/Commands:** Kopien `commands/tagesstart.md` (Codex-Auflage
+  Scratch) + `rules/windows-powershell.md` (unsichtbare Zeichen) +
+  `rules/regelwerk-waechter.md` (neu) vom Master; Wächter SYNCHRON 12 / 0
+  DRIFT (regelwerk-waechter als INFO — Wächter kennt keine
+  Baustein-Unterordner → an die Zentrale gemeldet, s. Postkorb-Kandidat).
+- **projektgerüst:** `7a0f76b` — 5 Regeln (L-49 · L-50 · Parent-Prüfung ·
+  Codex-Scratch · U+00AD/NBSP), 3 Changelog-Einträge, Selbstcheck OK,
+  Delta vor dem Stempel NEU gemessen (2 fremde Deltas e58a979/6aaa7ed
+  disponiert = Pflicht-Baustein aktiviert).
+- **Werkzeug-Umbau der Runde:** Zitat-Wächter (Modus-Trennung) — Vorlage
+  betroffen? Der Wächter ist projektspezifisch (kein Blueprint-Baustein);
+  die REGEL dazu (`cfdd5db`) trägt der Blueprint bereits. Kein weiterer
+  Nachzug.
+- **Wahrheits-Kanal (`b027240`):** Changelog R16 · § 6a neun Zeilen
+  erfüllt/aktualisiert (R15A-N-1…N-5, R15E-N-2/N-3/N-4/N-5) · § 7 Punkt 0
+  R16-Spitzenposten mit den fünf User-Entscheiden · Punkt 3 H-1 ✅ /
+  H-2 offen · STATUS R16-Block + R16-Punkt + Nächster Schritt;
+  Rotation R14-Block + R12-Punkt verbatim (60/60).
+- **Ebene über den Repos (neuer Prüfschritt):** 6 Ordner, 5 Repos, 1
+  Nicht-Repo `werkzeuge/` (whisper — von der Zentrale klassifiziert,
+  Blueprint `c286af0`). Kein unversionierter Beleg-Bestand von MKT.
+- **Dispositions-Liste (3-0):** A 12 Fallen + 8 Muster · B 4 + 4 · C 5 +
+  **6** · Leitsession 4 = **43 Learnings** *(Erstfassung zählte 42 — von
+  der Gegenprobe korrigiert)*: (a) neue Regel 2 (L-49, L-50) ·
+  (b) Zweitbeleg 24 (Sammelvermerk) · (c) Register-only Muster 5 ·
+  (d) Blueprint 5 (davon 2 = a) · Werkzeug-Nachträge 3 (davon 2 = d) ·
+  Rest in L-49/L-50 aufgegangen (A F-8/F-9, C F-1/F-2/F-3, Leit 3) —
+  Summenprobe im Register-Sammelvermerk je Nummer.
+
+### Nachtrag Debrief-Gegenprobe (~19:15 MESZ, Verifikations-Subagent, 54 Posten)
+
+**49 von 54 gelandet, 5 nicht, 0 begründet verworfen** → alle fünf
+nachgetragen (Register „Nachträge der Debrief-Gegenprobe" R16): R16-B
+§ 3.3 ZIEL-Kandidaten 20 Dateien / 718 Zitate (→ R17-Wächter-Posten in
+STATUS + Projektquelle) · R16-A N-3 (`P-1` ≠ `PS-1` im Prompt) · R16-A N-4
+(CLAUDE.md-Änderung mid-session: geprüft, berührt keine angewandte Regel)
+· R16-B M-3 (Kontrolle am echten Pfad) · R16-C M-6 (Reparatur sichtbar).
+**Gegenrichtung:** Dispositions-Liste 42 → 43 (C hat 6 Muster) ·
+STATUS „Offen aus R15" trug drei erledigte Posten ungestrichen (ANL-3 ·
+Dauer-Rot · Statuszeilen) → gestrichen — ERFÜLLEN-Kategorie am eigenen
+Kurz-Einstieg, dritter Beleg. Zahlen der Meldungen decken sich.
+Positivkontrolle des Subagenten: `20 W 37/24` = 2 Treffer im Diff.
+
+### Block-2-Abschluss — Übergabe
+
+- **R16 fertig, reviewt, debrieft.** Alle Debrief-Commits gepusht (s.
+  Push-Zeile im Chat). Wächter: Kopien 12/0 · Budget 84.713 B (Exit 0,
+  Kompensationspflicht) · Zitat-Wächter berechtigt rot (51 NEU
+  Rechtsmatrix, R17).
+- **Offene User-Handgriffe:** die fünf Entscheide (Satz · Kanzlei ·
+  Absender · § 4a A/B · E-A4) → danach Versand des Anwalts-Briefings ·
+  E-6-Zulieferung heypensio (Kalendertermin?) · AA-4 (Kayhan) ·
+  DEHOGA/IHK-Entwürfe · A5-Probedruck · Betreiber-Briefing bis 23.08. ·
+  H-4 bis 07.09. · MARKE1-Paket (Zusage KW 33 verstrichen) · StB-Anruf
+  MORGEN Di 18.08. · H-2-Anker neu setzen.
+- **R17-Kandidaten (Block 3 PROGNOSE, frische Session):** MKT-HANDEL
+  Nacharbeit (Rn.-87-Ableitungen, o8 Doppelbegründung, 12 Rn., OLG-Beschluss
+  beschaffen, 8 Prüfer-Fundorte) · Wächter (51 NEU + 20 ZIEL-Kandidaten +
+  Rohbeleg-Pool) · AKQ § 3.2/§ 4.3 · CLAUDE.md-Verdichtung (Soll 80k) ·
+  Postkorb an die Zentrale: Kopien-Wächter kennt keine Baustein-Unterordner
+  (regelwerk-waechter.md als INFO statt SYNCHRON).
+- **Blockwechsel-Handgriff:** vor R17 NEUES Fenster + `claude --resume`
+  (Regel-Snapshot nach dem Debrief; CLAUDE.md und Hook haben sich geändert).

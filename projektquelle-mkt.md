@@ -933,8 +933,10 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    (121–155), OLG-Beschluss 20 W 37/24 beschaffen, 8
    Prüfer-Nacharbeits-Fundorte (`R16-A-pruefer.md` § 3) · **R17
    Wächter:** 51 NEU in der Rechtsmatrix disponieren (Pool um lokale
-   Rohbelege mit Fehltoleranz + Ausnahmeliste R16A-N-5) — bis dahin ist
-   der Wächter berechtigt rot · **R17 AKQ:** Akquiseplan § 3.2 „Liste
+   Rohbelege mit Fehltoleranz + Ausnahmeliste R16A-N-5; **20 weitere
+   ZIEL-Kandidaten mit 718 Zitaten** außerhalb des Wächters, Codex-Bericht
+   Rohausgabe E — Aufnahme je Datei mit eigenem Aufnahmebestand) — bis
+   dahin ist der Wächter berechtigt rot · **R17 AKQ:** Akquiseplan § 3.2 „Liste
    sofort baubar" (R16C-N-1, gekippt seit R9), § 4.3-Textbruch (R16C-N-2)
    · Verdichtungs-Posten CLAUDE.md (84.713 B, Soll 80k; Kompensationspflicht
    je Debrief; frische Session).

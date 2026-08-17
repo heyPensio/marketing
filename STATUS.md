@@ -210,19 +210,19 @@ Stände: `STATUS-archiv.md`.)*
   Routing-Tabelle Projektquelle § 6a · 🔴 **R15E-N-5
   Planungskonflikt:** die 300er-Schwelle kollidiert mit ≈ 337–1.600
   Briefen je Abschluss — **jede realistische Welle löst den
-  Neu-Führungs-Trigger aus** · 🔴 **R15E-N-4 ANL-3-Rechtsfrage fehlt im
-  Anwalts-Briefing** (vor Versand nachtragen) · **R15A-N-4:** die
+  Neu-Führungs-Trigger aus** · ~~🔴 **R15E-N-4 ANL-3-Rechtsfrage fehlt im
+  Anwalts-Briefing** (vor Versand nachtragen)~~ ✅ **R16: war seit `ba5a059` als § 4a Kandidat A enthalten — offen ist nur der Entscheid „mitgeben?"** · **R15A-N-4:** die
   tragende Rn.-87-Verschärfung steht in einer Literatur-Abwehr — die
   gesamte Terminlage F-7/O-9/Bau-Pflichten ruht darauf · **Postkorb an heypensio ist ANGEKOMMEN** (`626bff0` veroeffentlicht,
   von der Zentrale eingearbeitet und an Ruffy weitergeleitet — die
   Klassifikator-Blockade bei R15-D war zeitpunktgebunden, L-05 achter
   Beleg; Stand gemessen 14.08. 03:25 per `branch -r --contains` nach
   frischem fetch) ·
-  **Zitat-Wächter dauerhaft rot** (863 „nicht im Pool" — Pool erweitern
-  oder Modus-Trennung) · Beileger-Text weiter gesperrt (Firmierung +
+  ~~**Zitat-Wächter dauerhaft rot** (863 „nicht im Pool" — Pool erweitern
+  oder Modus-Trennung)~~ ✅ **R16-B Modus-Trennung** · Beileger-Text weiter gesperrt (Firmierung +
   O-9) · **Verdichtungs-Posten CLAUDE.md** (+5.642 B netto über die
   Runde trotz −6.343 Auslagerung; Sollmarke vorschlagen) ·
-  Modell-Statuszeilen aller fünf R15-Sessions.
+  ~~Modell-Statuszeilen aller fünf R15-Sessions~~ ENTFALLEN (User 17.08.).
 - **R16 (17.08. nachmittags, drei Sessions parallel, erste Runde
   nach drei arbeitsfreien Tagen):** ✅ **Rechtsposten 6/6 in der
   Rechtsmatrix** (A7 neu, Doppelbegründung, Rn. 111/115, Rn. 79, „kein
@@ -239,7 +239,10 @@ Stände: `STATUS-archiv.md`.)*
   **Offen aus R16:** 🔴 **fünf User-Entscheide vor dem Versand** (Satz ·
   Kanzlei · Absender ohne Namen · § 4a A/B · E-A4) · 🔴 **Wächter 51 NEU
   in der Rechtsmatrix** (Pool um lokale Rohbelege + Ausnahmeliste
-  R16A-N-5, R17) · **MKT-HANDEL R17:** Rn.-87-Vermerk in Regelwerk § 7.1
+  R16A-N-5, R17) · **20 weitere ZIEL-Kandidaten mit 718 Zitaten** außerhalb
+  des Wächters (Codex-Bericht Rohausgabe E; u. a. Anwalts-Briefing 114,
+  Preismodell 139) — „ZIEL 8/8" gilt für acht Dateien, nicht den Bestand
+  (R17) · **MKT-HANDEL R17:** Rn.-87-Vermerk in Regelwerk § 7.1
   + `preismodell-optionen.md`, o8 § 6.2/§ 11.2 gegen Doppelbegründung,
   12 nie angekommene Rn. 121–155, OLG-Beschluss 20 W 37/24 beschaffen,
   8 Prüfer-Nacharbeits-Fundorte · **AKQ:** § 3.2 „Liste sofort baubar"

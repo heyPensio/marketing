@@ -1786,3 +1786,708 @@ R17-A Block 2/5, Postkorb-Inhalt.
   (CLAUDE.md, Rules und Commands haben sich geändert).
 - **Zeit-Lehre des Tages (dreimal am eigenen Objekt):** jede Uhrzeit in
   diesem Plan ab Block 3 ist gemessen; „~"-Zeiten davor sind Schätzungen.
+
+## Block 5 (17.08. 19:23 MESZ per `date`, `/runde` nach `/clear`) — R18-Schnitt
+
+### Debrief-Gate + Kurzcheck (19:23–19:35, `date` 19:23:01 / 19:27:22 / 19:28:50)
+
+- **Gate:** R17 reviewt (3/3), debrieft (`fa803c1`…`86afceb`), HEAD =
+  origin/main (`git fetch` + `HEAD..origin/main` = 0), Arbeitsbaum
+  sauber. **Gate bestanden.** Kontext-Säuberung: `/clear` ist VOR
+  `/runde` gelaufen (Regel-Snapshot = CLAUDE.md `35fd61b`-Stand nach
+  Debrief). Zentrale-STATUS steht noch auf **R16** (`718b2f5`); R17 ist
+  dort nicht eingearbeitet — kein Blocker (Postkorb-Modell), aber die
+  Zentrale-Zeile „Geparkt R17: 51 neue Zitate … CLAUDE.md-Verdichtung"
+  ist überholt (alles R17 erledigt) → geht mit dem R18-Debrief-Bericht.
+- **Erreichbarkeit:** Mo 19:23, Abend → **kein Außenstrang** (Sperrliste
+  gilt: kein Versand, kein Listenaufbau; Gerichts-Websites sind kein
+  Außenkontakt). Arbeitsdauer laut Briefing open end. **StB-Anruf ist
+  MORGEN Di 18.08.** (Zentrale-Handgriff; MKT liefert nichts Neues dazu).
+- **Wächter (19:27):** Kopien **SYNCHRON 12 / 0 DRIFT** (3 INFO,
+  bekannter Blindfleck) · Budget **79.935 B** (unter Soll 80.000, Exit 0)
+  · Blueprint-Delta `35fd61b..HEAD` = 0 · CLI **2.1.233** (unverändert →
+  kein Kanarien-Test fällig) · **Zitat-Wächter Exit 1: 36 NEU** (Datei-
+  Verteilung: Rechtsmatrix 22 · o8 3 · Anwalts-Briefing 3 · Akquiseplan
+  2 · Angebotsarchitektur 2 · Messplan 2 · Preismodell 2), 27/27 Ziel,
+  PK 33/33, Gegenprobe 3/3, Baseline-Prüfstand `0c4692f`; Rohbeleg-Pool
+  lädt `sensibel/rohbelege-*` REKURSIV (R17-A-Ordner ist drin — die 36
+  sind Einordnungsarbeit, kein Pool-Fehlen). Volldump im Scratchpad
+  (`zw-head-86afceb.txt`).
+- **Eingänge (Zentrale-Postkorb, gesichtet 19:25):**
+  `2026-08-17-heypensio-r44-postkorb.md` (`45de6eb`, Ruffy) trägt zwei
+  MKT-relevante Posten — **P6** firmenweite Webdesign-/Conversion-
+  Leitlinie (`heypensio/blueprint/webdesign-leitlinie.md`, L1–L10;
+  „Marketing kennt sie noch nicht"; Zentrale entscheidet Ablageort) →
+  **Disposition: Kenntnisnahme jetzt, Zeiger in Projektquelle § 2 MKT-WEB
+  beim R18-Debrief (Leitsession), keine R18-Handlung (MKT-WEB startet
+  erst nach Namensentscheid)**; **P7** n8n-Lizenz: der § 5.3-Nachtrag
+  „Z-6 IST AUFGELÖST: A3 TRÄGT" in `handel/preismodell-optionen.md` ist
+  laut heypensio R44-D **überholt („Auflösung zu früh")**, Ersatztext
+  liegt in heypensio § 12.5, **ausdrücklich „noch nichts nachziehen"** →
+  **Disposition: WARTEN auf die bereinigte Meldung; Vermerk als offener
+  Posten in Projektquelle § 7 beim Debrief; KEIN R18-Strang fasst
+  `preismodell-optionen.md` § 5.3 an.** Eigene Meldung
+  `2026-08-17-mkt-kopienwaechter-unterordner.md` liegt noch im Postkorb
+  (Zentrale hat sie nicht eingearbeitet — erwartbar).
+- **User-Zuruf „seit dem letzten Block passiert?":** liegt nicht vor
+  (Command ohne Argument) → **im Chat erfragt.** Die fünf R16-Entscheide
+  + zwei R17-C-Fragen gelten als OFFEN.
+- **Blockwechsel-Handgriff aus Block 4** („NEUES Fenster + `claude
+  --resume`"): der User hat `/clear` gewählt — CLAUDE.md/Rules kamen
+  frisch (Systemprompt zeigt den `35fd61b`-Kopf); Commands wurden vom
+  PLATTENSTAND gelesen (`tagesstart.md` per Datei, nicht per Invoke),
+  also kein Snapshot-Risiko in dieser Session.
+
+### Strang-Tabelle R18 (Modellwahl trifft der USER — Spalte wird nachdokumentiert)
+
+| Session | Name | Ziel | Datei-Scope (schreibend) | Exklusive Systeme | Review | Modell (User) |
+|---|---|---|---|---|---|---|
+| **R18-A** | **Ben Beckman** | **MKT-HANDEL: Rechtsmatrix-/Briefing-Pflege aus R17:** Rn. 220 (R17A-N-3) in Rechtsmatrix A7 (Prüfer: steht in o8 § 7.1 → Zeiger-Frage) · Rn. 187/188 (R17A-N-2) als terminierter Wiedervorlage-Posten in `angebotsarchitektur.md` § 6a · **acht „Rohbeleg bestätigt nicht"-Aufnahmebefunde** je Fundstelle einordnen (Prüfer: 7 davon L-26-Reparaturkasten-Selbstzitate, nur Z. 696 echt) + reparieren · Folgesätze „Original nicht beschafft" im Briefing (L-51) · OLG-Parallelverfahren I-20 U 107/23 + 117/23: zweiter Beschaffungsversuch (Timebox) + Briefing-Teilfrage prüfen/ergänzen · Arbeitstitel-Rechtsfrage (R17-C Block 2 Nr. 2) als Teilfrage-Kandidat ins Briefing · o8 § 5.4 ↔ § 10 B-6 (R17C-N-1) + Ableitung Regelwerk § 6.1 · Sperrdatei-Positivliste SP-01/SP-09 (R17A-N-7) + Ableitung Briefing-Kopfblock · Klauselblock Rn. 178–209 klauselweise gegen Rechtsmatrix (Vermerk mit Nenner) | `handel/kanal-rechtsmatrix.md` · `handel/anwalts-briefing-2026-08.md` (Status bleibt ENTWURF; **fünf User-Entscheide NICHT vorwegnehmen**) · `handel/angebotsarchitektur.md` (nur § 6a) · `akquise/interessenabwaegung-o8.md` (nur § 5.4 FG-2-Zeile + § 10 B-6) · `akquise/listenbau-regelwerk.md` (nur § 6.1 B-6-Zeile) · `akquise/sperrdatei-struktur.md` · `sensibel/rohbelege-R18-A/` (neu, falls Beschaffung trifft) · `protokolle/R18-A-abschluss.md` / `-pruefer.md` | keine | **Voll-Review** (Prüfer frischer Kontext, eingefrorener Hash, Rohbelege am Pfad) | *(User)* |
+| **R18-B** | **Codex** *(User-Werkzeugwahl R16/R17 fortgeschrieben — bestätigen; sonst Yasopp)* | **Zitat-Wächter Pflege R18:** (1) `> >`-Normalisierung mitten im Zitat (R17C-F3, Fehlerbehebung → alt-ROT/neu-GRÜN am Selbsttest) · (2) die **36 NEU** am eingefrorenen Stand `86afceb` **36/36 einordnen** (α durch Normalisierung bestätigt · β Selbstzitat/eigene Formulierung · γ Fremdzitat ohne Rohbeleg-Treffer) — als Bericht, mit Fundstelle + Rohbeleg-Suchweg · (3) die **sieben** von R17-A begründeten EIGEN-Kandidaten (R17-A N-5, Zahl am Objekt prüfen) als `EIGEN_R18` mit Begründung · **NICHT** `ROHBELEG_OFFEN_R17` anfassen (A repariert die Fundstellen parallel; Listenpflege = Leitsession nach A+B) | `akquise/pruefe-zitate.js` · `akquise/selbsttest-zitate.md` · `akquise/zitat-baseline-2026-08-17.md` (nur falls Nenner-Zeile nötig) · `protokolle/R18-B-bericht.md` | keine | Selbsttest beide Richtungen + PK/Gegenprobe + Regression + Nenner 36/36; **Abnahme + Commit durch die Leitsession** am fertigen Lauf | Codex |
+| **R18-C** | **Lucky Roux** | **AKQ-/BELEG-Pflege aus R17-C:** fünf Ein-Gate-Stellen Akquiseplan § 6 (drei Zeilen) / § 7 H-8 / § 8 E-A1 auf die Zwei-Gate-Logik aus § 3.2 (Neufassung R17-C) · zwei Relativzeiten § 3.1 (R17C-N-4) · Soft-Hyphen § 5 KPI-5 (R17C-N-3, Nenner 1→0) · Kurz-ID `H-2` im Akquiseplan § 7 umbenennen (R17C-N-2, L-35) · Messplan § 9 **Vorlagen-Stand ERHEBEN** (nicht erfüllen; Bestand: gebaut seit R3, „beauftragt" undefiniert) · ~~Selbstzitate Z. 413 / 401/430~~ → Prüfer: Kreuzzitate bzw. Wächter-Mechanik → R18-B/Leit | `akquise/akquiseplan.md` · `beleg/baseline-messplan.md` · `protokolle/R18-C-abschluss.md` / `-pruefer.md` | keine | Kurzraster Leitsession + **Gegenleser 1 Frage** (Aussage/Fundstelle getrennt — R17-C-Muster, 5 schwere Funde) | *(User)* |
+| *(Leit, Buchstabe frei)* | Shanks | Prüf-Subagent-Disposition · P6/P7-Disposition · Reviews A/C, Abnahme B · `ROHBELEG_OFFEN_R17`-Listenpflege nach A+B · `.gitattributes` **NACH der Runde** (Arbeitsbaum-weite Änderung, nie bei laufenden Sessions; als eigener Vorgang mit dem User) · Kurz-ID-Kollisionen `G-n`/`O-9` + „Prüferbefund H-2" ohne Rundenpräfix in AA Z. ~2020 (Wahrheits-Kanal/Debrief) · Prüfer-Nebenfunde 2/4 (Zielort Rn. 187/188 in STATUS/Projektquelle falsch = AA § 6a, nicht Rechtsmatrix; U+00AD in Projektquelle Z. ~961 + Register Z. ~2489) · Kanarien-Zeilen = Blueprint-Zuständigkeit (Kopien-Wächter würde lokale Änderung als DRIFT melden → Nachzug-Posten, nicht lokal) · `/debrief` R18 | Wahrheits-Kanal · dieser Tagesplan · `akquise/pruefe-zitate.js` (nur `ROHBELEG_OFFEN_R17`, nach B-Abnahme) | keine | Kurzraster | Fable 5 (Umgebungsangabe) |
+
+### Codex-Eignung (PFLICHTZEILE je Strang, Teilaufgaben-Ebene)
+
+- **R18-A (Rn. 220/187 · 8 Aufnahmebefunde · Briefing-Teilfragen ·
+  o8/Sperrdatei-Konsistenz): Codex: NEIN.** Jede Teilaufgabe ist
+  Belegstufen-/Auslegungsarbeit oder außenwirksamer Text (Briefing).
+  Einzige mechanische Teilaufgabe — NRWE-Suchlauf nach den
+  Parallelverfahren — ist mit der sofortigen Lektüre (welche Sache,
+  trägt sie die Gegenauffassung?) gekoppelt und lohnt keinen
+  Fremdagenten-Zug; das byte-treue Nachzählen der Zitate erledigt der
+  Wächter (B). Die Aufnahmebefund-Einordnung („Zitat verkürzt? eigene
+  Zusammenfassung? Rohbeleg fehlt?") ist ein Belegstufen-Urteil.
+- **R18-B (Wächter-Pflege): Codex: JA** — hartes maschinelles Soll:
+  Fehlerbehebung `> >` mit **Regression alt-ROT/neu-GRÜN** (neue
+  Selbsttest-Zeile mit `> >` mitten im Zitat, vor dem Fix NEU, danach
+  bestätigt) · Inventar **36/36** mit Fundstelle + Suchweg (Rohbeleg-Grep
+  normalisiert) · Selbsttest je Muster beide Richtungen · PK 33/33 ·
+  Gegenprobe 3/3 · EIGEN-Verwaist 0. **Belegstufen-Urteil nur, wo R17-A
+  es bereits BEGRÜNDET hat** (die sieben N-5-Kandidaten → `EIGEN_R18`
+  mit übernommener Begründung + Fundstelle Stand `86afceb`); alle
+  übrigen β/γ-Einordnungen sind Bericht, keine Aufnahme — **die
+  Leitsession bewertet.** Auflagen (`tagesstart` § 1.4): eingefrorener
+  Hash `86afceb` (Prüfwurzel = Scratch-Export, `--pruefwurzel`), **kein
+  Commit/Push**, Scratch NUR außerhalb des Repos, Pflichtabschnitte
+  „nicht erhoben" + „welcher Prüfschritt hätte einen Fehler NICHT
+  gefunden", **echter Ausführungslauf aller Modi** im Fertig-Kriterium.
+- **R18-C (AKQ/BELEG-Pflege): Codex: NEIN.** Textarbeit mit
+  Vorbehalts-Übernahme aus § 3.2 und einer Erhebung mit Suchweg
+  (Vorlagen-Stand); Soft-Hyphen-Entfernung und Kursiv-Setzung sind
+  mechanisch, aber trivial (1 + 2 Stellen) — Vorher/Nachher-Zählung
+  macht die Session selbst.
+- **Leitsession: Codex: NEIN** (Wahrheits-Kanal, Reviews, Dispositionen).
+
+### Disjunktheits-Schnitt (3 Stränge = 3 Paare, DATEI-Ebene)
+
+- **A ↔ B:** A schreibt Rechtsmatrix, Briefing, AA § 6a, o8 (§ 5.4/§ 10),
+  Regelwerk § 6.1, Sperrdatei — B LIEST sie nur, am **eingefrorenen
+  Stand `86afceb`** (Scratch-Export), nie am Arbeitsbaum. B schreibt
+  `pruefe-zitate.js`/`selbsttest-zitate.md`/Baseline — A fasst keine
+  davon an; **`ROHBELEG_OFFEN_R17` fasst KEINER an** (Leitsession nach
+  A+B). A meldet je repariertem Aufnahmebefund „Eintrag n: streichen /
+  umformulieren zu …". ✔
+- **A ↔ C:** A: Rechtsmatrix, Briefing, AA, o8, Regelwerk (§ 6.1),
+  Sperrdatei · C: Akquiseplan, Messplan. A LIEST Akquiseplan § 3.2
+  (Arbeitstitel-Frage) am Stand `86afceb`. C zieht in § 6/§ 7/§ 8 den
+  Zwei-Gate-Vorbehalt aus § 3.2 nach — R17-C hat § 3.2 committet, kein
+  Lesen fremder Arbeit. ✔
+- **B ↔ C:** B liest Akquiseplan/Messplan (ZIEL) am eingefrorenen Stand;
+  C repariert dort die Selbstzitate Z. 413/401/430 (C-F4) — B trägt
+  diese vier NEU im Inventar als „parallel in Reparatur durch R18-C",
+  Leitsession misst am Ende. ✔
+- **Neue Verzeichnisse:** nur A (`sensibel/rohbelege-R18-A/`, nur bei
+  Treffer, git-ignoriert). Neue Dateien: B Bericht (+ ggf. Baseline-
+  Nenner-Zeile), A/C Protokolle. Wahrheits-Kanal in keinem Scope.
+  `handel/preismodell-optionen.md` (2 NEU, § 5.3-P7-Vorbehalt) fasst
+  **niemand** an — beide NEU stehen im Inventar von B.
+
+### Review-Regime R18
+
+| Strang | Kritikalität | Regime | Grund |
+|---|---|---|---|
+| R18-A | **hoch** — Rechts-Bestandsdokument + Briefing (außenwirksam) + Rohbeleg-Reparaturen | **Voll-Review** (Prüfer frischer Kontext, `git show <hash>:`, Rohbelege am Pfad `sensibel/rohbelege-R09-A/` (LG-Urteil) + `-R17-A/` (OLG, EuGH), Rückwärts-Kategorie über die N-2/N-3-Rn. + Aufnahmebefund-Rohstellen; Löschungszählung zwei Nenner) | Reparatur eines Zitats kann ein zweites verkürzen (L-19) |
+| R18-B | mittel — Werkzeug mit Schutzwirkung | Selbsttest beide Richtungen + Regression + PK/Gegenprobe + Nenner 36/36; Leitsession am fertigen Lauf, Abnahme am Prüfstand | Fehlerbehebung (alt-ROT/neu-GRÜN) + Inventar |
+| R18-C | niedrig–mittel — interne Planungsdoku, aber Terminlogik | Kurzraster + **Gegenleser 1 Frage** („Welche Aussage in § 6/§ 7/§ 8 setzt stillschweigend noch auf Ein-Gate auf, oder trägt den § 3.2-Vorbehalt verkürzt?" — Aussage/Fundstelle getrennt) | R17-C: unbequeme Hälfte weggelassen trotz „Vorbehalt zuerst" (L-49) |
+| Leit | Wahrheits-Kanal | Kurzraster; Wächter vor/nach der Listenpflege | — |
+
+### Ist-Stand-Prüfung der Leitsession (am Objekt, 19:25–19:35; Prüf-Subagent gestartet 19:29, Disposition unten)
+
+- **A · Rn. 220 / Rn. 187/188:** `grep -n "Rn. 187|Rn. 188|Rn. 220"
+  handel/kanal-rechtsmatrix.md` = **0** (Positivkontrolle im selben Lauf:
+  `Rn. 87` trifft). Träger-Angabe R17-A N-2/N-3 damit gestützt.
+- **A · Parallelverfahren:** `I-20 U 107/23` steht im Briefing **zweimal**
+  (§ 2.3 Nachtragskasten Z. ~565 Zitat, Z. ~579 „Falls Ihnen über
+  juris/beck-online der Zugriff möglich ist …") — das ist ein ANGEBOT im
+  Kontexttext, **keine nummerierte Teilfrage**; die Projektquelle-Zeile
+  „Briefing-Frage an die Kanzlei" ist also halb erfüllt: A prüft, ob der
+  Satz als Teilfrage/§-8-Posten sichtbar wird, statt einen zweiten
+  Absatz zu bauen. Beschaffungs-Suchweg R17-A dokumentiert (Datum
+  fehlt) — zweiter Versuch mit anderem Kanal (NRWE-Volltextsuche nach
+  Aktenzeichen ohne Datum, `curl -L`, PK: 20 W 37/24 muss treffen).
+- **A · Aufnahmebefund Z. 696:** Rechtsmatrix trägt „**bei einem
+  Dritten** erhoben" WEITER — R17-A hat dasselbe verkürzte Zitat **nur
+  im Briefing** repariert („drei Wörter ohne Ellipse"). L-25-Klasse
+  (Ableitung repariert, Quelle nicht), gemessen 19:27. Die übrigen
+  sieben Einträge tragen die Klasse schon in der Kommentarspalte
+  („eigene Bestandszusammenfassung" ×3, „verkürzte
+  Bestandsformulierung" ×3, „Flexionsabweichung" ×1) — A prüft jede am
+  Rohbeleg, nicht an der Kommentarspalte.
+- **A · o8 B-6:** § 5.4 FG-2-Zeile (Z. 451) sagt „Anteil im
+  Wellenprotokoll ausweisen (B-6)", § 10 B-6 (Z. 1118) nennt nur „Anteil
+  FG-4" — Widerspruch am Objekt bestätigt. Regelwerk § 6.1 wurde in
+  R17-C aus o8 § 10 abgeleitet → L-25-Nachzug im selben Zug.
+- **A · Sperrdatei N-7:** Positivliste steht; **Ableitung:** der
+  Briefing-Kopfblock (Z. 26/27) zitiert sie zweimal (R16-A-/R17-A-
+  Änderungszeilen) — und der Wächter meldet genau diese Zeile als 2 der
+  36 NEU. Wer die Sperrdatei ändert, zieht den Kopfblock nach.
+- **B · 36 NEU:** Volldump gezogen (s. Kurzcheck). Sieben N-5-Kandidaten
+  in R17-A (Überschrift „sieben"; Projektquelle sagt „acht" → Prüfer
+  zählt). `> >`-Muster in vier NEU-Zeilen sichtbar (AA 257/261,
+  Preismodell 1315/1332).
+- **C · Soft-Hyphen:** `grep -c` U+00AD `akquise/akquiseplan.md` = **1**
+  (Z. 879 KPI-5) — Nenner für die Vorher/Nachher-Zählung. Relativzeiten
+  „drei Tage nach heute"/„das war gestern" § 3.1 (R17-C N-4). Fünf
+  Ein-Gate-Stellen: R17-C Block 2 Nr. 4 (§ 6 drei Zeilen · § 7 H-8 · § 8
+  E-A1) — Prüfer nummeriert die Zeilen.
+- **C · Vorlagen-Stand:** Messplan § 9 („Vorlagen beauftragt") trägt seit
+  R17-C den Vermerk „nicht erhoben"; `beleg/vorlagen/` enthält
+  Interviewleitfaden + drei Tagesblätter je als `.md` + `.pdf` +
+  Druck-HTML; „A5-Probedruck" steht als User-Handgriff in Block 4. Was
+  „beauftragt" hier bedeutet (Druckauftrag? Erhebungs-Freigabe an die
+  Objekte?), ist im Repo nicht definiert → C erhebt mit Suchweg und
+  formuliert nötigenfalls die Rückfrage, statt den Punkt abzuhaken.
+- **Leit · `.gitattributes`:** fehlt; `core.autocrlf=true` lokal (N-1
+  bestätigt). Änderung wirkt auf den GANZEN Arbeitsbaum → nicht
+  parallel zu Sessions. **Kanarien-Zeilen:** in keiner der 9
+  Rules-Kopien (`grep -ci kanarien` = 0) — Kopien sind Blueprint-Spiegel
+  (Wächter SYNCHRON), lokale Ergänzung = DRIFT → Blueprint-Posten.
+- **P7 (n8n-Lizenz):** `preismodell-optionen.md` § 5.3 trägt „Z-6 IST
+  AUFGELÖST" (R14) — laut heypensio überholt, Nachzug ausdrücklich
+  aufgeschoben. In dieser Runde SPERRGEBIET.
+
+### ⚠️ Prüfer-Disposition R18 (Prüf-Subagent, gestartet 19:29, zurück 19:40 MESZ — Laufzeit 637 s gemessen — 20 Verneinungen/Prämissen, 3 Stränge + Leitsession; Positivkontrolle je Lauf ausgewiesen)
+
+**Bilanz laut Prüfer (Zählweg: je Verneinung ein Verdikt):** A 8/8
+bestätigt mit zwei Einschränkungen · B 2 bestätigt / 1 teilweise
+widerlegt / 1 „beide Zahlen stimmen" · C 3 bestätigt / 2 teilweise
+widerlegt · Leit 3 bestätigt / 1 teilweise widerlegt. **Delegierte
+Zahlen und Fundstellen — die Leitsession hat vier davon selbst
+nachgemessen (Z. 696, o8 Z. 451/1118, U+00AD Z. 879, autocrlf-Quelle
+via `git config --show-origin`), die übrigen tragen den Prüfer als
+Beleg und gehen als „gegenprüfen, nicht übernehmen" in die Prompts.**
+
+| # | Verdikt | Wirkung auf den Schnitt |
+|---|---|---|
+| A1 | Rechtsmatrix ohne Rn. 220 bestätigt — **aber N-3-Prämisse „stand nirgends" WIDERLEGT:** o8 § 7.1 (Z. ~782–792) trägt Rn. 220 seit 12.08. (Q-16); R17-A-Prüfer hatte es zurückgezogen | Prompt A Teil 1 → **Dubletten-Frage (Zeiger vs. Zitat)** statt „Satz einbauen" |
+| A2 | bestätigt (AA § 6a ohne 187/188, `Verbraucher` = 0) | unverändert |
+| A3 | bestätigt (kein Az. in § 2.2 Nr. 1–7; Z. 579 ist Kontext) | unverändert |
+| A4 | bestätigt (`Arbeitstitel` im Briefing = 0; PK `Firmierung`) | unverändert |
+| A5 | bestätigt (`git log -S"Anteil FG-2"` leer) | unverändert |
+| A6 | bestätigt + **zweite Ableitung**: Briefing § 4a Kandidat A Z. ~1310 Klartext-Feldliste ohne Sperr-ID/Reichweite | Prompt A Teil 7 ergänzt |
+| A7 | bestätigt (Einordnung fehlt) — **Bestand am HEAD:** Nr. 5 repariert (R17-A), Nr. 1/3/4/6/7/8 = Vorfassungs-Selbstzitate in Reparatur-Kästen (L-26), **nur Nr. 2 Z. 696 echt offen** (Einbau `ed9bbdf` R16-A, Briefing-Reparatur `4f739f5` ohne Rechtsmatrix) | Prompt A Teil 3: Reparatur nur Z. 696, sieben → L-26-Ausnahme; **Aufwandsersparnis** |
+| A8 | bestätigt (R17-A § 5.6: „nicht Rn. für Rn.") — Nebenfund 5: § 1.3 „alle 118 gelesen" ↔ § 5.6 „als Block" stehen gegeneinander | unverändert (Teil 8 klärt es am Objekt) |
+| B1 | bestätigt (keine Einzelliste, keine Disposition) | unverändert |
+| B2 | **teilweise widerlegt:** `norm()` entfernt `>` nur einmal je Zeilenanfang (Residuum), `normRohbeleg()` schon symmetrisch — Fehler sitzt im Pool-/Baseline-/EIGEN-Kanal · Nebenfund 3: `EIGEN_R17` Z. ~322 trägt das Residuum selbst → Fix kippt EIGEN-Treffer | Prompt B Teil 1 ergänzt (Messung + EIGEN-Nachzug + Selbsttest-Zeile) |
+| B3 | „sieben" (Tabelle) UND „acht" (Prosa-Nachtrag „verbleiben", < 25 Zeichen, keine NEU) stimmen beide | Prompt B Teil 3: sieben aufnehmen, achter begründet nicht |
+| B4 | bestätigt (0/8 in EIGEN; 7 in der HEAD-NEU-Liste) | unverändert |
+| C1 | bestätigt: Z. 896/897/900/927/943–947 | Zeilen in Prompt C |
+| C2 | bestätigt, Wortlaut Z. 309 „drei Tage nach heute" / Z. 314 „das war gestern" | Zeilen in Prompt C |
+| C3 | bestätigt (U+00AD Z. 879, `Terminquote` = 0) | unverändert |
+| C4 | **teilweise widerlegt:** Vorlagen sind seit 09.08. GEBAUT (`9858ef1`, Projektquelle „FERTIG ✅"); undefiniert ist nur „beauftragt"; offen A5-Probedruck (User) | Prompt C Teil 6: Bestand rein, Rückfrage mit Lesarten |
+| C5 | **Z. 413 WIDERLEGT** (byte-treue Kreuzzitate aus Sperrdatei/Wellenprotokoll — ZIEL, nicht POOL) · Z. 401 = Zweitvorkommen (`consume`) · Z. 430 = L-26 | **aus Prompt C gestrichen**, als Klassen δ/ε/ζ in Prompt B |
+| L1 | **teilweise widerlegt:** `core.autocrlf=true` kommt aus der SYSTEM-gitconfig (`Program Files/Git/etc/gitconfig`), local/global leer — N-1 „repo-lokal" ist Fehllesung | `.gitattributes`-Vorgang bleibt sinnvoll (versioniert schlägt System-Default); N-1 im Debrief korrigieren |
+| L2 | bestätigt, Suchraum größer: H-2 auch als Prüfer-ID; Rechtsmatrix Z. ~679 + AA Z. ~2020 zitieren „Prüferbefund H-2" ohne Rundenpräfix | Rechtsmatrix → Prompt A; AA → Leit/Debrief |
+| L3 | bestätigt (P7 „noch nichts nachziehen"); Nachzieh-Suchraum > § 5.3 („A3 trägt" 6× Preismodell, 3× Projektquelle, STATUS) | Sperre bleibt; Suchraum-Notiz für den späteren Nachzug |
+| L4 | bestätigt (Webdesign-Leitlinie nur im uncommitteten Tagesplan) | Debrief-Zeiger |
+
+**Nebenfunde des Prüfers (5), disponiert:** (1) Briefing Z. ~746/1421
+„Original nicht beschafft" ↔ § 2.3-Nachtrag → **Prompt A 7a (L-51)** ·
+(2) STATUS Z. ~245 / Projektquelle Z. ~950 „Rn. 187/188 + 220 in die
+Rechtsmatrix" — N-2-Zielort ist AA § 6a → **Debrief-Korrektur (Leit)** ·
+(3) EIGEN_R17-Residuum → **Prompt B** · (4) U+00AD auch in Projektquelle
+Z. ~961 + Register Z. ~2489 (+ 5 Alt-Protokolle, Historie) → **Debrief
+(Leit)** · (5) R17-A § 1.3 ↔ § 5.6 → **Prompt A Teil 8**.
+**Blindstellen des Laufs (Selbstauskunft, gelesen):** Der Prüfer hat
+den Wächter am HEAD selbst reproduziert (36 NEU, PK 14/14 — anderer
+Zählweg als die 33/33 der Leitsession: er zählt offenbar Muster, nicht
+Kontrollzeilen; Zahl mit Stand geführt, nicht abgeglichen). Nicht
+geprüft: Rohbeleg-Inhalte (nur Vorhandensein), Zentrale-STATUS-Inhalt.
+
+### Beim User zu klären (Chat, jetzt) — Klartext
+
+1. **Was ist seit Block 4 passiert?** (Anrufe, Entscheide, Befunde —
+   insbesondere: sind die **fünf R16-Entscheide** (Selbstkritik-Satz ·
+   Kanzlei · Absender-Firmierung · § 4a A/B · E-A4) und die **zwei
+   R17-C-Fragen** (Zielstichprobe ≥ 30 Check-ins je Hotel? · neuer
+   H-2-Anker) noch offen? Solange offen: das Briefing bleibt ENTWURF,
+   R18-A fügt nur Teilfragen hinzu und entscheidet nichts.)
+2. **Werkzeugwahl R18-B:** wieder **Codex** (wie R16/R17) — oder Yasopp
+   als Claude-Session? (Zuschnitt ist für beide gleich; bei Codex
+   committet die Leitsession nach Abnahme.)
+3. **Modellwahl** je Session A/C — der User stellt sie im neuen Fenster
+   ein (keine Vorgabe im Prompt).
+4. **`.gitattributes`** (R17A-N-1): die Umstellung von lokalem
+   `core.autocrlf=true` (Prüfer: kommt aus der SYSTEM-gitconfig, nicht repo-lokal — wirkt auf alle Repos des Rechners) auf eine versionierte `.gitattributes` berührt
+   den ganzen Arbeitsbaum — Vorschlag: **nach** R18, wenn keine Session
+   läuft, als eigener kleiner Vorgang. Einverstanden?
+
+## Session-Prompts R18 (Single Source — Sessions lesen HIER)
+
+> **Handgriff über JEDEM Prompt: Vor dem Einfügen NEUES Session-Fenster
+> öffnen und DEIN Modell einstellen** (`/model`) — die Modellwahl liegt
+> beim User; ein altes Fenster trägt den Regel-Snapshot der Vorrunde.
+> Startzeile: „Du bist `R18-<X>`. Lies deinen Auftrag in
+> `protokolle/tagesplan-2026-08-17.md`, Abschnitt ‚Session-Prompts R18',
+> Strang <X>, und arbeite NUR ihn ab."
+
+### Strang R18-A (Ben Beckman) — Rechtsmatrix und Anwalts-Briefing auf den Stand von R17 bringen
+
+Du bist **Ben Beckman**, Arbeits-Session `R18-A` der Marketingabteilung
+(Rote-Haar-Bande; Leitsession Shanks läuft separat, Multi-Session-Modell
+lt. CLAUDE.md). Session-Start: `git pull`; **Prüfstand einfrieren:**
+`git rev-parse HEAD` notieren (Sollwert beim Schnitt: `86afceb`, danach
+kommt mindestens der Tagesplan-Commit der Leitsession — beides
+notieren) und vor dem Commit erneut messen (Doppel-Messstand).
+
+**Kontext (nicht nacherzählt — lies die Quellen):** R17-A
+(`protokolle/R17-A-abschluss.md`, Block 2 + Block 3 N-2/N-3/N-5/N-7;
+`protokolle/R17-A-pruefer.md`) hat den OLG-Beschluss 20 W 37/24 und den
+EuGH-DE-Volltext beschafft (`sensibel/rohbelege-R17-A/`, Quellenliste
+`00-quellenliste.md`) und Rn. 156–273 des LG-Urteils ausgewertet
+(Rohbeleg `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt`; UWG/UGPRL-Texte in `-R15-A/`). Zwei
+Nebenbefunde (Rn. 187/188, Rn. 220) wurden **bewusst nicht** eingearbeitet,
+acht Zitat-Fundstellen der Rechtsmatrix bestätigt der Rohbeleg nicht
+(`akquise/pruefe-zitate.js`, Konstante `ROHBELEG_OFFEN_R17` — nur LESEN),
+und drei Konsistenz-Befunde anderer Sessions warten auf dich (o8 B-6,
+Sperrdatei-Positivliste, Arbeitstitel-Frage). Projektquelle § 7 Punkt 0
+„R17 — was jetzt oben liegt" (2) und (6) sind dein Auftragstext im
+Wahrheits-Kanal — lies das DOKUMENT, nicht nur den Absatz.
+
+**Aufgabe — acht Teile, alle in `handel/`/`akquise/`, Reihenfolge frei,
+aber Teil 3 zuerst messen (er entscheidet, was Teil 5 zitieren darf):**
+
+1. **Rn. 220 → Rechtsmatrix A7** (Abschnitt Art.-14-Pflichten).
+   ⚠️ **Prämisse des N-3 („stand nirgends") ist WIDERLEGT** (Prüf-
+   Subagent 19:40): `akquise/interessenabwaegung-o8.md` § 7.1
+   (Z. ~782–792) führt „Keine Karenzfrist … (Rn. 220; ① A)" seit
+   12.08. (Q-16), und der R17-A-Prüfer hatte das schon zurückgezogen
+   (`R17-A-pruefer.md` Z. ~207–216). Die Rechtsmatrix zeigt an ihrer
+   Art.-14-Stelle mehrfach auf o8. **Deine Aufgabe ist damit die
+   Dubletten-Frage (CLAUDE.md): Zeiger auf o8 § 7.1 — oder zweite
+   Fundstelle mit Vorrangklausel?** Regelfall: ZEIGER (ein Satz mit
+   Rn. 220 + o8-Anker); Zitat nur, wenn die Rechtsmatrix-Stelle ohne
+   den Wortlaut nicht trägt — dann byte-treu vom Rohbeleg (Rn. am
+   externen Anker R17-A § 1.3, nie selbst auszählen). Er STÄRKT den
+   Bestand (Rn. 85/87), er ändert keine Aussage — schreib das so.
+2. **Rn. 187/188 → `handel/angebotsarchitektur.md` § 6a** (NUR dort):
+   Wiedervorlage-Posten „AGB/Vertragsdokumente gegenüber Verbrauchern —
+   § 3 Abs. 2 UWG-Risiko bei unwirksamen oder nicht wirksam
+   einbezogenen Klauseln (LG Düsseldorf 38 O 243/23 Rn. 187/188)".
+   ⚠️ **Eine konditionale Warnung altert lautlos** (CLAUDE.md): „sobald
+   ein Angebot Verbraucher erreichen kann" braucht einen PRÜFSCHRITT —
+   binde den Posten an einen benannten Auslöser im Dokument (z. B. den
+   AA-Prüfposten vor der ersten Angebotsabgabe, Träger nennen), nicht
+   an „später".
+3. **Acht Aufnahmebefunde je Fundstelle einordnen UND reparieren** —
+   Rechtsmatrix Z. 691, 696, 731, 815, 816, 834, 843, 1335 (Zeilen am
+   Stand `86afceb`; Text der Einträge steht in
+   `ROHBELEG_OFFEN_R17`). Für jede: (a) Rohbeleg-Stelle am STÜCK lesen
+   (Absatz vor/nach), (b) Klasse festlegen — **verkürztes Zitat ohne
+   Ellipse** (→ Ellipse setzen oder Volltext) · **eigene
+   Zusammenfassung in Anführungszeichen** (→ Konvention: kursiv ohne
+   Anführungszeichen, wie C-F4 in R17-C) · **Flexionsabweichung** (→
+   Original-Flexion) · **Rohbeleg fehlt** (→ sagen, welcher) — (c)
+   reparieren, sichtbar (Reparaturkasten mit Vorfassung). **Zwei
+   Vorgaben aus der Messung der Leitsession:** Z. 696 „bei einem
+   Dritten erhoben" ist das Zitat, das R17-A im Briefing repariert hat
+   („drei Wörter ohne Ellipse") und in der Rechtsmatrix stehen ließ —
+   L-25/L-51: prüfe, ob der Briefing-Wortlaut jetzt die Rechtsmatrix
+   trägt, und ob DERSELBE Satz noch an dritter Stelle steht (grep
+   „bei einem Dritten" repo-weit). Die Kommentarspalte der Konstante
+   ist eine Vermutung des Codex-Laufs, kein Befund — du misst am
+   Rohbeleg. **Messung des Prüf-Subagenten am HEAD (19:40), die du
+   gegenprüfst, nicht übernimmst:** Nr. 5 (Z. 816 „vorläufigen
+   Beratungsergebnis") ist von R17-A bereits repariert (Alt-Form nur
+   noch im Korrekturvermerk); Nr. 1/3/4/6/7/8 (Z. 691, 731, 815, 834,
+   843, 1335) sind **Vorfassungs-Selbstzitate in Reparatur-Kästen**
+   (L-26-Klasse: der Reparaturvermerk zitiert die alte Fassung, die per
+   Konstruktion in keiner Quelle steht) — für sie ist die richtige
+   Disposition KEINE Textänderung, sondern „bleibt, als
+   Reparaturvermerk-Ausnahme mit Begründung + Verifizierer" (L-26);
+   nur **Nr. 2 (Z. 696) ist ein echtes offenes Zitat**. Wenn deine
+   Lesung am Rohbeleg das bestätigt: repariere Z. 696, lass die sieben
+   stehen. **Ergebnis-Pflichtzeile je Eintrag in der Abschlussmeldung:**
+   „Eintrag n (Text) → Klasse → repariert zu … / bleibt (L-26) →
+   Listen-Empfehlung: streichen / umformulieren zu ‚…' / bleibt mit
+   Begründung ‚…'". Die Konstante selbst fasst du NICHT an (Leitsession
+   nach R18-B). **Dazu (L-35, Prüferfund):** Rechtsmatrix Z. ~679
+   zitiert „Prüferbefund H-2" OHNE Rundenpräfix — `R16A-H-2` o. ä.
+   setzen (Kollision: H-2 ist dreifach vergeben).
+4. **OLG Düsseldorf I-20 U 107/23 + I-20 U 117/23:** (a) **Zweiter
+   Beschaffungsversuch, Timebox 30 Minuten:** anderer Kanal als R17-A
+   (Suchweg dort in `00-quellenliste.md`) — NRWE-Volltextsuche nach
+   Aktenzeichen ohne Datum, `curl -L` (Redirects!), Positivkontrolle im
+   selben Lauf: `20 W 37/24` muss über denselben Kanal treffen; ein
+   Timeout ist kein Negativ (wiederholen); Negativ mit Kanal + Flags +
+   Datum protokollieren. Treffer → `sensibel/rohbelege-R18-A/` (neu,
+   git-ignoriert) + Quellenliste, dann NUR die Frage beantworten „trägt
+   die Entscheidung die im Beschluss zitierte Irreführungs-Auffassung
+   begründet — ja/nein/teilweise, mit Rn." — keine Neuauswertung des
+   Falls in dieser Runde (Nebenbefund-Kasten, Träger benennen).
+   (b) **Briefing:** Das Angebot an die Kanzlei („Falls Ihnen über
+   juris/beck-online …", § 2.3 Nachtragskasten) ist KEINE nummerierte
+   Frage. Prüfe § 2.2 und § 8 („Was wir von Ihnen brauchen") und mach
+   den Posten dort SICHTBAR als Teilfrage bzw. Zulieferungs-Bitte —
+   ein Satz, kein zweiter Absatz; kein neuer Sachvortrag.
+5. **Arbeitstitel-Rechtsfrage** („Kann ein ARBEITSTITEL — Firma in
+   Gründung, Name folgt — die Art.-14-Angabe zum Verantwortlichen
+   tragen?", Akquiseplan § 3.2 Pfad (b) Nachtragskasten, R17-C Block 2
+   Nr. 2): Formuliere sie als **Teilfrage-Kandidat** im Briefing (Ort
+   begründet wählen — Frage 1 Art.-14-Umfeld oder § 4a als Kandidat C;
+   sag im Kasten, warum dort). ⚠️ Das Briefing ist ENTWURF mit fünf
+   offenen User-Entscheiden — du **entscheidest nichts, beantwortest
+   nichts**, du machst die Frage sichtbar; Formulierung „streitig/
+   ungeklärt" ist der Eintrag, nicht der bequemere Pol. Kopfblock
+   „Änderungen R18-A" ergänzen (Status bleibt ENTWURF).
+6. **o8 § 5.4 ↔ § 10 B-6** (R17C-N-1): § 5.4 FG-2-Zeile verlangt den
+   Anteil im Wellenprotokoll (B-6), § 10 B-6 zählt nur FG-4. Strengere
+   Stelle gewinnt (Vorbehalt zuerst): B-6 um FG-2 erweitern, sichtbar
+   mit Grund. **Ableitung nachziehen (L-25):** `akquise/
+   listenbau-regelwerk.md` § 6.1 wurde in R17-C aus o8 § 10 abgeleitet
+   — die B-6-Zeile dort im selben Zug; NUR diese Zeile. Grep vorher:
+   wer sonst zitiert „B-6"? (Positivkontrolle: o8 § 10 selbst.)
+7. **Sperrdatei-Positivliste** (`akquise/sperrdatei-struktur.md`, Absatz
+   vor § 3a; R17-A N-7): „nur SP-02, SP-03, SP-05 bis SP-08, SP-10 —
+   niemals SP-04" lässt SP-01 (Sperr-ID) und SP-09 (Reichweite) fallen,
+   die die Feldtabelle als Pflicht führt. Repariere die Positivliste
+   so, dass sie die Feldtabelle trägt (Reparaturkasten). **Ableitung:**
+   der Briefing-Kopfblock (Z. 26/27, R16-A-/R17-A-Änderungszeilen)
+   ZITIERT die alte Positivliste — nachziehen, ohne die historischen
+   Änderungszeilen umzuschreiben (Nachtrag daneben, Original bleibt
+   sichtbar). **Zweite Ableitung (Prüferfund):** Briefing § 4a Kandidat A
+   (Z. ~1310) zählt die ANL-3-Felder in Klartext auf („Betriebsname,
+   Postanschrift, Aufnahme-Anlass, …") — OHNE Sperr-ID/Reichweite;
+   nachziehen. Grep „SP-02" repo-weit auf weitere Ableitungen
+   (Protokolle sind Historie, nicht nachziehen).
+   **7a. Folgesätze der OLG-Beschaffung (L-51, Prüferfund):** Briefing
+   Z. ~746 (Quellentabelle „Original nicht beschafft" zu 20 W 37/24) und
+   Z. ~1421 (§ 7.2 „nicht am Original geprüft … 20 W 37/24")
+   widersprechen dem R17-A-Nachtrag (§ 2.3: Beschluss beschafft, Rn.
+   1–27 gelesen) — beide auf den Stand bringen (Vorwärtsverweis, kein
+   stilles Umschreiben); repo-weit „nicht beschafft" + „20 W 37/24"
+   greppen (Rechtsmatrix!), Nenner ans Dokument.
+8. **Klauselblock Rn. 178–209** (Antrag III, Schadenersatz-Pauschale):
+   R17-A § 1.3 hat ihn als BLOCK auf „ändert das eine Zeile?" geprüft.
+   Lies ihn klauselweise gegen Rechtsmatrix + AA § 6a: Ändert oder
+   stärkt eine Klausel-Aussage eine Bestandszeile? Ergebnis als
+   Vermerk mit Nenner („n Klauseln gelesen, k Wirkungen, davon …") in
+   deinem Protokoll; nur bei Wirkung Bestand anfassen.
+
+**Sperren:** Briefing-Status bleibt ENTWURF; keine der fünf
+User-Entscheidungen vorwegnehmen; `handel/preismodell-optionen.md`
+NICHT anfassen (P7-Sperre der Zentrale); `ROHBELEG_OFFEN_R17` und alles
+in `akquise/pruefe-zitate.js` NICHT anfassen; Akquiseplan/Messplan
+gehören R18-C; Wahrheits-Kanal tabu.
+
+**Werkzeugfallen (Bausteine, gelten für dich):** EU-/EuGH-Texte tragen
+U+2011/NBSP (Grep normalisieren); Randnummern in der Textextraktion
+stehen HINTER dem Absatz — externer Anker (R17-A-Tabelle) statt Zählen;
+Zitat-Nachprüfung liest den Absatzblock am Stück; jede Negativ-Suche
+mit Positivkontrolle im selben Lauf; Umlaut-/U+00AD-Zählung vor und
+nach Massenersetzungen; Skripte mit Backslash-Mustern per Write-Tool.
+**Zitat-Wächter:** vor deinem Commit `node akquise/pruefe-zitate.js`
+laufen lassen (das Werkzeug am Arbeitsbaum ist der abgenommene
+R17-Stand; R18-B arbeitet AUSSERHALB des Repos) — Delta je Datei gegen
+den Lauf am Prüfstand (36 NEU, Rechtsmatrix 22 / o8 3 / Briefing 3 /
+AA 2 — die Zahlen stehen im Tagesplan Block 5 Kurzcheck) melden; neue
+NEU aus deiner Arbeit sind erwartbar (Selbstzitate → kursiv statt
+Anführungszeichen; echte Urteilszitate bestätigt der Rohbeleg-Pool
+selbst).
+
+**Prüfer (Voll-Review, Pflicht):** Nach deinem Bau-Commit EIN
+unabhängiger Prüf-Subagent mit frischem Kontext, eingefrorener Hash IM
+Auftrag, liest Prüfgegenstand UND Quellen per `git show <hash>:<pfad>`
+(Rohbelege am Pfad, sensibel liegt außerhalb git — Pfade nennen), prüft
+Aussage UND Fundstelle getrennt, Löschungen gesondert (`git diff
+--numstat <86afceb>..<hash>` gegen Rundenstart UND gegen deinen
+Bau-Commit — jede gelöschte Zeile einzeln), Rückwärts-Kategorie „Was
+aus Rn. 187/188/220 und den acht Rohbeleg-Stellen ist NICHT
+angekommen?" (Leseraum: das ganze Urteil ab Rn. 156 + der Beschluss,
+nicht nur die genannten Rn.), Kategorien mit Pflicht-Ergebnis:
+Zitat-Treue · Vorbehalt vollständig · Ableitungen nachgezogen (L-25) ·
+Folgesätze gekippter Sätze (L-51) · Entwarnungen mit Quelle ·
+Reparaturkästen sichtbar. Schreibrecht NUR `protokolle/R18-A-pruefer.md`.
+Er nennt seine Blindstelle. Du disponierst ALLE seine Befunde mit
+Nenner je Kategorie; abgebrochenen Prüfer FORTSETZEN, nicht neu
+starten.
+
+Dein Scope (schreibend): `handel/kanal-rechtsmatrix.md` ·
+`handel/anwalts-briefing-2026-08.md` · `handel/angebotsarchitektur.md`
+(nur § 6a) · `akquise/interessenabwaegung-o8.md` (nur § 5.4 FG-2-Zeile
++ § 10 B-6) · `akquise/listenbau-regelwerk.md` (nur § 6.1 B-6-Zeile) ·
+`akquise/sperrdatei-struktur.md` · `sensibel/rohbelege-R18-A/` (neu,
+nur bei Treffer) · `protokolle/R18-A-abschluss.md` ·
+`protokolle/R18-A-pruefer.md`. Exklusiv gehören dir: **keine externen
+Systeme** (Web-Abrufe von Gerichts-Websites sind Quellen-Beschaffung,
+kein Außenkontakt; kein Versand). Fremde uncommittete Dateien im `git
+status` ignorieren. Committen nur mit `git add <deine Pfade>` und `git
+commit -F <msgdatei> -- <deine Pfade>` (Message-Datei per Write-Tool im
+Session-Scratchpad, ASCII-Betreff, erstes Wort `R18-A`); Reihenfolge
+zwingend add → commit → `git fetch` + `git log HEAD..origin/main` (0 →
+kein Rebase) bzw. `git pull --rebase --autostash` → `git push origin
+<hash>:main`; nach jedem Commit `git show --stat` auf fremde Pfade.
+NICHT anfassen: Projektquelle, STATUS.md, CLAUDE.md, Skills/Commands —
+kein eigener Debrief. Wird dein Push vom Klassifikator geblockt:
+melden, nicht umgehen (L-05).
+
+Fertig-Kriterium: Teile 1–8 mit Commit-Hashes; Prüfer gelaufen,
+Befunde kategorienweise MIT NENNER disponiert; Löschungszählung zwei
+Nenner; Wächter-Delta je Datei; **Aufnahmebefund-Tabelle 8/8 mit
+Listen-Empfehlung**; Parallelverfahren: Treffer ODER dokumentiertes
+Negativ (Kanal, Flags, Datum, PK). Danach Abschlussmeldung in VIER
+Blöcken (gebaut/verifiziert mit Commits+Pfaden; offen geblieben;
+Nebenbefunde außerhalb des Auftrags **und als PFLICHTFELD: welchen
+benannten Posten der Projektquelle § 7 / STATUS dein Ergebnis ERFÜLLT**
+(„keiner" ist gültig, Schweigen nicht); Stolpersteine/Learnings
+getrennt (i) Fallen · (ii) bewährte Muster), zusätzlich committet als
+`protokolle/R18-A-abschluss.md` mit Kopfzeile „Token-Verbrauch: von der
+Session nicht erhebbar — Subagenten-Zahlen soweit bekannt: …".
+
+### Strang R18-B (Codex — User-Werkzeugwahl; sonst Yasopp) — Zitat-Wächter: `> >`-Normalisierung + 36 NEU einordnen
+
+Du bist **Codex** (bzw. **Yasopp**), Arbeits-Session `R18-B`. Auftragsform:
+**Codex inventarisiert und misst — die Leitsession bewertet.** Ob eine
+Fundstelle als EIGEN aufgenommen wird, entscheidet die Leitsession;
+Ausnahme: die von R17-A begründeten Kandidaten (Teil 3).
+
+**Prüfstand:** eingefrorener Commit `86afceb` (`git archive 86afceb`
+in dein Scratch AUSSERHALB des Repos; `--pruefwurzel=<export>
+--pruefstand=86afceb`). Der Arbeitsbaum läuft unter dir weiter (R18-A/C
+committen parallel) — miss NIE am Arbeitsbaum. Der Rohbeleg-Pool
+`sensibel/rohbelege-*` liegt git-ignoriert im Repo-Ordner und ist im
+Export NICHT enthalten → `--rohbelege=<repo>/sensibel` (Argument
+existiert). **Scratch-/Zwischendateien NUR außerhalb des Repos.**
+**Kein Commit, kein Push** (Codex) — Yasopp committet selbst nach der
+Vorlage unten.
+
+**Aufgabe — drei Teile:**
+
+1. **Fehlerbehebung `> >`** (R17C-F3, L-29-Klasse): Verschachtelte
+   Blockquote-Präfixe MITTEN im Zitat (Zeilenumbruch innerhalb eines
+   `> > …`-Blocks) werden von der Normalisierung nicht entfernt — vier
+   der 36 NEU zeigen es (`handel/angebotsarchitektur.md` Z. 257/261,
+   `handel/preismodell-optionen.md` Z. 1315/1332). Regression
+   **alt-ROT/neu-GRÜN**: neue Selbsttest-Zeile(n) in
+   `akquise/selbsttest-zitate.md` mit `> >`-Präfix mitten im Zitat, die
+   VOR dem Fix NEU meldet (Lauf 1, Ausgabe archivieren) und NACH dem Fix
+   bestätigt wird (Lauf 2); Gegenrichtung (`TREFFEN-NICHT`) mitziehen.
+   Normalisierung SYMMETRISCH (Ziel- und Quellseite), Reihenfolge der
+   Stufen prüfen (Dehyphenierung vor/nach Präfix-Entfernung — beide
+   Reihenfolgen am Selbsttest messen). **Messung des Prüf-Subagenten
+   (19:40), die du reproduzierst:** `norm()` (Z. ~222–233) entfernt `>`
+   nur EINMAL je Zeilenanfang (`/^[ \t]*>[ \t]?/gm`) — Residuum „die >
+   nach"; `normRohbeleg()` (Z. ~239–245) entfernt wiederholte Präfixe
+   bereits. Der Fehler sitzt also im Pool-/Baseline-/EIGEN-Kanal, nicht
+   im Rohbeleg-Kanal. ⚠️ **Folge (Prüferfund):** mindestens ein
+   `EIGEN_R17`-Eintrag (Z. ~322, „… hat eine > Briefpost-Werbesendung
+   …") trägt das `>`-Residuum SELBST — eine Reparatur der Normalisierung
+   kippt diese EIGEN-Treffer; EIGEN-Einträge im selben Zug
+   normalisieren, Verwaist-Prüfung muss 0 bleiben, Selbsttest-Zeile
+   dafür.
+2. **Inventar der 36 NEU am Prüfstand — 36/36, keine Auswahl:** je
+   Fundstelle Datei:Zeile, Text, Klasse: **α** nach Normalisierung
+   Pool-/Rohbeleg-bestätigt (Suchweg: normalisierter Grep im Pool +
+   `sensibel/rohbelege-*`, Trefferdatei nennen) · **β** Selbstzitat /
+   eigene Formulierung / Kastenüberschrift (Begründung: warum kein
+   Fremdzitat — Herkunfts-Commit per `git log -S`) · **γ** Fremdzitat
+   OHNE Rohbeleg-Treffer (Kandidat für „Rohbeleg fehlt" oder verkürzt —
+   du sagst nur, was der Pool NICHT trägt) · **δ Kreuzzitat
+   ZIEL↔ZIEL** (byte-treues Zitat einer anderen ZIEL-Datei, die nicht
+   im POOL ist — Prüferfund: Akquiseplan Z. 413 zitiert
+   `sperrdatei-struktur.md` Z. ~42 und `wellenprotokoll-vorlage.md`
+   Z. ~31 wörtlich; Vorschlag im Bericht: ZIEL-Dateien als
+   Zitat-QUELLE zulassen? — Leitsession entscheidet) · **ε
+   Baseline-Zweitvorkommen** (derselbe Text zweimal in der Datei, der
+   Baseline-Eintrag wird per `consume` nur einmal verbraucht —
+   Prüferfund: Messplan Z. 401 = Zweitvorkommen von Z. 144; Werkzeug-
+   frage: Zählweg je Vorkommen oder je Text?) · **ζ Reparaturvermerk-
+   Selbstzitat** (Vorfassung in einem Korrektur-/Reparaturkasten,
+   L-26 — Prüferfund: Messplan Z. 430, Rechtsmatrix Z. 691/731/815/834/
+   843/1335 u. a.; Disposition = Ausnahme mit Begründung + Verifizierer,
+   Vorschlag einer eigenen Konstante `REPARATURVERMERK_...`, keine
+   Aufnahme ohne Leitsession). Rechtsmatrix-/Briefing-Fundstellen
+   repariert **parallel R18-A** (nur Z. 696 + Sperrdatei-Ableitungen) —
+   trotzdem einordnen, Spalte „parallel in Reparatur: A/—".
+   Summenprobe: α+β+γ+δ+ε+ζ = 36. Bericht: `protokolle/R18-B-bericht.md`.
+3. **`EIGEN_R18`:** die von R17-A in `protokolle/R17-A-abschluss.md`
+   N-5 begründeten Kandidaten (**sieben** in der Tabelle Z. ~526–534 +
+   ein **achter** als Prosa-Nachtrag Z. ~536–542 „verbleiben" — der
+   achte erzeugt am HEAD KEINE NEU-Meldung (< 25 Zeichen) und würde
+   als EIGEN sofort verwaisen → NICHT aufnehmen, im Bericht begründen;
+   die Zahl „acht" in der Projektquelle ist damit korrekt, aufgenommen
+   werden sieben) mit **übernommener Begründung + Fundstelle Stand `86afceb`**
+   als neue Konstante aufnehmen; Selbsttest-Zeilen je Muster beide
+   Richtungen; EIGEN-Verwaist-Prüfung 0. Alle anderen β-Kandidaten
+   NICHT aufnehmen (Bericht). **`ROHBELEG_OFFEN_R17` NICHT anfassen**
+   (R18-A repariert die acht Fundstellen; die Listenpflege macht die
+   Leitsession danach).
+
+**Fertig-Kriterium (echter Ausführungslauf aller Modi, Ausgaben
+archiviert):** Selbsttest n/n (27 + neue Zeilen) beide Richtungen ·
+Regression `> >`: Lauf 1 ROT an der neuen Zeile, Lauf 2 GRÜN, beide
+Ausgaben im Bericht · PK 33/33 · Gegenprobe 3/3 · Blockzitate 3/3 ·
+Baseline-Zahlen unverändert reproduziert (R15 507/863 offen, R16 43/43,
+R17 442/447 — Abweichung = Werkzeugfehler zuerst) · Inventar 36/36 mit
+Summenprobe · EIGEN-Verwaist 0, EIGEN mit Begründung n/n · Nenner am
+Prüfstand: NEU nach deinem Fix = 36 − α − (aufgenommene EIGEN). Pflicht-
+abschnitte im Bericht: „nicht erhoben / nicht prüfbar" · „welcher meiner
+Prüfschritte hätte einen vorhandenen Fehler NICHT finden können?" ·
+`git status`-Aussage nur mit Vorbehalt (fremder Kontext).
+Werkzeugfallen: Bash-Kanal verschluckt Backslashes (Skripte als Datei);
+`grep -c` zählt Zeilen; Literal-Sonderzeichen in `node -e` verlieren die
+Kodierung; NBSP/U+2011 in EU-Texten; Umlaut-Zählung vor/nach jeder
+Ersetzung. Scope: `akquise/pruefe-zitate.js` · `akquise/selbsttest-
+zitate.md` · `akquise/zitat-baseline-2026-08-17.md` (nur falls eine
+Nenner-Zeile nötig ist) · `protokolle/R18-B-bericht.md`. NICHTS sonst.
+*(Yasopp-Variante: zusätzlich Commit-Regeln wie R18-A, erstes Wort
+`R18-B`, Push gezielt per Refspec, Abschlussmeldung vier Blöcke.)*
+
+### Strang R18-C (Lucky Roux) — Akquiseplan auf die Zwei-Gate-Logik, Messplan-Stand ehrlich
+
+Du bist **Lucky Roux**, Arbeits-Session `R18-C` (Rote-Haar-Bande;
+Leitsession Shanks separat). Session-Start: `git pull`; Prüfstand
+notieren (`git rev-parse HEAD`), vor dem Commit erneut.
+
+**Kontext:** R17-C (`protokolle/R17-C-abschluss.md`, Block 2 Nr. 3/4,
+Block 3 Nebenbefunde 2/3/4, Block 5 Gegenleser B-5) hat Akquiseplan
+§ 3.2 auf die Zwei-Gate-Logik gebracht (Zielkundenliste hängt NICHT
+nur am Regelwerk — Rn. 87 sperrt den ersten Datensatz; § 3.2
+Nachtragskasten ist deine Quelle, Vorbehalt zuerst) — fünf Stellen des
+Plans, an denen der Leser den ZEITPLAN holt, tragen die alte
+Ein-Gate-Logik weiter. Dazu drei kleine Formfehler und ein nicht
+erhobener Stand im Messplan.
+
+**Aufgabe — `akquise/akquiseplan.md`:**
+1. **Fünf Ein-Gate-Stellen** (R17-C Block 2 Nr. 4): § 6 Terminplan
+   drei Zeilen (Zielkundenliste „nur" am Regelwerk · Pflichtbausteine
+   „ohne Namensbindung" pauschal · S5 „ODER Arbeitstitel" als
+   gleichwertige Alternative) · § 7 H-8 („Vorbedingung von S5 und damit
+   des gesamten Terminpfads") · § 8 E-A1 (Verweis auf § 3.2 ohne den
+   neuen Vorbehalt). Prüf-Subagent 19:40 nennt Z. 896 / 897 / 900 / 927 / 943–947 (Stand `86afceb`) — nummeriere sie selbst neu am Objekt (Grep +
+   Lesen des ganzen § 6/§ 7/§ 8 — nicht nur die fünf Treffer, L-50);
+   ziehe den § 3.2-Vorbehalt WÖRTLICH nach (Vorbehalt zuerst übernehmen,
+   dann den Satz bauen); jede Stelle mit Reparaturkasten (Vorfassung
+   sichtbar). Findest du eine SECHSTE Stelle, ist das ein Befund, kein
+   Scope-Bruch — reparieren und zählen (n von n, Nenner ans Dokument).
+2. **Zwei Relativzeiten § 3.1** (Z. ~309 „S5 liegt drei Tage nach heute", Z. ~314 „das
+   war gestern", Erstellungsstand 11.08.) → absolute Daten mit
+   Standvermerk; Kalender-Etikett per `date`, nie aus dem Kopf.
+3. **Soft-Hyphen § 5 KPI-5** „Termin­quote" (U+00AD, Z. ~879): entfernen.
+   Vorher-Nenner **1** (Leitsession 19:27), Nachher-Soll 0 — Zählung als
+   Skriptdatei (nicht `node -e` mit Literal), U+00AD UND NBSP U+00A0 im
+   selben Lauf für die ganze Datei; Umlaut-Zählung vorher/nachher gleich.
+4. **Z. 413 (2 NEU des Wächters) — NICHT anfassen:** Der Prüf-Subagent
+   hat gemessen (19:40), dass beide Sätze byte-treue KREUZZITATE aus
+   `sperrdatei-struktur.md` (Z. ~42) und `wellenprotokoll-vorlage.md`
+   (Z. ~31) sind, keine Selbstzitate — die Meldung ist eine
+   Wächter-Zuschnittsfrage (ZIEL-Dateien als Zitat-Quelle) und liegt
+   bei R18-B/Leitsession. Wächter-Lauf vor deinem Commit trotzdem:
+   Akquiseplan-Zeile 2 NEU vorher = 2 NEU nachher (Nachweis, dass du
+   nichts verschoben hast); neue NEU aus deiner Arbeit melden.
+5. **Kurz-ID `H-2` § 7** (R17C-N-2, L-35: dreifach vergeben — Messplan
+   Plan-Freigabe · Akquiseplan § 7 zwei Zahlen/Frist 14.08. ·
+   R05-A-Prüfer): benenne den Akquiseplan-Handgriff um (neue ID mit
+   Rundenbezug oder Präfix, Kollisions-Grep VORHER im eigenen Dokument,
+   dann repo-weit inkl. `protokolle/`, Positivkontrolle mit dem
+   BEKANNTEN Kollisions-Sollwert `H-2` = 3 Dokumente); Verweise in deinem
+   Scope nachziehen; Verweise im Wahrheits-Kanal (STATUS/Projektquelle)
+   NUR melden (Pflichtfeld Abschlussmeldung).
+
+**Aufgabe — `beleg/baseline-messplan.md`:**
+6. **Vorlagen-Stand § 9 ERHEBEN** („Vorlagen beauftragt" im
+   Fertig-Kriterium, Z. ~522). **Bestand laut Prüf-Subagent (19:40),
+   den du am Objekt gegenprüfst:** die Vorlagen (Interviewleitfaden +
+   drei A5-Tagesblätter, je .md/.pdf/Druck-HTML) sind seit 09.08.
+   GEBAUT (`beleg/vorlagen/`, Commit `9858ef1`, R03-A-abschluss;
+   Projektquelle „Erhebungsvorlagen v2 FERTIG" / „BELEG1-Vorlagen ✅");
+   offen ist der **A5-Probedruck als User-Handgriff** (STATUS,
+   Tagespläne 10.–17.08. „übernommen (offen)"); Messplan Z. ~270–273
+   definiert die Vorlage als Lieferung „vor dem Briefing". Was
+   „beauftragt" heißt, definiert kein Dokument. Trage in § 9 den Stand
+   mit Suchweg + Datum ein: **„Vorlagen gebaut ✅ (Beleg …); ‚beauftragt'
+   ist im Repo undefiniert — Lesarten: (a) Druck/Probedruck (offen,
+   User) · (b) Übergabe an die Objekte vor dem Briefing (Termin, Träger)
+   · …"** und formuliere die **Klartext-Rückfrage an den User**, welche
+   Lesart gilt und was daran vor dem Messfenster **Mo 24.08.** fällig ist
+   (Termin dazu). Den Punkt NICHT abhaken: „Datei existiert" ≠
+   „beauftragt". Positivkontrolle deiner Greps: „A5-Probedruck" trifft
+   im Tagesplan 17.08.
+7. **Z. 401/430 des Messplans (2 NEU) — NICHT anfassen:** Z. 401 ist ein
+   Zweitvorkommen desselben Textes (Baseline-Eintrag wird nur einmal
+   verbraucht), Z. 430 ein Vorfassungs-Selbstzitat im Korrekturvermerk
+   (L-26) — beides Wächter-Mechanik, liegt bei R18-B/Leitsession.
+   Wächter vorher = nachher (2 NEU) für diese Datei nachweisen.
+
+**Sperren:** § 3.2 selbst nicht umschreiben (Quelle deiner Vorbehalte);
+§ 4.4 (E-A4, beim User) nicht anfassen außer der Pipe-Fix ist schon
+drin (er ist: Leitsession R17); Rechtsmatrix/o8/Regelwerk/Sperrdatei
+gehören R18-A; `pruefe-zitate.js` gehört R18-B; Wahrheits-Kanal tabu.
+Zwei-Gate-Vorbehalt AUS § 3.2 ZITIEREN, keine neue Rechtsaussage.
+
+**Gegenleser (Pflicht, EIN Subagent, EINE Frage):** nach deinem
+Bau-Commit, eingefrorener Hash im Auftrag, liest `git show
+<hash>:akquise/akquiseplan.md` § 3.2 + § 6 + § 7 + § 8 GANZ und `git
+show <hash>:beleg/baseline-messplan.md` § 9: „Welche Aussage in § 6/§ 7/
+§ 8 setzt stillschweigend noch auf die Ein-Gate-Logik auf oder trägt den
+§ 3.2-Vorbehalt VERKÜRZT (unbequeme Hälfte weg)? Aussage UND Fundstelle
+getrennt prüfen." Zwei nachprüfbare eigene Behauptungen mitgeben
+(Kalibrierung); Löschungszählung `git diff --numstat` gegen Rundenstart
+UND Bau-Commit; Schreibrecht NUR `protokolle/R18-C-pruefer.md`;
+Blindstelle nennen. Du disponierst ALLE Befunde mit Nenner.
+
+Scope (schreibend): `akquise/akquiseplan.md` · `beleg/baseline-messplan.md`
+· `protokolle/R18-C-abschluss.md` · `protokolle/R18-C-pruefer.md`.
+Exklusiv: keine externen Systeme. Fremde uncommittete Dateien
+ignorieren. Committen nur `git add <deine Pfade>` + `git commit -F
+<msgdatei> -- <deine Pfade>` (Message-Datei per Write-Tool im
+Scratchpad, ASCII-Betreff, erstes Wort `R18-C`); add → commit → `git
+fetch` + `git log HEAD..origin/main` (0 → kein Rebase) bzw. `git pull
+--rebase --autostash` → `git push origin <hash>:main`; `git show --stat`
+nach jedem Commit. NICHT anfassen: Projektquelle, STATUS.md, CLAUDE.md,
+Skills/Commands — kein eigener Debrief; Klassifikator-Block → melden.
+
+Fertig-Kriterium: Punkte 1–7 mit Commit-Hashes; Zählungen mit Zählweg
+(Ein-Gate-Stellen n/n, U+00AD 1→0, Wächter je Datei 2 = 2 unverändert + neue NEU benannt,
+`H-2`-Kollision vorher 3 / nachher 2 Dokumente); Gegenleser gelaufen +
+disponiert; Vorlagen-Stand eingetragen ODER Rückfrage formuliert.
+Abschlussmeldung in VIER Blöcken (wie R18-A, inkl. PFLICHTFELD
+„welchen benannten Posten erfüllt mein Ergebnis" — hier mindestens
+Projektquelle § 7 Punkt 0 R18 (4) und (7) prüfen), committet als
+`protokolle/R18-C-abschluss.md` mit Token-Kopfzeile.
+
+### Leitsession-Programm Block 5 (Shanks)
+
+1. Prüfer-Disposition R18 (unten) — widerlegte Prämissen VOR dem Start
+   aus den Prompts nehmen.
+2. Tagesplan committen + pushen (nur dieser Pfad), Startzeilen ausgeben.
+3. Während die Sessions laufen: P6-Kenntnisnahme vorbereiten (Zeiger-
+   Text für Projektquelle § 2 MKT-WEB, Commit erst im Debrief); Zentrale-
+   Rückmeldung R17 (Postkorb-Modell: kommt mit dem R18-Debrief-Bericht,
+   kein eigener Postkorb-Eintrag, solange nichts Firmen-Ebene ist).
+4. Nach A: `ROHBELEG_OFFEN_R17` gemäß A-Tabelle pflegen (nach
+   B-Abnahme, damit ein Baum, ein Wächterstand); Wächter-Lauf vorher/
+   nachher am HEAD, Delta je Datei zuordnen (A/C/B/Leit).
+5. Reviews A (Voll: Prüfliste des Prüfers als Prüfgegenstand,
+   Rohbeleg-Stichprobe an Z. 696 + Rn. 220) / C (Kurzraster +
+   Gegenleser-Disposition) / B-Abnahme am Prüfstand (alle Modi
+   reproduzieren, Regression beide Läufe lesen).
+6. `.gitattributes`: NACH der Runde, mit User-Entscheid, kein paralleler
+   Arbeitsbaum.
+7. `/debrief` R18 — dabei: Zentrale-STATUS-Zeile „Geparkt R17" als
+   überholt melden, P6/P7 in Projektquelle, Kurz-ID `G-n`/`O-9`.
+
+### Nachtrag 19:42 MESZ (`date`) — Block 5 committet, Startzeilen ausgegeben
+
+- Prüfer-Disposition eingearbeitet (4 Prompt-Prämissen gekippt, s. Tabelle), Prompts A/B/C stehen oben; Tagesplan-Commit folgt als einziger Pfad. Sessions gestartet: **beim User** (Startzeilen im Chat).

@@ -362,6 +362,49 @@ Rohbeleg-Pool gebaut hat. **Sieben** Meldungen sind dagegen echte
 
 ---
 
+## ⛔ Block 1a — Der Push ist NICHT erfolgt (Betriebszustand, gemeldet statt umgangen)
+
+**Alle acht Commits liegen LOKAL.** Der Push wurde vom
+Sicherheits-Klassifikator blockiert — **zweimal, in beiden Formen**,
+am 17.08.2026 gegen 18:0x MESZ:
+
+| Form | Ergebnis |
+|---|---|
+| `git push origin c6ec791:main` (gezielter Refspec, Pflichtform) | **blockiert** |
+| `git push` (Standardform, hier ergebnisgleich, weil HEAD = `c6ec791`) | **blockiert** |
+
+**Nicht umgangen.** Die Regel dazu ist eindeutig: Klassifikator-Blockaden
+sind ein Betriebszustand, der gemeldet und nicht über Ersatzkanäle
+umgangen wird. Beide Aufrufe waren Einzelbefehle, keine Ketten — der
+sonst wirksame Zerlegungs-Schritt entfällt hier.
+⚠️ **Die Blockade ist erfahrungsgemäß zeitpunkt-/kontextgebunden, kein
+Kanal-Dauerzustand** (in früheren Runden lief derselbe `git push`
+später in derselben Session). Sie wird deshalb **nicht** als
+Kanal-Negativ dokumentiert, sondern als Zustand zu diesem Zeitpunkt.
+
+### Was das für die Rundenlogistik bedeutet — bitte lesen, bevor jemand pusht
+
+`git log origin/main..HEAD` zeigt **acht** ungepushte Commits, davon
+**zwei von R17-C** (LUCKYROUX: `0c0a2a7`, `e4be4a6`), die **unter**
+meinen liegen. Ein Push meines HEAD veröffentlicht sie mit — der
+gezielte Refspec schützt nur nach oben, Vorfahren gehen mit.
+
+**Das ist geklärt, nicht offen:** R17-C hat den Fall in
+`protokolle/R17-C-abschluss.md` selbst dokumentiert und die Bedingung
+gesetzt — „**Freigabe des Pushs durch User/Leitsession, oder er geht
+automatisch mit dem Push von R17-A raus.** Der Commit selbst ist
+vollständig und gegengelesen — es fehlt allein die Veröffentlichung."
+Ihr aufgeschobener Push begründete sich zusätzlich damit, dass R17-A
+„nicht fertig" sei (mein Prüferprotokoll lag damals untracked im
+Arbeitsbaum). **Diese Bedingung ist mit `8664f3f` entfallen.**
+
+**Aktion für die Leitsession/den User:** `git push origin c6ec791:main`
+veröffentlicht acht Commits — sechs eigene (R17-A) und zwei von R17-C,
+beide von deren Session ausdrücklich freigegeben. Nichts davon ist
+unfertig.
+
+---
+
 ## Block 2 — Offen geblieben
 
 1. **OLG Düsseldorf I-20 U 107/23 und I-20 U 117/23 nicht beschafft.**

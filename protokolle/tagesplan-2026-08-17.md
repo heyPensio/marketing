@@ -692,3 +692,19 @@ Verneinung über ein Kürzel prüft, prüft zusätzlich über den Sachbegriff
 über ein fremdes Dokument trägt den Stand ihres Lesezeitpunkts** — die
 Routing-Tabelle hat sie ohne Zeitstempel-Abgleich übernommen (Debrief
 R15, eigene Leitsession).
+
+### Nachtrag 14:50 MESZ — User-Antworten (Chat, sinngemäß; Wortlaut: „1. 22.09. 2. läuft bereits über codex 3. ja bitte mach das all worker sessions laufen jetzt")
+
+1. **H-1 = Di 22.09.2026** — das Livegang-Datum des neuen Buchungssystems
+   bei Firzlaff ist damit gleich dem Planungsanker. **→ R16-C, Teil 3:**
+   Datum eintragen (Quelle: User-Chat 17.08. ~14:50, Form: Kurzantwort
+   „22.09."; Belegstufe: Nutzerangabe, nicht Betreiber-Dokument —
+   so ausweisen). Abweichung zum Anker: 0 → kein Planumbau.
+2. **Strang B läuft über Codex** (User-Werkzeugwahl) → kein Commit durch
+   den Fremdagenten; Ergebnis als Dateien + `protokolle/R16-B-bericht.md`,
+   **Abnahme + Commit durch die Leitsession**. Strang-Tabelle: R16-B =
+   Codex (kein Banden-Name; Yasopp bleibt frei).
+3. **Modell-Statuszeilen R3-A…R15-E: ENTFALLEN** — endgültig nicht
+   erhebbar (User-Entscheid 17.08., Muster R08-A/B vom 12.08.). Wird im
+   Debrief in STATUS/Projektquelle geschlossen.
+4. **Alle Worker-Sessions laufen ab ~14:50** — Zuschnitt damit bestätigt.

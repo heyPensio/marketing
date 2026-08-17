@@ -3,12 +3,12 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`35fd61b`** (R17-Debrief 17.08.2026: eigener
-> Rückfluss L-51 + 3 Schärfungen [L-07/L-15/L-48] + 4 Werkzeug-/
-> Command-Nachträge, 0 fremde Deltas; Wächter SYNCHRON 12 / 0 DRIFT —
-> ⚠️ Ordner-Bausteine misst er nicht [Postkorb Zentrale `f58f1c0`];
-> Regelwerk-Wächter Soll 80.000 / Warn 85.000 / Hart 90.000 B, nach
-> Verdichtung R17 unter Soll). **Die vollständige Nachzugs- und Stempel-Historie steht
+> 2026-08-09; Stand **`74277bc`** (R18-Debrief 17.08.2026: eigener
+> Rückfluss 3 Schärfungen [L-51/L-38/Werkzeugfehler-Zahl] + 2
+> Werkzeug-Nachträge [windows-powershell, tagesstart], 0 fremde Deltas;
+> Wächter SYNCHRON 12 / 0 DRIFT — ⚠️ Ordner-Bausteine misst er nicht
+> [Postkorb Zentrale `f58f1c0`]; Regelwerk-Wächter Soll 80.000 / Warn
+> 85.000 / Hart 90.000 B, R18 79.937 B unter Soll). **Die vollständige Nachzugs- und Stempel-Historie steht
 > in `geruest-nachzug-protokoll.md`** — sie gehört nicht in den
 > auto-geladenen Kanal (Transit-Verbot G5). Nachzug neuer
 > Methodik-Lehren: `/projekt-init nachzug`.
@@ -605,13 +605,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Zielortliste macht die Quelle zur Abarbeitung — vorher einmal umgekehrt
   greppen: „Welche Punkte der Quelle nennen MEIN Dokument als Zielort?"
   (Herkunft: R30-D/R31-C.) **⭐ Ein präziser Quellverweis benennt, wo
-  man ANFÄNGT, nicht, wo man aufhört:** Der Auftrag nannte den
-  Unterabschnitt — die Nachbar-Rubrik desselben Dokuments trug den
-  Entscheider des wichtigsten offenen Postens und blieb ungelesen;
-  dieselbe Verengung führte einen Prüfer per „vom Protokoll rückwärts"
-  zur Entwarnung, bis er den Suchraum selbst erweiterte. Quell-Aufträge
-  nennen das DOKUMENT als Leseraum und den Abschnitt nur als Einstieg.
-  (L-34, MKT R12 — P-05 in Bau und Prüfung derselben Runde.)
+  man ANFÄNGT, nicht, wo man aufhört:** Quell-Aufträge nennen das
+  DOKUMENT als Leseraum und den Abschnitt nur als Einstieg — die
+  Nachbar-Rubrik trug den Entscheider, Bau und Prüfer verengten gleich
+  (L-34, MKT R12; Fallgeschichte im Register V18-1).
 - **⭐ Bewertungs-/Risikodokumente: Ergebnis JE FALLGRUPPE, plus eine
   Liste ausdrücklich GESPERRTER Argumente.** Ein Pauschalurteil zieht
   entweder die tragfähigen Fälle herunter oder deckt das Risiko zu —
@@ -640,10 +637,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   trotz Volltext-Lektüre liegen bleiben, weil die Auswertung entlang
   des Fragenkatalogs läuft (Herkunft: heyPensio R40).
 - **⭐ Zahlen an ihren SCHLÜSSEL binden — eine stimmende Summe ist KEIN
-  Zuordnungsbeleg:** Sechs Werte wurden in Quellreihenfolge übernommen, die
-  zugehörigen Namen daneben „natürlich" sortiert — vier von sechs paarweise
-  vertauscht, **die Kontrollsumme stimmte weiter** und deckte den Fehler zu.
-  Zahlenlisten immer als Tabelle **mit Schlüsselspalte** übernehmen, nie an
+  Zuordnungsbeleg:** vier von sechs Werten paarweise vertauscht, **die
+  Kontrollsumme stimmte weiter** (Register V18-4). Zahlenlisten immer als Tabelle **mit Schlüsselspalte** übernehmen, nie an
   eine Prosa-Reihenfolge gebunden; beim Verdichten aus der Quelle
   **kopieren**, nicht abschreiben. (Herkunft: heyPensio R35.)
 - **Zahlen/Preise nie aus einer einzelnen Tabellenzeile übernehmen:**
@@ -675,8 +670,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   greift. (Herkunft: heyPensio R43.)
 - **Eine Zahl, die offensichtlich nicht passen kann, ist ein
   Werkzeugfehler, kein Befund** — erst das Werkzeug prüfen, dann die
-  Sache. Und: Schlägt eine Prüfliste an, ist zuerst das PRÜFMUSTER
-  verdächtig (veralteter Sollwert), dann das Dokument.
+  Sache. **Passt EINE Kontrollzahl nicht, ist der ganze LAUF tot, nicht
+  die Stelle** — alle Zahlen desselben Laufs verwerfen (R18: „Umlaut = 2"
+  abgetan, 44/156 Soft-Hyphen/NBSP gemeldet, tatsächlich 0/0). Und:
+  Schlägt eine Prüfliste an, ist zuerst das PRÜFMUSTER verdächtig
+  (veralteter Sollwert), dann das Dokument.
 - **Beweismaßstab beidseitig anlegen;** eine Analogie (n=1 bei einem
   anderen Anbieter) ist kein Beleg — als Analogie kennzeichnen oder
   weglassen. Der Befangenheits-Maßstab rutscht systematisch asymmetrisch
@@ -814,9 +812,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **⭐ Bei einer Schwachstelle über KANÄLE lautet die Frage nicht „ist der
   Kanal dicht?", sondern „sind es ALLE Kanäle derselben Klasse?"** Ein
   Papier kann genau die Lücke lassen, die seine eigene Erfolgsprüfung
-  unsichtbar macht (Fix an EINEM von zwei beschriebenen Wegen geprüft, die Nachmessung fand drei weitere, darunter einen
-  Endpunkt in einem anderen Namensraum) — **die Erfolgsprüfung fragt jeden
-  Kanal EINZELN ab.** **Schwesterregel (Werkzeug-Seite): Klärt ein
+  unsichtbar macht (Belegfall Register V18-2) — **die Erfolgsprüfung
+  fragt jeden Kanal EINZELN ab.** **Schwesterregel (Werkzeug-Seite): Klärt ein
   Messwerkzeug eine Prämisse, sofort fragen, welche NACHBAR-Prämisse es
   mitklärt** (V17-12). **⭐ UND DAS GEGENMITTEL IST SELBST OFT EINE LISTE
   — dort bricht die Regel ein zweites Mal:** die wichtigste Leck-Klasse
@@ -826,10 +823,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   einzeln (V17-13).
 - **⭐ Was nur als BILD vorliegt (Fotos, Vor-Ort-Eindruck, Screenshare),
   wandert nicht von selbst in Text — und was nicht im Text steht, kann
-  erfunden werden und von KEINEM Prüfer widerlegt werden.** Ein Anleitungstext
-  beschrieb ein Bedienelement falsch; die richtige Beschreibung existierte nur
-  auf Fotos aus einer früheren Sitzung. Ein Prüfweg kann nur schlagen, wo eine
-  Soll-Aussage existiert. **Bevor Bildwissen in einen außenwirksamen Text
+  erfunden werden und von KEINEM Prüfer widerlegt werden.** Ein Prüfweg
+  kann nur schlagen, wo eine Soll-Aussage existiert (Belegfall Register
+  V18-3). **Bevor Bildwissen in einen außenwirksamen Text
   einfließt, wird es als Ist-Beschreibung im Repo festgehalten** (mit Quelle
   und Datum). (Herkunft: heyPensio R35, User-Fang.)
 - **⭐ Personenbezogene Daten NIE in eine versionierte Repo-Datei** —
@@ -869,11 +865,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **⭐ Wer einen Satz kippt, kippt seine FOLGESÄTZE (L-51).** Nach jeder
   Streichung, Widerlegung oder als unbelegt erkannten Prämisse ist der
   Suchraum nicht das WORT, sondern die SÄTZE, DIE AUF IHM STEHEN —
-  Folgefragen, Begründungen, Zeiger, eigene Prompts (R17, drei Sessions:
-  Superlativ an drei Fundstellen repariert, die Folgefrage trug ihn
-  weiter; „zwei Fremd-Dokumente" ohne Fundzeile wanderte in vier
-  Ableitungen). L-25 regelt die Ableitung zwischen Dateien, L-51 die
-  Schlussfolgerung im selben Text.
+  Folgefragen, Begründungen, Zeiger, eigene Prompts. **Die Suchmuster
+  kommen aus der SACHE (Folge-Logik), nie aus dem gekippten Vokabular:
+  ein Muster, dessen Treffer alle in der Reparaturstelle liegen, ist ein
+  Warnsignal, kein Negativ** (R18: sechste Ein-Gate-Stelle in anderen
+  Worten unsichtbar). L-25 regelt die Ableitung zwischen Dateien, L-51
+  die Schlussfolgerung im selben Text (Belegfälle R17/R18 im Register).
 - **Ein geklonter Textbaustein transportiert die Entwarnung des Originals
   in einen Zustand, in dem sie nicht mehr gilt** — nach jedem Klonen jeden
   Satz gegen den NEUEN Zustand prüfen, nicht nur die Variablen.
@@ -1028,7 +1025,11 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   blieben. **Sie braucht ZWEI Nenner: gegen den RUNDENSTART (0 beweist
   „kein Bestandstext angetastet") und gegen den eigenen BAU-COMMIT (zeigt
   die eigenen Reparaturen)** — ein einzelner Nenner verschweigt entweder
-  Arbeit oder suggeriert Löschungen an fremdem Text. (L-38, R15.)
+  Arbeit oder suggeriert Löschungen an fremdem Text. **Gegen die
+  EINFÜGE-Variante ist sie blind:** eine fehlende Leerzeile zieht per
+  Markdown-Fortsetzung Folgetext in ein Blockzitat — die Nahtstelle
+  als STRUKTUR lesen (Leerzeilen, Einrückung), nicht nur als Text.
+  (L-38, R15; Einfüge-Variante R18.)
 - **⭐ Eine KONDITIONALE Warnung altert lautlos.** „Wird der Termin
   verlegt, ist dieses Datum eine alte Zusage" ist korrekt formuliert und
   trotzdem wirkungslos, sobald die Bedingung eintritt — niemand prüft die

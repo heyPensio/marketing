@@ -103,6 +103,15 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
 
 ## Git unter PowerShell
 
+- **`core.autocrlf=true` ohne `.gitattributes` schreibt Code-/JSON-
+  Artefakte beim FRISCHEN Checkout mit CRLF** — im Arbeitsbaum sehen die
+  Dateien richtig aus, weil sie nie neu ausgecheckt wurden; ein Clone,
+  Worktree oder `git checkout` bricht sie (Herkunft: heyPensio R36-C 4/22
+  Code-Nodes tot bei grünen Tests, R45-C als Nebenbefund erneut).
+  **Pflicht in jedem Repo mit ausgeführten Artefakten: `.gitattributes`
+  mit `*.json text eol=lf`, `*.js text eol=lf` (+ weitere Code-Typen) und
+  einmaliges `git add --renormalize .` in einem ruhigen Fenster** — nie im
+  Parallelbetrieb.
 - Commit-Messages mit Anführungszeichen/Umlauten brechen als `-m`-Argument
   bzw. Here-String. **Message-Dateien mit dem Write-Tool anlegen** (nie
   Shell-Heredoc), BOM-frei, **im session-eigenen Scratchpad** (nie
@@ -128,4 +137,8 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
   „pathspec did not match any files" bei existierender Datei. Nach
   Analyse-Phasen mit Bash-`cd`s git-Kommandos robust mit
   `git -C <repo-pfad>` absetzen (kein eigenes `cd` nötig).
-  (Herkunft: MKT R6.)
+  (Herkunft: MKT R6.) **Auch das Grep-TOOL erbt dieses Verzeichnis:**
+  ein Aufruf ohne `path`-Parameter nach einem Bash-`cd` meldete 0
+  statt 14 Treffer — ein sauber aussehendes Negativ. Suchwerkzeuge
+  immer mit explizitem `path`; ein Nulltreffer nach einem Bash-`cd`
+  ist zuerst ein Kanalfehler. (Herkunft: MKT R18.)

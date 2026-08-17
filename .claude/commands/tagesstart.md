@@ -63,7 +63,12 @@ besprochen und ausdrücklich auf „den Morgen" verortet — im neuen Plan
 **null Treffer**, und er war der **einzige Auslöser für sämtliche Zugänge
 eines ganzen Arbeitsstrangs**. **Operative Form: vor dem Schreiben die
 Handgriff-Tabelle des Vortags öffnen und jede Zeile ausdrücklich
-disponieren** (übernommen / erledigt mit Beleg / entfallen mit Grund). Ein
+disponieren** (übernommen / erledigt mit Beleg / entfallen mit Grund).
+**⭐ „Übernommen" nur nach OBJEKT-BLICK (Herkunft: heyPensio R44): Jeder
+Terminposten mit Erledigungs-Artefakt (Key, Datei, Konto, Vertrag) wird vor
+der Übernahme am Objekt geprüft — ein 🔴-Terminposten lief durch STATUS,
+Briefing und Prämissenliste, obwohl das Artefakt seit Tagen erledigt war;
+der User stand vor einem unnötigen Handgriff.** Ein
 Handgriff ohne Disposition ist ein verlorener Handgriff — und dass sein
 Erledigungsstand **nicht messbar** ist (privater Kanal), macht die
 Migration wichtiger, nicht unwichtiger. *(Herkunft: heyPensio R36, von
@@ -241,10 +246,15 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    unter dem Fremdagenten weiter) · **nur lesend, genau eine
    Berichtsdatei** · **kein Commit/Push** (die Commit-Fähigkeit eines
    Fremdagenten ist unbelegt, solange sie niemand gemessen hat) ·
-   **Scratch-/Zwischendateien NUR außerhalb des Repos** (Session-
-   Scratchpad — MKT R16: ein Fremdagent legte `.r16b-scratch-<hash>/`
-   im Repo-Root an; im geteilten Arbeitsbaum ist das eine untracked
-   Datei mehr, die keine Session zuordnen kann) ·
+   **Scratch-/Zwischendateien NUR im Session-Scratchpad — nie im Repo,
+   nie auf der Ebene ÜBER den Repos** (MKT R16: ein Fremdagent legte
+   `.r16b-scratch-<hash>/` im Repo-Root an; MKT R18: derselbe Agent
+   legte den Prüfstand-Export als Nicht-Repo-Ordner neben die Repos —
+   beides sieht keine Session als eigene Arbeit) · **Lieferdateien
+   landen UNGESTAGT im Arbeitsbaum** — parallele Sessions, die dasselbe
+   Werkzeug benutzen, messen dann den UMBAUSTAND; ihr Prompt sagt das
+   ausdrücklich, und Wächter-Deltas brauchen zwei Snapshots mit
+   identischem Werkzeugstand (MKT R18) ·
    Pflichtabschnitte „nicht erhoben / nicht prüfbar" und „welcher meiner
    Prüfschritte hätte einen vorhandenen Fehler NICHT finden können?".
    ⚠️ **Und die Rücklauf-Regel: Eine `git status`-Aussage eines
@@ -286,7 +296,17 @@ Vorab: Welche Sessions laufen bereits, mit welchen Scopes? Saubere Basis
 einer, beim User nachfragen statt raten:
 
 1. **Ziel/Aufgabe** — konkret, mit Verweis auf Bauplan/Doku im Repo statt
-   Nacherzählung. **⭐ Bei Einarbeitungs-/Übertragungs-Aufträgen
+   Nacherzählung. **⭐ ZWECK-SATZ VOR DER ARTEFAKTLISTE + KONTROLLPUNKT
+   (Herkunft: heyPensio R44 — zwei Stränge an einem Tag, beide vom User
+   gefangen, einer vollständig zurückgenommen):** Ein Bau-Prompt nennt
+   zuerst in EINEM Satz, wozu das Ergebnis dient (Zweck im User-Wortlaut),
+   dann erst die Artefakte — die Session prüft die Liste gegen den Zweck,
+   bevor sie baut, und meldet die Lücke. Bei Gestaltungs-/Konzeptionsanteil
+   trägt der Prompt einen **Kontrollpunkt**: Zuschnitt (Etappen,
+   Messkriterien, Grenzen — eine Seite) zur Freigabe vorlegen, BEVOR Text,
+   Werkzeuge oder Assets entstehen; weicht das Verständnis des Users ab,
+   wird neu geschnitten, nicht nachgebessert. Eine Artefaktliste aus einem
+   Briefing-Zielbild ist ohne Zweck-Satz KEIN Auftrag. **⭐ Bei Einarbeitungs-/Übertragungs-Aufträgen
    (Befunde oder Entscheide aus Meldungen in Bestandsdokumente): Der
    Prompt verpflichtet die Session ausdrücklich, jeden Quell-Befund am
    ROHBELEG gegenzuprüfen statt ihn zu übertragen** — Abschlussmeldungen
@@ -437,7 +457,13 @@ einer, beim User nachfragen statt raten:
      komplett?" mit expliziten, dem GEGENSTAND angepassten Kategorien und
      Pflicht-Ergebnis je Kategorie (auch „keine Auffälligkeit") — eine
      offene „was fehlt?"-Frage findet diese Funde nicht (Herkunft:
-     heyPensio, vierfach belegt). **⭐ Pflicht-Kategorie in jedem
+     heyPensio, vierfach belegt). **⭐ Pflicht-Kategorie „ZIELUMGEBUNG",
+     sobald das Artefakt in fremder Umgebung laufen soll (Herkunft:
+     heyPensio R44): „Läuft das dort an — mit genau dem, was der
+     Empfänger real hat?" Drei Papier-Prüfläufe (≈80 Befunde) übersahen,
+     dass ein Einarbeitungspaket beim Empfänger nicht startet; billigster
+     Test = Trockenlauf in der Empfängerrolle, kein weiterer
+     Dokumenten-Prüflauf.** **⭐ Pflicht-Kategorie in jedem
      Prüfauftrag mit Quellenbezug: „Was aus der Quelle ist gar nicht
      erst angekommen?" — von der QUELLE RÜCKWÄRTS lesen:** Fehlende
      Vorbehalte und ausgelassene Pflichten erzeugen keine auffällige
@@ -494,8 +520,9 @@ einer, beim User nachfragen statt raten:
      Fundstelle getrennt prüfen" zwingt zum Lesen des Quellabsatzes am
      Stück statt zum Grep; (b) „… oder die STILLSCHWEIGEND auf X
      aufsetzt" stellt vom Wort auf die Struktur um; (c) zwei
-     nachprüfbare eigene Behauptungen mitgeben kalibriert, ob der Prüfer
-     am Objekt arbeitet. **Und: Prompts übergeben MESSUNGEN, keine
+     nachprüfbare eigene Behauptungen mitgeben, **davon eine FALSCHE**,
+     kalibriert, ob der Prüfer am Objekt arbeitet (MKT R18: die
+     Widerlegung wurde zu einem eigenständigen Befund). **Und: Prompts übergeben MESSUNGEN, keine
      Reparaturwege** — ein aus einem Subagenten-Befund übersetzter Weg
      („Präfix ergänzen, mechanisch") war falsch; das Ziel schlägt den Weg.
    - **Prüfgegenstand einfrieren** oder Commit-Stand nennen (das Dokument
@@ -552,7 +579,12 @@ einer, beim User nachfragen statt raten:
 
 > Modell für diese Session: **<Modell>**. Parallel-Session „R<runde>-<X>"
 > (Leitsession läuft separat, Multi-Session-Modell lt. CLAUDE.md).
-> Session-Start: `git pull`. Aufgabe: <Ziel — mit Doku-Verweisen>.
+> **Jede Rückfrage an den User stellst du per `AskUserQuestion` (Dropdown,
+> Klartext, eine Frage je Punkt; Freitext nur, wenn keine sinnvollen
+> Optionen existieren — Firmenregel 17.08.2026).** Session-Start:
+> `git pull`. **Zweck:** <ein Satz, wozu das Ergebnis dient — User-
+> Wortlaut>. Aufgabe: <Ziel — mit Doku-Verweisen; prüfe die Artefaktliste
+> gegen den Zweck, bevor du baust>.
 > Dein Scope: <explizite Pfade>. Exklusiv gehören dir: <Systeme — oder
 > „keine externen Systeme">. Fremde uncommittete Dateien im `git status`
 > ignorieren. Committen nur mit `git add <deine Pfade>` und

@@ -2649,3 +2649,298 @@ Nebenbefunde 8 (N1→c, N2→23, N3→21, N4→24, N5→25, N6→22, N7→erledi
   erlaubten Einzelbefehlen; derselbe `git push` lief später in derselben
   Session; R7/R8 in beide Richtungen gemessen" — Volltext unter L-05 und
   in den Sammelvermerken R7/R8; zehnter Beleg R17 (Zweitbeleg 7 oben).
+
+## Sammelvermerk R18 (17.08.2026, abends) — drei Schärfungen, Zweitbelege, Werkzeug-Nachträge, Wächter-Policy
+
+*(Quellen: `protokolle/R18-A-abschluss.md` (10 Fallen · 8 Muster · 8
+Nebenbefunde N-1…N-8) · `protokolle/R18-A-pruefer.md` · `protokolle/
+R18-B-bericht.md` (§ 10 fünf Policy-Fragen, § 12 Blindstelle, § 13) ·
+`protokolle/R18-C-abschluss.md` (7 Fallen · 6 Muster · 6 Nebenbefunde
+R18C-N-1…N-6) · `protokolle/R18-C-pruefer.md` · Prüf-Subagent
+Zuschnitt (Tagesplan Block 5, 20 Verneinungen + 5 Nebenfunde) ·
+Leitsession 5 Posten. Nenner: A 26 · B 7 · C 19 · Prüf-Subagent 5 ·
+Leit 5 = **62 Posten**, jeder unten disponiert (a/b/c/d).)*
+
+### Schärfungen bestehender Kerne (a) — 3, ersetzen an Ort und Stelle
+
+- **L-51 geschärft (Suchmuster aus der SACHE):** Alt-Kern (R17): „…ist
+  der Suchraum nicht das WORT, sondern die SÄTZE, DIE AUF IHM STEHEN —
+  Folgefragen, Begründungen, Zeiger, eigene Prompts (R17, drei Sessions:
+  …). L-25 regelt die Ableitung zwischen Dateien, L-51 die
+  Schlussfolgerung im selben Text." **Belegfall R18-C, Gegenleser G-1
+  (schwer):** Die Session suchte die Folgestellen mit den WORTLAUTEN des
+  gekippten Absatzes („ohne Namensbindung", „sofort baubar", „hängt am
+  Namen") — alle neun Treffer lagen in § 3.2 und in den eigenen
+  Reparaturkästen; die sechste Ein-Gate-Stelle (§ 2 K1: „3–5 Wochen nach
+  dem Firmierungs-Entscheid", „bevor der erste Brief rausgeht") formuliert
+  dieselbe Logik in anderen Worten und blieb unsichtbar. Der Negativsatz
+  „keine sechste Stelle" war strukturell nicht falsifizierbar. **Zusatz
+  im Kern:** die Suchmuster kommen aus der SACHE/Folge-Logik, nicht aus
+  dem gekippten Vokabular; ein Muster, dessen Treffer ALLE in der
+  Reparaturstelle liegen, ist ein Warnsignal, kein Ergebnis. Zweiter
+  Beleg derselben Runde: R18-A Falle 8 (Verneinung erbte Suchraum +
+  Case aus dem Akquiseplan; die Projektquelle schrieb „ARBEITSTITEL"
+  groß — Wahrheits-Kanal nicht im Suchraum, obwohl R17-C den weiteren
+  Raum bereits benannt hatte, L-50).
+- **L-38 geschärft (Einfüge-Variante):** Alt-Kern (R13/R15): Anker-Fehler
+  löscht/zerlegt Überschrift oder Folgezeile; Nachweismittel
+  Löschungszählung mit zwei Nennern. **Belegfall R18-A, Prüfer M-4:**
+  eine fehlende Leerzeile nach einem eingefügten Blockzitat zog per
+  Markdown-*lazy continuation* einen Vorbehalt in einen internen
+  Reparaturkasten, der vor dem Versand entfernt werden soll — im
+  Anwalts-Briefing. Nichts gelöscht, Wirkung nur gerendert; die
+  Löschungszählung ist dagegen BLIND. **Zusatz im Kern:** Nahtstelle
+  nach dem Edit als STRUKTUR lesen (Leerzeile vor/nach Blockquote,
+  Listen-Einrückung), nicht nur als Text; die Löschungszählung deckt
+  die Einfüge-Variante nicht. Verwandt R18-A Falle 5 (verschachtelte
+  `*(…)*`-Klammern zerlegen Kursiv — an der Nahtstelle gefangen).
+- **Werkzeugfehler-Zahl geschärft (Lauf statt Stelle):** Alt-Kern: „Eine
+  Zahl, die offensichtlich nicht passen kann, ist ein Werkzeugfehler,
+  kein Befund — erst das Werkzeug prüfen, dann die Sache." **Belegfall
+  R18-A Falle 1 (⭐⭐):** Zeichenzählung per `grep -o` im Byte-Modus; die
+  Positivkontrolle meldete Umlaut = 2 statt 1 — als „byte-basiert, aber
+  brauchbar" abgetan, die drei Nachbarzahlen desselben Laufs
+  weiterverwendet: 44 Soft-Hyphen / 156 NBSP gemeldet, tatsächlich 0/0
+  (`[äöüÄÖÜß]` zerfällt im Byte-Modus in UTF-8-Folgebytes, darunter `AD`
+  und `A0`); aufgefallen erst am Nachher-Lauf 156 → 26.392. **Zusatz im
+  Kern:** passt EINE Kontrollzahl nicht, ist der ganze LAUF tot — alle
+  Zahlen desselben Laufs verworfen, Zählung als Skriptdatei mit
+  Selbsttest und Abbruch.
+
+### Zweitbelege zu bestehenden Regeln (b) — 31
+
+1. **L-49 (dritter/vierter Beleg, R18-A Falle 7 ⭐⭐):** alle drei
+   SCHWEREN Prüferbefunde (S-1 erfundene o8-Fallgruppen „Einzelunternehmer/
+   Privatvermieter" = 0 Treffer; S-2 „alle drei Rn. sprechen von
+   Verbrauchern" — vier zitiert, Rn. 206/207 = 0; S-3 Entwarnung „stellt
+   sicher, dass … gestellt wird" bei 0 Treffern im Briefing) lagen im
+   einzigen NEU gebauten Abschnitt, in den Sätzen, die den Bau
+   rechtfertigen — die Reparaturen an fremdem Text hielten alle. Kern
+   ungekürzt; keine Änderung. **Zugleich L-36** (S-1: Bestandsaussage im
+   neuen Text unmessen) und **L-45** (S-3: Entwarnung über die eigene
+   Handlung).
+2. **„Verdichten verliert den Vorbehalt" (R18-C Falle 6 ⭐):** STATUS-Zitat
+   „Vorlage liegt vor (R11) — Sperr-Posten entschärft" ohne die zweite
+   Hälfte „SOLANGE die E-Punkte zügig beantwortet werden" — gefangen vom
+   ZITAT-WÄCHTER (Pooltreffer fehlte), nicht vom Prüfer. Muster: **ein
+   Wächter-NEU an einem frisch geschriebenen Fremdzitat ist zuerst ein
+   Verkürzungs-Verdacht, kein Rauschen** — R18-A Muster 4 spiegelt es
+   (Konventions-Anpassung senkt das Delta, das Delta bleibt Prüfliste).
+3. **L-15 + Regel (e) „auch der Auftrag ist eine Annahme" (R18-C Falle 2 /
+   R18C-N-1, Leitsession-Fehler):** der Prompt gab „Kollisions-Sollwert
+   H-2 = 3 Dokumente" als bekannten Wert mit; am Objekt ≥ 6 (dazu
+   Prüfer-Namensräume R05-A/R15-A/R16-A/R17-A). Eine Positivkontrolle mit
+   falschem Sollwert ist schlechter als keine. **Herkunft: die
+   Leitsession hatte die Zahl aus R17-C N-2 übernommen, ohne sie zu
+   messen** (L-15: Zählweg anfordern UND Stichprobe — hier weder noch).
+4. **L-40 (R18-A Falle 3, R18-C Muster 2):** Wächter-Delta im
+   Parallelbetrieb — A lief mit dem von R18-B veränderten Werkzeug; erst
+   zwei Snapshots mit `diff -rq` = genau 6 eigene Dateien + Werkzeug-md5
+   identisch machten das Delta zuordenbar; C ordnete fünf fremde NEU
+   (36 → 41) R18-A zu, statt sie als eigene Verschlechterung zu melden.
+5. **L-38 Löschungszählung — eigene Pfade (R18-A Falle 4):** `git diff
+   86afceb -- handel/ akquise/` fing die uncommitteten Akquiseplan-
+   Löschungen von R18-C ein; Zählung auf die EIGENEN Pfade begrenzen.
+6. **L-26 (R18-A Teil 3, R18-C Falle 3, R18-B ζ = 18):** 7 von 8
+   „Rohbeleg bestätigt nicht"-Aufnahmebefunden waren Vorfassungs-
+   Selbstzitate in Reparaturkästen; C's zwölf Korrekturvermerke wurden
+   dadurch NEU; B zählt 18 von 36 NEU in dieser Klasse. **Konsequenz
+   nicht als CLAUDE-Regel, sondern als Wächter-Policy** (unten:
+   `REPARATURVERMERK`-Konstante statt Kursiv-Konvention — Kursiv würde
+   die Vorfassung dem Zitatabgleich entziehen, L-27).
+7. **L-13 + L-51 (R18-A Falle 9):** ✅-Kasten in Regelwerk § 6.1 „besteht
+   nicht mehr" — erledigt 1 von 3, „3 von 3 offen" stand fünf Zeilen
+   darüber im eigenen Scope (Prüfer M-7).
+8. **Regel (a) Aussage/Fundstelle getrennt (R18-C Falle 5, G-6):**
+   geerbte Fundstelle „o8 § 10-Nachtrag" aus § 3.2 übernommen, Wortlaut
+   verifiziert, Fundstelle nicht — steht in § 11.1.
+9. **L-45 Entwarnung über die eigene Handlung (R18-C Falle 4, G-4):**
+   Frist H-8 auf „Di 18.08. (Stand STATUS.md)" gezogen, während der
+   Kasten „kein Termin neu gesetzt" sagte und der Messplan im selben
+   Commit das Gegenteil richtig machte.
+10. **L-36 Kontext neben sauberem Fund (R18-C Falle 7, G-8):** „23.08.
+    ist Sonntag" gemessen, „steht ohne Wochentags-Etikett" aus dem Kopf
+    und falsch.
+11. **V17-10 ERFÜLLEN (R18-C G-2 schwer, Muster 5):** § 3.2 behauptete
+    die fünf Stellen weiter als offen, erledigt in derselben Datei im
+    selben Commit — ERLEDIGT-Marke neben dem unangetasteten Original
+    (Auftragssperre + ERFÜLLEN-Pflicht zugleich erfüllt).
+12. **Regel (f) Nennstelle am Stück lesen (R18-A Muster 1 ⭐):** Der Fund
+    zu I-20 U 107/23 kam nicht aus vier Beschaffungskanälen, sondern aus
+    Rn. 22 des vorliegenden Beschlusses am Stück — „Kenntnis", nicht
+    „begründet"; zwei Bestandssätze gekippt, einer an den Anwalt
+    unterwegs. **Bevor man eine Quelle beschafft, liest man, was die
+    vorhandene über sie sagt.**
+13. **L-24 Unmöglichkeits-Kontrolle (R18-A Muster 2 ⭐):** Byte-Identität
+    (SHA-256) der Antworten für gesuchtes UND Kontroll-Aktenzeichen bei
+    dejure — die stärkste Form eines Kanal-Negativs.
+14. **L-25 Gegenrichtung (R18-A Muster 3, Teile 6/7):** zweimal stand der
+    Fehler in der QUELLE, die ABLEITUNG hatte ihn schon gemeldet
+    (Wellenprotokoll/Regelwerk zu B-6; Briefing zu SP-01/09) — Prüffrage
+    beim L-25-Posten zuerst: „Hat die Ableitung ihn schon gefunden?"
+    (Register-Zusatz zu L-25, kein Kern-Umbau.)
+15. **L-48 (R18-A Muster 6 ⭐):** Rückwärts-Kategorie produktivste Stelle:
+    Rn. 205 (Übersichtsdokumente scheitern an ihrer Überschrift) und
+    Rn. 189/191 (Entlastung „nie einbezogen" ausdrücklich gesperrt) lagen
+    im ungelesenen Teil und STÄRKEN die eigene Position.
+16. **Externer Rn.-Anker (quellen-beschaffung; R18-A Muster 5):** `Rn. 156
+    = Z. 440 / Rn. 273 = Z. 674` aus R17-A byte-genau bestätigt,
+    Randnummern per `grep -n "^ 220 "` ansteuerbar.
+17. **Trefferkontrolle je Muster mit Abbruch (windows-powershell R17;
+    R18-A Muster 7, R18-C Muster 3):** 6 von 12 Ersetzungen beim ersten
+    Anlauf ROT (typografisch `„` öffnend, ASCII `"` schließend; Umbrüche;
+    Fettungen) — ohne Kontrolle sechs Stellen still liegen geblieben.
+18. **L-02 byte-gleich nur per Skript (R18-A Muster 8):** o8 B-6 ↔ § 5.4
+    `IDENTISCH: true` skriptgeprüft.
+19. **L-19 Reparatur verschärft anderen Befund (R18-A Prüfer M-4 + Falle
+    10):** der Reparaturtext erzeugte die Einfüge-Klasse (→ L-38-Schärfung).
+20. **Prüf-Subagent Zuschnitt (tagesstart § 2 Baustein 1; Leitsession):**
+    20 Verneinungen, **4 Prompt-Prämissen gekippt VOR dem Start** (Rn. 220
+    stand in o8 § 7.1 — Prämisse „nirgends" aus R17-A N-3, vom R17-A-
+    Prüfer schon zurückgezogen; 7 der 8 Aufnahmebefunde L-26; Akquiseplan
+    Z. 413 Kreuzzitate; `core.autocrlf` System- statt Repo-Config) + 5
+    Nebenfunde (Briefing „Original nicht beschafft"-Folgesätze L-51;
+    Zielort Rn. 187/188 in STATUS/Projektquelle falsch; EIGEN_R17-
+    Residuum; U+00AD im Wahrheits-Kanal; R17-A § 1.3 ↔ § 5.6). Vierte
+    Runde in Folge mit gekippten Prämissen — das Instrument trägt.
+21. **Gegenlese-Zuschnitt mit Kalibrierung (tagesstart R17; R18-C Muster
+    4):** zwei Behauptungen mitgegeben, EINE davon falsch — der Gegenleser
+    widerlegte sie und machte daraus G-4. Schärfung des Musters:
+    **„davon eine falsche"** (Werkzeug-Nachtrag tagesstart, unten).
+22. **Kern/Beleg-Trennung — Codex-Auftragsform (tagesstart § 1.4; R18-B):**
+    „inventarisiert und misst, Leitsession bewertet" hat zum dritten Mal
+    getragen: 36/36 mit Summenprobe, fünf Policy-Fragen sauber an die
+    Leitsession zurückgegeben statt still entschieden.
+23. **Regression alt-ROT/neu-GRÜN + Rückbau-Gegenprobe (R18-B, Leit):**
+    Codex lieferte Lauf 1 rot / Lauf 2 grün archiviert; die Leitsession
+    drehte die Regex in einer Wegwerf-Kopie zurück — **gesetzt 1 von 1**,
+    drei Muster kippten. Ohne den Rückbau wäre „46/46 bestanden" ein
+    Test gewesen, der nichts verändert.
+24. **V17-2 Kontrolle pro Muster (R18-B § 12):** 33 PK + 3 Gegenproben +
+    3 Blockzitate hätten den `> >`-Fehler NICHT finden können — keine
+    enthielt ein verschachteltes Präfix mitten im Zitat.
+25. **„Ein Wächter kann Entwarnung über Text geben, den er nie liest" /
+    L-27 (R18-A N-7 ⭐ struktureller Werkzeugbefund):** `handel/
+    angebotsarchitektur.md` ist dem LG-Rohbeleg NICHT zugeordnet („0
+    bestätigt (Rohbeleg, lokal)" seit Rundenstart) — korrekte
+    Urteilszitate dort können nie grün werden. → Wächter-Policy R19.
+26. **Ebene über den Repos (Zentrale 14.08.; Leitsession):** Codex legte
+    `firma/r18b-scratch-86afceb` + `.tar` auf der Firmen-Ebene ab —
+    Nicht-Repo-Ordner mit dem Ausgabe-Archiv der Läufe; vom User zur
+    Löschung nach dem Debrief freigegeben. Der tagesstart-Auflagentext
+    sagte „außerhalb des Repos", nicht „Session-Scratchpad" (Werkzeug-
+    Nachtrag unten).
+27. **Prompt-Prämisse „R18-B arbeitet außerhalb des Repos" (R18-A N-1):**
+    unpräzise — Lieferdateien im Arbeitsbaum, Scratch außerhalb; A's
+    Wächter-Läufe liefen gegen den Umbaustand (A hat es erkannt).
+28. **L-35 Kurz-IDs (R18-C Block 2 Nr. 3/4, N-2; R18-A Teil 3):** `H-2`
+    ≥ 6 Dokumente inkl. Prüfer-Namensräume; `H-1` dieselbe Klasse
+    (Akquiseplan-Anker ≠ Messplan-Livegang); „Prüferbefund H-2" ohne
+    Rundenpräfix in Rechtsmatrix (✅ R18-A → `R16A-H-2`) und AA (offen).
+29. **L-25 Ableitungen nachziehen (R18-A Teil 7 + N-2):** Sperrdatei-
+    Positivliste → zwei Briefing-Stellen nachgezogen; `wellenprotokoll-
+    vorlage.md` Z. ~399 „nur FG-4" durch den o8-Edit überholt (Träger
+    unten).
+30. **L-46/L-51 Folgesätze (R18-A Teil 7a):** „Original nicht beschafft"
+    zu 20 W 37/24 an vier Stellen des Briefings nach der Beschaffung
+    stehen geblieben — repariert mit Vorwärtsverweis.
+31. **Bash-Heredoc-Riss (Leitsession, `windows-powershell`):** ein
+    quotiertes `<< 'EOF'` mit ~180 Zeilen Markdown riss („unexpected
+    EOF") ohne erkennbaren Backslash; der zweite Anlauf per Write-Tool +
+    `cat >>` lief. Kanal-Negativ, Ursache nicht gemessen — als (c)
+    geführt, kein Regel-Nachtrag ohne Ursache.
+
+### Werkzeug-Nachträge (d, Bausteine/Commands via Master) — 3
+
+- **`windows-powershell` (Blueprint-Baustein):** „Bash- und PowerShell-
+  Kanal teilen EIN Arbeitsverzeichnis" — **erweitert um das Grep-TOOL:**
+  ein `cd` im Bash-Kanal ließ einen Grep-Tool-Aufruf ohne `path` 0 statt
+  14 Treffer melden (R18-A Falle 2 ⭐) — Suchwerkzeuge immer mit
+  explizitem `path`; ein Nulltreffer nach einem Bash-`cd` ist zuerst ein
+  Kanalfehler.
+- **`tagesstart` (Blueprint-Command), Codex-Auflagen § 1.4:** „Scratch-/
+  Zwischendateien NUR außerhalb des Repos" → präzisiert: **im
+  Session-Scratchpad, nie auf der Ebene über den Repos** (Nicht-Repo-
+  Ordner-Regel); **Lieferdateien landen im Arbeitsbaum, ungestagt** —
+  parallele Sessions messen dann den Umbaustand des Werkzeugs (Doppel-
+  Messstand-Vertrag auch fürs Werkzeug).
+- **`tagesstart` Gegenlese-Zuschnitt (c):** „zwei nachprüfbare eigene
+  Behauptungen mitgeben" → **„davon eine FALSCHE"** (R18-C Muster 4:
+  Widerlegung kalibriert und wurde zum Befund G-4).
+
+### Wächter-Policy R18 (Leitsession-Entscheide zu R18-B § 10; Bauposten R19)
+
+1. **δ Kreuzzitat ZIEL↔ZIEL (2):** ZIEL-Dateien werden als
+   Zitat-QUELLE zugelassen, aber **getrennt ausgewiesen** („Kreuzzitat
+   Ziel↔Ziel"), nicht als POOL-Bestätigung — ein Kreuzzitat belegt
+   Wortlaut-Treue zur Nachbardatei, nie Richtigkeit gegenüber einer
+   Primärquelle. Bau R19.
+2. **ε Baseline je Vorkommen (1):** Zählweg auf VORKOMMEN umstellen
+   (derselbe Text zweimal in einer Datei = zwei Prüfgegenstände);
+   Baseline-Nenner mit Stand neu ausweisen. Bau R19.
+3. **ζ Reparaturvermerk-Selbstzitate (18 + 7 aus `ROHBELEG_OFFEN_R17` +
+   19 aus A's Delta):** eigene Konstante `REPARATURVERMERK_R<n>` mit
+   Begründung + Verifizierer je Eintrag (L-26-Modus-Trennung), Selbsttest
+   beide Richtungen; **keine Kursiv-Konvention** für Vorfassungen
+   (würde sie dem Zitatabgleich entziehen, L-27). Bau R19 — die 8
+   Einträge von `ROHBELEG_OFFEN_R17` wandern dabei in die neue Konstante.
+4. **γ Fremdzitate ohne Pooltreffer (7):** Leitsession ordnet je Eintrag
+   ein (Rohbeleg fehlt → Beschaffungsposten; verkürzt → Reparatur;
+   Auszeichnung → Normalisierung) — offen, R19 mit A's Delta zusammen.
+5. **β übrige Selbstformulierungen (4):** einzeln in R19 entscheiden
+   (Kandidatenliste im Bericht § 6).
+6. **Rohbeleg-Zuordnung je ZIEL-Datei (R18-A N-7):** AA dem LG-Rohbeleg
+   zuordnen — Bau R19, zusammen mit 1–3.
+
+### Bewusst nicht zurückgeschrieben (c) — 4
+
+- Kursiv-Konvention für Reparaturvermerke (C Falle 3, A Muster 4) — s.
+  Policy 3, Grund L-27.
+- Bash-Heredoc-Riss (Leit) — Ursache ungemessen, kein Regel-Nachtrag.
+- „Bevor man beschafft, lesen, was die vorhandene Quelle sagt" als
+  eigener Kern — deckt Regel (f) + „Vor dem Ausarbeiten steht das
+  Nachschlagen"; Zweitbeleg 12 genügt.
+- R18-A N-6 (Datumsuneinheitlichkeit des Beschlusses) — bereits im
+  Briefing § 2.3 vermerkt, nur Bestätigung.
+
+### Träger-Liste (Projekt-Posten aus Nebenbefunden, → Projektquelle § 7 R19)
+
+R18-A N-2 Wellenprotokoll „nur FG-4" (MKT-AKQ) · N-3/N-4 Rn. 180/194/184
+(Rechtsmatrix-Pflege) · N-5 „also Art. 14 Abs. 3 lit. a" eigene
+Ableitung (markiert, Register-Beleg) · N-7 (Policy 6) · N-8 = H-7
+R14-B-Kasten „kein Wächter deckt sie ab" ungemessen seit R17-B
+(Leitsession R19) · R18-C N-3 Sperrposten „Preismodell existiert nicht"
+×3 im Akquiseplan überholt (MKT-HANDEL-Bewertung + AKQ-Nachzug) · N-5
+H-3 Sonntag (User) · Block 2: Vorlagen-Lesart, Anker H-8/AKQ-H-2, H-1-
+Kollision, Prüfer-Namensräume · Prüf-Subagent Nebenfund 2 (Zielort Rn.
+187/188 in STATUS/Projektquelle = AA § 6a, korrigiert 4b) · Nebenfund 4
+(U+00AD Projektquelle/Register, korrigiert 4b) · L1 (`core.autocrlf`
+System-Config; N-1-Wortlaut korrigiert 4b; `.gitattributes` als
+eigener Vorgang nach R18) · P6 Webdesign-Leitlinie (Zeiger MKT-WEB) ·
+P7 n8n-Lizenz (Warten; Nachzieh-Suchraum „A3 trägt" 6× Preismodell, 3×
+Projektquelle, STATUS).
+
+### Kompensations-Auslagerungen dieses Debriefs (Anker `V18-nn`; CLAUDE.md +569 B Kerne / −567 B Belege = 79.937, plus Stempel-Kopf +23 → 79.960 B; netto +25 B unter Soll)
+
+- **V18-1 (L-34-Fallgeschichte, MKT R12, aus CLAUDE.md gekürzt):** Der
+  Auftrag nannte den Unterabschnitt — die Nachbar-Rubrik desselben
+  Dokuments trug den Entscheider des wichtigsten offenen Postens und
+  blieb ungelesen; dieselbe Verengung führte einen Prüfer per „vom
+  Protokoll rückwärts" zur Entwarnung, bis er den Suchraum selbst
+  erweiterte (P-05 in Bau und Prüfung derselben Runde). Volltext unter
+  L-34.
+- **V18-2 (Kanäle-Belegfall, heyPensio, aus CLAUDE.md gekürzt):** Fix an
+  EINEM von zwei beschriebenen Wegen geprüft, die Nachmessung fand drei
+  weitere, darunter einen Endpunkt in einem anderen Namensraum.
+- **V18-3 (Bildwissen-Belegfall, heyPensio R35, aus CLAUDE.md gekürzt):**
+  Ein Anleitungstext beschrieb ein Bedienelement falsch; die richtige
+  Beschreibung existierte nur auf Fotos aus einer früheren Sitzung.
+- **V18-4 (Schlüssel-Belegfall, heyPensio R35, aus CLAUDE.md gekürzt):**
+  Sechs Werte wurden in Quellreihenfolge übernommen, die zugehörigen
+  Namen daneben „natürlich" sortiert — vier von sechs paarweise
+  vertauscht, die Kontrollsumme stimmte weiter und deckte den Fehler zu.
+- **Alt-Kerne der drei Schärfungen** (Wortlaut trägt der Git-Verlauf,
+  Stand `5fc2a39`): L-51 (Belegsatz R17 „Superlativ an drei Fundstellen
+  …/zwei Fremd-Dokumente…" aus dem Kern ins Register verlagert, s. L-51
+  oben) · L-38 (Alt-Kern ohne Einfüge-Variante) · Werkzeugfehler-Zahl
+  (Alt-Kern ohne Lauf-Verwerfung).

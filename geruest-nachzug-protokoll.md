@@ -20,6 +20,16 @@
 
 ## Stempel-Historie (neueste zuerst)
 
+**Gerüst-Stand:** Stand **`74277bc`** (R18-Debrief 17.08.2026 21:18 MESZ per `date`, Leitsession Shanks). Delta `35fd61b..HEAD` **vor dem eigenen
+Rückfluss neu gemessen** (`git fetch` + `log`): **0 fremde Commits**; einziger
+neuer Commit ist der eigene Rückfluss `74277bc` (5 Changelog-Einträge: L-51
+Suchmuster aus der Sache · L-38 Einfüge-Variante · Werkzeugfehler-Zahl → ganzer
+Lauf · windows-powershell Grep-Tool erbt Bash-`cd` · tagesstart Codex-Scratch/
+Lieferdateien + Gegenlese-Kalibrierung „eine falsche"). Kopien
+windows-powershell + tagesstart vom Master gezogen; Wächter SYNCHRON 12 / 0
+DRIFT (3 INFO, bekannter Ordner-Baustein-Blindfleck). Budget 79.935 → 79.937 B
+(+569 B Kerne / −567 B Belege V18-1…4). Davor Stand `35fd61b`:
+
 **Gerüst-Stand:** Stand **`35fd61b`** (R17-Debrief 17.08.2026 18:46 MESZ
 per `date`, Leitsession Shanks). Delta `7a0f76b..HEAD` **vor dem eigenen
 Rückfluss neu gemessen** (`git fetch` + `log`): **0 fremde Commits**;

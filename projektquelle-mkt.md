@@ -962,7 +962,25 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    `.gitattributes` (`* text=auto eol=lf`) statt lokalem
    `core.autocrlf=true` (R17A-N-1) · Kurz-ID-Kollisionen H-2 dreifach
    (R17C-N-2) + R15B-N-5/N-6 · Kopien-Wächter-Blindfleck Ordner-Bausteine
-   (Postkorb `f58f1c0`, Zentrale-Zuständigkeit).
+   (Postkorb `f58f1c0`, Zentrale-Zuständigkeit) · **Nachträge der
+   Debrief-Gegenprobe R17 (4 von 88 Posten waren nicht gelandet):** (6)
+   **R18 HANDEL/Anwalt:** Rechtsfrage „kann ein ARBEITSTITEL die
+   Art.-14-Angabe zum Verantwortlichen tragen?" (Akquiseplan § 3.2 Pfad
+   (b), R17-C Block 2 Nr. 2) — gestellt, unbeantwortet, kein Träger im
+   Briefing → als Teilfrage-Kandidat ins Briefing bei der nächsten
+   HANDEL-Runde · (7) **R18 BELEG:** Vorlagen-Stand („Vorlagen
+   beauftragt" im Fertig-Kriterium des Messplans) **nicht erhoben** (R17-C
+   Block 2 Nr. 3) — vor dem Messfenster 24.08. erheben · (8) **R18
+   Wächter:** die **acht „Rohbeleg bestätigt nicht"-Aufnahmebefunde** der
+   Rechtsmatrix (Codex-Bericht § 1, Liste in `pruefe-zitate.js`) brauchen
+   die inhaltliche Einordnung der Leitsession (Zitat falsch? Rohbeleg
+   fehlt? Auszeichnung?) — bis dahin Baseline, kein Freibrief · (9)
+   Doppel-Messstand-Vertrag R17-C: vom Gegenleser nicht fremd abgenommen
+   (Arbeitsbaum-Sperre); **Leitsession-Abnahme 17.08. abends:** eigener
+   Lauf am HEAD zeigt Akquiseplan **2 NEU** (Z. 413, Selbstzitate der
+   C-F4-Klasse — kursiv statt Anführungszeichen, R18) und Regelwerk 0
+   NEU; die C-Zahlen selbst (0/0 gegen den eingefrorenen Stand mit dem
+   alten Wächter) wurden nicht reproduziert — als Zahl mit Stand geführt.
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,

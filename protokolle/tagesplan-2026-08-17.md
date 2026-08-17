@@ -1677,3 +1677,112 @@ Leitsession (Block 2 oben) zu „ungeprüft" verallgemeinert.
   Zeit-Etikett „~18:55" im eigenen Protokoll aus dem Kopf geschrieben
   und beim Commit gefangen (zweiter Beleg heute) → L-07-Zweitbeleg.
 - **Nächster Schritt: `/debrief` R17.**
+
+## Block 4 (17.08. 18:29–18:53 MESZ per `date`, Debrief läuft) — R17 fertig, reviewt, Debrief
+
+### Fangquoten je Prüfschicht (Quelle: Protokolle R17)
+
+| Schicht | Funde | davon unikal | Schwere | Selbstauskunft Blindstelle |
+|---|---|---|---|---|
+| Prüf-Subagent Zuschnitt (1 Frage, 18 Verneinungen) | 3 widerlegt (Preismodell-Superlativ nie vorhanden · Rn. 237 vom R15-A-Prüfer geprüft · „119" schon korrigiert) | 3 — vor dem Start | 2 gesparte Bauposten, 1 falsche Prämisse aus der Routing-Tabelle | Schreibweisen-Varianten („Randnummer 138"), Superlativ-Paraphrasen, gelöschte Postkorb-Dateien |
+| Prüfer R17-A (frischer Kontext, eingefrorener Hash `af92adb`) | 19 (1 SCHWER / 8 MITTEL / 10 HINWEIS) | 18 (S-1 parallel selbst gefunden — der Prüfer brachte 2 Widerlegungen mehr + die Folgefrage) | S-1 Superlativ in drei Dokumenten (L-51); M-4 Rn. 243/244 falschem Antrag zugeordnet, Rn. 224 fehlte | Rn. 156–273 nur Block-weise; eigene Kontrollbegriffe trafen das eigene Protokoll (`Rn. 224` = 1) |
+| Gegenleser R17-C (1 Frage + Aussage/Fundstelle getrennt) | 15 (5 schwer) | 15 | ⭐⭐ C-1 unbequeme Rn.-86-Hälfte weggelassen trotz „Vorbehalt zuerst" | Arbeitsbaum nicht gesichtet (Doppel-Messstand nicht fremd abgenommen); eine Fundstellen-Drift (o8 ↔ Regelwerk) |
+| Codex R17-B Selbsttest + Positiv/Negativ | 27/27 Muster, 33/33 PK, 3/3 Gegenprobe; 1 gepflanztes Zitat gefangen | — (Werkzeug-Selbstprüfung) | — | semantisch falsche Sätze mit Pool-Wortlaut · < 25 Zeichen · Authentizität des lokalen Rohbeleg-Bestands |
+| Leitsession-Abnahme R17-B am Prüfstand | 0 Abweichungen zum Bericht (alle Modi reproduziert); Live-Delta 36 NEU korrekt als A/C-Arbeit zugeordnet | — | — | — |
+| Leitsession-Review A/C (Kurzraster/Voll-Disposition) | Nenner 19 = 1/8/10 und 15 → 14+1 stimmen; Löschungen 16 / 4 reproduziert; OLG-Kernaussagen am Rohbeleg | 0 neue Befunde | — | Rohbeleg-Zahlen stichprobenweise |
+| Verdichtungs-Gegenprobe (Subagent, 140 Aussagen) | 8 Verluste (5 Vorbehalte · 2 Kontrast-Hälften · 1 abgeleitete Zahl) | 8 | mittel — alle vor dem Commit repariert | Umordnungs-Wirkungen; „nicht X, sondern Y"-Paare nur teilweise |
+| Debrief-Gegenprobe (Subagent) | s. Nachtrag unten | | | |
+
+**Fangquoten-Rückkopplung:** S-1/C-1 gehören zu L-49 (Kern ungekürzt) und
+„Verdichten verliert den Vorbehalt" (Kern ungekürzt; heute selbst
+verdichtet — die Gegenprobe wurde als Pflicht in den Debrief-Skill
+zurückgeschrieben). Keine der Fehlerklassen des Tages hatte einen zuvor
+gekürzten Kern — die R17-Verdichtung lief NACH den Funden; die
+Klassen der Verdichtungs-Verluste (a)/(g) sind jetzt Skill-Muster.
+Nachlaufendes Signal, kein Qualitätsbeweis.
+
+### Debrief-Änderungsreport (Phase 3/3d/4b)
+
+- **CLAUDE.md:** Verdichtung `de4a927` (84.713 → 79.859 B, sechs
+  Bullets, V17-1…13) · Debrief `fa803c1`: **L-51 neu** („Wer einen Satz
+  kippt, kippt seine Folgesätze") · L-15 geschärft (Zählweg UND
+  Stichprobe) · L-07 (Uhrzeiten) · L-48 („nicht von MIR geprüft" ≠
+  „ungeprüft") · Kompensation: L-05-Historie, L-15-/L-49-Belegfälle,
+  Secret-Rotation-Details → Register V17-14 · Stempel `7a0f76b` →
+  `35fd61b`. **Messzeile: 84.713 → 79.935 B** (`tools/pruefe-budget.js`,
+  Bytes = Wert; Sollmarke 80.000 unterschritten, Kompensationspflicht
+  erfüllt: +907 B Kerne, −831 B Kompensation im selben Debrief, netto
+  +76 gegen die Verdichtungsfassung).
+- **lehren-register.md:** L-51 · Sammelvermerk R17 (69 Posten: 34
+  Zweitbelege, 15 Muster, Werkzeug-Nachträge, 4 c, Summenprobe je
+  Quelle) · Verdichtung R17 (V17-1…14).
+- **Skills/Commands (Kopien vom Master):** `debrief` (Verdichtungs-
+  Gegenprobe Pflicht mit Mustern) · `tagesstart` (Gegenlese-Zuschnitt ·
+  Messungen statt Reparaturwege · Prüfstand einfrieren + weiterarbeiten ·
+  git-archive-Prüfstand) · `windows-powershell` (Bash-Backslash, Literal,
+  Ersetzungs-Trefferkontrolle) · `quellen-beschaffung` (Werkzeug-Negativ
+  als Quellen-Eigenschaft, EU-Texte U+2011/NBSP). Wächter SYNCHRON 12/0
+  (Platzhalter `{{PROJEKT_CODE}}` in den Kopien ersetzt — erster Lauf
+  meldete 1 DRIFT genau deshalb).
+- **projektgerüst:** `35fd61b` — 6 Changelog-Einträge, Selbstcheck OK,
+  Delta vor dem Stempel neu gemessen (0 fremde).
+- **Werkzeug-Umbau der Runde:** Zitat-Wächter Ausbaustufe 3 (Codex) —
+  projektspezifisch, kein Blueprint-Baustein; Leitsession-Nacharbeit:
+  `lehren-register.md` in den POOL (`328770a`) — die Verdichtung hatte
+  zwei von Fremddokumenten zitierte CLAUDE.md-Sätze verwaist (C-M7 am
+  eigenen Objekt).
+- **Wahrheits-Kanal (`835d4ea`):** Changelog R17 · § 6a R15E-N-1 ✅ /
+  R15B-N-4 korrigiert · § 7 Punkt 0 (R17 erledigt, R18-Liste, zwei
+  User-Fragen) · Punkt 3 H-2 korrigiert · STATUS R17-Kopf/-Punkt,
+  Nächster Schritt 0/1/3, StB-Doppelnennung geklärt · Rotation R15-Block
+  (42 Z.) + R13-Punkt (19 Z.) verbatim ins Archiv.
+- **Postkorb Zentrale:** `f58f1c0` (Kopien-Wächter Ordner-Bausteine).
+- **Ebene über den Repos:** unverändert gegenüber R16 (6 Ordner, 5
+  Repos, `werkzeuge/`); kein neuer Nicht-Repo-Beleg-Bestand
+  (`sensibel/rohbelege-R17-A/` liegt im Repo-Ordner, git-ignoriert).
+- **Dispositions-Liste (3-0):** A 12 F + 9 M + 7 N · C 13 F + 12 M + 8 N
+  (+ 6 Block-2-Punkte, in N/Posten aufgegangen) · B 2 Grenzenlisten ·
+  Leit 6 = **69** — (a) 1 neuer Kern (L-51) + 3 Schärfungen · (b) 34
+  Zweitbelege · (c) 4 · (d) Blueprint 6 Changelog-Einträge · Werkzeug-
+  Nachträge 4 Bausteine/Commands.
+
+### Nachtrag Debrief-Gegenprobe (18:53–19:0x MESZ per `date`, Verifikations-Subagent, 88 Posten)
+
+**80 gelandet, 4 verworfen (mit Grund), 4 NICHT gelandet** → alle vier
+nachgetragen (Projektquelle § 7 Punkt 0 R18 (6)–(9), Register
+„Nachträge der Debrief-Gegenprobe"): Arbeitstitel-Rechtsfrage Art. 14
+(R17-C Block 2 Nr. 2) · Vorlagen-Stand nicht erhoben (Nr. 3) ·
+Doppel-Messstand R17-C nicht fremd abgenommen (Nr. 6 — Leitsession-Lauf
+am HEAD nachgetragen: Akquiseplan 2 NEU Z. 413, Regelwerk 0) · acht
+„Rohbeleg bestätigt nicht"-Aufnahmebefunde ohne Einordnung (B). **Gegen-
+richtung:** Sammelvermerk-Nenner 69 → **75** (C-Block 2 nicht mitgezählt
+— genau dort saßen drei Ausfälle; L-30 am eigenen Sammelvermerk) ·
+Zweitbeleg 14 trug C-F4 ohne Inhalt · (c)-Begründung „im O-12-Satz" nur
+sinngemäß · STATUS-R16-Block ohne Vorwärtsverweis auf R17 (drei Stellen
+gesetzt). Positivkontrollen des Agenten: `L-51` = 3 · `V17-14` = 2 ·
+`fromCharCode` = 1. Nicht geprüft: Blueprint-Inhalte (nur `--stat`),
+R17-A Block 2/5, Postkorb-Inhalt.
+
+### Block-4-Abschluss — Übergabe
+
+- **R17 fertig, reviewt, debrieft.** Alle Commits gepusht (marketing bis
+  Nachtrag-Commit, projektgeruest `35fd61b`, zentrale `f58f1c0`).
+  Wächter: Kopien 12/0 · Budget **79.935 B** (unter Soll) · Zitat-Wächter
+  36 NEU (Live-Delta A/C, R18) · Prüfstand `926ca3c` 0 NEU 27/27.
+- **Offene User-Handgriffe:** fünf R16-Entscheide (Satz · Kanzlei ·
+  Absender · § 4a A/B · E-A4) → Versand des Anwalts-Briefings · **zwei
+  R17-C-Fragen** (Zielstichprobe ≥ 30 Check-ins je Hotel bestätigen? ·
+  neuer H-2-Anker) · E-6-Zulieferung heypensio · AA-4 (Kayhan) ·
+  DEHOGA/IHK-Entwürfe · A5-Probedruck · Betreiber-Briefing bis 23.08. ·
+  H-4 bis 07.09. · MARKE1-Paket · **StB-Anruf MORGEN Di 18.08.**
+- **R18-Kandidaten (PROGNOSE, frische Session):** HANDEL (OLG-
+  Parallelverfahren via Kanzlei · Klauselblock · Rn. 187/188 + 220 ·
+  o8 B-6 · Arbeitstitel-Frage) · Wächter (36 NEU: EIGEN-Kandidaten +
+  `> >`-Normalisierung + 8 Aufnahmebefunde einordnen) · AKQ (fünf
+  Ein-Gate-Stellen · Sperrdatei SP-01/SP-09 · Relativzeiten ·
+  Soft-Hyphen) · BELEG (Vorlagen-Stand vor 24.08.) · Leitsession
+  (`.gitattributes` · Kurz-IDs H-2/G-n/O-9 · Kanarien-Zeilen).
+- **Blockwechsel-Handgriff:** vor R18 NEUES Fenster + `claude --resume`
+  (CLAUDE.md, Rules und Commands haben sich geändert).
+- **Zeit-Lehre des Tages (dreimal am eigenen Objekt):** jede Uhrzeit in
+  diesem Plan ab Block 3 ist gemessen; „~"-Zeiten davor sind Schätzungen.

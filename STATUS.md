@@ -88,7 +88,8 @@ bei 17/17 bestätigten Zitaten.
 Verstöße; Altlast **863/863 + 43/43** als Baseline mit Nenner + SHA-256,
 ZIEL 6→8, Selbsttest 4 Musterklassen beide Richtungen; O-12-Satz neu.
 ⚠️ Nach R16-A **51 NEU in der Rechtsmatrix** (Urteilszitate — Rohbeleg in
-`sensibel/`, außerhalb des Pools) → R17-Posten, bis dahin berechtigt rot.
+`sensibel/`, außerhalb des Pools) → R17-Posten, bis dahin berechtigt rot
+*(→ erledigt R17-B, s. R17-Block oben)*.
 **R16-C:** Planungskonflikt 300er-Schwelle als Entscheidungsvorlage
 Akquiseplan § 4.4 (**300 = eigene Setzung ohne Quellenbindung**; Entscheid
 **E-A4**) · R14 per Postkorb nachgemeldet (Zentrale `7cf1761`) · **H-1 =
@@ -218,10 +219,10 @@ Stände: `STATUS-archiv.md`.)*
   **Offen aus R16:** 🔴 **fünf User-Entscheide vor dem Versand** (Satz ·
   Kanzlei · Absender ohne Namen · § 4a A/B · E-A4) · 🔴 **Wächter 51 NEU
   in der Rechtsmatrix** (Pool um lokale Rohbelege + Ausnahmeliste
-  R16A-N-5, R17) · **20 weitere ZIEL-Kandidaten mit 718 Zitaten** außerhalb
+  R16A-N-5, R17 — *✅ R17-B, s. R17-Punkt unten*) · **20 weitere ZIEL-Kandidaten mit 718 Zitaten** außerhalb
   des Wächters (Codex-Bericht Rohausgabe E; u. a. Anwalts-Briefing 114,
   Preismodell 139) — „ZIEL 8/8" gilt für acht Dateien, nicht den Bestand
-  (R17) · **MKT-HANDEL R17:** Rn.-87-Vermerk in Regelwerk § 7.1
+  (R17 — *✅ R17-B*) · **MKT-HANDEL R17** *(✅ R17-A/R17-C, s. R17-Punkt)*: Rn.-87-Vermerk in Regelwerk § 7.1
   + `preismodell-optionen.md`, o8 § 6.2/§ 11.2 gegen Doppelbegründung,
   12 nie angekommene Rn. 121–155, OLG-Beschluss 20 W 37/24 beschaffen,
   8 Prüfer-Nacharbeits-Fundorte · **AKQ:** § 3.2 „Liste sofort baubar"

@@ -2390,8 +2390,11 @@ Nebenbefunde], `protokolle/R17-C-abschluss.md` [13 Fallen, 12 Muster,
 `protokolle/R17-leit-verdichtung.md` + Tagesplan Block 3 [Leitsession,
 6 Eigenbefunde]. Disposition je Learning: (a) neuer Kern · (b)
 Zweitbeleg · (c) bewusst nicht · (d) Blueprint. Nenner: A 12+9+7 = 28
-· C 13+12+8 = 33 · B 2 Grenzenlisten · Leit 6 → **69 Posten**, alle
-disponiert; Summenprobe je Gruppe unten.)*
+· C 13+12+8 = 33 **+ 6 Block-2-Punkte** (Erstfassung zählte sie nicht
+mit — von der Debrief-Gegenprobe gefangen; Punkt 1 → Projektquelle § 7,
+2/3/6 → Nachträge unten, 4 → Zweitbeleg 32, 5 → Zweitbeleg 34) · B 2
+Grenzenlisten · Leit 6 → **75 Posten**, alle disponiert; Summenprobe je
+Gruppe unten.)*
 
 ### Zweitbelege zu bestehenden Regeln (b) — 34
 
@@ -2454,7 +2457,11 @@ disponiert; Summenprobe je Gruppe unten.)*
 13. **(a) delegierte Fundstellen driften:** C-F13 (Gegenleser schrieb
     einen o8-Satz dem Regelwerk zu; Befund stimmte, Fundstelle nicht).
 14. **L-26 (Reparatur-Doku verändert den Prüflauf):** A-N5 achter
-    EIGEN-Kandidat („verbleiben") · A-N5 sieben weitere · Leit O-12.
+    EIGEN-Kandidat („verbleiben") · A-N5 sieben weitere · Leit O-12 ·
+    C-F4: Selbstzitate in Anführungszeichen erzeugen NEU, wenn die
+    eigene Datei nicht POOL ist — Abhilfe kursiv statt Anführungszeichen,
+    ohne die EIGEN-Liste zu belasten (zwei Reste in Akquiseplan Z. 413,
+    R18).
 15. **L-29 (Fehlalarme = Normalisierung):** C-F3 — `>   > `-Verschachtelung
     lässt ein `>` mitten im Zitat stehen; vier byte-treue Zitate NEU.
     Werkzeug-Nachtrag → R18-Wächter (Normalisierung aller führenden
@@ -2591,7 +2598,10 @@ disponiert; Summenprobe je Gruppe unten.)*
   Methodik.
 - C-N1 (o8 § 5.4 ↔ § 10 B-6 FG-2/FG-4): Sachbefund → R18-HANDEL/o8.
 - B-Grenzen „Authentizität des Rohbeleg-Bestands nicht erhoben":
-  bekannte Belegstufen-Grenze der lokalen Stufe, im O-12-Satz benannt.
+  bekannte Belegstufen-Grenze der lokalen Stufe — im Baseline-Kopf
+  (`zitat-baseline-2026-08-17.md` Z. 5–9: „bewertet keine Belegstufe …
+  nur durch Zahl, Byte-Summe, Hash beschrieben") benannt; der O-12-Satz
+  nennt nur die getrennte Stufe/„nicht prüfbar" (Gegenprobe-Korrektur).
 - A-F5/F6 (`node -e`-Pfade, `cd`): bereits im Baustein — Zweitbeleg
   ohne Textänderung.
 
@@ -2603,6 +2613,19 @@ F8→1/2, F9→10, F10→22, F11→11, F12→12, F13→13) + Muster 12 (M1–M12
 Nebenbefunde 8 (N1→c, N2→23, N3→21, N4→24, N5→25, N6→22, N7→erledigt
 `7ef4dcc`, N8→11) ✔ · B 2 Listen → 30 + c · Leit 6 (Zeit 4 · Verdichtung
 2 · Push 7 · Bash 22 · O-12 1/14 · Postkorb 31) ✔.
+
+### Nachträge der Debrief-Gegenprobe (4 von 88 Posten nicht gelandet, 0 verworfen)
+
+- **C-Block-2 Nr. 2** (Arbeitstitel-Rechtsfrage Art. 14) → Projektquelle
+  § 7 Punkt 0 R18 (6) · **Nr. 3** (Vorlagen-Stand nicht erhoben) → R18
+  BELEG (7) · **Nr. 6** (Doppel-Messstand R17-C nicht fremd abgenommen)
+  → Leitsession-Abnahme am HEAD nachgetragen (9) · **B-G4** (acht
+  Aufnahmebefunde ohne Einordnung) → R18 Wächter (8). **Gegenrichtung:**
+  Nenner 69 → 75 (Block 2 zählte nicht mit — Positivliste in Verkleidung,
+  L-30 am eigenen Sammelvermerk) · Zweitbeleg 14 trug C-F4 als Zeiger
+  ohne Inhalt · (c)-Begründung „im O-12-Satz" nur sinngemäß → korrigiert.
+  Prozess-Befund wie R15/R16: Die Debrief-Gegenprobe findet in jeder
+  Runde 4–5 Ausfälle — sie ist keine Formalie.
 
 ### Kompensations-Auslagerungen dieses Debriefs (Anker `V17-14`…, Fortsetzung der Verdichtung R17)
 

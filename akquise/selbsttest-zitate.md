@@ -148,3 +148,60 @@ Rest ist sichtbar ausgelassen …"
 
 I4 (erfundener Anfang mit End-Auslassung): „Diese erfundene Rohbeleg-Fundstelle
 beginnt nirgends byte-treu und bleibt deshalb neu …"
+
+## Muster J — verschachtelte Blockquote-Präfixe und Stufenfolge
+
+J1 (Präfix nur auf Zielseite): „R18-B Zielpräfix wird symmetrisch entfernt
+> > und bleibt vollständig bestätigt."
+
+J2 (Präfix nur auf Quellseite, mit Silbentrennung): „R18-B Quellpräfix wird
+symmetrisch entfernt und die Silben-trennung bleibt bestätigt."
+
+J3 (TREFFEN-NICHT, verfälschtes Wort): „R18-B Zielpräfix wird symmetrisch entfernt
+> > und bleibt keinesfalls bestätigt."
+
+## Muster K — EIGEN_R18 positiv, sieben begründete Kandidaten
+
+K1: „das Berufungsgericht sieht es anders"
+
+K2: „das Berufungsgericht hält Briefwerbung dieser Art für zulässig"
+
+K3: „Doppelbegründung § 3a UWG und § 3 Abs. 2 UWG"
+
+K4: „das LG stützt sich auf § 3a UWG"
+
+K5: „über § 3a UWG bzw. § 3 Abs. 2 UWG"
+
+K6: „*Sie ist damit die einzige der fünf Bedingungen, die nach der Übergabe
+fortwirkt — und die einzige, deren Verletzung wir nicht selbst verhindern können.*"
+
+K7: „der Kunde — und wir beim Aufsetzen — licensing, copyright, or other
+notices nicht entfernen oder verdecken"
+
+## Muster L — EIGEN_R18 Gegenrichtung, sieben Abweichungen bleiben NEU
+
+L1: „das Berufungsgericht sieht es immer anders"
+
+L2: „das Berufungsgericht hält Briefwerbung jeder Art für zulässig"
+
+L3: „Dreifachbegründung § 3a UWG und § 3 Abs. 2 UWG"
+
+L4: „das OLG stützt sich auf § 3a UWG"
+
+L5: „über § 3a UWG oder § 3 Abs. 2 UWG"
+
+L6: „*Sie ist damit die einzige der sechs Bedingungen, die nach der Übergabe
+fortwirkt — und die einzige, deren Verletzung wir nicht selbst verhindern können.*"
+
+L7: „der Kunde — und wir beim Aufsetzen — licensing, copyright, and other
+notices nicht entfernen oder verdecken"
+
+## Muster M — reparierter EIGEN_R17-Präfixeintrag in beide Richtungen
+
+M1: „LG Düsseldorf, Urt. v. 06.02.2026 – 38 O 243/23 … hat eine
+> > Briefpost-Werbesendung untersagt — gestützt ausschließlich auf
+> > Art. 6 Abs. 1 lit. f und die Art. 12–14, 21 DSGVO."
+
+M2 (verfälschte Gegenrichtung): „LG Düsseldorf, Urt. v. 06.02.2026 – 38 O
+243/23 … hat jede Briefpost-Werbesendung untersagt — gestützt ausschließlich
+auf Art. 6 Abs. 1 lit. f und die Art. 12–14, 21 DSGVO."

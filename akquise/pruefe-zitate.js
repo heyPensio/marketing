@@ -198,14 +198,17 @@ function rohbelegPoolLesen() {
       dateien: 0,
       bytes: 0,
       texte: [],
+      texteLegacy: [],
       text: '',
     };
   }
   let bytes = 0;
-  const texte = dateien.map((datei) => {
+  const rohtexte = dateien.map((datei) => {
     bytes += fs.statSync(datei).size;
-    return normRohbeleg(fs.readFileSync(datei, 'utf8'));
+    return fs.readFileSync(datei, 'utf8');
   });
+  const texte = rohtexte.map(normRohbeleg);
+  const texteLegacy = rohtexte.map(normRohbelegLegacy);
   return {
     verfuegbar: true,
     quelle,
@@ -213,6 +216,7 @@ function rohbelegPoolLesen() {
     dateien: dateien.length,
     bytes,
     texte,
+    texteLegacy,
     text: texte.join('\n@@@ ROHBELEG @@@\n'),
   };
 }
@@ -220,6 +224,21 @@ function rohbelegPoolLesen() {
 // Normalisierung: Markdown-Auszeichnung und Zitatpraefixe raus, Whitespace
 // (inkl. Zeilenumbruechen und NBSP) auf ein Leerzeichen kollabieren.
 function norm(s) {
+  return s
+    .replace(/ /g, ' ')
+    .replace(/^[ \t]*(?:>[ \t]?)+/gm, '')
+    .replace(/\*\*/g, '')
+    .replace(/[„“”‚‘’"']/g, '')
+    .replace(/\s+/g, ' ')
+    .replace(/-\s+/g, '-')
+    .replace(/\/\s+/g, '/')
+    .trim();
+}
+
+// Die eingefrorene Baseline muss mit derselben Fassung klassifiziert bleiben,
+// mit der sie erzeugt wurde. Nur Fundstellen, die unter dieser Legacy-Fassung
+// NEU waren, durchlaufen anschliessend die reparierte Normalisierung.
+function normLegacy(s) {
   return s
     .replace(/ /g, ' ')
     .replace(/^[ \t]*>[ \t]?/gm, '')
@@ -244,10 +263,17 @@ function normRohbeleg(s) {
     .trim();
 }
 
-function rohbelegEnthaelt(rohbelege, zitat) {
-  if (!rohbelege.verfuegbar) return false;
-  const gesucht = normRohbeleg(zitat);
-  if (rohbelege.texte.some((text) => text.includes(gesucht))) return true;
+function normRohbelegLegacy(s) {
+  return normLegacy(s)
+    .replace(/(^|\s)(?:>\s*)+/g, '$1')
+    .replace(/\*/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function rohbelegEnthaeltIn(texte, zitat, normalisieren) {
+  const gesucht = normalisieren(zitat);
+  if (texte.some((text) => text.includes(gesucht))) return true;
 
   // Sichtbar markierte Auslassungen duerfen beliebigen Quelltext ersetzen;
   // jedes verbliebene Segment muss aber byte-treu normalisiert und in der
@@ -261,9 +287,9 @@ function rohbelegEnthaelt(rohbelege, zitat) {
   if (segmente.length === 1) {
     const auslassungAmRand = /^(?:…|\[…\])/.test(gesucht)
       || /(?:…|\[…\])$/.test(gesucht);
-    return auslassungAmRand && rohbelege.texte.some((text) => text.includes(segmente[0]));
+    return auslassungAmRand && texte.some((text) => text.includes(segmente[0]));
   }
-  return rohbelege.texte.some((text) => {
+  return texte.some((text) => {
     let position = 0;
     for (const segment of segmente) {
       const fund = text.indexOf(segment, position);
@@ -272,6 +298,20 @@ function rohbelegEnthaelt(rohbelege, zitat) {
     }
     return true;
   });
+}
+
+function rohbelegEnthaelt(rohbelege, zitat) {
+  if (!rohbelege.verfuegbar) return false;
+  return rohbelegEnthaeltIn(rohbelege.texte, zitat, normRohbeleg);
+}
+
+function rohbelegEnthaeltLegacy(rohbelege, zitat) {
+  if (!rohbelege.verfuegbar) return false;
+  return rohbelegEnthaeltIn(
+    rohbelege.texteLegacy || rohbelege.texte,
+    zitat,
+    normRohbelegLegacy,
+  );
 }
 
 // Vier bewusste Angleichungen in norm(), damit der Vergleich AUSZEICHNUNG von
@@ -322,7 +362,7 @@ const EIGEN_R16 = [
   ['Für die Kaltkontakt-Liste offen (§ 10, O-2)', 'zitierte Vorfassung im Reparaturvermerk (O-2-Entscheid 12.08.2026)'],
 ];
 const EIGEN_R17 = [
-  ['LG Düsseldorf, Urt. v. 06.02.2026 – 38 O 243/23 … hat eine > Briefpost-Werbesendung untersagt — gestützt ausschließlich auf > Art. 6 Abs. 1 lit. f und die Art. 12–14, 21 DSGVO.', 'Selbstzitat der eigenen A7-Vorfassung im sichtbaren Reparatur-Kasten'],
+  ['LG Düsseldorf, Urt. v. 06.02.2026 – 38 O 243/23 … hat eine Briefpost-Werbesendung untersagt — gestützt ausschließlich auf Art. 6 Abs. 1 lit. f und die Art. 12–14, 21 DSGVO.', 'Selbstzitat der eigenen A7-Vorfassung im sichtbaren Reparatur-Kasten'],
   ['Rechtskraft nicht geprüft', 'zitierte eigene Vorfassung; die Fundstelle bleibt wegen vorhandenen R15-Baseline-Treffers Baseline'],
   ['Datenherkunft je Adresse dokumentieren — Art. 14 Abs. 2 lit. f verlangt die Quellenangabe im Brief', 'Selbstzitat des eigenen Satzes aus derselben Datei'],
   ['Was das für unsere Zielkundenliste heißt', 'Selbstzitat der eigenen Zwischenüberschrift aus derselben Datei'],
@@ -335,7 +375,16 @@ const EIGEN_R17 = [
   ['hätte sie angegeben …, hätte das den Eindruck zerstört', 'eigene Paraphrase des Urteilswortlauts'],
   ['Rn. 115: Herkunftsangabe wird zum Irreführungsargument', 'eigene Kurzparaphrase aus dem R16-Nachtrag'],
 ];
-const EIGEN = [...EIGEN_R16, ...EIGEN_R17];
+const EIGEN_R18 = [
+  ['das Berufungsgericht sieht es anders', 'eigene Kastenüberschrift; Fundstelle handel/kanal-rechtsmatrix.md, Stand 86afceb'],
+  ['das Berufungsgericht hält Briefwerbung dieser Art für zulässig', 'bewusst gesperrte Lesart; Fundstelle handel/kanal-rechtsmatrix.md, Stand 86afceb'],
+  ['Doppelbegründung § 3a UWG und § 3 Abs. 2 UWG', 'eigene Bezeichnung; Fundstelle handel/kanal-rechtsmatrix.md, Stand 86afceb'],
+  ['das LG stützt sich auf § 3a UWG', 'bewusst gesperrte Lesart; Fundstelle akquise/interessenabwaegung-o8.md, Stand 86afceb'],
+  ['über § 3a UWG bzw. § 3 Abs. 2 UWG', 'Selbstzitat der Vorfassung aus derselben Datei; Fundstelle akquise/interessenabwaegung-o8.md, Stand 86afceb'],
+  ['*Sie ist damit die einzige der fünf Bedingungen, die nach der Übergabe fortwirkt — und die einzige, deren Verletzung wir nicht selbst verhindern können.*', 'Selbstzitat der eigenen Vorfassung im Reparaturkasten; Fundstelle handel/angebotsarchitektur.md, Stand 86afceb'],
+  ['der Kunde — und wir beim Aufsetzen — licensing, copyright, or other notices nicht entfernen oder verdecken', 'Selbstzitat aus derselben Datei; Fundstelle handel/angebotsarchitektur.md, Stand 86afceb'],
+];
+const EIGEN = [...EIGEN_R16, ...EIGEN_R17, ...EIGEN_R18];
 const eigenSet = new Set(EIGEN.map(([text]) => norm(text)));
 
 // Acht Fundstellen des eingefrorenen R17-Pruefstands, die der vorhandene
@@ -344,19 +393,19 @@ const eigenSet = new Set(EIGEN.map(([text]) => norm(text)));
 // sondern als eigener, sichtbarer R17-Aufnahmebefund. Die Liste ist kein
 // allgemeiner Alarm-Unterdruecker: jedes andere unbestaetigte Zitat bleibt NEU.
 const ROHBELEG_OFFEN_R17 = [
-  ['der Tenor untersagt unter Nr. 4 die unterlassene Art.-14-Information', 'verkürzte Bestandszusammenfassung; kein byte-treuer Rohbeleg-Treffer'],
-  ['bei einem Dritten erhoben', 'verkürzte Bestandsformulierung; kein byte-treuer Rohbeleg-Treffer'],
-  ['der HTML-Abzug derselben Beschaffung liefert dieselben Werte', 'Bestandsaussage über den Beschaffungsweg; kein Rohbeleg-Treffer'],
-  ['zu genau diesem Werbeschreiben', 'verkürzte Bestandsformulierung; kein byte-treuer Rohbeleg-Treffer'],
-  ['vorläufigen Beratungsergebnis', 'Flexionsabweichung zum Rohbeleg „vorläufiges Beratungsergebnis“'],
-  ['*Es ist ein erstinstanzliches Urteil, dessen Berufungsgericht > in derselben Sache erkennbar zu einer anderen Beurteilung > neigt*', 'eigene Bestandszusammenfassung; kein byte-treuer Rohbeleg-Treffer'],
-  ['*und dasselbe LG weicht von der ständigen Rechtsprechung > desselben OLG auch an anderer Stelle ausdrücklich ab > (Rn. 43, TKG/UWG)*', 'eigene Bestandszusammenfassung; kein byte-treuer Rohbeleg-Treffer'],
-  ['je Schiene getrennt … und die Antworten zeigen in entgegengesetzte Richtungen', 'eigene Bestandszusammenfassung; kein byte-treuer Rohbeleg-Treffer'],
+  ['der Tenor untersagt unter Nr. 4 die unterlassene Art.-14-Information', 'Reparaturvermerk-Selbstzitat (L-26), per Konstruktion in keiner Quelle; eingeordnet R18-A am Rohbeleg; Verifizierer: R16-A-Prüfer, Befund M-4'],
+  ['bei einem Dritten erhoben', 'R18-A: war ein echtes verkürztes Tenor-Zitat ohne Ellipse (Aktiv/Passiv), im Fließtext repariert (Commit 8fe60d8); der Wortlaut steht jetzt nur noch als Vorfassung im Reparaturkasten (L-26); Verifizierer: R18-A-Prüfer'],
+  ['der HTML-Abzug derselben Beschaffung liefert dieselben Werte', 'Reparaturvermerk-Selbstzitat (L-26); eingeordnet R18-A; Verifizierer: R16-A-Prüfer, Befund M-7'],
+  ['zu genau diesem Werbeschreiben', 'Reparaturvermerk-Selbstzitat (L-26); eingeordnet R18-A; Verifizierer: R16-A-Prüfer, Befund M-1'],
+  ['vorläufigen Beratungsergebnis', 'Vorfassung im Korrekturvermerk (L-26); Fließtext von R17-A repariert („vorläufige[n]“ mit Anpassungsklammer, Original „vorläufiges“); Verifizierer: R17-A am Rohbeleg'],
+  ['*Es ist ein erstinstanzliches Urteil, dessen Berufungsgericht > in derselben Sache erkennbar zu einer anderen Beurteilung > neigt*', 'Reparaturvermerk-Selbstzitat (L-26); eingeordnet R18-A; Verifizierer: R16-A-Prüfer, Befund S-1'],
+  ['*und dasselbe LG weicht von der ständigen Rechtsprechung > desselben OLG auch an anderer Stelle ausdrücklich ab > (Rn. 43, TKG/UWG)*', 'Reparaturvermerk-Selbstzitat (L-26); eingeordnet R18-A; Verifizierer: R16-A-Prüfer, Befund S-2'],
+  ['je Schiene getrennt … und die Antworten zeigen in entgegengesetzte Richtungen', 'Reparaturvermerk-Selbstzitat (L-26); eingeordnet R18-A; Verifizierer: R16-A-Prüfer, Befund M-6'],
 ];
-const rohbelegOffenSet = new Set(ROHBELEG_OFFEN_R17.map(([text]) => norm(text)));
+const rohbelegOffenSet = new Set(ROHBELEG_OFFEN_R17.map(([text]) => normLegacy(text)));
 
-function bauePoolTexte(poolDateien, lesen) {
-  return new Map(poolDateien.map((datei) => [datei, norm(lesen(datei))]));
+function bauePoolTexte(poolDateien, lesen, normalisieren = norm) {
+  return new Map(poolDateien.map((datei) => [datei, normalisieren(lesen(datei))]));
 }
 
 function poolTextFuer(ziel, poolTexte) {
@@ -474,6 +523,7 @@ function pruefeZieldateien({
   zielDateien,
   lesen,
   poolTexte,
+  poolTexteLegacy = poolTexte,
   rohbelege,
   baselineDaten,
   ausnahmen,
@@ -488,6 +538,7 @@ function pruefeZieldateien({
   for (const datei of zielDateien) {
     const roh = lesen(datei);
     const vergleichsPool = poolTextFuer(datei, poolTexte);
+    const vergleichsPoolLegacy = poolTextFuer(datei, poolTexteLegacy);
     const statistik = {
       datei,
       gesamt: 0,
@@ -503,17 +554,22 @@ function pruefeZieldateien({
     };
     for (const fund of zitate(roh)) {
       const n = norm(fund.text);
+      const nLegacy = normLegacy(fund.text);
       statistik.gesamt++;
       if (ausnahmen.has(n)) ausnahmenVorkommen.add(n);
-      if (rohbelegOffen.has(n)) rohbelegOffenVorkommen.add(n);
-      if (vergleichsPool.includes(n)) {
+      if (rohbelegOffen.has(nLegacy)) rohbelegOffenVorkommen.add(nLegacy);
+      // Zuerst wird der eingefrorene R17-Status reproduziert. Damit kann die
+      // neue Normalisierung weder Baseline-Nenner abbauen noch alte Rohbeleg-
+      // Einstufungen umetikettieren. Nur damalige NEU-Fundstellen gelangen
+      // in den reparierten Vergleich darunter.
+      if (vergleichsPoolLegacy.includes(nLegacy)) {
         statistik.bestaetigt++;
-        funde.push({ datei, zeile: fund.zeile, zitat: n, status: 'bestaetigt' });
+        funde.push({ datei, zeile: fund.zeile, zitat: nLegacy, status: 'bestaetigt' });
         continue;
       }
-      if (rohbelegEnthaelt(rohbelege, fund.text)) {
+      if (rohbelegEnthaeltLegacy(rohbelege, fund.text)) {
         statistik.rohbeleg++;
-        const rohbelegBaselineGruppe = rohMatcher.consume(datei, n);
+        const rohbelegBaselineGruppe = rohMatcher.consume(datei, nLegacy);
         if (rohbelegBaselineGruppe) {
           statistik.rohbelegBaselineGruppen[rohbelegBaselineGruppe]
             = (statistik.rohbelegBaselineGruppen[rohbelegBaselineGruppe] || 0) + 1;
@@ -521,13 +577,13 @@ function pruefeZieldateien({
         funde.push({
           datei,
           zeile: fund.zeile,
-          zitat: n,
+          zitat: nLegacy,
           status: 'rohbeleg',
           baselineGruppe: rohbelegBaselineGruppe,
         });
         continue;
       }
-      const baselineGruppe = matcher.consume(datei, n);
+      const baselineGruppe = matcher.consume(datei, nLegacy);
       if (baselineGruppe) {
         statistik.baseline++;
         statistik.baselineGruppen[baselineGruppe]
@@ -535,10 +591,20 @@ function pruefeZieldateien({
         funde.push({
           datei,
           zeile: fund.zeile,
-          zitat: n,
+          zitat: nLegacy,
           status: 'baseline',
           baselineGruppe,
         });
+        continue;
+      }
+      if (vergleichsPool.includes(n)) {
+        statistik.bestaetigt++;
+        funde.push({ datei, zeile: fund.zeile, zitat: n, status: 'bestaetigt' });
+        continue;
+      }
+      if (rohbelegEnthaelt(rohbelege, fund.text)) {
+        statistik.rohbeleg++;
+        funde.push({ datei, zeile: fund.zeile, zitat: n, status: 'rohbeleg' });
         continue;
       }
       if (ausnahmen.has(n)) {
@@ -551,9 +617,9 @@ function pruefeZieldateien({
         funde.push({ datei, zeile: fund.zeile, zitat: n, status: 'nicht-pruefbar' });
         continue;
       }
-      if (rohbelegOffen.has(n)) {
+      if (rohbelegOffen.has(nLegacy)) {
         statistik.rohbelegOffen++;
-        funde.push({ datei, zeile: fund.zeile, zitat: n, status: 'rohbeleg-offen' });
+        funde.push({ datei, zeile: fund.zeile, zitat: nLegacy, status: 'rohbeleg-offen' });
         continue;
       }
       statistik.neu++;
@@ -853,12 +919,17 @@ function selbsttestLaufen() {
   const fRohbeleg = abschnittZitate(roh, '## Muster F', '## Muster G');
   const gNichtPruefbar = abschnittZitate(roh, '## Muster G', '## Muster H');
   const hRohbelegOffen = abschnittZitate(roh, '## Muster H', '## Muster I');
-  const iAuslassungen = abschnittZitate(roh, '## Muster I', null);
+  const iAuslassungen = abschnittZitate(roh, '## Muster I', '## Muster J');
+  const jBlockquote = abschnittZitate(roh, '## Muster J', '## Muster K');
+  const kEigenR18 = abschnittZitate(roh, '## Muster K', '## Muster L');
+  const lEigenR18Negativ = abschnittZitate(roh, '## Muster L', '## Muster M');
+  const mEigenR17Praefix = abschnittZitate(roh, '## Muster M', null);
 
+  const basisRoh = roh.slice(0, roh.indexOf('## Muster K'));
   const poolTexte = bauePoolTexte(POOL, liesPruefdatei);
   // Die Selbsttest-Datei wird absichtlich auch als Pool-Datei angeboten. Nur
   // poolTextFuer() darf verhindern, dass sie ihre eigenen Zitate bestaetigt.
-  poolTexte.set(datei, norm(roh));
+  poolTexte.set(datei, norm(basisRoh));
   const testBaseline = {
     gruppen: {
       selbsttest: {
@@ -869,7 +940,7 @@ function selbsttestLaufen() {
   };
   const lesen = (pfad) => {
     if (pfad !== datei) throw new Error('Unerwartete Selbsttest-Datei: ' + pfad);
-    return roh;
+    return basisRoh;
   };
   const verwaisteAusnahme = norm('Diese registrierte Selbsttest-Ausnahme kommt im Bestand nirgends vor und muss verwaist sein.');
   const testAusnahmen = new Set([...eEigen, verwaisteAusnahme]);
@@ -889,6 +960,16 @@ function selbsttestLaufen() {
     texte: virtuelleRohtexte,
     text: virtuelleRohtexte.join('\n'),
   };
+  // R18-B-Regression: dieselbe Wortfolge einmal mit verschachteltem Praefix
+  // auf der Zielseite, einmal auf der Quellseite. Das dritte Zitat ist die
+  // TREFFEN-NICHT-Gegenrichtung. Der Silbentrennungsfall bindet zugleich die
+  // richtige Stufenfolge: Praefixe muessen vor der Dehyphenierung fallen.
+  poolTexte.set('selbsttest/r18b-zielpraefix-quelle.md', norm(
+    'R18-B Zielpräfix wird symmetrisch entfernt und bleibt vollständig bestätigt.',
+  ));
+  poolTexte.set('selbsttest/r18b-quellpraefix-quelle.md', norm(
+    'R18-B Quellpräfix wird symmetrisch entfernt und die Silben-\n> > trennung bleibt bestätigt.',
+  ));
   const basis = pruefeZieldateien({
     zielDateien: [datei],
     lesen,
@@ -909,6 +990,9 @@ function selbsttestLaufen() {
   const iNegativ = [iAuslassungen[1], iAuslassungen[3]];
   const iRohbeleg = statusTreffer(basis.funde, iPositiv, 'rohbeleg');
   const iNeu = statusTreffer(basis.funde, iNegativ, 'neu');
+  const jPositiv = [jBlockquote[0], jBlockquote[1]];
+  const jPool = statusTreffer(basis.funde, jPositiv, 'bestaetigt');
+  const jNeu = statusTreffer(basis.funde, [jBlockquote[2]], 'neu');
   const falschesRnZitat = aNeu.filter((zitat) => zitat.startsWith('Rn. 999:'));
   const falschesRnNeu = statusTreffer(basis.funde, falschesRnZitat, 'neu');
   const verwaist = [...testAusnahmen]
@@ -920,6 +1004,52 @@ function selbsttestLaufen() {
     verfuegbar: true,
     texte: [iSegmente[0], iSegmente[1]],
   }, iAuslassungen[0]);
+  const falscheReihenfolge = (text) => text
+    .replace(/ /g, ' ')
+    .replace(/-\s+/g, '-')
+    .replace(/^[ \t]*(?:>[ \t]?)+/gm, '')
+    .replace(/\*\*/g, '')
+    .replace(/[„“”‚‘’"']/g, '')
+    .replace(/\s+/g, ' ')
+    .replace(/\/\s+/g, '/')
+    .trim();
+  const reihenfolgeQuelle = 'R18-B Quellpräfix wird symmetrisch entfernt und die Silben-trennung bleibt bestätigt.';
+  const reihenfolgeVerschachtelt = 'R18-B Quellpräfix wird symmetrisch entfernt und die Silben-\n> > trennung bleibt bestätigt.';
+  const reihenfolgePositiv = norm(reihenfolgeVerschachtelt) === norm(reihenfolgeQuelle);
+  const reihenfolgeNegativ = falscheReihenfolge(reihenfolgeVerschachtelt) !== norm(reihenfolgeQuelle);
+
+  const eigenR18Text = kEigenR18.map((zitat) => '„' + zitat + '"').join('\n');
+  const eigenR18Lauf = pruefeZieldateien({
+    zielDateien: ['selbsttest/eigen-r18.md'],
+    lesen: () => eigenR18Text,
+    poolTexte: new Map(),
+    rohbelege: { verfuegbar: true, quelle: 'leer', texte: [], text: '' },
+    baselineDaten: { gruppen: { leer: { nenner: 0, dateien: {} } } },
+    ausnahmen: new Set(EIGEN_R18.map(([text]) => norm(text))),
+  });
+  const eigenR18Positiv = statusTreffer(eigenR18Lauf.funde, kEigenR18, 'eigen');
+  const eigenR18NegativText = lEigenR18Negativ.map((zitat) => '„' + zitat + '"').join('\n');
+  const eigenR18NegativLauf = pruefeZieldateien({
+    zielDateien: ['selbsttest/eigen-r18-negativ.md'],
+    lesen: () => eigenR18NegativText,
+    poolTexte: new Map(),
+    rohbelege: { verfuegbar: true, quelle: 'leer', texte: [], text: '' },
+    baselineDaten: { gruppen: { leer: { nenner: 0, dateien: {} } } },
+    ausnahmen: new Set(EIGEN_R18.map(([text]) => norm(text))),
+  });
+  const eigenR18Negativ = statusTreffer(eigenR18NegativLauf.funde, lEigenR18Negativ, 'neu');
+
+  const eigenR17Text = mEigenR17Praefix.map((zitat) => '„' + zitat + '"').join('\n');
+  const eigenR17Lauf = pruefeZieldateien({
+    zielDateien: ['selbsttest/eigen-r17-praefix.md'],
+    lesen: () => eigenR17Text,
+    poolTexte: new Map(),
+    rohbelege: { verfuegbar: true, quelle: 'leer', texte: [], text: '' },
+    baselineDaten: { gruppen: { leer: { nenner: 0, dateien: {} } } },
+    ausnahmen: new Set(EIGEN_R17.map(([text]) => norm(text))),
+  });
+  const eigenR17Positiv = statusTreffer(eigenR17Lauf.funde, [mEigenR17Praefix[0]], 'eigen');
+  const eigenR17Negativ = statusTreffer(eigenR17Lauf.funde, [mEigenR17Praefix[1]], 'neu');
 
   // Gegenrichtung: exakt dasselbe D-Zitat steht zusaetzlich in einer anderen
   // virtuellen Pool-Datei. Der Produktivpfad muss es jetzt bestaetigen.
@@ -982,7 +1112,11 @@ function selbsttestLaufen() {
   const extrahiert = basis.funde.length;
   const erwartet = aNeu.length + bBaseline.length + cPool.length + dSelbst.length
     + eEigen.length + fRohbeleg.length + gNichtPruefbar.length
-    + hRohbelegOffen.length + iAuslassungen.length;
+    + hRohbelegOffen.length + iAuslassungen.length + jBlockquote.length;
+  const gesamtMitZusatzlaeufen = extrahiert + kEigenR18.length + lEigenR18Negativ.length
+    + mEigenR17Praefix.length;
+  const gesamtErwartet = erwartet + kEigenR18.length + lEigenR18Negativ.length
+    + mEigenR17Praefix.length;
   const ok = extrahiert === erwartet
     && aGetroffen === aNeu.length
     && bGetroffen === bBaseline.length
@@ -997,6 +1131,12 @@ function selbsttestLaufen() {
     && rohbelegOffenVerwaist.length === 1
     && rohbelegOffenVerwaist[0] === verwaisterRohbelegOffen
     && iAuslassungen.length === 4 && iRohbeleg === 2 && iNeu === 2 && iDateigrenze
+    && jBlockquote.length === 3 && jPool === 2 && jNeu === 1
+    && reihenfolgePositiv && reihenfolgeNegativ
+    && kEigenR18.length === EIGEN_R18.length && eigenR18Positiv === EIGEN_R18.length
+    && lEigenR18Negativ.length === EIGEN_R18.length
+    && eigenR18Negativ === EIGEN_R18.length
+    && mEigenR17Praefix.length === 2 && eigenR17Positiv === 1 && eigenR17Negativ === 1
     && gGetroffen === gNichtPruefbar.length && gNeu === 0 && gBestaetigt === 0
     && zielSelbstausschluss === ZIEL.length
     && aNeu.length > 0 && bBaseline.length > 0 && cPool.length > 0 && dSelbst.length > 0
@@ -1005,7 +1145,7 @@ function selbsttestLaufen() {
     && eolOk;
 
   console.log('=== SELBSTTEST: dieselben Funktionen wie der Produktivpfad ===');
-  console.log('Zitate extrahiert                 : ' + extrahiert + ' / ' + erwartet);
+  console.log('Zitate extrahiert                 : ' + gesamtMitZusatzlaeufen + ' / ' + gesamtErwartet);
   console.log('Muster (a) NEU                   : ' + aGetroffen + ' / ' + aNeu.length);
   console.log('TREFFEN-NICHT-Zeilen             : ' + aGetroffen + ' / ' + aNeu.length);
   console.log('Muster (b) BASELINE, nicht rot   : ' + bGetroffen + ' / ' + bBaseline.length);
@@ -1026,6 +1166,14 @@ function selbsttestLaufen() {
   console.log('Muster (i) Auslassung bestaetigt : ' + iRohbeleg + ' / 2');
   console.log('Muster (i) Auslassung bleibt NEU : ' + iNeu + ' / 2');
   console.log('Muster (i) keine Dateigrenze     : ' + (iDateigrenze ? 'JA' : 'NEIN'));
+  console.log('Muster (j) > > symmetrisch       : ' + jPool + ' / 2 bestaetigt');
+  console.log('Muster (j) TREFFEN-NICHT         : ' + jNeu + ' / 1 NEU');
+  console.log('Praefix vor Dehyphenierung       : ' + (reihenfolgePositiv ? 'JA' : 'NEIN'));
+  console.log('Dehyphenierung davor verworfen   : ' + (reihenfolgeNegativ ? 'JA' : 'NEIN'));
+  console.log('Muster (k) EIGEN_R18 positiv     : ' + eigenR18Positiv + ' / ' + EIGEN_R18.length);
+  console.log('Muster (l) EIGEN_R18 negativ     : ' + eigenR18Negativ + ' / ' + EIGEN_R18.length + ' NEU');
+  console.log('Muster (m) EIGEN_R17 Praefix     : ' + eigenR17Positiv + ' / 1 EIGEN');
+  console.log('Muster (m) Gegenrichtung         : ' + eigenR17Negativ + ' / 1 NEU');
   console.log('Selbstausschluss ZIEL            : ' + zielSelbstausschluss + ' / ' + ZIEL.length);
   console.log('LF/CRLF invariant                : ' + (eolOk ? 'JA' : 'NEIN'));
   console.log(ok ? 'SELBSTTEST BESTANDEN' : 'SELBSTTEST FEHLGESCHLAGEN');
@@ -1077,11 +1225,13 @@ function produktivLaufen(altlastVolltext) {
     return 1;
   }
   const poolTexte = bauePoolTexte(POOL, liesPruefdatei);
+  const poolTexteLegacy = bauePoolTexte(POOL, liesPruefdatei, normLegacy);
   const rohbelege = rohbelegPoolLesen();
   const ergebnis = pruefeZieldateien({
     zielDateien: ZIEL,
     lesen: liesPruefdatei,
     poolTexte,
+    poolTexteLegacy,
     rohbelege,
     baselineDaten: daten,
     ausnahmen: eigenSet,
@@ -1154,7 +1304,7 @@ function produktivLaufen(altlastVolltext) {
     .filter((text) => !ergebnis.ausnahmenVorkommen.has(text));
   const eigenBegruendet = EIGEN.filter(([, begruendung]) =>
     typeof begruendung === 'string' && begruendung.trim().length > 0).length;
-  const rohbelegOffenVerwaist = ROHBELEG_OFFEN_R17.map(([text]) => norm(text))
+  const rohbelegOffenVerwaist = ROHBELEG_OFFEN_R17.map(([text]) => normLegacy(text))
     .filter((text) => !ergebnis.rohbelegOffenVorkommen.has(text));
 
   console.log('=== Zitatabgleich: neue Verstoesse gegen festgeschriebenen Bestand ===');

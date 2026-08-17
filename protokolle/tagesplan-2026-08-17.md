@@ -2646,3 +2646,32 @@ Agenten: A-F1 · C-F6 · A-N-7 per Zeile wiedergefunden.
   Commands geändert).
 - Zeitstempel Block-6-Abschluss: 21:30 MESZ (`date`).
 - **Codex-Scratch gelöscht 21:31 MESZ** (`rm -rf firma/r18b-scratch-86afceb` + `.tar`, User-Freigabe Chat „darf nach dem /debrief weg"; Hashes der Läufe stehen in `protokolle/R18-B-bericht.md` § 9). Ebene über den Repos danach: heypensio · marketing · projektgeruest · zentrale · secret-broker · werkzeuge.
+
+### Tagesende — Übergabe für den nächsten Tagesstart (nach dem R18-Debrief, nur Chat, keine Artefakte geändert)
+
+- **User-Frage „Stand/Ausblick/Meilensteine — nur Dokumente?":** ehrlich
+  bestätigt (seit 09.08. fast nur interne Dokumente; Tore Name /
+  Rechtsrat / User-Entscheide + Methodik-Overhead). Terminlage aus
+  Akquiseplan § 6 vorgelegt: S5 (Name) verstrichen, Messfenster
+  24.08.–20.09., Welle 1 bis 11.09., Abschluss 13.11. — **Terminrisiko
+  hoch, null Puffer**; „Abteilung komplett Mitte September" ohne Namen
+  nicht erreichbar. Zusage der Leitsession: **R19 auf Vollzug schneiden**
+  (Brief-Rohtext + Art.-14-Beilage namensfrei, K2-Leitfaden, Baseline-
+  Vorbereitung, Naming-Verdichtung), Wächter-/Regelwerk-Pflege nur noch
+  als kleine Codex-Aufgabe.
+- **User: „Wir kümmern uns jetzt um den Namen."** Shortlist (10, R04-A
+  09.08.) vorgelegt → **User: „die Namen gefallen mir nicht."** →
+  Befund über die FINDUNGSRICHTUNG (fünf Achsen A1–A5), nicht über die
+  Prüfung. Drei Kalibrierungsfragen gestellt, **unbeantwortet
+  (Feierabend):** (1) was stört (bieder/weich/künstlich/zu deutsch/zu
+  wenig Software?) · (2) drei Marken, deren Namen dem User gefallen ·
+  (3) beschreibend vs. Kunstwort vs. echtes Wort mit Haltung. **Nächster
+  Schritt MARKE:** Antworten einholen → zweite Findungswelle (5 frische
+  Agenten, neue Achsen, Kontaminationsschutz, gleiche K.-o.-Prüfung nach
+  `marke/naming-kriterienkatalog.md`) → neue Shortlist → Live-Welle
+  K2/K3/W7/W8 nur für User-Favoriten. Der StB-Termin (Di 18.08.) braucht
+  noch keinen Namen — nur Gate 1 (GbR-Namensführung, Markeninhaberschaft).
+- **Sonst offen (unverändert):** fünf R16-Entscheide · Zielstichprobe ·
+  Vorlagen-Lesart/A5-Probedruck vor So 23.08. · Anker H-8/AKQ-H-2 ·
+  Nachzug `9858070` · `.gitattributes`.
+- Zeitstempel Tagesende: 18.08. 00:33 MESZ (`date`). Vor dem nächsten Start: NEUES Fenster, `/tagesstart` (neuer Tag).

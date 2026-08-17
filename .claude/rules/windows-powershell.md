@@ -30,6 +30,18 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
   verschieben (derselbe Blob lieferte 143 vs. 144 Treffer, weil `\r`
   gegen eine Mindestlänge mitzählte) — vor der Extraktion auf LF
   vereinheitlichen. (Herkunft: MKT R15.)
+- **⭐ Der Bash-Kanal des Werkzeugs verschluckt Backslashes — in
+  Heredocs UND in Inline-Skripten** (`\\|` kommt als `\|` an, `(?<!\\)`
+  verliert die Maskierung; drei stille Fehlversuche, MKT R17). Skripte
+  mit Backslash-Mustern per Write-Tool anlegen oder das Zeichen als
+  `String.fromCharCode(92)` bauen. Ebenso verliert ein Literal-
+  Sonderzeichen (NBSP) in `node -e` seine Kodierung und zählt alle
+  Leerzeichen (0 → 8660): Zählungen als Skriptdatei MIT Selbsttest.
+- **Ersetzungsskripte brauchen eine Trefferkontrolle JE MUSTER mit
+  Abbruch** (Soll n, sonst Exit) — ein Lauf traf 0/11, weil das Repo
+  öffnend `„` und schließend ASCII-`"` schreibt, der nächste 7/11 wegen
+  Zeilenumbrüchen mit `> `-Präfix im Zitat; ohne Kontrolle wären 7
+  Stellen geändert und 4 still liegen geblieben (MKT R17).
 - **Python ist auf diesem Rechner NICHT verfügbar** — Skripte laufen über
   Node. (Herkunft: MKT R15.)
 - Feldnamen NIE am geparsten Objekt einer case-insensitiven Sprache

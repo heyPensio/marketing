@@ -2345,3 +2345,283 @@ dazu stehen bereits unter dem jeweiligen L-Eintrag bzw. Sammelvermerk.)*
   Aufzählung ist eine Mindestliste" und stellte als Abhilfe einen
   Namensfilter hin — die wichtigste Leck-Klasse war ein Parameter, keine
   Route (gemessen: 20 von 24 Kanälen offen, bekannt waren 5).
+
+## L-51 — Wer einen Satz kippt, kippt seine FOLGESÄTZE: Suchraum ist die Schlussfolgerung, nicht das Wort (R17, 17.08.2026)
+
+**Drei Fälle an einem Tag, in drei Sessions:**
+
+**Fall 1 (R17-A, Ben Beckman, `ecb197c` → Prüfer S-1):** Die Session
+fand ihren eigenen Superlativ („die einzige, deren Tatbestand B2B
+ausdrücklich einschließt") an allen drei FUNDSTELLEN und reparierte
+sie vor dem Prüferlauf. Der Prüfer mit frischem Kontext fand sofort
+die **Folgefrage** im Anwalts-Briefing („dort fehlt die
+Adressatengrenze, an der die **beiden anderen** Schienen sich reiben"),
+die die gekippte Prämisse weitertrug — Wortsuche findet den Superlativ,
+nicht den Satz, der auf ihm steht.
+
+**Fall 2 (Leitsession, Prüf-Subagent Zuschnitt, A5):** Der Nebenbefund
+R15B-N-4 behauptete „O-2-Superlative in ZWEI Fremd-Dokumenten"; belegt
+war eines. Die zweite Fundstelle wanderte ungemessen in die
+Routing-Tabelle (Projektquelle § 6a), in `handel/angebotsarchitektur.md`
+Z. 1998 und in zwei Session-Prompts (R17-A Erstfassung), bevor `git log
+-S "fortwirkt"` = 0 Commits zeigte: Das Preismodell hat den Satz **nie**
+getragen. Vier Ableitungen aus einer unbelegten Hälfte.
+
+**Fall 3 (R17-C, Lucky Roux, Fallen 9 — Leitsessions-Prompt):** Der
+Prompt gab „das Urteil trägt es in Rn. 84/85 anders" als Begründung für
+das Inkraftbleiben der Sperre vor; die Session übernahm es. Rn. 84/85
+trägt die lit.-f-Absage, nicht die Fälligkeitsregel — der Wortlaut war
+gedeckt, seine VERWENDUNG als Beweisgrund nicht.
+
+**Kern (CLAUDE.md, neben L-25):** Wer einen Satz kippt oder eine
+Prämisse als unbelegt erkennt, sucht nicht nach dem WORT, sondern nach
+den SÄTZEN, DIE AUF IHM STEHEN — Folgefragen, Begründungen, Zeiger,
+Prompts. L-25 regelt die Ableitung zwischen DATEIEN; L-51 die
+Schlussfolgerung im selben Dokument und im eigenen Auftragstext.
+Verwandt: L-49 (die angewandte Regel schützt den eigenen Text nicht) —
+Fall 1 ist zugleich dessen dritter Beleg.
+
+## Sammelvermerk R17 (17.08.2026) — Zweitbelege, bewährte Muster, Werkzeug-Nachträge
+
+*(Quellen: `protokolle/R17-A-abschluss.md` [12 Fallen, 9 Muster, 7
+Nebenbefunde], `protokolle/R17-C-abschluss.md` [13 Fallen, 12 Muster,
+8 Nebenbefunde], `protokolle/R17-B-bericht.md` [Grenzen-Abschnitte],
+`protokolle/R17-leit-verdichtung.md` + Tagesplan Block 3 [Leitsession,
+6 Eigenbefunde]. Disposition je Learning: (a) neuer Kern · (b)
+Zweitbeleg · (c) bewusst nicht · (d) Blueprint. Nenner: A 12+9+7 = 28
+· C 13+12+8 = 33 · B 2 Grenzenlisten · Leit 6 → **69 Posten**, alle
+disponiert; Summenprobe je Gruppe unten.)*
+
+### Zweitbelege zu bestehenden Regeln (b) — 34
+
+1. **L-49 (angewandte Regel schützt den eigenen Text nicht):** A-F8
+   (eigener Superlativ im selben Commit wie die Reparatur eines
+   fremden) · C-F2 (L-38-Zerriss beim Einfügen zwanzig Minuten nach der
+   L-38-Dokumentation) · C-F8 ⭐⭐ (unbequeme Rn.-86-Hälfte weggelassen,
+   obwohl „Vorbehalt zuerst" im Kasten stand) · Leit (O-12-Satz mit
+   Anführungszeichen erzeugte selbst 1 NEU, während der Wächter-Umbau
+   abgenommen wurde). Vier Belege → der Kern bleibt, kein Anbau.
+2. **„Verdichten verliert den Vorbehalt":** Leitsession-Verdichtung
+   (Gegenprobe: 8 von 140 Aussagen gefallen — 5 Vorbehalte, 2
+   Kontrast-Hälften, 1 ERFUNDENE Zahl „fünf Wege" = 2 + 3, bei frischer
+   Session mit Prüffrage je Streichung) · C-F8. Muster für die
+   Verdichtungs-Gegenprobe (→ Debrief-Skill, d): „z. B."/„auch"-
+   Streichung, „nicht X, sondern Y"-Paare, neu abgeleitete Zahlen.
+3. **L-15 (delegierte Zahlen; geschärft):** A-F2/N-6 — „65 von 77" trug
+   vier Positivkontrollen und eine Gegenkontrolle im Text und war
+   falsch (63/77, 14 statt 12 Rn.); der billigste Gegencheck (`grep -c
+   "149"`) hätte es gefunden. **Kern geschärft:** Zählweg anfordern UND
+   an einer Stichprobe reproduzieren — ein dokumentierter Zählweg belegt,
+   DASS gezählt wurde.
+4. **L-07 (Kalender-Etiketten; geschärft um Uhrzeiten):** Tagesplan
+   Block 1/2 trug „~17:00–19:00"/„~19:15" — die Commits liegen bei
+   15:36–15:57; dieselbe Leitsession schrieb um 18:33 „~18:55" ins
+   Verdichtungsprotokoll. Zwei Belege an einem Tag, beide der Klasse
+   „aus dem Kopf".
+5. **L-48 (Prüfer-„nicht prüfbar"-Liste; geschärft):** Prüf-Subagent A8
+   — der R16-A-Prüfer schrieb „Rn. 237 nicht von MIR geprüft"; die
+   Leitsession machte daraus „ungeprüft"; der R15-A-Prüfer hatte sie
+   am Rohbeleg geprüft (`R15-A-pruefer.md` Z. 694). **Kern geschärft:**
+   „nicht von mir geprüft" ist kein „ungeprüft" — Fremdmeldung trägt
+   ihren Lesestand (L-50-Nachbar).
+6. **L-30 („x von y" am Kriterium):** R15B-N-4 „zwei Fremd-Dokumente"
+   ohne Fundzeile für das zweite (Fall 2 zu L-51) · C-F5 (Summenprobe
+   11 = 1+8+2 stimmte, Einstufung 2/7 falsch — die ⚠️-EINSCHRÄNKUNG am
+   eigenen Objekt reproduziert).
+7. **L-05 (Klassifikator-Blockade):** zehnter Beleg — R17-A dreimal in
+   beiden Befehlsformen blockiert, Leitsession-Push derselben Commits
+   Minuten später durch. Kontext-/zeitpunktgebunden, kanalunabhängig.
+8. **„Ein Werkzeug-Negativ misst einen KANAL":** A-F1 — „deutsche
+   EuGH-Fassung nicht abrufbar" stand vier Runden als Quellen-EIGENSCHAFT
+   in der R09-A-Quellenliste; es fehlte `curl -L`. Negativ-Protokolle
+   tragen den Kanal MIT Flags (→ Baustein quellen-beschaffung, d).
+9. **„Ziel schlägt Weg" (Auftrags-Lösungsweg widerlegt):** C-F1 — der
+   Prompt sagte „`>`-Präfix ergänzen (mechanisch)"; `git show d11535f:`
+   zeigte: nie ein Präfix, ein Edit-Anker hatte den Vorspann
+   verschluckt. Ursache: Die Leitsession hatte den Subagenten-Befund
+   („Folgezeile ohne `>`") in einen Reparaturweg ÜBERSETZT, statt ihn
+   als Messung zu übergeben. → Prompts nennen Befunde, nicht Wege.
+10. **(e) Auftrag ist Annahme / L-51 Fall 3:** C-F9.
+11. **L-40 (Wächter-Entwarnung, wandernder Stand):** C-F7 (ZIEL 27
+    statt 8 im Nachher-Lauf = fremder Umbau) · C-F11 (Positivkontrolle
+    „92-mal" über wandernden Baum: heute 96, eingefroren 107/100/93/25)
+    · A-F7 (fail-closed Rot des Umbaustands ist kein Rot über die
+    eigene Arbeit) · C-N8.
+12. **L-50 (Kürzel ≠ Sache):** C-F12 (Positivkontrolle im Kürzel-Kanal
+    `H-1`, Verneinung im Sache-Kanal „kein Entscheid zur Zielstichprobe";
+    tragfähig erst mit Kontrollkandidat BM-4/BM-5 = 20 Treffer).
+13. **(a) delegierte Fundstellen driften:** C-F13 (Gegenleser schrieb
+    einen o8-Satz dem Regelwerk zu; Befund stimmte, Fundstelle nicht).
+14. **L-26 (Reparatur-Doku verändert den Prüflauf):** A-N5 achter
+    EIGEN-Kandidat („verbleiben") · A-N5 sieben weitere · Leit O-12.
+15. **L-29 (Fehlalarme = Normalisierung):** C-F3 — `>   > `-Verschachtelung
+    lässt ein `>` mitten im Zitat stehen; vier byte-treue Zitate NEU.
+    Werkzeug-Nachtrag → R18-Wächter (Normalisierung aller führenden
+    Präfixe je Zeile).
+16. **L-38 (Edit-Anker zerlegt Folgezeile):** C-F2 (zweiter Beleg am
+    Messplan-Kasten) · C-F1 (Ursache des § 4.3-Bruchs seit `d11535f`).
+17. **„Gegen-Durchgang auch bei Archiv-Quellen":** A-F10 — OLG-Beschluss
+    mit 27 Rn. vollständig gelesen, Rn. 19/27 (beide STÄRKEN den
+    Bestand) übersehen; Auswertung lief entlang der eigenen Fragen.
+    Gilt auch bei acht Seiten.
+18. **„Entwarnung trägt Quelle im Satz" / Struktur-Schluss:** A-F11 —
+    eigener Strukturschluss („hätte ohne diesen Satz denselben Tenor")
+    plus Selbst-Entwarnung („keine Bewertung"), wo Rn. 27 den Beleg
+    hält. Prüfer H-5. Muster: Wo die Quelle liefert, nicht selbst
+    argumentieren.
+19. **„Vorher und Nachher auf demselben Lineal":** A-F12 („63/77" per
+    Rn.-Muster vs. „77/77" per Rn.-Muster + Tabellenzellen; die
+    Geltungsgrenze stand im Kasten und zog keine Konsequenz).
+20. **Zitat kopieren, nicht abschreiben (L-01/L-27-Nachbar):** A-F3
+    (Grammatikfehler „verblieben" still geglättet; nur der mechanische
+    Abgleich fing es, 29/30).
+21. **Unsichtbare Zeichen (windows-powershell):** A-F4/N-4 (U+2011 aus
+    dem EuGH-Text wanderte ins Briefing; 34× U+2011 + 306× NBSP im
+    DE-Volltext — `C-621/22` mit ASCII-Bindestrich = 0) · C-N3
+    (Soft-Hyphen in „Termin­quote", Akquiseplan § 5).
+22. **Bash-Kanal-Fallen (windows-powershell):** A-F5/F6 (`node -e`
+    mit Windows-Pfaden, `cd` verschiebt beide Kanäle — beide bereits im
+    Baustein, trotzdem hineingelaufen) · C-F6/N6 (NBSP-Literal in
+    `node -e` verliert Kodierung: 0 → 8660) · C-M9 + Leit (Backslash
+    geht in Heredoc UND Inline-Skript verloren, `(?<!\\)` und `\\|`;
+    Write-Tool oder `String.fromCharCode(92)`) · C-F10 (Ersetzungslauf
+    traf 0/11 wegen `„…"` mit ASCII-`"`, dann 7/11 wegen
+    Zeilenumbrüchen — Trefferkontrolle je Muster mit Abbruch).
+23. **L-35 (Kurz-ID-Kollision):** C-N2 — `H-2` dreifach
+    (Messplan-Freigabe · Akquiseplan § 7 mit anderer Frist · R05-A-
+    Prüfer). Träger Leitsession, R18-Posten mit R15B-N-5/N-6.
+24. **„Konditionale/relative Zeitangaben altern lautlos":** C-N4 („S5
+    liegt drei Tage nach heute", „das war gestern" — Erstellungsstand
+    11.08.).
+25. **ERFÜLLEN-Kategorie (V17-10):** C-N5 — Projektquelle § 7 Punkt 3
+    führte H-2 als „offen, neuer Anker fehlt", zwei der drei Teile waren
+    seit 09.08. erledigt (Leitsession zieht nach, Debrief 4b).
+26. **L-44/L-46-Nachbar (Sperrdatei):** A-N7 — abschließende
+    Positivliste vor § 3a lässt SP-01/SP-09 fallen (R18-AKQ).
+27. **Rechtsmatrix-Fernwirkungen (Bestand, MKT-HANDEL R18):** A-N2 Rn.
+    187/188 (AGB gegenüber Verbrauchern) · A-N3 Rn. 220 (keine
+    Karenzfrist Art. 14 — stärkt Rn. 85/87).
+28. **Repo-Konfiguration:** A-N1 `core.autocrlf=true` lokal ohne
+    `.gitattributes` — Entscheid Leitsession R18 (`* text=auto eol=lf`).
+29. **Prüfer-Selbstkontamination:** A-M9 — der R17-A-Prüfer traf mit
+    `Rn. 224` sein eigenes Protokoll; Kontrollbegriffe im eigenen
+    Protokoll treffen sich selbst (Sammelvermerk R9 „Anker im stabilen
+    Teil" — Nachbarfall).
+30. **Codex-Auflagen wirken:** B — Scratch außerhalb des Repos
+    (`%TEMP%\codex-r17b-…`), Prüfstand-Export, alle Modi echt
+    gelaufen, Grenzen zwei Listen; keine Abweichung zwischen Bericht
+    und Leitsessions-Reproduktion.
+31. **Wächter-Blindfleck (Kopien):** Ordner-Bausteine ungemessen —
+    Postkorb Zentrale `f58f1c0`.
+32. **Zeitplan-Ableitungen (C-B2/Block 2 Punkt 4):** fünf Stellen
+    Ein-Gate-Logik in Akquiseplan § 6/§ 7/§ 8 — R18-AKQ.
+33. **Prüf-Subagent Zuschnitt R17:** 18 Verneinungen, 3 widerlegt (A5,
+    A8, L1) — dritte Runde in Folge, in der der Zuschnitt-Prüfer
+    Prämissen kippt (R15: 4, R16: 2, R17: 3).
+34. **StB-Termin doppelt in STATUS** (C-Block 2 Punkt 5): Punkt 0
+    „~KW 34/35" (Namensentscheid-Pfad, Zentrale-Einschätzung) vs. Punkt
+    1 „Mo 10.08." (ursprünglicher Anruf-Anker) — Klärung 4b: eine
+    Handlung, der Anker ist der User-Zusage 18.08. gewichen.
+
+### Bewährte Muster (Register-Eintrag; teils Blueprint d) — 15
+
+- **A-M1/C-M1/A-M6:** Volltexte sichern, `git archive <hash>` als
+  Scratch-Prüfstand, isolierte Stände A/B mit `diff -rq` als Beleg der
+  Isolation — jedes Delta zuordenbar (→ tagesstart, d).
+- **A-M2/A-M3/A-M4:** Positivkontrolle im selben Lauf entscheidet, ob
+  ein Nulltreffer ein Befund ist (NRWE-Maske: „Kanal misst nichts"
+  statt „nicht veröffentlicht" — der Auftrag hätte die falsche Antwort
+  akzeptiert) · Zeichenklasse (`§ 890` = 2 neben `§ 3 Abs. 2` = 0) ·
+  zwei Lesekanäle für ein überraschendes Negativ (Rn. 149/150).
+- **A-M5/C-M8:** Löschungszählung als Skript-Gegenprobe; jede
+  Formprüfung AUCH gegen den Vorher-Stand (Pipe-Befund war eigener
+  R16-C-Altfehler, nicht Werkzeugartefakt).
+- **A-M7:** Auftrags-Prüfverdacht ergebnisoffen („nicht übertragbar"
+  hielt — belegen statt der erwarteten Richtung folgen).
+- **A-M8:** Prüfstand einfrieren UND die eigene Arbeit weiterlaufen
+  lassen — zwei unabhängige Wege zum selben Befund (S-1), der Prüfer
+  brachte zwei Widerlegungen mehr und die Folgefrage (→ tagesstart, d).
+- **A-M9:** Ein Prüfer, der seine eigenen Zahlen gegenläuft (vier
+  falsch, drei in Richtung eigener These, offen korrigiert), ist
+  belastbarer als einer ohne Fehler.
+- **C-M2:** Zählwerkzeug mit Selbsttest je Muster und verschiedenen
+  Sollwerten je Kanal fing den eigenen Sollwert-Fehler.
+- **C-M3:** Der git-Verlauf beantwortet Bezugsfragen („wer ist Er?" =
+  `git show d11535f:`), bevor man rekonstruiert.
+- **C-M4/C-M5/C-M6:** Vorbehalt vor Rechtsfolge · zwei Lesarten
+  vorlegen statt entscheiden (H-2 Teil 3) · verstrichene Frist
+  sichtbar lassen, keinen Ersatzanker erfinden.
+- **C-M7:** Vor dem Ändern einer POOL-Datei prüfen, wer daraus zitiert
+  (Durchstreichung verändert normalisierten Text).
+- **C-M10 ⭐⭐:** Gegenlese-Zuschnitt: „Aussage und Fundstelle getrennt"
+  + „oder die stillschweigend auf X aufsetzt" + zwei nachprüfbare
+  eigene Behauptungen mitgeben — fünf schwere Befunde aus einem
+  „kurzen Gegenleser" (→ tagesstart, d).
+- **C-M11:** „Welche Verfälschung hätte dein Verfahren nicht gefangen?"
+  liefert die nächste Arbeitsliste (Bau ≠ Beleg → fehlender Vorbehalt).
+- **C-M12:** `git fetch` + `HEAD..origin/main` = 0 → kein Rebase, kein
+  Autostash-Risiko.
+- **Leit:** Verdichtungs-Gegenprobe durch Subagenten VOR dem Commit
+  (8/140 gefangen) · Prüf-Subagent Zuschnitt (3/18) · Codex-Abnahme
+  per Reproduktion aller Modi am Prüfstand.
+- **Leit:** Frisch nach `/clear` verdichten — und trotzdem gegenprüfen
+  lassen: Müdigkeit ist eine, nicht die einzige Drift-Ursache.
+
+### Werkzeug-Nachträge (d, Bausteine via Master)
+
+- `windows-powershell`: Bash-Kanal verschluckt Backslashes in Heredoc
+  UND Inline-Skript (Write-Tool oder `String.fromCharCode(92)`);
+  `node -e` mit Literal-Sonderzeichen verliert Kodierung (Skriptdatei
+  + Selbsttest); Ersetzungsskripte mit Trefferkontrolle je Muster und
+  Abbruch (Anführungszeichen-Klasse messen: `„…"` mit ASCII-`"`).
+- `quellen-beschaffung`: EuGH-DE-Volltext per curia/EUR-Lex braucht
+  `curl -L`; EU-Texte tragen U+2011/NBSP (Aktenzeichen-Grep
+  normalisieren); Negativ-Protokolle nennen Kanal + Flags, sonst wird
+  ein Werkzeug-Negativ zur Quellen-Eigenschaft.
+- `debrief`: Verdichtungs-Gegenprobe-Muster (z. B./auch-Streichung,
+  Kontrast-Hälften, abgeleitete Zahlen).
+- `tagesstart`: Gegenlese-Zuschnitt (drei Elemente) · Prüfstand
+  einfrieren + weiterarbeiten · Prompts übergeben Messungen, keine
+  Reparaturwege.
+
+### Bewusst nicht zurückgeschrieben (c) — 4
+
+- A-N2/N-3 (Rn. 187/188, 220): Bestandsposten MKT-HANDEL R18, keine
+  Methodik.
+- C-N1 (o8 § 5.4 ↔ § 10 B-6 FG-2/FG-4): Sachbefund → R18-HANDEL/o8.
+- B-Grenzen „Authentizität des Rohbeleg-Bestands nicht erhoben":
+  bekannte Belegstufen-Grenze der lokalen Stufe, im O-12-Satz benannt.
+- A-F5/F6 (`node -e`-Pfade, `cd`): bereits im Baustein — Zweitbeleg
+  ohne Textänderung.
+
+**Summenprobe:** A 28 = Fallen 12 (F1→8, F2→3, F3→20, F4→21, F5/F6→22,
+F7→11, F8→1, F9→L-51, F10→17, F11→18, F12→19) + Muster 9 (M1–M9 oben)
++ Nebenbefunde 7 (N1→28, N2/N3→27+c, N4→21, N5→14, N6→3, N7→26) ✔ ·
+C 33 = Fallen 13 (F1→9, F2→1/16, F3→15, F4→14, F5→6, F6→22, F7→11,
+F8→1/2, F9→10, F10→22, F11→11, F12→12, F13→13) + Muster 12 (M1–M12) +
+Nebenbefunde 8 (N1→c, N2→23, N3→21, N4→24, N5→25, N6→22, N7→erledigt
+`7ef4dcc`, N8→11) ✔ · B 2 Listen → 30 + c · Leit 6 (Zeit 4 · Verdichtung
+2 · Push 7 · Bash 22 · O-12 1/14 · Postkorb 31) ✔.
+
+### Kompensations-Auslagerungen dieses Debriefs (Anker `V17-14`…, Fortsetzung der Verdichtung R17)
+
+- **V17-14 (Secret-Rotation, heyPensio 0s5, vier Rotationen an einem
+  Abend — Belegdetails zum CLAUDE.md-Kern):** (a) Landet ein
+  credential-naher Wert im Chat, WÄHREND die Rotation ohnehin läuft, wird
+  neu gewürfelt statt hingenommen. (b) Env-Ausdruck statt Rohwert hält
+  Exporte secretfrei und Vorlagen generisch; der geplante Lauf führt bei
+  Haupt-/Worker-Architekturen oft im WORKER aus — darum die Variable in
+  ALLEN Containern belegen; Sollwert vorher lokal messen. (c) Die
+  Nachmessung „alter Wert tot" fing einen Reset, der im UI erzeugt, aber
+  nie persistiert war (Teilformular ohne Formular-Save).
+- **L-15-Belegfall (MKT R7), aus CLAUDE.md gekürzt:** eine gemeldete
+  „Positivkontrolle: 65 Treffer" reproduzierte unter KEINEM Zählweg und
+  über keine Datei einzeln, während der Nulltreffer daneben stimmte —
+  Volltext unter L-15.
+- **L-49-Belegfall (MKT R16), aus CLAUDE.md gekürzt:** die reparierte
+  Klasse 90 Zeilen unter ihrer Reparatur erneut begangen, im Fließtext
+  neben 17/17 bestätigten Zitaten — Volltext unter L-49.
+- **L-05-Historie (Kompensation R17):** „Zwei Messbefunde: Ketten aus
+  erlaubten Einzelbefehlen; derselbe `git push` lief später in derselben
+  Session; R7/R8 in beide Richtungen gemessen" — Volltext unter L-05 und
+  in den Sammelvermerken R7/R8; zehnter Beleg R17 (Zweitbeleg 7 oben).

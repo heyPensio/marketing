@@ -489,8 +489,24 @@ einer, beim User nachfragen statt raten:
      (Prüfraum teilen, nicht verdoppeln). Widersprüche zwischen Agenten
      sind ein Gewinn — sie werden am ORIGINAL aufgelöst, nie nach
      Überzeugungskraft.
+   - **⭐ Gegenlese-Zuschnitt, der trägt (MKT R17: fünf schwere Befunde
+     aus einem „kurzen Gegenleser mit einer Frage"):** (a) „Aussage UND
+     Fundstelle getrennt prüfen" zwingt zum Lesen des Quellabsatzes am
+     Stück statt zum Grep; (b) „… oder die STILLSCHWEIGEND auf X
+     aufsetzt" stellt vom Wort auf die Struktur um; (c) zwei
+     nachprüfbare eigene Behauptungen mitgeben kalibriert, ob der Prüfer
+     am Objekt arbeitet. **Und: Prompts übergeben MESSUNGEN, keine
+     Reparaturwege** — ein aus einem Subagenten-Befund übersetzter Weg
+     („Präfix ergänzen, mechanisch") war falsch; das Ziel schlägt den Weg.
    - **Prüfgegenstand einfrieren** oder Commit-Stand nennen (das Dokument
-     kann sich WÄHREND der Prüfung ändern). ⭐ **Pflichtform: ein
+     kann sich WÄHREND der Prüfung ändern). **Und die eigene Arbeit darf
+     danach WEITERGEHEN:** Fällt ein Selbstfund nach dem Prüfstand, sieht
+     der Prüfer ihn nicht und meldet ihn unabhängig — zwei Wege zum
+     selben Befund, mit mehr Widerlegungen und der übersehenen Folgefrage
+     (MKT R17); wer den Prüfauftrag nach einem Selbstfund verengt,
+     verliert genau das. Scratch-Prüfstand: `git archive <hash>` in den
+     Session-Scratchpad; bei Delta-Zahlen zwei Exporte (A = Stand, B = A
+     + eigene Dateien) mit `diff -rq` als Beleg der Isolation. ⭐ **Pflichtform: ein
      eingefrorener Commit-Hash IM Prüfauftrag** — der
      Doppel-Messstand-Vertrag gilt auch gegenüber dem EIGENEN Prüfer. Wer
      während des Prüflaufs committet, ändert den Gegenstand unter ihm;

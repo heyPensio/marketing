@@ -49,6 +49,17 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   Nulltreffer-Mechanik des jeweiligen Laufs (kleines unauffälliges Wort
   für den Klein-Kanal, Substantiv für den Groß-Kanal).
   (Herkunft: MKT R4.)
+- **⭐ Ein Werkzeug-Negativ wird zur Quellen-EIGENSCHAFT, wenn das
+  Protokoll den Kanal nicht nennt:** „deutsche EuGH-Fassung nicht
+  abrufbar" stand vier Runden als Eigenschaft der Quelle in der
+  Quellenliste — es fehlte `curl -L` (curia/EUR-Lex leiten um).
+  Negativ-Protokolle nennen Kanal UND Flags/Aufrufform; die Positiv-
+  kontrolle im selben Lauf entscheidet, ob ein Nulltreffer ein Befund
+  ist (NRWE-Suchmaske fand auch das bekannte Urteil nicht → Kanal tot,
+  nicht „nicht veröffentlicht"). **EU-/EuGH-Texte tragen U+2011
+  (non-breaking hyphen) und NBSP** — ein Grep auf `C-621/22` mit
+  ASCII-Bindestrich liefert 0; vor Suche und Zitat normalisieren, und
+  die Zeichen wandern beim Kopieren mit (MKT R17).
 - **Ein TIMEOUT ist kein Negativbefund** — Primärquellen, die in einen
   Rechtstext eingehen: Abruf wiederholen oder in den Hintergrund, nie auf
   Zweitquellen ausweichen, solange die Quelle nur langsam ist.

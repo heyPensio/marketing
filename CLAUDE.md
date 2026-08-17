@@ -3,12 +3,12 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`7a0f76b`** (R16-Debrief 17.08.2026: eigener
-> Rückfluss L-49/L-50 + 3 Werkzeug-Nachträge; davor 2 fremde Deltas
-> `e58a979` + `6aaa7ed` — **Regelwerk-Wächter als Pflicht-Baustein
-> aktiviert** [Soll 80.000 / Warn 85.000 / Hart 90.000 B, Selbsttests
-> 9/9 + 9/9, Erstlauf-Ist 84.028] — und im Vorlauf `cfdd5db` +
-> `5020bc2`; Wächter SYNCHRON 12 / 0 DRIFT). **Die vollständige Nachzugs- und Stempel-Historie steht
+> 2026-08-09; Stand **`35fd61b`** (R17-Debrief 17.08.2026: eigener
+> Rückfluss L-51 + 3 Schärfungen [L-07/L-15/L-48] + 4 Werkzeug-/
+> Command-Nachträge, 0 fremde Deltas; Wächter SYNCHRON 12 / 0 DRIFT —
+> ⚠️ Ordner-Bausteine misst er nicht [Postkorb Zentrale `f58f1c0`];
+> Regelwerk-Wächter Soll 80.000 / Warn 85.000 / Hart 90.000 B, nach
+> Verdichtung R17 unter Soll). **Die vollständige Nachzugs- und Stempel-Historie steht
 > in `geruest-nachzug-protokoll.md`** — sie gehört nicht in den
 > auto-geladenen Kanal (Transit-Verbot G5). Nachzug neuer
 > Methodik-Lehren: `/projekt-init nachzug`.
@@ -391,10 +391,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   ROHBELEG gegenprüfen, nicht übertragen (3 von 10 hielten nicht stand,
   alle Korrekturen unbequemer; L-42).** **⭐ Delegierte ZAHLEN sind noch
   schwächer als delegierte Fundstellen:** Eine Agenten-Zahl ohne
-  mitgelieferten Zählweg ist nicht übernehmbar — eine gemeldete
-  „Positivkontrolle: 65 Treffer" reproduzierte unter KEINEM Zählweg und
-  über keine Datei einzeln, während der Nulltreffer daneben stimmte.
-  Zählweg anfordern oder selbst nachzählen. (Herkunft: MKT R7, L-15.)
+  mitgelieferten Zählweg ist nicht übernehmbar — und ein dokumentierter
+  Zählweg belegt nur, DASS gezählt wurde: Zählweg anfordern UND an einer
+  Stichprobe reproduzieren (L-15; MKT R7 + R17).
   (b) Eigene Ursachenvermutungen und Bestands-Beschreibungen sind
   Hypothesen, bis gemessen.
   (c) Ein Fix, der nur den einfachen Pfad trifft, ist kein Fix — E2E im
@@ -595,7 +594,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Nacharbeits-Liste, kein Haftungsausschluss — er benennt Fundorte, nicht
   Grenzen:** Ein als ungelesen ausgewiesener Quellabschnitt trug drei
   Funde, darunter eine Klausel, die ein ganzes Gate milderte; der Prüfer
-  hatte sie vorhergesagt (L-48).
+  hatte sie vorhergesagt (L-48). **„Nicht von MIR geprüft" ist kein
+  „ungeprüft"** — die Fremdmeldung trägt ihren Lesestand (R17: der
+  Vorprüfer hatte die Stelle am Rohbeleg geprüft).
 - **Recherchen brauchen eine Gegenprobe-Achse**, die die PRÄMISSE des
   Auftrags prüft, nicht nur seine Ausführung. Ein Recherche-Auftrag, der
   bekannte Kandidaten NAMENTLICH nennt, wird zur Verifikation statt zur
@@ -792,19 +793,15 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **⭐ Secret-Rotation ist eine KETTE, kein UI-Klick** (Herkunft:
   heyPensio 0s5, vier Rotationen an einem Abend): (a) Neuer Wert direkt
   in den Passwortmanager — nie Chat/Doku/Repo; auch credential-NAHE
-  Werte (Hashes, URLs mit Token) zählen als Werte, und landet doch einer
-  im Chat, während die Rotation ohnehin läuft, wird neu gewürfelt statt
-  hingenommen. (b) Config-/Workflow-Träger referenzieren das Secret per
-  **Env-Ausdruck statt Rohwert** — Exporte bleiben secretfrei, Vorlagen
-  werden generisch; bei Haupt-/Worker-Prozess-Architekturen die Variable
-  in ALLEN Containern belegen (der geplante Lauf führt oft im Worker
-  aus), per maskiertem Längenvergleich gegen einen vorher lokal
-  gemessenen Sollwert, nie per Wert-Ausgabe. (c) Die Rotation endet mit
-  der **SOFORTIGEN Nachmessung „alter Wert tot"** (Umschlag am Objekt +
-  Positivkontrolle des Messwegs mit erfundenem Wert) — sie fing einen
-  Reset, der im UI erzeugt, aber nie persistiert war: **ein
-  „Zurücksetzen"-Klick in einem UI-Teilformular ist erst mit dem
-  Formular-Save wirksam.** (d) Die stärkste Rotation eines UNGENUTZTEN
+  Werte (Hashes, URLs mit Token) zählen als Werte; landet doch einer im
+  Chat, wird neu gewürfelt. (b) Config-/Workflow-Träger referenzieren
+  das Secret per **Env-Ausdruck statt Rohwert**; bei Haupt-/Worker-
+  Architekturen die Variable in ALLEN Containern belegen, geprüft per
+  maskiertem Längenvergleich, nie per Wert-Ausgabe. (c) Die Rotation
+  endet mit der **SOFORTIGEN Nachmessung „alter Wert tot"** (Umschlag am
+  Objekt + Positivkontrolle mit erfundenem Wert) — **ein „Zurücksetzen"-
+  Klick in einem UI-Teilformular ist erst mit dem Formular-Save
+  wirksam.** (d) Die stärkste Rotation eines UNGENUTZTEN
   Zugangs ist sein Abschalten — dann gibt es nichts mehr zu verwahren.
 - **Versionssprünge der EIGENEN Systeme kippen eigene
   Capability-Negative** genauso, wie Anbieter-Negative altern (Herkunft:
@@ -866,10 +863,17 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Text, auf den man sie anwendet — nicht den, den man dabei schreibt
   (L-49).** Der BESTAND wird im selben Zug rückwirkend gegen sie
   durchsucht, beginnend mit dem auslösenden Artefakt — **und der eigene
-  Reparatur-/Begründungstext desselben Commits zuerst** (Belegfall: die
-  reparierte Klasse 90 Zeilen unter ihrer Reparatur erneut begangen, im
-  Fließtext neben 17/17 bestätigten Zitaten). Wer „n/n bestätigt"
-  schreibt, schreibt dazu, was das Werkzeug NICHT prüft.
+  Reparatur-/Begründungstext desselben Commits zuerst** (Belegfälle
+  im Register; R17: vier weitere). Wer „n/n bestätigt" schreibt,
+  schreibt dazu, was das Werkzeug NICHT prüft.
+- **⭐ Wer einen Satz kippt, kippt seine FOLGESÄTZE (L-51).** Nach jeder
+  Streichung, Widerlegung oder als unbelegt erkannten Prämisse ist der
+  Suchraum nicht das WORT, sondern die SÄTZE, DIE AUF IHM STEHEN —
+  Folgefragen, Begründungen, Zeiger, eigene Prompts (R17, drei Sessions:
+  Superlativ an drei Fundstellen repariert, die Folgefrage trug ihn
+  weiter; „zwei Fremd-Dokumente" ohne Fundzeile wanderte in vier
+  Ableitungen). L-25 regelt die Ableitung zwischen Dateien, L-51 die
+  Schlussfolgerung im selben Text.
 - **Ein geklonter Textbaustein transportiert die Entwarnung des Originals
   in einen Zustand, in dem sie nicht mehr gilt** — nach jedem Klonen jeden
   Satz gegen den NEUEN Zustand prüfen, nicht nur die Variablen.
@@ -1000,9 +1004,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   allein durch den eigenen späteren Nachtrag falsch — ein Belegstand
   gehört als Commit-Hash ins Dokument, nie als Zeilenzahl
   (Sammelvermerk R9).
-- **Kalender-Etiketten (Wochentage zu Datumsangaben) nie aus dem Kopf**
-  — immer per Werkzeug (`Get-Date`) erheben; analog Modellnamen (L-07:
-  teils richtig, teils falsch, dadurch schwer auffällig).
+- **Kalender-Etiketten (Wochentage zu Datumsangaben) und UHRZEITEN nie
+  aus dem Kopf** — immer per Werkzeug (`Get-Date`/`date`) erheben;
+  analog Modellnamen (L-07: teils richtig, teils falsch, dadurch schwer
+  auffällig; R17: geschätzte Blockzeiten lagen 1 h vor dem Rechner).
 - **Vor der Vergabe neuer Kurz-IDs die Kurzzeichen der Nachbardokumente
   greppen** (Kollisionen doppelt belegt). ID-Anker brauchen Rundenbezug.
   **⭐ Dreifach-Beleg an einem Tag (MKT R12, L-35): Auch
@@ -1130,16 +1135,13 @@ hierher, nicht ins Repo.
   umgehen, sondern melden; wirksame Antwort ist, den ZUSCHNITT zu ändern
   (Secrets von vornherein serverseitig halten). Vor geplanten
   Interventionen alle Nachmessungen VORHER ziehen (ein blockierter
-  Schreibcall kann den ganzen Kanal schließen). Zwei Messbefunde (L-05):
-  Die Blockade trifft auch KETTEN, deren Einzelbefehle erlaubt sind —
-  vor dem Melden einmal in Einzelbefehle zerlegen; und sie ist
-  kontext-/zeitpunktgebunden (derselbe `git push` lief später in
-  derselben Session) — ein Kanal-Negativ nicht als Dauer-Zustand
-  dokumentieren. Die Bindung ist PRIMÄR zeitpunkt-/kontextgebunden,
-  nicht kanalgebunden (R7/R8 in beide Richtungen gemessen) — der
-  Kanalwechsel ist ein legitimer VERSUCH, kein Mechanismus; ein A/B
-  über zwei Kanäle trägt die Falsifikation, nie den Ursachennachweis
-  (L-05, neun Belege bis R16 — Historie im Register).
+  Schreibcall kann den ganzen Kanal schließen). Die Blockade trifft auch
+  KETTEN aus erlaubten Einzelbefehlen (vor dem Melden zerlegen) und ist
+  PRIMÄR zeitpunkt-/kontextgebunden, nicht kanalgebunden — ein
+  Kanal-Negativ nie als Dauer-Zustand dokumentieren; Kanalwechsel ist ein
+  VERSUCH, kein Mechanismus; ein A/B über zwei Kanäle trägt die
+  Falsifikation, nie den Ursachennachweis (L-05, zehn Belege bis R17 —
+  Historie im Register).
 
 ## Aktivierte Bausteine
 

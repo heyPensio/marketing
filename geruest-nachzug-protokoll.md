@@ -20,6 +20,25 @@
 
 ## Stempel-Historie (neueste zuerst)
 
+**Gerüst-Stand:** Stand **`35fd61b`** (R17-Debrief 17.08.2026 18:46 MESZ
+per `date`, Leitsession Shanks). Delta `7a0f76b..HEAD` **vor dem eigenen
+Rückfluss neu gemessen** (`git fetch` + `log`): **0 fremde Commits**;
+einziger neuer Commit ist der eigene Rückfluss `35fd61b` (6
+Changelog-Einträge, Selbstcheck OK): L-51 „Wer einen Satz kippt, kippt
+seine Folgesätze" (CLAUDE-Vorlage) · Schärfungen L-15 (Zählweg UND
+Stichprobe), L-07 (Uhrzeiten), L-48 („nicht von MIR geprüft" ≠
+„ungeprüft") · `debrief` Verdichtungs-Gegenprobe Pflicht mit Mustern ·
+`tagesstart` Gegenlese-Zuschnitt / Messungen statt Reparaturwege /
+Prüfstand einfrieren + weiterarbeiten / git-archive-Prüfstand ·
+`windows-powershell` Bash-Kanal Backslash + Literal + Ersetzungs-
+Trefferkontrolle · `quellen-beschaffung` Werkzeug-Negativ als
+Quellen-Eigenschaft + EU-Texte U+2011/NBSP. Kopien gezogen (debrief,
+tagesstart, windows-powershell, quellen-beschaffung; Platzhalter
+`{{PROJEKT_CODE}}` → MKT), Wächter **SYNCHRON 12 / 0 DRIFT** (Blindfleck
+Ordner-Bausteine gemeldet: Zentrale-Postkorb `f58f1c0`). CLAUDE.md nach
+Verdichtung + Debrief **79.935 B** (Sollmarke 80.000; Erstlauf-Ist 84.028
+am 17.08. vormittags → −4.093 netto über den Tag).
+
 **Gerüst-Stand:** Stand **`7a0f76b`** (R16-Debrief 17.08.2026 ~18:30 MESZ,
 Leitsession Shanks). Delta `5020bc2..7a0f76b` **neu gemessen vor dem
 Stempel** (`git fetch` + `log`, 3 Commits):

@@ -166,6 +166,17 @@ NACHLAUFENDES Warnsignal (erkennt nur reale, entdeckte Fehler,
 ursachenvermischt) — sie wird nie als Qualitätsbeweis der Verdichtung
 BEHAUPTET.
 
+**Verdichtungs-Gegenprobe (Pflicht bei jeder Kürzung des Auto-Kanals,
+Herkunft: MKT R17):** Ein Subagent mit frischem Kontext zerlegt den
+ALT-Text der gekürzten Stellen in atomare Aussagen (Regel · Vorbehalt ·
+Beleg · Anker) und prüft je Aussage: in NEU erhalten, ins Register
+ausgelagert oder VERLOREN; Diff-Hunks nur in den benannten Stellen?
+Pflicht-Muster, weil dort die Verluste saßen: gestrichene „z. B."/„auch"
+(Verallgemeinerung), zerlegte „nicht X, sondern Y"-Paare (nur Y bleibt),
+gestrichene Verbote, NEU ABGELEITETE Zahlen („fünf" = 2 + 3, stand
+nirgends). Gemessen: 8 von 140 Aussagen fielen — 5 Vorbehalte, eine
+erfundene Zahl — bei frischer Session mit Prüffrage je Streichung.
+
 **Gegenprobe durch einen Verifikations-Subagenten (Pflicht bei mehr als
 einer Arbeits-Session):** Er bekommt die UNGEKÜRZTEN Abschlussmeldungen
 plus den Debrief-Diff und prüft eine einzige Frage — *welches gemeldete

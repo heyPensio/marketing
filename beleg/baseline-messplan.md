@@ -524,6 +524,57 @@ muss später saisongleiche Vergleiche wählen oder den Vorbehalt nennen.
   s. Entflechtungs-Kasten § 6. Zum dritten H-2-Teil (Zielstichprobe)
   und zum Punkt „Vorlagen beauftragt" trifft dieser Nachtrag **keine**
   Aussage: der Vorlagen-Stand wurde in dieser Session nicht erhoben.)*
+
+> ### 📌 NACHTRAG 17.08.2026 (R18-C) — Vorlagen-Stand erhoben; „beauftragt" ist undefiniert
+>
+> **Was gebaut ist (positiv belegt, nicht behauptet):** Die Vorlagen
+> existieren seit dem **09.08.2026** — Interviewleitfaden und drei
+> A5-Tagesblätter, je als `.md` und `.pdf` plus Druck-HTML, in
+> `beleg/vorlagen/` (Erstanlage **Commit `9858ef1`**, 09.08.2026 15:13
+> MESZ, Betreff *BELEG1-Erhebungsvorlagen: 3 A5-Tagesblaetter +
+> Interviewleitfaden (MD/HTML/PDF)*; Träger
+> `protokolle/R03-A-abschluss.md`). Die Projektquelle führt dieselbe
+> Kette als „~~Erhebungsvorlagen bis 20.08.~~ ✅ FERTIG 09.08.2026" und
+> in der R3-Zeile als „Erhebungsvorlagen v2 FERTIG (BELEG1-Kette hält
+> den 20.08.)".
+> **Suchweg (Stand 17.08.2026, Arbeitsbaum `a7fca1c`):** Verzeichnis
+> `beleg/vorlagen/` gelistet · `git log --diff-filter=A -- beleg/vorlagen/`
+> · `grep` über `*.md` auf *Erhebungsvorlagen* / *BELEG1-Vorlagen* /
+> *Vorlagen beauftragt* / *A5-Probedruck*. **Positivkontrolle:**
+> `A5-Probedruck` trifft in `STATUS.md`, `projektquelle-mkt.md` und den
+> Tagesplänen 09.–17.08. — der Suchweg findet einen vorhandenen Posten
+> dieser Art.
+>
+> ⛔ **Der Punkt wird damit NICHT abgehakt: „Datei existiert" ist nicht
+> „beauftragt".** **Was „beauftragt" heißt, definiert kein Dokument des
+> Repos.** Drei Lesarten, jede mit einem anderen Fälligkeitszeitpunkt:
+>
+> | Lesart | Gegenstand | Stand | Fällig |
+> |---|---|---|---|
+> | **(a) Druck** | **A5-Probedruck** der Vorlagen („tatsächliche Größe") | **offen — User-Handgriff**, seit 09.08. durchgehend geführt: STATUS.md „Nächster konkreter Schritt" Punkt 3, Projektquelle § 7 (e), Tagespläne 09./10./11.08. und — mit dem Vermerk **„übernommen" (offen)** — 12./13./17.08. | vor der Übergabe |
+> | **(b) Übergabe an die Objekte** | § 4 dieses Plans verlangt die Vorlage als Druck-PDF *vor dem Briefing, damit der User sie mitnehmen kann* | Termin steht (H-3 Betreiber-Briefing, **bis 23.08.** — ⚠️ das ist ein **Sonntag**, per `date` erhoben; der Termin steht ohne Wochentags-Etikett im Plan), Übergabe selbst nicht belegt | mit H-3 |
+> | **(c) Erhebungs-Auftrag** | § 4 benutzt das Wort in genau diesem dritten Sinn: Tages-Strichlisten *(+BM-4/5 falls beauftragt)* — also der Auftrag an die Erheber, eine Größe überhaupt zu erheben | für BM-4/BM-5 am 09.08. entschieden (Kopf-Nachtrag Punkt 3: Schätzfragen statt Strichlisten) | mit dem Briefing |
+>
+> **❓ Klartext-Rückfrage an den User (Antwort formlos, wird dann hier
+> schriftlich festgehalten):** *Welche der drei Lesarten meint das
+> Fertig-Kriterium „Vorlagen beauftragt" — und was davon muss vor dem
+> Start des Kern-Messfensters am **Mo 24.08.2026** erledigt sein?*
+> Praktisch fällig ist nach heutigem Bestand **(a) der Probedruck vor
+> dem Briefing (H-3, bis So 23.08.)**, weil die Betreiber die Blätter im
+> Briefing mitbekommen sollen; **(b)** hängt am selben Termin, **(c)**
+> ist für BM-4/BM-5 bereits entschieden. **Kein Anker wird hier
+> ersatzweise gesetzt** — ein selbstgesetzter Termin sähe wie eine
+> Zusage aus, die niemand gegeben hat (dieselbe Regel wie im
+> H-2-Entflechtungs-Kasten § 6).
+>
+> ⚠️ **Belegstufe:** Aktenlage über versionierte `*.md` und den
+> git-Verlauf, kein Vollbeweis — ein mündlicher Auftrag ohne Repo-Spur
+> wäre hiermit nicht widerlegt. **Nicht erhoben:** ob die PDFs jemals
+> gedruckt, übergeben oder von den Betreibern gesehen wurden; dazu gibt
+> es im Repo keinen Beleg in beide Richtungen.
+> **Herkunft:** Auftrag Tagesplan 17.08.2026 Strang R18-C Punkt 6;
+> Wochentage per `date` erhoben (Positivkontrolle: 01.01.2026 =
+> Donnerstag).
 - **BELEG1 ist fertig** (Projektquelle § 2), wenn: Messwerte je Objekt
   gemäß § 7 dokumentiert sind — mit den hier definierten Zählwegen,
   Beleg-Typen und Vorbehalten.

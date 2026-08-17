@@ -305,16 +305,38 @@ sind ④-Annahmen** — sie sind der Sinn der Rechnung, nicht ihr Ergebnis:
 
 > ⭐ **Das Ergebnis der Rechnung ist nicht die Stückzahl, sondern eine
 > Terminaussage: Der kritische Pfad läuft über den Namens- und
-> Firmierungsentscheid, nicht über die Akquise-Kapazität.** S5 liegt
-> **drei Tage nach heute**. Und der zugehörige Gate-Termin ist bereits
+> Firmierungsentscheid, nicht über die Akquise-Kapazität.** S5 liegt auf
+> **Fr 14.08.2026** — bei Erstellung dieses Absatzes (Di 11.08.2026) drei
+> Tage später, **seither verstrichen** (Stand Mo 17.08.2026). Und der
+> zugehörige Gate-Termin ist bereits
 > als terminkritisch geführt: StB-Anruf zur GbR-Namensführung **vor der
 > Gewerbeanmeldung ~Mitte August** (① STATUS.md „Nächster konkreter
 > Schritt" Punkt 1; MKT-MARKE2 wartet darauf).
-> ⚠️ **Und dieser Gate-Termin ist bereits überfällig:** STATUS.md führt
-> ihn als „**User-Handgriff Mo 10.08.**" — das war **gestern**. Ob der
-> Anruf stattgefunden hat, ist im Repo nicht dokumentiert; ein Beleg
-> trägt den Stand seines Datums. **Der Stand des StB-Termins ist damit
-> die erste Frage des Tages** (H-8), nicht eine Randnotiz.
+> ⚠️ **Stand dieses Gate-Termins am Mo 17.08.2026:** STATUS.md führt ihn
+> als *User-Zusage Di 18.08.* und stellt zugleich klar, die zweite dort
+> genannte Angabe („~KW 34/35") sei „derselbe Vorgang, kein zweiter
+> Termin". Ob der Anruf stattgefunden hat, ist im Repo weiterhin nicht
+> dokumentiert; ein Beleg trägt den Stand seines Datums. **Der Stand des
+> StB-Termins ist damit die erste Frage des Tages** (H-8), nicht eine
+> Randnotiz.
+> ⚠️ **Und der Kernsatz dieses Kastens gilt nur auf der Namens-Achse:**
+> Nach dem Bestand hat der Terminpfad **drei** Gates — F-7, O-9 und die
+> sieben Bau-Pflichten —, und das schwerste (O-9) liegt beim
+> anwaltlichen Rat. Der Scope-Vermerk dazu steht in § 3.2 (Nachtrag
+> 17.08., Aussagen 2/4); wer nur diesen Kasten liest, entnähme sonst:
+> Name steht → Bau läuft.
+>
+> > 📌 **REPARATUR 17.08.2026 (R18-C) — zwei alternde Relativangaben.**
+> > Vorfassungen: *S5 liegt drei Tage nach heute* und, zum StB-Termin,
+> > *STATUS.md führt ihn als „User-Handgriff Mo 10.08." — das war
+> > gestern*. Beide waren zum Erstellungsstand (Di 11.08.2026) richtig
+> > und altern still mit jedem Tag; § 3.2 führt sie als Aussagen 5 und 6
+> > unter *Nebenbefund (alternde Relativangabe)*. Ersetzt durch absolute
+> > Daten mit Standvermerk, Wochentage per `date` erhoben
+> > (Positivkontrolle: 01.01.2026 = Donnerstag). **Der Zeiger auf den
+> > Scope-Vermerk** ist eine bewusste Zugabe dieser Session: § 3.2 hat
+> > die Präzisierung, § 3.1 trug sie nicht — und § 3.1 ist die Stelle,
+> > an der der Leser ankommt. **Kein Termin wurde neu gesetzt.**
 >
 > **Damit hat die November-Frist bereits heute keinen Puffer mehr im
 > Kaltkanal.** Das ist ein Befund, keine Planungsschwäche — und er ist
@@ -581,8 +603,8 @@ nie einen Kontakt gemacht:
 | **A-2** | Antwort → Erstgespräch | **50 %** | ④ Wer auf einen Kaltbrief antwortet, hat Interesse; die Hälfte davon als Termin ist konservativ-plausibel | messen |
 | **A-3** | Erstgespräch → Angebot | **50–60 %** | ④ | messen |
 | **A-4** | Angebot → Abschluss | **25–33 %** | ④ | messen |
-| **A-5** | Sales-Zyklus gesamt (S1–S3) | **8–9 Wochen** | ④ gestützt auf die Beschreibung „Es ist ein Empfehlungsmarkt mit langsamen, aber loyalen Entscheidern." (③ R00 § (c)) — **Agenten-Einschätzung, keine Messung** | H-2 |
-| **A-6** | Eigene Wochenkapazität Briefe | **nicht erhoben** | Solo-Betrieb parallel zum Pilotprojekt; die Zahl kennt nur der User | **H-2 (Pflicht vor jeder Wellenplanung)** |
+| **A-5** | Sales-Zyklus gesamt (S1–S3) | **8–9 Wochen** | ④ gestützt auf die Beschreibung „Es ist ein Empfehlungsmarkt mit langsamen, aber loyalen Entscheidern." (③ R00 § (c)) — **Agenten-Einschätzung, keine Messung** | AKQ-H-2 |
+| **A-6** | Eigene Wochenkapazität Briefe | **nicht erhoben** | Solo-Betrieb parallel zum Pilotprojekt; die Zahl kennt nur der User | **AKQ-H-2 (Pflicht vor jeder Wellenplanung)** |
 | **A-7** | Portosatz / Stückkosten Brief | **nicht erhoben** | Keine Zahl aus dem Gedächtnis in ein Planungsdokument | H-3 |
 | **A-8** | Mindest-Wellengröße für eine auswertbare Quote | **~300** | **Gerechnet, nicht angenommen:** P(0 Antworten) = (1 − p)^n; bei n = 300, p = 1 % ist P(0) = 0,049 (§ 4.3) | entfällt — Zählweg im Dokument |
 
@@ -706,7 +728,7 @@ Wahrscheinlichkeit für null Antworten = (1 − p)^n):
 > ⚠️ **Was dieser Abschnitt NICHT sagt:** Er sagt nicht, dass die Frist
 > nicht erreichbar ist. Er sagt, dass sie **über K2 erreicht werden
 > muss** und dass K2 nicht skalierbar ist. Ob genug tragfähige
-> Vorkontakte existieren, ist eine Frage an den User (H-2) — und die
+> Vorkontakte existieren, ist eine Frage an den User (AKQ-H-2) — und die
 > Antwort entscheidet, ob die Frist gehalten oder nachverhandelt wird.
 > **Ein „wir schaffen das schon" ohne diese Zahl wäre eine Entwarnung
 > ohne Quelle.**
@@ -812,7 +834,7 @@ Alarm existiert also schon; offen ist die Planungsentscheidung.**
 
 | | Was man tut | Folgen — belegt | Was offen bleibt |
 |---|---|---|---|
-| **(A)** | **Wellen auf höchstens 300 Stück deckeln** und mehrere Wellen fahren | Wellenzahl bei Deckel 300 (Zählweg: aufgerundeter Quotient): optimistisch **2**, mittel **3**, pessimistisch **6** Wellen. ⚠️ **Für die November-Frist trägt trotzdem nur Welle 1:** Die Kette § 3.1 verlangt Erstkontakt bis **Fr 11.09.2026** (11.09. + 63 Tage = 13.11.2026 ✓, per `Get-Date` erhoben). Eine zweite Welle am Fr 25.09. käme bei 8 Wochen Restkette am **20.11.**, bei 9 Wochen am **27.11.** an — beides **nach** dem Anker. Der späteste noch tragende Versandtag ist **Fr 18.09.2026** (13.11. − 56 Tage), und das nur in der kürzesten Lesart aller vier Stufen | Wie viele Wellen bis 11.09. überhaupt produzierbar sind, hängt an **A-6** (eigene Wochenkapazität, **nicht erhoben**, Handgriff H-2). Ohne diese Zahl ist Option A **nicht bezifferbar** |
+| **(A)** | **Wellen auf höchstens 300 Stück deckeln** und mehrere Wellen fahren | Wellenzahl bei Deckel 300 (Zählweg: aufgerundeter Quotient): optimistisch **2**, mittel **3**, pessimistisch **6** Wellen. ⚠️ **Für die November-Frist trägt trotzdem nur Welle 1:** Die Kette § 3.1 verlangt Erstkontakt bis **Fr 11.09.2026** (11.09. + 63 Tage = 13.11.2026 ✓, per `Get-Date` erhoben). Eine zweite Welle am Fr 25.09. käme bei 8 Wochen Restkette am **20.11.**, bei 9 Wochen am **27.11.** an — beides **nach** dem Anker. Der späteste noch tragende Versandtag ist **Fr 18.09.2026** (13.11. − 56 Tage), und das nur in der kürzesten Lesart aller vier Stufen | Wie viele Wellen bis 11.09. überhaupt produzierbar sind, hängt an **A-6** (eigene Wochenkapazität, **nicht erhoben**, Handgriff AKQ-H-2). Ohne diese Zahl ist Option A **nicht bezifferbar** |
 | **(B)** | **Neu-Führung als Regelbetrieb annehmen** — jede Welle über 300 durchläuft sie | Der Alarm ist gebaut (WP-35), das Ergebnis-Feld ebenfalls (**WP-39**). Für Welle 1 **kein** Zusatzaufwand (s. Kasten oben) | ⚠️ **Der Aufwand ist heute nicht bezifferbar, weil der Umfang nirgends definiert ist:** Weder o8 § 11.3 noch die Vorlage sagen, ob Neu-Führung eine Vollrevision des Dokuments (1.239 Zeilen, fünf Primärquellen, Zitatabgleich — s. o8 § 12.4) oder einen Delta-Abgleich der geänderten Größe meint. **Suchweg 17.08.2026:** `grep -rniE "neu zu führen\|neu geführt\|Neu-Führung"` über `akquise/*.md` und `handel/*.md` — 4 Treffer in der Sache, **keiner** definiert den Umfang |
 | **(C)** | **Schwelle anpassen** (z. B. auf die Planzahl heben) | **Zulässig** — die 300 ist nach Abschnitt B eigene Setzung ohne Quellenbindung, also nicht durch eine Fremdquelle gesperrt. Eine Änderung trifft o8 (Scope MKT-HANDEL/Leitsession), nicht diesen Plan | ⚠️ **Zulässig ist die Option, nicht jede Begründung.** Eine Anhebung, die damit begründet wird, dass die eigene Planung die Schwelle reißt, ist genau die Bewegung, die ein Anwalt oder eine Aufsicht als Selbstbedienung liest — und P-7 trägt laut eigenem Wortlaut nur, solange die Auflage eingehalten wird. Eine Anhebung braucht eine **sachliche** Begründung (welche Menge welche Skalenwirkung hat), und die ist heute nicht erhoben |
 | **(D)** | **Zuerst den Umfang der Neu-Führung definieren**, dann über A/B/C entscheiden | Kleinster Schritt: ein Satz in o8 § 11.3, der sagt, was neu zu führen heißt (Vollrevision / Delta-Abgleich / Ergebnisvermerk im Wellenprotokoll). Macht (B) bezifferbar und (C) begründbar | Zuständig ist der Träger von o8 — **nicht** dieser Plan und **nicht** diese Session |
@@ -876,7 +898,16 @@ bestätigen (E-A3).**
 | **KPI-2** | Abgegebene Angebote / aktive Pipeline (Anzahl + €-Wert) | kein Zielwert | ⚠️ **Der €-Wert ist heute nicht bildbar** — ein Preismodell existiert nicht (MKT-HANDEL: `handel/` führt Rechtsmatrix und Förderarchitektur, **kein Pricing**; ① geprüft 11.08.2026). Bis dahin nur Anzahl |
 | **KPI-3** | Zeit bis zum ersten zahlenden Kunden | North-Star | Gegen den Anker 13.11. gemessen |
 | **KPI-4** | Referenz-Assets einsatzbereit (Referenzvereinbarungen, Case Study, Demo-Video) | binär | Hängt an MKT-BELEG; ⚠️ Referenzvereinbarungs-Vorlage trägt offene Punkte U-1…U-9/O-1…O-7 (① Projektquelle § 7 Punkt 0a) |
-| **KPI-5** | Reply-/Termin­quote im Outbound (je 10 Kontakte) | „fällt sie unter ~10 % Antworten, ist FUND nachzuschärfen, nicht das Volumen zu erhöhen" | ⚠️ **Diese Schwelle passt nicht auf den Briefkanal.** Sie stammt aus einem Bericht, der Outbound noch als E-Mail-/LinkedIn-Betrieb dachte (§ (c) Punkt 3 dort: „Founder-led Direktvertrieb (Telefon, E-Mail, Vor-Ort)" — die E-Mail-Variante ist seit der Rechtsmatrix zu). ⚠️ Nicht belegbar wäre die stärkere Behauptung, der Bericht habe LinkedIn-Betrieb propagiert: Er stuft LinkedIn in § (c) Punkt 1 ausdrücklich als „Fehlbesetzung" ein. Bei A-1 = 1–3 % läge der Kaltbrief **per Annahme dauerhaft unter der Schwelle** und würde einen FUND-Alarm auslösen, der nichts über die Positionierung aussagt. **Vorschlag: Schwelle je Kanal getrennt festlegen, sobald Welle 1 gemessen ist** |
+| **KPI-5** | Reply-/Terminquote im Outbound (je 10 Kontakte) | „fällt sie unter ~10 % Antworten, ist FUND nachzuschärfen, nicht das Volumen zu erhöhen" | ⚠️ **Diese Schwelle passt nicht auf den Briefkanal.** Sie stammt aus einem Bericht, der Outbound noch als E-Mail-/LinkedIn-Betrieb dachte (§ (c) Punkt 3 dort: „Founder-led Direktvertrieb (Telefon, E-Mail, Vor-Ort)" — die E-Mail-Variante ist seit der Rechtsmatrix zu). ⚠️ Nicht belegbar wäre die stärkere Behauptung, der Bericht habe LinkedIn-Betrieb propagiert: Er stuft LinkedIn in § (c) Punkt 1 ausdrücklich als „Fehlbesetzung" ein. Bei A-1 = 1–3 % läge der Kaltbrief **per Annahme dauerhaft unter der Schwelle** und würde einen FUND-Alarm auslösen, der nichts über die Positionierung aussagt. **Vorschlag: Schwelle je Kanal getrennt festlegen, sobald Welle 1 gemessen ist** |
+
+> 📌 **REPARATUR 17.08.2026 (R18-C) — unsichtbares Zeichen in KPI-5.**
+> Das Wort „Terminquote" trug ein **Soft-Hyphen (U+00AD)** zwischen
+> „Termin" und „quote"; es kommt mit kopiertem Text herein und lässt
+> jeden späteren Grep auf das Wort ins Leere laufen. Entfernt per
+> Skriptdatei mit Trefferkontrolle und Abbruch (Soll 1, gefunden 1);
+> Gegenmessung über die ganze Datei: **U+00AD 1 → 0, U+00A0 0 → 0,
+> Umlaut-Zählung vorher = nachher (798), Dateilänge −1 Zeichen.**
+> Sichtbar ist die Reparatur nicht — deshalb steht sie hier.
 
 **Ausdrücklich nicht als Steuerungsgrößen** (aus derselben Quelle,
 übernommen): Follower, Impressions, Website-Traffic,
@@ -893,18 +924,67 @@ für alles Weitere), die späteren sind **Prognose** unter den Annahmen aus
 
 | Zeitraum | Schritt | Hängt ab von | Wer |
 |---|---|---|---|
-| **bis Fr 14.08.** | **S5:** Firmierungs-/Namensstand geklärt ODER Entscheid E-A1 (Arbeitstitel) | StB-Termin, MARKE2 | **User** |
-| ab sofort, parallel | D2-/Weg-b-Pflichtbausteine bauen (Regelwerk § 3 + § 2.3) — **ohne Namensbindung** | — | Marketing-Session |
+| **bis Fr 14.08.** | **S5:** Firmierungs-/Namensstand geklärt ODER Entscheid E-A1 (Arbeitstitel) — ⚠️ **die beiden Wege sind nicht gleichwertig:** Pfad (b) trägt eine offene Rechtsfrage (§ 3.2, Nachtrag 17.08.) | StB-Termin, MARKE2 | **User** |
+| ab sofort, parallel | D2-/Weg-b-Pflichtbausteine bauen (Regelwerk § 3 + § 2.3) — ⚠️ **namensfrei nur teilweise:** Pflicht 1 (Datenschutzinformation) ist ohne Namen nur als **Rohtext** baubar, nicht fertig; VVT-Eintrag ohne F-7 nicht abschließend (§ 3.2) | — | Marketing-Session |
 | ab sofort | **H-6:** Telkon-Logo anfordern (Außenpost) → K4 wird wirksam | — | **User** |
 | ab sofort | K2-Anlässe anbahnen und protokollieren | — | **User** |
-| bis Fr 21.08. | Zielkundenliste Welle 1 nach Regelwerk (Gebietsschnitt § 8 dort) | Regelwerk | Marketing-Session |
+| bis Fr 21.08. | Zielkundenliste Welle 1 nach Regelwerk (Gebietsschnitt § 8 dort) | Regelwerk **UND F-7 + O-9 + die sieben Bau-Pflichten** — der Listenaufbau ist selbst der erste Verarbeitungsschritt (§ 3.2) | Marketing-Session |
 | bis Fr 28.08. | Brief-Text + Layout + Art.-14-Beilage; Gesprächsleitfaden K2 | S5 | Marketing-Session + **User-Freigabe** |
-| **bis Fr 11.09.** | **S3:** Welle 1 versandt (Größe nach § 4.3: unter ~300 Stück ist ein Null-Ergebnis nicht interpretierbar — die real erreichbare Größe hängt an H-2b) | alles obige | User + Session |
+| **bis Fr 11.09.** | **S3:** Welle 1 versandt (Größe nach § 4.3: unter ~300 Stück ist ein Null-Ergebnis nicht interpretierbar — die real erreichbare Größe hängt an AKQ-H-2b) | alles obige | User + Session |
 | Sa 12.09. – Fr 02.10. | Rücklauf-Fenster Welle 1; **Quoten A-1…A-4 erstmals messen**; Erstgespräche | — | User |
 | **bis Fr 02.10.** | **S2:** Erstgespräche geführt | Rücklauf | User |
 | bis Fr 09.10. | **Entscheidungspunkt:** Reicht der Rücklauf? Wenn nein → Frist über K2/K3 tragen, K1 auf Aufbaupfad umstellen | Messwerte | Leitsession + User |
 | **bis Fr 23.10.** | **S1:** Angebot(e) draußen | Pricing (MKT-HANDEL!) | User |
 | **bis Fr 13.11.** | **S0:** Abschluss | — | User |
+
+> ### 📌 REPARATUR 17.08.2026 (R18-C) — drei Zeilen dieser Tabelle trugen die Ein-Gate-Logik weiter
+>
+> **Zuerst die Belegkraft, dann die Folge** (der Vorbehalt darf beim
+> Nachziehen nicht verloren gehen — er steht vollständig in § 3.2,
+> Nachtrag 17.08.2026): Die Verschärfung ruht auf **einem einzigen Satz**
+> (LG Düsseldorf, 38 O 243/23 Rn. 87), der nach dem Bestandsvermerk der
+> Rechtsmatrix **nicht in der tragenden Absagebegründung** steht, und
+> **Rn. 86 ordnet den Listenaufbau ausdrücklich dem Vorfeld des
+> angegriffenen Handelns zu** — das ist die unbequemere Hälfte, und sie
+> gehört mit hierher. Die Vorsichtsannahme bleibt gleichwohl in Kraft;
+> ihre Belegkraft ist nur schwächer, als der Rest dieses Kastens
+> nahelegt. Ob ein nicht tragender Satz die Betriebsfolge trägt, ist eine
+> **Frage an den Anwalt** (`handel/anwalts-briefing-2026-08.md`) — dieser
+> Plan beantwortet sie nicht.
+>
+> **Der Bestand, auf den die drei Zeilen jetzt gezogen sind** (Zitate aus
+> `akquise/interessenabwaegung-o8.md`, dort § 9.1 bzw. § 10-Nachtrag):
+> „**Der erste Verarbeitungsschritt ist der LISTENAUFBAU, nicht der
+> Versand**" und „**Es gilt einheitlich: F-7 (Firmierung), O-9 (Art. 6
+> Abs. 4) und die Bau-Pflichten des § 10 sind vor dem ERSTEN DATENSATZ
+> fällig, nicht erst vor dem ersten Brief.**"
+>
+> **Vorfassungen — je Stelle sichtbar** (Stand `86afceb`, Zeilen 896/897/900):
+>
+> | Zeile | Vorfassung (wörtlich) | Warum sie nicht mehr trägt |
+> |---|---|---|
+> | S5-Zeile | *… geklärt ODER Entscheid E-A1 (Arbeitstitel)* | „ODER" liest sich als gleichwertige Wahl; Pfad (b) trägt nach § 3.2 eine **offene Rechtsfrage** (kann ein Arbeitstitel die Art.-14-Angabe zum Verantwortlichen tragen?) |
+> | Pflichtbausteine | *D2-/Weg-b-Pflichtbausteine bauen (Regelwerk § 3 + § 2.3) — ohne Namensbindung* | pauschal; für Pflicht 1 (Datenschutzinformation) ist die Namensbindung in § 3.2 positiv festgestellt — namensfrei ist nur der **Rohtext**, nicht die Veröffentlichung; der VVT-Eintrag ist ohne F-7 nicht abschließend |
+> | Zielkundenliste | Spalte *Hängt ab von*: **Regelwerk** | nennt nur ein Gate, während die Brief-Zeile darunter S5 führt — der Listenaufbau ist selbst der erste Verarbeitungsschritt und hängt damit an **F-7, O-9 und den sieben Bau-Pflichten** |
+>
+> ⚠️ **Was diese Reparatur NICHT tut — Reichweite ausdrücklich
+> ausgewiesen:** Sie ändert **keinen Termin**. Die Zeile *bis Fr 21.08.*
+> bleibt unverändert stehen, obwohl ihre Vorbedingungen heute offen sind
+> (O-9 ist nach Rechtsmatrix-Kasten und STATUS.md „**OFFEN — weder
+> entschieden noch geprüft**", das Gate ist anwaltlicher Rat). Sie ist
+> damit **Prognose unter offenen Vorbedingungen**, nicht Zusage — ob und
+> wie der Terminplan nachgezogen wird, ist ein User-/Leitsession-Posten
+> (E-A1, E-A2), keine Setzung dieser Session. Ebenso unverändert: die
+> Brief-Zeile (*Hängt ab von: S5*) — sie war schon vorher mit der
+> Zwei-Gate-Logik vereinbar.
+>
+> **Herkunft:** R17-C hat § 3.2/§ 4.3 nachgezogen und die fünf
+> Ankunftsstellen des Zeitplans ausdrücklich als offenen Posten gemeldet
+> (§ 3.2 am Ende); Auftrag Tagesplan 17.08.2026 Strang R18-C Punkt 1.
+> **Gezählt: 5 von 5 gemeldeten Stellen repariert** — drei hier, H-8 in
+> § 7, E-A1 in § 8; eine sechste wurde gesucht (Grep über die ganze Datei
+> nach *ohne Namensbindung* / *sofort baubar* / *hängt am Namen*) und
+> **nicht gefunden**.
 
 ⚠️ **Sperrposten außerhalb dieses Strangs, ohne den S1 nicht stattfinden
 kann:** Ein **Preismodell/Angebotsarchitektur existiert nicht**
@@ -924,14 +1004,46 @@ wodurch der Fehler unsichtbar blieb).
 
 | # | Handgriff | Warum er hier steht | bis |
 |---|---|---|---|
-| **H-8** | ⭐ **Stand des StB-Termins klären** (GbR-Namensführung) — er ist in STATUS.md als User-Handgriff **Mo 10.08.** geführt, also bereits verstrichen; ob er stattgefunden hat, steht nirgends | **Er ist die Vorbedingung von S5 und damit des gesamten Terminpfads** | **Do 13.08.** |
+| **H-8** | ⭐ **Stand des StB-Termins klären** (GbR-Namensführung) — Stand **Mo 17.08.2026**: STATUS.md führt ihn als „User-Zusage Di 18.08."; die zweite STATUS-Angabe („~KW 34/35") ist nach der dortigen Klarstellung „derselbe Vorgang, kein zweiter Termin" *(Vorfassung dieser Zelle: er ist in STATUS.md als User-Handgriff **Mo 10.08.** geführt, also bereits verstrichen; ob er stattgefunden hat, steht nirgends — zum Erstellungsstand 11.08. richtig, seither überholt)* | **Vorbedingung von S5 — aber S5 ist nur EINES der drei Gates** des Terminpfads (F-7, O-9, sieben Bau-Pflichten; § 3.2): notwendig, nicht hinreichend *(Vorfassung: Er ist die Vorbedingung von S5 und damit des gesamten Terminpfads)* | ~~Do 13.08.~~ **Di 18.08.** (Stand STATUS.md) |
 | **H-1** | Bestätigen oder korrigieren: Planungsanker **Fr 13.11.2026** für „Mitte November" | Der Anker trägt die gesamte Rückwärtsrechnung | **Fr 14.08.** |
-| **H-2** | Zwei Zahlen nennen: (a) **wie viele tragfähige persönliche Vorkontakte** ins Zielsegment heute existieren (K2), (b) **wie viele Briefe/Woche** realistisch machbar sind (A-6) | Ohne (a) ist nicht bewertbar, ob die Frist überhaupt erreichbar ist; ohne (b) ist keine Wellenplanung möglich | **Fr 14.08.** |
+| **AKQ-H-2** | Zwei Zahlen nennen: (a) **wie viele tragfähige persönliche Vorkontakte** ins Zielsegment heute existieren (K2), (b) **wie viele Briefe/Woche** realistisch machbar sind (A-6) | Ohne (a) ist nicht bewertbar, ob die Frist überhaupt erreichbar ist; ohne (b) ist keine Wellenplanung möglich | **Fr 14.08.** |
 | **H-3** | Portosatz und Stückkosten je Brief erheben (Deutsche Post o. a., aktueller Tarif) | Keine Kostenzahl aus dem Gedächtnis in einen Plan (A-7) | vor Welle 1 |
 | **H-4** | DEHOGA/Fachpresse: Konditionen und Redaktionsschluss für Verteiler-/Anzeigenplatzierung erfragen; **dabei N-8 mitklären** (deckt die Einwilligung der Verteiler-Empfänger Werbung für uns?) | K3-Vorlauf ist unbekannt und kann längste Leitzeit haben | **Fr 28.08.** |
 | **H-5** | Internorga-Termin 2027 an der Quelle erheben (Repo-Beleg fehlt) | Rückwärts-Anker für den Lead-Prozess (A4) | unkritisch |
 | **H-6** | **Telkon-Logo anfordern** (Außenpost, Versand User) | Ohne Logo ist die Listungszusage nicht umsetzbar — offener Posten aus R7, wirkt direkt auf K4 | **Fr 14.08.** |
 | **H-7** | Entscheide E-A1 bis E-A3 (§ 8) treffen | Außenwirkung — nicht von der Session zu setzen | **Fr 14.08.** |
+
+> ### 📌 REPARATUR 17.08.2026 (R18-C) — Kurz-ID `AKQ-H-2` und die H-8-Zeile
+>
+> **(1) Kurz-ID:** Der Handgriff hieß bis heute `H-2` und kollidierte mit
+> **zwei** gleichnamigen IDs anderer Träger — `beleg/baseline-messplan.md`
+> § 6 (Plan-Freigabe / Zusatz-Optionen / Zielstichprobe) und dem
+> Prüferbefund `H-2` aus `protokolle/R05-A-pruefer.md`. Er heißt jetzt
+> **`AKQ-H-2`** (Dokument-/Strang-Präfix als Namensraum, CLAUDE.md L-35);
+> der Teilverweis `H-2b` in § 6 heißt entsprechend `AKQ-H-2b`.
+> **Zählweg:** Kollisions-Grep zuerst im eigenen Dokument (7 Fundstellen,
+> alle umbenannt), dann repo-weit über `*.md`; Positivkontrolle mit dem
+> unabhängig bekannten Sollwert **3 vergebende Dokumente** — gefunden
+> wurden genau diese drei. **Nachher: 2.**
+> ⚠️ **Nicht behoben, ausdrücklich gemeldet statt still gelassen:**
+> **`H-1` trägt dieselbe Kollision** (hier: Planungsanker 13.11.; im
+> Messplan: Livegang-Datum — und STATUS.md meint mit „H-1 ✅ 22.09." den
+> Messplan-Posten). Die übrigen Handgriffe dieses Dokuments behalten ihre
+> alte Form; der Auftrag dieser Session nannte nur `H-2`, und eine
+> Voll-Umbenennung berührt fremde Träger. **Offener Posten für die
+> Leitsession.** Ebenfalls gemeldet, außerhalb des eigenen Scope:
+> „Prüferbefund H-2" ohne Rundenpräfix in `handel/kanal-rechtsmatrix.md`
+> (R18-A) und `handel/angebotsarchitektur.md`.
+>
+> **(2) H-8-Zeile:** Sie war die vierte der fünf Stellen, an denen der
+> Leser den Zeitplan mit der alten **Ein-Gate-Logik** holt (§ 3.2,
+> Nachtrag 17.08.). Vorfassungen stehen sichtbar in der Zeile selbst.
+> Zusätzlich war ihre Datumsangabe überholt: Der StB-Termin ist im
+> Wahrheits-Kanal seit heute als **Di 18.08.** geführt, und die Frage, ob
+> STATUS.md zwei Termine für dieselbe Handlung führt — in § 3.2 als
+> **unklar** ausgewiesen und der Leitsession überlassen —, ist dort
+> beantwortet. Wochentage per `date` erhoben (Positivkontrolle:
+> 01.01.2026 = Donnerstag).
 
 ---
 
@@ -944,8 +1056,26 @@ Außenwirkung nie im Alleingang).
    nach dem Namensentscheid (Pfad a) oder unter Arbeitstitel/bestehender
    Firmierung (Pfad b)? **Dieser Plan empfiehlt nicht**, weil beide Wege
    Außenwirkung tragen und die Grundlage (Namensstand) außerhalb von
-   MKT-AKQ liegt. Die Kosten beider Wege stehen in § 3.2.
-2. **E-A2 — Fristhaltung oder Fristnachführung?** Wenn H-2 (a) ergibt,
+   MKT-AKQ liegt. Die Kosten beider Wege stehen in § 3.2 — **zusammen
+   mit dem Nachtrag vom 17.08.2026, der mitzulesen ist:** Pfad (a) ist
+   nach dem Namensentscheid **nicht** frei (er ist eine notwendige, keine
+   hinreichende Bedingung — O-9 und die Bau-Pflichten sperren den
+   Listenaufbau weiter), und Pfad (b) trägt eine **offene Rechtsfrage**
+   (ob ein Arbeitstitel die Art.-14-Angabe zum Verantwortlichen tragen
+   kann). Die Entscheidung ist damit nicht *schneller gegen langsamer*,
+   sondern **eine Wahl zwischen zwei Wegen mit je eigenem offenen
+   Posten**.
+
+   > 📌 **REPARATUR 17.08.2026 (R18-C) — fünfte Ein-Gate-Stelle.**
+   > Vorfassung des Schlusssatzes: *Die Kosten beider Wege stehen in
+   > § 3.2.* Sie verwies auf den Abschnitt, **ohne** den dortigen
+   > Nachtrag — ein Leser, der von hier springt, holt sonst die
+   > Tabellenzeilen und nicht den Vorbehalt. **Kein neuer Sachvortrag:**
+   > beide Ergänzungen sind aus § 3.2 übernommen, die Rechtsfrage bleibt
+   > dort als **eigene Ableitung aus dem Bestand, keine Quellenaussage**
+   > ausgewiesen. Der Entscheid selbst bleibt beim User; dieser Plan
+   > empfiehlt weiterhin nicht.
+2. **E-A2 — Fristhaltung oder Fristnachführung?** Wenn AKQ-H-2 (a) ergibt,
    dass zu wenige tragfähige Vorkontakte existieren, ist die Frage nicht
    „mehr Briefe", sondern ob die Zielmarke „Mitte November" bestehen
    bleibt. **Der Plan trifft diese Entscheidung nicht** — er legt nur

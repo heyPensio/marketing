@@ -708,3 +708,23 @@ R15, eigene Leitsession).
    erhebbar (User-Entscheid 17.08., Muster R08-A/B vom 12.08.). Wird im
    Debrief in STATUS/Projektquelle geschlossen.
 4. **Alle Worker-Sessions laufen ab ~14:50** — Zuschnitt damit bestätigt.
+
+### Zwischenstand Leitsession 15:10 MESZ
+
+- ✅ **Ziel 5** — Reserve-Namen in CLAUDE.md (`31518ea`).
+- ✅ **Ziel 6** — Gerüst-Nachzug `8d80a64` → `5020bc2` (`699173e`): 5
+  Regeln aus 2 Deltas einzeln disponiert (Protokoll
+  `geruest-nachzug-protokoll.md`, oberster Abschnitt), Kopf gekürzt
+  (Transit-Verbot), Selbstcheck OK, Wächter 12/0. Prüffrage „Baustein
+  ohne Aktivierung": 8/8 aktiv. CLAUDE.md jetzt **83.977 B** (Soll 80k
+  überschritten → Verdichtungs-Posten bleibt Block-3-Prognose; Hart 90k
+  hält). Blueprint-Arbeitsbaum trägt fremdes untracked
+  `vorlage/bausteine/regelwerk-waechter/` — nicht angefasst, kein
+  eigener Rückfluss heute (der kommt im Debrief, wenn der Baum frei ist).
+- Beobachtet im eigenen Arbeitsbaum: `handel/kanal-rechtsmatrix.md`
+  modifiziert (R16-A läuft) · `.r16b-scratch-0c4692f/` untracked (Codex
+  R16-B; Ablageort im Repo-Root — beim Review prüfen, ob es aufgeräumt
+  wird; L-Kandidat: Ablageort für Fremdagenten-Scratch vorgeben, s. neue
+  Regel „Ablageort von Belegen").
+- **Warte auf:** Abschlussmeldungen R16-A (Ben Beckman), R16-B
+  (Codex-Bericht → Abnahme + Commit durch mich), R16-C (Lucky Roux).

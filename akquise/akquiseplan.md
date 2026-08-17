@@ -1,8 +1,9 @@
 # AKQ1 — Akquiseplan: Kanal-Kapazitätsplan und Rückwärtsrechnung auf den ersten zahlenden Kunden
 
 **Strang:** MKT-AKQ · **Arbeitspaket:** AKQ1 (Teil 1 von 2 — Teil 2 ist
-`akquise/listenbau-regelwerk.md`) · **Runde:** R08-A (Session Ben
-Beckman) · **Stand:** 11.08.2026
+`akquise/listenbau-regelwerk.md`) · **Erstellt:** R08-A (Session Ben
+Beckman), Stand 11.08.2026 · **Zuletzt geändert:** 17.08.2026 (R17-C:
+§ 3.2/§ 4.3 Zwei-Gate-Nachtrag · R18-C: § 2/§ 3.1/§ 5/§ 6/§ 7/§ 8)
 
 ---
 
@@ -109,19 +110,37 @@ belegt ist.
 | | |
 |---|---|
 | **Rechtsstand** | ✅ zulässig ohne Einwilligung; kein Tatbestand in § 7 Abs. 2 UWG, es gilt § 7 Abs. 1 UWG (② Rechtsmatrix A7). ⚠️ **Das ✅ ruht auf einem Negativ mit benannter Grenze:** „kein Verbotsurteil zu B2B-Kaltpost gefunden" — aber „⚠️ **Nicht durchsucht: juris und beck-online**, wo der Großteil der OLG-/LG-Rechtsprechung liegt. Das Negativ kann dort kippen." Der tragende Kanal dieses Plans steht damit auf einer nicht durchsuchten Rechtsprechungsquelle |
-| **Vorlauf bis Versandfähigkeit** | **3–5 Wochen nach dem Firmierungs-Entscheid** (④ Annahme, Zusammensetzung unten) |
+| **Vorlauf bis Versandfähigkeit** | **3–5 Wochen nach dem Firmierungs-Entscheid** (④ Annahme, Zusammensetzung unten) — ⚠️ **die Vorlaufuhr startet nicht mit dem Namen allein:** nach dem Nachtrag in § 3.2 (17.08.) hängt schon der Listenaufbau an **F-7 UND O-9 UND den sieben Bau-Pflichten**; der Namensentscheid ist notwendig, nicht hinreichend |
 | **Aufwand je Kontakt** | Adressrecherche + Quellenprotokoll + Personalisierung + Druck + Kuvertierung + Porto (④ — Minutenwert und Portosatz **nicht erhoben**, H-3) |
 | **Taktung** | Wellenweise, nicht als Dauerstrom: eine Welle = eine Nachfass-Kohorte = eine auswertbare Quote |
 | **Skalierbar?** | Ja — der einzige der fünf Kanäle, dessen Menge wir selbst bestimmen |
 | **Frist-tragend?** | ⚠️ **Nur bei hoher Stückzahl** — § 4 zeigt, warum |
 
-**Was gebaut sein muss, bevor der erste Brief rausgeht** (alles Pflicht,
-keine Reihenfolge-Option):
+**Was gebaut sein muss, bevor der erste DATENSATZ entsteht** (alles
+Pflicht, keine Reihenfolge-Option):
+
+> 📌 **REPARATUR 17.08.2026 (R18-C, Befund des Gegenlesers G-1) —
+> sechste Ein-Gate-Stelle.** Vorfassung der Überschrift: *Was gebaut sein
+> muss, bevor der erste Brief rausgeht*. Sie verankerte die ganze
+> Pflichtenliste am **Brief** — wörtlich die Formel, die
+> `akquise/interessenabwaegung-o8.md` § 11.1 kippt („**nicht erst vor dem
+> ersten Brief**"). Punkt 3 dieser Liste ist die **Zielkundenliste**, und
+> die ist nach dem Nachtrag in § 3.2 selbst der erste
+> Verarbeitungsschritt. Mit repariert: die Vorlaufzeile oben und der
+> F-7-Vorwärtsverweis in Punkt 1. **Warum das erst der Gegenleser fand:**
+> Der Negativ-Suchlauf dieser Session (§ 6-Kasten) suchte die
+> **Wortlaute** des gekippten § 3.2-Absatzes — er konnte außerhalb von
+> § 3.2 strukturell nichts finden. Ein Prüfmuster, das nicht treffen
+> kann, sieht im Log wie ein sauberes Negativ aus (CLAUDE.md).
 
 1. **Firmierung und Name** — der Brief trägt beides sichtbar. Sperrposten
    **F-7** (Projektquelle § 7 Punkt 0a: „Firmierung für beide
    Förder-Anfrageentwürfe (GbR in Gründung, Rebrand-Name offen — sperrt
-   den Versand)"). ① Derselbe Sperrposten trifft den Werbebrief;
+   den Versand)"). ⚠️ **Die zitierte Projektquellen-Formulierung „sperrt
+   den Versand" ist durch die Rn.-87-Verschärfung überholt** — F-7 sperrt
+   nach dem Bestand bereits den ersten Datensatz (§ 3.2, Nachtrag
+   17.08.); das Zitat bleibt im Originalwortlaut stehen, weil es die
+   Quelle wiedergibt. ① Derselbe Sperrposten trifft den Werbebrief;
    zusätzlich sind die **Geschäftsbrief-Pflichtangaben** streitig, aber
    nach Rechtsmatrix A7 sicherheitshalber aufzunehmen (② A7:
    „Da die Angaben ohnehin in den Briefbogen gehören, ist die sichere
@@ -328,8 +347,10 @@ sind ④-Annahmen** — sie sind der Sinn der Rechnung, nicht ihr Ergebnis:
 >
 > > 📌 **REPARATUR 17.08.2026 (R18-C) — zwei alternde Relativangaben.**
 > > Vorfassungen: *S5 liegt drei Tage nach heute* und, zum StB-Termin,
-> > *STATUS.md führt ihn als „User-Handgriff Mo 10.08." — das war
-> > gestern*. Beide waren zum Erstellungsstand (Di 11.08.2026) richtig
+> > *⚠️ Und dieser Gate-Termin ist bereits überfällig: STATUS.md führt
+> > ihn als „User-Handgriff Mo 10.08." — das war gestern* (Kopfsatz
+> > ergänzt nach Gegenlese G-15; er trug die Wertung *überfällig*, die
+> > § 3.2 zu *unklar* korrigiert hatte). Beide waren zum Erstellungsstand (Di 11.08.2026) richtig
 > > und altern still mit jedem Tag; § 3.2 führt sie als Aussagen 5 und 6
 > > unter *Nebenbefund (alternde Relativangabe)*. Ersetzt durch absolute
 > > Daten mit Standvermerk, Wochentage per `date` erhoben
@@ -586,6 +607,35 @@ K2-Anlass-Anbahnung. Nur der **Versand** hängt am Namen.
 > § 4.3 und die von § 3.2 abhängigen Sätze in § 3) und sind als
 > **offener Posten an die Leitsession** gemeldet — sie sind die
 > Ankunftsstellen, an denen ein Leser den Zeitplan holt.
+>
+> > ### ✅ ERLEDIGT-MARKE 17.08.2026 (R18-C, `106dc0e` + Nacharbeit)
+> >
+> > **Der Text oben bleibt im Originalwortlaut stehen** (er ist die
+> > Quelle der Vorbehalte); diese Marke ergänzt nur seinen Stand — sie
+> > streicht und ändert nichts. Auslöser: Gegenleser-Befund **G-2**
+> > (ERFÜLLEN-Klasse, CLAUDE.md: wer einen benannten Offen-Posten
+> > erfüllt, schließt ihn an seinem Träger — sonst schneidet die nächste
+> > Runde daraus einen gegenstandslosen Auftrag).
+> >
+> > - **Alle fünf genannten Stellen sind repariert** — § 6 (drei Zeilen +
+> >   Kasten), § 7 (H-8), § 8 (E-A1). Der Posten an die Leitsession ist
+> >   damit **erledigt**; offen bleibt die **Vollzähligkeit der Meldung**:
+> >   Der Gegenleser fand eine **sechste** Stelle in § 2 · K1 (repariert),
+> >   eine siebte ist nicht ausgeschlossen.
+> > - **Aussagen 5 und 6 der Tabelle oben** (*Nebenbefund — alternde
+> >   Relativangabe*) sind ebenfalls **erledigt**: § 3.1 trägt jetzt
+> >   absolute Daten mit Standvermerk.
+> > - Die *Präzisierung zu Aussage 6* (StB-Termin: *hier nicht
+> >   entschieden … sondern unklar*) ist von der Leitsession
+> >   **beantwortet**: STATUS.md Punkt 1 führt seit dem 17.08. die
+> >   Klarstellung „derselbe Vorgang, kein zweiter Termin" (Zusage für
+> >   den Anruf: Di 18.08.). Der Terminplan-Handgriff H-8 bleibt davon
+> >   unberührt ohne neuen Anker (§ 7).
+> > - **Fundstellen-Korrektur (Gegenleser G-6):** Die Angabe *o8 § 10-
+> >   Nachtrag* im Absatz oben ist falsch — der zitierte Satz steht in
+> >   o8 **§ 11.1**, ⭐-Kasten „Fälligkeit dieser Posten" (12.08.2026).
+> >   Der Originalwortlaut oben bleibt stehen; maßgeblich ist diese
+> >   Korrektur.
 
 ---
 
@@ -905,8 +955,12 @@ bestätigen (E-A3).**
 > „Termin" und „quote"; es kommt mit kopiertem Text herein und lässt
 > jeden späteren Grep auf das Wort ins Leere laufen. Entfernt per
 > Skriptdatei mit Trefferkontrolle und Abbruch (Soll 1, gefunden 1);
-> Gegenmessung über die ganze Datei: **U+00AD 1 → 0, U+00A0 0 → 0,
-> Umlaut-Zählung vorher = nachher (798), Dateilänge −1 Zeichen.**
+> Gegenmessung über die ganze Datei, **Bezugsstand: unmittelbar vor und
+> nach dem Skriptlauf am Arbeitsbaum** (nicht gegen den Rundenstart —
+> präzisiert nach Gegenlese G-16): **U+00AD 1 → 0, U+00A0 0 → 0,
+> Umlaut-Zählung vorher = nachher (798), Dateilänge −1 Zeichen.** Gegen
+> den Rundenstart `a7fca1c` gemessen sind es 729 → 803 Umlaute (der
+> Zuwachs stammt aus den Reparaturkästen dieser Session).
 > Sichtbar ist die Reparatur nicht — deshalb steht sie hier.
 
 **Ausdrücklich nicht als Steuerungsgrößen** (aus derselben Quelle,
@@ -924,8 +978,8 @@ für alles Weitere), die späteren sind **Prognose** unter den Annahmen aus
 
 | Zeitraum | Schritt | Hängt ab von | Wer |
 |---|---|---|---|
-| **bis Fr 14.08.** | **S5:** Firmierungs-/Namensstand geklärt ODER Entscheid E-A1 (Arbeitstitel) — ⚠️ **die beiden Wege sind nicht gleichwertig:** Pfad (b) trägt eine offene Rechtsfrage (§ 3.2, Nachtrag 17.08.) | StB-Termin, MARKE2 | **User** |
-| ab sofort, parallel | D2-/Weg-b-Pflichtbausteine bauen (Regelwerk § 3 + § 2.3) — ⚠️ **namensfrei nur teilweise:** Pflicht 1 (Datenschutzinformation) ist ohne Namen nur als **Rohtext** baubar, nicht fertig; VVT-Eintrag ohne F-7 nicht abschließend (§ 3.2) | — | Marketing-Session |
+| **bis Fr 14.08.** | **S5:** Firmierungs-/Namensstand geklärt ODER Entscheid E-A1 (Arbeitstitel) — ⚠️ **die beiden Wege sind nicht gleichwertig:** Pfad (b) trägt eine offene Rechtsfrage (§ 3.2, Nachtrag 17.08.). ⚠️ **Auch Pfad (a) ist mit S5 nicht frei** — der Namensentscheid ist *notwendig, keine hinreichende* Bedingung: O-9 und die sieben Bau-Pflichten sperren den Listenaufbau weiter (§ 3.2; ergänzt nach Gegenlese G-5) | StB-Termin, MARKE2 | **User** |
+| ab sofort, parallel | D2-/Weg-b-Pflichtbausteine bauen (Regelwerk § 3 + § 2.3) — ⚠️ **namensfrei nur teilweise:** Pflicht 1 (Datenschutzinformation) ist ohne Namen nur als **Rohtext** baubar, nicht fertig; VVT-Eintrag ohne F-7 nicht abschließend; für die **übrigen** Pflichten (Lead-Bogen, Gesprächsleitfaden) ist die Namensfreiheit nur ein **Negativ aus Aktenlage** — am Werkstück prüfen (§ 3.2; ergänzt nach Gegenlese G-9) | — | Marketing-Session |
 | ab sofort | **H-6:** Telkon-Logo anfordern (Außenpost) → K4 wird wirksam | — | **User** |
 | ab sofort | K2-Anlässe anbahnen und protokollieren | — | **User** |
 | bis Fr 21.08. | Zielkundenliste Welle 1 nach Regelwerk (Gebietsschnitt § 8 dort) | Regelwerk **UND F-7 + O-9 + die sieben Bau-Pflichten** — der Listenaufbau ist selbst der erste Verarbeitungsschritt (§ 3.2) | Marketing-Session |
@@ -944,16 +998,23 @@ für alles Weitere), die späteren sind **Prognose** unter den Annahmen aus
 > Nachtrag 17.08.2026): Die Verschärfung ruht auf **einem einzigen Satz**
 > (LG Düsseldorf, 38 O 243/23 Rn. 87), der nach dem Bestandsvermerk der
 > Rechtsmatrix **nicht in der tragenden Absagebegründung** steht, und
-> **Rn. 86 ordnet den Listenaufbau ausdrücklich dem Vorfeld des
-> angegriffenen Handelns zu** — das ist die unbequemere Hälfte, und sie
-> gehört mit hierher. Die Vorsichtsannahme bleibt gleichwohl in Kraft;
+> **Rn. 86 ordnet die Entgegennahme der angekauften Adressen und ihr
+> Speichern für die Erstellung der Schreiben ausdrücklich dem Vorfeld des
+> angegriffenen Handelns zu** — *dass das genau unser Listenaufbau ist,
+> ist der Schluss des Bestandsvermerks, nicht das Wort des Gerichts
+> (präzisiert nach Gegenlese G-13)*. Das ist die unbequemere Hälfte, und
+> sie gehört mit hierher. Die Vorsichtsannahme bleibt gleichwohl in Kraft;
 > ihre Belegkraft ist nur schwächer, als der Rest dieses Kastens
 > nahelegt. Ob ein nicht tragender Satz die Betriebsfolge trägt, ist eine
 > **Frage an den Anwalt** (`handel/anwalts-briefing-2026-08.md`) — dieser
 > Plan beantwortet sie nicht.
 >
 > **Der Bestand, auf den die drei Zeilen jetzt gezogen sind** (Zitate aus
-> `akquise/interessenabwaegung-o8.md`, dort § 9.1 bzw. § 10-Nachtrag):
+> `akquise/interessenabwaegung-o8.md`, dort § 9.1 bzw. **§ 11.1, ⭐-Kasten
+> „Fälligkeit dieser Posten — nachgetragen 12.08.2026"** — *korrigiert
+> nach Gegenlese G-6: die Erstfassung nannte hier „§ 10-Nachtrag" und
+> hatte diese Fehlangabe aus § 3.2 geerbt; § 10 reicht nur bis zur
+> Bau-Pflichten-Tabelle und enthält den Satz nicht*):
 > „**Der erste Verarbeitungsschritt ist der LISTENAUFBAU, nicht der
 > Versand**" und „**Es gilt einheitlich: F-7 (Firmierung), O-9 (Art. 6
 > Abs. 4) und die Bau-Pflichten des § 10 sind vor dem ERSTEN DATENSATZ
@@ -976,15 +1037,30 @@ für alles Weitere), die späteren sind **Prognose** unter den Annahmen aus
 > wie der Terminplan nachgezogen wird, ist ein User-/Leitsession-Posten
 > (E-A1, E-A2), keine Setzung dieser Session. Ebenso unverändert: die
 > Brief-Zeile (*Hängt ab von: S5*) — sie war schon vorher mit der
-> Zwei-Gate-Logik vereinbar.
+> Zwei-Gate-Logik vereinbar, **weil sie den Brief an S5 bindet und die
+> vorgelagerten Gates über die Zielkundenlisten-Zeile darüber wirken; die
+> Liste ist Vorbedingung des Briefs** *(Begründung ergänzt nach Gegenlese
+> G-12 — eine Entwarnung über die eigene Arbeit ohne Beleg im Satz ist
+> keine)*.
 >
 > **Herkunft:** R17-C hat § 3.2/§ 4.3 nachgezogen und die fünf
 > Ankunftsstellen des Zeitplans ausdrücklich als offenen Posten gemeldet
 > (§ 3.2 am Ende); Auftrag Tagesplan 17.08.2026 Strang R18-C Punkt 1.
-> **Gezählt: 5 von 5 gemeldeten Stellen repariert** — drei hier, H-8 in
-> § 7, E-A1 in § 8; eine sechste wurde gesucht (Grep über die ganze Datei
-> nach *ohne Namensbindung* / *sofort baubar* / *hängt am Namen*) und
-> **nicht gefunden**.
+> **Gezählt: 5 von 5 der von R17-C GEMELDETEN Stellen repariert** — drei
+> hier, H-8 in § 7, E-A1 in § 8. Der Nenner gehört an den Prüfgegenstand:
+> Ob die Meldung vollzählig war, ist eine andere Frage — **sie war es
+> nicht.**
+> ⚠️ **KORREKTUR 17.08.2026 (Gegenleser G-1):** Der ursprüngliche Satz an
+> dieser Stelle lautete *eine sechste wurde gesucht (Grep über die ganze
+> Datei nach „ohne Namensbindung" / „sofort baubar" / „hängt am Namen")
+> und nicht gefunden*. Dieses Negativ trug nicht: Die drei Muster sind die
+> **Wortlaute des gekippten § 3.2-Absatzes**; alle neun Treffer lagen in
+> § 3.2 und in den eigenen Kästen. Eine Suche nach der **Sache** fand die
+> sechste Stelle in **§ 2 · K1** (Vorlaufzeile, Überschrift der
+> Pflichtenliste, F-7-Zitat) — dort repariert, mit sichtbarer Vorfassung.
+> **Stand jetzt: 6 von 6 gefundenen Stellen repariert** (5 gemeldet + 1
+> vom Gegenleser gefunden). Ob es eine siebte gibt, ist offen; auch das
+> breitere Muster des Gegenlesers ist nur ein Muster.
 
 ⚠️ **Sperrposten außerhalb dieses Strangs, ohne den S1 nicht stattfinden
 kann:** Ein **Preismodell/Angebotsarchitektur existiert nicht**
@@ -1004,7 +1080,7 @@ wodurch der Fehler unsichtbar blieb).
 
 | # | Handgriff | Warum er hier steht | bis |
 |---|---|---|---|
-| **H-8** | ⭐ **Stand des StB-Termins klären** (GbR-Namensführung) — Stand **Mo 17.08.2026**: STATUS.md führt ihn als „User-Zusage Di 18.08."; die zweite STATUS-Angabe („~KW 34/35") ist nach der dortigen Klarstellung „derselbe Vorgang, kein zweiter Termin" *(Vorfassung dieser Zelle: er ist in STATUS.md als User-Handgriff **Mo 10.08.** geführt, also bereits verstrichen; ob er stattgefunden hat, steht nirgends — zum Erstellungsstand 11.08. richtig, seither überholt)* | **Vorbedingung von S5 — aber S5 ist nur EINES der drei Gates** des Terminpfads (F-7, O-9, sieben Bau-Pflichten; § 3.2): notwendig, nicht hinreichend *(Vorfassung: Er ist die Vorbedingung von S5 und damit des gesamten Terminpfads)* | ~~Do 13.08.~~ **Di 18.08.** (Stand STATUS.md) |
+| **H-8** | ⭐ **Stand des StB-Termins klären** (GbR-Namensführung) — Stand **Mo 17.08.2026**: STATUS.md führt ihn als „User-Zusage Di 18.08."; die zweite STATUS-Angabe („~KW 34/35") ist nach der dortigen Klarstellung „derselbe Vorgang, kein zweiter Termin" *(Vorfassung dieser Zelle: er ist in STATUS.md als User-Handgriff **Mo 10.08.** geführt, also bereits verstrichen; ob er stattgefunden hat, steht nirgends — zum Erstellungsstand 11.08. richtig, seither überholt)* | **Vorbedingung von S5 — aber S5 ist nur EINES der drei Gates** des Terminpfads (F-7, O-9, sieben Bau-Pflichten; § 3.2): notwendig, nicht hinreichend *(Vorfassung: Er ist die Vorbedingung von S5 und damit des gesamten Terminpfads)* | ~~Do 13.08.~~ **Frist verstrichen — neuer Anker offen (User/Leitsession)**. *(Der StB-Anruf selbst ist laut STATUS.md für Di 18.08. zugesagt; H-8 ist die Klärung DANACH. Korrigiert nach Gegenlese G-4: die Erstfassung setzte hier *Di 18.08.* mit dem Etikett *Stand STATUS.md* — STATUS setzt für H-8 keine Frist, und ein selbstgesetzter Termin sähe wie eine Zusage aus, die niemand gegeben hat.)* |
 | **H-1** | Bestätigen oder korrigieren: Planungsanker **Fr 13.11.2026** für „Mitte November" | Der Anker trägt die gesamte Rückwärtsrechnung | **Fr 14.08.** |
 | **AKQ-H-2** | Zwei Zahlen nennen: (a) **wie viele tragfähige persönliche Vorkontakte** ins Zielsegment heute existieren (K2), (b) **wie viele Briefe/Woche** realistisch machbar sind (A-6) | Ohne (a) ist nicht bewertbar, ob die Frist überhaupt erreichbar ist; ohne (b) ist keine Wellenplanung möglich | **Fr 14.08.** |
 | **H-3** | Portosatz und Stückkosten je Brief erheben (Deutsche Post o. a., aktueller Tarif) | Keine Kostenzahl aus dem Gedächtnis in einen Plan (A-7) | vor Welle 1 |
@@ -1016,15 +1092,27 @@ wodurch der Fehler unsichtbar blieb).
 > ### 📌 REPARATUR 17.08.2026 (R18-C) — Kurz-ID `AKQ-H-2` und die H-8-Zeile
 >
 > **(1) Kurz-ID:** Der Handgriff hieß bis heute `H-2` und kollidierte mit
-> **zwei** gleichnamigen IDs anderer Träger — `beleg/baseline-messplan.md`
-> § 6 (Plan-Freigabe / Zusatz-Optionen / Zielstichprobe) und dem
-> Prüferbefund `H-2` aus `protokolle/R05-A-pruefer.md`. Er heißt jetzt
-> **`AKQ-H-2`** (Dokument-/Strang-Präfix als Namensraum, CLAUDE.md L-35);
-> der Teilverweis `H-2b` in § 6 heißt entsprechend `AKQ-H-2b`.
+> gleichnamigen IDs anderer Träger. Er heißt jetzt **`AKQ-H-2`**
+> (Dokument-/Strang-Präfix als Namensraum, CLAUDE.md L-35); der
+> Teilverweis `H-2b` in § 6 heißt entsprechend `AKQ-H-2b`.
 > **Zählweg:** Kollisions-Grep zuerst im eigenen Dokument (7 Fundstellen,
-> alle umbenannt), dann repo-weit über `*.md`; Positivkontrolle mit dem
-> unabhängig bekannten Sollwert **3 vergebende Dokumente** — gefunden
-> wurden genau diese drei. **Nachher: 2.**
+> alle umbenannt), dann repo-weit über `*.md`, Muster auf die
+> **Vergabe**-Form beschränkt (Überschrift bzw. erste Tabellenspalte),
+> nicht auf jede Erwähnung.
+> ⚠️ **KORREKTUR 17.08.2026 (Gegenleser G-3): Der Sollwert dieser
+> Positivkontrolle war falsch.** Die Erstfassung nannte — der
+> Auftragsvorgabe folgend — *drei vergebende Dokumente* (Akquiseplan ·
+> Messplan · `R05-A-pruefer.md`) und *nachher 2*. Tatsächlich vergeben
+> **mindestens sechs** Dokumente eine eigene `H-2`: dazu
+> `protokolle/R15-A-pruefer.md` (Z. 680), `R16-A-pruefer.md` (Z. 385) und
+> `R17-A-pruefer.md` (Z. 734) — am Objekt nachgezählt. **Nachher also 5,
+> nicht 2.** Ein falscher Sollwert, der die Kontrolle „bestehen" lässt,
+> ist schlechter als keine Kontrolle: Er entlastet den nächsten Leser
+> davon, nachzuzählen. **Die vier Prüferprotokolle sind Historie und
+> werden nicht umbenannt** — die Klasse ist damit nicht gelöst, sondern
+> im Namensraum der laufenden Dokumente entschärft; die
+> Prüferbefund-Namensräume brauchen den Rundenpräfix (L-35), Träger
+> Leitsession.
 > ⚠️ **Nicht behoben, ausdrücklich gemeldet statt still gelassen:**
 > **`H-1` trägt dieselbe Kollision** (hier: Planungsanker 13.11.; im
 > Messplan: Livegang-Datum — und STATUS.md meint mit „H-1 ✅ 22.09." den
@@ -1033,7 +1121,13 @@ wodurch der Fehler unsichtbar blieb).
 > Voll-Umbenennung berührt fremde Träger. **Offener Posten für die
 > Leitsession.** Ebenfalls gemeldet, außerhalb des eigenen Scope:
 > „Prüferbefund H-2" ohne Rundenpräfix in `handel/kanal-rechtsmatrix.md`
-> (R18-A) und `handel/angebotsarchitektur.md`.
+> (**eingebracht mit `ed9bbdf`, R16-A** — Herkunft am Commit belegt; die
+> Datei wird in dieser Runde von R18-A bearbeitet, das ist der Träger,
+> nicht die Herkunft) und `handel/angebotsarchitektur.md`
+> (**`8664f3f`, R17-A**). *(Zuschreibung präzisiert nach Gegenlese G-7:
+> die Erstfassung schrieb nur „(R18-A)" und las sich als Herkunftsangabe
+> — aus einem Commit ist die schreibende Session nicht ablesbar,
+> CLAUDE.md Regel 1.)*
 >
 > **(2) H-8-Zeile:** Sie war die vierte der fünf Stellen, an denen der
 > Leser den Zeitplan mit der alten **Ein-Gate-Logik** holt (§ 3.2,

@@ -373,7 +373,7 @@ muss später saisongleiche Vergleiche wählen oder den Vorbehalt nennen.
 |---|---|---|---|
 | ~~H-1~~ | ~~Konkretes Livegang-Datum erfragen~~ ✅ **ERLEDIGT 17.08.2026: Di 22.09.2026** (Quelle: User-Chat ~14:50 MESZ, Form: Kurzantwort, Belegstufe **Nutzerangabe**). Abweichung zum Planungsanker 22.09.: **0 Tage**, kein Nachziehen nötig — Einzelheiten im Kasten zu § 5 | ~~User~~ erledigt | ~~16.08.~~ **17.08.** |
 | H-2 | **ENTFLOCHTEN 17.08.2026 (R17-C) — drei Teile mit drei verschiedenen Ständen, s. Kasten unter dieser Tabelle.** ~~Plan-Freigabe~~ ✅ **ERTEILT 09.08.2026** (Beleg: Statuskasten im Kopf dieses Dokuments) · ~~Entscheid Zusatz-Optionen BM-4/BM-5~~ ✅ **ENTSCHIEDEN 09.08.2026** (Beleg: Kopf-Nachtrag Punkt 3 — keine eigenen Strichlisten, sondern Schätzfragen im Briefing-Interview) · **Entscheid Zielstichprobe: Stand ungeklärt — Frist verstrichen** | ~~User~~ Teil 1 + 2 erledigt; Teil 3 User | ~~16.08.~~ **Teil 1 + 2 erfüllt am 09.08. (7 Tage VOR Frist); Teil 3: Frist 16.08. verstrichen, neuer Anker offen** |
-| H-3 | Betreiber-Briefing: Erhebungsfragen E-1 bis E-5 klären, Vorlagen übergeben, Messstart vereinbaren; Kayhan-Konventionen beachten | User | 23.08. |
+| H-3 | Betreiber-Briefing: Erhebungsfragen E-1 bis E-5 klären, Vorlagen übergeben, Messstart vereinbaren; Kayhan-Konventionen beachten | User | **So 23.08.** *(Wochentag ergänzt R18-C, per `date`; § 5 führte ihn bereits mit Etikett — ⚠️ ein Sonntag, wie in § 7 des Akquiseplans als Handgriff-Falle beschrieben)* |
 | H-4 | Alt-System-Datensicherung: HS/3-/DIRS21-/OTA-Auszüge (No-Show-Historie, Belegung) exportieren/fotografieren, BEVOR der Systemwechsel sie gefährdet | User + Betreiber | 07.09. |
 | H-5 | Wöchentlicher Check: Zettel-Fotos einsammeln (fernbedient, Messenger), Lücken sofort nachfassen statt am Ende. **Prämisse (Prüfer-Befund G-6): setzt einen Messenger-Kanal auch zu den Erhebern Rabe's/Hostel voraus — im Briefing herstellen (E-5)** | User | jeden Sa im Fenster |
 | H-6 | Rohprotokolle final einsammeln und der Marketing-Session übergeben | User | 21.09. |
@@ -544,15 +544,27 @@ muss später saisongleiche Vergleiche wählen oder den Vorbehalt nennen.
 > `A5-Probedruck` trifft in `STATUS.md`, `projektquelle-mkt.md` und den
 > Tagesplänen 09.–17.08. — der Suchweg findet einen vorhandenen Posten
 > dieser Art.
+> ⚠️ **Reichweite dieser Kontrolle (eingeschränkt nach Gegenlese G-11):**
+> Sie belegt, dass der Suchweg einen **Posten** findet — nicht, dass er
+> eine **Definition** fände, die anders formuliert ist (*Vorlagen in
+> Auftrag gegeben*, *Druckauftrag*, *bestellt*). Geprüft ist die
+> Erreichbarkeit der Quelle, nicht die Vollständigkeit des Ergebnisses
+> (V17-1). Das Negativ „im Repo undefiniert" ist damit **nicht
+> bestätigt**, sondern Aktenlage über vier Muster; ein zweiter
+> unabhängiger Lesekanal fehlt.
 >
 > ⛔ **Der Punkt wird damit NICHT abgehakt: „Datei existiert" ist nicht
 > „beauftragt".** **Was „beauftragt" heißt, definiert kein Dokument des
-> Repos.** Drei Lesarten, jede mit einem anderen Fälligkeitszeitpunkt:
+> Repos.** Drei Lesarten mit **zwei** verschiedenen
+> Fälligkeitszeitpunkten — (a) vor der Übergabe, (b) und (c) mit dem
+> Briefing (H-3): *(korrigiert nach Gegenlese G-10; die Erstfassung
+> schrieb *jede mit einem anderen Fälligkeitszeitpunkt*, während H-3 und
+> „das Briefing" derselbe Termin sind)*
 >
 > | Lesart | Gegenstand | Stand | Fällig |
 > |---|---|---|---|
 > | **(a) Druck** | **A5-Probedruck** der Vorlagen („tatsächliche Größe") | **offen — User-Handgriff**, seit 09.08. durchgehend geführt: STATUS.md „Nächster konkreter Schritt" Punkt 3, Projektquelle § 7 (e), Tagespläne 09./10./11.08. und — mit dem Vermerk **„übernommen" (offen)** — 12./13./17.08. | vor der Übergabe |
-> | **(b) Übergabe an die Objekte** | § 4 dieses Plans verlangt die Vorlage als Druck-PDF *vor dem Briefing, damit der User sie mitnehmen kann* | Termin steht (H-3 Betreiber-Briefing, **bis 23.08.** — ⚠️ das ist ein **Sonntag**, per `date` erhoben; der Termin steht ohne Wochentags-Etikett im Plan), Übergabe selbst nicht belegt | mit H-3 |
+> | **(b) Übergabe an die Objekte** | § 4 dieses Plans verlangt die Vorlage als Druck-PDF *vor dem Briefing, damit der User sie mitnehmen kann* | Termin steht (H-3 Betreiber-Briefing, **bis So 23.08.** — ⚠️ das ist ein **Sonntag**, per `date` erhoben; § 5 führt ihn korrekt als „bis So 23.08.", die **Handgriff-Tabelle § 6 ohne Wochentags-Etikett** — dort nachgezogen. *Korrigiert nach Gegenlese G-8: die Erstfassung behauptete pauschal, der Termin stehe ohne Wochentags-Etikett im Plan.*), Übergabe selbst nicht belegt | mit H-3 |
 > | **(c) Erhebungs-Auftrag** | § 4 benutzt das Wort in genau diesem dritten Sinn: Tages-Strichlisten *(+BM-4/5 falls beauftragt)* — also der Auftrag an die Erheber, eine Größe überhaupt zu erheben | für BM-4/BM-5 am 09.08. entschieden (Kopf-Nachtrag Punkt 3: Schätzfragen statt Strichlisten) | mit dem Briefing |
 >
 > **❓ Klartext-Rückfrage an den User (Antwort formlos, wird dann hier

@@ -418,22 +418,45 @@ gelegentlich" (Rechtsmatrix C6).
 > R15A-N-4) **„nicht in der tragenden Absagebegründung"**: Tragend
 > ist **Rn. 84/85** — die lit.-f-Voraussetzungen sind dort schon
 > deshalb nicht erfüllt, „weil die Beklagte die Artt. 12, 14, 21
-> DSGVO verletzt hat". **Rn. 86** referiert einen
-> Literatureinwand (Brandt/Dienst, GRUR-Prax 2025, 152), **Rn. 87**
+> DSGVO verletzt hat". *(Belegkette: Der Wortlaut ist byte-treu aus
+> dem Bestandsvermerk der Rechtsmatrix übernommen. Die A7-Tabelle
+> derselben Quelle führt die Angaben feiner — Rn. 85 nennt „Artt. 12,
+> 14 Abs. 3 lit. b, 21 Abs. 4"; die gerundete Fassung „Artt. 12,14
+> und 21" steht dort erst in Rn. 86. Wer die Absätze braucht, nimmt
+> die A7-Tabelle, nicht diese Zeile.)* **Rn. 87**
 > beginnt mit *Unabhängig davon* und ist damit die „zweite,
 > hilfsweise Abwehr desselben Einwands".
 >
+> **⚠️ Rn. 86 sagt mehr — und die unbequemere Hälfte gehört hierher**
+> *(ergänzt nach Gegenlese R17-C; die Erstfassung dieses Vermerks
+> nannte Rn. 86 nur als Literatureinwand von Brandt/Dienst,
+> GRUR-Prax 2025, 152 — also genau die schwächere Hälfte)*: Dieselbe
+> Randnummer ordnet die Entgegennahme der angekauften Adressen und
+> ihr Speichern für den Einsatz bei der Erstellung der Schreiben
+> ausdrücklich dem **Vorfeld** zu — es seien Schritte, „die nicht
+> Teil des von dem Kläger angegriffenen geschäftlichen Handelns
+> sind, sondern in dessen Vorfeld stattgefunden haben".
+> **Das ist genau der Schritt, auf den dieses Regelwerk die
+> Fälligkeit vorzieht: der Listenaufbau** — das Gericht schiebt ihn
+> aus dem Streitgegenstand heraus. Die Quelle sagt dazu wörtlich:
+> „Wer die Belegkraft der Rn.-87-Ableitung dokumentiert, ohne das zu
+> nennen, dokumentiert die schwächere Hälfte."
+>
 > **Was das für dieses Regelwerk ändert — und was nicht:**
-> **Die Rechtsfolge oben bleibt in Kraft.** „Nicht tragend" heißt
-> **nicht** „falsch": Das Urteil trägt die Absage in Rn. 84/85 nur
-> anders. Die Rechtsmatrix hält ausdrücklich fest: **„Die
-> Vorsichtsannahme bleibt trotzdem in Kraft"** — was sich ändert,
-> ist allein die **Belegkraft** für die Betriebsfolge, nicht die
-> Sperre. Der Grund ist die Asymmetrie: „eine unbelegte
-> Verschärfung kostet Zeit, eine unbelegte Entwarnung kostet den
-> Fall". **Ob ein nicht tragender Satz die Betriebsfolge trägt, ist
-> eine Rechtsfrage — Frage an den Anwalt** (Teilfrage 6 zu Frage 2,
-> `handel/anwalts-briefing-2026-08.md`); dieses Regelwerk
+> **Die Rechtsfolge oben bleibt in Kraft** — aber nicht, weil eine
+> andere Randnummer sie trüge: Rn. 84/85 trägt die **lit.-f-Absage**,
+> nicht die Fälligkeitsregel; wann Vorkehrungen stehen müssen, sagen
+> diese Randnummern nicht. **Tragender Grund ist die
+> Risiko-Asymmetrie**, so die Quelle: „eine unbelegte Verschärfung
+> kostet Zeit, eine unbelegte Entwarnung kostet den Fall" — die
+> Sperre bleibt als die **vorsichtigere Annahme** in Kraft. Die
+> Rechtsmatrix hält fest, vollständig zitiert: **„Die
+> Vorsichtsannahme bleibt trotzdem in Kraft — ihre Belegkraft ist
+> nur noch schwächer als der Rest dieses Vermerks nahelegt."** Was
+> sich ändert, ist die **Belegkraft** für die Betriebsfolge, nicht
+> die Sperre. **Ob ein nicht tragender Satz die Betriebsfolge trägt,
+> ist eine Rechtsfrage — Frage an den Anwalt** (Teilfrage 6 zu
+> Frage 2, `handel/anwalts-briefing-2026-08.md`); dieses Regelwerk
 > beantwortet sie nicht.
 >
 > *(Quelle des Wortlauts: `handel/kanal-rechtsmatrix.md`,

@@ -400,18 +400,45 @@ muss später saisongleiche Vergleiche wählen oder den Vorbehalt nennen.
 > enthält eine Ziel-Stichprobe (§ 2, BM-1: ≥ 30 Vorgänge je Hotel,
 > beim Hostel „alle im Fenster anfallenden", ausdrücklich als
 > **Planwert ohne Abbruchkriterium**). Ein **gesonderter User-Entscheid
-> dazu** ist im Bestand nicht auffindbar. **Suchweg (17.08.2026, Stand
-> `926ca3c`):** grep über alle `*.md` des Repos, zwei Achsen —
-> Kürzel (`H-2`) und Sache (`Zielstichprobe`, `Ziel-Stichprobe`);
-> `sensibel/` ausgenommen. Der Freigabe-Nachtrag im Kopf regelt
-> BM-4/BM-5 ausdrücklich (Punkt 3), die Zielstichprobe **nirgends**;
-> die § 5-Tabellenzeile zum 16.08. nennt ebenfalls nur BM-4/BM-5, das
-> „und Zielstichprobe" stand allein in der H-2-Zeile.
-> **Positivkontrolle des Suchwegs:** dieselbe Suche findet `H-1`
-> repo-weit 92-mal, darunter den am 17.08. erledigten Livegang-Handgriff
-> — der Suchweg trifft also. **Belegstufe des Negativs: Aktenlage,
-> nicht Vollbeweis** — ein mündlicher Entscheid ohne Repo-Spur wäre
-> hiermit nicht widerlegt.
+> dazu** ist im Bestand nicht auffindbar. Der Freigabe-Nachtrag im Kopf
+> regelt BM-4/BM-5 ausdrücklich (Punkt 3), die Zielstichprobe
+> **nirgends**; die § 5-Tabellenzeile zum 16.08. nennt ebenfalls nur
+> BM-4/BM-5 — das „und Zielstichprobe" stand allein in der H-2-Zeile.
+>
+> **Suchweg, je Kanal mit eigenem Zählweg** *(Stand eingefroren auf
+> `926ca3c`, alle Zahlen per `git grep` gegen diesen Commit — ein Lauf
+> über den Arbeitsbaum misst im Parallelbetrieb einen wandernden Stand;
+> `sensibel/` ist git-ignoriert und liegt gar nicht im Baum)*:
+>
+> | Kanal | Muster | Ergebnis |
+> |---|---|---|
+> | Kürzel | `H-2` | 52 Zeilen; Zielstichprobe nur in der H-2-Zeile selbst |
+> | Sache, mit Bindestrich | `Ziel-Stichprobe` | 1 Treffer (§ 2 dieses Plans) |
+> | Sache, ohne Bindestrich | `Zielstichprobe` | 1 Treffer (H-2-Zeile) |
+> | Sache, wertgebunden | `Abbruchkriterium` | 1 Treffer (§ 2 dieses Plans) |
+>
+> **Positivkontrolle mit unabhängig bekanntem Sollwert — sie prüft genau
+> das, was das Negativ behauptet:** Wäre zu einem Punkt der H-2-Zeile ein
+> User-Entscheid vorhanden, müsste dieser Suchweg ihn finden. Gegenprobe
+> am **Nachbarpunkt BM-4/BM-5**, dessen Entscheid nachweislich existiert:
+> `BM-4` liefert **20 Treffer in 8 Dateien**, und der Entscheid selbst
+> wird gefunden (Muster `BM-4 und BM-5 werden` → Kopf Punkt 3 dieses
+> Plans). **Der Suchweg findet also einen vorhandenen Entscheid dieser
+> Art — für die Zielstichprobe findet er keinen.**
+>
+> *(Zählweg-Korrektur nach Gegenlese R17-C: Die Erstfassung nannte hier
+> „findet `H-1` repo-weit 92-mal". Diese Zahl ist **nicht
+> reproduzierbar** — über `*.md` ergeben sich je Zählweg 107 Rohtreffer,
+> 100 Zeilen, 25 Dateien, 93 Treffer ohne Folgeziffer, 96 über den
+> Arbeitsbaum von heute; keiner ergibt 92, weil sie über den wandernden
+> Arbeitsbaum erhoben war. Und sie lag im **falschen Kanal**: Sie
+> kontrollierte das Kürzel, während die auftragstragende Verneinung im
+> Sache-Kanal liegt. Eine Kontrolle, die einen anderen Kanal prüft als
+> die Behauptung, prüft die Behauptung nicht.)*
+>
+> **Belegstufe des Negativs: Aktenlage über versionierte `*.md`, nicht
+> Vollbeweis** — ein mündlicher Entscheid ohne Repo-Spur wäre hiermit
+> nicht widerlegt.
 >
 > **⚠️ Zwei Lesarten — die Entscheidung gehört dem User, nicht diesem
 > Dokument:**

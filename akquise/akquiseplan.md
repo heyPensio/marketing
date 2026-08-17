@@ -350,19 +350,37 @@ K2-Anlass-Anbahnung. Nur der **Versand** hängt am Namen.
 > **Zuerst die Belegkraft, dann die Folge** (der Vorbehalt darf beim
 > Nachziehen nicht verloren gehen): Die Verschärfung ruht auf **einem
 > einzigen Satz** aus LG Düsseldorf, 38 O 243/23 Rn. 87 — die Erfüllung
-> der Informationspflicht erfordert „Vorkehrungen, die bereits vor dem
-> ersten Verarbeitungsschritt in die Wege geleitet sein müssen" —, und
-> dieser Satz steht nach dem
-> Bestandsvermerk der Rechtsmatrix (17.08.2026, Befund R15A-N-4)
+> der dort behandelten Verpflichtung erfordert „Vorkehrungen, die bereits
+> vor dem ersten Verarbeitungsschritt in die Wege geleitet sein müssen"
+> —, und dieser Satz steht nach dem Bestandsvermerk der Rechtsmatrix
+> (Stand `926ca3c`, 17.08.2026, Befund R15A-N-4 mit Ergänzung M-5)
 > **„nicht in der tragenden Absagebegründung"**: Tragend ist Rn. 84/85,
 > Rn. 87 ist die „zweite, hilfsweise Abwehr desselben Einwands".
-> Dieselbe Quelle hält fest: **„Die Vorsichtsannahme bleibt trotzdem in
-> Kraft"** — ihre Belegkraft ist nur schwächer als der Satz allein
-> nahelegt, denn „eine unbelegte Verschärfung kostet Zeit, eine
-> unbelegte Entwarnung kostet den Fall". Ob ein nicht tragender Satz die
-> Betriebsfolge trägt, ist **eine Frage an den Anwalt** (Teilfrage 6 zu
-> Frage 2, `handel/anwalts-briefing-2026-08.md`) — dieser Plan
-> beantwortet sie nicht.
+>
+> **⚠️ Und die unbequemere Hälfte desselben Vermerks, die hier zuerst
+> fehlte** *(ergänzt nach Gegenlese R17-C)*: **Rn. 86 verschärft die
+> Frage zusätzlich.** Dieselbe Randnummer ordnet die Entgegennahme der
+> angekauften Adressen und ihr Speichern für den Einsatz bei der
+> Erstellung der Schreiben ausdrücklich dem **Vorfeld** zu — es seien
+> Schritte, „die nicht Teil des von dem Kläger angegriffenen
+> geschäftlichen Handelns sind, sondern in dessen Vorfeld stattgefunden
+> haben". **Das ist genau unser Schritt: der Listenaufbau, auf den wir
+> die Fälligkeit vorziehen** — das Gericht schiebt ihn aus dem
+> Streitgegenstand heraus. Die Quelle sagt dazu ausdrücklich: „Wer die
+> Belegkraft der Rn.-87-Ableitung dokumentiert, ohne das zu nennen,
+> dokumentiert die schwächere Hälfte."
+>
+> Dieselbe Quelle hält gleichwohl fest — **vollständig zitiert, weil die
+> zweite Hälfte des Satzes die Einschränkung trägt**: **„Die
+> Vorsichtsannahme bleibt trotzdem in Kraft — ihre Belegkraft ist nur
+> noch schwächer als der Rest dieses Vermerks nahelegt."** Der Grund für
+> das Inkraftbleiben ist **nicht** eine zweite Fundstelle im Urteil,
+> sondern die Risiko-Asymmetrie: „eine unbelegte Verschärfung kostet
+> Zeit, eine unbelegte Entwarnung kostet den Fall". Ob ein nicht
+> tragender Satz die Betriebsfolge trägt, ist **eine Frage an den
+> Anwalt** (Teilfrage 6 zu Frage 2,
+> `handel/anwalts-briefing-2026-08.md`) — dieser Plan beantwortet sie
+> nicht.
 >
 > **Was daraus folgt (Stand des Bestands, nicht neue Rechtsauslegung):**
 > „Der erste Verarbeitungsschritt ist der LISTENAUFBAU, nicht der
@@ -370,10 +388,15 @@ K2-Anlass-Anbahnung. Nur der **Versand** hängt am Namen.
 > Q-04). Und einheitlich: „Es gilt einheitlich: F-7 (Firmierung), O-9
 > (Art. 6 Abs. 4) und die Bau-Pflichten des § 10 sind vor dem ERSTEN
 > DATENSATZ fällig, nicht erst vor dem ersten Brief." (o8 § 10-Nachtrag).
-> Der Kurz-Einstieg führt es als Engpass: F-7, O-9 und die Bau-Pflichten
-> „sperren damit schon den ersten Datensatz" (STATUS.md „Nächster
+> Der Kurz-Einstieg führt es als Engpass: F-7, O-9 und die **sieben**
+> Bau-Pflichten „sperren damit schon den ersten Datensatz" (STATUS.md
+> „Nächster
 > konkreter Schritt" Punkt 0). Weitere Fundstellen derselben Aussage:
 > `akquise/listenbau-regelwerk.md` § 3 Pflicht 4 (R09-A-Nachtrag).
+> *(Zum Nenner „sieben": Das Regelwerk führt B-1…B-7 als aktiv, B-8 ist
+> in der Quelle gestrichen — Regelwerk § 12, O-8-Zeile, Nachtrag R13-B.
+> Die Angabe „acht" in o8 § 10 und Regelwerk §§ 3/12 ist der Stand vor
+> dieser Streichung; hier gilt der STATUS-Wortlaut.)*
 >
 > **⛔ Damit ist von der Aufzählung oben gesperrt:**
 > - **die Zielkundenliste selbst** — sie ist der erste
@@ -383,7 +406,14 @@ K2-Anlass-Anbahnung. Nur der **Versand** hängt am Namen.
 >   dem Bestand oben bereits den ersten Datensatz, nicht erst den Brief.
 >
 > **✅ Was von der Aufzählung weiter gilt — positiv aufgelistet, je mit
-> Bestandsbeleg:**
+> Bestandsbeleg.** ⚠️ **„Gebaut" heißt hier: das Werkzeug existiert und
+> ist ohne Namensentscheid entstanden — es heißt NICHT „einsatzbereit".**
+> Sowohl `akquise/sperrdatei-struktur.md` als auch
+> `akquise/wellenprotokoll-vorlage.md` tragen im Kopf ein ausdrückliches
+> **⛔ GATE** („diese Datei ist noch NICHT scharf zu stellen" bzw. „es
+> darf noch keine Welle geben"). Bau und Scharfstellung sind zwei
+> Zustände. *(Nachgemessen nach Gegenlese R17-C: 546 bzw. 667 Zeilen mit
+> vollständiger Blockstruktur — „gebaut" ist belegt, nicht behauptet.)*
 > - **Abwägungsdokumentation:** ohne Namen gebaut und abgeschlossen —
 >   `akquise/interessenabwaegung-o8.md` (R9, 12.08.2026).
 > - **Werbesperrdatei (Struktur/Ablauf):** ohne Namen gebaut —
@@ -422,9 +452,18 @@ K2-Anlass-Anbahnung. Nur der **Versand** hängt am Namen.
 >   Kasten.)*
 >
 > **Was der Nachtrag für die zwei Pfade bedeutet:**
-> - **Pfad (a) Warten** ist unberührt und wird durch die Verschärfung
->   sogar bestätigt: *Kaltkanal-Aufbau startet erst nach dem
->   Namensentscheid* ist genau die Reihenfolge, die Rn. 87 verlangt.
+> - **Pfad (a) Warten** ist in seiner Reihenfolge unberührt: *Kaltkanal-
+>   Aufbau startet erst nach dem Namensentscheid* widerspricht Rn. 87
+>   nicht. **⚠️ Aber die Formulierung darf nicht als Freigabe gelesen
+>   werden** *(präzisiert nach Gegenlese R17-C — die Erstfassung dieses
+>   Kastens schrieb *genau die Reihenfolge, die Rn. 87 verlangt* und
+>   stellte damit das Ein-Gate-Modell wieder her, das dieser Kasten
+>   gerade abschafft)*: Der Namensentscheid ist eine **notwendige, keine
+>   hinreichende** Bedingung. Nach ihm bleibt der Listenaufbau gesperrt,
+>   solange **O-9** offen ist — und O-9 ist „**OFFEN — weder entschieden
+>   noch geprüft**", das Gate ist anwaltlicher Rat, nicht eine
+>   Marketing-Session (Rechtsmatrix O-9-Kasten; STATUS.md Punkt 0: „O-9
+>   seit R13 GEFÜHRT, Rechtsprüfung offen"). Dazu die Bau-Pflichten.
 >   Nur die Preisangabe verschiebt sich nach vorn — die Verzugsuhr läuft
 >   ab dem gesperrten **Listenaufbau**, nicht ab einem gesperrten
 >   Versand.
@@ -443,34 +482,88 @@ K2-Anlass-Anbahnung. Nur der **Versand** hängt am Namen.
 >   `akquise/`, `handel/`) nirgends gestellt. Sie ist damit ein
 >   **Nebenbefund für MKT-HANDEL**, kein Ergebnis dieses Plans.
 >
-> **Gegengelesene Terminlogik § 3 (Auftrag: jeden Satz einzeln):**
-> **11 Aussagen geprüft: 2 gekippt und nachgezogen** (der Absatz oben +
-> Pfad b), **7 unberührt, 2 Nebenbefunde** (Summe 11; die Summenprobe
-> belegt die Vollzähligkeit, nicht die Richtigkeit der Einstufung —
-> die Einstufung je Aussage ist unten benannt).
-> Unberührt und mit der Verschärfung *vereinbar* sind die Stufen S4/S5
-> selbst — § 3.1 führt S5 („Firmierung/Name steht") ausdrücklich als
-> **„Voraussetzung von S4"** („Liste + Pflichtbausteine gebaut"), also
-> den Namen VOR dem Bau; ebenso der Null-Puffer-Kasten, der
-> ⭐-Kasten zum kritischen Pfad und die Aussage, dass die
-> November-Frist im Kaltkanal keinen Puffer hat. *(Die sieben
-> unberührten einzeln: S4-Zeile · S5-Zeile · Null-Puffer-Kasten ·
-> ⭐-Kasten kritischer Pfad · November-Frist-ohne-Puffer · Pfad (a)
-> oben · der Absatz *Beides hat Außenwirkung — dieser Plan wählt
-> nicht* mit Verweis auf E-A1 in § 8.)* **Die
-> Terminarithmetik des § 3 bricht durch diesen Nachtrag also nicht** —
-> gekippt war die Aussage in § 3.2, nicht die Rechnung in § 3.1.
-> Nachgezogen: Pfad (b) oben. **Zwei Nebenbefunde außerhalb dieses
-> Auftrags** (alternde Relativzeitangaben, nicht „sofort
-> baubar"-abhängig, deshalb hier nur benannt): § 3.1 sagt ***S5 liegt
-> drei Tage nach heute*** und ***das war gestern*** — beide Angaben
-> stammen vom Erstellungsstand 11.08.2026 und sind am 17.08.2026
-> verstrichen; S5 (14.08.) ist vorbei. Träger: Leitsession.
+> **Gegengelesene Terminlogik § 3 — je AUSSAGE, nicht je Kasten**
+> *(Zählschnitt korrigiert nach Gegenlese R17-C: Die Erstfassung zählte
+> *11 Aussagen, 2 gekippt, 7 unberührt, 2 Nebenbefunde* — die Summe
+> stimmte, aber der ⭐-Kasten war **doppelt** gezählt, einmal als
+> unberührt und einmal als Träger eines Nebenbefunds, und der ⚠️-Gate-
+> Kasten fehlte ganz. Eine Summenprobe, die nicht anders ausfallen kann,
+> ist keine Zählung.)*
+>
+> **Prüfgegenstand sind die 12 tragenden Einzelaussagen des § 3.** Ein
+> Kasten kann mehrere tragen — deshalb ist der Nenner an die Aussage
+> gebunden, nicht an den Absatz:
+>
+> | # | Aussage (Fundort in § 3) | Einstufung |
+> |---|---|---|
+> | 1 | S4-Zeile „Liste + Pflichtbausteine gebaut" (§ 3.1) | unberührt |
+> | 2 | S5-Zeile „Firmierung/Name steht (Voraussetzung von S4)" (§ 3.1) | **vereinbar nur auf der Namens-Achse** — s. Scope-Vermerk unten |
+> | 3 | Null-Puffer-Kasten S4/S5 (§ 3.1) | unberührt |
+> | 4 | ⭐-Kasten: kritischer Pfad läuft über den Namensentscheid (§ 3.1) | **vereinbar nur auf der Namens-Achse** — s. unten |
+> | 5 | ⭐-Kasten: *S5 liegt drei Tage nach heute* (§ 3.1) | Nebenbefund (alternde Relativangabe) |
+> | 6 | ⚠️-Gate-Kasten: StB-Termin überfällig, *das war gestern* (§ 3.1) | Nebenbefund (s. Präzisierung unten) |
+> | 7 | *November-Frist hat im Kaltkanal keinen Puffer* (§ 3.1) | unberührt |
+> | 8 | Pfad (a) Warten (§ 3.2, Tabelle) | unberührt in der Reihenfolge, **präzisiert** (notwendig ≠ hinreichend) |
+> | 9 | Pfad (b) Arbeitstitel (§ 3.2, Tabelle) | **nachgezogen** (offene Rechtsfrage) |
+> | 10 | *Beides hat Außenwirkung — dieser Plan wählt nicht*, E-A1 (§ 3.2) | unberührt |
+> | 11 | Absatz *Was NICHT auf S5 wartet … sofort baubar* (§ 3.2) | **gekippt und nachgezogen** |
+> | 12 | Muster-Verweis auf `beleg/baseline-messplan.md` § 5 (§ 3-Kopf) | unberührt |
+>
+> **Zählweg — jede Nummer genau einmal:** 12 Aussagen =
+> **2 gekippt und nachgezogen** (9, 11) · **3 präzisiert** (2, 4, 8) ·
+> **2 Nebenbefunde** (5, 6) · **5 unberührt** (1, 3, 7, 10, 12).
+> Summe 2+3+2+5 = 12. ⚠️ **Die Aussagen 2 und 4 sind bewusst NICHT als
+> „unberührt" geführt** — genau das war der Fehler der Erstfassung.
+> *(Und diese Zeile ist beim zweiten Anlauf entstanden: der erste
+> Korrekturversuch schrieb „6 unberührt" und nannte fünf Nummern. Die
+> Einstufungs-Achse ist die Stelle, an der eine stimmende Summe nichts
+> beweist.)*
+>
+> **Scope-Vermerk zu Aussage 2 und 4 (Aussagen 2/4):** § 3.1 führt S5 als
+> „Voraussetzung von S4" und den Namensentscheid als *den* kritischen
+> Pfad. Auf der **Namens-Achse** ist das richtig und mit der Verschärfung
+> vereinbar. **Als Aussage über den kritischen Pfad insgesamt ist es ein
+> Superlativ ohne Scope:** Nach dem Bestand hat der Pfad **drei** Gates —
+> F-7, O-9 und die sieben Bau-Pflichten —, und das schwerste (O-9) liegt
+> weder beim User noch bei MKT-AKQ, sondern beim anwaltlichen Rat. Ein
+> Leser, der nur § 3.1 liest, entnimmt sonst: Name steht → Bau läuft.
+> **Die Terminrechnung des § 3.1 bricht dadurch nicht** (sie rechnet
+> Dauern, nicht Gates) — aber ihre Aussage über den Engpass ist nur
+> vollständig, wenn O-9 mitgelesen wird.
+>
+> **Präzisierung zu Aussage 6 (StB-Termin):** Der Gate-Kasten stützt sich
+> auf **eine** von **zwei** STATUS-Angaben. STATUS.md nennt den StB-Anruf
+> in Punkt 1 als „User-Handgriff Mo 10.08." **und** in Punkt 0 als
+> „(StB ~KW 34/35)". **KW 34/2026 beginnt am Mo 17.08.2026** (per
+> Werkzeug erhoben, Positivkontrolle: 01.01.2026 = Donnerstag) — die
+> zweite Angabe ist also nicht verstrichen, sondern beginnt heute. Ob
+> STATUS zwei Termine für dieselbe Handlung führt oder zwei verschiedene
+> Handlungen meint, ist **hier nicht entschieden** und gehört zur
+> Leitsession; der Kasten oben ist damit **nicht** einfach „überfällig",
+> sondern **unklar**.
 >
 > **Herkunft dieses Kastens:** R16C-N-1 (Nebenbefund der R16-C-Session),
-> Auftrag Tagesplan 17.08.2026 Strang R17-C Punkt 1. Der Nachzug war in
-> STATUS.md Punkt 0 seit R9 ausdrücklich verlangt („der Akquiseplan ist
-> entsprechend nachzuziehen") und ist mit diesem Kasten erfüllt.
+> Auftrag Tagesplan 17.08.2026 Strang R17-C Punkt 1.
+>
+> ⚠️ **Was dieser Kasten NICHT erfüllt — Reichweite ausdrücklich
+> ausgewiesen** *(Korrektur nach Gegenlese R17-C; die Erstfassung
+> behauptete hier, der STATUS-Nachzug sei *mit diesem Kasten erfüllt*)*:
+> STATUS.md Punkt 0 verlangt seit R9, „der Akquiseplan ist entsprechend
+> nachzuziehen" — **der Plan, nicht dieser Abschnitt.** Nachgezogen sind
+> § 3.2 und § 4.3. **Unverändert tragen die alte Ein-Gate-Logik:**
+> § 6 Terminplan (Zeile *Zielkundenliste Welle 1 nach Regelwerk* nennt in
+> der Spalte *Hängt ab von* **nur** das Regelwerk, während die
+> Brief-Zeile darunter S5 führt · Zeile *D2-/Weg-b-Pflichtbausteine bauen
+> — ohne Namensbindung* pauschal, obwohl für Pflicht 1 die Namensbindung
+> oben festgestellt ist · S5-Zeile *geklärt ODER Entscheid E-A1
+> (Arbeitstitel)* als gleichwertige Alternative, obwohl Pfad (b) oben
+> eine offene Rechtsfrage trägt) · § 7 H-8 (*Er ist die Vorbedingung von
+> S5 und damit des gesamten Terminpfads*) · § 8 E-A1 (*Die Kosten beider
+> Wege stehen in § 3.2* — ohne Verweis auf den Vorbehalt hier).
+> **Diese fünf Stellen liegen außerhalb des Dateiscope von R17-C** (§ 3.2,
+> § 4.3 und die von § 3.2 abhängigen Sätze in § 3) und sind als
+> **offener Posten an die Leitsession** gemeldet — sie sind die
+> Ankunftsstellen, an denen ein Leser den Zeitplan holt.
 
 ---
 

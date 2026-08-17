@@ -673,16 +673,34 @@ Nicht der Kanal, sondern die **Gestaltung** ist die klassische Abmahnfalle — u
 >
 > **Warum sie fiel — zwei Gründe, beide am Rohbeleg nachgemessen
 > (Randnummern generisch aus der amtlichen NRWE-Auszeichnung
-> extrahiert: 273 Absätze, lückenlos 1–273, zwei unabhängige
-> Strukturmerkmale liefern dieselbe Zahl):**
+> extrahiert: 273 **nummerierte** Absätze, lückenlos 1–273, zwei unabhängige
+> Strukturmerkmale liefern dieselbe Zahl — **dazu Rubrum und Tenor, die
+> außerhalb dieser Nummerierung stehen und am Textabzug gelesen werden**
+> *(Prüfraum präzisiert 17.08.2026 nach Prüferbefund H-2: Zwei Aussagen
+> dieses Abschnitts — „vorläufig vollstreckbar" und der Inhalt des
+> Tenors — liegen genau dort und wären vom Randnummern-Prüfraum nicht
+> gedeckt gewesen)*):**
 > 1. **„ausschließlich" ist falsch.** Dasselbe Urteil prüft die
 >    lauterkeitsrechtliche Schiene durch und bejaht sie **zweifach**
 >    (Rn. 136/137/147, s. Neufassung und Teil B).
-> 2. **„Art. 12–14, 21" ist zu weit für den Tenor.** Der Tenor
->    untersagt unter Nr. 4 die unterlassene **Art.-14**-Information;
->    Art. 21 Abs. 4 trägt die Art.-6-Prüfung in Rn. 85, steht aber
->    nicht im Tenor (Vorbehalt aus `akquise/interessenabwaegung-o8.md`
->    § 11.2 Nr. 3, dort seit R9 unerledigt — hiermit eingelöst).
+> 2. **„Art. 12–14, 21" ist zu weit für den Tenor.** Art. 21 Abs. 4
+>    trägt die Art.-6-Prüfung in Rn. 85, steht aber nicht im Tenor
+>    (Vorbehalt aus `akquise/interessenabwaegung-o8.md` § 11.2 Nr. 3,
+>    dort seit R9 unerledigt — hiermit eingelöst).
+>    ⚠️ **Präzisierung 17.08.2026 nach Prüferbefund M-4 — hier stand
+>    „der Tenor untersagt unter Nr. 4 die unterlassene
+>    Art.-14-Information", und das liest nur die Artikelnummer, nicht
+>    den Verbotsinhalt.** Tenoriert ist unter Nr. 4 die Verletzung der
+>    **Monatsfrist** („nicht innerhalb einer angemessenen Frist,
+>    spätestens innerhalb eines Monats", also Art. 14 Abs. 3 **lit. a**)
+>    und ausdrücklich nur für Daten, die „**bei einem Dritten** erhoben"
+>    wurden. **Die Pflicht, auf der unser Bestand tragend aufbaut —
+>    „spätestens mit diesem Schreiben" (Art. 14 Abs. 3 lit. b, Rn. 85)
+>    und die Quellenangabe IM Brief (Rn. 115) — folgt aus den GRÜNDEN,
+>    nicht aus dem Tenor.** Das schwächt sie nicht (Gründe sind Gründe),
+>    aber wer „tenoriert" schreibt, schreibt zu stark. Das Verhältnis
+>    lit. a / lit. b für unseren Fall ist als Frage im Anwalts-Briefing
+>    ergänzt.
 >
 > ⚠️ **Was die Neufassung NICHT repariert:** Ob und wie diese Schienen
 > auf eine **reine B2B**-Aussendung durchschlagen, sagt das Urteil
@@ -691,19 +709,56 @@ Nicht der Kanal, sondern die **Gestaltung** ist die klassische Abmahnfalle — u
 
 **LG Düsseldorf, Urt. v. 06.02.2026 – 38 O 243/23** (von der Leit-Session **selbst** am amtlichen NRWE im Volltext gegengelesen, ① A) hat eine **Briefpost**-Werbesendung untersagt. **Materielle Anknüpfung ist die DSGVO, Anspruchsgrundlage das UWG** — der Kläger war ein in die Liste qualifizierter Einrichtungen nach § 4 UKlaG eingetragener Verband (Rn. 2, 34, 64), klagebefugt nach § 8 Abs. 3 Nr. 3 UWG. Der Aufbau des Urteils in drei Schritten, je mit Randnummer:
 
+> 🔧 *(Tabelle korrigiert 17.08.2026 nach den Prüferbefunden M-2, M-3
+> und H-1. **Die Erstfassung führte die Irreführung als eigenständigen
+> dritten Schritt „unabhängig davon"** — das kehrt die Begründung des
+> Urteils um: Rn. 88 ist die Gliederungsziffer **cc)** INNERHALB der
+> lit.-f-Prüfung, die Unlauterkeit ist dort die **Prämisse** des
+> zweiten DSGVO-Absagegrundes, keine zusätzliche Schiene. Außerdem
+> übersprang eine Ellipse in Zeile 2 eine Satzgrenze samt dem
+> Vorbehalt „Bezogen auf … Antrag I", und Zeile 1 schrieb die
+> Artikelaufzählung Rn. 84 zu, die sie nicht nennt.)*
+
 | Schritt | Wo | Was das Gericht feststellt |
 |---|---|---|
-| **1. DSGVO-Verstoß** | Rn. 84–88, 125 | Die Voraussetzungen von Art. 6 Abs. 1 Unterabs. 1 lit. f DSGVO liegen nicht vor (Rn. 84: Verletzung der Artt. 12, 14, 21 DSGVO; Rn. 88: das Werbeinteresse ist nicht rechtmäßig). Rn. 125: das Verhalten liegt „in der gegen Artt. 5 Abs. 1 Buchstabe a, 6 Abs. 1 Unterabs. 1 DSGVO verstoßenden und deshalb rechtswidrigen Verarbeitung der Daten des Verbrauchers" |
-| **2. Zugleich unlauter — Doppelbegründung** | Rn. 136, 137, 147 | Rn. 136: „Es kann offenbleiben, ob im Allgemeinen in erster Linie § 3a UWG … heranzuziehen ist, oder § 3 Abs. 2 UWG … liegen **sowohl** die Voraussetzungen von § 3a UWG vor (dazu aa) **als auch** diejenigen von § 3 Abs. 2 UWG (dazu bb)." Rn. 137 bejaht § 3a UWG, Rn. 147 bejaht § 3 Abs. 2 UWG — **beide Schienen tragen, keine ist die gewählte** (Einzelheiten in Teil B) |
-| **3. Zusätzlich Irreführung** | Rn. 88–120 | Unabhängig davon ist der Versand des Schreibens selbst „gemäß § 3 Abs. 1 UWG unzulässig, weil sie gemäß §§ 5 Abs. 1 und Abs. 2, 5a Abs. 1 bis Abs. 3 UWG unlauter ist" (Rn. 88) — Verschleierung des Anbieterwechsels |
+| **1. DSGVO-Verstoß, erster Absagegrund** | Rn. 84/85, 125 | Die Voraussetzungen von Art. 6 Abs. 1 Unterabs. 1 lit. f DSGVO sind „schon deshalb nicht erfüllt" (Rn. 84), weil die Beklagte ihre übrigen DSGVO-Pflichten verletzt hat — die Artikel selbst nennt **Rn. 85** (Artt. 12, 14 Abs. 3 lit. b, 21 Abs. 4), zusammengefasst in Rn. 86 als „Verstößen gegen Artt. 12,14 und 21 DSGVO". Rn. 125: das Verhalten liegt „in der gegen Artt. 5 Abs. 1 Buchstabe a, 6 Abs. 1 Unterabs. 1 DSGVO verstoßenden und deshalb rechtswidrigen Verarbeitung der Daten des Verbrauchers" |
+| **2. DSGVO-Verstoß, zweiter Absagegrund — und er ist lauterkeitsrechtlich** | Rn. 88 (Ziffer cc), gestützt auf Rn. 89–120 | ⚠️ **Keine unabhängige dritte Schiene, sondern eine Stufe INNERHALB derselben lit.-f-Prüfung:** „**Darüber hinaus** liegen die Voraussetzungen von Art. 6 Abs. 1 Unterabs. 1 Buchstabe f DSGVO deshalb nicht vor, weil das … verfolgte Interesse **nicht rechtmäßig** ist. Die … Werbung ist gemäß § 3 Abs. 1 UWG unzulässig, weil sie gemäß §§ 5 Abs. 1 und Abs. 2, 5a Abs. 1 bis Abs. 3 UWG unlauter ist" (Rn. 88). Die Kette lautet: **unlauter → Interesse nicht rechtmäßig → lit. f scheitert.** ⭐ **Folge, die man sehen muss:** Trägt die §§-5/5a-Bewertung in einer reinen B2B-Aussendung nicht, fällt **dieser** Absagegrund weg — der aus Rn. 84/85 bliebe |
+| **3. Der DSGVO-Verstoß ist zugleich unlauter — Doppelbegründung** | Rn. 136, 137, 147 | Rn. 136: „Es kann offenbleiben, ob im Allgemeinen in erster Linie § 3a UWG … heranzuziehen ist, oder § 3 Abs. 2 UWG, der auf einer unionsrechtlichen Grundlage beruht. **Bezogen auf die von dem Kläger mit seinem Antrag I angegriffenen Verstöße** liegen **sowohl** die Voraussetzungen von § 3a UWG vor (dazu aa) **als auch** diejenigen von § 3 Abs. 2 UWG (dazu bb)." Rn. 137 bejaht § 3a UWG, Rn. 147 bejaht § 3 Abs. 2 UWG — **beide Schienen tragen, keine ist die gewählte.** ⚠️ **Geltungsgrenze im Zitat:** ausdrücklich nur für **Antrag I**; der Tenor umfasst fünf Verbote (Einzelheiten in Teil B) |
 
-**§ 7 UWG spielt in diesem Urteil keine Rolle** — aber „kein § 7 UWG" ist nicht „kein UWG". **Eigene Kontrollmessung: „§ 7 UWG" kommt im gesamten Urteil 0-mal vor**, bei 109 Treffern für „DSGVO". *(Zählweg — nachgetragen 13.08.2026, R14-B, Befund R9A-N-13: `grep -o "DSGVO" <datei> | wc -l` = **109**; case-insensitive derselbe Wert, die Zahl ist also nicht case-abhängig. Für das Negativ: `grep -o "§ 7 UWG" <datei> | wc -l` = **0** bei case-**sensitiver** Positivkontrolle „Werbung" = **14** im selben Lauf, dazu die Gegenprobe `grep -o "§ 7"` = **1** (einziger Treffer: „§ 709 S. 1 und S. 2 ZPO", Teilwort) — der Suchweg findet Treffer dieser Form, das Negativ ist echt. *(⚠️ Korrigiert 13.08.2026 nach Prüferbefund PB-4: Hier stand „Positivkontrolle ‚Werbung' = 35 im selben Lauf". Die 35 ist nur **case-insensitiv** erreichbar; case-sensitiv sind es 14. Eine case-insensitive Kontrolle beglaubigt einen case-sensitiven Nulltreffer nicht — die Kontrolle muss die **Suchmechanik** des Negativs spiegeln.)* Gezählt werden Fundstellen, nicht Zeilen — `grep -c` wäre hier falsch. Prüfgegenstand ist der Textabzug `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt` (git-ignoriert); der HTML-Abzug derselben Beschaffung liefert dieselben Werte. Nachgemessen 13.08.2026.)* Die Beklagte war daran gescheitert, dass sie
+**§ 7 UWG spielt in diesem Urteil keine Rolle** — aber „kein § 7 UWG" ist nicht „kein UWG". **Eigene Kontrollmessung: „§ 7 UWG" kommt im gesamten Urteil 0-mal vor**, bei 109 Treffern für „DSGVO". *(Zählweg — nachgetragen 13.08.2026, R14-B, Befund R9A-N-13: `grep -o "DSGVO" <datei> | wc -l` = **109**; case-insensitive derselbe Wert, die Zahl ist also nicht case-abhängig. Für das Negativ: `grep -o "§ 7 UWG" <datei> | wc -l` = **0** bei case-**sensitiver** Positivkontrolle „Werbung" = **14** im selben Lauf, dazu die Gegenprobe `grep -o "§ 7"` = **1** (einziger Treffer: „§ 709 S. 1 und S. 2 ZPO", Teilwort) — der Suchweg findet Treffer dieser Form, das Negativ ist echt. *(⚠️ Korrigiert 13.08.2026 nach Prüferbefund PB-4: Hier stand „Positivkontrolle ‚Werbung' = 35 im selben Lauf". Die 35 ist nur **case-insensitiv** erreichbar; case-sensitiv sind es 14. Eine case-insensitive Kontrolle beglaubigt einen case-sensitiven Nulltreffer nicht — die Kontrolle muss die **Suchmechanik** des Negativs spiegeln.)* Gezählt werden Fundstellen, nicht Zeilen — `grep -c` wäre hier falsch. Prüfgegenstand ist der Textabzug `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt` (git-ignoriert). Nachgemessen 13.08.2026.)*
+
+> ⚠️ **KORREKTUR 17.08.2026 (R16-A) nach Prüferbefund M-7 — hier stand:
+> „der HTML-Abzug derselben Beschaffung liefert dieselben Werte". Für
+> §-Muster ist das messbar falsch, und es trifft ausgerechnet die
+> Positivkontrolle.** Der HTML-Abzug trägt **1.359** geschützte
+> Leerzeichen (U+00A0), im Textabzug sind es **0** — im HTML steht hinter
+> jedem `§` ein NBSP. Gemessen im selben Lauf, `.txt` / `.html`:
+>
+> | Muster | `.txt` | `.html` |
+> |---|---:|---:|
+> | `§ 7` (Gegenprobe des Negativs) | **1** | **0** |
+> | `§ 3a UWG` (§-Positivkontrolle) | **21** | **0** |
+> | `DSGVO` | 109 | 109 |
+> | `Werbung` (cs) | 14 | 14 |
+>
+> **Folge:** Über den HTML-Abzug liefert *jedes* §-Phrasenmuster mit
+> gewöhnlichem Leerzeichen 0 — auch die beiden Kontrollen, die das
+> Negativ „§ 7 UWG = 0" überhaupt erst tragen. Dort wäre es ein
+> **Werkzeugartefakt ohne greifende Positivkontrolle**. Die
+> Buchstaben-Zahlen stimmen dagegen in beiden Abzügen überein — genau
+> das Muster aus L-43: reine Buchstaben-Kontrollen laufen sauber durch,
+> während die Zeichenklasse `§` still ausfällt. **Das Sachergebnis
+> bleibt:** Am `.txt` ist das Negativ echt und mit greifender
+> §-Positivkontrolle belegt. Falsch war nur die Gleichwertigkeits-Aussage
+> über die Abzüge. *(Wer aus dem HTML arbeitet — wie die
+> Randnummern-Extraktion dieser Session —, muss NBSP vor der Suche
+> normalisieren; dann stimmen die Werte wieder.)* Die Beklagte war daran gescheitert, dass sie
 
 > „es versäumt [hat], den Adressaten des Schreibens **spätestens mit diesem Schreiben** (wie es gemäß Art. 14 Abs. 3 Buchst. b DSGVO geboten war) die … Informationen … zur Verfügung zu stellen. Ferner hat sie es unterlassen, den Adressaten … **spätestens mit diesem Schreiben ausdrücklich in einer verständlichen und von anderen Informationen getrennten Form** darauf hinzuweisen, dass er gemäß Art. 21 Abs. 2 DSGVO das Recht hat, jederzeit Widerspruch … einzulegen."
 
 Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost „gilt **nur, wenn die Briefwerbung spätestens nach dem Öffnen des Briefs sofort und unmissverständlich erkennbar ist**".
 
-⚠️ **Reichweite ehrlich begrenzt — meine eigene Prüfung:** Der Tenor betrifft ausdrücklich **Verbraucher** („Verbraucher zum Zwecke des Providerwechsels … postalisch anzuschreiben"); „Verbraucher" kommt 199-mal vor. *(Zählweg — nachgetragen 13.08.2026, R14-B, Befund R9A-N-13: `grep -o -i "Verbraucher" <datei> | wc -l` = **199**; **case-sensitiv nur 187** — die Differenz von 12 sind kleingeschriebene Fundstellen. Die Zahl zählt **Teilwort**-Treffer, Komposita eingeschlossen (u. a. „Verbrauchers" 33 · „Verbrauchern" 22 · „Verbraucherzentrale" 3 · „Verbraucherschutzrecht" 3). Datei wie bei der DSGVO-Zahl oben; nachgemessen 13.08.2026.)* **Es ist kein B2B-Präzedenzfall**, und der Sachverhalt ist telekommunikationsrechtlich eingefärbt (beigefügtes Auftragsformular, Pflichten aus der Richtlinie (EU) 2018/1972). Die tragende Argumentation zu Art. 14 Abs. 3 lit. b und Art. 21 Abs. 4 DSGVO knüpft aber allein an die Eigenschaft als **betroffene Person** an — sie trägt deshalb für jeden namentlich angeschriebenen Geschäftsführer genauso. Instanzgericht.
+⚠️ **Reichweite ehrlich begrenzt — meine eigene Prüfung:** Der Tenor betrifft ausdrücklich **Verbraucher** („Verbraucher zum Zwecke des Providerwechsels … postalisch anzuschreiben"); „Verbraucher" kommt 199-mal vor. *(Zählweg — nachgetragen 13.08.2026, R14-B, Befund R9A-N-13: `grep -o -i "Verbraucher" <datei> | wc -l` = **199**; **case-sensitiv nur 187** — die Differenz von 12 sind kleingeschriebene Fundstellen. Die Zahl zählt **Teilwort**-Treffer, Komposita eingeschlossen (u. a. „Verbrauchers" 33 · „Verbrauchern" 22 · „Verbraucherzentrale" 3 · „Verbraucherschutzrecht" 3). Datei wie bei der DSGVO-Zahl oben; nachgemessen 13.08.2026.)* **Es ist kein B2B-Präzedenzfall**, und der Sachverhalt ist telekommunikationsrechtlich eingefärbt (beigefügtes Auftragsformular, Pflichten aus der Richtlinie (EU) 2018/1972). Die tragende Argumentation zu Art. 14 Abs. 3 lit. b und Art. 21 Abs. 4 DSGVO knüpft aber allein an die Eigenschaft als **betroffene Person** an — sie trägt deshalb für jeden namentlich angeschriebenen Geschäftsführer genauso. Instanzgericht, Rechtskraft ungeklärt (s. Kasten).
 
 > ⚠️ **Präzisierung 17.08.2026 (R16-A) — Rechtskraft.** Hier stand
 > „Rechtskraft nicht geprüft"; Teil B hatte die Präzisierung als
@@ -711,13 +766,27 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > „Belegkraft des Belegs selbst"). **Sie lautet:** Es ist ein Urteil
 > **erster Instanz**, „vorläufig vollstreckbar" (Tenor). Ein
 > Rechtsmittelhinweis oder eine Rechtskraftangabe **steht nicht im
-> Text** — Suchlauf `berufung|rechtsmittel|rechtskräftig` = 0 Treffer
-> (gemessen in `akquise/interessenabwaegung-o8.md` § 6.2). **Das ist
-> „nicht prüfbar", kein Negativbefund: Die Rechtskraft ist ungeklärt,
-> nicht verneint** — und ein Nulltreffer im Urteilstext könnte sie
-> ohnehin nicht klären, weil ein Urteil seine eigene spätere
-> Rechtskraft nicht dokumentiert. Der Posten aus Teil B ist damit
-> erfüllt.
+> Text** — Suchlauf `berufung|rechtsmittel|rechtskräftig`
+> case-insensitiv je **0** Treffer, **mit Positivkontrollen im selben
+> Lauf: „Urteil" = 118 · „Kammer" = 18 · „Beschwerde" (ci) = 6**
+> *(Kontrollzahlen ergänzt 17.08.2026 nach Prüferbefund H-5 — der Satz
+> delegierte den Zählweg vorher an `akquise/interessenabwaegung-o8.md`
+> § 6.2, ohne eine eigene Kontrolle zu nennen; eine delegierte Zahl
+> ohne Zählweg ist nicht übernehmbar, L-15).* **Das ist „nicht
+> prüfbar", kein Negativbefund: Die Rechtskraft ist ungeklärt, nicht
+> verneint** — und ein Nulltreffer im Urteilstext könnte sie ohnehin
+> nicht klären, weil ein Urteil seine eigene spätere Rechtskraft nicht
+> dokumentiert.
+>
+> ⭐ **Zur Belegkraft gehört noch eine Angabe, die hier fehlte**
+> *(ergänzt nach Prüferbefund H-9)*: Der Verband ist **nicht
+> vollständig durchgedrungen.** Der Tenor schließt mit „**Im Übrigen
+> wird die Klage abgewiesen**", die Kosten tragen „**der Kläger zu
+> einem Fünftel** und die Beklagte zu vier Fünfteln". Fünf Verbote
+> wurden ausgesprochen, ein Teil der Anträge blieb erfolglos. Für ein
+> Dokument, das dieses Urteil als Warnung führt, gehört das dazu.
+>
+> Der Posten aus Teil B ist damit erfüllt.
 
 > 🔴 **Nachtrag 17.08.2026 (R16-A), Befund R15A-N-1 (Teil 2) —
 > Rn. 111: Das Berufungsgericht sieht es offenbar anders. Diese Stelle
@@ -742,9 +811,10 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 >
 > | Aussage | Belegstufe |
 > |---|---|
-> | Es gibt eine abweichende Auffassung eines Obergerichts zu genau diesem Werbeschreiben | ① A — steht wörtlich in Rn. 111 |
+> | Es gibt eine abweichende Auffassung eines Obergerichts, an der die Kammer sich nicht hindern lässt | ① A — steht wörtlich in Rn. 111 |
+> | **Sie betraf dasselbe Werbeschreiben** | ⚠️ **eigene ABLEITUNG, nicht belegt** *(korrigiert 17.08.2026 nach Prüferbefund M-1 — hier stand „zu genau diesem Werbeschreiben" mit Belegstufe ① A).* Rn. 111 sagt nur, die Kammer halte an ihrer Beurteilung fest „auch in Ansehung der abweichenden Auffassung". **Was Gegenstand des Verfahrens 38 O 17/22 war, teilt das Urteil nicht mit** |
 > | Sie ist **nicht tragend** („beiläufig … nicht tragenden Erwägung") und stammt aus einem **Beschluss**, teils sogar nur aus einem mündlich mitgeteilten „vorläufigen Beratungsergebnis" **nach Angaben der Beklagten** | ① A — steht wörtlich in Rn. 111 |
-> | Das Obergericht ist das **OLG Düsseldorf** und damit das für dieses Urteil **zuständige Berufungsgericht** | ⚠️ **eigene ABLEITUNG, keine Quellenaussage.** Rn. 111 sagt nur „von dem Oberlandesgericht". Die Zuordnung stützt sich auf das Aktenzeichen-Muster: Rn. 45 desselben Urteils nennt „Landgericht Düsseldorf 38 O 245/23 = **Oberlandesgericht Düsseldorf 20 W 87/23**" — derselbe 20er-Senat, dieselbe Kammer 38 O. **Zählweg:** `grep -oE "Oberlandesgericht[a-zä]* Düsseldorf"` = **5** Fundstellen in **4** Randnummern (Rn. 43 · 45 ×2 · 46 · 47) — **keine davon in Rn. 111.** ⚠️ Die Flexionsform gehört ins Muster: Ohne sie meldet der Lauf **1** statt 5 (nur der Nominativ in Rn. 45 trifft), und `grep -c` meldete sogar nur die Zeilenzahl. Positivkontrolle derselben Mechanik im selben Lauf: `Oberlandesgericht[a-zä]* Stuttgart` = 1 (Genitiv, trifft) · Gegenkontrolle `Oberlandesgericht Köln` = 0. Gegenrichtung: `"dem Oberlandesgericht"` ohne Ortsangabe = **2**, eine davon ist genau die Stelle in Rn. 111 |
+> | Das Obergericht ist das **OLG Düsseldorf** und damit das für dieses Urteil **zuständige Berufungsgericht** | ⚠️ **eigene ABLEITUNG, keine Quellenaussage.** Rn. 111 sagt nur „von dem Oberlandesgericht". Die Zuordnung stützt sich auf **zwei unabhängige Merkmale** *(das zweite ergänzt 17.08.2026 nach Prüferbefund H-4; das erste präzisiert nach H-3)*: **(1) Aktenzeichen-Muster** — Rn. 45 nennt „Landgericht Düsseldorf 38 O 245/23 = **Oberlandesgericht Düsseldorf 20 W 87/23**", derselbe 20er-Senat für Beschwerden gegen dieselbe Kammer 38 O. ⚠️ Rn. 45 ist dabei selbst ein **Zitat** (aus LG Düsseldorf, Urt. v. 09.02.2024 – 38 O 271/23, eingeleitet in Rn. 44), nicht Text der vorliegenden Entscheidung. **(2) Dieselbe Zuschreibungsfigur an anderer Stelle** — Rn. 47 nennt „den von der Beklagten in ihrem Schriftsatz vom 5. November 2025 angeführten **Äußerungen des Oberlandesgerichts Düsseldorf**"; dort beruft sich dieselbe Beklagte in demselben Rechtsstreit auf dasselbe Gericht wie in Rn. 111. Das ist die engere Brücke. **Zählweg:** `grep -oE "Oberlandesgericht[a-zä]* Düsseldorf"` = **5** Fundstellen in **4** Randnummern (Rn. 43 · 45 ×2 · 46 · 47) — **keine davon in Rn. 111.** ⚠️ Die Flexionsform gehört ins Muster: Ohne sie meldet der Lauf **1** statt 5 (nur der Nominativ in Rn. 45 trifft), und `grep -c` meldete sogar nur die Zeilenzahl. Positivkontrolle derselben Mechanik im selben Lauf: `Oberlandesgericht[a-zä]* Stuttgart` = 1 (Genitiv, trifft) · Gegenkontrolle `Oberlandesgericht Köln` = 0. Gegenrichtung: `"dem Oberlandesgericht"` ohne Ortsangabe = **2**, eine davon ist genau die Stelle in Rn. 111 |
 > | **Den Beschluss 20 W 37/24 haben wir nicht beschafft** — sein Inhalt ist nur über die Wiedergabe des LG bekannt (Belegstufe ③, Zitat zweiter Hand) | ① A für die Nicht-Beschaffung, ③ für den Inhalt |
 >
 > **Folge für die A7-Einstufung — und was hier ausdrücklich NICHT
@@ -752,11 +822,45 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > unverändert; sie beruht auf § 7 UWG und dem BGH-Leitsatz zur
 > geringen Belästigungswirkung, nicht auf diesem Urteil. Was sich
 > ändert, ist die **Belegkraft des Düsseldorfer Urteils als Warnung**:
-> Es ist ein **erstinstanzliches** Urteil, dessen **Berufungsgericht
-> in derselben Sache erkennbar zu einer anderen Beurteilung neigt** —
-> und dasselbe LG weicht von der „ständigen Rechtsprechung" desselben
-> OLG auch an anderer Stelle ausdrücklich ab (Rn. 43, TKG/UWG). **Der
-> Eintrag für die Rechtslage ist damit „streitig", nicht „geklärt"**
+> Es ist ein **erstinstanzliches** Urteil, und das übergeordnete
+> Oberlandesgericht hat sich **nach den Angaben der dortigen Beklagten**
+> abweichend geäußert — beiläufig, in einer nicht tragenden Erwägung
+> **eines anderen Verfahrens** (20 W 37/24 = LG Düsseldorf 38 O 17/22).
+>
+> > 🔧 **REPARATUR 17.08.2026 (R16-A), Prüferbefunde S-1 und S-2 —
+> > dieser Absatz war in seiner Erstfassung an zwei Stellen schärfer als
+> > die Quelle. Beide Vorfassungen wörtlich:**
+> >
+> > 1. „*Es ist ein erstinstanzliches Urteil, dessen **Berufungsgericht
+> >    in derselben Sache erkennbar** zu einer anderen Beurteilung
+> >    neigt*". **Zwei Fehler:** (a) **Nicht dieselbe Sache** — Rn. 111
+> >    verortet die Äußerung im Beschluss 20 W 37/24 „(= Landgericht
+> >    Düsseldorf **38 O 17/22**)", also einem anderen Verfahren als dem
+> >    hiesigen 38 O 243/23. Ob es dasselbe Werbeschreiben betraf, sagt
+> >    das Urteil nicht. (b) **„erkennbar" gegen „soll"** — die Quelle
+> >    schreibt „mitgeteilt worden sein **soll**"; sie referiert
+> >    Parteivortrag und macht ihn sich nicht zu eigen.
+> > 2. „*und dasselbe LG **weicht** von der ‚ständigen Rechtsprechung'
+> >    desselben OLG auch an anderer Stelle **ausdrücklich ab**
+> >    (Rn. 43, TKG/UWG)*". **Gestrichen, nicht abgeschwächt.** Rn. 43
+> >    lautet: „Bei dieser Sichtweise **verbleibt** die Kammer auch in
+> >    Ansehung der **von der Beklagten angeführten** ‚ständigen
+> >    Rechtsprechung' des Oberlandesgerichts Düsseldorf, der zufolge
+> >    ‚das TKG lex specialis zum UWG' sei." Zählweg: `verbleibt` = 1
+> >    (genau diese Stelle), `weicht` in Rn. 43 = 0. Die Kammer
+> >    **verbleibt** bei ihrer Sichtweise — das ist keine
+> >    Abweichungs-Feststellung; und die „ständige Rechtsprechung" ist
+> >    dort in Anführungszeichen als **Vortrag der Beklagten** geführt,
+> >    unsere Fassung machte daraus eine Bestandsaussage über das OLG.
+> >
+> > **Warum das hier steht:** Es ist dieselbe Fehlerklasse, die diese
+> > Session 90 Zeilen weiter oben als R15A-N-1 repariert hat („weicht
+> > ab" schärfer als die konditionale Quelle) — im selben Commit erneut
+> > begangen, im **Fließtext** unter einer Belegstufen-Tabelle, die es
+> > richtig machte. Der Zitat-Wächter meldete 17/17: **er prüft, was als
+> > Zitat markiert ist, nicht den Satz daneben** (L-27).
+>
+> **Der Eintrag für die Rechtslage ist damit „streitig", nicht „geklärt"**
 > — und zwar in **beide** Richtungen: Wer aus dem Urteil ableitet, wir
 > dürften nicht, überdehnt es; wer aus Rn. 111 ableitet, wir dürften,
 > überdehnt eine nicht tragende Erwägung aus einem ungelesenen
@@ -1018,12 +1122,15 @@ ist:**
   > des Gerichts, und dieses Dokument trennt beides.
   > **⚠️ Und die Gegenrichtung, die dabei fast untergegangen wäre:**
   > Dieselben Fundstellen zeigen, dass **Mitbewerberinnen gegen dieselbe
-  > Beklagte sehr wohl vorgegangen sind** — Rn. 89 nennt „das … von
-  > einer **Mitbewerberin** der Beklagten gegen die Beklagte geführte[…]
-  > einstweilige[…] Verfügungsverfahren 38 O 88/23", Rn. 44 ein
-  > weiteres, Rn. 124 „mehrere[…] gegen die Beklagte geführte[…]
-  > Verfügungsverfahren", in denen eine Mitbewerberin Unterlagen
-  > vorlegte. **Für die Risikolage ist das die wichtigere Aussage als
+  > Beklagte sehr wohl vorgegangen sind** — Rn. 89 nennt das „von einer
+  > **Mitbewerberin** der Beklagten gegen die Beklagte geführten
+  > einstweiligen Verfügungsverfahren 38 O 88/23", Rn. 44 ein weiteres,
+  > Rn. 124 „mehreren gegen die Beklagte geführten Verfügungsverfahren",
+  > in denen eine Mitbewerberin Unterlagen vorlegte. *(Zitate hier im
+  > Kasus des Originals wiedergegeben; die Erstfassung hatte
+  > Flexionsänderungen mit `[…]` markiert — das Zeichen steht für
+  > Auslassungen, nicht für Beugung, und ein maschineller Zitatabgleich
+  > behandelt beides gleich. Korrigiert 17.08.2026, Prüferbefund H-7.)* **Für die Risikolage ist das die wichtigere Aussage als
   > die Verbandseigenschaft des hiesigen Klägers:** Der Sachverhalt hat
   > Mitbewerber-Angriffe tatsächlich ausgelöst, sie liefen nur in
   > anderen Verfahren.
@@ -1053,14 +1160,37 @@ ist:**
   > | Schiene | Was an ihr B2B-abhängig ist | Richtung |
   > |---|---|---|
   > | **§ 3 Abs. 2 UWG** (Rn. 147) | Der Tatbestand nennt selbst „geschäftliche Handlungen, die sich **an Verbraucher richten oder diese erreichen**" (Rn. 148, Gesetzeswortlaut) | Die **Adressatengrenze steht im Tatbestand** — bei einer reinen B2B-Aussendung stellt sich die Anwendungsfrage unmittelbar |
-  > | **§ 3a UWG** (Rn. 137) | Die Grenze aus Rn. 129 ist die **UGPRL-Vollharmonisierung**, die gerade nur den **B2C**-Bereich erfasst; das Gericht löst sie über Art. 3 Abs. 4 UGPRL für eine „auch Verbraucher erreichende" Praxis (Rn. 130) | **Umgekehrt:** Die Sperre, die § 3a UWG hier begründungsbedürftig macht, greift bei B2B womöglich gar nicht erst — Rn. 129 nennt „allein das Verhältnis zwischen Mittbewerbern betreffende[…] Regelungen" ausdrücklich als Beispiel für das, was **außerhalb** der UGPRL liegt |
+  > | **§ 3a UWG** — Anwendbarkeit (Rn. 129/130) | Die Grenze ist die **UGPRL-Vollharmonisierung**, die gerade nur den **B2C**-Bereich erfasst; das Gericht löst sie über Art. 3 Abs. 4 UGPRL für eine „auch Verbraucher erreichende" Praxis (Rn. 130) | **Umgekehrt:** Die Sperre, die § 3a UWG hier begründungsbedürftig macht, greift bei B2B womöglich gar nicht erst — Rn. 129 nennt „allein das Verhältnis zwischen Mittbewerbern betreffende[…] Regelungen" ausdrücklich als Beispiel für das, was **außerhalb** der UGPRL liegt |
+  > | **§ 3a UWG** — Marktverhaltensregelung (Rn. 141/142) *(ergänzt 17.08.2026, Prüferbefund M-6)* | Das Gericht bejaht sie, bindet sie im selben Absatz aber an die **Verbrauchereigenschaft** zurück: die Grenzen „bezwecken … auch den Schutz der betroffenen Person **in ihrer Stellung als Marktteilnehmer**" | **Dieselbe Richtung wie § 3 Abs. 2 UWG** — nicht die entgegengesetzte. Die zwei Achsen derselben Schiene zeigen also selbst nicht gleich |
+  > | **§ 3a UWG** — Spürbarkeit (Rn. 143–146) *(ergänzt 17.08.2026, Prüferbefund M-6)* | Eigenständiges Tatbestandsmerkmal. Das Gericht stützt es u. a. darauf, dass „eine **massenhaft verbreitete** Werbeaussendung betroffen ist" (Rn. 146); Rn. 110 misst „millionenfach" am Wortsinn ab **1.000.000 Briefen** | ⭐ **Für uns die praktisch nächstliegende Achse — und sie war im ganzen Bestand nirgends gestellt.** Unsere Planung rechnet mit Wellen im **dreistelligen** Bereich. Ob die Spürbarkeitsschwelle dort erreicht wird, ist offen und als Frage ans Briefing gegeben |
   >
   > **Was daraus NICHT folgt:** weder „bei B2B greift keine der beiden
   > Schienen" noch „bei B2B greift § 3a erst recht". Beides wären
   > Rechtsbewertungen, die dieses Dokument nicht vornimmt —
   > **ausdrücklich auch nicht die bequemere.** Der Punkt ist allein,
-  > dass die B2B-Frage **je Schiene getrennt** zu beantworten ist und
-  > die Antworten in **entgegengesetzte** Richtungen zeigen können.
+  > dass die B2B-Frage **je Schiene UND je Tatbestandsmerkmal** getrennt
+  > zu beantworten ist. *(🔧 Korrigiert 17.08.2026 nach Prüferbefund
+  > M-6: Hier stand „je Schiene getrennt … und die Antworten zeigen in
+  > entgegengesetzte Richtungen". Das war zu grob — schon **innerhalb**
+  > der § 3a-Schiene zeigen die Achsen Anwendbarkeit und
+  > Marktverhaltensregelung nicht in dieselbe Richtung, und die
+  > Spürbarkeit ist eine dritte, davon unabhängige Frage. Die
+  > Erstfassung nannte nur die für uns günstigste der drei.)*
+  >
+  > ⚠️ **Abdeckungs-Lücke, gemessen und ehrlich benannt** *(ausgelöst
+  > durch Prüferbefund M-6, nach den Ergänzungen dieser Runde neu
+  > erhoben)*: Dieses Dokument nennt aus dem Urteilsblock 79–155
+  > jetzt **65 von 77** Randnummern. **Nicht genannt bleiben zwölf:
+  > 121, 122, 123, 126, 138, 139, 140, 151, 152, 153, 154, 155** —
+  > darunter die Anwendung des § 3 Abs. 2 UWG auf den Fall (151 ff.)
+  > und die Anwendbarkeitsprüfung des § 3a UWG (138–140). **Das ist
+  > keine Entwarnung, sondern eine Nacharbeits-Liste.**
+  > *(Zählweg: Muster `Rn\.\s*N` einschließlich der Ketten- und
+  > Spannenformen `Rn. 141/142`, `Rn. 143–146`, `Rn. 136, 137, 147`.
+  > ⚠️ **Ein Muster nur auf die Grundform meldete 13 statt 12 fehlende
+  > Randnummern** — es zählte „Rn. 141/142" als bloße 141. Vier
+  > Positivkontrollen des Zählwegs mit bekanntem Sollwert laufen im
+  > selben Lauf mit; Gegenkontrolle `Rn. 999` = 0.)*
   > **Frage an den Anwalt: `handel/anwalts-briefing-2026-08.md`
   > Frage 3** (§ 3a UWG in einer reinen B2B-Aussendung).
 - ⚠️ **Nicht erhoben:** die Kostenfolge dieser Schiene. § 13 Abs. 4 Nr. 2
@@ -1396,6 +1526,19 @@ Diese Punkte haben Außenwirkung und werden nicht von der Session festgelegt (CL
 >   GRUR-Prax 2025, 152: ob die Verletzung „nachgelagerter"
 >   Informationspflichten die Datenverarbeitung rückwirkend
 >   rechtswidrig macht) — und beantwortet ihn bereits.
+> - ⚠️ **Rn. 86 verschärft die Frage zusätzlich, und das fehlte hier**
+>   *(ergänzt 17.08.2026 nach Prüferbefund M-5)*: Dieselbe Randnummer
+>   ordnet „die Entgegennahme der von ihr ‚angekauften' Adressen und ihr
+>   Speichern für den Einsatz bei der Erstellung der Schreiben"
+>   ausdrücklich dem Vorfeld zu — sie seien Schritte, „**die nicht Teil
+>   des von dem Kläger angegriffenen geschäftlichen Handelns sind,
+>   sondern in dessen Vorfeld stattgefunden haben**". **Das ist genau
+>   unser Schritt:** der Listenaufbau, auf den wir die Fälligkeit
+>   vorziehen. Das Gericht schiebt ihn aus dem Streitgegenstand heraus.
+>   Wer die Belegkraft der Rn.-87-Ableitung dokumentiert, ohne das zu
+>   nennen, dokumentiert die schwächere Hälfte. **Die Vorsichtsannahme
+>   bleibt trotzdem in Kraft — ihre Belegkraft ist nur noch schwächer
+>   als der Rest dieses Vermerks nahelegt.**
 > - **Rn. 87** beginnt mit „**Unabhängig davon** erscheinen die
 >   Bedenken im Ausgangspunkt allenfalls … erwägenswert" — es ist die
 >   **zweite, hilfsweise Abwehr desselben Einwands**, nicht der

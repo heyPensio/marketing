@@ -933,7 +933,17 @@ entfällt schon, wenn die Verarbeitung nicht nur gelegentlich erfolgt").
 > Rn. 84/85 (Verletzung der Artt. 12, 14, 21 DSGVO); **Rn. 86**
 > referiert einen **Literatureinwand** (Brandt/Dienst, GRUR-Prax 2025,
 > 152 — ob die Verletzung „nachgelagerter" Informationspflichten die
-> Verarbeitung rückwirkend rechtswidrig macht); **Rn. 87** beginnt mit
+> Verarbeitung rückwirkend rechtswidrig macht). ⚠️ **Und Rn. 86 sagt
+> mehr, als der erste Entwurf dieses Vermerks wiedergab** *(ergänzt
+> 17.08.2026 nach Prüferbefund M-5)*: Dieselbe Randnummer ordnet „die
+> Entgegennahme der von ihr ‚angekauften' Adressen und ihr Speichern
+> für den Einsatz bei der Erstellung der Schreiben" ausdrücklich dem
+> Vorfeld zu — Schritte, „**die nicht Teil des von dem Kläger
+> angegriffenen geschäftlichen Handelns sind, sondern in dessen
+> Vorfeld stattgefunden haben**". **Das ist genau der Schritt, auf den
+> dieses Dokument die Fälligkeit vorzieht (Listenaufbau).** Die
+> Vorsichtsannahme bleibt in Kraft; ihre Belegkraft ist damit noch
+> schwächer als unten beschrieben. **Rn. 87** beginnt mit
 > „**Unabhängig davon** erscheinen die Bedenken im Ausgangspunkt
 > allenfalls … erwägenswert" und ist damit die **zweite, hilfsweise
 > Abwehr desselben Einwands**.

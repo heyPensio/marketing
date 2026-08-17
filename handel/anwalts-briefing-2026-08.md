@@ -441,6 +441,20 @@ Urteil prüft die lauterkeitsrechtliche Schiene durch und bejaht sie.
    erfüllen, damit er nicht als Geschäftspost aus einer laufenden
    Beziehung erscheint?** Genügt die Herkunftsangabe, oder ist die
    Vorstellung des Absenders der eigentliche Punkt?
+5a. **Art. 14 Abs. 3 lit. a oder lit. b — welche Frist gilt für uns?**
+   Der **Tenor** untersagt unter Nr. 4, die Informationen „nicht
+   innerhalb einer angemessenen Frist, spätestens innerhalb eines
+   Monats" zu erteilen — das ist die **Monatsfrist des Art. 14 Abs. 3
+   lit. a**. Die Pflicht, auf der unsere gesamte Briefgestaltung
+   aufbaut („spätestens **mit diesem Schreiben**", Art. 14 Abs. 3
+   lit. b), steht dagegen in den **Gründen** (Rn. 85), nicht im Tenor.
+   **Welche der beiden Varianten greift, wenn die Erstansprache selbst
+   die Offenlegung gegenüber der betroffenen Person ist?** Wir haben
+   uns für die strengere entschieden (alles in den ersten Brief) —
+   **ist das richtig, oder genügte die Monatsfrist?** Die Antwort
+   entscheidet, ob die Art.-14-Information zwingend im Werbebrief
+   stehen muss oder nachgereicht werden darf; davon hängt die
+   Gestaltung jedes Briefes ab.
 6. **Trägt Rn. 87 die Betriebsfolge, die wir daraus ziehen?** Wir haben
    daraus abgeleitet, dass sämtliche Vorkehrungen (Sperrdatei,
    Informationstexte, Quellenprotokoll) **vor dem ersten Datensatz**
@@ -744,6 +758,21 @@ an, keine Verbraucher.**
    vor, nicht als Ergebnis** — auch deshalb, weil die für uns
    günstigere Lesart hier die naheliegendere ist und wir ihr gerade
    deswegen misstrauen.
+1b. **Die Spürbarkeit — für uns vermutlich die praktisch wichtigste
+   Teilfrage, und wir haben sie bisher nirgends gestellt.** § 3a UWG
+   verlangt zusätzlich, dass der Verstoß geeignet ist, Interessen
+   **spürbar** zu beeinträchtigen (Rn. 143–146). Das Gericht bejaht das
+   dort unter anderem deshalb, weil „eine **massenhaft verbreitete**
+   Werbeaussendung betroffen ist" (Rn. 146) — und misst „millionenfach"
+   an anderer Stelle ausdrücklich ab **1.000.000 Briefen** (Rn. 110).
+   **Wir planen Wellen von wenigen hundert Adressen, regional
+   begrenzt.** Ist die Spürbarkeitsschwelle bei dieser Größenordnung
+   erreicht? Und ändert sich die Antwort, wenn wir über mehrere Wellen
+   hinweg insgesamt einige tausend Betriebe anschreiben — kommt es auf
+   die einzelne Aussendung an oder auf die Kampagne? *(Wir fragen das
+   ausdrücklich nicht, um eine Schwelle zu unterschreiten, sondern weil
+   wir die Größenordnung planen müssen und heute nicht wissen, ob sie
+   rechtlich überhaupt eine Rolle spielt.)*
 2. Wie wirkt die Grenze, die das LG in Rn. 129 aus der
    **Vollharmonisierung durch die UGPRL** ableitet, wenn die
    Geschäftspraxis **überhaupt keine Verbraucher erreicht**? Nach dem

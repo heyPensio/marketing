@@ -46,16 +46,67 @@
 | Anwesenheit ist nicht Wirksamkeit | 2.928 | 2.209 | −719 | V17-8, V17-9 (+ L-21/L-40) |
 | Vorwärtsverweis-Konvention | 3.095 | ~2.400 | ~−690 | V17-10, V17-11 (+ L-25) |
 | Schwachstelle über Kanäle | 1.598 | ~920 | ~−680 | V17-12, V17-13 |
-| **Summe** | | | **−5.130** | 84.713 → **79.583 B** |
+| **Summe (vor Gegenprobe)** | | | **−5.130** | 84.713 → **79.583 B**; nach Reparaturen + Edit-Anker-Kürzung: **79.859 B** (−4.854) |
 
 Zählweg: `wc -c` je Scratch-Datei; Gesamt `wc -c CLAUDE.neu2.md` und
 `node tools/pruefe-budget.js --nur-messen <pfad>` = 79.583 (Bytes =
 Wert). Reserve zur Sollmarke: 417 B — der Debrief R17 (Stempel-Kopf,
 neue Kerne) muss seine Kompensation selbst mitbringen.
 
-## Gegenprobe (Subagent) — wird nachgetragen
+## Gegenprobe (Subagent, frischer Kontext, 16:50–16:55 MESZ, Laufzeit 309 s)
 
-*(offen — Ergebnis + Disposition folgen vor dem Anwenden.)*
+Prüfgegenstand `CLAUDE.neu2.md` (79.583 B) gegen ALT `926ca3c` (vom
+Agenten selbst als byte-identisch zu `CLAUDE.verdichtung.md` bestätigt).
+
+- **Diff-Hunks: 17/17 innerhalb der fünf Bullets** (`diff -U0 | grep -c
+  '^@@'`; Hunk-Zeilen 447…1045 je Bullet zugeordnet), außerhalb 0
+  Änderungen — mechanisch bestätigt.
+- **Atomare Aussagen ALT: 140** (56 + 24 + 26 + 21 + 13); erhalten in
+  NEU 111, ausgelagert nach V17/L-Register 28 (jede Auslagerung am
+  echten `lehren-register.md` gegengeprüft, Zeilenangaben im
+  Agenten-Bericht), **VERLOREN oder sinnverschoben: 8** —
+  (a) „nicht nur irgendeinen garantierten Treffer" + „z. B." vor
+  Teilwort-Probe (Verallgemeinerung) · (b) Summenproben-Beispiel
+  „2+4+1=7 kann nie anders ausfallen" (weder NEU noch V17) · (c)
+  L-30-Mechanismus „sobald je Anbieter ein Treffer genügt" (nirgends
+  mehr voll; Register-Zeiger L-30-Nachtrag zeigt auf CLAUDE.md) · (d)
+  „Scheinentwarnung, die zwei Dokumente prüfte und über vier schwieg"
+  (Zahlen weg) · (e) „sie darf nicht auf den nächsten Debrief warten"
+  (Verbot gestrichen) · (f) Erklärung der Vorrangklausel „bei
+  Widerspruch gewinnt die Quelle" · (g) zwei Kontrast-Hälften („nicht
+  ‚wo steht der alte Wert?'", „nicht nur thematisch betroffene
+  Dateien") · (h) Kanäle-Bullet: **„EINEM von fünf Wegen" — „fünf" war
+  neu ABGELEITET (2 + 3)**, stand nirgends in ALT.
+- **Vorbehalte ALT n = 55, in NEU erhalten m = 47**, 3 ausgelagert (V17-1,
+  V17-6, V17-12), 5 gestrichen ohne Auslagerung (= a, e, g, „signalisieren
+  nur Sorgfalt" [Register L-47 ✓]).
+- Anker V17-1…13: je genau einmal, keine Vertauschung. Hinweis: V17-5
+  bündelt L-24/L-30/L-18-Fälle, hängt in NEU nur am Korpus-Satz.
+- Grenzen des Agenten: Umordnungs-Wirkungen, Verluste in „nicht X,
+  sondern Y"-Paaren, „z. B."/„auch"-Verallgemeinerungen — genau die
+  Klassen (a)/(g) hat er trotzdem gefunden.
+
+**Disposition (8/8, alle in `CLAUDE.neu3.md`/`neu4` repariert, keine
+verworfen):** (a) wörtlich zurück · (b) → Register V17-5 (Beleg, kein
+Vorbehalt — der ⚠️-Vorbehalt selbst stand mit drei Teilsätzen in NEU) ·
+(c) Mechanismus wörtlich zurück in den L-30-Satz · (d) Zahlen zurück
+(„zwei Dokumente prüfte und über vier schwieg") · (e) wörtlich zurück ·
+(f) wörtlich zurück · (g) beide Kontrast-Hälften zurück · (h) „fünf"
+gestrichen, Rohform „EINEM von zwei beschriebenen Wegen, die
+Nachmessung fand drei weitere" (keine abgeleitete Zahl). Kosten der
+Reparaturen: 79.583 → 80.025 B (+442) → **Sechster Bullet gekürzt**:
+„Ein Edit-Anker …" — nur die Fallgeschichte (198 Einfügungen /
+Tabellen-Vorbehaltssatz), die vollständig unter L-38 im Register steht,
+durch „Fälle unter L-38" ersetzt; alle Handlungsregeln und beide Nenner
+bleiben. **Endstand `CLAUDE.neu4.md`: 79.859 B** (`wc -c`; −4.854 B
+gegen `926ca3c`).
+
+**Lehre für den Debrief (Zweitbeleg „Verdichten verliert den
+Vorbehalt", am eigenen Objekt):** 8 von 140 Aussagen fielen, davon 5
+Vorbehalte und eine ERFUNDENE Zahl — bei einer frischen Session, mit
+ausdrücklicher Prüffrage je Streichung. Ohne Gegenprobe wären sie
+committet worden. Die Klassen (a)/(g) — „z. B." und Kontrast-Hälften
+— gehören als Muster in die Verdichtungs-Gegenprobe des Debrief-Skills.
 
 ## Anwendung — wird nachgetragen
 

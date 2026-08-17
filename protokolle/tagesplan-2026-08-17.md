@@ -1746,7 +1746,7 @@ Nachlaufendes Signal, kein Qualitätsbeweis.
   Zweitbelege · (c) 4 · (d) Blueprint 6 Changelog-Einträge · Werkzeug-
   Nachträge 4 Bausteine/Commands.
 
-### Nachtrag Debrief-Gegenprobe (18:53–19:0x MESZ per `date`, Verifikations-Subagent, 88 Posten)
+### Nachtrag Debrief-Gegenprobe (18:53–18:59 MESZ per `date`, Verifikations-Subagent, 88 Posten)
 
 **80 gelandet, 4 verworfen (mit Grund), 4 NICHT gelandet** → alle vier
 nachgetragen (Projektquelle § 7 Punkt 0 R18 (6)–(9), Register

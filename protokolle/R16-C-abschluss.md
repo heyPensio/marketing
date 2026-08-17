@@ -29,18 +29,27 @@ Strang R16-C · **Prüfstand bei Start:** `0c4692f` (MKT) / `d751624`
 |---|---|---|---|
 | marketing | **`5d7d78d`** | Teil 1 — Akquiseplan § 4.4 (Entscheidungsvorlage) + Entscheidungspunkt E-A4 in § 8. 156 Einfügungen / **0 Löschungen** | ✅ veröffentlicht (belegt: `git branch -r --contains` nach frischem `fetch` → `origin/main`) |
 | marketing | **`686ff18`** | Teil 3 — Erstfassung H-1 *(inhaltlich überholt durch `b31f7f9`, s. u.)* | ✅ veröffentlicht |
-| marketing | **`b31f7f9`** | Teil 3 KORRIGIERT — H-1 = Di 22.09.2026 eingetragen | ⏸️ **ZURÜCKGEHALTEN**, s. Push-Lage |
+| marketing | **`b31f7f9`** | Teil 3 KORRIGIERT — H-1 = Di 22.09.2026 eingetragen | ✅ veröffentlicht (s. Nachtrag) |
+| marketing | **`a67f857`** | Diese Abschlussmeldung | ✅ veröffentlicht (s. Nachtrag) |
 | zentrale | **`7cf1761`** | Teil 2 — Postkorb `eingang/2026-08-17-mkt-r14-nachmeldung.md`, 167 Zeilen | ✅ veröffentlicht (`d751624..7cf1761`, nach frischem `fetch` in `origin/main` enthalten) |
 
-**⚠️ Push-Lage `b31f7f9` — bewusst zurückgehalten.** Unter meinem Commit
-liegt ein **ungepushter Commit von R16-A** (`a495a0f`, Ben Beckman).
-Auch der gezielte Refspec `git push origin b31f7f9:main` würde ihn als
-**Vorfahre mitveröffentlichen** — der Refspec schützt nur nach oben.
-Nach CLAUDE.md („dagegen hilft nur, nicht zu pushen und zu warten") und
-Regel 3a **habe ich nicht gepusht**. Auflösung: R16-A pusht selbst und
-nimmt meinen Commit als Nachfahren mit, oder die Leitsession pusht nach
-deren Abschlussmeldung. **Der Commit ist lokal vollständig; es fehlt
-allein die Veröffentlichung.**
+**⚠️ Push-Lage `b31f7f9` — zunächst bewusst zurückgehalten.** Unter
+meinem Commit lag ein **ungepushter Commit von R16-A** (`a495a0f`, Ben
+Beckman). Auch der gezielte Refspec `git push origin b31f7f9:main` hätte
+ihn als **Vorfahre mitveröffentlicht** — der Refspec schützt nur nach
+oben. Nach CLAUDE.md („dagegen hilft nur, nicht zu pushen und zu
+warten") und Regel 3a **habe ich zunächst nicht gepusht**.
+
+> 📌 **Nachtrag unmittelbar nach dem Commit dieser Meldung:** Der
+> frische `git fetch` vor dem letzten Prüfschritt zeigte `a495a0f`
+> **bereits auf `origin/main`** — R16-A hat selbst gepusht, der Blocker
+> war damit weg. Push ausgeführt: `a495a0f..a67f857`, also **nur meine
+> beiden Commits**. Beleg nach erneutem `fetch`:
+> `git branch -r --contains b31f7f9` und `… a67f857` → beide in
+> `origin/main`. **Die Tabellenzeile oben ist entsprechend korrigiert;
+> die ursprüngliche Fassung („ZURÜCKGEHALTEN") bleibt hier sichtbar,
+> weil sie zum Zeitpunkt des Commits richtig war** — ein Beleg trägt
+> den Stand seines Zeitpunkts.
 
 ### Teil 1 — Akquiseplan § 4.4: Planungskonflikt als Entscheidungsvorlage
 

@@ -2645,3 +2645,4 @@ Agenten: A-F1 · C-F6 · A-N-7 per Zeile wiedergefunden.
 - **Blockwechsel-Handgriff:** vor R19 NEUES Fenster (CLAUDE.md, Rules,
   Commands geändert).
 - Zeitstempel Block-6-Abschluss: 21:30 MESZ (`date`).
+- **Codex-Scratch gelöscht 21:31 MESZ** (`rm -rf firma/r18b-scratch-86afceb` + `.tar`, User-Freigabe Chat „darf nach dem /debrief weg"; Hashes der Läufe stehen in `protokolle/R18-B-bericht.md` § 9). Ebene über den Repos danach: heypensio · marketing · projektgeruest · zentrale · secret-broker · werkzeuge.

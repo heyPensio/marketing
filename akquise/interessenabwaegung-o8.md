@@ -924,6 +924,31 @@ entfällt schon, wenn die Verarbeitung nicht nur gelegentlich erfolgt").
 > berücksichtigen, weshalb eine Datenverarbeitung **auch für rechtmäßige
 > Werbemaßnahmen unzulässig sein kann**" (Rn. 78; ① A) — gehört zur
 > Contra-Seite (§ 5.2) und steht dort ab sofort mit.
+>
+> 🔴 **BESTANDSVERMERK 17.08.2026 (R16-A), Befund R15A-N-4 — wo der
+> Satz aus Rn. 87 im Urteil steht.** Die oben hergeleitete
+> Fälligkeitsverschiebung („vor dem ersten Datensatz" statt „vor dem
+> ersten Versand") ruht auf **einem einzigen Satz**, und dieser Satz
+> steht **nicht in der tragenden Absagebegründung**: Tragend ist
+> Rn. 84/85 (Verletzung der Artt. 12, 14, 21 DSGVO); **Rn. 86**
+> referiert einen **Literatureinwand** (Brandt/Dienst, GRUR-Prax 2025,
+> 152 — ob die Verletzung „nachgelagerter" Informationspflichten die
+> Verarbeitung rückwirkend rechtswidrig macht); **Rn. 87** beginnt mit
+> „**Unabhängig davon** erscheinen die Bedenken im Ausgangspunkt
+> allenfalls … erwägenswert" und ist damit die **zweite, hilfsweise
+> Abwehr desselben Einwands**.
+>
+> **Folge:** Das Zitat oben bleibt richtig und die Fälligkeit „vor dem
+> ersten Datensatz" bleibt in Kraft — sie ist die vorsichtigere
+> Annahme, und die Belegstufe ① A für den Wortlaut ist unberührt.
+> **Was sich ändert, ist die Belegkraft für die Betriebsfolge:** Ob
+> ein nicht tragender Satz sie trägt, ist eine Rechtsfrage und steht
+> als Teilfrage 6 zu Frage 2 im Anwalts-Briefing
+> (`handel/anwalts-briefing-2026-08.md`). *(Derselbe Vermerk steht in
+> `handel/kanal-rechtsmatrix.md` am O-9-Kasten. Herkunft:
+> `projektquelle-mkt.md` § 6a, R15A-N-4; am Rohbeleg gegengeprüft
+> 17.08.2026 — dies ist die einzige Änderung dieser Session an diesem
+> Dokument.)*
 
 ⚠️ **Geltungsgrenze dieser Fundstelle:** Ziff. 4.6 spricht von „**Für
 zulässigerweise beim Betroffenen erhobene** Kontaktdaten" — unser Fall

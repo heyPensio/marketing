@@ -22,7 +22,8 @@ bestimmt** · Übermittelt zum Zweck der Mandatsanbahnung
 | **Empfänger** | **⛔ NOCH NICHT BESTIMMT.** Im Repo ist keine Kanzlei benannt; die Auswahl trifft der User / die Firmen-Ebene. Bis dahin steht überall `[KANZLEI]` |
 | **Absender** | **⛔ FIRMIERUNG OFFEN (interner Posten F-7).** Der Rebrand ist entschieden, der neue Name steht noch nicht fest. Überall `[FIRMIERUNG — offen, F-7]`. **Keine erfundene Firmierung**, auch nicht als Beispiel |
 | **Quell-Abgleich gelaufen** | `handel/kanal-rechtsmatrix.md` · `akquise/interessenabwaegung-o8.md` · `akquise/listenbau-regelwerk.md` · `akquise/sperrdatei-struktur.md` · `projektquelle-mkt.md` § 5 · `protokolle/R14-B-abschluss.md`, je gegen die **Rohbelege** (s. § 7), 14.08.2026 — **zweiter Durchgang nach dem Prüferlauf** (Befund S-2: der erste hatte die Fallgruppen-Tabelle des O-8-Dokuments auf ihrer eigenen Achse nicht gefangen) |
-| **Repo-Stand beim Bau** | `4b84693` (eingefroren zu Beginn der Session; zweiter Messstand vor dem Commit in `protokolle/R15-A-abschluss.md`) |
+| **Repo-Stand beim Bau** | `4b84693` (R15-A, eingefroren zu Beginn jener Session; zweiter Messstand vor dem Commit in `protokolle/R15-A-abschluss.md`). **Nachtrag R16-A, 17.08.2026:** Prüfstand dieser Session `0c4692f`, eingefroren zu Sessionbeginn; der Bau-Commit und der zweite Messstand stehen in `protokolle/R16-A-abschluss.md` |
+| **Änderungen R16-A (17.08.2026)** | **Status bleibt ENTWURF.** Vier Eingriffe: (1) § 2.1 nachgezogen — der A7-Kernsatz der Rechtsmatrix ist inzwischen **neu gefasst**, der Abschnitt beschrieb ihn noch als „nur markiert"; (2) § 3.2 um **Teilfrage 1a** ergänzt (zweite Schiene § 3 Abs. 2 UWG im B2B-Fall) samt Fundstellen Rn. 136/147/148 in § 3.3 — ohne sie hätte die Antwort auf Frage 3 nur die Hälfte der Doppelbegründung erfasst; (3) **ID-Zeiger** an § 4a Kandidat A (`ANL-3` / `PS-1` / `R15E-N-4`), damit ein Grep auf die Kürzel künftig trifft; (4) 🔧 **Reparatur in § 4a Kandidat A:** Dort stand „ohne Personennamen **und ohne jede weitere Angabe**" — das war eine unzutreffende Bestandsaussage. `akquise/sperrdatei-struktur.md` § 3 führt für `ANL-3` **sieben** Felder (SP-02, SP-03, SP-05 bis SP-08, SP-10) und schließt nur SP-04 (Personenname) und das Grund-Feld aus. Der Satz ist auf den gemessenen Stand gebracht |
 | **Was dieses Dokument NICHT tut** | Es **entscheidet nichts** und nimmt keine Antwort vorweg. Wo unsere eigene Vorarbeit einen Streitstand gefunden hat, steht „streitig" — nicht der bequemere Pol |
 | **⚠️ Offene User-Entscheidung vor dem Versand** | § 0 Satz 7 offenbart, dass wir das Impressums-Risiko **bewusst und gegen die eigene Empfehlung** tragen. Das ist der ehrlichste und zugleich der angreifbarste Satz des Dokuments: Er geht an einen Empfänger, der zu diesem Zeitpunkt noch nicht mandatiert ist. **Drei Möglichkeiten:** (a) so lassen — der Anwalt kann ohne diese Angabe nicht sinnvoll beraten; (b) erst nach Mandatserteilung nachreichen; (c) neutraler fassen („wir haben uns nach Abwägung für die Nutzung entschieden"). **Empfehlung dieser Session: (a)**, weil Weg B in § 1.5 sonst nicht bewertbar ist — die Entscheidung trifft der User |
 
@@ -356,17 +357,29 @@ Abschnitt A7 — „A7-Kernsatz")*
 
 Unsere Kanal-Rechtsmatrix stützt die Aussage „Briefwerbung ist
 lauterkeitsrechtlich der offenste Kanal, das Risiko liegt auf der
-DSGVO-Seite" unter anderem auf dieses Urteil. Der tragende Satz lautet
-dort bis heute:
+DSGVO-Seite" unter anderem auf dieses Urteil. Der tragende Satz lautete
+dort **bis zum 17.08.2026**:
 
 > „**LG Düsseldorf, Urt. v. 06.02.2026 – 38 O 243/23** … hat eine
 > **Briefpost**-Werbesendung untersagt — gestützt ausschließlich auf
 > Art. 6 Abs. 1 lit. f und die Art. 12–14, 21 DSGVO."
 
 **Dieser Satz ist durch unsere eigene Nachmessung am Volltext
-widerlegt** und im Dokument als überholungsbedürftig markiert. Die
-Neufassung haben wir uns ausdrücklich versagt, weil sie eine
-Rechtsbewertung wäre.
+widerlegt.** Er stand zunächst nur als überholungsbedürftig markiert im
+Dokument; die Neufassung hatten wir uns versagt, weil sie eine
+Rechtsbewertung gewesen wäre. **Inzwischen haben wir ihn ersetzt** —
+allerdings bewusst so, dass die Neufassung **nur den Aufbau des Urteils
+abbildet** und keine Bewertung enthält. Sie lautet jetzt: *materielle
+Anknüpfung ist die DSGVO, Anspruchsgrundlage das UWG; der Kläger war ein
+nach § 4 UKlaG eingetragener Verband (Rn. 2, 34, 64); das Gericht
+stellt einen Verstoß gegen Artt. 5 Abs. 1 Buchst. a, 6 Abs. 1 Unterabs. 1
+DSGVO fest (Rn. 125) und bejaht dessen Unlauterkeit **doppelt** — nach
+§ 3a UWG (Rn. 137) **und** nach § 3 Abs. 2 UWG (Rn. 147), wobei es
+ausdrücklich offenlässt, welcher Weg vorrangig ist (Rn. 136).*
+**Ob diese Beschreibung trägt, ist genau die Frage unten** — die
+Vorfassung steht in unserem Dokument in einem sichtbaren
+Reparatur-Kasten weiter daneben, damit erkennbar bleibt, was korrigiert
+wurde.
 
 **Was die Messung ergeben hat** (eigener Lauf am amtlichen
 NRWE-Volltext, 13.08.2026, in dieser Runde am selben Abzug
@@ -500,7 +513,15 @@ Stelle:**
 > geäußert worden ist."
 
 Zwei Feststellungen dazu, ohne Bewertung: Das Oberlandesgericht
-Düsseldorf ist für dieses Landgericht das **Berufungsgericht**. Und die
+Düsseldorf ist für dieses Landgericht das **Berufungsgericht**.
+*(Belegstufen-Hinweis, ergänzt 17.08.2026: Dass mit „dem
+Oberlandesgericht" in Rn. 111 das OLG Düsseldorf gemeint ist, sagt die
+Randnummer selbst nicht — sie nennt keinen Ort. Wir leiten es aus dem
+Aktenzeichen ab: Rn. 45 desselben Urteils führt „Landgericht Düsseldorf
+38 O 245/23 = **Oberlandesgericht Düsseldorf 20 W 87/23**", also
+denselben 20er-Senat für Beschwerden gegen dieselbe Kammer. Wir halten
+die Zuordnung für sicher, weisen sie aber als **unsere Ableitung** aus
+und nicht als Aussage des Urteils.)* Und die
 Passage steht im Abschnitt zur **lauterkeitsrechtlichen** Würdigung des
 Schreibens, nicht in der DSGVO-Prüfung — sie wirkt aber auf den zweiten
 Absagegrund zurück, weil Rn. 88 die Rechtmäßigkeit des verfolgten
@@ -707,6 +728,22 @@ an, keine Verbraucher.**
    Marktteilnehmer" bezwecken (Rn. 141/142) — bindet das aber im selben
    Absatz an die Verbrauchereigenschaft zurück. **Trägt diese Brücke
    auch, wenn der Adressat Unternehmer ist?**
+1a. **Dieselbe Frage für die ZWEITE Schiene, die dasselbe Urteil
+   bejaht:** Rn. 136 lässt ausdrücklich offen, ob § 3a UWG oder § 3
+   Abs. 2 UWG vorrangig ist, und bejaht **beide** — Rn. 137 den § 3a
+   UWG, Rn. 147 den § 3 Abs. 2 UWG. Dessen Tatbestand nennt in Rn. 148
+   allerdings selbst „geschäftliche Handlungen, **die sich an
+   Verbraucher richten oder diese erreichen**". **Bleibt bei einer
+   Aussendung, die ausschließlich Unternehmer erreicht, von der
+   Doppelbegründung eine, keine oder beide Schienen übrig?** Uns fällt
+   auf, dass die beiden Schienen in unterschiedliche Richtungen zeigen
+   könnten: Die Adressatengrenze des § 3 Abs. 2 UWG steht in seinem
+   Tatbestand, während die Sperre, die § 3a UWG überhaupt erst
+   begründungsbedürftig macht (die UGPRL-Vollharmonisierung, Rn. 129),
+   gerade nur den B2C-Bereich betrifft. **Wir legen das als Beobachtung
+   vor, nicht als Ergebnis** — auch deshalb, weil die für uns
+   günstigere Lesart hier die naheliegendere ist und wir ihr gerade
+   deswegen misstrauen.
 2. Wie wirkt die Grenze, die das LG in Rn. 129 aus der
    **Vollharmonisierung durch die UGPRL** ableitet, wenn die
    Geschäftspraxis **überhaupt keine Verbraucher erreicht**? Nach dem
@@ -749,6 +786,9 @@ an, keine Verbraucher.**
 | **130** | „In Bezug auf den von dem Kläger in diesem Rechtsstreit gerügten Verstoß kann auf Art. 3 Abs. 4 UGPRL zurückgegriffen werden. Datenschutzrechtliche Bestimmungen können, wie der letzte Satz von Erwägungsgrund 14 zur UGPRL zeigt, besondere Aspekte unlauterer Geschäftspraktiken regeln, und wären insoweit als gegenüber der UGPRL speziellere Regelungen vorrangig anwendbar, **was im Grundsatz die Beurteilung einer auch Verbraucher erreichenden Geschäftspraxis anhand von § 3a UWG ermöglicht**" (Hervorhebung von uns) |
 | **134** | Der EuGH habe „die im deutschen Recht für **Mitbewerber des Verletzers** und Verbraucherschutzverbände vorgesehene Möglichkeit, datenschutzrechtliche Verstöße als unlauterere Geschäftspraktik … zu ahnden, gebilligt" (EuGH C-21/23 „ND/DR"/„Lindenapotheke" Rn. 73; C-319/20 „Meta Platforms Ireland" Rn. 79). **⚠️ Dieselbe Randnummer nimmt das zwei Sätze später wieder ein Stück zurück:** Im Fall „ND/DR" seien „zugleich die Voraussetzungen von **Art. 3 Abs. 3** der [UGPRL] erfüllt" gewesen, „was das in der Sache ‚Meta Platforms Ireland Limited' **nicht** der Fall. Zwar musste der Gerichtshof angesichts der ihm vorgelegten Fragen **nicht entscheiden, ob der deutsche Rechtsbruchtatbestand unter diesen Umständen angewandt werden kann. Immerhin hat er dies aber auch nicht ausgeschlossen.**" |
 | **135** | „führt … keiner der beiden Wege dazu, dass im Sinne eines Automatismus jeder Verstoß gegen die DSGVO eine unlautere Handlung darstellt" |
+| **136** | ⭐ **Die Weiche bleibt offen, beide Wege werden bejaht:** „Es kann offenbleiben, ob im Allgemeinen in erster Linie § 3a UWG als nach dem nationalen Recht speziellere Norm heranzuziehen ist, oder § 3 Abs. 2 UWG, der auf einer unionsrechtlichen Grundlage beruht. Bezogen auf die von dem Kläger mit seinem Antrag I angegriffenen Verstöße liegen **sowohl** die Voraussetzungen von § 3a UWG vor (dazu aa) **als auch** diejenigen von § 3 Abs. 2 UWG (dazu bb)." |
+| **147** | „Die gegen Artt. 5 Abs. 1 Buchstabe a, 6 Abs. 1 Unterabs. 1 DSGVO verstoßenden geschäftlichen Handlungen sind **außerdem gemäß § 3 Abs. 2 UWG** unlauter." |
+| **148** | ⭐ **Der Tatbestand der zweiten Schiene — mit seiner Adressatengrenze:** „Nach § 3 Abs. 2 UWG sind geschäftliche Handlungen, **die sich an Verbraucher richten oder diese erreichen**, unlauter, wenn sie nicht der unternehmerischen Sorgfalt entsprechen und dazu geeignet sind, das wirtschaftliche Verhalten des Verbrauchers wesentlich zu beeinflussen." *(Rn. 149 ergänzt: § 3 Abs. 2 UWG „dient der Umsetzung von Art. 5 Abs. 2 UGPRL in nationales Recht und ist daher richtlinienkonform auszulegen".)* |
 
 **b) Normtexte** (eigene Abzüge, 14.08.2026):
 
@@ -1056,6 +1096,18 @@ sollen die vier Hauptfragen nicht verdrängen.
 
 ### Kandidat A — Speicherung eines fremden Impressums-Werbewiderspruchs
 
+> 🔖 **Interner ID-Zeiger (nicht Teil des Versandtexts — steht im
+> Statusblock-Bereich mit, s. dort):** Dieser Kandidat **ist** die
+> Rechtsfrage `ANL-3` aus `akquise/sperrdatei-struktur.md` (dort als
+> offener Posten **`PS-1`** in § 8 geführt) und zugleich der
+> Nebenbefund **R15E-N-4** der Runde R15. Der Zeiger ist am
+> 17.08.2026 (R16-A) gesetzt worden, weil ein Grep auf die Kürzel
+> `ANL-3` / `PS-1` / `R15E-N-4` dieses Briefing vorher **nicht** traf
+> — die Frage stand hier vollständig, nur unter anderem Namen. Genau
+> daraus entstand in R15-E die Fehlmeldung „im Briefing nicht
+> enthalten". **Es ist ein Zeiger, kein zweiter Eintrag** — die Frage
+> wird hier nicht ein zweites Mal gestellt.
+
 Die Aufsicht empfiehlt Websitebetreibern, „vorsorglich
 einen Werbewiderspruch in sein Impressum" aufzunehmen (DSK-OH Ziff. 4.2,
 letzter Satz). Wir prüfen jedes Ziel-Impressum darauf und steuern solche
@@ -1066,8 +1118,11 @@ bei jeder Welle neu geprüft werden muss und nicht verlorengeht? Uns
 gegenüber ist nichts erklärt worden; es gibt keinen Erklärenden, dem wir
 antworten könnten.
 
-Bis zur Klärung führen wir solche Einträge **ohne Personennamen** und
-ohne jede weitere Angabe. Unser Bestand vermerkt dazu: „Ob der Eintrag
+Bis zur Klärung führen wir solche Einträge in der **engeren**
+Handhabung: **ohne Personennamen** und ohne den Grund des Widerspruchs;
+geführt werden Betriebsname, Postanschrift, Aufnahme-Anlass,
+Eingangsweg, Eingangs- und Eintragsdatum sowie eine Beleg-Referenz.
+Unser Bestand vermerkt dazu: „Ob der Eintrag
 eines fremden Impressumsvermerks in einen eigenen Sperrbestand
 seinerseits eine zulässige Verarbeitung ist, ist **nicht erhoben**."
 
@@ -1207,8 +1262,15 @@ Null („§ 7 UWG kommt im Urteil nicht vor") war eine
 Reichweitenbehauptung geworden („gestützt ausschließlich auf die
 DSGVO"). Gefunden hat ihn eine interne Gegenprüfung, nicht der
 Verfasser. Wir haben daraufhin sämtliche Zahlen dieses Briefings neu am
-Rohbeleg gemessen. **Sollte Ihnen eine weitere Stelle dieser Art
-auffallen, ist uns der Hinweis willkommen.**
+Rohbeleg gemessen. *(Das gilt auch für die am 17.08.2026 ergänzten
+Stellen: Sie sind gegen einen aus der amtlichen Auszeichnung generisch
+erzeugten Randnummern-Auszug geprüft — 273 Absätze, lückenlos, zwei
+unabhängige Strukturmerkmale mit gleichem Ergebnis; alle neu gesetzten
+Zitate wurden getrennt auf **Wortlaut** und auf die behauptete
+**Randnummer** geprüft. Dabei fiel eines durch: Es endete auf einem
+Doppelpunkt, den das Original an dieser Stelle nicht trägt. Es ist
+korrigiert.)* **Sollte Ihnen eine weitere Stelle dieser Art auffallen,
+ist uns der Hinweis willkommen.**
 
 ---
 
@@ -1218,7 +1280,7 @@ auffallen, ist uns der Hinweis willkommen.**
 |---|---|---|
 | **1** | Frage 1 (Zweckänderung Art. 6 Abs. 4) | Sperrt den **ersten Datensatz** |
 | **2** | Frage 2 (Reichweite des LG-Urteils) | Bestimmt, was in allen unseren Betriebsunterlagen steht |
-| **3** | Frage 3 (§ 3a UWG bei B2B, Kostenfolge) | Bestimmt das Risikoprofil, nicht den Start |
+| **3** | Frage 3 (§ 3a UWG **und § 3 Abs. 2 UWG** bei B2B, Kostenfolge) | Bestimmt das Risikoprofil, nicht den Start |
 | **4** | Frage 4 (Lizenzserver-Ping) | Sperrt kein Datum, sondern das erste Angebot in einer bestimmten Architektur; hier fehlt uns außerdem noch eine technische Angabe |
 | *(offen)* | Abschnitt 4a, Kandidaten A und B | **Nur falls sie im Auftrag bleiben** — die Entscheidung darüber fällt vor dem Versand |
 

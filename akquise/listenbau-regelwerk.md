@@ -968,6 +968,19 @@ Wellenprotokoll, nicht als Feld. (§ 10, O-3.)
 >    protokolliert, welche Version an welche Adressen ging. Also ein
 >    Versionsfeld je Text, nicht ein gemeinsames.
 >
+> ✅ **ERLEDIGT 17.08.2026 (R18-A) — die Quelle ist nachgezogen, die
+> Abweichung besteht nicht mehr.** `akquise/interessenabwaegung-o8.md`
+> § 10 **B-6** führt den **FG-2-Anteil** seit dem ausdrücklich auf
+> (Befund `R17C-N-1`, repariert an der Quelle). **Feld 4 unten deckt
+> sich damit jetzt mit dem Wortlaut von B-6** — es geht nicht mehr über
+> ihn hinaus, und die Vorrangklausel § 11 kehrt die hier gewählte
+> strengere Lesart nicht länger um. *(Der Absatz darunter bleibt im
+> Originalwortlaut stehen: Er dokumentiert, dass die Lücke von der
+> ABLEITUNG gefunden wurde und nicht von der Quelle — und er ist der
+> Grund, warum sie repariert werden konnte. Was von ihm nicht mehr
+> gilt, ist genau die Aussage „die Quelle ist in sich inkonsistent";
+> L-51.)*
+>
 > ⚠️ **Abweichung zur Quelle ausgewiesen — und ein Nebenbefund an o8:**
 > Feld 4 geht über den Wortlaut von o8 § 10 **B-6** hinaus: B-6 selbst
 > zählt nur „Anteil FG-4 (Impressumsquelle)" auf, während die

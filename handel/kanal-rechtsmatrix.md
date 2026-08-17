@@ -676,10 +676,23 @@ Nicht der Kanal, sondern die **Gestaltung** ist die klassische Abmahnfalle — u
 > extrahiert: 273 **nummerierte** Absätze, lückenlos 1–273, zwei unabhängige
 > Strukturmerkmale liefern dieselbe Zahl — **dazu Rubrum und Tenor, die
 > außerhalb dieser Nummerierung stehen und am Textabzug gelesen werden**
-> *(Prüfraum präzisiert 17.08.2026 nach Prüferbefund H-2: Zwei Aussagen
+> *(Prüfraum präzisiert 17.08.2026 nach Prüferbefund **`R16A-H-2`**: Zwei Aussagen
 > dieses Abschnitts — „vorläufig vollstreckbar" und der Inhalt des
 > Tenors — liegen genau dort und wären vom Randnummern-Prüfraum nicht
 > gedeckt gewesen)*):**
+>
+> > 🔖 **Rundenpräfix nachgetragen 17.08.2026 (R18-A), L-35 — hier
+> > stand „Prüferbefund H-2" ohne Rundenbezug.** Gemessen im Bestand:
+> > Das Kurzzeichen ist **dreifach** vergeben —
+> > `protokolle/R15-A-pruefer.md` H-2 (Kontext von Rn. 267 entwertet
+> > die 243,51 € als Anker) · `protokolle/R16-A-pruefer.md` H-2
+> > (**dieser** Befund, dort Z. 385: „Zwei neue Aussagen zitieren
+> > außerhalb des selbst deklarierten Prüfraums") ·
+> > `protokolle/R17-A-pruefer.md` H-2 (L-49 am eigenen Reparaturtext);
+> > dazu ein gleichnamiges **H-2 im anderen Namensraum** des
+> > Baseline-Messplans (Plan-Freigabe). **Ein Bezeichner ohne
+> > Rundenbezug ist ein Name, kein Anker** — welcher der vier gemeint
+> > war, stand nur im Kopf der schreibenden Session.
 > 1. **„ausschließlich" ist falsch.** Dasselbe Urteil prüft die
 >    lauterkeitsrechtliche Schiene durch und bejaht sie **zweifach**
 >    (Rn. 136/137/147, s. Neufassung und Teil B).
@@ -693,8 +706,35 @@ Nicht der Kanal, sondern die **Gestaltung** ist die klassische Abmahnfalle — u
 >    den Verbotsinhalt.** Tenoriert ist unter Nr. 4 die Verletzung der
 >    **Monatsfrist** („nicht innerhalb einer angemessenen Frist,
 >    spätestens innerhalb eines Monats", also Art. 14 Abs. 3 **lit. a**)
->    und ausdrücklich nur für Daten, die „**bei einem Dritten** erhoben"
->    wurden. **Die Pflicht, auf der unser Bestand tragend aufbaut —
+>    und ausdrücklich nur gegenüber einem Verbraucher, „in Bezug auf
+>    den sie personenbezogene Daten **bei einem Dritten** zu dem Zweck
+>    erhoben hat".
+>
+>    > 🔧 **ZITATFORM REPARIERT 17.08.2026 (R18-A) — R17-B-Aufnahmebefund
+>    > Nr. 2 (Zeile 696 im Stand `86afceb`), Rohbeleg-Stelle am Stück
+>    > gelesen. Hier stand wörtlich:** „und ausdrücklich nur für Daten,
+>    > die „**bei einem Dritten** erhoben" wurden."
+>    > **Zwei Eingriffe in einem Fünf-Wort-Zitat:** (a) Zwischen
+>    > „Dritten" und „erhoben" stehen im Tenor **drei Wörter** — „zu dem
+>    > Zweck" —, eine Ellipse fehlte; (b) das Aktiv des Tenors („erhoben
+>    > **hat**", Subjekt ist die Beklagte) war still ins Passiv gewendet
+>    > („erhoben **wurden**", Subjekt sind die Daten) und die Beschränkung
+>    > damit von der **Person** auf die **Daten** verschoben.
+>    > **Die Aussage des Satzes ändert sich nicht** — die Beschränkung
+>    > des Tenors auf Dritterhebung bleibt, sie ist nur wieder die des
+>    > Originals. Quelle: `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt`,
+>    > **Tenor Nr. 4** (außerhalb der Randnummern-Zählung, am Textabzug
+>    > gelesen). ⚠️ **Dieselbe Verkürzung hatte R17-A im
+>    > `handel/anwalts-briefing-2026-08.md` § 4 bereits repariert und
+>    > hier stehen lassen** — L-25/L-51: Die Ableitung war gepflegt, die
+>    > Quelle nicht. Repo-weiter Gegenlauf zum Stand `a7fca1c`
+>    > (`grep -rn "bei einem Dritten" --include="*.md"`, 14 Fundstellen,
+>    > Positivkontrolle „einem Dritten" = 15): im **aktiven** Bestand
+>    > trugen die Verkürzung nur diese Stelle und — bereits repariert —
+>    > das Briefing; die übrigen 12 sind Protokolle (Historie, nicht
+>    > nachzuziehen).
+>
+>    **Die Pflicht, auf der unser Bestand tragend aufbaut —
 >    „spätestens mit diesem Schreiben" (Art. 14 Abs. 3 lit. b, Rn. 85)
 >    und die Quellenangabe IM Brief (Rn. 115) — folgt aus den GRÜNDEN,
 >    nicht aus dem Tenor.** Das schwächt sie nicht (Gründe sind Gründe),
@@ -1022,13 +1062,67 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > zulässig", überdehnt den Beschluss — **jetzt belegbar, vorher nur
 > vermutbar.**
 >
-> **8. Offen geblieben:** Der Senat verweist für die **begründete**
-> Fassung seiner Auffassung auf **I-20 U 107/23** und **I-20 U 117/23**.
-> Diese beiden Entscheidungen sind **nicht beschafft** — es fehlt das
-> Entscheidungsdatum für die NRWE-Dokument-URL; Web-Suche und
-> Jahresindex blieben ohne Treffer (Suchweg im Beschaffungsprotokoll).
-> **Das ist ein Posten, kein Negativbefund.** Wer die Gegenauffassung
-> in ihrer tragenden Form braucht, muss dort hin.
+> **8. Offen geblieben:** Der Senat nennt **I-20 U 107/23** und
+> **I-20 U 117/23** als die Verfahren, aus denen die **Parteien** seine
+> Rechtsauffassung kennen. Diese beiden Entscheidungen sind **nicht
+> beschafft** — es fehlt das Entscheidungsdatum für die
+> NRWE-Dokument-URL; Web-Suche und Jahresindex blieben ohne Treffer
+> (Suchweg im Beschaffungsprotokoll). **Das ist ein Posten, kein
+> Negativbefund.** Wer die Gegenauffassung in ihrer tragenden Form
+> sucht, muss dort hin — **ob sie dort begründet steht, ist allerdings
+> selbst unbelegt (s. Reparaturkasten).**
+>
+> > 🔧 **REPARIERT 17.08.2026 (R18-A) — hier stand:** „Der Senat
+> > verweist für die **begründete** Fassung seiner Auffassung auf
+> > I-20 U 107/23 und I-20 U 117/23."
+> > **Das sagt der Beschluss nicht.** Rn. 22 lautet an der Stelle
+> > wörtlich: „Im Übrigen hat der Senat bereits darauf hingewiesen, dass
+> > das streitgegenständliche Kundenanschreiben (Anlagen AST 4) nicht
+> > zur Irreführung geeignet ist. Von dieser Rechtsauffassung haben die
+> > Parteien aufgrund der unter den Az.: I-20 U 107/23 sowie
+> > I-20 U 117/23 geführten Verfahren **Kenntnis**; daran wird auch nach
+> > nochmaliger Überprüfung festgehalten." Der Satz sagt, **woher die
+> > Parteien die Auffassung kennen** — nicht, dass sie dort **begründet**
+> > worden wäre. Herkunft der Drift: Das Beschaffungsprotokoll R17-A
+> > formulierte korrekt „dort **dürfte** sie begründet stehen"
+> > (`sensibel/rohbelege-R17-A/00-quellenliste.md`, Abschnitt „Nicht
+> > beschafft"); beim Übernehmen in dieses Dokument wurde aus der
+> > Vermutung eine Bestandsaussage über den Senat — dieselbe
+> > Verdichtungs-Drift, gegen die dieser Abschnitt sonst schützt.
+> > Quelle: `sensibel/rohbelege-R17-A/olg-duesseldorf-20-W-37-24.txt`,
+> > Rn. 22, Absatz am Stück gelesen.
+>
+> > 📌 **NACHTRAG 17.08.2026 (R18-A) — zweiter Beschaffungsversuch
+> > gelaufen, vier Kanäle, alle negativ MIT Kanalbefund.** Damit ist der
+> > Posten oben nicht erledigt, aber sein Suchweg ist dokumentiert und
+> > reproduzierbar (Einzelheiten und Hashes:
+> > `protokolle/R18-A-abschluss.md`, Belege in `sensibel/rohbelege-R18-A/`):
+> > **(1)** NRWE-Volltextsuche per **GET**
+> > (`nrwesuche.justiz.nrw.de/index.php?q="20 U 107/23"&method=stem`,
+> > `curl -sL`) → HTTP 200, 227.645 B, kein Ergebnisblock. **Die
+> > Positivkontrolle im selben Lauf scheitert ebenfalls:** dieselbe
+> > Abfrage mit dem nachweislich vorhandenen `20 W 37/24` liefert
+> > 227.644 B, also praktisch dieselbe Seite — **Kanal tot** (das
+> > reproduziert den POST-Befund aus R17-A für den GET-Weg).
+> > **(2)** Web-Suche mit Domain-Beschränkung auf `nrwe.justiz.nrw.de`
+> > / `justiz.nrw.de` → kein Treffer; **Positivkontrolle `20 W 37/24`
+> > über denselben Kanal ebenfalls ohne Treffer**, obwohl das Dokument
+> > dort liegt (R17-A, HTTP 200) — **der Index deckt diese Dokumente
+> > nicht ab.** **(3)** Web-Suche nach der **anderen Schreibweise** mit
+> > `I-`-Präfix (in R17-A nicht gesucht) → kein Treffer zur Sache.
+> > **(4)** dejure-Vernetzungsdienst ohne Datumsparameter → HTTP 200,
+> > aber die Antwort ist für das gesuchte **und** für ein bekanntes
+> > Kontroll-Aktenzeichen **byte-identisch** (SHA-256 beide
+> > `3bae1de6…`), während dieselbe Abfrage **mit** Datum die echte
+> > Trefferseite liefert (45.662 B) — **der Aktenzeichen-Parameter
+> > wirkt ohne Datum nachweislich nicht.**
+> > **Fazit:** Alle vier Nulltreffer sind **Werkzeug-/Kanalbefunde**,
+> > keine Aussage über die Existenz oder den Inhalt der Entscheidungen.
+> > Es fehlt weiterhin genau eine Angabe — das **Entscheidungsdatum**;
+> > die naheliegenden Wege dorthin sind juris/beck-online oder eine
+> > Anfrage bei der Geschäftsstelle. **Träger: MKT-HANDEL**, Anschluss
+> > über `handel/anwalts-briefing-2026-08.md` § 2.2/§ 8
+> > (Zulieferungs-Bitte an die Kanzlei).
 >
 > **Frage an den Anwalt:** unverändert `handel/anwalts-briefing-2026-08.md`
 > **Frage 2** — jetzt mit dem Beschluss als Anlage statt mit einer
@@ -1688,6 +1782,30 @@ Weil wir die Daten **nicht bei der betroffenen Person** erheben, gilt Art. 14 �
 **Die Fristen** (Art. 14 Abs. 3, ① A): „innerhalb einer angemessenen Frist nach Erlangung der personenbezogenen Daten, **längstens jedoch innerhalb eines Monats**" (lit. a) bzw. „**spätestens zum Zeitpunkt der ersten Mitteilung**" (lit. b). **Es gilt, was zuerst eintritt.**
 
 > ⚠️ **Die Falle, die fast jeder übersieht: Die Monatsfrist läuft ab LISTENAUFBAU, nicht ab Kontaktaufnahme.** Eine im August gebaute Liste, die erst im Oktober angeschrieben wird, ist **bereits im September rechtswidrig**. Wer Listen auf Vorrat baut, hat eine tickende Frist im Bestand. Konsequenz: entweder zeitnah kontaktieren **oder** unmittelbar nach dem Listenaufbau separat informieren.
+
+> ⭐ **Und es gibt keine Karenzfrist zum Nachreichen** *(ergänzt
+> 17.08.2026, R18-A — Nebenbefund `R17A-N-3`)*. Wer die Information im
+> Anschreiben auslässt, heilt das nicht dadurch, dass er sie innerhalb
+> des Monats nachschickt: Tragend ist **Art. 14 Abs. 3 lit. b**
+> („spätestens zum Zeitpunkt der ersten Mitteilung"), und lit. a
+> verlängert diese Grenze nicht, sondern setzt eine zweite daneben.
+>
+> **Zeiger, kein zweiter Eintrag** — Herleitung, Urteilszitat (**Rn. 220**)
+> und Belegstufe stehen an genau einer Stelle:
+> `akquise/interessenabwaegung-o8.md` **§ 7.1** („Keine Karenzfrist",
+> dort seit 12.08.2026, Befund Q-16). Dort steht auch der Vorbehalt,
+> der beim Verkürzen als Erstes fällt: Rn. 220 spricht von einer
+> „— **insoweit** von der DSGVO nicht vorgesehene[n] — Karenzfrist" und
+> ist eine Erwägung zur **Auslegung des Klägervortrags**, keine
+> tragende Feststellung. *(Doku-Hygiene: Eine Dublette über
+> Dateigrenzen ist nur mit Wächter oder Vorrangklausel zulässig — die
+> Vorrangklausel weiter unten in C4 deckt ausdrücklich nur die
+> achtteilige Mindestumfangs-Aufzählung, nicht diesen Fristen-Absatz.
+> Deshalb hier die Zeiger-Form.)*
+>
+> **Der Punkt stärkt den Bestand, er ändert keine Aussage:** Die
+> Rechtsmatrix führt die Fristen bereits richtig (Rn. 85/87) — Rn. 220
+> nimmt ihnen nur den letzten vermeintlichen Ausweg.
 
 **Es gibt keinen Ausweg über Art. 14 Abs. 5:** lit. a scheidet aus (der Hotelier weiß nichts von der Liste), lit. b („unmöglich oder unverhältnismäßiger Aufwand") gerade nicht — weil ohnehin ein Anschreiben erfolgt und die Information ihm beigefügt werden kann; lit. c und d liegen nicht vor.
 

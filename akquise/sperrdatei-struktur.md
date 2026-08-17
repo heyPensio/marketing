@@ -181,8 +181,40 @@ den **Rechtsfolgen** — das ist der Grund, warum das Feld existiert.
 >    gehört in denselben anwaltlichen Rat wie O-9.
 >
 > Bis zur Klärung gilt die **engere** Handhabung: `ANL-3`-Einträge
-> tragen nur `SP-02`, `SP-03`, `SP-05` bis `SP-08` und `SP-10` —
-> **niemals `SP-04`** (kein Personenname).
+> tragen `SP-01` bis `SP-03`, `SP-05` bis `SP-10` — **niemals `SP-04`**
+> (kein Personenname).
+>
+> > 🔧 **REPARIERT 17.08.2026 (R18-A) — hier stand:** „`ANL-3`-Einträge
+> > tragen **nur** `SP-02`, `SP-03`, `SP-05` bis `SP-08` und `SP-10` —
+> > niemals `SP-04`."
+> > **Diese Positivliste ließ zwei PFLICHTFELDER der eigenen
+> > Feldtabelle fallen** (Nebenbefund `R17A-N-7`, am Objekt bestätigt):
+> > **`SP-01`** (Sperr-ID, ✅ Pflicht — ohne sie gibt es keine Referenz
+> > für `F-13` der Zielkundenliste und keinen Eintrag im
+> > Abgleich-Journal) und **`SP-09`** (Reichweite der Sperre, ✅ Pflicht
+> > mit dem festen Wert `alle Kanäle` — ausgerechnet das Feld, das die
+> > Kanalübergreifendheit trägt und das im März 2026 schon einmal gegen
+> > eine Teil-Sperre verteidigt werden musste, Prüferbefund PE-12).
+> > **Ein `ANL-3`-Eintrag ohne `SP-09` wäre eine Sperre ohne
+> > festgelegte Reichweite** — genau der Zustand, den die Feldtabelle
+> > ausschließt.
+> > **Warum das durchrutschte:** Die Liste ist entlang der
+> > **Datenminimierung** geschrieben („was darf hinein?") und hat dabei
+> > die Felder mit übersehen, die **keinen Personenbezug tragen und
+> > trotzdem Pflicht sind**. Beide neuen Felder ändern an der
+> > Minimierungs-Absicht nichts: `SP-01` ist ein interner Zähler,
+> > `SP-09` ein Festwert. **Die einzige inhaltliche Sperre bleibt
+> > `SP-04`.**
+> > ⚠️ **Gegenprobe zur Vollzähligkeit:** `SP-01` bis `SP-10` sind in
+> > der Feldtabelle **alle** mit ✅ Pflicht geführt — mit der einzigen
+> > Ausnahme `SP-04` (🔶). Die neue Liste ist damit deckungsgleich mit
+> > *alle Pflichtfelder außer `SP-04`*. `SP-11` bis `SP-13` bleiben bei
+> > `ANL-3` **leer** (kein Antwortschreiben, s. § 3 und Feld `SP-11`),
+> > `SP-14`/`SP-15` sind bedingte Felder — sie fehlen hier also nicht,
+> > sie greifen nicht.
+> > **Ableitung im selben Zug nachgezogen** (L-25):
+> > `handel/anwalts-briefing-2026-08.md` § 4a Kandidat A zählte
+> > dieselben sieben Felder in Klartext auf; dort stehen jetzt neun.
 
 ---
 

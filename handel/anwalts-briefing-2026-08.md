@@ -22,9 +22,10 @@ bestimmt** · Übermittelt zum Zweck der Mandatsanbahnung
 | **Empfänger** | **⛔ NOCH NICHT BESTIMMT.** Im Repo ist keine Kanzlei benannt; die Auswahl trifft der User / die Firmen-Ebene. Bis dahin steht überall `[KANZLEI]` |
 | **Absender** | **⛔ FIRMIERUNG OFFEN (interner Posten F-7).** Der Rebrand ist entschieden, der neue Name steht noch nicht fest. Überall `[FIRMIERUNG — offen, F-7]`. **Keine erfundene Firmierung**, auch nicht als Beispiel |
 | **Quell-Abgleich gelaufen** | `handel/kanal-rechtsmatrix.md` · `akquise/interessenabwaegung-o8.md` · `akquise/listenbau-regelwerk.md` · `akquise/sperrdatei-struktur.md` · `projektquelle-mkt.md` § 5 · `protokolle/R14-B-abschluss.md`, je gegen die **Rohbelege** (s. § 7), 14.08.2026 — **zweiter Durchgang nach dem Prüferlauf** (Befund S-2: der erste hatte die Fallgruppen-Tabelle des O-8-Dokuments auf ihrer eigenen Achse nicht gefangen) |
-| **Repo-Stand beim Bau** | `4b84693` (R15-A, eingefroren zu Beginn jener Session; zweiter Messstand vor dem Commit in `protokolle/R15-A-abschluss.md`). **Nachtrag R16-A, 17.08.2026:** Prüfstand dieser Session `0c4692f`, eingefroren zu Sessionbeginn. ⚠️ **Zweiter Messstand vor dem Commit: `686ff18`** — der geteilte Arbeitsbaum ist während der Arbeit gewandert (Parallel-Session R16-C hat committet), der Bau-Commit `a495a0f` sitzt deshalb auf `686ff18`. **Gemessen und folgenlos:** `git diff 0c4692f 686ff18` berührt keine der hier bearbeiteten Dateien; die Löschungszählung gegen beide Stände ist identisch. **Nachtrag R17-A, 17.08.2026:** Prüfstand dieser Session `90254e1`, eingefroren zu Sessionbeginn (der Rundenstart-Hash `926ca3c` liegt genau einen Commit davor und berührt nur den Tagesplan). Zweiter Messstand vor dem Commit und Bau-Commit: `protokolle/R17-A-abschluss.md` |
+| **Repo-Stand beim Bau** | `4b84693` (R15-A, eingefroren zu Beginn jener Session; zweiter Messstand vor dem Commit in `protokolle/R15-A-abschluss.md`). **Nachtrag R16-A, 17.08.2026:** Prüfstand dieser Session `0c4692f`, eingefroren zu Sessionbeginn. ⚠️ **Zweiter Messstand vor dem Commit: `686ff18`** — der geteilte Arbeitsbaum ist während der Arbeit gewandert (Parallel-Session R16-C hat committet), der Bau-Commit `a495a0f` sitzt deshalb auf `686ff18`. **Gemessen und folgenlos:** `git diff 0c4692f 686ff18` berührt keine der hier bearbeiteten Dateien; die Löschungszählung gegen beide Stände ist identisch. **Nachtrag R17-A, 17.08.2026:** Prüfstand dieser Session `90254e1`, eingefroren zu Sessionbeginn (der Rundenstart-Hash `926ca3c` liegt genau einen Commit davor und berührt nur den Tagesplan). Zweiter Messstand vor dem Commit und Bau-Commit: `protokolle/R17-A-abschluss.md`. **Nachtrag R18-A, 17.08.2026:** Rundenstart `86afceb`, Prüfstand dieser Session `a7fca1c` (eingefroren zu Sessionbeginn; der Commit dazwischen berührt **nur** den Tagesplan, `git diff --stat 86afceb..a7fca1c` = 1 Datei). Zweiter Messstand vor dem Commit und Bau-Commit: `protokolle/R18-A-abschluss.md` |
 | **Änderungen R16-A (17.08.2026)** | **Status bleibt ENTWURF.** Vier Eingriffe: (1) § 2.1 nachgezogen — der A7-Kernsatz der Rechtsmatrix ist inzwischen **neu gefasst**, der Abschnitt beschrieb ihn noch als „nur markiert"; (2) § 3.2 um **Teilfrage 1a** ergänzt (zweite Schiene § 3 Abs. 2 UWG im B2B-Fall) samt Fundstellen Rn. 136/147/148 in § 3.3 — ohne sie hätte die Antwort auf Frage 3 nur die Hälfte der Doppelbegründung erfasst; (3) **ID-Zeiger** an § 4a Kandidat A (`ANL-3` / `PS-1` / `R15E-N-4`), damit ein Grep auf die Kürzel künftig trifft; (4) 🔧 **Reparatur in § 4a Kandidat A:** Dort stand „ohne Personennamen **und ohne jede weitere Angabe**" — das war eine unzutreffende Bestandsaussage. `akquise/sperrdatei-struktur.md` § 3 führt für `ANL-3` **sieben** Felder (SP-02, SP-03, SP-05 bis SP-08, SP-10) und schließt nur SP-04 (Personenname) und das Grund-Feld aus. Der Satz ist auf den gemessenen Stand gebracht |
-| **Änderungen R17-A (17.08.2026, Nachmittag)** | **Status bleibt ENTWURF.** Fünf Eingriffe: (1) § 2.3 — der Satz „Den Beschluss 20 W 37/24 haben wir nicht beschafft" ist **überholt**; der Beschluss liegt im Volltext vor, Auswertung als Nachtragskasten (Vorfassung durchgestrichen sichtbar); (2) § 2.3 — die **deutsche** Sprachfassung des EuGH-Urteils C-621/22 ist beschafft, die Sprachfassungs-**Annahme** damit am Objekt geprüft und bestätigt, der Vorbehalt „nicht abrufbar" war ein **Werkzeug**-, kein Quellenbefund; (3) § 3.2 um **Teilfrage 1c** ergänzt — die **dritte** Unlauterkeits-Schiene §§ 5a Abs. 1, 5b Abs. 4 UWG (Rn. 221/223/225/243/244 sowie die Darlegungslast-Umkehr Rn. 176/234), die im ganzen Bestand fehlte, weil die Randnummern ab 156 nie gelesen waren; (4) 🔧 **Korrektur der R16-A-Zeile darüber:** Die Zahl **sieben** ist am Objekt bestätigt (SP-02, SP-03, SP-05, SP-06, SP-07, SP-08, SP-10 = 7 — nachgezählt in `akquise/sperrdatei-struktur.md`, Abschnitt vor § 3a; § 4a Kandidat A zählt dieselben sieben in Klartext auf und ist korrekt). **Falsch ist der Zusatz** „und schließt **nur** SP-04 (Personenname) und das Grund-Feld aus": Die Quelle formuliert eine **abschließende Positivliste** („tragen **nur** SP-02, SP-03, SP-05 bis SP-08 und SP-10 — niemals SP-04"), aus der auch SP-01, SP-09 und SP-11 ff. herausfallen. Ein „schließt nur zwei aus" macht aus einer engen Positivliste eine weite Erlaubnis; (5) **Repo-Stand** um den R17-A-Prüfstand ergänzt |
+| **Änderungen R17-A (17.08.2026, Nachmittag)** | **Status bleibt ENTWURF.** Fünf Eingriffe: (1) § 2.3 — der Satz „Den Beschluss 20 W 37/24 haben wir nicht beschafft" ist **überholt**; der Beschluss liegt im Volltext vor, Auswertung als Nachtragskasten (Vorfassung durchgestrichen sichtbar); (2) § 2.3 — die **deutsche** Sprachfassung des EuGH-Urteils C-621/22 ist beschafft, die Sprachfassungs-**Annahme** damit am Objekt geprüft und bestätigt, der Vorbehalt „nicht abrufbar" war ein **Werkzeug**-, kein Quellenbefund; (3) § 3.2 um **Teilfrage 1c** ergänzt — die **dritte** Unlauterkeits-Schiene §§ 5a Abs. 1, 5b Abs. 4 UWG (Rn. 221/223/225/243/244 sowie die Darlegungslast-Umkehr Rn. 176/234), die im ganzen Bestand fehlte, weil die Randnummern ab 156 nie gelesen waren; (4) 🔧 **Korrektur der R16-A-Zeile darüber:** Die Zahl **sieben** ist am Objekt bestätigt (SP-02, SP-03, SP-05, SP-06, SP-07, SP-08, SP-10 = 7 — nachgezählt in `akquise/sperrdatei-struktur.md`, Abschnitt vor § 3a; § 4a Kandidat A zählt dieselben sieben in Klartext auf und ist korrekt). **Falsch ist der Zusatz** „und schließt **nur** SP-04 (Personenname) und das Grund-Feld aus": Die Quelle formuliert eine **abschließende Positivliste** („tragen **nur** SP-02, SP-03, SP-05 bis SP-08 und SP-10 — niemals SP-04"), aus der auch SP-01, SP-09 und SP-11 ff. herausfallen. Ein „schließt nur zwei aus" macht aus einer engen Positivliste eine weite Erlaubnis; (5) **Repo-Stand** um den R17-A-Prüfstand ergänzt. ⭐ **Nachtrag 17.08.2026 (R18-A) — Punkt (4) beschreibt einen überholten Quellenstand:** Die dort zitierte Positivliste war **selbst fehlerhaft** und ist inzwischen repariert (`akquise/sperrdatei-struktur.md`, Absatz vor § 3a; Nebenbefund `R17A-N-7`) — sie ließ mit `SP-01` und `SP-09` zwei **Pflichtfelder** der eigenen Feldtabelle fallen. Der Satz oben bleibt im Originalwortlaut stehen, weil er die Herkunft der Korrekturkette dokumentiert; **maßgeblich ist der neue Stand: `SP-01` bis `SP-03`, `SP-05` bis `SP-10` — niemals `SP-04`** (neun Felder, nicht sieben) |
+| **Änderungen R18-A (17.08.2026, Abend)** | **Status bleibt ENTWURF; keine der offenen User-Entscheidungen ist vorweggenommen, keine Frage ist beantwortet.** Neun Eingriffe: (1) § 2.2 **Teilfrage 4a** ergänzt — die Beschaffung von I-20 U 107/23 und I-20 U 117/23 war bisher nur ein Angebot im Nachtragskasten in 2.3 und damit **keine gestellte Bitte**; (2) 🔧 § 2.3 — „wäre das die Stelle, an der die Gegenauffassung **tragend begründet** ist" repariert: Der Beschluss sagt in Rn. 22 „**Kenntnis**", nicht „begründet" (dieselbe Überdehnung stand in der Rechtsmatrix und ist dort im selben Zug gefallen); (3) § 2.3 Quellentabelle — „Original nicht beschafft" zu 20 W 37/24 ist seit R17-A **überholt**, Vorwärtsverweis gesetzt; (4) § 7.2 — 20 W 37/24 aus der Liste *nicht am Original geprüft* **gestrichen**, aus demselben Grund (beides L-51: Der Beschaffungserfolg kippte die Sätze, ohne dass die Stellen angefasst wurden); (5) 🔧 § 4a Kandidat A — die ANL-3-Feldliste nannte sieben statt neun Felder, **Sperr-ID und Reichweite** nachgetragen; (6) § 4a **Kandidat C neu** — *Trägt ein Arbeitstitel die Art.-14-Angabe zum Verantwortlichen?* (Herkunft: Akquiseplan § 3.2 Pfad (b), R17-C Block 2 Nr. 2), als **streitig/ungeklärt** eingetragen, mit begründeter Ortswahl; (7) § 4a Kopf und § 8 von „zwei" auf **drei** Kandidaten nachgezogen; (8) § 8 um die **Zulieferungs-Zeile** zu Teilfrage 4a ergänzt; (9) **Repo-Stand** um den R18-A-Prüfstand ergänzt. **Zweiter Beschaffungsversuch** zu den beiden Parallelverfahren gelaufen (vier Kanäle, je mit Positivkontrolle) — **ohne Treffer, alle vier Nulltreffer sind Kanalbefunde**; Protokoll in `protokolle/R18-A-abschluss.md` |
 | **Was dieses Dokument NICHT tut** | Es **entscheidet nichts** und nimmt keine Antwort vorweg. Wo unsere eigene Vorarbeit einen Streitstand gefunden hat, steht „streitig" — nicht der bequemere Pol |
 | **⚠️ Offene User-Entscheidung vor dem Versand** | § 0 Satz 7 offenbart, dass wir das Impressums-Risiko **bewusst und gegen die eigene Empfehlung** tragen. Das ist der ehrlichste und zugleich der angreifbarste Satz des Dokuments: Er geht an einen Empfänger, der zu diesem Zeitpunkt noch nicht mandatiert ist. **Drei Möglichkeiten:** (a) so lassen — der Anwalt kann ohne diese Angabe nicht sinnvoll beraten; (b) erst nach Mandatserteilung nachreichen; (c) neutraler fassen („wir haben uns nach Abwägung für die Nutzung entschieden"). **Empfehlung dieser Session: (a)**, weil Weg B in § 1.5 sonst nicht bewertbar ist — die Entscheidung trifft der User |
 
@@ -422,6 +423,13 @@ Urteil prüft die lauterkeitsrechtliche Schiene durch und bejaht sie.
    als vorläufiges Beratungsergebnis mitgeteilt haben soll und sie in
    einer nicht tragenden Erwägung eines Beschlusses geäußert hat**
    (Rn. 111, Wortlaut in 2.3)?
+4a. **Zulieferung, keine Rechtsfrage:** Können Sie uns über
+   juris/beck-online die Entscheidungen **I-20 U 107/23** und
+   **I-20 U 117/23** beschaffen? Der Senat nennt sie in 20 W 37/24
+   Rn. 22 als die Verfahren, aus denen die Parteien seine Auffassung
+   kennen; uns fehlt für die amtliche Datenbank das Entscheidungsdatum.
+   *(Ergänzt 17.08.2026, R18-A — der Punkt stand bisher nur als Angebot
+   im Nachtragskasten in 2.3 und war damit keine gestellte Bitte.)*
 5. **Die Datenquelle im Brief — Rn. 115.** Art. 14 Abs. 2 lit. f DSGVO
    verlangt die Angabe der Datenherkunft. Das Gericht macht daraus in
    Rn. 115 ein **Irreführungs**-Argument: Hätte die Beklagte angegeben,
@@ -575,13 +583,32 @@ Interesses gerade an der lauterkeitsrechtlichen Zulässigkeit misst.
 >    Irreführungs-Achse, nicht den ersten Absagegrund des Landgerichts
 >    (Rn. 84/85, Art.-14-/Art.-21-Pflichten).**
 >
-> **Was wir NICHT haben:** die begründete Fassung dieser Auffassung.
-> Sie dürfte in **I-20 U 107/23** und **I-20 U 117/23** stehen; beide
-> Entscheidungen konnten wir nicht auffinden (uns fehlt das
-> Entscheidungsdatum für die Dokument-URL der amtlichen Datenbank;
-> Web-Suche und Jahresindex ohne Treffer). **Falls Ihnen über
-> juris/beck-online der Zugriff möglich ist, wäre das die Stelle, an
-> der die Gegenauffassung tragend begründet ist.**
+> **Was wir NICHT haben:** eine begründete Fassung dieser Auffassung.
+> Der Senat nennt **I-20 U 107/23** und **I-20 U 117/23** als die
+> Verfahren, aus denen die **Parteien** seine Auffassung kennen — dass
+> sie dort begründet worden wäre, sagt er nicht. Beide Entscheidungen
+> konnten wir nicht auffinden; uns fehlt das Entscheidungsdatum für die
+> Dokument-URL der amtlichen Datenbank (**zweiter Beschaffungsversuch am
+> 17.08.2026 über vier Kanäle, jeder mit Positivkontrolle im selben
+> Lauf — alle vier Nulltreffer sind Kanalbefunde, keine Aussage über die
+> Entscheidungen**). **Falls Ihnen über juris/beck-online der Zugriff
+> möglich ist, bitten wir um diese beiden Entscheidungen — sie sind die
+> einzige uns bekannte Spur zu einer begründeten Fassung der
+> Gegenauffassung** (aufgenommen als Zulieferungs-Bitte in § 8).
+>
+> > 🔧 **REPARIERT 17.08.2026 (R18-A) — hier stand:** „Sie **dürfte** in
+> > I-20 U 107/23 und I-20 U 117/23 stehen; … Falls Ihnen über
+> > juris/beck-online der Zugriff möglich ist, **wäre das die Stelle, an
+> > der die Gegenauffassung tragend begründet ist**."
+> > Der erste Halbsatz war korrekt als Vermutung markiert, der zweite
+> > machte daraus eine Feststellung über einen Text, den wir nicht
+> > gelesen haben — und zwar in einem Satz, der an einen **Anwalt**
+> > geht. Der Beschluss trägt sie nicht: Rn. 22 sagt „**Kenntnis**",
+> > nicht „begründet"; und die Auffassung steht dort selbst nur als
+> > „Im Übrigen hat der Senat bereits darauf hingewiesen …". Dieselbe
+> > Überdehnung stand in `handel/kanal-rechtsmatrix.md` (Punkt 8 des
+> > Beschluss-Kastens) und ist dort im selben Zug repariert — L-51:
+> > Wer einen Satz kippt, kippt seine Folgesätze.
 >
 > ⚠️ **Zitierhinweis:** Der Beschluss ist in sich datumsuneinheitlich
 > (Tenor „Ordnungsgeldbeschluss … vom 06. Mai 2024" ↔ Rn. 5 „vom
@@ -743,7 +770,7 @@ Fassung; sie ist korrigiert.)*
 | **OLG Stuttgart** | „OLG Stuttgart, Beschluss vom 2. Februar 2024 - 2 U 63/22, GRUR-RS 2024, 3802" (Rn. 79, erneut Rn. 83) | Vom LG referiert als möglicherweise dahin zu verstehen, „dass an die Zulässigkeit einer zum Zwecke der Direktwerbung vorgenommenen Datenverarbeitung weniger strenge Anforderungen zu stellen sind" |
 | **Eckhardt, ZD 2024, 399** | Rn. 79, mit Fazit-Zitat [S. 401] | „die Neukundengewinnung mittels Briefpostwerbung […] grundsätzlich gerechtfertigt ist, es sei denn, die betroffene Person hat widersprochen" |
 | **Eckhardt, ZD 2025, 443** | Rn. 79, Rn. 83 [444] und [447] | Direktwerbung als berechtigtes Interesse nach ErwG 47; die Vertreter dieser Sicht setzen aber voraus, dass die Betroffenen nach Artt. 13, 14, 21 DSGVO in der Werbesendung transparent informiert werden |
-| ⭐ **OLG Düsseldorf**, Beschl. v. 19.12.2024 – 20 W 37/24 | Rn. 111 | **Abweichende Auffassung des zuständigen Berufungsgerichts**, geäußert in einer nicht tragenden Erwägung; dazu ein von der dortigen Beklagten behauptetes vorläufiges Beratungsergebnis aus mehreren mündlichen Verhandlungen. **Original nicht beschafft** |
+| ⭐ **OLG Düsseldorf**, Beschl. v. 19.12.2024 – 20 W 37/24 | Rn. 111 | **Abweichende Auffassung des zuständigen Berufungsgerichts**, geäußert in einer nicht tragenden Erwägung; dazu ein von der dortigen Beklagten behauptetes vorläufiges Beratungsergebnis aus mehreren mündlichen Verhandlungen. ~~**Original nicht beschafft**~~ → ⭐ **ÜBERHOLT 17.08.2026 (R17-A): Original beschafft** — amtlicher NRWE-Volltext, Rn. 1–27 vollständig gelesen, Auswertung im Nachtragskasten in 2.3. *(Vorwärtsverweis nachgetragen 17.08.2026, R18-A: Die Zeile trug den alten Stand noch, obwohl derselbe Satz an zwei anderen Stellen dieses Dokuments bereits durchgestrichen war — L-51.)* |
 | **Ziebarth, VuR 2024, 379 [383 ff.]** | Rn. 79, Rn. 77 | Vom Gericht auf der **strengeren** Seite angeführt — der Vollständigkeit halber genannt, damit die Tabelle nicht nur die großzügigere Literatur führt. **Original nicht beschafft** |
 
 Die drei Gegengründe (Rn. 80 bis 82): Direktwerbung *kann* ein
@@ -1272,14 +1299,16 @@ versehentlich mitbeantworten.
 
 ---
 
-## 4a. ⚠️ Zwei weitere Kandidaten für dieselbe Beauftragung — Entscheidung des Users vor dem Versand
+## 4a. ⚠️ Drei weitere Kandidaten für dieselbe Beauftragung — Entscheidung des Users vor dem Versand
 
 **Dieser Abschnitt ist eine Vorlage, keine Festlegung.** Er steht hier,
-weil unser eigener Bestand beide Punkte für **denselben** anwaltlichen
+weil unser eigener Bestand alle drei Punkte für **denselben** anwaltlichen
 Rat vorsieht und ein zweiter Termin sonst unvermeidlich wäre. Ob sie
 mitgehen, entscheidet der User; wenn nicht, wird der Abschnitt vor dem
-Versand ersatzlos gestrichen. **Beide sind bewusst kurz gehalten** — sie
-sollen die vier Hauptfragen nicht verdrängen.
+Versand ersatzlos gestrichen. **Alle drei sind bewusst kurz gehalten** —
+sie sollen die vier Hauptfragen nicht verdrängen. *(Überschrift und
+Absatz von „zwei" auf „drei" nachgezogen 17.08.2026, R18-A — mit
+Kandidat C darunter; L-51.)*
 
 ### Kandidat A — Speicherung eines fremden Impressums-Werbewiderspruchs
 
@@ -1307,8 +1336,19 @@ antworten könnten.
 
 Bis zur Klärung führen wir solche Einträge in der **engeren**
 Handhabung: **ohne Personennamen** und ohne den Grund des Widerspruchs;
-geführt werden Betriebsname, Postanschrift, Aufnahme-Anlass,
-Eingangsweg, Eingangs- und Eintragsdatum sowie eine Beleg-Referenz.
+geführt werden eine interne Sperr-ID, Betriebsname, Postanschrift,
+Aufnahme-Anlass, Eingangsweg, Eingangs- und Eintragsdatum, die
+Reichweite der Sperre sowie eine Beleg-Referenz.
+
+> 🔧 **Nachgezogen 17.08.2026 (R18-A) — hier fehlten zwei Felder.** Die
+> Aufzählung nannte sieben Angaben und ließ **Sperr-ID** und
+> **Reichweite der Sperre** aus, obwohl `akquise/sperrdatei-struktur.md`
+> beide als **Pflichtfelder** führt (`SP-01`, `SP-09`). Ursache war eine
+> Positivliste in der Quelle, die dieselben zwei Felder fallen ließ; sie
+> ist im selben Zug repariert (Nebenbefund `R17A-N-7`). **Für die Frage
+> an Sie ändert das nichts** — beide Felder tragen keinen Personenbezug;
+> die Angabe steht hier, weil ein Briefing seinen eigenen Bestand
+> zutreffend beschreiben muss.
 Unser Bestand vermerkt dazu: „Ob der Eintrag
 eines fremden Impressumsvermerks in einen eigenen Sperrbestand
 seinerseits eine zulässige Verarbeitung ist, ist **nicht erhoben**."
@@ -1337,6 +1377,46 @@ Kanal-Rechtsmatrix behandelt diese Konstellation nicht und schließt
 zugleich jeden Rückschluss von einem zulässigen Kanal auf einen anderen
 aus. Der Punkt ist bei uns als offener Befund geführt; er betrifft den
 Kanal, den unsere Planung auf Rang 1 setzt.
+
+### Kandidat C — Trägt ein Arbeitstitel die Art.-14-Angabe zum Verantwortlichen?
+
+> 🔖 **Interner ID-Zeiger (nicht Teil des Versandtexts):** Herkunft ist
+> der Nachtragskasten in `akquise/akquiseplan.md` § 3.2 zu Pfad (b)
+> („Arbeitstitel"), aufgenommen über R17-C Block 2 Nr. 2; er hängt am
+> internen Posten **F-7** (offene Firmierung) und am Entscheid
+> **E-A1**. *(Ergänzt 17.08.2026, R18-A.)*
+
+Unsere Firmierung steht noch nicht fest: Der Rebrand ist entschieden,
+der neue Name entsteht gerade (interner Posten F-7). Zugleich sperrt
+nach unserer Lesart des LG-Urteils (Rn. 87, Frage 2 Teilfrage 6) bereits
+der **erste Datensatz** die Vorbereitung — und die Art.-14-Information
+verlangt die Angabe des **Verantwortlichen** mit ladungsfähiger
+Anschrift. Für den Fall, dass wir vor dem Namensentscheid beginnen,
+stellt sich deshalb die Frage: **Kann eine Firma in Gründung diese
+Pflichtangabe unter einem Arbeitstitel bzw. der bestehenden Firmierung
+erfüllen — und was löst der spätere Namenswechsel gegenüber denjenigen
+Adressaten aus, die bereits unter dem alten Namen informiert wurden?**
+
+**Der Stand bei uns ist ausdrücklich offen, nicht entschieden.** Unser
+Abwägungsdokument hält fest, dass ohne feststehende Firmierung die
+Art.-14-Pflichtangaben nicht erfüllbar sind; ob ein Arbeitstitel diese
+Lücke schließt, **ist bei uns weder geprüft noch beantwortet** — die
+Frage ist in unserem gesamten Bestand an keiner Stelle gestellt
+(Suchweg 17.08.2026: `grep -rn "Arbeitstitel"` über `handel/` und
+`akquise/` — **null Treffer in `handel/`**, alle 11 Fundstellen liegen
+im Akquiseplan; Positivkontrollen im selben Lauf: „Verantwortlich" = 17
+und „Rebrand" = 3 Treffer in diesem Briefing). Wir tragen sie deshalb
+als **streitig/ungeklärt** ein und nehmen keine Antwort vorweg.
+
+> **Warum hier und nicht bei Frage 2:** Die Frage berührt zwar das
+> Art.-14-Umfeld der Frage 2 (dort Teilfragen 5, 5a und 6), hängt aber
+> an einem noch offenen **eigenen** Entscheid (E-A1 „Warten oder
+> Arbeitstitel?") — sie wäre in Frage 2 eine fünfte Achse in einem
+> abgeschlossenen Fragenzuschnitt. Genau daran ist in R15 schon einmal
+> ein Zuschnitt verschoben worden (Befund H-4). § 4a ist der Ort, den
+> dieses Dokument für Kandidaten vorsieht, über die **der User vor dem
+> Versand** entscheidet. Fällt E-A1 auf Pfad (a) „Warten", ist Kandidat C
+> gegenstandslos und wird gestrichen.
 
 ---
 
@@ -1418,8 +1498,15 @@ Beschaffungsprotokoll, Prüfsummen und Positivkontrollen.)*
 - **Die Inhalte der vom LG zitierten EuGH- und BGH-Entscheidungen haben
   wir nicht am Original geprüft** — nur ihre Wiedergabe im LG-Volltext.
   Vollständig sind das: **C-21/23** · **C-319/20** · **I ZR 186/17** ·
-  **I ZR 222/19** · **I ZR 223/19** · **OLG Düsseldorf 20 W 37/24**
-  (Rn. 111, die abweichende Auffassung des Berufungsgerichts) · **BGH
+  **I ZR 222/19** · **I ZR 223/19** · ~~**OLG Düsseldorf 20 W 37/24**
+  (Rn. 111, die abweichende Auffassung des Berufungsgerichts)~~
+  → ⭐ **gestrichen 17.08.2026 (R18-A): Dieser Beschluss IST am Original
+  geprüft** — Volltext beschafft, Rn. 1–27 gelesen (R17-A, Auswertung in
+  2.3); er gehört seit dem nicht mehr in diese Liste. *(L-51: Der
+  Beschaffungserfolg von R17-A kippte diesen Satz, ohne dass die Stelle
+  angefasst wurde — die Liste stand in einem Abschnitt „Was wir NICHT
+  erhoben haben", den niemand als geändert las. Die übrigen Einträge
+  sind unverändert offen.)* · **BGH
   I ZR 167/09 „Kreditkartenübersendung"** (Rn. 83, trägt die Bedingung
   „sofort und unmissverständlich erkennbar") · **EuGH C-394/23
   „Mousse"** (Rn. 82, trägt das Widerspruchs-Argument) · **Ziebarth,
@@ -1469,7 +1556,8 @@ ist uns der Hinweis willkommen.**
 | **2** | Frage 2 (Reichweite des LG-Urteils) | Bestimmt, was in allen unseren Betriebsunterlagen steht |
 | **3** | Frage 3 (§ 3a UWG **und § 3 Abs. 2 UWG** bei B2B, Kostenfolge) | Bestimmt das Risikoprofil, nicht den Start |
 | **4** | Frage 4 (Lizenzserver-Ping) | Sperrt kein Datum, sondern das erste Angebot in einer bestimmten Architektur; hier fehlt uns außerdem noch eine technische Angabe |
-| *(offen)* | Abschnitt 4a, Kandidaten A und B | **Nur falls sie im Auftrag bleiben** — die Entscheidung darüber fällt vor dem Versand |
+| *(offen)* | Abschnitt 4a, Kandidaten A, B **und C** | **Nur falls sie im Auftrag bleiben** — die Entscheidung darüber fällt vor dem Versand. *(Kandidat C ergänzt 17.08.2026, R18-A; er entfällt automatisch, wenn E-A1 auf „Warten" fällt)* |
+| **Zulieferung** | **I-20 U 107/23 und I-20 U 117/23** (Teilfrage 4a) | Keine Rechtsfrage, sondern ein **Beschaffungswunsch**: uns fehlt das Entscheidungsdatum, Ihnen steht juris/beck-online offen. Die Antwort auf Frage 2 wird dadurch belastbarer, sie hängt aber nicht daran *(ergänzt 17.08.2026, R18-A)* |
 
 **Form der Antwort:** Uns hilft eine schriftliche Einschätzung mehr als
 ein Telefonat, weil wir die Aussagen in Betriebsunterlagen übernehmen

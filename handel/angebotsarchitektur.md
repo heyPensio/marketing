@@ -1994,6 +1994,71 @@ er schweigt zu Plan/Edition (Rohbeleg § 3.7, „Der Widerspruch, der den
 Restpunkt trägt"). Wer auf eine Rohtext-Beschaffung wartet, wartet auf
 die falsche Quelle; die Antwort kann nur von n8n selbst kommen (O-4).
 
+### 6a.7a Prüfposten `PV-1` — Verbraucher-Berührung der eigenen Angebots- und Vertragsdokumente
+
+*(Ergänzt 17.08.2026, R18-A, aus dem Leseraum Rn. 156–273 des LG-Urteils;
+Herkunft `protokolle/R17-A-abschluss.md` § 1.3, dort Nebenbefund N-2 —
+bewusst nicht eingearbeitet und an MKT-HANDEL übergeben. ID-Kollisions-Grep
+vor der Vergabe gelaufen: `PV-1` repo-weit **0** Treffer, Positivkontrolle
+`GA-1` = 15, Gegenprobe `ZZ-99` = 0.)*
+
+**Der Satz mit der Fernwirkung.** LG Düsseldorf 38 O 243/23 stellt in
+**Rn. 187** fest, die Voraussetzungen des § 3 Abs. 2 UWG seien „**im
+Allgemeinen erfüllt, wenn ein Unternehmer gegenüber Verbrauchern nach
+§ 307 Abs. 1 BGB unwirksame Allgemeine Geschäftsbedingungen verwendet**" —
+weil solche Klauseln „trotz ihrer Unwirksamkeit Verbraucher davon abhalten
+können, berechtigte Ansprüche gegen den Verwender geltend zu machen".
+**Rn. 188** dehnt das ausdrücklich auf den zweiten Fall aus: „**Nichts
+anderes kann gelten**, wenn ein Unternehmer gegenüber Verbrauchern
+Allgemeine Geschäftsbedingungen verwendet, er dabei aber eine Gestaltung
+wählt, bei der die notwendigen Voraussetzungen für die **Einbeziehung**
+dieser Geschäftsbedingungen in den Vertrag nicht erfüllt sind."
+
+**Zwei Wege in dieselbe Haftung also:** unwirksame Klausel **oder** wirksame
+Klausel ohne wirksame Einbeziehung. Der zweite ist der unauffälligere.
+
+**Was das Urteil an konkreten Gestaltungsfehlern benennt** (klauselweise
+gegen unseren Bestand gelesen, Rn. 178–209):
+
+| Fundstelle | Aussage | Warum sie uns treffen kann |
+|---|---|---|
+| **Rn. 202** | Ein AGB-Hinweis auf dem Auftragsformular („Es gelten die Allgemeinen Geschäftsbedingungen \(abrufbar über …\)") war zur Einbeziehung nach § 305 Abs. 2 BGB **ungeeignet** — weil der Hinweis **selbst** eine nach § 307 Abs. 1 S. 2 BGB unwirksame Klausel ist (unter Berufung auf BGH, Urt. v. 10.07.2025 – III ZR 59/24) | Genau diese Hinweisform ist der Standard in Angebots-PDFs. **Der Verweis auf eine Web-Adresse ersetzt die Einbeziehung nicht** |
+| **Rn. 206–209** | Eine Klausel, die in einem **Übersichtsdokument** an einer Stelle abgedruckt ist, an der der Empfänger sie nicht erwartet (dort: im Abschnitt „Preis" einer Vertragszusammenfassung), verstößt gegen das **Überraschungsverbot** des § 305c Abs. 1 BGB und wird **nicht Vertragsbestandteil** | Unsere Paketübersichten und Preisblätter sind genau solche Übersichtsdokumente. Wer dort eine Pflicht des Kunden platziert, hat sie im Zweifel **nicht** wirksam vereinbart — und trägt zugleich das § 3 Abs. 2-Risiko aus Rn. 188 |
+
+⚠️ **Geltungsgrenze, die mitgehört werden muss:** Alle drei Randnummern
+sprechen von **Verbrauchern**. Für eine reine B2B-Ansprache ist die Frage
+offen — sie hängt an derselben Achse wie Frage 3 des Anwalts-Briefings
+(`handel/anwalts-briefing-2026-08.md` § 3.2) und wird hier **nicht**
+beantwortet. Der Posten unten ist deshalb an die **Verbraucher-Berührung**
+gebunden, nicht an jede Angebotsabgabe.
+
+> **`PV-1` — Prüfposten, KEIN Gate.** *Auslöser:* Bevor das **erste**
+> Angebots-, Preis- oder Vertragsdokument an einen Adressaten geht, der
+> **Verbraucher sein kann** (Einzelunternehmer und Privatvermieter ohne
+> Unternehmereigenschaft sind der reale Fall in unserer Zielgruppe —
+> `akquise/interessenabwaegung-o8.md` § 5.4 führt sie als eigene
+> Fallgruppen), wird geprüft: **(1)** Enthält das Dokument Klauseln, die
+> Pflichten des Kunden begründen? **(2)** Wenn ja — sind sie an einer
+> Stelle platziert, an der der Empfänger sie erwarten kann (Rn. 206–209)?
+> **(3)** Trägt die gewählte Einbeziehungsform mehr als einen Verweis auf
+> eine Web-Adresse (Rn. 202)? *Träger:* **MKT-HANDEL**, gemeinsam mit dem
+> Vertrags-/AVV-Strang, der die Zulieferung an die Zentrale verantwortet.
+> *Anschluss:* Die Klauselprüfung selbst ist **Rechtsberatung** und
+> gehört zu demselben Mandat wie die vier Briefing-Fragen — dieser Posten
+> stellt sicher, dass sie **vor** dem ersten Dokument gestellt wird, nicht
+> danach.
+>
+> ⚠️ **Warum ausdrücklich kein fünftes GA-Gate:** Die GA-Kette hängt am
+> Ereignis „Angebot mit **A3-Architektur** geht hinaus" und ist selbst
+> noch ein **Vorschlag** (s. 6a.7, Reparatur nach Prüferbefund F-7).
+> `PV-1` hat einen **anderen** Auslöser und sperrt nichts — er ist ein
+> Prüfschritt mit Termin-Ersatz. **Eine konditionale Warnung ohne
+> Prüfschritt altert lautlos** (CLAUDE.md); ohne diesen Absatz wäre der
+> Posten ein *sobald irgendwann Verbraucher betroffen sind* gewesen, das
+> niemand je wieder aufschlägt. Eine **Sperre** daraus zu machen wäre
+> dagegen eine Betriebs-Festlegung mit Außenwirkung — die trifft diese
+> Session nicht allein.
+
 ### 6a.8 Was dieser Abschnitt NICHT tut — und was er offen an andere gibt
 
 **Nicht getan (ausdrücklich):**

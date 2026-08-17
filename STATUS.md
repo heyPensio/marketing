@@ -26,7 +26,46 @@
 ---
 
 ## Letzte Aktualisierung
-**17.08.2026 nachmittags (R16, Shanks + Ben Beckman + Codex + Lucky Roux
+**17.08.2026 abends (R17, Shanks + Ben Beckman + Codex + Lucky Roux
+parallel — Folgerunde nach `/clear`)** — ⭐⭐ **Die Gegenauffassung des
+Berufungsgerichts liegt im Original vor, das Urteil ist vollständig
+ausgewertet, der Zitat-Wächter deckt 27 Dateien mit lokalem Rohbeleg-Pool,
+und die CLAUDE.md ist unter der Sollmarke.**
+🔴 Prüf-Subagent kippte **3 von 18** Verneinungen (Preismodell trug den
+O-2-Superlativ NIE — R15B-N-4 halb unbelegt; Rn. 237 war vom R15-A-Prüfer
+geprüft; „119" schon korrigiert).
+**R17-A:** **OLG Düsseldorf 20 W 37/24 im Volltext** — Ordnungsmittel-
+verfahren, „abweichende Auffassung" = „Im Übrigen"-Nebensatz zur
+Irreführung, **kein Wort Datenschutz**, Rechtsbeschwerde nicht zugelassen
+(Rn. 27) · **EuGH C-621/22 DE-Volltext** (nur `curl -L` fehlte — vier
+Runden als „nicht abrufbar" geführt) · **14 statt 12 Rn.** nachgeholt
+(77/77), Rn. 156–273 tabelliert, dritte Angriffsschiene als neue
+Briefing-Frage · Ableitungen nachgezogen · Prüfer **19 = 1/8/10, 18
+repariert + 1 → N-7** · 46/46 Zitate mechanisch bestätigt. 🔴 Eigener
+Superlativ in drei Dokumenten selbst gefunden — der Prüfer fand die
+**Folgefrage** (L-51). Push 3× vom Klassifikator blockiert, gemeldet;
+Leitsession-Push durch (L-05, 10. Beleg).
+**R17-B (Codex, Abnahme `8e0c551`):** 12 EIGEN · **lokaler Rohbeleg-Pool**
+(„nicht prüfbar"-Modus ohne `sensibel/`) · **ZIEL 8 → 27** (Baseline
+447/447) · Prüfstand `926ca3c`: **0 NEU 27/27**, Rechtsmatrix 51 → 12 +
+31 + 8; Altlast 863: 346 Rohbeleg-bestätigt. Live nach A/C: **36 NEU**
+(Selbstzitate, OLG-Zitate, `> >`-Normalisierung) → R18.
+**R17-C:** Akquiseplan § 3.2 ÜBERHOLT + 9-Punkte-Positivliste, § 3
+Terminlogik 12 Aussagen, § 4.3 (Prompt-Reparaturweg widerlegt per
+`git show d11535f:`) · Regelwerk § 6.1 3/3 + Pflicht 4 · **H-2
+entflochten: 2 erledigt, Teil 3 (Zielstichprobe) = User** · Gegenleser
+15 → 14 + 1; 🔴 unbequeme Rn.-86-Hälfte trotz „Vorbehalt zuerst"
+weggelassen (L-49, 3. Beleg).
+**Leitsession:** **CLAUDE.md 84.713 → 79.935 B** (Verdichtung mit
+Gegenprobe: 8/140 Aussagen gefallen — 5 Vorbehalte, 1 abgeleitete Zahl —
+alle repariert) · Postkorb Zentrale `f58f1c0` (Kopien-Wächter misst
+Ordner-Bausteine nicht) · O-12 § 10 + Pipe-Fix § 4.4 · **L-51 + L-07/
+L-15/L-48 geschärft**, Sammelvermerk R17 (69 Posten), Blueprint
+`35fd61b`, Wächter 12/0. **Beim User offen: fünf R16-Entscheide + zwei
+R17-C-Fragen** (Zielstichprobe ≥ 30 · H-2-Anker). *(Details:
+Projektquelle-Changelog R17, Tagesplan 17.08. Block 3.)*
+
+**Vorheriger Stand — 17.08.2026 nachmittags (R16, Shanks + Ben Beckman + Codex + Lucky Roux
 parallel — erste Runde nach drei arbeitsfreien Tagen)** — ⭐⭐ **Die
 Rechtslage steht ehrlich im Bestand, das Anwalts-Briefing ist bis auf
 fünf User-Entscheide versandfertig, der Zitat-Wächter ist aus dem
@@ -62,50 +101,9 @@ Runde:** Modell-Statuszeilen R3…R15 ENTFALLEN · fünf offene (s.
 „Nächster Schritt" 0). *(Details: Projektquelle-Changelog R16, Tagesplan
 17.08.)*
 
-**Vorheriger Stand — 14.08.2026 nachts (R15, Shanks + FÜNF Arbeits-Sessions parallel —
-Nacht-Slot)** — ⭐⭐ **Größte Runde des Projekts: 24 Commits, fünf
-Stränge, drei schwere Funde, die je einen Bestandssatz gekippt haben.**
-🔴 **Der teuerste Befund war der Rundenschnitt selbst:** Ein
-Zuschnitt-Prüfer fand vor dem Start, dass **4 von 5 Strängen eine
-widerlegte Prämisse trugen — jedes Mal eine VERNEINUNG** („nicht
-eingearbeitet", „liegt nicht vor", „hat niemand geprüft", „kein Paket
-führt"). Zwei Stränge wurden umgeschnitten, bevor eine Session lief.
-Daraus die firmenweite Regel: *Ein Arbeitsvorrat ist eine Liste von
-Verneinungen — der teuersten Aussagenklasse.*
-**R15-A:** Anwalts-Briefing mit vier Fragen gebaut, jeder Rn.-Anker am
-Rohbeleg belegt; **UWG-/UGPRL-Volltexte erstmals im Bestand** (die
-Rechtsmatrix zitierte sie mit höchster Belegstufe, ohne dass ein
-Volltext vorlag). Prüfer 22/22. 🔴 Schwerster Fund: **Rn. 111 enthält
-die abweichende Auffassung des OLG Düsseldorf — des zuständigen
-BERUFUNGSgerichts — und fehlte vollständig.**
-**R15-B:** § 6a der Angebotsarchitektur — AU-1…AU-4 **4 von 4** geprüft,
-AU-4-Nachweisform zurückgebaut, VK-O2 + Gate-Kette; 0 Löschungen gegen
-den Rundenstart. Prüfer 18/18. Fund aus seinem „ungelesen"-Abschnitt:
-**ein Auslegungsirrtum bei K-1 ist rückwirkend binnen 30 Tagen heilbar.**
-**R15-C:** Zitat-Wächter **ZIEL 2→6, POOL 8→11**. **Bewertung der 806er
-Fundmenge (Leitsession): NULL Widerlegungen** — alle 863 unbestätigten
-Zitate sind „nicht im Pool" (Summenprobe ohne Rest). Der frühere grüne
-Lauf war eine **Scheinentwarnung**.
-**R15-D:** Lizenzkette erstmals selbst geprüft — **28/30 Texttreue**,
-zwei Abweichungen durch ein **unmarkiert gekürztes L-1-Zitat**;
-Semantik **9/13 bestätigt, 4/13 teilweise (sieben hohe Risiken)**. Die
-Folgerung „trägt A3?" bewusst nicht getroffen. melevo 8/8: 10-€-Posten
-**von der Quelle nicht bezeichnet**.
-**R15-E:** Sperrdatei-Struktur + Wellenprotokoll-Vorlage gebaut, 7/7
-Bau-Pflichten zugeordnet. Prüfer 23/23. 🔴 Schwerster Fund: **Die
-Erstfassung hätte personenbezogene Daten unwiderruflich in die
-Git-Historie geschrieben — die Versand-Gates hätten nicht gegriffen,
-weil ein Sperrfall OHNE Versand entsteht.**
-**Leitsession:** Vorlauf-Nachzug · **Transit-Verbot G5 vollzogen**
-(CLAUDE.md-Historie ausgelagert, 136/136 Zeilen byte-gleich belegt) ·
-Push-Freigabe für 15 Commits aus fünf Sessions · **6 Lehren → Blueprint**
-(L-43…L-48), Stempel `8d80a64`, Wächter 12/0 · **Debrief-Gegenprobe fand
-12 nicht disponierte Learnings + 31 ungeroutete Nebenbefunde** — alle
-nachgetragen (Sammelvermerk R15 + Routing-Tabelle Projektquelle § 6a).
-⚠️ Modell-Statuszeilen aller fünf Sessions unbestätigt (User-Handgriff).
-*(Details: Projektquelle-Changelog R15.)*
-
-*(Davor: R14 — Z-6 aufgelöst, Belegstufen-Hebung, § 3a-Befund;
+*(Davor: R15 — Anwalts-Briefing, § 6a Angebotsarchitektur, Wächter
+ZIEL 2→6, Lizenzkette, Sperrdatei; rotiert 17.08.2026 (R17) →
+`STATUS-archiv.md`. Davor R14 — Z-6 aufgelöst, Belegstufen-Hebung, § 3a-Befund;
 rotiert 17.08.2026 (R16) → `STATUS-archiv.md`. Davor R13 — S4 + AA-1…AA-8 eingearbeitet, B-1…B-7 im Regelwerk,
 O-9 geführt; rotiert 14.08.2026 (R15) → `STATUS-archiv.md`. Davor R12 — E-1…E-8 eingearbeitet, Preisliste + Angebotsarchitektur
 gebaut; rotiert 13.08.2026 (R14) → `STATUS-archiv.md`. Davor R11 —
@@ -140,25 +138,6 @@ Stände: `STATUS-archiv.md`.)*
   Chrome-Kanal je Session neu messen (N-9) · Modell-Statuszeile R11-A.
   ~~E-1…E-8~~ ✅ R12 · ~~N-10~~ ✅ R12 · ~~sieben Bau-Pflichten/
   O-9-Führung aus R9~~ ✅ R13; O-10 weiter offen [K2-Trigger].)*
-- **R13 (13.08. abends, Entscheide-Protokoll 2 + R9-Restposten,
-  parallel):** ✅ **S4 + AA-1…AA-8 eingearbeitet** (AA-4 offen —
-  Kayhan-Antwort aussteht; AA-8 bewusst gegen die Session-Empfehlung,
-  ungeglättet) · ✅ **B-1…B-7 im Listenbau-Regelwerk + O-9 in
-  Rechtsmatrix und Regelwerk geführt** (offen, Gate anwaltlicher Rat)
-  · ✅ Leitsession-Nacharbeit `daa50a5` (Quellen-Nachzug § 10/§ 11 ·
-  O-8-Messstände · Zitat-Wächter grün, Ausnahmeliste +7) · ✅ Prüfer
-  16/16 + 5/5 disponiert (3 schwere, alle repariert) · ✅ 5 Lehren →
-  Blueprint (`5f18694`), 2 fremde Deltas übernommen, Stempel
-  `5f18694`, Wächter SYNCHRON 12 / 0 DRIFT · Postkorb
-  Belegstufen-Grenze (`c9b20f2`). **Offen aus R13:** **AA-4 (User →
-  Kayhan, kein Zeitanker)** · AA-3-Randfrage (deckt „geplant" auch
-  GEPARKTE Module? — bis dahin engere Lesart) · drei AA-8-Randfragen
-  (ein Rabattsatz oder zwei? · gilt „ohne Deckel" auch für S4? ·
-  Z-2-Rechtsnatur → StB) · alle Höhen nach E-6/E-7 · AA-7-Prüfposten
-  hängt am E-6-Rücklauf-Anker (Briefing Nachtrag 3 hat ihn erbeten) ·
-  R13A-N-4 zweite Rabattposition (nach E-6) · R13A-N-5
-  Marktanker-Bezugsangaben (E-7-Erhebung mitfragen) ·
-  Modell-Statuszeilen R13-A (Opus 5 1M) / R13-B (Fable 5).
 - **R14 (13.08. spätabends, Briefing-Nachträge + Pflege-Pakete,
   parallel):** ✅ **Z-6 aufgelöst** (28/28 Fundstellen disponiert,
   Fassung `preismodell-optionen.md` § 5.3) · ✅ **Belegstufen-Hebung**
@@ -251,6 +230,25 @@ Stände: `STATUS-archiv.md`.)*
   (R16A-N-2) · CLAUDE.md 84.713 B über Soll (Verdichtung, frische Session)
   · Rohbeleg-Ordner `rohbelege-R16-A`: keiner angelegt (Zitate aus
   R09-A/R15-A-Ordnern).
+- **R17 (17.08. abends, drei Sessions parallel, Folgerunde):** ✅ **OLG
+  20 W 37/24 + EuGH C-621/22 DE beschafft**, 14 Rn. + Rn. 156–273
+  ausgewertet, Ableitungen (o8, Preismodell, AA) nachgezogen, Prüfer
+  19/19 disponiert · ✅ **Zitat-Wächter Ausbaustufe 3** (EIGEN 12,
+  Rohbeleg-Pool lokal, ZIEL 27, 0 NEU am Prüfstand) · ✅ **Akquiseplan
+  § 3.2/§ 4.3, Regelwerk § 6.1/Pflicht 4, H-2 entflochten** · ✅
+  **CLAUDE.md unter Sollmarke** (79.935 B) · ✅ L-51 + 3 Schärfungen,
+  Blueprint `35fd61b`. **Offen aus R17:** 🔴 **fünf R16-Entscheide +
+  zwei R17-C-Fragen beim User** (Zielstichprobe ≥ 30 Check-ins je
+  Hotel · neuer H-2-Anker) · **R18 HANDEL:** OLG-Parallelverfahren
+  I-20 U 107/23 + 117/23 (Briefing fragt die Kanzlei) · Klauselblock
+  Rn.-weise · Rn. 187/188 + 220 in die Rechtsmatrix (R17A-N-2/N-3) · o8
+  § 5.4 ↔ § 10 B-6 (R17C-N-1) · **R18 Wächter:** 36 NEU (Selbstzitate,
+  OLG-Zitate, acht EIGEN-Kandidaten R17A-N-5, `> >`-Normalisierung) ·
+  **R18 AKQ:** fünf Ein-Gate-Stellen § 6/§ 7/§ 8 · Sperrdatei SP-01/SP-09
+  (R17A-N-7) · Relativzeiten § 3.1 · Soft-Hyphen § 5 · **Leitsession
+  R18:** `.gitattributes` statt `core.autocrlf` (R17A-N-1) · Kurz-IDs
+  H-2 dreifach + R15B-N-5/N-6 · Rohbeleg-Ordner `rohbelege-R17-A/`
+  angelegt (OLG, EuGH-DE, Quellenliste).
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -306,6 +304,15 @@ Stände: `STATUS-archiv.md`.)*
    mildert das Gate, hebt es nicht auf) · Kanalmix-Festzurrung erst nach
    FUND2-Persona-Befund. Details: Projektquelle § 6a (Routing-Tabelle) +
    § 7 Punkt 0 + R15-Changelog.
+   ⭐ **R17 (17.08. abends): Die Gegenauffassung des Berufungsgerichts
+   (OLG 20 W 37/24) ist im Original gelesen — sie betrifft die
+   IRREFÜHRUNG, nicht den Datenschutzgrund unseres Risikos; das Briefing
+   trägt jetzt eine dritte Frage (§ 3 Abs. 2 UWG) und bittet die Kanzlei
+   um die zwei OLG-Parallelverfahren.** Die fünf Entscheide (1)–(5)
+   unten bleiben der Versand-Schlüssel; dazu **zwei neue User-Fragen aus
+   R17-C** (Messplan H-2 Teil 3: Zielstichprobe ≥ 30 Check-ins je Hotel
+   bestätigen? · neuer Anker statt 16.08.). Zitat-Wächter: 27 Dateien,
+   36 NEU aus der R17-Arbeit → R18.
    ⭐ **R16 (17.08.): Rechtsposten im Bestand, Briefing versandfertig
    bis auf FÜNF User-Entscheide in Klartext** (`protokolle/R16-A-abschluss.md`
    Ende): (1) selbstkritischer Satz an den nicht mandatierten Anwalt —
@@ -320,7 +327,9 @@ Stände: `STATUS-archiv.md`.)*
    (User-Entscheid 12.08. abends, Briefing Slot 3), als R11-A
    ausgeführt; ~~F13 wartet auf C2-Rücklauf~~ ✅ nachgereicht 14:49
    (Stempel `b04c264`).
-1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff Mo 10.08.):** StB-Anruf —
+1. **⚠️ TERMINKRITISCH (Zentrale, User-Handgriff ~~Mo 10.08.~~ → User-Zusage
+   Di 18.08.; Punkt 0 „~KW 34/35" ist derselbe Vorgang, kein zweiter
+   Termin — Klarstellung R17):** StB-Anruf —
    GbR-Namensführung VOR Gewerbeanmeldung ~Mitte August; Träger
    `zentrale\stb-termin-fragenliste-2026-08.md`. **Jetzt DOPPELTER
    Kayhan-Posten:** Marken-Inhaberschaft (Postkorb R3) + Beratervertrag/
@@ -338,8 +347,10 @@ Stände: `STATUS-archiv.md`.)*
    Danach: **zweite Recherche-Welle E-V4** (eigene Session, Chrome;
    Prompt-Pflichten in Projektquelle § 7 4b).
 3. **User-Handgriffe (Messplan-Kette):** ~~H-1 Livegang-Tagesdatum (bis
-   16.08.)~~ ✅ **22.09.2026 (User 17.08.)** · **H-2 (Plan-Freigabe)
-   trägt dieselbe verstrichene Frist — neuer Anker fehlt** · Anfrage-Entwürfe DEHOGA/IHK versenden (werktags, vorher
+   16.08.)~~ ✅ **22.09.2026 (User 17.08.)** · ~~**H-2 (Plan-Freigabe)
+   trägt dieselbe verstrichene Frist — neuer Anker fehlt**~~ **R17-C:
+   Freigabe + BM-4/BM-5 seit 09.08. erledigt; offen nur Teil 3
+   (Zielstichprobe) — User-Frage + neuer Anker** · Anfrage-Entwürfe DEHOGA/IHK versenden (werktags, vorher
    IHK-Zuständigkeit klären) · **A5-Probedruck der Vorlagen**
    („tatsächliche Größe") · Betreiber-Briefing bis 23.08., **gekoppelt
    mit dem FUND2-Kayhan-Gespräch** · H-4 Altdaten-Sicherung anstoßen

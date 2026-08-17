@@ -782,9 +782,9 @@ ist ausdrücklich als „bewusst nicht verfolgt" markiert.)*
 | ID | Befund | Träger |
 |---|---|---|
 | **R15E-N-5** ⭐ | **Die 300er-Schwelle aus o8 § 11.3 kollidiert mit der Akquiseplanung:** Der Plan rechnet mit ≈ 337–1.600 Briefen je Abschluss — **jede realistische Welle löst den Neu-Führungs-Trigger der Abwägung aus.** Kein Formfehler, ein Planungskonflikt: entweder kleinere Wellen oder routinemäßige Neu-Führung | MKT-AKQ, Akquiseplan § 4.2 → **✅ R16-C aufbereitet als § 4.4** (300 = eigene Setzung ohne Quellenbindung; Optionen A/B/C/D; **Entscheid E-A4 beim User**) |
-| **R15E-N-1** | Der § 6.1-Nachtrag des Regelwerks bleibt an **drei Stellen** hinter o8 zurück — die Vorlagen setzen es um, **die Quelle ist nicht nachgezogen** | Leitsession (Quellen-Nachzug) |
+| **R15E-N-1** | Der § 6.1-Nachtrag des Regelwerks bleibt an **drei Stellen** hinter o8 zurück — die Vorlagen setzen es um, **die Quelle ist nicht nachgezogen** | Leitsession (Quellen-Nachzug) → **✅ R17-C: 3 von 3 eingearbeitet** (`1804b1c`, sechs Protokollfelder); Nebenbefund R17C-N-1: o8 § 5.4 (B-6 „FG-2") ↔ § 10 (B-6 „FG-4") in sich inkonsistent → MKT-HANDEL/o8 R18 |
 | **R15E-N-2** | Regelwerk § 10 / O-12 behauptet, der Wächter prüfe „nur Akquiseplan und Regelwerk" — gemessen sind es **sechs** Dokumente; Vorwärtsverweis gesetzt, Neufassung offen | Leitsession → **✅ R16-B (Codex): O-12-Zeile neu gefasst** (8 Zieldateien, Modus-Trennung, Baseline-Zeiger) |
-| **R15B-N-4** | Die O-2-Superlative stehen unverändert in **zwei Fremd-Dokumenten**, durch Rohbeleg § 3.4 widerlegt | Leitsession (Quellen-Nachzug) |
+| **R15B-N-4** | Die O-2-Superlative stehen unverändert in ~~zwei Fremd-Dokumenten~~ **einem Fremd-Dokument** (`handel/angebotsarchitektur.md` § 6-Nachtrag), durch Rohbeleg § 3.4 widerlegt — **Korrektur R17 (Prüf-Subagent A5 + R17-A, Zählweg `git log -S "fortwirkt" -- handel/preismodell-optionen.md` = 0 Commits): das Preismodell hat den Superlativ NIE getragen; die zweite Fundstelle war eine unbelegte Hälfte der R15-B-Meldung, die drei Tage als Auftrag mitlief (L-51 Fall 2)** | Leitsession → **✅ R17-A: Angebotsarchitektur nachgezogen** (`af92adb`, Träger-Tabelle Z. ~1998 korrigiert) |
 
 **🟡 Werkzeug und Hygiene:**
 
@@ -927,19 +927,42 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    fünf User-Entscheide in Klartext** (`protokolle/R16-A-abschluss.md`,
    Entscheidungsvorlage; § 4a Kandidat A = ANL-3 war schon enthalten).
    **Neue Spitzenposten:** die fünf Entscheide (Satz · Kanzlei · Absender
-   · § 4a · E-A4) → danach Versand durch den User · **R17 MKT-HANDEL:**
+   · § 4a · E-A4) → danach Versand durch den User · ~~**R17 MKT-HANDEL:**
    Rn.-87-Vermerk in Regelwerk § 7.1 + `preismodell-optionen.md`,
    o8 § 6.2/§ 11.2 gegen die Doppelbegründung, 12 nie angekommene Rn.
    (121–155), OLG-Beschluss 20 W 37/24 beschaffen, 8
-   Prüfer-Nacharbeits-Fundorte (`R16-A-pruefer.md` § 3) · **R17
-   Wächter:** 51 NEU in der Rechtsmatrix disponieren (Pool um lokale
-   Rohbelege mit Fehltoleranz + Ausnahmeliste R16A-N-5; **20 weitere
-   ZIEL-Kandidaten mit 718 Zitaten** außerhalb des Wächters, Codex-Bericht
-   Rohausgabe E — Aufnahme je Datei mit eigenem Aufnahmebestand) — bis
-   dahin ist der Wächter berechtigt rot · **R17 AKQ:** Akquiseplan § 3.2 „Liste
-   sofort baubar" (R16C-N-1, gekippt seit R9), § 4.3-Textbruch (R16C-N-2)
-   · Verdichtungs-Posten CLAUDE.md (84.713 B, Soll 80k; Kompensationspflicht
-   je Debrief; frische Session).
+   Prüfer-Nacharbeits-Fundorte (`R16-A-pruefer.md` § 3)~~ ✅ **R17-A
+   (17.08. abends): OLG-Beschluss + EuGH-DE-Volltext beschafft, 14 (nicht
+   12) Rn. nachgeholt, Rn. 156–273 ausgewertet, 8/8 Fundorte, Ableitungen
+   nachgezogen** (Details: Changelog R17) · ~~**R17 Wächter:** 51 NEU …
+   20 ZIEL-Kandidaten~~ ✅ **R17-B (Codex): EIGEN 12, Rohbeleg-Pool
+   lokal, ZIEL 27, 0 NEU am Prüfstand `926ca3c`** · ~~**R17 AKQ:** § 3.2
+   · § 4.3~~ ✅ **R17-C** · ~~Verdichtungs-Posten CLAUDE.md~~ ✅
+   **Leitsession: 84.713 → 79.935 B** (unter Soll).
+   **⭐ R17 (17.08. abends) — was jetzt oben liegt:** (1) die **fünf
+   R16-Entscheide** + **zwei neue User-Fragen aus R17-C** (Messplan
+   H-2 Teil 3: Stichprobengröße ≥ 30 Check-ins je Hotel bestätigen? ·
+   neuer H-2-Anker) — Klartext in `protokolle/R17-C-abschluss.md`
+   „Klartext-Frage" · (2) **R18 MKT-HANDEL:** Briefing-Frage an die
+   Kanzlei nach den OLG-Parallelverfahren I-20 U 107/23 + 117/23
+   (Beschluss Rn. 22 verweist darauf, Original nicht beschafft — kein
+   Datum) · Klauselblock des Urteils nur als Block ausgewertet · Rn.
+   187/188 (AGB gegenüber Verbrauchern, Wiedervorlage sobald ein Angebot
+   Verbraucher erreichen kann) und Rn. 220 (keine Karenzfrist Art. 14 —
+   stärkt A7) in die Rechtsmatrix (R17A-N-2/N-3) · o8 § 5.4 ↔ § 10 B-6
+   (R17C-N-1) · (3) **R18 Wächter:** Live-Lauf am Arbeitsbaum nach A/C
+   **36 NEU** (Vorfassungs-Selbstzitate in Reparatur-Kästen, OLG-Zitate,
+   acht EIGEN-Kandidaten R17A-N-5) + Werkzeug-Nachbefund: verschachtelte
+   `> >`-Präfixe mitten im Zitat werden nicht normalisiert (R17C-F3,
+   L-29-Klasse) — bis dahin berechtigt rot · (4) **R18 AKQ:** fünf Stellen
+   Ein-Gate-Logik in Akquiseplan § 6/§ 7 (H-8)/§ 8 (E-A1) (R17-C Block 2)
+   · Sperrdatei-Struktur: Positivliste vor § 3a lässt SP-01/SP-09
+   fallen (R17A-N-7) · Relativzeit „S5 in drei Tagen" (R17C-N-4) ·
+   Soft-Hyphen „Termin­quote" § 5 (R17C-N-3) · (5) **Leitsession R18:**
+   `.gitattributes` (`* text=auto eol=lf`) statt lokalem
+   `core.autocrlf=true` (R17A-N-1) · Kurz-ID-Kollisionen H-2 dreifach
+   (R17C-N-2) + R15B-N-5/N-6 · Kopien-Wächter-Blindfleck Ordner-Bausteine
+   (Postkorb `f58f1c0`, Zentrale-Zuständigkeit).
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -979,9 +1002,14 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    ~~masunt-Logo~~ ✅ archiviert 09.08.2026.
 3. **User-Handgriffe (Termine aus dem Messplan):** ~~H-1 Livegang-
    Tagesdatum erfragen (bis 16.08.)~~ ✅ **22.09.2026 (User 17.08.,
-   Nutzerangabe; Betreiber-Beleg wäre stärker)** · **H-2 (Plan-Freigabe
+   Nutzerangabe; Betreiber-Beleg wäre stärker)** · ~~**H-2 (Plan-Freigabe
    BM-4/BM-5) trägt dieselbe verstrichene Frist 16.08. — offen, neuer
-   Anker fehlt (R16C-N-3)** · Anfrage-Entwürfe DEHOGA/IHK
+   Anker fehlt (R16C-N-3)**~~ **KORRIGIERT R17-C (17.08., am Objekt):
+   Plan-Freigabe UND BM-4/BM-5 sind seit 09.08. erledigt (Messplan-Kopf);
+   offen ist allein Teil 3 — Zielstichprobe ≥ 30 Check-ins je Hotel: vom
+   User mitentschieden oder eigener Entscheid? — Frist 16.08. sichtbar
+   verstrichen, neuer Anker = User (Klartext-Frage in
+   `protokolle/R17-C-abschluss.md`)** · Anfrage-Entwürfe DEHOGA/IHK
    versenden (werktags; vorher IHK-Zuständigkeit klären, P6) ·
    Betreiber-Briefing bis 23.08. — **gekoppelt mit dem
    FUND2-Kayhan-Gespräch** (ein Termin, getrennt dokumentieren) ·
@@ -1093,6 +1121,54 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
 
 ## CHANGELOG
 
+- 17.08.2026 abends (**R17-Debrief, drei Arbeits-Sessions parallel — Ben
+  Beckman · Codex · Lucky Roux — + Leitsession; Folgerunde nach `/clear`,
+  Schnitt `90254e1`**): ⭐ **Der Prüf-Subagent kippte vor dem Start drei
+  von 18 Verneinungen** — der O-2-Superlativ stand NIE im Preismodell
+  (R15B-N-4 „zwei Fremd-Dokumente" war halb unbelegt, `git log -S` = 0),
+  Rn. 237 war vom R15-A-Prüfer geprüft („nicht von MIR geprüft" ≠
+  „ungeprüft"), Positivkontrolle „119" schon korrigiert.
+  **R17-A (Ben Beckman, `af92adb`…`dc9f99a`):** OLG Düsseldorf **20 W
+  37/24 im Volltext beschafft** (Ordnungsmittelverfahren; die „abweichende
+  Auffassung" ist ein „Im Übrigen"-Nebensatz zur IRREFÜHRUNG, kein Wort
+  zum Datenschutz; Rn. 27: Rechtsbeschwerde nicht zugelassen) · **EuGH
+  C-621/22 DE-Volltext** (fehlte nur `curl -L` — vier Runden als
+  „nicht abrufbar" geführt) · **14 statt 12 Rn.** nachgeholt (Block
+  79–155 jetzt 77/77), Rn. 156–273 vollständig tabelliert, **dritte
+  Angriffsschiene** (§ 3 Abs. 2 UWG) als neue Briefing-Frage · Ableitungen
+  nachgezogen (o8 § 6.2/§ 11.2, Preismodell Rn. 87, AA O-2) · Prüfer
+  **19 = 1/8/10, 18 repariert + 1 → N-7**; 46/46 Zitate mechanisch
+  bestätigt; 16 Löschungen je erklärt. 🔴 Eigener Superlativ („die
+  einzige, deren Tatbestand B2B einschließt") in drei Dokumenten, vor dem
+  Prüfer selbst gefunden — der Prüfer fand die **Folgefrage**, die ihn
+  weitertrug (L-51). Push vom Klassifikator 3× blockiert, gemeldet;
+  Leitsession-Push durch (L-05, zehnter Beleg).
+  **R17-B (Codex, Abnahme + Commit `8e0c551`):** Zitat-Wächter
+  Ausbaustufe 3 — 12 EIGEN-Ausnahmen (R16A-N-5), **lokaler
+  Rohbeleg-Pool** (696 txt/md, 9,2 MB; „nicht prüfbar"-Modus bei
+  fehlendem `sensibel/`), **ZIEL 8 → 27** mit Baseline-Gruppe
+  `r17-zielaufnahme` 447/447; am Prüfstand `926ca3c` 0 NEU 27/27,
+  Rechtsmatrix 51 → 12 + 31 + 8; Altlast 863: 346 Rohbeleg-bestätigt;
+  Selbsttest 27/27; O-12-Satz § 10 nachgetragen (`7ef4dcc`). Live-Lauf
+  nach A/C: **36 NEU** → R18.
+  **R17-C (Lucky Roux, `1804b1c`, `0c0a2a7`, `e4be4a6`):** Akquiseplan
+  § 3.2 ÜBERHOLT-Kasten mit 9-Punkte-Positivliste, § 3 Terminlogik 12
+  Aussagen (2 gekippt, 3 präzisiert), § 4.3 beide Brüche (Reparaturweg
+  des Prompts widerlegt — `git show d11535f:` zeigte den Vorspann) ·
+  Regelwerk § 6.1 3/3 + § 3 Pflicht 4 Rn.-87-Vermerk · Messplan H-2
+  entflochten (2 erledigt, 1 offen) · Gegenleser 15 → 14 repariert + 1;
+  🔴 unbequeme Rn.-86-Hälfte trotz „Vorbehalt zuerst" weggelassen (L-49
+  dritter Beleg) · Pipe-Fix § 4.4 durch die Leitsession (`7ef4dcc`).
+  **Leitsession:** CLAUDE.md-Verdichtung **84.713 → 79.859 B**
+  (Gegenprobe: 8/140 Aussagen gefallen — 5 Vorbehalte + 1 abgeleitete
+  Zahl — alle repariert; `de4a927`) → nach Debrief **79.935 B** ·
+  Postkorb Zentrale `f58f1c0` (Kopien-Wächter misst Ordner-Bausteine
+  nicht) · **L-51** „Wer einen Satz kippt, kippt seine Folgesätze" +
+  Schärfungen L-07/L-15/L-48 · Sammelvermerk R17 (69 Posten) ·
+  Blueprint `35fd61b`, Stempel gesetzt, Wächter 12/0. **User-Fragen
+  offen:** fünf R16-Entscheide + zwei R17-C-Fragen (Zielstichprobe,
+  H-2-Anker). Zeit-Etiketten der Leitsession dreimal aus dem Kopf (L-07
+  geschärft).
 - 17.08.2026 nachmittags (**R16-Debrief, drei Arbeits-Sessions parallel
   — Ben Beckman · Codex · Lucky Roux — + Leitsession; erste Runde nach
   drei arbeitsfreien Tagen, Auftrag Firmen-Briefing 17.08. § 8.2**):

@@ -2,6 +2,72 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 17.08.2026 (R17-Debrief) — R15-Block aus „Letzte Aktualisierung"
+
+**Vorheriger Stand — 14.08.2026 nachts (R15, Shanks + FÜNF Arbeits-Sessions parallel —
+Nacht-Slot)** — ⭐⭐ **Größte Runde des Projekts: 24 Commits, fünf
+Stränge, drei schwere Funde, die je einen Bestandssatz gekippt haben.**
+🔴 **Der teuerste Befund war der Rundenschnitt selbst:** Ein
+Zuschnitt-Prüfer fand vor dem Start, dass **4 von 5 Strängen eine
+widerlegte Prämisse trugen — jedes Mal eine VERNEINUNG** („nicht
+eingearbeitet", „liegt nicht vor", „hat niemand geprüft", „kein Paket
+führt"). Zwei Stränge wurden umgeschnitten, bevor eine Session lief.
+Daraus die firmenweite Regel: *Ein Arbeitsvorrat ist eine Liste von
+Verneinungen — der teuersten Aussagenklasse.*
+**R15-A:** Anwalts-Briefing mit vier Fragen gebaut, jeder Rn.-Anker am
+Rohbeleg belegt; **UWG-/UGPRL-Volltexte erstmals im Bestand** (die
+Rechtsmatrix zitierte sie mit höchster Belegstufe, ohne dass ein
+Volltext vorlag). Prüfer 22/22. 🔴 Schwerster Fund: **Rn. 111 enthält
+die abweichende Auffassung des OLG Düsseldorf — des zuständigen
+BERUFUNGSgerichts — und fehlte vollständig.**
+**R15-B:** § 6a der Angebotsarchitektur — AU-1…AU-4 **4 von 4** geprüft,
+AU-4-Nachweisform zurückgebaut, VK-O2 + Gate-Kette; 0 Löschungen gegen
+den Rundenstart. Prüfer 18/18. Fund aus seinem „ungelesen"-Abschnitt:
+**ein Auslegungsirrtum bei K-1 ist rückwirkend binnen 30 Tagen heilbar.**
+**R15-C:** Zitat-Wächter **ZIEL 2→6, POOL 8→11**. **Bewertung der 806er
+Fundmenge (Leitsession): NULL Widerlegungen** — alle 863 unbestätigten
+Zitate sind „nicht im Pool" (Summenprobe ohne Rest). Der frühere grüne
+Lauf war eine **Scheinentwarnung**.
+**R15-D:** Lizenzkette erstmals selbst geprüft — **28/30 Texttreue**,
+zwei Abweichungen durch ein **unmarkiert gekürztes L-1-Zitat**;
+Semantik **9/13 bestätigt, 4/13 teilweise (sieben hohe Risiken)**. Die
+Folgerung „trägt A3?" bewusst nicht getroffen. melevo 8/8: 10-€-Posten
+**von der Quelle nicht bezeichnet**.
+**R15-E:** Sperrdatei-Struktur + Wellenprotokoll-Vorlage gebaut, 7/7
+Bau-Pflichten zugeordnet. Prüfer 23/23. 🔴 Schwerster Fund: **Die
+Erstfassung hätte personenbezogene Daten unwiderruflich in die
+Git-Historie geschrieben — die Versand-Gates hätten nicht gegriffen,
+weil ein Sperrfall OHNE Versand entsteht.**
+**Leitsession:** Vorlauf-Nachzug · **Transit-Verbot G5 vollzogen**
+(CLAUDE.md-Historie ausgelagert, 136/136 Zeilen byte-gleich belegt) ·
+Push-Freigabe für 15 Commits aus fünf Sessions · **6 Lehren → Blueprint**
+(L-43…L-48), Stempel `8d80a64`, Wächter 12/0 · **Debrief-Gegenprobe fand
+12 nicht disponierte Learnings + 31 ungeroutete Nebenbefunde** — alle
+nachgetragen (Sammelvermerk R15 + Routing-Tabelle Projektquelle § 6a).
+⚠️ Modell-Statuszeilen aller fünf Sessions unbestätigt (User-Handgriff).
+*(Details: Projektquelle-Changelog R15.)*
+
+## Rotiert am 17.08.2026 (R17-Debrief) — R13-Punkt aus „Aktueller Stand"
+
+- **R13 (13.08. abends, Entscheide-Protokoll 2 + R9-Restposten,
+  parallel):** ✅ **S4 + AA-1…AA-8 eingearbeitet** (AA-4 offen —
+  Kayhan-Antwort aussteht; AA-8 bewusst gegen die Session-Empfehlung,
+  ungeglättet) · ✅ **B-1…B-7 im Listenbau-Regelwerk + O-9 in
+  Rechtsmatrix und Regelwerk geführt** (offen, Gate anwaltlicher Rat)
+  · ✅ Leitsession-Nacharbeit `daa50a5` (Quellen-Nachzug § 10/§ 11 ·
+  O-8-Messstände · Zitat-Wächter grün, Ausnahmeliste +7) · ✅ Prüfer
+  16/16 + 5/5 disponiert (3 schwere, alle repariert) · ✅ 5 Lehren →
+  Blueprint (`5f18694`), 2 fremde Deltas übernommen, Stempel
+  `5f18694`, Wächter SYNCHRON 12 / 0 DRIFT · Postkorb
+  Belegstufen-Grenze (`c9b20f2`). **Offen aus R13:** **AA-4 (User →
+  Kayhan, kein Zeitanker)** · AA-3-Randfrage (deckt „geplant" auch
+  GEPARKTE Module? — bis dahin engere Lesart) · drei AA-8-Randfragen
+  (ein Rabattsatz oder zwei? · gilt „ohne Deckel" auch für S4? ·
+  Z-2-Rechtsnatur → StB) · alle Höhen nach E-6/E-7 · AA-7-Prüfposten
+  hängt am E-6-Rücklauf-Anker (Briefing Nachtrag 3 hat ihn erbeten) ·
+  R13A-N-4 zweite Rabattposition (nach E-6) · R13A-N-5
+  Marktanker-Bezugsangaben (E-7-Erhebung mitfragen) ·
+  Modell-Statuszeilen R13-A (Opus 5 1M) / R13-B (Fable 5).
 ## Rotiert am 17.08.2026 (R16-Debrief) — R14-Block aus „Letzte Aktualisierung"
 
 **Vorheriger Stand — 13.08.2026 spätabends (R14, Shanks + R14-A/Ben Beckman + R14-B/Yasopp

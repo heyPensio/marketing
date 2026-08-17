@@ -325,16 +325,152 @@ sind ④-Annahmen** — sie sind der Sinn der Rechnung, nicht ihr Ergebnis:
 | Pfad | Beschreibung | Preis |
 |---|---|---|
 | **(a) Warten** | Kaltkanal-Aufbau startet erst nach dem Namensentscheid | Jede Woche Verzug geht **1:1** vom Fenster ab; ab ~4 Wochen Verzug ist K1 als Frist-Kanal rechnerisch erledigt |
-| **(b) Arbeitstitel** | Akquise startet unter Arbeitstitel/bestehender Firmierung, Rebrand folgt | Doppelte Außenwirkung (zwei Namen bei denselben Empfängern), Nachzieh-Aufwand, Vertrauensfrage. **Als Notfallpfad in `R00-planpruefung` § Top-5 Punkt 2 vorgeschlagen** (③, Agenten-Empfehlung) — ⚠️ **dort an eine Bedingung gebunden**, die hier nicht verloren gehen darf: „**Notfallpfad nach 4 Wochen**: Akquise startet unter Arbeitstitel". Es ist also ein **gestufter** Rückfall, keine sofortige Entweder-oder-Wahl |
+| **(b) Arbeitstitel** | Akquise startet unter Arbeitstitel/bestehender Firmierung, Rebrand folgt | Doppelte Außenwirkung (zwei Namen bei denselben Empfängern), Nachzieh-Aufwand, Vertrauensfrage. **Als Notfallpfad in `R00-planpruefung` § Top-5 Punkt 2 vorgeschlagen** (③, Agenten-Empfehlung) — ⚠️ **dort an eine Bedingung gebunden**, die hier nicht verloren gehen darf: „**Notfallpfad nach 4 Wochen**: Akquise startet unter Arbeitstitel". Es ist also ein **gestufter** Rückfall, keine sofortige Entweder-oder-Wahl. ⚠️ **Nach der Rn.-87-Verschärfung trägt dieser Pfad eine zusätzliche offene Frage** — s. Nachtrags-Kasten unten, Abschnitt *Was der Nachtrag für die zwei Pfade bedeutet* |
 
 ⚠️ **Beides hat Außenwirkung — dieser Plan wählt nicht.** Entscheidung
 **E-A1** in § 8.
+
+> ⚠️ **ÜBERHOLT — den Nachtrags-Kasten darunter mitlesen (R17-C,
+> 17.08.2026).** Der folgende Absatz ist in seinem Kern seit R9
+> (12.08.2026) gekippt: Die Zielkundenliste ist **nicht** sofort baubar,
+> und es hängt **nicht** nur der Versand am Namen. Der Absatz bleibt im
+> **Originalwortlaut** stehen — er ist die Herkunft der Terminlogik
+> dieses Abschnitts und wird in § 3 mehrfach vorausgesetzt. **Was von
+> ihm weiter gilt, ist unten positiv aufgelistet** (eine
+> ÜBERHOLT-Markierung ist kein Blankoscheck zum Weglassen).
 
 **Was NICHT auf S5 wartet** (sofort baubar, ohne Namensbindung): die
 gesamten D2-/Weg-b-Pflichtbausteine (Datenschutzinformation als Rohtext,
 Werbesperrdatei, VVT-Eintrag, Abwägungsdokumentation, Quellenprotokoll,
 Lead-Bogen), die Zielkundenliste selbst, der Gesprächsleitfaden und die
 K2-Anlass-Anbahnung. Nur der **Versand** hängt am Namen.
+
+> ### 📌 NACHTRAG 17.08.2026 (R17-C) — der Listenaufbau ist gesperrt, nicht erst der Versand
+>
+> **Zuerst die Belegkraft, dann die Folge** (der Vorbehalt darf beim
+> Nachziehen nicht verloren gehen): Die Verschärfung ruht auf **einem
+> einzigen Satz** aus LG Düsseldorf, 38 O 243/23 Rn. 87 — die Erfüllung
+> der Informationspflicht erfordert „Vorkehrungen, die bereits vor dem
+> ersten Verarbeitungsschritt in die Wege geleitet sein müssen" —, und
+> dieser Satz steht nach dem
+> Bestandsvermerk der Rechtsmatrix (17.08.2026, Befund R15A-N-4)
+> **„nicht in der tragenden Absagebegründung"**: Tragend ist Rn. 84/85,
+> Rn. 87 ist die „zweite, hilfsweise Abwehr desselben Einwands".
+> Dieselbe Quelle hält fest: **„Die Vorsichtsannahme bleibt trotzdem in
+> Kraft"** — ihre Belegkraft ist nur schwächer als der Satz allein
+> nahelegt, denn „eine unbelegte Verschärfung kostet Zeit, eine
+> unbelegte Entwarnung kostet den Fall". Ob ein nicht tragender Satz die
+> Betriebsfolge trägt, ist **eine Frage an den Anwalt** (Teilfrage 6 zu
+> Frage 2, `handel/anwalts-briefing-2026-08.md`) — dieser Plan
+> beantwortet sie nicht.
+>
+> **Was daraus folgt (Stand des Bestands, nicht neue Rechtsauslegung):**
+> „Der erste Verarbeitungsschritt ist der LISTENAUFBAU, nicht der
+> Versand" (`akquise/interessenabwaegung-o8.md` § 9.1, Prüferbefund
+> Q-04). Und einheitlich: „Es gilt einheitlich: F-7 (Firmierung), O-9
+> (Art. 6 Abs. 4) und die Bau-Pflichten des § 10 sind vor dem ERSTEN
+> DATENSATZ fällig, nicht erst vor dem ersten Brief." (o8 § 10-Nachtrag).
+> Der Kurz-Einstieg führt es als Engpass: F-7, O-9 und die Bau-Pflichten
+> „sperren damit schon den ersten Datensatz" (STATUS.md „Nächster
+> konkreter Schritt" Punkt 0). Weitere Fundstellen derselben Aussage:
+> `akquise/listenbau-regelwerk.md` § 3 Pflicht 4 (R09-A-Nachtrag).
+>
+> **⛔ Damit ist von der Aufzählung oben gesperrt:**
+> - **die Zielkundenliste selbst** — sie ist der erste
+>   Verarbeitungsschritt, nicht seine Vorbereitung. Der Satz „sofort
+>   baubar" gilt für sie nicht mehr.
+> - **die Aussage *Nur der Versand hängt am Namen*** — F-7 sperrt nach
+>   dem Bestand oben bereits den ersten Datensatz, nicht erst den Brief.
+>
+> **✅ Was von der Aufzählung weiter gilt — positiv aufgelistet, je mit
+> Bestandsbeleg:**
+> - **Abwägungsdokumentation:** ohne Namen gebaut und abgeschlossen —
+>   `akquise/interessenabwaegung-o8.md` (R9, 12.08.2026).
+> - **Werbesperrdatei (Struktur/Ablauf):** ohne Namen gebaut —
+>   `akquise/sperrdatei-struktur.md` (R15-E, 14.08.2026). ⚠️ Der
+>   BESTAND der Sperrdatei ist personenbezogen und gehört nicht ins
+>   Repo (dort § 3/CLAUDE.md L-44) — gebaut ist die Form, nicht der
+>   Inhalt.
+> - **Quellenprotokoll je Adresse (Form):** als Regel gesetzt —
+>   `akquise/listenbau-regelwerk.md` § 5.3 (D2 Pflicht 6). Es füllt
+>   sich erst mit dem Listenaufbau, der gesperrt ist.
+> - **Wellenprotokoll:** ohne Namen gebaut —
+>   `akquise/wellenprotokoll-vorlage.md` (R15-E). *(Im Original oben
+>   nicht genannt; es ist nach o8 § 10 B-6 Pflicht und gehört in diese
+>   Positivliste.)*
+> - **VVT-Eintrag:** als Gerüst vorhanden, aber **nicht abschließend** —
+>   o8 § 8 führt für „lit. a Verantwortlicher" ausdrücklich
+>   *(Firmierung offen — F-7; ohne sie ist der Eintrag nicht
+>   abschließend)*. Also: baubar ja, fertig nein.
+> - **Datenschutzinformation:** als **Rohtext** ohne Namen baubar, die
+>   Veröffentlichung nicht — die ladungsfähige Anschrift und die
+>   Firmierung hängen an F-7 (`akquise/listenbau-regelwerk.md` § 3
+>   Pflicht 1, Abschnitt „Abhängigkeit"; o8 § 10 F-7: ohne Firmierung
+>   sind die Art.-14-Pflichtangaben nicht erfüllbar). Die
+>   Original-Formulierung „als Rohtext" trifft es also — die
+>   fertige Beileger-Fassung nicht.
+> - **Lead-Bogen für Messen** (D2 Pflicht 5) und **Gesprächsleitfaden**:
+>   im Bestand ist keine Namens- oder Listen-Abhängigkeit dokumentiert.
+>   ⚠️ **Belegstufe: Negativ aus Aktenlage** (grep über
+>   Regelwerk/o8/Akquiseplan, 17.08.2026) — kein positiver Beleg, dass
+>   sie namensfrei sind, sondern kein Gegenbeleg. Wer sie baut, prüft
+>   die Namensfrage am Werkstück.
+> - **K2-Anlass-Anbahnung:** unberührt. K2 ist der persönliche
+>   Vorkontakt, er läuft nicht über eine Adressliste aus fremder
+>   Quelle — die Rn.-87-Sperre betrifft ihn nicht. *(Dass K2 dadurch
+>   der einzige fristtragende Kanal ist, sagt § 4.3, nicht dieser
+>   Kasten.)*
+>
+> **Was der Nachtrag für die zwei Pfade bedeutet:**
+> - **Pfad (a) Warten** ist unberührt und wird durch die Verschärfung
+>   sogar bestätigt: *Kaltkanal-Aufbau startet erst nach dem
+>   Namensentscheid* ist genau die Reihenfolge, die Rn. 87 verlangt.
+>   Nur die Preisangabe verschiebt sich nach vorn — die Verzugsuhr läuft
+>   ab dem gesperrten **Listenaufbau**, nicht ab einem gesperrten
+>   Versand.
+> - **Pfad (b) Arbeitstitel** trägt eine **zusätzliche offene Frage, die
+>   dieser Plan nicht beantwortet:** Wenn F-7 bereits den ersten
+>   Datensatz sperrt, muss ein Arbeitstitel die Rolle des
+>   **Verantwortlichen** in der Art.-14-Information ausfüllen können.
+>   Ob eine Firmierung, die kurz darauf wechselt, diese Pflichtangabe
+>   erfüllt — und was der Rebrand für bereits informierte Adressaten
+>   auslöst —, ist eine **Rechtsfrage: Frage an den Anwalt**
+>   (`handel/anwalts-briefing-2026-08.md`; o8 § 10 F-7 hält fest, dass
+>   ohne Firmierung die Art.-14-Pflichtangaben nicht erfüllbar sind).
+>   ⚠️ Belegstufe dieses Hinweises: **eigene Ableitung aus dem
+>   Bestand, keine Quellenaussage** — im Bestand ist die Frage nach
+>   Suchweg vom 17.08.2026 (grep „Arbeitstitel" über
+>   `akquise/`, `handel/`) nirgends gestellt. Sie ist damit ein
+>   **Nebenbefund für MKT-HANDEL**, kein Ergebnis dieses Plans.
+>
+> **Gegengelesene Terminlogik § 3 (Auftrag: jeden Satz einzeln):**
+> **11 Aussagen geprüft: 2 gekippt und nachgezogen** (der Absatz oben +
+> Pfad b), **7 unberührt, 2 Nebenbefunde** (Summe 11; die Summenprobe
+> belegt die Vollzähligkeit, nicht die Richtigkeit der Einstufung —
+> die Einstufung je Aussage ist unten benannt).
+> Unberührt und mit der Verschärfung *vereinbar* sind die Stufen S4/S5
+> selbst — § 3.1 führt S5 („Firmierung/Name steht") ausdrücklich als
+> **„Voraussetzung von S4"** („Liste + Pflichtbausteine gebaut"), also
+> den Namen VOR dem Bau; ebenso der Null-Puffer-Kasten, der
+> ⭐-Kasten zum kritischen Pfad und die Aussage, dass die
+> November-Frist im Kaltkanal keinen Puffer hat. *(Die sieben
+> unberührten einzeln: S4-Zeile · S5-Zeile · Null-Puffer-Kasten ·
+> ⭐-Kasten kritischer Pfad · November-Frist-ohne-Puffer · Pfad (a)
+> oben · der Absatz *Beides hat Außenwirkung — dieser Plan wählt
+> nicht* mit Verweis auf E-A1 in § 8.)* **Die
+> Terminarithmetik des § 3 bricht durch diesen Nachtrag also nicht** —
+> gekippt war die Aussage in § 3.2, nicht die Rechnung in § 3.1.
+> Nachgezogen: Pfad (b) oben. **Zwei Nebenbefunde außerhalb dieses
+> Auftrags** (alternde Relativzeitangaben, nicht „sofort
+> baubar"-abhängig, deshalb hier nur benannt): § 3.1 sagt ***S5 liegt
+> drei Tage nach heute*** und ***das war gestern*** — beide Angaben
+> stammen vom Erstellungsstand 11.08.2026 und sind am 17.08.2026
+> verstrichen; S5 (14.08.) ist vorbei. Träger: Leitsession.
+>
+> **Herkunft dieses Kastens:** R16C-N-1 (Nebenbefund der R16-C-Session),
+> Auftrag Tagesplan 17.08.2026 Strang R17-C Punkt 1. Der Nachzug war in
+> STATUS.md Punkt 0 seit R9 ausdrücklich verlangt („der Akquiseplan ist
+> entsprechend nachzuziehen") und ist mit diesem Kasten erfüllt.
 
 ---
 
@@ -409,7 +545,47 @@ werden getrennt geplant:**
 > „Trägt" in beiden Spalten (wenn die Zielgruppe anders erreichbar ist
 > als rechtlich hergeleitet), die Reihenfolge K1 ↔ K3 und die Annahme,
 > dass K2 überhaupt genug Anlässe hergibt. **Was er nicht kippt:** die
-> Rechtslage je Kanal (§ 2) und die Terminarithmetik (§ 3). Er ist der
+> Rechtslage je Kanal (§ 2) und die Terminarithmetik (§ 3).
+
+> 📌 **REPARATUR 17.08.2026 (R17-C), Befund R16C-N-2 — zwei Brüche an
+> einer Naht, beide am git-Verlauf belegt**
+>
+> **Vorher stand hier:** die Blockquote-Zeile endete mit *… und die
+> Terminarithmetik (§ 3). Er ist der*, und die Folgezeile *Kanal, mit
+> dem die Pipeline nach dem ersten Abschluss trägt — und* lief **ohne
+> `>`-Präfix** weiter. Zwei Fehler in einem:
+> **(a) Formatbruch** — das Blockquote zerreißt beim Rendern mitten im
+> Satz. **(b) Bezugsbruch** — grammatisches Subjekt von *Er* war der
+> Persona-Befund; gemeint ist ein Kanal.
+>
+> **Was die Messung ergab (und was sie widerlegt):** Der Auftrag nahm
+> an, das `>`-Präfix sei verloren gegangen und müsse ergänzt werden.
+> **Das trägt nicht.** Im Erststand `d11535f` war die Passage überhaupt
+> kein Blockquote, sondern Fließtext mit einem Vorspann, der das
+> Subjekt nannte — *K1 wird deshalb nicht gestrichen, sondern
+> umdatiert:* Ein `>`-Präfix hat an dieser Zeile **nie** gestanden; es
+> zu ergänzen hätte den Fließtext (der zur Wellengrößen-Tabelle
+> darunter führt) fälschlich in den FUND2-Vorbehaltskasten gezogen.
+>
+> **Ursache, mechanisch belegt:** Zwischen `d11535f` und `6e4daa5`
+> (R08-A-Reparaturlauf) wurde der FUND2-Vorbehaltskasten hier
+> eingefügt; sein Edit-Anker **konsumierte den Vorspann-Satz** und ließ
+> das Fragment *Er ist der* am Kasten-Ende zurück. Das ist der
+> CLAUDE.md-Fall L-38 (ein Edit-Anker, der den Anfang der Folgezeile
+> konsumiert, zerlegt sie still) — der Bruch bestand seit `6e4daa5`
+> durch `1da1327` und `5d7d78d` unbemerkt fort.
+>
+> **Reparatur:** Der Erststand-Vorspann ist byte-treu aus `d11535f`
+> wiederhergestellt; das Fragment am Blockquote-Ende ist entfernt.
+> Damit sind **(a) und (b) mit einem Griff behoben und beide belegt** —
+> der Bezug von *Er* ist **nicht erschlossen, sondern die
+> Original-Formulierung**: gemeint ist **K1** (Brief). Bestätigend am
+> Kontext: die Tabelle oben führt K1 in der Spalte *Aufbauaufgabe (ab
+> jetzt, wirkt ab Q4/Q1)*, die Messgröße dort ist die Reply-Quote je
+> Welle (KPI-5), und der Folgesatz handelt von Welle 1.
+> **Nichts erfunden, nichts abgeschwächt.**
+
+**K1 wird deshalb nicht gestrichen, sondern umdatiert:** Er ist der
 Kanal, mit dem die Pipeline **nach** dem ersten Abschluss trägt — und
 Welle 1 ist zugleich die **Messwelle**, die A-1 bis A-4 zum ersten Mal
 mit echten Zahlen belegt. Genau deshalb muss Welle 1 groß genug für eine

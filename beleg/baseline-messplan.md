@@ -337,7 +337,7 @@ geplant).
 
 | Zeitraum | Schritt | Wer |
 |---|---|---|
-| bis So 16.08. | Plan-Review (Leitsession) + User-Freigabe inkl. Entscheid BM-4/BM-5 | Leitsession + User |
+| ~~bis So 16.08.~~ **erfüllt am 09.08.** | ~~Plan-Review (Leitsession) + User-Freigabe inkl. Entscheid BM-4/BM-5~~ ✅ **ERLEDIGT 09.08.2026** — Review gelaufen, Freigabe erteilt, BM-4/BM-5 entschieden (Beleg: Statuskasten + Nachtrag Punkt 3 im Kopf). Diese Zeile nennt die Zielstichprobe nicht; zu deren Stand s. Entflechtungs-Kasten in § 6 *(nachgezogen 17.08.2026, R17-C)* | ~~Leitsession + User~~ erledigt |
 | bis Do 20.08. | Erhebungsvorlagen (Tagesblätter, No-Show-Interviewleitfaden) fertig | Marketing-Folge-Session |
 | bis So 23.08. | Betreiber-Briefing (Kayhan + Klärung Rabe's/Hostel; Erhebungsfragen E-1 bis E-5; ggf. koppelbar mit dem FUND2-Kayhan-Gespräch — Koordination Leitsession) | User |
 | Mo 24.08. – So 20.09. | **Kern-Messfenster: 4 volle Wochen** BM-1/BM-2 (+Optionen); Minimum bei Verzug: 2 volle Wochen, dann mit kleinerem Nenner dokumentiert. **Gestaffelter Start zulässig (Prüfer-Befund G-6):** Firzlaff's startet 24.08. auch dann, wenn Rabe's/Hostel noch ungeklärt sind — die beiden starten nachlaufend mit eigenem, kleinerem Nenner statt den Gesamtstart zu blockieren | Erheber je Objekt |
@@ -355,16 +355,82 @@ vor, „nicht prüfbar" bis Briefing). **Saisonalitäts-Vorbehalt:** Ein
 Sept.-Fenster misst Spätsommer/Herbst — die Vorher/Nachher-Erzählung
 muss später saisongleiche Vergleiche wählen oder den Vorbehalt nennen.
 
+> ✅ **Bedingung eingetreten — nachgetragen 17.08.2026 (R17-C):** Die
+> Freigabe steht seit dem **09.08.2026**, also sieben Tage vor der
+> genannten Grenze. **Dieser Vorbehalt ist damit erfüllt und kein
+> offenes Risiko mehr** — es gibt keinen Freigabe-Verzug, der vom
+> Messfenster abgeht; das 4-Wochen-Fenster (Mo 24.08. – So 20.09.) ist
+> von dieser Seite ungefährdet. *(Eine konditionale Warnung altert
+> lautlos: Sie war korrekt formuliert und blieb stehen, nachdem ihre
+> Bedingung eingetreten war — niemand prüft die Bedingung nach.
+> CLAUDE.md, Doku-Hygiene.)* **Unberührt bleiben** die beiden anderen
+> Vorbehalte dieses Absatzes: die Stichprobengröße bei verkürztem
+> Fenster und der Saisonalitäts-Vorbehalt.
+
 ## 6. User-/Betreiber-Handgriffe (eigene Liste)
 
 | # | Handgriff | Wer | bis |
 |---|---|---|---|
 | ~~H-1~~ | ~~Konkretes Livegang-Datum erfragen~~ ✅ **ERLEDIGT 17.08.2026: Di 22.09.2026** (Quelle: User-Chat ~14:50 MESZ, Form: Kurzantwort, Belegstufe **Nutzerangabe**). Abweichung zum Planungsanker 22.09.: **0 Tage**, kein Nachziehen nötig — Einzelheiten im Kasten zu § 5 | ~~User~~ erledigt | ~~16.08.~~ **17.08.** |
-| H-2 | Plan-Freigabe inkl. Entscheid Zusatz-Optionen BM-4/BM-5 und Zielstichprobe | User (nach Leitsession-Review) | 16.08. |
+| H-2 | **ENTFLOCHTEN 17.08.2026 (R17-C) — drei Teile mit drei verschiedenen Ständen, s. Kasten unter dieser Tabelle.** ~~Plan-Freigabe~~ ✅ **ERTEILT 09.08.2026** (Beleg: Statuskasten im Kopf dieses Dokuments) · ~~Entscheid Zusatz-Optionen BM-4/BM-5~~ ✅ **ENTSCHIEDEN 09.08.2026** (Beleg: Kopf-Nachtrag Punkt 3 — keine eigenen Strichlisten, sondern Schätzfragen im Briefing-Interview) · **Entscheid Zielstichprobe: Stand ungeklärt — Frist verstrichen** | ~~User~~ Teil 1 + 2 erledigt; Teil 3 User | ~~16.08.~~ **Teil 1 + 2 erfüllt am 09.08. (7 Tage VOR Frist); Teil 3: Frist 16.08. verstrichen, neuer Anker offen** |
 | H-3 | Betreiber-Briefing: Erhebungsfragen E-1 bis E-5 klären, Vorlagen übergeben, Messstart vereinbaren; Kayhan-Konventionen beachten | User | 23.08. |
 | H-4 | Alt-System-Datensicherung: HS/3-/DIRS21-/OTA-Auszüge (No-Show-Historie, Belegung) exportieren/fotografieren, BEVOR der Systemwechsel sie gefährdet | User + Betreiber | 07.09. |
 | H-5 | Wöchentlicher Check: Zettel-Fotos einsammeln (fernbedient, Messenger), Lücken sofort nachfassen statt am Ende. **Prämisse (Prüfer-Befund G-6): setzt einen Messenger-Kanal auch zu den Erhebern Rabe's/Hostel voraus — im Briefing herstellen (E-5)** | User | jeden Sa im Fenster |
 | H-6 | Rohprotokolle final einsammeln und der Marketing-Session übergeben | User | 21.09. |
+
+> ### 📌 ENTFLECHTUNG H-2 — 17.08.2026 (R17-C), Befund R16C-N-3
+>
+> **Der Widerspruch, der aufgelöst wird:** Der Kopf dieses Dokuments
+> führt H-2 seit dem 09.08.2026 als **✅ FREIGEGEBEN**, während die
+> Handgriff-Tabelle und § 5 ihn weiter als offenen Termin zum 16.08.
+> führten. Beides war für sich lesbar und zusammen falsch: Die Freigabe
+> war **sieben Tage vor ihrer Frist erteilt** und an ihrem Träger nie
+> geschlossen worden (CLAUDE.md-Fall „ERFÜLLEN": wer einen Offen-Posten
+> erfüllt, liest sein Ergebnis nicht als Änderung an fremdem Text).
+>
+> **H-2 trägt drei Teile. Jeder einzeln:**
+>
+> | Teil | Gegenstand | Stand am 17.08.2026 | Beleg |
+> |---|---|---|---|
+> | **1** | Plan-Freigabe | ✅ **erteilt 09.08.2026** | Statuskasten im Kopf; Erhebungsquelle archiviert, Originalwortlaut im Kopf-Nachtrag zitiert; Prüfdurchgang `protokolle/R02-A-pruefer.md` |
+> | **2** | Entscheid Zusatz-Optionen BM-4/BM-5 | ✅ **entschieden 09.08.2026** | Kopf-Nachtrag Punkt 3: BM-4 und BM-5 werden keine eigenen Strichlisten, sondern Schätzfragen im Briefing-Interview |
+> | **3** | Entscheid **Zielstichprobe** | ⚠️ **Stand ungeklärt; Frist 16.08. verstrichen** | s. Suchweg unten |
+>
+> **Teil 3 — was gemessen wurde und was offen bleibt.** Der Plan
+> enthält eine Ziel-Stichprobe (§ 2, BM-1: ≥ 30 Vorgänge je Hotel,
+> beim Hostel „alle im Fenster anfallenden", ausdrücklich als
+> **Planwert ohne Abbruchkriterium**). Ein **gesonderter User-Entscheid
+> dazu** ist im Bestand nicht auffindbar. **Suchweg (17.08.2026, Stand
+> `926ca3c`):** grep über alle `*.md` des Repos, zwei Achsen —
+> Kürzel (`H-2`) und Sache (`Zielstichprobe`, `Ziel-Stichprobe`);
+> `sensibel/` ausgenommen. Der Freigabe-Nachtrag im Kopf regelt
+> BM-4/BM-5 ausdrücklich (Punkt 3), die Zielstichprobe **nirgends**;
+> die § 5-Tabellenzeile zum 16.08. nennt ebenfalls nur BM-4/BM-5, das
+> „und Zielstichprobe" stand allein in der H-2-Zeile.
+> **Positivkontrolle des Suchwegs:** dieselbe Suche findet `H-1`
+> repo-weit 92-mal, darunter den am 17.08. erledigten Livegang-Handgriff
+> — der Suchweg trifft also. **Belegstufe des Negativs: Aktenlage,
+> nicht Vollbeweis** — ein mündlicher Entscheid ohne Repo-Spur wäre
+> hiermit nicht widerlegt.
+>
+> **⚠️ Zwei Lesarten — die Entscheidung gehört dem User, nicht diesem
+> Dokument:**
+> - **Lesart A (mit-erledigt):** Die Ziel-Stichprobe ist Teil des
+>   freigegebenen Plantexts; mit der Plan-Freigabe ist sie
+>   mitfreigegeben. Dann ist H-2 **vollständig erledigt**.
+> - **Lesart B (offen):** Die H-2-Zeile verlangt einen **ausdrücklichen**
+>   Entscheid neben der Freigabe — für BM-4/BM-5 liegt genau so ein
+>   ausdrücklicher Entscheid vor, für die Zielstichprobe nicht. Dann ist
+>   Teil 3 **offen**.
+>
+> **Die verstrichene Frist wird nicht gelöscht und nicht neu gesetzt.**
+> Sie ist sichtbar als **verstrichen am 16.08.2026** geführt; **der neue
+> Anker ist ein User-Entscheid** und in der Abschlussmeldung dieser
+> Session als Klartext-Frage gestellt. *(Kein Anker wird hier
+> ersatzweise erfunden — ein selbstgesetzter Termin sähe wie eine
+> Zusage aus, die niemand gegeben hat.)*
+>
+> **Nicht angefasst:** H-1 (Livegang 22.09., R16-C) — eigener Posten.
 
 **Erhebungsfragen fürs Briefing (Ergebnis kann „nicht prüfbar" sein):**
 
@@ -427,6 +493,10 @@ muss später saisongleiche Vergleiche wählen oder den Vorbehalt nennen.
 
 - **Dieser Plan ist fertig**, wenn: von Leitsession reviewt, vom User
   freigegeben (H-2), Vorlagen beauftragt.
+  *(Stand 17.08.2026, R17-C: Review ✅ und Freigabe ✅ seit 09.08.2026 —
+  s. Entflechtungs-Kasten § 6. Zum dritten H-2-Teil (Zielstichprobe)
+  und zum Punkt „Vorlagen beauftragt" trifft dieser Nachtrag **keine**
+  Aussage: der Vorlagen-Stand wurde in dieser Session nicht erhoben.)*
 - **BELEG1 ist fertig** (Projektquelle § 2), wenn: Messwerte je Objekt
   gemäß § 7 dokumentiert sind — mit den hier definierten Zählwegen,
   Beleg-Typen und Vorbehalten.

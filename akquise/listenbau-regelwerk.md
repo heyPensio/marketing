@@ -410,6 +410,39 @@ gelegentlich" (Rechtsmatrix C6).
 >   *(Vorfassung: „Der erste Versand bleibt gesperrt." — zu schwach; die
 >   Herleitung stand bereits in `interessenabwaegung-o8.md` § 9.1, war
 >   hier aber nicht nachgezogen.)*
+>
+> 🔴 **BESTANDSVERMERK nachgezogen 17.08.2026 (R17-C), Befund
+> R16A-N-1 — wo der Rn.-87-Satz im Urteil steht.** Der oben
+> zitierte Satz ist echt und richtig zitiert, aber er steht nach
+> dem Bestandsvermerk der Rechtsmatrix (17.08.2026, Befund
+> R15A-N-4) **„nicht in der tragenden Absagebegründung"**: Tragend
+> ist **Rn. 84/85** — die lit.-f-Voraussetzungen sind dort schon
+> deshalb nicht erfüllt, „weil die Beklagte die Artt. 12, 14, 21
+> DSGVO verletzt hat". **Rn. 86** referiert einen
+> Literatureinwand (Brandt/Dienst, GRUR-Prax 2025, 152), **Rn. 87**
+> beginnt mit *Unabhängig davon* und ist damit die „zweite,
+> hilfsweise Abwehr desselben Einwands".
+>
+> **Was das für dieses Regelwerk ändert — und was nicht:**
+> **Die Rechtsfolge oben bleibt in Kraft.** „Nicht tragend" heißt
+> **nicht** „falsch": Das Urteil trägt die Absage in Rn. 84/85 nur
+> anders. Die Rechtsmatrix hält ausdrücklich fest: **„Die
+> Vorsichtsannahme bleibt trotzdem in Kraft"** — was sich ändert,
+> ist allein die **Belegkraft** für die Betriebsfolge, nicht die
+> Sperre. Der Grund ist die Asymmetrie: „eine unbelegte
+> Verschärfung kostet Zeit, eine unbelegte Entwarnung kostet den
+> Fall". **Ob ein nicht tragender Satz die Betriebsfolge trägt, ist
+> eine Rechtsfrage — Frage an den Anwalt** (Teilfrage 6 zu Frage 2,
+> `handel/anwalts-briefing-2026-08.md`); dieses Regelwerk
+> beantwortet sie nicht.
+>
+> *(Quelle des Wortlauts: `handel/kanal-rechtsmatrix.md`,
+> Bestandsvermerk 17.08.2026 zum O-9-Kasten, Stand `926ca3c` —
+> byte-treu zitiert, nicht neu formuliert. Derselbe Vermerk steht
+> in `akquise/interessenabwaegung-o8.md` an der Q-04-Stelle. Dieser
+> Nachzug fehlte hier, obwohl das Regelwerk die ABLEITUNG ist:
+> CLAUDE.md L-25 — wer die Quelle schärft, zieht die Ableitungen
+> nach.)*
 > - **Neu offen:** die **Kompatibilitätsprüfung nach Art. 6 Abs. 4 DSGVO**
 >   (Zweckänderung Anbieterkennzeichnung → Werbung), in diesem Regelwerk
 >   und in der Rechtsmatrix bisher nirgends geführt — dort § 5.5/O-9.
@@ -873,6 +906,56 @@ Wellenprotokoll, nicht als Feld. (§ 10, O-3.)
 > Erstfassung berief sich hier auf die Wahrheits-Kanal-Regel; das war
 > die falsche Begründung — Prüferbefund PE-22. Die Zeiger nach § 7.1,
 > § 10/O-3 und § 10/O-12 sind nachgetragen.)*
+
+> ### ✅ NEUFASSUNG 17.08.2026 (R17-C) — die drei Abweichungen sind eingearbeitet (R15E-N-1)
+>
+> **Status des Zeigers darüber:** Der Vermerk *Die inhaltliche
+> Neufassung dieses Nachtrags liegt bei der Leitsession* ist **mit
+> diesem Kasten erledigt** (Auftrag Tagesplan 17.08.2026, Strang
+> R17-C Punkt 3). Der R13-B-Nachtrag und der R15-E-Zeiger bleiben
+> unverändert stehen — sie sind die Herkunft; **maßgeblich ist ab hier
+> diese Liste.**
+>
+> **Am Objekt nachgeprüft (17.08.2026, Stand `926ca3c`):** Alle drei
+> Abweichungen bestehen weiter — die R13-B-Aufzählung oben nennt
+> unverändert nur „Anteil FG-4", „Textversion" (Singular) und ein
+> einzelnes Abgleichsdatum. **3 von 3 offen, 0 von 3 zwischenzeitlich
+> erledigt.**
+>
+> **Je Welle zu protokollieren — vollständige Fassung (sechs Felder):**
+> 1. **Auswahlkriterien**, aggregiert und ohne Personenbezug
+> 2. **Menge**
+> 3. **Anteil FG-4** (inhabergeführtes Haus / benannte Person, Quelle
+>    Online-Impressum) — er ist nach o8 § 5.4 „das Maß des getragenen
+>    Risikos"
+> 4. **Anteil FG-2** *(neu — Abweichung (a))*: Kapitalgesellschaft ohne
+>    Personenname, Quelle Impressum. Die FG-2-Zeile in
+>    `akquise/interessenabwaegung-o8.md` § 5.4 verlangt wörtlich, den
+>    „Anteil im Wellenprotokoll ausweisen" (B-6).
+> 5. **Datum des Sperrdatei-Abgleichs — mehrzeilig, ein Eintrag je
+>    Anlass** *(präzisiert — Abweichung (c))*: R-B6 in § 7.3 dieses
+>    Regelwerks nennt **zwei** Anlässe (vor jedem Versand *und* vor
+>    jedem Druckauftrag). Ein einzelnes Datum kann eine Welle mit
+>    mehreren Druckaufträgen nicht abbilden. Träger der Zeilen ist das
+>    Abgleich-Journal in `akquise/wellenprotokoll-vorlage.md` Block D —
+>    es existiert **einmal**, nicht in beiden Dateien.
+> 6. **Textversionen — ZWEI Felder** *(präzisiert — Abweichung (b))*:
+>    nach o8 § 10 B-5 bekommen „Der Art.-14-Beileger und der
+>    Widerspruchs-Kasten" je eine Versionsnummer; je Welle wird
+>    protokolliert, welche Version an welche Adressen ging. Also ein
+>    Versionsfeld je Text, nicht ein gemeinsames.
+>
+> ⚠️ **Abweichung zur Quelle ausgewiesen — und ein Nebenbefund an o8:**
+> Feld 4 geht über den Wortlaut von o8 § 10 **B-6** hinaus: B-6 selbst
+> zählt nur „Anteil FG-4 (Impressumsquelle)" auf, während die
+> FG-2-Zeile derselben Quelle in § 5.4 den FG-2-Anteil wörtlich
+> verlangt. **Die Quelle ist an dieser Stelle in sich inkonsistent**;
+> diese Ableitung folgt der strengeren der beiden Stellen. **Die
+> Präzisierung von o8 selbst ist NICHT Sache dieses Dokuments** —
+> `akquise/interessenabwaegung-o8.md` gehört zum Scope R17-A; der
+> Befund ist als Nebenbefund gemeldet. Bei Widerspruch gewinnt o8 als
+> Quelle (Vorrangklausel § 11) — die hier gewählte strengere Lesart
+> steht unter diesem Vorbehalt.
 
 ---
 

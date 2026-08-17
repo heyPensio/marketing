@@ -22,8 +22,9 @@ bestimmt** · Übermittelt zum Zweck der Mandatsanbahnung
 | **Empfänger** | **⛔ NOCH NICHT BESTIMMT.** Im Repo ist keine Kanzlei benannt; die Auswahl trifft der User / die Firmen-Ebene. Bis dahin steht überall `[KANZLEI]` |
 | **Absender** | **⛔ FIRMIERUNG OFFEN (interner Posten F-7).** Der Rebrand ist entschieden, der neue Name steht noch nicht fest. Überall `[FIRMIERUNG — offen, F-7]`. **Keine erfundene Firmierung**, auch nicht als Beispiel |
 | **Quell-Abgleich gelaufen** | `handel/kanal-rechtsmatrix.md` · `akquise/interessenabwaegung-o8.md` · `akquise/listenbau-regelwerk.md` · `akquise/sperrdatei-struktur.md` · `projektquelle-mkt.md` § 5 · `protokolle/R14-B-abschluss.md`, je gegen die **Rohbelege** (s. § 7), 14.08.2026 — **zweiter Durchgang nach dem Prüferlauf** (Befund S-2: der erste hatte die Fallgruppen-Tabelle des O-8-Dokuments auf ihrer eigenen Achse nicht gefangen) |
-| **Repo-Stand beim Bau** | `4b84693` (R15-A, eingefroren zu Beginn jener Session; zweiter Messstand vor dem Commit in `protokolle/R15-A-abschluss.md`). **Nachtrag R16-A, 17.08.2026:** Prüfstand dieser Session `0c4692f`, eingefroren zu Sessionbeginn. ⚠️ **Zweiter Messstand vor dem Commit: `686ff18`** — der geteilte Arbeitsbaum ist während der Arbeit gewandert (Parallel-Session R16-C hat committet), der Bau-Commit `a495a0f` sitzt deshalb auf `686ff18`. **Gemessen und folgenlos:** `git diff 0c4692f 686ff18` berührt keine der hier bearbeiteten Dateien; die Löschungszählung gegen beide Stände ist identisch |
+| **Repo-Stand beim Bau** | `4b84693` (R15-A, eingefroren zu Beginn jener Session; zweiter Messstand vor dem Commit in `protokolle/R15-A-abschluss.md`). **Nachtrag R16-A, 17.08.2026:** Prüfstand dieser Session `0c4692f`, eingefroren zu Sessionbeginn. ⚠️ **Zweiter Messstand vor dem Commit: `686ff18`** — der geteilte Arbeitsbaum ist während der Arbeit gewandert (Parallel-Session R16-C hat committet), der Bau-Commit `a495a0f` sitzt deshalb auf `686ff18`. **Gemessen und folgenlos:** `git diff 0c4692f 686ff18` berührt keine der hier bearbeiteten Dateien; die Löschungszählung gegen beide Stände ist identisch. **Nachtrag R17-A, 17.08.2026:** Prüfstand dieser Session `90254e1`, eingefroren zu Sessionbeginn (der Rundenstart-Hash `926ca3c` liegt genau einen Commit davor und berührt nur den Tagesplan). Zweiter Messstand vor dem Commit und Bau-Commit: `protokolle/R17-A-abschluss.md` |
 | **Änderungen R16-A (17.08.2026)** | **Status bleibt ENTWURF.** Vier Eingriffe: (1) § 2.1 nachgezogen — der A7-Kernsatz der Rechtsmatrix ist inzwischen **neu gefasst**, der Abschnitt beschrieb ihn noch als „nur markiert"; (2) § 3.2 um **Teilfrage 1a** ergänzt (zweite Schiene § 3 Abs. 2 UWG im B2B-Fall) samt Fundstellen Rn. 136/147/148 in § 3.3 — ohne sie hätte die Antwort auf Frage 3 nur die Hälfte der Doppelbegründung erfasst; (3) **ID-Zeiger** an § 4a Kandidat A (`ANL-3` / `PS-1` / `R15E-N-4`), damit ein Grep auf die Kürzel künftig trifft; (4) 🔧 **Reparatur in § 4a Kandidat A:** Dort stand „ohne Personennamen **und ohne jede weitere Angabe**" — das war eine unzutreffende Bestandsaussage. `akquise/sperrdatei-struktur.md` § 3 führt für `ANL-3` **sieben** Felder (SP-02, SP-03, SP-05 bis SP-08, SP-10) und schließt nur SP-04 (Personenname) und das Grund-Feld aus. Der Satz ist auf den gemessenen Stand gebracht |
+| **Änderungen R17-A (17.08.2026, Nachmittag)** | **Status bleibt ENTWURF.** Fünf Eingriffe: (1) § 2.3 — der Satz „Den Beschluss 20 W 37/24 haben wir nicht beschafft" ist **überholt**; der Beschluss liegt im Volltext vor, Auswertung als Nachtragskasten (Vorfassung durchgestrichen sichtbar); (2) § 2.3 — die **deutsche** Sprachfassung des EuGH-Urteils C-621/22 ist beschafft, die Sprachfassungs-**Annahme** damit am Objekt geprüft und bestätigt, der Vorbehalt „nicht abrufbar" war ein **Werkzeug**-, kein Quellenbefund; (3) § 3.2 um **Teilfrage 1c** ergänzt — die **dritte** Unlauterkeits-Schiene §§ 5a Abs. 1, 5b Abs. 4 UWG (Rn. 221/223/225/243/244 sowie die Darlegungslast-Umkehr Rn. 176/234), die im ganzen Bestand fehlte, weil die Randnummern ab 156 nie gelesen waren; (4) 🔧 **Korrektur der R16-A-Zeile darüber:** Die Zahl **sieben** ist am Objekt bestätigt (SP-02, SP-03, SP-05, SP-06, SP-07, SP-08, SP-10 = 7 — nachgezählt in `akquise/sperrdatei-struktur.md`, Abschnitt vor § 3a; § 4a Kandidat A zählt dieselben sieben in Klartext auf und ist korrekt). **Falsch ist der Zusatz** „und schließt **nur** SP-04 (Personenname) und das Grund-Feld aus": Die Quelle formuliert eine **abschließende Positivliste** („tragen **nur** SP-02, SP-03, SP-05 bis SP-08 und SP-10 — niemals SP-04"), aus der auch SP-01, SP-09 und SP-11 ff. herausfallen. Ein „schließt nur zwei aus" macht aus einer engen Positivliste eine weite Erlaubnis; (5) **Repo-Stand** um den R17-A-Prüfstand ergänzt |
 | **Was dieses Dokument NICHT tut** | Es **entscheidet nichts** und nimmt keine Antwort vorweg. Wo unsere eigene Vorarbeit einen Streitstand gefunden hat, steht „streitig" — nicht der bequemere Pol |
 | **⚠️ Offene User-Entscheidung vor dem Versand** | § 0 Satz 7 offenbart, dass wir das Impressums-Risiko **bewusst und gegen die eigene Empfehlung** tragen. Das ist der ehrlichste und zugleich der angreifbarste Satz des Dokuments: Er geht an einen Empfänger, der zu diesem Zeitpunkt noch nicht mandatiert ist. **Drei Möglichkeiten:** (a) so lassen — der Anwalt kann ohne diese Angabe nicht sinnvoll beraten; (b) erst nach Mandatserteilung nachreichen; (c) neutraler fassen („wir haben uns nach Abwägung für die Nutzung entschieden"). **Empfehlung dieser Session: (a)**, weil Weg B in § 1.5 sonst nicht bewertbar ist — die Entscheidung trifft der User |
 
@@ -540,7 +541,52 @@ Passage steht im Abschnitt zur **lauterkeitsrechtlichen** Würdigung des
 Schreibens, nicht in der DSGVO-Prüfung — sie wirkt aber auf den zweiten
 Absagegrund zurück, weil Rn. 88 die Rechtmäßigkeit des verfolgten
 Interesses gerade an der lauterkeitsrechtlichen Zulässigkeit misst.
-**Den Beschluss 20 W 37/24 haben wir nicht beschafft.**
+~~**Den Beschluss 20 W 37/24 haben wir nicht beschafft.**~~
+
+> 🟢 **Nachtrag 17.08.2026 — der Beschluss liegt jetzt vor.** Der
+> durchgestrichene Satz ist überholt: OLG Düsseldorf, Beschl. v.
+> 19.12.2024 – 20 W 37/24, 20. Zivilsenat,
+> ECLI:DE:OLGD:2024:1219.20W37.24.00, im Volltext über die amtliche
+> Datenbank NRWE beschafft und gelesen (Rn. 1–27 vollständig).
+> **Vier Feststellungen, die Sie interessieren dürften:**
+>
+> 1. Es war ein **Ordnungsmittelverfahren nach § 890 ZPO**, kein
+>    Erkenntnisverfahren. Aufgehoben wurde ein Ordnungsgeld von
+>    125.000 €.
+> 2. **Tragend** ist die Kerngleichheits-Prüfung: Die 2023er
+>    Werbeschreiben enthielten die 2022 beanstandeten Textpassagen
+>    nicht mehr. Der Senat: „Eine Prüfung der veränderten Gestaltung
+>    hat in einem (gesonderten) Erkenntnisverfahren zu geschehen."
+> 3. **Die abweichende Auffassung** steht unmittelbar danach, als
+>    „Im Übrigen"-Zusatz: „Im Übrigen hat der Senat bereits darauf
+>    hingewiesen, dass das streitgegenständliche Kundenanschreiben
+>    (Anlagen AST 4) **nicht zur Irreführung geeignet** ist. Von dieser
+>    Rechtsauffassung haben die Parteien aufgrund der unter den Az.:
+>    **I-20 U 107/23** sowie **I-20 U 117/23** geführten Verfahren
+>    Kenntnis; daran wird auch nach nochmaliger Überprüfung
+>    festgehalten." Die Einordnung des Landgerichts („nicht tragende
+>    Erwägung") ist damit **am Original bestätigt**.
+> 4. ⭐ **Der Beschluss befasst sich an keiner Stelle mit
+>    Datenschutzrecht.** Zählweg am eigenen Volltext (8.297 Zeichen):
+>    `DSGVO` = 0 · `Datenschutz` = 0 · `Art. 6` = 0 · `Art. 14` = 0 ·
+>    `3a UWG` = 0 · **`UWG` = 0**; Positivkontrollen im selben Lauf:
+>    `§ 890` = 2 · `Schuldnerin` = 13 · `kerngleich` = 1 ·
+>    `Irreführung` = 1. **Die abweichende Auffassung betrifft also die
+>    Irreführungs-Achse, nicht den ersten Absagegrund des Landgerichts
+>    (Rn. 84/85, Art.-14-/Art.-21-Pflichten).**
+>
+> **Was wir NICHT haben:** die begründete Fassung dieser Auffassung.
+> Sie dürfte in **I-20 U 107/23** und **I-20 U 117/23** stehen; beide
+> Entscheidungen konnten wir nicht auffinden (uns fehlt das
+> Entscheidungsdatum für die Dokument-URL der amtlichen Datenbank;
+> Web-Suche und Jahresindex ohne Treffer). **Falls Ihnen über
+> juris/beck-online der Zugriff möglich ist, wäre das die Stelle, an
+> der die Gegenauffassung tragend begründet ist.**
+>
+> ⚠️ **Zitierhinweis:** Der Beschluss ist in sich datumsuneinheitlich
+> (Tenor „Ordnungsgeldbeschluss … vom 06. Mai 2024" ↔ Rn. 5 „vom
+> 06. Mai 2023"; Tenor „Beschwerde … vom 27. Mai 2024" ↔ Rn. 6 „vom
+> 25. Mai 2024"). Wir zitieren die Tenor-Daten.
 
 **Tenor:** Untersagt wurden fünf Verhaltensweisen gegenüber
 **Verbrauchern**; Nr. 4 knüpft an die Informationspflicht nach „Art. 14
@@ -557,15 +603,48 @@ nicht enthalten** — Art. 21 Abs. 4 trägt dort die Art.-6-Prüfung
 Auch das war ein Fehler in unserem Bestand; er ist korrigiert.
 
 **Zu Teilfrage 5 — EuGH, Urt. v. 04.10.2024 – C-621/22
-(Koninklijke Nederlandse Lawn Tennisbond), Rn. 56.** Der deutsche
-Volltext ist über den amtlichen Kanal nicht abrufbar; wir haben die
+(Koninklijke Nederlandse Lawn Tennisbond), Rn. 56.** ~~Der deutsche
+Volltext ist über den amtlichen Kanal nicht abrufbar;~~ wir haben die
 **englische** Sprachfassung gelesen und dazu die amtliche deutsche
-Amtsblatt-Mitteilung mit dem Tenor. *(Dass die Randnummern über die
+Amtsblatt-Mitteilung mit dem Tenor. *(~~Dass die Randnummern über die
 Sprachfassungen hinweg übereinstimmen, konnten wir mangels deutscher
-Volltextfassung **nicht am Objekt prüfen** — wir führen es als Annahme.
+Volltextfassung **nicht am Objekt prüfen** — wir führen es als Annahme.~~
 Verfahrenssprache war Niederländisch; auch die englische Fassung ist
 eine Übersetzung, und eine eigene Übersetzung haben wir nicht
-angefertigt.)* Rn. 56 lautet dort:
+angefertigt.)*
+
+> 🟢 **Nachtrag 17.08.2026 — die deutsche Sprachfassung liegt jetzt vor,
+> und die Annahme ist geprüft.** Der **deutsche Volltext** (CELEX
+> 62022CJ0621, `publications.europa.eu`, 38.320 Zeichen) ist beschafft;
+> der frühere Befund „über den amtlichen Kanal nicht abrufbar" war ein
+> **Werkzeug-**, kein Quellenbefund — der Abruf antwortet mit einem
+> Redirect (HTTP 303), dem unser damaliger Aufruf nicht folgte.
+> **Damit ist die Sprachfassungs-Annahme am Objekt bestätigt:** Rn. 56
+> der deutschen Fassung ist die inhaltsgleiche Entsprechung der
+> englischen (Rn. 54, 55 und 57 mitgelesen, gleiche Zuordnung). Die
+> deutsche Fassung lautet:
+>
+> > „Außerdem wird das vorlegende Gericht den Umstand zu
+> > berücksichtigen haben, dass die betreffenden Daten u. a. an einen
+> > Anbieter von Glücks- und Kasinospielen wie die NLO übermittelt
+> > werden, dessen Werbe- und Marketingmaßnahmen, auch wenn sie
+> > rechtmäßig sind, in einem Kontext stattfinden, der **entgegen dem
+> > 47. Erwägungsgrund der DSGVO nicht durch eine maßgebliche und
+> > angemessene Beziehung zwischen den betroffenen Personen und dem
+> > Verantwortlichen gekennzeichnet zu sein scheint**. Außerdem könnte
+> > sich die Verarbeitung solcher Daten unter bestimmten Umständen
+> > nachteilig auf die Mitglieder der betreffenden Tennisvereine
+> > auswirken, da sie sie der Gefahr der Entwicklung einer Spielsucht
+> > aussetzen könnten."
+>
+> **An der Bewertung unten ändert das nichts** — die deutsche Fassung
+> sagt dasselbe: „**scheint**", gerichtet an das vorlegende Gericht,
+> und die Passage nennt das fehlende Näheverhältnis als **einen**
+> Umstand neben dem Suchtrisiko. Der offene Bewertungsposten
+> („ausdrücklich als Negativfaktor") bleibt offen; er hat jetzt nur
+> keinen Sprachfassungs-Vorbehalt mehr.
+
+Rn. 56 lautet in der englischen Fassung:
 
 > „In addition, the referring court will have to take account of the
 > fact that the data in question are transmitted, inter alia, to a
@@ -773,6 +852,39 @@ an, keine Verbraucher.**
    ausdrücklich nicht, um eine Schwelle zu unterschreiten, sondern weil
    wir die Größenordnung planen müssen und heute nicht wissen, ob sie
    rechtlich überhaupt eine Rolle spielt.)*
+1c. **Und eine DRITTE Schiene, die wir erst am 17.08.2026 gefunden
+   haben — sie ist die einzige, deren Tatbestand B2B ausdrücklich
+   einschließt.** Für den **Art.-14-Verstoß** (dort Klageantrag IV,
+   nicht Antrag I) stützt dasselbe Urteil die Unlauterkeit zusätzlich
+   auf **§§ 5a Abs. 1, 5b Abs. 4 UWG**: „In dem mit Antrag IV
+   angegriffenen Verhalten … liegt **zugleich ein Verstoß gegen das
+   lauterkeitsrechtliche Vorenthaltungsverbot**" (Rn. 221). Und
+   § 5a Abs. 1 UWG erfasst nach seinem Wortlaut „einen Verbraucher
+   **oder sonstigen Marktteilnehmer**" (Rn. 223). Das Gericht
+   begründet, warum datenschutzrechtliche Informationspflichten
+   überhaupt „kommerzielle Kommunikation" sind: Sie sind „spätestens
+   mit dem Versand des Werbebriefs zu erfüllen, mithin im Rahmen der
+   auf die Förderung ihres Produktabsatzes gerichteten gewerblichen
+   Tätigkeit" (Rn. 225).
+   **Unsere Fragen dazu:** (a) Greift diese Schiene bei einer reinen
+   B2B-Aussendung — dort fehlt die Adressatengrenze, an der die beiden
+   anderen Schienen sich reiben? (b) Die **Vermutungsregel** des § 5b
+   Abs. 4 UWG scheint uns verbrauchergebunden zu bleiben; das Gericht
+   grenzt sie selbst ein: Sie gilt „nur für Informationen, die im
+   Rahmen der auf die Förderung des Produktabsatzes gerichteten
+   gewerblichen Tätigkeit … zu erteilen sind" (Rn. 243), und der Text
+   spricht durchgehend von „dem Verbraucher". **Ist die
+   Art.-14-Information gegenüber einem gewerblichen Empfänger nach den
+   allgemeinen Grundsätzen (Rn. 244) eine „wesentliche Information"?**
+   (c) Das Gericht legt die Darlegungslast um: Die weiteren Merkmale
+   „sind im Regelfall erfüllt …, und es obliegt dem **Unternehmer**
+   aufzuzeigen, dass der Informationserfolg bereits auf anderem Wege
+   erreicht worden ist oder sonst ein Ausnahmefall vorliegt" (Rn. 176,
+   in Rn. 234 auf den Art.-14-Fall angewandt). **Gilt diese Umkehr auch
+   gegenüber gewerblichen Adressaten?**
+   *(Wir legen das als Beobachtung vor, nicht als Ergebnis. Uns ist
+   aufgefallen, dass diese Schiene in unserem eigenen Bestand bisher
+   fehlte — die Randnummern ab 156 hatte bei uns niemand gelesen.)*
 2. Wie wirkt die Grenze, die das LG in Rn. 129 aus der
    **Vollharmonisierung durch die UGPRL** ableitet, wenn die
    Geschäftspraxis **überhaupt keine Verbraucher erreicht**? Nach dem

@@ -1306,6 +1306,35 @@ Namensentscheid (S5, spätestens Fr 14.08.2026 — **in zwei Tagen**).
 > niemand verschicken darf. **Die Preisentscheidung ist wichtig, aber
 > sie ist nicht der Engpass** — wer sie beschleunigt, um den Termin zu
 > retten, optimiert die falsche Stelle.
+>
+> > 📌 **Bestandsvermerk 17.08.2026 (R17-A) zur Belegkraft von
+> > „Rn. 87" oben** *(nachgezogen aus
+> > `handel/kanal-rechtsmatrix.md`, Bestandsvermerk R16-A zu Befund
+> > R15A-N-4 — Wortlaut von dort **zitiert**, nicht neu formuliert)*:
+> >
+> > > „Die Fälligkeit ‚vor dem ERSTEN DATENSATZ' … ruht auf **einem
+> > > einzigen Satz** aus Rn. 87 … Dieser Satz steht **nicht in der
+> > > tragenden Absagebegründung.** … **Tragend ist Rn. 84/85:** Die
+> > > lit.-f-Voraussetzungen sind ‚schon deshalb nicht erfüllt', weil
+> > > die Beklagte die Artt. 12, 14, 21 DSGVO verletzt hat. … **Rn. 87**
+> > > beginnt mit ‚**Unabhängig davon** erscheinen die Bedenken im
+> > > Ausgangspunkt allenfalls … erwägenswert' — es ist die **zweite,
+> > > hilfsweise Abwehr desselben Einwands**, nicht der Absagegrund. …
+> > > **Was das ändert und was nicht:** Der Satz ist echt, richtig
+> > > zitiert und steht in einem veröffentlichten Urteil. Aber er trägt
+> > > die Entscheidung nicht — und **auf ihm ruht die gesamte
+> > > Terminlage** (F-7, O-9, die Bau-Pflichten, die Sperrung des ersten
+> > > Datensatzes)."
+> >
+> > **Für dieses Dokument heißt das:** Der Sperr-Befund oben bleibt
+> > als **Vorsichtsannahme** in Kraft — er wird hier weder aufgehoben
+> > noch abgeschwächt. Was sich ändert, ist die **Belegstufe**: Wer
+> > die Terminlage gegenüber Dritten mit „das Landgericht Düsseldorf
+> > verlangt das" begründet, stützt sich auf eine **hilfsweise
+> > Erwägung**. Die vollständige Fassung mit dem zusätzlichen
+> > Rn.-86-Vorbehalt (die Vorfeld-Zuordnung des Listenaufbaus) steht
+> > in der Rechtsmatrix; sie ist unbequemer als diese Kurzfassung und
+> > gehört mitgelesen, bevor jemand aus dem Satz eine Zusage macht.
 
 > **🟢 Nachtrag 13.08.2026 — der Sperr-Posten ist teilweise gelöst, der
 > Engpass nicht:**

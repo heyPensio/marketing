@@ -247,9 +247,31 @@
 > > kommerzielle Vereinbarung verlangt. **Im A3-Modell gehört die
 > > Instanz dem Kunden**, also ist das gerade hier einschlägig: Die
 > > Grenze ist eine **Kunden-Pflicht** und gehört als **Vertragsklausel**
-> > ins Angebot, nicht in unsere Betriebsdoku. Sie ist damit die
+> > ins Angebot, nicht in unsere Betriebsdoku. ~~Sie ist damit die
 > > einzige der fünf Bedingungen, die **nach der Übergabe** fortwirkt —
-> > und die einzige, deren Verletzung wir nicht selbst verhindern können.
+> > und die einzige, deren Verletzung wir nicht selbst verhindern
+> > können.~~
+> >
+> > > 🔧 **REPARATUR 17.08.2026 (R17-A), Befund R15B-N-4 — die beiden
+> > > durchgestrichenen Superlative sind WIDERLEGT.** Vorfassung
+> > > wörtlich: „*Sie ist damit die einzige der fünf Bedingungen, die
+> > > nach der Übergabe fortwirkt — und die einzige, deren Verletzung
+> > > wir nicht selbst verhindern können.*"
+> > > **Richtig ist:** Es gibt **mindestens eine zweite** Bedingung
+> > > derselben Art. Nach Rohbeleg § 3.4 (Stufe A) dürfen „der
+> > > **Kunde** — und wir beim Aufsetzen — ‚licensing, copyright, or
+> > > other notices' nicht entfernen oder verdecken"; **damit trifft
+> > > auch die AU-3-Grundlage L-3 den Kunden, ebenfalls nach der
+> > > Übergabe und ebenfalls ohne dass wir die Verletzung verhindern
+> > > könnten**. Quelle der Widerlegung: **§ 6a.6 dieses Dokuments**,
+> > > Reparaturkasten zu Prüferbefund F-2 (dort am Original gelesen,
+> > > Z. 394–398 @`4fa530b`), wo dieselben drei Superlative bereits
+> > > gestrichen wurden. **Diese Stelle war beim Streichen übersehen
+> > > worden — dasselbe Dokument trug die Aussage weiter, die es an
+> > > anderer Stelle widerlegt.** Betriebsfolge unverändert: Die
+> > > Klausel gehört ins Angebot; sie ist nur **nicht die einzige
+> > > ihrer Art**, und ein Vertragsentwurf, der nur sie abbildet, ist
+> > > unvollständig.
 > >
 > > ⚠️ **Belegstufe der ganzen Auflösung** (Prüferbefund PR-03): geklärt
 > > auf **A + B, Auslegung E** — der Entgelt-Teil trägt eine **FAQ**,
@@ -1995,7 +2017,7 @@ die falsche Quelle; die Antwort kann nur von n8n selbst kommen (O-4).
 | **EE-Datei bei Community-Installation** | Wird `LICENSE_EE.md` bei einer reinen Community-Installation mit übergeben? Rohbeleg verlangt beide, sagt es aber nicht | mit **K-1** in den Klärweg **O-4** (`license@n8n.io`) |
 | **Zählfehler im Rohbeleg** | § 3.6-Überschrift/Einleitung („drei Auflagen") und § 3.8-Formulierungsvorschlag („AU-1…AU-3") | **heypensio-Leitsession** (verschärft R14A-N-1: **zweite** Fundstelle derselben Klasse) |
 | 🔴 **Gewährleistungs-Reichweite** *(ergänzt nach Prüferbefund F-9)* | Rohbeleg-Posten **O-12** / § 4 Nr. 5: „**Der Gewährleistungsausschluss der Lizenz deckt UNSEREN Dienstleistungsvertrag nicht** … Verfügbarkeits- und Fehlerbehebungszusagen sollten nicht weiter reichen als das, was ein Upstream ohne Gewährleistung ermöglicht." Berührt unmittelbar die **Support-Position** aus § 6a.3 | **Z-1…Z-7** (Zentrale/StB) über die Leitsession. ⚠️ **Der Posten ist im gesamten MKT-Repo nie angekommen** — Zählweg: `grep -ric "Gewährleistungs-Asymmetrie"` über alle `*.md` → **0** (außer im R15-B-Prüfprotokoll selbst); Positivkontrolle mit den Nachbar-Posten derselben Quelle: `Lizenzserver-Ping` (O-11) → 9 Dateien. Der Suchweg findet alles andere aus dieser Quelle |
-| **Superlative über O-2** | „einzige Bedingung, die nach der Übergabe fortwirkt / deren Verletzung wir nicht verhindern können" steht so noch in `preismodell-optionen.md` § 5.3-Nachtrag und im § 6-Nachtrag dieses Dokuments — durch Rohbeleg § 3.4 widerlegt (§ 6a.6, F-2) | **Leitsession** (beide Stellen außerhalb des R15-B-Scopes) |
+| **Superlative über O-2** | ~~„einzige Bedingung, die nach der Übergabe fortwirkt / deren Verletzung wir nicht verhindern können" steht so noch in `preismodell-optionen.md` § 5.3-Nachtrag und im § 6-Nachtrag dieses Dokuments~~ — durch Rohbeleg § 3.4 widerlegt (§ 6a.6, F-2). 🔧 **KORREKTUR 17.08.2026 (R17-A): Die Bestandsaussage war zur Hälfte falsch.** `handel/preismodell-optionen.md` trägt den Superlativ **nicht** und hat ihn **nie getragen** — **Zählweg:** `git log -S "fortwirkt" -- handel/preismodell-optionen.md` = **0 Commits** (die Zeichenkette wurde dort nie eingefügt oder entfernt); Gegenprobe am heutigen Stand: `grep -n "fortwirkt\|nicht selbst verhindern" handel/preismodell-optionen.md` = 0; § 5.3 formuliert die O-2-Passage ohne Superlativ. **Positivkontrolle desselben Zählwegs:** `git log -S "fortwirkt" -- handel/angebotsarchitektur.md` liefert Commits — das Muster greift. **Zutreffend war nur die zweite Hälfte:** die Stelle in **diesem** Dokument (§ 6-Nachtrag, Z. ~251) — sie ist am 17.08.2026 in R17-A repariert, Vorfassung dort sichtbar | ~~**Leitsession** (beide Stellen außerhalb des R15-B-Scopes)~~ → **erledigt R17-A** für die Stelle in diesem Dokument; für das Preismodell **gegenstandslos** (Posten existierte nicht) |
 
 ---
 

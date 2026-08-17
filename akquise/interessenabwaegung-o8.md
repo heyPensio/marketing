@@ -626,6 +626,91 @@ Linie.**
 > `handel/kanal-rechtsmatrix.md` A7 (Nachtragskasten R9A-N-12). Die
 > Sätze oben bleiben als Befund-Historie stehen.
 
+> 📌 **Nachtrag 17.08.2026 (R17-A) — drei Nachträge zum selben Urteil.
+> Der Text oben bleibt unverändert stehen; er ist nicht falsch, aber an
+> drei Stellen unvollständig.** *(Herkunft: L-25 — wer die Quelle
+> schärft, zieht die Ableitungen nach. Die Quelle
+> `handel/kanal-rechtsmatrix.md` ist in R16-A und R17-A geschärft
+> worden, diese Darstellung stand seit R09-A unverändert.)*
+>
+> **(1) Das Urteil trägt eine DOPPELbegründung — die Darstellung oben
+> nennt nur eine Hälfte.** Die Ziffern 1 und 2 oben geben Rn. 84/85 und
+> Rn. 88 wieder, also die **DSGVO**-Prüfung. Für die **lauterkeits**-
+> rechtliche Folge daraus lässt das Gericht die Weiche ausdrücklich
+> offen und bejaht **beide** Wege (① A, Rohbeleg
+> `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt`):
+>
+> > „Es kann offenbleiben, ob im Allgemeinen in erster Linie § 3a UWG
+> > als nach dem nationalen Recht speziellere Norm heranzuziehen ist,
+> > oder § 3 Abs. 2 UWG, der auf einer unionsrechtlichen Grundlage
+> > beruht. Bezogen auf die von dem Kläger mit seinem Antrag I
+> > angegriffenen Verstöße liegen **sowohl** die Voraussetzungen von
+> > § 3a UWG vor (dazu aa) **als auch** diejenigen von § 3 Abs. 2 UWG
+> > (dazu bb)." (Rn. 136)
+>
+> Rn. 137 bejaht die erste Schiene, **Rn. 147** die zweite („sind
+> **außerdem** gemäß § 3 Abs. 2 UWG unlauter"). ⚠️ **Geltungsgrenze
+> im Zitat selbst:** ausdrücklich nur „bezogen auf … Antrag I".
+> Ein Satz „das LG stützt sich auf § 3a UWG" wäre verkürzt.
+>
+> **(2) Der Satz „nicht übertragbar" oben ist geprüft — und er
+> HÄLT.** Er wurde in dieser Runde eigens gegen Rn. 136/147 gemessen,
+> weil der Verdacht bestand, die Doppelbegründung könnte ihn kippen.
+> **Sie kippt ihn nicht**, und zwar aus einem Grund, der in den Satz
+> gehört: Die Aufzählung betrifft die **tatbestandliche**
+> Verbraucherbindung, nicht die Frage, welche Schienen das Gericht im
+> dortigen Fall bejaht hat. Für § 3 Abs. 2 UWG ist die
+> Verbraucherbindung am Objekt bestätigt — **Rn. 148** zitiert den
+> Tatbestand („geschäftliche Handlungen, die sich **an Verbraucher
+> richten oder diese erreichen**"), und **Rn. 149** legt für die
+> gesamte Prüfung den Maßstab des „normal informierten, angemessen
+> aufmerksamen und verständigen **Durchschnittsverbrauchers**" an.
+> **Nachgetragen wird also nichts gestrichen, sondern der fehlende
+> Kontext:** Dass § 3 Abs. 2 UWG verbrauchergebunden ist, heißt
+> **nicht**, dass der Fall für uns entschärft ist — die **erste**
+> Schiene (§ 3a UWG) trägt diese Bindung nicht.
+> ⚠️ **Und die Aufzählung oben ist eine Mindestliste, keine
+> Vollzähligkeit** — sie nennt, was uns damals aufgefallen ist.
+>
+> **(3) Es gibt eine DRITTE Schiene, und sie ist die einzige, deren
+> Tatbestand B2B ausdrücklich einschließt.** Für den **Art.-14-Verstoß**
+> (Klageantrag IV, nicht Antrag I) stützt das Gericht die Unlauterkeit
+> zusätzlich auf **§§ 5a Abs. 1, 5b Abs. 4 UWG**: „In dem mit Antrag IV
+> angegriffenen Verhalten … liegt zugleich ein Verstoß gegen das
+> lauterkeitsrechtliche Vorenthaltungsverbot" (Rn. 221). § 5a Abs. 1 UWG
+> erfasst „einen Verbraucher **oder sonstigen Marktteilnehmer**"
+> (Rn. 223) — genau der Punkt, den der Kasten oben für § 5a schon
+> richtig hat, dort aber nur für die **Aufmachung** (Rn. 88), nicht als
+> **eigene Anspruchsschiene für den Informationsverstoß**.
+> ⚠️ **Was das NICHT heißt:** Die Vermutungsregel des § 5b Abs. 4 UWG
+> bleibt verbrauchergebunden — sie gilt „nur für Informationen, die im
+> Rahmen der auf die Förderung des Produktabsatzes gerichteten
+> gewerblichen Tätigkeit … zu erteilen sind" (Rn. 243), und der Text
+> spricht durchgehend von „dem Verbraucher". Ob die Art.-14-Information
+> gegenüber einem **gewerblichen** Empfänger nach den allgemeinen
+> Grundsätzen (Rn. 244) „wesentlich" ist, sagt keine gelesene Stelle.
+> **Das ist eine Rechtsfrage — Frage an den Anwalt, s.
+> `handel/anwalts-briefing-2026-08.md` Frage 3, Teilfrage 1c.** Volle Darstellung:
+> `handel/kanal-rechtsmatrix.md`, Abschnitt „Es gibt eine DRITTE
+> Unlauterkeits-Schiene".
+>
+> **(4) Die Gegenauffassung des Oberlandesgerichts — jetzt am Original.**
+> Rn. 111 des Urteils nennt eine „abweichende Auffassung" des
+> Oberlandesgerichts. Der zugrunde liegende Beschluss (OLG Düsseldorf,
+> Beschl. v. 19.12.2024 – 20 W 37/24) ist in dieser Runde **beschafft**
+> (① A, `sensibel/rohbelege-R17-A/`). Kurzfassung für dieses Dokument:
+> Es war ein **Ordnungsmittelverfahren nach § 890 ZPO**, tragend war die
+> **Kerngleichheit** des Titels; die abweichende Aussage („nicht zur
+> Irreführung geeignet") steht als „Im Übrigen"-Zusatz und betrifft die
+> **Irreführungs-Achse**, nicht die DSGVO. `DSGVO`, `Datenschutz`,
+> `Art. 6`, `Art. 14`, `3a UWG` und sogar `UWG` kommen im ganzen
+> Beschluss **je 0-mal** vor (Positivkontrollen im selben Lauf:
+> `§ 890` = 2, `Schuldnerin` = 13). **Der Eintrag „streitig" bleibt** —
+> aber der Streit betrifft nicht die Schiene, auf der dieses Dokument
+> das Risiko verortet. Einzelheiten:
+> `handel/kanal-rechtsmatrix.md` A7, Kasten „der Beschluss 20 W 37/24
+> ist BESCHAFFT".
+
 ### 6.3 Die Risikofälle und ihre Größenordnung
 
 | Fall | Wer | Folge | Größenordnung |
@@ -1127,6 +1212,19 @@ wird von dieser Session **nicht** angefasst):
    Streitstand nicht abschließend erhoben". Neu ist nicht die Frage,
    sondern der Beleg — und der ist ein Urteil erster Instanz, dessen
    Rechtskraft dieses Dokument selbst als „nicht prüfbar" ausweist.)*
+   > 📌 **Nachtrag 17.08.2026 (R17-A) — das „bzw." ist zu schwach.**
+   > Die Formulierung „über § 3a UWG **bzw.** § 3 Abs. 2 UWG" liest
+   > sich als Alternative („das eine oder das andere"). Das Urteil sagt
+   > **„sowohl … als auch"**: Rn. 136 lässt die Vorrangfrage
+   > ausdrücklich offen und bejaht **beide** Voraussetzungen; Rn. 137
+   > bejaht § 3a UWG, Rn. 147 „**außerdem**" § 3 Abs. 2 UWG. Für den
+   > **Art.-14-Verstoß** (Antrag IV) kommt in Rn. 221 noch eine
+   > **dritte** Schiene hinzu (§§ 5a Abs. 1, 5b Abs. 4 UWG). Warum das
+   > für uns zählt: Die Verbraucherbindung, die § 3 Abs. 2 UWG
+   > entschärft, gilt für § 3a UWG **nicht** — wer die Schienen als
+   > Alternative liest, hält eine Entlastung für die ganze Norm, die nur
+   > für eine von dreien trägt. Einzelheiten und Wortlaute: § 6.2,
+   > Nachtrag 17.08.2026, Ziffern (1) und (3).
 8. **Geerbte Lücke in C4 (neu, Prüferbefund Q-05):** Der dortige
    „Mindestumfang, der zusätzlich IN das Anschreiben gehört" nennt die
    **Empfänger-Angabe** (Art. 14 Abs. 1 lit. e) nicht — obwohl jeder

@@ -11,7 +11,15 @@ soweit bekannt: keine (der Prüfer meldet keinen Verbrauch zurück).**
 | Prüfstand bei Session-Start | `90254e1` | HEAD nach `git pull`; **einziger** Commit zwischen `926ca3c` und hier ist der Tagesplan der Leitsession (`git diff --numstat 926ca3c..90254e1` = 1 Datei, 701/0) |
 | Zweiter Messstand unmittelbar vor dem Commit | `1804b1c` | ⚠️ **der Arbeitsbaum ist während der Arbeit gewandert:** drei fremde Commits (`4a0a5a3`, `f4f1139` Leitsession · `1804b1c` R17-C). **Gemessen und folgenlos:** `git diff --name-only 90254e1..1804b1c` berührt **0** meiner fünf Dateien |
 | Bau-Commit | `af92adb` | Parent = `1804b1c`, also exakt der zweite Messstand |
-| Prüfer-Commit | *(s. § 5)* | |
+| Zitat-Reparatur (Prüfer-Fundort 1) | `4f739f5` | zwei ungenaue Zitate |
+| Selbstkorrektur vor dem Prüferlauf | `ecb197c` | Superlativ (= S-1), eigenständig gefunden |
+| Löschungs-Nenner im Protokoll | `26975c8` | |
+| **Prüfer-Disposition** | `8664f3f` | 19/19 disponiert; enthält `protokolle/R17-A-pruefer.md` |
+
+⚠️ **Der Prüfer las `af92adb`** — die Commits `4f739f5` und `ecb197c`
+lagen danach und waren ihm nicht sichtbar. Das ist beabsichtigt (der
+Prüfstand wird eingefroren) und hat sich ausgezahlt: S-1 wurde
+**zweimal unabhängig** gefunden.
 
 ---
 
@@ -275,16 +283,21 @@ eigene Kategorie aufgegeben.
 oder suggeriert Löschungen an fremdem Text).
 
 **(a) Gegen den Rundenstart `926ca3c` — der Nenner, der zählt**
-(`git diff --numstat 926ca3c..ecb197c`, nur meine fünf Dateien):
+(Endstand nach der Prüfer-Reparatur, nur meine fünf Dateien):
 
 | Datei | + | − |
 |---|---:|---:|
-| `akquise/interessenabwaegung-o8.md` | 104 | **0** |
-| `handel/preismodell-optionen.md` | 29 | **0** |
+| `akquise/interessenabwaegung-o8.md` | 111 | **0** |
+| `handel/preismodell-optionen.md` | 33 | **0** |
 | `handel/angebotsarchitektur.md` | 25 | **3** |
-| `handel/anwalts-briefing-2026-08.md` | 126 | **8** |
-| `handel/kanal-rechtsmatrix.md` | 279 | **5** |
-| **Summe** | **563** | **16** |
+| `handel/anwalts-briefing-2026-08.md` | 166 | **8** |
+| `handel/kanal-rechtsmatrix.md` | 379 | **5** |
+| **Summe** | **714** | **16** |
+
+⭐ **Die Löschungszahl ist über alle vier Commits hinweg unverändert
+16 geblieben** — auch nach 18 Reparaturen an eigenem Text. Das ist der
+mechanische Beleg, dass keine der Reparaturen fremden Bestandstext
+angetastet hat.
 
 **(b) Gegen den eigenen Bau-Commit `af92adb..ecb197c`** — 15 weitere
 Löschungen, **alle an eigenem Text dieser Runde** (die drei
@@ -321,16 +334,24 @@ der Zwischenstand der laufenden R17-B-Arbeit an
 `akquise/pruefe-zitate.js`. **Nicht angefasst** (fremder Scope). Meine
 Läufe nutzen den **committeten** Skriptstand.
 
-| Datei | vorher (`90254e1`) | nachher (`af92adb`) | Δ |
-|---|---:|---:|---:|
-| `handel/kanal-rechtsmatrix.md` | 51 NEU | 94 NEU | **+43** |
-| `akquise/interessenabwaegung-o8.md` | 0 | 5 NEU | **+5** |
-| `handel/angebotsarchitektur.md` | 0 | 2 NEU | **+2** |
-| `handel/preismodell-optionen.md` | *(kein ZIEL)* | *(kein ZIEL)* | — |
-| `akquise/akquiseplan.md` · `akquise/listenbau-regelwerk.md` · `fund/wettbewerbsbild.md` · `akquise/sperrdatei-struktur.md` · `akquise/wellenprotokoll-vorlage.md` | 0 | 0 | **0** |
+| Datei | vorher (`90254e1`) | nach dem Bau (`af92adb`) | **final** (nach Prüfer-Reparatur) | Δ gesamt |
+|---|---:|---:|---:|---:|
+| `handel/kanal-rechtsmatrix.md` | 51 NEU | 94 NEU | **123 NEU** | **+72** |
+| `akquise/interessenabwaegung-o8.md` | 0 | 5 NEU | **6 NEU** | **+6** |
+| `handel/angebotsarchitektur.md` | 0 | 2 NEU | **2 NEU** | **+2** |
+| `handel/preismodell-optionen.md` | *(kein ZIEL)* | — | — | — |
+| `fund/wettbewerbsbild.md` · `akquise/sperrdatei-struktur.md` · `akquise/wellenprotokoll-vorlage.md` · `akquise/listenbau-regelwerk.md` | 0 | 0 | **0** | **0** |
+| ⚠️ `akquise/akquiseplan.md` | 0 | 0 | **2 NEU** | **nicht meine Arbeit** |
 
-Positivkontrolle 14/14, Gegenprobe 3/3, Blockzitate 3/3 — in **beiden**
-Läufen unverändert.
+⚠️ **Die zwei neuen Meldungen in `akquise/akquiseplan.md` gehören
+NICHT zu dieser Session** — die Datei liegt außerhalb meines Scopes und
+wurde von R17-C bearbeitet (Commit `1804b1c`; ihre geprüfte Zitatzahl
+stieg von 30 über 41 auf 48). **Das Lauf-Delta wird je Datei
+zugeordnet, nie pauschal der eigenen Arbeit** (L-40) — dieselbe
+Halbfrage, der in einer früheren Runde beide Sessions aufgesessen sind.
+
+Positivkontrolle **14/14**, Gegenprobe **3/3**, Blockzitate **3/3** — in
+**allen drei** Läufen unverändert.
 
 **Einordnung des Deltas:** Der weit überwiegende Teil sind **Urteils-
 und Beschlusszitate**, deren Quelltexte in `sensibel/rohbelege-*`

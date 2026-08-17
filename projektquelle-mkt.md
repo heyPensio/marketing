@@ -769,28 +769,28 @@ ist ausdrücklich als „bewusst nicht verfolgt" markiert.)*
 
 | ID | Befund | Träger |
 |---|---|---|
-| **R15A-N-1** | Der A7-Nachtragskasten schreibt „weicht ab" — Rn. 79 ist **konditional** („sollten … könnte nicht gefolgt werden"); die Bestandsfassung ist schärfer als die Quelle | MKT-HANDEL, mit der A7-Neufassung |
-| **R15A-N-2** | Die § 3a-Schiene ist im Urteil eine **DOPPELbegründung** (Rn. 136: „sowohl … als auch" § 3 Abs. 2 UWG; Rn. 147 bejaht ihn ausdrücklich) — im Bestand steht nur die Hälfte, wer die Tabelle liest, hält § 3a für den gewählten Weg | MKT-HANDEL |
-| **R15A-N-3** | „Der Kläger war kein Mitbewerber" ist eine **Ableitung**, keine Quellenaussage (Zählweg 0 bei Positivkontrolle 119) — und zwei Parallelverfahren wurden „von einer Mitbewerberin" geführt | MKT-HANDEL |
-| **R15A-N-4** ⭐ | **Die tragende „Rn.-87-Verschärfung" steht in der ABWEHR eines Literatureinwands** — der tragende Absagegrund selbst in Rn. 84/85. Auf diesem einen Satz ruht die Fälligkeit „vor dem ersten Datensatz" und damit die gesamte Terminlage von F-7/O-9/Bau-Pflichten | Anwalt (als Teilfrage gestellt) + Bestandsvermerk |
-| **R15A-N-5** | Rn. 115 (Herkunftsangabe wird zum Irreführungsargument) fehlt im Bestand und trifft uns direkt | MKT-HANDEL |
-| **R15E-N-4** ⭐ | **`ANL-3`-Rechtsfrage fehlt im O-9-Bündel:** Darf ein im FREMDEN Impressum vorgefundener Werbewiderspruch in einen eigenen Sperrbestand? | **Nachtrag zum Anwalts-Briefing, VOR Versand** |
+| **R15A-N-1** | Der A7-Nachtragskasten schreibt „weicht ab" — Rn. 79 ist **konditional** („sollten … könnte nicht gefolgt werden"); die Bestandsfassung ist schärfer als die Quelle | MKT-HANDEL, mit der A7-Neufassung → **✅ R16-A eingearbeitet** (`a495a0f`/`ed9bbdf`, Rn. 79 konditional richtiggestellt) |
+| **R15A-N-2** | Die § 3a-Schiene ist im Urteil eine **DOPPELbegründung** (Rn. 136: „sowohl … als auch" § 3 Abs. 2 UWG; Rn. 147 bejaht ihn ausdrücklich) — im Bestand steht nur die Hälfte, wer die Tabelle liest, hält § 3a für den gewählten Weg | MKT-HANDEL → **✅ R16-A eingearbeitet** (Rn. 136/137/147/148, Doppelbegründung in A7 + Teil B) |
+| **R15A-N-3** | „Der Kläger war kein Mitbewerber" ist eine **Ableitung**, keine Quellenaussage (Zählweg 0 bei Positivkontrolle ~~119~~ **`Mitbewerber[a-zä]*` = 8** — R16-A H-8: die Kontrolle spiegelt jetzt die Suchmechanik) — und zwei Parallelverfahren wurden „von einer Mitbewerberin" geführt | MKT-HANDEL → **✅ R16-A: gestrichen** (nicht abgeschwächt), Gegenrichtung Rn. 44/89/124 als stärkerer Befund |
+| **R15A-N-4** ⭐ | **Die tragende „Rn.-87-Verschärfung" steht in der ABWEHR eines Literatureinwands** — der tragende Absagegrund selbst in Rn. 84/85. Auf diesem einen Satz ruht die Fälligkeit „vor dem ersten Datensatz" und damit die gesamte Terminlage von F-7/O-9/Bau-Pflichten | Anwalt (als Teilfrage gestellt) + Bestandsvermerk → **✅ R16-A: Vermerk in Rechtsmatrix und o8**; ⚠️ Rn.-87-Ableitungen in Regelwerk § 7.1 und `preismodell-optionen.md` noch ohne Vermerk (R16A-N-1, MKT-HANDEL R17) |
+| **R15A-N-5** | Rn. 115 (Herkunftsangabe wird zum Irreführungsargument) fehlt im Bestand und trifft uns direkt | MKT-HANDEL → **✅ R16-A eingearbeitet** (Richtung korrigiert: das FEHLEN der Herkunftsangabe ist das Problem) |
+| **R15E-N-4** ⭐ | **`ANL-3`-Rechtsfrage fehlt im O-9-Bündel:** Darf ein im FREMDEN Impressum vorgefundener Werbewiderspruch in einen eigenen Sperrbestand? | ~~Nachtrag zum Anwalts-Briefing, VOR Versand~~ → **✅ WAR SEIT `ba5a059` (R15-A, 01:34) ENTHALTEN** als § 4a „Kandidat A" — die R15-E-Meldung „nicht enthalten" (01:54) war eine Parallelsession-Blindstelle (L-50). R16-A hat den ID-Zeiger gesetzt; **offen ist der User-Entscheid, ob Kandidat A/B mitgehen** |
 | **R15B-N-3** | Rohbeleg-Posten **O-12** (Gewährleistungs-Reichweite) ist im ganzen MKT-Repo nie angekommen (0 Treffer, Positivkontrolle O-11 = 9 Dateien) | Z-1…Z-7 (Zentrale/StB) |
 
 **🟠 Planung und Betrieb:**
 
 | ID | Befund | Träger |
 |---|---|---|
-| **R15E-N-5** ⭐ | **Die 300er-Schwelle aus o8 § 11.3 kollidiert mit der Akquiseplanung:** Der Plan rechnet mit ≈ 337–1.600 Briefen je Abschluss — **jede realistische Welle löst den Neu-Führungs-Trigger der Abwägung aus.** Kein Formfehler, ein Planungskonflikt: entweder kleinere Wellen oder routinemäßige Neu-Führung | MKT-AKQ, Akquiseplan § 4.2 |
+| **R15E-N-5** ⭐ | **Die 300er-Schwelle aus o8 § 11.3 kollidiert mit der Akquiseplanung:** Der Plan rechnet mit ≈ 337–1.600 Briefen je Abschluss — **jede realistische Welle löst den Neu-Führungs-Trigger der Abwägung aus.** Kein Formfehler, ein Planungskonflikt: entweder kleinere Wellen oder routinemäßige Neu-Führung | MKT-AKQ, Akquiseplan § 4.2 → **✅ R16-C aufbereitet als § 4.4** (300 = eigene Setzung ohne Quellenbindung; Optionen A/B/C/D; **Entscheid E-A4 beim User**) |
 | **R15E-N-1** | Der § 6.1-Nachtrag des Regelwerks bleibt an **drei Stellen** hinter o8 zurück — die Vorlagen setzen es um, **die Quelle ist nicht nachgezogen** | Leitsession (Quellen-Nachzug) |
-| **R15E-N-2** | Regelwerk § 10 / O-12 behauptet, der Wächter prüfe „nur Akquiseplan und Regelwerk" — gemessen sind es **sechs** Dokumente; Vorwärtsverweis gesetzt, Neufassung offen | Leitsession |
+| **R15E-N-2** | Regelwerk § 10 / O-12 behauptet, der Wächter prüfe „nur Akquiseplan und Regelwerk" — gemessen sind es **sechs** Dokumente; Vorwärtsverweis gesetzt, Neufassung offen | Leitsession → **✅ R16-B (Codex): O-12-Zeile neu gefasst** (8 Zieldateien, Modus-Trennung, Baseline-Zeiger) |
 | **R15B-N-4** | Die O-2-Superlative stehen unverändert in **zwei Fremd-Dokumenten**, durch Rohbeleg § 3.4 widerlegt | Leitsession (Quellen-Nachzug) |
 
 **🟡 Werkzeug und Hygiene:**
 
 | ID | Befund | Träger |
 |---|---|---|
-| **R15E-N-3** | Die zwei neuen Vorlagen stehen **nicht in ZIEL** des Zitat-Wächters — gleiche Klasse wie R14B-N-9 | nächster Prüflauf |
+| **R15E-N-3** | Die zwei neuen Vorlagen stehen **nicht in ZIEL** des Zitat-Wächters — gleiche Klasse wie R14B-N-9 | nächster Prüflauf → **✅ R16-B: ZIEL 8/8** (Aufnahmebestand 19 + 24 getrennt geführt) |
 | **R15E-N-6** | Der Prüfer benennt seine größte Lücke selbst: `kanal-rechtsmatrix.md` **nicht gelesen**, obwohl beide Prüflinge sie als vorrangige Quelle nennen — **die Vorrangklausel zeigt auf ein ungeprüftes Dokument** | nächster Prüflauf |
 | **R15B-N-5** | Kurz-ID-Kollision **repo-übergreifend**: Der Rohbeleg führt ein eigenes `O-9`, im MKT-Repo ist O-9 die DSGVO-Kompatibilitätsprüfung — für ein Grep im eigenen Repo **unsichtbar** | Leitsession |
 | **R15B-N-6** | `G-1…G-4` waren im eigenen Repo bereits vergeben (Prüfer-IDs **ohne Rundenpräfix**) — der Bestand bleibt Kollisionsquelle für jede künftige `G-n`-Vergabe | Leitsession |
@@ -921,6 +921,23 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    (§ 13 Abs. 4 Nr. 2 UWG bei einem über § 3a verfolgten
    DSGVO-Verstoß) · (4) **O-11** (Lizenzserver-Ping an einen Dritten
    im A3-Modell, § 5) — dieselbe DSGVO-Achse, gleicher Termin.
+   ⭐ **R16 (17.08.):** Die vier Rechtsposten sind im BESTAND
+   eingearbeitet (Rechtsmatrix A7 neu gefasst, Rn. 111/115, Doppelbegründung
+   — R16-A), das Briefing ist konsistent und **versandfertig bis auf
+   fünf User-Entscheide in Klartext** (`protokolle/R16-A-abschluss.md`,
+   Entscheidungsvorlage; § 4a Kandidat A = ANL-3 war schon enthalten).
+   **Neue Spitzenposten:** die fünf Entscheide (Satz · Kanzlei · Absender
+   · § 4a · E-A4) → danach Versand durch den User · **R17 MKT-HANDEL:**
+   Rn.-87-Vermerk in Regelwerk § 7.1 + `preismodell-optionen.md`,
+   o8 § 6.2/§ 11.2 gegen die Doppelbegründung, 12 nie angekommene Rn.
+   (121–155), OLG-Beschluss 20 W 37/24 beschaffen, 8
+   Prüfer-Nacharbeits-Fundorte (`R16-A-pruefer.md` § 3) · **R17
+   Wächter:** 51 NEU in der Rechtsmatrix disponieren (Pool um lokale
+   Rohbelege mit Fehltoleranz + Ausnahmeliste R16A-N-5) — bis dahin ist
+   der Wächter berechtigt rot · **R17 AKQ:** Akquiseplan § 3.2 „Liste
+   sofort baubar" (R16C-N-1, gekippt seit R9), § 4.3-Textbruch (R16C-N-2)
+   · Verdichtungs-Posten CLAUDE.md (84.713 B, Soll 80k; Kompensationspflicht
+   je Debrief; frische Session).
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -958,8 +975,11 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
 2. ~~FUND1-Verabschiedung~~ ✅ ERLEDIGT 09.08.2026 (E10) ·
    ~~BELEG1-Messplan~~ ✅ FREIGEGEBEN 09.08.2026 (H-2) ·
    ~~masunt-Logo~~ ✅ archiviert 09.08.2026.
-3. **User-Handgriffe (Termine aus dem Messplan):** H-1 Livegang-
-   Tagesdatum erfragen (bis 16.08.) · Anfrage-Entwürfe DEHOGA/IHK
+3. **User-Handgriffe (Termine aus dem Messplan):** ~~H-1 Livegang-
+   Tagesdatum erfragen (bis 16.08.)~~ ✅ **22.09.2026 (User 17.08.,
+   Nutzerangabe; Betreiber-Beleg wäre stärker)** · **H-2 (Plan-Freigabe
+   BM-4/BM-5) trägt dieselbe verstrichene Frist 16.08. — offen, neuer
+   Anker fehlt (R16C-N-3)** · Anfrage-Entwürfe DEHOGA/IHK
    versenden (werktags; vorher IHK-Zuständigkeit klären, P6) ·
    Betreiber-Briefing bis 23.08. — **gekoppelt mit dem
    FUND2-Kayhan-Gespräch** (ein Termin, getrennt dokumentieren) ·
@@ -1071,6 +1091,51 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
 
 ## CHANGELOG
 
+- 17.08.2026 nachmittags (**R16-Debrief, drei Arbeits-Sessions parallel
+  — Ben Beckman · Codex · Lucky Roux — + Leitsession; erste Runde nach
+  drei arbeitsfreien Tagen, Auftrag Firmen-Briefing 17.08. § 8.2**):
+  ⭐ **Der Prüf-Subagent kippte vor dem Start zwei Briefing-Prämissen** —
+  die ANL-3-Rechtsfrage stand seit `ba5a059` als § 4a Kandidat A im
+  Anwalts-Briefing (Kürzel-Grep 0, Sache vorhanden), der
+  Selbstausschluss des Zitat-Wächters existierte seit `3067361` (L-50).
+  **R16-A (Ben Beckman, Voll-Review):** sechs von sechs Rechtsposten aus
+  § 6a in `handel/kanal-rechtsmatrix.md` — A7-Kernsatz neu gefasst
+  (Vorfassung im Reparatur-Kasten), Doppelbegründung Rn. 136/137/147/148,
+  Rn. 111 (OLG-Gegenauffassung, Original nicht beschafft) und Rn. 115
+  neu, Rn. 79 konditional richtiggestellt, „kein Mitbewerber"
+  gestrichen; Rn.-87-Bestandsvermerk in Matrix und o8; Anwalts-Briefing
+  konsistent zum neuen Bestand, Status ENTWURF; **Entscheidungsvorlage
+  in Klartext** (`protokolle/R16-A-abschluss.md`). Prüfer **2 SCHWER /
+  7 MITTEL / 9 HINWEIS = 18, 17 repariert + H-8 → Leitsession**; 8
+  Nacharbeits-Fundorte offen ausgewiesen. 🔴 Schwerster Fund (S-2, L-49):
+  die zu reparierende Klasse „weicht ab" 90 Zeilen unter ihrer Reparatur
+  erneut — bei 17/17 bestätigten Zitaten. **R16-B (Codex, Abnahme
+  Leitsession `9538c3f`):** Zitat-Wächter Modus-Trennung — rot nur bei
+  NEUEN Verstößen; Altlast 863/863 (113+467+144+139) + Zielaufnahme
+  43/43 (19+24) als Baseline `akquise/zitat-baseline-2026-08-17.md` mit
+  Nenner + SHA-256; ZIEL 6→8; Selbsttest 4 Musterklassen beide Richtungen;
+  Regelwerk-O-12-Satz neu (R15E-N-2/N-3 erfüllt). ⚠️ Nach R16-A meldet
+  er 51 NEU in der Rechtsmatrix (Urteilszitate — Rohbeleg in `sensibel/`,
+  außerhalb des Pools; + Eigenformulierungen R16A-N-5) → R17-Posten.
+  **R16-C (Lucky Roux):** Planungskonflikt 300er-Schwelle als
+  Entscheidungsvorlage Akquiseplan § 4.4 (**300 = eigene Setzung ohne
+  Quellenbindung**, `git log -S`; Entscheid E-A4) · R14 per Postkorb
+  nachgemeldet (Zentrale `7cf1761`, F10/M1 als überholt zurückgemeldet)
+  · **H-1 = Di 22.09.2026** eingetragen (User 17.08., Nutzerangabe;
+  Abweichung zum Anker 0, Puffer aufgebraucht). Eigene sichtbare
+  Korrektur (L-50 Fall 2). **Leitsession:** Reserve-Namen in CLAUDE.md ·
+  Gerüst-Nachzug 8d80a64 → 5020bc2 → **7a0f76b** (5 + 3 Deltas einzeln
+  disponiert; **Regelwerk-Wächter als Pflicht-Baustein aktiviert**,
+  Marken 80k/85k/90k, Selbsttests 9/9 + 9/9, Erstlauf 84.028 B) ·
+  Sollmarke gesetzt · L-49/L-50 + Sammelvermerk R16 (24 Zweitbelege) ·
+  Blueprint-Rückfluss 5 Regeln (`7a0f76b`). **User-Entscheide der
+  Runde (Klartext, in den Abschlussmeldungen ausgearbeitet):** (1)
+  selbstkritischer Satz an den nicht mandatierten Anwalt? (2) Kanzlei
+  (einziger Name im Repo: DEHOGA-Hamburg-Berater — Konflikt möglich)?
+  (3) Absender ohne neuen Namen? (4) § 4a Kandidaten A/B mitgeben? (5)
+  E-A4 300er-Schwelle. Modell-Statuszeilen R3…R15 **ENTFALLEN**
+  (User-Entscheid 17.08.). Wochentage per `date`; Details Tagesplan
+  17.08. + Protokolle R16-A/B/C.
 - 14.08.2026 nachts (**R15-Debrief, FÜNF Arbeits-Sessions parallel +
   Leitsession — Nacht-Slot**): Größte Runde des Projekts, 24 Commits.
   **Der Rundenschnitt selbst war der teuerste Befund:** Ein

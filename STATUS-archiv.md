@@ -2,6 +2,73 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 17.08.2026 (R16-Debrief) — R14-Block aus „Letzte Aktualisierung"
+
+**Vorheriger Stand — 13.08.2026 spätabends (R14, Shanks + R14-A/Ben Beckman + R14-B/Yasopp
+— Briefing-Nachträge + Pflege-Pakete, parallel)** — ⭐⭐ **Der
+Z-6-Lizenzvorbehalt ist AUFGELÖST („A3 trägt"), die Belegstufe aller
+Entscheide-Vermerke ist gehoben, und zwei seit Runden offene
+Pflege-Pakete sind abgearbeitet.** Auslöser: drei Briefing-Nachträge
+(6/7/8), die der R13-Debrief nicht mehr gesehen hatte — der
+Nachtrag-8-Commit der Zentrale lag **zwei Minuten** vor dem
+R13-Debrief-Commit; gefunden, weil die Leitsession die Ankunft am
+Repo-Bestand gemessen hat (grep 0 Treffer bei greifender
+Positivkontrolle).
+**R14-A:** **Z-6 aufgelöst — 28/28 Fundstellen disponiert** (13
+aufgelöst · 10 Vorbehalt bleibt · 5 dokumentierter Nicht-Edit), EINE
+Fassung im Wurzel-Kasten `preismodell-optionen.md` § 5.3, sonst Zeiger
++ Vorrangklausel · R40-N-6 (ein Lizenzschlüssel, unlimited instances)
+mit drei Grenzen · **Belegstufen-Hebung 27 geprüft / 26 gehoben / 0
+inhaltlich falsch** (Wortlaut-Archiv der Zentrale, nur per Verweis).
+⚠️ **Nicht mit aufgelöst:** K04/Z-5 · Architektur-Entscheid · **K-1**
+(Community-Edition als Backend — streitig, fällig VOR dem ersten
+A3-Kundenangebot) · Belegstufe **A + B, Auslegung E** (der Entgelt-Teil
+trägt eine FAQ, nicht den Vertragstext). Prüfer **14/14 disponiert**
+(2 schwer, beide repariert).
+**R14-B:** Rechtsmatrix-Pflege R9A-N-9…N-14 **6/6** + FUND-Pflege
+R11A-N-3…N-6 **4/4**; **drei Quell-Befunde am Rohbeleg widerlegt**
+(u. a. „ob die melevo-Zusatzposten neu sind: nicht feststellbar" —
+der Vorher-Abzug lag seit 09.08. im Rohbelege-Ordner einer früheren
+Runde), alle Korrekturen in die unbequemere Richtung. Prüfer **17/17
+disponiert**. 🔴 **Ein schwerer Fund mit Folgen: Der A7-Kernsatz der
+Rechtsmatrix („untersagt — gestützt ausschließlich auf die DSGVO") ist
+widerlegt** (148 UWG-Treffer, 21× § 3a UWG) — markiert, Neufassung an
+**MKT-HANDEL zusammen mit dem O-9-Rechtsrat** (verschärft das
+Abmahnrisiko, entlastet nicht).
+**Leitsession-Nacharbeit (`1f7b865`):** O-8-Quellen-Nachzug nach
+R14B-N-1…N-8 — sonst hätte die neue Vorrangklausel zugunsten O-8 die
+frischen Präzisierungen wieder umgekehrt (zweite Runde in Folge
+dieselbe Klasse). · Methodik: **4 Lehren → Blueprint** (L-39…L-42,
+`ee8c468`), fremdes Delta `fe6fcaf` (heyPensio R42) disponiert, Kopien
+debrief + tagesstart + quellen-beschaffung gezogen, Stempel `ee8c468`,
+Wächter SYNCHRON 12 / 0 DRIFT. **Nachtrag-7-Vollzug: CLAUDE.md =
+75.635 Bytes** (vor R14: 73.399; Zählweg `Get-Item .Length`) —
+Formdisziplin „Schärfung ERSETZT Kern" kommt per debrief-Kopie (R42)
+und gilt ab dem nächsten Debrief. ⚠️ Modell-Statuszeilen R14-A (Opus 5
+1M) + R14-B (Opus 5 1M) unbestätigt (User-Handgriff).
+*(Details: Projektquelle-Changelog R14.)*
+
+
+## Rotiert am 17.08.2026 (R16-Debrief) — R12-Punkt aus „Aktueller Stand"
+
+- **R12 (13.08. mittags, Entscheide-Einarbeitung, zwei Sessions
+  sequenziell):** ✅ **E-1…E-8 eingearbeitet** (✅-Vermerke § 11;
+  Quelle Briefing-Dialog 13.08., sinngemäß) · ✅
+  **`handel/preisliste-vorlaeufig.md`** (W-B-Basis, Durchreichung,
+  Startgebühr-Hypothese 1.500–2.500 €/Haus — Höhe entscheidet der
+  USER nach E-6) · ✅ **`handel/angebotsarchitektur.md`** (E-8;
+  **AA-1…AA-8 beim User**, AA-1 zuerst) · ✅ N-10-Marktband
+  nachgezogen · Prüfer 19/19 + 13/13 disponiert (0 schwere) ·
+  Postkorb-Zulieferung Z-1…Z-7 + Vertragspartner-Frage (K04) an die
+  Zentrale · 6 Lehren → Blueprint (`cd45642`), Stempel `cd45642`,
+  Wächter SYNCHRON 12 / 0 DRIFT. **Offen aus R12:** AA-1…AA-8 +
+  S4-Bezugseinheits-Klärfrage (User) · F-III-Höhe (User, nach E-6) ·
+  E-4/E-6-Kalendertermine (heypensio nachhalten) · K5/K6 nicht
+  erhoben · Terminpfad-Stufen T0–T5-Umbenennung (Kandidat) ·
+  Modell-Statuszeilen R11-A/R12-A. *(R10 rotiert →
+  `STATUS-archiv.md`.)*
+
+
 ## Rotiert am 14.08.2026 (R15-Debrief) — R13-Block aus „Letzte Aktualisierung"
 
 **Vorheriger Stand — 13.08.2026 abends (R13, Shanks + R13-A/Ben Beckman + R13-B/Yasopp —

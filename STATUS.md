@@ -26,7 +26,43 @@
 ---
 
 ## Letzte Aktualisierung
-**14.08.2026 nachts (R15, Shanks + FÜNF Arbeits-Sessions parallel —
+**17.08.2026 nachmittags (R16, Shanks + Ben Beckman + Codex + Lucky Roux
+parallel — erste Runde nach drei arbeitsfreien Tagen)** — ⭐⭐ **Die
+Rechtslage steht ehrlich im Bestand, das Anwalts-Briefing ist bis auf
+fünf User-Entscheide versandfertig, der Zitat-Wächter ist aus dem
+Dauer-Rot, und der Regelwerk-Wächter ist als Pflicht-Baustein scharf.**
+🔴 Vor dem Start kippte der Prüf-Subagent **zwei Briefing-Prämissen** —
+die ANL-3-Frage stand seit `ba5a059` als § 4a Kandidat A im Briefing
+(Kürzel-Grep 0, Sache vorhanden), der Wächter-Selbstausschluss existierte
+seit `3067361` (L-50: Kürzel ≠ Sache · Ausschnitt ≠ Datei · Fremdmeldung
+≠ heutiger Stand).
+**R16-A:** **6/6 Rechtsposten** in der Rechtsmatrix (A7-Kernsatz neu
+gefasst, Doppelbegründung Rn. 136/137/147/148, Rn. 111 OLG-Gegenauffassung
+[Original nicht beschafft], Rn. 115, Rn. 79 konditional, „kein
+Mitbewerber" gestrichen), Rn.-87-Vermerk in Matrix + o8, Briefing
+konsistent (ENTWURF); **Klartext-Entscheidungsvorlage** in
+`protokolle/R16-A-abschluss.md`. Prüfer **18 = 2/7/9, 17 repariert + 1 →
+Leitsession; 8 Nacharbeits-Fundorte offen.** 🔴 S-2/L-49: die zu
+reparierende Klasse 90 Zeilen unter ihrer Reparatur erneut begangen —
+bei 17/17 bestätigten Zitaten.
+**R16-B (Codex, Abnahme `9538c3f`):** Wächter meldet nur noch NEUE
+Verstöße; Altlast **863/863 + 43/43** als Baseline mit Nenner + SHA-256,
+ZIEL 6→8, Selbsttest 4 Musterklassen beide Richtungen; O-12-Satz neu.
+⚠️ Nach R16-A **51 NEU in der Rechtsmatrix** (Urteilszitate — Rohbeleg in
+`sensibel/`, außerhalb des Pools) → R17-Posten, bis dahin berechtigt rot.
+**R16-C:** Planungskonflikt 300er-Schwelle als Entscheidungsvorlage
+Akquiseplan § 4.4 (**300 = eigene Setzung ohne Quellenbindung**; Entscheid
+**E-A4**) · R14 per Postkorb nachgemeldet (Zentrale `7cf1761`) · **H-1 =
+Di 22.09.2026** (User; Puffer zum Anker aufgebraucht).
+**Leitsession:** Reserve-Namen in CLAUDE.md · Nachzug 8d80a64 → **7a0f76b**
+(8 Deltas; **Regelwerk-Wächter Pflicht: Marken 80k/85k/90k, Selbsttests
+9/9 + 9/9, Erstlauf 84.028 B**) · Sollmarke gesetzt · L-49/L-50 +
+Sammelvermerk R16 · Blueprint-Rückfluss 5 Regeln. **User-Entscheide der
+Runde:** Modell-Statuszeilen R3…R15 ENTFALLEN · fünf offene (s.
+„Nächster Schritt" 0). *(Details: Projektquelle-Changelog R16, Tagesplan
+17.08.)*
+
+**Vorheriger Stand — 14.08.2026 nachts (R15, Shanks + FÜNF Arbeits-Sessions parallel —
 Nacht-Slot)** — ⭐⭐ **Größte Runde des Projekts: 24 Commits, fünf
 Stränge, drei schwere Funde, die je einen Bestandssatz gekippt haben.**
 🔴 **Der teuerste Befund war der Rundenschnitt selbst:** Ein
@@ -69,51 +105,8 @@ nachgetragen (Sammelvermerk R15 + Routing-Tabelle Projektquelle § 6a).
 ⚠️ Modell-Statuszeilen aller fünf Sessions unbestätigt (User-Handgriff).
 *(Details: Projektquelle-Changelog R15.)*
 
-**Vorheriger Stand — 13.08.2026 spätabends (R14, Shanks + R14-A/Ben Beckman + R14-B/Yasopp
-— Briefing-Nachträge + Pflege-Pakete, parallel)** — ⭐⭐ **Der
-Z-6-Lizenzvorbehalt ist AUFGELÖST („A3 trägt"), die Belegstufe aller
-Entscheide-Vermerke ist gehoben, und zwei seit Runden offene
-Pflege-Pakete sind abgearbeitet.** Auslöser: drei Briefing-Nachträge
-(6/7/8), die der R13-Debrief nicht mehr gesehen hatte — der
-Nachtrag-8-Commit der Zentrale lag **zwei Minuten** vor dem
-R13-Debrief-Commit; gefunden, weil die Leitsession die Ankunft am
-Repo-Bestand gemessen hat (grep 0 Treffer bei greifender
-Positivkontrolle).
-**R14-A:** **Z-6 aufgelöst — 28/28 Fundstellen disponiert** (13
-aufgelöst · 10 Vorbehalt bleibt · 5 dokumentierter Nicht-Edit), EINE
-Fassung im Wurzel-Kasten `preismodell-optionen.md` § 5.3, sonst Zeiger
-+ Vorrangklausel · R40-N-6 (ein Lizenzschlüssel, unlimited instances)
-mit drei Grenzen · **Belegstufen-Hebung 27 geprüft / 26 gehoben / 0
-inhaltlich falsch** (Wortlaut-Archiv der Zentrale, nur per Verweis).
-⚠️ **Nicht mit aufgelöst:** K04/Z-5 · Architektur-Entscheid · **K-1**
-(Community-Edition als Backend — streitig, fällig VOR dem ersten
-A3-Kundenangebot) · Belegstufe **A + B, Auslegung E** (der Entgelt-Teil
-trägt eine FAQ, nicht den Vertragstext). Prüfer **14/14 disponiert**
-(2 schwer, beide repariert).
-**R14-B:** Rechtsmatrix-Pflege R9A-N-9…N-14 **6/6** + FUND-Pflege
-R11A-N-3…N-6 **4/4**; **drei Quell-Befunde am Rohbeleg widerlegt**
-(u. a. „ob die melevo-Zusatzposten neu sind: nicht feststellbar" —
-der Vorher-Abzug lag seit 09.08. im Rohbelege-Ordner einer früheren
-Runde), alle Korrekturen in die unbequemere Richtung. Prüfer **17/17
-disponiert**. 🔴 **Ein schwerer Fund mit Folgen: Der A7-Kernsatz der
-Rechtsmatrix („untersagt — gestützt ausschließlich auf die DSGVO") ist
-widerlegt** (148 UWG-Treffer, 21× § 3a UWG) — markiert, Neufassung an
-**MKT-HANDEL zusammen mit dem O-9-Rechtsrat** (verschärft das
-Abmahnrisiko, entlastet nicht).
-**Leitsession-Nacharbeit (`1f7b865`):** O-8-Quellen-Nachzug nach
-R14B-N-1…N-8 — sonst hätte die neue Vorrangklausel zugunsten O-8 die
-frischen Präzisierungen wieder umgekehrt (zweite Runde in Folge
-dieselbe Klasse). · Methodik: **4 Lehren → Blueprint** (L-39…L-42,
-`ee8c468`), fremdes Delta `fe6fcaf` (heyPensio R42) disponiert, Kopien
-debrief + tagesstart + quellen-beschaffung gezogen, Stempel `ee8c468`,
-Wächter SYNCHRON 12 / 0 DRIFT. **Nachtrag-7-Vollzug: CLAUDE.md =
-75.635 Bytes** (vor R14: 73.399; Zählweg `Get-Item .Length`) —
-Formdisziplin „Schärfung ERSETZT Kern" kommt per debrief-Kopie (R42)
-und gilt ab dem nächsten Debrief. ⚠️ Modell-Statuszeilen R14-A (Opus 5
-1M) + R14-B (Opus 5 1M) unbestätigt (User-Handgriff).
-*(Details: Projektquelle-Changelog R14.)*
-
-*(Davor: R13 — S4 + AA-1…AA-8 eingearbeitet, B-1…B-7 im Regelwerk,
+*(Davor: R14 — Z-6 aufgelöst, Belegstufen-Hebung, § 3a-Befund;
+rotiert 17.08.2026 (R16) → `STATUS-archiv.md`. Davor R13 — S4 + AA-1…AA-8 eingearbeitet, B-1…B-7 im Regelwerk,
 O-9 geführt; rotiert 14.08.2026 (R15) → `STATUS-archiv.md`. Davor R12 — E-1…E-8 eingearbeitet, Preisliste + Angebotsarchitektur
 gebaut; rotiert 13.08.2026 (R14) → `STATUS-archiv.md`. Davor R11 —
 Preismodell-Entscheidungsvorlage gebaut/geprüft; rotiert 13.08.2026
@@ -147,22 +140,6 @@ Stände: `STATUS-archiv.md`.)*
   Chrome-Kanal je Session neu messen (N-9) · Modell-Statuszeile R11-A.
   ~~E-1…E-8~~ ✅ R12 · ~~N-10~~ ✅ R12 · ~~sieben Bau-Pflichten/
   O-9-Führung aus R9~~ ✅ R13; O-10 weiter offen [K2-Trigger].)*
-- **R12 (13.08. mittags, Entscheide-Einarbeitung, zwei Sessions
-  sequenziell):** ✅ **E-1…E-8 eingearbeitet** (✅-Vermerke § 11;
-  Quelle Briefing-Dialog 13.08., sinngemäß) · ✅
-  **`handel/preisliste-vorlaeufig.md`** (W-B-Basis, Durchreichung,
-  Startgebühr-Hypothese 1.500–2.500 €/Haus — Höhe entscheidet der
-  USER nach E-6) · ✅ **`handel/angebotsarchitektur.md`** (E-8;
-  **AA-1…AA-8 beim User**, AA-1 zuerst) · ✅ N-10-Marktband
-  nachgezogen · Prüfer 19/19 + 13/13 disponiert (0 schwere) ·
-  Postkorb-Zulieferung Z-1…Z-7 + Vertragspartner-Frage (K04) an die
-  Zentrale · 6 Lehren → Blueprint (`cd45642`), Stempel `cd45642`,
-  Wächter SYNCHRON 12 / 0 DRIFT. **Offen aus R12:** AA-1…AA-8 +
-  S4-Bezugseinheits-Klärfrage (User) · F-III-Höhe (User, nach E-6) ·
-  E-4/E-6-Kalendertermine (heypensio nachhalten) · K5/K6 nicht
-  erhoben · Terminpfad-Stufen T0–T5-Umbenennung (Kandidat) ·
-  Modell-Statuszeilen R11-A/R12-A. *(R10 rotiert →
-  `STATUS-archiv.md`.)*
 - **R13 (13.08. abends, Entscheide-Protokoll 2 + R9-Restposten,
   parallel):** ✅ **S4 + AA-1…AA-8 eingearbeitet** (AA-4 offen —
   Kayhan-Antwort aussteht; AA-8 bewusst gegen die Session-Empfehlung,
@@ -246,6 +223,31 @@ Stände: `STATUS-archiv.md`.)*
   O-9) · **Verdichtungs-Posten CLAUDE.md** (+5.642 B netto über die
   Runde trotz −6.343 Auslagerung; Sollmarke vorschlagen) ·
   Modell-Statuszeilen aller fünf R15-Sessions.
+- **R16 (17.08. nachmittags, drei Sessions parallel, erste Runde
+  nach drei arbeitsfreien Tagen):** ✅ **Rechtsposten 6/6 in der
+  Rechtsmatrix** (A7 neu, Doppelbegründung, Rn. 111/115, Rn. 79, „kein
+  Mitbewerber" gestrichen; Rn.-87-Vermerk Matrix + o8) · ✅
+  **Anwalts-Briefing konsistent + Klartext-Entscheidungsvorlage** (§ 4a
+  Kandidat A = ANL-3 war schon enthalten) · ✅ **Zitat-Wächter
+  Modus-Trennung** (Baseline 863 + 43 mit Nenner/SHA, ZIEL 8/8,
+  Selbsttest beide Richtungen; O-12-Satz neu) · ✅ **Akquiseplan § 4.4
+  Entscheidungsvorlage 300er-Schwelle** (E-A4) · ✅ R14-Postkorb
+  (`7cf1761`) · ✅ **H-1 = 22.09.** · ✅ Prüfer 18/18 disponiert (2
+  schwere repariert) + Prüf-Subagent 2 Prämissen gekippt · ✅ Nachzug →
+  `7a0f76b`, **Regelwerk-Wächter Pflicht aktiv (80k/85k/90k)**, L-49/L-50,
+  Blueprint-Rückfluss `7a0f76b`, Wächter 12/0.
+  **Offen aus R16:** 🔴 **fünf User-Entscheide vor dem Versand** (Satz ·
+  Kanzlei · Absender ohne Namen · § 4a A/B · E-A4) · 🔴 **Wächter 51 NEU
+  in der Rechtsmatrix** (Pool um lokale Rohbelege + Ausnahmeliste
+  R16A-N-5, R17) · **MKT-HANDEL R17:** Rn.-87-Vermerk in Regelwerk § 7.1
+  + `preismodell-optionen.md`, o8 § 6.2/§ 11.2 gegen Doppelbegründung,
+  12 nie angekommene Rn. 121–155, OLG-Beschluss 20 W 37/24 beschaffen,
+  8 Prüfer-Nacharbeits-Fundorte · **AKQ:** § 3.2 „Liste sofort baubar"
+  gekippt seit R9 (R16C-N-1), § 4.3-Textbruch (N-2), H-2-Frist verstrichen
+  (N-3), „genau 300" (N-4) · Kanzleiname im Repo nur DEHOGA-Hamburg-Berater
+  (R16A-N-2) · CLAUDE.md 84.713 B über Soll (Verdichtung, frische Session)
+  · Rohbeleg-Ordner `rohbelege-R16-A`: keiner angelegt (Zitate aus
+  R09-A/R15-A-Ordnern).
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -301,6 +303,16 @@ Stände: `STATUS-archiv.md`.)*
    mildert das Gate, hebt es nicht auf) · Kanalmix-Festzurrung erst nach
    FUND2-Persona-Befund. Details: Projektquelle § 6a (Routing-Tabelle) +
    § 7 Punkt 0 + R15-Changelog.
+   ⭐ **R16 (17.08.): Rechtsposten im Bestand, Briefing versandfertig
+   bis auf FÜNF User-Entscheide in Klartext** (`protokolle/R16-A-abschluss.md`
+   Ende): (1) selbstkritischer Satz an den nicht mandatierten Anwalt —
+   Empfehlung ja, mit Vorbehalt · (2) Kanzlei — keine im Repo außer dem
+   DEHOGA-Hamburg-Berater (Konflikt möglich); Kriterienliste liegt bei ·
+   (3) Absender ohne neuen Namen — Empfehlung „in Gründung, Name folgt",
+   Mandatsfähigkeit ungeprüft · (4) § 4a Kandidaten A/B mitgeben? · (5)
+   **E-A4** 300er-Schwelle (Akquiseplan § 4.4; Empfehlung: „neu führen"
+   definieren, dann Option B). Danach Versand durch den User. ~~R15E-N-4
+   nachtragen~~ ✅ war enthalten (§ 4a Kandidat A).
    ~~⏸️ R09-B wartet auf Umbau-Abnahme~~ ✅ Freeze aufgehoben
    (User-Entscheid 12.08. abends, Briefing Slot 3), als R11-A
    ausgeführt; ~~F13 wartet auf C2-Rücklauf~~ ✅ nachgereicht 14:49
@@ -322,12 +334,13 @@ Stände: `STATUS-archiv.md`.)*
    Entscheid über 4 K1-Blockierte (Getrost/Verlass/Obenauf/Obhut).
    Danach: **zweite Recherche-Welle E-V4** (eigene Session, Chrome;
    Prompt-Pflichten in Projektquelle § 7 4b).
-3. **User-Handgriffe (Messplan-Kette):** H-1 Livegang-Tagesdatum (bis
-   16.08.) · Anfrage-Entwürfe DEHOGA/IHK versenden (werktags, vorher
+3. **User-Handgriffe (Messplan-Kette):** ~~H-1 Livegang-Tagesdatum (bis
+   16.08.)~~ ✅ **22.09.2026 (User 17.08.)** · **H-2 (Plan-Freigabe)
+   trägt dieselbe verstrichene Frist — neuer Anker fehlt** · Anfrage-Entwürfe DEHOGA/IHK versenden (werktags, vorher
    IHK-Zuständigkeit klären) · **A5-Probedruck der Vorlagen**
    („tatsächliche Größe") · Betreiber-Briefing bis 23.08., **gekoppelt
    mit dem FUND2-Kayhan-Gespräch** · H-4 Altdaten-Sicherung anstoßen
-   (bis 07.09.) · Modell-Statuszeilen R3-A/B/D + R04-A bestätigen.
+   (bis 07.09.). ~~Modell-Statuszeilen R3-A/B/D + R04-A bestätigen~~ **ENTFALLEN — alle Statuszeilen-Handgriffe R3…R15 endgültig nicht erhebbar (User-Entscheid 17.08.).**
 4. **R7-Kandidaten:** (a) ~~⭐ **Nacharbeit der 24 offenen
    R05-A-Prüferbefunde** — zuerst die zitatkritischen
    (W-16/H-3/H-4/H-10)~~ ✅ **ERLEDIGT in R07-A (10.08.2026) — diese

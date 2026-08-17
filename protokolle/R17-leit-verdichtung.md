@@ -1,6 +1,6 @@
 # R17 — Leitsession: CLAUDE.md-Verdichtung auf die Sollmarke (17.08.2026)
 
-> **Status: ANGEWANDT 17.08. ~18:55 MESZ (s. Abschnitt „Anwendung"). Ursprünglich: VORBEREITET (Scratchpad), noch NICHT auf CLAUDE.md
+> **Status: ANGEWANDT 17.08. 18:35 MESZ (`date`) (s. Abschnitt „Anwendung"). Ursprünglich: VORBEREITET (Scratchpad), noch NICHT auf CLAUDE.md
 > angewandt.** Anwendung + Commit erst nach den drei Abschlussmeldungen
 > R17-A/B/C (CLAUDE.md-Regel 2: Wahrheits-Kanal „am Ende"; die laufenden
 > Sessions und ihre Prüfer-Subagenten laden bis dahin den Stand
@@ -108,7 +108,7 @@ ausdrücklicher Prüffrage je Streichung. Ohne Gegenprobe wären sie
 committet worden. Die Klassen (a)/(g) — „z. B." und Kontrast-Hälften
 — gehören als Muster in die Verdichtungs-Gegenprobe des Debrief-Skills.
 
-## Anwendung (17.08. ~18:55 MESZ, nach den drei Abschlussmeldungen)
+## Anwendung (17.08. 18:33–18:36 MESZ per `date` — die erste Fassung dieser Zeile schrieb „~18:55" aus dem Kopf: derselbe Fehler wie die Block-2-Etiketten, gefangen beim Commit)
 
 - Vorbedingung gemessen: `cmp <(git show 926ca3c:CLAUDE.md) CLAUDE.md`
   = identisch (niemand hat CLAUDE.md während der Runde angefasst).

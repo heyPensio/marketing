@@ -1621,3 +1621,59 @@ Leitsession (Block 2 oben) zu „ungeprüft" verallgemeinert.
   Register-Anker V17-1…13); Gegenprobe-Subagent läuft; Protokoll
   `protokolle/R17-leit-verdichtung.md`. **Anwendung erst nach den drei
   Abschlussmeldungen** (Regel 2).
+
+### Zwischenstand Leitsession 18:29–18:40 MESZ (`date`) — alle drei Sessions fertig, reviewt, Nacharbeit angewandt
+
+- **Push-Blockade R17-A** (Klassifikator, 3× in beiden Befehlsformen,
+  gemeldet statt umgangen): Leitsession-Push `git push origin
+  dc9f99a:main` um 18:31 **durchgelaufen** — neun Commits (A 7 + C 2)
+  auf origin/main; C hatte die Veröffentlichung schriftlich freigegeben.
+  **L-05, zehnter Beleg** (kontext-/zeitpunktgebunden, kanalunabhängig).
+- **R17-A (Ben Beckman) — Voll-Review nach innen: bestanden.** Prüfer 19
+  = 1/8/10 selbst gezählt (`R17-A-pruefer.md` § 1), Disposition 18/19
+  repariert + 1 → Nebenbefund N-7 (fremder Scope) — Nenner stimmt.
+  Rohbeleg-Stichproben: OLG 20 W 37/24 liegt als `.txt/.html` in
+  `sensibel/rohbelege-R17-A/`; Rn. 27 („Zulassung der Rechtsbeschwerde …
+  liegen nicht vor"), Rn. 22 „Im Übrigen"-Nebensatz, `Datenschutz|DSGVO`
+  = 0 — alle drei Kernaussagen reproduziert. Löschungen gegen `926ca3c`:
+  16 = Rechtsmatrix 5 + Briefing 8 + AA 3 + o8 0 + Preismodell 0 (wie
+  gemeldet). Erfüllt: 8/8 Prüfer-Fundorte R16-A, R16A-N-1/N-8, R15B-N-4
+  (Preismodell-Anteil widerlegt), Briefing-Vorbehalt Sprachfassung.
+  **Nach außen:** N-1 `core.autocrlf` ohne `.gitattributes` → Leitsession
+  (Repo-Entscheid, R18) · N-2/N-3 Rn. 187/188, 220 → im Bestand? (Debrief
+  prüft) · N-4 EuGH-Werkzeugfalle → Baustein `quellen-beschaffung` ·
+  N-5 sieben/acht EIGEN-Kandidaten → R18-Wächter · N-7 Sperrdatei-
+  Widerspruch SP-01/SP-09 → MKT-AKQ R18 · zwei OLG-Parallelverfahren
+  I-20 U 107/23 + 117/23 → Briefing-Frage an die Kanzlei (User-Entscheid
+  Kanzlei) · Klauselblock nicht Rn.-weise ausgewertet → R18-HANDEL.
+- **R17-C (Lucky Roux) — Kurzraster: bestanden.** Commits `1804b1c` ·
+  `0c0a2a7` · `e4be4a6`; Löschungen 4 = Akquiseplan 2 + Regelwerk 0 +
+  Messplan 2 (wie gemeldet); Gegenleser 15 → 14 repariert + 1 (Rn.-86-
+  Hälfte, selbst benannt und repariert). Erfüllt: R16C-N-1/N-2/N-3,
+  R15E-N-1, R16A-N-1 (Regelwerk-Anteil). **Nach außen:** fünf Stellen
+  Ein-Gate-Logik in Akquiseplan § 6/§ 7 (H-8)/§ 8 (E-A1) → R18-AKQ ·
+  **zwei User-Fragen** (H-2 Stichprobengröße ≥ 30 Check-ins je Hotel
+  bestätigen? · neuer H-2-Anker) · StB-Termin doppelt in STATUS (Punkt 0
+  „~KW 34/35" vs. Punkt 1 „Mo 10.08.") → Debrief · § 4.4-Pipes →
+  **erledigt Leitsession** (`7ef4dcc`).
+- **R17-B (Codex) — Abnahme am fertigen Artefakt: bestanden**, committet
+  `8e0c551`. Eigene Läufe am Prüfstand `926ca3c` (Scratch-Export):
+  Hauptlauf Exit 0, 27/27 ZIEL, 0 NEU, Rechtsmatrix 51 → 12 EIGEN + 31
+  Rohbeleg + 8 Aufnahmebefund · `--selbsttest` Exit 0 (27/27
+  Selbstausschluss, LF/CRLF invariant) · `--altlast` 863: 346
+  Rohbeleg-bestätigt, 447/447 r17 · `--rohbelege <leer>` → 162 „nicht
+  prüfbar", 0 NEU, Exit 0 · `git diff --check` 0. **O-12-Satz** § 10
+  nachgetragen (`7ef4dcc`, ohne Anführungszeichen — der erste Entwurf
+  erzeugte selbst 1 NEU). **Live-Lauf am Arbeitsbaum: 36 NEU** (A/C-
+  Arbeit NACH dem Prüfstand: Vorfassungs-Selbstzitate in Reparatur-
+  Kästen, OLG-Zitate, dazu ein Werkzeug-Nachbefund — verschachtelte
+  `> >`-Präfixe mitten im Zitat werden nicht normalisiert, L-29-Klasse)
+  → **R18-Posten Wächter**, bis dahin berechtigt rot.
+- **Leitsession:** CLAUDE.md-Verdichtung angewandt `de4a927` (79.859 B,
+  unter Soll; Gegenprobe 8/8 repariert) · Werkzeugfalle gefangen: der
+  Bash-Kanal dieses Werkzeugs verschluckt in Heredocs/Inline-Skripten
+  einen Backslash (`\|` → `\|`; drei Fehlversuche, Fix per
+  `String.fromCharCode(92)`) → Baustein `windows-powershell` ·
+  Zeit-Etikett „~18:55" im eigenen Protokoll aus dem Kopf geschrieben
+  und beim Commit gefangen (zweiter Beleg heute) → L-07-Zweitbeleg.
+- **Nächster Schritt: `/debrief` R17.**

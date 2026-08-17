@@ -2247,3 +2247,101 @@ so gearbeitet: je Meldung Nebenbefunde UND Learnings vollständig gelesen,
 bevor die nächste geöffnet wurde. Zusätzlich hat der Tagesplan die
 Zielorte der Nebenbefunde bereits beim Review (16:00/16:40) geführt —
 Phase 4b findet sie dort vor.
+
+## Verdichtung R17 (17.08.2026) — aus CLAUDE.md ausgelagerte Belegtexte (Anker `V17-nn`)
+
+*(Leitsession Shanks, Block 3, frische Session nach `/clear` — kein
+Müdigkeits-Zug. Ausgangsstand CLAUDE.md `926ca3c` = 84.713 B, Sollmarke
+80.000 B. Verfahren: fünf Bullets („Positivkontrolle", „Verdichten
+verliert den Vorbehalt", „Anwesenheit ist nicht Wirksamkeit",
+„Vorwärtsverweis-Konvention", „Schwachstelle über Kanäle") wurden auf
+Kern + Vorbehalt + Anker gekürzt; jede entfernte FALLGESCHICHTE steht
+hier byte-nah unter ihrem neuen Anker, jede Handlungsregel und jeder
+Vorbehalt blieb in CLAUDE.md. Prüffrage je Streichung: „Fällt ein Beleg
+oder ein Vorbehalt?" — Protokoll: `protokolle/R17-leit-verdichtung.md`.
+Kerne, die schon einen L-Anker trugen, behalten ihn; die Fallgeschichten
+dazu stehen bereits unter dem jeweiligen L-Eintrag bzw. Sammelvermerk.)*
+
+- **V17-1 (Extraktions-Positivkontrolle, Sammelvermerk R5, Prüferfang):**
+  Bei EXTRAKTIONEN prüft die Kontrolle die Vollständigkeit des
+  ERGEBNISSES (bekannte Elemente müssen in der Extraktion erscheinen),
+  nicht die Erreichbarkeit der Quelle — „Nutzlast gefunden" beglaubigt
+  keine vollständige Liste.
+- **V17-2 (Kontrolle PRO MUSTER, heyPensio R35):** Ein Sammellauf mit
+  Treffern sieht aus wie ein funktionierender Prüfweg und verdeckt das
+  einzelne tote Muster — gemessen: 45 Muster schlugen in Summe an, drei
+  waren wirkungslos (Tippfehler, fehlendes Muster, Versalien-Schreibweise
+  nie getroffen); das dritte fand erst ein Selbsttest, nicht der Prüfer.
+  Daraus die Selbsttest-Datei-Pflicht (jedes Muster feuert mindestens
+  einmal, `TREFFEN-NICHT`-Zeile für die Gegenrichtung).
+- **V17-3 (abgeschnittene Werkzeugausgabe, heyPensio R35):** Wer eine
+  39-KB-Ausgabe auf 2 KB liest und daraus „nicht gefunden" macht, hat
+  nicht gesucht. Spiegelbild: ein Negativ, das nicht passen kann, ist
+  zuerst ein Werkzeugfehler — Leerzeilen als „hinter dem Dateiende"; ein
+  Regex, der ein Umlaut-Zeichen als zwei zählt.
+- **V17-4 (Zeilenspanne protokollieren, MKT R7):** „Ziffer 4 gelesen"
+  nach einem `sed -n '135,175p'`, während die gesuchte Grenze bei Zeile
+  230 stand, erzeugte zugleich einen Fehlalarm und einen übersehenen
+  Pflichtabschnitt: EIN Lesefehler, ZWEI schwere Befunde — und der zu
+  weite Leseumfang im Protokoll hätte jeden Prüfer beruhigt.
+- **V17-5 (Verfahrens-Positivkontrolle altert mit dem Korpus,
+  Sammelvermerk R9):** Der Prüflauf deckte 1.055 Zeilen, das Papier
+  hatte zum Zeitpunkt der Wiederverwendung 1.454 — genau in der Differenz
+  saßen die einzigen zwei Abweichungen. Belegt wird die Fehlerklasse des
+  damaligen Laufs, nie die Vollständigkeit eines späteren Rückbaus.
+  Ergänzend zu L-24 (Unmöglichkeits-Kriterium): zwei Werkzeugfehler
+  flogen nur auf, weil die Kontrollzahl nicht sein KONNTE — bei „90 von
+  99" wäre beides durchgerutscht (MKT R8, zwei unabhängige Fälle); die
+  L-30-Belegfälle „10 von 10 Ankern mit vollständiger Angabe" (zählte das
+  eigene Auswahlkriterium, der stärkste Gegenfall fiel durchs Raster)
+  und „6 von 6 Anbietern bestätigt", während zwei EinmalBETRÄGE keine
+  Fundzeile hatten (MKT R12), stehen unter L-30; die R15-Einschränkung der Summenprobe („2+4+1=7" kann bei sieben Zeilen in drei Kategorien nie anders ausfallen — am eigenen Objekt, Sammelvermerk R15) ist der Beleg der EINSTUFUNGS-Blindheit; der L-18-Fall („es
+  fehlt keine Seite" übersah, dass nur 3 von 4 Pflichten des gelesenen
+  Abschnitts im Dokument standen) unter L-18.
+- **V17-6 (Mess-/Befundprotokolle driften, heyPensio R29-B/R31 mit 7
+  Belegen + MKT R3 Sammelvermerk + Protokoll-Erweiterung heyPensio
+  R34):** Zahlen driften beim Zusammenfassen in Richtung eigener
+  Vollständigkeit — Auslassungen und Vorher/Nachher-Verwechslungen,
+  keine Erfindungen. Zur L-33-Klasse (Aussage über eine maschinelle
+  Zählung): zweimal in einer Runde, beide Male in Richtung der eigenen
+  Hypothese; Empfehlungs-Superlative: zweimal trug die Erstfassung ihr
+  Gegenargument selbst (MKT R12).
+- **V17-7 (Chat-Zusammenfassung glättet Vorbehalte, heyPensio R41):**
+  Das Plan-Dokument trug die Vorbehalte, der Chat glättete sie — 2× an
+  einem Tag, beide extern gefangen.
+- **V17-8 (Wächter liest den erzeugten statt den geschriebenen Text,
+  heyPensio R34):** Ein Prüfwerkzeug gab Entwarnung über eine Datei, die
+  es nie gelesen hatte — seine Wächter prüften den frisch ERZEUGTEN Text
+  statt der GESCHRIEBENEN Datei; Ausgabe und Prüfgegenstand sehen im Log
+  gleich aus. Der L-21-Fall dazu (MKT R8 P-02) überlebte einen
+  bestandenen Selbsttest.
+- **V17-9 (Wächter misst den falschen Stand; fremde Grenzenliste
+  vollzählig, heyPensio R42):** Ein Commit-Hook las den git-INDEX,
+  während die vorgeschriebene Commit-Form (`git commit -- <pfade>`) den
+  ARBEITSBAUM-Stand schreibt — der Schutz wäre bei jedem regelkonformen
+  Commit umgangen worden. Gefunden von der Debrief-Gegenprobe: Das
+  Review hatte nur drei der vier Posten übernommen, die der Bau-Bericht
+  selbst als Grenzen benannt hatte.
+- **V17-10 (ERFÜLLEN-Kategorie, heyPensio R43 + MKT R15):** In R15 baute
+  die Briefing-Erhebung aus einer zehn Tage überholten STATUS-Zeile einen
+  ganzen Strang (R15-E) auf erledigte Arbeit; der Nachtrag der
+  R16-Debrief-Gegenprobe (STATUS „Offen aus R15" trug drei erledigte
+  Posten ungestrichen) ist der dritte Beleg.
+- **V17-11 (Nachbar-Repos gehören zum Suchraum, User-Fang 09.08.2026):**
+  Der Oguz-Onboarding-Plan im heypensio-Repo kannte Zentrale, Briefing
+  und Organigramm nicht — Arbeitsmodell- und Struktur-Entscheide kippen
+  Onboarding-, Konzept- und Schulungsdokumente repo-übergreifend.
+- **V17-12 (alle Kanäle einer Klasse; Nachbar-Prämisse, heyPensio R35):**
+  Ein Sicherheitspapier beschrieb eine Informations-Preisgabe über zwei
+  Wege und schlug vor, den Fix an EINEM zu prüfen; die Nachmessung fand
+  drei weitere, darunter einen Endpunkt in einem ganz anderen Namensraum,
+  den eine Sperre des Hauptwegs gar nicht erfasst — nach einem
+  „erfolgreichen" Fix hätte die eigene Erfolgsprüfung grün gemeldet,
+  während die Lücke offen blieb. Werkzeug-Seite: dieselbe Probe, die
+  „läuft Komponente X?" beantwortete, fand mit einem Aufruf eine
+  komplette zweite, in keiner Bestandsliste geführte Komponente.
+- **V17-13 (das Gegenmittel ist selbst eine Liste, heyPensio R36, zwei
+  Sessions unabhängig):** Dasselbe Papier schrieb korrekt „jede
+  Aufzählung ist eine Mindestliste" und stellte als Abhilfe einen
+  Namensfilter hin — die wichtigste Leck-Klasse war ein Parameter, keine
+  Route (gemessen: 20 von 24 Kanälen offen, bekannt waren 5).

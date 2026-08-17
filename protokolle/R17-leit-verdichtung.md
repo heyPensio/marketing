@@ -1,6 +1,6 @@
 # R17 — Leitsession: CLAUDE.md-Verdichtung auf die Sollmarke (17.08.2026)
 
-> **Status: VORBEREITET (Scratchpad), noch NICHT auf CLAUDE.md
+> **Status: ANGEWANDT 17.08. ~18:55 MESZ (s. Abschnitt „Anwendung"). Ursprünglich: VORBEREITET (Scratchpad), noch NICHT auf CLAUDE.md
 > angewandt.** Anwendung + Commit erst nach den drei Abschlussmeldungen
 > R17-A/B/C (CLAUDE.md-Regel 2: Wahrheits-Kanal „am Ende"; die laufenden
 > Sessions und ihre Prüfer-Subagenten laden bis dahin den Stand
@@ -108,7 +108,23 @@ ausdrücklicher Prüffrage je Streichung. Ohne Gegenprobe wären sie
 committet worden. Die Klassen (a)/(g) — „z. B." und Kontrast-Hälften
 — gehören als Muster in die Verdichtungs-Gegenprobe des Debrief-Skills.
 
-## Anwendung — wird nachgetragen
+## Anwendung (17.08. ~18:55 MESZ, nach den drei Abschlussmeldungen)
 
-*(Commit-Hash, `pruefe-budget.js`-Lauf am Arbeitsbaum + HEAD, Kopien-
-Wächter, `git diff --numstat` gegen `926ca3c` mit Löschungszählung.)*
+- Vorbedingung gemessen: `cmp <(git show 926ca3c:CLAUDE.md) CLAUDE.md`
+  = identisch (niemand hat CLAUDE.md während der Runde angefasst).
+- `CLAUDE.neu4.md` → `CLAUDE.md`; `register-v17.md` (V17-1…13 inkl.
+  Summenproben-Nachtrag) an `lehren-register.md` angehängt (+98 Zeilen,
+  0 Löschungen).
+- **Budget-Wächter:** Arbeitsbaum **79.859 B** (Codepoints 77.930) gegen
+  HEAD 84.713 → −4.854 B, unter Sollmarke 80.000 (Reserve 141 B).
+  Kopien-Wächter SYNCHRON 12 / 0.
+- **Löschungszählung `git diff 926ca3c -- CLAUDE.md`:** 132 Einfügungen /
+  **209 Löschungen in genau 6 Hunks** = die sechs verdichteten Bullets;
+  jede Löschung ist Ersetzung durch die Neufassung desselben Bullets
+  (Gegenprobe oben: 17/17 Hunks der Fünfer-Fassung im Scope, sechster
+  Bullet nachträglich, Kern + beide Nenner erhalten).
+- Commit: s. Kopfzeile des Debrief-Änderungsreports im Tagesplan
+  (CLAUDE.md + `lehren-register.md` + dieses Protokoll in einem Commit).
+- ⚠️ Der Kopf-Stempel der CLAUDE.md wird erst im Debrief (Blueprint-
+  Rückfluss) angefasst — die Verdichtung selbst ändert keinen
+  Gerüst-Stand.

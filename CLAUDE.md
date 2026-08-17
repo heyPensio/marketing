@@ -444,95 +444,61 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   REICHWEITE: Ein präzises Negativ („X = 0") belegt nie die
   Verallgemeinerung („kein Y"); wer eine Bestandsstelle anfasst (auch nur
   für einen Zählweg-Nachtrag), liest den GANZEN Satz gegen den eigenen
-  neuen Bestand (L-39).** Randfälle einzeln
-  belegen statt Vollabdeckung behaupten. Je PRÜFKANAL ein konkreter
-  Kontrollkandidat — eine Regel „je Suchlauf" ist erst umgesetzt, wenn
-  JEDER Kanal seinen benannten Anker hat; der stärkste Kontrollbegriff
-  spiegelt die SUCHMECHANIK des Nulltreffers (z. B. Teilwort-Probe),
-  nicht nur irgendeinen garantierten Treffer. **Er trägt dazu die
-  ZEICHENKLASSE des Musters (`§`, Umlaut, Ziffer) und hat je Kanal einen
-  VERSCHIEDENEN Sollwert (cs ≠ ci)** — eine Kontrolle, die in beiden
-  Kanälen dieselbe Zahl liefert, prüft den Kanal nicht; reine
-  Buchstaben-Kontrollen liefen sauber durch, während „§ 3a" = 0 ein
-  Entity-Artefakt war (L-43, vierfach). (Sammelvermerk R3.)
+  neuen Bestand (L-39).** Randfälle einzeln belegen statt Vollabdeckung
+  behaupten. Je PRÜFKANAL ein konkreter Kontrollkandidat — erst wenn JEDER
+  Kanal seinen benannten Anker hat, ist „je Suchlauf" umgesetzt; der
+  stärkste Kontrollbegriff spiegelt die SUCHMECHANIK des Nulltreffers
+  (z. B. Teilwort-Probe), nicht nur irgendeinen garantierten Treffer; er **trägt die ZEICHENKLASSE des Musters (`§`, Umlaut,
+  Ziffer) und hat je Kanal einen VERSCHIEDENEN Sollwert (cs ≠ ci)** — eine
+  Kontrolle mit derselben Zahl in beiden Kanälen prüft den Kanal nicht
+  (L-43, vierfach; Sammelvermerk R3).
   **Bei EXTRAKTIONEN prüft die Kontrolle die Vollständigkeit des
-  ERGEBNISSES** (bekannte Elemente müssen in der Extraktion erscheinen),
-  nicht die Erreichbarkeit der Quelle — „Nutzlast gefunden" beglaubigt
-  keine vollständige Liste. (Sammelvermerk R5, Prüferfang.)
-  **⭐ Die Kontrolle gehört PRO MUSTER, nicht pro LAUF** — ein Sammellauf mit
-  Treffern sieht aus wie ein funktionierender Prüfweg und verdeckt das
-  einzelne tote Muster (gemessen: 45 Muster schlugen in Summe an, drei waren
-  wirkungslos — Tippfehler, fehlendes Muster, Versalien-Schreibweise nie
-  getroffen; das dritte fand erst ein Selbsttest, nicht der Prüfer).
-  Pflichtform bei Musterlisten: eine **Selbsttest-Datei**, in der JEDES
-  Muster mindestens einmal feuern muss, plus eine `TREFFEN-NICHT`-Zeile für
-  die Gegenrichtung — und wer ein Muster ergänzt, ergänzt im selben Zug die
-  Selbsttest-Zeile. (Herkunft: heyPensio R35.)
+  ERGEBNISSES** (bekannte Elemente müssen erscheinen), nicht die
+  Erreichbarkeit der Quelle (V17-1). **Bei gegliederten Quellen gehört
+  die VOLLZÄHLIGKEIT der GLIEDERUNG in die Kontrolle** — Rubriken gegen
+  eine vorher notierte Namensliste zu zählen findet genau deren Länge;
+  die Gliederung generisch über das Strukturmerkmal holen (L-11).
+  **⭐ Die Kontrolle gehört PRO MUSTER, nicht pro LAUF** — ein Sammellauf
+  mit Treffern verdeckt das einzelne tote Muster. Pflichtform bei
+  Musterlisten: **Selbsttest-Datei**, in der JEDES Muster feuern muss,
+  plus `TREFFEN-NICHT`-Zeile für die Gegenrichtung; wer ein Muster
+  ergänzt, ergänzt die Selbsttest-Zeile im selben Zug (V17-2).
   **⭐ Formfehler-Klassen haben NACHBARFORMEN** (Umbruch-, Wort-,
-  Groß-Variante derselben Phrase): Wer eine findet, sucht die übrigen im
-  selben Zug — und der NENNER gleichartiger Prüfgegenstände wird GLEICH
-  gebunden (ans Dokument, nie teils an einen Abschnitt): genau der
-  inkonsistent gebundene verlor seine wichtigste Stelle (L-41).
-  **⭐ Und die Musterliste einer Selbstwiderspruchs-/Konsequenz-Probe
-  braucht ZWEI Achsen:** (1) die geänderten GRÖSSEN und (2)
-  STATUSAUSSAGEN über fremde Träger (übergeben/beantwortet/offen) —
-  neu geschriebener Text baut unbelegte Behauptungen bevorzugt in der
-  zweiten Klasse ein, die kein Entscheid berührt. **Eine korrekt
-  AUSGEWIESENE Geltungsgrenze verhindert den Ausfall nicht** — wer die
-  Lücke benennen kann, kann meist auch das Muster ergänzen. (L-37;
-  MKT R13, die Probe sagte ihren blinden Fleck wörtlich voraus.)
+  Groß-Variante): die übrigen im selben Zug suchen — und der NENNER
+  gleichartiger Prüfgegenstände wird GLEICH gebunden (ans Dokument, nie
+  teils an einen Abschnitt; L-41). **⭐ Die Musterliste einer
+  Selbstwiderspruchs-Probe braucht ZWEI Achsen:** geänderte GRÖSSEN und
+  STATUSAUSSAGEN über fremde Träger (übergeben/beantwortet/offen) — die
+  zweite Klasse ist die, in der neuer Text unbelegte Behauptungen baut;
+  **eine korrekt AUSGEWIESENE Geltungsgrenze verhindert den Ausfall
+  nicht** — wer die Lücke benennen kann, kann meist das Muster ergänzen
+  (L-37).
   **⭐ Eine ABGESCHNITTENE oder ausgelagerte Werkzeugausgabe trägt kein
-  Negativ** — wer eine 39-KB-Ausgabe auf 2 KB liest und daraus „nicht
-  gefunden" macht, hat nicht gesucht: entweder zu Ende lesen (Datei/Volldump)
-  oder das Ergebnis gilt als nicht erhoben. Spiegelbild der Werkzeug-Regel:
-  **ein Negativ, das nicht passen kann, ist zuerst ein Werkzeugfehler**
-  (Leerzeilen als „hinter dem Dateiende"; ein Regex, der ein Umlaut-Zeichen
-  als zwei zählt). (Herkunft: heyPensio R35.) **⭐ Wer einen Leseumfang
-  protokolliert, protokolliert die ZEILENSPANNE mit** — „Ziffer 4 gelesen"
-  nach einem `sed -n '135,175p'`, während die gesuchte Grenze bei Zeile 230
-  stand, erzeugte zugleich einen Fehlalarm und einen übersehenen
-  Pflichtabschnitt: EIN Lesefehler, ZWEI schwere Befunde, und der zu weite
-  Leseumfang im Protokoll hätte jeden Prüfer beruhigt. (Herkunft: MKT R7.)
-  **Bei gegliederten Quellen gehört die VOLLZÄHLIGKEIT der GLIEDERUNG
-  selbst in die Kontrolle** — wer Rubriken gegen eine vorher notierte
-  Namensliste zählt, findet genau deren Länge (Positivliste in
-  Verkleidung); die Extraktion holt die Gliederung generisch über das
-  Strukturmerkmal (L-11 — zweifach reproduziert im selben Papier,
-  R5 B8.4 + R6 K-1).
+  Negativ** — zu Ende lesen (Datei/Volldump) oder „nicht erhoben"; **ein
+  Negativ, das nicht passen kann, ist zuerst ein Werkzeugfehler** (V17-3).
+  **⭐ Wer einen Leseumfang protokolliert, protokolliert die ZEILENSPANNE
+  mit** — ein zu weit protokollierter Leseumfang beruhigt jeden Prüfer
+  und erzeugte einmal Fehlalarm UND übersehenen Pflichtabschnitt aus
+  EINEM Lesefehler (V17-4).
   **⭐ Eine Verfahrens-Positivkontrolle ALTERT MIT IHREM KORPUS** — sie
-  belegt die Fehlerklasse, die sie damals prüfte, nie die Vollständigkeit
-  eines späteren Rückbaus: Der Prüflauf deckte 1.055 Zeilen, das Papier
-  hat heute 1.454, und genau in der Differenz saßen die einzigen zwei
-  Abweichungen. Bei jeder Wiederverwendung fragen: Ist der Prüfraum seit
-  dem Lauf GEWACHSEN? (Anderer Fall als der wandernde Anker,
-  Sammelvermerk R9.)
+  belegt die Fehlerklasse ihres damaligen Laufs, nie die Vollständigkeit
+  eines späteren Rückbaus; bei Wiederverwendung fragen: Ist der Prüfraum
+  seit dem Lauf GEWACHSEN? (V17-5; anderer Fall als der wandernde Anker.)
   **⭐ Eine Kontrolle trägt nur, wenn ihr Ergebnis eine erkennbare
-  UNMÖGLICHKEIT liefern kann** — zwei Werkzeugfehler flogen nur auf,
-  weil die Kontrollzahl nicht sein KONNTE; bei „90 von 99" wäre beides
-  durchgerutscht. Starke Formen: Summenprobe ohne Rest · zwei
-  unabhängige Strukturmerkmale für dieselbe Zahl · Kontrollkandidat mit
-  unabhängig bekanntem Sollwert plus schweigende Gegenrichtung.
-  (L-24; MKT R8, zwei unabhängige Fälle.) **⚠️ EINSCHRÄNKUNG (R15, am
-  eigenen Objekt): Die Summenprobe ist an der EINSTUFUNGS-Achse blind** —
-  „2+4+1=7" kann bei sieben Zeilen in drei Kategorien nie anders
-  ausfallen; sie fängt eine vergessene Zeile, eine FEHLEINSTUFUNG nie.
-  Sie belegt die Vollzähligkeit, nie die Richtigkeit der Zuordnung.
-  **⭐ Und eine „x von y"-Aussage wird am KRITERIUM geprüft, nicht an
-  der Zahl:** Könnte das Ergebnis überhaupt anders ausfallen? „10 von
-  10 Ankern mit vollständiger Angabe" zählte sein eigenes
-  Auswahlkriterium — die Auswahl war die Aussage (Positivliste in
-  Verkleidung), und ausgerechnet der stärkste Gegenfall fiel durchs
-  Raster. Wenn das Ergebnis nicht anders ausfallen kann, ist es keine
-  Zählung. (L-30.) **Der Nenner gehört an den PRÜFGEGENSTAND, nicht an
-  das Auswahlkriterium:** „6 von 6 Anbietern bestätigt" kann nicht
-  anders ausfallen, sobald je Anbieter ein Treffer genügt, während der
-  Satz daneben „jeder EinmalBETRAG" behauptet — zwei Beträge hatten
-  keine Fundzeile. (L-30-Nachtrag, MKT R12.)
-  **⭐ Eine Quelle vollständig GELESEN zu haben und sie vollständig
-  ÜBERNOMMEN zu haben sind zwei Behauptungen mit zwei Belegen** — eine
-  Kontrolle „es fehlt keine Seite" übersah, dass nur 3 von 4 Pflichten des
-  gelesenen Abschnitts im Dokument standen. Die Quellen-Positivkontrolle
-  beantwortet die erste Frage nie mit. (Herkunft: MKT R7, L-18.)
+  UNMÖGLICHKEIT liefern kann.** Starke Formen: Summenprobe ohne Rest ·
+  zwei unabhängige Strukturmerkmale für dieselbe Zahl · Kontrollkandidat
+  mit unabhängig bekanntem Sollwert plus schweigende Gegenrichtung
+  (L-24). **⚠️ EINSCHRÄNKUNG (R15): Die Summenprobe ist an der
+  EINSTUFUNGS-Achse blind** — sie fängt eine vergessene Zeile, eine
+  FEHLEINSTUFUNG nie; sie belegt Vollzähligkeit, nie die Richtigkeit
+  der Zuordnung. **⭐ Eine „x von y"-Aussage wird am KRITERIUM geprüft,
+  nicht an der Zahl:** Könnte das Ergebnis überhaupt anders ausfallen?
+  Wenn nicht, ist es keine Zählung, sondern eine Positivliste in
+  Verkleidung — **der Nenner gehört an den PRÜFGEGENSTAND, nicht an das
+  Auswahlkriterium** („6 von 6 Anbietern bestätigt" kann nicht anders ausfallen, sobald je Anbieter ein Treffer genügt; L-30 + Nachtrag R12).
+  **⭐ Eine Quelle vollständig GELESEN und vollständig ÜBERNOMMEN zu
+  haben sind zwei Behauptungen mit zwei Belegen** — die
+  Quellen-Positivkontrolle beantwortet die erste Frage nie mit (L-18).
 - **Status-Symbole erben von der SCHWÄCHSTEN Prämisse;** „Prognose" ist
   eine eigene Kategorie; ⚠️-Bausteine nie zu ✅ zusammenfassen. Ein
   „ERLEDIGT" an einer Bedingung beglaubigt die RECHTSFOLGE des Satzes mit —
@@ -554,44 +520,33 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   gefährliche Moment ist der Übergang vom Detail zur Bewertung.
   **⭐ Beim Übernehmen von TABELLEN fällt der Vorbehalt im KOPF, nicht in
   den Zellen** — Zellen werden byte-treu kopiert, der Kopf neu
-  formuliert; genau dort ging „alle Stufe E" verloren. Den Tabellenkopf
-  wie ein Zitat behandeln: byte-treue Zellen daneben sind kein Beleg für
-  einen korrekten Kopf, sie signalisieren nur Sorgfalt (L-47).
+  formuliert; den Tabellenkopf wie ein Zitat behandeln, byte-treue Zellen
+  daneben belegen keinen korrekten Kopf (L-47).
   **Gilt auch für eigene MESS- und BEFUNDPROTOKOLLE:** Zahlen driften
-  beim Zusammenfassen in Richtung eigener Vollständigkeit (Auslassungen
-  und Vorher/Nachher-Verwechslungen, keine Erfindungen). Rohausgabe beim
-  Schreiben erneut anlesen; Bestandszahlen, die die eigene Änderung
-  bewerten, gegen den VORHER-Stand messen (`git show <commit>~1:<datei>`).
-  (Herkunft: R29-B/R31, 7 Belege; + MKT R3, Sammelvermerk;
-  Protokoll-Erweiterung heyPensio R34.)
+  beim Zusammenfassen in Richtung eigener Vollständigkeit (Auslassungen,
+  Vorher/Nachher-Verwechslungen). Rohausgabe beim Schreiben erneut
+  anlesen; Bestandszahlen, die die eigene Änderung bewerten, gegen den
+  VORHER-Stand messen (`git show <commit>~1:<datei>`) (V17-6).
   **⭐ Und für die AUSSAGE ÜBER eine maschinelle Zählung:** Die
-  Skript-Ausgabe kann korrekt danebenliegen, während die von Hand
-  formulierte RANG-/Vergleichsaussage darüber falsch ist — zweimal in
-  einer Runde, beide Male in Richtung der eigenen Hypothese. Wer eine
-  Zählung maschinisiert, maschinisiert auch die Aussage darüber — oder
-  liest die Ausgabe Zeile für Zeile gegen den geschriebenen Satz.
-  **Empfehlungs-Superlative („die einzige Option, die …") sind die
-  Struktur-Variante derselben Drift** — vor dem Commit die eigenen
-  Dafür/Dagegen-Zeilen der ANDEREN Optionen gegenlesen (zweimal trug
-  die Erstfassung ihr Gegenargument selbst). **Und eine Referenz-/
-  Festlegungs-Tabelle, die nur den Entscheid-KERN trägt, liest sich als
-  vollständige Wiedergabe** — den ✅-Kasten auf „ausdrücklich
-  mitentschieden"-Zusätze gegenlesen. (L-33; MKT R12.)
+  Skript-Ausgabe kann korrekt sein und die von Hand formulierte
+  RANG-/Vergleichsaussage darüber falsch — wer eine Zählung
+  maschinisiert, maschinisiert auch die Aussage darüber, oder liest die
+  Ausgabe Zeile für Zeile gegen den Satz. **Empfehlungs-Superlative („die
+  einzige Option, die …") sind die Struktur-Variante derselben Drift** —
+  vor dem Commit die eigenen Dafür/Dagegen-Zeilen der ANDEREN Optionen
+  gegenlesen. **Eine Referenz-/Festlegungs-Tabelle, die nur den
+  Entscheid-KERN trägt, liest sich als vollständige Wiedergabe** — den
+  ✅-Kasten auf „ausdrücklich mitentschieden"-Zusätze gegenlesen (L-33).
   **⭐ Und für die CHAT-Zusammenfassung der eigenen Berichtslage:**
   Kernsätze an den User tragen dieselbe Belegstufen-Pflicht wie
   Dokumente — Existenz-Prüfung nie mit Deckungs-Prüfung verschmelzen;
   „billiger/schneller/sicherer" ohne Messung ist eine HYPOTHESE und
-  wird so genannt (das Plan-Dokument trug die Vorbehalte, der Chat
-  glättete sie — 2× an einem Tag, beide extern gefangen; Herkunft:
-  heyPensio R41).
-  **⭐ Belegstufen-Disziplin gilt auch für STRUKTUREN und
-  Denkfiguren:** Die Gliederung einer Empfehlung kann aus einer
-  verworfenen Quelle stammen, während jede einzelne Zahl sauber belegt
-  ist — im Belegfall wurden die Zahlen einer KI-Hypothese abgewehrt
-  und ihre Denkfigur übernommen; die eigenen Anker wurden erst
-  nachträglich gesucht und machen die Struktur nicht zur eigenen.
-  Herkunft der Struktur ausweisen; die Übereinstimmung ist ein Indiz,
-  kein Beleg. (L-32.)
+  wird so genannt (V17-7).
+  **⭐ Belegstufen-Disziplin gilt auch für STRUKTUREN und Denkfiguren:**
+  Die Gliederung einer Empfehlung kann aus einer verworfenen Quelle
+  stammen, während jede Zahl sauber belegt ist; nachträglich gesuchte
+  eigene Anker machen die Struktur nicht zur eigenen. Herkunft der
+  Struktur ausweisen; Übereinstimmung ist ein Indiz, kein Beleg (L-32).
 - **⭐ Der gefährlichste Satz in einem außenwirksamen Dokument ist die
   ENTWARNUNG** — jede Entwarnung trägt ihre Quelle im Satz, sonst ist sie
   eine unverifizierte Verbindlichkeit. Keine beiläufige Zusage im PRÄSENS,
@@ -737,42 +692,31 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   SCHUTZ-Config ist erst nach AUSSEN-Messung „aktiv" (Beleg ist die
   Wirkung von außen, nie die Config-Existenz). **Und ein Prüfwerkzeug
   kann Entwarnung über eine Datei geben, die es nie gelesen hat** — wenn
-  seine Wächter den frisch ERZEUGTEN Text prüfen statt der GESCHRIEBENEN
-  Datei; bei jedem Wächter fragen, WELCHEN Text er liest, nicht nur, was
-  er prüft (Ausgabe und Prüfgegenstand sehen im Log gleich aus; Fix nur
-  mit Rückbau-Gegenprobe glauben). (Herkunft: heyPensio R34.)
-  **Vollständig lautet die Frage: welchen Text liest er, welchen NICHT
-  — und welchen Text schreibt der ABLAUF, den er absichern soll?**
-  Positivkontrollen, die über einen ANDEREN Kanal laufen
-  (Quelle statt Zieldokument), decken die Blindstelle zu — **und ein
-  Selbsttest, der denselben Extraktionspfad nutzt, ERBT dessen
-  Blindstellen statt sie zu finden** (L-21; MKT R8 P-02, überlebte
-  einen bestandenen Selbsttest). **⭐ Teuerste Form: Der Wächter misst
-  einen EXISTIERENDEN, PLAUSIBLEN, für den Betriebsweg aber FALSCHEN
-  Stand** — ein Commit-Hook las den git-INDEX, während die
-  vorgeschriebene Commit-Form den ARBEITSBAUM-Stand schreibt; der Schutz
-  wäre bei jedem regelkonformen Commit umgangen worden. **Vor der
-  Abnahme eines Wächters den abzusichernden Ablauf Schritt für Schritt
-  gegen seinen Messpunkt halten; gibt es zwei mögliche Stände, den
-  schärferen nehmen.** (Herkunft: heyPensio R42, von der
-  Debrief-Gegenprobe gefunden — das Review übernahm nur drei der vier
-  Posten, die der Bau-Bericht selbst benannt hatte: **eine fremde
-  Grenzenliste wird VOLLZÄHLIG abgearbeitet, n von n, nie in Auswahl
-  akzeptiert** — sie ist beim Verdichten so vorbehalts-anfällig wie eine
-  Messung.)
+  es den frisch ERZEUGTEN Text prüft statt der GESCHRIEBENEN Datei; bei
+  jedem Wächter fragen, WELCHEN Text er liest, welchen NICHT — und
+  welchen Text der ABLAUF schreibt, den er absichern soll (Fix nur mit
+  Rückbau-Gegenprobe glauben; V17-8). Positivkontrollen über einen
+  ANDEREN Kanal (Quelle statt Zieldokument) decken die Blindstelle zu —
+  **ein Selbsttest, der denselben Extraktionspfad nutzt, ERBT dessen
+  Blindstellen** (L-21). **⭐ Teuerste Form: Der Wächter misst einen
+  EXISTIERENDEN, PLAUSIBLEN, für den Betriebsweg aber FALSCHEN Stand**
+  (Commit-Hook las den git-INDEX, die vorgeschriebene Commit-Form
+  schreibt den ARBEITSBAUM-Stand). **Vor der Abnahme eines Wächters den
+  abzusichernden Ablauf Schritt für Schritt gegen seinen Messpunkt
+  halten; gibt es zwei mögliche Stände, den schärferen nehmen** — und
+  **eine fremde Grenzenliste wird VOLLZÄHLIG abgearbeitet, n von n, nie
+  in Auswahl** (sie ist beim Verdichten so vorbehalts-anfällig wie eine
+  Messung; V17-9).
   **⭐ Ein Prüfling, der zugleich im BELEG-POOL liegt, bestätigt sich
-  selbst** — eine Reichweiten-Erweiterung durch bloßes Anhängen an beide
-  Listen macht den neuen Kanal **grün und blind**; der Vergleich braucht
-  den Selbstausschluss je Zieldatei (R15: die Ursache einer
-  Scheinentwarnung, die zwei Dokumente prüfte und über vier schwieg).
-  **⭐ Eine Wächter-Entwarnung über die EIGENE Arbeit setzt die Lektüre
-  seiner Prüfmengen-Konstanten (ZIEL/POOL) voraus; das Lauf-Delta wird
-  je Datei zugeordnet, nie pauschal der eigenen Arbeit zugeschrieben**
-  (fremde Parallel-Arbeit kann es vollständig erklären — beide Sessions
-  einer Runde saßen derselben Halbfrage auf, eine schrieb fremde Arbeit
-  als Beleg der eigenen). **Im Parallelbetrieb misst ein
+  selbst** — Reichweiten-Erweiterung durch Anhängen an beide Listen macht
+  den Kanal **grün und blind**; der Vergleich braucht den Selbstausschluss
+  je Zieldatei (R15: Scheinentwarnung, die zwei Dokumente prüfte und über vier schwieg). **⭐ Eine Wächter-Entwarnung über
+  die EIGENE Arbeit setzt die Lektüre seiner Prüfmengen-Konstanten
+  (ZIEL/POOL) voraus; das Lauf-Delta wird je Datei zugeordnet, nie
+  pauschal der eigenen Arbeit zugeschrieben** (fremde Parallel-Arbeit
+  kann es vollständig erklären). **Im Parallelbetrieb misst ein
   Arbeitsbaum-Lauf einen WANDERNDEN Stand — der Doppel-Messstand-Vertrag
-  gilt auch für Werkzeugläufe.** (L-40.)
+  gilt auch für Werkzeugläufe** (L-40).
 - **Ein Test, der nichts verändert, prüft nichts** — Testaufbauten brauchen
   ihre eigene Positivkontrolle. **⭐ Auch die RÜCKBAU-Gegenprobe braucht
   sie, und zwar als ZÄHLUNG: „gesetzt: n von m".** Ein Durchlauf setzte
@@ -872,26 +816,17 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Alt-Verwurfs.
 - **⭐ Bei einer Schwachstelle über KANÄLE lautet die Frage nicht „ist der
   Kanal dicht?", sondern „sind es ALLE Kanäle derselben Klasse?"** Ein
-  Sicherheitspapier beschrieb eine Informations-Preisgabe über zwei Wege und
-  schlug vor, den Fix an EINEM zu prüfen; die Nachmessung fand drei weitere
-  (darunter einen Endpunkt in einem ganz anderen Namensraum, den eine Sperre
-  des Hauptwegs gar nicht erfasst). **Nach einem „erfolgreichen" Fix hätte
-  die eigene Erfolgsprüfung grün gemeldet, während die Lücke offen blieb** —
-  ein Papier kann genau die Lücke lassen, die seine Prüfung unsichtbar macht.
-  Die Erfolgsprüfung fragt jeden Kanal EINZELN ab.
-  **Schwesterregel (Werkzeug-Seite): Klärt ein Messwerkzeug eine Prämisse,
-  sofort fragen, welche NACHBAR-Prämisse es mitklärt** — dieselbe Probe, die
-  „läuft Komponente X?" beantwortete, fand mit einem Aufruf eine komplette
-  zweite, in keiner Bestandsliste geführte Komponente. (Herkunft: heyPensio R35.)
-  **⭐ UND DAS GEGENMITTEL IST SELBST OFT EINE LISTE — dort bricht die
-  Regel ein zweites Mal:** Dasselbe Papier schrieb korrekt „jede
-  Aufzählung ist eine Mindestliste" und stellte als Abhilfe einen
-  Namensfilter hin — die wichtigste Leck-Klasse war ein Parameter, keine
-  Route, für einen Namensfilter strukturell unauffindbar (gemessen: 20
-  von 24 Kanälen offen, bekannt waren 5). **Wer gegen „Liste statt
-  Zustand" baut, prüfe zuerst, ob sein Gegenmittel eine Liste ist** —
-  und messe die Sammel-Schnittstellen einzeln. (Herkunft: heyPensio R36,
-  zwei Sessions unabhängig.)
+  Papier kann genau die Lücke lassen, die seine eigene Erfolgsprüfung
+  unsichtbar macht (Fix an EINEM von zwei beschriebenen Wegen geprüft, die Nachmessung fand drei weitere, darunter einen
+  Endpunkt in einem anderen Namensraum) — **die Erfolgsprüfung fragt jeden
+  Kanal EINZELN ab.** **Schwesterregel (Werkzeug-Seite): Klärt ein
+  Messwerkzeug eine Prämisse, sofort fragen, welche NACHBAR-Prämisse es
+  mitklärt** (V17-12). **⭐ UND DAS GEGENMITTEL IST SELBST OFT EINE LISTE
+  — dort bricht die Regel ein zweites Mal:** die wichtigste Leck-Klasse
+  war ein Parameter, keine Route, für einen Namensfilter strukturell
+  unauffindbar. **Wer gegen „Liste statt Zustand" baut, prüfe zuerst, ob
+  sein Gegenmittel eine Liste ist** — und messe die Sammel-Schnittstellen
+  einzeln (V17-13).
 - **⭐ Was nur als BILD vorliegt (Fotos, Vor-Ort-Eindruck, Screenshare),
   wandert nicht von selbst in Text — und was nicht im Text steht, kann
   erfunden werden und von KEINEM Prüfer widerlegt werden.** Ein Anleitungstext
@@ -1026,38 +961,29 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   eine Session den Träger nicht anfassen (Wahrheits-Kanal), ist
   **„welchen benannten Posten erfüllt mein Ergebnis?" Pflichtfeld ihrer
   Abschlussmeldung.** Auslöser ist die Rotation des Kurz-Einstiegs, nicht
-  der Kalender. (Herkunft: heyPensio R43 + MKT R15 — in R15 baute die
-  Briefing-Erhebung aus einer zehn Tage überholten STATUS-Zeile einen
-  ganzen Strang auf erledigte Arbeit.)
+  der Kalender (V17-10).
   **⭐ Und die GEGENRICHTUNG, die dabei regelmäßig ausfällt: Wer eine
   QUELLE schärft, zieht im selben Zug die daraus ABGELEITETEN Dokumente
-  nach.** Der Suchraum ist dann nicht „wo steht der alte Wert?", sondern
-  „wer hat aus dieser Datei abgeleitet?" (grep auf den Dateinamen übers
-  Repo), und geprüft wird die ANKUNFTSSTELLE, nicht der Changelog. Die
-  Klasse ist zäh, weil beide Dokumente für sich korrekt aussehen — zwei
-  Belege an einem Tag (L-25). **Spiegelrichtung (MKT R12, P-04): Wer
-  beim Arbeiten in einer ABLEITUNG eine Quellen-Angabe präzisiert,
-  zieht die QUELLE im selben Zug nach — sonst kehrt die Vorrangklausel
-  („bei Widerspruch gewinnt die Quelle") die Präzisierung wieder um.**
+  nach.** Der Suchraum ist dann nicht „wo steht der alte Wert?", sondern „wer hat aus dieser Datei abgeleitet?" (grep auf
+  den Dateinamen übers Repo), geprüft wird die ANKUNFTSSTELLE, nicht der
+  Changelog — die Klasse ist zäh, weil beide Dokumente für sich korrekt
+  aussehen (L-25). **Spiegelrichtung: Wer in einer ABLEITUNG eine
+  Quellen-Angabe präzisiert, zieht die QUELLE im selben Zug nach — sonst
+  kehrt die Vorrangklausel („bei Widerspruch gewinnt die Quelle") die Präzisierung wieder um** (MKT R12, P-04).
   Nachtrags-Ketten auch rückwärts pflegen. Nach jeder
   Richtungsentscheidung die betroffenen Alt-Dokumente durchgehen —
   ausdrücklich auch gemeinsam genutzte KALKULATIONSZEILEN in fremden
-  Rechnungen, nicht nur thematisch betroffene Dateien. **Und seit es
-  mehrere Firmen-Repos gibt: auch die abhängigen Dokumente in
-  NACHBAR-REPOS** — Arbeitsmodell- und Struktur-Entscheide kippen
-  Onboarding-, Konzept- und Schulungsdokumente repo-übergreifend; der
-  Suchraum des Nachziehens ist die FIRMA, nicht das eigene Repo
-  (Beleg: Oguz-Onboarding-Plan im heypensio-Repo kannte Zentrale,
-  Briefing und Organigramm nicht — vom User gefangen, 09.08.2026).
-  Diese Prüfung ist AUSLÖSER-gebunden (beim Entscheid selbst), nicht
-  ritual-gebunden — sie darf nicht auf den nächsten Debrief warten. Nach dem
-  Einarbeiten nach den GEKIPPTEN WERTEN greppen (übers ganze Repo, auch
-  über Dokumente, die es beim Melden noch nicht gab), nicht nach dem
-  Thema. Vor jedem „das wurde bisher nirgends gesagt" ein grep auf die
-  EIGENE Datei. Eine ÜBERHOLT-Markierung ist ein Blankoscheck zum
-  Weglassen — positiv auflisten, was NICHT überholt ist, und die
-  Neufassung dagegen prüfen. Freigaben/„darf-bleiben"-Einstufungen tragen
-  einen Geltungsvermerk (Empfängerkreis + Stand).
+  Rechnungen, nicht nur thematisch betroffene Dateien — **und die abhängigen Dokumente in NACHBAR-REPOS: der
+  Suchraum des Nachziehens ist die FIRMA, nicht das eigene Repo**
+  (V17-11). Diese Prüfung ist AUSLÖSER-gebunden (beim Entscheid selbst),
+  nicht ritual-gebunden — sie darf nicht auf den nächsten Debrief warten. Nach dem Einarbeiten nach den GEKIPPTEN WERTEN
+  greppen (übers ganze Repo, auch über Dokumente, die es beim Melden
+  noch nicht gab), nicht nach dem Thema. Vor jedem „das wurde bisher
+  nirgends gesagt" ein grep auf die EIGENE Datei. Eine
+  ÜBERHOLT-Markierung ist ein Blankoscheck zum Weglassen — positiv
+  auflisten, was NICHT überholt ist, und die Neufassung dagegen prüfen.
+  Freigaben/„darf-bleiben"-Einstufungen tragen einen Geltungsvermerk
+  (Empfängerkreis + Stand).
 - **⭐ Eine Regel- oder Text-DUBLETTE über Dateigrenzen ist nur in
   genau zwei Formen zulässig** (Architektur-Prüflauf 11.08.2026,
   eingezogen 12.08.): (a) mit WÄCHTER (automatischer Kopien-Abgleich,
@@ -1088,18 +1014,15 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   einem unabhängig BEKANNTEN Kollisions-Sollwert.
 - **⭐ Ein Edit-Anker, der eine Überschrift oder den ANFANG der
   Folgezeile konsumiert, löscht bzw. zerlegt sie still** (MKT R13, zwei
-  Sessions unabhängig: gelöschte Kopfkasten-Überschrift als einzige
-  Löschung unter 198 Einfügungen, Nachtrag daneben behauptete das
-  Gegenteil; zerteilter Tabellen-Vorbehaltssatz, beim Rendern spurlos).
-  Beim Einfügen VOR Bestandstext den Anker so schneiden, dass
-  Überschrift/Folgezeile im Ersetzungstext vollständig wiederkehren,
-  die Nahtstelle danach neu lesen. **Prüf- und Nachweismittel ist die
-  LÖSCHUNGSZÄHLUNG** (`git diff --numstat`, jede gelöschte Zeile
-  einzeln) — „0 Löschungen im Abschnitt" ist zugleich der mechanische
-  Beleg, dass überstimmte Passagen ungeglättet stehen blieben. **Sie
-  braucht ZWEI Nenner: gegen den RUNDENSTART (0 beweist „kein
-  Bestandstext angetastet") und gegen den eigenen BAU-COMMIT (zeigt die
-  eigenen Reparaturen)** — ein einzelner Nenner verschweigt entweder
+  Sessions unabhängig — Fälle unter L-38). Beim Einfügen VOR Bestandstext
+  den Anker so schneiden, dass Überschrift/Folgezeile im Ersetzungstext
+  vollständig wiederkehren, die Nahtstelle danach neu lesen. **Prüf- und
+  Nachweismittel ist die LÖSCHUNGSZÄHLUNG** (`git diff --numstat`, jede
+  gelöschte Zeile einzeln) — „0 Löschungen im Abschnitt" ist zugleich
+  der mechanische Beleg, dass überstimmte Passagen ungeglättet stehen
+  blieben. **Sie braucht ZWEI Nenner: gegen den RUNDENSTART (0 beweist
+  „kein Bestandstext angetastet") und gegen den eigenen BAU-COMMIT (zeigt
+  die eigenen Reparaturen)** — ein einzelner Nenner verschweigt entweder
   Arbeit oder suggeriert Löschungen an fremdem Text. (L-38, R15.)
 - **⭐ Eine KONDITIONALE Warnung altert lautlos.** „Wird der Termin
   verlegt, ist dieses Datum eine alte Zusage" ist korrekt formuliert und

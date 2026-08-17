@@ -686,7 +686,7 @@ Nicht der Kanal, sondern die **Gestaltung** ist die klassische Abmahnfalle — u
 > > Das Kurzzeichen ist **dreifach** vergeben —
 > > `protokolle/R15-A-pruefer.md` H-2 (Kontext von Rn. 267 entwertet
 > > die 243,51 € als Anker) · `protokolle/R16-A-pruefer.md` H-2
-> > (**dieser** Befund, dort Z. 385: „Zwei neue Aussagen zitieren
+> > (**dieser** Befund — dort im Abschnitt der MITTEL-Befunde, @`8fe60d8`: „Zwei neue Aussagen zitieren
 > > außerhalb des selbst deklarierten Prüfraums") ·
 > > `protokolle/R17-A-pruefer.md` H-2 (L-49 am eigenen Reparaturtext);
 > > dazu ein gleichnamiges **H-2 im anderen Namensraum** des
@@ -708,7 +708,10 @@ Nicht der Kanal, sondern die **Gestaltung** ist die klassische Abmahnfalle — u
 >    spätestens innerhalb eines Monats", also Art. 14 Abs. 3 **lit. a**)
 >    und ausdrücklich nur gegenüber einem Verbraucher, „in Bezug auf
 >    den sie personenbezogene Daten **bei einem Dritten** zu dem Zweck
->    erhoben hat".
+>    erhoben hat, diese personenbezogenen Daten … **zur Anbahnung einer
+>    Geschäftsbeziehung** mit dem Verbraucher zu verwenden" (Hervorhebungen
+>    von uns) — der Zweck gehört mit ins Zitat, er schränkt den Tenor
+>    zusätzlich ein.
 >
 >    > 🔧 **ZITATFORM REPARIERT 17.08.2026 (R18-A) — R17-B-Aufnahmebefund
 >    > Nr. 2 (Zeile 696 im Stand `86afceb`), Rohbeleg-Stelle am Stück
@@ -718,11 +721,14 @@ Nicht der Kanal, sondern die **Gestaltung** ist die klassische Abmahnfalle — u
 >    > „Dritten" und „erhoben" stehen im Tenor **drei Wörter** — „zu dem
 >    > Zweck" —, eine Ellipse fehlte; (b) das Aktiv des Tenors („erhoben
 >    > **hat**", Subjekt ist die Beklagte) war still ins Passiv gewendet
->    > („erhoben **wurden**", Subjekt sind die Daten) und die Beschränkung
+>    > („erhoben **wurden**", Subjekt sind die Daten) und das Bezugsobjekt
 >    > damit von der **Person** auf die **Daten** verschoben.
->    > **Die Aussage des Satzes ändert sich nicht** — die Beschränkung
->    > des Tenors auf Dritterhebung bleibt, sie ist nur wieder die des
->    > Originals. Quelle: `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt`,
+>    > **Was gleich bleibt und was nicht** *(präzisiert nach Prüferbefund
+>    > `R18A-H-2` — die Erstfassung sagte beides zugleich, „verschoben"
+>    > und „ändert sich nicht", und das ist keine saubere Disposition)*:
+>    > Die **Beschränkung auf Dritterhebung bleibt** — insoweit trägt der
+>    > Bestandssatz unverändert; **das Bezugsobjekt war verschoben** und
+>    > ist jetzt wieder das des Originals. Quelle: `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt`,
 >    > **Tenor Nr. 4** (außerhalb der Randnummern-Zählung, am Textabzug
 >    > gelesen). ⚠️ **Dieselbe Verkürzung hatte R17-A im
 >    > `handel/anwalts-briefing-2026-08.md` § 4 bereits repariert und
@@ -1071,6 +1077,12 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > Negativbefund.** Wer die Gegenauffassung in ihrer tragenden Form
 > sucht, muss dort hin — **ob sie dort begründet steht, ist allerdings
 > selbst unbelegt (s. Reparaturkasten).**
+> *(🔧 Wortlaut-Nachtrag 17.08.2026 nach Prüferbefund `R18A-H-4`: Die
+> Vorfassung schrieb „wer die Gegenauffassung in ihrer tragenden Form
+> **braucht**" — die Änderung zu „sucht" war eine stille Glättung im
+> selben Zug wie die Reparatur darüber und wird hier nachgetragen, weil
+> auch kleine Umformulierungen an überstimmten Stellen sichtbar bleiben
+> müssen.)*
 >
 > > 🔧 **REPARIERT 17.08.2026 (R18-A) — hier stand:** „Der Senat
 > > verweist für die **begründete** Fassung seiner Auffassung auf
@@ -1081,10 +1093,13 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > > zur Irreführung geeignet ist. Von dieser Rechtsauffassung haben die
 > > Parteien aufgrund der unter den Az.: I-20 U 107/23 sowie
 > > I-20 U 117/23 geführten Verfahren **Kenntnis**; daran wird auch nach
-> > nochmaliger Überprüfung festgehalten." Der Satz sagt, **woher die
-> > Parteien die Auffassung kennen** — nicht, dass sie dort **begründet**
-> > worden wäre. Herkunft der Drift: Das Beschaffungsprotokoll R17-A
-> > formulierte korrekt „dort **dürfte** sie begründet stehen"
+> > nochmaliger Überprüfung festgehalten." *(Hervorhebung von uns.)* Der
+> > Satz sagt, **woher die Parteien die Auffassung kennen** — nicht, dass
+> > sie dort begründet worden wäre. Herkunft der Drift: Das
+> > Beschaffungsprotokoll R17-A formulierte korrekt „dort dürfte sie
+> > **begründet** stehen" *(Hervorhebung im Original — nach Prüferbefund
+> > `R18A-H-3` richtiggestellt: Diese Wiedergabe hatte sie still auf
+> > „dürfte" verschoben; eine Hervorhebung ist Teil des Zitats)*
 > > (`sensibel/rohbelege-R17-A/00-quellenliste.md`, Abschnitt „Nicht
 > > beschafft"); beim Übernehmen in dieses Dokument wurde aus der
 > > Vermutung eine Bestandsaussage über den Senat — dieselbe
@@ -1093,7 +1108,16 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > > Rn. 22, Absatz am Stück gelesen.
 >
 > > 📌 **NACHTRAG 17.08.2026 (R18-A) — zweiter Beschaffungsversuch
-> > gelaufen, vier Kanäle, alle negativ MIT Kanalbefund.** Damit ist der
+> > gelaufen: DREI Kanäle in vier Läufen, alle negativ MIT Kanalbefund;
+> > ein vierter Kanal wurde verworfen.** *(🔧 Nenner korrigiert nach
+> > Prüferbefund `R18A-M-9`: Hier stand „vier Kanäle, alle mit
+> > Positivkontrolle". Die Läufe (2) und (3) sind **derselbe Kanal**
+> > (Web-Suche, nur anderer Suchbegriff), und Lauf (3) hat keine eigene
+> > Positivkontrolle — er teilt die von (2). Ein zweimal gezählter Kanal
+> > macht den Nenner größer, als die Messung hergibt. Verworfen wurde
+> > **openJur**: Der Abruf lief auf eine **geratene** URL (404), und eine
+> > Pfadvermutung ist kein Negativbefund — im Protokoll korrekt geführt,
+> > hier bisher gar nicht erwähnt.)* Damit ist der
 > > Posten oben nicht erledigt, aber sein Suchweg ist dokumentiert und
 > > reproduzierbar (Einzelheiten und Hashes:
 > > `protokolle/R18-A-abschluss.md`, Belege in `sensibel/rohbelege-R18-A/`):
@@ -1790,22 +1814,45 @@ Weil wir die Daten **nicht bei der betroffenen Person** erheben, gilt Art. 14 �
 > („spätestens zum Zeitpunkt der ersten Mitteilung"), und lit. a
 > verlängert diese Grenze nicht, sondern setzt eine zweite daneben.
 >
-> **Zeiger, kein zweiter Eintrag** — Herleitung, Urteilszitat (**Rn. 220**)
-> und Belegstufe stehen an genau einer Stelle:
+> **Zeiger, kein zweiter Eintrag:** Herleitung, **Urteilswortlaut
+> (Rn. 220)** und Belegstufe stehen an genau einer Stelle —
 > `akquise/interessenabwaegung-o8.md` **§ 7.1** („Keine Karenzfrist",
-> dort seit 12.08.2026, Befund Q-16). Dort steht auch der Vorbehalt,
-> der beim Verkürzen als Erstes fällt: Rn. 220 spricht von einer
-> „— **insoweit** von der DSGVO nicht vorgesehene[n] — Karenzfrist" und
-> ist eine Erwägung zur **Auslegung des Klägervortrags**, keine
-> tragende Feststellung. *(Doku-Hygiene: Eine Dublette über
-> Dateigrenzen ist nur mit Wächter oder Vorrangklausel zulässig — die
-> Vorrangklausel weiter unten in C4 deckt ausdrücklich nur die
-> achtteilige Mindestumfangs-Aufzählung, nicht diesen Fristen-Absatz.
-> Deshalb hier die Zeiger-Form.)*
+> dort seit 12.08.2026, Befund Q-16). Dort steht auch der Vorbehalt, der
+> beim Verkürzen als Erstes fällt: Das Urteil nennt die fehlende
+> Karenzfrist mit einem einschränkenden „insoweit", und die Passage ist
+> eine Erwägung zur **Auslegung des Klägervortrags**, keine tragende
+> Feststellung. *(⚠️ Die Einordnung „keine tragende Feststellung" ist ein
+> **Zusatz dieser Session** — o8 § 7.1 formuliert vorsichtiger
+> („Bestätigend nennt das Gericht an anderer Stelle …"). Am Original
+> geprüft und tragfähig: Rn. 216–220 stehen unter „bb) … steht ferner
+> nicht entgegen, dass der Kläger in seinen Klageantrag statt des Wortes
+> ‚nicht' die Wendung … aufgenommen hat", und Rn. 218 nennt den Maßstab
+> ausdrücklich „Auslegung von **Prozesshandlungen**". Kenntlich gemacht
+> nach Prüferbefund `R18A-R-0`, weil ein Zeiger nicht schärfer sein darf
+> als sein Ziel.)* **Wer den Wortlaut braucht, liest ihn dort** — er wird
+> hier bewusst **nicht** wiedergegeben.
+> *(🔧 Nachgeschärft 17.08.2026 nach Prüferbefund `R18A-M-5`: Die
+> Erstfassung dieses Kastens beanspruchte „genau eine Stelle" und
+> zitierte Rn. 220 zwei Zeilen später selbst — mit einer
+> Flexionsklammer, die die beiden Fassungen zusätzlich auseinanderlaufen
+> ließ. Ein Zeiger, der zitiert, ist kein Zeiger, sondern eine Dublette
+> ohne Wächter.)*
+> *(Doku-Hygiene: Eine Dublette über Dateigrenzen ist nur mit Wächter
+> oder Vorrangklausel zulässig — die Vorrangklausel weiter unten in C4
+> deckt ausdrücklich nur die achtteilige Mindestumfangs-Aufzählung, nicht
+> diesen Fristen-Absatz. Deshalb hier die Zeiger-Form.)*
 >
 > **Der Punkt stärkt den Bestand, er ändert keine Aussage:** Die
-> Rechtsmatrix führt die Fristen bereits richtig (Rn. 85/87) — Rn. 220
+> Rechtsmatrix führt die Fristen bereits richtig (**Rn. 85**) — Rn. 220
 > nimmt ihnen nur den letzten vermeintlichen Ausweg.
+> *(🔧 Korrigiert 17.08.2026 nach Prüferbefund `R18A-M-6`: Hier stand
+> „(Rn. 85/87)". **Rn. 87 trägt keine Fristenaussage** — sie behandelt
+> Art. 12 Abs. 1 und die Fälligkeit der Vorkehrungen, beginnt mit
+> „Unabhängig davon … allenfalls … erwägenswert" und ist im
+> Anwalts-Briefing Gegenstand einer **offenen** Frage („oder überdehnen
+> wir sie?"). Eine Entwarnung auf eine Randnummer zu stützen, die das
+> eigene Briefing als möglicherweise überdehnt führt, ist genau die
+> Belegstufen-Drift, gegen die dieser Abschnitt sonst schützt.)*
 
 **Es gibt keinen Ausweg über Art. 14 Abs. 5:** lit. a scheidet aus (der Hotelier weiß nichts von der Liste), lit. b („unmöglich oder unverhältnismäßiger Aufwand") gerade nicht — weil ohnehin ein Anschreiben erfolgt und die Information ihm beigefügt werden kann; lit. c und d liegen nicht vor.
 

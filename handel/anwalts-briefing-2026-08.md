@@ -583,7 +583,11 @@ Interesses gerade an der lauterkeitsrechtlichen Zulässigkeit misst.
 >    Irreführungs-Achse, nicht den ersten Absagegrund des Landgerichts
 >    (Rn. 84/85, Art.-14-/Art.-21-Pflichten).**
 >
-> **Was wir NICHT haben:** eine begründete Fassung dieser Auffassung.
+> **Was wir NICHT haben:** eine begründete Fassung dieser Auffassung
+> *(Vorfassung: „**die** begründete Fassung" — der bestimmte Artikel
+> setzte voraus, dass es sie gibt und wo sie steht; nachgetragen
+> 17.08.2026 nach Prüferbefund `R18A-H-4`, weil auch diese Glättung im
+> Reparatur-Zug still erfolgt war)*.
 > Der Senat nennt **I-20 U 107/23** und **I-20 U 117/23** als die
 > Verfahren, aus denen die **Parteien** seine Auffassung kennen — dass
 > sie dort begründet worden wäre, sagt er nicht. Beide Entscheidungen
@@ -1349,6 +1353,7 @@ Reichweite der Sperre sowie eine Beleg-Referenz.
 > an Sie ändert das nichts** — beide Felder tragen keinen Personenbezug;
 > die Angabe steht hier, weil ein Briefing seinen eigenen Bestand
 > zutreffend beschreiben muss.
+
 Unser Bestand vermerkt dazu: „Ob der Eintrag
 eines fremden Impressumsvermerks in einen eigenen Sperrbestand
 seinerseits eine zulässige Verarbeitung ist, ist **nicht erhoben**."
@@ -1387,9 +1392,9 @@ Kanal, den unsere Planung auf Rang 1 setzt.
 > **E-A1**. *(Ergänzt 17.08.2026, R18-A.)*
 
 Unsere Firmierung steht noch nicht fest: Der Rebrand ist entschieden,
-der neue Name entsteht gerade (interner Posten F-7). Zugleich sperrt
-nach unserer Lesart des LG-Urteils (Rn. 87, Frage 2 Teilfrage 6) bereits
-der **erste Datensatz** die Vorbereitung — und die Art.-14-Information
+der neue Name entsteht gerade (interner Posten F-7). Zugleich müssen
+nach unserer Lesart des LG-Urteils (Rn. 87, Frage 2 Teilfrage 6) sämtliche
+Vorkehrungen bereits **vor dem ersten Datensatz** stehen — und die Art.-14-Information
 verlangt die Angabe des **Verantwortlichen** mit ladungsfähiger
 Anschrift. Für den Fall, dass wir vor dem Namensentscheid beginnen,
 stellt sich deshalb die Frage: **Kann eine Firma in Gründung diese
@@ -1400,13 +1405,35 @@ Adressaten aus, die bereits unter dem alten Namen informiert wurden?**
 **Der Stand bei uns ist ausdrücklich offen, nicht entschieden.** Unser
 Abwägungsdokument hält fest, dass ohne feststehende Firmierung die
 Art.-14-Pflichtangaben nicht erfüllbar sind; ob ein Arbeitstitel diese
-Lücke schließt, **ist bei uns weder geprüft noch beantwortet** — die
-Frage ist in unserem gesamten Bestand an keiner Stelle gestellt
-(Suchweg 17.08.2026: `grep -rn "Arbeitstitel"` über `handel/` und
-`akquise/` — **null Treffer in `handel/`**, alle 11 Fundstellen liegen
-im Akquiseplan; Positivkontrollen im selben Lauf: „Verantwortlich" = 17
-und „Rebrand" = 3 Treffer in diesem Briefing). Wir tragen sie deshalb
-als **streitig/ungeklärt** ein und nehmen keine Antwort vorweg.
+Lücke schließt, **ist bei uns nirgends geprüft und nirgends
+beantwortet**. **Gestellt** ist die Frage sehr wohl: im Akquiseplan
+§ 3.2 (Pfad b) im Volltext, und der Wahrheits-Kanal führt sie als
+offenen Posten — „gestellt, unbeantwortet, kein Träger im Briefing".
+Genau diesen Träger schafft dieser Kandidat. Wir tragen die Frage als
+**streitig/ungeklärt** ein und nehmen keine Antwort vorweg.
+
+> 🔧 **Verneinung korrigiert 17.08.2026 (R18-A) nach Prüferbefund
+> `R18A-M-3` — hier stand:** „die Frage ist in unserem **gesamten
+> Bestand an keiner Stelle gestellt** (Suchweg: `grep -rn "Arbeitstitel"`
+> über `handel/` und `akquise/`)."
+> **Die Behauptung war weiter als ihr Suchraum, und sie war falsch.**
+> Zwei Fehler im selben Suchweg: **(1) Der Raum war zu eng** — er
+> schloss `projektquelle-mkt.md` aus, also ausgerechnet das Dokument,
+> das die Frage als Posten führt. **(2) Der Lauf war case-sensitiv** —
+> der Wahrheits-Kanal schreibt „**ARBEITSTITEL**" in Großbuchstaben, ein
+> Grep auf „Arbeitstitel" kann ihn nicht finden. Beides zusammen ergab
+> ein Negativ, das nicht passen konnte.
+> **Neuer Suchweg (repo-weit, Groß-/Klein-Doppellauf), Stand 17.08.2026:**
+> `grep -rci "arbeitstitel" --include="*.md"` → 12 Dateien, darunter
+> `akquise/akquiseplan.md` (11), `projektquelle-mkt.md` (1, GROSS) und
+> `lehren-register.md` (1); Positivkontrollen im selben Lauf:
+> „Verantwortlich" = 17 und „Rebrand" = 3 in dieser Datei.
+> ⚠️ **Eine Fremdmeldung hatte den weiteren Suchraum bereits benannt:**
+> `protokolle/R17-C-abschluss.md` hält fest, die Arbeitstitel-Verneinung
+> halte „**mit repo-weitem Grep statt nur** `akquise/`+`handel/`" — R18-A
+> ist hinter diesen Stand zurückgefallen, ohne die Meldung zu lesen
+> (L-50). Was **bleibt**: Die Frage ist nirgends **beantwortet** — nur
+> die Aussage über das „Stellen" war falsch.
 
 > **Warum hier und nicht bei Frage 2:** Die Frage berührt zwar das
 > Art.-14-Umfeld der Frage 2 (dort Teilfragen 5, 5a und 6), hängt aber

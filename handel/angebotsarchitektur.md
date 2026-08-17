@@ -2006,58 +2006,133 @@ vor der Vergabe gelaufen: `PV-1` repo-weit **0** Treffer, Positivkontrolle
 **Rn. 187** fest, die Voraussetzungen des § 3 Abs. 2 UWG seien „**im
 Allgemeinen erfüllt, wenn ein Unternehmer gegenüber Verbrauchern nach
 § 307 Abs. 1 BGB unwirksame Allgemeine Geschäftsbedingungen verwendet**" —
-weil solche Klauseln „trotz ihrer Unwirksamkeit Verbraucher davon abhalten
-können, berechtigte Ansprüche gegen den Verwender geltend zu machen".
-**Rn. 188** dehnt das ausdrücklich auf den zweiten Fall aus: „**Nichts
-anderes kann gelten**, wenn ein Unternehmer gegenüber Verbrauchern
-Allgemeine Geschäftsbedingungen verwendet, er dabei aber eine Gestaltung
-wählt, bei der die notwendigen Voraussetzungen für die **Einbeziehung**
-dieser Geschäftsbedingungen in den Vertrag nicht erfüllt sind."
+weil „solche **Allgemeinen Geschäftsbedingungen** trotz ihrer
+Unwirksamkeit Verbraucher davon abhalten können, berechtigte Ansprüche
+gegen den Verwender geltend zu machen". **Rn. 188** dehnt das ausdrücklich
+auf den zweiten Fall aus: „**Nichts anderes kann gelten**, wenn ein
+Unternehmer gegenüber Verbrauchern Allgemeine Geschäftsbedingungen
+verwendet, er dabei aber eine Gestaltung wählt, bei der die notwendigen
+Voraussetzungen für die **Einbeziehung** dieser Geschäftsbedingungen in
+den Vertrag nicht erfüllt sind."
 
 **Zwei Wege in dieselbe Haftung also:** unwirksame Klausel **oder** wirksame
 Klausel ohne wirksame Einbeziehung. Der zweite ist der unauffälligere.
+
+⭐ **Und die Quelle sagt selbst, wo die Adressatengrenze steht.** Rn. 187
+beginnt mit „Diese - **bereits oben unter II 6 c bb (1)** näher umrissenen -
+Voraussetzungen"; das ist **Rn. 148**, und dort steht der Tatbestand
+vollständig — in diesem Repo seit R16-A geführt
+(`handel/kanal-rechtsmatrix.md`, Randnummern-Tabelle, Zeile 148; gleichlautend
+Rn. 186): § 3 Abs. 2 UWG erfasst geschäftliche Handlungen, „die sich **an
+Verbraucher richten oder diese erreichen**". **Die zweite Hälfte ist die
+entscheidende:** Nicht nur eine an Verbraucher *gerichtete* Aussendung fällt
+darunter, sondern auch eine, die Verbraucher *erreicht*. Die Frage für uns
+lautet deshalb nicht „machen wir B2B oder B2C?", sondern ***kann unsere
+Aussendung Verbraucher erreichen?***
 
 **Was das Urteil an konkreten Gestaltungsfehlern benennt** (klauselweise
 gegen unseren Bestand gelesen, Rn. 178–209):
 
 | Fundstelle | Aussage | Warum sie uns treffen kann |
 |---|---|---|
-| **Rn. 202** | Ein AGB-Hinweis auf dem Auftragsformular („Es gelten die Allgemeinen Geschäftsbedingungen \(abrufbar über …\)") war zur Einbeziehung nach § 305 Abs. 2 BGB **ungeeignet** — weil der Hinweis **selbst** eine nach § 307 Abs. 1 S. 2 BGB unwirksame Klausel ist (unter Berufung auf BGH, Urt. v. 10.07.2025 – III ZR 59/24) | Genau diese Hinweisform ist der Standard in Angebots-PDFs. **Der Verweis auf eine Web-Adresse ersetzt die Einbeziehung nicht** |
-| **Rn. 206–209** | Eine Klausel, die in einem **Übersichtsdokument** an einer Stelle abgedruckt ist, an der der Empfänger sie nicht erwartet (dort: im Abschnitt „Preis" einer Vertragszusammenfassung), verstößt gegen das **Überraschungsverbot** des § 305c Abs. 1 BGB und wird **nicht Vertragsbestandteil** | Unsere Paketübersichten und Preisblätter sind genau solche Übersichtsdokumente. Wer dort eine Pflicht des Kunden platziert, hat sie im Zweifel **nicht** wirksam vereinbart — und trägt zugleich das § 3 Abs. 2-Risiko aus Rn. 188 |
+| **Rn. 202** | Ein AGB-Hinweis auf dem Auftragsformular („Es gelten die Allgemeinen Geschäftsbedingungen \(abrufbar über …\)") war zur Einbeziehung nach § 305 Abs. 2 BGB **ungeeignet** — „**jedenfalls deshalb**", weil der Hinweis **selbst** eine nach § 307 Abs. 1 S. 2 **in Verbindung mit S. 1** BGB unwirksame Klausel ist. ⚠️ **Vorbehalt der Quelle, der nicht wegfallen darf:** Das Gericht stützt diese Unwirksamkeit auf „die **in einem von einer anderen Verbraucherzentrale gegen die Beklagte geführten Verbandsklageverfahren getroffenen Feststellungen**" (BGH, Urt. v. 10.07.2025 – III ZR 59/24) — es ist eine Aussage über **jene** Klausel, keine allgemeine über die Bauform | Diese Hinweisform ist der Standard in Angebots-PDFs. **Ob ein bloßer Verweis auf eine Web-Adresse die Einbeziehung trägt, ist damit mindestens fraglich** — entschieden ist es hier nicht |
+| **Rn. 205** | ⭐ **Die Frage stellt sich schon eine Stufe früher:** „Angesichts dessen ist **bereits fraglich, ob die Aufnahme einer Klausel** in die ‚Vertragszusammenfassung' **überhaupt geeignet ist**, sie gemäß § 305 Abs. 2 BGB zum Bestandteil des Vertrages zu machen." Begründung: Das Dokument diene — „was dem Verbraucher **bereits durch die Überschrift signalisiert** wird" — nicht dazu, Rechte und Pflichten festzulegen | **Die stärkste Stelle für unseren Fall**, und sie greift **an der Überschrift**, unabhängig von § 305c. Ein Dokument, das „Paketübersicht" oder „Preisliste" heißt, ist nach dieser Logik schon der Bauform nach kein Träger für Kundenpflichten |
+| **Rn. 206–209** | Eine Klausel, die in einem **Übersichtsdokument** an einer Stelle abgedruckt ist, an der der Empfänger sie nicht erwartet, verstößt gegen das **Überraschungsverbot** des § 305c Abs. 1 BGB und wird **nicht Vertragsbestandteil**. **Rn. 208 nennt dafür zwei Gründe, und der erste ist der breitere:** „Das gilt **schon deshalb**, weil er aufgrund der … erkennbaren Funktion dieses Dokuments **nicht erwartet, dass darin überhaupt Willenserklärungen** … enthalten sind"; erst der zweite stellt auf die konkrete Platzierung im Abschnitt „Preis" ab (Rn. 209) | Unsere Paketübersichten und Preisblätter sind genau solche Übersichtsdokumente. **Der erste Grund trifft jede Willenserklärung darin**, nicht nur eine ungeschickt platzierte — wer dort eine Pflicht des Kunden unterbringt, hat sie im Zweifel **nicht** wirksam vereinbart und trägt zugleich das § 3 Abs. 2-Risiko aus Rn. 188 |
+| **Rn. 189 / Rn. 191** | ⚠️ **Die naheliegendste Entlastung ist im Urteil ausdrücklich gesperrt.** Die Unlauterkeit tritt ein „**ungeachtet der Frage, ob die Klausel wirksam ist und in … Verträge mit Verbrauchern einbezogen worden ist**" (Rn. 189) bzw. „**und zwar unabhängig davon**, ob die Klausel wirksam ist und ob die … Gestaltung die Voraussetzungen für eine Einbeziehung … erfüllt" (Rn. 191) | **Der Reflex *unsere Klausel war ja ohnehin nie wirksam einbezogen, also kein Problem* trägt nicht** — er ist genau die Konstellation, die Rn. 188 erfasst. Die Unwirksamkeit **entlastet nicht**, sie ist der Anknüpfungspunkt |
+| **Rn. 187, Satz 2** | Das **zweite** Tatbestandsmerkmal neben der Beeinflussungseignung: Ein solches Verhalten „widerspricht regelmäßig den Erfordernissen **fachlicher Sorgfalt im Sinne von Art. 5 Abs. 2 Buchst. a UGPRL**" | Die Prüfliste unten fragt nach Platzierung und Einbeziehung — **die Sorgfalts-Achse ist die dritte** und in unserem Bestand bisher nirgends geführt |
 
-⚠️ **Geltungsgrenze, die mitgehört werden muss:** Alle drei Randnummern
-sprechen von **Verbrauchern**. Für eine reine B2B-Ansprache ist die Frage
-offen — sie hängt an derselben Achse wie Frage 3 des Anwalts-Briefings
-(`handel/anwalts-briefing-2026-08.md` § 3.2) und wird hier **nicht**
-beantwortet. Der Posten unten ist deshalb an die **Verbraucher-Berührung**
-gebunden, nicht an jede Angebotsabgabe.
-
-> **`PV-1` — Prüfposten, KEIN Gate.** *Auslöser:* Bevor das **erste**
-> Angebots-, Preis- oder Vertragsdokument an einen Adressaten geht, der
-> **Verbraucher sein kann** (Einzelunternehmer und Privatvermieter ohne
-> Unternehmereigenschaft sind der reale Fall in unserer Zielgruppe —
-> `akquise/interessenabwaegung-o8.md` § 5.4 führt sie als eigene
-> Fallgruppen), wird geprüft: **(1)** Enthält das Dokument Klauseln, die
-> Pflichten des Kunden begründen? **(2)** Wenn ja — sind sie an einer
-> Stelle platziert, an der der Empfänger sie erwarten kann (Rn. 206–209)?
-> **(3)** Trägt die gewählte Einbeziehungsform mehr als einen Verweis auf
-> eine Web-Adresse (Rn. 202)? *Träger:* **MKT-HANDEL**, gemeinsam mit dem
-> Vertrags-/AVV-Strang, der die Zulieferung an die Zentrale verantwortet.
-> *Anschluss:* Die Klauselprüfung selbst ist **Rechtsberatung** und
-> gehört zu demselben Mandat wie die vier Briefing-Fragen — dieser Posten
-> stellt sicher, dass sie **vor** dem ersten Dokument gestellt wird, nicht
-> danach.
+> ⚠️ **GELTUNGSGRENZE — je Randnummer gemessen, nicht pauschal**
+> *(neu gefasst 17.08.2026 nach Prüferbefund `R18A-S-2`; hier stand:
+> „**Alle drei** Randnummern sprechen von **Verbrauchern**. Für eine reine
+> B2B-Ansprache ist die Frage offen". Das war in zwei Punkten falsch:
+> Der Abschnitt zitiert **vier** Fundstellen, nicht drei — und die
+> Behauptung hält am Objekt nicht.)*
 >
-> ⚠️ **Warum ausdrücklich kein fünftes GA-Gate:** Die GA-Kette hängt am
-> Ereignis „Angebot mit **A3-Architektur** geht hinaus" und ist selbst
-> noch ein **Vorschlag** (s. 6a.7, Reparatur nach Prüferbefund F-7).
-> `PV-1` hat einen **anderen** Auslöser und sperrt nichts — er ist ein
-> Prüfschritt mit Termin-Ersatz. **Eine konditionale Warnung ohne
-> Prüfschritt altert lautlos** (CLAUDE.md); ohne diesen Absatz wäre der
-> Posten ein *sobald irgendwann Verbraucher betroffen sind* gewesen, das
-> niemand je wieder aufschlägt. Eine **Sperre** daraus zu machen wäre
-> dagegen eine Betriebs-Festlegung mit Außenwirkung — die trifft diese
-> Session nicht allein.
+> Zählung am Rohbeleg (`grep -o "Verbraucher"` je Randnummer,
+> `sensibel/rohbelege-R09-A/lg-duesseldorf-38-O-243-23.txt`;
+> Positivkontrolle Rn. 186 „unlauter" = 1, Gegenprobe Rn. 206
+> „Zebrastreifen" = 0):
+>
+> | Rn. | Treffer | Was das heißt |
+> |---|---:|---|
+> | 186 · 187 · 188 | je **2** | verbraucherbezogen — die § 3 Abs. 2-Schiene trägt hier tatsächlich nur gegenüber Verbrauchern |
+> | **202** | **1** | ⚠️ **Teilwort**: „von einer anderen **Verbraucher**zentrale geführten Verbandsklageverfahren" — das ist die klagende Stelle, nicht das Schutzsubjekt |
+> | **206 · 207** | **0** | § 305c Abs. 1 BGB spricht vom „**Vertragspartner des Verwenders**" |
+> | 208 · 209 | je **1** | verbraucherbezogen |
+>
+> **Folge, sauber getrennt:** Die **§ 3 Abs. 2-Schiene** (Rn. 187/188) ist
+> an die Verbraucher-Achse gebunden — und zwar über den Tatbestand des
+> Rn. 148 („richten **oder diese erreichen**"). Das **AGB-Recht**
+> (§§ 305 Abs. 2, 305c Abs. 1, 307 BGB, Rn. 202/206/207) ist im Wortlaut
+> **nicht** verbraucherbeschränkt. **Ob und wie es im rein
+> unternehmerischen Verkehr wirkt, ist eine Rechtsfrage — dieses Dokument
+> beantwortet sie nicht** und nimmt auch nicht die bequemere Antwort
+> vorweg.
+
+> **`PV-1` — Prüfposten.** *Auslöser:* Sobald ein Angebots-, Preis- oder
+> Vertragsdokument entsteht, das Empfänger erreichen kann, die
+> **Verbraucher sind**, wird geprüft: **(1)** Enthält das Dokument
+> Klauseln, die Pflichten des Kunden begründen? **(2)** Wenn ja — ist das
+> Dokument seiner **Funktion nach** überhaupt ein Träger für
+> Willenserklärungen, und sind sie an einer Stelle platziert, an der der
+> Empfänger sie erwarten kann (Rn. 205, 208/209)? **(3)** Trägt die
+> gewählte Einbeziehungsform mehr als einen Verweis auf eine Web-Adresse
+> (Rn. 202)? **(4)** Entspricht die Gestaltung den Erfordernissen
+> **fachlicher Sorgfalt** — das ist nach Rn. 187 Satz 2 ein eigenes
+> Tatbestandsmerkmal und nicht mit (2)/(3) miterledigt?
+> *(Fragen (2) und (4) ergänzt 17.08.2026 nach der Rückwärts-Prüfung
+> `R18A-R-2/R-4/R-5`: Die Erstfassung prüfte nur Platzierung und
+> Einbeziehungsform und übersah damit die beiden Achsen, die im Urteil
+> **vor** der Platzierungsfrage liegen.)*
+> *Träger:* **MKT-HANDEL**, gemeinsam mit dem Vertrags-/AVV-Strang, der
+> die Zulieferung an die Zentrale verantwortet.
+>
+> ⚠️ **Ob unsere Zielgruppe Verbraucher enthält, ist NICHT belegt.**
+> *(Repariert 17.08.2026 nach Prüferbefund `R18A-S-1`; hier stand
+> „Einzelunternehmer und Privatvermieter ohne Unternehmereigenschaft sind
+> der reale Fall in unserer Zielgruppe — `akquise/interessenabwaegung-o8.md`
+> § 5.4 führt sie als eigene Fallgruppen". **Diese Bestandsaussage ist
+> falsch und war ungemessen:** „Einzelunternehmer" und „Privatvermieter"
+> kommen in o8 **0-mal** vor, Positivkontrolle „inhabergeführt" = 3. Die
+> Fallgruppen FG-1…FG-6 schneiden nach **Personenbezug und Datenquelle**,
+> nicht nach Verbrauchereigenschaft — ein inhabergeführtes Hotel ist im
+> geschäftlichen Verkehr Unternehmer. **Gestrichen, nicht abgeschwächt.**)*
+> Die Frage ***erreicht unsere Aussendung Verbraucher?*** ist damit selbst
+> ein offener Posten — sie ist die Vorfrage von `PV-1` und im Bestand
+> nirgends beantwortet.
+>
+> ⚠️ **Zwei Lesarten, die dem User vorzulegen sind** *(ergänzt nach
+> Prüferbefund `R18A-M-1`)*: **(a)** `PV-1` als reiner **Prüfschritt mit
+> Wiedervorlage** — er hält fest, was zu prüfen ist, sperrt aber nichts;
+> **(b)** `PV-1` als echte **Vorbedingung vor dem ersten Angebot** — dann
+> ist er eine Betriebs-Festlegung mit Außenwirkung und gehört in die
+> AA-Entscheidungsliste. **Bis zur Entscheidung gilt (a)**, und der
+> Auslöser ist bewusst ohne „bevor … hinausgeht" formuliert. *(Die
+> Erstfassung sagte „`PV-1` … sperrt nichts" und formulierte den Auslöser
+> zugleich als „Bevor das erste Dokument … geht" — das ist dieselbe
+> Sperre in Nicht-Sperren-Sprache.)*
+>
+> ⚠️ **Der Anschluss ist NICHT hergestellt.** *(Repariert nach
+> Prüferbefund `R18A-S-3`; hier stand: „dieser Posten stellt sicher, dass
+> [die Klauselprüfung] **vor** dem ersten Dokument gestellt wird".)*
+> Gemessen im Anwalts-Briefing am selben Commit-Stand: `PV-1` · `305c` ·
+> „Überraschung" · „Einbeziehung" · `Rn. 187` · `Rn. 202` — **je 0
+> Treffer** (Positivkontrolle „Frage 3" = 4). **Die Klauselfrage ist im
+> Briefing nirgends gestellt**; ein Posten, der sie nur benennt, stellt
+> gar nichts sicher. **Offener Posten: Aufnahme als Kandidat D
+> (*Einbeziehung und Platzierung belastender Klauseln in Angebots- und
+> Übersichtsdokumenten*) in `handel/anwalts-briefing-2026-08.md` § 4a
+> und § 8 — Träger MKT-HANDEL, Entscheid User/Leitsession**, weil das
+> Briefing ENTWURF mit offenen Entscheiden ist und eine Arbeits-Session
+> ihm keine fünfte Frage hinzufügt.
+>
+> ⚠️ **Warum kein fünftes GA-Gate:** Die GA-Kette hängt am Ereignis
+> „Angebot mit **A3-Architektur** geht hinaus" und ist selbst noch ein
+> **Vorschlag** (s. 6a.7, Reparatur nach Prüferbefund F-7). `PV-1` hat
+> einen **anderen** Auslöser. **Eine konditionale Warnung ohne
+> Prüfschritt altert lautlos** (CLAUDE.md) — ohne diesen Posten wäre die
+> Rn.-187/188-Fernwirkung ein *sobald irgendwann Verbraucher betroffen
+> sind* gewesen, das niemand je wieder aufschlägt.
 
 ### 6a.8 Was dieser Abschnitt NICHT tut — und was er offen an andere gibt
 

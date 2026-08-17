@@ -186,7 +186,7 @@ den **Rechtsfolgen** — das ist der Grund, warum das Feld existiert.
 >
 > > 🔧 **REPARIERT 17.08.2026 (R18-A) — hier stand:** „`ANL-3`-Einträge
 > > tragen **nur** `SP-02`, `SP-03`, `SP-05` bis `SP-08` und `SP-10` —
-> > niemals `SP-04`."
+> > niemals `SP-04` (kein Personenname)."
 > > **Diese Positivliste ließ zwei PFLICHTFELDER der eigenen
 > > Feldtabelle fallen** (Nebenbefund `R17A-N-7`, am Objekt bestätigt):
 > > **`SP-01`** (Sperr-ID, ✅ Pflicht — ohne sie gibt es keine Referenz
@@ -208,7 +208,7 @@ den **Rechtsfolgen** — das ist der Grund, warum das Feld existiert.
 > > ⚠️ **Gegenprobe zur Vollzähligkeit:** `SP-01` bis `SP-10` sind in
 > > der Feldtabelle **alle** mit ✅ Pflicht geführt — mit der einzigen
 > > Ausnahme `SP-04` (🔶). Die neue Liste ist damit deckungsgleich mit
-> > *alle Pflichtfelder außer `SP-04`*. `SP-11` bis `SP-13` bleiben bei
+> > *alle Pflichtfelder außer `SP-04`*. `SP-11`, `SP-11a`, `SP-12` und `SP-13` bleiben bei
 > > `ANL-3` **leer** (kein Antwortschreiben, s. § 3 und Feld `SP-11`),
 > > `SP-14`/`SP-15` sind bedingte Felder — sie fehlen hier also nicht,
 > > sie greifen nicht.

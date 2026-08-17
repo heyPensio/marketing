@@ -968,18 +968,29 @@ Wellenprotokoll, nicht als Feld. (§ 10, O-3.)
 >    protokolliert, welche Version an welche Adressen ging. Also ein
 >    Versionsfeld je Text, nicht ein gemeinsames.
 >
-> ✅ **ERLEDIGT 17.08.2026 (R18-A) — die Quelle ist nachgezogen, die
-> Abweichung besteht nicht mehr.** `akquise/interessenabwaegung-o8.md`
-> § 10 **B-6** führt den **FG-2-Anteil** seit dem ausdrücklich auf
-> (Befund `R17C-N-1`, repariert an der Quelle). **Feld 4 unten deckt
-> sich damit jetzt mit dem Wortlaut von B-6** — es geht nicht mehr über
-> ihn hinaus, und die Vorrangklausel § 11 kehrt die hier gewählte
-> strengere Lesart nicht länger um. *(Der Absatz darunter bleibt im
-> Originalwortlaut stehen: Er dokumentiert, dass die Lücke von der
-> ABLEITUNG gefunden wurde und nicht von der Quelle — und er ist der
-> Grund, warum sie repariert werden konnte. Was von ihm nicht mehr
-> gilt, ist genau die Aussage „die Quelle ist in sich inkonsistent";
-> L-51.)*
+> ✅ **1 von 3 Abweichungen ERLEDIGT 17.08.2026 (R18-A) — (b) und (c)
+> bleiben offen.** `akquise/interessenabwaegung-o8.md` § 10 **B-6** führt
+> den **FG-2-Anteil** seit dem ausdrücklich auf (Befund `R17C-N-1`,
+> repariert an der Quelle) — das erledigt **Abweichung (a)**.
+> **Weiterhin offen: (b)** Textversionen als Doppelfeld und **(c)** das
+> mehrzeilige Abgleichsdatum; beide gehen unverändert über den Wortlaut
+> von o8 § 10 hinaus.
+> *(🔧 Nenner nachgetragen nach Prüferbefund `R18A-M-7`: Die Erstfassung
+> dieses Kastens sagte „die Abweichung besteht nicht mehr" **ohne
+> Nenner** — und ließ damit den Absatz „**3 von 3 offen, 0 von 3
+> zwischenzeitlich erledigt**" wenige Zeilen darüber als erledigt
+> erscheinen. Eine Kategorie ohne Nenner liest sich als abgearbeitet,
+> L-13 — und der Folgesatz stand im selben Abschnitt, im eigenen Scope.)*
+>
+> **Was vom Absatz darunter nicht mehr gilt — drei Sätze, einzeln:**
+> (1) „Feld 4 geht über den Wortlaut von o8 § 10 **B-6** hinaus" —
+> **überholt** für Feld 4; (2) „**Die Quelle ist an dieser Stelle in sich
+> inkonsistent**" — **überholt**; (3) „`akquise/interessenabwaegung-o8.md`
+> gehört zum Scope **R17-A**" — **überholt**, die Quelle wurde in R18-A
+> nachgezogen. **Was weiter gilt:** dass die Lücke von der **ABLEITUNG**
+> gefunden wurde und nicht von der Quelle — deshalb bleibt der Absatz im
+> Originalwortlaut stehen. *(L-51; die Erstfassung dieses Kastens
+> behauptete, „genau" ein Satz falle — es sind drei.)*
 >
 > ⚠️ **Abweichung zur Quelle ausgewiesen — und ein Nebenbefund an o8:**
 > Feld 4 geht über den Wortlaut von o8 § 10 **B-6** hinaus: B-6 selbst

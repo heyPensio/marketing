@@ -12,6 +12,21 @@
 > Parent gegen Prüfstand gehalten: Parent von `1804b1c` = `f4f1139` ✓.
 > **Bau-Commit: `1804b1c`**, gepusht per Refspec, Veröffentlichung belegt
 > mit `git branch -r --contains 1804b1c` nach frischem `git fetch`.
+>
+> ⚠️ **Reparatur-Commit `0c0a2a7` liegt LOKAL — Push bewusst
+> aufgeschoben.** Zwischen meinem Bau- und meinem Reparatur-Commit hat
+> R17-A (Ben Beckman) **vier eigene Commits** gesetzt (`af92adb`,
+> `4f739f5`, `ecb197c`, `26975c8`), die ungepusht **unter** meinem liegen.
+> Der gezielte Refspec `git push origin 0c0a2a7:main` schützt nur nach
+> OBEN — Vorfahren gehen mit; ich würde fremde Arbeit veröffentlichen,
+> bevor die fremde Session das entschieden hat. **Und R17-A ist nicht
+> fertig:** `protokolle/R17-A-pruefer.md` liegt untracked im Arbeitsbaum,
+> die Prüferdisposition steht dort also noch aus (der Zustand einer
+> Parallel-Session wird nicht aus Commits geschlossen — maßgeblich sind
+> Abschlussmeldung und `git status`; beides sagt hier: laufend).
+> **Freigabe des Pushs durch User/Leitsession, oder er geht automatisch
+> mit dem Push von R17-A raus.** Der Commit selbst ist vollständig und
+> gegengelesen — es fehlt allein die Veröffentlichung.
 
 ---
 

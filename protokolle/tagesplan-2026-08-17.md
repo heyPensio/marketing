@@ -2491,3 +2491,7 @@ Projektquelle § 7 Punkt 0 R18 (4) und (7) prüfen), committet als
 ### Nachtrag 19:42 MESZ (`date`) — Block 5 committet, Startzeilen ausgegeben
 
 - Prüfer-Disposition eingearbeitet (4 Prompt-Prämissen gekippt, s. Tabelle), Prompts A/B/C stehen oben; Tagesplan-Commit folgt als einziger Pfad. Sessions gestartet: **beim User** (Startzeilen im Chat).
+
+### Nachtrag 19:57 MESZ (`date`) — Sessions gestartet
+
+- User-Zuruf: „die drei Sessions laufen jetzt" — A/B/C gestartet. **Offen aus dem Chat: keine Antwort auf die drei Fragen** (fünf R16-Entscheide/zwei R17-C-Fragen → gelten weiter als OFFEN; Werkzeug B → als Codex geführt bis Gegenmeldung, Modellspalte bleibt leer; `.gitattributes` → nach der Runde, unbestätigt). Leitsession: wartet auf Abschlussmeldungen, keine Scope-Dateien anfassen; zwischenzeitlich P6-Zeiger-Text vorbereiten (Scratch), kein Commit.

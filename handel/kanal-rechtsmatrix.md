@@ -926,8 +926,20 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > Entscheidung nicht tragenden Erwägung" — und genau so steht sie da:
 > eingeleitet mit „Im Übrigen", nach dem Satz, der die materielle
 > Prüfung ausdrücklich einem gesonderten Erkenntnisverfahren zuweist.
-> **Der Beschluss hätte ohne diesen Satz denselben Tenor.** Das ist
-> keine Bewertung, sondern die Struktur der Entscheidung.
+> ⭐ **Und der Senat sagt selbst, dass sein Beschluss über den Einzelfall
+> hinaus nichts festschreiben soll:** „Die Voraussetzungen für die
+> Zulassung der Rechtsbeschwerde gemäß § 574 Abs. 2 ZPO liegen nicht
+> vor" (Rn. 27) — also weder grundsätzliche Bedeutung noch
+> Rechtsfortbildung oder Sicherung einer einheitlichen Rechtsprechung.
+> *(🔧 Prüferbefunde M-8 und H-5: Hier stand als Begründung ein eigener
+> Strukturschluss — „**Der Beschluss hätte ohne diesen Satz denselben
+> Tenor.** Das ist keine Bewertung, sondern die Struktur der
+> Entscheidung." Der erste Satz ist ein Kontrafaktisch-Urteil über eine
+> fremde Entscheidung, der zweite eine Entwarnung über die eigene
+> Aussage. **Beide gestrichen** — die Quelle liefert den Beleg mit
+> Rn. 27 selbst, und ein Quellenbeleg schlägt ein eigenes Argument.
+> Zählweg: `§ 574 Abs. 2` = 1, Positivkontrolle `§ 890` = 2,
+> Gegenkontrolle `§ 543` = 0.)*
 >
 > **5. Was der Beschluss NICHT sagt — mit Zählweg.** Er befasst sich
 > **an keiner Stelle** mit Datenschutzrecht oder mit den Normen, auf
@@ -941,7 +953,14 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > `Anlage K 7` = 6 · `Schuldnerin` = 13 · `kerngleich` = 1 ·
 > `Irreführung` = 1.
 > ⭐ **Folge: Die abweichende Auffassung betrifft die
-> IRREFÜHRUNGS-Achse (§ 5 UWG), nicht die DSGVO-Achse.** Der zweite
+> IRREFÜHRUNGS-Achse, nicht die DSGVO-Achse** *(🔧 Prüferbefund M-1:
+> Hier stand „die IRREFÜHRUNGS-Achse **(§ 5 UWG)**" — eine
+> Normzuordnung im Fließtext, fünf Zeilen unter der eigenen Messung
+> `UWG` = 0. **Der Beschluss nennt keine einzige UWG-Norm**; seine
+> einschlägigen Begriffe sind „Irreführung" (Rn. 22), „irreführend"
+> (Rn. 19) und „Wettbewerbsverstoß" (Rn. 20). Die Sachaussage ist aus
+> Rn. 22 belegt, die Klammer war es nicht — kein Zitatabgleich fängt
+> so etwas, weil sie im Fließtext steht, L-27)*. Der zweite
 > Absagegrund des Landgerichts (Rn. 88 — unlautere Werbung macht das
 > verfolgte Interesse unrechtmäßig) hängt an genau dieser Achse; der
 > **erste** (Rn. 84/85 — Art.-14-/Art.-21-Pflichten nicht erfüllt)
@@ -952,13 +971,35 @@ Und zur Belästigungsschwelle: Die geringere Belästigungswirkung der Briefpost 
 > in Fotokopie vorgelegten Schreiben zu werben" (Rn. 3); der
 > Ordnungsmittelantrag betraf zwei Schreiben aus **Frühjahr 2023** und
 > **Juli/August 2023** (Anlagen AST 4, Rn. 4). Der Antrag der
-> Gläubigerin datiert vom 14. Juni 2023 (Tenor). **Gläubigerin ist eine
-> andere Partei als der Kläger des hiesigen Verfahrens** (dort ein nach
-> § 4 UKlaG eingetragener Verband, Rn. 2/34/64 des Urteils; das Urteil
-> nennt in Rn. 44/89 daneben Verfahren „einer Mitbewerberin"). **Ob es
-> um dasselbe Schreiben ging wie hier, bleibt damit offen** — die
-> Anlagenkürzel unterscheiden sich (AST 4 dort, K 2 hier), und keine
-> der beiden Entscheidungen stellt die Identität fest.
+> Gläubigerin datiert vom 14. Juni 2023 (Tenor).
+>
+> ⭐ **Die Gläubigerin ist eine Mitbewerberin — und das sagt der
+> Beschluss selbst** *(ergänzt nach Prüferbefund M-7; die Erstfassung
+> stützte diesen Satz nur von der LG-Seite her)*: Nach **Rn. 19** nahmen
+> „diejenigen Kunden, die über ein **Vertragsverhältnis zu der
+> Gläubigerin** verfügten, … weiter an, das Kundenanschreiben … sei von
+> der Gläubigerin autorisiert bzw. stamme von einem **Vertriebspartner
+> der Gläubigerin**". Sie ist also der Vertragspartner der
+> angeschriebenen Kunden, kein Verband. *(Der hiesige Kläger ist
+> dagegen ein nach § 4 UKlaG eingetragener Verband, Rn. 2/34/64 des
+> Urteils; Verfahren „einer Mitbewerberin" nennt das Urteil in
+> Rn. 44/89 daneben.)*
+>
+> ⭐ **Und die beanstandete Irreführungsfigur ist dieselbe wie hier.**
+> Rn. 19 beschreibt sie: Das Schreiben erwecke den Eindruck, „als gehe
+> es darin nur um den Wechsel in einen anderen **Tarif** (und nicht um
+> den Wechsel zu einem anderen **Anbieter**)". Das Landgericht wirft der
+> Beklagten in Rn. 111 wörtlich vor, „gezielt das zentrale Moment des
+> **intendierten Anbieterwechsels** verschwiegen" zu haben — zweimal
+> dieselbe Figur, zwei Gerichte, dieselbe Beklagte. ⚠️ **Das belegt die
+> Figur, nicht die Identität der Schreiben:** **Ob es um dasselbe
+> Schreiben ging wie hier, bleibt offen** — die Anlagenkürzel
+> unterscheiden sich (AST 4 dort, K 2 hier), und keine der beiden
+> Entscheidungen stellt die Identität fest. **Der Zusammenhang ist
+> damit enger, als „verschiedene Anlagenkürzel, verschiedene
+> Gegenseiten" nahelegt** — und genau deshalb zählt Punkt 7 unten: Das
+> OLG hat die Figur nicht gebilligt, sondern ihre **Beseitigung** im
+> geänderten Schreiben festgestellt.
 >
 > ⚠️ **Zitierwarnung: Der Beschluss ist in sich datumsuneinheitlich.**
 > Tenor „Ordnungsgeldbeschluss … vom 06. Mai 2024" ↔ Rn. 5 „mit
@@ -1334,7 +1375,17 @@ ist:**
   > `| **149** |` (diese Zellform existiert im Dokument, s. die
   > Wortlaut-Tabelle zu Rn. 127–148, und wird vom Rn.-Muster nicht
   > erfasst; genau darin lag der Unterschied nicht — geprüft).
-  > **Neuer Stand nach dieser Runde: 77 von 77.** Die vierzehn
+  > **Neuer Stand nach dieser Runde: 77 von 77 — gezählt über ZWEI
+  > Kanäle**, `Rn. <n>` **und** die Tabellenzellform `| **<n>** |`.
+  > ⚠️ *(Präzisiert nach Prüferbefund M-2: Unter dem oben deklarierten
+  > reinen Rn.-Muster sind es **68 von 77** — neun der vierzehn
+  > Randnummern (121, 122, 123, 126, 151–155) stehen im Nachtrag
+  > **ausschließlich als Tabellenzeile**. Vorher- und Nachher-Wert
+  > müssen auf demselben Lineal stehen: **Im Doppel-Kanal gemessen
+  > bleibt der Vorher-Wert 63** — für alle vierzehn ist die Zellform im
+  > Stand `926ca3c` ebenfalls 0, vom Prüfer unabhängig geprüft. Der
+  > Zuwachs 63 → 77 ist damit sauber; falsch war nur, ihn unter einem
+  > Zählweg auszuweisen, der ihn nicht hergibt.)* Die vierzehn
   > Randnummern sind unten einzeln ausgewiesen.
   > **Frage an den Anwalt: `handel/anwalts-briefing-2026-08.md`
   > Frage 3** (§ 3a UWG in einer reinen B2B-Aussendung).
@@ -1363,9 +1414,9 @@ Satz, warum.
 |---|---|---|
 | **121** | Der Kläger hatte das dem Werbeschreiben beiliegende **Auftragsformular nicht vorgelegt**; das steht der Irreführungs-Feststellung nicht entgegen | **keine** — reine Beweisfrage des dortigen Prozesses, unser Vorhaben legt keine Formulare bei |
 | **122** | Warum der Kläger es nicht vorlegen konnte (die beschwerdeführenden Verbraucher hatten es zurückgesandt); „Es wäre daher Sache der **Beklagten** gewesen, das Formular … spätestens im Rechtsstreit vorzulegen" | **keine für die Rechtslage** — aber siehe 123 |
-| **123** | ⭐ **Darlegungslast:** „Unabhängig von der fehlenden tatsächlichen Möglichkeit des Klägers zur Vorlage des Formulars ist es **Sache des Unternehmers**, dem eine irreführende geschäftliche Handlung vorgehalten wird, **von sich aus** zu außerhalb oder im Umfeld der angegriffenen geschäftlichen Handlung liegenden Faktoren vorzutragen wenn er geltend machen will, diese wirkten sich konkret auf den … Gesamteindruck aus" *(Schreibweise wie im Original, fehlendes Komma vor „wenn")* | **Bestand ergänzt:** Wer sich im Streitfall auf entlastende Beilagen, Website-Inhalte oder Kontextinformationen berufen will, **muss sie selbst vortragen**. Betriebsfolge: Was uns entlasten soll, muss **dokumentiert und auffindbar** sein — sonst existiert es im Prozess nicht |
-| **126** | Der Verstoß erfüllt **keinen** der speziellen Unlauterkeitstatbestände der §§ 4a ff. UWG (nicht aggressiv, nicht irreführend, kein Vorenthalten) | ⭐ **wichtig für das Verständnis der Doppelbegründung:** § 3a UWG und § 3 Abs. 2 UWG kommen im Urteil **erst zum Zug, nachdem die Spezialtatbestände verneint sind**. Sie sind der Auffangweg, nicht der erste Zugriff |
-| **138** | ⭐ **Anwendbarkeitsprüfung des § 3a UWG — zwei Voraussetzungen:** (a) Art. 4 UGPRL steht über Art. 3 Abs. 4 UGPRL „nicht von vorneherein entgegen"; (b) „dass nämlich die entsprechende Vorschrift **entweder selbst dem unmittelbar geltenden Unionsrecht angehört oder unionsrechtskonform ist**" — erfüllt, weil Art. 5/6 DSGVO „Teil des gemäß Art. 288 Abs. 2 AEUV unmittelbar geltenden Unionsrechts" sind | **Bestand ergänzt:** Die § 3a-Schiene hat damit **drei** Achsen, nicht zwei — Anwendbarkeit (138), Marktverhaltensregelung (139–142), Spürbarkeit (143–146). Die Anwendbarkeit ist die **einzige**, die im dortigen Fall glatt durchlief |
+| **123** | ⭐ **Darlegungslast:** „Unabhängig von der fehlenden tatsächlichen Möglichkeit des Klägers zur Vorlage des Formulars ist es **Sache des Unternehmers**, dem eine irreführende geschäftliche Handlung vorgehalten wird, **von sich aus** zu außerhalb oder im Umfeld der angegriffenen geschäftlichen Handlung liegenden Faktoren vorzutragen wenn er geltend machen will, diese wirkten sich konkret auf den … Gesamteindruck aus" *(Schreibweise wie im Original, fehlendes Komma vor „wenn")* | **Bestand ergänzt:** Wer sich im Streitfall auf entlastende Beilagen, Website-Inhalte oder Kontextinformationen berufen will, **muss sie selbst vortragen**. Betriebsfolge: Was uns entlasten soll, muss **dokumentiert und auffindbar** sein — sonst trägt es im Prozess niemand vor *(🔧 Prüferbefund H-4: Hier stand „sonst **existiert es im Prozess nicht**" — vom Vortrag über die Dokumentation zur Nichtexistenz sind zwei eigene Schritte; die Quelle sagt nur, es sei „Sache des Unternehmers … von sich aus … vorzutragen")* |
+| **126** | Wörtlich: „Es ist **weder von dem Kläger geltend gemacht noch drängt es sich auf**, dass die angegriffene … Geschäftspraxis … zugleich einen der speziellen Unlauterkeitstatbestände der §§ 4a ff. UWG verletzt, also aggressiv oder irreführend ist oder dem Verbraucher wesentliche Informationen vorenthält" | **Für unser Verständnis:** Die Spezialtatbestände waren im dortigen Fall **nicht Streitstoff** — das Gericht stellt fest, dass dazu nichts vorgetragen wurde und sich nichts aufdrängte. ⚠️ *(🔧 Prüferbefund M-3: Hier stand „Der Verstoß **erfüllt keinen** der speziellen Unlauterkeitstatbestände" und daraus abgeleitet, § 3a UWG und § 3 Abs. 2 UWG seien „der Auffangweg, nicht der erste Zugriff". Das machte aus einer **Vortrags**-Feststellung ein **Prüfungs**-Ergebnis und aus dem Fehlen von Streitstoff eine Rangfolge — die das Urteil ausdrücklich **nicht** aufstellt: Rn. 136 lässt offen, welche Norm „im Allgemeinen in erster Linie … heranzuziehen ist". Zählweg des Prüfers: `erfüllt keinen` im Urteil = 0.)* |
+| **138** | ⭐ **Anwendbarkeitsprüfung des § 3a UWG — zwei Voraussetzungen:** (a) Art. 4 UGPRL steht über Art. 3 Abs. 4 UGPRL „nicht von vorneherein entgegen"; (b) „dass nämlich die entsprechende Vorschrift **entweder selbst dem unmittelbar geltenden Unionsrecht angehört oder unionsrechtskonform ist**" — erfüllt, weil Art. 5/6 DSGVO „Teil des gemäß Art. 288 Abs. 2 AEUV unmittelbar geltenden Unionsrechts" sind | **Bestand ergänzt:** Die § 3a-Schiene hat damit **drei** Achsen, nicht zwei — Anwendbarkeit (138), Marktverhaltensregelung (139–142), Spürbarkeit (143–146). Die Anwendbarkeit ist die einzige, die das Urteil **ohne erörterten Gegeneinwand** bejaht (Rn. 138 „liegt ebenfalls vor"; Rn. 142 beginnt mit „Zwar … doch", Rn. 146 erörtert Einwände) *(🔧 Prüferbefund H-6: Hier stand „die **einzige**, die im dortigen Fall glatt durchlief" — ein zweiter Superlativ ohne benanntes Kriterium in derselben Tabelle; Rn. 141 und 146 bejahen die beiden anderen Achsen ebenfalls. Das Kriterium steht jetzt im Satz)* |
 | **139** | Überleitung: Art. 5/6 DSGVO müssen „dazu bestimmt sein, im Interesse der Marktteilnehmer das Marktverhalten zu regeln" | **keine eigenständige** — Scharnier zu 140/141 |
 | **140** | ⭐ **Der Maßstab für „Marktverhaltensregelung":** Die Norm darf „sich **nicht lediglich reflexartig** zu Gunsten von Marktteilnehmern auswirken, sondern muss jedenfalls auch — dieser Zweck muss nicht der einzige und nicht einmal der primäre sein — die Funktion haben, die wettbewerblichen Belange … zu schützen, wobei das geschützte Interesse **gerade durch die Marktteilnahme** … berührt werden muss" | **Bestand ergänzt:** Das ist der Prüfsatz, an dem sich die B2B-Frage entscheidet — die Rechtsmatrix führte bisher nur das **Ergebnis** (141) und den Verbraucher-Rückbezug (142), nicht den Maßstab |
 | **149** | ⭐ **§ 3 Abs. 2 UWG ist richtlinienkonform auszulegen** (Art. 5 Abs. 2 UGPRL) — zweistufig: erstens Verstoß gegen die **berufliche Sorgfalt**, zweitens **wesentliche Beeinflussung** des wirtschaftlichen Verhaltens; Maßstab durchgehend der „normal informierte, angemessen aufmerksame und verständige **Durchschnittsverbraucher**" | ⭐ **Bestand ergänzt und in der R16-Lücken-Liste gar nicht enthalten.** Verstärkt die Adressatengrenze: Der Maßstab dieser Schiene ist **normativ an den Verbraucher gebunden**, nicht nur der Wortlaut des § 3 Abs. 2 UWG |
@@ -1413,8 +1464,9 @@ eigenständigen Weg — **§ 5a Abs. 1 in Verbindung mit § 5b Abs. 4 UWG**
 | Der Tatbestand | **Rn. 223** | „Nach § 5a Abs. 1 UWG handelt unlauter, wer **einen Verbraucher oder sonstigen Marktteilnehmer** irreführt, indem er ihm eine wesentliche Information vorenthält …" |
 | Warum DSGVO-Informationen „kommerzielle Kommunikation" sind | **Rn. 225** | Die Art.-14-Pflichten sind „spätestens mit dem Versand des Werbebriefs zu erfüllen, mithin **im Rahmen der auf die Förderung ihres Produktabsatzes gerichteten** gewerblichen Tätigkeit der Beklagten. Damit fallen sie unter den Begriff der kommerziellen Kommunikation." |
 | Dass die DSGVO nicht in Anhang II UGPRL steht, schadet nicht | **Rn. 227**, i. V. m. **166** | Die Liste ist „ausdrücklich nicht erschöpfend" |
-| ⚠️ **Die Grenze der Vermutungsregel** | **Rn. 243** | § 5b Abs. 4 UWG „gilt … **nur für Informationen, die im Rahmen der auf die Förderung des Produktabsatzes gerichteten gewerblichen Tätigkeit — also vor Abgabe der Vertragserklärung des Verbrauchers — zu erteilen sind**" |
-| Und was gilt, wenn sie nicht greift | **Rn. 244** | „Die Wesentlichkeit der Informationen ergibt sich jedoch aus den **allgemeinen, zu § 5a Abs. 1 entwickelten Grundsätzen**" |
+| ⭐ **Für Antrag IV greift die Vermutungsregel — sie ist hier BEJAHT** | **Rn. 224** | „Die … Voraussetzungen für das Eingreifen der Vermutungsregel des § 5b Abs. 4 UWG sind mit Blick auf die nach Art. 12 Abs. 1 S. 1 und S. 2 sowie Abs. 5 S. 1 DSGVO zu erteilenden, in Art. 14 Abs. 1 und Abs. 2 Buchst. a bis c, e und f DSGVO genannten Informationen **erfüllt**." |
+| ⚠️ **Grenze der Vermutungsregel — ANDERER Antragsblock, von uns als Analogie herangezogen** | **Rn. 243** *(Gliederungspunkt 13., **Antrag V** — Auskunftsverlangen nach Art. 15 DSGVO, nicht Antrag IV)* | § 5b Abs. 4 UWG „gilt … **nur für Informationen, die im Rahmen der auf die Förderung des Produktabsatzes gerichteten gewerblichen Tätigkeit — also vor Abgabe der Vertragserklärung des Verbrauchers — zu erteilen sind**". Das Gericht begründet die Nichtanwendung dort damit, dass diese Phase „bereits beendet" war, „als das **Auskunftsverlangen** an sie herangetragen wurde" |
+| Und was gilt, wenn sie nicht greift | **Rn. 244** *(ebenfalls Antrag V)* | „Die Wesentlichkeit der Informationen ergibt sich jedoch aus den **allgemeinen, zu § 5a Abs. 1 entwickelten Grundsätzen**" |
 | ⭐ **Beweislast** | **Rn. 176** (für Antrag II, in Rn. 234 auf Antrag IV übertragen) | Die Merkmale des § 5a Abs. 1 Nr. 1 und 2 UWG „sind **im Regelfall erfüllt**, wenn dem Verbraucher wesentliche Informationen vorenthalten werden, und **es obliegt dem Unternehmer aufzuzeigen**, dass der Informationserfolg bereits auf anderem Wege erreicht worden ist oder sonst ein Ausnahmefall vorliegt" — in Rn. 234: „Die Beklagte hat … **keine Umstände aufgezeigt**" |
 
 **Wie die drei Schienen zur B2B-Frage stehen — die Achse ist nicht
@@ -1443,25 +1495,73 @@ UWG „sonstige Marktteilnehmer" nennt, heißt **nicht**, dass unsere
 Konstellation darunter fällt: Die **Vermutungsregel** des § 5b Abs. 4
 UWG spricht von „dem Verbraucher" (Rn. 223 a. E.), und ob die
 Art.-14-Information gegenüber einem **gewerblichen** Empfänger eine
-„wesentliche Information" nach den allgemeinen Grundsätzen (Rn. 244)
-ist, sagt keine der gelesenen Stellen. **Das ist eine Rechtsfrage —
+„wesentliche Information" nach den allgemeinen Grundsätzen ist, sagt
+keine der gelesenen Stellen. **Das ist eine Rechtsfrage —
 Frage an den Anwalt, s. `handel/anwalts-briefing-2026-08.md`
 Frage 3, Teilfrage 1c** (neu in dieser Runde ergänzt).
 
-**Vier weitere Feststellungen aus demselben Block, ohne Bewertung:**
+> 🔧 **REPARATUR 17.08.2026 (R17-A), Prüferbefund M-4 — die Zuordnung
+> zweier Randnummern war falsch, und die Richtung war die für uns
+> bequeme.** Die Erstfassung dieses Nachtrags führte **Rn. 243/244**
+> unter der Überschrift „Antrag IV / Rn. 221–234" als „**Die Grenze der
+> Vermutungsregel**" — als gälte die Einschränkung für **diese**
+> Schiene. **Sie gilt ihr nicht.** Rn. 243/244 gehören zum
+> Gliederungspunkt 13., der ausweislich Rn. 239 „die mit **Antrag V**
+> angegriffene … Untätigkeit" auf ein **Auskunftsverlangen** (Artt. 12
+> Abs. 3, 15 Abs. 1 DSGVO) betrifft. **Für Antrag IV sagt Rn. 224 das
+> Gegenteil: Dort sind die Voraussetzungen der Vermutungsregel
+> ausdrücklich „erfüllt".** Rn. 224 fehlte im gesamten Bestand
+> (Zählweg des Prüfers: `grep -rl "Rn\. 224"` über alle `*.md` **ohne
+> das Prüfprotokoll** = 0 Dateien; Positivkontrolle `Rn. 221` = 3
+> Dateien, Gegenkontrolle `Rn. 3333` = 0) — sie ist jetzt als eigene
+> Tabellenzeile aufgenommen.
+> **Was bleibt und warum:** Für einen **gewerblichen** Empfänger greift
+> § 5b Abs. 4 UWG nach seinem Wortlaut („dem Verbraucher") ohnehin
+> nicht; dann sind Rn. 243/244 die strukturell passende **Analogie** —
+> aber eben eine Analogie aus einem anderen Antragsblock, und das muss
+> dastehen. **Der Sachbefund trägt weiter, die Herleitung ist jetzt
+> ehrlich beschriftet.**
+
+**Fünf weitere Feststellungen aus demselben Block, ohne Bewertung:**
+
+- ⭐ **Rn. 214 — zwei Einzelfälle genügten für die ganze Aussendung**
+  *(ergänzt nach Prüferbefund H-8)*: „Mithin hat der Kläger anhand von
+  **zwei Fällen exemplarisch** aufgezeigt, dass die Beklagte mit ihrer
+  Werbeaussendung gegen Art. 14 Abs. 1 und Abs. 2 Buchst. a bis c, e
+  und f, Abs. 3 Buchst. b DSGVO verstoßen hat". **Zusammen mit der
+  Wiederholungsvermutung aus Rn. 249 ist das die eigentliche
+  Hebelwirkung:** Der Angreifer braucht nicht die Welle, er braucht
+  zwei belegte Schreiben. *(Rn. 211 in derselben Linie: Dass die
+  Informationen früher mitgeteilt worden seien, „macht die Beklagte
+  selbst nicht geltend" — die Entlastung muss vom Versender kommen,
+  vgl. Rn. 123.)*
 
 - **Rn. 249 — Wiederholungsgefahr:** „Ein unzulässiges Verhalten
   begründet eine tatsächliche **Vermutung für die Wiederholung
-  identischer und kerngleicher Verstöße**." Betriebsfolge: Ein
-  einzelner Fehlversand begründet die Vermutung für die ganze Welle;
-  widerlegbar praktisch nur über eine strafbewehrte
-  Unterlassungserklärung.
-- **Rn. 250 — Zurechnung:** Haftung auch für Personen, „deren Verhalten
-  … gemäß § 8 Abs. 2 UWG einen Unterlassungsanspruch auch gegen die
-  Beklagte begründet". Betriebsfolge: **Beauftragte** (Lettershop,
-  Versanddienstleister, Freelancer) fallen darunter. → Die
-  AVV-/Dienstleisterfrage ist damit **auch** eine
-  Lauterkeitsrechts-Frage, nicht nur eine DSGVO-Frage.
+  identischer und kerngleicher Verstöße**." **Das ist die vollständige
+  Quellenaussage** — *wie* die Vermutung widerlegt wird, sagt das
+  Urteil an keiner gelesenen Stelle. → **Frage an den Anwalt.**
+  *(🔧 Prüferbefund M-5: Hier stand „widerlegbar praktisch nur über
+  eine strafbewehrte Unterlassungserklärung" — zutreffend oder nicht,
+  das ist **unsere** rechtliche Aussage und steht nicht in der Quelle.
+  Suchweg des Prüfers im Urteil: `strafbewehrt` = 0 · `Unterwerfung` =
+  0 · `Vertragsstrafe` = 0 · `Wegfall der Wiederholungsgefahr` = 0, bei
+  Positivkontrolle `Wiederholungsgefahr` = 3. **Gestrichen, nicht
+  abgeschwächt.**)*
+- **Rn. 250 — Zurechnung:** Haftung auch für Personen, deren „Verhalten
+  der Beklagten entsprechend **§ 31 BGB** zugerechnet wird oder das
+  gemäß **§ 8 Abs. 2 UWG** einen Unterlassungsanspruch auch gegen die
+  Beklagte begründet". § 8 Abs. 2 UWG spricht von **„Beauftragten"**.
+  ⚠️ **Ob ein Lettershop, ein Versanddienstleister oder ein Freelancer
+  Beauftragter im Sinne dieser Norm ist, hängt an Eingliederung und
+  Einflussmöglichkeit und ist keine Ablesefrage** — sie steht als
+  **Teilfrage 1d** im Briefing. Für die Betriebsplanung heißt das
+  vorerst: Die Dienstleisterkette ist **möglicherweise** nicht nur eine
+  DSGVO-, sondern auch eine Lauterkeitsrechts-Frage.
+  *(🔧 Prüferbefund M-5: Hier stand „**Beauftragte** (Lettershop,
+  Versanddienstleister, Freelancer) **fallen darunter**" — eine
+  Subsumtion unserer konkreten Dienstleister ohne Vorbehalt. Zugleich
+  H-10: Das Zitat schluckte den § 31 BGB, es ist jetzt vollständig.)*
 - **Rn. 251–262 — der Kläger ist mit Antrag VI unterlegen** (Muster-
   Widerrufsformular auf derselben Seite wie die Widerrufsbelehrung ist
   zulässig). Die Kostenentscheidung beruht folgerichtig auf § 92

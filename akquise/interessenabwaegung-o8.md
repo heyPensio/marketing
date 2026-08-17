@@ -689,10 +689,17 @@ Linie.**
 > richtig hat, dort aber nur für die **Aufmachung** (Rn. 88), nicht als
 > **eigene Anspruchsschiene für den Informationsverstoß**.
 > ⚠️ **Was das NICHT heißt:** Die Vermutungsregel des § 5b Abs. 4 UWG
-> bleibt verbrauchergebunden — sie gilt „nur für Informationen, die im
-> Rahmen der auf die Förderung des Produktabsatzes gerichteten
-> gewerblichen Tätigkeit … zu erteilen sind" (Rn. 243), und der Text
-> spricht durchgehend von „dem Verbraucher". Ob die Art.-14-Information
+> bleibt ihrem Wortlaut nach verbrauchergebunden („dem Verbraucher").
+> ⚠️ **Für den Art.-14-Fall selbst hat das Gericht sie ausdrücklich
+> BEJAHT** — ihre Voraussetzungen sind dort „erfüllt" (Rn. 224). Die
+> Einschränkung „nur für Informationen, die im Rahmen der auf die
+> Förderung des Produktabsatzes gerichteten gewerblichen Tätigkeit …
+> zu erteilen sind" (Rn. 243) stammt aus dem Block zu **Antrag V**
+> (Auskunftsverlangen nach Art. 15 DSGVO) — **wir ziehen sie als
+> Analogie für den gewerblichen Empfänger heran, nicht als Grenze
+> dieser Schiene.** *(🔧 Prüferbefund M-4: Die Erstfassung dieses
+> Nachtrags führte Rn. 243 als Grenze der Antrag-IV-Schiene; Rn. 224
+> fehlte im gesamten Bestand.)* Ob die Art.-14-Information
 > gegenüber einem **gewerblichen** Empfänger nach den allgemeinen
 > Grundsätzen (Rn. 244) „wesentlich" ist, sagt keine gelesene Stelle.
 > **Das ist eine Rechtsfrage — Frage an den Anwalt, s.

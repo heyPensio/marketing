@@ -1333,8 +1333,12 @@ Namensentscheid (S5, spätestens Fr 14.08.2026 — **in zwei Tagen**).
 > > verlangt das" begründet, stützt sich auf eine **hilfsweise
 > > Erwägung**. Die vollständige Fassung mit dem zusätzlichen
 > > Rn.-86-Vorbehalt (die Vorfeld-Zuordnung des Listenaufbaus) steht
-> > in der Rechtsmatrix; sie ist unbequemer als diese Kurzfassung und
-> > gehört mitgelesen, bevor jemand aus dem Satz eine Zusage macht.
+> > in `handel/kanal-rechtsmatrix.md`, **Abschnitt A7, Bestandsvermerk
+> > 17.08.2026 (R16-A) zu Befund R15A-N-4**; sie ist unbequemer als
+> > diese Kurzfassung und gehört mitgelesen, bevor jemand aus dem Satz
+> > eine Zusage macht. *(Abschnittsbezug ergänzt nach Prüferbefund H-9 —
+> > „steht in der Rechtsmatrix" verweist auf ein Dokument mit über
+> > 1.800 Zeilen.)*
 
 > **🟢 Nachtrag 13.08.2026 — der Sperr-Posten ist teilweise gelöst, der
 > Engpass nicht:**

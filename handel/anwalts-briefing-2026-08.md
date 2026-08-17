@@ -623,8 +623,16 @@ angefertigt.)*
 > und die Annahme ist geprüft.** Der **deutsche Volltext** (CELEX
 > 62022CJ0621, `publications.europa.eu`, 38.320 Zeichen) ist beschafft;
 > der frühere Befund „über den amtlichen Kanal nicht abrufbar" war ein
-> **Werkzeug-**, kein Quellenbefund — der Abruf antwortet mit einem
-> Redirect (HTTP 303), dem unser damaliger Aufruf nicht folgte.
+> **Werkzeug-**, kein Quellenbefund: Der Abruf antwortet **heute** mit
+> einem Redirect (HTTP 303), dem erst `curl -L` folgt. ⚠️ **Ob unser
+> damaliger Lauf daran scheiterte oder die Quelle sich geändert hat,
+> ist nicht mehr feststellbar** — belegt ist der heutige Abruf.
+> *(🔧 Prüferbefund M-6: Hier stand „…, dem **unser damaliger Aufruf
+> nicht folgte**" — eine Ursachenbehauptung als Tatsache, während
+> unser eigenes Beschaffungsprotokoll sie ausdrücklich als „nicht
+> feststellbar" führt. Die Drift lief von der vorsichtigen internen
+> Quelle in das außenwirksame Dokument und entlastete dabei die eigene
+> Arbeit.)*
 > **Damit ist die Sprachfassungs-Annahme am Objekt bestätigt:** Rn. 56
 > der deutschen Fassung ist die inhaltsgleiche Entsprechung der
 > englischen (Rn. 54, 55 und 57 mitgelesen, gleiche Zuordnung). Die
@@ -873,15 +881,28 @@ an, keine Verbraucher.**
    auf die Förderung ihres Produktabsatzes gerichteten gewerblichen
    Tätigkeit" (Rn. 225).
    **Unsere Fragen dazu:** (a) Greift diese Schiene bei einer reinen
-   B2B-Aussendung — dort fehlt die Adressatengrenze, an der die beiden
-   anderen Schienen sich reiben? (b) Die **Vermutungsregel** des § 5b
-   Abs. 4 UWG scheint uns verbrauchergebunden zu bleiben; das Gericht
-   grenzt sie selbst ein: Sie gilt „nur für Informationen, die im
+   B2B-Aussendung? *(Zur Einordnung, weil eine frühere Fassung dieses
+   Absatzes es falsch darstellte: Von den drei Schienen ist **nur § 3
+   Abs. 2 UWG** tatbestandlich auf Verbraucher beschränkt. **§ 3a UWG
+   nennt ebenso** „die Interessen von Verbrauchern, sonstigen
+   Marktteilnehmern oder Mitbewerbern" — Rn. 143. Bei § 3a UWG liegt
+   die B2B-Frage also nicht im Wortlaut, sondern in der Brücke über die
+   Marktverhaltensregelung, die Rn. 142 an den Verbraucher
+   zurückbindet.)*
+   (b) Die **Vermutungsregel** des § 5b Abs. 4 UWG scheint uns
+   verbrauchergebunden zu bleiben, weil ihr Text durchgehend von „dem
+   Verbraucher" spricht. ⚠️ **Wichtig für Ihre Einordnung: Für den
+   Art.-14-Fall selbst hat das Gericht sie ausdrücklich BEJAHT** — ihre
+   Voraussetzungen sind „mit Blick auf die nach Art. 12 … in Art. 14 …
+   genannten Informationen **erfüllt**" (Rn. 224). Die Einschränkung,
+   die wir hier heranziehen — sie gelte „nur für Informationen, die im
    Rahmen der auf die Förderung des Produktabsatzes gerichteten
-   gewerblichen Tätigkeit … zu erteilen sind" (Rn. 243), und der Text
-   spricht durchgehend von „dem Verbraucher". **Ist die
-   Art.-14-Information gegenüber einem gewerblichen Empfänger nach den
-   allgemeinen Grundsätzen (Rn. 244) eine „wesentliche Information"?**
+   gewerblichen Tätigkeit … zu erteilen sind" (Rn. 243) —, stammt aus
+   dem Block zu **Antrag V** (Auskunftsverlangen nach Art. 15 DSGVO);
+   **wir ziehen sie als Analogie für den gewerblichen Empfänger heran,
+   nicht als Grenze dieser Schiene.** **Ist die Art.-14-Information
+   gegenüber einem gewerblichen Empfänger nach den allgemeinen
+   Grundsätzen (Rn. 244) eine „wesentliche Information"?**
    (c) Das Gericht legt die Darlegungslast um: Die weiteren Merkmale
    „sind im Regelfall erfüllt …, und es obliegt dem **Unternehmer**
    aufzuzeigen, dass der Informationserfolg bereits auf anderem Wege
@@ -891,6 +912,25 @@ an, keine Verbraucher.**
    *(Wir legen das als Beobachtung vor, nicht als Ergebnis. Uns ist
    aufgefallen, dass diese Schiene in unserem eigenen Bestand bisher
    fehlte — die Randnummern ab 156 hatte bei uns niemand gelesen.)*
+1d. **Wer haftet mit — sind unsere Dienstleister „Beauftragte"?** Das
+   Urteil stützt die Haftung auch auf Personen, deren „Verhalten der
+   Beklagten entsprechend § 31 BGB zugerechnet wird oder das gemäß
+   **§ 8 Abs. 2 UWG** einen Unterlassungsanspruch auch gegen die
+   Beklagte begründet" (Rn. 250). **Unsere Frage:** Sind ein
+   Lettershop, ein Versanddienstleister oder ein freier Texter, die
+   eine Aussendung für uns umsetzen, „Beauftragte" im Sinne dieser
+   Norm — und wenn ja, ändert das etwas an der Gestaltung unserer
+   Dienstleisterverträge über die datenschutzrechtliche
+   Auftragsverarbeitung hinaus? *(Wir fragen, weil diese Antwort
+   unsere Betriebsplanung unmittelbar ändern kann: Sie entscheidet, ob
+   die Dienstleisterkette nur eine Datenschutz- oder auch eine
+   Lauterkeitsrechts-Frage ist.)*
+   ⚠️ *Ergänzend, weil es dieselbe Hebelwirkung betrifft:* Nach Rn. 214
+   genügten dem Gericht **zwei exemplarische Fälle**, um den Verstoß
+   für die gesamte Aussendung festzustellen; Rn. 249 knüpft daran die
+   Vermutung der Wiederholung „identischer und kerngleicher Verstöße".
+   **Wie die Wiederholungsvermutung ausgeräumt wird, sagt das Urteil
+   nicht — auch das ist eine Frage an Sie.**
 2. Wie wirkt die Grenze, die das LG in Rn. 129 aus der
    **Vollharmonisierung durch die UGPRL** ableitet, wenn die
    Geschäftspraxis **überhaupt keine Verbraucher erreicht**? Nach dem

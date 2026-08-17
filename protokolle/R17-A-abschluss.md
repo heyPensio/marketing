@@ -468,8 +468,40 @@ nicht in den Pool:
 | `handel/angebotsarchitektur.md` | „Sie ist damit die einzige der fünf Bedingungen …" | **Selbstzitat der eigenen Vorfassung** im Reparaturkasten (L-26-Klasse: kann per Konstruktion nie im Pool stehen) |
 | dito | „der Kunde — und wir beim Aufsetzen — ‚licensing, copyright, or other notices' nicht entfernen oder verdecken" | **Selbstzitat aus derselben Datei** (§ 6a.6) |
 
+**Achter Kandidat, nachgetragen nach dem Prüferlauf (H-3):** Die
+Reparatur des Rn.-154-Zitats zitiert im Korrekturvermerk die eigene
+**Vorfassung** („verbleiben" statt „verblieben"). Dieses Wort kann per
+Konstruktion nie im Pool stehen — **derselbe L-26-Fall wie die
+Reparatur-Kästen.** Wer eine Reparatur dokumentiert, verändert den
+Prüflauf und ergänzt die Ausnahmeliste im selben Zug; da
+`akquise/pruefe-zitate.js` R17-B gehört, geht der Eintrag hier als
+Kandidat heraus statt selbst gesetzt zu werden.
+
 Alle übrigen +43 Meldungen sind Urteils-/Beschlusszitate mit
 git-ignoriertem Rohbeleg → **Pool-Kandidaten**, nicht Ausnahmen.
+
+### N-7 · `akquise/sperrdatei-struktur.md` widerspricht sich bei den ANL-3-Pflichtfeldern
+
+*(Herkunft: Prüferbefund H-7. **Fremder Scope — nicht repariert.**)*
+
+Die Datei sagt vor § 3a: „`ANL-3`-Einträge tragen **nur** `SP-02`,
+`SP-03`, `SP-05` bis `SP-08` und `SP-10` — **niemals `SP-04`**". Das
+ist eine **abschließende Positivliste**. Aus ihr fallen damit auch
+**`SP-01` (Sperr-ID)** und **`SP-09` (Reichweite der Sperre)** heraus —
+beide in der Feldtabelle derselben Datei als **✅ Pflicht** geführt,
+`SP-09` sogar mit dem Vermerk „Fester Wert `alle Kanäle`. Das Feld hat
+keinen zweiten zulässigen Wert."
+
+**Ein `ANL-3`-Eintrag nach dieser Zeile hätte also keine Sperr-ID und
+keine Reichweitenangabe.** Die Sperr-ID ist ausweislich der Feldtabelle
+die „Referenz für `F-13` der Zielkundenliste und für das
+Abgleich-Journal" — ohne sie ist der Eintrag im Abgleich nicht
+adressierbar.
+
+**Zielort:** `akquise/sperrdatei-struktur.md` § 3 bzw. der Absatz vor
+§ 3a. **Träger: Leitsession** (die Datei war in dieser Runde für mich
+Sperrgebiet; R17-C hat sie ebenfalls nicht im Scope gehabt).
+**Nicht bewusst verworfen — weitergegeben.**
 
 ### N-6 · Die Zählweg-Angabe des R16-Abdeckungskastens war korrekt — und trotzdem falsch
 
@@ -545,6 +577,38 @@ sie gefunden. **Kandidat fürs Lehren-Register; Träger: Leitsession
    hat: „Steht in meinem eigenen neuen Text ein ‚einzige/nur/immer', und
    habe ich die anderen Fälle gezählt?"**
 
+9. **⭐ Eine Selbstkorrektur an der Fundstelle ist nicht die Klasse.**
+   Ich hatte den Superlativ an allen drei **Fundstellen** repariert —
+   und die **Folgefrage** im Briefing trug die gekippte Prämisse
+   weiter („dort fehlt die Adressatengrenze, an der die **beiden
+   anderen** Schienen sich reiben"). Ein Prüfer mit frischem Kontext
+   fand sie sofort. **Wer einen Satz kippt, sucht die Sätze, die auf
+   ihm stehen** — der Suchraum ist die Schlussfolgerung, nicht das
+   Wort.
+10. **⭐ Gelesen ist nicht ausgewertet — auch bei 27 Randnummern.** Ich
+   hatte den OLG-Beschluss vollständig gelesen und trotzdem zwei
+   Randnummern übersehen (19 und 27), die den eigenen Bestand
+   **stärken**. Beide beantworten Fragen, die ich im selben Dokument
+   als „bleibt offen" führte. Die Auswertung lief entlang meiner
+   Fragen; was daneben lag, blieb liegen. **Das ist der
+   Gegen-Durchgang, den das Regelwerk für fremde Quellen verlangt —
+   er ist auch bei einer achtseitigen Quelle fällig.**
+11. **⭐ Wo die Quelle liefert, nicht selbst argumentieren.** Für „der
+   Beschluss will über den Einzelfall hinaus nichts festschreiben"
+   hatte ich einen eigenen Strukturschluss gebaut („hätte ohne diesen
+   Satz denselben Tenor") — und ihn mit „das ist keine Bewertung"
+   abgesichert. **Beides überflüssig:** Rn. 27 sagt es selbst
+   (Rechtsbeschwerde nicht zugelassen). Ein eigenes Argument neben
+   einem ungelesenen Quellenbeleg ist doppelt teuer — es ist
+   angreifbar **und** es verdeckt, dass die Quelle mehr hergibt.
+12. **⭐ Vorher und Nachher auf demselben Lineal.** „63 von 77" (Rn.-
+   Muster) und „77 von 77" (Rn.-Muster **plus** Tabellenzellen) waren
+   zwei verschiedene Zählwege für dieselbe Kennzahl. Verschärfend: Der
+   Kasten **wusste** es und schrieb es sogar hin — „diese Zellform …
+   wird vom Rn.-Muster nicht erfasst" — und zog daraus keine
+   Konsequenz für die eigene Ergebniszahl. **Eine benannte
+   Geltungsgrenze ersetzt die Messung nicht.**
+
 ### (ii) Bewährte Muster
 
 1. **Erst die Volltexte sichern, dann arbeiten.** Der eigene
@@ -576,12 +640,179 @@ sie gefunden. **Kandidat fürs Lehren-Register; Träger: Leitsession
    mit der Vorgabe „wenn nein: streichen". Er hält — und die richtige
    Antwort war, das zu belegen und den fehlenden Kontext zu ergänzen,
    statt der erwarteten Richtung zu folgen.
+8. **⭐ Der Prüfer soll den Prüfstand einfrieren — und die eigene
+   Arbeit darf danach weitergehen.** Meine Selbstkorrektur (S-1) fiel
+   **nach** `af92adb`, der Prüfer sah sie nicht und meldete den Befund
+   unabhängig. Das ist kein verschwendeter Prüferaufwand, sondern der
+   Idealfall: **zwei unabhängige Wege zum selben Befund** — und er
+   brachte zwei Widerlegungen mehr als meine und fand die Folgefrage,
+   die ich übersehen hatte. **Wer bei einem Selbstfund den Prüfauftrag
+   nachträglich verengt, verliert genau das.**
+9. **⭐ Ein Prüfer, der seine eigenen Zahlen gegenläuft, ist mehr wert
+   als einer, der keine Fehler macht.** Vier seiner Zahlen waren
+   falsch, drei davon **in Richtung seiner eigenen These** — er hat
+   sie offen korrigiert, eine zu weite Verneinung **gestrichen statt
+   abgeschwächt**, und der zugehörige Befund (M-5) überlebte in
+   engerer Fassung. Genau deshalb ist er belastbar. Sein
+   Selbstkontaminations-Fall (`Rn. 224` = 1 Treffer — sein eigenes
+   Protokoll) ist die beste Illustration der Regel, die er im selben
+   Lauf dem Bau vorhielt.
 
 ---
 
-## Block 5 — Prüfer-Laufstatus
+## Block 5 — Prüfer: Laufstatus und Disposition aller Befunde
 
-*(wird nach dem Prüferlauf ergänzt)*
+**Der Prüfer ist vollständig durchgelaufen.** Ein unabhängiger
+Subagent mit frischem Kontext, eingefrorener Prüfstand `af92adb`,
+Schreibrecht nur auf `protokolle/R17-A-pruefer.md` (1.123 Zeilen),
+Arbeitsbaum-Diff nicht gesichtet. Verbrauch: **297.546 Token,
+61 Werkzeugaufrufe, 22,7 Minuten.**
+
+### 5.1 Laufstatus je Prüfschritt — kein Schritt geglättet
+
+| Pflicht-Kategorie | Status |
+|---|---|
+| 1 · Von der Quelle rückwärts (OLG Rn. 1–27 **ganz**, LG Rn. 121–273) | **vollständig** für den OLG-Beschluss; beim LG-Urteil **eine benannte Lücke**: Rn. 178–209 (Antrag III) hat auch der Prüfer nicht gelesen — von ihm selbst als Fundort ausgewiesen |
+| 2 · Jedes Zitat am Rohbeleg, Aussage UND Fundstelle getrennt | **vollständig** — 34 Zitate |
+| 3 · Rechtsfolgen ohne anwaltlichen Rat | **vollständig** |
+| 4 · Löschungszählung, jede Zeile einzeln | **vollständig**, beide Nenner |
+| 5 · Fließtext (L-27) + eigener Reparaturtext (L-49) | **vollständig** |
+| 6 · Briefing: „Welcher Satz würde die Antwort ändern?" | **vollständig** — 119 neue Zeilen gelesen |
+| § 3 „Nicht erhoben / nicht prüfbar" | **9 Fundorte** benannt |
+
+### 5.2 Was der Prüfer bestätigt hat
+
+- **Löschungszählung 14/14 mit sichtbarer Vorfassung, 0 stille
+  Löschungen** — beide Nenner identisch.
+- **33 von 34 Zitaten byte-genau am Rohbeleg**, das 34. (Binnenzitat
+  aus dem eigenen Bestand) normalisiert. **Kein falsches Zitat, keine
+  falsche Randnummer** — „besser als jede von mir geprüfte Vorrunde".
+- **„63 statt 65, vierzehn statt zwölf" mit einem eigenen, unabhängig
+  gebauten Zähler exakt reproduziert**, inklusive der Neufunde 149/150,
+  mit zweitem Lesekanal je Randnummer.
+- **Alle 13 Positivkontroll-/Nullbefunde am OLG-Beschluss reproduziert**,
+  ebenso 8.297 Zeichen und „Rn. 1–27 vollständig" (**Rn. 28 existiert
+  nicht** — eigens geprüft).
+- **Die Sprachfassungs-Prüfung ist am Objekt belegt:** Beide
+  EuGH-Extrakte tragen die Randnummer als eigene Zeile — „Rn. 56" ist
+  **abgelesen, nicht ausgezählt**.
+- Die SP-Feld-Korrektur ist „ein sauberer Selbstfang".
+
+### 5.3 Disposition — kategorienweise MIT NENNER
+
+**19 von 19 disponiert: 18 repariert · 1 als Nebenbefund weitergegeben
+· 0 stillschweigend liegengelassen.**
+
+| Schwere | Zahl | repariert | weitergegeben |
+|---|---:|---:|---:|
+| schwer | 1 | **1** | 0 |
+| mittel | 8 | **8** | 0 |
+| Hinweis | 10 | **9** | **1** (H-7, fremder Scope) |
+| **Summe** | **19** | **18** | **1** |
+
+#### Der schwere Befund
+
+**S-1 · Superlativ „die einzige, deren Tatbestand B2B ausdrücklich
+einschließt" in drei Dokumenten — REPARIERT.**
+⭐ **Diese Session hatte den Befund vor dem Prüferlauf selbst gefunden
+und in `ecb197c` repariert** — also nach dem eingefrorenen Prüfstand
+`af92adb`, den der Prüfer las. **Das entwertet den Befund nicht,
+sondern bestätigt ihn doppelt und unabhängig.** Der Prüfer bringt drei
+Widerlegungen, von denen meine Selbstkorrektur nur die erste hatte
+(§ 3a UWG, Rn. 143); er ergänzt § 5a Abs. 4 UWG (steht bereits in
+derselben Rechtsmatrix) und § 5 Abs. 1/2 UWG (vom Bau eine Zeile unter
+dem Superlativ selbst zitiert).
+⚠️ **Und er findet, was meine Selbstkorrektur übersehen hatte:** die
+**Folgefrage** im Briefing — „dort fehlt die Adressatengrenze, an der
+die **beiden anderen** Schienen sich reiben". Sie trug die falsche
+Prämisse weiter, nachdem die Überschrift schon korrigiert war. **Jetzt
+repariert**: Teilfrage 1c (a) trägt eine ausdrückliche Einordnung, von
+welcher Schiene die Verbraucherbindung gilt und von welcher nicht.
+**Lehre daraus: Eine Selbstkorrektur an der Fundstelle ist nicht die
+Klasse — die Folgesätze tragen die gekippte Prämisse weiter.**
+
+#### Die acht mittleren — alle repariert
+
+| # | Befund | Reparatur |
+|---|---|---|
+| **M-1** | „(§ 5 UWG)" beim OLG-Beschluss, in dem `UWG` = 0 ist — fünf Zeilen unter der eigenen Messung | Klammer ersetzt; die Sachaussage (Irreführungs- statt DSGVO-Achse) bleibt, sie ist aus Rn. 22 belegt |
+| **M-2** | „77/77" auf anderem Lineal gemessen als „63/77" — unter dem deklarierten Rn.-Muster sind es 68/77 | Zählweg auf **zwei Kanäle** umgestellt und ausgewiesen; der Vorher-Wert im selben Doppel-Kanal bleibt 63 (vom Prüfer geprüft) |
+| **M-3** | Rn.-126-Zelle machte aus „weder geltend gemacht noch drängt es sich auf" ein „erfüllt keinen" — und darauf ruhte die Auffangweg-Aussage | Zelle **wörtlich** gefasst; Wirkungsspalte auf „nicht Streitstoff" umgestellt, die Rangfolgen-Behauptung gestrichen (Rn. 136 stellt gerade keine auf) |
+| **M-4** | **Rn. 243/244 stammen aus dem Antrag-V-Block**, nicht aus 221–234 — und für Antrag IV bejaht **Rn. 224** die Vermutungsregel gerade; Rn. 224 fehlte im ganzen Bestand | Rn. 224 als eigene Tabellenzeile **neu aufgenommen**; Rn. 243/244 ausdrücklich als **Analogie aus einem anderen Antragsblock** beschriftet — in allen **drei** Dokumenten |
+| **M-5** | Zwei Betriebsfolgen sprachen Recht ohne Anwaltsvorbehalt (Widerlegung der Wiederholungsvermutung; Dienstleister als „Beauftragte") | Beide auf die Quellenaussage **zurückgeschnitten**; die Beauftragten-Frage als **Teilfrage 1d** ins Briefing |
+| **M-6** | Das Briefing behauptete die **Ursache** des R09-A-Negativs als Tatsache, während die eigene Quellenliste sie „nicht feststellbar" nennt | Auf den Stand der Quellenliste zurückgeführt |
+| **M-7** | OLG **Rn. 19** nicht angekommen — sie belegt quellennäher, dass die Gläubigerin Mitbewerberin ist, und zeigt: die Irreführungsfigur ist **dieselbe** wie im hiesigen Urteil | Zwei Absätze ergänzt; die Aussage zur **Identität der Schreiben** bleibt ausdrücklich **offen** |
+| **M-8** | OLG **Rn. 27** nicht angekommen: Rechtsbeschwerde **nicht zugelassen** | Als Quellenbeleg aufgenommen — **und der eigene Strukturschluss gestrichen**, den er ersetzt (s. H-5) |
+
+⭐ **M-7 und M-8 sind die lehrreichsten:** Beide Randnummern **stärken**
+den eigenen Bestand, und beide blieben liegen. Der Beschluss hat nur
+27 Randnummern, und ich hatte ihn vollständig gelesen — **gelesen ist
+nicht ausgewertet** (dieselbe Klasse wie der Gegen-Durchgang, den das
+Regelwerk für Quellen im eigenen Archiv verlangt). Bei M-8 kommt
+hinzu: Ich habe **selbst argumentiert, wo die Quelle liefert** — ein
+eigener Strukturschluss („der Beschluss hätte ohne diesen Satz
+denselben Tenor") stand dort, wo Rn. 27 den Beleg bereithielt.
+
+#### Die zehn Hinweise
+
+| # | Befund | Disposition |
+|---|---|---|
+| **H-1** | Zielort `R17-A-abschluss.md` existierte bei `af92adb` nicht — die Behauptung „vollständige Auswertung Rn. 156–273" war am Prüfstand nicht verifizierbar | **eingelöst** mit `4f739f5`; die Leitsession kann den Nenner jetzt prüfen |
+| **H-2** | „Z. ~251" ohne Commit-Bezug, acht Zeilen unter einer korrekt gesetzten Angabe | **repariert** — Abschnittsbezug |
+| **H-3** | „verbleiben"-Reparatur ohne Ausnahmelisten-Eintrag; `Rn. 9999` als Kontaminations-Kandidat | **teils repariert, teils weitergegeben** — s. u. |
+| **H-4** | „sonst existiert es im Prozess nicht" überzeichnet eine Darlegungslast zur Beweisregel | **repariert** |
+| **H-5** | „Das ist keine Bewertung, sondern die Struktur der Entscheidung" ist selbst eine Entwarnung | **gestrichen**, durch Rn. 27 ersetzt |
+| **H-6** | Zweiter Superlativ derselben Klasse: „die einzige, die glatt durchlief" | **repariert** — Kriterium steht jetzt im Satz |
+| **H-7** | `sperrdatei-struktur.md`: SP-01 und SP-09 fallen aus der ANL-3-Positivliste heraus, obwohl beide Pflichtfelder sind — die Quelle widerspricht sich | ⚠️ **NICHT repariert — fremder Scope.** Als Nebenbefund **N-7** an die Leitsession, Zielort `akquise/sperrdatei-struktur.md` § 3 |
+| **H-8** | Rn. 211/214 nicht angekommen | **repariert** — Rn. 214 als fünfter Spiegelstrich, Rn. 211 im selben Absatz; zusätzlich im Briefing bei Teilfrage 1d |
+| **H-9** | „steht in der Rechtsmatrix" ohne Abschnitt (1.848 Zeilen) | **repariert** |
+| **H-10** | Rn.-250-Zitat schluckte den § 31 BGB | **repariert** — vollständig zitiert |
+
+**Zu H-3, weil es zwei Sachen sind:** (a) Der Ausnahmelisten-Eintrag
+für das reparierte „verbleiben"-Zitat gehört in
+`akquise/pruefe-zitate.js` — **R17-B-Scope, nicht angefasst**; als
+achter EIGEN-Kandidat in N-5 aufgenommen. (b) Der Gegenkontrollwert
+`Rn. 9999` in meinem Zählskript ist unbedenklich (er steht in keinem
+Dokument), aber der Prüfer hat recht mit der Klasse: Ein
+Kontrollbegriff, den man selbst in ein Protokoll schreibt, kann sich
+selbst treffen. **Er hat es an sich selbst erlebt** — sein erster Lauf
+meldete `Rn. 224` = 1 Datei, und der Treffer war sein eigenes
+Protokoll.
+
+### 5.4 Alle 13 neuen Zitate der Reparaturrunde am Rohbeleg geprüft
+
+**13 / 13 bestätigt · Gegenproben 2 / 2** (Rn. 126, 211, 214, 224, 239,
+243, 250 des Urteils · Rn. 19 und 27 des Beschlusses · die
+Irreführungsfigur aus Rn. 111). Zusammen mit den 30 aus dem Bau und den
+3 aus der Zitat-Reparatur: **46 von 46 Zitaten dieser Session
+mechanisch am Rohbeleg bestätigt.**
+
+### 5.5 Was der Prüfer über sich selbst sagt — und warum das zählt
+
+Sein § 4 weist **vier eigene falsche Zahlen** aus, **drei davon in
+Richtung seiner eigenen Befundthese** (`Marktteilnehmer` 15→10,
+`Unterlassungserklärung` 0→1, `Wiederholung` 3→6, `Rn. 224` 0→1). Die
+letzte war eine **Selbstkontamination**: Der Treffer war sein eigenes
+Protokoll. Alle vier sind offen korrigiert; eine zu weite Verneinung
+in M-5 hat er **gestrichen statt abgeschwächt**.
+**Das ist der Grund, warum sein M-5 trotzdem trägt:** Der Befund
+überlebte die eigene Korrektur in engerer Fassung, mit erweitertem
+Suchweg über vier Sachbegriffe und greifender Positivkontrolle.
+
+### 5.6 Offen geblieben nach der Prüfung
+
+1. **Rn. 178–209 des Urteils (Antrag III, AGB-/Klauselfrage)** — der
+   einzige zusammenhängende Block zwischen 156 und 273, den **weder
+   der Bau noch der Prüfer** gelesen hat. Ich habe ihn als Block
+   ausgewertet (§ 1.3, mit der Rn.-187/188-Fernwirkung als N-2), aber
+   **nicht Randnummer für Randnummer**. **Träger: nächste
+   Rechtsmatrix-Pflege.** *Der R15-A-Prüfer hat vorhergesagt, dass
+   ungelesene Quellabschnitte Funde tragen — in dieser Runde hat sich
+   das mit Rn. 156–273 bestätigt. Der Satz gilt für diesen Rest
+   weiter.*
+2. **Die acht übrigen Fundorte aus § 3 des Prüferprotokolls** sind
+   dort mit Fundort benannt; sie sind Nacharbeits-Liste, kein
+   Haftungsausschluss. **Träger: Leitsession beim Rundenschnitt.**
 
 ---
 

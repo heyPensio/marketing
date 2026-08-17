@@ -103,6 +103,7 @@ const POOL = [
   'akquise/interessenabwaegung-o8.md',
   'fund/wettbewerbsbild.md',
   'handel/preismodell-optionen.md',
+  'lehren-register.md', // R17-Debrief: Traeger der aus CLAUDE.md ausgelagerten Belegtexte (V17-nn) - CLAUDE.md-Zitate in Fremddokumenten bleiben belegbar
 ];
 
 // Der R15-Nenner (863) und der bei der ZIEL-Erweiterung bereits vorhandene

@@ -2267,9 +2267,10 @@ dazu stehen bereits unter dem jeweiligen L-Eintrag bzw. Sammelvermerk.)*
   ERGEBNISSES (bekannte Elemente müssen in der Extraktion erscheinen),
   nicht die Erreichbarkeit der Quelle — „Nutzlast gefunden" beglaubigt
   keine vollständige Liste.
-- **V17-2 (Kontrolle PRO MUSTER, heyPensio R35):** Ein Sammellauf mit
+- **V17-2 (Kontrolle PRO MUSTER, heyPensio R35):** Wortlaut des
+  Alt-Kerns: „ein Sammellauf mit
   Treffern sieht aus wie ein funktionierender Prüfweg und verdeckt das
-  einzelne tote Muster — gemessen: 45 Muster schlugen in Summe an, drei
+  einzelne tote Muster" — gemessen: 45 Muster schlugen in Summe an, drei
   waren wirkungslos (Tippfehler, fehlendes Muster, Versalien-Schreibweise
   nie getroffen); das dritte fand erst ein Selbsttest, nicht der Prüfer.
   Daraus die Selbsttest-Datei-Pflicht (jedes Muster feuert mindestens

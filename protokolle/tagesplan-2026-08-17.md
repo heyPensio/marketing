@@ -767,3 +767,40 @@ R15, eigene Leitsession).
   den ungepushten Fremd-Commit `8e5ea42` (BENBECKMAN, R16-A läuft). Ein
   Refspec-Push schützt nur nach oben — ich pushe erst, wenn Ben Beckman
   gepusht hat (Regel L-14).
+
+### Zwischenstand Leitsession ~16:40 MESZ — R16-A reviewt, Runde inhaltlich fertig
+
+- **R16-A (Ben Beckman) — Voll-Review nach innen: bestanden.** Commits
+  `a495a0f` · `8e5ea42` · `ed9bbdf` · `1a819d7` (nur die fünf eigenen
+  Pfade; hat meine zwei fertigen Commits als Vorfahren mitgepusht — in
+  Ordnung). **Prüferliste selbst gezählt** (`R16-A-pruefer.md` § 6):
+  SCHWER 2 · MITTEL 7 · HINWEIS 9 = 18; Disposition der Session 2/2 ·
+  7/7 · 8/9 + H-8 → Leitsession — Nenner stimmt. Löschungen gegen
+  Rundenstart: Rechtsmatrix 12 (Vorfassungen wörtlich im Reparatur-Kasten
+  Z. 665 ff.; „kein Mitbewerber" als **gestrichen** ausgewiesen Z. 1110),
+  Briefing 12 (Statusblock/§ 2.1-Konsistenz), o8 0. Prüfer-Laufstatus:
+  5/5 Kategorien, **8 Nacharbeits-Fundorte offen** (S. 3 des Protokolls,
+  in der Meldung als NICHT erledigt ausgewiesen — L-48 eingehalten).
+  Erfüllt-Posten: R15A-N-1…N-5 (6/6 § 6a-Zeilen), o8 § 11.2 Nr. 3,
+  R15E-N-4 (als Entscheid statt Nachtrag), Briefing-Ziele 1 + 2.
+- **Nach außen (Zielorte, Debrief):** N-1 (o8 § 6.2/§ 11.2, Regelwerk
+  § 7.1, `preismodell-optionen.md` Rn.-87-Satz tragen den neuen
+  Bestandsvermerk nicht) → MKT-HANDEL nächste Runde + STATUS/Projektquelle
+  Leitsession · N-2 (einziger Kanzleiname im Repo: DEHOGA-Hamburg-Berater,
+  `fund/wettbewerbsbild.md`) → in die Empfänger-Entscheidung · N-6/H-8
+  (Positivkontrolle „119" in § 6a → `Mitbewerber[a-zä]*` = 8) →
+  Leitsession Debrief · N-8 (12 Rn. 121–155 nie angekommen) → MKT-HANDEL ·
+  N-5 (Ausnahme-Kandidaten Wächter) → s. u. · Nacharbeits-Fundorte 1–8 →
+  MKT-HANDEL/Anwalt (OLG-Beschluss beschaffen!).
+- **Folgebefund Wächter (eigener Lauf nach A):** `kanal-rechtsmatrix.md`
+  227 geprüft / 32 bestätigt / 144 Altlast / **51 NEU** → Exit 1 —
+  korrekt: Urteils-Zitate (Rohbeleg `sensibel/rohbelege-R09-A/…txt`,
+  nicht im Pool) + eigene Formulierungen in Anführungszeichen (N-5).
+  **Entscheid im Debrief:** Pool um lokale Rohbeleg-Pfade (mit
+  Fehltoleranz für frische Klone) + Ausnahmeliste für N-5 — sonst ist der
+  frisch entrotete Wächter am ersten Abend wieder rot.
+- **User-Entscheide aus der Runde (Klartext, je in der Abschlussmeldung
+  ausgearbeitet):** (1) selbstkritischer Satz an den nicht mandatierten
+  Anwalt? (2) Kanzlei? (3) Name/„in Gründung"? (4) § 4a Kandidaten A/B
+  mitgeben? (5) E-A4 300er-Schwelle.
+- Block 1 fertig → **`/debrief` R16** jetzt (Block 2).

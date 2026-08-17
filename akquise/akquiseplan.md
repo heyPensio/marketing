@@ -442,6 +442,153 @@ Wahrscheinlichkeit für null Antworten = (1 − p)^n):
 > **Ein „wir schaffen das schon" ohne diese Zahl wäre eine Entwarnung
 > ohne Quelle.**
 
+### 4.4 Planungskonflikt 300er-Schwelle — Entscheidungsvorlage
+
+> **Stand 17.08.2026 (R16-C), Prüfstand `0c4692f`.** Herkunft: Nebenbefund
+> **R15E-N-5**. **Hier wird nichts entschieden** — dieser Abschnitt legt
+> den Konflikt offen, prüft die Herkunft der Zahl und stellt vier
+> Optionen mit ihren Folgen nebeneinander. Der Entscheid liegt beim
+> User (neue Zeile in § 8). **Kein Rechtsrat.**
+
+**Worum es geht, ohne Fachwörter:** Bevor wir Hotels anschreiben dürfen,
+ohne dass die uns vorher gefragt haben, brauchen wir eine schriftliche
+Begründung, warum unser Interesse schwerer wiegt als das Interesse der
+Angeschriebenen. Diese Begründung existiert (`akquise/interessenabwaegung-o8.md`,
+kurz o8). Sie enthält eine Selbstauflage: Sobald eine Versandwelle mehr
+als 300 Briefe umfasst, muss die Begründung vor dem Versand noch einmal
+neu durchgegangen und das Ergebnis festgehalten werden. Zugleich rechnet
+dieser Plan damit, dass wir für **einen** Abschluss mehrere Hundert bis
+über tausend Briefe brauchen. **Jede Welle, die für die Frist etwas
+bringt, löst die Auflage also aus.**
+
+**A. Der Sachverhalt — drei Zahlen aus drei Dokumenten**
+
+| Rolle | Fundstelle | Zahl | Zählweg / Herleitung an der Fundstelle |
+|---|---|---|---|
+| **Decke** (Auflage) | `akquise/interessenabwaegung-o8.md` § 11.3, Spiegelstrich 4 | Menge je Welle **über 300 Stück** → Abwägung neu führen | Keine Rechnung. Verweis auf Skalenfaktor **P-7** (o8 § 5.1) und **R-K1** (`akquise/listenbau-regelwerk.md` § 8a). Vermerk dort: eingesetzt 12.08.2026, Prüferbefund **Q-10**, Begründung sinngemäß — ein Trigger ohne Schwellenwert ist nicht bedienbar |
+| **Boden** (Messbarkeit) | § 4.1 Annahme **A-8**, ausgerechnet in § 4.3 | Mindest-Wellengröße **~300** | P(0 Antworten) = (1 − p)^n; bei n = 300 und p = 1 % ist P(0) = 0,049. Eigene Nachrechnung 17.08.2026: 0,99^300 = 0,0490 ✓; die kleinste ganze Zahl mit P(0) < 0,05 ist **n = 299** — die 300 ist deren Aufrundung |
+| **Bedarf** | § 4.2, Trichterrechnung | **≈ 337** (optimistisch) · **≈ 606** (mittel) · **1.600** (pessimistisch) Briefe für **einen** Abschluss | Kehrwert des Produkts der vier Quoten A-1…A-4. Eigene Nachrechnung 17.08.2026: 336,7 / 606,1 / 1.600,0 ✓ |
+
+> ⭐ **Die Zahl 300 steht in diesem Plan gleichzeitig als Untergrenze und
+> als Obergrenze.** Unter ~300 ist eine Welle nicht auswertbar (A-8),
+> über 300 löst sie die Neu-Führung aus (o8 § 11.3). Das erlaubte Fenster
+> ist damit **ein einziger Punkt: genau 300** — die Auflage greift erst
+> bei Überschreiten. Und dieser eine Punkt liegt **unter** der kleinsten
+> Menge, die nach § 4.2 für einen Abschluss reicht (≈ 337). *(Zählweg:
+> 337 − 300 = 37; die Differenz ist klein, die Richtung eindeutig.)*
+
+**B. Die Kernfrage: Stammt die 300 aus einer Quelle — oder ist sie unsere
+eigene Setzung?**
+
+**Ergebnis: eigene Setzung, ohne Quellenbindung.** Belege, jeweils am
+Objekt gelesen (Stand `0c4692f`):
+
+1. Die Zahl in o8 § 11.3 verweist auf **R-K1** im Regelwerk § 8a. Dort
+   ist sie ein **Rechenbeispiel** für den Kostensprung bei Massenversand
+   (eine Welle von 300 gleichartigen Briefen mit demselben Fehler koste
+   nicht das 300-Fache, aber auch nicht das Einfache) — **keine
+   Schwelle, keine Ableitung aus einer Norm**. Die darüberliegende
+   Quellen-Tabelle des Regelwerks § 8a nennt als Risikotreiber
+   Massenaussendung **ohne Zahl**.
+2. o8 weist die Herkunft selbst als schwach aus: In P-7 trägt das
+   EuGH-Zitat die Belegstufe ① A, die **Mengenangaben** dagegen sind
+   dort ausdrücklich als **eigener Beleg-Typ** gekennzeichnet, der von
+   der ①-Stufe des Zitats **nicht gedeckt** ist.
+3. **Suchlauf über die fünf einschlägigen Primärquellen** (Rohbelege
+   `sensibel/rohbelege-R09-A/`: DSK-Orientierungshilfe Werbung 2022 und
+   ihr Zweitkanal-Abzug, EuGH C-621/22 EN, EuGH C-621/22
+   DE-Amtsblattmitteilung; `sensibel/rohbelege-R15-A/`: UWG-Volltext) —
+   Muster `300` als Ziffernfolge, Werkzeug `grep -o … | wc -l`,
+   17.08.2026: **0 Treffer in allen fünf Dateien.**
+   **Positivkontrolle gleicher Zeichenklasse** (dreistellige Ziffern-
+   folgen, `[0-9]{3}`): 111 / 111 / 119 / 22 / 130 Treffer — das Muster
+   kann in jeder Datei treffen. ⚠️ **Reichweite dieses Negativs:** Es
+   deckt genau diese fünf Dateien, nicht die Aussage, dass keine Quelle
+   irgendwo eine 300er-Schwelle kennt. ⚠️ Der Zweitkanal-Abzug der
+   DSK-Orientierungshilfe ist **kein unabhängiger Lesekanal** (gleiche
+   Datei über zweiten Bezugsweg; identische Trefferzahlen 111/12).
+4. **Zeitliche Herkunft** (`git log -S`, 17.08.2026): Beispielzahl in
+   R-K1 **und** Rechnung zu A-8 entstanden im **selben** Commit
+   `6e4daa5` (11.08.2026, Session R08-A); der Trigger in o8 kam einen
+   Tag später mit `3e83253` (12.08.2026). ⚠️ **Daraus folgt nicht, dass
+   beide Zahlen unabhängig voneinander hergeleitet wurden** — sie
+   stammen aus einem Schreibvorgang; die Texte nennen unterschiedliche
+   Herleitungen, ein Bezug zwischen ihnen ist nicht dokumentiert. Als
+   Zufallstreffer zweier unabhängiger Rechnungen darf die Übereinstimmung
+   **nicht** dargestellt werden.
+
+**C. Was die Auflage NICHT sagt** (Klartext, weil hier der teuerste
+Lesefehler droht): Sie verbietet **keine** Welle über 300. Sie verlangt,
+dass die Abwägung vor dem Versand **neu geführt** wird. Eine Welle von
+1.600 Briefen ist danach nicht unzulässig — sie ist an eine Arbeitsstufe
+gebunden, deren **Ergebnis offen** ist.
+
+**D. Was dazu bereits gebaut ist** (keine zweite Fundstelle anlegen —
+dies ist ein Zeiger): `akquise/wellenprotokoll-vorlage.md` § 8a führt den
+Block G2 mit **WP-34** (erste reale Welle → Stopp), **WP-35** (mehr als
+300 → Stopp) und **WP-36** (neue Adressquelle → Stopp). WP-35 benennt
+den Konflikt bereits mit denselben Planzahlen. **Der operative
+Alarm existiert also schon; offen ist die Planungsentscheidung.**
+
+> ⭐ **Der Befund, der den Konflikt für Welle 1 entschärft:** o8 § 11.3
+> nennt als **ersten** Trigger den Bau der ersten realen Welle — ganz
+> ohne Mengenbezug (abgebildet als WP-34). **Für Welle 1 ist die
+> Neu-Führung damit ohnehin Pflicht; die 300er-Schwelle erzeugt dort
+> keinen zusätzlichen Aufwand.** Der Zusatzaufwand entsteht erst ab
+> Welle 2. *(Belegrichtung beachtet: Das ist eine Entlastung und trägt
+> deshalb ihre Fundstelle im Satz — o8 § 11.3 Spiegelstrich 1, gelesen
+> 17.08.2026.)*
+
+**E. Die Optionen**
+
+| | Was man tut | Folgen — belegt | Was offen bleibt |
+|---|---|---|---|
+| **(A)** | **Wellen auf höchstens 300 Stück deckeln** und mehrere Wellen fahren | Wellenzahl bei Deckel 300 (Zählweg: aufgerundeter Quotient): optimistisch **2**, mittel **3**, pessimistisch **6** Wellen. ⚠️ **Für die November-Frist trägt trotzdem nur Welle 1:** Die Kette § 3.1 verlangt Erstkontakt bis **Fr 11.09.2026** (11.09. + 63 Tage = 13.11.2026 ✓, per `Get-Date` erhoben). Eine zweite Welle am Fr 25.09. käme bei 8 Wochen Restkette am **20.11.**, bei 9 Wochen am **27.11.** an — beides **nach** dem Anker. Der späteste noch tragende Versandtag ist **Fr 18.09.2026** (13.11. − 56 Tage), und das nur in der kürzesten Lesart aller vier Stufen | Wie viele Wellen bis 11.09. überhaupt produzierbar sind, hängt an **A-6** (eigene Wochenkapazität, **nicht erhoben**, Handgriff H-2). Ohne diese Zahl ist Option A **nicht bezifferbar** |
+| **(B)** | **Neu-Führung als Regelbetrieb annehmen** — jede Welle über 300 durchläuft sie | Der Alarm ist gebaut (WP-35), das Ergebnis-Feld ebenfalls (**WP-39**). Für Welle 1 **kein** Zusatzaufwand (s. Kasten oben) | ⚠️ **Der Aufwand ist heute nicht bezifferbar, weil der Umfang nirgends definiert ist:** Weder o8 § 11.3 noch die Vorlage sagen, ob Neu-Führung eine Vollrevision des Dokuments (1.239 Zeilen, fünf Primärquellen, Zitatabgleich — s. o8 § 12.4) oder einen Delta-Abgleich der geänderten Größe meint. **Suchweg 17.08.2026:** `grep -rniE "neu zu führen|neu geführt|Neu-Führung"` über `akquise/*.md` und `handel/*.md` — 4 Treffer in der Sache, **keiner** definiert den Umfang |
+| **(C)** | **Schwelle anpassen** (z. B. auf die Planzahl heben) | **Zulässig** — die 300 ist nach Abschnitt B eigene Setzung ohne Quellenbindung, also nicht durch eine Fremdquelle gesperrt. Eine Änderung trifft o8 (Scope MKT-HANDEL/Leitsession), nicht diesen Plan | ⚠️ **Zulässig ist die Option, nicht jede Begründung.** Eine Anhebung, die damit begründet wird, dass die eigene Planung die Schwelle reißt, ist genau die Bewegung, die ein Anwalt oder eine Aufsicht als Selbstbedienung liest — und P-7 trägt laut eigenem Wortlaut nur, solange die Auflage eingehalten wird. Eine Anhebung braucht eine **sachliche** Begründung (welche Menge welche Skalenwirkung hat), und die ist heute nicht erhoben |
+| **(D)** | **Zuerst den Umfang der Neu-Führung definieren**, dann über A/B/C entscheiden | Kleinster Schritt: ein Satz in o8 § 11.3, der sagt, was neu zu führen heißt (Vollrevision / Delta-Abgleich / Ergebnisvermerk im Wellenprotokoll). Macht (B) bezifferbar und (C) begründbar | Zuständig ist der Träger von o8 — **nicht** dieser Plan und **nicht** diese Session |
+
+**F. Empfehlung — mit Vorbehalt, nicht entschieden**
+
+**Vorschlag: (D) zuerst, danach (B).** Begründung: Der Konflikt ist für
+die einzige fristrelevante Welle bereits aufgelöst (Welle 1 löst die
+Neu-Führung ohnehin über WP-34 aus), und die einzige unbekannte Größe
+ist der Umfang dieser Arbeitsstufe. (D) kostet einen Satz und macht die
+übrigen Optionen erst vergleichbar. **(A)** taugt als
+Kapazitätsentscheidung, **nicht** als Antwort auf die Auflage (s. G-1).
+**(C)** bleibt offen, sollte aber nicht als erste Bewegung gewählt
+werden.
+
+**Getragenes Restrisiko — getrennt von „zulässig":** Auch nach einer
+Neu-Führung bleibt der Weg-(b)-Vorbehalt aus o8 § 5.4 bestehen; die
+Fallgruppe FG-4 ist dort ausdrücklich als getragenes Risiko und nicht
+als zulässig geführt. Dieser Abschnitt ändert daran **nichts** und darf
+nicht als Entlastung gelesen werden.
+
+**G. Drei Entlastungen, die hier ausdrücklich GESPERRT sind**
+
+| # | Die naheliegende Entlastung | Warum sie nicht trägt |
+|---|---|---|
+| **G-1** | *Wir teilen 600 Briefe in zwei Wellen à 300 — dann greift die Auflage nie.* | Die Auflage kommt aus dem Skalenfaktor P-7, und der zielt auf den **Umfang der Verarbeitung**, nicht auf die Versandlogistik. Dieselbe Adressmenge in Tranchen zu zerlegen mindert die Skalenwirkung nicht; es umgeht nur den Zähler. Genau diese Lesart würde die Gegenseite mit dem eigenen o8-Satz kippen, dass der Faktor nur trägt, solange die Auflage eingehalten wird |
+| **G-2** | *Die 300 ist ohnehin selbst gesetzt, also nicht bindend.* | Eine selbst gesetzte Auflage ist gegenüber Dritten **kein** schwächeres Argument, sondern ein dokumentierter Sorgfaltsmaßstab: Sie steht in einer versionierten Datei mit Datum. Sie später zu ignorieren ist schlechter als sie nie gesetzt zu haben |
+| **G-3** | *Der Trigger verbietet nichts, also ändert er nichts.* | Richtig ist der erste Halbsatz (Abschnitt C). Der zweite nicht: WP-35 ist als **Stopp** gebaut, nicht als Vermerk — ohne durchgeführte Neu-Führung gibt es nach der Freigabe-Checkliste (WP-38) keine Freigabe |
+
+**H. Was diese Vorlage nicht kann**
+
+- Sie sagt **nicht**, ob die Abwägung eine Welle über 300 trägt — das ist
+  das Ergebnis der Neu-Führung und offen.
+- Sie ersetzt **nicht** den anwaltlichen Rat (O-9, F-7 und der A7-Streit-
+  stand sind unverändert offen).
+- Sie stützt sich auf **A-1** (Antwortquote 1–3 %), und diese Annahme ist
+  nach § 4.1 ohne Repo-Beleg. Fällt A-1 anders aus, verschieben sich
+  Boden **und** Bedarf — die Struktur des Konflikts bleibt, seine Zahlen
+  nicht.
+- ⚠️ Sie rechnet mit der Kette aus § 3.1, deren Stufen **S4/S5 seit
+  Fr 14.08.2026 verstrichen** sind (heute Mo 17.08.2026, per `Get-Date`;
+  Firmierung F-7 offen laut STATUS.md „Nächster konkreter Schritt"
+  Punkt 0). Alle Kalenderaussagen oben sind damit **optimistisch
+  gerechnet**.
+
 ---
 
 ## 5. KPIs — Vorschlag, nicht beschlossen
@@ -536,6 +683,15 @@ Außenwirkung nie im Alleingang).
    offen, dass sie ansteht.
 3. **E-A3 — KPI-Set und Zielwerte verabschieden** (§ 5), einschließlich
    der kanalgetrennten Reply-Schwelle statt der pauschalen 10 %.
+4. **E-A4 — Planungskonflikt 300er-Schwelle** (📌 neu 17.08.2026, R16-C):
+   Vier Optionen mit Folgen, gesperrten Entlastungen und einer Empfehlung
+   unter Vorbehalt stehen in **§ 4.4**. Zu entscheiden ist, welcher Weg
+   gegangen wird — (A) Wellen auf 300 deckeln · (B) Neu-Führung als
+   Regelbetrieb · (C) Schwelle anpassen · (D) zuerst den Umfang der
+   Neu-Führung definieren. **Dieser Plan empfiehlt (D), dann (B)** und
+   entscheidet nicht. ⚠️ Die Umsetzung von (C) oder (D) berührt
+   `akquise/interessenabwaegung-o8.md` § 11.3 — **anderer Träger**, nicht
+   dieser Plan.
 
 ---
 

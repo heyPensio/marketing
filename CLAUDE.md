@@ -90,7 +90,9 @@ Fertig-Kriterium. Jede Ebene trägt Name + Kurz-Code:
 - **Session-Rollennamen (One-Piece-Schema, User-Entscheid 09.08.2026):**
   Marketing = Rote-Haar-Bande — Leitsession **Shanks** (Head of
   Marketing), Arbeits-Sessions **Ben Beckman, Yasopp, Lucky Roux,
-  Rockstar** (Schema + alle Banden: `zentrale\rollen-charta.md`).
+  Rockstar**, Reserve **Limejuice, Hongo, Bonk Punch** (Charta-Ergänzung
+  14.08.2026 — der Namensmangel wurde in R15 zum Kapazitätsdeckel;
+  Schema + alle Banden: `zentrale\rollen-charta.md`).
   Namen sind Rollen-Identitäten, KEINE Anker — für Anker gilt weiter
   `R<runde>-<buchstabe>`.
 

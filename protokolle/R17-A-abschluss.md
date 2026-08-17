@@ -271,22 +271,43 @@ eigene Kategorie aufgegeben.
 
 ### 1.7 Löschungszählung
 
-`git diff --numstat 926ca3c..af92adb`:
+**Zwei Nenner** (L-38: ein einzelner Nenner verschweigt entweder Arbeit
+oder suggeriert Löschungen an fremdem Text).
+
+**(a) Gegen den Rundenstart `926ca3c` — der Nenner, der zählt**
+(`git diff --numstat 926ca3c..ecb197c`, nur meine fünf Dateien):
 
 | Datei | + | − |
 |---|---:|---:|
-| `akquise/interessenabwaegung-o8.md` | 98 | **0** |
+| `akquise/interessenabwaegung-o8.md` | 104 | **0** |
 | `handel/preismodell-optionen.md` | 29 | **0** |
 | `handel/angebotsarchitektur.md` | 25 | **3** |
-| `handel/anwalts-briefing-2026-08.md` | 119 | **7** |
-| `handel/kanal-rechtsmatrix.md` | 257 | **4** |
+| `handel/anwalts-briefing-2026-08.md` | 126 | **8** |
+| `handel/kanal-rechtsmatrix.md` | 279 | **5** |
+| **Summe** | **563** | **16** |
 
-**Jede der 14 gelöschten Zeilen einzeln geprüft** (Skript-Gegenprobe:
-kommt ihr Text im neuen Stand noch vor?): **13 sind als
-durchgestrichene Vorfassung oder erweiterte Zeile erhalten**, **1 ist
-bewusst präzisiert** — „Rn. 56 lautet dort:" → „Rn. 56 lautet in der
-englischen Fassung:", weil daneben jetzt auch die deutsche steht.
-**Kein Bestandssatz still entfernt.**
+**(b) Gegen den eigenen Bau-Commit `af92adb..ecb197c`** — 15 weitere
+Löschungen, **alle an eigenem Text dieser Runde** (die drei
+Superlativ-Stellen und der überschießende Rn.-152-Satz). Sie erscheinen
+im Nenner (a) nicht, weil dort Vorher-Text und Nachher-Text verglichen
+werden — beide Fassungen des Superlativs sind von mir.
+
+**Jede der 16 gelöschten Zeilen aus (a) einzeln geprüft**
+(Skript-Gegenprobe: kommt ihr Text im Endstand noch vor?):
+
+- **14 sind wörtlich erhalten** — als durchgestrichene Vorfassung im
+  Reparaturkasten oder als erweiterte Zeile.
+- **2 meldet das Skript als „weg" — beide geprüft, beide erklärt:**
+  (1) „„**bei einem Dritten** erhoben" wurden. *(Ob eigene Recherche in"
+  — die **erste** Hälfte ist die bewusst reparierte Zitatverkürzung
+  (§ 6.3 Nr. 2), die **zweite** steht unverändert im Dokument (Zeile mit
+  „*(Ob eigene Recherche in"). Der Zeilenumbruch verschob sich, der Text
+  nicht. (2) „angefertigt.)* Rn. 56 lautet dort:" — „angefertigt.)*"
+  steht weiter, „Rn. 56 lautet **dort**:" wurde zu „Rn. 56 lautet **in
+  der englischen Fassung**:" präzisiert, weil daneben jetzt die deutsche
+  steht.
+
+**Kein Bestandssatz still entfernt — 16 von 16 erklärt.**
 
 ### 1.8 Zitat-Wächter — Delta je Datei
 

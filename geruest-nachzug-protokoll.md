@@ -20,6 +20,33 @@
 
 ## Stempel-Historie (neueste zuerst)
 
+**Gerüst-Stand:** Stand **`7a0f76b`** (R16-Debrief 17.08.2026 ~18:30 MESZ,
+Leitsession Shanks). Delta `5020bc2..7a0f76b` **neu gemessen vor dem
+Stempel** (`git fetch` + `log`, 3 Commits):
+- `e58a979` (GARP, Firmen-Entscheid 17.08.): **Regelwerk-Wächter ist
+  PFLICHT-Baustein** → **aktiviert**: `tools/pruefe-budget.js` +
+  `.claude/hooks/pruefe-claudemd-budget.js` kopiert, Marken selbst
+  gesetzt (SOLLMARKE 80.000 / WARNSCHWELLE 85.000 / HARTMARKE 90.000 —
+  Herleitung Tagesplan 17.08. „Zustand", Auto-Load-Summe-Marke 140k bleibt
+  Beobachtungsgröße ohne Werkzeug), Hook-Eintrag in
+  `.claude/settings.json` (PreToolUse, Matcher Edit|Write|Bash|PowerShell),
+  **Selbsttests NACH dem Setzen der Marken: 9/9 + 9/9 grün**, Erstlauf
+  Ist-Wert **84.028 B** (Exit 0, Kompensationspflicht aktiv), Probe-Call des
+  Hooks mit stdin-JSON Exit 0. Textbaustein `regelwerk-waechter.md` als
+  Rules-Kopie (Kopien-Wächter meldet ihn als INFO „keine Blueprint-Vorlage",
+  weil er im Baustein-UNTERORDNER liegt — Wächter-Grenze, an die Zentrale
+  gemeldet). CLAUDE-vorlage-Text (18 Z.) → Kern-Bullet in „Aktivierte
+  Bausteine".
+- `6aaa7ed` (GARP): Selbsttest-Defekt (CRLF-Fall auf Platzhalter
+  verdrahtet) → **kommt mit der kopierten Skriptfassung**; die
+  README-Auflage „Selbsttests NACH Schritt 2" befolgt.
+- `7a0f76b` (SHANKS, eigener Rückfluss): L-49/L-50 standen schon in
+  CLAUDE.md (`305d99f`); **Parent-Prüfung** nach dem Commit → Doku-Hygiene
+  ergänzt; Kopien `commands/tagesstart.md` + `rules/windows-powershell.md`
+  vom Master gezogen. Wächter danach **SYNCHRON 12 / 0 DRIFT**.
+- CLAUDE.md 84.028 → 84.713 B (Pflicht-Baustein-Bullet + Stempel; unter
+  Warnschwelle, über Soll → Verdichtungs-Posten R17).
+
 **Gerüst-Stand:** Stand **`5020bc2`** (Nachzug 17.08.2026 ~15:00 MESZ,
 R16-Vorlauf, Leitsession Shanks; Blueprint-Selbstcheck OK; Wächter vorher
 SYNCHRON 12 / 0 DRIFT; Delta = 2 Commits, beide nur `CLAUDE-vorlage.md` +

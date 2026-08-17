@@ -18,7 +18,11 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
 - **⭐ Umlaut-Zählung VOR und NACH jedem `sed`/jeder Massenersetzung** —
   die billigste Absicherung gegen Encoding-Schaden; ein Vorher/Nachher
   mit identischer Zahl ist der Beleg, den sonst niemand nachliefern kann.
-  (Herkunft: MKT R15, real angewandt.)
+  (Herkunft: MKT R15, real angewandt.) **Unsichtbare Zeichen zählen
+  mit** — Soft-Hyphen U+00AD und NBSP U+00A0 kommen mit kopiertem Text
+  herein (MKT R16: zwei U+00AD, Vorher-Nenner 0) und lassen jeden
+  späteren Grep auf das Wort ins Leere laufen; Nenner am Rundenstart,
+  Prüfung vor dem Commit.
 - **⭐ Zeilenenden misst `git ls-files --eol`, nicht ein Grep auf `\r`** —
   ein degeneriertes CRLF-Muster meldete „432 Zeilen mit CR" bei einer
   Datei mit 432 Zeilen. Eine Zahl, die exakt der Zeilenzahl entspricht,

@@ -12,6 +12,17 @@
             "statusMessage": "Scope-Schutz: git-Kommando prüfen"
           }
         ]
+      },
+      {
+        "matcher": "Edit|Write|Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/.claude/hooks/pruefe-claudemd-budget.js\"",
+            "timeout": 10,
+            "statusMessage": "CLAUDE.md-Budget prüfen"
+          }
+        ]
       }
     ]
   },

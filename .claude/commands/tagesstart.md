@@ -241,6 +241,10 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
    unter dem Fremdagenten weiter) · **nur lesend, genau eine
    Berichtsdatei** · **kein Commit/Push** (die Commit-Fähigkeit eines
    Fremdagenten ist unbelegt, solange sie niemand gemessen hat) ·
+   **Scratch-/Zwischendateien NUR außerhalb des Repos** (Session-
+   Scratchpad — MKT R16: ein Fremdagent legte `.r16b-scratch-<hash>/`
+   im Repo-Root an; im geteilten Arbeitsbaum ist das eine untracked
+   Datei mehr, die keine Session zuordnen kann) ·
    Pflichtabschnitte „nicht erhoben / nicht prüfbar" und „welcher meiner
    Prüfschritte hätte einen vorhandenen Fehler NICHT finden können?".
    ⚠️ **Und die Rücklauf-Regel: Eine `git status`-Aussage eines

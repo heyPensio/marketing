@@ -3,10 +3,12 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`5020bc2`** (Nachzug 17.08.2026, R16-Vorlauf: 2
-> fremde Deltas `cfdd5db` + `5020bc2` [Zentrale-Rückflüsse, 5 Regeln]
-> einzeln disponiert und als Kern-Bullets übernommen; Wächter SYNCHRON
-> 12 / 0 DRIFT). **Die vollständige Nachzugs- und Stempel-Historie steht
+> 2026-08-09; Stand **`7a0f76b`** (R16-Debrief 17.08.2026: eigener
+> Rückfluss L-49/L-50 + 3 Werkzeug-Nachträge; davor 2 fremde Deltas
+> `e58a979` + `6aaa7ed` — **Regelwerk-Wächter als Pflicht-Baustein
+> aktiviert** [Soll 80.000 / Warn 85.000 / Hart 90.000 B, Selbsttests
+> 9/9 + 9/9, Erstlauf-Ist 84.028] — und im Vorlauf `cfdd5db` +
+> `5020bc2`; Wächter SYNCHRON 12 / 0 DRIFT). **Die vollständige Nachzugs- und Stempel-Historie steht
 > in `geruest-nachzug-protokoll.md`** — sie gehört nicht in den
 > auto-geladenen Kanal (Transit-Verbot G5). Nachzug neuer
 > Methodik-Lehren: `/projekt-init nachzug`.
@@ -1121,7 +1123,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - Weichen zwei Messläufe voneinander ab, ist im Multi-Session-Betrieb
   zuerst das REPO verdächtig (parallele Commits während der Messung) —
   Bestand einfrieren (Commit-Hash notieren), Lauf wiederholen.
-  Doppel-Messstand-Vertrag: Hash zu Beginn UND vor dem Commit erheben.
+  Doppel-Messstand-Vertrag: Hash zu Beginn UND vor dem Commit erheben —
+  und NACH dem Commit den Parent gegen den Prüfstand halten (R16: nur an
+  der Push-Ausgabe sichtbar).
 - Repo-weite Textsuchen immer mit Include-Filtern
   (`grep --include="*.md"`) — Binärbestände sprengen sonst Timeouts.
 - **Rohbelege gehören in den Ordner IHRER Runde** (`sensibel/rohbelege-R<n>-<S>/`)
@@ -1224,6 +1228,7 @@ hierher, nicht ins Repo.
 - `aussenkorrespondenz` — Anbieter-/Partner-/Behörden-Anfragen: Kanal-/Zeitpunkt-Prüfung, Entwurf-im-Repo-Workflow.
 - `freigabe-vorlagen` — Freigabedokumente für Laien-Entscheider (Gesellschafter, Kunden): Struktur, Kanon-Texte, AVV-Prüfpunkt.
 - `skill-bauweise` — Skills/Commands methodisch bauen (Reverse-Engineering-Reihenfolge, Simplicity-Doktrin); aktiviert im M1-Nachzug (User-Entscheid 11.08.2026).
+- `regelwerk-waechter` — **PFLICHT (Firmen-Entscheid 17.08.2026):** Größen-Messgerät `tools/pruefe-budget.js` + Commit-Türsteher `.claude/hooks/pruefe-claudemd-budget.js` (Warnung ab 85.000 B, Blockade des CLAUDE.md-Commits ab 90.000 B, fail-closed; Sollmarke 80.000 B → Kompensationspflicht je Debrief). Marken selbst erhoben (Tagesplan 17.08.), nie kopiert; Textregeln in der Rules-Kopie. Aktiviert R16-Debrief.
 
 *(Bausteine sind optionale Regelmodule aus dem projektgerüst-Repo —
 `vorlage/bausteine/`. Nicht aktivierte Bausteine bei Bedarf per

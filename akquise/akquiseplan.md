@@ -1068,6 +1068,24 @@ kann:** Ein **Preismodell/Angebotsarchitektur existiert nicht**
 vorhanden). Ein Angebot bis 23.10. setzt es voraus. Als Nebenbefund
 gemeldet (§ 9, N-2).
 
+> 📌 **VORWÄRTSVERWEIS 17.08.2026 (R18-C, eigener Fund — der Satz oben
+> trägt den Stand seines Datums):** Seit dem 11.08. ist im `handel/`-Bestand
+> beides entstanden: `handel/preismodell-optionen.md` (Entscheidungsvorlage,
+> Erstanlage `8f65e40`, R11-A) und `handel/angebotsarchitektur.md` § 6a
+> (Erstanlage `5097f37`, R12-B), dazu `handel/preisliste-vorlaeufig.md`.
+> ⚠️ **Das hebt den Sperrposten nicht auf, und dieser Plan entscheidet das
+> nicht:** Die Vorlage ist ausdrücklich „nichts entschieden" — für ein
+> Angebot braucht es den User-Entscheid über die Optionen. Was sich
+> geändert hat, ist die Belegstufe: aus *existiert nicht* wird *liegt als
+> Vorlage vor, Entscheid offen*. STATUS.md Punkt 0 sagt es mit seinem
+> Vorbehalt: „**Vorlage liegt vor (R11, 12.08. abends)** — der
+> Sperr-Posten ist entschärft, SOLANGE die E-Punkte zügig beantwortet
+> werden" (die E-Punkte sind laut derselben Stelle am 13.08.
+> entschieden). *(Die Erstfassung dieses Kastens zitierte den Satz ohne
+> die SOLANGE-Hälfte — vom Zitat-Wächter gefangen: Verdichten verliert
+> den Vorbehalt zugunsten der eigenen Aussage.)* Dieselbe Alt-Aussage steht in
+> § 5 (KPI-2) und § 9 (N-2); **Träger der Sachbewertung ist MKT-HANDEL.**
+
 ---
 
 ## 7. Handgriffe des Users (eigene Liste)
@@ -1087,7 +1105,7 @@ wodurch der Fehler unsichtbar blieb).
 | **H-4** | DEHOGA/Fachpresse: Konditionen und Redaktionsschluss für Verteiler-/Anzeigenplatzierung erfragen; **dabei N-8 mitklären** (deckt die Einwilligung der Verteiler-Empfänger Werbung für uns?) | K3-Vorlauf ist unbekannt und kann längste Leitzeit haben | **Fr 28.08.** |
 | **H-5** | Internorga-Termin 2027 an der Quelle erheben (Repo-Beleg fehlt) | Rückwärts-Anker für den Lead-Prozess (A4) | unkritisch |
 | **H-6** | **Telkon-Logo anfordern** (Außenpost, Versand User) | Ohne Logo ist die Listungszusage nicht umsetzbar — offener Posten aus R7, wirkt direkt auf K4 | **Fr 14.08.** |
-| **H-7** | Entscheide E-A1 bis E-A3 (§ 8) treffen | Außenwirkung — nicht von der Session zu setzen | **Fr 14.08.** |
+| **H-7** | Entscheide E-A1 bis **E-A4** (§ 8) treffen *(Vorfassung: „E-A1 bis E-A3" — § 8 führt seit R16-C vier Entscheide; E-A4, die 300er-Schwelle, fehlte hier. Nachgezogen R18-C, eigener Fund)* | Außenwirkung — nicht von der Session zu setzen | **Fr 14.08.** *(verstrichen; E-A4 kam erst am 17.08. hinzu — neuer Anker ist ein User-/Leitsession-Posten)* |
 
 > ### 📌 REPARATUR 17.08.2026 (R18-C) — Kurz-ID `AKQ-H-2` und die H-8-Zeile
 >

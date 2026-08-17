@@ -20,6 +20,65 @@
 
 ## Stempel-Historie (neueste zuerst)
 
+**Gerüst-Stand:** Stand **`5020bc2`** (Nachzug 17.08.2026 ~15:00 MESZ,
+R16-Vorlauf, Leitsession Shanks; Blueprint-Selbstcheck OK; Wächter vorher
+SYNCHRON 12 / 0 DRIFT; Delta = 2 Commits, beide nur `CLAUDE-vorlage.md` +
+`LEHREN-CHANGELOG.md`, keine Command-/Baustein-Änderung → keine Kopie zu
+ziehen). **Je Delta-Eintrag disponiert:**
+- `cfdd5db` (GARP, Zentrale-Rückflüsse aus MKT R15 — beide Herkunft
+  eigenes Projekt): (1) Verdichten ist MÜDIGKEITS-EMPFINDLICH →
+  **übernommen** als Kern-Bullet „Arbeitsregeln" hinter „gekappte Session
+  macht nur MECHANIK". (2) Wächter im gewöhnlichen Fall rot = abgeschaltet;
+  Modus-Trennung/Pool mit Nenner zulässig, Ausnahmeliste unzulässig →
+  **übernommen** als Schärfung an der bestehenden Stelle
+  („Sicherheits-Regeln", Satz war schon da — Ergänzung, keine Ersetzung).
+  Bestand rückwirkend: R16-B setzt genau das um (heute).
+- `5020bc2` (GARP, drei Zentrale-Rückflüsse): (1) Ablageort von Belegen
+  einer prüfenden Instanz + Debrief-Prüfschritt „Ebene über den Repos" →
+  **übernommen** in „Doku-Hygiene" hinter „Rohbelege gehören in den Ordner
+  ihrer Runde"; Prüfschritt ab Debrief R16. (2) Nicht aktivierter Baustein
+  = offene Falle → **übernommen** als Prüffrage im Abschnitt „Aktivierte
+  Bausteine"; **am Objekt geprüft 17.08.: 8 von 8 Blueprint-Bausteine
+  aktiv** (`vorlage/bausteine/` vs. `.claude/rules/`; ein untracked
+  `regelwerk-waechter/` im Blueprint ist fremde laufende Arbeit, kein
+  Baustein). (3) Ziele statt Schnitte → **übernommen** als Kern-Bullet
+  „Arbeitsregeln"; Bestand: der heutige Tagesplan arbeitet genau so
+  (Briefing liefert Zielbild/Prämissen/Sperrliste, Leitsession schneidet).
+- **Kein Konflikt** mit projektspezifischen Anpassungen; Herkunft zweier
+  Regeln ist MKT selbst — Rückfluss über die Zentrale, kein Doppel im
+  Lehren-Register (dort L-43…L-48 andere Sachen; Kandidat für ein L-49
+  „Suchweg in Kürzel-Form" folgt im Debrief R16, unabhängig davon).
+- CLAUDE.md: 82.807 B vor dem Nachzug → s. Commit-Message nachher;
+  Kopf auf Stempel-Zeile + Zeiger gekürzt (Transit-Verbot G5), der
+  8d80a64-Kopftext steht darunter byte-treu (nur `> `-Präfix entfernt).
+
+**Vorheriger Kopftext (8d80a64), verbatim aus CLAUDE.md übernommen
+(23 Zeilen):**
+
+**Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
+2026-08-09; Stand **`8d80a64`** (R15-Debrief 14.08.2026 nachts:
+eigener Rückfluss von 6 Lehren — L-43 (Positivkontrolle spiegelt
+Zeichenklasse UND Kanal), L-44 (Personendaten nie ins Repo /
+TOM-Zeile / Gate-Pfad), L-45 (Belegpflicht kennt keine Richtung:
+Verbots-Aussagen + Entwarnung über die eigene Handlung), L-46
+(Rollenzuschreibung ist Bestandsaussage), L-47 (Vorbehalt fällt im
+Tabellenkopf), L-48 („nicht prüfbar" des Prüfers = Nacharbeits-Liste)
++ L-39-Schärfung (Zitat-Abbruch markiert die eigene Grenze); davor
+3 fremde Deltas einzeln disponiert: `6e5364c` + `6831482` (GARP —
+Verallgemeinerungen AUS diesem R15-Zuschnitt: Fertig-Kriterium muss
+zur Auftragsart passen · Arbeitsvorrat = Liste von VERNEINUNGEN ·
+Codex-Zeile wird beim Umschnitt neu gestellt) und `3814ab5`
+(heyPensio R43 — ERFÜLLEN als dritte Kategorie · konditionale Warnung
+altert · Fix erfindet Vorbedingung · Treffer ist Lesestelle ·
+Werkzeug erzwingt nur teilweise); Kopien `commands/tagesstart.md` +
+`commands/debrief.md` vom Master gezogen, Wächter SYNCHRON 12 /
+0 DRIFT. Davor Stand `ae819a0` (R15-Vorlauf-Nachzug, 2 Deltas).
+**Die vollständige Nachzugs- und Stempel-Historie steht in
+`geruest-nachzug-protokoll.md`** — sie gehört nicht in den
+auto-geladenen Kanal (Transit-Verbot G5). Dort auch die
+Stempel-Korrektur vom 10.08.2026 und die Commit-Zuordnungs-Vermerke.
+Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
+
 **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20`
 am 2026-08-09; Stand **`ae819a0`** (R15-Vorlauf-Nachzug 13.08.2026
 nachts, VOR dem Rundenschnitt — Briefing-Auflage, weil der Nachzug

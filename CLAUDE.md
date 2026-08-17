@@ -3,28 +3,13 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`8d80a64`** (R15-Debrief 14.08.2026 nachts:
-> eigener Rückfluss von 6 Lehren — L-43 (Positivkontrolle spiegelt
-> Zeichenklasse UND Kanal), L-44 (Personendaten nie ins Repo /
-> TOM-Zeile / Gate-Pfad), L-45 (Belegpflicht kennt keine Richtung:
-> Verbots-Aussagen + Entwarnung über die eigene Handlung), L-46
-> (Rollenzuschreibung ist Bestandsaussage), L-47 (Vorbehalt fällt im
-> Tabellenkopf), L-48 („nicht prüfbar" des Prüfers = Nacharbeits-Liste)
-> + L-39-Schärfung (Zitat-Abbruch markiert die eigene Grenze); davor
-> 3 fremde Deltas einzeln disponiert: `6e5364c` + `6831482` (GARP —
-> Verallgemeinerungen AUS diesem R15-Zuschnitt: Fertig-Kriterium muss
-> zur Auftragsart passen · Arbeitsvorrat = Liste von VERNEINUNGEN ·
-> Codex-Zeile wird beim Umschnitt neu gestellt) und `3814ab5`
-> (heyPensio R43 — ERFÜLLEN als dritte Kategorie · konditionale Warnung
-> altert · Fix erfindet Vorbedingung · Treffer ist Lesestelle ·
-> Werkzeug erzwingt nur teilweise); Kopien `commands/tagesstart.md` +
-> `commands/debrief.md` vom Master gezogen, Wächter SYNCHRON 12 /
-> 0 DRIFT. Davor Stand `ae819a0` (R15-Vorlauf-Nachzug, 2 Deltas).
-> **Die vollständige Nachzugs- und Stempel-Historie steht in
-> `geruest-nachzug-protokoll.md`** — sie gehört nicht in den
-> auto-geladenen Kanal (Transit-Verbot G5). Dort auch die
-> Stempel-Korrektur vom 10.08.2026 und die Commit-Zuordnungs-Vermerke.
-> Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
+> 2026-08-09; Stand **`5020bc2`** (Nachzug 17.08.2026, R16-Vorlauf: 2
+> fremde Deltas `cfdd5db` + `5020bc2` [Zentrale-Rückflüsse, 5 Regeln]
+> einzeln disponiert und als Kern-Bullets übernommen; Wächter SYNCHRON
+> 12 / 0 DRIFT). **Die vollständige Nachzugs- und Stempel-Historie steht
+> in `geruest-nachzug-protokoll.md`** — sie gehört nicht in den
+> auto-geladenen Kanal (Transit-Verbot G5). Nachzug neuer
+> Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
 
@@ -331,6 +316,19 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Bewerten und jedes Belegstufen-Urteil sind gesperrt**, bis eine
   frische Session mit vollem Regelwerk übernimmt; der Zwischenstand wird
   als solcher ausgewiesen.
+- **⭐ Verdichten, Kürzen und Aufräumen sind MÜDIGKEITS-EMPFINDLICH.**
+  (Herkunft: MKT R15, 3 Uhr morgens; Blueprint `cfdd5db`.) Wer erschöpft
+  verdichtet, streicht das Unangenehme (Vorbehalte, Geltungsgrenzen,
+  Negativbelege), nicht das Überflüssige. **Ein Verdichtungs-Posten wird
+  verschoben, nicht mit letzter Kraft erledigt** — die Verschiebung mit
+  Zielmarke ins Status-Dokument, sonst wird aus „später" ein „nie".
+- **⭐ Wer zuschneidet, MISST am Objekt — wer nicht messen kann, liefert
+  ZIELE statt Schnitte.** (Herkunft: Zentrale 14.08.2026, Blueprint
+  `5020bc2`; Belegfall: zehn fremdgeschnittene Stränge, neun Korrekturen
+  vor dem ersten Start.) Ein Zuschnitt aus zweiter Hand (Briefing, fremde
+  Erhebung, geerbter Plan) liefert Zielbild, Prämissen, Sperrliste und
+  Kapazitätsrahmen; Strang-Schnitt, Dateiscopes und Fertig-Kriterien
+  entstehen dort, wo gemessen werden kann — hier: in der Leitsession.
 - Realitätstreue vor später: immer die vollständige, produktionsreife
   Variante als Standard; Vereinfachungen nur auf ausdrücklichen Wunsch.
   Erst Proof, dann Perfektion — aber der Proof muss echt sein.
@@ -910,7 +908,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   nach GRENZE (wer darf?) vor DECKEL (wie viel?) — nur Grenzen halten
   Unberechtigte auf. Ein Wächter darf seine eigene Beweisquelle nicht
   beschreibbar machen; ein Wächter, der beim gewöhnlichen Fall rot wird,
-  wird abgeschaltet — Positivkontrolle IN den Wächter einbauen. Bei
+  wird abgeschaltet — Positivkontrolle IN den Wächter einbauen. **⭐
+  Dauer-Rot ist ein Konstruktionsfehler, kein Befund** (MKT R15,
+  Blueprint `cfdd5db`: 863 Altlast-Zitate nach der
+  Reichweiten-Erweiterung): zulässig sind **Modus-Trennung**
+  (Bestands-Altlast vs. neue Verstöße) **oder Pool-Erweiterung mit
+  Nenner — unzulässig ist, die Fundmenge in die Ausnahmeliste zu
+  schieben.** Bei
   gekoppelten Sicherheits-Umbauten ist die REIHENFOLGE das
   Sicherheitsmerkmal — Kriterium ist der Zwischenzustand. Nach jeder
   Alarm-Unterdrückung fragen: Woran merkt jetzt noch jemand, dass es
@@ -1120,6 +1124,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Bestandszahl still altern, die je über diesen Ordner erhoben wurde. Kostete
   in R7 eine Messung: dokumentiert 2132, gemessen 2134, Ursache waren zwei
   am selben Tag ergänzte Dateien. (Herkunft: MKT R7, L-20.)
+- **⭐ Eine Trennungs-/Unabhängigkeitsregel bestimmt den ABLAGEORT ihrer
+  Belege mit.** (Herkunft: Zentrale 14.08.2026, Blueprint `5020bc2` —
+  49 Beleg-Dateien einer Abnahme wuchsen 6,5 h außerhalb jeder
+  Versionierung.) Wer anordnet, dass eine prüfende Instanz nicht ins
+  geprüfte Repo schreibt, sagt im selben Zug, wohin ihre Beweisstücke
+  gehören; `git status` kennt einen Nachbarordner nicht einmal als
+  untracked. **Prüfschritt je Debrief: die Ebene ÜBER den Repos
+  auflisten, jeden Nicht-Repo-Ordner begründen.**
 - **Kurz-ID-Kollisionen: das grep läuft ZUERST im eigenen Dokument.** Die
   Regel nennt die Nachbardokumente — vergeben wurde `P22` doppelt innerhalb
   derselben Datei. Der billigste Suchraum ist der nächste. (MKT R7.)
@@ -1214,7 +1226,12 @@ hierher, nicht ins Repo.
 
 *(Bausteine sind optionale Regelmodule aus dem projektgerüst-Repo —
 `vorlage/bausteine/`. Nicht aktivierte Bausteine bei Bedarf per
-`/projekt-init nachzug` nachrüsten.)*
+`/projekt-init nachzug` nachrüsten. **⭐ Ein nicht aktivierter Baustein
+ist keine Schlank-Entscheidung, sondern eine offene Falle, sobald das
+Projekt die Werkzeugklasse täglich benutzt** — Prüffrage bei jedem
+Nachzug: „Welche Werkzeugklasse benutzt dieses Projekt täglich ohne
+den zugehörigen Baustein?" [Herkunft: Zentrale 14.08.2026, Blueprint
+`5020bc2`; Stand 17.08.: 8 von 8 Bausteinen aktiv].)*
 
 ## Lehren-Register
 

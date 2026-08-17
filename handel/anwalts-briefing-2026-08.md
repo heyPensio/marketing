@@ -591,7 +591,13 @@ Interesses gerade an der lauterkeitsrechtlichen Zulässigkeit misst.
 **Tenor:** Untersagt wurden fünf Verhaltensweisen gegenüber
 **Verbrauchern**; Nr. 4 knüpft an die Informationspflicht nach „Art. 14
 Abs. 1 und Abs. 2 DSGVO" an — und zwar ausdrücklich nur für Daten, die
-„**bei einem Dritten** erhoben" wurden. *(Ob eigene Recherche in
+sie „**bei einem Dritten** zu dem Zweck erhoben hat, diese
+personenbezogenen Daten … zur Anbahnung einer Geschäftsbeziehung mit dem
+Verbraucher zu verwenden". *(🔧 Zitat berichtigt 17.08.2026, R17-A: Hier
+stand „**bei einem Dritten** erhoben" — drei Wörter des Originals waren
+**ohne Ellipse** ausgelassen. Der vollständige Wortlaut ist enger und
+zugleich für uns wichtiger: Der Tenor knüpft an eine **Zweckrichtung**
+an, nicht nur an die Herkunft der Daten.)* *(Ob eigene Recherche in
 öffentlich zugänglichen Quellen ein Erheben „bei einem Dritten" ist,
 wäre für uns eine eigene Frage; wir stellen sie hier mit.)* **Nr. 5**
 betrifft die verspätete Auskunft nach Art. 15 DSGVO — nach Rn. 237

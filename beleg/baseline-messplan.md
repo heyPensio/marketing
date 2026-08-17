@@ -286,30 +286,54 @@ nur bei Firzlaff's erheben, 1 Woche stichprobenhaft.
 ## 5. Zeitfenster — Rückwärtsrechnung vom Livegang
 
 **Anker:** PMS-Livegang „Ende September 2026" (Projektquelle § 2;
-Extraktion A, Abschnitt d). **Ein Tagesdatum ist im Repo nicht belegt**
-— Planungsanker dieses Plans ist konservativ der **22.09.2026
+Extraktion A, Abschnitt d). ~~**Ein Tagesdatum ist im Repo nicht
+belegt**~~ → **überholt am 17.08.2026: Das Tagesdatum liegt vor
+(Di 22.09.2026) — s. H-1-Kasten unmittelbar unter diesem Absatz.**
+Planungsanker dieses Plans ist konservativ der **22.09.2026
 (Dienstag)** als frühester plausibler „Ende September"-Termin; das
-Messfenster endet davor. *(Wochentags-Etiketten dieses Plans am
-Kalender verifiziert, 09.08.2026 = Sonntag — Prüfer-Befund G-1.)* Handgriff H-1: konkretes Livegang-Datum beim Betreiber/im
+Messfenster endet davor. **Anker und echtes Datum sind identisch.** *(Wochentags-Etiketten dieses Plans am
+Kalender verifiziert, 09.08.2026 = Sonntag — Prüfer-Befund G-1.)* Handgriff H-1 *(✅ erledigt 17.08.2026, s. Kasten)*: konkretes Livegang-Datum beim Betreiber/im
 heypensio-Repo erfragen und diesen Plan bei Abweichung nachziehen
 (Verschiebung nach VORN verkürzt das Fenster — deshalb konservativ
 geplant).
 
-> ⏰ **Stand H-1 am 17.08.2026 (R16-C): weiterhin kein Tagesdatum — die
-> Frist 16.08. ist verstrichen.** Am Objekt nachgeprüft statt aus dem
-> Bestand übernommen: **Suchweg** `grep -rniE "livegang|go.?live"` über
-> `<FIRMENWURZEL>\heypensio\**\*.md`, 17.08.2026 — 559 Treffer gesamt
-> (Positivkontrolle), **kein einziger mit Tagesdatum**; das Nachbar-Repo
-> führt durchgehend das Ziel Ende September als **Prognose des
-> Betreibers** (E-T4, `firzlaff/apaleo-config/rollout-bauplan-sandbox-live.md`)
-> und H-1 seinerseits als offenen User-Handgriff
-> (`firzlaff/apaleo-config/anfrage-apaleo-nachfass-2026-08-17.md`, 17.08.).
-> **Der Planungsanker 22.09. bleibt damit unverändert gültig** — es gibt
-> kein echtes Datum, gegen das er zu prüfen wäre. ⚠️ Nebenbefund für den
-> Träger (nicht hier eingearbeitet): Die dortige Kette (Vertrag → KYC
-> ~3 Wochen → Kartengerät ~3 Wochen) und der am 12.08. als überfällig
-> gemessene Vertragseingang (IN-A10) weisen eher auf eine Verschiebung
-> nach HINTEN — für dieses Messfenster die ungefährliche Richtung.
+> ✅ **H-1 ERLEDIGT 17.08.2026: Livegang-Tagesdatum = Di 22.09.2026.**
+> **Quelle:** User, Chat 17.08.2026 ~14:50 MESZ · **Form:** Kurzantwort
+> („22.09.") · **Belegstufe: Nutzerangabe, kein Betreiber-Dokument** —
+> so ausgewiesen und nicht zu einer Betreiber-Zusage aufgewertet.
+> Nachtrag der Leitsession: `protokolle/tagesplan-2026-08-17.md`,
+> Abschnitt „Nachtrag 14:50 MESZ".
+>
+> **Abweichung zum Planungsanker 22.09.: null Tage — kein Planumbau.**
+> Die Rückwärtsrechnung dieses Plans bleibt in jeder Zeile gültig.
+> ⚠️ **Was sich trotzdem ändert, und zwar zum Schlechteren:** Der Anker
+> war bewusst als *frühester plausibler* Termin gesetzt, damit eine
+> Vorverlegung das Messfenster nicht trifft. Dieser Puffer ist jetzt
+> **aufgebraucht** — er war die Differenz zwischen frühestem und echtem
+> Datum, und die ist null. Das Messfenster endet So 20.09., die
+> Einsammlung Mo 21.09., der Livegang ist Di 22.09.: **ein Tag
+> Abstand.** Jede Vorverlegung ab heute geht 1:1 vom Fenster ab, jede
+> Verzögerung der Einsammlung ebenso. *(Wochentage per `Get-Date`
+> erhoben, 17.08.2026.)*
+>
+> 🔧 **Sichtbare Korrektur derselben Session (R16-C, Commit `686ff18`).**
+> Die Vorfassung dieses Kastens meldete „weiterhin kein Tagesdatum,
+> Frist verstrichen" — **falsch, und zwar durch einen Suchfehler in
+> eigener Sache:** Die Verneinung stützte sich auf den Abschnitt
+> „Nachträge" des Tagesplans, während die Antwort in einem **neuen
+> Abschnitt am Dateiende** stand (die Datei war zwischen dem ersten
+> Lesen und der Prüfung von 694 auf 730 Zeilen gewachsen). Ein
+> Abschnitts-Ausschnitt trägt kein Negativ über eine Datei. Der
+> Nebenbefund der Vorfassung bleibt gültig und ist nicht Teil der
+> Korrektur: Die Kette im Nachbar-Repo (Vertrag → KYC ~3 Wochen →
+> Kartengerät ~3 Wochen) und der am 12.08. als überfällig gemessene
+> Vertragseingang (IN-A10) weisen eher auf eine Verschiebung nach
+> HINTEN — für dieses Messfenster die ungefährliche Richtung. ⚠️ Damit
+> steht die **Nutzerangabe 22.09.** neben einer Kette, die im
+> Nachbar-Repo durchgehend nur als **Ziel „Ende September"** geführt
+> wird (E-T4) — beide Stände sind vereinbar, aber das Tagesdatum ist
+> dort **nicht dokumentiert**. Bestätigung durch den Betreiber wäre die
+> stärkere Belegstufe.
 
 | Zeitraum | Schritt | Wer |
 |---|---|---|
@@ -335,7 +359,7 @@ muss später saisongleiche Vergleiche wählen oder den Vorbehalt nennen.
 
 | # | Handgriff | Wer | bis |
 |---|---|---|---|
-| H-1 | Konkretes Livegang-Datum erfragen (Quelle: Betreiber/heypensio-Leitsession); bei Abweichung vom Planungsanker 22.09. diesen Plan nachziehen | User | ⏰ **VERSTRICHEN 16.08. — neues Datum weiter OFFEN, erneut erfragt 17.08.2026 (R16-C)** |
+| ~~H-1~~ | ~~Konkretes Livegang-Datum erfragen~~ ✅ **ERLEDIGT 17.08.2026: Di 22.09.2026** (Quelle: User-Chat ~14:50 MESZ, Form: Kurzantwort, Belegstufe **Nutzerangabe**). Abweichung zum Planungsanker 22.09.: **0 Tage**, kein Nachziehen nötig — Einzelheiten im Kasten zu § 5 | ~~User~~ erledigt | ~~16.08.~~ **17.08.** |
 | H-2 | Plan-Freigabe inkl. Entscheid Zusatz-Optionen BM-4/BM-5 und Zielstichprobe | User (nach Leitsession-Review) | 16.08. |
 | H-3 | Betreiber-Briefing: Erhebungsfragen E-1 bis E-5 klären, Vorlagen übergeben, Messstart vereinbaren; Kayhan-Konventionen beachten | User | 23.08. |
 | H-4 | Alt-System-Datensicherung: HS/3-/DIRS21-/OTA-Auszüge (No-Show-Historie, Belegung) exportieren/fotografieren, BEVOR der Systemwechsel sie gefährdet | User + Betreiber | 07.09. |

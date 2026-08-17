@@ -1603,3 +1603,21 @@ Leitsession (Block 2 oben) zu „ungeprüft" verallgemeinert.
 5. Reviews (A Voll-Review-Disposition prüfen, B Abnahme + Commit, C
    Kurzraster) · `/debrief` R17.
 6. Zeit-Etiketten ab jetzt je Eintrag per `date`.
+
+### Nachtrag 16:44–16:50 MESZ (`date`) — Sessions gestartet, Leitsession-Programm läuft
+
+- **User 16:44: „die drei sessions laufen jetzt"** — Modellwahl A/C
+  nicht genannt (Strang-Tabelle bleibt „(User)"), Werkzeug B = Codex
+  (Arbeitsbaum zeigt `M akquise/pruefe-zitate.js` um 16:50 — Codex
+  arbeitet). Keine Antwort auf „außerhalb passiert?" → weiter
+  unbestätigt.
+- ✅ **Postkorb Zentrale** `f58f1c0` (`eingang/2026-08-17-mkt-kopienwaechter-unterordner.md`,
+  gepusht): Kopien-Wächter misst Ordner-Bausteine nicht — am Objekt
+  belegt: `regelwerk-waechter.md` und Hook byte-identisch zum Master
+  (`cmp`), trotzdem INFO/„nicht aktiviert"; `tools/pruefe-budget.js`
+  ungemessen (Delta zum Master nur Marken Z. 24–26).
+- 🟡 **CLAUDE.md-Verdichtung VORBEREITET** (Scratchpad `CLAUDE.neu2.md`):
+  84.713 → **79.583 B** (−5.130, fünf Bullets, 13 Belegtexte →
+  Register-Anker V17-1…13); Gegenprobe-Subagent läuft; Protokoll
+  `protokolle/R17-leit-verdichtung.md`. **Anwendung erst nach den drei
+  Abschlussmeldungen** (Regel 2).

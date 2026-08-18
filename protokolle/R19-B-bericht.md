@@ -366,3 +366,46 @@ K4-Diktat-Test · EN-Muttersprachler.
 
 **`git status --short` nach dem Lauf (Leitsession):** nur `M protokolle/
 R19-B-bericht.md` + Tagesplan; Rohbelege git-ignoriert.
+
+---
+
+# § 3 — Wellen 4–6 (Leitsession, 18.08.2026 17:47–20:00 MESZ): registergeprüfte Vorlagen
+
+- **Welle 4** (`marke/live-welle/welle4-2026-08-18.txt`, 24 Namen -wise/-pilot/
+  -mate um andere Stämme; voller Messlauf `sensibel/rohbelege-R19-B/welle4/
+  lauf-20260818T154704Z-991331/`, Ausgabe `welle4-stdout.md`, Auswertung
+  `marke/live-welle/auswertung-lauf.js`): Kontrollen wie Phase 0/1;
+  **TMview-Discovery in diesem Lauf ausgefallen** (Discovery=false für alle
+  24 — Kanal nicht erhoben; für DE/EU tragen DPMA + EUIPO). Ergebnis:
+  16 registerfrei (DPMA 0 / EUIPO 0), davon 11 mit `.de` frei; **`.com` bei
+  allen 24 vergeben**. Register-Treffer: Roomwise 2/1 · Keywise 1/1 ·
+  Hotelwise 1/1 · Innwise 1/1 · Roompilot 3/2 · Keypilot 1/0 · Keymate 7/4 ·
+  Hotelmate 2/0. User-Treffer: **Wisestay** (N-145: DPMA 0 / EUIPO 0, `.de`
+  frei, `.com` seit 2016 registriert, NS atom.com = Marktplatz → kaufbar;
+  LinkedIn „WiseStay" Cardiff/UK = Wise Stay Vacation Homes; YouTube
+  `@Wisestay` vergeben; Instagram/Facebook im Browser nicht prüfbar —
+  Login-Redirect bzw. Domain-Sperre der Automation).
+- **Welle 5** (`welle5-2026-08-18.txt`, 36 echte Wörter aus der Hotelwelt;
+  `marke/live-welle/schnellcheck.js` = nur RDAP + DPMA + EUIPO, 152 Abrufe,
+  Kontrollen grün, Rohbelege `welle5/`): **35/36 mit `.de` UND `.com`
+  vergeben** (Ausnahme fullbook.de). Registerfrei nur Turndown, Ausgebucht,
+  Herbergsvater, Housefull (0/0), Zimmerfrei/Innkeeper/Nightcap mit kleinen
+  Treffern. **Befund:** echte Einzelwörter sind unter E-K1 (`.de` + `.com`
+  Pflicht) nicht erreichbar; User hat E-K1 ausdrücklich BESTÄTIGT → Richtung
+  „echte Wörter" geschlossen. Keiner gefiel.
+- **Welle 6** (`welle6-2026-08-18.txt`, 11 Wortspiel-Verdichtungen; 52
+  Abrufe, Kontrollen grün, Rohbelege `welle6/`): User-Treffer Innsight,
+  Suitespot, Stayahead, Stayble, Guestimate. Register: Innsight DPMA 1 /
+  EUIPO 0 · Stayahead 4 / 0 · Guestimate 0 / 0 · Suitespot 2 / **2 relevant** ·
+  Stayble 7 / **2 relevant**; Zusatz Suitedream 0/0 (`.de` Sedo-Parking),
+  Innclusive 0/0 (`.de` frei), Innstant 1/0. Domains: alle `.com` fremd
+  (Innsight seit 1997 GoDaddy/Rackspace-NS · Stayahead 1997 Tucows/Cloudflare ·
+  Guestimate CashParking, **exp. 2026-08-22**); `.de` frei nur Guestimate,
+  Innclusive; Innsight.de 1&1-NS; Stayahead.de ohne NS.
+- **Entscheid User (~21:05 MESZ): kein Name heute — Finalisten
+  N-145 Wisestay · Innsight · Stayahead** (IDs für Innsight/Stayahead
+  vergibt der Folgetag: N-159/N-160), morgen: DPMA-Klassen der Treffer,
+  Domain-Halter/Preise, Handles vollständig, dann Entscheid.
+- **Nicht erhoben:** TMview für Wellen 4–6 · Handles/Websuche für Wellen
+  5–6 · DPMA-Trefferdetails (Smartsearch liefert nur Zahlen — Klassen über
+  DPMAregister-Trefferliste morgen) · Ähnlichkeitsrecherche.

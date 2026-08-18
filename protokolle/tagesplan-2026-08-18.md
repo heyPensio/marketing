@@ -791,6 +791,66 @@ damit **gegenstandslos**.
   (Hostwise) unter drei Vorbehalten**; drei K.-o.; Cleverhost zweite Wahl
   mit Verwechslungs-Vorbehalt. Entscheidungsvorlage per Dropdown (Chat).
 
+## Block 4 (17:20–21:15 MESZ) — Wellen 4–6 registergeprüft, kein Name heute, drei Finalisten
+
+- **User nach Live-Welle:** „Noch nicht — eine gezielte Runde mehr" →
+  **Welle 4** (24 Namen -wise/-pilot/-mate, voller Messlauf 17:47–18:34,
+  TMview-Kanal ausgefallen [nicht erhoben], `.com` 24/24 vergeben) →
+  Treffer **Wisestay** (registerfrei, `.de` frei, `.com` Atom-Marktplatz,
+  Namensvetter UK/Cardiff); Hostwise „bleibt im Rennen" → **„mir gefallen
+  beide nicht wirklich"**. Rückfrage Checkmate beantwortet (K.-o. K2:
+  22 EUIPO-/53 DPMA-Treffer, Kl. 9/42 eingetragen).
+- **Welle 5** (36 echte Wörter, `schnellcheck.js` RDAP+DPMA+EUIPO, 152
+  Abrufe): 35/36 beide Domains vergeben → **Markt-Befund: echte
+  Einzelwörter unter E-K1 nicht erreichbar; User bestätigt E-K1 („.de +
+  .com bleiben Pflicht")** → Richtung geschlossen; keiner gefiel.
+- **Welle 6** (11 Wortspiele): Treffer Innsight · Suitespot · Stayahead ·
+  Stayble · Guestimate; Register: Suitespot/Stayble mit EUIPO-Treffern in
+  unseren Klassen (⚠️), Innsight 1/0, Stayahead 4/0, Guestimate 0/0
+  (`.de` frei, `.com` CashParking exp. 22.08.); alle `.com` fremd.
+- **⭐ ENTSCHEID USER (~21:05 MESZ): kein Name heute. Finalisten
+  Innsight · Stayahead · Wisestay → morgen Klassen/Halter/Handles prüfen,
+  dann Entscheid.** Tagesziel „Name steht" **NICHT erreicht** — Stand:
+  drei Finalisten mit Live-Vorprüfung, klarer Geschmacks-Befund
+  (Wortspiel-Verdichtungen treffen; Baukasten-Komposita, Kunstwörter,
+  hey-Reihe, -ly, echte Einzelwörter, italienische Stämme: raus).
+- Zwischen-Belege: `protokolle/R19-B-bericht.md` § 2/§ 3 · Rohbelege
+  `sensibel/rohbelege-R19-B/{phase1,welle4,welle5,welle6,k6-shanks}` ·
+  Wortlaut `sensibel/kalibrierung-naming-2026-08-18-wortlaut.md`.
+- **Nebenbefunde/Werkzeug:** Browser-Automation verlor im Lauf die
+  Domain-Erlaubnis für Facebook/YouTube/DDG (17:xx–19:xx: „Navigation to
+  this domain is not allowed" nach zuvor erfolgreichen Abrufen) — je
+  Session/Tab-Gruppe neu; DDG-HTML-Kanal kippt nach ~20 Abfragen auf 202;
+  LinkedIn 999 nach wenigen HTTP-Abrufen; TMview-Discovery brüchig
+  (Phase 1 ok, Welle 4 tot); `messlauf.js` ID-Regex-Fix. Alles Kandidaten
+  für den Debrief (Register R19-B).
+
+### Tagesende — Übergabe für den nächsten Tagesstart (21:15 MESZ, `date`)
+
+- **R19 ist NICHT abgeschlossen** — der Strang MARKE läuft morgen weiter
+  (Finalisten-Prüfung + Entscheid); `/debrief` R19 nach dem Entscheid,
+  nicht heute (Müdigkeits-Regel: Verdichten/Regel-Rückfluss nicht mit
+  letzter Kraft; Debrief-Kandidaten sind oben gelistet). Morgen:
+  `/tagesstart` (neuer Tag) → Debrief-Gate meldet R19 offen — das ist
+  korrekt, R19 wird fortgesetzt, nicht neu geschnitten.
+- **Nächste Schritte MARKE (morgen, Leitsession oder Ben Beckman):**
+  (1) IDs N-159 Innsight, N-160 Stayahead vergeben; (2) DPMA-Trefferlisten
+  der drei (Klassen/Status/Inhaber — Smartsearch liefert nur Zahlen:
+  Innsight 1, Stayahead 4, Wisestay 0) über DPMAregister-Trefferliste oder
+  TMview (wenn Discovery wieder trägt); (3) Domain-Halter/Preise:
+  wisestay.com (Atom.com) · wisestay.de frei → **Front-Running-Regel:
+  Registrierung wisestay.de erst nach User-Freigabe, aber ZÜGIG** ·
+  innsight.de/.com, stayahead.de/.com (Halter anfragen); (4) Handles der
+  drei vollständig (IG/FB im Browser, frische Tab-Gruppe); (5) K4-Diktat-
+  Testbogen für die drei; (6) Entscheidungsvorlage → User → Postkorb
+  Zentrale mit Entscheid.
+- **Postkorb Zentrale heute:** Meldedatei „Name steht heute nicht — drei
+  Finalisten, Prüfung morgen" (Commit dort, s. u.).
+- **Offene User-Handgriffe (unverändert):** StB-Anruf (heute? nicht
+  gemeldet) · fünf R16-Entscheide · Zielstichprobe · A5-Probedruck vor So
+  23.08. · Anker H-8/AKQ-H-2 · Nachzug `9858070`+3 · `.gitattributes`.
+- Blockwechsel: morgen NEUES Fenster.
+
 ### Leitsession-Programm Block 1 (Shanks)
 
 Kalibrierung ✅ (oben) · Prämissen-Meldung: keine gekippt (kein

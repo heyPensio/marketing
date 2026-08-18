@@ -382,6 +382,168 @@ Buchstabe B bleibt Codex). Prompt-Volltext folgt nach der Favoriten-Wahl
 (Block 2). Codex-CLI laut Briefing nicht im PATH — User startet Codex
 selbst (Desktop-App), wie R18-B.
 
+**Nachtrag ~14:05 MESZ — User: „Bens Session läuft, kann die Codex-
+Session parallel laufen?"** Ja, in ZWEI Phasen: **Phase 0 (jetzt,
+parallel zu R19-A): Werkzeugbau + Kanal-Gangbarkeit** — hartes,
+maschinell prüfbares Soll (Skript mit `--selbsttest`, Positiv-/
+Negativkontrolle je Kanal), keine Kandidatennamen nötig; **Phase 1
+(nach Favoriten-Wahl): Messlauf** über die Favoriten mit demselben
+Skript. Disjunkt zu R19-A (neues Verzeichnis `marke/live-welle/`, das
+nur Codex anlegt; Ben schreibt `marke/naming-sprint-2026-08-welle2.md`).
+
+### Strang R19-B (Codex — User-Werkzeugwahl 13:54) — Live-Welle: Phase 0 Werkzeugbau + Kanal-Gangbarkeit (JETZT), Phase 1 Messlauf Favoriten (nach Favoriten-Wahl)
+
+Du bist **Codex**, Arbeits-Session `R19-B`, Phase 0. Auftragsform:
+**Codex inventarisiert und misst — die Leitsession bewertet.** Ob ein
+Treffer eine Markenkollision, ein SEO-Problem oder eine „realistisch
+erwerbbare" Domain ist, entscheidet die Leitsession; du lieferst
+Rohdaten, Statuscodes, Hashes und ein Kanal-Urteil „gangbar / nicht
+prüfbar" mit Beleg.
+
+**Zweck (User-Wortlaut, Briefing 18.08.):** „heyPensios echter neuer
+Name sollte stehen." Deine Phase 0 sorgt dafür, dass die Live-Prüfung
+der User-Favoriten (Domains, Handles, Markenregister, Websuche) heute
+NACHMITTAG in Minuten läuft statt in Stunden — und dass jeder Kanal
+VORHER an bekannten Kontrollwerten bewiesen hat, dass er misst.
+
+**Prüfstand:** eingefrorener Commit `a3412f8` (`git archive a3412f8`
+in dein Scratch AUSSERHALB des Repos — Session-Scratchpad; NIE im
+Repo-Root, NIE auf der Ebene über den Repos [`firma\`], beides ist
+gestern passiert). Lies dort: `marke/markenrecherche-verfahren.md`
+(GANZ; Kern §§ 3–7 + § 9 Protokoll-Pflichten), `marke/
+naming-kriterienkatalog.md` § 5 (E-K1: `.de` + `.com` Pflicht; E-K1b:
+LinkedIn, Instagram, Facebook, YouTube vorläufig; E-K3: keine
+Bindestrich-Kern-Domains), `.claude/rules/quellen-beschaffung.md` +
+`.claude/rules/browser-automation.md` (Werkzeugfallen: SPA-Bauform je
+Seite MESSEN, billigster Kanal zuerst = curl/RDAP; Timeout ≠ Negativ;
+geratene URL ≠ Negativ; Positivkontrolle je Lauf; NBSP/U+2011 in
+Registertexten), `.claude/rules/windows-powershell.md` (Node statt
+Python; Backslash-Fallen; Zählungen als Skriptdatei mit Selbsttest).
+Der Arbeitsbaum läuft unter dir weiter (R19-A committet parallel) —
+Kein Commit, kein Push. **Deine Lieferdateien legst du UNGESTAGT im
+Arbeitsbaum ab**, genau diese: (1) `marke/live-welle/messlauf.js`
+(+ ggf. `package.json` NUR wenn eine Abhängigkeit unvermeidbar ist —
+bevorzugt Node-Bordmittel `fetch`/`https`), (2) `marke/live-welle/
+selbsttest.md` (Kontrollwerte je Kanal, Soll/Ist, Lauf-Zeitstempel),
+(3) genau EINE Berichtsdatei `protokolle/R19-B-bericht.md` (Phase 0
+als § 1; Phase 1 wird später als § 2 angehängt), (4) Rohbelege NUR
+unter `sensibel/rohbelege-R19-B/phase0/` (git-ignoriert; je Abruf
+Datei + SHA-256 in einer `hashes.txt`). Nichts anderes im Repo
+anfassen; **`marke/naming-sprint-*.md` und `marke/live-welle-*.md`
+sind tabu** (fremder Scope).
+
+**Aufgabe Phase 0 — ein Skript, vier Kanäle, je Kanal Beweis:**
+
+`node marke/live-welle/messlauf.js --kandidaten=<datei> --aus=<ordner>`
+liest eine Kandidatenliste (eine Zeile je Kandidat: `N-XX;Klarname`)
+und schreibt je Kandidat × Kanal Rohantwort + Status in `<ordner>`
+sowie eine Ergebnistabelle (Markdown) nach stdout; `--selbsttest`
+läuft OHNE Kandidatendatei nur die Kontrollwerte und endet mit Exit 0
+NUR, wenn je Kanal Positiv- UND Negativkontrolle das Soll treffen
+(sonst Exit 1 mit Nennung des Kanals; „nicht prüfbar" ist ein
+zulässiges, ausdrücklich ausgewiesenes Kanal-Ergebnis, kein stiller
+Exit 0). Kanäle:
+
+1. **Domains (K3, Verfahren § 6):** `.de` über DENIC (RDAP
+   `rdap.denic.de` — Bauform/URL-Schema am Objekt messen, nicht raten;
+   Fallback DENIC-Webabfrage nur, wenn RDAP nicht antwortet, dann
+   Kanal-Vermerk) und `.com` über Verisign-RDAP (`rdap.verisign.com`,
+   Schema messen). Ausgabe je Domain: HTTP-Status, RDAP-Status-Array
+   bzw. „404 = nicht registriert" NUR, wenn die Positivkontrolle im
+   selben Lauf 200 liefert. **Positivkontrolle Pflicht (§ 6.3):
+   `hey-pensio.de` (bekannt vergeben) muss „vergeben" melden; für
+   `.com` ein bekannt vergebener Kontrollwert (z. B. `apaleo.com`).
+   Negativkontrolle: eine erkennbar unsinnige, garantiert freie
+   Zeichenfolge je TLD (z. B. `qzx7-kontrollwert-<datum>.de`) muss
+   „frei" melden.** Bindestrich-/Schreibvarianten (Verfahren § 3.2
+   Varianten-Raster) sind Phase 1; das Skript muss aber eine Liste
+   von Varianten je Kandidat akzeptieren (Spalte 3 optional:
+   `N-XX;Klarname;variante1|variante2`).
+2. **Handles (W8, Verfahren § 7):** LinkedIn (`/company/<handle>`),
+   Instagram, Facebook, YouTube (`/@<handle>`) — direkte Profil-URL
+   per HTTP (Statuscode + ein Seitenmarker aus dem Body, den du am
+   Objekt gemessen hast). ⚠️ Erwartung aus dem Baustein: Plattformen
+   antworten Bots mit 999/429/Login-Redirect — dann ist das Ergebnis
+   je Plattform **„nicht prüfbar per HTTP"** mit Beleg (Status +
+   Body-Anfang), und Phase 1 läuft dort über die Leitsession im
+   Browser. Positivkontrolle: ein bekannt vergebener Handle je
+   Plattform (z. B. `apaleo`); Negativkontrolle: unsinniger Handle.
+   **Ein 404 ist ein Indiz, keine Freigabe** (§ 7.2) — so
+   beschriften.
+3. **Markenregister (K2, Verfahren §§ 3–4) — nur Kanal-Gangbarkeit
+   und Rohexport, KEIN Kollisionsurteil:** TMview
+   (`tmview.euipo.europa.eu` — die SPA lädt Daten über einen
+   JSON-Endpoint; miss ihn aus den Netzwerk-/JS-Quellen der Seite,
+   nicht raten), EUIPO eSearch plus, DPMAregister (register.dpma.de —
+   Bauform messen: klassisches Formular/POST oder SPA?). Je Register:
+   gangbar per HTTP ja/nein, mit welcher Aufrufform (URL/Parameter/
+   Header dokumentiert), Positivkontrolle = eine bekannt eingetragene
+   Marke aus dem Umfeld (z. B. `apaleo` — muss ≥ 1 Treffer liefern),
+   Negativkontrolle = unsinnige Zeichenfolge (0 Treffer). Ausgabe je
+   Kandidat in Phase 1: Trefferliste roh (Zeichen, Registernummer,
+   Klassen, Status, Inhaber — Felder § 3.4, soweit die Antwort sie
+   trägt) als Datei + Zeilenzahl. **Nicht gangbar per HTTP = „nicht
+   prüfbar (Kanal)" mit Beleg**, dann geht der Register-Teil an die
+   Leitsession (Browser). Handelsregister-Portal (§ 5.2) analog als
+   fünfter Teilkanal, wenn mit vertretbarem Aufwand messbar — sonst
+   „nicht erhoben" ausweisen.
+4. **Websuche (W7 / § 5.1):** Prüfe, ob eine allgemeine Websuche per
+   HTTP ohne Blockade antwortet (Google liefert Bots i. d. R. eine
+   Consent-/JS-Seite; DuckDuckGo-HTML-Endpoint und Bing als
+   Alternativen messen). Ergebnis je Suchmaschine: gangbar / nicht
+   prüfbar, mit Beleg. Für Phase 1: je Kandidat die Roh-Trefferliste
+   (Titel + URL der ersten ~20) allein und mit den Kontextbegriffen
+   aus § 5.1 (Hotel · Hotellerie · PMS · Check-in · Gastgewerbe ·
+   Software). Positivkontrolle: Suchbegriff `apaleo` muss die
+   Herstellerdomain in den Top-Treffern zeigen.
+
+**Auflagen (alle Pflicht):** je Kanal Zeitstempel (MESZ, per Werkzeug)
++ SHA-256 der Rohantwort · Kontrollwerte tragen die ZEICHENKLASSE des
+Musters (Bindestrich in `hey-pensio.de`; Groß/Klein bei Handles) · ein
+Kanal, der bei der Positivkontrolle nicht trifft, ist TOT — alle Zahlen
+dieses Kanals verwerfen, nicht die Stelle (CLAUDE.md
+Werkzeugfehler-Regel) · Timeouts wiederholen (3×, Wartezeit
+dokumentiert), nie als Negativ werten · **Abbruchbedingung/Kostendeckel:
+Phase 0 endet spätestens nach 90 Minuten Laufzeit** — was bis dahin
+nicht gangbar ist, wird als „nicht prüfbar (Zeit)" ausgewiesen, nicht
+weiterprobiert; **keine Anmeldung, keine Konten, keine Cookies-Annahme
+über Consent-Klicks hinaus, kein Umgehen von Bot-Sperren** (eine
+Sperre ist ein Kanal-Befund) · keine Drittanbieter-„Domain-Check"-
+Seiten (§ 6.4 Front-Running) · Zugangsweg je HANDLUNG messen, nichts
+aus Vorrunden übernehmen.
+
+**Berichtsdatei `protokolle/R19-B-bericht.md` § 1 (Phase 0) —
+Pflichtabschnitte:** (a) Kanal-Tabelle: Kanal · Aufrufform · Positiv-
+Soll/Ist · Negativ-Soll/Ist · Ergebnis (gangbar / nicht prüfbar +
+Grund) · Rohbeleg-Pfad + Hash · Zeit; (b) Selbsttest-Ausgabe verbatim
+(Exit-Code separat gemessen: `$LASTEXITCODE` bzw. `echo $?` direkt
+nach dem Aufruf, keine Pipe dazwischen); (c) **„nicht erhoben / nicht
+prüfbar"** — je Kanal, was dein Prüfweg NICHT misst (z. B. reservierte
+Handles ohne Profil, nicht eingetragene Kennzeichen, erloschene Marken
+je nach Filter, Regionalfilter der Suchmaschine); (d) **„Welcher meiner
+Prüfschritte hätte einen vorhandenen Fehler NICHT finden können?"**
+(z. B. Positivkontrolle trifft, aber die Antwort-Struktur für Kandidaten
+weicht ab — wie merkt das Skript das?); (e) Übergabe für Phase 1: der
+genaue Aufruf, das Eingabeformat, erwartete Laufzeit je Kandidat, und
+welche Kanäle die Leitsession im Browser nachziehen muss; (f) dein
+`git status --short` am Ende (wird von der Leitsession gegengemessen —
+Fremdagent-Sicht ist nicht übernehmbar). Kein Kollisions-, SEO- oder
+Erwerbbarkeits-Urteil in der Datei.
+
+**Fertig-Kriterium Phase 0:** `node marke/live-welle/messlauf.js
+--selbsttest` läuft real (kein „Parser PASS" — der echte Lauf) und
+sein Ergebnis steht in `selbsttest.md` + Bericht § 1 (b); für JEDEN der
+vier Kanäle steht ein belegtes „gangbar" (mit Positiv-/Negativkontrolle
+Soll≠Ist-Struktur) ODER ein belegtes „nicht prüfbar" — kein Kanal ohne
+Eintrag; Rohbelege mit Hashes liegen unter `sensibel/rohbelege-R19-B/
+phase0/`. Danach Meldung an den User/die Leitsession im Chat in vier
+Blöcken (gebaut/verifiziert mit Pfaden — KEINE Commit-Hashes, du
+committest nicht; offen geblieben; Nebenbefunde außerhalb des Auftrags
++ Pflichtfeld „welchen benannten Posten erfüllt mein Ergebnis?" —
+Kandidat: Projektquelle § 7 4b „Prompt-Pflichten E-V4: Positivkontrolle
+je Prüfkanal"; Fallen/bewährte Muster). Phase 1 startet erst auf
+Zuruf der Leitsession mit der Favoriten-Datei.
+
 ### Leitsession-Programm Block 1 (Shanks)
 
 Kalibrierung ✅ (oben) · Prämissen-Meldung: keine gekippt (kein

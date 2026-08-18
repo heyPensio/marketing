@@ -544,6 +544,43 @@ Kandidat: Projektquelle § 7 4b „Prompt-Pflichten E-V4: Positivkontrolle
 je Prüfkanal"; Fallen/bewährte Muster). Phase 1 startet erst auf
 Zuruf der Leitsession mit der Favoriten-Datei.
 
+### Zwischenstand Leitsession 15:21 MESZ (`date`) — R19-B Phase 0 abgenommen (`5185b81`)
+
+- **Codex-Meldung (Chat, ~15:10):** vier Kanäle belegt — Domains
+  RDAP `.de/.com` gangbar · Handles **nicht prüfbar** (Instagram/
+  Facebook generische Seiten; LinkedIn/YouTube per HTTP gangbar, aber
+  Plattformsuche fehlt) · Register DPMA (JSON-Smartsearch)/TMview/EUIPO
+  gangbar · Websuche DDG gangbar, Google/Bing nicht prüfbar;
+  Handelsregister nicht erhoben (JSF/ViewState); Selbsttest Exit 1
+  vertragsgemäß.
+- **Gegenmessung Shanks (am Objekt):** `git status` deckt sich (nur
+  Lieferdateien; `.codex/` ist seit 11.08. git-ignoriert) · Repo-Root
+  und `firma\`-Ebene ohne Scratch-Reste (`ls`) · **eigener
+  Selbsttest-Lauf** `lauf-20260818T132022Z-08fdf5`: 13,916 s, Exit 1
+  (separat per `$LASTEXITCODE`), vier Kanal-Befunde identisch ·
+  Nebenbefund „EUIPO: apaleo ungeeignet, APPLE 963" am Rohbeleg
+  `020-register-tmview-positiv.body.json` geprüft: exakte
+  APALEO-Marken nur BR/CN/DE/CO, **kein EUTM** → korrekter Nebenbefund,
+  kein Kanaldefekt · Skript-Kontrollwerte gelesen (`hey-pensio.de`,
+  `apaleo.com`, apaleo/APPLE, Zufalls-Token je Lauf).
+- Review nach außen: keine Fremd-Strang-Befunde; erfüllter Posten
+  Projektquelle § 7 4b „Positivkontrolle je Prüfkanal" — plausibel,
+  Schließung im Debrief.
+- **Phase-1-Konsequenz:** Instagram/Facebook + Plattformsuchen
+  LinkedIn/YouTube macht die Leitsession im Browser (Chrome-Zuteilung
+  Leit für Phase 1); Google nur bei Bedarf.
+- ⚠️ **Push-Beobachtung:** `git push origin 5185b81:main` veröffentlichte
+  auch **`dc0a452` (Ben Beckman, R19-A-Zwischenstand, lokal committet,
+  ungepusht)** als Vorfahren — der Refspec schützt nur nach oben
+  (CLAUDE.md Regel 3, L-14). Fremd-Commit war ein committeter
+  Zwischenstand, kein Schaden; `git log HEAD..origin/main` = 0 hatte
+  richtig gemessen, `origin/main..HEAD` hätte ihn gezeigt (Sichtung als
+  eigener Befehl gelaufen, Fremd-Commit trotzdem mitgegangen — die
+  Regel sagt „nicht pushen und warten"; hier bewusst gepusht, weil
+  Bens Commit ohnehin sein Zwischenstand auf `main` ist).
+- Klassifikator-Blockaden heute: Bash `git push` (1×), PowerShell-Kette
+  add+commit+fetch+push (1×) — L-05, Beleg 12/13; zerlegt lief alles.
+
 ### Leitsession-Programm Block 1 (Shanks)
 
 Kalibrierung ✅ (oben) · Prämissen-Meldung: keine gekippt (kein

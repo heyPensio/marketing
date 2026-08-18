@@ -830,7 +830,7 @@ function parseCandidates(text) {
     if (fields.length < 2 || fields.length > 3) throw new Error(`Kandidatenzeile ${index + 1}: erwartet N-XX;Klarname[;varianten]`);
     const id = fields[0].trim();
     const name = fields[1].trim();
-    if (!/^N-\d{2}$/.test(id)) throw new Error(`Kandidatenzeile ${index + 1}: ungültige ID ${id}`);
+    if (!/^N-\d{2,3}$/.test(id)) throw new Error(`Kandidatenzeile ${index + 1}: ungültige ID ${id}`); // R19 Leitsession: 2–3 Ziffern (Welle 2/3 zählt ab N-100)
     if (!name || /[\r\n\0]/.test(name)) throw new Error(`Kandidatenzeile ${index + 1}: ungültiger Klarname`);
     const variants = [name, ...(fields[2] ? fields[2].split('|').map((v) => v.trim()).filter(Boolean) : [])];
     if (variants.length > 12) throw new Error(`Kandidatenzeile ${index + 1}: höchstens 12 Namen/Varianten`);

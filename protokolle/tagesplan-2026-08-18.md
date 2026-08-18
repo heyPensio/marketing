@@ -753,6 +753,22 @@ branchenfremd besetzt (Musik/Entertainment) — der einzige der fünf ohne
 Branchen-Nachbarn im Umfeld, aber Handles auf allen drei Plattformen
 vergeben. Register-Befund folgt aus Codex Phase 1.
 
+### Nachtrag ~16:55 MESZ — Phase 1 läuft in der LEITSESSION statt in Codex
+
+Am Objekt gemessen (16:50): kein `phase1/`-Ordner, Bericht ohne § 2 —
+die Codex-Startzeile für Phase 1 ist beim User nicht angekommen („codex
+mit was fertig ist?"; er las die Phase-0-Meldung als Gesamtabschluss).
+Entscheid Shanks: **Phase 1 selbst fahren** — die Zuteilung an Codex war
+eine Erlaubnis, das Werkzeug ist abgenommen, der Lauf ist Mechanik ohne
+Urteil; Warten kostet nur Zeit. Aufruf identisch zu Bericht § 7 (e):
+`node marke/live-welle/messlauf.js --kandidaten=marke/live-welle/favoriten-2026-08-18.txt --aus=sensibel/rohbelege-R19-B/phase1`
+(Hintergrund, stdout → `sensibel/rohbelege-R19-B/phase1-stdout.md`).
+Bericht § 2 schreibt danach die Leitsession (Messung UND Bewertung in
+einer Hand — Abweichung vom „Codex misst / Leit bewertet"-Zuschnitt,
+ausgewiesen; die Rohbelege mit Hashes bleiben der Beleg, die
+Kontrollpaare des Laufs die Positivkontrolle). Startzeile Codex Phase 1
+damit **gegenstandslos**.
+
 ### Leitsession-Programm Block 1 (Shanks)
 
 Kalibrierung ✅ (oben) · Prämissen-Meldung: keine gekippt (kein

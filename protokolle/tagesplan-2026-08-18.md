@@ -713,6 +713,46 @@ Leit) · danach Bewertung K2 (Verfahren § 2.2 Suchraum 9/35/36/37/38/41/
 42 + 43) / K3 / W7 / W8 → **Empfehlung mit Vorbehalten** → User-Entscheid
 → Postkorb Zentrale.
 
+### Nachtrag 16:43 MESZ (`date`) — Leitsession-Messungen während Codex Phase 1 läuft
+
+**K6-Wörterbuch-Doppellauf** (`marke/live-welle/k6-doppellauf-shanks.js`,
+72 Abrufe, Rohantworten `sensibel/rohbelege-R19-B/k6-shanks/`, 16:39
+MESZ): Kontrollen je Kanal de/en/tr/fr/es/it — Positiv (Hotel/hotel/
+otel/hôtel/hotel/albergo) alle 200, Negativ-Token `qzx7r19w3mszorc`
+alle 404 → **6/6 Kanäle gangbar**. Ergebnis: **Hostwise · Staywise ·
+Hostpilot · Cleverhost: 0 Einträge in 6 Sprachen (groß + klein)**;
+**Checkmate: klein `checkmate` = Eintrag in en/tr/fr/it** (Schachmatt,
+„by extension: besiegen"; keine vulgäre/pejorative Markierung —
+„SLang"-Grep-Treffer sind JS-Variablen, geprüft) → K6 für alle fünf
+**bestanden** (Schreibtisch, E-K4 je Einzelsprache erfüllt).
+
+**Handles im Browser (Chrome, 16:25–16:42; Positivkontrollen: Instagram
+`apaleo` → Profil „Angelica Paleo (@apaleo)" · Facebook `apaleoGmbH` →
+„apaleo | Facebook" · YouTube-Suche `hostwise` liefert Treffer):**
+
+| Name | Instagram (Profil-URL) | Facebook (Profil-URL) | YouTube (Suche) | LinkedIn (Browser) |
+|---|---|---|---|---|
+| Hostwise | „Profil nicht verfügbar" (Indiz frei/gesperrt) | **vergeben:** „HostWise • ჰოსთვაიზ, Tbilisi" — Ferienwohnungs-Management, Kategorie „Hotel/Unterkunft" | **besetzt:** „Host-Wise" (Guesty-Kunde, Ferienvermietung), „Host Wise" hostwise.pt (Portugal, Ferienwohnungs-Management) | **vergeben** `linkedin.com/company/hostwise` „HostWise" |
+| Staywise | **vergeben:** „✱ WISER." (Musikerin, 7.253 Follower) | **vergeben:** Person (Stephanie Kothe) | **besetzt:** „STAY WISE" (376.000 Abonnenten, Grusel-Kanal), staywise777 (Musiker) — kein Gastgewerbe-Anbieter gesehen | authwall (nicht prüfbar Browser) |
+| Hostpilot | **vergeben:** „HostPilot" (0 Follower, leer) | **vergeben:** „HostPilot" — Short-Term-Rental-Management („from guest communication and pricing … to cleaning") | **besetzt:** „HostPilot — autonomous booking agent for vacation-rental hosts" (Hackathon 2026), **„HostPilot" von Intermedia** (US-Cloud-Anbieter, Control-Panel-Produkt, Video 7 J.) — ⚠️ K2-Verdacht Klasse 9/42 | authwall |
+| Cleverhost | „Profil nicht verfügbar" | „Facebook" (generisch = Indiz frei) | **besetzt:** „CleverHost Web Hosting" (Kanada, Web-Hoster) — ⚠️ K2/W9-Verdacht Klasse 42 | authwall |
+| Checkmate | **vergeben:** „Checkmate Records" | **vergeben:** „Check & Mate Technologies" | **besetzt (Suche „checkmate hotel software"):** „Checkmate" (Restaurant-Tech, „enterprise restaurants") · „Checkinmate.ai" (Hotel-KI/WhatsApp) · „CheckMate Online" (Software) — ⚠️ K2 hoch, Klassen 9/42/43 | authwall |
+LinkedIn-Browserkanal: nach dem ersten Abruf Authwall für alle weiteren
+inkl. Positivkontrolle `apaleo` → **Browserkanal nach 1 Abruf tot**;
+LinkedIn-HTTP-Kanal liefert Codex Phase 1. Ein „nicht verfügbar"/404 ist
+Indiz, keine Freigabe (Verfahren § 7.2).
+
+**Vorläufige Lesart Shanks (vor den Register-Rohdaten, Belegstufe
+Umfeld/Websuche):** Alle fünf Namen sind im Netz benutzt; **Hostwise,
+Hostpilot, Checkmate** durch Anbieter im **eigenen oder benachbarten
+Feld** (Ferienwohnungs-Management, Hotel-/Restaurant-Software,
+Cloud-Control-Panel) → K2/W9-Verdacht; **Cleverhost** durch einen
+Web-Hoster (Klasse-42-Nähe, zusätzlich die „Internetanbieter"-Lesart,
+die der User selbst am Host-Stamm bemängelt hat); **Staywise** bisher nur
+branchenfremd besetzt (Musik/Entertainment) — der einzige der fünf ohne
+Branchen-Nachbarn im Umfeld, aber Handles auf allen drei Plattformen
+vergeben. Register-Befund folgt aus Codex Phase 1.
+
 ### Leitsession-Programm Block 1 (Shanks)
 
 Kalibrierung ✅ (oben) · Prämissen-Meldung: keine gekippt (kein

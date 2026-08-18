@@ -361,6 +361,27 @@ Google-Kollision · Positivkontrolle je Prüfkanal · Rohtext-Reads statt
 WebFetch-Zusammenfasser · Rohbelege `sensibel/rohbelege-R19-B/` ·
 Abbruchbedingung/Kostendeckel (Projektquelle § 7 4b).
 
+**Nachtrag 13:54 MESZ (`date`) — User-Werkzeugwahl: „R19-B gerne mit
+Codex."** Zuschnitt damit fest: **Codex inventarisiert und misst — die
+Leitsession bewertet.** Codex liefert je Favorit die ROHDATEN aller vier
+Kanäle (RDAP/whois-Antworten je TLD · HTTP-Status/Seitenmarker je
+Plattform-Handle · DPMA-/EUIPO-/TMview-Trefferlisten als Export ·
+Google-Top-Treffer als Rohliste), je mit Positivkontrolle pro Kanal,
+Hash-Beleg und Zeitstempel; **kein Belegstufen-Urteil, keine
+K2-Einstufung** („ob eine Kollision vorliegt, entscheidet die
+Leitsession"). Auflagen wie R17-B/R18-B: eingefrorener Commit-Hash ·
+nur lesend im Repo · genau EINE Berichtsdatei
+`protokolle/R19-B-bericht.md` (ungestagt) + Rohbelege NUR unter
+`sensibel/rohbelege-R19-B/` (git-ignoriert) · kein Commit/Push · Scratch
+nur im Session-Scratchpad, nie im Repo-Root, nie auf der Ebene über den
+Repos (R16-B/R18-B-Fälle) · Pflichtabschnitte „nicht erhoben / nicht
+prüfbar" + „welcher Prüfschritt hätte einen Fehler NICHT gefunden?" ·
+`git status`-Aussagen von Codex werden von der Leitsession
+gegengemessen. Bewertung K2/W7 + Abnahme: Leitsession (Yasopp entfällt,
+Buchstabe B bleibt Codex). Prompt-Volltext folgt nach der Favoriten-Wahl
+(Block 2). Codex-CLI laut Briefing nicht im PATH — User startet Codex
+selbst (Desktop-App), wie R18-B.
+
 ### Leitsession-Programm Block 1 (Shanks)
 
 Kalibrierung ✅ (oben) · Prämissen-Meldung: keine gekippt (kein

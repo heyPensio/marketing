@@ -1,0 +1,5 @@
+N-130;Hostwise;host-wise|hostwize|hostwyse
+N-131;Staywise;stay-wise|staywize|steywise
+N-132;Hostpilot;host-pilot|hostpilott|hostpilote
+N-133;Cleverhost;clever-host|kleverhost|cleverhosts
+N-134;Checkmate;check-mate|checkmait|checkmatte

@@ -581,6 +581,138 @@ Zuruf der Leitsession mit der Favoriten-Datei.
 - Klassifikator-Blockaden heute: Bash `git push` (1×), PowerShell-Kette
   add+commit+fetch+push (1×) — L-05, Beleg 12/13; zerlegt lief alles.
 
+## Block 2 (ab ~15:45 MESZ) — R19-A reviewt, Welle-2-Shortlist verworfen, Welle 3 interaktiv, Favoriten stehen
+
+### Review R19-A (Shanks, 15:45–16:00 MESZ; Abschluss `090244d`, Prüfung `37d9056`, Bau `dc0a452`)
+
+- **Nach innen:** Prüferprotokoll `protokolle/R19-A-pruefer.md` § 7
+  selbst gezählt: **2 kritisch / 13 wichtig / 6 Hinweise = 21**;
+  Abschluss-Disposition **21 von 21** (18 repariert · 1 verworfen mit
+  Grund [#20] · 2 mit Träger [#8 → Debrief/Leitsession: Katalog-§-1-
+  Rückwirkung auf Welle 1; #9 → R19-B: E-K4 je Einzelsprache]) —
+  kategorienweise mit Nenner, Lauf-Status „vollständig", falsche
+  Behauptung (Nr. 2) korrekt benannt. **Kontaminationsschutz selbst
+  gemessen** an den archivierten Prompts (Datei-Z. 114–220): 0 Treffer
+  auf Welle-1-Shortlist-Namen/Altname/„hey"/Partnernamen, Positivkontrolle
+  „Gastgeber|Hotel" 15 Zeilen. Auswahlregel § 5.3 gelesen: Zwei-Gruppen-
+  Regel an der Tabelle nachvollziehbar (A: Signal ja + Σ ≥ 14 → 3; B: Σ ≥ 15
+  → 4; Auffang 1). Wiktionary-Läufe (284, Lauf 1 wegen 429 verworfen)
+  nicht selbst reproduziert — Prüfer hat 284/284 reproduziert (Fremd-
+  Lesestand, nicht meiner).
+- **Nach außen (Nebenbefunde Ben):** N-1 Achse B2 „wirt" war ein
+  Zuschnitt-Fehler der Leitsession (Welle 1 hatte den Stamm als K5-Fall
+  ausgeschieden — Ist-Stand-Prüfung nicht bis § 4.2 gelesen) → **Debrief,
+  eigener Fehler** · N-2 W9-Geltungsgrenze „nur Technik-Segment" ist im
+  Katalog, in Welle 1 und in meinem Prompt überholt (Wettbewerbsbild § 0.0
+  trägt selbst „teilweise überholt durch Teil B") → **Debrief: Katalog +
+  Welle-1-Vorwärtsverweis nachziehen** (L-25-Klasse) · N-3 Host-Stamm liefert
+  kein hörbares Signal → in die User-Vorlage übernommen · N-4 K5-T-Spannung
+  → sichtbar, User-Entscheid · N-5 Push-Vorfahre `a3412f8` (L-14) →
+  Register-Zweitbeleg. **Pflichtfeld:** STATUS „Nächster Schritt" 2 in
+  drei von vier Teilen erfüllt → Debrief schließt.
+- **Ergebnis:** Vorlage abgenommen und dem User als Dropdown vorgelegt.
+
+### Favoriten-Wahl auf der Welle-2-Shortlist (User, ~16:00 MESZ) — VERWORFEN
+
+Gruppe A „keiner" · Gruppe B keine Wahl · Zusätze „nichts davon" ·
+**„Keiner überzeugt — dritte Welle."** Diagnose (Dropdown): **„Klang nicht
+schön / nicht modern"** (einzige gewählte Option). Modus-Entscheid des
+Users: **interaktiv im Chat** (Empfehlung der Leitsession: zwei Agenten-
+Wellen haben den Geschmack nicht getroffen — der kalibriert sich an
+Reaktionen, nicht an Fragen); „hey" ausdrücklich probieren; keine
+Vorbild-Marken genannt. Wortlaut aller Antworten:
+`sensibel/kalibrierung-naming-2026-08-18-wortlaut.md` Erhebung 3/4.
+
+### Welle 3 — interaktiv (Shanks + User, ~16:10–16:35 MESZ, 5 Runden × 16 Namen + Konsolidierung)
+
+Vorgelegt wurden **80 Namen in 20 Reihen** (hey · -ly · romanisch ·
+modern-englisch · host+ · Hospero-Familie · Check- · Logis- · clever+ ·
+Stay- …), Reaktion je Reihe per Dropdown; Wortlaut der Freitexte in der
+sensibel-Datei. **Ja-Stapel nach 5 Runden (14):** Stayly · Hostly ·
+Hospero · Hospera · Hostwise · Hostmate · Hostpilot · Innkeep ·
+Cleverhost · Easyhost · Smarthost (User-Wunsch trotz Hinweis
+Mail-Fachbegriff) · Staywise · Checkmate (User-Impuls) · Checkwise ·
+(Roomly „geht, nicht ideal"). **Vielleicht:** heyHost · heyLodge ·
+Hospedia · Logify (User-Impuls aus „Logis"). **Klar raus:** hey-Reihe
+insgesamt (3 Runden, „gefällt mir nicht"), -ly nach Runde 5 („ist raus"),
+Hotel-Stamm-Bauformen (Hotelia/Hotelio), italienische Stämme
+(Albergio/Lokanda/Hosteria), Logis-Familie, clever/easy/smart + stay/inn.
+**Muster (Lesart Shanks):** kurze englische Realwort-Komposita mit
+„-wise" (3 Treffer), „host" am Ende (Cleverhost), „mate"/„pilot"; „host"
+vorne klingt dem User „nach Internetanbieter"; die weiche Hospero-Familie
+gefällt, wurde aber nicht zum Favoriten.
+
+**⭐ FAVORITEN LIVE-WELLE (User-Entscheid ~16:35 MESZ, Dropdown):**
+**N-130 Hostwise · N-131 Staywise · N-132 Hostpilot · N-133 Cleverhost ·
+N-134 Checkmate** (IDs fortlaufend nach Welle 2 [N-59…N-129] vergeben;
+Datei `marke/live-welle/favoriten-2026-08-18.txt` mit Varianten-Raster
+je Kandidat: Bindestrich · phonetische Ersetzung · Endungs-Variante —
+Auswahl aus dem Raster Verfahren § 3 Listenpunkt 2, nicht das volle
+Raster).
+
+**Schreibtisch-K.-o. der fünf Favoriten (Shanks, Klartext — sie liefen
+NICHT durch Bens Welle, deshalb hier; Belegstufe Ersteinschätzung, kein
+Wörterbuchlauf bis zum Vermerk unten):**
+| ID | Name | K1 beschreibend-Risiko | K5 | K6 DE/EN Ersteinschätzung | K7 |
+|---|---|---|---|---|---|
+| N-130 | Hostwise | mittel (host + wise = „gastgeber-kundig"; als Gesamtwort nicht rein beschreibend) | Host-Stamm unkritisch | keine negative Bedeutung bekannt; EN „host" = Gastgeber/Server (Doppeldeutung, kein Negativ) | ✅ |
+| N-131 | Staywise | mittel (stay + wise) | unkritisch, breit | keine bekannt; „stay" am Telefon (K4-Risiko hoch, s. Welle 2 N-95) | ✅ |
+| N-132 | Hostpilot | mittel | unkritisch; Autopilot-Facette | keine bekannt; „pilot" auch Testlauf/Vorprojekt (Doppeldeutung) | ✅ |
+| N-133 | Cleverhost | **mittel–hoch** (clever + host für einen Hosting-/Betreuungsdienst — nahe an Sachangabe; zusätzlich Nähe zu Web-Hosting-Anbietern → K2/W9-Verdacht) | unkritisch | keine bekannt | ✅ |
+| N-134 | Checkmate | gering (echtes Wort „Schachmatt", für Gastgewerbe-Software unterscheidungskräftig) — **aber K2-Vorab-Vermerk: sehr verbreitetes Zeichen, Kollision in 9/42 wahrscheinlich**; K5-Vermerk: Check-in-Assoziation = Einzelmodul-Nähe (Katalog K5) | ⚠️ Vermerk | keine negative; positiv-aggressiv („matt gesetzt") — passt zur Doktrin „Gastgeber bleibt Gastgeber"? als Frage in die Empfehlung | ✅ |
+K6-Wörterbuch-Doppellauf (6 Sprachen, Groß/Klein) für die fünf: **Leitsession
+während Codex Phase 1**, Ergebnis unten als Nachtrag. K4-Diktat-Test und
+EN-Muttersprachler bleiben User-Handgriffe.
+
+### Strang R19-B Phase 1 (Codex) — Messlauf über die fünf Favoriten
+
+Du bist **Codex**, Arbeits-Session `R19-B`, **Phase 1**. Auftragsform
+unverändert: **Codex misst — die Leitsession bewertet.** Prüfstand für
+Fach-/Regeltexte bleibt der Export `a3412f8` (das Skript selbst und die
+Favoriten-Datei liest du aus dem ARBEITSBAUM — beide sind jünger als der
+Prüfstand: `5185b81` bzw. ungestagt/committet durch die Leitsession).
+Kein Commit, kein Push; Scratch nur im Session-Scratchpad.
+
+**Aufgabe:** Exakt der in Bericht § 7 (e) übergebene Aufruf:
+`node marke/live-welle/messlauf.js --kandidaten=marke/live-welle/favoriten-2026-08-18.txt --aus=sensibel/rohbelege-R19-B/phase1`
+— fünf Kandidaten (N-130…N-134) mit je drei Varianten. Vor den
+Kandidaten laufen dieselben Kontrollfunktionen wie in Phase 0 (Soll:
+identische Kanal-Befunde; **weicht ein Kontrollpaar ab, sind die Zahlen
+dieses Teilkanals TOT** — ausweisen, nicht interpretieren). Kanäle:
+Domains `.de/.com` (RDAP) je Klarname + Varianten · Handles LinkedIn/
+YouTube per HTTP (Instagram/Facebook bleiben „nicht prüfbar" — nicht
+erneut versuchen) · DPMA-Smartsearch / TMview / EUIPO je Klarname +
+Varianten (Trefferlisten roh: Zeichen, Registernummer, Nizza-Klassen,
+Status, Inhaber, soweit die Antwort sie trägt; **kein** Ähnlichkeits-
+oder Kollisionsurteil) · Websuche DDG je Klarname allein + sechs
+Kontextbegriffe (Top-20 Titel+URL). Erwartete Laufzeit 2–8 min je
+Kandidat → Deckel **60 Minuten** gesamt; danach abbrechen, Teilstand
+ausweisen.
+
+**Lieferung:** Bericht **§ 2** in `protokolle/R19-B-bericht.md`
+(anhängen, § 1 unverändert): (a) Kontroll-Wiederholung Ist/Soll je Kanal;
+(b) **Ergebnistabelle je Kandidat × Variante × Kanal** (Domain: RDAP-
+Status → „registriert/nicht registriert per RDAP" · Handles: Status +
+Marker · Register: Trefferzahl je Register + Pfad der Rohliste ·
+Websuche: Trefferzahl + Pfad; jede Zelle mit Rohbeleg-Dateiname); (c)
+je Register die **Rohtrefferlisten als Markdown-Tabellen im Bericht**
+für die Klarnamen (nicht die Varianten — die nur als Datei) mit den
+Feldern § 3.4, damit die Leitsession bewerten kann, ohne 30 JSON-Dateien
+zu öffnen; (d) „nicht erhoben / nicht prüfbar" je Kandidat; (e) `git
+status --short` am Ende. Rohbelege + `hashes.txt` unter
+`sensibel/rohbelege-R19-B/phase1/<lauf>/`. Meldung im Chat in vier
+Blöcken wie Phase 0. **Kein Wort darüber, ob ein Name „frei" oder
+„geeignet" ist.**
+
+### Leitsession-Programm Block 2 (Shanks, während Codex läuft)
+
+K6-Wörterbuch-Doppellauf 5 × 6 Sprachen × 2 (curl, Positivkontrolle
+je Kanal) · **Browser-Handles** Instagram/Facebook (Profil-URL + Suche)
+und Plattformsuche LinkedIn/YouTube für die fünf (Chrome-Zuteilung
+Leit) · danach Bewertung K2 (Verfahren § 2.2 Suchraum 9/35/36/37/38/41/
+42 + 43) / K3 / W7 / W8 → **Empfehlung mit Vorbehalten** → User-Entscheid
+→ Postkorb Zentrale.
+
 ### Leitsession-Programm Block 1 (Shanks)
 
 Kalibrierung ✅ (oben) · Prämissen-Meldung: keine gekippt (kein

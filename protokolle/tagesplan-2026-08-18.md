@@ -769,6 +769,28 @@ ausgewiesen; die Rohbelege mit Hashes bleiben der Beleg, die
 Kontrollpaare des Laufs die Positivkontrolle). Startzeile Codex Phase 1
 damit **gegenstandslos**.
 
+## Block 3 (17:09–17:20 MESZ) — Live-Welle gelaufen, Bewertung, Entscheidungsvorlage
+
+- Erster Anlauf Exit 1: **Werkzeugbefund** ID-Parser `N-\d{2}` (Codex nahm
+  „N-XX" wörtlich) → Fix `\d{2,3}` (`4e371cd`, `node --check` ok);
+  zweiter Anlauf = maßgeblicher Lauf `lauf-20260818T150921Z-3872d0` (859
+  Dateien, 13 s Kontrollen + Kandidaten). Kontrollen identisch Phase 0.
+  **DDG kippte während des Laufs (202 für alle 20 Kandidaten-Abfragen) →
+  W7-Zahlen tot, nicht erhoben** (Ersatz: Browser-Umfeld 16:43).
+- **Bewertung (Bericht § 2 (c), Leitsession):** **Staywise, Hostpilot,
+  Checkmate = K.-o. K2** (identische eingetragene Unionsmarken in Kl. 42
+  bzw. 9/38/42 — Staywise EM 2026 Björndal · Hostpilot EM Intermedia ·
+  Checkmate mehrfach EM 9/42) · **Hostwise: registerseitig DE/EU frei**
+  (DPMA 0, EUIPO 0, TMview nur NZ/US), Umfeld Ferienvermieter PT/GE,
+  `.de` bei Sedo geparkt (erwerbbar, Preis offen), `.com` vergeben,
+  Handles überwiegend vergeben · **Cleverhost: registerseitig frei**,
+  aber Web-Hoster CA (Kl. 42-Verwechslung, genau die „Internetanbieter"-
+  Lesart), Domains beide vergeben (.de frisch gehalten 06/2026), K1
+  mittel–hoch.
+- **Ergebnis für den User:** kein Kandidat sauber; **ein gangbarer Pfad
+  (Hostwise) unter drei Vorbehalten**; drei K.-o.; Cleverhost zweite Wahl
+  mit Verwechslungs-Vorbehalt. Entscheidungsvorlage per Dropdown (Chat).
+
 ### Leitsession-Programm Block 1 (Shanks)
 
 Kalibrierung ✅ (oben) · Prämissen-Meldung: keine gekippt (kein

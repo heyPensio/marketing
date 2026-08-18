@@ -293,3 +293,76 @@ Nebenbefunde ohne Erweiterung des Auftrags:
 - DuckDuckGo kann bei einer Nullphrase einen Anzeigenblock liefern. `result--ad` wird deshalb strukturell ausgeschlossen; organischer No-results-Marker und 0 organische Treffer müssen gemeinsam vorliegen.
 - Ein 200er Body ist bei Google/Instagram kein Erfolgssignal. Erst ein gemessener Result-/Profilmarker macht den Teilkanal gangbar.
 - EUIPO `apaleo` ist keine geeignete dortige Positivkontrolle; die belegte Marke `APPLE` liefert über dieselbe offizielle Route 963 Treffer. TMview und DPMA verwenden weiterhin den umfeldnahen Wert `apaleo`.
+
+---
+
+# § 2 — Phase 1: Messlauf über die fünf Favoriten (Leitsession Shanks, 18.08.2026 17:09–17:20 MESZ)
+
+> ⚠️ **Abweichung vom Zuschnitt „Codex misst — Leitsession bewertet":**
+> Die Codex-Startzeile für Phase 1 kam beim User nicht an (Tagesplan
+> Nachtrag ~16:55); die Leitsession hat den Lauf SELBST gefahren und
+> bewertet ihn auch — Messung und Bewertung in einer Hand. Beleg bleiben
+> die Rohdateien mit Hashes und die Kontrollpaare des Laufs. **Werkzeug-
+> befund am ersten Anlauf:** ID-Parser akzeptierte nur `N-\d{2}` —
+> dreistellige IDs (ab N-100) fielen durch; Fix `\d{2,3}` (`4e371cd`),
+> zweiter Anlauf = maßgeblicher Lauf.
+
+- **Maßgeblicher Lauf:** `sensibel/rohbelege-R19-B/phase1/lauf-20260818T150921Z-3872d0/`
+  (859 Dateien, `hashes.txt`, `kandidaten-ergebnis.json`); Ausgabe
+  `sensibel/rohbelege-R19-B/phase1-stdout.md` (371 Zeilen). Aufruf wie § 7 (e),
+  Kandidatendatei `marke/live-welle/favoriten-2026-08-18.txt` (5 IDs × 4
+  Namen/Varianten). Exit 1 = vertragsgemäß (Handles nicht prüfbar).
+- **(a) Kontroll-Wiederholung:** identisch zu Phase 0 — Domains `.de/.com`
+  gangbar (pos/neg ✔) · Handles: LinkedIn/YouTube gangbar, Instagram/
+  Facebook nicht prüfbar · Register DPMA/TMview/EUIPO gangbar (pos 1/53/963,
+  neg 0/0/0) · Websuche: DDG-Kontrolle gangbar, Google/Bing nicht prüfbar.
+  **⚠️ Kanal-Kippen WÄHREND des Laufs:** DDG lieferte für ALLE 20
+  Kandidaten-Abfragen HTTP **202** mit „organische Treffer=0" — die
+  Kontrolle traf zu Laufbeginn, die Kandidatenabfragen liefen in eine
+  Rate-Limit-/Challenge-Antwort. **Alle DDG-Kandidatenzahlen sind TOT**
+  (Werkzeug, nicht Sache); W7 aus diesem Lauf **nicht erhoben** — Ersatz:
+  Browser-Umfeldbefunde der Leitsession (Tagesplan 16:43, YouTube-Suchen).
+  LinkedIn HTTP: 999 für drei Kandidaten (Bot-Sperre nach mehreren
+  Abrufen) → dort nur die Browser-/Bing-Befunde.
+
+## (b) Ergebnistabelle Klarnamen (Variante 1; Varianten 2–4 nur als Datei)
+
+| ID | Name | `.de` (RDAP) | `.com` (RDAP) | DPMA | TMview (gesamt) | EUIPO | Handles HTTP (LI / YT) |
+|---|---|---|---|---|---|---|---|
+| N-130 | Hostwise | **registriert** — NS `sl1/sl2.sedo.com` (Parking/Verkaufsplattform, zuletzt geändert 2023-01-16) | **registriert** seit 2002-06-11, Registrar Spaceship, exp. 2026-09-16 | **0** | 6 — nur NZ (Evergreen, Kl. 41/42, eingetragen) · US (Host Wise Co, Kl. 36) · NZ abgelaufen · US „HOSTWISER" beendet; **kein DE/EM/WO** | **0** | LI 999 (Bot) / YT „Host Wise" (Kanal, PT-Ferienvermieter) |
+| N-131 | Staywise | **registriert** (NS kasserver.com, 2022-04-28) | **registriert** seit 1999, MarkMonitor (AT&T-Nameserver) | **1** | 7 — **EM 42 „STAYWISE" EINGETRAGEN (Björndal, Per, angemeldet 2026-01-30, Schutz alle EU-Staaten)** · US Kl. 9 angemeldet (SensorTower 2026) · GB Kl. 9/16/35/38/41 abgelaufen + GB „StayWise Saving Lives …" eingetragen · CN/MX/NZ | **1** (Kl. 42, Registered) | LI 200 „Staywise" / YT „STAY WISE" (376k) |
+| N-132 | Hostpilot | **registriert** (NS cloudpit, 2020-01-08) | **registriert** seit 1999, **NS Intermedia** | **2** | 10 — **alle Intermedia.net: EM 9/38/42 EINGETRAGEN (2008), EM 35/38/42 abgelaufen, GB 9/38/42, US 9/42, CN** | **2** (Kl. 9/38/42 Registered; 35/38/42 expired) | LI 999 / YT fremd |
+| N-133 | Cleverhost | **registriert** (DENIC, ohne Nameserver, zuletzt geändert **2026-06-07**) | **registriert** seit 1998, Porkbun (kanadischer Web-Hoster lt. YouTube) | **0** | 1 — CL „cleverhost" Kl. 42 beendet | **0** | LI 404 / YT 404 |
+| N-134 | Checkmate | **registriert** (NS kv-gmbh.de, 2026-03-04) | **registriert** seit 1998, Microsoft-Nameserver | **53** (+14 Patente) | **836** — Auszug (30 gezeigt): EM 33 · EM 9/37/41/42 abgelaufen · EM 7/12/17/20 · DE 9 abgelaufen · CA 42 · viele US | **22** — u. a. **„CHECKMATE" Kl. 42 Registered · Kl. 9 Registered (2×) · Kl. 9/42/45 IR accepted · „Checkmate Vision" 9/35/42 published · „VAN AMEYDE CHECKMATE" 36/42/45** | LI 999 / YT fremd |
+
+Varianten (Bindestrich/phonetisch/Endung): `.de` durchweg 404 (nicht
+registriert) außer den Klarnamen; `.com` bei Hostwise-Varianten
+mehrfach registriert (host-wise.com, hostwize.com, hostwyse.com —
+Zeilen v02–v04); Register-Varianten überall 0 außer TMview
+`host-wise` 11 (Wortmarken mit „host wise"-Bestandteil, nicht einzeln
+gelesen). Details: `phase1-stdout.md`.
+
+## (c) Bewertung K2 / K3 / W7 / W8 (Leitsession — das ist die URTEILS-Hälfte)
+
+Suchraum K2: Verfahren § 2.2 (Klassen 9/35/36/37/38/41/42 + 43); Belegstufe:
+Register-Rohtreffer selbst gelesen (Klarname, exakte Zeichenfolge; keine
+Ähnlichkeitsrecherche mit Trunkierung außer TMview-Fuzzy), Umfeld aus
+Browser (Tagesplan 16:43).
+
+| Name | K2 Marken (DE/EU) | K2 Umfeld (§ 5, unregistrierte Kennzeichen) | K3 Domains | W8 Handles | Gesamturteil Schreibtisch+Live |
+|---|---|---|---|---|---|
+| **Hostwise** | **kein Treffer DPMA/EUIPO; TMview nur NZ/US** → registerseitig frei im DE/EU-Raum | ⚠️ Ferienwohnungs-Manager „Host Wise" (Portugal, hostwise.pt, LinkedIn `host-wise`) + „HostWise" Tbilisi — Klasse 43/35-nah, kein Software-Anbieter; PT ist EU-Mitglied (nationale Benutzungsmarke denkbar, Verkehrsgeltung in DE unwahrscheinlich) | ✗ `.de` bei **Sedo geparkt → realistisch erwerbbar (Preis unbekannt)**; `.com` vergeben (Kleinhalter?, exp. 09/2026 — Erwerbbarkeit ungeklärt) | LI/FB/YT vergeben, IG Indiz frei | **einziger Kandidat mit gangbarem Pfad** — Vorbehalte: .com, Handles, PT-Namensvetter im Nachbarfeld |
+| **Cleverhost** | kein Treffer DPMA/EUIPO; TMview CL beendet → registerseitig frei | ⚠️ „CleverHost Web Hosting" (Kanada, Kl. 42 — Hosting ist DIE Verwechslungsrichtung, die der User am Host-Stamm selbst bemängelt: „klingt nach Internetanbieter"); nicht in EU registriert | ✗ `.de` vergeben, ohne Nameserver, **erst 06/2026 geändert** (jemand hält sie aktiv); `.com` beim Web-Hoster | IG/FB/LI/YT Indiz frei (404/generisch) | gangbar, aber K1 mittel–hoch + Hosting-Verwechslung; Domains beide weg |
+| **Staywise** | ✗ **Unionsmarke „STAYWISE" Kl. 42, eingetragen 2026, Schutz alle EU-Staaten (Björndal)** — identisches Zeichen in unserer Kernklasse | Musik/Entertainment (branchenfremd) | ✗ beide vergeben (.com AT&T/MarkMonitor) | alle vergeben | **K.-o. (K2)** |
+| **Hostpilot** | ✗ **Intermedia „HOSTPILOT" EM Kl. 9/38/42 eingetragen** (+ GB/US/CN) | Intermedia-Produkt aktiv (hostpilot.com), Short-Term-Rental-Service, Hackathon-Agent | ✗ beide vergeben (.com Intermedia) | vergeben | **K.-o. (K2)** |
+| **Checkmate** | ✗ **mehrere EU-Marken „CHECKMATE" in Kl. 9 und 42 eingetragen**, weitere angemeldet (9/35/42), 53 DPMA-Treffer | Restaurant-Software „Checkmate", „Checkinmate.ai" (Hotel) | ✗ beide vergeben (.com Konzern) | vergeben | **K.-o. (K2)** |
+
+**Nicht erhoben / nicht prüfbar (§ 2):** DDG-Kandidatenzahlen (202) · Google/
+Bing · Instagram/Facebook per HTTP (Browser: Tagesplan 16:43) · Handelsregister ·
+Ähnlichkeitsrecherche mit Trunkierung/Varianten-Raster im Register (nur die
+vier gelisteten Varianten je Name, exakt) · Ähnlichkeit „Host Wise" vs.
+„Hostwise" rechtlich (Anwalt, E-K5) · Erwerbbarkeit/Preis der Domains ·
+K4-Diktat-Test · EN-Muttersprachler.
+
+**`git status --short` nach dem Lauf (Leitsession):** nur `M protokolle/
+R19-B-bericht.md` + Tagesplan; Rohbelege git-ignoriert.

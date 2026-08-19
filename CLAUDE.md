@@ -119,7 +119,11 @@ Workspace-/Infrastruktur-Migrationen) liegt im Nachbar-Repo
 1. **Lese-Richtung (Pflicht bei Session-Start):** Zusätzlich zur eigenen
    STATUS.md auch `<FIRMENWURZEL>\zentrale\STATUS.md` lesen —
    Firmen-Entscheide (vor allem der Namensstand) ändern laufend die
-   Prämissen der Marketing-Arbeit.
+   Prämissen der Marketing-Arbeit. **Und den EIGENEN Postkorb
+   `eingang\` prüfen** (Gegenrichtung Zentrale → Abteilung, seit
+   19.08.2026; Regeln in `eingang\README.md`): Meldungen in die Träger
+   einarbeiten und **im selben Commit löschen** (Transportbehälter);
+   Einstiegs-Aufträge kommen NIE über diesen Kanal, nur übers Briefing.
 2. **Schreib-Richtung (Postkorb):** Ergibt die Arbeit hier einen Befund
    oder Entscheidungsbedarf der Firmen-Ebene, schreibt die Session eine
    kurze Meldedatei nach `<FIRMENWURZEL>\zentrale\eingang\`

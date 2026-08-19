@@ -145,7 +145,8 @@ Session die Leitsession.
 | Briefing § 8 Nr. 6: MKT-Paket weiter offen beim User | Block 4 dieses Plans · Shanks + User · heute nach Namensentscheid |
 | H-1-Prämissen-Delta (zentrale STATUS 18.08. / Briefing § 1 Nr. 7) | Handgriff-Tabelle oben · Shanks · Block 4 (Klärfrage), danach Messplan-Träger nachziehen |
 | Budget-Hook-Delta-Ausnahme vollzogen (`c034250`) | Nachzug Block 4 · Shanks · heute (Vorschlag) |
-| User-Zuruf außerhalb (Anrufe/Entscheide seit gestern 21:30)? | **im Chat gefragt** (Dropdown Block 1) |
+| User-Zuruf außerhalb (Anrufe/Entscheide seit gestern 21:30)? | **im Chat gefragt** (Dropdown Block 1): nichts Neues; StB-Anruf steht weiter für heute |
+| **NACHTRAG ~13:20: Postkorb `eingang\` im EIGENEN Repo eingerichtet** (Zentrale `fe7f667`, Gegenrichtung Zentrale → Abteilung; erste Meldung = Verdrahtungs-Bitte) | **erledigt im selben Zug** · Shanks · Lesepflicht in CLAUDE.md (Firmen-Ebene Regel 1) verdrahtet, Meldung gelöscht (Transportbehälter). `commands/tagesstart.md` bewusst NICHT geändert (Blueprint-Kopie → Dauer-DRIFT; Master-Änderung ist Blueprint-Sache, Meldung erlaubt „bzw."). ⚠️ CLAUDE.md dadurch wieder KNAPP ÜBER Sollmarke → **Kompensations-Posten für den R19-Debrief** |
 
 ## Strang-Tabelle R19-Fortsetzung (Modellwahl trifft der USER — Spalte wird nachdokumentiert)
 

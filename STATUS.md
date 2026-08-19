@@ -26,7 +26,37 @@
 ---
 
 ## Letzte Aktualisierung
-**17.08.2026 spätabends (R18, Shanks + Ben Beckman + Codex + Lucky Roux
+**18.–19.08.2026 (R19, Namensrunde über zwei Tage — Shanks + Ben
+Beckman [A/C] + Codex [B Phase 0]; Debrief 19.08. nachmittags)** — ⭐⭐
+**Kein finaler Name, aber die Wahl liegt fertig geprüft beim User:
+engere Auswahl aus SECHS Innsight-Kombinationen (Beiname-Route), alle
+mit `.de` UND `.com` frei und Register-Identität 0.**
+Verlauf: ~200 Namen in 6 Wellen (18.08.) → drei Finalisten →
+**R19-C-Vertiefung** (27/27 Zellen mit Beleg; Prüfer 21 = 4/10/7, alle
+disponiert; Vollerhebung TMview 307/307 + 297/297 von der Leitsession
+am Rohbeleg nachgezählt) → Entscheidungsvorlage (Freigabe-Baustein,
+Quell-Abgleich: 2 eigene Zutaten repariert) → **User-Entscheide:
+E-K1 GELOCKERT (`.com` Kür; Rückwirkungs-Posten Welle 5) · K2 bewusst
+offen (Anwalts-Vorbehalt am Kern: Inn:Sights Kl. 42 · INNOSIGHT ·
+US-Namensvetter) · K4 VERZICHTET (Widerruf dokumentiert) · Innsight-
+Kern → Beiname-Route** (43 Kombinationen gemessen, 6 Läufe mit
+Kontrollen) → **Entscheid VERTAGT („sacken lassen"); Front-Running
+ABGELEHNT = getragenes Risiko, NEUMESSUNG der sechs Domains vor dem
+Entscheid Pflicht.** Kernbefund: Smartsearch belegt nur IDENTITÄT —
+Welle-4-„registerfrei" gekippt (Überholt-Kasten R19-B-Bericht).
+**Debrief:** L-52 neu (Offenlegen ≠ Anwenden) + 2 Schärfungen
+(Kontrollen Anfang+Ende · geliefert/gesamt), Sammelvermerk R19,
+CLAUDE.md **79.997 B** unter Soll · Blueprint-Rückfluss `9187d31`
+(5 Lehren) · **Gerüst-Nachzug VOLLZOGEN** (12 Deltas, 5 Kopien,
+Wächter 12/0, Stempel `9187d31`, Gmail-Versand-deny am Pool belegt) ·
+Recherche-Verfahren + Katalog-W9 + Wettbewerbsbild nachgezogen ·
+Postkorb-Zwischenstand an die Zentrale. **Beim User offen: finaler
+Name (Sechser-Auswahl) · fünf R16-Entscheide · Zielstichprobe ·
+Vorlagen-Lesart/A5 (🔴 vor So 23.08.) · Anker H-8/AKQ-H-2 ·
+H-1-Delta 22.09./01.10.** *(Details: Projektquelle-Changelog R19,
+Tagesplan 19.08.)*
+
+**Vorheriger Stand — 17.08.2026 spätabends (R18, Shanks + Ben Beckman + Codex + Lucky Roux
 parallel — zweite Folgerunde nach `/clear`, 19:23–21:30 MESZ)** — ⭐⭐
 **Rechtsmatrix und Briefing tragen jetzt den Stand, den R17 gefunden hat;
 der Akquiseplan hat an sechs Stellen die Zwei-Tore-Logik; der Zitat-Wächter
@@ -64,46 +94,9 @@ R16-Entscheide · Zielstichprobe · Vorlagen-Lesart/A5-Probedruck (So 23.08.)
 · Anker H-8/AKQ-H-2.** *(Details: Projektquelle-Changelog R18, Tagesplan
 17.08. Block 5.)*
 
-**Vorheriger Stand — 17.08.2026 abends (R17, Shanks + Ben Beckman + Codex + Lucky Roux
-parallel — Folgerunde nach `/clear`)** — ⭐⭐ **Die Gegenauffassung des
-Berufungsgerichts liegt im Original vor, das Urteil ist vollständig
-ausgewertet, der Zitat-Wächter deckt 27 Dateien mit lokalem Rohbeleg-Pool,
-und die CLAUDE.md ist unter der Sollmarke.**
-🔴 Prüf-Subagent kippte **3 von 18** Verneinungen (Preismodell trug den
-O-2-Superlativ NIE — R15B-N-4 halb unbelegt; Rn. 237 war vom R15-A-Prüfer
-geprüft; „119" schon korrigiert).
-**R17-A:** **OLG Düsseldorf 20 W 37/24 im Volltext** — Ordnungsmittel-
-verfahren, „abweichende Auffassung" = „Im Übrigen"-Nebensatz zur
-Irreführung, **kein Wort Datenschutz**, Rechtsbeschwerde nicht zugelassen
-(Rn. 27) · **EuGH C-621/22 DE-Volltext** (nur `curl -L` fehlte — vier
-Runden als „nicht abrufbar" geführt) · **14 statt 12 Rn.** nachgeholt
-(77/77), Rn. 156–273 tabelliert, dritte Angriffsschiene als neue
-Briefing-Frage · Ableitungen nachgezogen · Prüfer **19 = 1/8/10, 18
-repariert + 1 → N-7** · 46/46 Zitate mechanisch bestätigt. 🔴 Eigener
-Superlativ in drei Dokumenten selbst gefunden — der Prüfer fand die
-**Folgefrage** (L-51). Push 3× vom Klassifikator blockiert, gemeldet;
-Leitsession-Push durch (L-05, 10. Beleg).
-**R17-B (Codex, Abnahme `8e0c551`):** 12 EIGEN · **lokaler Rohbeleg-Pool**
-(„nicht prüfbar"-Modus ohne `sensibel/`) · **ZIEL 8 → 27** (Baseline
-447/447) · Prüfstand `926ca3c`: **0 NEU 27/27**, Rechtsmatrix 51 → 12 +
-31 + 8; Altlast 863: 346 Rohbeleg-bestätigt. Live nach A/C: **36 NEU**
-(Selbstzitate, OLG-Zitate, `> >`-Normalisierung) → R18.
-**R17-C:** Akquiseplan § 3.2 ÜBERHOLT + 9-Punkte-Positivliste, § 3
-Terminlogik 12 Aussagen, § 4.3 (Prompt-Reparaturweg widerlegt per
-`git show d11535f:`) · Regelwerk § 6.1 3/3 + Pflicht 4 · **H-2
-entflochten: 2 erledigt, Teil 3 (Zielstichprobe) = User** · Gegenleser
-15 → 14 + 1; 🔴 unbequeme Rn.-86-Hälfte trotz „Vorbehalt zuerst"
-weggelassen (L-49, 3. Beleg).
-**Leitsession:** **CLAUDE.md 84.713 → 79.935 B** (Verdichtung mit
-Gegenprobe: 8/140 Aussagen gefallen — 5 Vorbehalte, 1 abgeleitete Zahl —
-alle repariert) · Postkorb Zentrale `f58f1c0` (Kopien-Wächter misst
-Ordner-Bausteine nicht) · O-12 § 10 + Pipe-Fix § 4.4 · **L-51 + L-07/
-L-15/L-48 geschärft**, Sammelvermerk R17 (69 Posten), Blueprint
-`35fd61b`, Wächter 12/0. **Beim User offen: fünf R16-Entscheide + zwei
-R17-C-Fragen** (Zielstichprobe ≥ 30 · H-2-Anker). *(Details:
-Projektquelle-Changelog R17, Tagesplan 17.08. Block 3.)*
-
-*(Davor: R16 — Rechtsposten im Bestand, Briefing an der Versandschwelle,
+*(Davor: R17 — OLG 20 W 37/24 + EuGH C-621/22 beschafft, Zitat-Wächter
+Ausbaustufe 3, CLAUDE.md unter Sollmarke; rotiert 19.08.2026 (R19) →
+`STATUS-archiv.md`. Davor R16 — Rechtsposten im Bestand, Briefing an der Versandschwelle,
 Wächter aus dem Dauer-Rot, Regelwerk-Wächter Pflicht; rotiert 17.08.2026
 (R18) → `STATUS-archiv.md`. Davor R15 — Anwalts-Briefing, § 6a Angebotsarchitektur, Wächter
 ZIEL 2→6, Lizenzkette, Sperrdatei; rotiert 17.08.2026 (R17) →
@@ -240,6 +233,23 @@ Stände: `STATUS-archiv.md`.)*
   eigener Vorgang · H-1-Kollision · Prüfer-Namensräume · P7 warten ·
   Codex-Scratch löschen). Rohbeleg-Ordner `rohbelege-R18-A/`: keiner
   (Beschaffung negativ).
+- **R19 (18.–19.08., Namensrunde, Debrief 19.08.):** ✅ **Sechs Wellen
+  → drei Finalisten → Vertiefung → engere Auswahl (6
+  Innsight-Kombinationen, Beiname-Route)** — Träger
+  `marke/entscheidungsvorlage-name-2026-08-19.md` (Nachtrags-Kette) ·
+  ✅ E-K1 gelockert (`.com` Kür) · ✅ K4 bewusst verzichtet · ✅ K2
+  bewusst offen (Anwalts-Vorbehalt am Kern) · ✅ Recherche-Verfahren
+  §§ 3/4 um 4 Werkzeugbefunde, W9-Grenze korrigiert (Katalog +
+  Welle 1), INNsight → Wettbewerbsbild, Welle-4-Lesart gekippt · ✅
+  Nachzug 12 Deltas + Versand-deny · ✅ L-52 + 2 Schärfungen,
+  Blueprint `9187d31`. **Offen aus R19:** 🔴 **finaler Name (User,
+  „sacken lassen") — davor NEUMESSUNG der sechs Domains**
+  (Front-Running abgelehnt = getragenes Risiko, Stand 19.08.) ·
+  E-K1-Rückwirkungs-Posten Welle 5 (vor Alt-Wellen-Rückgriff) ·
+  Innsolutions nur Schnellstand (Klang = „Insolutions", Nachbarform
+  6 DPMA/2 EUIPO) · Budget-Hook-Delta-Ausnahme lokal nicht nachgebaut
+  (projektspezifische Kopie, s. Nachzug-Protokoll) · R19-Bauposten aus
+  R18 (Wächter/HANDEL/AKQ) unberührt → R20.
 
 ## Nächster konkreter Schritt
 0. **⭐⭐ Der kritische Pfad zur November-Frist ist der NAMENSENTSCHEID
@@ -341,12 +351,14 @@ Stände: `STATUS-archiv.md`.)*
    umsatzstruktur-stb.md`); VOR dem Anruf entscheiden, ob sie in die
    Liste kommt. MKT-MARKE2 (Namensentscheid) wartet darauf,
    FUND/BELEG nicht.
-2. **User-Handgriffe MARKE1 (aus R4):** Shortlist-Gesamtschau
-   (10 Kandidaten, `marke/naming-sprint-2026-08.md` § 5.4) ·
-   K4-Diktat-Test (Testbogen § 6 dort) · EN-Muttersprachler-Check ·
-   Entscheid über 4 K1-Blockierte (Getrost/Verlass/Obenauf/Obhut).
-   Danach: **zweite Recherche-Welle E-V4** (eigene Session, Chrome;
-   Prompt-Pflichten in Projektquelle § 7 4b).
+2. ~~**User-Handgriffe MARKE1 (aus R4):** Shortlist-Gesamtschau ·
+   K4-Diktat-Test · EN-Muttersprachler-Check · 4 K1-Blockierte ·
+   E-V4-Welle~~ → **ÜBERHOLT durch R19:** Shortlists R4/Welle 2
+   verworfen, E-V4-Prüftiefe für die Finalisten gelaufen (R19-B/C),
+   **K4 bewusst VERZICHTET** (User 19.08., Widerruf dokumentiert).
+   **Aktueller MARKE-Handgriff: finaler Name aus der Sechser-Auswahl**
+   (`marke/entscheidungsvorlage-name-2026-08-19.md`); EN-Check des
+   gewählten Namens bleibt als optionaler Handgriff.
 3. **User-Handgriffe (Messplan-Kette):** ~~H-1 Livegang-Tagesdatum (bis
    16.08.)~~ ✅ **22.09.2026 (User 17.08.)** · ~~**H-2 (Plan-Freigabe)
    trägt dieselbe verstrichene Frist — neuer Anker fehlt**~~ **R17-C:

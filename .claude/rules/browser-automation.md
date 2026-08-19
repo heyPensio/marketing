@@ -34,7 +34,11 @@ Herkunft: heyPensio.)*
   sauber antworten, liegt es am TAB — der User zieht einen
   funktionierenden Tab in die Automations-Gruppe. Die Falle wirkt JE
   DOMAIN (eine Gegenprobe mit anderer Domain schließt sie nicht aus) und
-  JE SESSION neu.
+  JE SESSION neu. **Auch die DOMAIN-ERLAUBNIS der Automation kann
+  MITTEN im Lauf kippen** — „Navigation to this domain is not allowed"
+  nach zuvor erfolgreichen Abrufen derselben Domain (Facebook/YouTube/
+  DDG binnen zwei Stunden; Herkunft: MKT R19). Ein Erlaubnis-Positiv
+  vom Lauf-Anfang trägt das Lauf-Ende nicht.
 - Chrome blockiert `fetch` von https-Seiten zu `localhost` und
   Mehrfach-Downloads je Seite. Funktionierende Transportwege:
   Base64-Chunks in den Seiten-Kontext, Blob-Download für Einzeldateien,

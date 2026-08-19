@@ -3027,3 +3027,193 @@ Projektquelle, STATUS).
   …/zwei Fremd-Dokumente…" aus dem Kern ins Register verlagert, s. L-51
   oben) · L-38 (Alt-Kern ohne Einfüge-Variante) · Werkzeugfehler-Zahl
   (Alt-Kern ohne Lauf-Verwerfung).
+
+## L-52 — Offenlegen ist nicht Anwenden (MKT R19-A, 18.08.2026)
+
+**Kern (CLAUDE.md, „Anwesenheit ist nicht Wirksamkeit"-Block):** Ein im
+eigenen Dokument beschriebener Befund oder Zielkonflikt, der die
+AUSWAHL-/Entscheidungsregel nicht ändert, ändert nichts am Ergebnis.
+**Fallgeschichte:** Die Welle-2-Shortlist beschrieb den Konflikt
+zwischen Branchensignal und Wertungsformel an DREI Stellen korrekt —
+und wählte trotzdem nach einer Formel aus, die das Signal nicht kannte
+(Σ-Schwelle ohne Signal-Term). Der Prüfer fand es als „Σ ≥ 15 war der
+einzige Wert, der in den Korridor führte". Prüffrage nach jedem
+offengelegten Kernbefund: Welche Regel/Schwelle/Spalte FÜHRT ihn aus —
+und steht sie schon da? Verwandt, aber verschieden: „Papier-Entscheid
+ohne Mechanismus" (dort fehlt der technische Träger, hier die
+Verdrahtung in die eigene Auswahlformel).
+
+## Sammelvermerk R19 (18.–19.08.2026, Namensrunde A/B/C + Leitsessions-Namensblock) — 3 Schärfungen, Zweitbelege, Werkzeug-Nachträge
+
+### Schärfungen bestehender Kerne (a) — 3, ersetzen an Ort und Stelle
+
+1. **Positivkontrolle bei Massen-/Langläufen: am ANFANG UND am ENDE
+   des Laufs** (R19-A): Der erste K6-Lauf lieferte 218/284 Antworten
+   als HTTP 429 — die vier Kontrollen am Lauf-ANFANG standen auf grün,
+   weil sie VOR dem Rate-Limit liefen. „Im selben Lauf" genügt nicht,
+   wenn der Kanal MITTEN im Lauf zumacht. Alt-Kern trägt der
+   Git-Verlauf (Stand `69974fc`).
+2. **Paginierte Quellen: „geliefert/gesamt" ist eine Pflicht-Zahl je
+   Lauf** (R19-C, P-02): TMview gab 100 von 307 Zeilen zurück,
+   `totalResults` stand im selben JSON und wurde nicht gegen die
+   gelieferte Zeilenzahl gehalten — alle „nur …"-Aussagen über den Lauf
+   beruhten auf einem nicht deklarierten Drittel. Schärfung der
+   Abgeschnittene-Ausgabe-Regel (V17-3-Kern).
+3. **L-52 neu** (s. oben) — Kern in den „Anwesenheit ist nicht
+   Wirksamkeit"-Block.
+
+### Zweitbelege zu bestehenden Regeln (b) — Register-Nachträge, keine neue CLAUDE.md-Prosa
+
+- **L-05 (Klassifikator-Blockaden), 12.–16. Beleg:** R19-C-Push 3×
+  geblockt (zwei Werkzeugkanäle, 12:20/12:2x/12:47), Leitsession 2×
+  (11:52); derselbe `git push` lief ~15:05 ungehindert durch —
+  Zeitpunkt-/Kontextbindung erneut am Objekt belegt, Kanalwechsel
+  falsifizierte nur (kein Ursachennachweis).
+- **L-14 (Push-Vorfahren), Zweitbeleg:** R19-A-Push `dc0a452` nahm den
+  fremden Vorfahren `a3412f8` mit; von beiden Seiten unabhängig
+  beobachtet, kein Schaden.
+- **L-15 (delegierte Zahlen), Zweitbeleg:** Silbenzahlen aus
+  Agenten-Rückläufen gingen mechanisch korrekt in W1 ein — die
+  EINGANGSzahl war falsch; delegierte Zahlen in Formeln brauchen eine
+  eigene Zählregel.
+- **L-24 (Kontrolle muss Unmöglichkeit liefern können), zwei neue
+  Belege:** (i) angenommener statt gemessener Kontrollwert
+  (de-Wiktionary klein: erwartet 404, gemessen 200 — Kontrollen erst
+  messen, dann verwenden; R19-A); (ii) ODER-verknüpfte
+  Erfolgsbedingung in der Trunkierungsprobe — die nichtssagende
+  Kontrolle trug, „GANGBAR" war falsch (R19-C).
+- **L-25/L-34-Klasse (zitierte Geltungsgrenze), Zweitbeleg:** Der
+  R19-A-Auftrag zitierte für W9 „nur Technik-Segment" — die zitierte
+  Stelle trug seit R05-A selbst den Vermerk „teilweise überholt durch
+  Teil B" (Fundorte: Katalog-W9-Zeile + Welle 1 § 5.1, beide in diesem
+  Debrief nachgezogen).
+- **Dubletten-Regel, Datei-INTERNER Fall:** W2 stand zweimal im selben
+  Dokument („beides dasselbe Urteil") — der Prüfer fand gegen BEIDE
+  Definitionen Widersprüche, sie trafen die Shortlist. Die
+  Zwei-Formen-Regel (Wächter oder Vorrangklausel) gilt auch innerhalb
+  einer Datei.
+- **Summenprobe blind an der Einstufungs-Achse, Zweitbeleg:**
+  „15+5+1+5+33=59 ✔" bei falsch besetzten Klassen (R19-A);
+  Zuordnungsprobe daneben (Klassenlisten aus der Quellspalte erzeugen).
+- **Geklonter Textbaustein, Zweitbeleg (R19-C P-01):** „alle drei
+  Varianten 0/0/0" wanderte aus dem Bericht (wo er für ANDERE Varianten
+  galt) in den K4-Bogen — falsche Entwarnung ausgerechnet im
+  User-Dokument.
+- **Werkzeug-Textzusage/„unverändert wiederverwendet", Zweitbeleg
+  (R19-C):** `k6-doppellauf-shanks.js` trug fünf Namen FEST VERDRAHTET —
+  „K6 ist gelaufen" galt für die Welle-3-Favoriten, nicht die
+  Finalisten; der Bericht machte daraus „nur EN offen" (P-05, schwer).
+- **Befund/Diagnose getrennt, Zweitbeleg (R19-C P-16):** Der Prüfer
+  schloss aus `apaleo*`=1 auf Trunkierungs-Fähigkeit der Smartsearch —
+  Befund trug, Diagnose falsch (`apale*` liefert 0 bei leerem
+  Fehlerfeld).
+- **Stilles falsches Negativ als Werkzeugfehler-Klasse, Zweitbeleg
+  (R19-C § 3.4):** Dieselbe DPMA-Suche meldet je Stamm mal einen
+  sichtbaren Fehler, mal 0 Treffer bei LEEREM Fehlerfeld — ohne
+  Positivkontrolle mit unabhängigem Sollwert wäre das ein Sachbefund
+  geworden.
+- **Verdichtungs-Drift in der EIGENEN Abschlussmeldung, Zweitbeleg
+  (R19-C):** Summenzeile „16 repariert / 5 Träger" widersprach der
+  eigenen Dispositions-Tabelle (19 inkl. 5 nachgemessen / 2 Träger) —
+  dieselbe Klasse, die der Prüfer im Bericht fand; gefangen im
+  Leitsessions-Review durch Zählen der Tabelle.
+- **„Anwesenheit ist nicht Wirksamkeit", Web-Variante (R19-B):** Ein
+  200er-Body ist bei Google/Instagram kein Erfolgssignal — erst ein
+  gemessener Result-/Profilmarker macht den Teilkanal gangbar.
+- **Negative altern / Kanal-Negativ, Wirkungsbeleg (R19-C):** TMview
+  galt seit 18.08. als tot, die Neumessung trug — und lieferte die
+  entscheidenden Trefferlisten (14 lebende Zeichen Innsight).
+- **Bash/PowerShell-Arbeitsverzeichnis geteilt, Zweitbeleg (R19-C
+  F6, nachgetragen aus der Debrief-Gegenprobe):** Ein `cd` in einen
+  Rohbeleg-Ordner ließ einen späteren Node-Aufruf mit „Cannot find
+  module" scheitern — die windows-powershell-Regel real getroffen;
+  seitdem absolute Pfade.
+- **User-Interaktions-Lehre (Leitsession, 19.08., User-Fang):** Eine
+  „mehr Vorschläge"-Bitte ist ein Auftrag auf NEUE Kandidaten — ein
+  Dropdown, das die alte Auswahl wiederholt, verbrennt Vertrauen
+  (zweimal passiert, User: „jetzt hast du wieder die gleichen
+  Vorschläge??"). Explorative Kandidaten-Listen gehören als
+  Klartext-Liste in den Chat; das Dropdown erst zur FINALEN Wahl mit
+  wenigen, verschiedenen Optionen.
+
+### Werkzeug-Nachträge (d, projektlokale Zielorte in diesem Debrief)
+
+- `marke/markenrecherche-verfahren.md`: (i) Getrenntform als
+  PFLICHT-Variante je Kandidat (EUIPO-CONTAINS findet sie nicht;
+  TMview-Getrenntlauf fand 14 lebende Zeichen, die die Identitätssuche
+  verbarg) · (ii) DPMA-Smartsearch belegt IDENTITÄT, nie den
+  Ähnlichkeitsraum; Trunkierung liefert stille falsche Negative ·
+  (iii) stabiler JSON-Kontrollpfad `smartsearchInt.js` · (iv)
+  EUIPO-Positivkontrolle APPLE=963 (apaleo hat dort kein EUTM).
+- **DDG-Nullphrasen-Falle (R19-B N-2, nachgetragen aus der
+  Debrief-Gegenprobe):** DuckDuckGo kann bei einer Nullphrase einen
+  ANZEIGENBLOCK liefern — `result--ad` strukturell ausschließen; ein
+  Null-Befund braucht organischen No-results-Marker UND 0 organische
+  Treffer gemeinsam. Operationalisiert in
+  `marke/live-welle/selbsttest.md` (Bau-Commit `5185b81`); hier als
+  Regel-Fundstelle, damit der nächste Web-Messlauf sie ohne
+  Selbsttest-Lektüre findet.
+- Blueprint (Master, via 3d): Kontrollen Anfang+Ende ·
+  geliefert/gesamt · L-52 · Web-Kanal-Fallen (DDG kippt nach ~20
+  Abfragen auf 202 · LinkedIn 999 nach wenigen HTTP-Abrufen ·
+  Browser-Domain-Erlaubnis kippt je Session/Tab-Gruppe) ·
+  Kalibrierungen als GESCHLOSSENE Aufzählung in Prompts (eine
+  Familienbeschreibung öffnete eine nicht gewählte Achse, 13/71
+  Kandidaten außerhalb der Stamm-Wahl).
+
+### Bewährte Muster (Wirkungsbelege, keine Regeländerung) — 9
+
+Prompt-Archiv mit Zeichengleichheits-Probe + Verfälschungskontrolle
+(R19-A) · Nachrechen-Skript über das FERTIGE Dokument mit Testzeile
+(R19-A) · zwei benannte Gruppen statt einer Rangliste (R19-A) · zwei
+nachprüfbare Behauptungen, eine falsch — zwang den Prüfer an die
+Rohbelege und erzeugte Zusatzfunde (R19-A) · unbequemer Pol als
+Pflichtfeld — brauchbarste Spalte des Rücklaufs (R19-A) ·
+Gegenkontrolle mit Zeichen aus DEMSELBEN Namensraum und unabhängigem
+Sollwert (R19-C) · vom Rohbeleg rückwärts lesen statt Bezeichner raten
+(R19-C) · eigene Lücke VOR dem Prüferrücklauf suchen — zwei der
+entscheidungsrelevantesten Funde entstanden in der Wartezeit (R19-C) ·
+eine Werkzeug-Blockade melden und WEITERARBEITEN: erst alle
+HTTP-Kanäle fertig messen, dann EINE gebündelte Dropdown-Frage statt
+Einzelunterbrechungen (R19-C, Chrome-Extension; nachgetragen aus der
+Debrief-Gegenprobe).
+
+### Bewusst nicht zurückgeschrieben (c) — 3
+
+- R19-A N-4 (Host-Stamm schwaches Signal): überholt — der Verlauf ging
+  über Welle 3–6 zur Beiname-Route; im Vorlagenkopf dokumentiert.
+- R19-A N-3 (K5-T-Spannung Digital/Tech vs. E11): kein Regelfall —
+  User-Entscheid-Posten (Projektquelle § 7).
+- messlauf.js-ID-Regex-Fix (`\d{2,3}`): projektlokaler Werkzeugfix,
+  committet `4e371cd`; die Klasse (Parser-Annahme über ID-Format) ist
+  durch „Selbsttest je Muster" gedeckt.
+
+### Kompensations-Auslagerungen dieses Debriefs (Anker `V19-nn`; CLAUDE.md 80.305 B → Endstand **79.997 B** unter Soll [Korrektur der Gegenprobe: die erste Kopfzahl 79.993 war der Stand VOR drei Mini-Edits — Zahl je per `pruefe-budget.js`]; Kürzungsauswahl: NUR Fallgeschichten mit Register-Träger, 0 Kerne, 0 Vorbehalte; ⚠️ ein L-27-Grenzfall von der Gegenprobe gefunden und in den Kern ZURÜCKgenommen)
+
+- **V19-1 (Zuschnitt-Belegfall, Zentrale 14.08.2026, Blueprint
+  `5020bc2`):** Zehn fremdgeschnittene Stränge, neun Korrekturen vor
+  dem ersten Start — Zuschnitt aus zweiter Hand ohne Messung am Objekt.
+- **V19-2 (Drift-Check-Belegfall, heyPensio R36):** Ein generiertes
+  Artefakt war syntaktisch unbrauchbar, während über hundert
+  Selbsttests, zwei Dutzend Rückbau-Gegenproben und ein Dutzend Wächter
+  grün meldeten — kein Prüfmittel las das fertige Artefakt.
+- **V19-3 (Wächter-Prüfmengen-Belegfälle, heyPensio R36, zwei
+  unabhängige):** (i) Eine Positivkontrolle griff und der Wächter war
+  trotzdem blind — sie traf zufällig eines der wenigen intakten
+  Elemente; (ii) ein Prüfwerkzeug, dessen Zielzustand nie erreichbar
+  war, meldete ausgerechnet nach der von ihm selbst empfohlenen
+  Maßnahme falsch grün.
+- **V19-4 (Ablageort-Belegfall, Zentrale 14.08.2026, Blueprint
+  `5020bc2`):** 49 Beleg-Dateien einer Abnahme wuchsen 6,5 h außerhalb
+  jeder Versionierung — die Trennungsregel hatte den Ablageort der
+  Beweisstücke nicht mitbestimmt.
+- **Gekürzte Beleg-Klammern ohne eigenen Anker** (Wortlaut trägt der
+  Git-Verlauf, Stand `5f6aae5`): L-27-Messdetail („gemessen: 4 von 5
+  Verfälschungen …" → Kurzform im Kern erhalten) ·
+  Rückbau-Gegenprobe-Fallgeschichte R9 (Ursache „Zeilenumbruch im
+  Suchmuster" + Konsequenz — wörtlich im Sammelvermerk R9; Zeile von
+  der Gegenprobe als fehlend in dieser Liste gefunden, nachgetragen) ·
+  Modell-Selbstauskunft R24-B („nachweislich … samt plausibler
+  Begründung" → Kurzform) · Beleg-Pool-Scheinentwarnung R15 („prüfte
+  zwei Dokumente, schwieg über vier" → Zeiger) · Bausteine-Fußnote
+  (Blueprint-Hash) · L-05-Zählstand („bis R18/R19" → zeitlos, Zahl 16).

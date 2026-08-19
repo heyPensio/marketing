@@ -68,7 +68,13 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   einer LIMITIERTEN/abgeschnittenen Ausgabe (head_limit, gekürzte
   Trefferliste) ist kein Negativ — er sieht wie ein Quellenfehler aus;
   Suchläufe für Zitatprüfungen so eng fassen, dass die Ausgabe
-  vollständig ist. (2) **Vor Web-Negativen das Redirect-Ziel prüfen:**
+  vollständig ist; bei paginierten APIs „geliefert/gesamt" als eigene
+  Zahl je Lauf ausweisen (100/307 sah wie ein Ergebnis aus; MKT R19).
+  **⭐ Web-Kanäle kippen auch UNTER LAST, nicht nur zwischen Sessions
+  (MKT R19):** DuckDuckGo-HTML lieferte nach ~20 Abfragen nur noch
+  HTTP 202 mit „0 organische Treffer" · LinkedIn antwortet nach
+  wenigen HTTP-Abrufen mit 999 — Massenläufe brauchen Kontrollen am
+  Anfang UND am Ende (s. Positivkontroll-Kernregel). (2) **Vor Web-Negativen das Redirect-Ziel prüfen:**
   Ein Wildcard-301 macht mit `curl -L` JEDE Unterseite byte-identisch
   zur Startseite — „Inhalt vorhanden, Begriff nicht gefunden" ist dann
   ein Artefakt; die Gegenprobe (Kontrollpfad-Abruf je Domain, Sekunden)

@@ -154,6 +154,19 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   repariert. OFFEN: K4-Diktat-Test + EN-Muttersprachler-Check
   (User-Handgriffe, Testbogen § 6 dort) · K2/K3/W7/W8 = zweite Welle
   (eigene Session, E-V4, K2-Vorab-Vermerke notiert).
+  **Stand R19 (18.–19.08.2026):** Wellen 2–6 (~200 Namen) → drei
+  Finalisten → Vertiefung R19-C → User-Schwenk auf die
+  **BEINAME-ROUTE mit Kern „Innsight"** → **engere Auswahl (6):**
+  Innsight Hospitality · Hotelsysteme · Hotelsolutions · Gastgewerbe ·
+  Hotelbetrieb · Hoteliers (alle `.de`+`.com` frei 19.08.,
+  Register-Identität 0; Träger
+  `marke/entscheidungsvorlage-name-2026-08-19.md` mit
+  Nachtrags-Kette). **E-K1 GELOCKERT** (`.com` Kür — Katalog-Nachtrag
+  + Rückwirkungs-Posten Welle 5) · **K4 bewusst verzichtet** · **K2
+  bewusst offen** (Anwalts-Vorbehalt am Kern: Inn:Sights Kl. 42 ·
+  INNOSIGHT · US-Namensvetter INNsight.com). Finaler Entscheid VERTAGT
+  („sacken lassen"); Front-Running abgelehnt = getragenes Risiko,
+  **Neumessung der sechs Domains vor dem Entscheid ist Pflicht**.
 - **MARKE2** Gesellschafter-Entscheid (51/49) + Namensentscheid.
   Gate: GbR-Namensführungsfrage geklärt (Zentrale/StB). Fertig:
   datierter Entscheid in `zentrale`.
@@ -1027,10 +1040,14 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    R19:** `H-1`-Kollision (Akquiseplan-Anker 13.11. ≠ Messplan-Livegang;
    STATUS meint den Messplan) · Prüferbefund-Namensräume (H-2 in R05-A/
    R15-A/R16-A/R17-A ohne Rundenpräfix; „Prüferbefund H-2" in AA Z. ~2020)
-   · Kurz-IDs `G-n`/`O-9` · **Gerüst-Nachzug `9858070`** (heyPensio R44/R45:
+   · Kurz-IDs `G-n`/`O-9` · ~~**Gerüst-Nachzug `9858070`** (heyPensio R44/R45:
    Zweck-Satz + Kontrollpunkt, Objekt-Blick, AskUserQuestion, Zielumgebung,
    Feature-AUS ≠ Endpunkt zu, `.gitattributes` — Kopien tagesstart/
-   windows-powershell tragen ihre Anteile bereits, CLAUDE.md nicht) ·
+   windows-powershell tragen ihre Anteile bereits, CLAUDE.md nicht)~~
+   ✅ **ERFÜLLT im R19-Debrief 19.08.** (Nachzug ALLER 12 Deltas inkl.
+   `9858070`, Stempel `9187d31`; s. `geruest-nachzug-protokoll.md`
+   R19-Abschnitt — Vermerk von der Debrief-Gegenprobe angemahnt,
+   Erfüllen-Regel) ·
    **R18-A-Prüfer-Blindstellen als Nacharbeitsliste** (Rn. 227–273 am
    Stück, L-51/L-25-Listen vollständig; L-48) · A-N-5 „also Art. 14 Abs. 3
    lit. a" als Ableitung kennzeichnen (HANDEL) · **siebte Ein-Gate-Stelle?**
@@ -1045,6 +1062,26 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    „Geparkt R17 …" ist überholt (R17/R18 erledigt) → Postkorb mit dem
    R18-Bericht · Codex-Scratch `firma/r18b-scratch-86afceb` (+ .tar)
    löschen (User-Freigabe nach Debrief).
+   **⭐ R19 (18.–19.08., Namensrunde — Details Changelog R19): Der
+   Namensentscheid steht auf einer ENGEREN AUSWAHL (6
+   Innsight-Kombinationen, § 2 MARKE1-Stand R19) und wartet auf den
+   User („sacken lassen").** Was JETZT oben liegt: (1) **User:**
+   finaler Name aus der Sechser-Auswahl (davor NEUMESSUNG der sechs
+   `.de`/`.com` — Frei-Stand 19.08. altert, Front-Running bewusst
+   abgelehnt) · die VERTAGTEN Bündel-Entscheide (fünf R16 ·
+   Zielstichprobe · Vorlagen-Lesart/A5 🔴 vor So 23.08. · Anker
+   H-8/AKQ-H-2 · **H-1-Delta 22.09. vs. Apaleo-Vertrag 01.10.**,
+   Briefing § 1 Nr. 7) · (2) **nach dem Namensentscheid:**
+   Postkorb-Meldung Zentrale ist RAUS (Zwischenstand 19.08., s. u.);
+   dann MARKE2-Gates + Cutover-Vorbereitung · ggf. Innsolutions auf
+   R19-C-Prüftiefe heben (nur falls der User ihn ins Rennen nimmt;
+   Schnellstand: innsolutions.de frei, Klang fällt mit „Insolutions"
+   zusammen — 6 DPMA/2 EUIPO-Treffer der Nachbarform) · (3)
+   **E-K1-Rückwirkungs-Posten:** Welche Alt-Wellen-Kandidaten fielen
+   NUR an der `.com` bei freier `.de`? (vor jedem Rückgriff; Katalog-
+   Nachtrag trägt ihn) · (4) die R19-Bauposten aus R18 (Wächter ·
+   HANDEL Rn. 180/194/184 · AKQ Wellenprotokoll) blieben am Namenstag
+   bewusst liegen — unverändert offen für R20.
 0a. **⚠️ Offen aus R7, mit Träger:** Telkon-**Logo** anfordern (Außenpost,
    Versand User — ohne Logo ist die Listungszusage nicht umsetzbar) ·
    **F-7** Firmierung für beide Förder-Anfrageentwürfe (GbR in Gründung,
@@ -1203,6 +1240,46 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
 
 ## CHANGELOG
 
+- 18.–19.08.2026 (**R19-Debrief 19.08. nachmittags — Namensrunde über
+  zwei Tage: R19-A/Ben Beckman + R19-B/Codex-Phase-0 + Leitsessions-
+  Phase-1 + Wellen 4–6 [18.08.] · R19-C/Ben Beckman + Leitsessions-
+  Namensblock [19.08.]**): ⭐⭐ **Kein finaler Name — aber der Weg dahin
+  ist frei geräumt:** ~200 Namen in sechs Wellen (18.08.) → drei
+  Finalisten → R19-C-Vertiefung (27/27 Zellen mit Beleg, Prüfer 21
+  Befunde = 4/10/7, alle disponiert; Vollerhebung TMview 307/307 +
+  297/297 von der Leitsession am Rohbeleg nachgezählt) →
+  Entscheidungsvorlage (Freigabe-Vorlagen-Baustein, Quell-Abgleich mit
+  2 reparierten eigenen Zutaten) → **User-Entscheide (Wortlaute
+  `sensibel/entscheide-2026-08-19-namensblock.md`): E-K1 GELOCKERT
+  (`.com` Kür, `.de` Pflicht — Katalog-Nachtrag + Rückwirkungs-Posten
+  Welle 5) · K2 bewusst offen (Vorbehalt bis Anwalts-Recherche) · K4
+  erst „Test jetzt", dann WIDERRUFEN (bewusster Verzicht) · Wahl fiel
+  auf Innsight-KERN, nach K3-Klarstellung (innsight.de vergeben)
+  User-Schwenk auf die BEINAME-ROUTE** („Zusatz konkretisiert den
+  Zweck") · sechs Schnellcheck-Läufe über 43 Kombinationen +
+  Innsolutions-Schnellstand (Kontrollen je Lauf; Rohbelege
+  `sensibel/rohbelege-R19-leit/`) · **engere Auswahl (6): Innsight
+  Hospitality · Hotelsysteme · Hotelsolutions · Gastgewerbe ·
+  Hotelbetrieb · Hoteliers — alle `.de`+`.com` frei, Register-Identität
+  0; finaler Entscheid VERTAGT („sacken lassen"), Front-Running
+  ABGELEHNT (getragenes Risiko, Frei-Stand 19.08., Neumessungs-Pflicht
+  vor Entscheid)**. Kernbefunde: Unter Alt-E-K1 erfüllte KEIN Finalist
+  K3 ohne Zukauf (Wisestay .com 88.000 USD · Innsight beide Domains
+  vergeben + 14 lebende Zeichen im Suchraum, Inn:Sights Kl. 42
+  wörtlich unser Leistungsfeld, US-Namensvetter INNsight.com ·
+  Stayahead 4 gescheiterte Eintragungsversuche des Zeichentyps,
+  GEOPOST-Verkehrsgeltungsfrage offen); Smartsearch belegt nur
+  IDENTITÄT → Welle-4-„registerfrei"-Lesart gekippt (Überholt-Kasten
+  im R19-B-Bericht). **Debrief:** L-52 neu (Offenlegen ≠ Anwenden) + 2
+  Schärfungen (Kontrollen Anfang+Ende bei Massenläufen ·
+  geliefert/gesamt bei paginierten Quellen), Sammelvermerk R19,
+  CLAUDE.md 79.997 B unter Soll (Kompensation −1.130 B Belege → V19-1…4)
+  · Blueprint-Rückfluss `9187d31` (5 Lehren) · **Gerüst-Nachzug
+  VOLLZOGEN** (12 Deltas, 5 Kopien gezogen, Wächter 12/0, Stempel
+  `9187d31`; Gmail-Versand-deny gesetzt, Wirksamkeit am Pool belegt) ·
+  Recherche-Verfahren §§ 3/4 um vier Werkzeugbefunde ·
+  W9-Geltungsgrenzen-Korrektur (Katalog + Welle 1) · INNsight →
+  Wettbewerbsbild § 3.4. Postkorb-Meldung an die Zentrale: s. § 7.
 - 17.08.2026 spätabends (**R18-Debrief, drei Arbeits-Sessions parallel —
   Ben Beckman · Codex · Lucky Roux — + Leitsession; zweite Folgerunde nach
   `/clear`, Schnitt `a7fca1c`, 19:23–21:30 MESZ**): ⭐ **Der Prüf-Subagent

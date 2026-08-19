@@ -2,6 +2,47 @@
 
 > Verbatim-Rotationen aus `STATUS.md` (2-Runden-Fenster). Neueste oben.
 
+## Rotiert am 19.08.2026 (R19-Debrief) — R17-Block aus „Letzte Aktualisierung“
+
+**Vorheriger Stand — 17.08.2026 abends (R17, Shanks + Ben Beckman + Codex + Lucky Roux
+parallel — Folgerunde nach `/clear`)** — ⭐⭐ **Die Gegenauffassung des
+Berufungsgerichts liegt im Original vor, das Urteil ist vollständig
+ausgewertet, der Zitat-Wächter deckt 27 Dateien mit lokalem Rohbeleg-Pool,
+und die CLAUDE.md ist unter der Sollmarke.**
+🔴 Prüf-Subagent kippte **3 von 18** Verneinungen (Preismodell trug den
+O-2-Superlativ NIE — R15B-N-4 halb unbelegt; Rn. 237 war vom R15-A-Prüfer
+geprüft; „119" schon korrigiert).
+**R17-A:** **OLG Düsseldorf 20 W 37/24 im Volltext** — Ordnungsmittel-
+verfahren, „abweichende Auffassung" = „Im Übrigen"-Nebensatz zur
+Irreführung, **kein Wort Datenschutz**, Rechtsbeschwerde nicht zugelassen
+(Rn. 27) · **EuGH C-621/22 DE-Volltext** (nur `curl -L` fehlte — vier
+Runden als „nicht abrufbar" geführt) · **14 statt 12 Rn.** nachgeholt
+(77/77), Rn. 156–273 tabelliert, dritte Angriffsschiene als neue
+Briefing-Frage · Ableitungen nachgezogen · Prüfer **19 = 1/8/10, 18
+repariert + 1 → N-7** · 46/46 Zitate mechanisch bestätigt. 🔴 Eigener
+Superlativ in drei Dokumenten selbst gefunden — der Prüfer fand die
+**Folgefrage** (L-51). Push 3× vom Klassifikator blockiert, gemeldet;
+Leitsession-Push durch (L-05, 10. Beleg).
+**R17-B (Codex, Abnahme `8e0c551`):** 12 EIGEN · **lokaler Rohbeleg-Pool**
+(„nicht prüfbar"-Modus ohne `sensibel/`) · **ZIEL 8 → 27** (Baseline
+447/447) · Prüfstand `926ca3c`: **0 NEU 27/27**, Rechtsmatrix 51 → 12 +
+31 + 8; Altlast 863: 346 Rohbeleg-bestätigt. Live nach A/C: **36 NEU**
+(Selbstzitate, OLG-Zitate, `> >`-Normalisierung) → R18.
+**R17-C:** Akquiseplan § 3.2 ÜBERHOLT + 9-Punkte-Positivliste, § 3
+Terminlogik 12 Aussagen, § 4.3 (Prompt-Reparaturweg widerlegt per
+`git show d11535f:`) · Regelwerk § 6.1 3/3 + Pflicht 4 · **H-2
+entflochten: 2 erledigt, Teil 3 (Zielstichprobe) = User** · Gegenleser
+15 → 14 + 1; 🔴 unbequeme Rn.-86-Hälfte trotz „Vorbehalt zuerst"
+weggelassen (L-49, 3. Beleg).
+**Leitsession:** **CLAUDE.md 84.713 → 79.935 B** (Verdichtung mit
+Gegenprobe: 8/140 Aussagen gefallen — 5 Vorbehalte, 1 abgeleitete Zahl —
+alle repariert) · Postkorb Zentrale `f58f1c0` (Kopien-Wächter misst
+Ordner-Bausteine nicht) · O-12 § 10 + Pipe-Fix § 4.4 · **L-51 + L-07/
+L-15/L-48 geschärft**, Sammelvermerk R17 (69 Posten), Blueprint
+`35fd61b`, Wächter 12/0. **Beim User offen: fünf R16-Entscheide + zwei
+R17-C-Fragen** (Zielstichprobe ≥ 30 · H-2-Anker). *(Details:
+Projektquelle-Changelog R17, Tagesplan 17.08. Block 3.)*
+
 ## Rotiert am 17.08.2026 (R18-Debrief) — R16-Block aus „Letzte Aktualisierung"
 
 **Vorheriger Stand — 17.08.2026 nachmittags (R16, Shanks + Ben Beckman + Codex + Lucky Roux

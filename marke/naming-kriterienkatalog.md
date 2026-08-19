@@ -67,7 +67,7 @@
 | W6 | **Logo-/CI-Tauglichkeit:** als Wortbild setzbar, funktioniert klein (Favicon/App-Icon) und gesprochen (Voice-Kontext des Produkts) | Ersteinschätzung; Detail MARKE4 |
 | W7 | **Auffindbarkeit/SEO:** nicht generisch; geringe bestehende Suchergebnis-Konkurrenz im relevanten Kontext | Prüfweg Verfahren § 5 (Web-Suchraster) |
 | W8 | **Handle-Verfügbarkeit** über das Kern-Plattform-Set (Set offen bis Kanalmix-Entscheid nach Persona-Befund — Entscheidungspunkt E-K1b) | Verfahren § 7 |
-| W9 | **Abstand zum Wettbewerbsfeld:** klanglich/schriftbildlich klar unterscheidbar von den Zeichen der bekannten Wettbewerber (Ausschlussliste: `fund/wettbewerbsbild.md`, FUND3, liegt seit 09.08.2026 vor — Liste dort nachschlagen, hier bewusst nicht abgeschrieben; ⚠️ Geltungsgrenze § 0.0 dort: nur Technik-Segment, Beratungs-Achse offen) | Abgleich im Sprint |
+| W9 | **Abstand zum Wettbewerbsfeld:** klanglich/schriftbildlich klar unterscheidbar von den Zeichen der bekannten Wettbewerber (Ausschlussliste: `fund/wettbewerbsbild.md`, FUND3, liegt seit 09.08.2026 vor — Liste dort nachschlagen, hier bewusst nicht abgeschrieben; ⚠️ Geltungsgrenzen-Vermerk KORRIGIERT R19-Debrief: § 0.0 dort trägt seit R05-A selbst „teilweise überholt durch Teil B" — Teil B erhebt fünf weitere Felder; wer W9 zieht, zieht das GANZE Dokument, nicht nur das Technik-Segment [R19A-N-2, L-25-Klasse]) | Abgleich im Sprint |
 
 ## 4. Bewertungsregeln
 

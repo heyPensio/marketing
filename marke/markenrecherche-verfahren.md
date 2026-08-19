@@ -111,6 +111,23 @@ nur bei bekanntem Zeichen (Verkehrsgeltung) als Risiko gewertet.
 
 Werkzeug: **DPMAregister, Bereich Marken** (register.dpma.de).
 
+> ⚠️ **Werkzeugbefunde R19 (18./19.08.2026, je am Rohbeleg belegt —
+> `sensibel/rohbelege-R19-B/` + `rohbelege-R19-C/`):**
+> (a) **Die Smartsearch-Zahl (`marHits`) belegt die IDENTISCHE
+> Zeichenfolge, nie den Ähnlichkeitsraum** — an Innsight gemessen:
+> Identität 1 Treffer, Getrenntform 307 (TMview) mit 14 lebenden
+> Zeichen im Suchraum. Eine „DPMA 0"-Aussage ist ohne
+> Getrenntform-/Varianten-Läufe KEIN „registerfrei".
+> (b) **Trunkierung (`stamm*`) liefert in der Smartsearch STILLE
+> falsche Negative** — je nach Stamm kommt „Ungültige
+> Platzhalterverwendung" (sichtbar) ODER 0 Treffer bei leerem
+> Fehlerfeld (unsichtbar; `apale*` = 0 trotz eingetragener Marke).
+> Trunkierungs-Läufe hier nicht verwenden; die Raster-Achse läuft
+> über TMview/DPMA-Trefferlisten.
+> (c) **Stabiler Maschinen-Kontrollpfad:** das JSON der Smartsearch
+> (`smartsearchInt.js`-Route) ist belastbarer abfragbar als das
+> dynamische Tapestry-Formular.
+
 1. **Identitätsrecherche (Basisrecherche):** exakter Kandidat als
    Suchbegriff, Feld Markendarstellung/Wortlaut; ohne
    Klassen-Einschränkung starten (der Suchraum-Filter kommt bei der
@@ -141,6 +158,14 @@ Werkzeug: **DPMAregister, Bereich Marken** (register.dpma.de).
    Varianten-Läufe wie in § 3 — Unionsmarken gelten auch in
    Deutschland, ein reiner DPMA-Lauf ist daher KEINE vollständige
    Recherche für den deutschen Markt.
+   > ⚠️ **Werkzeugbefunde R19:** (a) **Die CONTAINS-Suche findet
+   > GETRENNT geschriebene Marken nicht** („Inn Sight" bleibt bei der
+   > Suche nach „Innsight" unsichtbar) — die getrennte Schreibweise
+   > ist PFLICHT-Variante je Kandidat, über TMview zu laufen.
+   > (b) **Positivkontrolle für den EUIPO-Kanal: `APPLE` (Soll 963)** —
+   > `apaleo` hat dort KEIN EUTM (nur BR/CN/DE/CO) und taugt als
+   > EUIPO-Kontrolle nicht; für DPMA/TMview bleibt `apaleo` der
+   > umfeldnahe Kontrollwert (1/53).
 2. **TMview** (tmview.euipo.europa.eu): übergreifende Suche über
    nationale Register + EUIPO + internationale Registrierungen (WIPO)
    mit Schutzerstreckung DE/EU. TMview ist der Sammel-Kanal; bei

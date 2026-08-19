@@ -247,6 +247,12 @@ aber protokollpflichtig):
   Bewertungsphase; ⚠️ Geltungsgrenze § 0.0 dort: NUR Technik-Segment
   — die Beratungs-Achse ist unerhoben, W9 wächst mit FUND3-P12/P13
   nach): kein Anklang = 3 · entfernte Nähe = 2 · nah = 1.
+  > ⚠️ **ÜBERHOLT-Vermerk (R19-Debrief, 19.08.2026):** Die
+  > Geltungsgrenzen-Angabe „NUR Technik-Segment" war schon beim
+  > Schreiben zu eng — Wettbewerbsbild § 0.0 trägt seit R05-A selbst
+  > „teilweise überholt durch Teil B" (fünf weitere Felder). Die
+  > 51er-Wertung oben bleibt Historie; künftige W9-Züge lesen das
+  > GANZE Dokument (R19A-N-2).
 - **W7 SEO / W8 Handles: n. a. — offen, zweite Welle (0/51 geprüft).**
   Summen laufen deshalb über 7 Kriterien, **Nenner max. 21**.
 

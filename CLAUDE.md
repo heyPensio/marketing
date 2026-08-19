@@ -3,13 +3,11 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`74277bc`** (R18-Debrief 17.08.2026: eigener
-> Rückfluss 3 Schärfungen [L-51/L-38/Werkzeugfehler-Zahl] + 2
-> Werkzeug-Nachträge; ⚠️ 1 fremdes Delta `9858070` [heyPensio R44/R45]
-> OFFEN, Nachzug-Posten;
-> Wächter SYNCHRON 12 / 0 DRIFT — ⚠️ Ordner-Bausteine misst er nicht
-> [Postkorb Zentrale `f58f1c0`]; Regelwerk-Wächter Soll 80.000 / Warn
-> 85.000 / Hart 90.000 B, R18 79.992 B unter Soll). **Die vollständige Nachzugs- und Stempel-Historie steht
+> 2026-08-09; Stand **`9187d31`** (R19-Debrief 19.08.2026: Nachzug
+> 12 Deltas vollzogen [5 Kopien, Wächter 12/0];
+> Gmail-Versand-deny gesetzt [am Pool belegt]; Rückfluss 5 Lehren; ⚠️ Ordner-Bausteine misst
+> der Wächter nicht [Postkorb `f58f1c0`]; Budget-Marken
+> 80.000/85.000/90.000 B, R19 unter Soll). **Die vollständige Nachzugs- und Stempel-Historie steht
 > in `geruest-nachzug-protokoll.md`** — sie gehört nicht in den
 > auto-geladenen Kanal (Transit-Verbot G5). Nachzug neuer
 > Methodik-Lehren: `/projekt-init nachzug`.
@@ -262,8 +260,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    Aussagen immer aus der aktuellen Liste holen (Skill `claude-api`), nie
    aus dem Gedächtnis. **Das tatsächliche Modell einer Session belegt nur
    die Statuszeile oder `/cost` — NIE die Selbstauskunft des Modells**
-   (die hat nachweislich Abweichungen samt plausibler Begründung ERFUNDEN;
-   Herkunft: R24-B). Die settings.json-Kette zeigt nur den Default für
+   (hat Abweichungen samt Begründung ERFUNDEN; R24-B). Die
+   settings.json-Kette zeigt nur den Default für
    neue Sessions, nicht die laufende.
 8. **Die Leitsession reviewt ALLE Ergebnisse der Arbeits-Sessions** vor dem
    Einfließen in den Wahrheits-Kanal — in ZWEI Richtungen: **(a) nach
@@ -330,9 +328,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   verschoben, nicht mit letzter Kraft erledigt** — die Verschiebung mit
   Zielmarke ins Status-Dokument, sonst wird aus „später" ein „nie".
 - **⭐ Wer zuschneidet, MISST am Objekt — wer nicht messen kann, liefert
-  ZIELE statt Schnitte.** (Herkunft: Zentrale 14.08.2026, Blueprint
-  `5020bc2`; Belegfall: zehn fremdgeschnittene Stränge, neun Korrekturen
-  vor dem ersten Start.) Ein Zuschnitt aus zweiter Hand (Briefing, fremde
+  ZIELE statt Schnitte.** (Zentrale 14.08.2026; Belegfall Register
+  V19-1.) Ein Zuschnitt aus zweiter Hand (Briefing, fremde
   Erhebung, geerbter Plan) liefert Zielbild, Prämissen, Sperrliste und
   Kapazitätsrahmen; Strang-Schnitt, Dateiscopes und Fertig-Kriterien
   entstehen dort, wo gemessen werden kann — hier: in der Leitsession.
@@ -443,7 +440,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   (k) Ein A/B-Vergleich über zwei Systeme trägt die FALSIFIKATION, nie den
   Ursachen-NACHWEIS — Ausschluss und Nachweis getrennt formulieren.
 - **⭐ Positivkontrolle (operative Pflichtform):** Jede Negativ-Suche läuft
-  mit einem Suchbegriff, der treffen MUSS, im selben Lauf. Der mitgenannte
+  mit einem Suchbegriff, der treffen MUSS, im selben Lauf — **bei
+  Massen-/Langläufen am ANFANG UND am ENDE** (ein Rate-Limit kippt den
+  Kanal MITTEN im Lauf; 218/284 als 429 bei grünen Anfangs-Kontrollen,
+  R19). Der mitgenannte
   SUCHRAUM eines Negativs ist selbst Teil der Behauptung — **und seine
   REICHWEITE: Ein präzises Negativ („X = 0") belegt nie die
   Verallgemeinerung („kein Y"); wer eine Bestandsstelle anfasst (auch nur
@@ -478,7 +478,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   nicht** — wer die Lücke benennen kann, kann meist das Muster ergänzen
   (L-37).
   **⭐ Eine ABGESCHNITTENE oder ausgelagerte Werkzeugausgabe trägt kein
-  Negativ** — zu Ende lesen (Datei/Volldump) oder „nicht erhoben"; **ein
+  Negativ** — zu Ende lesen (Datei/Volldump) oder „nicht erhoben"; **bei
+  paginierten Quellen ist „geliefert/gesamt" eine Pflicht-Zahl je Lauf**
+  (100 von 307 Zeilen sahen aus wie ein Ergebnis, R19); **ein
   Negativ, das nicht passen kann, ist zuerst ein Werkzeugfehler** (V17-3).
   **⭐ Wer einen Leseumfang protokolliert, protokolliert die ZEILENSPANNE
   mit** — ein zu weit protokollierter Leseumfang beruhigt jeden Prüfer
@@ -690,7 +692,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   verdächtig — ein „fraglich"-Vermerk ohne Klärungsauftrag dokumentiert
   die Fehlwahl nur, er verhindert sie nicht (L-09).
 - **⭐ Anwesenheit ist nicht Wirksamkeit** — ein Marker-Grep prüft Text,
-  kein Verhalten. Trefferzahl ≥ 2 für jede Konstante, die einen Vergleich
+  kein Verhalten. **Und OFFENLEGEN ist nicht ANWENDEN (L-52): Ein
+  beschriebener Befund, der die Auswahl-/Entscheidungsregel nicht
+  ändert, ändert nichts — je Kernbefund fragen, welche Regel/Schwelle
+  ihn AUSFÜHRT.** Trefferzahl ≥ 2 für jede Konstante, die einen Vergleich
   braucht (Deklaration UND Verwendung); eine Verbotsliste, die nur
   Bekanntes kennt, ist eine Positivliste in Verkleidung; eine
   SCHUTZ-Config ist erst nach AUSSEN-Messung „aktiv" (Beleg ist die
@@ -714,7 +719,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   **⭐ Ein Prüfling, der zugleich im BELEG-POOL liegt, bestätigt sich
   selbst** — Reichweiten-Erweiterung durch Anhängen an beide Listen macht
   den Kanal **grün und blind**; der Vergleich braucht den Selbstausschluss
-  je Zieldatei (R15: Scheinentwarnung, die zwei Dokumente prüfte und über vier schwieg). **⭐ Eine Wächter-Entwarnung über
+  je Zieldatei (R15, Register). **⭐ Eine Wächter-Entwarnung über
   die EIGENE Arbeit setzt die Lektüre seiner Prüfmengen-Konstanten
   (ZIEL/POOL) voraus; das Lauf-Delta wird je Datei zugeordnet, nie
   pauschal der eigenen Arbeit zugeschrieben** (fremde Parallel-Arbeit
@@ -723,10 +728,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   gilt auch für Werkzeugläufe** (L-40).
 - **Ein Test, der nichts verändert, prüft nichts** — Testaufbauten brauchen
   ihre eigene Positivkontrolle. **⭐ Auch die RÜCKBAU-Gegenprobe braucht
-  sie, und zwar als ZÄHLUNG: „gesetzt: n von m".** Ein Durchlauf setzte
-  still nur 3 von 4 Verfälschungen (die vierte scheiterte an einem
-  Zeilenumbruch im Suchmuster) — ohne die Zählung wäre ein wirkungsloser
-  Testaufbau als bestandene Prüfung verbucht worden (Sammelvermerk R9). **Eine grüne Testzahl belegt nichts — nur
+  sie, und zwar als ZÄHLUNG: „gesetzt: n von m"** (Beleg: 3 von 4
+  still gesetzt; Sammelvermerk R9) — **und ihr MESSKRITERIUM kann
+  selbst ein Anwesenheits-Kriterium sein** (Sollzustand tritt ohne die
+  Wirkung von selbst ein; Prüffrage je Kriterium — heyPensio R49-E). **Eine grüne Testzahl belegt nichts — nur
   die Rückbau-Gegenprobe belegt, dass die Tests den Fund fangen** (Fix in
   Wegwerf-Kopie zurückdrehen, prüfen ob die Suite es merkt). **Und ein
   Selbsttest, der die zu prüfende ZUSAMMENSETZUNG selbst nachbaut, prüft
@@ -734,22 +739,17 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   (Herkunft: heyPensio R33.)
 - **⭐ Ein Drift-Check vergleicht ERZEUGTES gegen ERZEUGTES und ist gegen
   ERZEUGUNGS-Fehler blind — jede Generator-Kette braucht zusätzlich eine
-  Prüfung des ERGEBNISSES.** Ein generiertes Artefakt war syntaktisch
-  unbrauchbar, während über hundert Selbsttests, zwei Dutzend
-  Rückbau-Gegenproben und ein Dutzend Wächter grün meldeten — kein
-  Prüfmittel las das fertige Artefakt. Pflichtform: eine Syntax-/
+  Prüfung des ERGEBNISSES** (Belegfall Register V19-2: Artefakt
+  unbrauchbar bei >100 grünen Prüfmitteln). Pflichtform: eine Syntax-/
   Ladeprüfung über jeden erzeugten Baustein des FERTIGEN Artefakts —
   nicht über die Quelle, nicht über den Zwischenstand. **Wo ein Werkzeug
   seinen eigenen Prüfgegenstand herstellt, ist die einzige unabhängige
   Instanz das Ergebnis.** (Herkunft: heyPensio R36.)
 - **⭐ Ein Wächter wird über die GANZE Prüfmenge belegt, nicht an einem
   Exemplar — und der ERFOLGSFALL gehört vor der Auslieferung einmal
-  durchgespielt.** Eine Positivkontrolle kann greifen und der Wächter
-  trotzdem blind sein (sie traf zufällig eines der wenigen intakten
-  Elemente); und ein Prüfwerkzeug, dessen Zielzustand nie erreichbar
-  ist, meldet ausgerechnet nach der von ihm selbst empfohlenen Maßnahme
-  falsch grün. **Ein Prüfwerkzeug, das den Erfolgsfall nicht kennt, ist
-  keins.** (Herkunft: heyPensio R36, zwei unabhängige Fälle.)
+  durchgespielt.** Zwei Belegfälle (zufällig treffende Kontrolle · nie
+  erreichbarer Zielzustand): Register V19-3. **Ein Prüfwerkzeug, das
+  den Erfolgsfall nicht kennt, ist keins.** (heyPensio R36.)
   **⭐ Hat das Werkzeug mehrere MODI, hat jeder seine eigene
   Erfolgsbedingung** — ein Selbsttest, der „4 gemeldet" erwartet, ist
   unter der Hauptlauf-Bedingung „0 gemeldet" nie grün und meldet
@@ -783,10 +783,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Eintrag, kommt nirgends mehr vor") gehört als eigene Ausgabe dazu.
   (Sammelvermerk R9, beide beim Anwenden der Regeln selbst gefunden.)
 - **⭐ Ein Zitatabgleich prüft, was als Zitat MARKIERT ist — nicht den
-  Fließtext daneben.** Normbegriffe, Absatz-/Buchstabenangaben und
-  Rechtsfolgen im Fließtext sieht kein Extraktor; genau dort sitzt die
-  gefährlichste Klasse, weil sie sich plausibel liest (gemessen: 4 von 5
-  Verfälschungen gefangen, die fünfte war Fließtext). Wer ein solches
+  Fließtext daneben.** Normbegriffe, Absatz-/Rn.-Angaben und
+  Rechtsfolgen im Fließtext sieht
+  kein Extraktor (4/5 gefangen, die fünfte war Fließtext). Wer ein solches
   Werkzeug einsetzt, schreibt ins Dokument, was es NICHT prüft — sonst
   liest sich „116/116 bestätigt" als Vollprüfung. (L-27.)
 - **Vor jedem Passwortwechsel/jeder Credential-Rotation prüfen, WER das
@@ -1067,9 +1066,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Bestandszahl still altern, die je über diesen Ordner erhoben wurde
   (L-20, Belegfall im Register).
 - **⭐ Eine Trennungs-/Unabhängigkeitsregel bestimmt den ABLAGEORT ihrer
-  Belege mit.** (Herkunft: Zentrale 14.08.2026, Blueprint `5020bc2` —
-  49 Beleg-Dateien einer Abnahme wuchsen 6,5 h außerhalb jeder
-  Versionierung.) Wer anordnet, dass eine prüfende Instanz nicht ins
+  Belege mit.** (Zentrale 14.08.2026; Belegfall Register V19-4.) Wer
+  anordnet, dass eine prüfende Instanz nicht ins
   geprüfte Repo schreibt, sagt im selben Zug, wohin ihre Beweisstücke
   gehören; `git status` kennt einen Nachbarordner nicht einmal als
   untracked. **Prüfschritt je Debrief: die Ebene ÜBER den Repos
@@ -1127,7 +1125,9 @@ hierher, nicht ins Repo.
   nächsten Tool-Call (Commit-Probe real geblockt). Der Snapshot gilt nur
   fürs HINZUFÜGEN, nicht für einschränkende Änderungen;
   Wirksamkeits-Beleg einer deny-Baseline ist das beobachtete
-  Verschwinden aus dem Pool, nie ein Test-Call auf ein Schreibtool.
+  Verschwinden aus dem Pool, nie ein Test-Call auf ein Schreibtool;
+  der Baseline-Abgleich läuft NAME gegen NAME, nie über die Anzahl
+  (heyPensio R49).
   (Herkunft: heyPensio R39 deny + R42 Hook-Registrierung, Nachzug
   R11/R14.)
 - Multi-Agent-Workflows nach Abbruch nie neu starten, sondern resumen
@@ -1146,8 +1146,8 @@ hierher, nicht ins Repo.
   PRIMÄR zeitpunkt-/kontextgebunden, nicht kanalgebunden — ein
   Kanal-Negativ nie als Dauer-Zustand dokumentieren; Kanalwechsel ist ein
   VERSUCH, kein Mechanismus; ein A/B über zwei Kanäle trägt die
-  Falsifikation, nie den Ursachennachweis (L-05, elf Belege bis R18 —
-  Historie im Register).
+  Falsifikation, nie den Ursachennachweis (L-05, 16 Belege — Historie
+  im Register).
 
 ## Aktivierte Bausteine
 
@@ -1167,8 +1167,8 @@ hierher, nicht ins Repo.
 ist keine Schlank-Entscheidung, sondern eine offene Falle, sobald das
 Projekt die Werkzeugklasse täglich benutzt** — Prüffrage bei jedem
 Nachzug: „Welche Werkzeugklasse benutzt dieses Projekt täglich ohne
-den zugehörigen Baustein?" [Herkunft: Zentrale 14.08.2026, Blueprint
-`5020bc2`; Stand 17.08.: 8 von 8 Bausteinen aktiv].)*
+den zugehörigen Baustein?" [Zentrale 14.08.2026; Stand 17.08.: 8/8
+aktiv].)*
 
 ## Lehren-Register
 

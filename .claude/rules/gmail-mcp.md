@@ -3,6 +3,18 @@
 *(Aktivieren, wenn das Projekt das Gmail-MCP für Korrespondenz nutzt.
 Herkunft: heyPensio, je mit realem Beinahe-Schaden belegt.)*
 
+- **⛔ VERSAND-VERBOT (User-Entscheid 18.08.2026, Zentrale — absolut, ohne
+  Rückfrage-Ausnahme): Sessions VERSENDEN NIE E-Mails.** Jede Antwort,
+  Weiterleitung oder neue Mail wird als ENTWURF angelegt
+  (`create_draft`, bei Fäden mit `replyToMessageId`); der User liest,
+  kürzt und versendet selbst. Auch ein „Ja, so versenden" im Dropdown
+  hebt das nicht auf — Belegfall 18.08.: zwei per Dropdown freigegebene
+  Antworten an einen künftigen Kooperationspartner (Apaleo) gingen
+  „KI-lastig" raus, unwiderruflich. Technischer Träger: `send_message`,
+  `reply`, `forward` stehen in `settings.json` unter `permissions.deny`
+  (Zentrale seit 18.08.; Abteilungen ziehen nach). Dazu Ton-Regel für
+  Entwürfe: kurz, direkt, im Ton der eigenen Sent-Mails des Users — kein
+  Fließtext-Aufsatz.
 - **Threadlisten (`search_threads`) zeigen höchstens 5 Nachrichten je
   Thread.** Matcht ein Thread einen Zeitfilter, ohne dass die angezeigten
   Nachrichten das erklären, verbirgt er neuere → per `get_thread` voll
@@ -42,6 +54,12 @@ Herkunft: heyPensio, je mit realem Beinahe-Schaden belegt.)*
   aktuell bestimmen (Sommer +2 / Winter +1, Wechsel Ende Okt./März)
   und im Text nennen. (Herkunft: Architektur-Prüflauf 11.08.2026 —
   die Festformel stand an drei Zentrale-Stellen.)
+- **Label-Zähler in `list_labels` sind nach Umbenennungen/Umzügen
+  CACHE-STAND** — direkt nach einer Label-Umstrukturierung meldeten alle
+  umbenannten Labels 0 Nachrichten, obwohl die Fäden dranhingen; die
+  Gegenprobe `label:<name>`-SUCHE fand 42 Fäden. Bestandsaussagen nach
+  Label-Arbeit nie am Zähler, immer an der Suche messen. (Herkunft:
+  Zentrale 18.08.2026, Postfach-Neusortierung.)
 - **Anhänge:** „gelesen" ist nicht „archiviert" — der Weg zur Datei ist
   der native Download-Button (zuerst versuchen) oder der User-Handoff;
   abgelesene Werte am Original gegenlesen. Beides im Dokument getrennt

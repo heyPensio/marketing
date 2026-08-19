@@ -142,3 +142,33 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
   statt 14 Treffer — ein sauber aussehendes Negativ. Suchwerkzeuge
   immer mit explizitem `path`; ein Nulltreffer nach einem Bash-`cd`
   ist zuerst ein Kanalfehler. (Herkunft: MKT R18.)
+- **Prozesse NIE nach Namen beenden (`taskkill /IM node.exe`,
+  `Stop-Process -Name node`) — im Multi-Session-Betrieb trifft das die
+  Vorschau-Server, Watcher und Skripte der PARALLELEN Sessions.** Immer
+  gezielt per Port oder PID: `Get-NetTCPConnection -LocalPort <port>`
+  → `OwningProcess` → `Stop-Process -Id <pid>`; eigene Server mit
+  bekanntem Port starten und die PID protokollieren. (Herkunft:
+  heyPensio R47-A — zwei Alt-Server der Nachbarsession mit beendet.)
+- **Bash-Heredocs/`node -e`/Inline-Python mit typografischen Zeichen
+  („…", ’), Umlauten oder Backslashes scheitern still oder verschlucken
+  Zeichen** — auch mehrzeilige Markdown-Anhänge (Quoting-EOF). Text als
+  DATEI schreiben (Write/Edit-Tool bzw. Datei im Scratchpad) und dann per
+  `cat`/Node anhängen bzw. Skript aus Datei ausführen; typografische
+  Anführungszeichen (`„…"`) beenden zudem in Python/JS einen mit `"`
+  begonnenen String. (Herkunft: heyPensio R46/R47/R48/R49 — vierfach an
+  zwei Tagen.) **Auch ein QUOTED Heredoc (`<<'EOF'`) schützt den
+  Backslash nicht zuverlässig** — eine Regex-Zeichenklasse kam als
+  `[^"\]` statt `[^"\\]` auf der Platte an, der Syntaxfehler sah wie ein
+  Denkfehler aus (heyPensio R49-B; damit sechsfach belegt).
+- **Secret-/Wert-Abfragen in Shell-Skripten:** (a) Der `!`-Direktkanal
+  reicht KEINE verdeckte Tastatureingabe durch — `read -rs` bekommt
+  sofort ein Dateiende, und mit `set -e` stirbt das Skript STUMM (ein
+  Abbruch sieht wie ein Durchlauf aus). Vor jedem `read` eine
+  TTY-Prüfung mit lesbarer Meldung (`[ -t 0 ] || { echo …; exit 1; }`).
+  (b) **Ein CLI-Read in einer Kommandosubstitution
+  (`VAR=$(op read …)`) braucht eine Ergebnisprüfung** — ein Lesefehler
+  (abgelaufene CLI-Autorisierung) schreibt sonst einen LEEREN Wert
+  weiter; real passiert (Benutzername leer, bemerkt nur an der
+  Längenausgabe `user=0`). Nach jeder Substitution Exit-Code UND
+  Nicht-Leere prüfen, bevor der Wert irgendwo landet. (Herkunft:
+  heyPensio R49-C, zweifach.)

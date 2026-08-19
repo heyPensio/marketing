@@ -274,3 +274,37 @@ R6-Stand: L-13 im Bestand + `pruefe-kopien.js` meldete alle Bausteine
 außer `aussenkorrespondenz` synchron. Der Stempel ist der Beleg des
 Nachzugs — beim nächsten Nachzug im selben Commit mitziehen.*
 Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
+
+---
+
+## Nachzug R19-Debrief, 19.08.2026 (Stempel `74277bc` → `9187d31`)
+
+**Delta: 12 Commits** (`74277bc..9187d31`, NEU gemessen nach dem
+eigenen Rückfluss — nicht die Vormittagsliste von 10). Vollzug:
+
+- **5 Kopien vom Master gezogen** (LF-normalisiert,
+  `{{PROJEKT_CODE}}`→MKT, per Skript nach der Wächter-Logik):
+  `commands/tagesstart.md` · `rules/browser-automation.md` ·
+  `rules/gmail-mcp.md` (**Versand-Verbot 77533f5**) ·
+  `rules/quellen-beschaffung.md` · `rules/windows-powershell.md`
+  (R49-Lehren: Prozess-Kill per PID, Heredoc-Typografie,
+  Secret-Abfrage-Fallen). Beleg: `pruefe-kopien.js` **SYNCHRON 12/0**.
+- **Technischer Träger des Versand-Verbots gesetzt:**
+  `mcp__claude_ai_Gmail__send_message/reply/forward` in
+  `.claude/settings.json` `permissions.deny` — Wirksamkeit am Objekt
+  belegt (die drei Tools verschwanden unmittelbar aus dem Tool-Pool
+  der laufenden Session; einschränkende settings wirken sofort).
+- **CLAUDE.md-Nachzüge** (inhaltlich, kein Klon): deny-Abgleich Name
+  gegen Name (`519b241`) · Gegenprobe-Messkriterium kann
+  Anwesenheits-Kriterium sein (`68c5806`) — je an der Bestandsstelle;
+  eigene R19-Schärfungen standen schon (Projekt zuerst).
+- **Nicht marketing-relevant im Delta:** `82e85ca` (Zentrale-Register
+  oguz-werkstatt) · `3ca98b2`/`f89f03b` Label-Zähler-Teil (gmail-mcp —
+  kommt mit der Kopie mit) · `c034250` Budget-Hook-Delta-Ausnahme:
+  ⚠️ **Hook-Kopie ist projektspezifisch** (`pruefe-claudemd-budget.js`
+  ohne Blueprint-Vorlage, Wächter-INFO) — die Delta-Ausnahme aus dem
+  Blueprint-Messgerät ist hier NICHT nachgebaut; Posten notiert
+  (Tagesplan-Übergabe), bis dahin blockt der Hook wie bisher erst ab
+  Hartmarke.
+- Stempel im CLAUDE.md-Kopf im SELBEN Commit auf `9187d31` gesetzt
+  (Stempel-Zug = zwei Schreiborte, Zentrale-Lehre 19.08.).

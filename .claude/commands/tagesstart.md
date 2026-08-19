@@ -292,7 +292,23 @@ Fester Ablauf — **Altlasten der letzten Runde VOR neuer Runde**:
 ## 2. Start-Prompt bauen (`start <aufgabe(n)>`)
 
 Vorab: Welche Sessions laufen bereits, mit welchen Scopes? Saubere Basis
-(CLAUDE.md Regel 5)? Pro Session diese sieben Bausteine festlegen — fehlt
+(CLAUDE.md Regel 5)?
+
+**⭐ NACHTRÄGE AN LAUFENDE SESSIONS GEHEN ÜBER DEN USER — SONST
+EXISTIEREN SIE NICHT** (Herkunft: heyPensio R49): Das Pull-Modell wirkt
+nur beim SESSION-START; eine laufende Session pollt den Tagesplan
+nicht. Wer einer laufenden Session eine Zusatzaufgabe in den Tagesplan
+schreibt, benennt dem User im selben Zug einen Durchreich-Handgriff
+(eine Chat-Zeile zum Weitergeben). Der Tagesplan-Eintrag allein ist
+eine Ablage, keine Zustellung — die Session lief bis zum Abschluss,
+ohne den Nachtrag je zu sehen (0 Treffer in der Abschlussmeldung).
+**Gegenstück auf Session-Seite (Herkunft: heyPensio R49-E) — gehört in
+jeden Start-Prompt mit Meilenstein-Kriterium:** Die Arbeits-Session
+sichtet vor jedem Fertig-Kriterium-Meilenstein `git log origin/main -3`
+auf Leitsession-Nachträge (sie kommen als Tagesplan-Commits herein;
+Belegfall: ein Feierabend-Nachtrag lag ~1 h ungelesen auf origin).
+
+Pro Session diese sieben Bausteine festlegen — fehlt
 einer, beim User nachfragen statt raten:
 
 1. **Ziel/Aufgabe** — konkret, mit Verweis auf Bauplan/Doku im Repo statt
@@ -301,12 +317,22 @@ einer, beim User nachfragen statt raten:
    gefangen, einer vollständig zurückgenommen):** Ein Bau-Prompt nennt
    zuerst in EINEM Satz, wozu das Ergebnis dient (Zweck im User-Wortlaut),
    dann erst die Artefakte — die Session prüft die Liste gegen den Zweck,
-   bevor sie baut, und meldet die Lücke. Bei Gestaltungs-/Konzeptionsanteil
+   bevor sie baut, und meldet die Lücke. **⭐ User-Wahllisten und
+   Kalibrierungen wandern als GESCHLOSSENE AUFZÄHLUNG in den Prompt,
+   nie als Familienbeschreibung** — eine sinngemäße Familie („aus der
+   X-, Y- oder Z-Familie") öffnete eine ausdrücklich NICHT gewählte
+   Achse, 13 von 71 Ergebnissen lagen außerhalb der User-Wahl
+   (Herkunft: MKT R19). Bei Gestaltungs-/Konzeptionsanteil
    trägt der Prompt einen **Kontrollpunkt**: Zuschnitt (Etappen,
    Messkriterien, Grenzen — eine Seite) zur Freigabe vorlegen, BEVOR Text,
    Werkzeuge oder Assets entstehen; weicht das Verständnis des Users ab,
-   wird neu geschnitten, nicht nachgebessert. Eine Artefaktliste aus einem
-   Briefing-Zielbild ist ohne Zweck-Satz KEIN Auftrag. **⭐ Bei Einarbeitungs-/Übertragungs-Aufträgen
+   wird neu geschnitten, nicht nachgebessert. **Vor der Freigabefrage den
+   ABLAUF in Alltagssprache erzählen (wer tut was, in welcher
+   Reihenfolge), nicht die Dateiliste** — der User klärt Freigaben zu
+   größeren Artefakten im Gespräch; zwei Dropdown-Versuche brachen ab,
+   bis der Ablauf erzählt war (Herkunft: heyPensio R45-D). Eine
+   Artefaktliste aus einem Briefing-Zielbild ist ohne Zweck-Satz KEIN
+   Auftrag. **⭐ Bei Einarbeitungs-/Übertragungs-Aufträgen
    (Befunde oder Entscheide aus Meldungen in Bestandsdokumente): Der
    Prompt verpflichtet die Session ausdrücklich, jeden Quell-Befund am
    ROHBELEG gegenzuprüfen statt ihn zu übertragen** — Abschlussmeldungen
@@ -436,7 +462,14 @@ einer, beim User nachfragen statt raten:
      per `grep -o|wc -l`, nie `grep -c`) — die Kopie ist byte-identisch
      bis auf die eine Stelle, echte Funde übertragen sich 1:1, kein
      git-Rückbau nötig, und Sicherheits-Klassifikatoren blockieren das
-     Agenten-Pflanzen in Produktiv-Spiegeldateien ohnehin zu Recht; der
+     Agenten-Pflanzen in Produktiv-Spiegeldateien ohnehin zu Recht;
+     **gleichrangige Zweitform ohne User-Handgriff (Herkunft: heyPensio
+     R47/R48, zweimal bestanden): VERDECKTE WAHL — ein Skript pflanzt in
+     der Kopie EINE zufällig gewählte Stelle und schreibt sie in eine
+     Datei, die die Session erst NACH dem Prüferlauf liest; und
+     Beispiele in Direktkanal-Anleitungen tragen KEINEN konkreten Wert
+     (der User übernahm die Beispielzeile 1:1 — damit war die Pflanzung
+     dem Auftraggeber bekannt)**; der
      Prüfer begründet den Fund INHALTLICH, nicht mit „steht im Diff" —
      **und der Prüfauftrag weist ihn EXPLIZIT an, den Arbeitsbaum-Diff
      nicht zu sichten** (sonst misst die Kontrolle seine Forensik statt

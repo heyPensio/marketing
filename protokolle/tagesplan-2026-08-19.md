@@ -356,4 +356,42 @@ Front-Running-Frage 6×`.de` (User) · K2-Anwalts-Vorbehalt am Kern.
 ⚠️ Frei-Befunde altern — je länger das Sacken, desto schwächer der
 19.08.-Messstand.
 
-### Tagesende — Übergabe *(wird am Tagesende gefüllt)*
+### Tagesende — Übergabe für den nächsten Tagesstart (~17:25 MESZ, `date`)
+
+- **R19 ist mit dem Debrief 19.08. GESCHLOSSEN** (User: „ich komm heute
+  auf keinen Zweig mach den /debrief aber wir kommen immer näher ran").
+  Der NAMENSENTSCHEID selbst ist offen — er ist jetzt ein
+  **User-Handgriff** (Sechser-Auswahl in
+  `marke/entscheidungsvorlage-name-2026-08-19.md`), kein offener
+  Runden-Strang mehr.
+- **Vor dem finalen Namensentscheid PFLICHT:** Neumessung der sechs
+  `.de`/`.com` (Front-Running abgelehnt = getragenes Risiko, Stand
+  19.08.; `schnellcheck.js` mit der Sechser-Liste, Minuten). Falls
+  Innsolutions ins Rennen soll: erst R19-C-Prüftiefe.
+- **Nächste Runde (R20), Kandidaten unverändert aus R18:** Wächter-Bau
+  (59 NEU rot) · HANDEL (Rn. 180/194/184, H-7, Sperrposten ×3) · AKQ
+  (Wellenprotokoll) · Entscheide-Bündel beim User (fünf R16 ·
+  Zielstichprobe · Vorlagen-Lesart/A5 🔴 vor So 23.08. · H-8/AKQ-H-2 ·
+  H-1-Delta 22.09./01.10.).
+- **⚠️ NEUES Blueprint-Delta nach dem Stempel:** 2 Commits
+  (`45a4fff`, `8a4b0a7`, heyPensio R50 — von der Verdichtungs-
+  Gegenprobe am Wächter-Lauf gefunden; Kopien tagesstart +
+  windows-powershell wieder DRIFT Richtung Master-voraus) → regulärer
+  Nachzug-Posten des nächsten Tagesstarts, KEIN Fehler des heutigen
+  (Stempel `9187d31` deckt exakt den durchgeführten Nachzug).
+- **Budget-Hook-Posten:** Die Delta-Ausnahme (`c034250`) ist im
+  projektspezifischen Hook `pruefe-claudemd-budget.js` NICHT
+  nachgebaut (keine Blueprint-Vorlage; s. Nachzug-Protokoll) —
+  Kandidat für ein ruhiges Fenster.
+- **Offene User-Handgriffe:** 🔴 StB-Anruf (heute nachholen — Stand
+  bei Debrief-Ende nicht rückgemeldet) · finaler Name · das
+  Entscheide-Bündel (oben) · `.gitattributes` (ruhiges Fenster).
+- **Debrief-Vollzug:** L-52 + 2 Schärfungen + Sammelvermerk R19 +
+  V19-1…4 · Blueprint `9187d31` (5 Lehren) · Nachzug 12 Deltas ·
+  beide Gegenproben gelaufen, ALLE Befunde disponiert (2 nachgetragene
+  Posten [C-F6, C-M5] + B-N2-Regel-Fundstelle + 4
+  Verdichtungs-Reparaturen [Kopfzahl, Kürzungsliste, L-27-Rücknahme,
+  § 7-Erfüllen-Vermerk]) · Wahrheits-Kanal 4-Stellen-Sync + Rotation
+  R17 → Archiv · Postkorb Zentrale `ed1c7e9` (Zwischenstand +
+  E-K1-Lockerung).
+- Blockwechsel: nächste Runde NEUES Fenster.

@@ -378,7 +378,13 @@ R19-B-bericht.md` + Tagesplan; Rohbelege git-ignoriert.
   **TMview-Discovery in diesem Lauf ausgefallen** (Discovery=false für alle
   24 — Kanal nicht erhoben; für DE/EU tragen DPMA + EUIPO). Ergebnis:
   16 registerfrei (DPMA 0 / EUIPO 0), davon 11 mit `.de` frei; **`.com` bei
-  allen 24 vergeben**. Register-Treffer: Roomwise 2/1 · Keywise 1/1 ·
+  allen 24 vergeben**.
+  > ⚠️ **ÜBERHOLT-Vermerk (R19-C/Debrief, 19.08.2026):** „registerfrei
+  > (DPMA 0 / EUIPO 0)" belegt nur die IDENTISCHE Zeichenfolge — die
+  > Smartsearch-Zahl deckt den Ähnlichkeitsraum nicht (an Innsight
+  > belegt: Identität 1 Treffer, Getrenntform 307 mit 14 lebenden
+  > Zeichen im Suchraum). Ein Rückgriff auf diese 16 braucht erst die
+  > R19-C-Prüftiefe (Getrenntform-Läufe + Trefferlisten). Register-Treffer: Roomwise 2/1 · Keywise 1/1 ·
   Hotelwise 1/1 · Innwise 1/1 · Roompilot 3/2 · Keypilot 1/0 · Keymate 7/4 ·
   Hotelmate 2/0. User-Treffer: **Wisestay** (N-145: DPMA 0 / EUIPO 0, `.de`
   frei, `.com` seit 2016 registriert, NS atom.com = Marktplatz → kaufbar;

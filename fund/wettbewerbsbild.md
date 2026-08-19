@@ -828,6 +828,17 @@ Gäste-App, HS/3 Booking Manager, softtec „hotline". Das ist der Fall
 „das PMS baut es selbst" — dieselbe Sherlocking-Logik, die wir bei
 Apaleo bereits notiert haben, nur bei den Wettbewerbs-PMS.
 
+**Nachtrag 19.08.2026 (R19-C-Nebenbefund N-1, aus der
+Namensrecherche):** **INNsight.com, Inc.** (San Francisco, US) ist ein
+aktiver Dienstleister für Hoteliers — Eigenclaim „We help #hoteliers
+drive more direct bookings", eigene Facebook-Präsenz, **US-Marken in
+Kl. 35/42/43** (u. a. US 90045083, eingetragen). Beleg: TMview-Rohbeleg
++ Browser-Sichtung `sensibel/rohbelege-R19-C/` (Browser-Teil = nur
+Sitzungsprotokoll, schwächere Belegstufe); Leistungsschnitt zu unserem
+Portfolio (Direktbuchungs-/Marketing-Fokus vs. Check-in/Betrieb) ist
+NICHT erhoben — Einordnung als Wettbewerber-Kandidat, kein
+Kernsegment-Urteil.
+
 ---
 
 ## 4. Apaleo Store — Stand 09.08.2026

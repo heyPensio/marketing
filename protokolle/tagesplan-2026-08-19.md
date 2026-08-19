@@ -299,4 +299,40 @@ Nennung/Gates 1–5, Logo/CI, Cutover) · Postkorb-Rohling
 existiert) · Review C nach Abschlussmeldung (beide Richtungen,
 Prüfer-Befundliste am Protokoll zählen).
 
+### Block 2 — Review R19-C + Entscheidungsvorlage (~13:00–14:15 MESZ)
+
+**Review R19-C (beide Richtungen), Ergebnis:**
+- **(a) nach innen:** Prüferliste am Protokoll gezählt: 21 = 4/10/7 ✓
+  deckt sich mit der Meldung; alle 21 mit Dispositions-Zeile. Die vier
+  schweren Reparaturen am ROHBELEG nachgemessen (Vollerhebung
+  100+100+100+7=307/307 und 100+100+97=297/297 selbst nachgezählt;
+  INNOSIGHT im Roh-JSON; K6-Ordner + 6/6-Kontrollpaare; K4-Bogen-
+  Reparaturkasten). Prüfer-Lauf-Status (7 offene Schritte) einzeln
+  ausgewiesen ✓. Fertig-Kriterium 27/27 vom Prüfer abgezählt ✓.
+  ⚠️ **Meldungs-Zahlenfehler (Debrief-Kandidat):** Summenzeile „16
+  repariert / 5 Träger" widerspricht der eigenen Tabelle (dort 19
+  repariert inkl. 5 nachgemessen, 2 mit Träger: P-11-Rest → MARKE3,
+  P-12 → MARKE/FUND3) — Verdichtungs-Drift in der eigenen Meldung,
+  Substanz unberührt.
+- **(b) nach außen — 5 Nebenbefunde, Dispositionen:** (1) INNsight.com
+  → `fund/wettbewerbsbild.md` (Zielort existiert; Einarbeitung: nächste
+  FUND-Runde, Posten im Debrief) · (2) **Smartsearch belegt nur
+  Identität** → kippt die „registerfrei"-Lesart der 16 Welle-4-Namen;
+  Vermerk gehört in `naming-sprint`-Dokumente (Debrief-Posten; in der
+  Entscheidungsvorlage Punkt 3 bereits ausgewiesen) · (3) zwei
+  Werkzeugbefunde → `marke/markenrecherche-verfahren.md`
+  (Leitsessions-Scope, Debrief) · (4) wisestay.de frei →
+  Postkorb-Meldung Zentrale (nach Entscheid) · (5) E-K1-Befund → in
+  der Vorlage als Punkt 1 verbaut.
+
+**Entscheidungsvorlage gefüllt** (`marke/entscheidungsvorlage-name-2026-08-19.md`):
+Quell-Abgleich Satz für Satz gegen R19-C §§ 2/4/5/8/9 gelaufen — zwei
+eigene Zutaten gefunden und repariert („kleines Gästehaus" →
+Berichts-Wortlaut Gastgewerbe-Unternehmen; unbelegtes „kein
+Gastgewerbe-Signal" gestrichen). Struktur-Änderung gegenüber dem
+Rohling: **zwei Rahmenfragen (E-K1 `.com`-Pflicht · E-K5/K2 offenes
+Rechtsrisiko) VOR der Namenswahl** — Bens Befund „unter E-K1 erfüllt
+kein Finalist K3 ohne Zukauf" macht sie zur ersten Entscheidung.
+Dropdown an den User in zwei Runden (Rahmen → Wahl).
+
 ### Tagesende — Übergabe *(wird am Tagesende gefüllt)*

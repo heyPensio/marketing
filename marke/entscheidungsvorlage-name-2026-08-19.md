@@ -10,6 +10,15 @@
 > *(Vorfassung: Rohling mit Platzhaltern, Commit `d25493f` — vollständig
 > ersetzt, keine Faktenaussage der Vorfassung ist übernommen.)*
 
+> ✅ **NACHTRAG 14:20 MESZ — Runde 1 entschieden** (User, Dropdown;
+> Wortlaut `sensibel/entscheide-2026-08-19-namensblock.md`):
+> **Punkt 1: `.com` wird zur KÜR** (E-K1 gelockert, Katalog-Nachtrag
+> gesetzt — alle drei Namen wählbar) · **Punkt 2: mit offenem
+> Rechtsrisiko entscheiden** (Name trägt sichtbaren Vorbehalt bis zur
+> Anwalts-Markenrecherche) · **Punkt 5: Diktat-Test JETZT, vor der
+> Wahl** (läuft als User-Handgriff). Punkte 3/4/6 folgen als Runde 2
+> nach dem Test. Der Vorlagen-Text unten bleibt unverändert.
+
 ## Kopfblock
 
 **Zweck:** Du wählst heute den neuen Firmennamen aus drei Finalisten —

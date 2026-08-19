@@ -104,7 +104,7 @@
 
 | # | Frage | Vorschlag der Session (zur Bestätigung/Änderung) |
 |---|---|---|
-| E-K1 | **Kern-Domain-Set** (K3): Welche TLDs müssen frei sein? | `.de` Pflicht + `.com` Pflicht (internationales Ökosystem, Defensiv-Wert); `.eu`/Varianten nur defensiv in MARKE3 |
+| E-K1 | **Kern-Domain-Set** (K3): Welche TLDs müssen frei sein? | `.de` Pflicht + `.com` Pflicht (internationales Ökosystem, Defensiv-Wert); `.eu`/Varianten nur defensiv in MARKE3. **⚠️ ÜBERHOLT durch Lockerung 19.08.2026 — `.com` ist KÜR, s. Nachtrags-Kasten unten** |
 | E-K1b | **Kern-Plattform-Set Handles** (W8) — Kanalmix ist noch nicht festgezurrt (wartet auf Persona-Befund FUND2) | Vorläufig prüfen: LinkedIn, Instagram, Facebook, YouTube; Rest nach Kanalmix-Entscheid |
 | E-K2 | **Gewichtung Englisch-Tauglichkeit** (W4) vor dem FUND4-Sprachentscheid | Als Wertungskriterium mitführen, nicht als K.-o.; nach FUND4 ggf. hochstufen (Bestand dann rückwirkend prüfen, § 1) |
 | E-K3 | **Bindestrich-/Schreibweisen-Politik** (K7): Sind Bindestrich-Domains als Kern akzeptabel? | Nein für den Kern (Diktier-/Merkbarkeit); Bindestrich-Varianten nur defensiv registrieren. Kontext: Der Bestand nutzt bereits `hey-pensio.de` |
@@ -134,6 +134,17 @@ ist MARKE2 (Gate 1 + Gate 3, `zentrale\namensentscheid.md`).
 > **Entscheide (§ 5, plus E-V1–E-V4 im Schwester-Dokument):**
 > - **E-K1 ✅ wie vorgeschlagen:** `.de` UND `.com` Pflicht; weitere
 >   TLDs nur defensiv (MARKE3).
+>   **⭐ NACHTRAG 19.08.2026 (User-Entscheid, Dropdown der Leitsession,
+>   Wortlaut `sensibel/entscheide-2026-08-19-namensblock.md`): E-K1
+>   GELOCKERT — `.de` bleibt Pflicht, `.com` wird zur KÜR** („`.de`
+>   reicht zum Start; die `.com`-Lage wird je Name dokumentiert und
+>   später verfolgt"). Anlass: R19-C-Befund — unter der alten Fassung
+>   erfüllte kein Finalist K3 ohne Zukauf. **Rückwirkungs-Posten
+>   (K3-Kriterium geändert → Bestand prüfen):** Welche früher
+>   aussortierten Kandidaten (bes. Welle 5, „35/36 auf `.de` UND
+>   `.com` vergeben") fielen NUR an der `.com` bei freier `.de`? —
+>   nicht gemessen; fällig VOR jedem Rückgriff auf Alt-Wellen
+>   (Debrief-Posten R19).
 > - **E-K1b ✅ wie vorgeschlagen:** Handle-Prüfung vorläufig LinkedIn,
 >   Instagram, Facebook, YouTube; Rest nach Kanalmix-Entscheid.
 > - **E-K2 ✅ wie vorgeschlagen:** Englisch-Tauglichkeit bleibt

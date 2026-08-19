@@ -335,4 +335,25 @@ Rechtsrisiko) VOR der Namenswahl** — Bens Befund „unter E-K1 erfüllt
 kein Finalist K3 ohne Zukauf" macht sie zur ersten Entscheidung.
 Dropdown an den User in zwei Runden (Rahmen → Wahl).
 
+### Block 3 — Namensentscheid-Verlauf (~14:15–15:00 MESZ)
+
+**Ergebnis: KEIN finaler Name heute — engere Auswahl (6), Entscheid
+vertagt („sacken lassen").** Verlauf und Wortlaute:
+`sensibel/entscheide-2026-08-19-namensblock.md`; Nachtrags-Kette in der
+Entscheidungsvorlage. Kurzfassung: Runde 1 entschieden (E-K1 gelockert:
+`.com` Kür · K2-Risiko bewusst offen · K4 erst „Test jetzt", dann
+WIDERRUFEN = bewusster Verzicht). Runde 2: Wahl fiel auf **Innsight**;
+nach Klarstellung der K3-Lage (innsight.de vergeben) User-Schwenk auf
+die **Beiname-Route** (Zusatz konkretisiert Zweck). Sechs
+Schnellcheck-Läufe über 43 Kombinationen/Abwandlungen
+(`sensibel/rohbelege-R19-leit/beiname-lauf1–6`, Kontrollen je Lauf
+getroffen; auch innsights.de/inn-sight.de FREI gemessen, aber
+Klang-Identität zur Fremdmarke Inn:Sights ausgewiesen). **Engere
+Auswahl:** Innsight Hospitality · Hotelsysteme · Hotelsolutions ·
+Gastgewerbe · Hotelbetrieb · Hoteliers — alle `.de`+`.com` frei,
+Register-Identität 0. **Offen:** finaler Name (User) ·
+Front-Running-Frage 6×`.de` (User) · K2-Anwalts-Vorbehalt am Kern.
+⚠️ Frei-Befunde altern — je länger das Sacken, desto schwächer der
+19.08.-Messstand.
+
 ### Tagesende — Übergabe *(wird am Tagesende gefüllt)*

@@ -18,6 +18,31 @@
 > Anwalts-Markenrecherche) · **Punkt 5: Diktat-Test JETZT, vor der
 > Wahl** (läuft als User-Handgriff). Punkte 3/4/6 folgen als Runde 2
 > nach dem Test. Der Vorlagen-Text unten bleibt unverändert.
+>
+> ✅ **NACHTRAG ~14:30 MESZ — Punkt 5 WIDERRUFEN** (User, Chat: „das
+> mit dem Diktat lassen wir das ist überflüssig"): **bewusster
+> VERZICHT auf K4** — das K.-o.-Kriterium bleibt dauerhaft offen und
+> steht als sichtbarer Vorbehalt am gewählten Namen (neben dem
+> K2-Vorbehalt aus Punkt 2). Runde 2 (Namenswahl) folgt sofort.
+>
+> ⏸️ **NACHTRAG ~15:00 MESZ — Runde 2 ZWISCHENSTAND, Entscheid VERTAGT
+> („erst sacken lassen", User, Chat).** Verlauf: Dropdown-Wahl fiel
+> zunächst auf **Innsight** (Kern); auf die Leitsessions-Klarstellung
+> (innsight.de vergeben, Domain nur per Halter-Anfrage; K2 bei
+> Innsight am schwersten) schlug der User Abwandlungen vor →
+> **Beiname-Route** (User-Idee: Zusatz konkretisiert den Zweck).
+> Sechs Schnellcheck-Läufe (43 Kombinationen + Abwandlungen gemessen,
+> Rohbelege `sensibel/rohbelege-R19-leit/beiname-lauf1–6`, Kontrollen
+> je Lauf getroffen). **Engere Auswahl des Users (6, alle `.de` UND
+> `.com` frei, Register-Identität 0):** Innsight Hospitality ·
+> Innsight Hotelsysteme · Innsight Hotelsolutions · Innsight
+> Gastgewerbe · Innsight Hotelbetrieb · Innsight Hoteliers.
+> **Für alle sechs gilt:** K2-Anwalts-Vorbehalt am Kern „Innsight"
+> (Inn:Sights Kl. 42 · INNOSIGHT · US-Namensvetter INNsight.com) ·
+> K4-Verzicht (oben) · Messwerte differenzieren nicht mehr,
+> Trennfrage ist die Sprachschiene. ⚠️ Die Frei-Befunde sind
+> Negative vom 19.08. und ALTERN — Front-Running-Frage (Sicherung
+> der sechs `.de` als Paket) beim User.
 
 ## Kopfblock
 

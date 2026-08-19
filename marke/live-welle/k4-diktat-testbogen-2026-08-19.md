@@ -47,8 +47,20 @@ Tests — sie stehen hier, damit beim Auswerten die richtigen Falschformen
 auffallen:
 
 - **Wisestay** — erwartbare Falschformen: „Wise Stay" (getrennt),
-  „Weisstay", „Wisestey". Registerseitig sind alle drei Varianten heute
-  ohne DE/EU-Treffer gemessen (Varianten-Lauf R19-C, TMview 0/0/0).
+  „Weisstay", „Wisestey".
+  > ⭐ **REPARATUR 19.08.2026 (Prüferbefund P-01, schwer).** Hier stand:
+  > „Registerseitig sind alle drei Varianten heute ohne DE/EU-Treffer
+  > gemessen (Varianten-Lauf R19-C, TMview 0/0/0)." **Das war falsch und
+  > eine Entwarnung an genau der empfindlichsten Stelle:** Die 0/0/0
+  > gehören zu den phonetischen Varianten Weisstay/Wisestey/Wysestay.
+  > Die getrennte Form **„Wise Stay" lief in einem anderen Lauf** und
+  > liefert 24 TMview-Treffer — darunter die **eingetragene Unionsmarke
+  > STAYWISE (EM 019310904, Klasse 42, Björndal, Per)**. Richtig ist:
+  > phonetische Varianten registerseitig ohne DE/EU-Treffer; die
+  > getrennte Schreibweise trifft im DE/EU-Raum genau ein lebendes
+  > Zeichen, und das liegt in unserer Kernklasse.
+  Schreibt eine Testperson „Wise Stay", ist das deshalb nicht nur ein
+  Schreibfehler, sondern ein Befund für K2.
 - **Innsight** — ⚠️ **die kritische Achse**: Der Name ist gesprochen kaum
   von **„Insight"** zu unterscheiden (ein gesprochenes n). Erwartbare
   Falschform ist genau „Insight", und das ist mehr als ein Schreibfehler:

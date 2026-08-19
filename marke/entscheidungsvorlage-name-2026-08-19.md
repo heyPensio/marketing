@@ -43,6 +43,12 @@
 > Trennfrage ist die Sprachschiene. ⚠️ Die Frei-Befunde sind
 > Negative vom 19.08. und ALTERN — Front-Running-Frage (Sicherung
 > der sechs `.de` als Paket) beim User.
+> ✅ **NACHTRAG ~15:10 MESZ: Front-Running ABGELEHNT** (User,
+> Dropdown: „Nein, Risiko tragen") — **keine** Registrierung vor dem
+> Namensentscheid; das Risiko, dass einzelne der sechs `.de` bis zum
+> Entscheid vergeben werden, ist ein **bewusst getragenes Risiko**
+> (Frei-Befund-Stand: 19.08.2026, ~11:46–11:58 UTC, RDAP). Vor dem
+> finalen Entscheid ist eine NEUMESSUNG der sechs Pflicht.
 
 ## Kopfblock
 

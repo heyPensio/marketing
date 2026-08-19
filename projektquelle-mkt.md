@@ -859,6 +859,17 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
    VOR dem ersten Versand · Preismodell (HANDEL1, sperrt Terminpfad ab
    ~23.10.) · kritischer Pfad Namensentscheid (Postkorb-Eskalation
    läuft) · Kanalmix-Festzurrung erst nach FUND2-Persona-Befund.**
+   **⭐ NEU 19.08. (Postkorb Zentrale, Transkript-Beleg
+   `zentrale\sensibel\transkript-baumann-sprachnachricht-2026-08-19.md`):
+   ProVision (Baumann) als Kandidat REFERRAL-/VERTRIEBSKANAL in die
+   Kernzielgruppe** — er will Hotels/Serviced Apartments jetzt MIT uns
+   angehen (bisher „fehlte genau diese Connection"); Bestandskontakt,
+   braucht weder Kaltakquise-Rechtslage noch Firmierung; erwartet
+   offenes Win-win-Arrangement → Konditionen über den bestehenden
+   **F-5-Posten** regeln. Bei der nächsten Kanalmix-/HANDEL-Arbeit
+   neben Brief/Vorkontakt/Verbände aufnehmen. (Meldung eingearbeitet
+   und gelöscht, Transportbehälter — erster Lauf des neuen
+   `eingang\`-Kanals.)
    **→ STAND 12.08.2026 (R9): O-8 ist ERLEDIGT**
    (`akquise/interessenabwaegung-o8.md`, Prüfer 24/24 disponiert), **O-2
    ist entschieden** (E14/E14b: 12 Monate + Lead-Verfall-Verbot).

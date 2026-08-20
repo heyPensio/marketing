@@ -51,6 +51,30 @@ Namensentscheid.** Vorschlag der Zentrale (Disposition liegt bei Euch):
   Lehre „Machbarkeits-Testprobe vor generativer Asset-Serie"
   hinterlegt — verwandtes Territorium, ggf. später zusammenführen.
 
+## ⭐ Nachtrag 20.08. ~18:40 MESZ (User-Zuruf, „sehr sehr wichtig für uns"): Referenz-Plattformen Savee + Refero
+
+Der User ergänzt aus dem Video zwei Quellen, die der schriftliche
+Bericht unterschlägt (Savee nur ein Halbsatz, Refero fehlt ganz) —
+**Belegstufe: User-Nennung aus dem Video, von der Zentrale nicht
+selbst gesichtet:**
+
+- **savee.it** — kuratierte visuelle Inspirations-/Moodboard-Plattform
+  (Grafik, Typo, Layouts; Sammlungen/Boards).
+- **refero.design** — Bibliothek ECHTER Web-/App-Designs (Screenshots
+  realer Produkte, durchsuchbar nach Seitentyp/Pattern/Flow).
+
+**Rolle in der Methode:** Das ist Schritt 1 der Kette — die VORLAGE.
+Statt Claude „etwas Schönes" entwerfen zu lassen, wird auf diesen
+Plattformen eine starke Referenz ausgewählt, deren Design-DNA dann
+gemessen/kodifiziert wird (Abschnitt oben) und per Rebuild-Test
+validiert. Die Qualität des Endergebnisses hängt damit an der
+Referenz-Auswahl, nicht am Prompt-Glück. **Der User stuft diese
+Referenz-Arbeit als „sehr sehr wichtig für uns" ein** — bitte bei der
+CI-Arbeit als festen ersten Schritt einplanen (Referenz-Auswahl dem
+User als Dropdown/Canvas vorlegen, BEVOR kodifiziert wird); gilt
+sinngemäß auch für künftige Website-Gestaltung (MKT-WEB) und ist als
+Hinweis für heyPensio-Designarbeit mitzudenken.
+
 **Kein Zug vor dem Namensentscheid nötig** — der Rohstoff wartet hier,
 bis MKT-MARKE ansteht.
 

@@ -78,4 +78,15 @@ Hinweis für heyPensio-Designarbeit mitzudenken.
 **Kein Zug vor dem Namensentscheid nötig** — der Rohstoff wartet hier,
 bis MKT-MARKE ansteht.
 
+**Nachtrag ~19:00 MESZ — die Methode ist bereits GEBAUT:** Im Gerüst
+liegt seit `a481483` der neue Ordner-Baustein
+`vorlage/bausteine/design-dna/` (User-Auftrag 20.08. abends):
+SKILL-Dispatcher mit Referenz-Auswahl-Gate (savee/refero, User-Wahl
+vor Kodifizierung) · DNA-Datei-Schema mit Rebuild-Test ·
+20-Slide-/20-Web-Regelwerke (MIT-Kopien, Jack Roberts) ·
+Kritiker-Loop · deutsches Anti-Slop-Copy-Modul. Für die CI-Arbeit
+also nicht neu erfinden, sondern Baustein aktivieren (Ordner nach
+`.claude/skills/design-dna/`) und anwenden; Lehren daraus über
+learnings.md/Debrief zurück ins Gerüst.
+
 *(Transportbehälter — nach Einarbeitung MIT der Anlage löschen.)*

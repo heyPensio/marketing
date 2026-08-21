@@ -1,0 +1,25 @@
+# Welle 10 (21.08.2026): hey + KUNSTWORT in der Bauform von "Pensio".
+# Diagnose (User: "klingt alles scheisse" zu Welle 8/9): Der Fehler war "hey + Alltagswort"
+# (heyEmpfang, heyRuhe) - das klingt nach Slogan. "Pensio" ist KEIN Wort, sondern eine
+# latinisierte Verkuerzung von "Pension". Diese Bauform wird hier erstmals gemessen:
+# romanisch/lateinischer Beherbergungs-Wortstamm, auf 2 Silben verkuerzt, vokalischer Auslaut.
+heyAtrio
+heyDomio
+heyNido
+heyMansio
+heyPortio
+heyLogio
+heyBergo
+heyPosa
+heyStanzo
+heyVenta
+heySedio
+heyHospa
+heyLumo
+heyAula
+heyQuarto
+heyCasan
+heyLocan
+heyTerio
+heySalvo
+heyOtio

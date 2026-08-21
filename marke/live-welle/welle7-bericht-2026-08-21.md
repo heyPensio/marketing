@@ -177,3 +177,69 @@ Handelsregister · Branchenverzeichnis-/Namensvetter-Suche (W9) ·
 Handles · EN-Check (K6). **Zusätzlich neu zu prüfen, weil der Vorsatz
 bleibt:** die Marken-/Namenslage zum Vorsatz „hey" selbst in Verbindung
 mit Beherbergung — das war in keiner Welle Gegenstand.
+
+---
+
+# Welle 10–12 — Die Kunstwort-Bauform (21.08.2026, abends)
+
+## ⭐⭐ Der methodische Kernbefund des Tages
+
+**User zu Welle 8/9: „klingt alles scheisse."** Diagnose der Leitsession
+daraufhin: Alle Vorschläge waren **„hey" + deutsches Alltagswort**
+(heyEmpfang, heyRuhe, heyPuls) — das klingt nach Slogan, nicht nach
+Marke. **„Pensio" ist KEIN Wort:** es ist eine Verkürzung von „Pension"
+nach dem Muster *-ion → -io*. Diese Bauform wurde in zehn Wellen nie
+gemessen.
+
+**Bestätigung durch die Messung (Welle 10, 20 Kandidaten):** In der
+Kunstwort-Bauform hatten **14 von 20 beide Domains frei** — gegenüber
+**3 von 75** in den Alltagswort-Schienen (Welle 7). Die Bauform ist der
+Unterschied, nicht der Fleiß.
+
+## ⭐ Die zweite Lehre: der KERN wird separat geprüft
+
+Ausgelöst durch den User-Vorschlag **heyHoGa**: Gesamtzeichen frei
+(`.de`+`.com`, DPMA 0, EUIPO 0) — **aber der Kern „HoGa" trägt 83
+DPMA- und 285 EUIPO-Marken (62 in den Kernklassen)**, ist beschreibend
+(§ 8 MarkenG) und kollidiert mit **DEHOGA (42 Marken)**, das in der
+Projektquelle als Akquise-Kanal geführt wird. Seither wird jeder
+Kandidat **zweistufig** geprüft: Gesamtzeichen UND Kern.
+
+**Was die Kernprüfung zutage förderte** (EUIPO-Zahlen sind
+CONTAINS-Treffer; „EXAKT" = am Rohbeleg ausgezählte Identitäts-Marken):
+
+| Kern | EUIPO gesamt | EXAKT | Klassen der Identitäts-Marken |
+|---|---|---|---|
+| **Pensio** (Bestand!) | 338 | **0** | — alles Rauschen („Pension", „Suspension") |
+| Logio | 30 | **1** | **35, 38, 42** — Wortmarke `LOGIO`, Kl. 42 = Software |
+| Mansio | 119 | — | 72 in Kernklassen |
+| Quarto | 22 | — | 129 DPMA-Marken |
+| Logia · Loggia · Loga · Domio · Posa · Otio · Bergo · Casan | 15–3877 | 1–3 je | fast alle mit Kl. 9 oder 42 |
+| Locatio · Gestio · Curio · Optio · Sessio · Servio | 13–421 | teils | belegt |
+| **Hospitio** | **0** | **0** | — **glatte Null auf beiden Registern** |
+| Receptio | 19 | **0** | — |
+| Habitatio | 16 | **0** | — |
+
+⭐ **Kernaussage:** Praktisch **jeder aussprechbare romanische
+Kurz-Kern ist als Marke belegt.** Frei sind nur Kerne, die es als Wort
+nicht gibt — Verkürzungen im Pensio-Muster. Das erklärt rückwirkend,
+warum `heyPensio` markenrechtlich sauber dasteht und warum zehn Wellen
+Wortsuche scheitern mussten.
+
+## Ergebnis: die Kandidaten mit freiem Gesamtzeichen UND freiem Kern
+
+| Kandidat | Kern-Bedeutung (lat.) | Zeichen | Melodie |
+|---|---|---|---|
+| **heyHospio** | zu *hospitium* — Gastfreundschaft, Herberge | **9** | hey-HOS-pio — **identisch mit hey-PEN-sio** |
+| **heyHospitio** | *hospitium* vollständig | 11 | hey-hos-PI-tio |
+| **heyHospita** | *hospita* — die Gastgeberin | 10 | hey-hos-PI-ta |
+| **heyReceptio** | *receptio* — Aufnahme, Empfang | 11 | hey-re-CEP-tio |
+| **heyHabitatio** | *habitatio* — das Wohnen | 12 | hey-ha-bi-TA-tio |
+
+Alle fünf: `.de` + `.com` frei, DPMA 0, EUIPO 0 (Gesamtzeichen), Kern
+ohne Identitäts-Marke.
+
+⚠️ **Geltungsgrenze unverändert:** vier Kanäle gemessen. Offen für ALLE:
+TMview-Vollerhebung/Ähnlichkeitsraum · Handelsregister ·
+Branchenverzeichnis-/Namensvetter-Suche (W9) · Handles · EN-Check (K6)
+· die Marken-/Namenslage zum Vorsatz „hey" selbst.

@@ -99,6 +99,27 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   kein Negativ; auch Kontextfenster-Muster (`.{40}X.{40}`) verfehlen
   kurze Zeilen, und Teilwort-Treffer („ust" in „Lust") sind vor der
   Wertung am Kontext aufzulösen.
+- **⭐ Der HTTP-Status gehört je Abruf in den Rohbeleg — ein LEERER
+  Rohbeleg trägt kein Negativ** (Herkunft: MKT R20): Bei Abfragen, deren
+  Negativ-Antwort ein leerer Body ist (RDAP 404 u. a.), entstehen
+  **0-Byte-Belegdateien** — am Rohbeleg nicht von einem Fehlabruf oder
+  Kanalausfall zu unterscheiden; die Frei-Aussage ist dann nicht
+  unabhängig nachvollziehbar (vom Prüfer gefangen). Pflichtform: je Lauf
+  eine `status.txt` mit Datei · HTTP-Code · Bytezahl · URL. Schwesterfall
+  zur Regel „eine abgeschnittene Werkzeugausgabe trägt kein Negativ" —
+  hier die Variante *leere* Ausgabe.
+- **⭐ Vorfilter statt Massenlauf bei mehrkanaligen Erhebungen**
+  (Herkunft: MKT R20, Zweitbeleg zur Rate-Limit-Regel): Erst den
+  BILLIGSTEN K.-o.-Kanal über die volle Kandidatenmenge laufen lassen,
+  die teuren Kanäle nur über die Überlebenden — im Belegfall 158 statt
+  300 Abrufe bei identischem Ergebnis, und der Lauf blieb unter der
+  Schwelle, ab der der Kanal in der Vorrunde gekippt war.
+- **⭐ Der eigene BESTAND ist der fehlende Vergleichsmaßstab**
+  (Herkunft: MKT R20): Erhebungszahlen ohne natürliche Skala sind
+  unlesbar („30" vs. „119" sagt nichts). Ein bereits im Einsatz
+  befindliches, bewährtes Objekt im SELBEN Lauf mitmessen — im Belegfall
+  drehte der Bestandsvergleich das Urteil um: die niedrigere Zahl war
+  die schlechtere Lage.
 - **⭐ Eine Preisseite ohne Preiswerte ist zuerst ein NACHLADE-Befund,
   kein Negativ:** Der Textabzug kann vollständig aussehen, während die
   Werte clientseitig aus einer Datenquelle kommen (Web-Komponente ohne

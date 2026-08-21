@@ -179,3 +179,27 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
   Längenausgabe `user=0`). Nach jeder Substitution Exit-Code UND
   Nicht-Leere prüfen, bevor der Wert irgendwo landet. (Herkunft:
   heyPensio R49-C, zweifach.)
+
+## Mess-Skript-Fallen (Nachzug R53, Herkunft: heyPensio R53-J/-F/-I/-D)
+
+- **⭐ Ein HTTP-Fehlerstatus, der durch eine Auswertelogik läuft, wird
+  zum Messwert:** Ein 404 auf geratenem Pfad wurde von einem
+  Leere-Menge-Fallback zu „0 Treffer" — die Zahl bestätigte genau die
+  Erwartung und fiel nur über einen Zweitkanal auf (real: 10).
+  Mess-GETs werfen bei Status ab 400, glätten NIE zu leeren Mengen;
+  eine 0 aus einem Fehlerpfad sieht aus wie ein Befund.
+- **⭐ Unsichtbare-Zeichen-Zählung nur über CODEPOINTS, nie über
+  Bytes:** `grep -P` auf das A0-Byte meldet NBSP in Emoji (⚠ = E2 9A
+  A0, 🟠 = F0 9F 9F A0) — 21 falsche Treffer in einem sauberen
+  Dokument. Belastbar ist die Codepoint-Prüfung in Node (Regex auf
+  U+00A0/U+00AD/U+200B am String), mit Positivkontrolle (Umlaut- und
+  Emoji-Zählung im selben Lauf). Ein Fehlalarm-Generator wird
+  abgeschaltet — dann fehlt die Prüfung im Ernstfall.
+- **`process.exit()` aus einem async-Zweig endet unter Windows mit
+  Exit 127** statt des gesetzten Codes (Ausgabe bleibt korrekt) — wer
+  den Exit-Code auswertet, misst das Artefakt; Exit-Codes nur aus
+  synchronem Abschluss setzen oder die Ausgabe als Beleg nehmen.
+- **Die Bash-Umlautprobe zählt BYTES, nicht Zeichen** (603 vs. Node
+  284 am selben Text): Für Vorher/Nachher-SUMMENPROBEN tauglich (der
+  Fehler ist linear), als Absolutzahl nicht zitierfähig — Zählweg an
+  die Zahl.

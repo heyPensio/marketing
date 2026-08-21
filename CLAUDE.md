@@ -3,8 +3,9 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`2061054`** (R20-Nachzug 21.08.: 11 Deltas,
-> Wächter 12/0; ⚠️ Ordner-Bausteine misst er nicht).
+> 2026-08-09; Stand **`935dc70`** (R20 21.08.: 11 Deltas + 1 fremdes
+> Nach-Delta [heyPensio R53] + eigener Rückfluss; Wächter 12/0;
+> ⚠️ Ordner-Bausteine misst er nicht).
 > Historie: `geruest-nachzug-protokoll.md` (G5); Nachzug:
 > `/projekt-init nachzug`.
 
@@ -712,43 +713,44 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Bekanntes kennt, ist eine Positivliste in Verkleidung; eine
   SCHUTZ-Config ist erst nach AUSSEN-Messung „aktiv" (Beleg ist die
   Wirkung von außen, nie die Config-Existenz). **Und ein Prüfwerkzeug
-  kann Entwarnung über eine Datei geben, die es nie gelesen hat** — wenn
-  es den frisch ERZEUGTEN Text prüft statt der GESCHRIEBENEN Datei; bei
+  kann Entwarnung über eine Datei geben, die es nie gelesen hat** — bei
   jedem Wächter fragen, WELCHEN Text er liest, welchen NICHT — und
-  welchen Text der ABLAUF schreibt, den er absichern soll (Fix nur mit
-  Rückbau-Gegenprobe glauben; V17-8). Positivkontrollen über einen
+  welchen Text der ABLAUF schreibt, den er absichern soll (V17-8). Positivkontrollen über einen
   ANDEREN Kanal (Quelle statt Zieldokument) decken die Blindstelle zu —
   **ein Selbsttest, der denselben Extraktionspfad nutzt, ERBT dessen
   Blindstellen** (L-21). **⭐ Teuerste Form: Der Wächter misst einen
   EXISTIERENDEN, PLAUSIBLEN, für den Betriebsweg aber FALSCHEN Stand**
-  (Commit-Hook las den git-INDEX, die vorgeschriebene Commit-Form
-  schreibt den ARBEITSBAUM-Stand). **Vor der Abnahme eines Wächters den
+  (Hook las den git-INDEX statt des ARBEITSBAUM-Stands, den die
+  vorgeschriebene Commit-Form schreibt). **Vor der Abnahme eines Wächters den
   abzusichernden Ablauf Schritt für Schritt gegen seinen Messpunkt
   halten; gibt es zwei mögliche Stände, den schärferen nehmen** — und
   **eine fremde Grenzenliste wird VOLLZÄHLIG abgearbeitet, n von n, nie
-  in Auswahl** (sie ist beim Verdichten so vorbehalts-anfällig wie eine
-  Messung; V17-9).
+  in Auswahl** (V17-9).
   **⭐ Ein Prüfling, der zugleich im BELEG-POOL liegt, bestätigt sich
   selbst** — Reichweiten-Erweiterung durch Anhängen an beide Listen macht
   den Kanal **grün und blind**; der Vergleich braucht den Selbstausschluss
-  je Zieldatei (R15, Register). **⭐ Eine Wächter-Entwarnung über
-  die EIGENE Arbeit setzt die Lektüre seiner Prüfmengen-Konstanten
-  (ZIEL/POOL) voraus; das Lauf-Delta wird je Datei zugeordnet, nie
-  pauschal der eigenen Arbeit zugeschrieben** (fremde Parallel-Arbeit
-  kann es vollständig erklären). **Im Parallelbetrieb misst ein
+  je Zieldatei (R15). **⭐ Eine Wächter-Entwarnung über die EIGENE
+  Arbeit setzt die Lektüre seiner Prüfmengen-Konstanten (ZIEL/POOL)
+  voraus; das Lauf-Delta wird je Datei zugeordnet, nie pauschal der
+  eigenen Arbeit zugeschrieben** (fremde Parallel-Arbeit kann es
+  erklären). **Im Parallelbetrieb misst ein
   Arbeitsbaum-Lauf einen WANDERNDEN Stand — der Doppel-Messstand-Vertrag
   gilt auch für Werkzeugläufe** (L-40).
 - **Ein Test, der nichts verändert, prüft nichts** — Testaufbauten brauchen
   ihre eigene Positivkontrolle. **⭐ Auch die RÜCKBAU-Gegenprobe braucht
-  sie, und zwar als ZÄHLUNG: „gesetzt: n von m"** (Beleg: 3 von 4
-  still gesetzt; Sammelvermerk R9) — **und ihr MESSKRITERIUM kann
-  selbst ein Anwesenheits-Kriterium sein** (Sollzustand tritt ohne die
-  Wirkung von selbst ein; Prüffrage je Kriterium — heyPensio R49-E). **Eine grüne Testzahl belegt nichts — nur
-  die Rückbau-Gegenprobe belegt, dass die Tests den Fund fangen** (Fix in
-  Wegwerf-Kopie zurückdrehen, prüfen ob die Suite es merkt). **Und ein
-  Selbsttest, der die zu prüfende ZUSAMMENSETZUNG selbst nachbaut, prüft
-  sie nicht: Test und Produktivpfad müssen DIESELBE Funktion aufrufen.**
-  (Herkunft: heyPensio R33.)
+  sie, als ZÄHLUNG „gesetzt: n von m"** (Sammelvermerk R9) — **und ihr
+  MESSKRITERIUM kann selbst ein Anwesenheits-Kriterium sein**
+  (heyPensio R49-E).
+  **⭐ Und sie ist erst belegt, wenn der ZIELZUSTAND eintrat und der Lauf
+  durchlief** (sonst: grün trotz Defekt) — der künstliche Defekt ist der
+  VOLLSTÄNDIGE Rückbau, wer Fix UND Wächter zugleich baut prüft auch
+  OHNE den Wächter, und die Messbedingung gehört als eigenes Kriterium
+  IN den Lauf (V20-7). **Eine grüne Testzahl belegt
+  nichts — nur die Rückbau-Gegenprobe belegt, dass die Tests den Fund
+  fangen** (Fix in Wegwerf-Kopie zurückdrehen, prüfen ob die Suite es
+  merkt). **Und ein Selbsttest, der die zu prüfende ZUSAMMENSETZUNG
+  selbst nachbaut, prüft sie nicht: Test und Produktivpfad müssen
+  DIESELBE Funktion aufrufen.** (heyPensio R33.)
 - **⭐ Ein Drift-Check vergleicht ERZEUGTES gegen ERZEUGTES und ist gegen
   ERZEUGUNGS-Fehler blind — jede Generator-Kette braucht zusätzlich eine
   Prüfung des ERGEBNISSES** (V19-2). Pflichtform: eine Syntax-/

@@ -3355,3 +3355,24 @@ Option „Erst neue Namen finden" mit dem sichtbaren Hinweis „Entscheid
 heute unwahrscheinlich". Die Leitsession hat den Widerspruch benannt,
 die Wahl vollzogen und beides im Bericht dokumentiert — statt eine der
 beiden Aussagen still zu bevorzugen.
+
+**V20-7 — Nachzug aus fremdem Blueprint-Delta (heyPensio R53), am
+21.08. im R20-Debrief hereingekommen:** Die **Rückbau-Gegenprobe ist
+erst belegt, wenn der ZIELZUSTAND nachweislich eintrat und der Lauf
+durchlief.** Ein gepflanzter Defekt, dessen Messung den zu prüfenden
+Zustand nie herstellt, lässt den Wächter **grün trotz Defekt**. Drei
+operative Folgen: (1) der künstliche Defekt muss der **VOLLSTÄNDIGE**
+Rückbau sein — Teil-Defekte werden über NACHBAR-Wirkungen rot und
+täuschen eine funktionierende Probe vor; (2) wer Fix UND Wächter im
+selben Zug baut, fährt eine Gegenprobe **auch OHNE** den Wächter (sonst
+beglaubigt der höhere Riegel eine ungeprüfte Fixture); (3) die
+Messbedingung „Zielzustand hergestellt / Lauf durchgelaufen" gehört als
+**eigenes Kriterium IN den Lauf**. (Herkunft: heyPensio R53, dort
+dreifach in einer Runde belegt.)
+
+**Verfahrensbefund zum Nachzug selbst:** Dieses Delta kam **zwischen
+Debrief-Beginn und eigenem Rückfluss** herein und wäre von der
+Anfangsmessung nicht erfasst worden — die Pflicht-Neumessung der
+Delta-Liste VOR dem Stempelsetzen hat es gefangen. Ein Stempel auf den
+eigenen Rückfluss-Commit hätte behauptet, auch dieser fremde Vorfahr
+sei disponiert. Zweitbeleg zur Regel aus MKT R43.

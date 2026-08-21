@@ -359,3 +359,32 @@ sauber, 0 eingehend). Disposition dem User vorgelegt, Freigabe
   (`c1251c5`, eingang/-Postkorb) besteht hier seit 19.08.
 - Stempel im CLAUDE.md-Kopf im SELBEN Commit auf `2061054` gesetzt;
   Kopf dabei gestrafft (Detail-Historie nur noch hier).
+
+### Nachtrag R20-Debrief, 21.08.2026 abends (Stempel `2061054` → `935dc70`)
+
+**Eigener Rückfluss `935dc70`** (4 Changelog-Einträge, Selbstcheck OK):
+L-53 Bestandteile-Prüfung + L-54 Bauform-Diagnose + ERFÜLLEN-Gegen-
+richtung (alle `vorlage/CLAUDE-vorlage.md`) · 3 Erhebungs-Werkzeugregeln
+(`vorlage/bausteine/quellen-beschaffung.md`).
+
+⚠️ **Die Pflicht-NEUMESSUNG vor dem Stempel hat ein fremdes Delta
+gefangen:** `ac6cc47` (heyPensio-R53-Rückfluss) kam ZWISCHEN
+Debrief-Beginn und eigenem Rückfluss herein. Ein Stempel auf den
+eigenen Commit hätte behauptet, auch dieser Vorfahr sei disponiert.
+**Vollzug im selben Zug:** Kopie `rules/windows-powershell.md` gezogen
+(Mess-Skript-Fallen) · CLAUDE.md-Kern „Rückbau-Gegenprobe erst belegt
+bei eingetretenem ZIELZUSTAND" eingearbeitet, Register-Deckung V20-7
+zuerst geschrieben · Kopie `rules/quellen-beschaffung.md` mit dem
+eigenen Rückfluss nachgezogen. **Wächter danach SYNCHRON 12/0.**
+
+**Budget-Bilanz des Debriefs:** 79.950 → **79.946 B** (netto −4 B bei
++4 neuen Kernen; Kompensation 15 Kürzungen, ausschließlich
+Fallgeschichten mit Register-Deckung, Register +9.120 B). Umlaute
+893 → 895, Mojibake-Marker 0.
+
+⚠️ **Nebenbefund (Werkzeugfalle):** Ein `node -e`-Aufruf mit
+mehrzeiligem Array im Bash-Kanal ließ die Shell zwei Markdown-Pfade als
+Kommandos expandieren und legte im projektgeruest zwei **leere**
+Müll-Dateien an (`am`, `**Gerüst-Stand:**`) — gefunden durch den
+`git status` nach dem Skriptlauf, beide entfernt, Zieldateien
+unbeschädigt (nur Einfügungen, 0 Löschungen).

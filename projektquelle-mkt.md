@@ -175,6 +175,30 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Fertig: alles registriert VOR jeder öffentlichen Nennung.
 - **MARKE4** Logo + CI-Guide v1 (Farben, Typo, Bildsprache; Logo-Rechte/
   Quelldateien im Repo). Fertig: CI-Guide verabschiedet.
+  **Methodik-Stand 21.08.2026 (Zentrale-Postkorb 20.08., eingearbeitet
+  R20):** Der CI-Bau läuft nach der **Design-DNA-Methode** (Jack
+  Roberts; Belegstufe: ausführlicher Bericht vom User geliefert, Video
+  von der Zentrale nicht gesichtet — Gerüst-Lehre `2456ebf`: ein
+  Bericht ist kein Wortprotokoll, beim Kodifizieren die Originale unter
+  `references/` nutzen, nicht den Bericht): Ästhetik wird in MESSBARE
+  Regeln kodifiziert („Measure, don't describe" — CI-DNA-Datei), mit
+  **Rebuild-Test als Abnahme-Kriterium** und Kritiker-Subagenten-Loop
+  (strukturell unser Prüfer-Muster, auf Design angewandt).
+  **Pflicht-Schritt 1 VOR jeder Kodifizierung: Referenz-Auswahl auf
+  savee.it / refero.design, dem User per Dropdown/Canvas zur Wahl
+  vorgelegt** (User-Zuruf 20.08., „sehr sehr wichtig für uns"; gilt
+  sinngemäß auch für MKT-WEB). **Werkzeuglage:** Skill-Baustein
+  aktiviert 21.08. (`.claude/skills/design-dna/`, 14 Dateien
+  byte-gleich aus Gerüst-Stand `268465b`, diff -rq 0 Abweichungen —
+  ⚠️ Ordner-Bausteine misst der Kopien-Wächter nicht, bekannte
+  Grenze) · **Refero-Abo aktiv seit 21.08.** (Abo-Bestätigung 12:13
+  MESZ, Briefing § 5; Kostenhöhe offen, Nachtrag = Zentrale-Posten) ·
+  Refero-MCP-Connector und higgsfield-Skills (inkl. Brandkit) in den
+  Claude-Code-Sessions verfügbar (am eigenen Tool-Pool belegt 21.08.).
+  Querverbindung: heyPensio produziert bereits generative Assets;
+  Gerüst-Lehre `7bc627d` „Machbarkeits-Testprobe vor generativer
+  Asset-Serie" gilt auch hier. **Kein Zug vor dem Namensentscheid** —
+  die Methode wartet auf MARKE4-Start.
   ⚠️ **Everlast-Fenster gilt bis PROGRAMM-ENDE ~März 2027, nicht nur
   bis 18.09.2026** (Leitsession-Übernahme 09.08.2026 aus R03-C):
   § 11 (1) erfasst „in der Zusammenarbeit entstehende Logos, Content
@@ -456,7 +480,7 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
 | Social-Plattformen | Profile (nach FUND2) | Anlage = User-Klick; Betrieb tbd | ja |
 | Newsletter-Tool | tbd (Auswahl in AKQ3) | tbd | ja |
 | Marketing-n8n | Automatisierungen (nach OPS5) | tbd — NICHT die Pilot-Produktiv-Instanz | ja |
-| Design-Werkzeug | Canva vorhanden; AI-native Alternativen werden in MARKE4 evaluiert (Canva-KI vom User als unzureichend bewertet); vieles entsteht direkt im Repo (SVG/HTML) | User-Account | nein |
+| Design-Werkzeug | Canva vorhanden; AI-native Alternativen werden in MARKE4 evaluiert (Canva-KI vom User als unzureichend bewertet); vieles entsteht direkt im Repo (SVG/HTML). **Seit 21.08.: Refero-Abo aktiv** (Referenz-Bibliothek für Design-DNA-Schritt 1, s. MARKE4; MCP-Connector in den Sessions verfügbar; Kostenhöhe offen → Zentrale-Kostenregister); savee.it als zweite Referenz-Plattform (kein Konto-Stand hier erhoben) | User-Account | nein |
 
 *(Keine Klartext-Secrets — nur wo der Zugang LIEGT. Zugänge/2FA:
 OPS4-Register in `sensibel/`.)*
@@ -1250,6 +1274,20 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
 ---
 
 ## CHANGELOG
+
+- 21.08.2026 (**R20 Block 2, Leitsession Shanks — Postkorb-Eingang
+  Design-DNA eingearbeitet**): Zentrale-Meldung 20.08. (+ Anlage
+  Jack-Roberts-Bericht, + 2 Nachträge savee/refero und
+  Baustein-Existenz) → **MARKE4 trägt jetzt den Methodik-Stand**
+  (Design-DNA-Methode mit Rebuild-Test, Referenz-Gate savee/refero als
+  Pflicht-Schritt 1 [User: „sehr sehr wichtig"], Werkzeuglage
+  Refero-Abo 21.08. + Skill-Baustein aktiviert
+  `.claude/skills/design-dna/` 14 Dateien byte-gleich) · § 3
+  Design-Werkzeug-Zeile um Refero/savee ergänzt · beide
+  Postkorb-Dateien im selben Commit gelöscht (Transportbehälter).
+  Kein Zug vor dem Namensentscheid — Rohbeleg-Gegenprobe der
+  Meldungs-Kernfakten am Objekt (Gerüst-Log `a481483`/`268465b`,
+  Ordner-Kopie diff -rq, eigener Tool-Pool, Briefing § 5).
 
 - 18.–19.08.2026 (**R19-Debrief 19.08. nachmittags — Namensrunde über
   zwei Tage: R19-A/Ben Beckman + R19-B/Codex-Phase-0 + Leitsessions-

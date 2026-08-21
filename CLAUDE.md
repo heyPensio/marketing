@@ -3,11 +3,10 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`2061054`** (R20-Nachzug 21.08.2026: 11 Deltas
-> [5 Kopien, Wächter 12/0; design-dna aktiviert]; ⚠️ Ordner-Bausteine
-> misst der Wächter nicht; Budget-Marken 80.000/85.000/90.000 B).
-> Historie: `geruest-nachzug-protokoll.md` (Transit-Verbot G5);
-> Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
+> 2026-08-09; Stand **`2061054`** (R20-Nachzug 21.08.: 11 Deltas,
+> Wächter 12/0; ⚠️ Ordner-Bausteine misst er nicht).
+> Historie: `geruest-nachzug-protokoll.md` (G5); Nachzug:
+> `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
 
@@ -36,11 +35,10 @@ und `<FIRMENWURZEL>\zentrale` (Firmen-Ebene, siehe Abschnitt
 „Firmen-Ebene"). `<FIRMENWURZEL>` = Elternordner der eigenen
 Repo-Wurzel (`git rev-parse --show-toplevel`) — fail-closed: fehlt das
 referenzierte Geschwister-Repo dort, abbrechen statt raten (F13,
-12.08.2026). Die dreifache Plan-Prüfung, die diesen Zuschnitt geformt
-hat, liegt verbatim in `protokolle/R00-planpruefung-2026-08-09.md` —
-dort stehen auch die BEGRÜNDUNGEN der überstimmten Empfehlungen (z. B.
-Rebrand-Nullvariante), damit spätere „Warum eigentlich?"-Fragen eine
-Quelle haben.
+12.08.2026). Die dreifache Plan-Prüfung liegt verbatim in
+`protokolle/R00-planpruefung-2026-08-09.md` — mit den BEGRÜNDUNGEN der
+überstimmten Empfehlungen (z. B. Rebrand-Nullvariante) für spätere
+„Warum eigentlich?"-Fragen.
 
 Projekt-Code: **MKT** — Präfix für Stränge, Arbeitspakete und
 Session-Namen. Sprache des Projekts ist **Deutsch**.
@@ -58,7 +56,7 @@ Fertig-Kriterium. Jede Ebene trägt Name + Kurz-Code:
 | **MKT-BELEG** | Pilot-Dokumentation | Vorher-Baseline VOR dem PMS-Livegang (Ende September — **nicht nachholbar**) gemessen; Referenzvereinbarungen aller 3 Pilotobjekte; Case Study nach Livegang; Demo-Video Voice-Check-in. |
 | **MKT-HANDEL** | Pricing & Vertriebswerkzeuge | Preismodell + Angebotsarchitektur + Sales-Deck/One-Pager + **Kanal-Rechtsmatrix (UWG § 7)** vor dem Zielkundenlisten-Bau + Lead-Prozess mit Kapazitätsdeckel + Vertrags-/AVV-Anforderungen (Zulieferung an Zentrale). |
 | **MKT-WEB** | Website & digitale Präsenz | Vollwertige Website unter dem NEUEN Namen live (echte Fotos, BFSG-Einstufung mit Beleg, datenschutzkonformes Tracking, Impressum/Datenschutz/Cookies); Social-Profile angelegt. Startet erst nach Namensentscheid (sonst Wegwerfarbeit). |
-| **MKT-AKQ** | Akquise & Kampagnen | Kanalmix NACH dem Persona-Befund festgezurrt (Kandidaten: Founder-Direktvertrieb, Referenz-/Empfehlungsmechanik, Apaleo-Ökosystem/App-Store, DEHOGA/Verbände, Internorga Hamburg (März) als Rückwärts-Anker — ⚠️ liegt HINTER der November-Frist, trägt für Abschluss 1 nicht (R8/N-4), Fach-/Regionalpresse, LinkedIn, Newsletter); Maßnahmen laufen; **erster Abschluss bis Mitte November**. |
+| **MKT-AKQ** | Akquise & Kampagnen | Kanalmix NACH dem Persona-Befund festgezurrt (Kandidaten: Founder-Direktvertrieb, Referenz-/Empfehlungsmechanik, Apaleo-Ökosystem/App-Store, DEHOGA/Verbände, Internorga Hamburg (März — ⚠️ HINTER der November-Frist, trägt für Abschluss 1 nicht; R8/N-4), Fach-/Regionalpresse, LinkedIn, Newsletter); Maßnahmen laufen; **erster Abschluss bis Mitte November**. |
 | **MKT-OPS** | AI-native Betrieb & Messung | Lead-Tracking, Funnel-KPIs (Erstgespräche/Woche · Pipeline · Zeit bis Abschluss 1 · Referenz-Assets · Reply-Quote), Kostendeckel, AI-Act-Kennzeichnungs-Policy, VVT/AVV-Inventar, Zugangs-Register (2FA/Recovery, in `sensibel/` + Backup), n8n-Instanz-Entscheid. **Agenten-Hierarchie GEPARKT** — Ent-Park-Trigger normativ in `zentrale\rollen-charta.md` (ZWEI Bedingungen: Prozess produziert nachweislich Kunden UND gemessene Arbeitslast erzwingt die Ebene). |
 
 **Namenskonvention:**
@@ -73,9 +71,8 @@ Fertig-Kriterium. Jede Ebene trägt Name + Kurz-Code:
 - **Session-Rollennamen (One-Piece-Schema, User-Entscheid 09.08.2026):**
   Marketing = Rote-Haar-Bande — Leitsession **Shanks** (Head of
   Marketing), Arbeits-Sessions **Ben Beckman, Yasopp, Lucky Roux,
-  Rockstar**, Reserve **Limejuice, Hongo, Bonk Punch** (Charta-Ergänzung
-  14.08.2026 — der Namensmangel wurde in R15 zum Kapazitätsdeckel;
-  Schema + alle Banden: `zentrale\rollen-charta.md`).
+  Rockstar**, Reserve **Limejuice, Hongo, Bonk Punch** (Schema + alle
+  Banden: `zentrale\rollen-charta.md`).
   Namen sind Rollen-Identitäten, KEINE Anker — für Anker gilt weiter
   `R<runde>-<buchstabe>`.
 
@@ -267,9 +264,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    MIT NENNER. „Hinweis" ist eine Schwere-Angabe, keine
    Erledigungs-Kategorie (24 von 37 blieben so liegen — L-13);
    **ein „eingearbeitet" im Träger ist kein Beleg — die Reparatur wird am
-   ROHBELEG gemessen, sonst zählt eine sachlich falsche Reparatur als
-   erledigt; und eine Reparatur kann einen ANDEREN Befund verschärfen, vor
-   dem ein früherer Prüfer gewarnt hatte** — L-19)
+   ROHBELEG gemessen; und eine Reparatur kann einen ANDEREN Befund
+   verschärfen** — L-19)
    und **(b) nach außen** — „Was hat diese Session gefunden, das einem
    ANDEREN Strang gehört?" Jeder solche Befund bekommt einen Zielort
    (Zieldokument + nächste Aktion, mit NACHSEHEN, ob der Zielort existiert
@@ -357,15 +353,13 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **⭐ Ein ARBEITSVORRAT ist eine Liste von VERNEINUNGEN — die teuerste
   Aussagenklasse.** „Was ist offen?" heißt „was existiert noch nicht?".
   Ein Positiv belegt EINE Fundstelle, ein Negativ behauptet etwas über
-  den GESAMTEN Bestand. **Negative altern still** (sie werden falsch in
-  dem Moment, in dem jemand die Sache baut — der Posten wird beim
-  Erledigen nicht gestrichen, weil das Ergebnis anderswo dokumentiert
-  wird), und **der Suchweg bestimmt das Ergebnis** (was unter anderem
+  den GESAMTEN Bestand. **Negative altern still** (sie werden falsch,
+  sobald jemand die Sache baut — der Posten wird beim Erledigen nicht
+  gestrichen), und **der Suchweg bestimmt das Ergebnis** (was unter anderem
   Namen existiert, liefert einen leeren Grep). **Pflichtform: Jede
   Verneinung, die einen AUFTRAG trägt, wird am OBJEKT geprüft und mit
   Suchweg + Stand ausgewiesen** — besonders „X existiert nicht",
-  „niemand hat Y geprüft", „kein Z führt W". (Herkunft: MKT R15 — 4 von
-  5 Strängen einer Runde trugen eine widerlegte Verneinung.) **Der
+  „niemand hat Y geprüft", „kein Z führt W". (MKT R15.) **Der
   Suchweg selbst hat drei Pflichtachsen (L-50, drei Fälle an einem
   Tag): Kürzel UND Sachbegriff (die Sache stand unter anderem Namen im
   Dokument) · die GANZE Datei, nie ein Ausschnitt (die Antwort stand
@@ -467,8 +461,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Verallgemeinerung („kein Y"); wer eine Bestandsstelle anfasst (auch nur
   für einen Zählweg-Nachtrag), liest den GANZEN Satz gegen den eigenen
   neuen Bestand (L-39).** Randfälle einzeln belegen statt Vollabdeckung
-  behaupten. Je PRÜFKANAL ein konkreter Kontrollkandidat — erst wenn JEDER
-  Kanal seinen benannten Anker hat, ist „je Suchlauf" umgesetzt; der
+  behaupten. Je PRÜFKANAL ein konkreter Kontrollkandidat; der
   stärkste Kontrollbegriff spiegelt die SUCHMECHANIK des Nulltreffers
   (z. B. Teilwort-Probe), nicht nur irgendeinen garantierten Treffer; er **trägt die ZEICHENKLASSE des Musters (`§`, Umlaut,
   Ziffer) und hat je Kanal einen VERSCHIEDENEN Sollwert (cs ≠ ci)** — eine
@@ -501,9 +494,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   (100/307 sah wie ein Ergebnis aus, R19); **ein
   Negativ, das nicht passen kann, ist zuerst ein Werkzeugfehler** (V17-3).
   **⭐ Wer einen Leseumfang protokolliert, protokolliert die ZEILENSPANNE
-  mit** — ein zu weit protokollierter Leseumfang beruhigt jeden Prüfer
-  und erzeugte einmal Fehlalarm UND übersehenen Pflichtabschnitt aus
-  EINEM Lesefehler (V17-4).
+  mit** (V17-4).
   **⭐ Eine Verfahrens-Positivkontrolle ALTERT MIT IHREM KORPUS** — sie
   belegt die Fehlerklasse ihres damaligen Laufs, nie die Vollständigkeit
   eines späteren Rückbaus; bei Wiederverwendung fragen: Ist der Prüfraum
@@ -513,9 +504,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   zwei unabhängige Strukturmerkmale für dieselbe Zahl · Kontrollkandidat
   mit unabhängig bekanntem Sollwert plus schweigende Gegenrichtung
   (L-24). **⚠️ EINSCHRÄNKUNG (R15): Die Summenprobe ist an der
-  EINSTUFUNGS-Achse blind** — sie fängt eine vergessene Zeile, eine
-  FEHLEINSTUFUNG nie; sie belegt Vollzähligkeit, nie die Richtigkeit
-  der Zuordnung. **⭐ Eine „x von y"-Aussage wird am KRITERIUM geprüft,
+  EINSTUFUNGS-Achse blind** — sie belegt Vollzähligkeit, nie die
+  Richtigkeit der Zuordnung. **⭐ Eine „x von y"-Aussage wird am KRITERIUM geprüft,
   nicht an der Zahl:** Könnte das Ergebnis überhaupt anders ausfallen?
   Wenn nicht, ist es keine Zählung, sondern eine Positivliste in
   Verkleidung — **der Nenner gehört an den PRÜFGEGENSTAND, nicht an das
@@ -617,8 +607,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Auffälligkeiten" geglättet werden. **⭐ Und der Abschnitt „nicht
   erhoben / nicht prüfbar" eines PRÜFERS ist die erste
   Nacharbeits-Liste, kein Haftungsausschluss — er benennt Fundorte, nicht
-  Grenzen** (L-48, Fallgeschichte im Register). **„Nicht von MIR geprüft"
-  ist kein „ungeprüft"** — die Fremdmeldung trägt ihren Lesestand (R17).
+  Grenzen** (L-48). **„Nicht von MIR geprüft" ist kein „ungeprüft"** —
+  die Fremdmeldung trägt ihren Lesestand (R17).
 - **Recherchen brauchen eine Gegenprobe-Achse**, die die PRÄMISSE des
   Auftrags prüft, nicht nur seine Ausführung. Ein Recherche-Auftrag, der
   bekannte Kandidaten NAMENTLICH nennt, wird zur Verifikation statt zur
@@ -674,6 +664,19 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   (Sammelvermerk R5). Superlative sofort mit Scope einschränken. **Für
   jede Zahl, die in ein Dokument geht, den Zählweg benennen** — gerade
   die plausible Zahl wird nie nachgeprüft.
+- **⭐ Ein zusammengesetztes Prüfobjekt wird auch in seinen
+  BESTANDTEILEN geprüft (L-53):** Ein Negativ über das GANZE ist kein
+  Negativ über seine Teile — der tragende BESTANDTEIL (Kern eines
+  Zeichens, Präfix einer ID, Segment eines Pfades) wird separat
+  gemessen und am ROHBELEG ausgezählt. **Auch eine NIEDRIGE Trefferzahl
+  ist nur eine Lesestelle:** der Kern mit 30 Treffern war belegt, der
+  mit 338 frei.
+- **⭐ Scheitert eine Such-/Generierungsreihe wiederholt, ist die
+  BAUFORM verdächtig, nicht die Menge (L-54):** nicht die Menge
+  erhöhen, sondern das funktionierende VORBILD analysieren — nach
+  welchem Bildungsprinzip ist es gebaut? Das Prinzip wird zur
+  Suchvorgabe, nicht das Thema. Eine Bauform kann als Ganzes
+  verbraucht sein.
 - **⭐ Ein TREFFER ist eine LESESTELLE, kein Befund** — der einzige
   Treffer eines Musters kann das gesuchte Wort in einer
   durchgestrichenen, aufgehobenen Zeile sein; die Trefferzahl allein
@@ -687,9 +690,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   (heyPensio R43.)
 - **Eine Zahl, die offensichtlich nicht passen kann, ist ein
   Werkzeugfehler, kein Befund** — erst das Werkzeug prüfen, dann die
-  Sache. **Passt EINE Kontrollzahl nicht, ist der ganze LAUF tot, nicht
-  die Stelle** — alle Zahlen desselben Laufs verwerfen (R18, Register).
-  Und:
+  Sache. **Passt EINE Kontrollzahl nicht, ist der ganze LAUF tot** —
+  alle Zahlen desselben Laufs verwerfen (R18). Und:
   Schlägt eine Prüfliste an, ist zuerst das PRÜFMUSTER verdächtig
   (veralteter Sollwert), dann das Dokument.
 - **Beweismaßstab beidseitig anlegen;** eine Analogie (n=1 bei einem
@@ -939,8 +941,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   auswerten — sie tragen oft Entscheide zu anderen Punkten huckepack.
 - **Verhandlungs-Informationshygiene** → Baustein `aussenkorrespondenz`;
   **AVV-/DSB-Pflichtprüfpunkt** (Newsletter-/Analytics-Tools SIND
-  Auftragsverarbeiter) → Baustein `freigabe-vorlagen`. *(Beide Kerne
-  lebten hier doppelt ohne Wächter — Zeiger seit R16, Dubletten-Regel.)*
+  Auftragsverarbeiter) → Baustein `freigabe-vorlagen`. *(Zeiger seit
+  R16, Dubletten-Regel.)*
 - **Prüffrage vor jedem Versand an einen Entscheider:** Welcher Satz
   würde seine Antwort ändern, wenn er ihn läse — und steht er drin? Die
   unbequeme Grenze gehört in die Vorlage, nicht in Fußnoten.
@@ -979,7 +981,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   eine Session den Träger nicht anfassen (Wahrheits-Kanal), ist
   **„welchen benannten Posten erfüllt mein Ergebnis?" Pflichtfeld ihrer
   Abschlussmeldung.** Auslöser ist die Rotation des Kurz-Einstiegs, nicht
-  der Kalender (V17-10).
+  der Kalender (V17-10). **Gegenrichtung: Eine AUFGEWORFENE Frage, die
+  nicht als Entscheidungspunkt GEFÜHRT wird, existiert für die
+  Folgearbeit nicht** — fünf Folgerunden schlossen die Antwort per
+  Konstruktion aus (Sammelvermerk R20).
   **⭐ Und die GEGENRICHTUNG, die dabei regelmäßig ausfällt: Wer eine
   QUELLE schärft, zieht im selben Zug die daraus ABGELEITETEN Dokumente
   nach.** Der Suchraum ist dann nicht „wo steht der alte Wert?", sondern „wer hat aus dieser Datei abgeleitet?" (grep auf
@@ -1169,7 +1174,7 @@ hierher, nicht ins Repo.
 - `aussenkorrespondenz` — Anbieter-/Partner-/Behörden-Anfragen: Kanal-/Zeitpunkt-Prüfung, Entwurf-im-Repo-Workflow.
 - `freigabe-vorlagen` — Freigabedokumente für Laien-Entscheider (Gesellschafter, Kunden): Struktur, Kanon-Texte, AVV-Prüfpunkt.
 - `skill-bauweise` — Skills/Commands methodisch bauen (Reverse-Engineering-Reihenfolge, Simplicity-Doktrin); aktiviert im M1-Nachzug (User-Entscheid 11.08.2026).
-- `regelwerk-waechter` — **PFLICHT (Firmen-Entscheid 17.08.2026):** Größen-Messgerät `tools/pruefe-budget.js` + Commit-Türsteher `.claude/hooks/pruefe-claudemd-budget.js` (Warnung ab 85.000 B, Blockade des CLAUDE.md-Commits ab 90.000 B, fail-closed; Sollmarke 80.000 B → Kompensationspflicht je Debrief). Marken selbst erhoben (Tagesplan 17.08.), nie kopiert; Textregeln in der Rules-Kopie. Aktiviert R16-Debrief.
+- `regelwerk-waechter` — **PFLICHT (Firmen-Entscheid 17.08.2026):** Größen-Messgerät `tools/pruefe-budget.js` + Commit-Türsteher `.claude/hooks/pruefe-claudemd-budget.js` (Warnung ab 85.000 B, Blockade des CLAUDE.md-Commits ab 90.000 B, fail-closed; Sollmarke 80.000 B → Kompensationspflicht je Debrief). Marken selbst erhoben (Tagesplan 17.08.), nie kopiert; Textregeln in der Rules-Kopie.
 
 *(Bausteine sind optionale Regelmodule aus dem projektgerüst-Repo —
 `vorlage/bausteine/`. Nicht aktivierte Bausteine bei Bedarf per
@@ -1177,8 +1182,8 @@ hierher, nicht ins Repo.
 ist keine Schlank-Entscheidung, sondern eine offene Falle, sobald das
 Projekt die Werkzeugklasse täglich benutzt** — Prüffrage bei jedem
 Nachzug: „Welche Werkzeugklasse benutzt dieses Projekt täglich ohne
-den zugehörigen Baustein?" [Zentrale 14.08.2026; Stand 17.08.: 8/8
-aktiv].)*
+den zugehörigen Baustein?" [Stand 21.08.: 8/8 Rules-Bausteine + Skill
+`design-dna`].)*
 
 ## Lehren-Register
 

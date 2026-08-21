@@ -3217,3 +3217,141 @@ Debrief-Gegenprobe).
   Begründung" → Kurzform) · Beleg-Pool-Scheinentwarnung R15 („prüfte
   zwei Dokumente, schwieg über vier" → Zeiger) · Bausteine-Fußnote
   (Blueprint-Hash) · L-05-Zählstand („bis R18/R19" → zeitlos, Zahl 16).
+
+---
+
+## L-53 — Ein zusammengesetztes Prüfobjekt wird auch in seinen BESTANDTEILEN geprüft (R20, 21.08.2026)
+
+**Kern (CLAUDE.md):** Ein Negativ über das GANZE ist kein Negativ über
+seine Teile. Bei jedem zusammengesetzten Prüfobjekt (Name aus Vorsatz +
+Kern, ID aus Präfix + Nummer, Pfad, Konfig-Schlüssel) wird der
+tragende BESTANDTEIL separat gemessen — und das Ergebnis am ROHBELEG
+ausgezählt, nicht an der Trefferzahl.
+
+**Fallgeschichte.** In der Namensrunde R20 wurden Kandidaten zunächst
+nur als Gesamtzeichen geprüft (`.de`/`.com`, DPMA, EUIPO). Zwei
+Kandidaten kamen so als „sauber" durch:
+
+- **heyHoGa** (User-Vorschlag): Gesamtzeichen `.de`+`.com` frei, DPMA 0,
+  EUIPO 0. Die Kernprüfung ergab: **„HoGa" trägt 83 DPMA- und 285
+  EUIPO-Marken (62 in den Kernklassen 9/35/42/43)**, ist als Abkürzung
+  für „Hotel- und Gaststättengewerbe" beschreibend (§ 8 MarkenG) und
+  kollidiert mit **DEHOGA (42 Marken)** — dem Verband, den die
+  Projektquelle als Akquise-Kanal führt. Ein Name, der wie eine
+  Verbandsmarke klingt, hätte ausgerechnet den Verbandskanal gefährdet.
+- **heyLogio** (klanglicher Favorit des Users): Gesamtzeichen frei,
+  0/0. Kern „Logio": 30 EUIPO-Treffer — davon **eine exakte Wortmarke
+  `LOGIO` in den Klassen 35/38/42** (Kl. 42 = Software = Kernklasse).
+  Die übrigen 29 waren Teilwort-Rauschen („Relógios", „Eulogio",
+  „logiOffice") und nur am Rohbeleg von der einen echten Marke zu
+  trennen.
+
+**Zwei Sekundär-Lehren aus demselben Lauf:**
+1. **Eine NIEDRIGE Zahl ist keine Entwarnung.** „Logio" hatte 30
+   EUIPO-Treffer, der Bestandskern „Pensio" 338 — und trotzdem ist
+   Pensio der freie Kern (0 exakte Identität) und Logio der belegte
+   (1 Identitätsmarke in Kl. 42). Die Zahl misst die CONTAINS-Suche,
+   nicht die Kollision. Gegenrichtung zur bekannten Regel „Ein TREFFER
+   ist eine LESESTELLE": auch das NIEDRIGE Ergebnis ist eine
+   Lesestelle.
+2. **Die Bestandsprüfung war zweimal unabhängig fällig** — der
+   R20-Prüf-Subagent meldete denselben Befund als M2 („der Kern
+   ‚Innsight', an dem laut Kasten alle Vorbehalte hängen, wurde nicht
+   neu gemessen"), Stunden bevor der heyHoGa-Fall ihn erzwang.
+
+## L-54 — Scheitert eine Suchreihe wiederholt, ist die BAUFORM verdächtig, nicht die Menge (R20, 21.08.2026)
+
+**Kern (CLAUDE.md):** Wenn eine Generierungs-/Suchreihe wiederholt
+nichts Brauchbares liefert, wird nicht die Menge erhöht, sondern das
+funktionierende VORBILD analysiert: Nach welchem Bildungsprinzip ist es
+gebaut? Das Prinzip wird zur Suchvorgabe, nicht das Thema.
+
+**Fallgeschichte.** Über sieben Wellen wurden ~275 Namen erzeugt und
+gemessen; kein einziger trug („klingt alles scheisse", User 21.08.).
+Die Leitsession erhöhte dabei zweimal die Menge (75 neue Kandidaten in
+drei Sprachschienen) statt die Bauform zu prüfen. Erst die Analyse des
+funktionierenden Bestandsnamens löste den Stau:
+
+- **„heyPensio" funktioniert, weil „Pensio" KEIN Wort ist** — es ist
+  eine Verkürzung von „Pension" nach dem Muster *-ion → -io*. Alle
+  eigenen Vorschläge dagegen waren „hey" + **Alltagswort**
+  (heyEmpfang, heyRuhe, heyPuls) — das klingt nach Slogan, nicht nach
+  Marke.
+- **Messbar bestätigt:** In der Kunstwort-Bauform hatten **14 von 20**
+  Kandidaten beide Domains frei — gegenüber **3 von 75** in den
+  Alltagswort-Schienen. Und: praktisch jeder aussprechbare romanische
+  Kurz-Kern ist als Marke belegt (Logia, Loggia, Domio, Posa, Otio,
+  Bergo, Casan, Loga — je 1–3 Identitätsmarken, meist Kl. 9 oder 42);
+  frei sind nur Kerne, die es als Wort nicht gibt.
+- Gegenprobe am Bildungsmuster selbst: Das Tech-Suffix *-ify* ist in
+  der Branche systematisch besetzt (`HOSPIFY` Kl. 9/38, `LODGIFY`
+  Kl. 9/35/42, `HOSTIFY` Kl. 42, `Stayify` Kl. 42/43 — alle als
+  Wortmarken, alle Domains vergeben). Eine Bauform kann als Ganzes
+  „verbraucht" sein.
+
+**Warum es teuer war:** Der Aufwand lag nicht in der Messung (Minuten
+je Welle), sondern darin, dass sieben Wellen lang der falsche Teil
+ersetzt wurde. Der Auslöser der Diagnose war eine Frustrations-Äußerung
+des Users, kein Prüfschritt.
+
+## Sammelvermerk R20 (21.08.2026, Namenshärtung + Nachzug + Wellen 7–12) — 1 Schärfung, Zweitbelege, Werkzeug-Nachträge
+
+**Schärfung des ERFÜLLEN-Kerns (Doku-Hygiene) — Gegenrichtung:**
+Bisher regelte der Kern nur, dass ein ERFÜLLTER Offen-Posten an seinem
+Träger geschlossen wird (V17-10). R20 liefert die Spiegelrichtung:
+**Eine AUFGEWORFENE Frage, die nicht als Entscheidungspunkt geführt
+wird, existiert für die Folgearbeit nicht.**
+*Belegfall:* Die Kontinuitätsfrage zum Vorsatz „hey" wurde in Welle 2
+sauber gestellt und ausdrücklich dem User zugewiesen
+(`naming-sprint-2026-08-welle2.md` § 5.5 a: „Die Frage bleibt trotzdem
+offen und gehört Ihnen, nicht der Session"), aber **nie als E-K-Punkt
+in den Kriterienkatalog aufgenommen**. Folge: fünf weitere Wellen (~200
+Namen) liefen mit Kontaminationsschutz gegen den Vorsatz — die Schiene
+war per Konstruktion ausgeschlossen und wurde nie gemessen. Als der
+User sie am 21.08. beantwortete („das hey bleibt"), lieferte sie
+innerhalb einer Stunde fünf Kandidaten mit freiem Kern.
+
+**V20-1 — Der eigene BESTAND ist der fehlende Vergleichsmaßstab.**
+Registerzahlen ohne natürliche Skala sind unlesbar: „Logio 30" vs.
+„Mansio 119" sagt nichts. Erst die Messung des BESTANDSNAMENS („Pensio"
+338 Treffer, 0 exakte Identität) machte die Zahlen deutbar — und drehte
+das Urteil um. Pflichtform bei Bewertungszahlen ohne Skala: den eigenen
+Bestand im selben Lauf mitmessen.
+
+**V20-2 — HTTP-Status je Abruf gehört in den Rohbeleg (Prüferbefund
+M3).** Die `.com`-Frei-Belege des ersten Laufs waren **0-Byte-Dateien**:
+Ein leerer 404-Body ist am Rohbeleg nicht von einem Fehlabruf zu
+unterscheiden, die Frei-Aussage war nicht unabhängig nachvollziehbar.
+`schnellcheck.js` schreibt seither `status.txt` (Datei · HTTP-Code ·
+Bytezahl · URL je Abruf). Klasse: „Eine abgeschnittene Werkzeugausgabe
+trägt kein Negativ" — hier die Variante *leere* Ausgabe.
+
+**V20-3 — Vorfilter statt Massenlauf (Zweitbeleg zur R19-Rate-Limit-
+Lehre).** 75 Kandidaten × 4 Kanäle wären 300 Abrufe gewesen; in R19
+kippte der Kanal ab ~218. Lösung: Schalter `--nur-domains` (2 statt 4
+Abrufe je Wort) als K.-o.-Vorfilter, Registerkanäle erst für die
+Überlebenden — 158 statt 300 Abrufe, Ergebnis identisch. Zehn Läufe des
+Tages, Kontrollen je Lauf am Anfang UND am Ende, alle getroffen.
+
+**V20-4 — Bewährt: die eigenen Zurufe des Users als Kalibrierungs-
+quelle.** Aus vier spontan genannten Namen (Thousand Stays · NeoHost ·
+Roomeo · NovaLogis) las die Leitsession die Richtung ab (kurz,
+international, Kunstwort-Kompositum), legte die Ablesung dem User zur
+Bestätigung vor und schnitt die Welle danach. Wirksamer als ein
+Kriterien-Dropdown, weil der User an Beispielen entscheidet, nicht an
+Kategorien. Verwandt: Dropdown-Optionen mit PREVIEW-Blöcken
+(Beispielnamen statt abstrakter Beschreibungen) machten drei
+Richtungsentscheide in Minuten.
+
+**V20-5 — Bewährt: den eigenen Fund gegen den eigenen Entscheid
+prüfen.** „heyWirt" war auf allen vier Kanälen sauber und wurde von der
+Leitsession selbst ausgeschieden, weil „Wirt" denselben Größen-Marker
+nach unten trägt wie „Pensio" — den der User-Entscheid gerade
+ausgeschlossen hatte. Ein Messwert-Positiv ist kein Aufnahmegrund.
+
+**V20-6 — Zielkonflikt sichtbar festhalten.** Der User sagte „ich will
+heute zu einem Namensentscheid kommen" und wählte 20 Minuten später die
+Option „Erst neue Namen finden" mit dem sichtbaren Hinweis „Entscheid
+heute unwahrscheinlich". Die Leitsession hat den Widerspruch benannt,
+die Wahl vollzogen und beides im Bericht dokumentiert — statt eine der
+beiden Aussagen still zu bevorzugen.

@@ -1,0 +1,88 @@
+# Welle 7 (21.08.2026) - User-Vorgaben per Dropdown, GESCHLOSSENE Aufzaehlung:
+#   Sprachschiene: alle drei (englisch/international, Kunstwort/neutral, deutsch), je ~25
+#   Assoziation:   Entlastung/Zeit + Technik/Automatisierung + Gastfreundschaft/Ankommen
+#                  (NICHT gewaehlt: "abstrakt, soll gar nichts bedeuten" - Achse bleibt zu)
+#   Form:          EIN Wort, kurz (5-9 Zeichen)
+# Alle Kandidaten gegen den Bestand der Wellen 1-6 (~200 Namen) geprueft - Dubletten nicht enthalten.
+# Vorfilter-Lauf: nur .de/.com (E-K1: .de ist Pflicht). Register erst fuer die Ueberlebenden.
+
+# --- Schiene A: englisch/international ---
+Roomflow
+Staysync
+Guestflow
+Stayloop
+Innloop
+Keyflow
+Flowdesk
+Deskless
+Autoinn
+Easestay
+Stayease
+Roomease
+Hostease
+Guestly
+Hostly
+Stayly
+Roomly
+Lodgely
+Deskly
+Frontly
+Hostful
+Restful
+Hearthly
+Welcomly
+Bedflow
+
+# --- Schiene B: Kunstwort/neutral (lat./roman. Bausteine) ---
+Mansio
+Otiva
+Levio
+Solvia
+Hospia
+Statio
+Lumea
+Aurio
+Norvia
+Talvio
+Vertio
+Kalvia
+Aveno
+Ospita
+Alvio
+Portua
+Mirato
+Quiro
+Relvo
+Vestia
+Hospio
+Domvia
+Novita
+Levanta
+Otelio
+
+# --- Schiene C: deutsch ---
+Obhut
+Aufatmen
+Auszeit
+Willkomm
+Gastwerk
+Wirtsam
+Freiraum
+Handreich
+Einlass
+Gastlich
+Zuspiel
+Nachtruh
+Heimzu
+Wirtgut
+Anlauf
+Zutun
+Herzu
+Vorlauf
+Leichthand
+Beiwerk
+Hausgeist
+Zimmerlei
+Nachtwerk
+Rueckhalt
+Gastfrei

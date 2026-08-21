@@ -6,7 +6,12 @@
 const fs = require('fs'); const path = require('path'); const crypto = require('crypto');
 const arg = (k) => (process.argv.find(a => a.startsWith(`--${k}=`)) || '').split('=').slice(1).join('=');
 const liste = arg('liste'), aus = arg('aus');
-if (!liste || !aus) { console.error('Aufruf: --liste=<datei> --aus=<ordner>'); process.exit(2); }
+// --nur-domains: Vorfilter-Modus fuer grosse Wellen (nur RDAP .de/.com = 2 statt 4
+// Abrufe je Wort). Grund: ein Voll-Lauf ueber 75 Woerter waere ein 300-Abruf-Massenlauf
+// und lief in R19 ab ~218 Abrufen ins Rate-Limit. Register-Kanaele erst fuer die
+// Ueberlebenden des .de-K.-o. (E-K1). Kontrollen laufen in BEIDEN Modi Anfang+Ende.
+const nurDomains = process.argv.includes('--nur-domains');
+if (!liste || !aus) { console.error('Aufruf: --liste=<datei> --aus=<ordner> [--nur-domains]'); process.exit(2); }
 fs.mkdirSync(aus, { recursive: true });
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36';
 let n = 0; const hashes = []; const statusZeilen = [];
@@ -34,14 +39,19 @@ const euipo = async (label, q) => { const r = await req(label, 'https://euipo.eu
 // (R19-Lehre: Kanaele kippen unter Last MITTEN im Lauf - 218/284 als 429
 // bei gruenen Anfangs-Kontrollen; gruen nur, wenn BEIDE Durchgaenge treffen).
 async function kontrollen(phase, neg) {
-  console.log(`\n| Kontrolle (${phase}) | .de | .com | DPMA | EUIPO |\n|---|---|---|---|---|`);
-  console.log(`| positiv (hey-pensio.de / apaleo.com / apaleo / APPLE) | ${await rdap(`ctl-de-pos-${phase}`, 'hey-pensio.de', 'de')} | ${await rdap(`ctl-com-pos-${phase}`, 'apaleo.com', 'com')} | ${await dpma(`ctl-dpma-pos-${phase}`, 'apaleo')} | ${await euipo(`ctl-euipo-pos-${phase}`, 'APPLE')} |`);
-  console.log(`| negativ (${neg}) | ${await rdap(`ctl-de-neg-${phase}`, neg + '.de', 'de')} | ${await rdap(`ctl-com-neg-${phase}`, neg + '.com', 'com')} | ${await dpma(`ctl-dpma-neg-${phase}`, neg)} | ${await euipo(`ctl-euipo-neg-${phase}`, neg)} |`);
+  const R = nurDomains ? '' : ' | DPMA | EUIPO';
+  console.log(`\n| Kontrolle (${phase}) | .de | .com${R} |\n|---|---|---${nurDomains ? '' : '|---|---'}|`);
+  const posR = nurDomains ? '' : ` | ${await dpma(`ctl-dpma-pos-${phase}`, 'apaleo')} | ${await euipo(`ctl-euipo-pos-${phase}`, 'APPLE')}`;
+  console.log(`| positiv (hey-pensio.de / apaleo.com${nurDomains ? '' : ' / apaleo / APPLE'}) | ${await rdap(`ctl-de-pos-${phase}`, 'hey-pensio.de', 'de')} | ${await rdap(`ctl-com-pos-${phase}`, 'apaleo.com', 'com')}${posR} |`);
+  const negR = nurDomains ? '' : ` | ${await dpma(`ctl-dpma-neg-${phase}`, neg)} | ${await euipo(`ctl-euipo-neg-${phase}`, neg)}`;
+  console.log(`| negativ (${neg}) | ${await rdap(`ctl-de-neg-${phase}`, neg + '.de', 'de')} | ${await rdap(`ctl-com-neg-${phase}`, neg + '.com', 'com')}${negR} |`);
 }
 (async () => {
   const neg = 'qzx7w5' + Math.random().toString(36).slice(2, 8);
   await kontrollen('start', neg);
-  console.log('\n| Wort | .de | .com | DPMA (marHits) | EUIPO gesamt (davon Kl. 9/35/42/43) |\n|---|---|---|---|---|');
+  console.log(nurDomains
+    ? '\n| Wort | .de | .com |\n|---|---|---|'
+    : '\n| Wort | .de | .com | DPMA (marHits) | EUIPO gesamt (davon Kl. 9/35/42/43) |\n|---|---|---|---|---|');
   const words = fs.readFileSync(liste, 'utf8').split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#'));
   for (const w of words) {
     const l = w.toLowerCase().replace(/\s+/g, '-');
@@ -50,7 +60,8 @@ async function kontrollen(phase, neg) {
     const mitDomain = !/\s/.test(w);
     const de = mitDomain ? await rdap(`${l}-de`, w.toLowerCase() + '.de', 'de') : 'n/a';
     const com = mitDomain ? await rdap(`${l}-com`, w.toLowerCase() + '.com', 'com') : 'n/a';
-    console.log(`| ${w} | ${de} | ${com} | ${await dpma(`${l}-dpma`, w)} | ${await euipo(`${l}-euipo`, w)} |`);
+    const reg = nurDomains ? '' : ` | ${await dpma(`${l}-dpma`, w)} | ${await euipo(`${l}-euipo`, w)}`;
+    console.log(`| ${w} | ${de} | ${com}${reg} |`);
   }
   await kontrollen('ende', neg);
   fs.writeFileSync(path.join(aus, 'hashes.txt'), hashes.join('\n') + '\n');

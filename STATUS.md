@@ -65,6 +65,18 @@ DEHOGA-Konflikt) · heyLogio (`LOGIO` Kl. 35/38/42) · Hospify
 + ERFÜLLEN-Gegenrichtung; Register V20-1…7; Blueprint-Rückfluss
 `935dc70`, Stempel gesetzt (Pflicht-Neumessung fing ein fremdes
 Nach-Delta); CLAUDE.md **79.946 B** unter Soll; Wächter 12/0.
+🔴 **VERDICHTUNGS-POSTEN (verschoben, mit Zielmarke):** CLAUDE.md steht
+nach dem Debrief bei **80.444 B — 444 B ÜBER der Sollmarke 80.000**
+(Hartmarke 90.000, Commit-Gate greift nicht). Grund: Die
+Verdichtungs-Gegenprobe hat in ZWEI Kompensationsläufen **25 von 81
+Aussagen als verloren oder ungedeckt** nachgewiesen; die schweren
+Befunde wurden zurückgeschrieben, das kostet Bytes. **Ein drittes
+Kürzen um Mitternacht wäre genau der Fehler, den die Regel
+„Verdichten ist müdigkeitsempfindlich" beschreibt.** Zielmarke:
+**in R21 auf ≤ 80.000 verdichten** — mit vorheriger grep-Prüfung der
+Register-Deckung JE Kandidat (das war der Fehler dieser Runde) und
+Prüfraum = die ganze Runde, nicht der Debrief-Commit.
+
 **Beim User offen: finaler Name · fünf R16-Entscheide · Zielstichprobe
 · Anker H-8/AKQ-H-2 · H-1-Delta 22.09./01.10.** *(A5-Probedruck
 ENTFALLEN, User 21.08.)* *(Details: Projektquelle-Changelog R20,

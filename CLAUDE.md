@@ -3,8 +3,8 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`935dc70`** (R20 21.08.: 12 Deltas + eigener
-> Rückfluss, Wächter 12/0; ⚠️ Ordner-Bausteine misst er nicht).
+> 2026-08-09; Stand **`a079b6c`** (R20 21.08.: 12 Deltas + zwei eigene
+> Rückflüsse, Wächter 12/0; ⚠️ Ordner-Bausteine misst er nicht).
 > Historie: `geruest-nachzug-protokoll.md` (G5); Nachzug:
 > `/projekt-init nachzug`.
 
@@ -242,7 +242,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    User-Entscheid für alle Abteilungen). Details: `/tagesstart`.
 7. **Die MODELLWAHL je Session trifft der USER — die Leitsession
    empfiehlt nur auf seine gezielte Nachfrage** (heyPensio R34,
-   User-Entscheid; Start-Prompts tragen keine Modellvorgabe, die
+   User-Entscheid für alle Abteilungen; **ersetzt „Modellwahl trifft die
+   Leitsession"**. Start-Prompts tragen keine Modellvorgabe, die
    Strang-Tabelle dokumentiert die User-Wahl nach).
    Empfehlungswissen für Nachfragen:
    **Fable 5** für Leitsession, Planung, Review, außenwirksame/
@@ -511,7 +512,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Wenn nicht, ist es keine Zählung, sondern eine Positivliste in
   Verkleidung — **der Nenner gehört an den PRÜFGEGENSTAND, nicht an das
   Auswahlkriterium** („6 von 6 Anbietern bestätigt" kann nicht anders
-  ausfallen; L-30 + Nachtrag R12).
+  ausfallen, **sobald je Anbieter EIN Treffer genügt**; L-30 + R12).
   **⭐ Eine Quelle vollständig GELESEN und vollständig ÜBERNOMMEN zu
   haben sind zwei Behauptungen mit zwei Belegen** — die
   Quellen-Positivkontrolle beantwortet die erste Frage nie mit (L-18).
@@ -646,7 +647,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Prozessbeschreibungen · beiläufige Zusagen des eigenen Sprechers.
   **⭐ Der Gegen-Durchgang ist AUCH fällig, wenn die Quelle bereits
   vollständig im EIGENEN Archiv liegt — Archivierung fühlt sich wie
-  Auswertung an** (heyPensio R40).
+  Auswertung an**, und die stärkste Fundstelle bleibt trotz
+  Volltext-Lektüre liegen, **weil die Auswertung entlang des
+  Fragenkatalogs läuft** (heyPensio R40).
 - **⭐ Zahlen an ihren SCHLÜSSEL binden — eine stimmende Summe ist KEIN
   Zuordnungsbeleg:** vier von sechs Zuordnungen paarweise vertauscht, **die
   Kontrollsumme stimmte weiter** (Register V18-4). Zahlenlisten immer als Tabelle **mit Schlüsselspalte** übernehmen, nie an
@@ -661,8 +664,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Eine Zahl trägt den Scope ihrer ZEILE,
   nicht den ihres Namens — vor jedem „Widerspruch" die Positionslisten
   BEIDER Zahlen öffnen, **und die Quelldatei von oben lesen: Ein
-  Widerspruch ist erst einer, wenn die Datei ihn nicht selbst auflöst**
-  (Sammelvermerk R5). Superlative sofort mit Scope einschränken. **Für
+  Widerspruch ist erst einer, wenn die Datei ihn nicht selbst auflöst —
+  der KOPFBLOCK kann die Korrektur bereits tragen** (Sammelvermerk R5,
+  Prüferfang). Superlative sofort mit Scope einschränken. **Für
   jede Zahl, die in ein Dokument geht, den Zählweg benennen** — gerade
   die plausible Zahl wird nie nachgeprüft.
 - **⭐ Ein zusammengesetztes Prüfobjekt wird auch in seinen
@@ -1087,7 +1091,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **⭐ Eine Trennungs-/Unabhängigkeitsregel bestimmt den ABLAGEORT ihrer
   Belege mit** (V19-4): Wer anordnet, dass eine prüfende Instanz nicht
   ins geprüfte Repo schreibt, sagt im selben Zug, wohin ihre
-  Beweisstücke gehören. **Prüfschritt je Debrief: die Ebene ÜBER den
+  Beweisstücke gehören — **`git status` kennt einen Nachbarordner nicht
+  einmal als untracked.** **Prüfschritt je Debrief: die Ebene ÜBER den
   Repos auflisten, jeden Nicht-Repo-Ordner begründen.**
 - **Kurz-ID-Kollisionen: das grep läuft ZUERST im eigenen Dokument.** Die
   Regel nennt die Nachbardokumente — vergeben wurde `P22` doppelt innerhalb

@@ -438,3 +438,352 @@ Haftungsausschluss — sie benennt Fundorte für die nächste Prüfung.)*
    Commit behauptet „Umlaut-Zählung 893 → 892, Mojibake-Marker 0". Ich
    habe das **nicht nachgemessen** — nicht prüfbar im Rahmen dieses
    Laufs, also ausdrücklich **offen**, nicht „unauffällig".
+
+---
+
+## Lauf 1 — Nachzug-Commit `c466c76`
+
+*(Nachtrag zur Gegenprobe, gleicher Prüfauftrag, früherer Prüfstand.
+Angehängt; nichts oberhalb dieser Zeile geändert.)*
+
+**Prüfgegenstand:** `git show c466c76 -- CLAUDE.md` — 24 Hunks,
+70 gelöschte / 80 eingefügte Zeilen.
+**Deckungs-Messstand:** `git show c466c76:lehren-register.md`
+(195.243 B) — also der Register-Stand **zum Zeitpunkt des Commits**,
+nicht der heutige. Das ist hier zwingend: Der Arbeitsbaum trägt
+uncommittete Reparaturen aus Lauf 2 (`M CLAUDE.md`, `M lehren-register.md`),
+und `81a65b2` hat Register-Text nachgetragen. Wer die Deckung am
+heutigen Register misst, misst die Reparatur mit und bekommt ein
+falsch-grünes Ergebnis.
+
+### 0. Eigene Messungen
+
+| Größe | Commit behauptet | Selbst gemessen | Urteil |
+|---|---|---|---|
+| CLAUDE.md vorher/nachher | 79.950 B (nachher) | **79.974 → 79.950 B** | ✅ |
+| Netto-Delta | −24 B (implizit) | **−24 B** | ✅ |
+| Zeilen gelöscht/eingefügt | (nicht genannt) | **70 / 80** | — |
+| Hunks | (nicht genannt) | **24** | — |
+| **Kerne** | **+2.074 B** | **+2.074 B** | ✅ **reproduziert** |
+| **Kompensation** | **−2.098 B** | **−2.098 B** | ✅ **reproduziert** |
+
+**Zählweg der Kern-Zahl** (rekonstruiert, weil der Commit ihn nicht
+nennt): Hunk `-378,7` **netto** (+405 − 57 = 348) + die 22 Kern-Zeilen
+in Hunk `-439,11` **brutto** (1.373) + Hunk `-953,6` **brutto** (353)
+= **2.074**. Kompensation = 2.074 + 24 = 2.098. Beides trifft
+exakt.
+
+**Befund Z-2 (bemerkenswert):** Damit sind die Byte-Zahlen von **Lauf 1
+reproduzierbar**, die von Lauf 2 (`4dd2ebd`, +1.095/−1.085) **nicht**
+(§ 0 oben). Der Zählweg driftete zwischen den beiden Läufen desselben
+Tages. Beide nennen ihn nicht.
+
+**Befund Z-3 (schwer, strukturell):** **`c466c76` hat
+`lehren-register.md` überhaupt nicht angefasst.**
+Suchweg: `git show c466c76 --name-only` → 9 Dateien, `lehren-register.md`
+ist keine davon. Der Commit-Text sagt aber „Kompensation NUR an
+Fallgeschichten mit Anker" und „Register-Deckung jedes neuen Zeigers per
+grep geprüft". Beides ist nur haltbar, wenn **jede** gestrichene
+Fallgeschichte bereits vorher im Register stand — es gab keinen Zug, in
+dem etwas hätte auslagern können. Genau daran scheitert er 14-mal.
+
+**Positivkontrollen meines Prüfkanals:** `Zeichenklasse` im
+Zeitstand-Register = **3** ✅ · `Positivkontrolle` = **50** ✅ ·
+`R19` = **46** ✅ · repo-weit `Doku-Hygiene` in CLAUDE.md = **1** ✅.
+
+**Zwei eigene Fehlnegative, im Lauf gefangen und korrigiert** (sie
+gehören ins Protokoll, weil sie meinen Nenner verändert haben):
+1. **Case-Falle.** `grep "vier Fehlerklassen"` → 0. Das Register
+   schreibt „**V**ier Fehlerklassen" am Satzanfang. Case-insensitiv
+   → Treffer. Ich habe daraufhin **alle** Literal-Negative mit `-i`
+   neu gezogen.
+2. **Wortlaut-Falle.** `grep "ganzes Gate"` am Zeitstand → 0, was wie
+   ein harter Verlust aussah. Der Registereintrag `## L-48` trägt den
+   Fall in anderen Worten („die `Termination`-Klausel (**mildert ein
+   Gate** …)", „**drei** Funde", „sagte voraus"). Nach L-50 (Kürzel UND
+   Sachbegriff) ist das eine **gedeckte** Auslagerung, kein Verlust.
+   → Ohne diese zweite Achse hätte ich hier einen Fehlalarm gemeldet.
+
+### 1. Verlust-Liste Lauf 1
+
+#### SCHWER
+
+**L1-1 · H11 · Die Bedingung fällt, die Aussage wird dadurch falsch (L-30)**
+Alt: „„6 von 6 Anbietern bestätigt" kann nicht anders ausfallen,
+**sobald je Anbieter ein Treffer genügt**; L-30 + Nachtrag R12"
+Neu: „„6 von 6 Anbietern bestätigt" kann nicht anders ausfallen; L-30 …"
+Das ist keine Straffung, sondern eine **Wahrheitswert-Änderung**: Eine
+„6 von 6"-Aussage *kann* sehr wohl anders ausfallen — nur unter der
+gestrichenen Bedingung nicht. Übrig bleibt ein Beispiel, das die eigene
+Regel nicht mehr trägt.
+Deckung: `grep -i "je Anbieter ein Treffer"` → Register **0**; der
+Registereintrag `## L-30` führt einen **anderen** Fall („10 von 10
+Ankern"). Die Bedingung lebt nur in `protokolle/R12-A-abschluss.md`
+und `protokolle/R17-leit-verdichtung.md`.
+→ **VERLOREN, keine Register-Deckung, keine Fallgeschichte.**
+
+**L1-2 · H15 · Die Mechanik des Gegen-Durchgangs**
+Alt: „Archivierung fühlt sich wie Auswertung an**; die stärkste
+Fundstelle für die eigene These kann trotz Volltext-Lektüre liegen
+bleiben, **weil die Auswertung entlang des Fragenkatalogs läuft**
+(Herkunft: heyPensio R40)."
+Neu: „Archivierung fühlt sich wie Auswertung an** (heyPensio R40)."
+Gestrichen ist der **Grund** — und damit die Handlungsanweisung: Wer
+weiß, dass der Fragenkatalog den Blick führt, liest gegen ihn. Wer nur
+liest, dass Archivierung sich wie Auswertung anfühlt, hat eine Stimmung.
+Deckung: `grep -ri "entlang des Fragenkatalogs\|Volltext-Lektüre"`
+→ **0 repo-weit** (Positivkontrolle traf). Die drei `R40`-Treffer im
+Register betreffen andere Sachverhalte (fetch-vor-Rebase, R40-N-6).
+→ **VERLOREN.**
+
+**L1-3 · H24 · Warum `git status` hier nicht schützt (V19-4)**
+Alt: „… sagt im selben Zug, wohin ihre Beweisstücke gehören; **`git
+status` kennt einen Nachbarordner nicht einmal als untracked.**"
+Neu: „… sagt im selben Zug, wohin ihre Beweisstücke gehören."
+Gestrichen ist der Satz, der erklärt, warum die Regel überhaupt nötig
+ist: Das gewohnte Kontrollmittel schlägt hier **nicht** an. Ohne ihn
+wirkt die Regel wie Ordnungsliebe.
+Deckung: `grep -ri "nicht einmal als untracked\|Nachbarordner"`
+→ **0 repo-weit**. Register `V19-4` trägt den Belegfall (49 Dateien,
+6,5 h), aber **nicht** die Werkzeug-Mechanik.
+→ **VERLOREN.**
+
+**L1-4 · H3 · Der Ablösungsvermerk einer überholten Regel**
+Alt: „(Herkunft: heyPensio R34, User-Entscheid für alle Abteilungen;
+**ersetzt „Modellwahl trifft die Leitsession"**. Start-Prompts tragen
+keine Modellvorgabe … — **eine Modellzeile im Prompt steuert ohnehin
+nichts**)."
+Neu: „(heyPensio R34, User-Entscheid; Start-Prompts tragen keine
+Modellvorgabe …)."
+Das gestrichene „ersetzt X" ist ein **Vorwärtsverweis** — genau das
+Instrument, das die Doku-Hygiene desselben Dokuments zur Pflicht macht
+(„Kippt ein neuer Stand eine ältere Festlegung, bekommt die ALTE Stelle
+im selben Zug einen Vorwärtsverweis"). Ein Leser, der die alte Regel
+noch kennt, erfährt nicht mehr, dass sie aufgehoben ist.
+Zusätzlich fiel die Begründung „eine Modellzeile im Prompt steuert
+ohnehin nichts" — die einzige Stelle, die sagt, **warum** Start-Prompts
+keine Modellvorgabe tragen dürfen.
+Deckung: `grep -i "modellwahl trifft die"` → **0 repo-weit**;
+`Modellwahl` im Register → **0**.
+→ **VERLOREN, beide Teile, keine Register-Deckung.**
+
+**L1-5 · H16 · Wo der Widerspruch sich auflöst**
+Alt: „… **und die Quelldatei von oben lesen: Ein Widerspruch ist erst
+einer, wenn die Datei ihn nicht selbst auflöst** (**der Kopfblock kann
+die Korrektur bereits tragen**; Sammelvermerk R5, **Prüferfang**)."
+Neu: „… (Sammelvermerk R5)."
+Gestrichen ist die **Fundortangabe** — „von oben lesen" bleibt als
+Aufforderung ohne Ziel; der Kopfblock war die Antwort.
+Deckung: `grep -i "kopfblock kann die korrektur"` → **0**. Der
+Registerverweis „Sammelvermerk R5, Prüferfang" führt auf `V17-1`, das
+einen **anderen** Sachverhalt trägt (Extraktions-Positivkontrolle). Der
+Belegfall selbst steht in `protokolle/R05-A-abschluss.md:372–375`
+(„… und daraus einen Widerspruch gemacht, ohne den Kopfblock
+mitzulesen") — also im Protokoll, nicht im Register.
+Mit dem „Prüferfang" fiel außerdem die **Belegtyp-Angabe** (fremdgefunden
+statt selbstgefunden).
+→ **VERLOREN aus dem Auto-Kanal, keine Register-Deckung.**
+
+#### MITTEL
+
+**L1-6 · H2 · Belegfall zur Session-Kennung.** Alt: „(Belegfall: eine
+Abnahme-Session ordnete **zwei fremde Commits der falschen Session** zu)"
+→ Neu: „(Belegfall Zentrale 13.08.)". `grep -i "der falschen Session"`
+→ **0 repo-weit**. Die Regel bleibt, ihr einziger Beleg ist weg.
+
+**L1-7 · H6 · „30 von 128 Zeilen" (Untracked-Regel).** Alt: „(Belegfall:
+30 von 128 Zeilen gelesen, Rest überschrieben, **seitdem nicht mehr
+feststellbar**)" → Neu: „(Belegfall Zentrale 10.08.2026)".
+`grep -i "30 von 128"` → **0 repo-weit**; die `untracked`-Treffer im
+Register (Z. 1165, 2195) sind andere Fälle (Codex-Settings,
+Fremdagenten-Scratch). Verloren ist auch die Pointe „seitdem nicht mehr
+feststellbar" — der Grund, warum es kein Undo gibt.
+
+**L1-8 · H17 · Die Selbsttest-Fallgeschichte.** Alt: „eine
+Selbsttest-Datei behauptete „jedes Muster muss feuern", **erzwungen war
+es für eine Teilmenge; wer die Datei las, hielt die Regel für
+durchgesetzt**" → Neu: nur noch die abstrakte Regel.
+`grep -i "jedes muster muss feuern"` → **0**; `Teilmenge` im Register
+→ **0**. `V17-2` trägt den benachbarten, aber anderen Fall (45 Muster,
+3 wirkungslos). Damit steht die Regel „prüfen, für welche TEILMENGE die
+Schranke greift" ohne den Fall, der ihre Nicht-Offensichtlichkeit zeigt.
+
+**L1-9 · H23 · „geschätzte Blockzeiten lagen 1 h vor dem Rechner" (R17).**
+`grep -i "blockzeiten\|1 h vor dem Rechner"` → **0 repo-weit**. Die
+Schwesterhälfte (L-07, „teils richtig, teils falsch, dadurch schwer
+auffällig") ist im Register sauber gedeckt (Z. 88–96) — die R17-Hälfte
+nicht. Ein „nicht X, sondern Y"-Paar wurde halbiert: erhalten blieb der
+Fall über **Datumsetiketten**, verloren der über **Uhrzeiten**.
+
+#### GERING
+
+- **L1-10 · H14:** „MKT R12" aus dem L-34-Anker gestrichen — die
+  Rundenzuordnung der Lehre ist weg (`(L-34, MKT R12; … V18-1)` →
+  `(L-34; … V18-1)`).
+- **L1-11 · H19:** „beide beim Anwenden der Regeln selbst gefunden"
+  gestrichen — Fundweg-Angabe (Selbstfund statt Prüferfund). Der
+  Sachinhalt beider Fälle ist im Register gedeckt (Z. 1143–1153).
+- **L1-12 · H20:** L-44-Anker vom Absatzende an den ersten Satz gezogen;
+  die anschließende **Gate-Regel** („ein Gate schützt nur den Pfad, auf
+  dem es liegt") steht seither **ohne Anker**. Anker-Reichweite still
+  verengt, kein Textverlust.
+- **L1-13 · H16:** „Prüferfang" (Belegtyp) — in L1-5 mitgezählt, hier nur
+  als eigene Klasse benannt.
+
+### 2. Sauber ausgelagert (Fall b) — 19 Aussagen, je am Zeitstand belegt
+
+| Gestrichen (Hunk) | Fundstelle **zum Stand `c466c76`** |
+|---|---|
+| Gmail-Versand-deny „am Pool belegt" (H1) | `.claude/rules/gmail-mcp.md:13–14` + `.claude/settings.json:31–33` (drei deny-Einträge) |
+| „Rückfluss 5 Lehren", „5 Kopien" (H1) | `geruest-nachzug-protokoll.md` |
+| Quelle der ⚠️-Ordner-Warnung `f58f1c0` (H1) | `geruest-nachzug-protokoll.md:51`, `projektquelle-mkt.md:1517` u. a. |
+| „gehört nicht in den auto-geladenen Kanal" (H1) | `geruest-nachzug-protokoll.md:135–139`, wörtlich |
+| „vier Fehlerklassen … eine Runde später" (H4) | Register `## L-13`: „**V**ier Fehlerklassen haben sich dadurch in R6 wiederholt (Pseudo-Zitat, fehlender Vorwärtsverweis, unvollständige Extraktion, Nenner ohne Kriterium)" |
+| Blueprint `cfdd5db` (H5) | `geruest-nachzug-protokoll.md`, `protokolle/R16-C-abschluss.md` |
+| „Satzpunkt unmittelbar vor seinem Gegenbeleg" (H8) | Register Z. 1608: „Satzpunkt (Rn. 88) verbarg zusätzlich den Gegenbeleg (PB-2)" |
+| „218/284 als 429" (H9) | Register (1 Treffer) + `protokolle/R19-A-abschluss.md` |
+| L-46 „erfundene Organstellung an einen Anwalt" (H12) | Register `## L-46` |
+| L-48 „drei Funde / mildert ein Gate / vorhergesagt" (H13) | Register `## L-48` Fall 1 — **in anderen Worten**, s. Fehlnegativ 2 |
+| R17 „Vorprüfer hatte die Stelle am Rohbeleg geprüft" (H13) | Register Z. 2427–2430, inkl. Fundstelle `R15-A-pruefer.md` Z. 694 |
+| R18 „Umlaut = 2 … 44/156 … tatsächlich 0/0" (H17) | Register Z. 2701–2706, vollständig |
+| V19-2 „>100 grüne Prüfmittel" (H18) | Register Z. 3196–3199 |
+| V19-3 „zufällig treffende Kontrolle / nie erreichbarer Zielzustand" (H18) | Register Z. 3200–3204, beide Fälle |
+| „10/11 nach ganz regulärer Rotation" (H19) | Register Z. 1143–1149, wörtlich |
+| „863 Altlast-Zitate" (H21) | Register (3 Treffer) |
+| L-07 „teils richtig, teils falsch, dadurch schwer auffällig" (H23) | Register Z. 88–96 |
+| „Zentrale 14.08.2026" bei V19-4 (H24) | Register `V19-4`: „(Ablageort-Belegfall, **Zentrale 14.08.2026**, Blueprint `5020bc2`)" |
+| „Belegfall im Register" bei L-20 (H24) | Register führt `L-20` |
+
+**Anker-Prüfung Lauf 1:** L-13 · L-20 · L-30 · L-34 · L-39 · L-44 ·
+L-46 · L-48 · L-50 · L-07 · V17-3 · V18-1 · V18-4 · V19-2 · V19-3 ·
+V19-4 · R17 · R18 · R19 · R40 · R43 — **alle im Register geführt.**
+Inhaltlich gedeckt sind alle bis auf **L-30** (die gestrichene Bedingung
+fehlt dort, s. L1-1). Kein Anker zeigt formal ins Leere.
+
+### 3. Kalibrierungs-Prüfung Lauf 1
+
+Behauptung: *„Kompensation NUR an Fallgeschichten mit Anker …
+Register-Deckung jedes neuen Zeigers per grep geprüft."*
+
+**Widerlegt, in beiden Hälften:**
+
+- **„NUR an Fallgeschichten":** L1-1 ist eine **Tatbestands-Bedingung**,
+  L1-2/L1-3/L1-5 sind **Mechaniken**, L1-4 ist ein **Vorwärtsverweis
+  plus Begründung**, L1-10/L1-11/L1-12 sind **Anker- und
+  Belegtyp-Angaben**. Keine davon ist eine Fallgeschichte.
+- **„Register-Deckung … geprüft":** 14 der 39 Aussagen haben keine
+  Register-Deckung, und der Commit hat das Register **nicht angefasst**
+  (Z-3), konnte also nichts nachtragen. Bei L1-5 zeigt der mitgeschriebene
+  Zeiger („Sammelvermerk R5") sogar auf einen Registereintrag mit
+  **anderem Inhalt** — ein Zeiger, der eine Prüfung überstanden haben
+  soll, die er nicht bestanden hätte.
+
+**Positiv festzuhalten:** 19 von 39 Auslagerungen sind sauber und am
+Zeitstand belegt, mehrere davon wörtlich. Lauf 1 ist deutlich sorgfältiger
+als sein Kalibrierungssatz nahelegt — er ist nur nicht **ausnahmslos**
+sorgfältig, und der Satz behauptet Ausnahmslosigkeit.
+
+### 4. Zusatzfrage: Was ging erst in der KOMBINATION verloren?
+
+Vier Stellen, an denen Lauf 1 und Lauf 2 **denselben Absatz** anfassten.
+Drei davon sind erst zusammen ein Problem.
+
+**K-1 · Der Positivkontroll-Kern — Beleg raus, dann Bedingung raus.**
+- Ursprung: „… ein Rate-Limit kippt den Kanal MITTEN im Lauf; **218/284
+  als 429 bei grünen Anfangs-Kontrollen**, R19 … Je PRÜFKANAL ein
+  konkreter Kontrollkandidat — **erst wenn JEDER Kanal seinen benannten
+  Anker hat, ist „je Suchlauf" umgesetzt**; …"
+- Lauf 1 strich die **Zahl** (Register-gedeckt ✅).
+- Lauf 2 strich die **Erfüllungsbedingung** (nicht gedeckt, s. V-3 oben).
+- **Ergebnis:** Der Kern trägt heute weder den Beleg, dass Kanäle mitten
+  im Lauf kippen, noch das Kriterium, wann die Regel erfüllt ist. Jeder
+  Lauf für sich war vertretbar; zusammen bleibt eine Forderung ohne Maß
+  und ohne Anlass.
+
+**K-2 · Die Kontrollzahl-Regel — dreifach abgeschliffen.**
+- Ursprung: „**Passt EINE Kontrollzahl nicht, ist der ganze LAUF tot,
+  nicht die Stelle** — alle Zahlen desselben Laufs verwerfen (R18:
+  „Umlaut = 2" abgetan, 44/156 Soft-Hyphen/NBSP gemeldet, tatsächlich
+  0/0)."
+- Lauf 1 strich die **Zahlen** → „(R18, Register)" (gedeckt ✅).
+- Lauf 2 strich den **Kontrast „nicht die Stelle"** *und* den Zeiger
+  **„Register"** → „(R18)".
+- **Ergebnis:** Von einem Satz mit Verbot, Beleg und Wegweiser blieb der
+  halbe Satz mit einem nackten Rundenkürzel. Der Inhalt ist im Register
+  vollständig — nur weiß der Leser des Auto-Kanals das nicht mehr.
+
+**K-3 · L-48 — Lauf 2 hat die Kompensation von Lauf 1 zurückgenommen.**
+*(Das ist das lehrreichste Muster des Tages.)*
+- Lauf 1 strich die Fallgeschichte **und setzte im selben Zug den
+  Ersatz**: „(L-48, **Fallgeschichte im Register**)" — eine
+  lehrbuchmäßige Auslagerung mit Wegweiser.
+- Lauf 2 las „Fallgeschichte im Register" als Füllwort und strich es:
+  „(L-48)".
+- **Ergebnis:** Der Inhalt ist gedeckt, aber **der Schutzmechanismus, den
+  Lauf 1 eigens gebaut hatte, ist weg.** Lauf 2 konnte nicht wissen, dass
+  dieser Halbsatz kein Beiwerk war, sondern die Gegenleistung für eine
+  Kürzung — er sah nur einen redundanten Hinweis.
+  → **Regel-Vorschlag: Ein Auslagerungs-Zeiger, der als Kompensation
+  gesetzt wurde, ist selbst geschützt.** Wer „Fallgeschichte im
+  Register", „Belegfall im Register", „Register" o. Ä. streichen will,
+  prüft zuerst per `git log -S`, ob dieser Zeiger die Bezahlung einer
+  früheren Kürzung war. Sonst kostet dieselbe Passage zweimal — einmal
+  den Beleg, einmal den Weg dorthin.
+  *(Belegte Nachbarfälle desselben Musters: „(L-20, Belegfall im
+  Register)" → „(L-20)" und „(L-34, MKT R12; Fallgeschichte im Register
+  V18-1)" → „(L-34; Fallgeschichte V18-1)" — beide in Lauf 1 gesetzt bzw.
+  gekürzt, in Lauf 2 weiter abgetragen.)*
+
+**K-4 · Der ARBEITSVORRAT-Absatz — gewachsen und entkernt zugleich.**
+Lauf 1 hängte an denselben Absatz zwei neue Kerne an (fetch-Pflicht,
+Wahrheits-Kanal-Verneinung, +405 B); Lauf 2 strich daraus die Mechanik
+(„weil das Ergebnis anderswo dokumentiert wird") und die Zahl („4 von 5
+Strängen"). Netto blieb der Absatz gleich lang — und wirkt deshalb in
+keiner Budget-Messung als Verlust auf. **Ein Absatz, der wächst und
+gleichzeitig Belege verliert, ist für jede Byte-Bilanz unsichtbar.**
+
+### 5. Nenner Lauf 1
+
+Zählweg: Zerlegung des ALT-Texts aller 21 kürzenden Hunks (H7/H9 mit
+Teil-Kürzungen eingeschlossen, H22 als reine Einfügung ausgenommen) in
+atomare Aussagen; je Aussage eine Deckungsfrage gegen den Register-Stand
+**`c466c76`** plus repo-weite Gegenprobe, Literal- **und**
+Sachbegriff-Achse, case-insensitiv.
+
+> **39 von 39 atomaren Aussagen geprüft — 6 erhalten, 19 ausgelagert
+> (17 davon register-gedeckt, 2 an anderem benannten Ort), 14 verloren
+> oder ohne die behauptete Deckung.**
+
+Davon **5 schwer** (L1-1 bis L1-5), **4 mittel** (L1-6 bis L1-9),
+**5 gering** (L1-10 bis L1-13 sowie die Reichweiten-Verkürzung
+„User-Entscheid für alle Abteilungen" → „User-Entscheid" in H3, deren
+Wortlaut in Regel 6 desselben Dokuments erhalten blieb).
+
+**Beide Läufe zusammen (R20 gesamt):**
+39 + 42 = **81 atomare Aussagen**, davon **25 verloren oder ungedeckt**
+(14 + 11) — plus 3 Neu-Text-Befunde aus Lauf 2 und 3 Kombinationsschäden
+(K-1 bis K-3), die in keiner der beiden Einzelbilanzen auftauchen.
+
+### 6. Welche Verlust-Art hätte mein Verfahren auch hier NICHT gefunden?
+
+Die sechs Grenzen aus § 7 gelten unverändert. Drei kommen für Lauf 1 hinzu:
+
+1. **Verluste in den 80 EINGEFÜGTEN Zeilen der sechs neuen Kerne.** Ich
+   habe geprüft, was verschwand, nicht ob die neuen Kerne ihre eigene
+   Blueprint-Quelle korrekt wiedergeben. Ob „ANTWORT-REGISTER",
+   „Fahrplan als Master-Referenz", „Einfrier-Anker" und „Bau→Plan-
+   Rückfluss" gegenüber der heyPensio-R50/R52-Quelle vollständig sind,
+   ist **nicht erhoben** — bei Lauf 2 war genau dort der schwerste
+   Befund (N-2, „fünf Folgerunden"). → **Offener Prüfauftrag.**
+2. **Der Zeitstand schneidet in beide Richtungen.** Ich habe am Register
+   von `c466c76` gemessen, um die späteren Reparaturen auszuschließen.
+   Damit sehe ich nicht, ob eine Aussage zwischen `c466c76` und
+   `4dd2ebd` von einer dritten Stelle gedeckt wurde. Für die 14
+   (c)-Fälle habe ich das repo-weit gegengeprüft, für die 19 (b)-Fälle
+   nicht — dort hätte eine spätere **Löschung** im Register meine
+   ✅-Wertung überholt.
+3. **Kombinationsschäden über mehr als zwei Läufe.** Ich habe zwei
+   Commits verglichen. Eine Passage, die in R17, R19, `c466c76` und
+   `4dd2ebd` je ein Viertel verlor, erscheint in keinem der beiden
+   Paar-Vergleiche als auffällig. K-3 zeigt, dass das Muster real ist —
+   die Reichweite ist ungemessen.

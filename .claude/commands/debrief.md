@@ -176,6 +176,25 @@ Pflicht-Muster, weil dort die Verluste saßen: gestrichene „z. B."/„auch"
 gestrichene Verbote, NEU ABGELEITETE Zahlen („fünf" = 2 + 3, stand
 nirgends). Gemessen: 8 von 140 Aussagen fielen — 5 Vorbehalte, eine
 erfundene Zahl — bei frischer Session mit Prüffrage je Streichung.
+**⭐ PRÜFRAUM = die RUNDE, nicht der Debrief-Commit (Herkunft: MKT R20,
+81 geprüfte Aussagen in zwei Läufen):** Hat die Runde MEHRERE
+Kompensationsläufe (typisch: Gerüst-Nachzug am Nachmittag + Debrief am
+Abend), prüft ein Lauf-2-Prüfstand nur den letzten und **beglaubigt die
+früheren stillschweigend** — der erste Lauf trug hier 14 der 25
+Verluste. Drei Folgen, alle am selben Fall belegt:
+**(a) Ein als Kompensation gesetzter AUSLAGERUNGS-ZEIGER ist selbst
+geschützt.** Lauf 1 hatte eine Fallgeschichte lehrbuchmäßig ins
+Register ausgelagert und den Wegweiser „Fallgeschichte im Register"
+gesetzt; Lauf 2 hielt ihn für Füllwort und strich ihn — **damit nahm
+Lauf 2 die Bezahlung von Lauf 1 zurück** (dreifach im selben Debrief).
+Vor dem Streichen eines solchen Zeigers per `git log -S` prüfen, ob er
+die Bezahlung einer früheren Kürzung war.
+**(b) KOMBINATIONSSCHÄDEN sind für jede Byte-Bilanz unsichtbar:** Lauf 1
+nahm die Zahl, Lauf 2 die Erfüllungsbedingung — übrig blieb eine
+Forderung ohne Maß, bei netto gleicher Länge.
+**(c) Literal-Negative des Prüfers case-insensitiv ziehen** — ein
+`grep "vier Fehlerklassen"` = 0 war eine Case-Falle („**V**ier"), also
+ein Fehlnegativ des Prüfers selbst.
 
 **Gegenprobe durch einen Verifikations-Subagenten (Pflicht bei mehr als
 einer Arbeits-Session):** Er bekommt die UNGEKÜRZTEN Abschlussmeldungen

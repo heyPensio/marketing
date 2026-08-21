@@ -3409,3 +3409,46 @@ Gegenprobe muss den PRÜFRAUM an der Runde ausrichten, nicht am
 Debrief-Commit** — sonst prüft sie den letzten Lauf und beglaubigt
 stillschweigend die früheren. Klasse: derselbe Fehler wie ein
 Prüfstand, der enger geschnitten ist als der Prüfgegenstand.
+
+**V20-9 — Der zweite Gegenprobe-Lauf (Prüfstand `c466c76`) und die
+KOMBINATIONSSCHÄDEN:** Nach dem Verfahrensbefund aus V20-8 wurde der
+Prüfer auf den ersten Kompensationslauf der Runde angesetzt. Ergebnis:
+**39 Aussagen, 14 verloren oder ungedeckt (5 schwer)** — zusammen mit
+Lauf 2 also **81 geprüfte Aussagen, 25 verloren**. Die fünf schweren
+sind zurückgeschrieben (L-30-Bedingung „sobald je Anbieter EIN Treffer
+genügt" — ohne sie war der Satz schlicht FALSCH · Gegen-Durchgangs-
+Mechanik „weil die Auswertung entlang des Fragenkatalogs läuft" ·
+V19-4 „`git status` kennt einen Nachbarordner nicht einmal als
+untracked" · Ablösungsvermerk „ersetzt ‚Modellwahl trifft die
+Leitsession'" · Fundort „der KOPFBLOCK kann die Korrektur bereits
+tragen").
+
+**⭐ Die drei Muster, die nur der Zwei-Lauf-Vergleich sichtbar macht —
+Regel gehört in den `debrief`-Command, dort eingezogen:**
+1. **Ein als Kompensation gesetzter AUSLAGERUNGS-ZEIGER ist selbst
+   geschützt.** Lauf 1 lagerte die L-48-Fallgeschichte lehrbuchmäßig aus
+   und setzte den Wegweiser „Fallgeschichte im Register"; **Lauf 2 hielt
+   ihn für Füllwort und strich ihn — und nahm damit die Bezahlung von
+   Lauf 1 zurück.** Dreifach im selben Debrief (L-48, L-20, L-34).
+2. **Kombinationsschäden sind für jede Byte-Bilanz unsichtbar.** Der
+   ARBEITSVORRAT-Absatz wuchs in Lauf 1 um 405 B und verlor in Lauf 2
+   Mechanik und Zahl — netto gleich lang, inhaltlich entkernt. Ebenso
+   der Positivkontroll-Kern (Lauf 1 nahm die Zahl, Lauf 2 die
+   Erfüllungsbedingung → Forderung ohne Maß).
+3. **Der Prüfer produziert selbst Fehlnegative.** `grep "vier
+   Fehlerklassen"` = 0 war eine **Case-Falle** („**V**ier"); der Prüfer
+   fing es selbst und zog alle Literal-Negative case-insensitiv neu.
+   Zweitfall: `grep "ganzes Gate"` = 0 sah wie ein Verlust aus, L-48
+   trägt den Fall in anderen Worten — **gedeckt**.
+
+**Fair festzuhalten:** Lauf 1 war deutlich sorgfältiger als Lauf 2
+(19 von 39 Auslagerungen sauber und am Zeitstand belegt, Byte-Zahlen
+exakt reproduzierbar) — aber die Kalibrierungs-Behauptung lautete
+„ausschließlich", und Ausnahmslosigkeit hielt in **keinem** der beiden
+Läufe. Struktureller Grund für Lauf 1: `c466c76` hat
+`lehren-register.md` überhaupt nicht angefasst — der Commit **konnte**
+nichts auslagern und war vollständig auf Altbestand angewiesen.
+
+**Nicht erhoben (ausgewiesen, nicht geglättet):** ob die sechs
+Nachzug-Kerne aus Lauf 1 ihre Blueprint-Quelle vollständig wiedergeben
+· Kaskaden über mehr als zwei Läufe (R17/R19 → `c466c76` → `4dd2ebd`).

@@ -43,5 +43,16 @@ Herkunft: heyPensio.)*
   Mehrfach-Downloads je Seite. Funktionierende Transportwege:
   Base64-Chunks in den Seiten-Kontext, Blob-Download für Einzeldateien,
   SHA-256-Hashes statt Rohdaten.
+- **Virtualisierte Seiten (Notion & Co.) rendern Blöcke erst beim
+  Scrollen in den DOM** — ein Abschnitt/Code-Block, der im Text-Extrakt
+  fehlt oder nur als Leerzeichen erscheint, existiert noch nicht: erst
+  in Schritten sichtbar scrollen (Mausrad/`scroll`-Action), dann per JS
+  extrahieren; lange Inhalte häppchenweise ausleiten (Tool-Ausgaben
+  kappen bei ~1.000 Zeichen — `slice()`-weise mit Überlappung
+  zusammensetzen). ⚠️ Scroll-Schleifen mit vielen await-Schritten im
+  javascript_tool frieren den Renderer ein (CDP-Timeout, Tab wirkt
+  tot; er erholt sich nach Wartezeit) — Scrolling gehört ins
+  computer-Tool, nicht in die Seiten-JS. (Herkunft: Zentrale
+  20.08.2026, Notion-Guide-Extraktion.)
 - Browser-/Live-Aktionen nur im Rahmen des Session-Auftrags — ungefragte
   eigenständige Tests macht der User selbst.

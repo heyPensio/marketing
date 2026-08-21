@@ -308,3 +308,54 @@ eigenen Rückfluss — nicht die Vormittagsliste von 10). Vollzug:
   Hartmarke.
 - Stempel im CLAUDE.md-Kopf im SELBEN Commit auf `9187d31` gesetzt
   (Stempel-Zug = zwei Schreiborte, Zentrale-Lehre 19.08.).
+
+---
+
+## Nachzug R20, 21.08.2026 (Stempel `9187d31` → `2061054`)
+
+**Delta: 11 Commits + 1 eigene Master-Reparatur** (`9187d31..2061054`;
+Blueprint-Selbstcheck meldete vorher 2 Sortierungs-Befunde am
+LEHREN-CHANGELOG → am Master repariert, `2061054`: 11 × 08-19-Einträge
+datumsrichtig einsortiert, reine Umordnung mit Multiset-Selbsttest,
+Selbstcheck danach 0 Befunde; Fremd-Arbeit vorher geprüft: Arbeitsbaum
+sauber, 0 eingehend). Disposition dem User vorgelegt, Freigabe
+„A+B+D komplett" (Dropdown 21.08. ~15:00 MESZ). Vollzug:
+
+- **5 Kopien vom Master gezogen** (`sed PROJEKT_CODE→MKT`):
+  `commands/tagesstart.md` (Durchreich-Zeile = Zeiger inkl. Rohbelege,
+  `45a4fff`) · `rules/windows-powershell.md` (G8-Kanarien-Zeile
+  `8a4b0a7` + worktree-260 `e1ec1c8`) · `rules/skill-bauweise.md`
+  (Machbarkeits-Testprobe `7bc627d`) · `rules/browser-automation.md`
+  (Notion-Virtualisierung `7539d2e`) · `rules/quellen-beschaffung.md`
+  (Bericht ist kein Wortprotokoll `2456ebf`). Beleg: `pruefe-kopien.js`
+  **SYNCHRON 12/0**.
+- **CLAUDE.md-Kerne eingearbeitet (6 Deltas):** fetch-Pflicht vor
+  Fremd-Aktivitäts-Aussagen + Wahrheits-Kanal-Verneinung altert (beide
+  in den Verneinungs-Block) · Antwort-Register vor Konsolidierung ·
+  Fahrplan als Master-Referenz im Stand · Einfrier-Anker mit
+  Rechenweg + Einzelhashes (drei neue Bullets vor dem
+  Positivkontroll-Block) · Bau→Plan-Rückfluss / „gebaut, nicht
+  entschieden" (neuer Kern am Doku-Hygiene-Anfang).
+  **Budget-Bilanz: 79.974 → 79.950 B** (+2.074 B Kerne, −2.098 B
+  Kompensation ausschließlich an Fallgeschichten mit Anker;
+  Register-Deckung jedes neuen Zeigers per grep geprüft, 2 ungedeckte
+  Zeiger im selben Zug repariert). Unter Sollmarke 80.000.
+- **Budget-Hook: Delta-Ausnahme nachgebaut** — Blueprint-Fassung
+  (`c034250`-Stand) 1:1 übernommen (G1-Pfadlogik vorher als identisch
+  gemessen, der Hook ist marken-frei und lädt G1 =
+  `tools/pruefe-budget.js`); Selbsttest **11/11 grün** inkl. Fall 9
+  „schrumpfend über Hartmarke → Warnung statt Block". Der Alt-Posten
+  aus der R19-Übergabe ist damit geschlossen.
+- **`.gitattributes` NEU** (ruhiges Fenster, keine Parallel-Session;
+  R36-C-Klasse, Anlass `268465b`): `*.js/*.mjs/*.cjs/*.json/*.sh text
+  eol=lf`; `git add --renormalize` gezielt auf `*.js`/`*.json`:
+  **0 Inhaltsänderungen** (alle 22 Code-Dateien waren bereits LF);
+  Attribut-Wirkung per `git ls-files --eol` belegt (`attr/text
+  eol=lf`). ⚠️ Der PreToolUse-Hook blockte das breite
+  `--renormalize .` — korrekt; gezielte Pathspecs sind der Weg.
+- **Bereits im Tagesverlauf erledigt (Block 2):** design-dna-Baustein
+  aktiviert (`a481483`/`9aeac3a` — 14 Dateien byte-gleich nach
+  `.claude/skills/design-dna/`); firmen-integration Punkt 2
+  (`c1251c5`, eingang/-Postkorb) besteht hier seit 19.08.
+- Stempel im CLAUDE.md-Kopf im SELBEN Commit auf `2061054` gesetzt;
+  Kopf dabei gestrafft (Detail-Historie nur noch hier).

@@ -3,7 +3,13 @@
  * PreToolUse-Hook für ein projektspezifisch aktiviertes CLAUDE.md-Budget.
  *
  * - Edit/Write auf CLAUDE.md: ab WARNSCHWELLE warnen, aber Kürzen erlauben.
- * - Bash/PowerShell mit relevantem git commit: ab HARTMARKE blockieren.
+ * - Bash/PowerShell mit relevantem git commit: ab HARTMARKE blockieren —
+ *   AUSSER der Commit lässt die Datei nicht wachsen (Index-Wert <=
+ *   HEAD-Wert): Delta-Ausnahme, Firmen-Entscheid 19.08.2026. Der Baustein
+ *   sagt selbst „Kürzen ist immer erlaubt"; ein Hook, der über der
+ *   Hartmarke auch schrumpfende/längenneutrale Korrektur-Commits blockt,
+ *   widerspricht der eigenen Regel (Belegfall heyPensio 18.08.2026:
+ *   Faktenkorrektur L-33 musste als Patch abgelegt werden).
  * - Mess- und Git-Fehler in relevanten Pfaden: fail-closed blockieren.
  *
  * Der Hook liest genau ein PreToolUse-JSON von stdin. Exit 0 lässt durch,
@@ -229,6 +235,25 @@ function findeZeigerAusserhalbKopf(puffer) {
   return null;
 }
 
+function messeHeadWert(aufruf, G1) {
+  // Liefert den Messwert der HEAD-Fassung von CLAUDE.md, oder null, wenn
+  // es (noch) keine HEAD-Fassung gibt. Unerwartete Git-Fehler werfen —
+  // der Aufrufer blockiert dann fail-closed.
+  const headDa = spawnSync('git', ['-C', aufruf.repoCwd, 'rev-parse', '--verify', '--quiet', 'HEAD'], {
+    encoding: 'utf8',
+    windowsHide: true,
+  });
+  if (headDa.error) throw headDa.error;
+  if (headDa.status !== 0) return null;
+  const inHead = spawnSync('git', ['-C', aufruf.repoCwd, 'cat-file', '-e', 'HEAD:CLAUDE.md'], {
+    encoding: 'utf8',
+    windowsHide: true,
+  });
+  if (inHead.error) throw inHead.error;
+  if (inHead.status !== 0) return null;
+  return G1.messePuffer(gitPuffer(aufruf.repoCwd, ['show', 'HEAD:CLAUDE.md']));
+}
+
 function messeIndexUndArbeitsbaum(aufruf, G1) {
   const indexPuffer = gitPuffer(aufruf.repoCwd, ['show', ':CLAUDE.md']);
   const index = G1.messePuffer(indexPuffer);
@@ -310,14 +335,28 @@ function verarbeiteEingabe(roheEingabe, optionen = {}) {
         );
       }
       if (messung.massgeblich.wert >= G1.HARTMARKE) {
-        return blockiere([
-          `BLOCKIERT CLAUDE.md-Budget: ${messung.quelle} ${messung.massgeblich.wert} `
-          + `(Bytes ${messung.massgeblich.bytes}, Codepoints ${messung.massgeblich.codepoints}) `
-          + `erreicht/überschreitet die HARTMARKE ${G1.HARTMARKE}.`,
-          `Gegenprobe: Index ${messung.index.wert}, Arbeitsbaum ${messung.arbeitsbaum.wert}.`,
-          'Ausweg: erst kürzen, dann committen; neue Lehren zuerst im vorgesehenen Register sichern.',
-          ...warnungen,
-        ]);
+        const kopf = messeHeadWert(aufruf, G1);
+        if (kopf !== null && messung.index.wert <= kopf.wert) {
+          warnungen.push(
+            `WARNUNG CLAUDE.md-Budget: ${messung.quelle} ${messung.massgeblich.wert} liegt `
+            + `über der HARTMARKE ${G1.HARTMARKE}, aber der Commit lässt die Datei nicht `
+            + `wachsen (HEAD ${kopf.wert} -> Index ${messung.index.wert}) — Delta-Ausnahme `
+            + '(Firmen-Entscheid 19.08.2026): Kürzen ist immer erlaubt. '
+            + 'Die Verdichtung unter die Sollmarke bleibt fällig.',
+          );
+        } else {
+          return blockiere([
+            `BLOCKIERT CLAUDE.md-Budget: ${messung.quelle} ${messung.massgeblich.wert} `
+            + `(Bytes ${messung.massgeblich.bytes}, Codepoints ${messung.massgeblich.codepoints}) `
+            + `erreicht/überschreitet die HARTMARKE ${G1.HARTMARKE}.`,
+            `Gegenprobe: Index ${messung.index.wert}, Arbeitsbaum ${messung.arbeitsbaum.wert}, `
+            + `HEAD ${kopf === null ? 'ohne CLAUDE.md' : kopf.wert}.`,
+            'Durchgelassen wird nur ein Commit, der die Datei nicht wachsen lässt '
+            + '(Index-Wert <= HEAD-Wert, Delta-Ausnahme 19.08.2026).',
+            'Ausweg: erst kürzen, dann committen; neue Lehren zuerst im vorgesehenen Register sichern.',
+            ...warnungen,
+          ]);
+        }
       }
     } catch (fehler) {
       return blockiere([
@@ -354,6 +393,21 @@ function baueIndexRepo(repoCwd, dateiname, inhalt) {
   return path.join(repoCwd, dateiname);
 }
 
+function baueCommitRepo(repoCwd, inhaltHead, inhaltIndex) {
+  fs.mkdirSync(repoCwd, { recursive: true });
+  gitTest(repoCwd, ['init', '--quiet', '-b', 'main']);
+  gitTest(repoCwd, ['config', 'core.autocrlf', 'false']);
+  gitTest(repoCwd, ['config', 'commit.gpgsign', 'false']);
+  gitTest(repoCwd, ['config', 'user.name', 'Selbsttest']);
+  gitTest(repoCwd, ['config', 'user.email', 'selbsttest@example.invalid']);
+  fs.writeFileSync(path.join(repoCwd, 'CLAUDE.md'), inhaltHead);
+  gitTest(repoCwd, ['add', 'CLAUDE.md']);
+  gitTest(repoCwd, ['commit', '--quiet', '--no-verify', '-m', 'head-stand']);
+  fs.writeFileSync(path.join(repoCwd, 'CLAUDE.md'), inhaltIndex);
+  gitTest(repoCwd, ['add', 'CLAUDE.md']);
+  return repoCwd;
+}
+
 function selbsttest() {
   const G1 = ladeG1();
   const tempWurzel = fs.mkdtempSync(path.join(os.tmpdir(), 'regelwerk-hook-'));
@@ -364,7 +418,7 @@ function selbsttest() {
     const ergebnis = verarbeiteEingabe(JSON.stringify(eingabe));
     pruefung(ergebnis);
     bestanden += 1;
-    ausgabe.push(`OK ${bestanden}/9 ${name}`);
+    ausgabe.push(`OK ${bestanden}/11 ${name}`);
   }
 
   try {
@@ -444,15 +498,35 @@ function selbsttest() {
       assert(ergebnis.stderr.includes('Index-Ist-Wert'), 'Index-Quelle fehlt');
     });
 
+    const schrumpfRepo = path.join(tempWurzel, 'commit-schrumpft-ueber-hartmarke');
+    baueCommitRepo(schrumpfRepo, 's'.repeat(G1.HARTMARKE + 500), 's'.repeat(G1.HARTMARKE + 100));
+    fall('Commit über Hartmarke, aber schrumpfend vs. HEAD -> Delta-Ausnahme, Exit 0', {
+      tool_name: 'Bash', cwd: schrumpfRepo,
+      tool_input: { command: 'git commit -m test -- CLAUDE.md' },
+    }, (ergebnis) => {
+      assert(ergebnis.exitCode === 0 && ergebnis.art === 'warnung', 'Schrumpf-Fall falsch');
+      assert(ergebnis.stdout.includes('Delta-Ausnahme'), 'Delta-Ausnahme-Hinweis fehlt');
+    });
+
+    const wachsRepo = path.join(tempWurzel, 'commit-waechst-ueber-hartmarke');
+    baueCommitRepo(wachsRepo, 'g'.repeat(G1.HARTMARKE - 100), 'g'.repeat(G1.HARTMARKE + 100));
+    fall('Commit über Hartmarke und wachsend vs. HEAD -> Exit 2', {
+      tool_name: 'Bash', cwd: wachsRepo,
+      tool_input: { command: 'git commit -m test -- CLAUDE.md' },
+    }, (ergebnis) => {
+      assert(ergebnis.exitCode === 2 && ergebnis.art === 'block', 'Wachstums-Fall falsch');
+      assert(ergebnis.stderr.includes('HEAD'), 'HEAD-Gegenprobe fehlt in der Blockmeldung');
+    });
+
     const kaputt = verarbeiteEingabe('{kein json');
     assert(kaputt.exitCode === 2 && kaputt.art === 'block', 'Kaputtes JSON nicht fail-closed');
     bestanden += 1;
-    ausgabe.push(`OK ${bestanden}/9 unlesbares JSON -> fail-closed Exit 2`);
+    ausgabe.push(`OK ${bestanden}/11 unlesbares JSON -> fail-closed Exit 2`);
 
-    ausgabe.push(`ERGEBNIS: ${bestanden}/9 grün`);
+    ausgabe.push(`ERGEBNIS: ${bestanden}/11 grün`);
     return { exitCode: 0, ausgabe: ausgabe.join('\n') };
   } catch (fehler) {
-    ausgabe.push(`FEHLER nach ${bestanden}/9: ${fehler.message}`);
+    ausgabe.push(`FEHLER nach ${bestanden}/11: ${fehler.message}`);
     return { exitCode: 2, ausgabe: ausgabe.join('\n') };
   } finally {
     fs.rmSync(tempWurzel, { recursive: true, force: true });

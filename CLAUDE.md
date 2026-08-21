@@ -3,14 +3,11 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`9187d31`** (R19-Debrief 19.08.2026: Nachzug
-> 12 Deltas vollzogen [5 Kopien, Wächter 12/0];
-> Gmail-Versand-deny gesetzt [am Pool belegt]; Rückfluss 5 Lehren; ⚠️ Ordner-Bausteine misst
-> der Wächter nicht [Postkorb `f58f1c0`]; Budget-Marken
-> 80.000/85.000/90.000 B, R19 unter Soll). **Die vollständige Nachzugs- und Stempel-Historie steht
-> in `geruest-nachzug-protokoll.md`** — sie gehört nicht in den
-> auto-geladenen Kanal (Transit-Verbot G5). Nachzug neuer
-> Methodik-Lehren: `/projekt-init nachzug`.
+> 2026-08-09; Stand **`2061054`** (R20-Nachzug 21.08.2026: 11 Deltas
+> [5 Kopien, Wächter 12/0; design-dna aktiviert]; ⚠️ Ordner-Bausteine
+> misst der Wächter nicht; Budget-Marken 80.000/85.000/90.000 B).
+> Historie: `geruest-nachzug-protokoll.md` (Transit-Verbot G5);
+> Nachzug neuer Methodik-Lehren: `/projekt-init nachzug`.
 
 ## Was dieses Projekt ist
 
@@ -156,8 +153,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    identisch — aus einem Commit ist NIE ablesbar, welche Session ihn
    schrieb. Wer Sessions unterscheidbar braucht, setzt eine
    **Session-Kennung als erstes Wort der Commit-Message**; ohne sie ist
-   jede Zuordnung eine Vermutung (Belegfall: eine Abnahme-Session ordnete
-   zwei fremde Commits der falschen Session zu).
+   jede Zuordnung eine Vermutung (Belegfall Zentrale 13.08.).
    **⭐ Zwei Sessions am selben Vorgang: die zweite hält AN** (Herkunft:
    Zentrale 13.08.2026, schadenfrei belegt). Trifft eine Session auf
    fremde Commits oder uncommittete Änderungen an genau den Dateien, die
@@ -248,11 +244,10 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    Sache, nie am Restkontingent** (Herkunft: heyPensio R34,
    User-Entscheid für alle Abteilungen). Details: `/tagesstart`.
 7. **Die MODELLWAHL je Session trifft der USER — die Leitsession
-   empfiehlt nur auf seine gezielte Nachfrage** (Herkunft: heyPensio R34,
-   User-Entscheid für alle Abteilungen; ersetzt „Modellwahl trifft die
-   Leitsession". Start-Prompts tragen keine Modellvorgabe, die
-   Strang-Tabelle dokumentiert die User-Wahl nach — eine Modellzeile im
-   Prompt steuert ohnehin nichts). Empfehlungswissen für Nachfragen:
+   empfiehlt nur auf seine gezielte Nachfrage** (heyPensio R34,
+   User-Entscheid; Start-Prompts tragen keine Modellvorgabe, die
+   Strang-Tabelle dokumentiert die User-Wahl nach).
+   Empfehlungswissen für Nachfragen:
    **Fable 5** für Leitsession, Planung, Review, außenwirksame/
    heikle Texte und festgefahrenes Debugging; **Opus 5** für
    Bau-Sessions mit Live-Debugging gegen echte APIs; **Sonnet 5**
@@ -270,8 +265,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
    nicht die Reparatur der schweren** — jeder Befund ist repariert,
    ausdrücklich verworfen oder hat einen benannten Träger, kategorienweise
    MIT NENNER. „Hinweis" ist eine Schwere-Angabe, keine
-   Erledigungs-Kategorie: 24 von 37 Befunden blieben so liegen, vier
-   Fehlerklassen reproduzierten sich eine Runde später — L-13;
+   Erledigungs-Kategorie (24 von 37 blieben so liegen — L-13);
    **ein „eingearbeitet" im Träger ist kein Beleg — die Reparatur wird am
    ROHBELEG gemessen, sonst zählt eine sachlich falsche Reparatur als
    erledigt; und eine Reparatur kann einen ANDEREN Befund verschärfen, vor
@@ -322,7 +316,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   frische Session mit vollem Regelwerk übernimmt; der Zwischenstand wird
   als solcher ausgewiesen.
 - **⭐ Verdichten, Kürzen und Aufräumen sind MÜDIGKEITS-EMPFINDLICH.**
-  (Herkunft: MKT R15, 3 Uhr morgens; Blueprint `cfdd5db`.) Wer erschöpft
+  (MKT R15, 3 Uhr morgens.) Wer erschöpft
   verdichtet, streicht das Unangenehme (Vorbehalte, Geltungsgrenzen,
   Negativbelege), nicht das Überflüssige. **Ein Verdichtungs-Posten wird
   verschoben, nicht mit letzter Kraft erledigt** — die Verschiebung mit
@@ -358,9 +352,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Einreichende gewesen wäre. (Herkunft: Zentrale 10.08.2026.)
 - **⭐ Untracked heißt: kein Undo.** Eine Datei, die nicht unter
   Versionskontrolle steht, wird vor dem Überschreiben VOLLSTÄNDIG
-  gelesen — es gibt keine Wiederherstellung und keinen Diff (Belegfall:
-  30 von 128 Zeilen gelesen, Rest überschrieben, seitdem nicht mehr
-  feststellbar). (Herkunft: Zentrale 10.08.2026.)
+  gelesen — es gibt keine Wiederherstellung und keinen Diff (Belegfall
+  Zentrale 10.08.2026).
 - **⭐ Ein ARBEITSVORRAT ist eine Liste von VERNEINUNGEN — die teuerste
   Aussagenklasse.** „Was ist offen?" heißt „was existiert noch nicht?".
   Ein Positiv belegt EINE Fundstelle, ein Negativ behauptet etwas über
@@ -378,7 +371,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Dokument) · die GANZE Datei, nie ein Ausschnitt (die Antwort stand
   hinter dem gelesenen Bereich) · Fremdmeldungen tragen den Stand ihres
   Lesezeitpunkts, nie den heutigen. Eine unerwartete Referenz in einer
-  Werkzeugausgabe ist ein Prüfauftrag, kein Rauschen.**
+  Werkzeugausgabe ist ein Prüfauftrag, kein Rauschen. Bei Repos mit
+  Remote gehört `git fetch` VOR jede Bestandsaussage über fremde
+  Aktivität — gemessen wird an `origin/<branch>`, nie am lokalen Klon
+  (zwei falsche Negative 19./20.08.2026, 7 Commits lagen auf origin).
+  Auch eine Verneinung im WAHRHEITS-KANAL ist eine solche Annahme —
+  sie altert schneller als der Kanal (heyPensio R50).**
 - **Verifizieren statt glauben:** gegen echte Daten/Doku/Quelle prüfen,
   bevor eine Beobachtung als Regel behandelt wird. Widerlegt die Messung
   den im Auftrag vorgegebenen LÖSUNGSWEG, ist das ein Befund, kein
@@ -421,8 +419,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   lesen, bei Gesprächsquellen die zugehörige FRAGE mit ins Zitat,
   Überschrift/Geltungsbereich mitlesen. **Bei Zitat-Nachprüfungen den
   Absatz-/Rn.-Block am STÜCK lesen — ein Grep auf das Zitat bestätigt
-  das Zitat und verbirgt seinen Kontext** (ein byte-genaues Zitat endete
-  am Satzpunkt unmittelbar vor seinem Gegenbeleg; MKT R14). **⭐ Und der
+  das Zitat und verbirgt seinen Kontext** (MKT R14, Register). **⭐ Und der
   Abbruch markiert verlässlich die Grenze der EIGENEN Umsetzung: Endet
   ein Zitat mitten in einer Aufzählung — ohne Auslassungszeichen —, ist
   der ungenannte Rest die unangenehmere Pflicht** (L-39, Bau-Richtung
@@ -439,11 +436,32 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Plattform-/Instanz-Ebene strukturell blind.
   (k) Ein A/B-Vergleich über zwei Systeme trägt die FALSIFIKATION, nie den
   Ursachen-NACHWEIS — Ausschluss und Nachweis getrennt formulieren.
+- **⭐ ANTWORT-REGISTER vor jeder Konsolidierung offener Punkte:** erst
+  ein Register der bereits gegebenen ANTWORTEN bauen (Punkt → Antwort →
+  Datum/Kanal → Beleg) und jeden Kandidaten dagegen prüfen — voll
+  Beantwortetes in eine prüfbare AUSLASSUNGS-Tabelle, TEILWEISE
+  Beantwortetes nennt die Teilantwort im Punkt selbst.
+  Filter-Positivkontrolle: bekannt-beantwortete Sollwert-Kandidaten
+  MÜSSEN im Register landen und DÜRFEN NICHT als offen erscheinen.
+  (heyPensio R52: 39 von 65 wären als längst beantwortete Fragen an
+  den Kunden gegangen.)
+- **⭐ Ein MEHRSTUFIGER Auftrags-Fahrplan hängt als Master-Referenz im
+  STAND — und ein Stufen-Abschluss wird gegen die STUFENLISTE der
+  Quelle geprüft, nie gegen die eigene Verdichtung** (sonst ist die
+  Kette nach Stufe A „fast fertig", während B–E offen sind); bei
+  mehreren gleichzählenden Fahrplänen (zweimal A–E) Präfix-Pflicht.
+  (heyPensio R52, User-Fang.)
+- **⭐ Einfrier-Anker uncommitteter Prüf-/Abnahme-Stände tragen
+  RECHENWEG + Einzelhashes:** SHA-256 je Datei (`<hash>␣␣<pfad>`, in
+  dokumentierter Reihenfolge) + Gesamt-SHA darüber; der Übernehmer
+  rechnet VOR dem ersten Edit nach; Sekundärbeleg mtime-Kette +
+  identisches git-status-Set. Ein Fingerprint ohne dokumentierte
+  Methode ist unprüfbar (heyPensio R52: 16 Varianten nicht
+  rekonstruierbar).
 - **⭐ Positivkontrolle (operative Pflichtform):** Jede Negativ-Suche läuft
   mit einem Suchbegriff, der treffen MUSS, im selben Lauf — **bei
   Massen-/Langläufen am ANFANG UND am ENDE** (ein Rate-Limit kippt den
-  Kanal MITTEN im Lauf; 218/284 als 429 bei grünen Anfangs-Kontrollen,
-  R19). Der mitgenannte
+  Kanal MITTEN im Lauf; R19). Der mitgenannte
   SUCHRAUM eines Negativs ist selbst Teil der Behauptung — **und seine
   REICHWEITE: Ein präzises Negativ („X = 0") belegt nie die
   Verallgemeinerung („kein Y"); wer eine Bestandsstelle anfasst (auch nur
@@ -480,7 +498,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   **⭐ Eine ABGESCHNITTENE oder ausgelagerte Werkzeugausgabe trägt kein
   Negativ** — zu Ende lesen (Datei/Volldump) oder „nicht erhoben"; **bei
   paginierten Quellen ist „geliefert/gesamt" eine Pflicht-Zahl je Lauf**
-  (100 von 307 Zeilen sahen aus wie ein Ergebnis, R19); **ein
+  (100/307 sah wie ein Ergebnis aus, R19); **ein
   Negativ, das nicht passen kann, ist zuerst ein Werkzeugfehler** (V17-3).
   **⭐ Wer einen Leseumfang protokolliert, protokolliert die ZEILENSPANNE
   mit** — ein zu weit protokollierter Leseumfang beruhigt jeden Prüfer
@@ -501,7 +519,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   nicht an der Zahl:** Könnte das Ergebnis überhaupt anders ausfallen?
   Wenn nicht, ist es keine Zählung, sondern eine Positivliste in
   Verkleidung — **der Nenner gehört an den PRÜFGEGENSTAND, nicht an das
-  Auswahlkriterium** („6 von 6 Anbietern bestätigt" kann nicht anders ausfallen, sobald je Anbieter ein Treffer genügt; L-30 + Nachtrag R12).
+  Auswahlkriterium** („6 von 6 Anbietern bestätigt" kann nicht anders
+  ausfallen; L-30 + Nachtrag R12).
   **⭐ Eine Quelle vollständig GELESEN und vollständig ÜBERNOMMEN zu
   haben sind zwei Behauptungen mit zwei Belegen** — die
   Quellen-Positivkontrolle beantwortet die erste Frage nie mit (L-18).
@@ -561,8 +580,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   dieselbe Belegpflicht wie Zahlen — **auch Funktions-/Organbezeichnungen
   (Geschäftsführer, Inhaber) sind belegpflichtige Bestandsaussagen; im
   Zweifel neutral benennen („wir"), verschärft bei Firmen in Gründung**
-  (L-46: „Der Geschäftsführer hat sich entschieden" wäre als erfundene
-  Organstellung an einen Anwalt gegangen). Auch
+  (L-46, Fallgeschichte im Register). Auch
   **„bestätigt"/„re-bestätigt"/„unverändert" sind Entwarnungen** mit
   voller Belegpflicht — sie fühlen sich wie Nicht-Aussagen an und
   rutschen deshalb ungeprüft durch. **⭐ Und die Belegpflicht kennt
@@ -599,11 +617,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Auffälligkeiten" geglättet werden. **⭐ Und der Abschnitt „nicht
   erhoben / nicht prüfbar" eines PRÜFERS ist die erste
   Nacharbeits-Liste, kein Haftungsausschluss — er benennt Fundorte, nicht
-  Grenzen:** Ein als ungelesen ausgewiesener Quellabschnitt trug drei
-  Funde, darunter eine Klausel, die ein ganzes Gate milderte; der Prüfer
-  hatte sie vorhergesagt (L-48). **„Nicht von MIR geprüft" ist kein
-  „ungeprüft"** — die Fremdmeldung trägt ihren Lesestand (R17: der
-  Vorprüfer hatte die Stelle am Rohbeleg geprüft).
+  Grenzen** (L-48, Fallgeschichte im Register). **„Nicht von MIR geprüft"
+  ist kein „ungeprüft"** — die Fremdmeldung trägt ihren Lesestand (R17).
 - **Recherchen brauchen eine Gegenprobe-Achse**, die die PRÄMISSE des
   Auftrags prüft, nicht nur seine Ausführung. Ein Recherche-Auftrag, der
   bekannte Kandidaten NAMENTLICH nennt, wird zur Verifikation statt zur
@@ -615,7 +630,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   man ANFÄNGT, nicht, wo man aufhört:** Quell-Aufträge nennen das
   DOKUMENT als Leseraum und den Abschnitt nur als Einstieg — die
   Nachbar-Rubrik trug den Entscheider, Bau und Prüfer verengten gleich
-  (L-34, MKT R12; Fallgeschichte im Register V18-1).
+  (L-34; Fallgeschichte V18-1).
 - **⭐ Bewertungs-/Risikodokumente: Ergebnis JE FALLGRUPPE, plus eine
   Liste ausdrücklich GESPERRTER Argumente.** Ein Pauschalurteil zieht
   entweder die tragfähigen Fälle herunter oder deckt das Risiko zu —
@@ -640,9 +655,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Prozessbeschreibungen · beiläufige Zusagen des eigenen Sprechers.
   **⭐ Der Gegen-Durchgang ist AUCH fällig, wenn die Quelle bereits
   vollständig im EIGENEN Archiv liegt — Archivierung fühlt sich wie
-  Auswertung an**; die stärkste Fundstelle für die eigene These kann
-  trotz Volltext-Lektüre liegen bleiben, weil die Auswertung entlang
-  des Fragenkatalogs läuft (Herkunft: heyPensio R40).
+  Auswertung an** (heyPensio R40).
 - **⭐ Zahlen an ihren SCHLÜSSEL binden — eine stimmende Summe ist KEIN
   Zuordnungsbeleg:** vier von sechs Zuordnungen paarweise vertauscht, **die
   Kontrollsumme stimmte weiter** (Register V18-4). Zahlenlisten immer als Tabelle **mit Schlüsselspalte** übernehmen, nie an
@@ -658,10 +671,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   nicht den ihres Namens — vor jedem „Widerspruch" die Positionslisten
   BEIDER Zahlen öffnen, **und die Quelldatei von oben lesen: Ein
   Widerspruch ist erst einer, wenn die Datei ihn nicht selbst auflöst**
-  (der Kopfblock kann die Korrektur bereits tragen; Sammelvermerk R5,
-  Prüferfang). Superlative sofort mit Scope einschränken. **Für
-  jede Zahl, die in ein Dokument geht, den Zählweg benennen** — die
-  plausible Zahl wird nie nachgeprüft, gerade sie ist gefährlich.
+  (Sammelvermerk R5). Superlative sofort mit Scope einschränken. **Für
+  jede Zahl, die in ein Dokument geht, den Zählweg benennen** — gerade
+  die plausible Zahl wird nie nachgeprüft.
 - **⭐ Ein TREFFER ist eine LESESTELLE, kein Befund** — der einzige
   Treffer eines Musters kann das gesuchte Wort in einer
   durchgestrichenen, aufgehobenen Zeile sein; die Trefferzahl allein
@@ -670,16 +682,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   „Muster stumm" von „Bestand schweigt" nicht unterscheidbar, und beides
   führt zu ENTGEGENGESETZTEN Schlüssen. (Herkunft: heyPensio R43.)
 - **⭐ Ein Werkzeug kann eine Regel DOKUMENTIEREN und nur TEILWEISE
-  erzwingen** — eine Selbsttest-Datei behauptete „jedes Muster muss
-  feuern", erzwungen war es für eine Teilmenge; wer die Datei las, hielt
-  die Regel für durchgesetzt. Die Textzusage eines Werkzeugs über sich
-  selbst ist keine Messung: prüfen, für welche TEILMENGE die Schranke
-  greift. (Herkunft: heyPensio R43.)
+  erzwingen** — die Textzusage eines Werkzeugs über sich selbst ist
+  keine Messung: prüfen, für welche TEILMENGE die Schranke greift.
+  (heyPensio R43.)
 - **Eine Zahl, die offensichtlich nicht passen kann, ist ein
   Werkzeugfehler, kein Befund** — erst das Werkzeug prüfen, dann die
   Sache. **Passt EINE Kontrollzahl nicht, ist der ganze LAUF tot, nicht
-  die Stelle** — alle Zahlen desselben Laufs verwerfen (R18: „Umlaut = 2"
-  abgetan, 44/156 Soft-Hyphen/NBSP gemeldet, tatsächlich 0/0). Und:
+  die Stelle** — alle Zahlen desselben Laufs verwerfen (R18, Register).
+  Und:
   Schlägt eine Prüfliste an, ist zuerst das PRÜFMUSTER verdächtig
   (veralteter Sollwert), dann das Dokument.
 - **Beweismaßstab beidseitig anlegen;** eine Analogie (n=1 bei einem
@@ -739,16 +749,14 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   (Herkunft: heyPensio R33.)
 - **⭐ Ein Drift-Check vergleicht ERZEUGTES gegen ERZEUGTES und ist gegen
   ERZEUGUNGS-Fehler blind — jede Generator-Kette braucht zusätzlich eine
-  Prüfung des ERGEBNISSES** (Belegfall Register V19-2: Artefakt
-  unbrauchbar bei >100 grünen Prüfmitteln). Pflichtform: eine Syntax-/
+  Prüfung des ERGEBNISSES** (V19-2). Pflichtform: eine Syntax-/
   Ladeprüfung über jeden erzeugten Baustein des FERTIGEN Artefakts —
   nicht über die Quelle, nicht über den Zwischenstand. **Wo ein Werkzeug
   seinen eigenen Prüfgegenstand herstellt, ist die einzige unabhängige
   Instanz das Ergebnis.** (Herkunft: heyPensio R36.)
 - **⭐ Ein Wächter wird über die GANZE Prüfmenge belegt, nicht an einem
   Exemplar — und der ERFOLGSFALL gehört vor der Auslieferung einmal
-  durchgespielt.** Zwei Belegfälle (zufällig treffende Kontrolle · nie
-  erreichbarer Zielzustand): Register V19-3. **Ein Prüfwerkzeug, das
+  durchgespielt** (Belegfälle V19-3). **Ein Prüfwerkzeug, das
   den Erfolgsfall nicht kennt, ist keins.** (heyPensio R36.)
   **⭐ Hat das Werkzeug mehrere MODI, hat jeder seine eigene
   Erfolgsbedingung** — ein Selbsttest, der „4 gemeldet" erwartet, ist
@@ -776,12 +784,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   nie in einen rotierenden Abschnitt.** Ein Anker aus einem
   Runden-Stand-Block wandert mit der vorgeschriebenen STATUS-Rotation ins
   Archiv — die Kontrolle fällt aus, ohne dass am Prüfgegenstand etwas
-  kaputt ist (gemessen: 10/11 nach einer ganz regulären Rotation). Erst
+  kaputt ist (10/11). Erst
   das Prüfmuster verdächtigen, dann das Dokument. Ebenso: **eine
   Ausnahmeliste zählt EINTRÄGE, nicht Fundstellen** — dieselbe Vorfassung
   darf an zwei Stellen zitiert sein; die Gegenrichtung („verwaister
   Eintrag, kommt nirgends mehr vor") gehört als eigene Ausgabe dazu.
-  (Sammelvermerk R9, beide beim Anwenden der Regeln selbst gefunden.)
+  (Sammelvermerk R9.)
 - **⭐ Ein Zitatabgleich prüft, was als Zitat MARKIERT ist — nicht den
   Fließtext daneben.** Normbegriffe, Absatz-/Rn.-Angaben und
   Rechtsfolgen im Fließtext sieht
@@ -838,9 +846,9 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   liest die TOM-/Ablage-Zeile der Quelle als Anforderung an SICH SELBST,
   nicht als Zulieferung an einen anderen Strang** — genau diese
   Fehllesung stellte eine Repo-Tabelle als Erstform für einen
-  Sperrbestand bereit. **Und ein Gate schützt nur den Pfad, auf dem es
-  liegt:** prüfen, ob der Fall auch DAVOR entstehen kann (ein Sperrfall
-  entsteht ohne Versand, also vor jedem Versand-Gate). (L-44.)
+  Sperrbestand bereit (L-44). **Und ein Gate schützt nur den Pfad, auf
+  dem es liegt:** prüfen, ob der Fall auch DAVOR entstehen kann (ein
+  Sperrfall entsteht ohne Versand, also vor jedem Versand-Gate).
 - **Sicherheits-Regeln:** Den leeren Zustand GETRENNT behandeln
   („Weglassen" ist der leere Zustand; „Weglassen" und „Wiederholen" sind
   dieselbe Operation). Nach jeder geschlossenen Fehlerklasse fragen, wie
@@ -850,8 +858,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   beschreibbar machen; ein Wächter, der beim gewöhnlichen Fall rot wird,
   wird abgeschaltet — Positivkontrolle IN den Wächter einbauen. **⭐
   Dauer-Rot ist ein Konstruktionsfehler, kein Befund** (MKT R15,
-  Blueprint `cfdd5db`: 863 Altlast-Zitate nach der
-  Reichweiten-Erweiterung): zulässig sind **Modus-Trennung**
+  Register): zulässig sind **Modus-Trennung**
   (Bestands-Altlast vs. neue Verstöße) **oder Pool-Erweiterung mit
   Nenner — unzulässig ist, die Fundmenge in die Ausnahmeliste zu
   schieben.** Bei
@@ -953,6 +960,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 
 ## Doku-Hygiene
 
+- **⭐ Nach einem BAU gehört ein RÜCKFLUSS ins PLAN-Dokument:** Der Bau
+  erzeugt Plan-Pflichten (im Bau entstandene Vorbedingungen, neue
+  Gates), nicht nur Protokoll-Zeilen; ein vorläufig verdrahteter
+  offener Entscheidungspunkt wird im Plan als „GEBAUT, NICHT
+  ENTSCHIEDEN" markiert — die Verdrahtung ist keine Freigabe.
+  (heyPensio R50.)
 - **Vorwärtsverweis-Konvention:** Kippt ein neuer Stand eine ältere
   Festlegung, bekommt die ALTE Stelle im selben Zug einen Vorwärtsverweis
   („überholt durch X") — an der Stelle, wo der Leser ANKOMMT, nicht im
@@ -1007,8 +1020,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   (Sammelvermerk R9).
 - **Kalender-Etiketten (Wochentage zu Datumsangaben) und UHRZEITEN nie
   aus dem Kopf** — immer per Werkzeug (`Get-Date`/`date`) erheben;
-  analog Modellnamen (L-07: teils richtig, teils falsch, dadurch schwer
-  auffällig; R17: geschätzte Blockzeiten lagen 1 h vor dem Rechner).
+  analog Modellnamen (L-07; R17).
 - **Vor der Vergabe neuer Kurz-IDs die Kurzzeichen der Nachbardokumente
   greppen** (Kollisionen doppelt belegt). ID-Anker brauchen Rundenbezug.
   **⭐ Dreifach-Beleg an einem Tag (MKT R12, L-35): Auch
@@ -1064,14 +1076,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
 - **Rohbelege gehören in den Ordner IHRER Runde** (`sensibel/rohbelege-R<n>-<S>/`)
   — wer neue Abzüge in den Ordner einer FRÜHEREN Runde legt, lässt jede
   Bestandszahl still altern, die je über diesen Ordner erhoben wurde
-  (L-20, Belegfall im Register).
+  (L-20).
 - **⭐ Eine Trennungs-/Unabhängigkeitsregel bestimmt den ABLAGEORT ihrer
-  Belege mit.** (Zentrale 14.08.2026; Belegfall Register V19-4.) Wer
-  anordnet, dass eine prüfende Instanz nicht ins
-  geprüfte Repo schreibt, sagt im selben Zug, wohin ihre Beweisstücke
-  gehören; `git status` kennt einen Nachbarordner nicht einmal als
-  untracked. **Prüfschritt je Debrief: die Ebene ÜBER den Repos
-  auflisten, jeden Nicht-Repo-Ordner begründen.**
+  Belege mit** (V19-4): Wer anordnet, dass eine prüfende Instanz nicht
+  ins geprüfte Repo schreibt, sagt im selben Zug, wohin ihre
+  Beweisstücke gehören. **Prüfschritt je Debrief: die Ebene ÜBER den
+  Repos auflisten, jeden Nicht-Repo-Ordner begründen.**
 - **Kurz-ID-Kollisionen: das grep läuft ZUERST im eigenen Dokument.** Die
   Regel nennt die Nachbardokumente — vergeben wurde `P22` doppelt innerhalb
   derselben Datei. Der billigste Suchraum ist der nächste. (MKT R7.)

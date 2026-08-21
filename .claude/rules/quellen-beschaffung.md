@@ -237,6 +237,15 @@ Datenblätter, Register, Angebote, PDFs. Herkunft: heyPensio.)*
   der Stelle wie ein Zitat daraus** — die LEHRE über einen Text ersetzt
   nie den Text; vor jeder Weiterverwendung die Originalstelle öffnen.
   (Herkunft: heyPensio L-25.)
+- **Schwesterregel für BERICHTE/ZUSAMMENFASSUNGEN einer Quelle (auch
+  vom User gelieferte): ein Bericht ist kein Wortprotokoll** — er
+  verkürzt systematisch und lässt gerade die Nebensachen fallen, die
+  später „sehr wichtig" sind (Belegfall 20.08.2026: der Video-Bericht
+  trug zwei Referenz-Plattformen nicht bzw. nur beiläufig, den
+  eigentlichen Skill-WORTLAUT gar nicht). **Vor dem KODIFIZIEREN aus
+  einem Bericht das Original beschaffen** und verbatim sichern; eine
+  angeblich „vollständigere Fassung" derselben Datei zuerst per `cmp`/
+  Hash gegen die vorhandene prüfen — identisch ist ein Ergebnis.
 - Bei API-Fehlern erst die aufgelöste Anfrage im Result lesen, nur eine
   Variable pro Versuch ändern, Schreibweise an der echten Doku prüfen.
   Fehlermeldungen von Drittsystemen auch als ERKENNTNISQUELLE lesen.

@@ -50,6 +50,13 @@ Skill-Ebene.)*
   gilt für Karussells, Creatives, Präsentationen, Dokumente
   gleichermaßen. Deckt sich mit dem PDF-Erzeugungsweg des
   freigabe-vorlagen-Bausteins (MD→HTML→Chrome headless→PDF).
+- **Machbarkeits-Testprobe VOR jeder generativen Asset-Serie**
+  (Herkunft: heyPensio R51): Bevor eine Pipeline generative Assets in
+  Serie produziert (Frame-Sequenzen, Bildsätze, Clips), erst EIN
+  billiges Probe-Asset erzeugen und vom User freigeben lassen — erst
+  danach die Serienproduktion. Dazu bewährt: das Anschluss-Bild der
+  Bestandssequenz als End-/Start-Referenz der Generierung mitgeben
+  (nahtloser Übergang statt sichtbarem Schnitt).
 - **Skills dürfen einander und geteilte Assets referenzieren**
   (ebenda): Wiederkehrende Assets (Logos, Profilbilder, Stilvorlagen)
   leben EINMAL in einem geteilten `references/assets`-Ort, nicht je

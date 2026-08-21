@@ -307,6 +307,12 @@ jeden Start-Prompt mit Meilenstein-Kriterium:** Die Arbeits-Session
 sichtet vor jedem Fertig-Kriterium-Meilenstein `git log origin/main -3`
 auf Leitsession-Nachträge (sie kommen als Tagesplan-Commits herein;
 Belegfall: ein Feierabend-Nachtrag lag ~1 h ungelesen auf origin).
+**Und eine DURCHREICH-ZEILE ist ein ZEIGER, kein Auftragsumfang
+(Herkunft: heyPensio R50):** Die Session liest die genannten Dateien UND
+deren zitierte ROHBELEGE (Belegfall: Konsolidierung gelesen, die dort
+zitierten Rohquellen im selben Ordner nie geöffnet — obwohl die Session
+dieselbe Regel am selben Tag gegen ihren Prüfer zitiert hatte); die
+Leitsession nennt in Durchreich-Zeilen die Rohquellen mit.
 
 Pro Session diese sieben Bausteine festlegen — fehlt
 einer, beim User nachfragen statt raten:

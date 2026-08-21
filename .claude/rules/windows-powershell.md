@@ -1,3 +1,5 @@
+*(Kanarienvogel G8: rules/windows-powershell geladen — Loader-Positivkontrolle)*
+
 # Baustein: Windows-/PowerShell-Werkzeugfallen
 
 *(Aktivieren, wenn das Projekt auf einem Windows-Rechner mit PowerShell
@@ -142,6 +144,11 @@ läuft. Herkunft aller Regeln: heyPensio, je teuer belegt.)*
   statt 14 Treffer — ein sauber aussehendes Negativ. Suchwerkzeuge
   immer mit explizitem `path`; ein Nulltreffer nach einem Bash-`cd`
   ist zuerst ein Kanalfehler. (Herkunft: MKT R18.)
+- **`git worktree add` reißt an der Windows-260-Zeichen-Grenze**
+  („Could not reset index file"), sobald der Zielpfad tief liegt — das
+  Session-Scratchpad ist regelmäßig zu tief. Clean-Checkout-/Worktree-
+  Proben auf einen kurzen Temp-Pfad legen (z. B. direkt unter
+  `%LOCALAPPDATA%\Temp\`). (Herkunft: heyPensio R52-A.)
 - **Prozesse NIE nach Namen beenden (`taskkill /IM node.exe`,
   `Stop-Process -Name node`) — im Multi-Session-Betrieb trifft das die
   Vorschau-Server, Watcher und Skripte der PARALLELEN Sessions.** Immer

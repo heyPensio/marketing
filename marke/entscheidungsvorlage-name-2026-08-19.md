@@ -50,6 +50,74 @@
 > (Frei-Befund-Stand: 19.08.2026, ~11:46–11:58 UTC, RDAP). Vor dem
 > finalen Entscheid ist eine NEUMESSUNG der sechs Pflicht.
 
+---
+
+## 🔄 NACHTRAG 21.08.2026 (R20-Härtung, Shanks) — Neumessung + Risikozeilen zur Sechser-Auswahl
+
+> **Leseweg für den Entscheid:** Die Wahl steht zwischen den SECHS
+> Innsight-Kombinationen aus dem Nachtrags-Kasten vom 19.08. (~15:00) —
+> **der Hauptteil unten (drei Finalisten Wisestay/Innsight/Stayahead)
+> ist durch diese Nachträge ÜBERHOLT** und bleibt nur als vorgelegte
+> Historie unverändert stehen (Freigabe-Regel: vorgelegte Texte werden
+> nie umgeschrieben). Entscheidungsgrundlage ist DIESER Kasten plus der
+> Kasten vom 19.08.
+
+**Neumessung 21.08.2026, 14:06 MESZ (12:06 UTC), 40 Abrufe:** Alle
+sechs Kombinationen sind **weiterhin `.de` UND `.com` frei** (RDAP
+denic/verisign), DPMA-Smartsearch 0 Treffer, EUIPO 0 Treffer (auch in
+den Kernklassen 9/35/42/43) — **unverändert gegenüber dem 19.08.**
+Positiv-/Negativkontrollen liefen am ANFANG UND am ENDE des Laufs und
+trafen beide je Kanal mit verschiedenen Sollwerten (Skript-Härtung
+R20; R19-Lehre „Kanäle kippen unter Last"). Rohbelege + SHA-256:
+`sensibel/rohbelege-R20-leit/sechser-neumessung/`. Messform je
+Kombination: Bindestrich-Domain (`innsight-hospitality.de` usw.) und
+Registersuche über die Wortform mit Bindestrich — dieselbe Form wie am
+19.08. *(Was diese Messung NICHT prüft: Handles/Social, Websuche,
+Halter-Identitäten — bewusst außerhalb des Schnellcheck-Zuschnitts.)*
+
+**Was für ALLE sechs gleichermaßen gilt (die Vorbehalte hängen am Kern
+„Innsight", nicht am Beinamen):**
+
+1. **K2-Anwalts-Vorbehalt (bewusst offen, Dein Entscheid 19.08.):** Im
+   DE/EU-wirksamen Suchraum um den Kern stehen u. a. **`Inn:Sights`**
+   (DE 3020232350773, Kl. 35/41/42, eingetragene Wortmarke, Inn:Syn
+   GmbH — der Klassentext trägt wörtlich unser Leistungsfeld),
+   **`INNOSIGHT`** (WO 972657, Kl. 9/16/35/41, eingetragen, Schutz
+   u. a. DE) und der **Branchen-Namensvetter INNsight.com, Inc.**
+   (San Francisco, Hotel-Dienstleister mit US-Marken; `innsight.com`
+   nicht erwerbbar). Nach unserem Kriterienkatalog blockiert „nicht
+   prüfbar" wie ein Treffer — der gewählte Name trägt diesen Vorbehalt
+   sichtbar, bis die Anwalts-Markenrecherche gelaufen ist. **Ob der
+   Beiname die Verwechslungsgefahr am Kern mindert, ist ausdrücklich
+   Teil der offenen Anwaltsfrage — nicht unsere Annahme.**
+2. **K4-Verzicht:** Der Diktat-/Sprechbarkeits-Test wurde von Dir am
+   19.08. dauerhaft verworfen — das Kriterium bleibt offen und steht
+   als zweiter sichtbarer Vorbehalt am Namen.
+3. **Klangnähe:** „Innsight" fällt gesprochen mit dem Allerweltswort
+   „Insight" zusammen (Befund R19-C, gilt beinamen-unabhängig).
+
+**Risikozeile je Kombination** (Messwerte differenzieren nicht — alle
+sechs frei/0; die Trennfrage ist die Sprachschiene. Einordnung der
+Sprachschiene: eigene Beschreibung der Leitsession, keine Messung):
+
+| Kombination | `.de`/`.com` (21.08.) | Register (21.08.) | Sprachschiene + Eigenart des Beinamens |
+|---|---|---|---|
+| Innsight **Hospitality** | frei / frei | 0 / 0 | englisch; internationales Branchenwort, sagt Branche, nicht Leistung |
+| Innsight **Hotelsysteme** | frei / frei | 0 / 0 | deutsch; benennt die Leistung (Software/Systeme) am konkretesten |
+| Innsight **Hotelsolutions** | frei / frei | 0 / 0 | englische Mischform; „Solutions" ist das generischste der sechs Beiwörter |
+| Innsight **Gastgewerbe** | frei / frei | 0 / 0 | deutsch; breitester Begriff (schließt Gastronomie ein — breiter als unser Portfolio heute) |
+| Innsight **Hotelbetrieb** | frei / frei | 0 / 0 | deutsch; klingt nach dem Betreiben des Hotels selbst, weniger nach Software dafür |
+| Innsight **Hoteliers** | frei / frei | 0 / 0 | deutsch (Lehnwort); benennt die Zielgruppe statt der Leistung |
+
+**Alterungs-Regel mit Prüfschritt (statt bloßer Warnung):** Diese
+Frei-Befunde tragen den Stand 21.08., 14:06 MESZ. **Fällt der
+Entscheid an einem späteren Tag, läuft die Neumessung am Entscheidstag
+erneut** — Aufwand Minuten (`marke/live-welle/schnellcheck.js`, Liste
+liegt bereit), das getragene Front-Running-Risiko (Kasten 19.08.,
+~15:10) bleibt bis dahin bestehen.
+
+---
+
 ## Kopfblock
 
 **Zweck:** Du wählst heute den neuen Firmennamen aus drei Finalisten —

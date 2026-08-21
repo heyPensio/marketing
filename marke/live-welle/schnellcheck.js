@@ -1,5 +1,5 @@
 // Schnellcheck (Leitsession, R19 Welle 5): nur Domains .de/.com (RDAP) + DPMA-Smartsearch + EUIPO eSearch je Wort.
-// Kein Handles-/Websuche-Teil (Zeit). Positiv-/Negativkontrolle je Kanal im selben Lauf; Rohantworten + Hashes in --aus.
+// Kein Handles-/Websuche-Teil (Zeit). Positiv-/Negativkontrolle je Kanal am ANFANG UND ENDE des Laufs (R20-Haertung, R19-Lehre "Kanaele kippen unter Last"); Rohantworten + Hashes in --aus.
 // Aufruf: node marke/live-welle/schnellcheck.js --liste=<datei mit einem Wort je Zeile> --aus=<ordner>
 // Ausgabe: Markdown-Tabelle (kein Urteil).
 'use strict';
@@ -26,17 +26,24 @@ const rdap = async (label, dom, tld) => { const u = tld === 'de' ? `https://rdap
 const dpma = async (label, q) => { const r = await req(label, `https://register.dpma.de/DPMAregister/smartsearch?queryString=${encodeURIComponent(q)}`); try { const j = JSON.parse(r.text); return j.marErrors === '' ? Number(j.marHits) : `ERR:${j.marErrors}`; } catch (e) { return `?${r.status}`; } };
 const euipoBody = (q) => new URLSearchParams({ start: '0', rows: '100', searchMode: 'basic', criterion_1: 'ApplicationNumber', term_1: q, operator_1: 'OR', condition_1: 'CONTAINS', criterion_2: 'MarkVerbalElementText', term_2: q, operator_2: 'OR', condition_2: 'CONTAINS', criterion_3: 'OppositionIdentifier', term_3: q, operator_3: 'OR', condition_3: 'CONTAINS', sortField: 'ApplicationNumber', sortOrder: 'asc' }).toString();
 const euipo = async (label, q) => { const r = await req(label, 'https://euipo.europa.eu/copla/ctmsearch/json', { method: 'POST', headers: { 'content-type': 'application/x-www-form-urlencoded', origin: 'https://euipo.europa.eu', referer: 'https://euipo.europa.eu/eSearch/' }, body: euipoBody(q) }); try { const j = JSON.parse(r.text); if (!Number.isFinite(Number(j.total)) || !Array.isArray(j.items)) return `?schema`; const rel = j.items.filter(it => /(^|[^0-9])(9|35|42|43)([^0-9]|$)/.test(String(it.nice || ''))).length; return `${j.total} (9/35/42/43: ${rel})`; } catch (e) { return `?${r.status}`; } };
+// Kontrollblock als Funktion: laeuft am ANFANG und am ENDE des Laufs
+// (R19-Lehre: Kanaele kippen unter Last MITTEN im Lauf - 218/284 als 429
+// bei gruenen Anfangs-Kontrollen; gruen nur, wenn BEIDE Durchgaenge treffen).
+async function kontrollen(phase, neg) {
+  console.log(`\n| Kontrolle (${phase}) | .de | .com | DPMA | EUIPO |\n|---|---|---|---|---|`);
+  console.log(`| positiv (hey-pensio.de / apaleo.com / apaleo / APPLE) | ${await rdap(`ctl-de-pos-${phase}`, 'hey-pensio.de', 'de')} | ${await rdap(`ctl-com-pos-${phase}`, 'apaleo.com', 'com')} | ${await dpma(`ctl-dpma-pos-${phase}`, 'apaleo')} | ${await euipo(`ctl-euipo-pos-${phase}`, 'APPLE')} |`);
+  console.log(`| negativ (${neg}) | ${await rdap(`ctl-de-neg-${phase}`, neg + '.de', 'de')} | ${await rdap(`ctl-com-neg-${phase}`, neg + '.com', 'com')} | ${await dpma(`ctl-dpma-neg-${phase}`, neg)} | ${await euipo(`ctl-euipo-neg-${phase}`, neg)} |`);
+}
 (async () => {
   const neg = 'qzx7w5' + Math.random().toString(36).slice(2, 8);
-  console.log('| Kontrolle | .de | .com | DPMA | EUIPO |\n|---|---|---|---|---|');
-  console.log(`| positiv (hey-pensio.de / apaleo.com / apaleo / APPLE) | ${await rdap('ctl-de-pos', 'hey-pensio.de', 'de')} | ${await rdap('ctl-com-pos', 'apaleo.com', 'com')} | ${await dpma('ctl-dpma-pos', 'apaleo')} | ${await euipo('ctl-euipo-pos', 'APPLE')} |`);
-  console.log(`| negativ (${neg}) | ${await rdap('ctl-de-neg', neg + '.de', 'de')} | ${await rdap('ctl-com-neg', neg + '.com', 'com')} | ${await dpma('ctl-dpma-neg', neg)} | ${await euipo('ctl-euipo-neg', neg)} |`);
+  await kontrollen('start', neg);
   console.log('\n| Wort | .de | .com | DPMA (marHits) | EUIPO gesamt (davon Kl. 9/35/42/43) |\n|---|---|---|---|---|');
   const words = fs.readFileSync(liste, 'utf8').split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#'));
   for (const w of words) {
     const l = w.toLowerCase();
     console.log(`| ${w} | ${await rdap(`${l}-de`, l + '.de', 'de')} | ${await rdap(`${l}-com`, l + '.com', 'com')} | ${await dpma(`${l}-dpma`, w)} | ${await euipo(`${l}-euipo`, w)} |`);
   }
+  await kontrollen('ende', neg);
   fs.writeFileSync(path.join(aus, 'hashes.txt'), hashes.join('\n') + '\n');
   console.log(`\nAbrufe: ${n}; Zeit: ${new Date().toISOString()}; Rohbelege: ${aus}`);
 })();

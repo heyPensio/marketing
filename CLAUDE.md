@@ -3,9 +3,8 @@
 Diese Datei leitet Claude Code beim Arbeiten in diesem Repository an.
 
 > **Gerüst-Stand:** erzeugt aus `projektgerüst` Commit `64a1c20` am
-> 2026-08-09; Stand **`935dc70`** (R20 21.08.: 11 Deltas + 1 fremdes
-> Nach-Delta [heyPensio R53] + eigener Rückfluss; Wächter 12/0;
-> ⚠️ Ordner-Bausteine misst er nicht).
+> 2026-08-09; Stand **`935dc70`** (R20 21.08.: 12 Deltas + eigener
+> Rückfluss, Wächter 12/0; ⚠️ Ordner-Bausteine misst er nicht).
 > Historie: `geruest-nachzug-protokoll.md` (G5); Nachzug:
 > `/projekt-init nachzug`.
 
@@ -57,7 +56,7 @@ Fertig-Kriterium. Jede Ebene trägt Name + Kurz-Code:
 | **MKT-BELEG** | Pilot-Dokumentation | Vorher-Baseline VOR dem PMS-Livegang (Ende September — **nicht nachholbar**) gemessen; Referenzvereinbarungen aller 3 Pilotobjekte; Case Study nach Livegang; Demo-Video Voice-Check-in. |
 | **MKT-HANDEL** | Pricing & Vertriebswerkzeuge | Preismodell + Angebotsarchitektur + Sales-Deck/One-Pager + **Kanal-Rechtsmatrix (UWG § 7)** vor dem Zielkundenlisten-Bau + Lead-Prozess mit Kapazitätsdeckel + Vertrags-/AVV-Anforderungen (Zulieferung an Zentrale). |
 | **MKT-WEB** | Website & digitale Präsenz | Vollwertige Website unter dem NEUEN Namen live (echte Fotos, BFSG-Einstufung mit Beleg, datenschutzkonformes Tracking, Impressum/Datenschutz/Cookies); Social-Profile angelegt. Startet erst nach Namensentscheid (sonst Wegwerfarbeit). |
-| **MKT-AKQ** | Akquise & Kampagnen | Kanalmix NACH dem Persona-Befund festgezurrt (Kandidaten: Founder-Direktvertrieb, Referenz-/Empfehlungsmechanik, Apaleo-Ökosystem/App-Store, DEHOGA/Verbände, Internorga Hamburg (März — ⚠️ HINTER der November-Frist, trägt für Abschluss 1 nicht; R8/N-4), Fach-/Regionalpresse, LinkedIn, Newsletter); Maßnahmen laufen; **erster Abschluss bis Mitte November**. |
+| **MKT-AKQ** | Akquise & Kampagnen | Kanalmix NACH dem Persona-Befund festgezurrt (Kandidaten: Founder-Direktvertrieb, Referenz-/Empfehlungsmechanik, Apaleo-Ökosystem/App-Store, DEHOGA/Verbände, Internorga Hamburg (März) **als Rückwärts-Anker** — ⚠️ liegt HINTER der November-Frist, trägt für Abschluss 1 nicht (R8/N-4), Fach-/Regionalpresse, LinkedIn, Newsletter); Maßnahmen laufen; **erster Abschluss bis Mitte November**. |
 | **MKT-OPS** | AI-native Betrieb & Messung | Lead-Tracking, Funnel-KPIs (Erstgespräche/Woche · Pipeline · Zeit bis Abschluss 1 · Referenz-Assets · Reply-Quote), Kostendeckel, AI-Act-Kennzeichnungs-Policy, VVT/AVV-Inventar, Zugangs-Register (2FA/Recovery, in `sensibel/` + Backup), n8n-Instanz-Entscheid. **Agenten-Hierarchie GEPARKT** — Ent-Park-Trigger normativ in `zentrale\rollen-charta.md` (ZWEI Bedingungen: Prozess produziert nachweislich Kunden UND gemessene Arbeitslast erzwingt die Ebene). |
 
 **Namenskonvention:**
@@ -356,7 +355,8 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Ein Positiv belegt EINE Fundstelle, ein Negativ behauptet etwas über
   den GESAMTEN Bestand. **Negative altern still** (sie werden falsch,
   sobald jemand die Sache baut — der Posten wird beim Erledigen nicht
-  gestrichen), und **der Suchweg bestimmt das Ergebnis** (was unter anderem
+  gestrichen, **weil das Ergebnis anderswo dokumentiert wird**; dort ist
+  auch die Suchrichtung), und **der Suchweg bestimmt das Ergebnis** (was unter anderem
   Namen existiert, liefert einen leeren Grep). **Pflichtform: Jede
   Verneinung, die einen AUFTRAG trägt, wird am OBJEKT geprüft und mit
   Suchweg + Stand ausgewiesen** — besonders „X existiert nicht",
@@ -462,12 +462,12 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Verallgemeinerung („kein Y"); wer eine Bestandsstelle anfasst (auch nur
   für einen Zählweg-Nachtrag), liest den GANZEN Satz gegen den eigenen
   neuen Bestand (L-39).** Randfälle einzeln belegen statt Vollabdeckung
-  behaupten. Je PRÜFKANAL ein konkreter Kontrollkandidat; der
-  stärkste Kontrollbegriff spiegelt die SUCHMECHANIK des Nulltreffers
+  behaupten. Je PRÜFKANAL ein konkreter Kontrollkandidat — **erst wenn
+  JEDER Kanal seinen benannten Anker hat, ist „je Suchlauf" umgesetzt**;
+  der stärkste Kontrollbegriff spiegelt die SUCHMECHANIK des Nulltreffers
   (z. B. Teilwort-Probe), nicht nur irgendeinen garantierten Treffer; er **trägt die ZEICHENKLASSE des Musters (`§`, Umlaut,
-  Ziffer) und hat je Kanal einen VERSCHIEDENEN Sollwert (cs ≠ ci)** — eine
-  Kontrolle mit derselben Zahl in beiden Kanälen prüft den Kanal nicht
-  (L-43, vierfach; Sammelvermerk R3).
+  Ziffer) und hat je Kanal einen VERSCHIEDENEN Sollwert (cs ≠ ci)**
+  (L-43, vierfach).
   **Bei EXTRAKTIONEN prüft die Kontrolle die Vollständigkeit des
   ERGEBNISSES** (bekannte Elemente müssen erscheinen), nicht die
   Erreichbarkeit der Quelle (V17-1). **Bei gegliederten Quellen gehört
@@ -985,7 +985,7 @@ Systeme, Fertig-Kriterium, Modell). Regeln:
   Abschlussmeldung.** Auslöser ist die Rotation des Kurz-Einstiegs, nicht
   der Kalender (V17-10). **Gegenrichtung: Eine AUFGEWORFENE Frage, die
   nicht als Entscheidungspunkt GEFÜHRT wird, existiert für die
-  Folgearbeit nicht** — fünf Folgerunden schlossen die Antwort per
+  Folgearbeit nicht** — fünf weitere WELLEN schlossen die Antwort per
   Konstruktion aus (Sammelvermerk R20).
   **⭐ Und die GEGENRICHTUNG, die dabei regelmäßig ausfällt: Wer eine
   QUELLE schärft, zieht im selben Zug die daraus ABGELEITETEN Dokumente
@@ -1184,7 +1184,7 @@ hierher, nicht ins Repo.
 ist keine Schlank-Entscheidung, sondern eine offene Falle, sobald das
 Projekt die Werkzeugklasse täglich benutzt** — Prüffrage bei jedem
 Nachzug: „Welche Werkzeugklasse benutzt dieses Projekt täglich ohne
-den zugehörigen Baustein?" [Stand 21.08.: 8/8 Rules-Bausteine + Skill
+den zugehörigen Baustein?" [21.08.: alle oben aktiv + Skill
 `design-dna`].)*
 
 ## Lehren-Register

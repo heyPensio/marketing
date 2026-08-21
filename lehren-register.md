@@ -3376,3 +3376,36 @@ Anfangsmessung nicht erfasst worden — die Pflicht-Neumessung der
 Delta-Liste VOR dem Stempelsetzen hat es gefangen. Ein Stempel auf den
 eigenen Rückfluss-Commit hätte behauptet, auch dieser fremde Vorfahr
 sei disponiert. Zweitbeleg zur Regel aus MKT R43.
+
+**V20-8 — Nachträge der Verdichtungs-Gegenprobe R20 (Befunde V-2/V-5/V-6):**
+Die Gegenprobe hat drei Belege gefunden, die beim Kompensationslauf aus
+CLAUDE.md fielen, **ohne dass das Register sie trug** — die
+Debrief-Behauptung „ausschließlich Fallgeschichten mit Register-Deckung"
+war insoweit falsch. Sie werden hier nachgetragen, damit die gekürzten
+Kern-Zeilen ihre Deckung bekommen:
+
+- **Arbeitsvorrat/Verneinungen (MKT R15, Dringlichkeitsbeleg):** In
+  EINER Runde trugen **4 von 5 Strängen** eine widerlegte Verneinung.
+  Das ist der Beleg dafür, warum „was ist offen?" die teuerste
+  Aussagenklasse ist — ein Negativ behauptet etwas über den GESAMTEN
+  Bestand, ein Positiv nur über eine Fundstelle. (Stand vorher nur im
+  Projektquelle-Changelog.)
+- **Baustein-Aktivierung (Herkunft: Zentrale 14.08.2026):** Der Kern
+  „Ein nicht aktivierter Baustein ist keine Schlank-Entscheidung,
+  sondern eine offene Falle" stammt aus der Zentrale-Prüfung vom
+  14.08.2026; die Herkunftsangabe fiel beim Kürzen weg.
+- **Dubletten-Regel, Anwendungsbeleg (MKT R16):** Die beiden Kerne
+  „Verhandlungs-Informationshygiene" und „AVV-/DSB-Pflichtprüfpunkt"
+  lebten in CLAUDE.md **doppelt neben den Bausteinen, ohne Wächter** —
+  genau der Zustand, den die Dubletten-Regel verbietet (zulässig sind
+  nur Wächter-Kopie oder Vorrangklausel). Seit R16 stehen dort Zeiger.
+
+**Verfahrensbefund zur Gegenprobe selbst (wichtiger als die Einzelfunde):**
+Der Lauf prüfte den Debrief-Commit `4dd2ebd` — **aber R20 hatte ZWEI
+Kompensationsläufe.** Der erste steckte im Nachzug-Commit `c466c76`
+(dort fiel u. a. die L-48-Fallgeschichte „ein ganzes Gate milderte"),
+und auch er meldete „Kompensation unter Soll". **Eine Verdichtungs-
+Gegenprobe muss den PRÜFRAUM an der Runde ausrichten, nicht am
+Debrief-Commit** — sonst prüft sie den letzten Lauf und beglaubigt
+stillschweigend die früheren. Klasse: derselbe Fehler wie ein
+Prüfstand, der enger geschnitten ist als der Prüfgegenstand.

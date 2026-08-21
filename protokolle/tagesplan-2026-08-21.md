@@ -230,3 +230,42 @@ eigene Behauptungen, davon **eine falsche**, als Kalibrierung.
 ## Tagesende — Übergabe für den nächsten Tagesstart
 
 *(wird am Blockende gefüllt)*
+
+*(Der Abschnitt oben blieb leer, weil kein Blockwechsel nötig wurde —
+die Leitsession lief durchgehend in einem Fenster.)*
+
+### Tagesende — Übergabe für den nächsten Tagesstart (21.08., ~22:15 MESZ)
+
+- **R20 ist mit dem Debrief 21.08. GESCHLOSSEN.** Der Tag lief in
+  sieben Blöcken statt der geplanten vier — nach Block 3 kam der
+  User-Zuruf „ich will heute zu einem Namensentscheid kommen", der die
+  Runde inhaltlich neu aufgemacht hat.
+- **🔴 Der Namensentscheid ist WEITERHIN OFFEN** — aber erstmals
+  entscheidungsreif vorbereitet: Vorsatz gesetzt („hey" bleibt),
+  Bauform gefunden (Kunstwort im Pensio-Muster), `heyHospio` vom User
+  in die engere Wahl aufgenommen (**kein** Entscheid). Träger:
+  `marke/entscheidungsvorlage-name-2026-08-19.md`, oberster Kasten.
+- **Unmittelbar nächster Schritt (vom User bereits freigegeben, an
+  diesem Abend nicht mehr gelaufen): die VERTIEFUNG** für den/die
+  Finalisten — Handelsregister · Branchenverzeichnis-/Namensvetter-
+  Suche (W9) · Handles · K6-EN-Check · **Markenlage zum Vorsatz „hey"
+  selbst**. Werkzeuge liegen bereit (`schnellcheck.js` mit
+  `--nur-domains`, `handles-r19c.js`, Verfahren §§ 6/7).
+- **Postkorb an die Zentrale ist RAUS** (Teil-Rebrand, Commit im
+  zentrale-Repo) — Antwort abwarten, betrifft die
+  Gesellschafter-Freigabe.
+- **Offene User-Handgriffe:** finaler Name · fünf R16-Entscheide
+  (darunter **Kanzlei** — Erreichbarkeitsfenster erst wieder Mo 24.08.)
+  · Zielstichprobe · Anker H-8/AKQ-H-2 · H-1-Delta 22.09./01.10. ·
+  **Push** (der Klassifikator hat alle `git push`-Versuche dieser
+  Session geblockt — Handgriff: `! git push origin main`).
+  *(A5-Probedruck ENTFALLEN, User 21.08.)*
+- **Werkzeug-Merker für die nächste Session:** Der Bash-Kanal hat heute
+  ZWEIMAL zugeschlagen — `node -e` mit mehrzeiligem Array legte leere
+  Müll-Dateien im projektgeruest an, und Backticks in einem `node -e`
+  wurden als Kommandosubstitution ausgeführt und fraßen neun Code-Spans
+  aus dem frisch geschriebenen STATUS.md (am Objekt gefunden, repariert).
+  **Konsequenz: mehrzeilige Texte mit Backticks/Umlauten immer per
+  Write-Tool, nie über den Bash-Kanal** — die Regel stand im Baustein,
+  die Session hat sie zweimal verletzt.
+- Blockwechsel: nächste Runde NEUES Fenster.

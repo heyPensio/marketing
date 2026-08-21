@@ -192,6 +192,76 @@ was unter M4–M6 oben auch für die Sechser-Auswahl offen ist.
 
 ---
 
+## 🆕 NACHTRAG 21.08.2026 abends — Das Feld ist NEU AUFGEMACHT (Wellen 7–12)
+
+> **Leseweg, Stand jetzt:** Der Nachtrags-Kasten vom 19.08. (Sechser-
+> Auswahl Innsight) ist **nicht mehr allein maßgeblich** — der User hat
+> das Feld am 21.08. neu geöffnet („Erst neue Namen finden, dann
+> entscheiden"). Die Innsight-Sechser bleiben wählbar, stehen aber
+> neben den Kandidaten unten. Vollständige Herleitung, Messwerte und
+> Geltungsgrenzen: `marke/live-welle/welle7-bericht-2026-08-21.md`.
+
+### ✅ Zwei Richtungsentscheide des Users (21.08., Dropdown)
+
+1. **Der Vorsatz „hey" BLEIBT** (~18:00 MESZ). Auf die Frage, welcher
+   Teil von „heyPensio" nicht zur Zielgruppe passt: **„Das ‚Pensio' —
+   zu klein."** Damit ist die seit Welle 2 offene Kontinuitätsfrage
+   beantwortet. ⚠️ Folge, aktiv gemeldet: **Aus dem Voll-Rebrand wird
+   ein TEIL-Rebrand** — berührt die Gesellschafter-Freigabe 51/49 (galt
+   „dem Rebrand"), den Cutover-Plan MARKE5 und die Bestandsrecherche
+   MARKE1. Meldung an die Zentrale steht aus.
+2. **Bauform-Entscheid, aus dem Verlauf abgeleitet und durch die
+   Messung bestätigt:** Der zweite Teil ist ein **Kunstwort im
+   Pensio-Muster** (*-ion → -io*), kein Alltagswort. Belegt: 14 von 20
+   Kandidaten dieser Bauform hatten beide Domains frei, gegenüber
+   3 von 75 in den Alltagswort-Schienen.
+
+### 🟢 In die engere Wahl AUFGENOMMEN (User 21.08. ~18:35 MESZ)
+
+> **`heyHospio`** — *„heyhospio klingt am besten von deinen
+> Vorschlägen, nehmen wir mit auf"* (User, Chat; sinngemäß, Wortlaut
+> nicht archiviert). **Das ist eine AUFNAHME IN DIE WAHL, KEIN
+> ENTSCHEID** — der Namensentscheid steht weiterhin aus.
+
+**Stand `heyHospio`** (Schnellcheck 21.08., 16:27 UTC, Rohbelege
+`sensibel/rohbelege-R20-leit/final-hospitio/`):
+
+| Achse | Befund |
+|---|---|
+| Bedeutung | zu lat. *hospitium* — **Gastfreundschaft, Herberge, Gastrecht**; größenneutral (jede Hausgröße) |
+| Form | **9 Zeichen**, hey-HOS-pio — identische Silbenzahl und Betonung wie hey-PEN-sio |
+| `.de` / `.com` | **frei / frei** |
+| DPMA / EUIPO (Gesamtzeichen) | **0 / 0** |
+| **Kern „Hospio"/„Hospitio"** | **0 DPMA, 0 EUIPO gesamt** — die einzige glatte Doppel-Null aller am 21.08. geprüften Kerne. Zum Vergleich: der Bestandskern „Pensio" hat 338 EUIPO-Treffer, davon **0 exakte Identität** — dieselbe Lage. |
+| ⚠️ **Noch NICHT geprüft** | TMview-Vollerhebung/Ähnlichkeitsraum · Handelsregister · Branchenverzeichnis-/Namensvetter-Suche (W9) · Social-Handles · EN-Aussprache/Bedeutung (K6) · **die Marken-/Namenslage zum Vorsatz „hey" selbst** (neu relevant, weil der Vorsatz bleibt) |
+
+### Das übrige Feld (alle Schnellcheck-sauber, gleiche Geltungsgrenze)
+
+**Gleiche Bauform, Kern ebenfalls frei:** heyHospitio · heyHospita
+(*hospita* = die Gastgeberin) · heyReceptio · heyHabitatio.
+**Aus Welle 8/9 (`hey` + Alltagswort):** heyGast · heyDirekt ·
+heyEmpfang · heyPuls · heyRuhe — vom User verworfen („klingt alles
+scheisse"), hier nur der Vollständigkeit halber geführt.
+**Ohne den Vorsatz (Welle 7):** Wirtsam · Leichthand.
+**Zurufe des Users vom 21.08.:** Thousand Stays (sauber) · NovaLogis
+(`.com` vergeben) · NeoHost/Roomeo (gefallen).
+
+### 🔴 Vom User vorgeschlagen und BELASTET zurückgegeben
+
+- **heyHoGa** — Gesamtzeichen frei, aber der Kern „HoGa" trägt **83
+  DPMA- und 285 EUIPO-Marken** (62 in den Kernklassen), ist
+  **beschreibend** (Hotel- und Gaststättengewerbe, § 8 MarkenG) und
+  kollidiert mit **DEHOGA (42 Marken)** — dem Verband, den die
+  Projektquelle als Akquise-Kanal führt. Dazu: schließt Gastronomie ein
+  (breiter als das Portfolio), zwei Binnenmajuskeln.
+- **heyLogio** — klanglich vom User favorisiert, aber der Kern `LOGIO`
+  ist eine **eingetragene Wortmarke in den Klassen 35, 38, 42**
+  (Kl. 42 = Software; am EUIPO-Rohbeleg ausgezählt, die übrigen 29
+  Treffer sind Teilwort-Rauschen). Derselbe Vorbehaltstyp wie bei
+  Innsight.
+
+---
+
 ## Kopfblock
 
 **Zweck:** Du wählst heute den neuen Firmennamen aus drei Finalisten —

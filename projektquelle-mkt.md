@@ -164,9 +164,23 @@ Strang-Übersichtstabelle: CLAUDE.md „Projektstruktur".)*
   Nachtrags-Kette). **E-K1 GELOCKERT** (`.com` Kür — Katalog-Nachtrag
   + Rückwirkungs-Posten Welle 5) · **K4 bewusst verzichtet** · **K2
   bewusst offen** (Anwalts-Vorbehalt am Kern: Inn:Sights Kl. 42 ·
-  INNOSIGHT · US-Namensvetter INNsight.com). Finaler Entscheid VERTAGT
-  („sacken lassen"); Front-Running abgelehnt = getragenes Risiko,
-  **Neumessung der sechs Domains vor dem Entscheid ist Pflicht**.
+  INNOSIGHT · US-Namensvetter INNsight.com). Front-Running abgelehnt =
+  getragenes Risiko, **Neumessung vor dem Entscheid ist Pflicht**
+  (Messliste versioniert: `marke/live-welle/sechser-liste.txt`).
+  **⚠️ Stand R20 (21.08.2026) — ÜBERHOLT die Vertagung: Das Feld ist
+  NEU AUFGEMACHT** (User: „Erst neue Namen finden, dann entscheiden").
+  Neumessung 6/6 weiter frei (2 Läufe, Kern mitgemessen). **Zwei
+  Richtungsentscheide:** der Vorsatz **„hey" BLEIBT** (Kontinuitäts-
+  frage aus Welle 2 beantwortet → **TEIL-Rebrand**, Zentrale-Meldung
+  offen) · Bauform = **Kunstwort im Pensio-Muster** (*-ion → -io*;
+  14/20 frei gegen 3/75 bei Alltagswörtern). **In die engere Wahl
+  aufgenommen (KEIN Entscheid): `heyHospio`** — `.de`+`.com` frei,
+  DPMA/EUIPO 0/0, Kern frei; daneben heyHospitio · heyHospita ·
+  heyReceptio · heyHabitatio. Die sechs Innsight-Kombinationen bleiben
+  wählbar und sind als **einzige** voll vertieft (R19-C). **Für ALLE
+  Kandidaten offen:** TMview-Ähnlichkeitsraum · Handelsregister ·
+  W9-Namensvetter · Handles · K6-EN-Check · Markenlage zum Vorsatz
+  „hey" selbst. Bericht: `marke/live-welle/welle7-bericht-2026-08-21.md`.
 - **MARKE2** Gesellschafter-Entscheid (51/49) + Namensentscheid.
   Gate: GbR-Namensführungsfrage geklärt (Zentrale/StB). Fertig:
   datierter Entscheid in `zentrale`.
@@ -858,6 +872,26 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
 
 ## 7. NÄCHSTER KONKRETER SCHRITT
 
+00. **⭐⭐ NEU AUS R20 (21.08.2026) — der Namensentscheid ist
+   entscheidungsreif vorbereitet, aber NICHT gefallen.** Zustand:
+   `heyHospio` ist vom User in die engere Wahl aufgenommen (kein
+   Entscheid); der Vorsatz „hey" ist gesetzt; die Bauform ist gefunden.
+   **Die drei nächsten Schritte, in dieser Reihenfolge:**
+   (a) **Vertiefung für den/die Finalisten** — Handelsregister ·
+   Branchenverzeichnis-/Namensvetter-Suche (W9) · Handles ·
+   K6-EN-Check · **Markenlage zum Vorsatz „hey" selbst** (neu relevant,
+   in keiner Welle geprüft). Der User hatte sie am 21.08. freigegeben;
+   sie ist an dem Abend nicht mehr gelaufen.
+   (b) **Postkorb-Meldung an die Zentrale zum TEIL-Rebrand** (⚠️ offen):
+   Deckt die Gesellschafter-Freigabe 51/49 einen Teil-Rebrand? · MARKE5
+   wird kleiner (Vorsatz + `hey-pensio.de` wandern teilweise mit) ·
+   MARKE1-Bestandsrecherche „heyPensio" bekommt neues Gewicht.
+   (c) **K2-Anwaltspaket schnüren** — trägt jetzt drei Posten:
+   Innsight-Vorbehalt (falls die Sechser weiter im Rennen bleiben),
+   Handelsregister und W9-Namensvetter für den gewählten Namen.
+   ⚠️ Erst NACH dem Namensentscheid laufen MKT-WEB, CI (MARKE4, nach der
+   Design-DNA-Methode) und die Firmierung an.
+
 0. **⭐⭐ NEU AUS R7 — der Akquisekanal, auf den die November-Frist
    gerechnet war, ist zu.** `handel/kanal-rechtsmatrix.md` (R07-C) belegt
    an Primärquellen: **E-Mail-Kaltakquise B2B ist abwägungsfrei
@@ -1274,6 +1308,36 @@ ein, § 3.4 schießt über**) · die Lizenz-Belegkette aus R15-D
 ---
 
 ## CHANGELOG
+
+- 21.08.2026 (**R20-Debrief, Leitsession Shanks allein — Namenshärtung,
+  Nachzug, Wellen 7–12**): ⭐⭐ **Der Namensstau ist gelöst — durch zwei
+  Richtungsentscheide des Users, nicht durch mehr Namen.**
+  **(1) Der Vorsatz „hey" BLEIBT** (Dropdown ~18:00: „das ‚Pensio' — zu
+  klein"). Damit ist die **seit Welle 2 offene Kontinuitätsfrage**
+  beantwortet, die nie als Entscheidungspunkt geführt worden war und
+  deshalb fünf Wellen lang per Kontaminationsschutz ausgeschlossen
+  blieb. ⚠️ **Folge, aktiv gemeldet: aus dem Voll-Rebrand wird ein
+  TEIL-Rebrand** — berührt die Gesellschafter-Freigabe 51/49 (galt „dem
+  Rebrand"), den Cutover-Plan MARKE5 und die Bestandsrecherche MARKE1;
+  **Postkorb-Meldung an die Zentrale STEHT AUS.**
+  **(2) Bauform = Kunstwort im Pensio-Muster** (*-ion → -io*), gemessen
+  bestätigt (14/20 Domains frei gegen 3/75 bei Alltagswörtern).
+  **Ergebnis:** `heyHospio` vom User **in die engere Wahl AUFGENOMMEN —
+  ausdrücklich KEIN Entscheid** (9 Zeichen wie heyPensio, `.de`+`.com`
+  frei, DPMA/EUIPO 0/0, **Kern frei**); daneben heyHospitio ·
+  heyHospita · heyReceptio · heyHabitatio. Belastet zurückgegeben:
+  heyHoGa (Kern 83 DPMA, beschreibend, DEHOGA-Konflikt) · heyLogio
+  (`LOGIO` Kl. 35/38/42) · Hospify · Hotelfreunde. Sechser-Auswahl aus
+  R19 bleibt wählbar (K2-Vorbehalt unverändert), Neumessung 6/6 frei.
+  Träger: `marke/entscheidungsvorlage-name-2026-08-19.md` (Nachtrags-
+  Kästen) + `marke/live-welle/welle7-bericht-2026-08-21.md`.
+  **Prüf-Subagent 10/10 disponiert** (3 repariert, 3 mit Träger:
+  K6-EN-Check [User] · Handelsregister · W9-Namensvetter → K2-Paket).
+  **Methodik:** L-53 (Bestandteile-Prüfung) · L-54 (Bauform statt
+  Menge) · ERFÜLLEN-Gegenrichtung · V20-1…7; Blueprint-Rückfluss
+  `935dc70`; Gerüst-Nachzug 11 + 1 fremdes Nach-Delta vollzogen;
+  `.gitattributes` NEU; Budget-Hook-Delta-Ausnahme (Selbsttest 11/11);
+  CLAUDE.md 79.946 B unter Soll; Wächter 12/0.
 
 - 21.08.2026 (**R20 Block 2, Leitsession Shanks — Postkorb-Eingang
   Design-DNA eingearbeitet**): Zentrale-Meldung 20.08. (+ Anlage

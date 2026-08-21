@@ -26,8 +26,53 @@
 ---
 
 ## Letzte Aktualisierung
-**18.–19.08.2026 (R19, Namensrunde über zwei Tage — Shanks + Ben
-Beckman [A/C] + Codex [B Phase 0]; Debrief 19.08. nachmittags)** — ⭐⭐
+**21.08.2026 (R20, Namenshärtung → Feld NEU AUFGEMACHT — Shanks allein,
+kein Parallelbetrieb; Debrief abends)** — ⭐⭐ **Der Namensstau ist
+diagnostiziert und gelöst: nicht die Menge war das Problem, sondern die
+BAUFORM — und die seit fünf Wellen unbeantwortete Frage nach dem
+„hey".**
+**Block 1 Namenshärtung:** Neumessung der sechs Innsight-Kombinationen
+(2 Läufe, 6/6 weiter frei, Kern mitgemessen); Prüf-Subagent 0 schwer /
+6 mittel / 4 Hinweise, **10/10 disponiert** (3 repariert: Messliste
+versioniert · Kern mitgemessen · HTTP-Status je Abruf archiviert; 3 mit
+Träger: K6-EN-Check [User] · Handelsregister · W9-Namensvetter → beide
+ans K2-Anwaltspaket).
+**Block 2:** Postkorb Design-DNA eingearbeitet (MARKE4 trägt die
+Methodik: Rebuild-Test, Referenz-Gate savee/refero als Pflicht-Schritt 1),
+`design-dna`-Baustein aktiviert (14 Dateien byte-gleich), Postkorb im
+selben Commit geleert.
+**Block 3:** Gerüst-Nachzug 11 Deltas + 1 fremdes Nach-Delta,
+Budget-Hook-Delta-Ausnahme nachgebaut (Selbsttest 11/11),
+**`.gitattributes` NEU** (0 Inhaltsänderungen, alle 22 Code-Dateien
+bereits LF).
+**Blöcke 4–7 (User-Zuruf „ich will heute zu einem Namensentscheid
+kommen"):** Wellen 7–12, ~120 neue Kandidaten in 12 Messläufen
+(Kontrollen je Lauf Anfang UND Ende getroffen). **Zwei
+Richtungsentscheide des Users:** (1) **der Vorsatz „hey" BLEIBT**
+(„das ‚Pensio‘ ist zu klein") — damit ist die seit Welle 2 offene
+Kontinuitätsfrage beantwortet und aus dem Voll- ein **TEIL-Rebrand**
+(⚠️ berührt Gesellschafter-Freigabe, MARKE5, MARKE1 — Zentrale-Meldung
+STEHT AUS); (2) **Bauform = Kunstwort im Pensio-Muster** (*-ion → -io*),
+gemessen bestätigt: 14/20 Domains frei gegen 3/75 bei Alltagswörtern.
+**🟢 In die engere Wahl AUFGENOMMEN (KEIN Entscheid): `heyHospio`** —
+9 Zeichen wie heyPensio, `.de`+`.com` frei, DPMA/EUIPO 0/0 **und Kern
+frei** (einzige glatte Doppel-Null aller geprüften Kerne). Daneben
+heyHospitio · heyHospita · heyReceptio · heyHabitatio (gleiche Lage).
+**Belastet zurückgegeben:** heyHoGa (Kern 83 DPMA, beschreibend,
+DEHOGA-Konflikt) · heyLogio (`LOGIO` Kl. 35/38/42) · Hospify
+(`HOSPIFY` Kl. 9/38) · Hotelfreunde (`.de` vergeben + Typ-Marker).
+**Debrief:** L-53 (Bestandteile-Prüfung) + L-54 (Bauform statt Menge)
++ ERFÜLLEN-Gegenrichtung; Register V20-1…7; Blueprint-Rückfluss
+`935dc70`, Stempel gesetzt (Pflicht-Neumessung fing ein fremdes
+Nach-Delta); CLAUDE.md **79.946 B** unter Soll; Wächter 12/0.
+**Beim User offen: finaler Name · fünf R16-Entscheide · Zielstichprobe
+· Anker H-8/AKQ-H-2 · H-1-Delta 22.09./01.10.** *(A5-Probedruck
+ENTFALLEN, User 21.08.)* *(Details: Projektquelle-Changelog R20,
+`marke/live-welle/welle7-bericht-2026-08-21.md`, Tagesplan 21.08.)*
+
+**Vorheriger Stand — 18.–19.08.2026 (R19, Namensrunde über zwei Tage —
+Shanks + Ben Beckman [A/C] + Codex [B Phase 0]; Debrief 19.08.
+nachmittags)** — ⭐⭐
 **Kein finaler Name, aber die Wahl liegt fertig geprüft beim User:
 engere Auswahl aus SECHS Innsight-Kombinationen (Beiname-Route), alle
 mit `.de` UND `.com` frei und Register-Identität 0.**
@@ -55,60 +100,6 @@ Name (Sechser-Auswahl) · fünf R16-Entscheide · Zielstichprobe ·
 Vorlagen-Lesart/A5 (🔴 vor So 23.08.) · Anker H-8/AKQ-H-2 ·
 H-1-Delta 22.09./01.10.** *(Details: Projektquelle-Changelog R19,
 Tagesplan 19.08.)*
-
-**Vorheriger Stand — 17.08.2026 spätabends (R18, Shanks + Ben Beckman + Codex + Lucky Roux
-parallel — zweite Folgerunde nach `/clear`, 19:23–21:30 MESZ)** — ⭐⭐
-**Rechtsmatrix und Briefing tragen jetzt den Stand, den R17 gefunden hat;
-der Akquiseplan hat an sechs Stellen die Zwei-Tore-Logik; der Zitat-Wächter
-normalisiert verschachtelte Zitate und hat alle 36 Rot-Meldungen in sechs
-Klassen sortiert.**
-🔴 Prüf-Subagent kippte **4 von 20** Prompt-Prämissen (Rn. 220 stand in
-o8 § 7.1 · 7 von 8 Aufnahmebefunden L-26 · Z. 413 Kreuzzitate ·
-`core.autocrlf` System-Config).
-**R18-A:** Rn. 220 als Zeiger · **PV-1** (Rn. 187/188) in AA § 6a · **8/8
-Aufnahmebefunde am Rohbeleg** (1 repariert: Tenor Nr. 4 „bei einem Dritten
-**zu dem Zweck** erhoben hat" — Ellipse fehlte, Aktiv→Passiv) ·
-Parallelverfahren negativ mit Kanalbefund (SHA-identische Antworten),
-Kanzlei-Bitte sichtbar; ⭐ Rn. 22 sagt „Kenntnis", nicht „begründet" ·
-Arbeitstitel-Frage § 4a Kandidat C · o8 B-6 + FG-2 · Sperrdatei SP-01/
-SP-09 · Klauselblock 32 Rn. → 3 Wirkungen · Prüfer **23 = 3/9/11 + 8
-rückwärts**, 3/3 · 8/9 · 9/11 · 5/8; 🔴 alle drei schweren im eigenen
-Begründungstext (L-49). Push geblockt → Leitsession.
-**R18-B (Codex, Abnahme `d107529`):** `> >`-Fix mit Regression +
-Rückbau-Gegenprobe 1/1 · **36/36 klassifiziert** (α0 β8 γ7 δ2 ε1 ζ18) ·
-EIGEN_R18 = 7 · Prüfstand 29 NEU, Live **59 NEU** (= 29 + 30 R18-A) ·
-Baselines unverändert · fünf Policy-Fragen → entschieden, **Bau R19**.
-**R18-C:** **6 statt 5** Ein-Gate-Stellen (Gegenleser fand § 2 K1) ·
-Relativzeiten absolut · Soft-Hyphen 1→0 · `AKQ-H-2` (Kollision ≥ 6, der
-Auftrags-Sollwert 3 war falsch) · **Vorlagen-Stand erhoben: gebaut seit
-R3, „beauftragt" undefiniert → User-Rückfrage, A5-Probedruck vor So
-23.08.** · Gegenleser 16/16; 🔴 STATUS-Vorbehalt „SOLANGE …" beim
-Zitieren weggelassen — vom Wächter gefangen.
-**Leitsession:** P6 Webdesign-Leitlinie (Zeiger MKT-WEB) · **P7: „Z-6
-aufgelöst" laut heypensio ÜBERHOLT, Nachzug wartet** · L-51/L-38/
-Werkzeugfehler-Zahl geschärft, **79.992 B** unter Soll · Sammelvermerk
-R18 (62 + 13) · Blueprint `74277bc` (⚠️ eigener Regel-1-Vorfall: 35
-fremde tagesstart-Zeilen mit-committet, Postkorb) · **Nachzug `9858070`
-offen** · Wächter 12/0. **Beim User offen: fünf
-R16-Entscheide · Zielstichprobe · Vorlagen-Lesart/A5-Probedruck (So 23.08.)
-· Anker H-8/AKQ-H-2.** *(Details: Projektquelle-Changelog R18, Tagesplan
-17.08. Block 5.)*
-
-*(Davor: R17 — OLG 20 W 37/24 + EuGH C-621/22 beschafft, Zitat-Wächter
-Ausbaustufe 3, CLAUDE.md unter Sollmarke; rotiert 19.08.2026 (R19) →
-`STATUS-archiv.md`. Davor R16 — Rechtsposten im Bestand, Briefing an der Versandschwelle,
-Wächter aus dem Dauer-Rot, Regelwerk-Wächter Pflicht; rotiert 17.08.2026
-(R18) → `STATUS-archiv.md`. Davor R15 — Anwalts-Briefing, § 6a Angebotsarchitektur, Wächter
-ZIEL 2→6, Lizenzkette, Sperrdatei; rotiert 17.08.2026 (R17) →
-`STATUS-archiv.md`. Davor R14 — Z-6 aufgelöst, Belegstufen-Hebung, § 3a-Befund;
-rotiert 17.08.2026 (R16) → `STATUS-archiv.md`. Davor R13 — S4 + AA-1…AA-8 eingearbeitet, B-1…B-7 im Regelwerk,
-O-9 geführt; rotiert 14.08.2026 (R15) → `STATUS-archiv.md`. Davor R12 — E-1…E-8 eingearbeitet, Preisliste + Angebotsarchitektur
-gebaut; rotiert 13.08.2026 (R14) → `STATUS-archiv.md`. Davor R11 —
-Preismodell-Entscheidungsvorlage gebaut/geprüft; rotiert 13.08.2026
-(R13). Davor R10 — Umbau-Runde F10/F13/Nachzug; rotiert 13.08.2026
-(R12). Davor R9 — O-8 gebaut/geprüft, O-2 entschieden,
-Rn.-87-Verschärfung Listenaufbau; rotiert 12.08.2026 (R11). Ältere
-Stände: `STATUS-archiv.md`.)*
 
 ## Aktueller Stand
 - Projektstruktur angelegt: MKT-FUND (Positionierung) · MKT-MARKE

@@ -116,6 +116,80 @@ erneut** — Aufwand Minuten (`marke/live-welle/schnellcheck.js`, Liste
 liegt bereit), das getragene Front-Running-Risiko (Kasten 19.08.,
 ~15:10) bleibt bis dahin bestehen.
 
+### 🔧 Prüfer-Reparaturen + Lauf 2 (21.08., 14:29 MESZ — sichtbarer Nachtrag, keine stille Glättung)
+
+Der unabhängige Prüfer (`protokolle/R20-pruefer.md`, Befunde 0 schwer /
+6 mittel / 4 Hinweise, Kalibrierung bestanden) hat am Kasten oben sechs
+Lücken gefunden. Disposition — jede repariert oder mit Träger:
+
+- **„Liste liegt bereit" war unbelegt** (M1 — die Liste lag nur im
+  flüchtigen Session-Speicher): ✅ repariert — die Messliste ist jetzt
+  versioniert (`marke/live-welle/sechser-liste.txt`, inkl. Kern und
+  Zuruf-Kandidaten).
+- **Der KERN „Innsight" war am 21.08. nicht neu gemessen** (M2 — alle
+  Vorbehalte hängen am Kern, der Alterungs-Prüfschritt hätte einen
+  neuen Kern-Treffer nie gefangen): ✅ repariert — **Lauf 2 (14:29
+  MESZ, 66 Abrufe, Kontrollen Start+Ende erneut grün)** misst den Kern
+  mit: `innsight.de`/`innsight.com` REG (bekannt, unverändert) ·
+  **DPMA-Smartsearch 1 Marken-Treffer** (Identitäts-Kanal; der
+  Treffername ist über Smartsearch nicht ausweisbar — die
+  R19-C-Vertiefung kennt im DE-Raum als Identitätszeile nur
+  `Sinnsight.` [beendet]; ob es derselbe Treffer ist, ist NICHT belegt)
+  · EUIPO 0. Der K2-Anwalts-Vorbehalt bleibt unverändert bestehen.
+  Die sechs Kombinationen wurden im selben Lauf erneut bestätigt
+  (frei/frei/0/0). **Der Alterungs-Prüfschritt oben gilt ab jetzt für
+  die LISTE INKL. KERN.** Rohbelege:
+  `sensibel/rohbelege-R20-leit/lauf2-voll/`.
+- **`.com`-Frei-Belege waren 0-Byte-Dateien ohne Status** (M3 — am
+  Rohbeleg nicht von einem Fehlabruf unterscheidbar): ✅ repariert —
+  das Skript archiviert jetzt HTTP-Status + Bytezahl je Abruf
+  (`status.txt`); **maßgeblich ist Lauf 2** (Lauf 1, 14:06, bleibt als
+  Rohbeleg ohne Status-Datei liegen).
+- **EN-Aussprache-/Muttersprachler-Check (K6) fehlt in den geltenden
+  Kästen** (M4 — er überlebte nur im überholten Hauptteil): ✅
+  aufgenommen — **K6-Teilprüfung „Muttersprachler-Check EN" ist
+  weiterhin OFFEN** (User-Handgriff; nur der Diktat-Test K4 wurde am
+  19.08. verzichtet, der EN-Check nicht). Gilt beinamen-unabhängig.
+- **„Register 0/0" ist für Laien als Voll-Register lesbar** (M5):
+  ✅ klargestellt — „Register" in den Tabellen heißt **MARKENregister
+  (DPMA + EUIPO)**. Eine **Handelsregister-/Firmennamen-Recherche ist
+  nie gelaufen** (auch nicht am 19.08.) — offener Punkt, Träger:
+  K2-Anwaltspaket bzw. nächste Runde.
+- **Der Kanal, der weitere Branchen-Namensvetter fände, lief nie**
+  (M6 — der US-Namensvetter INNsight war ein Zufallsfund):
+  ✅ ausgewiesen — Branchenverzeichnis-/Websuche (Katalog W9) zu den
+  sechs Kombinationen und zum Kern steht aus; gleicher Träger wie M5.
+- Hinweise: Die Query-Schreibweise 21.08. (großgeschrieben) ist gegen
+  die 19.08.-Schreibweise nicht auf Groß-/Klein-Empfindlichkeit
+  geprüft (H1) · die Bindestrich-Query-Grenze (H2) ist durch die
+  Kern-Mitmessung entschärft (jede „Innsight …"-Marke trifft die
+  Kern-Query) · aus dem überholten Hauptteil gelten WEITER: die
+  K-Kriterien-Definitionen, der Fünf-Gates-Block zur öffentlichen
+  Nennung und „So läuft es weiter" (H3) · die Halter-Zuordnung
+  INNsight.com beruht auf Browser-Sichtung ohne Hash-Beleg — schwächere
+  Belegstufe (H4).
+
+### 🆕 Zuruf-Kandidaten des Users (21.08., Chat: „Thousand Stays · NeoHost · Roomeo · NovaLogis")
+
+Alle vier im Lauf 2 mitgemessen (gleiche Kanäle, gleiche Kontrollen;
+Rohbelege ebd.):
+
+| Kandidat | `.de` | `.com` | DPMA (Marken) | EUIPO (davon Kl. 9/35/42/43) | Kurz-Einordnung |
+|---|---|---|---|---|---|
+| **Thousand Stays** | frei (beide Formen: `thousandstays` + `thousand-stays`) | frei (beide Formen) | 0 (auch Leerzeichen-Query) | 0 | **messseitig der sauberste Neuzugang** — Domains beider Schreibweisen frei, Markenregister leer |
+| **NeoHost** | REG | REG | 0 | 0 | fällt an der Domain-Pflicht (E-K1: `.de` ist Pflicht) |
+| **Roomeo** | REG | REG | **6** | **3 (3)** | doppelt belastet: Domains vergeben UND Markenregister-Treffer in unseren Kernklassen |
+| **NovaLogis** | **frei** | REG | 0 | 0 | unter dem gelockerten E-K1 (`.com` Kür) wählbar |
+
+⚠️ **Geltungsgrenze:** Das ist der SCHNELLCHECK-Stand (Domains +
+Markenregister-Identität + Kontrollen) — **nicht die R19-C-Prüftiefe**,
+die die Sechser-Auswahl hinter sich hat (TMview-Vollerhebung,
+Ähnlichkeitsraum, Handles, Namensvetter-Suche, W-Kriterien). Es gilt
+dieselbe Regel wie für Innsolutions (Übergabe 19.08.): **Soll einer
+dieser Kandidaten ernsthaft ins Rennen, braucht er erst die volle
+Prüftiefe.** Für Thousand Stays und NovaLogis zusätzlich offen: alles,
+was unter M4–M6 oben auch für die Sechser-Auswahl offen ist.
+
 ---
 
 ## Kopfblock

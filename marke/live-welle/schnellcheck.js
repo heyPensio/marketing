@@ -9,7 +9,9 @@ const liste = arg('liste'), aus = arg('aus');
 if (!liste || !aus) { console.error('Aufruf: --liste=<datei> --aus=<ordner>'); process.exit(2); }
 fs.mkdirSync(aus, { recursive: true });
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36';
-let n = 0; const hashes = [];
+let n = 0; const hashes = []; const statusZeilen = [];
+// R20-Haertung (Prueferbefund M3): HTTP-Status je Abruf in status.txt archivieren -
+// ein leerer 404-Body (RDAP .com) war sonst am Rohbeleg nicht von einem Fehlabruf unterscheidbar.
 async function req(label, url, opt = {}) {
   for (let i = 0; i < 3; i++) {
     try {
@@ -18,8 +20,10 @@ async function req(label, url, opt = {}) {
       const f = `${String(++n).padStart(3, '0')}-${label}.txt`;
       fs.writeFileSync(path.join(aus, f), text);
       hashes.push(`${crypto.createHash('sha256').update(text).digest('hex')}  ${f}`);
+      statusZeilen.push(`${f}  HTTP ${r.status}  ${text.length} Bytes  ${url}`);
+      fs.writeFileSync(path.join(aus, 'status.txt'), statusZeilen.join('\n') + '\n');
       return { status: r.status, text };
-    } catch (e) { if (i === 2) return { status: 'ERR', text: String(e) }; await new Promise(r => setTimeout(r, 1000 * (i + 1))); }
+    } catch (e) { if (i === 2) { statusZeilen.push(`(${label})  ERR nach 3 Versuchen  ${url}  ${String(e).slice(0, 120)}`); fs.writeFileSync(path.join(aus, 'status.txt'), statusZeilen.join('\n') + '\n'); return { status: 'ERR', text: String(e) }; } await new Promise(r => setTimeout(r, 1000 * (i + 1))); }
   }
 }
 const rdap = async (label, dom, tld) => { const u = tld === 'de' ? `https://rdap.denic.de/domain/${dom}` : `https://rdap.verisign.com/com/v1/domain/${dom}`; const r = await req(label, u); let reg = null; try { reg = Boolean(JSON.parse(r.text).ldhName); } catch (e) { reg = null; } return r.status === 200 && reg ? 'REG' : (r.status === 404 ? 'frei' : `?${r.status}`); };
@@ -40,8 +44,13 @@ async function kontrollen(phase, neg) {
   console.log('\n| Wort | .de | .com | DPMA (marHits) | EUIPO gesamt (davon Kl. 9/35/42/43) |\n|---|---|---|---|---|');
   const words = fs.readFileSync(liste, 'utf8').split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#'));
   for (const w of words) {
-    const l = w.toLowerCase();
-    console.log(`| ${w} | ${await rdap(`${l}-de`, l + '.de', 'de')} | ${await rdap(`${l}-com`, l + '.com', 'com')} | ${await dpma(`${l}-dpma`, w)} | ${await euipo(`${l}-euipo`, w)} |`);
+    const l = w.toLowerCase().replace(/\s+/g, '-');
+    // Woerter MIT Leerzeichen sind reine Register-Queries (eine Domain kann kein Leerzeichen tragen) -
+    // Domain-Spalten dann "n/a" statt eines kaputten Abrufs (R20, Zuruf-Kandidaten in Zwei-Wort-Form).
+    const mitDomain = !/\s/.test(w);
+    const de = mitDomain ? await rdap(`${l}-de`, w.toLowerCase() + '.de', 'de') : 'n/a';
+    const com = mitDomain ? await rdap(`${l}-com`, w.toLowerCase() + '.com', 'com') : 'n/a';
+    console.log(`| ${w} | ${de} | ${com} | ${await dpma(`${l}-dpma`, w)} | ${await euipo(`${l}-euipo`, w)} |`);
   }
   await kontrollen('ende', neg);
   fs.writeFileSync(path.join(aus, 'hashes.txt'), hashes.join('\n') + '\n');

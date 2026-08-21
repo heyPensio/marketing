@@ -1,0 +1,16 @@
+# Sechser-Auswahl (User 19.08.) - Bindestrich-Domainform = Registerquery
+Innsight-Hospitality
+Innsight-Hotelsysteme
+Innsight-Hotelsolutions
+Innsight-Gastgewerbe
+Innsight-Hotelbetrieb
+Innsight-Hoteliers
+# Kern (Prueferbefund M2: Vorbehalte haengen am Kern - Kern wird mitgemessen)
+Innsight
+# Zuruf-Kandidaten User 21.08. (~14:4x MESZ, Chat): Thousand Stays / NeoHost / Roomeo / NovaLogis
+Thousandstays
+Thousand-Stays
+Thousand Stays
+NeoHost
+Roomeo
+NovaLogis

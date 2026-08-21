@@ -1,0 +1,30 @@
+# Welle 9 (21.08.2026): hey + GROESSENNEUTRALER Zweitteil.
+# User-Entscheid 21.08. ~18:00: Das "hey" BLEIBT (Kontinuitaet), "Pensio" faellt weil zu klein
+# fuer die erweiterte Zielgruppe (groessere Haeuser). Damit ist die seit Welle 2 offene
+# Kontinuitaetsfrage (naming-sprint-welle2 Par. 5.5a) BEANTWORTET.
+# Ausgeschlossen per Entscheid: Zweitteile mit Groessen-Marker nach unten
+# (Pension, Wirt, Inn, Herberge) und nach oben (Resort, Grand).
+heyHotel
+heyLobby
+heyCrew
+heyTeam
+heyStaff
+heyShift
+heyRound
+heyPilot
+heySync
+heyLink
+heyPort
+heyCloud
+heyKlar
+heyFrei
+heyRuhe
+heyNight
+heyFloor
+heyCheckin
+heyWelcome
+heyEmpfang
+heyPuls
+heyTakt
+heyOrbit
+heySignal

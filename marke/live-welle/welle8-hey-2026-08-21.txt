@@ -1,0 +1,20 @@
+# Welle 8 (21.08.2026): KONTINUITAETS-SCHIENE "hey" - der Vorsatz bleibt, der Groessen-Marker "Pensio" faellt.
+# Anlass: User-Aussage 21.08. "bei heyPensio war das Gefuehl sofort da, aber der Name passt nicht zur Zielgruppe".
+# Befund Bestand: Die "hey"-Kontinuitaetsfrage steht seit Welle 2 OFFEN (naming-sprint-welle2 Par. 5.5a),
+# ist nicht als E-K-Punkt gefuehrt, und alle 275 bisherigen Kandidaten schliessen den Vorsatz per
+# Kontaminationsschutz AUS. Diese Schiene wurde also nie gemessen.
+# Kern-Form zusammengeschrieben (E-K3: Bindestrich nur defensiv).
+heyStay
+heyHost
+heyGuest
+heyLodge
+heyInn
+heyHaus
+heyDesk
+heySuite
+heyRoom
+heyWirt
+heyGast
+heyFlow
+heyKey
+heyDirekt

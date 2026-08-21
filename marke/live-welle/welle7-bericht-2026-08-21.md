@@ -107,3 +107,73 @@ Handelsregister/Firmennamen · Branchenverzeichnis-/Websuche nach
 Namensvettern (Katalog W9) · Social-Handles · EN-Muttersprachler-Check
 (K6). **Ein Schnellcheck-Positiv ist kein Freibrief** — vor dem
 finalen Entscheid braucht der gewählte Name die Vertiefung.
+
+---
+
+# Welle 8 + 9 — Die Kontinuitäts-Schiene „hey" (21.08.2026, abends)
+
+## ⭐ Der Befund, der die Runde gedreht hat
+
+**User-Aussage 21.08. ~17:50 MESZ (Chat, sinngemäß — kein Wortlaut
+archiviert):** „bei heyPensio war das Gefühl sofort da, aber der Name
+passt einfach nicht zur Zielgruppe."
+
+Bestandsprüfung daraufhin (grep über `marke/`, `sensibel/`, `zentrale`):
+Die **Kontinuitätsfrage zum „hey"-Vorsatz steht seit Welle 2 OFFEN** —
+`naming-sprint-2026-08-welle2.md` § 5.5 (a): *„Kein einziger der fünf
+Findungs-Agenten hat den Alt-Vorsatz von sich aus vorgeschlagen — er war
+in keinem Prompt enthalten (Kontaminationsschutz). Die Frage bleibt
+trotzdem offen und gehört Ihnen, nicht der Session."* Sie ist **nicht**
+als Entscheidungspunkt E-K* geführt worden und blieb dadurch unbeantwortet;
+**alle 275 Kandidaten der Wellen 1–7 schließen den Vorsatz per
+Konstruktion aus.** Die Schiene wurde also nie gemessen.
+
+## ✅ Entscheid des Users (21.08. ~18:00 MESZ, Dropdown)
+
+**Frage:** Welcher Teil von „heyPensio" passt nicht zur Zielgruppe?
+**Antwort: „Das ‚Pensio' — zu klein."** Das „hey" ist richtig und
+**bleibt**; der zweite Teil muss größenneutral werden (Zielgruppe auf
+größere Häuser erweitert, MKT-FUND).
+
+⚠️ **Tragweite, aktiv gemeldet:** Damit wird aus dem Voll-Rebrand ein
+**TEIL-Rebrand.** Das berührt Punkte außerhalb dieses Strangs und
+gehört an die Zentrale (Postkorb): Deckt die Gesellschafter-Freigabe
+51/49, die „dem Rebrand" galt, auch einen Teil-Rebrand? · Der
+Cutover-Plan (MARKE5) wird kleiner, weil Vorsatz und Bestandsdomain
+`hey-pensio.de` teilweise mitwandern · Die Markenrecherche für den
+BESTAND „heyPensio" (MARKE1) bekommt neues Gewicht, weil der Vorsatz
+erhalten bleibt.
+
+## Messungen (Kontrollen in allen vier Läufen Start UND Ende getroffen)
+
+Welle 8: 14 Kandidaten, 72 Abrufe (`welle8-hey/`).
+Welle 9: 24 Kandidaten Vorfilter 56 Abrufe + 9 Register 52 Abrufe
+(`welle9-vorfilter/`, `welle9-register/`).
+
+**Alle vier Kanäle sauber (`.de` + `.com` frei, DPMA 0, EUIPO 0):**
+
+| Kandidat | Lesart | Einordnung (Leitsession, keine Messung) |
+|---|---|---|
+| **heyGast** | der Gast — jede Hausgröße | größenneutral; ⚠️ richtet die Ansprache an den GAST, während der Kunde der Hotelier ist (konzeptionell zu prüfen — trägt, wenn das Produkt als Gästekommunikation IM NAMEN des Hauses gelesen wird) |
+| **heyDirekt** | Direktbuchung statt OTA-Provision | größenneutral, echtes Branchenthema; ⚠️ beschreibend → markenrechtlich schwächer, und verengt auf ein Feature |
+| **heyEmpfang** | die Rezeption — jede Hausgröße | größenneutral, branchenklar, deutsch; ⚠️ 10 Zeichen |
+| **heyPuls** | der Takt des Hauses | größenneutral, kurz, offen für das ganze Portfolio |
+| **heyRuhe** | der Wirt bekommt Ruhe | trifft das Entlastungs-Versprechen direkt; ⚠️ „Ruhe" kann im Hotelkontext als Nachtruhe/Stillstand gelesen werden |
+| ~~heyWirt~~ | | 🔴 **von der Leitsession selbst ausgeschieden**: „Wirt" trägt denselben Größen-Marker nach unten wie „Pensio" — der Entscheid des Users schließt ihn aus |
+
+**Nur `.de` frei** (unter E-K1 gelockert wählbar): heyCheckin ·
+heyWelcome · heySync · heyPilot · heyKlar · heyLobby · heyLodge ·
+heyDesk · heySuite · heyInn.
+
+**Ausgeschieden (Domains vergeben UND Registertreffer in den
+Kernklassen 9/35/42/43):** heyStay · heyGuest · heyRoom · heyFlow.
+**Domains vergeben:** heyHotel · heyHost · heyHaus · heyKey · heyCrew ·
+heyTeam · heyStaff · heyShift · heyLink · heyPort · heyCloud.
+
+## Geltungsgrenzen (unverändert für ALLE Kandidaten)
+
+Vier Kanäle gemessen. Offen: TMview-Vollerhebung/Ähnlichkeitsraum ·
+Handelsregister · Branchenverzeichnis-/Namensvetter-Suche (W9) ·
+Handles · EN-Check (K6). **Zusätzlich neu zu prüfen, weil der Vorsatz
+bleibt:** die Marken-/Namenslage zum Vorsatz „hey" selbst in Verbindung
+mit Beherbergung — das war in keiner Welle Gegenstand.
